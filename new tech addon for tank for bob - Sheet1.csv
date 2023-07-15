@@ -1,0 +1,18 @@
+Tier,recipes,,recipes,,
+0,,1,,2,
+campfire,"wood=coal, cooked fish",Cooking fire,fish+gcrude glass=meal ,Primitive steam powererd pump,
+Beachpump,,Stone water wheel,,steam condesner,steam=condesate
+Wood pipes,,aquaduct,,calcifier,condensate=slurry
+wood Basin,,Stone basin,,Shaler,slurry=ore
+Workbench,"wood pipes,Clay Pit, pit kiln,sharp stick",Shack,"wood+stone=stone tools. glass+stone=soalr boiler,bricks=landfill",basic forge(vanilla) begin v tech tree,
+Thinking hut,t-0 reaserch with cooked fish,Pondering Hovel,"2 Think ingeridents, cooked fish and meal",,
+clay pit,water=clay,Quarry,"stoneslow,stone tools=stone faster",,
+pit kiln,"clay+coal=bricks, crude glass",Solar boiler,steam,,
+growing plot,wood,fish pond,fish,,
+,,,,,
+Items,,Meal,,,
+cooked fish,,stone tools,,,
+Clay,,,,,
+Brick,,,,,
+Crude Glass,,,,,
+wood Spear(wood ammo),,,,,
