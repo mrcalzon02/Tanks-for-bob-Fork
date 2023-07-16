@@ -1,21 +1,7 @@
 data:extend(
 { 
 --new tech recipes that need adjustment
-{
-        type = "technology",
-        name = "campfire",
-        icon = "__tanks_for_bob_fork__/graphics/icons/campfire.png",
-        icon_size = 64,
-        effects = {        
-        },
-        prerequisites = {},
-        unit = {
-            count = 10,
-            ingredients = {{"cooked-fish", 1}},
-            time = 10
-        },
-        order = "a"
-    },
+
     {
         type = "technology",
         name = "beachpump",
@@ -27,7 +13,7 @@ data:extend(
                 recipe = "beachpump"
             }
         },
-        prerequisites = {"campfire"},
+        prerequisites = {},
         unit = {
             count = 10,
             ingredients = {{"cooked-fish", 1}},
@@ -73,26 +59,7 @@ data:extend(
         },
         order = "d"
     },
-    {
-        type = "technology",
-        name = "workbench",
-        icon = "__tanks_for_bob_fork__/graphics/icons/workbench.png",
-        icon_size = 64,
-        effects = {
-            {
-                type = "unlock-recipe",
-                recipe = "workbench"
-            }
-        },
-        prerequisites = {"wood-basin"},
-        unit = {
-            count = 10,
-            ingredients = {{"cooked-fish", 1}},
-            time = 10
-        },
-        order = "e"
-    },
-    {
+        {
         type = "technology",
         name = "clay-pit",
         icon = "__tanks_for_bob_fork__/graphics/icons/clay-pit.png",
@@ -103,7 +70,7 @@ data:extend(
                 recipe = "clay-pit"
             }
         },
-        prerequisites = {"thinking-hut"},
+        prerequisites = {"wood-basin"},
         unit = {
             count = 10,
             ingredients = {{"cooked-fish", 1}},
