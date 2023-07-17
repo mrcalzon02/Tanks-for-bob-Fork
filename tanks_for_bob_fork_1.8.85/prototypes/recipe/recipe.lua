@@ -22,16 +22,16 @@ data:extend(
         result = "beachpump",
         result_count = 1
     },
-    {
-        type = "recipe",
-        name = "wood-pipes",
-        enabled = false,
-        category = "Seablock",
-        energy_required = 0.5,
-        ingredients = {{"wood", 1}},
-        result = "wood-pipes",
-        result_count = 1
-    },
+  --  {
+   --     type = "recipe",
+   --     name = "wood-pipes",
+   --     enabled = false,
+   --     category = "Seablock",
+   --     energy_required = 0.5,
+    --    ingredients = {{"wood", 1}},
+   --     result = "wood-pipes",
+   --     result_count = 1
+  --  },
     {
         type = "recipe",
         name = "wood-basin",
@@ -42,10 +42,54 @@ data:extend(
         result = "wood-basin",
         result_count = 1
     },
+--shaler
+{
+    type = "recipe",
+    name = "shaler1",
+    enabled = true,
+    category = "shaler",
+    subgroup = "intermediate-product",
+    icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+    icon_size = 64,
+    energy_required = 60,
+    ingredients =
+    {
+      {"tank-ammo-Industrialwaste", 1},
+      {type = "fluid", name = "steam", amount = 50},
+    },
+    results =
+    {
+      {type = "item", name = "iron-ore", amount = 1},
+    },
+    },
+
+    --steam condenser
+    {
+    type = "recipe",
+    name = "Steam-condenser",
+    enabled = true,
+    category = "Steam",
+    subgroup = "intermediate-product",
+    icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+    icon_size = 64,
+    energy_required = 60,
+    ingredients =
+    {
+      {"wood", 5},
+      {type = "fluid", name = "steam", amount = 20},
+    },
+    results =
+    {
+      {type = "item", name = "stone", amount = 1},
+      {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
+    },
+    },
+
+    --workbench
     {
         type = "recipe",
         name = "workbench",
-        enabled = false,
+        enabled = true,
         category = "crafting",
         energy_required = 2,
         ingredients = {{"wood", 4}},
@@ -92,11 +136,52 @@ data:extend(
         result = "growing-plot",
         result_count = 1
     },
+         {
+        type = "recipe",
+        name = "stone",
+        enabled = true,
+        category = "quarry",
+        energy_required = 21,
+        ingredients = {},
+        result = "stone",
+        result_count = 1
+    },
+     {
+        type = "recipe",
+        name = "Trees",
+        enabled = true,
+        category = "growing",
+        energy_required = 21,
+        ingredients = {},
+        result = "wood",
+        result_count = 1
+    },
+       {
+        type = "recipe",
+        name = "fish",
+        enabled = true,
+        category = "cooking",
+        energy_required = 20,
+        ingredients = {},
+        result = "raw-fish",
+        result_count = 1
+    },
+    },
+       {
+        type = "recipe",
+        name = "fish",
+        enabled = true,
+        category = "fish",
+        energy_required = 15,
+        ingredients = {},
+        result = "raw-fish",
+        result_count = 6
+    },
     {
         type = "recipe",
         name = "cooked-fish",
         enabled = true,
-        category = "Seablock",
+        category = "cooking",
         energy_required = 3,
         ingredients = {{"raw-fish", 1},{"wood",1}},
         result = "cooked-fish",
@@ -105,8 +190,8 @@ data:extend(
     {
         type = "recipe",
         name = "clay",
-        enabled = false,
-        category = "Seablock",
+        enabled = true,
+        category = "clay",
         energy_required = 70.5,
         ingredients = {{"wood", 2}},
         result = "clay",
@@ -116,7 +201,7 @@ data:extend(
         type = "recipe",
         name = "brick",
         enabled = false,
-        category = "Seablock",
+        category = "pit-kiln",
         energy_required = 300,
         ingredients = {{"clay", 4}},
         result = "brick",
@@ -148,7 +233,7 @@ data:extend(
         enabled = false,
         category = "Seablock",
         energy_required = 30,
-        ingredients = {{"brick", 5}, {"wood", 10}},
+        ingredients = {{"brick", 5}, {"campfire", 1}},
         result = "cooking-fire",
         result_count = 1
     },
@@ -162,26 +247,27 @@ data:extend(
         result = "stone-water-wheel",
         result_count = 1
     },
-    {
-        type = "recipe",
-        name = "aqueduct",
-        enabled = false,
-        category = "Seablock",
-        energy_required = 50,
-        ingredients = {{"brick", 20}, {"wood", 10}},
-        result = "aqueduct",
-        result_count = 1
-    },
-    {
-        type = "recipe",
-        name = "stone-basin",
-        enabled = false,
-        category = "Seablock",
-        energy_required = 50,
-        ingredients = {{"brick", 20}},
-        result = "stone-basin",
-        result_count = 1
-    },
+    -- still need to figure out pipes
+ --   {
+  --      type = "recipe",
+  --      name = "aqueduct",
+  --      enabled = false,
+  --      category = "Seablock",
+  --      energy_required = 50,
+  --      ingredients = {{"brick", 20}, {"wood", 10}},
+  --      result = "aqueduct",
+  --      result_count = 1
+  --  },
+ --   {
+ --       type = "recipe",
+  --      name = "stone-basin",
+ --       enabled = false,
+ --       category = "Seablock",
+ --       energy_required = 50,
+ --       ingredients = {{"brick", 20}},
+ --       result = "stone-basin",
+ --       result_count = 1
+ --   },
     {
         type = "recipe",
         name = "shack",
@@ -198,7 +284,7 @@ data:extend(
         enabled = false,
         category = "Seablock",
         energy_required = 10,
-        ingredients = {{"wood", 30}, {"brick", 10}},
+        ingredients = {{"thinking-hut", 1}, {"brick", 10}},
         result = "pondering-hovel",
         result_count = 1
     },
@@ -248,7 +334,7 @@ data:extend(
         enabled = false,
         category = "Seablock",
         energy_required = 30,
-        ingredients = {{"brick", 5}},
+        ingredients = {{"brick", 1},{"wood",1}},
         result = "stone-tools",
         result_count = 1
     },
@@ -278,10 +364,22 @@ data:extend(
         enabled = false,
         category = "Seablock",
         energy_required = 50,
-        ingredients = {{"brick", 10}, {"copper-plate", 5}},
+        ingredients = {{"brick", 10}, {"stone-tools", 5}},
         result = "calcifier",
         result_count = 1
     },
+    --Calcifier
+        {
+        type = "recipe",
+        name = "Calcifier",
+        enabled = true,
+        category = "Calcifier",
+        energy_required = 100,
+        ingredients = {{"stone", 1}, {type = "fluid", name = "steam", amount = 80}},
+        result = "stone",
+        result_count = 10
+    },
+
     {
         type = "recipe",
         name = "shaler",
@@ -290,6 +388,26 @@ data:extend(
         energy_required = 10,
         ingredients = {{"crude-glass", 5}, {"brick", 20}},
         result = "shaler",
+        result_count = 1
+    },
+        {
+        type = "recipe",
+        name = "quarry-iron-ore",
+        enabled = true,
+        category = "quarry",
+        energy_required = 1,
+        ingredients = {{"stone-tools", 1}, {"stone", 1}},
+        result = "iron-ore",
+        result_count = 1
+    },
+    {
+        type = "recipe",
+        name = "quarry-copper-ore",
+        enabled = true,
+        category = "quarry",
+        energy_required = 1,
+        ingredients = {{"stone-tools", 1}, {"stone", 1}},
+        result = "copper-ore",
         result_count = 1
     },
 --Alumatedplate

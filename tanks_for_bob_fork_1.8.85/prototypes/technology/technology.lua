@@ -15,31 +15,31 @@ data:extend(
         },
         prerequisites = {},
         unit = {
-            count = 10,
+            count = 5,
             ingredients = {{"cooked-fish", 1}},
             time = 10
         },
         order = "b"
     },
-    {
-        type = "technology",
-        name = "wood-pipes",
-        icon = "__tanks_for_bob_fork__/graphics/icons/wood-pipes.png",
-        icon_size = 64,
-        effects = {
-            {
-                type = "unlock-recipe",
-                recipe = "wood-pipes"
-            }
-        },
-        prerequisites = {"beachpump"},
-        unit = {
-            count = 10,
-            ingredients = {{"cooked-fish", 1}},
-            time = 10
-        },
-        order = "c"
-    },
+   -- {
+    --    type = "technology",
+    --    name = "wood-pipes",
+     --   icon = "__tanks_for_bob_fork__/graphics/icons/wood-pipes.png",
+     --   icon_size = 64,
+     --   effects = {
+     --       {
+     --           type = "unlock-recipe",
+     --           recipe = "wood-pipes"
+     --       }
+     --   },
+     --   prerequisites = {"beachpump"},
+     --   unit = {
+     --       count = 10,
+     --       ingredients = {{"cooked-fish", 1}},
+      --      time = 10
+      --  },
+      --  order = "c"
+   -- },
     {
         type = "technology",
         name = "wood-basin",
@@ -51,9 +51,9 @@ data:extend(
                 recipe = "wood-basin"
             }
         },
-        prerequisites = {"wood-pipes"},
+        prerequisites = {"beachpump"},
         unit = {
-            count = 10,
+            count = 5,
             ingredients = {{"cooked-fish", 1}},
             time = 10
         },
@@ -72,7 +72,7 @@ data:extend(
         },
         prerequisites = {"wood-basin"},
         unit = {
-            count = 10,
+            count = 5,
             ingredients = {{"cooked-fish", 1}},
             time = 10
         },
@@ -91,7 +91,7 @@ data:extend(
         },
         prerequisites = {"clay-pit"},
         unit = {
-            count = 10,
+            count = 5,
             ingredients = {{"cooked-fish", 1}},
             time = 10
         },
@@ -108,9 +108,9 @@ data:extend(
                 recipe = "growing-plot"
             }
         },
-        prerequisites = {"pit-kiln"},
+        prerequisites = {},
         unit = {
-            count = 10,
+            count = 5,
             ingredients = {{"cooked-fish", 1}},
             time = 10
         },
@@ -129,7 +129,7 @@ data:extend(
         },
         prerequisites = {"growing-plot"},
         unit = {
-            count = 10,
+            count = 5,
             ingredients = {{"cooked-fish", 1}},
             time = 10
         },
@@ -148,7 +148,7 @@ data:extend(
         },
         prerequisites = {"clay"},
         unit = {
-            count = 10,
+            count = 5,
             ingredients = {{"cooked-fish", 1}},
             time = 10
         },
@@ -167,7 +167,7 @@ data:extend(
         },
         prerequisites = {"brick"},
         unit = {
-            count = 10,
+            count = 5,
             ingredients = {{"cooked-fish", 1}},
             time = 10
         },
@@ -186,7 +186,7 @@ data:extend(
         },
         prerequisites = {"crude-glass"},
         unit = {
-            count = 10,
+            count = 5,
             ingredients = {{"cooked-fish", 1}},
             time = 10
         },
@@ -205,69 +205,74 @@ data:extend(
         },
         prerequisites = {"wood-spear"},
         unit = {
-            count = 10,
+            count = 5,
             ingredients = {{"cooked-fish", 1}},
             time = 10
         },
         order = "o"
     },
-    {
-        type = "technology",
-        name = "stone-water-wheel",
-        icon = "__tanks_for_bob_fork__/graphics/icons/stone-water-wheel.png",
-        icon_size = 64,
-        effects = {
-            {
-                type = "unlock-recipe",
-                recipe = "stone-water-wheel"
-            }
-        },
-        prerequisites = {"cooking-fire"},
-        unit = {
-            count = 10,
-            ingredients = {{"cooked-fish", 1}},
-            time = 10
-        },
-        order = "p"
-    },
-    {
-        type = "technology",
-        name = "aqueduct",
-        icon = "__tanks_for_bob_fork__/graphics/icons/aqueduct1.png",
-        icon_size = 64,
-        effects = {
-            {
-                type = "unlock-recipe",
-                recipe = "aqueduct"
-            }
-        },
-        prerequisites = {"stone-water-wheel"},
-        unit = {
-            count = 10,
-            ingredients = {{"cooked-fish", 1}},
-            time = 10
-        },
-        order = "q"
-    },
-    {
-        type = "technology",
-        name = "stone-basin",
-        icon = "__tanks_for_bob_fork__/graphics/icons/stone-basin.png",
-        icon_size = 64,
-        effects = {
-            {
-                type = "unlock-recipe",
-                recipe = "stone-basin"
-            }
-        },
-        prerequisites = {"aqueduct"},
-        unit = {
-            count = 10,
-            ingredients = {{"cooked-fish", 1}},
-            time = 10
-        },
-        order = "r"
-    },
+
+    --on hold
+   -- {
+   --     type = "technology",
+   --     name = "stone-water-wheel",
+   --     icon = "__tanks_for_bob_fork__/graphics/icons/stone-water-wheel.png",
+   --     icon_size = 64,
+   --     effects = {
+   --         {
+    --            type = "unlock-recipe",
+    --            recipe = "stone-water-wheel"
+    --        }
+   --     },
+   --     prerequisites = {"cooking-fire"},
+   --     unit = {
+   --         count = 10,
+   --         ingredients = {{"cooked-fish", 1}},
+   --         time = 10
+    --    },
+    --    order = "p"
+   -- },
+
+   --on hold
+  --  {
+  --      type = "technology",
+  --      name = "aqueduct",
+  --      icon = "__tanks_for_bob_fork__/graphics/icons/aqueduct1.png",
+  --      icon_size = 64,
+  --      effects = {
+  --          {
+  --              type = "unlock-recipe",
+   --             recipe = "aqueduct"
+   --         }
+   --     },
+   --     prerequisites = {"stone-water-wheel"},
+   --     unit = {
+  --          count = 10,
+  --          ingredients = {{"cooked-fish", 1}},
+  --          time = 10
+  --      },
+  --      order = "q"
+  --  },
+ -- also on hold
+   -- {
+    --    type = "technology",
+   --     name = "stone-basin",
+   --     icon = "__tanks_for_bob_fork__/graphics/icons/stone-basin.png",
+   --     icon_size = 64,
+   --     effects = {
+   --         {
+   --             type = "unlock-recipe",
+   --             recipe = "stone-basin"
+   --         }
+   --     },
+   --     prerequisites = {"aqueduct"},
+   --     unit = {
+   --         count = 10,
+   --         ingredients = {{"cooked-fish", 1}},
+   --         time = 10
+   --     },
+   --     order = "r"
+   -- },
     {
         type = "technology",
         name = "shack",
@@ -279,9 +284,9 @@ data:extend(
                 recipe = "shack"
             }
         },
-        prerequisites = {"stone-basin"},
+        prerequisites = {"cooking-fire"},
         unit = {
-            count = 10,
+            count = 5,
             ingredients = {{"cooked-fish", 1}},
             time = 10
         },
@@ -300,7 +305,7 @@ data:extend(
         },
         prerequisites = {"shack"},
         unit = {
-            count = 10,
+            count = 5,
             ingredients = {{"cooked-fish", 1}},
             time = 10
         },
@@ -319,12 +324,13 @@ data:extend(
         },
         prerequisites = {"pondering-hovel"},
         unit = {
-            count = 10,
-            ingredients = {{"cooked-fish", 1}},
+            count = 5,
+            ingredients = {{"cooked-fish", 1},{'meal',1}},
             time = 10
         },
         order = "u"
     },
+    --doneisk still stock boiler
     {
         type = "technology",
         name = "solar-boiler",

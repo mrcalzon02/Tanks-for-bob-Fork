@@ -1,6 +1,7 @@
 data:extend(
 {
 -- new items
+--done
   {
         type = "item",
         name = "campfire",
@@ -8,8 +9,10 @@ data:extend(
         icon_size = 64,
         subgroup = "production-machine",
         order = "a[campfire]",
+        place_result = "campfire",
         stack_size = 50
     },
+    --done
     {
         type = "item",
         name = "beachpump",
@@ -17,17 +20,21 @@ data:extend(
         icon_size = 64,
         subgroup = "Seablock",
         order = "b[beachpump]",
+        place_result = "beachpump",
         stack_size = 50
     },
-    {
-        type = "item",
-        name = "wood-pipes",
-        icon = "__tanks_for_bob_fork__/graphics/icons/wood-pipes.png",
-        icon_size = 64,
-        subgroup = "Seablock",
-        order = "a[wood-pipes]",
-        stack_size = 100
-    },
+    --done now  ish, need more info still places basic pipes.
+  --  {
+   --     type = "item",
+   --     name = "wood-pipes",
+   --     icon = "__tanks_for_bob_fork__/graphics/icons/wood-pipes.png",
+   --     icon_size = 64,
+   --     subgroup = "Seablock",
+   --     order = "a[wood-pipes]",
+   --     place_result = "pipe",
+   --     stack_size = 100
+   -- },
+    --done
     {
         type = "item",
         name = "wood-basin",
@@ -35,8 +42,10 @@ data:extend(
         icon_size = 64,
         subgroup = "Seablock",
         order = "c[wood-basin]",
+        place_result = "wood-basin",
         stack_size = 50
     },
+    --done
     {
         type = "item",
         name = "workbench",
@@ -44,8 +53,10 @@ data:extend(
         icon_size = 64,
         subgroup = "production-machine",
         order = "d[workbench]",
+        place_result = "workbench",
         stack_size = 10
     },
+    --done
     {
         type = "item",
         name = "thinking-hut",
@@ -53,8 +64,10 @@ data:extend(
         icon_size = 64,
         subgroup = "production-machine",
         order = "e[thinking-hut]",
+        place_result = "thinking hut",
         stack_size = 10
     },
+    --done?
     {
         type = "item",
         name = "clay-pit",
@@ -62,8 +75,10 @@ data:extend(
         icon_size = 64,
         subgroup = "Seablock",
         order = "f[clay-pit]",
+        place_result = "clay-pit",
         stack_size = 50
     },
+    --done?
     {
         type = "item",
         name = "pit-kiln",
@@ -71,8 +86,10 @@ data:extend(
         icon_size = 64,
         subgroup = "Seablock",
         order = "g[pit-kiln]",
+        place_result = "pit-kiln",
         stack_size = 50
     },
+    --done?
     {
         type = "item",
         name = "growing-plot",
@@ -80,6 +97,7 @@ data:extend(
         icon_size = 64,
         subgroup = "Seablock",
         order = "h[growing-plot]",
+        place_result = "growing-plot",
         stack_size = 50
     },
     {
@@ -137,6 +155,7 @@ subgroup = "science-pack",
         icon_size = 64,
         subgroup = "Seablock",
         order = "k[cooking-fire]",
+        place_result = "cooking-fire",
         stack_size = 10
     },
     {
@@ -146,26 +165,32 @@ subgroup = "science-pack",
         icon_size = 64,
         subgroup = "Seablock",
         order = "l[stone-water-wheel]",
+        place_result = "stone-water-wheel",
         stack_size = 10
     },
-    {
-        type = "item",
-        name = "aqueduct",
-        icon = "__tanks_for_bob_fork__/graphics/icons/aqueduct1.png",
-        icon_size = 64,
-        subgroup = "Seablock",
-        order = "m[aqueduct]",
-        stack_size = 50
-    },
-    {
-        type = "item",
-        name = "stone-basin",
-        icon = "__tanks_for_bob_fork__/graphics/icons/stone-basin.png",
-        icon_size = 64,
-        subgroup = "Seablock",
-        order = "n[stone-basin]",
-        stack_size = 50
-    },
+--on hold till i can figure out custom pipes
+   -- {
+   --     type = "item",
+    --    name = "aqueduct",
+    --    icon = "__tanks_for_bob_fork__/graphics/icons/aqueduct1.png",
+    --    icon_size = 64,
+    --    subgroup = "Seablock",
+    --    order = "m[aqueduct]",
+    --    place_result = "aqueduct",
+    --    stack_size = 50
+   -- },
+
+   -- Same with this , need to figure out liqid storage
+    --{
+    --    type = "item",
+    --    name = "stone-basin",
+    --    icon = "__tanks_for_bob_fork__/graphics/icons/stone-basin.png",
+    --    icon_size = 64,
+    --    subgroup = "Seablock",
+    --    place_result = "stone-basin",
+     --   order = "n[stone-basin]",
+     --   stack_size = 50
+  --  },
     {
         type = "item",
         name = "shack",
@@ -173,8 +198,10 @@ subgroup = "science-pack",
         icon_size = 64,
         subgroup = "Seablock",
         order = "o[shack]",
+        place_result = "tank-assembling-machine",
         stack_size = 10
     },
+    --done
     {
         type = "item",
         name = "pondering-hovel",
@@ -182,6 +209,7 @@ subgroup = "science-pack",
         icon_size = 64,
         subgroup = "Seablock",
         order = "p[pondering-hovel]",
+        place_result = "pondering-hovel",
         stack_size = 10
     },
     {
@@ -191,8 +219,10 @@ subgroup = "science-pack",
         icon_size = 64,
         subgroup = "Seablock",
         order = "q[quarry]",
+        place_result = "quarry",
         stack_size = 50
     },
+    --done
     {
         type = "item",
         name = "solar-boiler",
@@ -200,8 +230,10 @@ subgroup = "science-pack",
         icon_size = 64,
         subgroup = "Seablock",
         order = "r[solar-boiler]",
+        place_result = "solar-boiler",
         stack_size = 10
     },
+    --done
     {
         type = "item",
         name = "fish-pond",
@@ -209,6 +241,7 @@ subgroup = "science-pack",
         icon_size = 64,
         subgroup = "Seablock",
         order = "s[fish-pond]",
+        place_result = "fish-pond",
         stack_size = 10
     },
     {
@@ -232,6 +265,7 @@ subgroup = "science-pack",
         order = "u[stone-tools]",
         stack_size = 50
     },
+    --done
     {
         type = "item",
         name = "primitive-steam-powered-pump",
@@ -239,8 +273,10 @@ subgroup = "science-pack",
         icon_size = 64,
         subgroup = "Seablock",
         order = "v[primitive-steam-powered-pump]",
+        place_result = "primitive-steam-powered-pump",
         stack_size = 10
     },
+    --done
     {
         type = "item",
         name = "steam-condenser",
@@ -248,8 +284,10 @@ subgroup = "science-pack",
         icon_size = 64,
         subgroup = "Seablock",
         order = "w[steam-condenser]",
+        place_result = "steam-condenser",
         stack_size = 10
     },
+    --
     {
         type = "item",
         name = "calcifier",
@@ -257,6 +295,7 @@ subgroup = "science-pack",
         icon_size = 64,
         subgroup = "Seablock",
         order = "x[calcifier]",
+        place_result = "calcifier",
         stack_size = 10
     },
     {
@@ -266,6 +305,7 @@ subgroup = "science-pack",
         icon_size = 64,
         subgroup = "Seablock",
         order = "y[shaler]",
+        place_result = "shaler",
         stack_size = 50
     },
 
