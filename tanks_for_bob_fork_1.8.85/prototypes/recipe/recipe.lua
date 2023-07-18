@@ -43,7 +43,7 @@ data:extend(
         result_count = 1
     },
 --shaler
-{
+    {
     type = "recipe",
     name = "shaler1",
     enabled = true,
@@ -166,7 +166,7 @@ data:extend(
         result = "raw-fish",
         result_count = 1
     },
-    },
+    
        {
         type = "recipe",
         name = "fish",
@@ -471,6 +471,7 @@ data:extend(
       {type = "item", name = "DuctedSpervingArm", amount = 2},
 	    {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
     },
+    },
   },
     {
     type = "recipe",
@@ -491,6 +492,7 @@ data:extend(
       {type = "item", name = "DuplexedSpervingArm", amount = 2},
 	    {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
     },
+   },
   },
 -- encabulators
   {
@@ -533,6 +535,7 @@ data:extend(
 	  {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
     },
   },
+  },
     {
     type = "recipe",
     name = "HyperEncabulator",
@@ -551,6 +554,7 @@ data:extend(
     {
       {type = "item", name = "HyperEncabulator", amount = 2},
 	  {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
+    },
     },
   },
 
@@ -571,6 +575,7 @@ data:extend(
     results =
     {
       {type = "item", name = "FramulatedEncabulator", amount = 2}
+    },
     },
   },
   -- tank-assembling-machine
@@ -909,6 +914,7 @@ data:extend(
     result = "land-mine-poison",
     result_count = 4
   },
+
   {
     type = "recipe",
     name = "fish-kit",
@@ -924,4 +930,5 @@ data:extend(
       {type = "item", name = "fish-kit", amount = 6},
     },
   }
-})
+}
+)
