@@ -1,6 +1,7 @@
 data:extend(
 {
-
+-- new bs recipes that need to be changed later
+  
 -- new bs recipes that need to be changed later
    {
         type = "recipe",
@@ -22,16 +23,6 @@ data:extend(
         result = "beachpump",
         result_count = 1
     },
-  --  {
-   --     type = "recipe",
-   --     name = "wood-pipes",
-   --     enabled = false,
-   --     category = "Seablock",
-   --     energy_required = 0.5,
-    --    ingredients = {{"wood", 1}},
-   --     result = "wood-pipes",
-   --     result_count = 1
-  --  },
     {
         type = "recipe",
         name = "wood-basin",
@@ -136,7 +127,7 @@ data:extend(
         result = "growing-plot",
         result_count = 1
     },
-         {
+    {
         type = "recipe",
         name = "stone",
         enabled = true,
@@ -146,7 +137,7 @@ data:extend(
         result = "stone",
         result_count = 1
     },
-     {
+    {
         type = "recipe",
         name = "Trees",
         enabled = true,
@@ -156,7 +147,7 @@ data:extend(
         result = "wood",
         result_count = 1
     },
-       {
+    {
         type = "recipe",
         name = "fish",
         enabled = true,
@@ -166,8 +157,7 @@ data:extend(
         result = "raw-fish",
         result_count = 1
     },
-    
-       {
+    {
         type = "recipe",
         name = "fish",
         enabled = true,
@@ -247,27 +237,6 @@ data:extend(
         result = "stone-water-wheel",
         result_count = 1
     },
-    -- still need to figure out pipes
- --   {
-  --      type = "recipe",
-  --      name = "aqueduct",
-  --      enabled = false,
-  --      category = "Seablock",
-  --      energy_required = 50,
-  --      ingredients = {{"brick", 20}, {"wood", 10}},
-  --      result = "aqueduct",
-  --      result_count = 1
-  --  },
- --   {
- --       type = "recipe",
-  --      name = "stone-basin",
- --       enabled = false,
- --       category = "Seablock",
- --       energy_required = 50,
- --       ingredients = {{"brick", 20}},
- --       result = "stone-basin",
- --       result_count = 1
- --   },
     {
         type = "recipe",
         name = "shack",
@@ -369,7 +338,7 @@ data:extend(
         result_count = 1
     },
     --Calcifier
-        {
+    {
         type = "recipe",
         name = "Calcifier",
         enabled = true,
@@ -379,7 +348,6 @@ data:extend(
         result = "stone",
         result_count = 10
     },
-
     {
         type = "recipe",
         name = "shaler",
@@ -390,7 +358,7 @@ data:extend(
         result = "shaler",
         result_count = 1
     },
-        {
+    {
         type = "recipe",
         name = "quarry-iron-ore",
         enabled = true,
@@ -416,9 +384,9 @@ data:extend(
     name = "Alumatedplate",
     enabled = false,
     category = "tank-ammo-component",
-	    subgroup = "intermediate-product",
+      subgroup = "intermediate-product",
     energy_required = 40.5,
-	    icon = "__tanks_for_bob_fork__/graphics/icons/Alumatedplate.png",
+      icon = "__tanks_for_bob_fork__/graphics/icons/Alumatedplate.png",
     icon_size = 64,
     ingredients =
     {
@@ -429,16 +397,16 @@ data:extend(
     {
       {type = "item", name = "Alumatedplate", amount = 2},
     },
-	},
+  },
 -- Sperving arms
   {
     type = "recipe",
     name = "SpervingArm",
     enabled = false,
     category = "tank-ammo-component",
-	    subgroup = "intermediate-product",
+      subgroup = "intermediate-product",
     energy_required = 40.5,
-	    icon = "__tanks_for_bob_fork__/graphics/icons/SpervingArm.png",
+      icon = "__tanks_for_bob_fork__/graphics/icons/SpervingArm.png",
     icon_size = 64,
     ingredients =
     {
@@ -448,7 +416,7 @@ data:extend(
     results =
     {
       {type = "item", name = "SpervingArm", amount = 2},
-	    {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
+      {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
     },
   },
     {
@@ -456,9 +424,9 @@ data:extend(
     name = "DuctedSpervingArm",
     enabled = false,
     category = "tank-ammo-component",
-	    subgroup = "intermediate-product",
+      subgroup = "intermediate-product",
     energy_required = 40.5,
-	    icon = "__tanks_for_bob_fork__/graphics/icons/DuctedSpervingArm.png",
+      icon = "__tanks_for_bob_fork__/graphics/icons/DuctedSpervingArm.png",
     icon_size = 64,
     ingredients =
     {
@@ -469,18 +437,18 @@ data:extend(
     results =
     {
       {type = "item", name = "DuctedSpervingArm", amount = 2},
-	    {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
+      {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
     },
     },
-  },
+
     {
     type = "recipe",
     name = "DuplexedSpervingArm",
     enabled = false,
     category = "tank-ammo-component",
-	    subgroup = "intermediate-product",
+      subgroup = "intermediate-product",
     energy_required = 40.5,
-	    icon = "__tanks_for_bob_fork__/graphics/icons/DuplexedSpervingArm.png",
+      icon = "__tanks_for_bob_fork__/graphics/icons/DuplexedSpervingArm.png",
     icon_size = 64,
     ingredients =
     {
@@ -490,19 +458,19 @@ data:extend(
     results =
     {
       {type = "item", name = "DuplexedSpervingArm", amount = 2},
-	    {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
+      {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
     },
    },
-  },
+
 -- encabulators
   {
     type = "recipe",
     name = "Encabulator",
     enabled = false,
     category = "tank-ammo-component",
-	    subgroup = "intermediate-product",
+      subgroup = "intermediate-product",
     energy_required = 0.5,
-	    icon = "__tanks_for_bob_fork__/graphics/icons/Encabulator.png",
+      icon = "__tanks_for_bob_fork__/graphics/icons/Encabulator.png",
     icon_size = 64,
     ingredients =
     {
@@ -512,17 +480,18 @@ data:extend(
     results =
     {
       {type = "item", name = "Encabulator", amount = 2},
-	  {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
+    {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
     },
-  },
-    {
+   },
+
+   {
     type = "recipe",
     name = "TurboEncabulator",
     enabled = false,
     category = "tank-ammo-component",
-	    subgroup = "intermediate-product",
+      subgroup = "intermediate-product",
     energy_required = 0.5,
-	    icon = "__tanks_for_bob_fork__/graphics/icons/TurboEncabulator.png",
+      icon = "__tanks_for_bob_fork__/graphics/icons/TurboEncabulator.png",
     icon_size = 64,
     ingredients =
     {
@@ -532,18 +501,18 @@ data:extend(
     results =
     {
       {type = "item", name = "TurboEncabulator", amount = 2},
-	  {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
+    {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
     },
-  },
-  },
-    {
+   },
+
+  {
     type = "recipe",
     name = "HyperEncabulator",
     enabled = false,
     category = "tank-ammo-component",
-	    subgroup = "intermediate-product",
+      subgroup = "intermediate-product",
     energy_required = 0.5,
-	    icon = "__tanks_for_bob_fork__/graphics/icons/HyperEncabulator.png",
+      icon = "__tanks_for_bob_fork__/graphics/icons/HyperEncabulator.png",
     icon_size = 64,
     ingredients =
     {
@@ -553,19 +522,19 @@ data:extend(
     results =
     {
       {type = "item", name = "HyperEncabulator", amount = 2},
-	  {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
+    {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
     },
-    },
+    
   },
 
-    {
+  {
     type = "recipe",
     name = "FramulatedEncabulator",
     enabled = false,
     category = "tank-ammo-component",
-	    subgroup = "intermediate-product",
+      subgroup = "intermediate-product",
     energy_required = 10.5,
-	    icon = "__tanks_for_bob_fork__/graphics/icons/FramulatedEncabulator.png",
+      icon = "__tanks_for_bob_fork__/graphics/icons/FramulatedEncabulator.png",
     icon_size = 64,
     ingredients =
     {
@@ -575,8 +544,7 @@ data:extend(
     results =
     {
       {type = "item", name = "FramulatedEncabulator", amount = 2}
-    },
-    },
+    }, 
   },
   -- tank-assembling-machine
   {
@@ -914,7 +882,6 @@ data:extend(
     result = "land-mine-poison",
     result_count = 4
   },
-
   {
     type = "recipe",
     name = "fish-kit",
@@ -928,7 +895,7 @@ data:extend(
     results =
     {
       {type = "item", name = "fish-kit", amount = 6},
-    },
-  }
+    }
+  },
 }
 )

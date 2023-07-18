@@ -168,39 +168,6 @@ subgroup = "science-pack",
         place_result = "stone-water-wheel",
         stack_size = 10
     },
---on hold till i can figure out custom pipes
-   -- {
-   --     type = "item",
-    --    name = "aqueduct",
-    --    icon = "__tanks_for_bob_fork__/graphics/icons/aqueduct1.png",
-    --    icon_size = 64,
-    --    subgroup = "Seablock",
-    --    order = "m[aqueduct]",
-    --    place_result = "aqueduct",
-    --    stack_size = 50
-   -- },
-
-   -- Same with this , need to figure out liqid storage
-    --{
-    --    type = "item",
-    --    name = "stone-basin",
-    --    icon = "__tanks_for_bob_fork__/graphics/icons/stone-basin.png",
-    --    icon_size = 64,
-    --    subgroup = "Seablock",
-    --    place_result = "stone-basin",
-     --   order = "n[stone-basin]",
-     --   stack_size = 50
-  --  },
-    {
-        type = "item",
-        name = "shack",
-        icon = "__tanks_for_bob_fork__/graphics/icons/shack.png",
-        icon_size = 64,
-        subgroup = "Seablock",
-        order = "o[shack]",
-        place_result = "tank-assembling-machine",
-        stack_size = 10
-    },
     --done
     {
         type = "item",

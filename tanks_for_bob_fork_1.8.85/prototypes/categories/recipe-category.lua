@@ -56,5 +56,10 @@ data:extend(
     type = "recipe-category",
     name = "quarry"
   },
+  {
+    
+    type = "recipe-category",
+    name = "growing"
+  },
 }
 )

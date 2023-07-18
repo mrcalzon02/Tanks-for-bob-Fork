@@ -1717,7 +1717,7 @@ data:extend (
         line_length = 1,
         shift = {0.00, -0.00}
     },
-    crafting_categories = {"Seablock"},
+    crafting_categories = {"growing"},
     crafting_speed = 0.30,
     energy_source = {
         type = "burner",
@@ -3582,7 +3582,7 @@ data:extend (
     type = "assembling-machine",
     icon_size = 64,
     name = "workbench",
-    icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/workbench.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "workbench"},
     max_health = 100,
@@ -3610,10 +3610,10 @@ data:extend (
         idle_sound = {filename = "__base__/sound/idle1.ogg", volume = 0.6},
         apparent_volume = 1.5,
     },
-    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
-    selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+    collision_box = {{-1.0, -1.0}, {1.0, 1.0}},
+    selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
     animation = {
-        filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+        filename = "__tanks_for_bob_fork__/graphics/entity/workbench/workbench.png",
         priority = "high",
         width = 64,
         height = 64,
@@ -3648,7 +3648,7 @@ data:extend (
     working_visualisations = {
         {
             animation = {
-                filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+                filename = "__tanks_for_bob_fork__/graphics/entity/workbench/workbench.png",
                 priority = "high",
                 width = 64,
                 height = 64,
