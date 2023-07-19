@@ -135,7 +135,7 @@ data:extend(
         energy_required = 21,
         ingredients = {},
         result = "stone",
-        result_count = 1
+        result_count = 2
     },
     {
         type = "recipe",
@@ -145,7 +145,7 @@ data:extend(
         energy_required = 21,
         ingredients = {},
         result = "wood",
-        result_count = 1
+        result_count = 10
     },
     {
         type = "recipe",
@@ -155,7 +155,7 @@ data:extend(
         energy_required = 20,
         ingredients = {},
         result = "raw-fish",
-        result_count = 1
+        result_count = 2
     },
     {
         type = "recipe",
@@ -235,16 +235,6 @@ data:extend(
         energy_required = 30,
         ingredients = {{"brick", 10}, {"wood", 5}},
         result = "stone-water-wheel",
-        result_count = 1
-    },
-    {
-        type = "recipe",
-        name = "shack",
-        enabled = false,
-        category = "Seablock",
-        energy_required = 10,
-        ingredients = {{"brick", 20}},
-        result = "shack",
         result_count = 1
     },
     {

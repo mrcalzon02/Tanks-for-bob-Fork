@@ -61,7 +61,7 @@ data:extend (
  {
     type = "lab",
     name = "pondering-hovel",
-    icon = "__base__/graphics/icons/lab.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/pondering-hovel.png",
     icon_size = 64, icon_mipmaps = 4,
     flags = {"placeable-player", "player-creation"},
     minable = {mining_time = 0.2, result = "lab"},
@@ -75,7 +75,7 @@ data:extend (
       layers =
       {
         {
-          filename = "__base__/graphics/entity/lab/lab.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/pondering-hovel.png",
           width = 98,
           height = 87,
           frame_count = 33,
@@ -84,7 +84,7 @@ data:extend (
           shift = util.by_pixel(0, 1.5),
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/hr-pondering-hovel.png",
             width = 194,
             height = 174,
             frame_count = 33,
@@ -95,7 +95,7 @@ data:extend (
           }
         },
         {
-          filename = "__base__/graphics/entity/lab/lab-integration.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/pondering-hovel.png",
           width = 122,
           height = 81,
           frame_count = 1,
@@ -105,7 +105,7 @@ data:extend (
           shift = util.by_pixel(0, 15.5),
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab-integration.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/hr-pondering-hovel.png",
             width = 242,
             height = 162,
             frame_count = 1,
@@ -117,7 +117,7 @@ data:extend (
           }
         },
         {
-          filename = "__base__/graphics/entity/lab/lab-light.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/hr-pondering-hovel.png",
           blend_mode = "additive",
           draw_as_light = true,
           width = 106,
@@ -128,7 +128,7 @@ data:extend (
           shift = util.by_pixel(-1, 1),
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab-light.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/hr-pondering-hovel.png",
             blend_mode = "additive",
             draw_as_light = true,
             width = 216,
@@ -141,7 +141,7 @@ data:extend (
           }
         },
         {
-          filename = "__base__/graphics/entity/lab/lab-shadow.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/pondering-hovel-shadow.png",
           width = 122,
           height = 68,
           frame_count = 1,
@@ -152,7 +152,7 @@ data:extend (
           draw_as_shadow = true,
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab-shadow.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/hr-pondering-hovel-shadow.png",
             width = 242,
             height = 136,
             frame_count = 1,
@@ -171,14 +171,14 @@ data:extend (
       layers =
       {
         {
-          filename = "__base__/graphics/entity/lab/lab.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/pondering-hovel.png",
           width = 98,
           height = 87,
           frame_count = 1,
           shift = util.by_pixel(0, 1.5),
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/hr-pondering-hovel.png",
             width = 194,
             height = 174,
             frame_count = 1,
@@ -187,14 +187,14 @@ data:extend (
           }
         },
         {
-          filename = "__base__/graphics/entity/lab/lab-integration.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/pondering-hovel.png",
           width = 122,
           height = 81,
           frame_count = 1,
           shift = util.by_pixel(0, 15.5),
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab-integration.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/hr-pondering-hovel.png",
             width = 242,
             height = 162,
             frame_count = 1,
@@ -203,7 +203,7 @@ data:extend (
           }
         },
         {
-          filename = "__base__/graphics/entity/lab/lab-shadow.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/pondering-hovel-shadow.png",
           width = 122,
           height = 68,
           frame_count = 1,
@@ -211,7 +211,7 @@ data:extend (
           draw_as_shadow = true,
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab-shadow.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/pondering-hovel/hr-pondering-hovel-shadow.png",
             width = 242,
             height = 136,
             frame_count = 1,
@@ -258,17 +258,17 @@ data:extend (
     },
     energy_usage = "100kW",
     researching_speed = 0.8,
-    inputs = {"cooked-fish","meal"},
+    inputs = {"cooked-fish"},
     module_specification =
     {
       module_slots = 2,
     },
   },
---thinking hut
+--thinking-hut
 {
     type = "lab",
     name = "thinking hut",
-    icon = "__base__/graphics/icons/lab.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/thinking-hut.png",
     icon_size = 64, icon_mipmaps = 4,
     flags = {"placeable-player", "player-creation"},
     minable = {mining_time = 0.2, result = "lab"},
@@ -282,7 +282,7 @@ data:extend (
       layers =
       {
         {
-          filename = "__base__/graphics/entity/lab/lab.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/thinking-hut/thinking-hut.png",
           width = 98,
           height = 87,
           frame_count = 33,
@@ -291,7 +291,7 @@ data:extend (
           shift = util.by_pixel(0, 1.5),
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/thinking-hut/hr-thinking-hut.png",
             width = 194,
             height = 174,
             frame_count = 33,
@@ -302,7 +302,7 @@ data:extend (
           }
         },
         {
-          filename = "__base__/graphics/entity/lab/lab-integration.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/thinking-hut/thinking-hut-integration.png",
           width = 122,
           height = 81,
           frame_count = 1,
@@ -312,7 +312,7 @@ data:extend (
           shift = util.by_pixel(0, 15.5),
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab-integration.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/thinking-hut/hr-thinking-hut-integration.png",
             width = 242,
             height = 162,
             frame_count = 1,
@@ -324,7 +324,7 @@ data:extend (
           }
         },
         {
-          filename = "__base__/graphics/entity/lab/lab-light.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/thinking-hut/thinking-hut-light.png",
           blend_mode = "additive",
           draw_as_light = true,
           width = 106,
@@ -335,7 +335,7 @@ data:extend (
           shift = util.by_pixel(-1, 1),
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab-light.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/thinking-hut/hr-thinking-hut-light.png",
             blend_mode = "additive",
             draw_as_light = true,
             width = 216,
@@ -348,7 +348,7 @@ data:extend (
           }
         },
         {
-          filename = "__base__/graphics/entity/lab/lab-shadow.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/thinking-hut/thinking-hut-shadow.png",
           width = 122,
           height = 68,
           frame_count = 1,
@@ -359,7 +359,7 @@ data:extend (
           draw_as_shadow = true,
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab-shadow.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/thinking-hut/hr-thinking-hut-shadow.png",
             width = 242,
             height = 136,
             frame_count = 1,
@@ -378,14 +378,14 @@ data:extend (
       layers =
       {
         {
-          filename = "__base__/graphics/entity/lab/lab.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/thinking-hut/thinking-hut.png",
           width = 98,
           height = 87,
           frame_count = 1,
           shift = util.by_pixel(0, 1.5),
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/lab/hr-thinking-hut.png",
             width = 194,
             height = 174,
             frame_count = 1,
@@ -394,14 +394,14 @@ data:extend (
           }
         },
         {
-          filename = "__base__/graphics/entity/lab/lab-integration.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/thinking-hut/thinking-hut-integration.png",
           width = 122,
           height = 81,
           frame_count = 1,
           shift = util.by_pixel(0, 15.5),
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab-integration.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/thinking-hut/hr-thinking-hut-integration.png",
             width = 242,
             height = 162,
             frame_count = 1,
@@ -410,7 +410,7 @@ data:extend (
           }
         },
         {
-          filename = "__base__/graphics/entity/lab/lab-shadow.png",
+          filename = "__tanks_for_bob_fork__/graphics/entity/thinking-hut/thinking-hut-shadow.png",
           width = 122,
           height = 68,
           frame_count = 1,
@@ -418,7 +418,7 @@ data:extend (
           draw_as_shadow = true,
           hr_version =
           {
-            filename = "__base__/graphics/entity/lab/hr-lab-shadow.png",
+            filename = "__tanks_for_bob_fork__/graphics/entity/thinking-hut/hr-thinking-hut-shadow.png",
             width = 242,
             height = 136,
             frame_count = 1,
@@ -1678,7 +1678,7 @@ data:extend (
     type = "assembling-machine",
     icon_size = 64,
     name = "growing-plot",
-    icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/growing-plot.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "growing-plot"},
     max_health = 100,
@@ -1709,7 +1709,7 @@ data:extend (
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation = {
-        filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+        filename = "__tanks_for_bob_fork__/graphics/entity/growing-plot/growing-plot.png",
         priority = "high",
         width = 64,
         height = 64,
@@ -1744,7 +1744,7 @@ data:extend (
     working_visualisations = {
         {
             animation = {
-                filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+                filename = "__tanks_for_bob_fork__/graphics/entity/growing-plot/growing-plot.png",
                 priority = "high",
                 width = 64,
                 height = 64,
@@ -1759,173 +1759,13 @@ data:extend (
     ingredient_count = 6,
     module_specification = {module_slots = 0},
 },
---woodbasin
-{
-    type = "storage-tank",
-    name = "wood-basin",
-    icon = "__base__/graphics/icons/storage-tank.png",
-    icon_size = 64, icon_mipmaps = 4,
-    flags = {"placeable-player", "player-creation"},
-    minable = {mining_time = 0.5, result = "storage-tank"},
-    max_health = 100,
-    corpse = "storage-tank-remnants",
-    dying_explosion = "storage-tank-explosion",
-    collision_box = {{-1.3, -1.3}, {1.3, 1.3}},
-    selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    fluid_box =
-    {
-      base_area = 250,
-      pipe_covers = pipecoverspictures(),
-      pipe_connections =
-      {
-        { position = {-1, -2} },
-        { position = {2, 1} },
-        { position = {1, 2} },
-        { position = {-2, -1} }
-      },
-      hide_connection_info = true
-    },
-    two_direction_only = true,
-    window_bounding_box = {{-0.125, 0.6875}, {0.1875, 1.1875}},
-    pictures =
-    {
-      picture =
-      {
-        sheets =
-        {
-          {
-            filename = "__base__/graphics/entity/storage-tank/storage-tank.png",
-            priority = "extra-high",
-            frames = 2,
-            width = 110,
-            height = 108,
-            shift = util.by_pixel(0, 4),
-            hr_version =
-            {
-              filename = "__base__/graphics/entity/storage-tank/hr-storage-tank.png",
-              priority = "extra-high",
-              frames = 2,
-              width = 219,
-              height = 215,
-              shift = util.by_pixel(-0.25, 3.75),
-              scale = 0.5
-            }
-          },
-          {
-            filename = "__base__/graphics/entity/storage-tank/storage-tank-shadow.png",
-            priority = "extra-high",
-            frames = 2,
-            width = 146,
-            height = 77,
-            shift = util.by_pixel(30, 22.5),
-            draw_as_shadow = true,
-            hr_version =
-            {
-              filename = "__base__/graphics/entity/storage-tank/hr-storage-tank-shadow.png",
-              priority = "extra-high",
-              frames = 2,
-              width = 291,
-              height = 153,
-              shift = util.by_pixel(29.75, 22.25),
-              scale = 0.5,
-              draw_as_shadow = true
-            }
-          }
-        }
-      },
-      fluid_background =
-      {
-        filename = "__base__/graphics/entity/storage-tank/fluid-background.png",
-        priority = "extra-high",
-        width = 32,
-        height = 15
-      },
-      window_background =
-      {
-        filename = "__base__/graphics/entity/storage-tank/window-background.png",
-        priority = "extra-high",
-        width = 17,
-        height = 24,
-        hr_version =
-        {
-          filename = "__base__/graphics/entity/storage-tank/hr-window-background.png",
-          priority = "extra-high",
-          width = 34,
-          height = 48,
-          scale = 0.5
-        }
-      },
-      flow_sprite =
-      {
-        filename = "__base__/graphics/entity/pipe/fluid-flow-low-temperature.png",
-        priority = "extra-high",
-        width = 160,
-        height = 20
-      },
-      gas_flow =
-      {
-        filename = "__base__/graphics/entity/pipe/steam.png",
-        priority = "extra-high",
-        line_length = 10,
-        width = 24,
-        height = 15,
-        frame_count = 60,
-        axially_symmetrical = false,
-        direction_count = 1,
-        animation_speed = 0.25,
-        hr_version =
-        {
-          filename = "__base__/graphics/entity/pipe/hr-steam.png",
-          priority = "extra-high",
-          line_length = 10,
-          width = 48,
-          height = 30,
-          frame_count = 60,
-          axially_symmetrical = false,
-          animation_speed = 0.25,
-          direction_count = 1,
-          scale = 0.5
-        }
-      }
-    },
-    flow_length_in_ticks = 360,
-    working_sound =
-    {
-      sound =
-      {
-          filename = "__base__/sound/storage-tank.ogg",
-          volume = 0.6
-      },
-      match_volume_to_activity = true,
-      audible_distance_modifier = 0.5,
-      max_sounds_per_type = 3
-    },
 
-    circuit_wire_connection_points = circuit_connector_definitions["storage-tank"].points,
-    circuit_connector_sprites = circuit_connector_definitions["storage-tank"].sprites,
-    circuit_wire_max_distance = default_circuit_wire_max_distance,
-    water_reflection =
-    {
-      pictures =
-      {
-        filename = "__base__/graphics/entity/storage-tank/storage-tank-reflection.png",
-        priority = "extra-high",
-        width = 24,
-        height = 24,
-        shift = util.by_pixel(5, 35),
-        variation_count = 1,
-        scale = 5
-      },
-      rotate = false,
-      orientation_to_variation = false
-    }
-  },
 --quarry
  {
     type = "assembling-machine",
     icon_size = 64,
     name = "quarry",
-    icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/quarry.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "quarry"},
     max_health = 100,
@@ -1956,7 +1796,7 @@ data:extend (
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation = {
-        filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+        filename = "__tanks_for_bob_fork__/graphics/entity/quarry/quarry.png",
         priority = "high",
         width = 64,
         height = 64,
@@ -1991,7 +1831,7 @@ data:extend (
     working_visualisations = {
         {
             animation = {
-                filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+                filename = "__tanks_for_bob_fork__/graphics/entity/quarry/quarry.png",
                 priority = "high",
                 width = 64,
                 height = 64,
@@ -2010,7 +1850,7 @@ data:extend (
 {
     type = "storage-tank",
     name = "wood-basin",
-    icon = "__base__/graphics/icons/storage-tank.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/wood-basin.png",
     icon_size = 64, icon_mipmaps = 4,
     flags = {"placeable-player", "player-creation"},
     minable = {mining_time = 0.5, result = "storage-tank"},
@@ -3092,7 +2932,7 @@ data:extend (
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation = {
-        filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+        filename = "__tanks_for_bob_fork__/graphics/entity/assembling-machine/assembling-machine.png",
         priority = "high",
         width = 64,
         height = 64,
@@ -3127,7 +2967,7 @@ data:extend (
     working_visualisations = {
         {
             animation = {
-                filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+                filename = "__tanks_for_bob_fork__/graphics/entity/assembling-machine/assembling-machine.png",
                 priority = "high",
                 width = 64,
                 height = 64,
@@ -3178,7 +3018,7 @@ data:extend (
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation = {
-        filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+        filename = "__tanks_for_bob_fork__/graphics/entity/assembling-machine/assembling-machine.png",
         priority = "high",
         width = 64,
         height = 64,
@@ -3213,7 +3053,7 @@ data:extend (
     working_visualisations = {
         {
             animation = {
-                filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+                filename = "__tanks_for_bob_fork__/graphics/entity/assembling-machine/assembling-machine.png",
                 priority = "high",
                 width = 64,
                 height = 64,
@@ -3264,7 +3104,7 @@ data:extend (
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation = {
-        filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+        filename = "__tanks_for_bob_fork__/graphics/entity/assembling-machine/assembling-machine.png",
         priority = "high",
         width = 64,
         height = 64,
@@ -3299,7 +3139,7 @@ data:extend (
     working_visualisations = {
         {
             animation = {
-                filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+                filename = "__tanks_for_bob_fork__/graphics/entity/assembling-machine/assembling-machine.png",
                 priority = "high",
                 width = 64,
                 height = 64,
@@ -3351,7 +3191,7 @@ data:extend (
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation = {
-        filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+        filename = "__tanks_for_bob_fork__/graphics/entity/assembling-machine/assembling-machine.png",
         priority = "high",
         width = 64,
         height = 64,
@@ -3438,7 +3278,7 @@ data:extend (
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation = {
-        filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+        filename = "__tanks_for_bob_fork__/graphics/entity/assembling-machine/assembling-machine.png",
         priority = "high",
         width = 64,
         height = 64,
@@ -3473,7 +3313,7 @@ data:extend (
     working_visualisations = {
         {
             animation = {
-                filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+                filename = "__tanks_for_bob_fork__/graphics/entity/assembling-machine/assembling-machine.png",
                 priority = "high",
                 width = 64,
                 height = 64,
@@ -3526,7 +3366,7 @@ data:extend (
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation = {
-        filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+        filename = "__tanks_for_bob_fork__/graphics/entity/assembling-machine/assembling-machine.png",
         priority = "high",
         width = 64,
         height = 64,
@@ -3561,7 +3401,7 @@ data:extend (
     working_visualisations = {
         {
             animation = {
-                filename = "__tanks_for_bob_fork__/graphics/entity/new/placeholder.png",
+                filename = "__tanks_for_bob_fork__/graphics/entity/assembling-machine/assembling-machine.png",
                 priority = "high",
                 width = 64,
                 height = 64,
