@@ -155,7 +155,8 @@ data:extend({
         results = {
             {type = "item", name = "wood", amount = 35},
             {type = "item", name = "stone-tools", amount = 1}
-        }}
+        }
+    }
 ,
 
 {
@@ -171,7 +172,8 @@ data:extend({
         results = {
             {type = "item", name = "stone", amount = 20},
             {type = "item", name = "stone-tools", amount = 1}
-        }}
+        }
+    }
 ,
 
 {
@@ -190,7 +192,8 @@ data:extend({
     results = {
         {type = "item", name = "raw-fish", amount = 20},
         {type = "item", name = "stone-tools", amount = 1}
-    }}
+    }
+}
 ,
 
 
@@ -236,7 +239,8 @@ data:extend({
         results = {
             {type = "item", name = "clay", amount = 8},
             {type = "item", name = "stone-tools", amount = 1}
-        }}
+        }
+    }
 ,
 
 {
@@ -356,7 +360,12 @@ data:extend({
         category = "pit-kiln",
         energy_required = 30,
         ingredients = {{type = "item", name = "clay", amount = 6}},
-        results = {{type = "item", name = "brick", amount = 2}}}
+        results =
+        {
+            {type = "item", name = "brick", amount = 2},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.06},
+        }
+    }
 ,
 
 {
@@ -376,7 +385,12 @@ data:extend({
         category = "pit-kiln",
         energy_required = 50,
         ingredients = {{type = "item", name = "wood", amount = 5}},
-        results = {{type = "item", name = "crude-glass", amount = 5}}}
+        results =
+        {
+            {type = "item", name = "crude-glass", amount = 5},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
+        }
+    }
 ,
 
 
@@ -395,7 +409,12 @@ data:extend({
             {type = "item", name = "stone", amount = 8},
             {type = "item", name = "stone-tools", amount = 1}
         },
-        results = {{type = "item", name = "wood-basin", amount = 1}}}
+        results =
+        {
+            {type = "item", name = "wood-basin", amount = 1},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.05},
+        }
+    }
 ,
 
 {
@@ -409,7 +428,12 @@ data:extend({
             {type = "item", name = "wood", amount = 8},
             {type = "item", name = "stone-tools", amount = 1}
         },
-        results = {{type = "item", name = "fish-pond", amount = 1}}}
+        results =
+        {
+            {type = "item", name = "fish-pond", amount = 1},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.04},
+        }
+    }
 ,
 
 {
@@ -423,7 +447,12 @@ data:extend({
             {type = "item", name = "wood", amount = 5},
             {type = "item", name = "stone-tools", amount = 2}
         },
-        results = {{type = "item", name = "quarry", amount = 1}}}
+        results =
+        {
+            {type = "item", name = "quarry", amount = 1},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
+        }
+    }
 ,
 
 {
@@ -437,7 +466,12 @@ data:extend({
             {type = "item", name = "wood", amount = 4},
             {type = "item", name = "stone-tools", amount = 1}
         },
-        results = {{type = "item", name = "primitive-steam-powered-pump", amount = 1}}}
+        results =
+        {
+            {type = "item", name = "primitive-steam-powered-pump", amount = 1},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.06},
+        }
+    }
 ,
 
 
@@ -452,7 +486,12 @@ data:extend({
         category = "Seablock",
         energy_required = 10,
         ingredients = {{type = "item", name = "brick", amount = 5}, {type = "item", name = "campfire", amount = 1}},
-        results = {{type = "item", name = "cooking-fire", amount = 1}}}
+        results =
+        {
+            {type = "item", name = "cooking-fire", amount = 1},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.04},
+        }
+    }
 ,
 
 {
@@ -462,7 +501,12 @@ data:extend({
         category = "Seablock",
         energy_required = 35,
         ingredients = {{type = "item", name = "brick", amount = 10}, {type = "item", name = "wood", amount = 5}},
-        results = {{type = "item", name = "stone-water-wheel", amount = 1}}}
+        results =
+        {
+            {type = "item", name = "stone-water-wheel", amount = 1},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.05},
+        }
+    }
 ,
 
 {
@@ -472,7 +516,12 @@ data:extend({
         category = "Seablock",
         energy_required = 35,
         ingredients = {{type = "item", name = "brick", amount = 15}, {type = "item", name = "wood", amount = 15}},
-        results = {{type = "item", name = "solar-boiler", amount = 1}}}
+        results =
+        {
+            {type = "item", name = "solar-boiler", amount = 1},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.07},
+        }
+    }
 ,
 
 {
@@ -482,7 +531,12 @@ data:extend({
         category = "Seablock",
         energy_required = 35,
         ingredients = {{type = "item", name = "crude-glass", amount = 10}, {type = "item", name = "brick", amount = 5}},
-        results = {{type = "item", name = "steam-condenser", amount = 1}}}
+        results =
+        {
+            {type = "item", name = "steam-condenser", amount = 1},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.06},
+        }
+    }
 ,
 
 {
@@ -595,7 +649,12 @@ data:extend({
         category = "quarrying",
         energy_required = 9,
         ingredients = {{type = "item", name = "stone-tools", amount = 1}, {type = "item", name = "brick", amount = 5}},
-        results = {{type = "item", name = "iron-ore", amount = 10}}}
+        results =
+        {
+            {type = "item", name = "iron-ore", amount = 10},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
+        }
+    }
 ,
 
 {
@@ -605,7 +664,12 @@ data:extend({
         category = "quarrying",
         energy_required = 9,
         ingredients = {{type = "item", name = "stone-tools", amount = 1}, {type = "item", name = "brick", amount = 5}},
-        results = {{type = "item", name = "copper-ore", amount = 10}}}
+        results =
+        {
+            {type = "item", name = "copper-ore", amount = 10},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
+        }
+    }
 ,
 
 {
@@ -615,7 +679,12 @@ data:extend({
         category = "quarrying",
         energy_required = 9,
         ingredients = {{type = "item", name = "stone-tools", amount = 2}, {type = "item", name = "stone-brick", amount = 15}},
-        results = {{type = "item", name = "iron-ore", amount = 20}}}
+        results =
+        {
+            {type = "item", name = "iron-ore", amount = 20},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.11},
+        }
+    }
 ,
 
 {
@@ -625,7 +694,12 @@ data:extend({
         category = "quarrying",
         energy_required = 9,
         ingredients = {{type = "item", name = "stone-tools", amount = 2}, {type = "item", name = "stone-brick", amount = 15}},
-        results = {{type = "item", name = "copper-ore", amount = 20}}}
+        results =
+        {
+            {type = "item", name = "copper-ore", amount = 20},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.11},
+        }
+    }
 ,
 
 {
@@ -657,7 +731,12 @@ data:extend({
         subgroup = "Seablock",
         energy_required = 35,
         ingredients = {{type = "item", name = "stone-tools", amount = 1},{type = "item", name = "iron-ore", amount = 1}},
-        results = {{type = "item", name = "Canister", amount = 2}}}
+        results =
+        {
+            {type = "item", name = "Canister", amount = 2},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.07},
+        }
+    }
 ,
 
 
@@ -672,7 +751,12 @@ data:extend({
         category = "Seablock",
         energy_required = 35,
         ingredients = {{type = "item", name = "brick", amount = 10}, {type = "item", name = "stone-tools", amount = 5}},
-        results = {{type = "item", name = "calcifier", amount = 1}}}
+        results =
+        {
+            {type = "item", name = "calcifier", amount = 1},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.07},
+        }
+    }
 ,
 
 {
@@ -684,7 +768,12 @@ data:extend({
         icon_size = 64,
         energy_required = 35,
         ingredients = {{type = "item", name = "stone", amount = 2}, {type = "fluid", name = "water", amount = 250}},
-        results = {{type = "item", name = "stone", amount = 8}}}
+        results =
+        {
+            {type = "item", name = "stone", amount = 8},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.04},
+        }
+    }
 ,
 
 {
@@ -694,7 +783,12 @@ data:extend({
         category = "Seablock",
         energy_required = 35,
         ingredients = {{type = "item", name = "crude-glass", amount = 5}, {type = "item", name = "brick", amount = 20}},
-        results = {{type = "item", name = "shaler", amount = 1}}}
+        results =
+        {
+            {type = "item", name = "shaler", amount = 1},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.09},
+        }
+    }
 ,
 
 {
@@ -704,7 +798,12 @@ data:extend({
         category = "Seablock",
         energy_required = 35,
         ingredients = {{type = "item", name = "shaler", amount = 1}, {type = "item", name = "cooking-fire", amount = 2}},
-        results = {{type = "item", name = "Steam-Compressor", amount = 1}}}
+        results =
+        {
+            {type = "item", name = "Steam-Compressor", amount = 1},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
+        }
+    }
 ,
 
 {
@@ -736,7 +835,12 @@ data:extend({
         subgroup = "Seablock",
         energy_required = 15,
         ingredients = {{type = "item", name = "Canister", amount = 1},{type = "fluid", name = "steam", amount = 350}},
-        results = {{type = "item", name = "Charged-Canister", amount = 1}}}
+        results =
+        {
+            {type = "item", name = "Charged-Canister", amount = 1},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.05},
+        }
+    }
 ,
 
 {
@@ -749,10 +853,12 @@ data:extend({
     icon = "__tanks_for_bob_fork__/graphics/icons/Canister.png",
     icon_size = 64,
     ingredients = {{type = "item", name = "Charged-Canister", amount = 1}},
-    results = {
+    results =
+    {
         {type = "item", name = "Canister", amount = 1},
-        {type = "fluid", name = "steam", amount = 350}
-     },
+        {type = "fluid", name = "steam", amount = 350},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.05},
+    },
     }
 ,
 
@@ -773,9 +879,11 @@ data:extend({
         {type="item", name="stone", amount=10},
         {type="fluid", name="water", amount=500}
     },
-    results = {
+    results =
+    {
         {type="item", name="stone", amount=40},
-        {type="item", name="tank-ammo-Industrialwaste", amount=2}
+        {type="item", name="tank-ammo-Industrialwaste", amount=2},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.01},
     }
 }
 ,
@@ -792,9 +900,11 @@ data:extend({
         {type="item", name="stone", amount=25},
         {type="fluid", name="water", amount=1000}
     },
-    results = {
+    results =
+    {
         {type="item", name="stone", amount=120},
-        {type="item", name="tank-ammo-Industrialwaste", amount=8}
+        {type="item", name="tank-ammo-Industrialwaste", amount=8},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     }
 }
 ,
@@ -811,9 +921,11 @@ data:extend({
         {type="item", name="stone", amount=50},
         {type="fluid", name="steam", amount=1500}
     },
-    results = {
+    results =
+    {
         {type="item", name="stone", amount=300},
-        {type="item", name="tank-ammo-Industrialwaste", amount=20}
+        {type="item", name="tank-ammo-Industrialwaste", amount=20},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.03},
     }
 }
 ,
@@ -830,9 +942,11 @@ data:extend({
         {type="item", name="stone", amount=100},
         {type="fluid", name="steam", amount=3000}
     },
-    results = {
+    results =
+    {
         {type="item", name="stone", amount=800},
-        {type="item", name="tank-ammo-Industrialwaste", amount=60}
+        {type="item", name="tank-ammo-Industrialwaste", amount=60},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.04},
     }
 }
 ,
@@ -964,9 +1078,11 @@ data:extend({
         {type="item", name="tank-ammo-Industrialwaste", amount=10},
         {type="fluid", name="steam", amount=1000}
     },
-    results = {
+    results =
+    {
         {type="item", name="iron-ore", amount=25},
-        {type="item", name="copper-ore", amount=25}
+        {type="item", name="copper-ore", amount=25},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     }
 }
 ,
@@ -1048,9 +1164,11 @@ data:extend({
         {type="item", name="tank-ammo-Radioactivewaste", amount=10},
         {type="fluid", name="steam", amount=2000}
     },
-    results = {
+    results =
+    {
         {type="item", name="uranium-ore", amount=15},
-        {type="fluid", name="sulfuric-acid", amount=25}
+        {type="fluid", name="sulfuric-acid", amount=25},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
     }
 }
 ,
@@ -1067,9 +1185,11 @@ data:extend({
         {type="item", name="tank-ammo-Radioactivewaste", amount=25},
         {type="fluid", name="steam", amount=5000}
     },
-    results = {
+    results =
+    {
         {type="item", name="uranium-ore", amount=45},
-        {type="fluid", name="sulfuric-acid", amount=75}
+        {type="fluid", name="sulfuric-acid", amount=75},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
     }
 }
 ,
@@ -1086,9 +1206,11 @@ data:extend({
         {type="item", name="tank-ammo-Radioactivewaste", amount=50},
         {type="fluid", name="steam", amount=10000}
     },
-    results = {
+    results =
+    {
         {type="item", name="uranium-ore", amount=110},
-        {type="fluid", name="sulfuric-acid", amount=180}
+        {type="fluid", name="sulfuric-acid", amount=180},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.12},
     }
 }
 ,
@@ -1105,9 +1227,11 @@ data:extend({
         {type="item", name="tank-ammo-Radioactivewaste", amount=100},
         {type="fluid", name="steam", amount=20000}
     },
-    results = {
+    results =
+    {
         {type="item", name="uranium-ore", amount=260},
-        {type="fluid", name="sulfuric-acid", amount=450}
+        {type="fluid", name="sulfuric-acid", amount=450},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.14},
     }
 }
 ,
@@ -1248,7 +1372,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "trace-mineral-slurry", amount = 5},
+        {type = "item", name = "trace-mineral-slurry", amount = 5},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.05},
     },
   }
 ,
@@ -1268,7 +1393,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "saline-particulate", amount = 3},
+        {type = "item", name = "saline-particulate", amount = 3},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.07},
     },
   }
 ,
@@ -1311,7 +1437,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "heavy-brine-fraction", amount = 2},
+        {type = "item", name = "heavy-brine-fraction", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.09},
     },
   }
 ,
@@ -1333,7 +1460,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "microcrystal-sediment", amount = 2},
+        {type = "item", name = "microcrystal-sediment", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.01},
     },
   }
 ,
@@ -1358,7 +1487,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "fish-oil-residue", amount = 3},
+        {type = "item", name = "fish-oil-residue", amount = 3},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.04},
     },
   }
 ,
@@ -1379,7 +1509,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "protein-slurry", amount = 4},
+        {type = "item", name = "protein-slurry", amount = 4},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.04},
     },
   }
 ,
@@ -1399,7 +1530,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "calcified-bone-dust", amount = 3},
+        {type = "item", name = "calcified-bone-dust", amount = 3},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.03},
     },
   }
 ,
@@ -1420,8 +1552,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "rendered-organics", amount = 4},
-      {type = "item", name = "fish-oil-residue", amount = 1},
+        {type = "item", name = "rendered-organics", amount = 4},
+        {type = "item", name = "fish-oil-residue", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.06},
     },
   }
 ,
@@ -1442,7 +1575,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "enzyme-paste", amount = 2},
+        {type = "item", name = "enzyme-paste", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.05},
     },
   }
 ,
@@ -1464,7 +1598,12 @@ data:extend({
         category = "advcooking",
         energy_required = 35,
         ingredients = {{type = "item", name = "Seared-fish",amount = 5},{type = "fluid", name = "steam", amount = 500}},
-        results = {{type = "item", name = "meal", amount = 10}}}
+        results =
+        {
+            {type = "item", name = "meal", amount = 10},
+            {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.03},
+        }
+    }
 ,
 
 
@@ -1489,7 +1628,11 @@ data:extend({
     ingredients = {
         {type = "item", name = "wood", amount = 2}
     },
-    results = {{type = "item", name = "charcoal", amount = 3}}
+    results =
+    {
+        {type = "item", name = "charcoal", amount = 3},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.06},
+    }
 }
 ,
 
@@ -1506,7 +1649,11 @@ data:extend({
         {type = "item", name = "wood", amount = 5},
 		{type = "item", name = "stone-tools", amount = 1}
     },
-    results = {{type = "item", name = "wood-pulp", amount = 6}}
+    results =
+    {
+        {type = "item", name = "wood-pulp", amount = 6},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.05},
+    }
 }
 ,
 
@@ -1523,7 +1670,11 @@ data:extend({
         {type = "item", name = "wood-pulp", amount = 4},
         {type = "item", name = "charcoal", amount = 1}
     },
-    results = {{type = "item", name = "crude-paper", amount = 3}}
+    results =
+    {
+        {type = "item", name = "crude-paper", amount = 3},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.04},
+    }
 }
 ,
 
@@ -1540,7 +1691,11 @@ data:extend({
         {type = "item", name = "charcoal", amount = 1},
         {type = "item", name = "fish-oil-residue", amount = 1}
     },
-    results = {{type = "item", name = "ink", amount = 2}}
+    results =
+    {
+        {type = "item", name = "ink", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.05},
+    }
 }
 ,
 
@@ -1557,9 +1712,11 @@ data:extend({
         {type = "item", name = "iron-ore", amount = 2},
         {type = "item", name = "stone-tools", amount = 1}
     },
-    results = {
+    results =
+    {
         {type = "item", name = "staples", amount = 12},
-        {type = "item", name = "stone-tools", amount = 1}
+        {type = "item", name = "stone-tools", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.07},
     }
 }
 ,
@@ -1578,7 +1735,11 @@ data:extend({
         {type = "item", name = "crude-glass", amount = 1},
         {type = "item", name = "ink", amount = 1}
     },
-    results = {{type = "item", name = "stamps", amount = 2}}
+    results =
+    {
+        {type = "item", name = "stamps", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.04},
+    }
 }
 ,
 
@@ -1595,7 +1756,11 @@ data:extend({
         {type = "item", name = "crude-paper", amount = 3},
         {type = "item", name = "wood-pulp", amount = 2}
     },
-    results = {{type = "item", name = "folder", amount = 1}}
+    results =
+    {
+        {type = "item", name = "folder", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.03},
+    }
 }
 ,
 
@@ -1613,7 +1778,11 @@ data:extend({
         {type = "item", name = "crude-paper", amount = 2},
         {type = "item", name = "staples", amount = 2}
     },
-    results = {{type = "item", name = "clipboard", amount = 1}}
+    results =
+    {
+        {type = "item", name = "clipboard", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.05},
+    }
 }
 ,
 
@@ -1631,7 +1800,11 @@ data:extend({
         {type = "item", name = "ink", amount = 1},
         {type = "item", name = "fish-oil-residue", amount = 1}
     },
-    results = {{type = "item", name = "requisition-slip", amount = 2}}
+    results =
+    {
+        {type = "item", name = "requisition-slip", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.04},
+    }
 }
 ,
 
@@ -1873,9 +2046,11 @@ data:extend({
         {type = "item", name = "folder", amount = 2},
         {type = "item", name = "stamps", amount = 2}
     },
-    results = {
+    results =
+    {
         {type = "item", name = "compliance-packet", amount = 1},
-        {type = "item", name = "corporate-waste", amount = 2, probability = 0.35}
+        {type = "item", name = "corporate-waste", amount = 2, probability = 0.35},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
     },
     allow_decomposition = false
 }
@@ -1896,9 +2071,12 @@ data:extend({
         {type = "item", name = "electro-phase-precursor", amount = 2},
         {type = "item", name = "clipboard", amount = 1}
     },
-    results = {
+    results =
+    {
         {type = "item", name = "audit-ready-deliverable", amount = 1},
-        {type = "item", name = "corporate-waste", amount = 3, probability = 0.40}
+        {type = "item", name = "corporate-waste", amount = 3, probability = 0.40},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.09},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.01},
     },
     allow_decomposition = false
 }
@@ -1919,9 +2097,12 @@ data:extend({
         {type = "item", name = "meal", amount = 4},
         {type = "item", name = "ink", amount = 4}
     },
-    results = {
+    results =
+    {
         {type = "item", name = "stakeholder-review-summary", amount = 1},
-        {type = "item", name = "corporate-waste", amount = 4, probability = 0.45}
+        {type = "item", name = "corporate-waste", amount = 4, probability = 0.45},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.01},
     },
     allow_decomposition = false
 }
@@ -1942,9 +2123,11 @@ data:extend({
         {type = "item", name = "Canister", amount = 1},
         {type = "item", name = "folder", amount = 4}
     },
-    results = {
+    results =
+    {
         {type = "item", name = "liability-contained-report", amount = 1},
-        {type = "item", name = "corporate-waste", amount = 5, probability = 0.50}
+        {type = "item", name = "corporate-waste", amount = 5, probability = 0.50},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
     allow_decomposition = false
 }
@@ -1965,9 +2148,12 @@ data:extend({
         {type = "item", name = "retrograde-polymer-sheet", amount = 1},
         {type = "item", name = "stamps", amount = 6}
     },
-    results = {
+    results =
+    {
         {type = "item", name = "board-review-docket", amount = 1},
-        {type = "item", name = "corporate-waste", amount = 6, probability = 0.55}
+        {type = "item", name = "corporate-waste", amount = 6, probability = 0.55},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.12},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
     allow_decomposition = false
 }
@@ -1989,9 +2175,12 @@ data:extend({
         {type = "item", name = "tank-ammo-Radioactivewaste", amount = 20},
         {type = "item", name = "liability-contained-report", amount = 1}
     },
-    results = {
+    results =
+    {
         {type = "item", name = "board-advisory-risk-assessment", amount = 1},
-        {type = "item", name = "corporate-waste", amount = 10, probability = 0.75}
+        {type = "item", name = "corporate-waste", amount = 10, probability = 0.75},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.14},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.04},
     },
     allow_decomposition = false
 }
@@ -2019,7 +2208,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "hydrolyzed-suspension", amount = 2},
+        {type = "item", name = "hydrolyzed-suspension", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.06},
     },
   }
 ,
@@ -2042,7 +2232,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "phase-diluted-brine", amount = 2},
+        {type = "item", name = "phase-diluted-brine", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.07},
     },
   }
 ,
@@ -2089,7 +2280,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "gradient-saline-matrix", amount = 2},
+        {type = "item", name = "gradient-saline-matrix", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
     },
   }
 ,
@@ -2112,7 +2304,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "biphasic-brine-gel", amount = 2},
+        {type = "item", name = "biphasic-brine-gel", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
     },
   }
 ,
@@ -2135,7 +2328,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "salinity-locked-emulsion", amount = 2},
+        {type = "item", name = "salinity-locked-emulsion", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.09},
     },
   }
 ,
@@ -2158,7 +2352,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "hydrocoptic-precursor", amount = 1},
+        {type = "item", name = "hydrocoptic-precursor", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.01},
     },
   }
 ,
@@ -2181,7 +2377,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "denatured-organic-base", amount = 2},
+        {type = "item", name = "denatured-organic-base", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.07},
     },
   }
 ,
@@ -2204,7 +2401,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "enzyme-saturated-mass", amount = 2},
+        {type = "item", name = "enzyme-saturated-mass", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
     },
   }
 ,
@@ -2227,7 +2425,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "lipid-carrier-gel", amount = 2},
+        {type = "item", name = "lipid-carrier-gel", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.07},
     },
   }
 ,
@@ -2250,7 +2449,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "bio-reactive-slurry", amount = 2},
+        {type = "item", name = "bio-reactive-slurry", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.09},
     },
   }
 ,
@@ -2273,7 +2473,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "catalytic-organic-medium", amount = 2},
+        {type = "item", name = "catalytic-organic-medium", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.01},
     },
   }
 ,
@@ -2296,7 +2498,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "reactive-enzyme-binder", amount = 2},
+        {type = "item", name = "reactive-enzyme-binder", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
     },
   }
 ,
@@ -2320,7 +2523,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "bio-synthetic-precursor", amount = 1},
+        {type = "item", name = "bio-synthetic-precursor", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.11},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.01},
     },
   }
 ,
@@ -2343,7 +2548,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "crystalline-agglomerate", amount = 2},
+        {type = "item", name = "crystalline-agglomerate", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
     },
   }
 ,
@@ -2366,7 +2572,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "fractured-lattice-mass", amount = 2},
+        {type = "item", name = "fractured-lattice-mass", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.09},
     },
   }
 ,
@@ -2389,7 +2596,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "ceramic-seed-grain", amount = 2},
+        {type = "item", name = "ceramic-seed-grain", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
     },
   }
 ,
@@ -2412,7 +2620,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "mineral-phase-fragments", amount = 2},
+        {type = "item", name = "mineral-phase-fragments", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.01},
     },
   }
 ,
@@ -2435,7 +2645,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "ceramic-lattice-core", amount = 2},
+        {type = "item", name = "ceramic-lattice-core", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.11},
     },
   }
 ,
@@ -2458,7 +2669,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "compressed-crystal-bed", amount = 2},
+        {type = "item", name = "compressed-crystal-bed", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.12},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
   }
 ,
@@ -2482,7 +2695,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "bioceramic-preform", amount = 1},
+        {type = "item", name = "bioceramic-preform", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
     },
   }
 ,
@@ -2505,7 +2719,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "charged-ionic-matrix", amount = 2},
+        {type = "item", name = "charged-ionic-matrix", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.11},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
   }
 ,
@@ -2528,7 +2744,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "dielectric-suspension", amount = 2},
+        {type = "item", name = "dielectric-suspension", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
     },
   }
 ,
@@ -2551,7 +2768,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "conductive-residue", amount = 2},
+        {type = "item", name = "conductive-residue", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.12},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
   }
 ,
@@ -2574,7 +2793,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "phase-unstable-granulate", amount = 2},
+        {type = "item", name = "phase-unstable-granulate", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.13},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.03},
     },
   }
 ,
@@ -2597,7 +2818,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "balanced-reactive-medium", amount = 2},
+        {type = "item", name = "balanced-reactive-medium", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.12},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
   }
 ,
@@ -2620,7 +2843,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "phase-primed-carrier", amount = 2},
+        {type = "item", name = "phase-primed-carrier", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.13},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.03},
     },
   }
 ,
@@ -2644,7 +2869,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "electro-phase-precursor", amount = 1},
+        {type = "item", name = "electro-phase-precursor", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.14},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.04},
     },
   }
 ,
@@ -2670,7 +2897,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "marseline-compound", amount = 2},
+        {type = "item", name = "marseline-compound", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
     },
   }
 ,
@@ -2691,7 +2919,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "bioceramic-grit", amount = 1},
+        {type = "item", name = "bioceramic-grit", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
     },
   }
 ,
@@ -2713,7 +2942,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "hydrocoptic-crystal", amount = 2},
+        {type = "item", name = "hydrocoptic-crystal", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.11},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
   }
 ,
@@ -2758,7 +2989,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "phase-reactive-granules", amount = 2},
+        {type = "item", name = "phase-reactive-granules", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.12},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
   }
 ,
@@ -2785,7 +3018,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "oscillated-lubricant", amount = 2},
+        {type = "item", name = "oscillated-lubricant", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.09},
     },
   }
 ,
@@ -2806,7 +3040,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "stabilized-brine-gel", amount = 2},
+        {type = "item", name = "stabilized-brine-gel", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
     },
   }
 ,
@@ -2828,7 +3063,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "dielectric-chowder", amount = 2},
+        {type = "item", name = "dielectric-chowder", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.11},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
   }
 ,
@@ -2850,7 +3087,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "pre-turbulated-emulsion", amount = 2},
+        {type = "item", name = "pre-turbulated-emulsion", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.12},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
   }
 ,
@@ -2872,7 +3111,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "viscoelastic-froth", amount = 2},
+        {type = "item", name = "viscoelastic-froth", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.09},
     },
   }
 ,
@@ -2987,8 +3227,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "executive-marseline-resin", amount = 2},
-      {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
+        {type = "item", name = "executive-marseline-resin", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
   }
 ,
@@ -3011,7 +3252,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "encabuloy-alloy", amount = 2},
+        {type = "item", name = "encabuloy-alloy", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.12},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
   }
 ,
@@ -3033,7 +3276,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "hyperphase-matrix", amount = 1},
+        {type = "item", name = "hyperphase-matrix", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.13},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.03},
     },
   }
 ,
@@ -3055,7 +3300,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "retrograde-polymer-sheet", amount = 2},
+        {type = "item", name = "retrograde-polymer-sheet", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.12},
     },
   }
 ,
@@ -3077,7 +3323,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "duplexed-substrate", amount = 1},
+        {type = "item", name = "duplexed-substrate", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.13},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.03},
     },
   }
 ,
@@ -3107,7 +3355,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "Hydrocoptic-marselvanes", amount = 2},
+        {type = "item", name = "Hydrocoptic-marselvanes", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.13},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.03},
     },
   }
 ,
@@ -3129,7 +3379,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "PhaseDetractor", amount = 1},
+        {type = "item", name = "PhaseDetractor", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.14},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.04},
     },
   }
 ,
@@ -3152,7 +3404,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "Cradinal-grametter", amount = 2},
+        {type = "item", name = "Cradinal-grametter", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.14},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.04},
     },
   }
 ,
@@ -3174,7 +3428,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "Alumatedplate", amount = 2},
+        {type = "item", name = "Alumatedplate", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.12},
     },
   }
 ,
@@ -3204,7 +3459,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "Retro-Encabulator", amount = 1},
+        {type = "item", name = "Retro-Encabulator", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.13},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.03},
     },
   }
 ,
@@ -3227,8 +3484,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "Encabulator", amount = 1},
-      {type = "item", name = "tank-ammo-Industrialwaste", amount = 5},
+        {type = "item", name = "Encabulator", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 5},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.04},
     },
   }
 ,
@@ -3251,8 +3509,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "SpervingArm", amount = 1},
-      {type = "item", name = "tank-ammo-Industrialwaste", amount = 4},
+        {type = "item", name = "SpervingArm", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 4},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
   }
 ,
@@ -3275,8 +3534,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "DuctedSpervingArm", amount = 1},
-      {type = "item", name = "tank-ammo-Industrialwaste", amount = 10},
+        {type = "item", name = "DuctedSpervingArm", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 10},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.03},
     },
   }
 ,
@@ -3299,8 +3559,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "TurboEncabulator", amount = 1},
-      {type = "item", name = "tank-ammo-Industrialwaste", amount = 8},
+        {type = "item", name = "TurboEncabulator", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 8},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.04},
     },
   }
 ,
@@ -3323,8 +3584,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "HyperEncabulator", amount = 1},
-      {type = "item", name = "tank-ammo-Industrialwaste", amount = 10},
+        {type = "item", name = "HyperEncabulator", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 10},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.05},
     },
   }
 ,
@@ -3347,8 +3609,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "DuplexedSpervingArm", amount = 1},
-      {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1},
+        {type = "item", name = "DuplexedSpervingArm", amount = 1},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.14},
     },
   }
 ,
@@ -3371,8 +3634,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "FramulatedEncabulator", amount = 1},
-      {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1},
+        {type = "item", name = "FramulatedEncabulator", amount = 1},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.14},
     },
   }
 ,
@@ -3395,7 +3659,12 @@ data:extend({
       {type = "item", name = "Encabulator", amount = 1},
       {type = "item", name = "Hydrocoptic-marselvanes", amount = 10}
     },
-    results = {{type = "item", name = "tank-ammo-assembling-machine", amount = 1}}}
+    results =
+    {
+        {type = "item", name = "tank-ammo-assembling-machine", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
+    }
+}
 ,
 
 {
@@ -3411,7 +3680,12 @@ data:extend({
       {type = "item", name = "Encabulator", amount = 1},
       {type = "item", name = "tank-ammo-assembling-machine", amount = 1}
     },
-    results = {{type = "item", name = "tank-assembling-machine", amount = 1}}}
+    results =
+    {
+        {type = "item", name = "tank-assembling-machine", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
+    }
+}
 ,
 
 {
@@ -3427,7 +3701,12 @@ data:extend({
       {type = "item", name = "processing-unit", amount = 5},
       {type = "item", name = "electric-engine-unit", amount = 10}
     },
-    results = {{type = "item", name = "tank-light-chasis-wlsk", amount = 1}}}
+    results =
+    {
+        {type = "item", name = "tank-light-chasis-wlsk", amount = 1},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.12},
+    }
+}
 ,
 
 
@@ -3475,8 +3754,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "tank-ammo-universal-explosive", amount = 20},
-      {type = "item", name = "tank-ammo-Industrialwaste", amount = 20},
+        {type = "item", name = "tank-ammo-universal-explosive", amount = 20},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 20},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
     },
   }
 ,
@@ -3498,8 +3778,9 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "explosives", amount = 3},
-      {type = "item", name = "tank-ammo-Industrialwaste", amount = 5},
+        {type = "item", name = "explosives", amount = 3},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 5},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.03},
     },
   }
 ,
@@ -3586,7 +3867,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "tank-ammo-casing", amount = 2},
+        {type = "item", name = "tank-ammo-casing", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.08},
     },
   }
 ,
@@ -3604,7 +3886,8 @@ data:extend({
     },
     results =
     {
-      {type = "item", name = "tank-ammo-reinforced-casing", amount = 2},
+        {type = "item", name = "tank-ammo-reinforced-casing", amount = 2},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.10},
     },
   }
 ,
@@ -3621,7 +3904,13 @@ data:extend({
       {type = "item", name = "explosives", amount = 2},
       {type = "item", name = "sulfur", amount = 1},
     },
-    results = {{type = "item", name = "land-mine-poison", amount = 4}}}
+    results =
+    {
+        {type = "item", name = "land-mine-poison", amount = 4},
+        {type = "item", name = "tank-ammo-Industrialwaste", amount = 1, probability = 0.12},
+        {type = "item", name = "tank-ammo-Radioactivewaste", amount = 1, probability = 0.02},
+    }
+}
 ,
 
 
