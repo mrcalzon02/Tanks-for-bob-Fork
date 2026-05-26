@@ -358,6 +358,8 @@ data:extend({
         name = "brick",
         enabled = false,
         category = "pit-kiln",
+		icon = "__tanks_for_bob_fork__/graphics/icons/brick.png",
+    icon_size = 64,
         energy_required = 30,
         ingredients = {{type = "item", name = "clay", amount = 6}},
         results =

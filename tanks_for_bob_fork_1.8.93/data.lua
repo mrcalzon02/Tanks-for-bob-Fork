@@ -17,3 +17,10 @@ require("prototypes.recipe.vehicles")
 require("prototypes.technology.technology")
 require("prototypes.equipment.equipment")
 require("prototypes.fluid.fluid")
+
+-- Optional compatibility patches
+if mods["space-age"] then
+  require("prototypes.compatibility.space-age")
+end
+
+require("prototypes.compatibility.mechanicus-locale")
