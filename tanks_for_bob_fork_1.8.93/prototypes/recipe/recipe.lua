@@ -1364,7 +1364,7 @@ data:extend({
     enabled = true,
     category = "clay",
     subgroup = "Seablock",
-    icon = "__tanks_for_bob_fork__/graphics/icons/trace mineral slurry.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Trace mineral slurry.png",
     icon_size = 128,
     energy_required = 8,
     ingredients =
@@ -1386,7 +1386,7 @@ data:extend({
     enabled = false,
     category = "smelting",
     subgroup = "Seablock",
-    icon = "__tanks_for_bob_fork__/graphics/icons/saline particulate.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Saline particulate.png",
     icon_size = 128,
     energy_required = 6,
     ingredients =
@@ -1407,7 +1407,7 @@ data:extend({
     enabled = false,
     category = "Calcifier",
     subgroup = "Seablock",
-    icon = "__tanks_for_bob_fork__/graphics/icons/ionic scum.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Ionic scum.png",
     icon_size = 128,
     energy_required = 10,
     ingredients =
@@ -1429,7 +1429,7 @@ data:extend({
     enabled = false,
     category = "shaler",
     subgroup = "Seablock",
-    icon = "__tanks_for_bob_fork__/graphics/icons/heavy brine fraction.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Heavy brine fraction.png",
     icon_size = 128,
     energy_required = 12,
     ingredients =
@@ -1451,7 +1451,7 @@ data:extend({
     enabled = false,
     category = "Calcifier",
     subgroup = "Seablock",
-    icon = "__tanks_for_bob_fork__/graphics/icons/microcrystal sediment.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Microcrystal sediment.png",
     icon_size = 128,
     energy_required = 14,
     ingredients =
@@ -1480,7 +1480,7 @@ data:extend({
     enabled = true,
     category = "cooking",
     subgroup = "Seablock",
-    icon = "__tanks_for_bob_fork__/graphics/icons/fish oil residue.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Fish oil residue.png",
     icon_size = 128,
     energy_required = 9,
     ingredients =
@@ -1501,7 +1501,7 @@ data:extend({
     enabled = false,
     category = "advcooking",
     subgroup = "Seablock",
-    icon = "__tanks_for_bob_fork__/graphics/icons/protein slurry.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Protein slurry.png",
     icon_size = 128,
     energy_required = 10,
     ingredients =
@@ -1523,7 +1523,7 @@ data:extend({
     enabled = false,
     category = "advcooking",
     subgroup = "Seablock",
-    icon = "__tanks_for_bob_fork__/graphics/icons/calcified bone dust.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Calcified bone dust.png",
     icon_size = 128,
     energy_required = 7,
     ingredients =
@@ -1544,7 +1544,7 @@ data:extend({
     enabled = false,
     category = "advcooking",
     subgroup = "Seablock",
-    icon = "__tanks_for_bob_fork__/graphics/icons/rendered organics.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Rendered organics.png",
     icon_size = 128,
     energy_required = 12,
     ingredients =
@@ -1567,7 +1567,7 @@ data:extend({
     enabled = false,
     category = "advcooking",
     subgroup = "Seablock",
-    icon = "__tanks_for_bob_fork__/graphics/icons/enzyme paste.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Enzyme paste.png",
     icon_size = 128,
     energy_required = 8,
     ingredients =
@@ -2888,7 +2888,7 @@ data:extend({
     enabled = false,
     category = "crafting",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/marseline compound.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Marseline compound.png",
     icon_size = 128,
     energy_required = 12,
     ingredients =
@@ -2911,7 +2911,7 @@ data:extend({
     enabled = false,
     category = "smelting",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/bioceramic grit.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Bioceramic grit.png",
     icon_size = 128,
     energy_required = 8,
     ingredients =
@@ -2933,7 +2933,7 @@ data:extend({
     enabled = false,
     category = "Calcifier",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/hydrocoptic crystal.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Hydrocoptic crystal.png",
     icon_size = 128,
     energy_required = 16,
     ingredients =
@@ -2957,7 +2957,7 @@ data:extend({
     enabled = false,
     category = "shaler",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/amulite flakes.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Amulite flakes.png",
     icon_size = 128,
     energy_required = 18,
     ingredients =
@@ -2980,7 +2980,7 @@ data:extend({
     enabled = false,
     category = "crafting",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/phase reactive granules.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Phase reactive granules.png",
     icon_size = 128,
     energy_required = 14,
     ingredients =
@@ -3009,7 +3009,7 @@ data:extend({
     enabled = false,
     category = "crafting",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/oscillated lubricant.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Oscillated lubricant.png",
     icon_size = 128,
     energy_required = 12,
     ingredients =
@@ -3032,7 +3032,7 @@ data:extend({
     enabled = false,
     category = "crafting",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/stabilized brine gel.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Stabilized brine gel.png",
     icon_size = 128,
     energy_required = 12,
     ingredients =
@@ -3054,7 +3054,7 @@ data:extend({
     enabled = false,
     category = "crafting",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/dielectric chowder.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Dielectric chowder.png",
     icon_size = 128,
     energy_required = 16,
     ingredients =
@@ -3078,7 +3078,7 @@ data:extend({
     enabled = false,
     category = "crafting",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/pre turbulated emulsion.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Pre turbulated Emulsion.png",
     icon_size = 128,
     energy_required = 18,
     ingredients =
@@ -3102,7 +3102,7 @@ data:extend({
     enabled = false,
     category = "crafting",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/viscoelastic froth.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Viscoelastic froth.png",
     icon_size = 128,
     energy_required = 18,
     ingredients =
@@ -3218,7 +3218,7 @@ data:extend({
     enabled = false,
     category = "tank-ammo-component",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/executive marseline resin.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Executive Marseline Resin.png",
     icon_size = 128,
     energy_required = 24,
     ingredients =
@@ -3267,7 +3267,7 @@ data:extend({
     enabled = false,
     category = "tank-ammo-component",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/hyperphase matrix.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Hyperphase matrix.png",
     icon_size = 128,
     energy_required = 30,
     ingredients =
@@ -3291,7 +3291,7 @@ data:extend({
     enabled = false,
     category = "crafting",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/retrograde polymer sheet.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Retrograde polymer sheet.png",
     icon_size = 128,
     energy_required = 20,
     ingredients =
@@ -3314,7 +3314,7 @@ data:extend({
     enabled = false,
     category = "tank-ammo-component",
     subgroup = "tank-ammo-components",
-    icon = "__tanks_for_bob_fork__/graphics/icons/duplexed substrate.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Duplexed substrate.png",
     icon_size = 128,
     energy_required = 28,
     ingredients =

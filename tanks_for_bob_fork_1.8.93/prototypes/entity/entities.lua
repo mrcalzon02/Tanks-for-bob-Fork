@@ -1,3 +1,18 @@
+-- Reuse Factorio's official assembler pipe sprites across 2.0 and 2.1.
+-- The global assembler2pipepictures helper was removed in Factorio 2.1.
+local function tanks_assembler_pipe_pictures()
+  if type(assembler2pipepictures) == "function" then
+    return assembler2pipepictures()
+  end
+  local standard = (data.raw["assembling-machine"] or {})["assembling-machine-2"]
+  for _, box in pairs(standard and standard.fluid_boxes or {}) do
+    if type(box) == "table" and box.pipe_picture then
+      return table.deepcopy(box.pipe_picture)
+    end
+  end
+  return nil
+end
+
 -- Solar boiler: deep-copy the base boiler first so all vanilla graphics/sprite layers remain valid.
 local solar_boiler = table.deepcopy(data.raw["boiler"]["boiler"])
 
@@ -1678,7 +1693,7 @@ data:extend(
 {
   {
     production_type = "input",
-    pipe_picture = assembler2pipepictures(),
+    pipe_picture = tanks_assembler_pipe_pictures(),
     pipe_covers = pipecoverspictures(),
     volume = 1000,
     pipe_connections =
@@ -1693,7 +1708,7 @@ data:extend(
   },
   {
     production_type = "output",
-    pipe_picture = assembler2pipepictures(),
+    pipe_picture = tanks_assembler_pipe_pictures(),
     pipe_covers = pipecoverspictures(),
     volume = 1000,
     pipe_connections =
@@ -1742,7 +1757,7 @@ data:extend(
     type = "assembling-machine",
     icon_size = 64,
     name = "calcifier",
-    icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/Placeholder.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "calcifier"},
     max_health = 100,
@@ -1827,7 +1842,7 @@ data:extend(
 {
   {
     production_type = "input",
-    pipe_picture = assembler2pipepictures(),
+    pipe_picture = tanks_assembler_pipe_pictures(),
     pipe_covers = pipecoverspictures(),
     volume = 1000,
     pipe_connections =
@@ -1842,7 +1857,7 @@ data:extend(
   },
   {
     production_type = "output",
-    pipe_picture = assembler2pipepictures(),
+    pipe_picture = tanks_assembler_pipe_pictures(),
     pipe_covers = pipecoverspictures(),
     volume = 1000,
     pipe_connections =
@@ -1953,7 +1968,7 @@ data:extend(
 {
   {
     production_type = "input",
-    pipe_picture = assembler2pipepictures(),
+    pipe_picture = tanks_assembler_pipe_pictures(),
     pipe_covers = pipecoverspictures(),
     volume = 1000,
     pipe_connections =
@@ -1968,7 +1983,7 @@ data:extend(
   },
   {
     production_type = "output",
-    pipe_picture = assembler2pipepictures(),
+    pipe_picture = tanks_assembler_pipe_pictures(),
     pipe_covers = pipecoverspictures(),
     volume = 1000,
     pipe_connections =
@@ -2079,7 +2094,7 @@ data:extend(
 {
   {
     production_type = "input",
-    pipe_picture = assembler2pipepictures(),
+    pipe_picture = tanks_assembler_pipe_pictures(),
     pipe_covers = pipecoverspictures(),
     volume = 1000,
     pipe_connections =
@@ -2094,7 +2109,7 @@ data:extend(
   },
   {
     production_type = "output",
-    pipe_picture = assembler2pipepictures(),
+    pipe_picture = tanks_assembler_pipe_pictures(),
     pipe_covers = pipecoverspictures(),
     volume = 1000,
     pipe_connections =
@@ -2205,7 +2220,7 @@ data:extend(
 {
   {
     production_type = "input",
-    pipe_picture = assembler2pipepictures(),
+    pipe_picture = tanks_assembler_pipe_pictures(),
     pipe_covers = pipecoverspictures(),
     volume = 1000,
     pipe_connections =
@@ -2220,7 +2235,7 @@ data:extend(
   },
   {
     production_type = "output",
-    pipe_picture = assembler2pipepictures(),
+    pipe_picture = tanks_assembler_pipe_pictures(),
     pipe_covers = pipecoverspictures(),
     volume = 1000,
     pipe_connections =
@@ -2262,7 +2277,7 @@ data:extend(
 {
   {
     production_type = "input",
-    pipe_picture = assembler2pipepictures(),
+    pipe_picture = tanks_assembler_pipe_pictures(),
     pipe_covers = pipecoverspictures(),
     volume = 1000,
     pipe_connections =
@@ -2277,7 +2292,7 @@ data:extend(
   },
   {
     production_type = "output",
-    pipe_picture = assembler2pipepictures(),
+    pipe_picture = tanks_assembler_pipe_pictures(),
     pipe_covers = pipecoverspictures(),
     volume = 1000,
     pipe_connections =
