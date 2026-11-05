@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PREFIX = "tanks_for_bob_fork_"
 REQUIRE = re.compile(r"""\brequire\s*(?:\(\s*['"]([^'"]+)['"]\s*\)|['"]([^'"]+)['"])""")
-ASSET = re.compile(r"""__tanks_for_bob_fork__/([^"'\s]+)""")
+ASSET = re.compile(r"""__tanks_for_bob_fork__/([^"']+)""")
 RECIPE = re.compile(r"""\btype\s*=\s*['"]recipe['"]\s*,\s*name\s*=\s*['"]([^'"]+)['"]""")
 OPTIONAL = {"prototypes.compatibility.space-age"}
 
@@ -47,7 +47,9 @@ def audit(folder, info):
     sources = sorted(folder.rglob("*.lua"))
     for source in sources:
         relative = source.relative_to(folder).as_posix()
-        for number, raw in enumerate(source.read_text(encoding="utf-8-sig").splitlines(), 1):
+        source_text = source.read_text(encoding="utf-8-sig")
+        recipe_names.extend(RECIPE.findall(source_text))
+        for number, raw in enumerate(source_text.splitlines(), 1):
             line = raw.split("--", 1)[0]
             for hit in REQUIRE.finditer(line):
                 module = hit.group(1) or hit.group(2)
@@ -58,9 +60,8 @@ def audit(folder, info):
                         (warnings if module in OPTIONAL else errors).append(message)
             for hit in ASSET.finditer(line):
                 asset = hit.group(1).rstrip(")}],")
-                if not (folder / asset).is_file():
+                if not ((folder / asset).is_file() or (asset.endswith("/") and (folder / asset).is_dir())):
                     errors.append(f"{relative}:{number}: missing local asset {asset}")
-            recipe_names.extend(RECIPE.findall(line))
     duplicates = {n: c for n, c in Counter(recipe_names).items() if c > 1}
     if duplicates:
         warnings.append(f"Repeated literal recipe declarations: {duplicates}")
