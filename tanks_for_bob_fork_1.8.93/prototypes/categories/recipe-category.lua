@@ -67,11 +67,7 @@ data:extend(
     type = "recipe-category",
     name = "advcooking"
   },
-  {
-    
-    type = "recipe-category",
-    name = "growing"
-  },
+  
    {
     
     type = "recipe-category",

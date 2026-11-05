@@ -19,8 +19,8 @@ require("prototypes.equipment.equipment")
 require("prototypes.fluid.fluid")
 
 -- Optional compatibility patches
-if mods["space-age"] then
-  require("prototypes.compatibility.space-age")
+if mods["space-age"] or mods["quality"] or mods["recycler"] then
+  require("prototypes.Compatibility.space-age")
 end
 
-require("prototypes.compatibility.mechanicus-locale")
+require("prototypes.Compatibility.mechanicus-locale")
