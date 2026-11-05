@@ -693,7 +693,7 @@ data:extend({
     {
         type = "technology",
         name = "mineral-fractionation",
-        icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+        icon = "__tanks_for_bob_fork__/graphics/icons/Placeholder.png",
         icon_size = 64,
         effects = {
             { type = "unlock-recipe", recipe = "saline-particulate" },
@@ -712,7 +712,7 @@ data:extend({
     {
         type = "technology",
         name = "ceramic-lattice-conditioning",
-        icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+        icon = "__tanks_for_bob_fork__/graphics/icons/Placeholder.png",
         icon_size = 64,
         effects = {
             { type = "unlock-recipe", recipe = "crystalline-agglomerate" },
@@ -736,7 +736,7 @@ data:extend({
     {
         type = "technology",
         name = "bio-reactive-processing",
-        icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+        icon = "__tanks_for_bob_fork__/graphics/icons/Placeholder.png",
         icon_size = 64,
         effects = {
             { type = "unlock-recipe", recipe = "protein-slurry" },
@@ -755,7 +755,7 @@ data:extend({
     {
         type = "technology",
         name = "organic-substrate-conditioning",
-        icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+        icon = "__tanks_for_bob_fork__/graphics/icons/Placeholder.png",
         icon_size = 64,
         effects = {
             { type = "unlock-recipe", recipe = "denatured-organic-base" },
@@ -779,7 +779,7 @@ data:extend({
     {
         type = "technology",
         name = "brine-conditioning",
-        icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+        icon = "__tanks_for_bob_fork__/graphics/icons/Placeholder.png",
         icon_size = 64,
         effects = {
             { type = "unlock-recipe", recipe = "hydrolyzed-suspension" },
@@ -801,7 +801,7 @@ data:extend({
     {
         type = "technology",
         name = "stabilized-emulsion-systems",
-        icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+        icon = "__tanks_for_bob_fork__/graphics/icons/Placeholder.png",
         icon_size = 64,
         effects = {
             { type = "unlock-recipe", recipe = "oscillated-lubricant" },
@@ -823,7 +823,7 @@ data:extend({
     {
         type = "technology",
         name = "ionic-phase-conditioning",
-        icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+        icon = "__tanks_for_bob_fork__/graphics/icons/Placeholder.png",
         icon_size = 64,
         effects = {
             { type = "unlock-recipe", recipe = "charged-ionic-matrix" },
@@ -845,7 +845,7 @@ data:extend({
     {
         type = "technology",
         name = "biomineral-synthesis",
-        icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+        icon = "__tanks_for_bob_fork__/graphics/icons/Placeholder.png",
         icon_size = 64,
         effects = {
             { type = "unlock-recipe", recipe = "marseline-compound" },
@@ -869,7 +869,7 @@ data:extend({
     {
         type = "technology",
         name = "pre-encabulation-materials",
-        icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+        icon = "__tanks_for_bob_fork__/graphics/icons/Placeholder.png",
         icon_size = 64,
         effects = {
             { type = "unlock-recipe", recipe = "executive-marseline-resin" },
@@ -886,7 +886,7 @@ data:extend({
     {
         type = "technology",
         name = "advanced-encabulation-substrates",
-        icon = "__tanks_for_bob_fork__/graphics/icons/placeholder.png",
+        icon = "__tanks_for_bob_fork__/graphics/icons/Placeholder.png",
         icon_size = 64,
         effects = {
             { type = "unlock-recipe", recipe = "hyperphase-matrix" },

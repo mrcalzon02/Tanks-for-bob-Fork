@@ -60,7 +60,7 @@ local category_count = {}
 for name, recipe in pairs(recipes) do
   local category = recipe.category or "crafting"
   category_count[category] = (category_count[category] or 0) + 1
-  if not producers[category] and category ~= "crafting" then
+  if not producers[category] and category ~= "crafting" and category ~= "parameters" then
     no_machine = no_machine + 1
     warn("No machine crafts category " .. category .. " (recipe " .. name .. ")")
   end
