@@ -83,6 +83,21 @@ if (mods["base"] or ""):match("^2%.1%.") then
   end
 end
 
+-- 2.1 replaced RecipeProduct.probability with independent_probability.
+-- Preserve the original probability value without altering the 2.0 schema.
+if (mods["base"] or ""):match("^2%.1%.") then
+  for name, recipe in pairs(data.raw.recipe or {}) do
+    if not recipes_before_tanks[name] then
+      for _, product in ipairs(recipe.results or {}) do
+        if product.probability ~= nil then
+          product.independent_probability = product.probability
+          product.probability = nil
+        end
+      end
+    end
+  end
+end
+
 require("prototypes.technology.technology")
 require("prototypes.equipment.equipment")
 require("prototypes.fluid.fluid")

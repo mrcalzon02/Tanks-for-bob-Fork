@@ -78,6 +78,34 @@ def main():
     )
     quoted = ", ".join('["' + mod + '"]=true' for mod in sorted(enabled))
     (dest / "ci_profile.lua").write_text("return {" + quoted + "}\n", encoding="utf-8")
+    # Manifest of literal declarations from the three active recipe modules.
+    # Factorio then verifies each declaration actually reached data.raw.
+    def names(kind, relative_files):
+        pattern = re.compile(r'type\s*=\s*"' + kind + r'"\s*,\s*name\s*=\s*"([^"]+)"')
+        found = set()
+        for relative in relative_files:
+            content = (dest / relative).read_text(encoding="utf-8")
+            content = "\n".join(line.split("--", 1)[0] for line in content.splitlines())
+            found.update(pattern.findall(content))
+        return found
+    declared_recipes = names("recipe", [
+        "prototypes/recipe/ammo.lua",
+        "prototypes/recipe/recipe.lua",
+        "prototypes/recipe/vehicles.lua",
+    ])
+    declared_technologies = names("technology", [
+        "prototypes/technology/technology.lua",
+    ])
+    def lua_set(entries):
+        return "{" + ",".join("[" + json.dumps(v) + "]=true"
+                              for v in sorted(entries)) + "}"
+    (dest / "ci_manifest.lua").write_text(
+        "return {recipes=" + lua_set(declared_recipes) +
+        ", technologies=" + lua_set(declared_technologies) + "}\n",
+        encoding="utf-8",
+    )
+    print("[TANKS-CI] MANIFEST %d declared recipes, %d declared technologies" %
+          (len(declared_recipes), len(declared_technologies)))
     with (dest / "control.lua").open("a", encoding="utf-8") as handle:
         handle.write('\nrequire("ci_runtime_harness")\n')
     (args.output / "mod-list.json").write_text(

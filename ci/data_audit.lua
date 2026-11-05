@@ -2,6 +2,7 @@
 local recipes = data.raw.recipe or {}
 local technologies = data.raw.technology or {}
 local expected = require("ci_profile")
+local manifest = require("ci_manifest")
 local failures, warnings = {}, {}
 local function fail(msg) failures[#failures + 1] = msg end
 local function warn(msg) warnings[#warnings + 1] = msg end
@@ -46,6 +47,41 @@ for name, technology in pairs(technologies) do
     end
   end
 end
+
+-- Explicitly confirm the full source declaration inventory is registered.
+local manifest_recipe_count, manifest_tech_count, manifest_missing_unlocks = 0, 0, 0
+for name in pairs(manifest.recipes) do
+  manifest_recipe_count = manifest_recipe_count + 1
+  local recipe = recipes[name]
+  if not recipe then
+    fail("Declared mod recipe is absent from data.raw.recipe: " .. name)
+  elseif recipe.enabled == false and not unlocked[name] then
+    manifest_missing_unlocks = manifest_missing_unlocks + 1
+    warn("Declared mod recipe is disabled without a technology unlock: " .. name)
+  end
+end
+for name in pairs(manifest.technologies) do
+  manifest_tech_count = manifest_tech_count + 1
+  if not technologies[name] then
+    fail("Declared mod technology is absent from data.raw.technology: " .. name)
+  end
+end
+
+local visiting, explored = {}, {}
+local function walk_tech(name)
+  if visiting[name] then
+    fail("Cyclic technology prerequisite graph at " .. name)
+    return
+  end
+  if explored[name] or not technologies[name] then return end
+  visiting[name] = true
+  for _, required in pairs(technologies[name].prerequisites or {}) do
+    walk_tech(required)
+  end
+  visiting[name] = nil
+  explored[name] = true
+end
+for name in pairs(manifest.technologies) do walk_tech(name) end
 
 local producers = {}
 for _, kind in ipairs({"assembling-machine", "furnace", "rocket-silo"}) do
@@ -111,4 +147,5 @@ if #failures > 0 then
   for _, msg in ipairs(failures) do log("[TANKS-CI] FAIL " .. msg) end
   error("Tanks for Bob CI data audit detected " .. #failures .. " blocking problems")
 end
+log(string.format("[TANKS-CI] SOURCE_REGISTRY_PASS declared_recipes=%d declared_technologies=%d recipes_missing_unlock=%d", manifest_recipe_count, manifest_tech_count, manifest_missing_unlocks))
 log("[TANKS-CI] DATA_PASS official-mod profile, recipe technology and machine-category registry")
