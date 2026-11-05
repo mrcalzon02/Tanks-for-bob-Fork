@@ -58,7 +58,7 @@ end
 local recipes_without_unlock, no_machine, tank_recipes, tank_missing_unlock = 0, 0, 0, 0
 local category_count = {}
 for name, recipe in pairs(recipes) do
-  local category = recipe.category or "crafting"
+  local category = recipe.category or (recipe.categories and recipe.categories[1]) or "crafting"
   category_count[category] = (category_count[category] or 0) + 1
   if not producers[category] and category ~= "crafting" and category ~= "parameters" then
     no_machine = no_machine + 1

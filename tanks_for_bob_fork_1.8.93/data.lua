@@ -65,6 +65,24 @@ for name, recipe in pairs(data.raw.recipe or {}) do
   end
 end
 
+-- 2.1 merged RecipePrototype.category/additional_categories into categories.
+-- Apply the migration only to recipes introduced by this fork.
+if (mods["base"] or ""):match("^2%.1%.") then
+  for name, recipe in pairs(data.raw.recipe or {}) do
+    if not recipes_before_tanks[name] and
+        (recipe.category or recipe.additional_categories) then
+      local categories = recipe.categories or {}
+      if recipe.category then table.insert(categories, recipe.category) end
+      for _, other in ipairs(recipe.additional_categories or {}) do
+        table.insert(categories, other)
+      end
+      recipe.categories = categories
+      recipe.category = nil
+      recipe.additional_categories = nil
+    end
+  end
+end
+
 require("prototypes.technology.technology")
 require("prototypes.equipment.equipment")
 require("prototypes.fluid.fluid")
