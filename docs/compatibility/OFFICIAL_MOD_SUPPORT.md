@@ -76,3 +76,20 @@ or real multiplayer with multiple connected clients.
 - Factorio official mod metadata: https://lua-api.factorio.com/latest/auxiliary/mod-structure.html
 - CI workflow: https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/workflows/vanilla-factorio.yml
 - Detailed current-state audit: [CURRENT_STATE_AUDIT.md](CURRENT_STATE_AUDIT.md)
+
+
+## Current verified headless compatibility result (2026-11-05)
+
+All **12 of 12** runtime matrix jobs passed against the pinned engines
+2.0.77 and 2.1.23 in:
+https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42133070510
+
+This includes 210 source-declared recipes, 88 source-declared
+technologies, 0 source recipes disabled without a tech unlock,
+and 8 instantiated vehicles per runtime harness. It is a headless proof,
+not a claim of client graphics or complete gameplay correctness.
+
+The original missing high-resolution turret image was subsequently
+restored from a prior package version containing the identical XCF source.
+The current-state audit records the remaining client and progression
+coverage gaps.

@@ -29,6 +29,9 @@ script.on_init(function()
 end)
 
 script.on_nth_tick(300, function(event)
+  -- Factorio may invoke nth-tick handlers at tick zero. Require real
+  -- simulation advancement before claiming a runtime proof.
+  if event.tick < 300 then return end
   local surface = game.surfaces[1]
   if not (surface and surface.valid) then
     error("[TANKS-CI] No valid game surface")

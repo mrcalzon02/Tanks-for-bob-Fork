@@ -12,7 +12,7 @@ system has passed just because the engine can launch.
 ## 1. Repository and source inventory
 
 - Three versioned source folders are present: 1.8.84, 1.8.85, 1.8.93.
-- The 1.8.93 package has 544 files, including 483 PNGs, 33 Lua files,
+- The 1.8.93 package has 545 files, including 484 PNGs, 33 Lua files,
   three XCF source images, six OGG files, 15 locale CFGs and metadata.
 - The literal-require dependency scan finds 25 active/reachable Lua files
   out of 33; the remaining files include migrations and legacy source.
@@ -70,26 +70,26 @@ recipes had `auto_recycle=false` as expected for the three sampled probes.
   recipe category arrays, and renamed product probability property.
 - Added a 12-profile CI matrix and audit artifacts independent of Tech Priests.
 
-### Still open: missing rendered high-resolution tank turret
+### Recovered original high-resolution tank turret
 
-`graphics/entity/tank/hr-tank-turreta.png` is referenced twice in
-`prototypes/entity/vehicles.lua` (near lines 103 and 643), but it is
-absent from the 1.8.93 package. An XCF source with the corresponding
-base name exists; it is **not** a PNG image usable by Factorio at runtime.
-Do not silently substitute another turret image. Export the correct sprite
-and inspect alignment, expected dimensions, masks and animation frames.
+`graphics/entity/tank/hr-tank-turreta.png` was absent from 1.8.93 and
+referenced twice in `prototypes/entity/vehicles.lua`. The exact PNG
+was recovered from the repo's 1.8.84/1.8.85 package tree.
+Its paired XCF file has the **same Git blob SHA** in all three package
+versions, so this is the matching original artwork, not a replacement.
+The static missing-local-artwork gate should now pass.
 
-This single unique path is why the comprehensive static graphics gate
-remains red after the capitalization repairs. Headless launch success
-does not demonstrate that all sprites render correctly.
+### Factorio 2.1: engine-verified, separate package still required
 
-### Factorio 2.1: not yet certified
+All seven official-mod 2.1.23 CI profiles passed headless map creation,
+data validation, simulated ticks, vehicle instantiation and private
+dedicated-server startup in:
+https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42133070510
 
-Factorio 2.1 has breaking prototype schema changes. The compatibility
-matrix tests it using temporary metadata; the checked-in package still
-reports 2.0. Success requires all seven 2.1 profiles to pass before a
-separately tagged 2.1 package is considered ready. Follow the most recent
-CI run rather than assuming the source adaptations above are sufficient.
+The 2.1 jobs update `factorio_version` in a disposable test copy only.
+The committed source 1.8.93 package still declares 2.0. A distinctly
+versioned and verified 2.1 package is required before distribution on
+Factorio 2.1; do not claim it is already published.
 
 ## 4. Functional areas not yet proven
 
@@ -111,15 +111,17 @@ None of the above untested features is implicitly counted as passed.
 
 ## 5. Next acceptance work
 
-1. Finish Factorio 2.1 schema migration and obtain seven green 2.1 runtime
-   jobs. Retain the passing 2.0 matrix unchanged.
-2. Export the missing turret image from source and validate actual sprite
-   sheets, including rendering in a client.
-3. Finish source-manifest-to-runtime checks of all recipe and technology
-   declarations, then identify disabled-but-unlocked or dead-end recipes.
-4. Add deterministic combat, ammo, placement, controls and research
-   progression scenarios, then real multiplayer join/save/rejoin testing.
-5. Only then prepare a separately versioned 2.1 release artifact if desired.
+1. Re-run all 12 tests after restoring the original turret PNG and
+   strengthening the runtime assertion to require tick 300 or later.
+2. Test client-side sprites, turret masks and animations, and verify
+   the matching original PNG renders as expected.
+3. Build and validate a separately versioned Factorio 2.1 artifact;
+   keep the Factorio 2.0 package installable.
+4. Add deterministic firing, damage, ammo, placement, recall/GUI
+   and progression scenarios, followed by real two-client multiplayer.
+5. Consider earlier save migration tests and engine performance under
+   several active tank fleets.
 
 **Workflow:** https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/workflows/vanilla-factorio.yml
-**Current test evidence:** https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42132183969
+
+**12-profile engine baseline:** https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42133070510

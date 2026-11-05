@@ -1,24 +1,35 @@
-# Tanks for Bob: independent vanilla Factorio CI
+# Tanks for Bob — official Factorio matrix
 
-The workflow in .github/workflows/vanilla-factorio.yml loads the highest
-versioned tanks_for_bob_fork_X.Y.Z folder (currently 1.8.93) into a fresh
-Factorio 2.0.77 headless instance with **base + tanks_for_bob_fork only**.
-No Tech Priests, optional or third-party mods are installed.
+This repository runs `.github/workflows/vanilla-factorio.yml` for
+vanilla, Elevated Rails, Quality, Recycler (Factorio 2.1), and Space Age.
+See `docs/compatibility/OFFICIAL_MOD_SUPPORT.md` for the full 12-profile
+matrix and engine-version differences.
 
-The source audit checks package metadata, active literal Lua require paths
-(case-sensitive), local asset references and repeated recipe declarations.
-The game audit injects a data-final-fixes audit into a disposable installed
-copy. It tests technology recipe unlocks, prerequisites, tank recipes,
-vehicle entities and machine support for tank crafting categories.
+A clean isolated mod list contains only the selected official engine mods
+plus `tanks_for_bob_fork`. There are no third-party mod downloads and
+no dependency on Tech Priests.
 
-A deterministic save is created, benchmarked for 1200 genuine ticks,
-tested for vehicle instantiation, and started as a private dedicated server.
-Raw logs and the static JSON audit are retained as workflow artifacts.
-Both jobs run independently, so a static failure does not hide an engine
-loading failure. Runs are triggered by main pushes, pull requests, manual
-dispatch, and a weekly scheduled regression.
+**Testing tools**
 
-Known limitations: this is smoke/prototype testing, not proof of full
-recipe production reachability, multiplayer correctness, driving, combat
-balance, or visual rendering. Disabled tank recipes without technology
-unlocks generate diagnostic warnings rather than a release-blocking fail.
+- `ci/validate_mod.py`: scans latest source package, active Lua requires,
+  210 recipe and 88 technology declarations, assets, dormant files and
+  duplicate definitions. Records JSON artifact even on failure.
+- `ci/stage_profile.py`: creates disposable per-engine test install,
+  exact official allowlist, CI-only Lua harness, and a source manifest.
+  2.1 tests temporarily set `factorio_version` to 2.1 in this staged copy.
+- `ci/data_audit.lua`: verifies declared recipes/technologies are present
+  in Factorio, technology prerequisites, cycles, unlock gaps, crafting
+  categories and recycling guardrails.
+- `ci/runtime_harness.lua`: checks enabled mod profile, runtime vehicle
+  registry and real vehicle instantiation after simulation ticks advance.
+- `ci/server_smoke.py`: boots a real private headless multiplayer server.
+
+CI uploads every test's Factorio create/benchmark/server logs, mod list,
+profile summary and the independent static source audit.
+
+Tests pass at most **smoke-test release criteria**: actual client rendering,
+combat simulation, complete resource/progression reachability and two-client
+join/migration tests still require separate acceptance.
+
+Artifacts and workflow:
+https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/workflows/vanilla-factorio.yml
