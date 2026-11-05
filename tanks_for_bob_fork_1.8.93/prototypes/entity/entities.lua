@@ -663,6 +663,12 @@ stone_water_wheel.fluid_box =
   minimum_temperature = 15
 }
 
+-- Factorio 2.1 removed FluidBox minimum/maximum temperature constraints.
+if (mods["base"] or ""):match("^2%.1%.") then
+  stone_water_wheel.fluid_box.minimum_temperature = nil
+  stone_water_wheel.fluid_box.maximum_temperature = nil
+end
+
 stone_water_wheel.fluid_source_offset = {0, -1}
 stone_water_wheel.tile_width = 1
 stone_water_wheel.tile_height = 1
@@ -745,6 +751,11 @@ BeachPump.fluid_box =
   filter = "water",
   minimum_temperature = 15
 }
+
+if (mods["base"] or ""):match("^2%.1%.") then
+  BeachPump.fluid_box.minimum_temperature = nil
+  BeachPump.fluid_box.maximum_temperature = nil
+end
 
 BeachPump.fluid_source_offset = {0, -1}
 BeachPump.tile_width = 1
