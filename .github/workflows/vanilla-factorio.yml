@@ -57,7 +57,7 @@ jobs:
           cp ci/runtime_harness.lua "$mods/tanks_for_bob_fork/ci_runtime_harness.lua"
           printf '\nrequire("ci_runtime_harness")\n' >> "$mods/tanks_for_bob_fork/control.lua"
           cat > "$mods/mod-list.json" <<'JSON'
-          {"mods":[{"name":"base","enabled":true},{"name":"tanks_for_bob_fork","enabled":true}]}
+          {"mods":[{"name":"base","enabled":true},{"name":"tanks_for_bob_fork","enabled":true},{"name":"space-age","enabled":false},{"name":"quality","enabled":false},{"name":"elevated-rails","enabled":false}]}
           JSON
           echo "Selected mod: $source_dir"
           mkdir -p test-artifacts
@@ -79,6 +79,10 @@ jobs:
               --create "$RUNNER_TEMP/tanks-smoke.zip" --map-gen-seed 907260 \
               > test-artifacts/factorio-create.log 2>&1; then
             tail -n 120 test-artifacts/factorio-create.log
+            exit 1
+          fi
+          if grep -Eq 'Loading mod (space-age|quality|elevated-rails) ' test-artifacts/factorio-create.log; then
+            echo '::error::Bundled Factorio expansion mod leaked into vanilla test'
             exit 1
           fi
           if ! grep -Fq '[TANKS-CI] DATA_PASS' test-artifacts/factorio-create.log; then
