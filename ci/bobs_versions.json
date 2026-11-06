@@ -1,0 +1,26 @@
+{
+  "engine": "2.0.77",
+  "factorio_major": "2.0",
+  "source": "Bobingabout Factorio 2.0 source release metadata; Bob's Locale from Factorio Mod Portal",
+  "mods": {
+    "bobassembly": "2.1.0",
+    "bobclasses": "2.1.0",
+    "bobelectronics": "2.1.1",
+    "bobenemies": "2.1.0",
+    "bobequipment": "2.1.0",
+    "bobgreenhouse": "2.1.0",
+    "bobinserters": "2.0.4",
+    "boblibrary": "2.1.0",
+    "boblocale": "2.0.1",
+    "boblogistics": "2.1.1",
+    "bobmining": "2.1.0",
+    "bobmodules": "2.1.0",
+    "bobores": "2.1.2",
+    "bobplates": "2.1.1",
+    "bobpower": "2.1.0",
+    "bobrevamp": "2.1.1",
+    "bobtech": "2.1.0",
+    "bobvehicleequipment": "2.1.1",
+    "bobwarfare": "2.1.0"
+  }
+}
