@@ -396,3 +396,24 @@ No gameplay changes were made by this audit. Findings and counts are source-logi
 | `super-tank-research` | 4 | `automation-science-pack`, `logistic-science-pack`, `military-science-pack` | 2 | RESEARCH-AT-RISK | [L1542](../../tanks_for_bob_fork_1.8.94/prototypes/technology/technology.lua#L1542) |
 | `super-tank-wmd-authorization` | 3 | `meal`, `board-advisory-risk-assessment` | 0 | RESEARCH-AT-RISK | [L1559](../../tanks_for_bob_fork_1.8.94/prototypes/technology/technology.lua#L1559) |
 | `super-tank-research2` | 3 | `automation-science-pack`, `logistic-science-pack`, `military-science-pack` | 3 | RESEARCH-AT-RISK | [L1574](../../tanks_for_bob_fork_1.8.94/prototypes/technology/technology.lua#L1574) |
+
+## Follow-up implementation in v1.8.95
+
+The original inventory above is a **snapshot of the 1.8.94 problem state**;
+its line references continue to point at the audited version. The next
+version addresses the confirmed mechanical category/port defects:
+
+- `workbench.ingredient_count`: **2 → 3**, allowing all five distinct
+  three-ingredient `Seablock` structure recipes.
+- `cooking-fire`: **north fluid input** for `rendered-organics` and
+  `steam-meal` using its existing `advcooking` category.
+- `tank-ammo-assembling-machine`: **north input / south output** fluid
+  boxes for `Rubberized-timber` and `tank-ammo-industrial-coke`.
+- `ci/recipe_machine_audit.lua`: nine specific regression checks inside
+  the existing single-profile Factorio engine CI job.
+
+The apparent **55-recipe / 39-technology impact** is a conditional
+transitive dependency estimate for the original broken `rendered-organics`
+production path, **not** 55 independent source defects. Repair of the root
+steam-input mismatch removes that modeled blocker, but manual full-graph
+research and factory operation still must be demonstrated.

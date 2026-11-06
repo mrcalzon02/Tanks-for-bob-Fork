@@ -2,7 +2,24 @@
 
 A Factorio tank and vehicle expansion originally created to provide stronger firepower against large biter hordes. The fork includes specialized tanks, guns, ammunition, and substantial intermediate-product and technology chains.
 
-**Current version:** `tanks_for_bob_fork_1.8.94.zip` — Factorio **2.0** target, with base game required and official expansion modules optional. [GitHub release](https://github.com/mrcalzon02/Tanks-for-bob-Fork/releases/tag/v1.8.94).
+**Current version:** `tanks_for_bob_fork_1.8.95.zip` — Factorio **2.0** target, with base game required and official expansion modules optional. [GitHub release](https://github.com/mrcalzon02/Tanks-for-bob-Fork/releases/tag/v1.8.95).
+
+## 1.8.95 recipe-chain repairs and model development
+
+The island-survival production chain now has mechanical fixes for **five
+early three-ingredient Workbench recipes** and **two steam-based Cooking Fire
+recipes**. The specialized ammunition assembler also has **input and output
+fluid connections**. These repairs preserve the existing research
+prerequisites and recipe costs.
+
+A new [21-structure primitive 3D model library](models/island-survival/README.md)
+includes editable **Wavefront OBJ geometry, materials, and sprite links**.
+These are source-controlled visual-comparison models, **not in-game sprite
+replacements**. Their primitive proportions must be checked against the
+existing art before visual approval.
+
+[See the logical audit and follow-up](docs/compatibility/RECIPE_TECH_LOGICAL_AUDIT.md)
+for what was fixed and what still requires manual playtesting.
 
 ## Official Factorio compatibility — verified November 5, 2026
 
@@ -71,15 +88,15 @@ Previously, [12 Factorio 2.0/2.1 profiles passed](https://github.com/mrcalzon02/
 - [Official modules: full matrix, test method, version caveats](docs/compatibility/OFFICIAL_MOD_SUPPORT.md)
 - [Current-state source and functionality audit](docs/compatibility/CURRENT_STATE_AUDIT.md)
 - [Reusable CI workflow](.github/workflows/vanilla-factorio.yml)
-- [Release notes](docs/releases/v1.8.94.md)
+- [Release notes](docs/releases/v1.8.95.md)
 
 ## Factorio Mod Portal distribution
 
-Version **1.8.94** is built and uploaded to the [Factorio Mod Portal](https://mods.factorio.com/mod/tanks_for_bob_fork) by the same **single** CI job after the full official-expansion Factorio 2.0.77 smoke test passes. Uploads require the private GitHub Actions secret `FACTORIO_MOD_UPLOAD_KEY`. Existing published versions are never overwritten.
+Version **1.8.95** is built and uploaded to the [Factorio Mod Portal](https://mods.factorio.com/mod/tanks_for_bob_fork) by the same **single** CI job after the full official-expansion Factorio 2.0.77 smoke test passes. Uploads require the private GitHub Actions secret `FACTORIO_MOD_UPLOAD_KEY`. Existing published versions are never overwritten.
 
 ## Installing
 
-Download **`tanks_for_bob_fork_1.8.94.zip`** from the GitHub release and place it in Factorio's `mods` directory without unpacking it. For this package use Factorio 2.0 and enable the fork alongside `base`; Elevated Rails, Quality, and Space Age remain optional. A corresponding SHA-256 checksum is published with the ZIP.
+Download **`tanks_for_bob_fork_1.8.95.zip`** from the GitHub release and place it in Factorio's `mods` directory without unpacking it. For this package use Factorio 2.0 and enable the fork alongside `base`; Elevated Rails, Quality, and Space Age remain optional. A corresponding SHA-256 checksum is published with the ZIP.
 
 ## Background
 

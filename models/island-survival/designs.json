@@ -1,0 +1,2709 @@
+{
+  "format_version": 1,
+  "unit": "Factorio world tile (rough nominal scale)",
+  "axis": "X east, Y north, Z up",
+  "intent": "Primitive 3D greybox comparison meshes; preserve sprite sources, not direct in-game replacements",
+  "format": "Wavefront OBJ + shared MTL",
+  "materials": {
+    "wood": [
+      0.44,
+      0.29,
+      0.15
+    ],
+    "wood_dark": [
+      0.26,
+      0.15,
+      0.09
+    ],
+    "stone": [
+      0.55,
+      0.54,
+      0.5
+    ],
+    "stone_dark": [
+      0.35,
+      0.35,
+      0.36
+    ],
+    "iron": [
+      0.5,
+      0.55,
+      0.57
+    ],
+    "iron_dark": [
+      0.24,
+      0.29,
+      0.32
+    ],
+    "copper": [
+      0.69,
+      0.39,
+      0.19
+    ],
+    "pipe": [
+      0.36,
+      0.4,
+      0.42
+    ],
+    "soil": [
+      0.36,
+      0.25,
+      0.15
+    ],
+    "clay": [
+      0.59,
+      0.35,
+      0.23
+    ],
+    "clay_wet": [
+      0.34,
+      0.27,
+      0.22
+    ],
+    "water": [
+      0.17,
+      0.43,
+      0.63
+    ],
+    "brick": [
+      0.58,
+      0.29,
+      0.22
+    ],
+    "thatch": [
+      0.68,
+      0.57,
+      0.3
+    ],
+    "glass_blue": [
+      0.19,
+      0.5,
+      0.64
+    ],
+    "foliage": [
+      0.27,
+      0.48,
+      0.22
+    ],
+    "fire": [
+      0.9,
+      0.38,
+      0.07
+    ],
+    "fire_bright": [
+      1,
+      0.7,
+      0.18
+    ],
+    "ash": [
+      0.25,
+      0.24,
+      0.22
+    ],
+    "coal": [
+      0.12,
+      0.12,
+      0.13
+    ],
+    "fish": [
+      0.66,
+      0.65,
+      0.36
+    ]
+  },
+  "models": [
+    {
+      "id": "beachpump",
+      "stage": "water",
+      "footprint": [
+        2,
+        2
+      ],
+      "sprite": "graphics/icons/beachpump.png",
+      "notes": "Primitive hand pump, timber plinth and low-pressure outlet; icon used as reference (base offshore pump clone).",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "stone_footing",
+          "at": [
+            0,
+            0,
+            0.14
+          ],
+          "size": [
+            1.85,
+            1.85,
+            0.28
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "box",
+          "label": "wood_platform",
+          "at": [
+            0,
+            0,
+            0.33
+          ],
+          "size": [
+            1.6,
+            1.4,
+            0.17
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "cylinder",
+          "label": "pump_column",
+          "at": [
+            0,
+            0,
+            0.82
+          ],
+          "r": 0.18,
+          "h": 0.88,
+          "mat": "iron",
+          "axis": "z"
+        },
+        {
+          "shape": "cylinder",
+          "label": "water_pipe",
+          "at": [
+            0.52,
+            0,
+            0.54
+          ],
+          "r": 0.14,
+          "h": 1.2,
+          "mat": "pipe",
+          "axis": "x"
+        },
+        {
+          "shape": "beam",
+          "label": "hand_pump_lever",
+          "p0": [
+            -0.05,
+            0,
+            1.36
+          ],
+          "p1": [
+            0.83,
+            0,
+            1.53
+          ],
+          "width": 0.13,
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "cylinder",
+          "label": "valve_knob",
+          "at": [
+            0.83,
+            0,
+            1.53
+          ],
+          "r": 0.14,
+          "h": 0.1,
+          "mat": "copper",
+          "axis": "z"
+        }
+      ]
+    },
+    {
+      "id": "wood-basin",
+      "stage": "water",
+      "footprint": [
+        2,
+        2
+      ],
+      "sprite": "graphics/entity/wood-basin/storage-tank.png",
+      "notes": "Open timber cistern with visible water and plank staves.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "floor",
+          "at": [
+            0,
+            0,
+            0.2
+          ],
+          "size": [
+            1.8,
+            1.8,
+            0.2
+          ],
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "box",
+          "label": "north_wall",
+          "at": [
+            0,
+            0.83,
+            0.66
+          ],
+          "size": [
+            1.85,
+            0.18,
+            0.75
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "south_wall",
+          "at": [
+            0,
+            -0.83,
+            0.66
+          ],
+          "size": [
+            1.85,
+            0.18,
+            0.75
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "west_wall",
+          "at": [
+            -0.83,
+            0,
+            0.66
+          ],
+          "size": [
+            0.18,
+            1.65,
+            0.75
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "east_wall",
+          "at": [
+            0.83,
+            0,
+            0.66
+          ],
+          "size": [
+            0.18,
+            1.65,
+            0.75
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "water",
+          "at": [
+            0,
+            0,
+            0.58
+          ],
+          "size": [
+            1.5,
+            1.5,
+            0.035
+          ],
+          "mat": "water"
+        },
+        {
+          "shape": "box",
+          "label": "stave_-0.68_-0.68",
+          "at": [
+            -0.68,
+            -0.68,
+            0.55
+          ],
+          "size": [
+            0.16,
+            0.16,
+            1
+          ],
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "box",
+          "label": "stave_-0.68_0.68",
+          "at": [
+            -0.68,
+            0.68,
+            0.55
+          ],
+          "size": [
+            0.16,
+            0.16,
+            1
+          ],
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "box",
+          "label": "stave_0.68_-0.68",
+          "at": [
+            0.68,
+            -0.68,
+            0.55
+          ],
+          "size": [
+            0.16,
+            0.16,
+            1
+          ],
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "box",
+          "label": "stave_0.68_0.68",
+          "at": [
+            0.68,
+            0.68,
+            0.55
+          ],
+          "size": [
+            0.16,
+            0.16,
+            1
+          ],
+          "mat": "wood_dark"
+        }
+      ]
+    },
+    {
+      "id": "stone-water-wheel",
+      "stage": "water",
+      "footprint": [
+        2,
+        3
+      ],
+      "sprite": "graphics/icons/stone-water-wheel.png",
+      "notes": "Vertical spoke wheel, stone supports, downstream water channel.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "base",
+          "at": [
+            0,
+            0,
+            0.13
+          ],
+          "size": [
+            2,
+            2.7,
+            0.26
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "box",
+          "label": "left_pier",
+          "at": [
+            -0.73,
+            0,
+            0.78
+          ],
+          "size": [
+            0.36,
+            0.56,
+            1.28
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "box",
+          "label": "right_pier",
+          "at": [
+            0.73,
+            0,
+            0.78
+          ],
+          "size": [
+            0.36,
+            0.56,
+            1.28
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "ring",
+          "label": "wheel_rim",
+          "at": [
+            0,
+            0,
+            1.22
+          ],
+          "outer": 0.92,
+          "inner": 0.76,
+          "h": 0.18,
+          "mat": "wood_dark",
+          "axis": "y"
+        },
+        {
+          "shape": "cylinder",
+          "label": "hub",
+          "at": [
+            0,
+            0,
+            1.22
+          ],
+          "r": 0.22,
+          "h": 0.6,
+          "mat": "iron",
+          "axis": "y"
+        },
+        {
+          "shape": "beam",
+          "label": "spoke_horizontal",
+          "p0": [
+            -0.77,
+            0,
+            1.22
+          ],
+          "p1": [
+            0.77,
+            0,
+            1.22
+          ],
+          "width": 0.14,
+          "mat": "wood"
+        },
+        {
+          "shape": "beam",
+          "label": "spoke_vertical",
+          "p0": [
+            0,
+            0,
+            0.45
+          ],
+          "p1": [
+            0,
+            0,
+            1.99
+          ],
+          "width": 0.14,
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "wheel_paddle_-0.7_-0.48",
+          "at": [
+            -0.7,
+            0,
+            0.74
+          ],
+          "size": [
+            0.31,
+            0.5,
+            0.12
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "wheel_paddle_-0.7_0.48",
+          "at": [
+            -0.7,
+            0,
+            1.7
+          ],
+          "size": [
+            0.31,
+            0.5,
+            0.12
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "wheel_paddle_0.7_-0.48",
+          "at": [
+            0.7,
+            0,
+            0.74
+          ],
+          "size": [
+            0.31,
+            0.5,
+            0.12
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "wheel_paddle_0.7_0.48",
+          "at": [
+            0.7,
+            0,
+            1.7
+          ],
+          "size": [
+            0.31,
+            0.5,
+            0.12
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "canal",
+          "at": [
+            0,
+            0,
+            0.1
+          ],
+          "size": [
+            1.6,
+            2.3,
+            0.04
+          ],
+          "mat": "water"
+        }
+      ]
+    },
+    {
+      "id": "solar-boiler",
+      "stage": "water",
+      "footprint": [
+        3,
+        2
+      ],
+      "sprite": "graphics/icons/solar-boiler.png",
+      "notes": "Stone-base solar-heated steam vessel with separate output pipe.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "boiler_foundation",
+          "at": [
+            0,
+            0,
+            0.18
+          ],
+          "size": [
+            2.8,
+            1.9,
+            0.36
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "cylinder",
+          "label": "boiler_cylinder",
+          "at": [
+            0,
+            0,
+            0.93
+          ],
+          "r": 0.55,
+          "h": 2.25,
+          "mat": "iron",
+          "axis": "x"
+        },
+        {
+          "shape": "cylinder",
+          "label": "end_cap_left",
+          "at": [
+            -1.18,
+            0,
+            0.93
+          ],
+          "r": 0.56,
+          "h": 0.12,
+          "mat": "copper",
+          "axis": "x"
+        },
+        {
+          "shape": "cylinder",
+          "label": "end_cap_right",
+          "at": [
+            1.18,
+            0,
+            0.93
+          ],
+          "r": 0.56,
+          "h": 0.12,
+          "mat": "copper",
+          "axis": "x"
+        },
+        {
+          "shape": "box",
+          "label": "solar_thermal_collector",
+          "at": [
+            0,
+            -0.72,
+            1.12
+          ],
+          "size": [
+            2.35,
+            0.45,
+            0.11
+          ],
+          "mat": "glass_blue"
+        },
+        {
+          "shape": "cylinder",
+          "label": "steam_vent",
+          "at": [
+            0.88,
+            0.26,
+            1.64
+          ],
+          "r": 0.13,
+          "h": 0.75,
+          "mat": "pipe",
+          "axis": "z"
+        }
+      ]
+    },
+    {
+      "id": "primitive-steam-powered-pump",
+      "stage": "water",
+      "footprint": [
+        1,
+        2
+      ],
+      "sprite": "graphics/icons/primitive-steam-powered-pump.png",
+      "notes": "Narrow mechanical pump based on in-game pump footprint.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "footplate",
+          "at": [
+            0,
+            0,
+            0.11
+          ],
+          "size": [
+            0.88,
+            1.82,
+            0.22
+          ],
+          "mat": "iron"
+        },
+        {
+          "shape": "cylinder",
+          "label": "pump_body",
+          "at": [
+            0,
+            0,
+            0.55
+          ],
+          "r": 0.28,
+          "h": 0.77,
+          "mat": "copper",
+          "axis": "z"
+        },
+        {
+          "shape": "cylinder",
+          "label": "inlet_pipe",
+          "at": [
+            0,
+            -0.7,
+            0.35
+          ],
+          "r": 0.19,
+          "h": 0.65,
+          "mat": "pipe",
+          "axis": "y"
+        },
+        {
+          "shape": "cylinder",
+          "label": "outlet_pipe",
+          "at": [
+            0,
+            0.7,
+            0.35
+          ],
+          "r": 0.19,
+          "h": 0.65,
+          "mat": "pipe",
+          "axis": "y"
+        },
+        {
+          "shape": "beam",
+          "label": "piston_arm",
+          "p0": [
+            -0.32,
+            0.02,
+            0.9
+          ],
+          "p1": [
+            0.32,
+            0.02,
+            1.22
+          ],
+          "width": 0.15,
+          "mat": "iron"
+        },
+        {
+          "shape": "cylinder",
+          "label": "valve",
+          "at": [
+            0.12,
+            0,
+            1.18
+          ],
+          "r": 0.17,
+          "h": 0.13,
+          "mat": "iron",
+          "axis": "z"
+        }
+      ]
+    },
+    {
+      "id": "steam-condenser",
+      "stage": "water",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/steam-condenser.png",
+      "notes": "Cooling tower and coils, with intake and condensation basin.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "base",
+          "at": [
+            0,
+            0,
+            0.15
+          ],
+          "size": [
+            2.7,
+            2.7,
+            0.3
+          ],
+          "mat": "stone_dark"
+        },
+        {
+          "shape": "cylinder",
+          "label": "cooling_tower",
+          "at": [
+            0,
+            0,
+            1.02
+          ],
+          "r": 0.67,
+          "h": 1.6,
+          "mat": "iron",
+          "axis": "z"
+        },
+        {
+          "shape": "cone",
+          "label": "funnel",
+          "at": [
+            0,
+            0,
+            1.94
+          ],
+          "r": 0.82,
+          "h": 0.42,
+          "mat": "copper",
+          "axis": "z"
+        },
+        {
+          "shape": "cylinder",
+          "label": "upper_steam_pipe",
+          "at": [
+            0.72,
+            0,
+            1.7
+          ],
+          "r": 0.15,
+          "h": 0.9,
+          "mat": "pipe",
+          "axis": "x"
+        },
+        {
+          "shape": "cylinder",
+          "label": "condensate_outlet",
+          "at": [
+            -0.82,
+            0,
+            0.43
+          ],
+          "r": 0.15,
+          "h": 0.85,
+          "mat": "pipe",
+          "axis": "x"
+        },
+        {
+          "shape": "cylinder",
+          "label": "coil_0",
+          "at": [
+            -0.6,
+            -0.65,
+            1.03
+          ],
+          "r": 0.07,
+          "h": 1.2,
+          "mat": "copper",
+          "axis": "x"
+        },
+        {
+          "shape": "cylinder",
+          "label": "coil_1",
+          "at": [
+            -0.2,
+            -0.65,
+            1.03
+          ],
+          "r": 0.07,
+          "h": 1.2,
+          "mat": "copper",
+          "axis": "x"
+        },
+        {
+          "shape": "cylinder",
+          "label": "coil_2",
+          "at": [
+            0.2,
+            -0.65,
+            1.03
+          ],
+          "r": 0.07,
+          "h": 1.2,
+          "mat": "copper",
+          "axis": "x"
+        },
+        {
+          "shape": "cylinder",
+          "label": "coil_3",
+          "at": [
+            0.6,
+            -0.65,
+            1.03
+          ],
+          "r": 0.07,
+          "h": 1.2,
+          "mat": "copper",
+          "axis": "x"
+        },
+        {
+          "shape": "box",
+          "label": "collection_tray",
+          "at": [
+            0,
+            0.88,
+            0.3
+          ],
+          "size": [
+            1.9,
+            0.55,
+            0.18
+          ],
+          "mat": "water"
+        }
+      ]
+    },
+    {
+      "id": "calcifier",
+      "stage": "minerals",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/calcifier.png",
+      "notes": "Primitive rotary mineral furnace with upper lime hopper.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "base",
+          "at": [
+            0,
+            0,
+            0.18
+          ],
+          "size": [
+            2.7,
+            2.7,
+            0.36
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "cylinder",
+          "label": "kiln_drum",
+          "at": [
+            0,
+            0,
+            1.06
+          ],
+          "r": 0.78,
+          "h": 1.35,
+          "mat": "brick",
+          "axis": "z"
+        },
+        {
+          "shape": "cone",
+          "label": "mineral_hopper",
+          "at": [
+            0,
+            0,
+            1.96
+          ],
+          "r": 0.8,
+          "h": 0.62,
+          "mat": "iron",
+          "axis": "z"
+        },
+        {
+          "shape": "box",
+          "label": "furnace_door",
+          "at": [
+            0,
+            -0.76,
+            0.64
+          ],
+          "size": [
+            0.64,
+            0.15,
+            0.69
+          ],
+          "mat": "iron_dark"
+        },
+        {
+          "shape": "cylinder",
+          "label": "exhaust",
+          "at": [
+            0.65,
+            0.45,
+            2.16
+          ],
+          "r": 0.18,
+          "h": 0.96,
+          "mat": "pipe",
+          "axis": "z"
+        },
+        {
+          "shape": "box",
+          "label": "coal_rake",
+          "at": [
+            1.02,
+            -0.65,
+            0.24
+          ],
+          "size": [
+            0.44,
+            0.28,
+            0.18
+          ],
+          "mat": "coal"
+        }
+      ]
+    },
+    {
+      "id": "shaler",
+      "stage": "minerals",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/shaler.png",
+      "notes": "Rough stone-crushing pair of jaws and two discharge chutes.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "stone_base",
+          "at": [
+            0,
+            0,
+            0.19
+          ],
+          "size": [
+            2.8,
+            2.8,
+            0.38
+          ],
+          "mat": "stone_dark"
+        },
+        {
+          "shape": "box",
+          "label": "crusher_body",
+          "at": [
+            0,
+            0,
+            1
+          ],
+          "size": [
+            1.9,
+            1.6,
+            1.15
+          ],
+          "mat": "iron"
+        },
+        {
+          "shape": "box",
+          "label": "jaw_left",
+          "at": [
+            -0.4,
+            -0.85,
+            1.14
+          ],
+          "size": [
+            0.32,
+            0.3,
+            1.35
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "box",
+          "label": "jaw_right",
+          "at": [
+            0.4,
+            -0.85,
+            1.14
+          ],
+          "size": [
+            0.32,
+            0.3,
+            1.35
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "cone",
+          "label": "raw_feed_hopper",
+          "at": [
+            0,
+            0.14,
+            1.88
+          ],
+          "r": 0.78,
+          "h": 0.69,
+          "mat": "iron_dark",
+          "axis": "z"
+        },
+        {
+          "shape": "box",
+          "label": "ore_chute",
+          "at": [
+            0,
+            -1,
+            0.47
+          ],
+          "size": [
+            0.8,
+            0.65,
+            0.19
+          ],
+          "mat": "copper"
+        }
+      ]
+    },
+    {
+      "id": "growing-plot",
+      "stage": "wood",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/growing-plot/growing-plot.png",
+      "notes": "Raised timber garden grid with seedlings, deliberately PSX-low-poly.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "plot_base",
+          "at": [
+            0,
+            0,
+            0.13
+          ],
+          "size": [
+            2.8,
+            2.8,
+            0.26
+          ],
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "box",
+          "label": "soil",
+          "at": [
+            0,
+            0,
+            0.27
+          ],
+          "size": [
+            2.5,
+            2.5,
+            0.13
+          ],
+          "mat": "soil"
+        },
+        {
+          "shape": "box",
+          "label": "edge_0_0",
+          "at": [
+            -1.3,
+            -1.3,
+            0.37
+          ],
+          "size": [
+            0.18,
+            0.18,
+            0.34
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "edge_0_1",
+          "at": [
+            -1.3,
+            1.3,
+            0.37
+          ],
+          "size": [
+            0.18,
+            0.18,
+            0.34
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "edge_1_0",
+          "at": [
+            1.3,
+            -1.3,
+            0.37
+          ],
+          "size": [
+            0.18,
+            0.18,
+            0.34
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "edge_1_1",
+          "at": [
+            1.3,
+            1.3,
+            0.37
+          ],
+          "size": [
+            0.18,
+            0.18,
+            0.34
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "cone",
+          "label": "sprout_0_0",
+          "at": [
+            -0.8,
+            -0.6,
+            0.56
+          ],
+          "r": 0.14,
+          "h": 0.52,
+          "mat": "foliage",
+          "axis": "z"
+        },
+        {
+          "shape": "cone",
+          "label": "sprout_0_1",
+          "at": [
+            -0.8,
+            0.6,
+            0.56
+          ],
+          "r": 0.14,
+          "h": 0.52,
+          "mat": "foliage",
+          "axis": "z"
+        },
+        {
+          "shape": "cone",
+          "label": "sprout_1_0",
+          "at": [
+            0,
+            -0.6,
+            0.56
+          ],
+          "r": 0.14,
+          "h": 0.52,
+          "mat": "foliage",
+          "axis": "z"
+        },
+        {
+          "shape": "cone",
+          "label": "sprout_1_1",
+          "at": [
+            0,
+            0.6,
+            0.56
+          ],
+          "r": 0.14,
+          "h": 0.52,
+          "mat": "foliage",
+          "axis": "z"
+        },
+        {
+          "shape": "cone",
+          "label": "sprout_2_0",
+          "at": [
+            0.8,
+            -0.6,
+            0.56
+          ],
+          "r": 0.14,
+          "h": 0.52,
+          "mat": "foliage",
+          "axis": "z"
+        },
+        {
+          "shape": "cone",
+          "label": "sprout_2_1",
+          "at": [
+            0.8,
+            0.6,
+            0.56
+          ],
+          "r": 0.14,
+          "h": 0.52,
+          "mat": "foliage",
+          "axis": "z"
+        }
+      ]
+    },
+    {
+      "id": "campfire",
+      "stage": "wood",
+      "footprint": [
+        2,
+        2
+      ],
+      "sprite": "graphics/entity/campfire.png",
+      "notes": "Stone-ringed hand fire and crossed logs.",
+      "parts": [
+        {
+          "shape": "ring",
+          "label": "stone_fire_ring",
+          "at": [
+            0,
+            0,
+            0.17
+          ],
+          "outer": 0.8,
+          "inner": 0.5,
+          "h": 0.3,
+          "mat": "stone",
+          "axis": "z"
+        },
+        {
+          "shape": "box",
+          "label": "ash_bed",
+          "at": [
+            0,
+            0,
+            0.045
+          ],
+          "size": [
+            0.78,
+            0.78,
+            0.09
+          ],
+          "mat": "ash"
+        },
+        {
+          "shape": "beam",
+          "label": "log_a",
+          "p0": [
+            -0.64,
+            -0.4,
+            0.29
+          ],
+          "p1": [
+            0.65,
+            0.4,
+            0.29
+          ],
+          "width": 0.24,
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "beam",
+          "label": "log_b",
+          "p0": [
+            -0.64,
+            0.4,
+            0.32
+          ],
+          "p1": [
+            0.64,
+            -0.4,
+            0.32
+          ],
+          "width": 0.24,
+          "mat": "wood"
+        },
+        {
+          "shape": "cone",
+          "label": "fire_outer",
+          "at": [
+            0,
+            0,
+            0.76
+          ],
+          "r": 0.31,
+          "h": 0.92,
+          "mat": "fire",
+          "axis": "z"
+        },
+        {
+          "shape": "cone",
+          "label": "fire_core",
+          "at": [
+            0,
+            0,
+            0.76
+          ],
+          "r": 0.14,
+          "h": 0.72,
+          "mat": "fire_bright",
+          "axis": "z"
+        }
+      ]
+    },
+    {
+      "id": "cooking-fire",
+      "stage": "wood",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/cooking-fire.png",
+      "notes": "Furnace hearth with a steam inlet on north; matches updated machine port.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "stone_hearth",
+          "at": [
+            0,
+            0,
+            0.28
+          ],
+          "size": [
+            2.45,
+            2.45,
+            0.55
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "box",
+          "label": "mouth",
+          "at": [
+            0,
+            -1.2,
+            0.51
+          ],
+          "size": [
+            0.9,
+            0.13,
+            0.76
+          ],
+          "mat": "iron_dark"
+        },
+        {
+          "shape": "cone",
+          "label": "flames",
+          "at": [
+            0,
+            -0.6,
+            0.67
+          ],
+          "r": 0.26,
+          "h": 0.76,
+          "mat": "fire",
+          "axis": "z"
+        },
+        {
+          "shape": "cylinder",
+          "label": "cauldron",
+          "at": [
+            0,
+            0.22,
+            1.19
+          ],
+          "r": 0.55,
+          "h": 0.95,
+          "mat": "iron",
+          "axis": "z"
+        },
+        {
+          "shape": "ring",
+          "label": "rim",
+          "at": [
+            0,
+            0.22,
+            1.72
+          ],
+          "outer": 0.58,
+          "inner": 0.48,
+          "h": 0.12,
+          "mat": "iron_dark",
+          "axis": "z"
+        },
+        {
+          "shape": "cylinder",
+          "label": "steam_north_port",
+          "at": [
+            0,
+            1.12,
+            0.43
+          ],
+          "r": 0.15,
+          "h": 0.83,
+          "mat": "pipe",
+          "axis": "y"
+        },
+        {
+          "shape": "cylinder",
+          "label": "chimney",
+          "at": [
+            0.75,
+            0.65,
+            2.06
+          ],
+          "r": 0.23,
+          "h": 1.18,
+          "mat": "brick",
+          "axis": "z"
+        }
+      ]
+    },
+    {
+      "id": "clay-pit",
+      "stage": "clay",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/clay-pit.png",
+      "notes": "Excavated wet clay basin with crude timber edge and water intake.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "ground_base",
+          "at": [
+            0,
+            0,
+            0.12
+          ],
+          "size": [
+            2.85,
+            2.85,
+            0.24
+          ],
+          "mat": "soil"
+        },
+        {
+          "shape": "ring",
+          "label": "excavated_lip",
+          "at": [
+            0,
+            0,
+            0.38
+          ],
+          "outer": 1.18,
+          "inner": 0.85,
+          "h": 0.48,
+          "mat": "clay",
+          "axis": "z"
+        },
+        {
+          "shape": "cylinder",
+          "label": "mud_puddle",
+          "at": [
+            0,
+            0,
+            0.18
+          ],
+          "r": 0.79,
+          "h": 0.035,
+          "mat": "clay_wet",
+          "axis": "z"
+        },
+        {
+          "shape": "box",
+          "label": "clay_heap",
+          "at": [
+            0.76,
+            0.32,
+            0.49
+          ],
+          "size": [
+            0.53,
+            0.56,
+            0.34
+          ],
+          "mat": "clay"
+        },
+        {
+          "shape": "beam",
+          "label": "shovel_handle",
+          "p0": [
+            -1.06,
+            -0.9,
+            0.25
+          ],
+          "p1": [
+            -0.45,
+            -0.31,
+            1.4
+          ],
+          "width": 0.09,
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "water_feed",
+          "at": [
+            0,
+            1.3,
+            0.23
+          ],
+          "size": [
+            0.45,
+            0.65,
+            0.15
+          ],
+          "mat": "pipe"
+        }
+      ]
+    },
+    {
+      "id": "fish-pond",
+      "stage": "clay",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/fish-pond.png",
+      "notes": "Stony berm, shallow water, two stylized fish silhouettes and reeds.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "earth_foundation",
+          "at": [
+            0,
+            0,
+            0.14
+          ],
+          "size": [
+            2.85,
+            2.85,
+            0.28
+          ],
+          "mat": "soil"
+        },
+        {
+          "shape": "ring",
+          "label": "stone_embankment",
+          "at": [
+            0,
+            0,
+            0.39
+          ],
+          "outer": 1.28,
+          "inner": 0.96,
+          "h": 0.47,
+          "mat": "stone",
+          "axis": "z"
+        },
+        {
+          "shape": "cylinder",
+          "label": "pond_water",
+          "at": [
+            0,
+            0,
+            0.26
+          ],
+          "r": 0.95,
+          "h": 0.035,
+          "mat": "water",
+          "axis": "z"
+        },
+        {
+          "shape": "box",
+          "label": "fish_a",
+          "at": [
+            -0.43,
+            0.1,
+            0.31
+          ],
+          "size": [
+            0.4,
+            0.14,
+            0.055
+          ],
+          "mat": "fish"
+        },
+        {
+          "shape": "box",
+          "label": "fish_b",
+          "at": [
+            0.42,
+            -0.34,
+            0.32
+          ],
+          "size": [
+            0.32,
+            0.12,
+            0.05
+          ],
+          "mat": "fish"
+        },
+        {
+          "shape": "cone",
+          "label": "reed_0",
+          "at": [
+            -1.03,
+            0.28,
+            0.66
+          ],
+          "r": 0.08,
+          "h": 0.71,
+          "mat": "foliage",
+          "axis": "z"
+        },
+        {
+          "shape": "cone",
+          "label": "reed_1",
+          "at": [
+            1.03,
+            0.28,
+            0.66
+          ],
+          "r": 0.08,
+          "h": 0.71,
+          "mat": "foliage",
+          "axis": "z"
+        }
+      ]
+    },
+    {
+      "id": "pit-kiln",
+      "stage": "clay",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/pit-kiln.png",
+      "notes": "Circular brick charcoal kiln, front loading mouth and short vent.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "foundation",
+          "at": [
+            0,
+            0,
+            0.15
+          ],
+          "size": [
+            2.55,
+            2.55,
+            0.3
+          ],
+          "mat": "stone_dark"
+        },
+        {
+          "shape": "cylinder",
+          "label": "kiln_brickwork",
+          "at": [
+            0,
+            0,
+            0.96
+          ],
+          "r": 0.99,
+          "h": 1.55,
+          "mat": "brick",
+          "axis": "z"
+        },
+        {
+          "shape": "cone",
+          "label": "domed_cap",
+          "at": [
+            0,
+            0,
+            1.93
+          ],
+          "r": 1.02,
+          "h": 0.52,
+          "mat": "brick",
+          "axis": "z"
+        },
+        {
+          "shape": "box",
+          "label": "kiln_mouth",
+          "at": [
+            0,
+            -1,
+            0.5
+          ],
+          "size": [
+            0.89,
+            0.1,
+            0.81
+          ],
+          "mat": "iron_dark"
+        },
+        {
+          "shape": "box",
+          "label": "embers",
+          "at": [
+            0,
+            -1,
+            0.19
+          ],
+          "size": [
+            0.65,
+            0.12,
+            0.2
+          ],
+          "mat": "fire_bright"
+        },
+        {
+          "shape": "cylinder",
+          "label": "smoke_pipe",
+          "at": [
+            0.56,
+            0.46,
+            2.36
+          ],
+          "r": 0.18,
+          "h": 0.71,
+          "mat": "iron",
+          "axis": "z"
+        }
+      ]
+    },
+    {
+      "id": "quarry",
+      "stage": "minerals",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/quarry/quarry.png",
+      "notes": "Terraced stone-cutting pit with hand timber hoist and rough extracted blocks.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "base_stone",
+          "at": [
+            0,
+            0,
+            0.16
+          ],
+          "size": [
+            2.9,
+            2.9,
+            0.32
+          ],
+          "mat": "stone_dark"
+        },
+        {
+          "shape": "box",
+          "label": "cut_face_north",
+          "at": [
+            0,
+            1.08,
+            0.65
+          ],
+          "size": [
+            2.55,
+            0.67,
+            0.97
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "box",
+          "label": "cut_face_east",
+          "at": [
+            1.1,
+            0,
+            0.52
+          ],
+          "size": [
+            0.67,
+            2.36,
+            0.72
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "box",
+          "label": "excavation_floor",
+          "at": [
+            -0.35,
+            -0.4,
+            0.35
+          ],
+          "size": [
+            1.95,
+            1.78,
+            0.16
+          ],
+          "mat": "soil"
+        },
+        {
+          "shape": "box",
+          "label": "quarried_block_a",
+          "at": [
+            -0.67,
+            -0.54,
+            0.66
+          ],
+          "size": [
+            0.65,
+            0.71,
+            0.52
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "box",
+          "label": "quarried_block_b",
+          "at": [
+            0.1,
+            -0.8,
+            0.51
+          ],
+          "size": [
+            0.43,
+            0.42,
+            0.34
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "beam",
+          "label": "a_frame_left",
+          "p0": [
+            -0.9,
+            0.5,
+            0.3
+          ],
+          "p1": [
+            0,
+            0.6,
+            2.11
+          ],
+          "width": 0.17,
+          "mat": "wood"
+        },
+        {
+          "shape": "beam",
+          "label": "a_frame_right",
+          "p0": [
+            0.9,
+            0.5,
+            0.3
+          ],
+          "p1": [
+            0,
+            0.6,
+            2.11
+          ],
+          "width": 0.17,
+          "mat": "wood"
+        },
+        {
+          "shape": "cylinder",
+          "label": "hoist_roller",
+          "at": [
+            0,
+            0.59,
+            1.96
+          ],
+          "r": 0.23,
+          "h": 0.58,
+          "mat": "wood_dark",
+          "axis": "x"
+        }
+      ]
+    },
+    {
+      "id": "workbench",
+      "stage": "wood",
+      "footprint": [
+        2,
+        2
+      ],
+      "sprite": "graphics/entity/workbench/workbench.png",
+      "notes": "Four-legged open timber table, small iron vice and hand tool.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "tabletop",
+          "at": [
+            0,
+            0,
+            1.05
+          ],
+          "size": [
+            1.8,
+            1.1,
+            0.19
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "box",
+          "label": "leg_-0.7_-0.39",
+          "at": [
+            -0.7,
+            -0.39,
+            0.52
+          ],
+          "size": [
+            0.16,
+            0.16,
+            1
+          ],
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "box",
+          "label": "leg_-0.7_0.39",
+          "at": [
+            -0.7,
+            0.39,
+            0.52
+          ],
+          "size": [
+            0.16,
+            0.16,
+            1
+          ],
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "box",
+          "label": "leg_0.7_-0.39",
+          "at": [
+            0.7,
+            -0.39,
+            0.52
+          ],
+          "size": [
+            0.16,
+            0.16,
+            1
+          ],
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "box",
+          "label": "leg_0.7_0.39",
+          "at": [
+            0.7,
+            0.39,
+            0.52
+          ],
+          "size": [
+            0.16,
+            0.16,
+            1
+          ],
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "box",
+          "label": "undershelf",
+          "at": [
+            0,
+            0,
+            0.4
+          ],
+          "size": [
+            1.46,
+            0.8,
+            0.12
+          ],
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "box",
+          "label": "vice_base",
+          "at": [
+            0.48,
+            -0.21,
+            1.18
+          ],
+          "size": [
+            0.4,
+            0.32,
+            0.14
+          ],
+          "mat": "iron"
+        },
+        {
+          "shape": "box",
+          "label": "vice_jaw",
+          "at": [
+            0.48,
+            -0.35,
+            1.31
+          ],
+          "size": [
+            0.27,
+            0.12,
+            0.26
+          ],
+          "mat": "iron_dark"
+        },
+        {
+          "shape": "beam",
+          "label": "hammer_handle",
+          "p0": [
+            -0.45,
+            0.01,
+            1.2
+          ],
+          "p1": [
+            0.04,
+            0.15,
+            1.2
+          ],
+          "width": 0.075,
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "box",
+          "label": "hammer_head",
+          "at": [
+            -0.46,
+            0.02,
+            1.21
+          ],
+          "size": [
+            0.21,
+            0.18,
+            0.18
+          ],
+          "mat": "iron"
+        }
+      ]
+    },
+    {
+      "id": "thinking-hut",
+      "stage": "research",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/thinking-hut/thinking-hut.png",
+      "notes": "First research shelter, simple thatched gable and wood doorway.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "floor",
+          "at": [
+            0,
+            0,
+            0.16
+          ],
+          "size": [
+            2.8,
+            2.8,
+            0.32
+          ],
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "box",
+          "label": "hut_walls",
+          "at": [
+            0,
+            0,
+            1.08
+          ],
+          "size": [
+            2.26,
+            2.22,
+            1.55
+          ],
+          "mat": "wood"
+        },
+        {
+          "shape": "roof",
+          "label": "thatch_roof",
+          "at": [
+            0,
+            0,
+            2.05
+          ],
+          "size": [
+            2.8,
+            2.82,
+            1.04
+          ],
+          "mat": "thatch"
+        },
+        {
+          "shape": "box",
+          "label": "doorway",
+          "at": [
+            0,
+            -1.13,
+            0.97
+          ],
+          "size": [
+            0.63,
+            0.08,
+            1.09
+          ],
+          "mat": "iron_dark"
+        },
+        {
+          "shape": "box",
+          "label": "wall_lantern",
+          "at": [
+            0.84,
+            -1.15,
+            1.45
+          ],
+          "size": [
+            0.26,
+            0.18,
+            0.33
+          ],
+          "mat": "fire"
+        },
+        {
+          "shape": "cylinder",
+          "label": "smoke_vent",
+          "at": [
+            0.65,
+            0.6,
+            2.78
+          ],
+          "r": 0.15,
+          "h": 0.39,
+          "mat": "wood_dark",
+          "axis": "z"
+        }
+      ]
+    },
+    {
+      "id": "pondering-hovel",
+      "stage": "research",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/pondering-hovel/pondering-hovel.png",
+      "notes": "Upgraded brick research hovel with lamp and side chimney.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "floor",
+          "at": [
+            0,
+            0,
+            0.18
+          ],
+          "size": [
+            2.87,
+            2.82,
+            0.36
+          ],
+          "mat": "stone"
+        },
+        {
+          "shape": "box",
+          "label": "masonry_walls",
+          "at": [
+            0,
+            0,
+            1.18
+          ],
+          "size": [
+            2.42,
+            2.46,
+            1.69
+          ],
+          "mat": "brick"
+        },
+        {
+          "shape": "roof",
+          "label": "shingle_roof",
+          "at": [
+            0,
+            0,
+            2.34
+          ],
+          "size": [
+            2.92,
+            2.96,
+            1.04
+          ],
+          "mat": "thatch"
+        },
+        {
+          "shape": "box",
+          "label": "front_entry",
+          "at": [
+            0,
+            -1.25,
+            1
+          ],
+          "size": [
+            0.76,
+            0.1,
+            1.27
+          ],
+          "mat": "wood_dark"
+        },
+        {
+          "shape": "cylinder",
+          "label": "chimney",
+          "at": [
+            0.78,
+            0.61,
+            2.75
+          ],
+          "r": 0.25,
+          "h": 1.1,
+          "mat": "brick",
+          "axis": "z"
+        },
+        {
+          "shape": "box",
+          "label": "research_window",
+          "at": [
+            -0.86,
+            -1.26,
+            1.46
+          ],
+          "size": [
+            0.41,
+            0.09,
+            0.48
+          ],
+          "mat": "glass_blue"
+        },
+        {
+          "shape": "box",
+          "label": "desk_visible",
+          "at": [
+            0.13,
+            -1.05,
+            0.93
+          ],
+          "size": [
+            0.69,
+            0.2,
+            0.23
+          ],
+          "mat": "wood"
+        }
+      ]
+    },
+    {
+      "id": "Steam-Compressor",
+      "stage": "industrial",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/Steam-Compressor.png",
+      "notes": "Pressure tank, piston drive, manual regulator and outlet valve.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "machine_base",
+          "at": [
+            0,
+            0,
+            0.19
+          ],
+          "size": [
+            2.8,
+            2.8,
+            0.38
+          ],
+          "mat": "iron_dark"
+        },
+        {
+          "shape": "cylinder",
+          "label": "pressure_vessel",
+          "at": [
+            0,
+            0,
+            1.03
+          ],
+          "r": 0.61,
+          "h": 2.25,
+          "mat": "iron",
+          "axis": "x"
+        },
+        {
+          "shape": "cylinder",
+          "label": "flywheel",
+          "at": [
+            0.9,
+            -0.63,
+            0.95
+          ],
+          "r": 0.51,
+          "h": 0.17,
+          "mat": "copper",
+          "axis": "y"
+        },
+        {
+          "shape": "ring",
+          "label": "flywheel_rim",
+          "at": [
+            0.9,
+            -0.63,
+            0.95
+          ],
+          "outer": 0.51,
+          "inner": 0.41,
+          "h": 0.18,
+          "mat": "iron",
+          "axis": "y"
+        },
+        {
+          "shape": "beam",
+          "label": "piston_rod",
+          "p0": [
+            -0.95,
+            -0.56,
+            0.81
+          ],
+          "p1": [
+            0.8,
+            -0.56,
+            0.81
+          ],
+          "width": 0.13,
+          "mat": "iron"
+        },
+        {
+          "shape": "cylinder",
+          "label": "inlet_pipe",
+          "at": [
+            -1.18,
+            0.52,
+            0.62
+          ],
+          "r": 0.17,
+          "h": 0.65,
+          "mat": "pipe",
+          "axis": "x"
+        },
+        {
+          "shape": "cylinder",
+          "label": "outlet_pipe",
+          "at": [
+            1.18,
+            0.52,
+            0.62
+          ],
+          "r": 0.17,
+          "h": 0.65,
+          "mat": "pipe",
+          "axis": "x"
+        },
+        {
+          "shape": "cylinder",
+          "label": "gauge",
+          "at": [
+            0,
+            -0.62,
+            1.43
+          ],
+          "r": 0.22,
+          "h": 0.11,
+          "mat": "glass_blue",
+          "axis": "y"
+        }
+      ]
+    },
+    {
+      "id": "tank-assembling-machine",
+      "stage": "industrial",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/tank-assembling-machine/tank-assembling-machine.png",
+      "notes": "Base industrial gantry for heavy vehicle fabrication, not a finished tank model.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "factory_foundation",
+          "at": [
+            0,
+            0,
+            0.18
+          ],
+          "size": [
+            2.86,
+            2.86,
+            0.36
+          ],
+          "mat": "iron_dark"
+        },
+        {
+          "shape": "box",
+          "label": "assembly_rail_0",
+          "at": [
+            -1.02,
+            0,
+            0.42
+          ],
+          "size": [
+            0.26,
+            2.68,
+            0.24
+          ],
+          "mat": "iron"
+        },
+        {
+          "shape": "box",
+          "label": "assembly_rail_1",
+          "at": [
+            1.02,
+            0,
+            0.42
+          ],
+          "size": [
+            0.26,
+            2.68,
+            0.24
+          ],
+          "mat": "iron"
+        },
+        {
+          "shape": "box",
+          "label": "gantry_support_0",
+          "at": [
+            -1.12,
+            0.9,
+            1.4
+          ],
+          "size": [
+            0.22,
+            0.3,
+            2
+          ],
+          "mat": "iron_dark"
+        },
+        {
+          "shape": "box",
+          "label": "gantry_support_1",
+          "at": [
+            1.12,
+            0.9,
+            1.4
+          ],
+          "size": [
+            0.22,
+            0.3,
+            2
+          ],
+          "mat": "iron_dark"
+        },
+        {
+          "shape": "beam",
+          "label": "overhead_gantry",
+          "p0": [
+            -1.23,
+            0.9,
+            2.42
+          ],
+          "p1": [
+            1.23,
+            0.9,
+            2.42
+          ],
+          "width": 0.28,
+          "mat": "iron"
+        },
+        {
+          "shape": "box",
+          "label": "empty_hull_jig",
+          "at": [
+            0,
+            -0.15,
+            0.76
+          ],
+          "size": [
+            1.68,
+            1.54,
+            0.67
+          ],
+          "mat": "iron"
+        },
+        {
+          "shape": "cylinder",
+          "label": "welding_head",
+          "at": [
+            0.65,
+            -0.46,
+            1.38
+          ],
+          "r": 0.18,
+          "h": 0.82,
+          "mat": "copper",
+          "axis": "z"
+        },
+        {
+          "shape": "box",
+          "label": "sparks_marker",
+          "at": [
+            0.65,
+            -0.46,
+            1.02
+          ],
+          "size": [
+            0.2,
+            0.2,
+            0.12
+          ],
+          "mat": "fire_bright"
+        }
+      ]
+    },
+    {
+      "id": "tank-ammo-assembling-machine",
+      "stage": "industrial",
+      "footprint": [
+        3,
+        3
+      ],
+      "sprite": "graphics/entity/tank-assembling-machine/tank-assembling-machine.png",
+      "notes": "Compact dedicated loading assembly with north fluid intake and south byproduct drain.",
+      "parts": [
+        {
+          "shape": "box",
+          "label": "factory_base",
+          "at": [
+            0,
+            0,
+            0.19
+          ],
+          "size": [
+            2.81,
+            2.8,
+            0.38
+          ],
+          "mat": "iron_dark"
+        },
+        {
+          "shape": "box",
+          "label": "munitions_feeder",
+          "at": [
+            -0.62,
+            0,
+            0.77
+          ],
+          "size": [
+            0.76,
+            1.6,
+            0.93
+          ],
+          "mat": "iron"
+        },
+        {
+          "shape": "cylinder",
+          "label": "case_former",
+          "at": [
+            0.58,
+            0,
+            1
+          ],
+          "r": 0.5,
+          "h": 1.5,
+          "mat": "copper",
+          "axis": "y"
+        },
+        {
+          "shape": "box",
+          "label": "loading_hopper",
+          "at": [
+            0,
+            0.66,
+            1.64
+          ],
+          "size": [
+            1.06,
+            0.85,
+            0.48
+          ],
+          "mat": "iron"
+        },
+        {
+          "shape": "cylinder",
+          "label": "north_oil_inlet",
+          "at": [
+            0,
+            1.35,
+            0.42
+          ],
+          "r": 0.18,
+          "h": 0.62,
+          "mat": "pipe",
+          "axis": "y"
+        },
+        {
+          "shape": "cylinder",
+          "label": "south_oil_outlet",
+          "at": [
+            0,
+            -1.35,
+            0.42
+          ],
+          "r": 0.18,
+          "h": 0.62,
+          "mat": "pipe",
+          "axis": "y"
+        },
+        {
+          "shape": "box",
+          "label": "output_cases",
+          "at": [
+            0.62,
+            -0.78,
+            0.44
+          ],
+          "size": [
+            0.77,
+            0.72,
+            0.37
+          ],
+          "mat": "copper"
+        },
+        {
+          "shape": "box",
+          "label": "safety_cage",
+          "at": [
+            0,
+            0,
+            2.02
+          ],
+          "size": [
+            2.2,
+            2.2,
+            0.15
+          ],
+          "mat": "iron_dark"
+        }
+      ]
+    }
+  ]
+}
