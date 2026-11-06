@@ -51,6 +51,7 @@ def main():
     if not is_21 and "space-age" in enabled:
         enabled.update(["quality", "elevated-rails"])
     source = selected_source()
+    enabled.add("tanks_for_bob_fork")  # Always enable the exact staged fork explicitly.
     dest = args.output / "tanks_for_bob_fork"
     args.output.mkdir(parents=True, exist_ok=True)
     if dest.exists():
@@ -156,7 +157,7 @@ def main():
         "engine": args.engine,
         "factorio_version_in_staged_info": info["factorio_version"],
         "profile": args.profile,
-        "enabled_official_mods": sorted(enabled),
+        "enabled_official_mods": sorted(enabled & available),
         "disabled_official_mods": sorted(available - enabled),
         "probe_only": is_21,
         "has_extra_mods": bool(bob_versions),
