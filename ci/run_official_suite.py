@@ -83,7 +83,10 @@ def run_profile(engine: str, profile: str, binary: Path, work: Path,
         stage_command += ["--bobs-mods-dir", str(bobs_mods_dir)]
     required_data_markers = DATA_MARKERS
     if bobs_mods_dir is not None:
-        required_data_markers += ("[TANKS-CI] BOBS_AUDIT_CHECKED",)
+        required_data_markers += (
+            "[TANKS-CI] BOBS_AUDIT_CHECKED",
+            "[TANKS-CI] BOBS_TECH_LAB_AUDIT",
+        )
     required_runtime_markers = RUNTIME_MARKERS
     if bobs_mods_dir is not None:
         required_runtime_markers += ("[TANKS-CI] BOBS_EQUIPMENT_INSERT_CHECKED",)
@@ -126,6 +129,7 @@ def run_profile(engine: str, profile: str, binary: Path, work: Path,
         create_log = (artifacts / "create.log").read_text(encoding="utf-8", errors="replace")
         bench_log = (artifacts / "benchmark.log").read_text(encoding="utf-8", errors="replace")
         interesting = ("SOURCE_REGISTRY_PASS", "SUPPLY_GRAPH rounds", "WEAPON_AUDIT vehicles",
+                       "BOBS_AUDIT_CHECKED", "BOBS_TECH_LAB_AUDIT",
                        "RUNTIME_PASS tick", "DAMAGE_RESPONSE_PASS tick", "AMMO_INVENTORY_CHECKED tick",
                        "BOBS_EQUIPMENT_INSERT_CHECKED tick")
         evidence = []
