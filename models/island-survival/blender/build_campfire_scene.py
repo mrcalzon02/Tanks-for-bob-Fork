@@ -87,7 +87,7 @@ family_color={
     'char': (0.11,0.095,0.085)
 }
 family_roughness={'stone':0.91,'bark':0.86,'endgrain':0.77,'ash':0.98,'char':0.92}
-normal_strength={'stone':0.67,'bark':0.48,'endgrain':0.46,'ash':0.49,'char':0.44}
+normal_strength={'stone':0.18,'bark':0.32,'endgrain':0.30,'ash':0.25,'char':0.24}
 
 # Fast periodic waveform noise that yields separate proper tangent-space normal maps.
 # No third party art or external dependencies.
@@ -99,7 +99,7 @@ def field(u,v,f):
         dx=u-.5;dy=v-.5;r=math.hypot(dx,dy)
         return .5+.17*math.sin(2*math.pi*(17*r +.12*math.sin(12*math.atan2(dy,dx))))+.06*math.sin(twopi*(15*u+12*v))
     if f=='stone':
-        return .5+.18*math.sin(twopi*(3*u+4*v)) * math.cos(twopi*(4*u-2*v))+.09*math.sin(twopi*(13*u+11*v))+.04*math.sin(twopi*(37*u-29*v))
+        return .5+.085*math.sin(twopi*(3*u+4*v)) * math.cos(twopi*(4*u-2*v))+.038*math.sin(twopi*(13*u+11*v))+.012*math.sin(twopi*(37*u-29*v))
     if f=='ash':
         return .5+.18*math.sin(twopi*(7*u+8*v))*math.sin(twopi*(6*v-2*u))+.075*math.cos(twopi*(21*u-19*v))
     return .5+.23*math.sin(twopi*6*u)*math.cos(twopi*8*v)+.08*math.sin(twopi*(25*u+19*v))
@@ -166,8 +166,18 @@ def material(name):
     output=ns.new('ShaderNodeOutputMaterial');output.location=(660,40)
     if name in FIRE_COLORS:
         emission=ns.new('ShaderNodeEmission');emission.inputs['Color'].default_value=FIRE_COLORS[name]
-        emission.inputs['Strength'].default_value=2.0 if name!='embers' else 1.1
-        emission.location=(310,0);links.new(emission.outputs[0],output.inputs['Surface'])
+        emission.inputs['Strength'].default_value=1.35 if name!='embers' else 1.1
+        emission.location=(270,-100)
+        if name.startswith('flame_'):
+            # A translucent emission surface keeps animated flame meshes from looking like solid plastic.
+            transparent=ns.new('ShaderNodeBsdfTransparent');transparent.location=(0,130)
+            mix=ns.new('ShaderNodeMixShader');mix.location=(450,40)
+            mix.inputs[0].default_value=.72
+            links.new(transparent.outputs['BSDF'],mix.inputs[1])
+            links.new(emission.outputs[0],mix.inputs[2])
+            links.new(mix.outputs[0],output.inputs['Surface'])
+        else:
+            links.new(emission.outputs[0],output.inputs['Surface'])
         m.diffuse_color=FIRE_COLORS[name]
         return m
     family=family_for(name)
