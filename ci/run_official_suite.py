@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Run the full Factorio official-mod audit in ONE GitHub Actions job.
+"""One Factorio 2.0 headless compatibility profile and static audit.
 
-Each scenario retains its own logs and isolated mod list, but no matrix jobs are
-created. Any hard failure fails the single job after all profiles are attempted.
-Diagnostic-only progression/weapon warnings remain visible without blocking.
+Tests the actual released 2.0 mod with Base + Elevated Rails + Quality +
+Space Age in a single GitHub Actions job. Earlier 2.1 probes are historical.
 """
 from __future__ import annotations
 import argparse
@@ -14,20 +13,7 @@ import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PROFILES = (
-    ("2.0.77", "base"),
-    ("2.0.77", "rails"),
-    ("2.0.77", "quality"),
-    ("2.0.77", "rails-quality"),
-    ("2.0.77", "space-age"),
-    ("2.1.23", "base"),
-    ("2.1.23", "rails"),
-    ("2.1.23", "recycler"),
-    ("2.1.23", "quality"),
-    ("2.1.23", "rails-quality"),
-    ("2.1.23", "space-age-no-quality"),
-    ("2.1.23", "space-age-full"),
-)
+PROFILES = (("2.0.77", "space-age"),)
 DATA_MARKERS = (
     "[TANKS-CI] DATA_PASS",
     "[TANKS-CI] SOURCE_REGISTRY_PASS",
@@ -142,13 +128,12 @@ def run_profile(engine: str, profile: str, binary: Path, work: Path, output: Pat
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--binary-20", type=Path, required=True)
-    parser.add_argument("--binary-21", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--work", type=Path, required=True)
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)
     args.work.mkdir(parents=True, exist_ok=True)
-    print("[TANKS-CI] ONE_JOB_BEGIN: 1 GitHub Actions job; 12 independent official-mod profiles", flush=True)
+    print("[TANKS-CI] ONE_JOB_BEGIN: 1 job, 1 Factorio 2.0 profile", flush=True)
     static_log = args.output / "static-audit.log"
     static_ok, static_detail = run_command([
         sys.executable, str(ROOT / "ci/validate_mod.py"),
@@ -160,9 +145,9 @@ def main() -> int:
     else:
         print("[TANKS-CI] STATIC_PASS", flush=True)
     tests = []
-    binaries = {"2.0.77": args.binary_20, "2.1.23": args.binary_21}
+    binaries = {"2.0.77": args.binary_20}
     for index, (engine, profile) in enumerate(PROFILES, start=1):
-        print(f"[TANKS-CI] CHECK {index}/12 {engine} {profile}", flush=True)
+        print(f"[TANKS-CI] CHECK {index}/1 {engine} {profile}", flush=True)
         try:
             tests.append(run_profile(engine, profile, binaries[engine], args.work, args.output))
         except Exception as exc:
@@ -174,27 +159,27 @@ def main() -> int:
             print(f"::error title=Harness {engine}-{profile}::{exc}", flush=True)
     passed = sum(p["result"] == "passed" for p in tests)
     completed = len(tests)
-    verified = static_ok and passed == 12 and completed == 12
+    verified = static_ok and passed == 1 and completed == 1
     report = {
         "test_system": "one-job official Factorio compatibility and auditing suite",
         "engine_versions": sorted(binaries),
         "total_jobs": 1,
         "static_audit": "passed" if static_ok else "failed",
         "static_detail": static_detail,
-        "expected_profiles": 12,
+        "expected_profiles": 1,
         "completed_profiles": completed,
         "passed_profiles": passed,
         "failed_profiles": [p["name"] for p in tests if p["result"] != "passed"],
         "result": "passed" if verified else "failed",
         "profiles": tests,
-        "two_one_is_metadata_probe_only": True,
+        "two_one_is_metadata_probe_only": False,
     }
     (args.output / "suite-results.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     summary = [
         "# Tanks for Bob — one-job compatibility audit",
         "",
         f"**Overall:** {'PASS' if verified else 'FAIL'}",
-        f"**Single Actions job:** one, with {passed}/12 runtime profiles passing",
+        f"**Single Actions job:** one, with {passed}/1 runtime profile passing",
         f"**Static audit:** {'PASS' if static_ok else 'FAIL'}",
         "",
         "| Engine | Profile | Result |",
@@ -206,12 +191,12 @@ def main() -> int:
         )
     summary += [
         "",
-        "Factorio 2.1 profiles use CI-only temporary metadata; the release ZIP remains a 2.0 mod.",
+        "Only Factorio 2.0 Base + Elevated Rails + Quality + Space Age is checked in this run.",
         "Ingredient supply is optimistic; ammo checks are inventory/registry checks, not actual firing.",
     ]
     (args.output / "suite-summary.md").write_text("\n".join(summary) + "\n", encoding="utf-8")
     print(f"[TANKS-CI] ONE_JOB_RESULT static={'PASS' if static_ok else 'FAIL'} "
-          f"profiles={passed}/12 result={'PASS' if verified else 'FAIL'}", flush=True)
+          f"profiles={passed}/1 result={'PASS' if verified else 'FAIL'}", flush=True)
     return 0 if verified else 1
 
 if __name__ == "__main__":

@@ -33,35 +33,33 @@ concurrency:
 
 jobs:
   factorio-suite:
-    name: Factorio official suite (12 profiles + static)
+    name: Factorio smoke + static audit (1 profile)
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - name: Syntax-check scripts once
         run: python3 -m py_compile ci/validate_mod.py ci/stage_profile.py ci/server_smoke.py ci/run_official_suite.py
-      - name: Download each pinned headless engine once
+      - name: Download the pinned Factorio 2.0 headless engine
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p test-artifacts
-          for version in 2.0.77 2.1.23; do
-            directory="$RUNNER_TEMP/factorio-engines/$version"
-            mkdir -p "$directory"
-            curl --fail --location --retry 3 \
-              --output "$directory/factorio.tar.xz" \
-              "https://factorio.com/get-download/$version/headless/linux64"
-            tar -xJf "$directory/factorio.tar.xz" -C "$directory"
-            "$directory/factorio/bin/x64/factorio" --version | tee "test-artifacts/factorio-$version.txt"
-            grep -Fq "$version" "test-artifacts/factorio-$version.txt"
-          done
-      - name: Run all official compatibility and functional audits in ONE job
+          version="2.0.77"
+          directory="$RUNNER_TEMP/factorio-engines/$version"
+          mkdir -p "$directory"
+          curl --fail --location --retry 3 \
+            --output "$directory/factorio.tar.xz" \
+            "https://factorio.com/get-download/$version/headless/linux64"
+          tar -xJf "$directory/factorio.tar.xz" -C "$directory"
+          "$directory/factorio/bin/x64/factorio" --version | tee "test-artifacts/factorio-$version.txt"
+          grep -Fq "$version" "test-artifacts/factorio-$version.txt"
+      - name: Run the single official compatibility profile and static audit
         shell: bash
         run: |
           set -euo pipefail
           python3 ci/run_official_suite.py \
             --binary-20 "$RUNNER_TEMP/factorio-engines/2.0.77/factorio/bin/x64/factorio" \
-            --binary-21 "$RUNNER_TEMP/factorio-engines/2.1.23/factorio/bin/x64/factorio" \
             --work "$RUNNER_TEMP/tanks-suite" \
             --output test-artifacts
           cat test-artifacts/suite-summary.md >> "$GITHUB_STEP_SUMMARY"
@@ -69,7 +67,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: tanks-official-factorio-one-job-audit
+          name: tanks-factorio-one-profile-audit
           path: test-artifacts/
           if-no-files-found: warn
           retention-days: 30

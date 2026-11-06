@@ -4,7 +4,9 @@ Factorio **2.0** mod with specialized vehicles, turrets/guns, ammunition, interm
 
 ## Compatibility and current test evidence
 
-**Verified:** the [official-mod compatibility suite](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/workflows/vanilla-factorio.yml) verifies the following **12 Factorio engine configurations** plus a static source audit inside **ONE GitHub Actions job**:
+**Current CI:** **one GitHub Actions job and one Factorio 2.0.77 profile**, using Base + Elevated Rails + Quality + Space Age together, plus source, recipe, weapon, ammunition, damage and private-server smoke checks. [Test workflow](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/workflows/vanilla-factorio.yml).
+
+The older twelve-profile Factorio 2.0/2.1 comparison below is **historical evidence only**; it is no longer executed on every commit.
 
 | Engine | Official mod combination (besides `core`) |
 | --- | --- |

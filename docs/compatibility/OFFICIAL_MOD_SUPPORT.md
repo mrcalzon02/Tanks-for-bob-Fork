@@ -21,9 +21,9 @@ the vanilla base-game-only installation. The fork's original incompatible ancest
 In Factorio 2.1, the recycler was split out from Quality. Both Space Age without
 Quality and the full Space Age installation are included in the testing matrix.
 
-## Reproducible headless profile matrix
+## Historical headless profile matrix (not active CI)
 
-The workflow `.github/workflows/vanilla-factorio.yml` uses ONE GitHub Actions job to check 12 isolated profiles (and the static source audit):
+**Current CI runs only one profile:** Factorio **2.0.77** with Base + Elevated Rails + Quality + Space Age, plus static/source/runtime diagnostics, in **one job**. The table below records prior verification only and is no longer retested on every push:
 
 | Engine | Profile | Official modules explicitly enabled |
 | --- | --- | --- |
@@ -94,16 +94,6 @@ restored from a prior package version containing the identical XCF source.
 The current-state audit records the remaining client and progression
 coverage gaps.
 
-## Single Actions job execution (2026-11-05)
+## Single Actions job and single profile (current)
 
-To avoid 13 separate jobs, the official compatibility workflow now has a
-single `factorio-suite` job. It downloads the Factorio 2.0.77 and
-2.1.23 engine distributions once, then runs all 12 profile checks
-sequentially in isolated mod directories and saves. The static source
-audit is run in the same job. Its `suite-results.json` and complete
-per-profile evidence appear in ONE workflow artifact.
-
-The job fails if any of the 12 engine profiles or the static audit fails,
-even though the runner attempts every profile to preserve diagnostics.
-The separate GitHub release publisher verifies the single successful job.
-This is a **job organization change**, not a reduction to one test.
+The workflow executes **exactly one profile** (Factorio 2.0.77 full official expansion) and static/vehicle/ammo/damage/server diagnostics inside **one job**. It downloads **one** headless engine and retains one combined artifact. Historical 2.1/other-module matrix findings remain in the archived results; they are not newly verified on every push.

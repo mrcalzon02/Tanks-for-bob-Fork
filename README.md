@@ -6,7 +6,9 @@ A Factorio tank and vehicle expansion originally created to provide stronger fir
 
 ## Official Factorio compatibility — verified November 5, 2026
 
-The latest completed [compatibility and gameplay-smoke CI run](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42136857118) verified the source/graphics audit and **12/12 headless Factorio engine profiles**, pinned to Factorio 2.0.77 and 2.1.23.
+**Current automated CI:** exactly **one job and one Factorio 2.0.77 profile**, with Base, Elevated Rails, Quality and Space Age enabled together. This includes static source, recipe, ammunition, vehicle, damage, save creation, benchmark and server-startup checks. [View current checks](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/workflows/vanilla-factorio.yml).
+
+Previously, [12 Factorio 2.0/2.1 profiles passed](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42136857118). Those results are retained **for historical reference only**; current CI does not retest all twelve or Factorio 2.1.
 
 | Official module | Factorio 2.0.77 | Factorio 2.1.23 | Notes |
 | --- | --- | --- | --- |
@@ -20,7 +22,7 @@ The latest completed [compatibility and gameplay-smoke CI run](https://github.co
 
 \* **Factorio 2.1 test-only probe:** CI updates the `factorio_version` metadata **only in a disposable copy** to exercise the 2.1 engine. This release's actual `info.json` specifies **Factorio 2.0**, and the downloadable package is **not** a published 2.1 build. All these checks run with **only this fork and official mods**; they do not certify Bob's Enemies, AAI, Mechanicus, or other third-party mods.
 
-### Exact 12-profile headless matrix
+### Historical 12-profile results (not run by current CI)
 
 | Engine | Official mods enabled besides `core` |
 | --- | --- |
