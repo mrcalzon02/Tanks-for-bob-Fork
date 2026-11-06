@@ -1,0 +1,11 @@
+V8 actual native Blender material and animation revision
+Blender version: 4.0.2
+Triangles: 12152
+Distinct stone material instances: 15
+Wood material slots revised: 70
+Animated gradient flame objects: 6
+Packed texture maps: 15
+Engine: CYCLES
+Animation frames: 1-96
+Source: actual V7 Blender native scene
+Assets: no unverified third party art

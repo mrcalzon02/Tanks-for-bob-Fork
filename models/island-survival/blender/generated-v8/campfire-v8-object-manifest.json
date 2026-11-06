@@ -1,0 +1,14 @@
+{
+  "blend": "/home/runner/work/Tanks-for-bob-Fork/Tanks-for-bob-Fork/models/island-survival/blender/generated-v8/campfire-v8-animated.blend",
+  "stone_objects": 15,
+  "unique_stone_materials": 15,
+  "wood_objects": 42,
+  "flame_objects": 6,
+  "normal_mapped_material_slots": 85,
+  "shape_keys_per_flame": 3,
+  "timeline": [
+    1,
+    96
+  ],
+  "verified": true
+}
