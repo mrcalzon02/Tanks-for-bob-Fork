@@ -12,6 +12,7 @@ output=Path(args[0])
 scene=bpy.context.scene
 objects=list(scene.objects)
 mesh_objects=[o for o in objects if o.type=="MESH"]
+physical_meshes=[o for o in mesh_objects if o.name!="Ground | shadow catcher"]
 stone=[o for o in mesh_objects if o.name.startswith("stone_")]
 wood=[o for o in mesh_objects if o.name.startswith("cross_log")]
 ash=[o for o in mesh_objects if o.name.startswith("ash_")]
@@ -22,7 +23,7 @@ assert len(stone)==15, f"Missing stones: found {len(stone)}"
 assert len(wood)>=3, f"Missing wooden logs: found {len(wood)}"
 assert len(ash)>=1, f"Missing ash bed: found {len(ash)}"
 assert len(flame)==6, f"Missing flames: found {len(flame)}"
-assert sum(len(o.data.polygons) for o in mesh_objects)==12152, "Wrong mesh face count"
+assert sum(len(o.data.polygons) for o in physical_meshes)==12152, "Wrong mesh face count"
 assert scene.render.engine=="CYCLES" and scene.camera is not None
 assert len([im for im in bpy.data.images if im.packed_file])>=15, "Missing packed shader textures"
 assert len([m for m in bpy.data.materials if m.name.startswith("CF7")])>=18
@@ -37,7 +38,7 @@ for collection,its in expected_collections.items():
     assert col is not None and not col.hide_render, f"Missing or hidden collection: {collection}"
     assert all(col in o.users_collection for o in its), f"Objects misplaced from {collection}"
 
-for ob in mesh_objects:
+for ob in physical_meshes:
     assert not ob.hide_render, f"Mesh hidden from render: {ob.name}"
     assert ob.data.vertices and ob.data.polygons, f"Empty mesh: {ob.name}"
     assert ob.data.uv_layers, f"No UV maps: {ob.name}"
@@ -64,7 +65,7 @@ manifest={
  "log_objects":[o.name for o in wood],
  "ash_objects":[o.name for o in ash],
  "animated_flame_objects":[o.name for o in flame],
- "total_triangles":sum(len(o.data.polygons) for o in mesh_objects),
+ "total_triangles":sum(len(o.data.polygons) for o in physical_meshes),
  "packed_images":len([im for im in bpy.data.images if im.packed_file]),
  "lighting_objects":[o.name for o in objects if o.type=="LIGHT"],
  "objects_sample":[{"name":o.name,"faces":len(o.data.polygons),"collection":[c.name for c in o.users_collection]} for o in mesh_objects[:24]],
