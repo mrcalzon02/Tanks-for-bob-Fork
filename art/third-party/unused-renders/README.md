@@ -6,10 +6,10 @@ The following **original rendered PNG assets** were copied unmodified from Malco
 
 | Staged file | Exact upstream asset | Intended evaluation | Modifications and use status |
 | --- | --- | --- | --- |
-| [`pile-charcoal-2.png`](../../../../art/third-party/unused-renders/item-mipped/pile-charcoal-2.png) | [Upstream `item/mipped/pile-charcoal-2.png`](https://github.com/malcolmriley/unused-renders/blob/main/item/mipped/pile-charcoal-2.png) | charcoal (item icon candidate) | Unmodified upstream file; staged, not referenced by Factorio |
-| [`part-bullet-casings-1.png`](../../../../art/third-party/unused-renders/item-mipped/part-bullet-casings-1.png) | [Upstream `item/mipped/part-bullet-casings-1.png`](https://github.com/malcolmriley/unused-renders/blob/main/item/mipped/part-bullet-casings-1.png) | casing (item icon candidate) | Unmodified upstream file; staged, not referenced by Factorio |
-| [`pile-ashes-1.png`](../../../../art/third-party/unused-renders/item-mipped/pile-ashes-1.png) | [Upstream `item/mipped/pile-ashes-1.png`](https://github.com/malcolmriley/unused-renders/blob/main/item/mipped/pile-ashes-1.png) | campfire ash / future ash item (visual reference) | Unmodified upstream file; staged, not referenced by Factorio |
-| [`pile-chunk-wood-chips-1.png`](../../../../art/third-party/unused-renders/item-mipped/pile-chunk-wood-chips-1.png) | [Upstream `item/mipped/pile-chunk-wood-chips-1.png`](https://github.com/malcolmriley/unused-renders/blob/main/item/mipped/pile-chunk-wood-chips-1.png) | wood-processing intermediates (visual reference) | Unmodified upstream file; staged, not referenced by Factorio |
+| [`pile-charcoal-2.png`](item-mipped/pile-charcoal-2.png) | [Upstream `item/mipped/pile-charcoal-2.png`](https://github.com/malcolmriley/unused-renders/blob/main/item/mipped/pile-charcoal-2.png) | charcoal (item icon candidate) | Unmodified upstream file; staged, not referenced by Factorio |
+| [`part-bullet-casings-1.png`](item-mipped/part-bullet-casings-1.png) | [Upstream `item/mipped/part-bullet-casings-1.png`](https://github.com/malcolmriley/unused-renders/blob/main/item/mipped/part-bullet-casings-1.png) | casing (item icon candidate) | Unmodified upstream file; staged, not referenced by Factorio |
+| [`pile-ashes-1.png`](item-mipped/pile-ashes-1.png) | [Upstream `item/mipped/pile-ashes-1.png`](https://github.com/malcolmriley/unused-renders/blob/main/item/mipped/pile-ashes-1.png) | campfire ash / future ash item (visual reference) | Unmodified upstream file; staged, not referenced by Factorio |
+| [`pile-chunk-wood-chips-1.png`](item-mipped/pile-chunk-wood-chips-1.png) | [Upstream `item/mipped/pile-chunk-wood-chips-1.png`](https://github.com/malcolmriley/unused-renders/blob/main/item/mipped/pile-chunk-wood-chips-1.png) | wood-processing intermediates (visual reference) | Unmodified upstream file; staged, not referenced by Factorio |
 
 ## What has and has not been obtained
 
