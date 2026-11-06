@@ -6,6 +6,9 @@ on:
     paths:
       - 'models/island-survival/blender/*.py'
       - '.github/workflows/campfire-blender.yml'
+      - 'tools/art/*.py'
+      - 'docs/art/FACTORIO_PRODUCTION_*'
+      - 'models/island-survival/blender/CAMPFIRE_PRODUCTION_EXPORT_CHECKLIST.md'
   workflow_dispatch:
 
 permissions:
@@ -20,6 +23,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
+      - name: Validate versioned sprite-export work order
+        run: |
+          python3 -m unittest discover -s tools/art -p 'test_*.py' -v
+          python3 tools/art/validate_export_checklist.py \
+            models/island-survival/blender/CAMPFIRE_PRODUCTION_EXPORT_CHECKLIST.md \
+            --require plan
+          # 'plan' verifies the ledger; export/publish remain separately gated
+          # until their actual Blender/Factorio/approval evidence is entered.
       - name: Install Blender
         run: |
           sudo apt-get update -qq
