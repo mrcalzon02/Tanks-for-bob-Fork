@@ -3,3 +3,8 @@
 if mods["bobvehicleequipment"] then
   require("prototypes.Compatibility.bobs")
 end
+
+-- Optional Bob's Warfare alternative hull recipes and staged research.
+if mods["bobwarfare"] then
+  require("prototypes.Compatibility.bobs_warfare")
+end
