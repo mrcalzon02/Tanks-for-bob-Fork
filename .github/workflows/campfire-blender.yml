@@ -47,6 +47,11 @@ jobs:
           /usr/bin/python3 models/island-survival/blender/assemble_campfire_gif.py \
             --frames /tmp/campfire-gif-frames \
             --out models/island-survival/blender/generated/campfire-blender-animated.gif
+      - name: Verify actual saved Blender mesh objects and animation keys
+        run: |
+          blender -b -t 4 models/island-survival/blender/generated/campfire-v7-animated.blend \
+            --python models/island-survival/blender/inspect_campfire_scene.py -- \
+            models/island-survival/blender/generated/campfire-v7-object-manifest.json
       - name: Verify scene and preview artifacts
         run: |
           python3 - <<'PY'
@@ -55,7 +60,8 @@ jobs:
           must=['campfire-v7-animated.blend','campfire-blender-idle.png',
                 'campfire-blender-burning.png','campfire-blender-native64.png',
                 'campfire-blender-build-report.txt',
-                'campfire-blender-animated.gif']
+                'campfire-blender-animated.gif',
+                'campfire-v7-object-manifest.json']
           for file in must:
             f=p/file
             assert f.exists() and f.stat().st_size>100, f'Missing or empty: {f}'
