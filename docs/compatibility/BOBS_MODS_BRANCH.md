@@ -58,7 +58,7 @@ Apply in `data-final-fixes.lua`, after Bob's base assignments, only when both pa
 
 ## CI stage fidelity repair
 
-`ci/stage_profile.py` selects the highest versioned source folder (currently 1.8.95). The old staging logic **overwrote** `data-final-fixes.lua` with the audit, which would silently bypass any compatibility adapter. Branch commit `d5612ac` stages `ci_data_audit.lua` and *appends* its require to the existing `data-final-fixes.lua` instead. This change must pass the regular one-profile Factorio smoke before treating the baseline as preserved. The current CI profile still enables **only official mods**, never Bob's mods; it cannot validate Bob integration until the version-locked combined mod directory is implemented.
+`ci/stage_profile.py` selects the highest versioned source folder (currently 1.8.95). The old staging logic **overwrote** `data-final-fixes.lua` with the audit, which would silently bypass any compatibility adapter. Branch commit `d5612ac` stages `ci_data_audit.lua` and *appends* its require to the existing `data-final-fixes.lua` instead. This change passed a one-profile Factorio smoke and the full Bob suite; the original production data-final-fixes runs in the staged test. The current CI profile still enables **only official mods**, never Bob's mods; it cannot validate Bob integration until the version-locked combined mod directory is implemented.
 
 ## First verified full-family engine run
 
@@ -73,7 +73,10 @@ Game evidence (from `create.log` and `suite-results.json`):
 - `RUNTIME_PASS tick=300 vehicles_spawned=8`, `DAMAGE_RESPONSE_PASS tick=600` and `AMMO_INVENTORY_CHECKED tick=900 attempted=7 accepted=7 skipped=1` (the missing flame-tank is a destroyed/absent diagnostic, not proven incompatibility).
 - Map creation, 1,200-tick benchmark and private headless server startup **passed**. No new release was published.
 
-**Next test:** a live `LuaEquipmentGrid.put` insertion probe for Bob battery/motor/shield equipment on spawned fork tanks has been added on this branch. This will prove more than the data-stage grid assignment; results require a new run. Further work remains on tech-gated production, materials, science/lab constraints and actual weapon firing.
+**Subsequent live tests:**
+- [Run #42153968206](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42153968206) PASS. Actual `LuaEquipmentGrid.put` insertion at tick 1050: **7 surviving custom tanks**, **21 accepted Bob battery/motor/shield insertions**, **0 rejected**. Map/benchmark/server still passed.
+- [Run #42154256045](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42154256045) PASS. `BOBS_TECH_LAB_AUDIT technologies=90 lab_supported=90 no_lab=0 missing_science=0` for the fork science-requiring technologies plus Bob's `bob-tanks-2/3`; the 21/21 live equipment insertions still passed.
+- **Remaining:** the optimistic recipe supply calculation is not a research-gated progression proof, and ammunition insertion does not prove actual firing/projectile hits. Client graphics, multiplayer and save migration still require appropriate evidence.
 
 Exact pin amendment: Bob's Adjustable Inserters is **2.0.3** in the Factorio 2.0 Mod Portal; source repository `bobinserters/info.json` lists a 2.0.4 build that is not available as a matching Portal release. We pin the published 2.0.3 ZIP and verify it by Portal SHA-1.
 
