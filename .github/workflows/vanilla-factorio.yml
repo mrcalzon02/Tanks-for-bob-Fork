@@ -40,6 +40,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Syntax-check scripts once
         run: python3 -m py_compile ci/validate_mod.py ci/stage_profile.py ci/server_smoke.py ci/run_official_suite.py ci/fetch_bobs_mods.py ci/publish_mod_portal.py
+      - name: Verify Bob version locks and combined staging without credentials
+        run: python3 -m unittest -v ci.test_bobs_compat
+
       - name: Download the pinned Factorio 2.0 headless engine
         shell: bash
         run: |
