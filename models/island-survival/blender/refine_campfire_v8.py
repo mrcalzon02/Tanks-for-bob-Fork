@@ -98,20 +98,20 @@ for i,o in enumerate(stones):
     v=rand.uniform(.78,1.24)
     warm=rand.uniform(-.06,.07)
     colors=[
-        (v*.27,v*.265+warm*.5,v*.255+warm*.20),
-        (v*.425,v*.412+warm*.5,v*.385+warm*.30),
-        (v*.625,v*.595+warm*.7,v*.555+warm*.25)
+        (v*.12,v*.115+warm*.3,v*.105+warm*.14),
+        (v*.27,v*.255+warm*.36,v*.225+warm*.20),
+        (v*.46,v*.425+warm*.35,v*.38+warm*.20)
     ]
     colors=[tuple(max(0,min(.9,n)) for n in c) for c in colors]
     m,ns,links,out=newmat('stone %02d | %s'%(i+1,o.name))
     coords=node(ns,'ShaderNodeTexCoord','Object-local generated coordinates',-1250,150)
     mapper=node(ns,'ShaderNodeMapping','Unique stone orientation / scale',-1050,190)
     mapper.inputs['Location'].default_value=tuple(rand.uniform(-5,5) for _ in range(3))
-    mapper.inputs['Scale'].default_value=(rand.uniform(1.2,1.8),rand.uniform(1.0,1.8),rand.uniform(1.3,2.3))
+    mapper.inputs['Scale'].default_value=(rand.uniform(.9,1.4),rand.uniform(.9,1.5),rand.uniform(1.0,1.6))
     links.new(coords.outputs['Generated'],mapper.inputs['Vector'])
     coarse=noise(ns,links,mapper.outputs['Vector'],'Stone mineral patches',4.0,4,-800,210)
     fine=noise(ns,links,mapper.outputs['Vector'],'Stone micro chips',27,3,-800,-120)
-    cr=ramp(ns,[.22,.54,.79],colors,'Non-uniform mineral color',-420,220)
+    cr=ramp(ns,[.33,.52,.72],colors,'Non-uniform mineral color',-420,220)
     links.new(coarse.outputs['Fac'],cr.inputs['Fac'])
     p=surf(ns,links,out)
     links.new(cr.outputs['Color'],p.inputs['Base Color'])
@@ -138,22 +138,22 @@ for i,o in enumerate(wood):
         coords=node(ns,'ShaderNodeTexCoord','Per-piece generated UV',-1250,150)
         mapper=node(ns,'ShaderNodeMapping','Grain direction and unique offset',-1040,180)
         mapper.inputs['Location'].default_value=tuple(rand.uniform(-3,3) for _ in range(3))
-        mapper.inputs['Scale'].default_value=(.85,13,13) if along_x else (13,.85,13)
+        mapper.inputs['Scale'].default_value=(.75,9,10) if along_x else (9,.75,10)
         links.new(coords.outputs['Generated'],mapper.inputs['Vector'])
-        grain=noise(ns,links,mapper.outputs['Vector'],'Lengthwise wood fibers',5.5,3,-800,200)
+        grain=noise(ns,links,mapper.outputs['Vector'],'Lengthwise wood fibers',4.3,3,-800,200)
         bark_variation=noise(ns,links,coords.outputs['Generated'],'Non-repeating scorch / weathering',5,3,-800,-120)
-        tone=rand.uniform(.78,1.16)
+        tone=rand.uniform(.69,1.28)
         if is_end:
-            colors=[(.21*tone,.105*tone,.055*tone),(.61*tone,.38*tone,.19*tone),(.83*tone,.59*tone,.32*tone)]
+            colors=[(.14*tone,.068*tone,.035*tone),(.41*tone,.24*tone,.105*tone),(.65*tone,.42*tone,.22*tone)]
         elif is_char:
             colors=[(.055,.045,.035),(.16,.10,.062),(.31,.18,.085)]
         else:
-            colors=[(.092*tone,.061*tone,.041*tone),(.29*tone,.166*tone,.079*tone),(.54*tone,.345*tone,.16*tone)]
-        cr=ramp(ns,[.20,.50,.81],colors,'Per-log fiber and stain palette',-410,230)
+            colors=[(.045*tone,.028*tone,.017*tone),(.16*tone,.084*tone,.035*tone),(.37*tone,.22*tone,.09*tone)]
+        cr=ramp(ns,[.31,.52,.70],colors,'Per-log fiber and stain palette',-410,230)
         links.new(grain.outputs['Fac'],cr.inputs['Fac'])
         colorMix=node(ns,'ShaderNodeMixRGB','Subtle weathered patches',-80,215)
         colorMix.blend_type='MULTIPLY'
-        colorMix.inputs[0].default_value=.22
+        colorMix.inputs[0].default_value=.36
         links.new(cr.outputs['Color'],colorMix.inputs[1])
         weather=ramp(ns,[.26,.70],[(.55,.55,.55),(1,1,1)],'Weathering',-380,-15)
         links.new(bark_variation.outputs['Fac'],weather.inputs['Fac'])
@@ -176,7 +176,7 @@ for i,o in enumerate(flames):
     xyz=node(ns,'ShaderNodeSeparateXYZ','Vertical profile',-750,270)
     links.new(coord.outputs['Generated'],xyz.inputs['Vector'])
     palette=ramp(ns,[0,.14,.38,.69,1],[
-        (1.0,.94,.54),(1.0,.81,.14),(1.0,.43,.035),(.89,.16,.016),(.34,.017,.009)
+        (1.0,.86,.32),(1.0,.71,.09),(.99,.36,.020),(.80,.105,.012),(.25,.012,.004)
     ],'Pale-hot base to fading red tip',-450,350)
     links.new(xyz.outputs['Z'],palette.inputs['Fac'])
     fade=ramp(ns,[0,.26,.59,.80,1],[
@@ -195,7 +195,7 @@ for i,o in enumerate(flames):
     links.new(animated.outputs['Fac'],mask.inputs[1])
     transparent=node(ns,'ShaderNodeBsdfTransparent','Soft invisible edges',120,120)
     emission=node(ns,'ShaderNodeEmission','True gradient emission',130,-100)
-    emission.inputs['Strength'].default_value=1.65
+    emission.inputs['Strength'].default_value=1.35
     links.new(palette.outputs['Color'],emission.inputs['Color'])
     mix=node(ns,'ShaderNodeMixShader','Transparent / emitting flames',480,85)
     links.new(mask.outputs['Value'],mix.inputs[0])
