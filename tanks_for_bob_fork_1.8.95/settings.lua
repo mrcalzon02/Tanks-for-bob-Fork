@@ -54,3 +54,14 @@ data:extend({
     order = "z[compatibility]-b[bobs-advanced-hulls]"
   }
 })
+
+-- Optional Bob's Invar substitution in the encabulation materials chain.
+data:extend({
+  {
+    type = "bool-setting",
+    name = "tfbf-bobs-metallurgy",
+    setting_type = "startup",
+    default_value = true,
+    order = "z[compatibility]-c[bobs-metallurgy]"
+  }
+})
