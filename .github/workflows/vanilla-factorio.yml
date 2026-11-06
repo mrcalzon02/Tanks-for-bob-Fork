@@ -25,7 +25,7 @@ on:
     - cron: '11 8 * * 1'
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -39,7 +39,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Syntax-check scripts once
-        run: python3 -m py_compile ci/validate_mod.py ci/stage_profile.py ci/server_smoke.py ci/run_official_suite.py
+        run: python3 -m py_compile ci/validate_mod.py ci/stage_profile.py ci/server_smoke.py ci/run_official_suite.py ci/publish_mod_portal.py
       - name: Download the pinned Factorio 2.0 headless engine
         shell: bash
         run: |
@@ -71,3 +71,44 @@ jobs:
           path: test-artifacts/
           if-no-files-found: warn
           retention-days: 30
+
+      - name: Publish the verified 1.8.94 build to Factorio Mod Portal and GitHub
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        shell: bash
+        env:
+          FACTORIO_MOD_UPLOAD_KEY: ${{ secrets.FACTORIO_MOD_UPLOAD_KEY }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          archive="tanks_for_bob_fork_1.8.94.zip"
+          python3 - <<'PY'
+          import json
+          import zipfile
+          from pathlib import Path
+          source = Path("tanks_for_bob_fork_1.8.94")
+          meta = json.loads((source / "info.json").read_text(encoding="utf-8"))
+          assert meta["name"] == "tanks_for_bob_fork", "Wrong mod identity"
+          assert meta["version"] == "1.8.94", "Wrong release version"
+          assert meta["factorio_version"] == "2.0", "Wrong Factorio target"
+          archive = Path("tanks_for_bob_fork_1.8.94.zip")
+          with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED, compresslevel=6) as output:
+              for file in sorted(source.rglob("*")):
+                  if file.is_file():
+                      output.write(file, file.as_posix())
+          with zipfile.ZipFile(archive) as output:
+              assert output.testzip() is None
+              assert "tanks_for_bob_fork_1.8.94/info.json" in output.namelist()
+              assert "tanks_for_bob_fork_1.8.94/README.md" in output.namelist()
+          print("[TANKS-PUBLISH] PACKAGE_PASS", archive.stat().st_size, "bytes")
+          PY
+          sha256sum "$archive" > "$archive.sha256"
+          python3 ci/publish_mod_portal.py "$archive" --version 1.8.94
+          if ! gh release view v1.8.94 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release create v1.8.94 "$archive" "$archive.sha256" \
+              --repo "$GITHUB_REPOSITORY" \
+              --target "$GITHUB_SHA" \
+              --title "Tanks for Bob Fork v1.8.94 — Factorio 2.0" \
+              --notes-file docs/releases/v1.8.94.md \
+              --latest
+          fi
+          gh release view v1.8.94 --repo "$GITHUB_REPOSITORY" --json url,tagName,assets

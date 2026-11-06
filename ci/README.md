@@ -15,4 +15,4 @@ matrix**. Historical Factorio 2.1 checks remain documented but are not run.
 
 Only genuine engine/test-harness failures block release checks; optimistic
 progression and weapon registration findings remain diagnostic until validated
-as engine failures. The published v1.8.93 tag and assets are unchanged.
+as engine failures. Publishing is gated on the same successful job and uploads the separately versioned v1.8.94 ZIP to the official Factorio Mod Portal and GitHub release using the Actions secret `FACTORIO_MOD_UPLOAD_KEY`. Earlier v1.8.93 release assets remain unchanged.
