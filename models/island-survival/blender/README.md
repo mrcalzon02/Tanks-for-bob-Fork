@@ -40,3 +40,7 @@ The dedicated GitHub Actions workflow may regenerate and publish the Blender sce
 ## Provenance
 
 Original procedural geometry and materials in the Blender build; no other mod's texture/sprite or Wube's base-game artwork is copied into the scene. Rendering references and potential permissively licensed alternatives are acknowledged in `docs/art/UNUSED_RENDERS_WORKFLOW_AND_CREDITS.md` and `docs/art/FACTORIO_GRAPHICS_SOURCE_REFERENCES.md`. When any specific third-party image is actually incorporated later, record exact author/file/URL/license and any adaptations before distribution. The MIT/CC/GPL status of one source must never be generalized to Snouz's entire mixed-license catalog.
+
+## Production render and Factorio export (separate approval)
+
+Execute [FACTORIO-SPRITE-PRODUCTION-v1](../../../docs/art/FACTORIO_PRODUCTION_SPRITE_WORKFLOW.md) using the [campfire production work order](CAMPFIRE_PRODUCTION_EXPORT_CHECKLIST.md). The existing Blender workflow creates editable development renders and a GIF; it does **not** yet verify the 4.5 LTS community preset, calibrated HDRI/sun camera, engine-ready frame layout, overlay masks, generated prototype Lua or real game behavior. Preserve active sprites until the checklist's integration gates pass.

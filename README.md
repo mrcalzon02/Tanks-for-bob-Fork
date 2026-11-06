@@ -113,3 +113,7 @@ The wiki's **tutorial text is CC0**, while **images and Blender files are CC BY 
 ### Additional Factorio art sources
 
 For individual licensed graphics and Blender-reference research, see [snouz's curated catalog](https://github.com/snouz/factorio_free_graphics_for_modders) and our [mixed-license provenance policy](docs/art/FACTORIO_GRAPHICS_SOURCE_REFERENCES.md). The collection is credited to snouz as curator and the respective original artists. [Campfire V6 geometry notes](models/island-survival/refined/README-v6.md) track the ongoing smoothed model work; active sprites are unchanged.
+
+### Repeatable Factorio production-sprite export procedure
+
+Use the [versioned Blender-to-Factorio production export runbook](docs/art/FACTORIO_PRODUCTION_SPRITE_WORKFLOW.md) for every new 3D-derived structure or animation. The [per-asset checklist template](docs/art/FACTORIO_PRODUCTION_ASSET_CHECKLIST_TEMPLATE.md) records mandatory evidence, failures, correction history and approval. The first active instance is the [campfire work order](models/island-survival/blender/CAMPFIRE_PRODUCTION_EXPORT_CHECKLIST.md). **This documents the steps; it does not mark an uncalibrated asset export-ready or replace current sprites.**
