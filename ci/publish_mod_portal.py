@@ -70,9 +70,22 @@ def upload(archive, version, key):
     ).encode()
     end = f"\r\n--{boundary}--\r\n".encode()
     body = start + archive.read_bytes() + end
-    result = request(upload_url, data=body, headers={
-        "Content-Type": f"multipart/form-data; boundary={boundary}",
-    }, attempts=2)
+    try:
+        result = request(upload_url, data=body, headers={
+            "Content-Type": f"multipart/form-data; boundary={boundary}",
+        }, attempts=2)
+    except RuntimeError as exc:
+        # The public mod-list API may be cached even after a successful upload.
+        # The authenticated upload endpoint is authoritative for this exact
+        # prevalidated version; do not retry or overwrite a published release.
+        message = str(exc)
+        if ('Mod Portal HTTP 400:' in message
+                and '"error":"InvalidModRelease"' in message
+                and 'Release with that version already exists.' in message):
+            print(f"[TANKS-PUBLISH] ALREADY_PUBLISHED_UPLOAD_API {MOD} {version}",
+                  flush=True)
+            return
+        raise
     if result.get("success") is not True:
         # Do not print arbitrary API payloads that may include temporary URLs.
         raise RuntimeError(f"Mod Portal upload did not confirm success: {result.get('error', 'unknown')}")
@@ -85,7 +98,12 @@ def upload(archive, version, key):
         except RuntimeError:
             pass
         time.sleep(3)
-    raise RuntimeError("Upload accepted but release version not yet verified in Mod Portal")
+    # The portal publicly indexes successful uploads asynchronously. Keep this
+    # status distinct from verified visibility, but do not block the GitHub ZIP.
+    print(f"::warning title=Factorio Mod Portal visibility::"
+          f"Upload accepted for {MOD} {version}, public index not yet confirmed.",
+          flush=True)
+    print(f"[TANKS-PUBLISH] UPLOAD_ACCEPTED_INDEX_PENDING {MOD} {version}", flush=True)
 
 
 def main():
