@@ -25,7 +25,7 @@ def fake_zip(name="bobassembly", version="2.1.0", major="2.0"):
     with zipfile.ZipFile(data, "w") as z:
         z.writestr(f"{name}_{version}/info.json", json.dumps({
             "name": name, "version": version, "factorio_version": major,
-            "dependencies": ["base >= 2.0", "boblibrary >= 2.1.0"]
+            "dependencies": ["base >= 2.0"]
         }))
     return data.getvalue()
 
@@ -91,7 +91,7 @@ class PinTests(unittest.TestCase):
             "name": "bobassembly", "releases": [{
                 "version": "2.1.0", "file_name": "bobassembly_2.1.0.zip",
                 "info_json": {"factorio_version": "2.0",
-                              "dependencies": ["base >= 2.0", "boblibrary >= 2.1.0"]},
+                              "dependencies": ["base >= 2.0"]},
                 "download_url": "/download/bobassembly/test",
                 "sha1": sha1,
             }]
