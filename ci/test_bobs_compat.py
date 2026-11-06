@@ -8,6 +8,7 @@ import contextlib
 import hashlib
 import io
 import json
+import sys
 import tempfile
 import unittest
 import zipfile
@@ -178,7 +179,7 @@ class StageTests(unittest.TestCase):
                     "--profile", "space-age", "--output", str(output),
                     "--bobs-mods-dir", str(archives)]
             with mock.patch.object(stage_profile, "ROOT", root), \
-                 mock.patch.object(stage_profile.sys, "argv", argv):
+                 mock.patch.object(sys, "argv", argv):
                 stage_profile.main()
             final = (output / "tanks_for_bob_fork" / "data-final-fixes.lua").read_text()
             self.assertIn('require("prototypes.Compatibility.bobs")', final)
