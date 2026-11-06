@@ -84,6 +84,9 @@ def run_profile(engine: str, profile: str, binary: Path, work: Path,
     required_data_markers = DATA_MARKERS
     if bobs_mods_dir is not None:
         required_data_markers += ("[TANKS-CI] BOBS_AUDIT_CHECKED",)
+    required_runtime_markers = RUNTIME_MARKERS
+    if bobs_mods_dir is not None:
+        required_runtime_markers += ("[TANKS-CI] BOBS_EQUIPMENT_INSERT_CHECKED",)
     stages = [
         ("stage", stage_command, 90, ()),
         ("create", [
@@ -93,7 +96,7 @@ def run_profile(engine: str, profile: str, binary: Path, work: Path,
         ("benchmark", [
             str(binary), "--mod-directory", str(mod_folder),
             "--benchmark", str(save), "--benchmark-ticks", "1200"
-        ], 360, RUNTIME_MARKERS),
+        ], 360, required_runtime_markers),
         ("server", [
             sys.executable, str(ROOT / "ci/server_smoke.py"),
             "--binary", str(binary), "--mods", str(mod_folder),
@@ -123,7 +126,8 @@ def run_profile(engine: str, profile: str, binary: Path, work: Path,
         create_log = (artifacts / "create.log").read_text(encoding="utf-8", errors="replace")
         bench_log = (artifacts / "benchmark.log").read_text(encoding="utf-8", errors="replace")
         interesting = ("SOURCE_REGISTRY_PASS", "SUPPLY_GRAPH rounds", "WEAPON_AUDIT vehicles",
-                       "RUNTIME_PASS tick", "DAMAGE_RESPONSE_PASS tick", "AMMO_INVENTORY_CHECKED tick")
+                       "RUNTIME_PASS tick", "DAMAGE_RESPONSE_PASS tick", "AMMO_INVENTORY_CHECKED tick",
+                       "BOBS_EQUIPMENT_INSERT_CHECKED tick")
         evidence = []
         for line in (create_log + "\n" + bench_log).splitlines():
             if "[TANKS-CI]" in line and any(key in line for key in interesting):
