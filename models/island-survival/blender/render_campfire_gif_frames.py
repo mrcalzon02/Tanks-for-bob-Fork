@@ -18,7 +18,7 @@ opts.out.mkdir(parents=True, exist_ok=True)
 scene = bpy.context.scene
 assert scene.render.engine == "CYCLES", "Must use native Cycles renderer"
 assert scene.camera is not None, "Missing native Blender camera"
-assert scene.frame_start == 1 and scene.frame_end == 96, "Unexpected timeline"
+assert scene.frame_start in (0,1) and scene.frame_end == 96, "Unexpected timeline"
 flames = [ob for ob in scene.objects if ob.name.startswith("flame_tongue")]
 fire_lights = [ob for ob in scene.objects if ob.name == "04 | animated fire light"]
 assert len(flames) == 6, f"Expected six animated flame meshes; found {len(flames)}"

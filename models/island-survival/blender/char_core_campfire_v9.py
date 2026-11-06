@@ -14,6 +14,8 @@ s=bpy.context.scene
 assert s.render.engine=="CYCLES"
 ctrl=bpy.data.objects["CAMPFIRE CONTROLS | collection 03 toggle fire"]
 ctrl["Fire Active"]=1.0
+s.frame_start=0
+ctrl["V9 state"]="Frame 0 = cold wood; frames 1-96 = burning charred core"
 ctrl.id_properties_ui("Fire Active").update(min=0.0,max=1.0,description="0 = cold uncharred wood; 1 = burning fire with a charred core")
 ctrl["V9 intent"]="One Fire Active control: flames, light, charred wood; idle keeps original wood"
 wood=[o for o in bpy.data.collections["02 | Firewood"].objects if o.type=="MESH"]
@@ -57,7 +59,9 @@ for obj in wood:
     ln.new(variation.outputs["Result"],mask.inputs[1])
     on=node(ns,"ShaderNodeValue","FIRE ACTIVE control, 0 cold / 1 burning",(-540,-1190))
     on.outputs[0].default_value=1
-    add_driver(on.outputs[0],"default_value","active")
+    for frame,value in [(0,0.0),(1,1.0),(97,1.0)]:
+        on.outputs[0].default_value=value
+        on.outputs[0].keyframe_insert(data_path="default_value",frame=frame)
     gated=node(ns,"ShaderNodeMath","Only char when FIRE ACTIVE",(-280,-800))
     gated.operation="MULTIPLY"
     ln.new(mask.outputs[0],gated.inputs[0]);ln.new(on.outputs[0],gated.inputs[1])
@@ -76,16 +80,23 @@ for obj in wood:
     ln.new(mix.outputs["Color"],bsdf.inputs["Base Color"])
     m["V9 char"]="Blackened center only when Fire Active > 0; normal mapped wood preserved"
 for o in flames+[light]:
-    o.hide_render=False
-    add_driver(o,"hide_render","1-active")
+    for frame,hidden in [(0,True),(1,False),(97,False)]:
+        o.hide_render=hidden
+        o.keyframe_insert(data_path="hide_render",frame=frame)
 s.render.film_transparent=True
 s.render.image_settings.file_format="PNG"
 s.render.image_settings.color_mode="RGBA"
 s.cycles.samples=opts.samples
 s.render.resolution_percentage=100
 def render(name,on,res):
+    s.frame_set(13 if on else 0)
     ctrl["Fire Active"]=float(on)
-    s.frame_set(13);bpy.context.view_layer.update()
+    bpy.context.view_layer.update()
+    for obj in flames+[light]: obj.hide_render=not bool(on)
+    for obj in wood:
+        for mat in obj.data.materials:
+            control=next(n for n in mat.node_tree.nodes if n.label=="FIRE ACTIVE control, 0 cold / 1 burning")
+            control.outputs[0].default_value=float(on)
     s.render.resolution_x=res;s.render.resolution_y=res
     s.render.filepath=str(opts.out/name)
     bpy.ops.render.render(write_still=True)
@@ -94,6 +105,7 @@ render("campfire-v9-burning-charred-core.png",1,opts.resolution)
 render("campfire-v9-native64.png",1,64)
 ctrl["Fire Active"]=1.0
 s.frame_set(13);bpy.context.view_layer.update()
+for obj in flames+[light]: obj.hide_render=False
 s.render.resolution_x=opts.resolution;s.render.resolution_y=opts.resolution
 s.render.filepath="//campfire-v9-burning-charred-core.png"
 bpy.ops.wm.save_as_mainfile(filepath=str(opts.out/"campfire-v9-animated.blend"),compress=True)
