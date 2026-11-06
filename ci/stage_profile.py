@@ -68,8 +68,19 @@ def main():
             for dep in info.get("dependencies", [])
         ]
         metadata_path.write_text(json.dumps(info, indent=2) + "\n", encoding="utf-8")
-    (dest / "data-final-fixes.lua").write_text(
+    # Keep the real mod's data-final-fixes.lua (e.g. Bob compatibility
+    # adapters) active in CI. Stage the audit as a separate module instead of
+    # overwriting the production file and silently disabling compatibility.
+    (dest / "ci_data_audit.lua").write_text(
         (ROOT / "ci" / "data_audit.lua").read_text(encoding="utf-8"),
+        encoding="utf-8"
+    )
+    final_fixes = dest / "data-final-fixes.lua"
+    original_final_fixes = (
+        final_fixes.read_text(encoding="utf-8") if final_fixes.exists() else ""
+    )
+    final_fixes.write_text(
+        original_final_fixes.rstrip() + '\n\nrequire("ci_data_audit")\n',
         encoding="utf-8"
     )
     (dest / "ci_runtime_harness.lua").write_text(
