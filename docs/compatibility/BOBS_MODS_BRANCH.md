@@ -38,8 +38,8 @@ Additional toggles for metallurgy, tech conversion or ammunition are **not imple
 - [x] **Phase 0:** branch created and linked to issue #1.
 - [x] **Phase 1a:** source evaluation completed; identify Bob module IDs, assembler-copy behavior, equipment-grid omission and research/material dependencies.
 - [x] **Phase 1b (source-level only):** add optional metadata for Bob family, a guarded equipment-grid adapter, a startup enable switch and static assertions; verify the edits on the branch.
-- [ ] **Phase 2:** produce one version-locked, licensed, reproducible Factorio 2.0 combined mod directory: `base`, `elevated-rails`, `quality`, `space-age`, `tanks_for_bob_fork`, and full Bob family. Keep mod credentials in Actions secrets; never log them or commit them.
-- [ ] **Phase 3:** complete the actual data-stage inventory: duplicate prototypes; every fork recipe's ingredient/result and recipe category; machines including Bob assembler 4/5/6; Bob equipment grids/categories; lab science acceptance; tech prerequisites/unlocks; resource reachability and pollution/waste/recycling outputs. Record exact failures, not guesses.
+- [x] **Phase 2:** produce one version-locked, licensed, reproducible Factorio 2.0 combined mod directory: `base`, `elevated-rails`, `quality`, `space-age`, `tanks_for_bob_fork`, and full Bob family. Keep mod credentials in Actions secrets; never log them or commit them.
+- [ ] **Phase 3 (in progress; prototypes covered, progression incomplete):** complete the actual data-stage inventory: duplicate prototypes; every fork recipe's ingredient/result and recipe category; machines including Bob assembler 4/5/6; Bob equipment grids/categories; lab science acceptance; tech prerequisites/unlocks; resource reachability and pollution/waste/recycling outputs. Record exact failures, not guesses.
 - [ ] **Phase 4:** add guarded, stage-appropriate Bob material, electronics, warfare, tank upgrade, ammo and research integrations, verifying progression after each small change. Do not replace a reachable vanilla branch with an unreachable Bob-only ingredient.
 - [ ] **Phase 5:** execute headless create/benchmark/server, save/reload, ammunition inventory and firing/damage probes; record entity and recipe outcomes. Real multiplayer and graphical client checks remain distinct manual acceptance tasks.
 - [ ] **Phase 6:** review result, add truthful support table and release notes, bump to a new version only when ready; merge only after all required game lifecycle/updater gates pass. Maintain one Actions job.
@@ -59,6 +59,23 @@ Apply in `data-final-fixes.lua`, after Bob's base assignments, only when both pa
 ## CI stage fidelity repair
 
 `ci/stage_profile.py` selects the highest versioned source folder (currently 1.8.95). The old staging logic **overwrote** `data-final-fixes.lua` with the audit, which would silently bypass any compatibility adapter. Branch commit `d5612ac` stages `ci_data_audit.lua` and *appends* its require to the existing `data-final-fixes.lua` instead. This change must pass the regular one-profile Factorio smoke before treating the baseline as preserved. The current CI profile still enables **only official mods**, never Bob's mods; it cannot validate Bob integration until the version-locked combined mod directory is implemented.
+
+## First verified full-family engine run
+
+[GitHub Actions run #42153521791](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42153521791) completed **success** on the 1.8.95 source under Factorio **2.0.77** with all 19 pinned Bob modules, plus Base, Elevated Rails, Quality and Space Age. The CI artifact `tanks-factorio-one-profile-audit` contains actual `mod-list.json`, Bob versions, Portal SHA-1s and downloaded SHA-256 hashes, `create.log`, `benchmark.log` and server logs.
+
+Game evidence (from `create.log` and `suite-results.json`):
+- `BOBS_AUDIT_CHECKED fork_vehicles=13 mapped_grids=13 expected_grids=true bob_assemblers=3 craft_category_matches=6/6 custom_labs=2 missing_fork_tech=0`.
+- `DATA_AUDIT recipes=2610 technologies=769 ... tank_recipes=59 tank_without_unlock=0 no_machine=0 recycling_guards=3 warnings=0`.
+- `SOURCE_REGISTRY_PASS declared_recipes=210 declared_technologies=88 recipes_missing_unlock=0`.
+- `SUPPLY_GRAPH ... mod_recipes=210 optimistic_reachable=210 optimistic_blocked=0` (does **not** demonstrate practical science/technology/machinery reachability).
+- `WEAPON_AUDIT ... vehicles=13 gun_slots=26 ... declared_ammo=13 declared_ammo_craftable=13 warnings=0`; no shots fired in this test.
+- `RUNTIME_PASS tick=300 vehicles_spawned=8`, `DAMAGE_RESPONSE_PASS tick=600` and `AMMO_INVENTORY_CHECKED tick=900 attempted=7 accepted=7 skipped=1` (the missing flame-tank is a destroyed/absent diagnostic, not proven incompatibility).
+- Map creation, 1,200-tick benchmark and private headless server startup **passed**. No new release was published.
+
+**Next test:** a live `LuaEquipmentGrid.put` insertion probe for Bob battery/motor/shield equipment on spawned fork tanks has been added on this branch. This will prove more than the data-stage grid assignment; results require a new run. Further work remains on tech-gated production, materials, science/lab constraints and actual weapon firing.
+
+Exact pin amendment: Bob's Adjustable Inserters is **2.0.3** in the Factorio 2.0 Mod Portal; source repository `bobinserters/info.json` lists a 2.0.4 build that is not available as a matching Portal release. We pin the published 2.0.3 ZIP and verify it by Portal SHA-1.
 
 ## Acceptance evidence required
 
