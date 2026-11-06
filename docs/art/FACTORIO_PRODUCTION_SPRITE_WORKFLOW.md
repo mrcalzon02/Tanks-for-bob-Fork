@@ -62,9 +62,10 @@ For any asset:
 1. Create an instance from [the asset checklist template](FACTORIO_PRODUCTION_ASSET_CHECKLIST_TEMPLATE.md) in its own Blender/source directory. Fill measured prototype properties and mark every gate PENDING before execution.
 2. Say **“Execute FACTORIO-SPRITE-PRODUCTION-v1 for <asset>”**. The executor reads this SOP and the instance, checks the current branch/head, starts at the first unpassed gate, performs the actual work, attaches evidence and advances only when allowed.
 3. For the campfire specifically use [the active campfire work order](../../models/island-survival/blender/CAMPFIRE_PRODUCTION_EXPORT_CHECKLIST.md).
-4. For environment setup use the existing shared [bootstrap](https://github.com/mrcalzon02/HB-TTRPG-tools/blob/main/tools/factorio-render-pipeline/bootstrap.py) install/verify commands and record output. For existing V9 source use the [scoped Blender workflow](../../.github/workflows/campfire-blender.yml); it is a *development preview and animation workflow*, NOT a finished Factorio sprite packer.
-5. Before export approve the community add-on or document the fallback, then introduce a single deterministic Blender render-and-pack entrypoint. Until it exists, P07/P08 remain PENDING, not magically executable.
-6. After any change rerun affected checks and update deviations. Check remote SHA and output artifacts after push.
+4. Audit the checklist with the standard-library CLI: python3 tools/art/validate_export_checklist.py <work-order.md>. Use --require export or --require publish for fail-closed production readiness checks; execute python3 -m unittest discover -s tools/art -p 'test_*.py' -v for regression verification. This checks statuses, not actual Blender/game output.
+5. For environment setup use the existing shared [bootstrap](https://github.com/mrcalzon02/HB-TTRPG-tools/blob/main/tools/factorio-render-pipeline/bootstrap.py) install/verify commands and record output. For existing V9 source use the [scoped Blender workflow](../../.github/workflows/campfire-blender.yml); it is a *development preview and animation workflow*, NOT a finished Factorio sprite packer.
+6. Before export approve the community add-on or document the fallback, then introduce a single deterministic Blender render-and-pack entrypoint. Until it exists, P07/P08 remain PENDING, not magically executable.
+7. After any change rerun affected checks and update deviations. Check remote SHA and output artifacts after push.
 
 ### Compact audit entry format
 

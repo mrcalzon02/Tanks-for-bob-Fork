@@ -3,6 +3,7 @@
 **Invocation:** “Execute FACTORIO-SPRITE-PRODUCTION-v1 for the Tanks for Bob campfire.”  
 **Master:** [production sprite runbook](../../../docs/art/FACTORIO_PRODUCTION_SPRITE_WORKFLOW.md).  
 **Status:** Planning and native Blender asset completed. **Not production export-ready; game sprites unchanged.**  
+**GitHub tracking issue:** [#3 — Campfire production export](https://github.com/mrcalzon02/Tanks-for-bob-Fork/issues/3).  
 **Baseline audited:** 2026-11-06, main at fd83c3c6b959448d3471520fe17d35ad606c9be8.
 
 ## Verified current sources (baseline, not target assumptions)
@@ -39,7 +40,7 @@
 | P00 | PASS | Existing prototype & native V9 source located above; baseline commit fd83c3c (revalidate on later HEAD) |
 | P01 | BLOCKED | Factorio 2.0.77 vs 2.1 and relevant working_visualisation API not yet locked to tested binary |
 | P02 | PENDING | Actual V9 maps procedural; verify source/license provenance on any future HDRI/preset/image imports; reference-only credits already documented |
-| P03 | PASS | V9 saved .blend reopened in GitHub CI run 42308478856; objects/animation/char tests passed, but 4.5 LTS migration remains pending for production |
+| P03 | IN_PROGRESS | V9 saved .blend reopened in GitHub CI run 42308478856; objects/animation/char tests passed; production Blender 4.5 LTS reopen and source comparison still pending |
 | P04 | PENDING | Pin and test Valerian .blend and AshenHermit exporter in Blender 4.5 LTS |
 | P05 | PENDING | Create HDRI + AO/edge camera calibration; source sprite side-by-side and frozen settings |
 | P06 | PENDING | Extract base vs burning-only char/flame overlays; prove registration and absence of double-drawn stones/logs |
@@ -83,3 +84,14 @@ Open this file and runbook. Start with **P01**, not an arbitrary re-model or new
 | --- | --- | --- | --- | --- | --- |
 
 **Important:** Art diagnostics do not retroactively block unrelated gameplay releases. However **the new campfire sprite itself must not replace the approved sprite** until its own engine/load tests and visual signoff succeed.
+
+## Command-line audit (structure and gate status only)
+
+~~~bash
+python3 tools/art/validate_export_checklist.py models/island-survival/blender/CAMPFIRE_PRODUCTION_EXPORT_CHECKLIST.md
+python3 tools/art/validate_export_checklist.py models/island-survival/blender/CAMPFIRE_PRODUCTION_EXPORT_CHECKLIST.md --require export
+python3 tools/art/validate_export_checklist.py models/island-survival/blender/CAMPFIRE_PRODUCTION_EXPORT_CHECKLIST.md --require publish
+python3 -m unittest discover -s tools/art -p 'test_*.py' -v
+~~~
+
+The first audit should **pass structural validation** while naming P01 as the next unresolved gate. Both stricter modes must fail closed until the corresponding steps have independent evidence. This validator does not simulate Factorio or approve art.
