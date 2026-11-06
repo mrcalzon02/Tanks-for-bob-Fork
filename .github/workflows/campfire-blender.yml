@@ -89,6 +89,7 @@ jobs:
           assert 'Native Blender V9 core firewood char' in data
           assert (p/'campfire-v9-idle-natural-wood.png').read_bytes() != (p/'campfire-v9-burning-charred-core.png').read_bytes(), 'Identical idle/burning renders'
           assert (p/'campfire-v9-idle-natural-wood.png').read_bytes() != (p/'campfire-v9-char-only-study.png').read_bytes(), 'Char-only material change is invisible'
+          assert (p/'campfire-v9-burning-charred-core.png').read_bytes() != (p/'campfire-v9-char-only-study.png').read_bytes(), 'Char-only study still shows flames'
           PY
       - name: Publish Blender artifact archive
         uses: actions/upload-artifact@v4

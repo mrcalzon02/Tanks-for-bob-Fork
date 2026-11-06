@@ -57,6 +57,27 @@ for obj in wood:
     mask.operation="MULTIPLY"
     ln.new(radial.outputs["Result"],mask.inputs[0])
     ln.new(variation.outputs["Result"],mask.inputs[1])
+    coord=node(ns,"ShaderNodeTexCoord","Log-local generated axis",(-1050,-1470))
+    split=node(ns,"ShaderNodeSeparateXYZ","Length axis of this log",(-840,-1450))
+    ln.new(coord.outputs["Generated"],split.inputs["Vector"])
+    center=node(ns,"ShaderNodeMath","Distance along log from midpoint",(-650,-1480))
+    center.operation="SUBTRACT"
+    center.inputs[1].default_value=.5
+    ln.new(split.outputs["X" if obj.dimensions.x >= obj.dimensions.y else "Y"],center.inputs[0])
+    absolute=node(ns,"ShaderNodeMath","Absolute distance from log center",(-470,-1470))
+    absolute.operation="ABSOLUTE"
+    ln.new(center.outputs[0],absolute.inputs[0])
+    midfade=node(ns,"ShaderNodeMapRange","Charred middle, natural log ends",(-290,-1430))
+    midfade.inputs["From Min"].default_value=.12
+    midfade.inputs["From Max"].default_value=.43
+    midfade.inputs["To Min"].default_value=.98
+    midfade.inputs["To Max"].default_value=0.0
+    midfade.clamp=True
+    ln.new(absolute.outputs[0],midfade.inputs["Value"])
+    combined=node(ns,"ShaderNodeMath","Central char + hearth influence",(-180,-1090))
+    combined.operation="MAXIMUM"
+    ln.new(mask.outputs[0],combined.inputs[0])
+    ln.new(midfade.outputs["Result"],combined.inputs[1])
     on=node(ns,"ShaderNodeValue","FIRE ACTIVE control, 0 cold / 1 burning",(-540,-1190))
     on.outputs[0].default_value=1
     for frame,value in [(0,0.0),(1,1.0),(97,1.0)]:
@@ -64,7 +85,7 @@ for obj in wood:
         on.outputs[0].keyframe_insert(data_path="default_value",frame=frame)
     gated=node(ns,"ShaderNodeMath","Only char when FIRE ACTIVE",(-280,-800))
     gated.operation="MULTIPLY"
-    ln.new(mask.outputs[0],gated.inputs[0]);ln.new(on.outputs[0],gated.inputs[1])
+    ln.new(combined.outputs[0],gated.inputs[0]);ln.new(on.outputs[0],gated.inputs[1])
     colors=node(ns,"ShaderNodeValToRGB","Black charcoal with soot-brown edges",(-260,-1150))
     colors.color_ramp.elements[0].position=.15
     colors.color_ramp.elements[0].color=(.010,.008,.006,1)
@@ -89,10 +110,16 @@ s.render.image_settings.color_mode="RGBA"
 s.cycles.samples=opts.samples
 s.render.resolution_percentage=100
 def render(name,on,res,show_flames=True):
+    flames_collection=bpy.data.collections["03 | Animated fire tongues"]
+    hide_fire=not show_flames
+    light_hide_curve=next(fc for fc in light.animation_data.action.fcurves if fc.data_path=="hide_render")
+    flames_collection.hide_render=hide_fire
+    light_hide_curve.mute=hide_fire
     s.frame_set(13 if on else 0)
     ctrl["Fire Active"]=float(on)
     bpy.context.view_layer.update()
     for obj in flames+[light]: obj.hide_render=not bool(on and show_flames)
+    if hide_fire: light.hide_render=True
     for obj in wood:
         for mat in obj.data.materials:
             control=next(n for n in mat.node_tree.nodes if n.label=="FIRE ACTIVE control, 0 cold / 1 burning")
@@ -100,6 +127,8 @@ def render(name,on,res,show_flames=True):
     s.render.resolution_x=res;s.render.resolution_y=res
     s.render.filepath=str(opts.out/name)
     bpy.ops.render.render(write_still=True)
+    flames_collection.hide_render=False
+    light_hide_curve.mute=False
 render("campfire-v9-idle-natural-wood.png",0,opts.resolution)
 render("campfire-v9-burning-charred-core.png",1,opts.resolution)
 render("campfire-v9-char-only-study.png",1,opts.resolution,show_flames=False)

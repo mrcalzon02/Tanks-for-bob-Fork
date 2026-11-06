@@ -25,6 +25,11 @@ for obj in flames+[light]:
     assert obj.animation_data and obj.animation_data.action
     assert any("hide_render" in f.data_path for f in obj.animation_data.action.fcurves),obj.name
 s.frame_set(0)
+val=next(n for n in wood[0].data.materials[0].node_tree.nodes if n.label=="FIRE ACTIVE control, 0 cold / 1 burning")
+assert abs(val.outputs[0].default_value)<.01,"Cold wood charcoal still enabled"
+s.frame_set(13)
+assert val.outputs[0].default_value>.99,"Burning wood not charred"
+s.frame_set(0)
 assert all(o.hide_render for o in flames+[light]),"Cold state still has fire geometry"
 s.frame_set(13)
 assert all(not o.hide_render for o in flames+[light]),"Burning state hides fire"
