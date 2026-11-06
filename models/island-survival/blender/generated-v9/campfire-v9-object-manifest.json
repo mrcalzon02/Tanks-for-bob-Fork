@@ -1,0 +1,12 @@
+{
+  "verified": true,
+  "native_blend": "/home/runner/work/Tanks-for-bob-Fork/Tanks-for-bob-Fork/models/island-survival/blender/generated-v9/campfire-v9-animated.blend",
+  "wood_objects": 42,
+  "char_materials": 70,
+  "stone_objects": 15,
+  "animated_flames": 6,
+  "one_timeline_state": true,
+  "idle_uncharred": true,
+  "burning_charred_core": true,
+  "preserves_normal_maps": true
+}

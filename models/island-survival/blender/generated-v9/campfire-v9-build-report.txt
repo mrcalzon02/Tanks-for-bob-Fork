@@ -1,0 +1,6 @@
+Native Blender V9 core firewood char
+Fire state: CAMPFIRE CONTROLS / Fire Active
+Wood objects: 42
+Char-aware wood materials: 70
+Flames: 6
+Cycles. Normal maps preserved. No generated illustration.
