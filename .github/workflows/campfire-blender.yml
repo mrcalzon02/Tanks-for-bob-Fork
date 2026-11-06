@@ -41,9 +41,14 @@ jobs:
           blender -b -t 4 models/island-survival/blender/generated/campfire-v7-animated.blend \
             --python models/island-survival/blender/refine_campfire_v8.py -- \
             --out models/island-survival/blender/generated-v8 --samples 20 --resolution 512
-      - name: Render actual keyframed Blender animation (16 Cycles frames)
+      - name: V9 charred firewood only during native burning state
         run: |
           blender -b -t 4 models/island-survival/blender/generated-v8/campfire-v8-animated.blend \
+            --python models/island-survival/blender/char_core_campfire_v9.py -- \
+            --out models/island-survival/blender/generated-v9 --samples 20 --resolution 512
+      - name: Render actual keyframed Blender animation (16 Cycles frames)
+        run: |
+          blender -b -t 4 models/island-survival/blender/generated-v9/campfire-v9-animated.blend \
             --python models/island-survival/blender/render_campfire_gif_frames.py -- \
             --out /tmp/campfire-gif-frames --resolution 320 --samples 12
       - name: Assemble and verify looping animation GIF
@@ -51,7 +56,7 @@ jobs:
           sudo apt-get install -y python3-pil
           /usr/bin/python3 models/island-survival/blender/assemble_campfire_gif.py \
             --frames /tmp/campfire-gif-frames \
-            --out models/island-survival/blender/generated-v8/campfire-v8-animated.gif
+            --out models/island-survival/blender/generated-v9/campfire-v9-animated.gif
       - name: Verify actual saved Blender mesh objects and animation keys
         run: |
           blender -b -t 4 models/island-survival/blender/generated/campfire-v7-animated.blend \
@@ -62,37 +67,41 @@ jobs:
           blender -b -t 4 models/island-survival/blender/generated-v8/campfire-v8-animated.blend \
             --python models/island-survival/blender/verify_campfire_v8.py -- \
             models/island-survival/blender/generated-v8/campfire-v8-object-manifest.json
+      - name: Reopen V9 scene and verify conditional wood-char shader
+        run: |
+          blender -b -t 4 models/island-survival/blender/generated-v9/campfire-v9-animated.blend \
+            --python models/island-survival/blender/verify_campfire_v9.py -- \
+            models/island-survival/blender/generated-v9/campfire-v9-object-manifest.json
       - name: Verify scene and preview artifacts
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          p=Path('models/island-survival/blender/generated-v8')
-          must=['campfire-v8-animated.blend','campfire-v8-idle.png',
-                'campfire-v8-burning.png','campfire-v8-native64.png',
-                'campfire-v8-build-report.txt',
-                'campfire-v8-animated.gif',
-                'campfire-v8-object-manifest.json']
+          p=Path('models/island-survival/blender/generated-v9')
+          must=['campfire-v9-animated.blend','campfire-v9-idle-natural-wood.png',
+                'campfire-v9-burning-charred-core.png','campfire-v9-native64.png',
+                'campfire-v9-build-report.txt','campfire-v9-animated.gif',
+                'campfire-v9-object-manifest.json']
           for file in must:
             f=p/file
             assert f.exists() and f.stat().st_size>100, f'Missing or empty: {f}'
             print(f'{file}: {f.stat().st_size} bytes')
-          data=(p/'campfire-v8-build-report.txt').read_text()
+          data=(p/'campfire-v9-build-report.txt').read_text()
           assert 'Triangles: 12152' in data
           assert 'Engine: CYCLES' in data
           PY
       - name: Publish Blender artifact archive
         uses: actions/upload-artifact@v4
         with:
-          name: campfire-v8-blender-animated
-          path: models/island-survival/blender/generated-v8/
+          name: campfire-v9-blender-animated
+          path: models/island-survival/blender/generated-v9/
           if-no-files-found: error
       - name: Commit generated native scene and renders to main
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add models/island-survival/blender/generated-v8/
+          git add models/island-survival/blender/generated-v9/
           if ! git diff --cached --quiet; then
-            git commit -m 'art(blender): publish V8 editable material and flame-gradient Blender scene'
+            git commit -m 'art(blender): publish V9 conditional core-char Blender scene'
             git push origin HEAD:main
           else
             echo 'Native Blender output is unchanged.'
