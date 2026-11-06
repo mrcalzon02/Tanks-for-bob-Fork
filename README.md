@@ -109,3 +109,7 @@ The original motivation was stronger tank firepower for difficult biter scenario
 The wiki's **tutorial text is CC0**, while **images and Blender files are CC BY 4.0**, with credit and license link required for reused/adapted artwork. Referencing the methods alone does not mean assets from that repository have been imported. See [texturing workflow and provenance requirements](docs/art/UNUSED_RENDERS_WORKFLOW_AND_CREDITS.md) for techniques, licensing boundaries, and per-asset attribution.
 
 **Existing-art reuse:** We also stage selected CC BY 4.0 [Unused Renders candidate item sprites](art/third-party/unused-renders/README.md) for comparison before redrawing icons. These credited candidates are not yet wired into game prototypes; original art remains active until visually reviewed and tested.
+
+### Additional Factorio art sources
+
+For individual licensed graphics and Blender-reference research, see [snouz's curated catalog](https://github.com/snouz/factorio_free_graphics_for_modders) and our [mixed-license provenance policy](docs/art/FACTORIO_GRAPHICS_SOURCE_REFERENCES.md). The collection is credited to snouz as curator and the respective original artists. [Campfire V6 geometry notes](models/island-survival/refined/README-v6.md) track the ongoing smoothed model work; active sprites are unchanged.
