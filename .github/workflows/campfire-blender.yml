@@ -1,0 +1,70 @@
+name: Campfire native Blender scene
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/blender/*.py'
+      - '.github/workflows/campfire-blender.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-scene:
+    name: Blender scene + previews
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Blender
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender
+          blender --version | head -3
+      - name: Reconstruct V6 physical geometry
+        run: |
+          python3 models/island-survival/blender/rebuild_campfire_v6.py \
+            --v4 models/island-survival/refined/build_campfire_v4.py \
+            --out /tmp/tanks-for-bob-campfire
+      - name: Build native animated Blender scene and render previews
+        run: |
+          blender -b -t 4 --python models/island-survival/blender/build_campfire_scene.py -- \
+            --obj /tmp/tanks-for-bob-campfire/campfire-smoothed-v6.obj \
+            --out models/island-survival/blender/generated \
+            --samples 20 --resolution 512
+      - name: Verify scene and preview artifacts
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('models/island-survival/blender/generated')
+          must=['campfire-v7-animated.blend','campfire-blender-idle.png',
+                'campfire-blender-burning.png','campfire-blender-native64.png',
+                'campfire-blender-build-report.txt']
+          for file in must:
+            f=p/file
+            assert f.exists() and f.stat().st_size>100, f'Missing or empty: {f}'
+            print(f'{file}: {f.stat().st_size} bytes')
+          data=(p/'campfire-blender-build-report.txt').read_text()
+          assert 'Triangles: 12152' in data
+          assert 'Engine: CYCLES' in data
+          PY
+      - name: Publish Blender artifact archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: campfire-v7-blender-animated
+          path: models/island-survival/blender/generated/
+          if-no-files-found: error
+      - name: Commit generated native scene and renders to main
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/blender/generated/
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(blender): publish native animated campfire V7 scene and renders'
+            git push origin HEAD:main
+          else
+            echo 'Native Blender output is unchanged.'
