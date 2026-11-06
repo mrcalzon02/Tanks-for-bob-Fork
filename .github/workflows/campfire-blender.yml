@@ -36,6 +36,11 @@ jobs:
             --obj /tmp/tanks-for-bob-campfire/campfire-smoothed-v6.obj \
             --out models/island-survival/blender/generated \
             --samples 20 --resolution 512
+      - name: Refine V8 materials and fire animation INSIDE native Blender
+        run: |
+          blender -b -t 4 models/island-survival/blender/generated/campfire-v7-animated.blend \
+            --python models/island-survival/blender/refine_campfire_v8.py -- \
+            --out models/island-survival/blender/generated-v8 --samples 20 --resolution 512
       - name: Render actual keyframed Blender animation (16 Cycles frames)
         run: |
           blender -b -t 4 models/island-survival/blender/generated/campfire-v7-animated.blend \
@@ -46,43 +51,48 @@ jobs:
           sudo apt-get install -y python3-pil
           /usr/bin/python3 models/island-survival/blender/assemble_campfire_gif.py \
             --frames /tmp/campfire-gif-frames \
-            --out models/island-survival/blender/generated/campfire-blender-animated.gif
+            --out models/island-survival/blender/generated-v8/campfire-v8-animated.gif
       - name: Verify actual saved Blender mesh objects and animation keys
         run: |
           blender -b -t 4 models/island-survival/blender/generated/campfire-v7-animated.blend \
             --python models/island-survival/blender/inspect_campfire_scene.py -- \
             models/island-survival/blender/generated/campfire-v7-object-manifest.json
+      - name: Verify V8 native material graph and shape-key animation
+        run: |
+          blender -b -t 4 models/island-survival/blender/generated-v8/campfire-v8-animated.blend \
+            --python models/island-survival/blender/verify_campfire_v8.py -- \
+            models/island-survival/blender/generated-v8/campfire-v8-object-manifest.json
       - name: Verify scene and preview artifacts
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          p=Path('models/island-survival/blender/generated')
-          must=['campfire-v7-animated.blend','campfire-blender-idle.png',
-                'campfire-blender-burning.png','campfire-blender-native64.png',
-                'campfire-blender-build-report.txt',
-                'campfire-blender-animated.gif',
-                'campfire-v7-object-manifest.json']
+          p=Path('models/island-survival/blender/generated-v8')
+          must=['campfire-v8-animated.blend','campfire-v8-idle.png',
+                'campfire-v8-burning.png','campfire-v8-native64.png',
+                'campfire-v8-build-report.txt',
+                'campfire-v8-animated.gif',
+                'campfire-v8-object-manifest.json']
           for file in must:
             f=p/file
             assert f.exists() and f.stat().st_size>100, f'Missing or empty: {f}'
             print(f'{file}: {f.stat().st_size} bytes')
-          data=(p/'campfire-blender-build-report.txt').read_text()
+          data=(p/'campfire-v8-build-report.txt').read_text()
           assert 'Triangles: 12152' in data
           assert 'Engine: CYCLES' in data
           PY
       - name: Publish Blender artifact archive
         uses: actions/upload-artifact@v4
         with:
-          name: campfire-v7-blender-animated
-          path: models/island-survival/blender/generated/
+          name: campfire-v8-blender-animated
+          path: models/island-survival/blender/generated-v8/
           if-no-files-found: error
       - name: Commit generated native scene and renders to main
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add models/island-survival/blender/generated/
+          git add models/island-survival/blender/generated-v8/
           if ! git diff --cached --quiet; then
-            git commit -m 'art(blender): publish native animated campfire V7 scene and renders'
+            git commit -m 'art(blender): publish V8 editable material and flame-gradient Blender scene'
             git push origin HEAD:main
           else
             echo 'Native Blender output is unchanged.'
