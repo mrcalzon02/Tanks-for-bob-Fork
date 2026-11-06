@@ -113,3 +113,60 @@ log(string.format(
   "custom_labs=%d missing_fork_tech=%d",
   grid_checks, grid_matches, tostring(not not expect_grids),
   machine_checks, category_matches, custom_labs, missing_tech))
+
+-- Actual final research/lab combination audit. A technology is researchable
+-- only when a lab accepts its complete science-pack set, not just each pack
+-- independently. This is a registry check, NOT proof of pack manufacturing or
+-- cost/tech progression. Keep unsupported cases as diagnostics.
+local manifest = require("ci_manifest")
+local labs = data.raw.lab or {}
+local techs_checked, lab_supported, no_lab, missing_science = 0, 0, 0, 0
+local function check_technology(name)
+  local technology = technologies[name]
+  if not technology or not technology.unit or not technology.unit.ingredients
+      or #technology.unit.ingredients == 0 then
+    return
+  end
+  techs_checked = techs_checked + 1
+  local required = {}
+  for _, pack in pairs(technology.unit.ingredients) do
+    local science_name = pack.name or pack[1]
+    if science_name then
+      required[science_name] = true
+      if not (data.raw.tool or {})[science_name] then
+        missing_science = missing_science + 1
+        log("[TANKS-BOBS] TECH_DIAGNOSTIC " .. name ..
+            " missing science item " .. science_name)
+      end
+    end
+  end
+  local available = false
+  for _, lab in pairs(labs) do
+    local accepted = {}
+    for _, pack in pairs(lab.inputs or {}) do accepted[pack] = true end
+    local all_supported = true
+    for pack in pairs(required) do
+      if not accepted[pack] then all_supported = false; break end
+    end
+    if all_supported then available = true; break end
+  end
+  if available then
+    lab_supported = lab_supported + 1
+  else
+    no_lab = no_lab + 1
+    log("[TANKS-BOBS] TECH_DIAGNOSTIC no lab accepts complete science set for " .. name)
+  end
+end
+
+local ordered = {}
+for name in pairs(manifest.technologies) do ordered[#ordered + 1] = name end
+table.sort(ordered)
+for _, name in ipairs(ordered) do check_technology(name) end
+if mods["bobwarfare"] then
+  check_technology("bob-tanks-2")
+  check_technology("bob-tanks-3")
+end
+log(string.format(
+  "[TANKS-CI] BOBS_TECH_LAB_AUDIT technologies=%d lab_supported=%d " ..
+  "no_lab=%d missing_science=%d",
+  techs_checked, lab_supported, no_lab, missing_science))
