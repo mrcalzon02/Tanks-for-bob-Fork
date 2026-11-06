@@ -161,3 +161,16 @@ not evidence of missing ammunition. The checker was corrected before
 drawing conclusions about ammo compatibility. See the next CI run for
 the actual confirmed link count; firing and ammunition consumption remain
 separate untested behaviors.
+
+### Complete ammunition manifest and live inventory probe
+
+The CI weapon audit now reads **all 13** ammo declarations from the source
+manifest instead of nine guessed by filename; it validates those prototypes,
+their top-level `ammo_category`, and an item-producing recipe. The existing
+26 gun-slot-to-category checks remain.
+
+The runtime harness also tries loading appropriate ammunition into eight
+live tank variants at tick 900. Because one vehicle is deliberately destroyed
+by the physical-damage probe at tick 600, the expected inventory count may
+be seven. Insertion/rejection outcomes are logged as **diagnostics**, not
+release blockers. This is not a live firing or ammo-consumption test.

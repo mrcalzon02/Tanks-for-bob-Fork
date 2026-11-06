@@ -79,3 +79,53 @@ script.on_nth_tick(600, function(event)
     " before=" .. before .. " after=" .. after .. " engine_damage=" .. tostring(dealt))
   script.on_nth_tick(600, nil)
 end)
+
+
+-- Diagnostic vehicle-ammo inventory probe. Engine-verified insertion is NOT
+-- proof that a driver can fire, that projectiles hit, or that ammo is consumed.
+local ammo_pairs = {
+  ["flame-tank"] = "flame-thrower-ammo-tanker",
+  ["auto-tank"] = "45mm-auto",
+  ["nade-tank"] = "50mm-mortar",
+  ["mine-tank"] = "minepack",
+  ["rocket-tank"] = "rocketpack",
+  ["super-tank"] = "cannon-shell-2",
+  ["super-tank-alternate"] = "minepack",
+  ["super-tank-wmd"] = "tank-wmd-ammo",
+}
+script.on_nth_tick(900, function(event)
+  if event.tick < 900 then return end
+  local surface = game.surfaces[1]
+  local tested, accepted, skipped = 0, 0, 0
+  if not (surface and surface.valid) then
+    log("[TANKS-CI] AMMO_INVENTORY_DIAG missing test surface")
+    log("[TANKS-CI] AMMO_INVENTORY_CHECKED tick=" .. event.tick .. " attempted=0 accepted=0 skipped=8")
+    script.on_nth_tick(900, nil)
+    return
+  end
+  for name, ammo_name in pairs(ammo_pairs) do
+    local entities = surface.find_entities_filtered{name=name, force="player"}
+    local entity = entities[1]
+    if entity and entity.valid then
+      local inventory = entity.get_inventory(defines.inventory.car_ammo)
+      if inventory and inventory.valid then
+        tested = tested + 1
+        local inserted = inventory.insert{name=ammo_name, count=5}
+        if inserted > 0 and inventory.get_item_count(ammo_name) > 0 then
+          accepted = accepted + 1
+        else
+          log("[TANKS-CI] AMMO_INVENTORY_DIAG rejected ammo=" .. ammo_name .. " vehicle=" .. name)
+        end
+      else
+        skipped = skipped + 1
+        log("[TANKS-CI] AMMO_INVENTORY_DIAG no ammo inventory on " .. name)
+      end
+    else
+      skipped = skipped + 1
+      log("[TANKS-CI] AMMO_INVENTORY_DIAG vehicle unavailable " .. name)
+    end
+  end
+  log("[TANKS-CI] AMMO_INVENTORY_CHECKED tick=" .. event.tick ..
+    " attempted=" .. tested .. " accepted=" .. accepted .. " skipped=" .. skipped)
+  script.on_nth_tick(900, nil)
+end)

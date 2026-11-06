@@ -101,16 +101,18 @@ def main():
     declared_technologies = names("technology", [
         "prototypes/technology/technology.lua",
     ])
+    declared_ammo = names("ammo", ["prototypes/item/ammo.lua"])
     def lua_set(entries):
         return "{" + ",".join("[" + json.dumps(v) + "]=true"
                               for v in sorted(entries)) + "}"
     (dest / "ci_manifest.lua").write_text(
         "return {recipes=" + lua_set(declared_recipes) +
-        ", technologies=" + lua_set(declared_technologies) + "}\n",
+        ", technologies=" + lua_set(declared_technologies) +
+        ", ammo=" + lua_set(declared_ammo) + "}\n",
         encoding="utf-8",
     )
-    print("[TANKS-CI] MANIFEST %d declared recipes, %d declared technologies" %
-          (len(declared_recipes), len(declared_technologies)))
+    print("[TANKS-CI] MANIFEST %d recipes, %d technologies, %d ammo prototypes" %
+          (len(declared_recipes), len(declared_technologies), len(declared_ammo)))
     with (dest / "control.lua").open("a", encoding="utf-8") as handle:
         handle.write('\nrequire("ci_runtime_harness")\n')
     (args.output / "mod-list.json").write_text(

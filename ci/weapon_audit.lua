@@ -5,6 +5,7 @@ local guns = data.raw.gun or {}
 local ammo = data.raw.ammo or {}
 local recipes = data.raw.recipe or {}
 local categories = data.raw["ammo-category"] or {}
+local manifest = require("ci_manifest")
 local target_names = {
   "modular-tank", "flame-tank", "auto-tank", "nade-tank",
   "flame-tank-wlsk", "auto-tank-wlsk", "nade-tank-wlsk",
@@ -78,20 +79,22 @@ for _, name in ipairs(target_names) do
   end
 end
 local ammo_count, ammo_with_craft_recipe = 0, 0
-for name in pairs(ammo) do
-  if name:find("tank") or name:find("mm%-") or name:find("rocketpack")
-     or name:find("minepack") or name:find("flame%-thrower%-ammo%-tanker") then
-    ammo_count = ammo_count + 1
-    if craftable_ammo[name] then
-      ammo_with_craft_recipe = ammo_with_craft_recipe + 1
-    else
-      flag("mod-named ammo has no detected crafting output: " .. name)
-    end
+for name in pairs(manifest.ammo or {}) do
+  ammo_count = ammo_count + 1
+  if not ammo[name] then
+    flag("source-declared ammo prototype is missing from registry: " .. name)
+  elseif not ammo[name].ammo_category then
+    flag("source-declared ammo has no ammo category: " .. name)
+  end
+  if craftable_ammo[name] then
+    ammo_with_craft_recipe = ammo_with_craft_recipe + 1
+  else
+    flag("source-declared ammo has no detected crafting output: " .. name)
   end
 end
 local category_count = 0
 for _ in pairs(used_categories) do category_count = category_count + 1 end
-log(("[TANKS-CI] WEAPON_AUDIT vehicles=%d gun_slots=%d supported_categories=%d ammo_links=%d named_ammo=%d named_ammo_craftable=%d warnings=%d"):format(
+log(("[TANKS-CI] WEAPON_AUDIT vehicles=%d gun_slots=%d supported_categories=%d ammo_links=%d declared_ammo=%d declared_ammo_craftable=%d warnings=%d"):format(
   supported, weapon_count, category_count, linked_ammo, ammo_count, ammo_with_craft_recipe, #warnings))
 for i, message in ipairs(warnings) do
   if i > 80 then break end
