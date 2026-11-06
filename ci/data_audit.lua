@@ -148,4 +148,6 @@ if #failures > 0 then
   error("Tanks for Bob CI data audit detected " .. #failures .. " blocking problems")
 end
 log(string.format("[TANKS-CI] SOURCE_REGISTRY_PASS declared_recipes=%d declared_technologies=%d recipes_missing_unlock=%d", manifest_recipe_count, manifest_tech_count, manifest_missing_unlocks))
+require("ci_progression_audit")
+require("ci_weapon_audit")
 log("[TANKS-CI] DATA_PASS official-mod profile, recipe technology and machine-category registry")

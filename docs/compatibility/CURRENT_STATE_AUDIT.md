@@ -125,3 +125,29 @@ None of the above untested features is implicitly counted as passed.
 **Workflow:** https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/workflows/vanilla-factorio.yml
 
 **12-profile engine baseline:** https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42133070510
+
+## 6. Continued audit checks (2026-11-05)
+
+A new CI-only engine audit tier is installed without changing published gameplay
+definitions:
+
+- **Optimistic recipe supply graph:** seeds world resources and conventional
+  wood/fish/water sources, iterates all registered recipe ingredient/product
+  relationships, and reports mod recipes with unresolved upstream inputs.
+  This is diagnostic, **not** proof of real assembly-machine, technology,
+  fuel, fluid-temperature, SeaBlock-map, or bootstrap accessibility.
+- **Vehicle/weapon/ammo topology:** inspects 13 tank variants, installed
+  gun prototypes, ammo-category matches, ammo recipes, item placement and
+  mining results. Registrations do **not** prove that actual shots fire.
+- **Live physical-damage response:** after the initial vehicle-instantiation
+  smoke test (tick 300), uses Factorio's native entity.damage API at tick
+  600 to confirm real hitpoint reduction/destruction. It does **not**
+  simulate a fired projectile or prove self-damage mechanics.
+- These audits run within the existing 12 official-mod matrix profiles and
+  publish their observations in full headless creation/benchmark logs.
+- Supply graph and weapon topology findings remain **diagnostic**;
+  only genuinely failed engine lifecycle checks or explicitly verified
+  runtime assertions cause a failing job.
+
+**Test provenance:** these are CI-only harness files copied into an isolated
+temporary mod install. They are not added to the distributable mod.

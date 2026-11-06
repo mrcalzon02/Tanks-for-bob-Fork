@@ -76,6 +76,11 @@ def main():
         (ROOT / "ci" / "runtime_harness.lua").read_text(encoding="utf-8"),
         encoding="utf-8"
     )
+    for audit in ("progression_audit.lua", "weapon_audit.lua"):
+        (dest / ("ci_" + audit)).write_text(
+            (ROOT / "ci" / audit).read_text(encoding="utf-8"),
+            encoding="utf-8",
+        )
     quoted = ", ".join('["' + mod + '"]=true' for mod in sorted(enabled))
     (dest / "ci_profile.lua").write_text("return {" + quoted + "}\n", encoding="utf-8")
     # Manifest of literal declarations from the three active recipe modules.

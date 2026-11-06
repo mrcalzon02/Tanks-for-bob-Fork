@@ -53,3 +53,29 @@ script.on_nth_tick(300, function(event)
   log("[TANKS-CI] RUNTIME_PASS tick=" .. event.tick .. " vehicles_spawned=" .. count)
   script.on_nth_tick(300, nil)
 end)
+
+
+-- Actual Factorio engine damage-response probe. Tests vehicle health/resistance
+-- and destruction, not firing, ammunition depletion, targeting, or visual FX.
+script.on_nth_tick(600, function(event)
+  if event.tick < 600 then return end
+  local surface = game.surfaces[1]
+  if not (surface and surface.valid) then
+    error("[TANKS-CI] No valid surface for damage response")
+  end
+  local found = surface.find_entities_filtered{name=vehicle_names, force="player"}
+  if #found == 0 then
+    error("[TANKS-CI] No surviving CI-created vehicles for engine damage test")
+  end
+  local vehicle = found[1]
+  local before = vehicle.health or 0
+  if before <= 0 then error("[TANKS-CI] Damage test vehicle has no health") end
+  local dealt = vehicle.damage(100000, game.forces.enemy, "physical")
+  local after = vehicle.valid and (vehicle.health or 0) or 0
+  if after >= before then
+    error("[TANKS-CI] Actual engine physical damage did not reduce vehicle health")
+  end
+  log("[TANKS-CI] DAMAGE_RESPONSE_PASS tick=" .. event.tick ..
+    " before=" .. before .. " after=" .. after .. " engine_damage=" .. tostring(dealt))
+  script.on_nth_tick(600, nil)
+end)
