@@ -151,4 +151,5 @@ log(string.format("[TANKS-CI] SOURCE_REGISTRY_PASS declared_recipes=%d declared_
 require("ci_progression_audit")
 require("ci_weapon_audit")
 require("ci_recipe_machine_audit")
+require("ci_bobs_audit")
 log("[TANKS-CI] DATA_PASS official-mod profile, recipe technology and machine-category registry")
