@@ -37,6 +37,7 @@ def main():
     p.add_argument("--engine", choices=["2.0.77", "2.1.23"], required=True)
     p.add_argument("--profile", choices=sorted(PROFILES), required=True)
     p.add_argument("--output", type=Path, required=True)
+    p.add_argument("--bobs-mods-dir", type=Path, default=None)
     args = p.parse_args()
     enabled = set(PROFILES[args.profile])
     is_21 = args.engine.startswith("2.1.")
@@ -55,6 +56,23 @@ def main():
     if dest.exists():
         shutil.rmtree(dest)
     shutil.copytree(source, dest)
+    bob_versions = {}
+    if args.bobs_mods_dir is not None:
+        # This directory must have been downloaded and hash-verified by
+        # ci/fetch_bobs_mods.py in the very same CI run.
+        lock = json.loads((ROOT / "ci" / "bobs_versions.json").read_text(encoding="utf-8"))
+        if lock["factorio_major"] != "2.0" or lock["engine"] != args.engine:
+            raise ValueError("Bob pin manifest / selected engine mismatch")
+        bob_versions = lock["mods"]
+        found = list(args.bobs_mods_dir.glob("*.zip"))
+        if len(found) != len(bob_versions):
+            raise ValueError("Incomplete pinned Bob-family ZIP staging directory")
+        for mod_name, version in sorted(bob_versions.items()):
+            archive = args.bobs_mods_dir / f"{mod_name}_{version}.zip"
+            if not archive.is_file():
+                raise ValueError("Required pinned Bob ZIP absent: " + archive.name)
+            shutil.copy2(archive, args.output / archive.name)
+        enabled.update(bob_versions)
     metadata_path = dest / "info.json"
     info = json.loads(metadata_path.read_text(encoding="utf-8"))
     if info["name"] != "tanks_for_bob_fork":
@@ -128,7 +146,8 @@ def main():
         handle.write('\nrequire("ci_runtime_harness")\n')
     (args.output / "mod-list.json").write_text(
         json.dumps({"mods": [
-            {"name": mod, "enabled": mod in enabled} for mod in sorted(available)
+            {"name": mod, "enabled": mod in enabled}
+            for mod in sorted(available | set(bob_versions) | {"tanks_for_bob_fork"})
         ]}, indent=2) + "\n", encoding="utf-8"
     )
     details = {
@@ -140,7 +159,9 @@ def main():
         "enabled_official_mods": sorted(enabled),
         "disabled_official_mods": sorted(available - enabled),
         "probe_only": is_21,
-        "has_extra_mods": False
+        "has_extra_mods": bool(bob_versions),
+        "enabled_bob_modules": sorted(bob_versions.items()),
+        "profile_is_single_combined_environment": True
     }
     (args.output / "ci-profile.json").write_text(
         json.dumps(details, indent=2) + "\n", encoding="utf-8"
