@@ -32,3 +32,14 @@ data:extend(
   -- },
   
 })
+
+-- Optional Bob's integration: no effect without Bob's Vehicle Equipment.
+data:extend({
+  {
+    type = "bool-setting",
+    name = "tfbf-bobs-equipment-grids",
+    setting_type = "startup",
+    default_value = true,
+    order = "z[compatibility]-a[bobs-equipment-grids]"
+  }
+})
