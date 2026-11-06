@@ -151,3 +151,13 @@ definitions:
 
 **Test provenance:** these are CI-only harness files copied into an isolated
 temporary mod install. They are not added to the distributable mod.
+
+### Ammo audit correctness follow-up
+
+The initial weapon pass reported 26 missing ammo links because the CI checker
+incorrectly read `ammo_type.category` instead of Factorio's actual
+`AmmoItemPrototype.ammo_category` property. This is a **checker bug**,
+not evidence of missing ammunition. The checker was corrected before
+drawing conclusions about ammo compatibility. See the next CI run for
+the actual confirmed link count; firing and ammunition consumption remain
+separate untested behaviors.

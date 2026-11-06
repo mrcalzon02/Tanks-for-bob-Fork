@@ -23,16 +23,13 @@ for _, recipe in pairs(recipes) do
   end
   if recipe.result then craftable_ammo[recipe.result] = true end
 end
+-- In Factorio 2.0/2.1, AmmoItemPrototype.ammo_category is on the
+-- prototype itself, not inside its action payload (ammo_type).
 for name, prototype in pairs(ammo) do
-  local types = prototype.ammo_type
-  if types then
-    local records = (types.category and {types}) or types
-    for _, record in pairs(records) do
-      if type(record) == "table" and record.category then
-        ammo_by_category[record.category] = ammo_by_category[record.category] or {}
-        table.insert(ammo_by_category[record.category], name)
-      end
-    end
+  local category = prototype.ammo_category
+  if category then
+    ammo_by_category[category] = ammo_by_category[category] or {}
+    table.insert(ammo_by_category[category], name)
   end
 end
 local function flag(what)
