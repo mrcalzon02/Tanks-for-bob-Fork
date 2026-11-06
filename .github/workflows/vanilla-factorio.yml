@@ -1,4 +1,4 @@
-name: Tanks for Bob | official Factorio compatibility
+name: Tanks for Bob | Factorio compatibility
 
 on:
   push:
@@ -33,13 +33,13 @@ concurrency:
 
 jobs:
   factorio-suite:
-    name: Factorio smoke + static audit (1 profile)
+    name: Factorio + optional Bob full-suite smoke (1 profile)
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - name: Syntax-check scripts once
-        run: python3 -m py_compile ci/validate_mod.py ci/stage_profile.py ci/server_smoke.py ci/run_official_suite.py ci/publish_mod_portal.py
+        run: python3 -m py_compile ci/validate_mod.py ci/stage_profile.py ci/server_smoke.py ci/run_official_suite.py ci/fetch_bobs_mods.py ci/publish_mod_portal.py
       - name: Download the pinned Factorio 2.0 headless engine
         shell: bash
         run: |
@@ -54,14 +54,35 @@ jobs:
           tar -xJf "$directory/factorio.tar.xz" -C "$directory"
           "$directory/factorio/bin/x64/factorio" --version | tee "test-artifacts/factorio-$version.txt"
           grep -Fq "$version" "test-artifacts/factorio-$version.txt"
-      - name: Run the single official compatibility profile and static audit
+      - name: Download exact Bob 2.0-compatible modules for the dedicated PR branch
+        if: github.event_name == 'pull_request' && github.head_ref == 'compat/bobs-mods'
         shell: bash
+        env:
+          FACTORIO_USERNAME: ${{ secrets.FACTORIO_USERNAME }}
+          FACTORIO_TOKEN: ${{ secrets.FACTORIO_TOKEN }}
+          FACTORIO_MOD_DOWNLOAD_USERNAME: ${{ secrets.FACTORIO_MOD_DOWNLOAD_USERNAME }}
+          FACTORIO_MOD_DOWNLOAD_TOKEN: ${{ secrets.FACTORIO_MOD_DOWNLOAD_TOKEN }}
         run: |
           set -euo pipefail
+          python3 ci/fetch_bobs_mods.py \
+            --lock ci/bobs_versions.json \
+            --output "$RUNNER_TEMP/bobs-mods" \
+            --report test-artifacts/bobs-download-manifest.json
+
+      - name: Run the single combined compatibility profile and static audit
+        shell: bash
+        env:
+          BOBS_COMPAT_PR: ${{ github.event_name == 'pull_request' && github.head_ref == 'compat/bobs-mods' }}
+        run: |
+          set -euo pipefail
+          bobs_args=()
+          if [[ "$BOBS_COMPAT_PR" == "true" ]]; then
+            bobs_args=(--bobs-mods-dir "$RUNNER_TEMP/bobs-mods")
+          fi
           python3 ci/run_official_suite.py \
             --binary-20 "$RUNNER_TEMP/factorio-engines/2.0.77/factorio/bin/x64/factorio" \
             --work "$RUNNER_TEMP/tanks-suite" \
-            --output test-artifacts
+            --output test-artifacts "${bobs_args[@]}"
           cat test-artifacts/suite-summary.md >> "$GITHUB_STEP_SUMMARY"
       - name: Preserve one consolidated diagnostics artifact
         if: always()
