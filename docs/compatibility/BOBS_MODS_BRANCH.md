@@ -80,6 +80,16 @@ Game evidence (from `create.log` and `suite-results.json`):
 
 Exact pin amendment: Bob's Adjustable Inserters is **2.0.3** in the Factorio 2.0 Mod Portal; source repository `bobinserters/info.json` lists a 2.0.4 build that is not available as a matching Portal release. We pin the published 2.0.3 ZIP and verify it by Portal SHA-1.
 
+## Verified Bob's Warfare versus fork tank progression
+
+Source comparison: `bobwarfare/prototypes/technology/tank.lua`, `bobwarfare/prototypes/recipe/tank.lua`, and the fork's `prototypes/technology/technology.lua` and `prototypes/recipe/vehicles.lua`.
+
+- Bob's **Tank Mk2** requires `tank`, `artillery`, `processing-unit`, and `production-science-pack` technology; its recipe consumes a vanilla tank, steel, gears and processing units.
+- Bob's **Tank Mk3** requires `bob-tanks-2` and `military-4` technology and includes **utility science**; its recipe consumes a Bob Mk2 hull.
+- The fork's `super-tank-research` currently requires `modular-tank-research2`, `military-3`, `encabulated-waste-recovery` and authorization; its `super-tank` and alternate recipes use vanilla tanks and fork-specific components.
+
+**Compatibility decision:** **do not unconditionally replace a vanilla tank ingredient with `bob-tank-2` or `bob-tank-3`**; that would dramatically move a currently reachable fork tech into a later Bob science tier and undermine base-only support. Any Bob-hull metallurgy integration must instead be a *deliberately unlocked alternate advanced recipe*, with manufacturing and tech-gate closure tested before adoption. Likewise, do not automatically make unrelated Bob ammunition fit this fork's guns merely because both are tank weapons.
+
 ## Acceptance evidence required
 
 A combined-mod CI artifact should contain engine version, exact Bob module IDs/versions/sha256, startup settings, mod-list, machine-category coverage, tank/equipment mapping, technology-graph discrepancies, recipe progression diagnostics, save-create log, 1200-tick simulation result, and dedicated-server-start result. Only game load/run failures and required multiplayer/updater failures block releases; balance/rendering/tech-audit observations remain separately identified unless they cause a required game failure or the user explicitly elevates one to a gate.
