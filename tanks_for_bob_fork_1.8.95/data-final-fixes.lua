@@ -8,3 +8,8 @@ end
 if mods["bobwarfare"] then
   require("prototypes.Compatibility.bobs_warfare")
 end
+
+-- Optional Bob's Metals alternative route; no impact without Bob's Metals.
+if mods["bobplates"] then
+  require("prototypes.Compatibility.bobs_metallurgy")
+end
