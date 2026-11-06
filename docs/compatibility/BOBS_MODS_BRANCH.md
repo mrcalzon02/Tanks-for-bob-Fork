@@ -2,7 +2,7 @@
 
 **Tracking issue:** [#1](https://github.com/mrcalzon02/Tanks-for-bob-Fork/issues/1)  
 **Working branch:** [`compat/bobs-mods`](https://github.com/mrcalzon02/Tanks-for-bob-Fork/tree/compat/bobs-mods)  
-**Base:** `main`; **package under test:** `tanks_for_bob_fork_1.8.94`, Factorio 2.0.  
+**Base:** `main`; **active package under test:** `tanks_for_bob_fork_1.8.95`, Factorio 2.0.  
 **Release status:** experimental only; no merge, tag, Mod Portal upload, or 2.1 retag until acceptance. Version must be incremented before eventual release.
 
 ## Goals and invariants
@@ -11,7 +11,7 @@
 2. One **GitHub Actions job** and **one active combined integration environment**. Preserve the previously working official-mod headless check as the baseline within that same job; do not introduce a matrix/fanout of separate jobs.
 3. Respect Bob's own configuration flags and prototype namespaces. Every modification must test both `mods["<id>"]` and prototype presence, avoid duplicate categories, and avoid altering Bob-owned definitions unless absolutely required.
 4. Do not equate a successful data-stage launch with complete tech, resource, combat, performance, graphical, save or multiplayer compatibility. Keep observations and acceptance gates separate.
-5. Do not change the published 1.8.94 release; branch development edits are unreleased until a new version is deliberately packaged and verified.
+5. Do not change the published 1.8.95 release; branch development edits are unreleased until a new version is deliberately packaged and verified.
 
 ## Bob family discovery inventory
 
@@ -37,7 +37,7 @@ Additional toggles for metallurgy, tech conversion or ammunition are **not imple
 
 - [x] **Phase 0:** branch created and linked to issue #1.
 - [x] **Phase 1a:** source evaluation completed; identify Bob module IDs, assembler-copy behavior, equipment-grid omission and research/material dependencies.
-- [ ] **Phase 1b:** add optional metadata for Bob family, a guarded equipment-grid adapter, a startup enable switch and static assertions; verify the edits on the branch.
+- [x] **Phase 1b (source-level only):** add optional metadata for Bob family, a guarded equipment-grid adapter, a startup enable switch and static assertions; verify the edits on the branch.
 - [ ] **Phase 2:** produce one version-locked, licensed, reproducible Factorio 2.0 combined mod directory: `base`, `elevated-rails`, `quality`, `space-age`, `tanks_for_bob_fork`, and full Bob family. Keep mod credentials in Actions secrets; never log them or commit them.
 - [ ] **Phase 3:** complete the actual data-stage inventory: duplicate prototypes; every fork recipe's ingredient/result and recipe category; machines including Bob assembler 4/5/6; Bob equipment grids/categories; lab science acceptance; tech prerequisites/unlocks; resource reachability and pollution/waste/recycling outputs. Record exact failures, not guesses.
 - [ ] **Phase 4:** add guarded, stage-appropriate Bob material, electronics, warfare, tank upgrade, ammo and research integrations, verifying progression after each small change. Do not replace a reachable vanilla branch with an unreachable Bob-only ingredient.
@@ -55,6 +55,10 @@ Initial intentional classification, subject to runtime balance review:
 - `super-tank`, `super-tank-alternate`, `super-tank-wmd`: `bob-tank-3`
 
 Apply in `data-final-fixes.lua`, after Bob's base assignments, only when both parties' startup switches allow it and the target equipment grid exists. Do not claim vehicle equipment works until the game loads and test equipment can be inserted.
+
+## CI stage fidelity repair
+
+`ci/stage_profile.py` selects the highest versioned source folder (currently 1.8.95). The old staging logic **overwrote** `data-final-fixes.lua` with the audit, which would silently bypass any compatibility adapter. Branch commit `d5612ac` stages `ci_data_audit.lua` and *appends* its require to the existing `data-final-fixes.lua` instead. This change must pass the regular one-profile Factorio smoke before treating the baseline as preserved. The current CI profile still enables **only official mods**, never Bob's mods; it cannot validate Bob integration until the version-locked combined mod directory is implemented.
 
 ## Acceptance evidence required
 
