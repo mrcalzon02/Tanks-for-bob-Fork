@@ -166,10 +166,6 @@ if mods["bobwarfare"] then
   check_technology("bob-tanks-2")
   check_technology("bob-tanks-3")
 end
-log(string.format(
-  "[TANKS-CI] BOBS_TECH_LAB_AUDIT technologies=%d lab_supported=%d " ..
-  "no_lab=%d missing_science=%d",
-  techs_checked, lab_supported, no_lab, missing_science))
 
 -- The actual Bob Mk2/Mk3 advanced-hull integration must not strand recipes
 -- behind nonexistent technology unlocks or break original vanilla paths.
@@ -230,3 +226,67 @@ if mods["bobwarfare"] and advanced_setting and advanced_setting.value then
   check_technology("tfbf-bobs-hulls-mk3")
   log("[TANKS-CI] BOBS_WARFARE_ALTERNATES_PASS recipes=3 technologies=2 base_recipes_preserved=3")
 end
+
+-- Invar alternative must preserve the fork's original production byproducts,
+-- not just the primary alloy output. No base recipe is replaced.
+local invar_setting = settings.startup["tfbf-bobs-metallurgy"]
+if mods["bobplates"] and invar_setting and invar_setting.value then
+  local name = "tfbf-bobs-encabuloy-invar"
+  local alt, base_recipe, tech =
+    recipes[name], recipes["encabuloy-alloy"], technologies[name]
+  if not (alt and base_recipe and tech) then
+    error("[TANKS-BOBS] Missing Invar alternate recipe or technology")
+  end
+  if alt.enabled ~= false or alt.category ~= base_recipe.category then
+    error("[TANKS-BOBS] Invar alternate recipe has wrong availability/category")
+  end
+  local has_invar, has_iron, has_copper, kept_materials = false, false, false, 0
+  for _, ingredient in ipairs(alt.ingredients or {}) do
+    local id = ingredient.name or ingredient[1]
+    if id == "bob-invar-alloy" then has_invar = true end
+    if id == "iron-plate" then has_iron = true end
+    if id == "copper-plate" then has_copper = true end
+    if id == "hydrocoptic-crystal" or id == "bioceramic-grit" then
+      kept_materials = kept_materials + 1
+    end
+  end
+  if not has_invar or has_iron or has_copper or kept_materials ~= 2 then
+    error("[TANKS-BOBS] Invar alternate input material substitution failed")
+  end
+  if #alt.results ~= #base_recipe.results then
+    error("[TANKS-BOBS] Invar alternate changed number of waste/byproduct outputs")
+  end
+  for index, result in ipairs(base_recipe.results) do
+    local actual = alt.results[index]
+    if (result.name or result[1]) ~= (actual.name or actual[1])
+        or (result.amount or result[2]) ~= (actual.amount or actual[2])
+        or result.probability ~= actual.probability then
+      error("[TANKS-BOBS] Invar alternative changed waste/output product " .. index)
+    end
+  end
+  local prerequisites, unlocked = {}, false
+  for _, id in ipairs(tech.prerequisites or {}) do prerequisites[id] = true end
+  for _, effect in ipairs(tech.effects or {}) do
+    if effect.type == "unlock-recipe" and effect.recipe == name then
+      unlocked = true
+    end
+  end
+  if not (prerequisites["bob-invar-processing"]
+      and prerequisites["pre-encabulation-materials"] and unlocked) then
+    error("[TANKS-BOBS] Invar alternative research chain incomplete")
+  end
+  check_technology(name)
+  log("[TANKS-CI] BOBS_METALLURGY_ALTERNATE_PASS recipes=1 technologies=1 waste_outputs_preserved=" ..
+      #alt.results)
+end
+
+-- Full final prototype research acceptance includes the adapter technologies,
+-- not just the 88 baseline fork research definitions and Bob tank tiers.
+if no_lab > 0 or missing_science > 0 then
+  error("[TANKS-BOBS] Science/lab coverage failed: missing_labs=" ..
+      no_lab .. " missing_science=" .. missing_science)
+end
+log(string.format(
+  "[TANKS-CI] BOBS_TECH_LAB_AUDIT technologies=%d lab_supported=%d " ..
+  "no_lab=%d missing_science=%d",
+  techs_checked, lab_supported, no_lab, missing_science))
