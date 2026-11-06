@@ -60,3 +60,7 @@ structures, the repaired Cooking Fire, and the dedicated fluid-capable Tank
 Ammunition Assembler. Their geometry reflects the *intended* mechanical ports
 and crafting role, not a claim that their existing 2D sprite art already
 shows these fittings.
+
+## Reference texturing and source credits
+
+Follow the [Malcolm Riley / Unused Renders Blender reference workflow](../../docs/art/UNUSED_RENDERS_WORKFLOW_AND_CREDITS.md) when refining island-survival assets. His [tutorial wiki](https://github.com/malcolmriley/unused-renders/wiki) is part of our documented shader, lighting and sprite-rendering references, and he is credited for sharing it. Record file-level provenance and CC BY 4.0 attribution before importing any of his rendered images or Blender files. No third-party assets are added by this documentation change.

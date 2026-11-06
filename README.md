@@ -101,3 +101,9 @@ Download **`tanks_for_bob_fork_1.8.95.zip`** from the GitHub release and place i
 ## Background
 
 The original motivation was stronger tank firepower for difficult biter scenarios. This fork expands the vehicle family with autocannon, flame, mortar/grenade, rocket, mine and super-tank options, plus added ammunition, intermediates, research, and manufacturing paths. Gameplay features and historical descriptions in the mod folder's README do not supersede the verified test limitations above.
+
+## Blender texturing and rendering references
+
+**Acknowledgment — Malcolm Riley:** [Unused Renders](https://github.com/malcolmriley/unused-renders) and its [Factorio Blender tutorial wiki](https://github.com/malcolmriley/unused-renders/wiki) are adopted as references for the island-survival 3D asset texturing/rendering workflow. Special thanks to Malcolm Riley for sharing his Blender methods and art resources.
+
+The wiki's **tutorial text is CC0**, while **images and Blender files are CC BY 4.0**, with credit and license link required for reused/adapted artwork. Referencing the methods alone does not mean assets from that repository have been imported. See [texturing workflow and provenance requirements](docs/art/UNUSED_RENDERS_WORKFLOW_AND_CREDITS.md) for techniques, licensing boundaries, and per-asset attribution.
