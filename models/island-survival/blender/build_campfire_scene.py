@@ -36,8 +36,12 @@ for d in list(bpy.data.collections):
 scene = bpy.context.scene
 scene.render.engine = 'CYCLES'
 scene.cycles.samples = opts.samples
-scene.cycles.use_denoising = True
+scene.cycles.use_denoising = False
+# Ubuntu/Debian Blender builds may not include OpenImageDenoise.
+# Keep the rendering usable on stock Blender without optional denoiser.
 scene.render.film_transparent = True
+try: bpy.context.view_layer.cycles.use_denoising = False
+except AttributeError: pass
 scene.render.image_settings.file_format = 'PNG'
 scene.render.image_settings.color_mode = 'RGBA'
 scene.render.resolution_percentage = 100
