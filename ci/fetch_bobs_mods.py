@@ -106,11 +106,23 @@ def validate_archive(payload: bytes, *, name: str, version: str) -> dict:
     with zipfile.ZipFile(io.BytesIO(payload)) as archive:
         if archive.testzip() is not None:
             raise ValueError("Downloaded archive has a broken ZIP member")
-        path = f"{name}_{version}/info.json"
-        try:
-            meta = json.loads(archive.read(path))
-        except KeyError:
-            raise ValueError("ZIP does not contain expected mod info.json") from None
+        # Mod Portal archives can have a source-defined root name rather
+        # than exactly <mod>_<version>. Require a *single* root-level or
+        # single-folder info.json and validate its actual mod identity.
+        paths = archive.namelist()
+        candidates = [p for p in paths
+                      if p == "info.json"
+                      or (p.endswith("/info.json") and p.count("/") == 1)]
+        if len(candidates) != 1:
+            sample = [p[:90] for p in paths[:6]]
+            raise ValueError(
+                f"{name}: ZIP has {len(candidates)} top-level info.json candidates; "
+                f"first entries={sample}"
+            )
+        path = candidates[0]
+        meta = json.loads(archive.read(path))
+        if not isinstance(meta, dict):
+            raise ValueError("ZIP info.json must be a JSON object")
         if meta.get("name") != name or meta.get("version") != version:
             raise ValueError("ZIP does not match the pinned mod identity/version")
         if meta.get("factorio_version") != "2.0":
