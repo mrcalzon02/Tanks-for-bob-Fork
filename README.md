@@ -6,7 +6,7 @@ A Factorio tank and vehicle expansion originally created to provide stronger fir
 
 ## Official Factorio compatibility — verified November 5, 2026
 
-The latest completed [compatibility and gameplay-smoke CI run](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42136857118) passed **13/13 jobs**: a source/graphics audit plus **12/12 headless Factorio engine profiles**, pinned to Factorio 2.0.77 and 2.1.23.
+The latest completed [compatibility and gameplay-smoke CI run](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42136857118) verified the source/graphics audit and **12/12 headless Factorio engine profiles**, pinned to Factorio 2.0.77 and 2.1.23.
 
 | Official module | Factorio 2.0.77 | Factorio 2.1.23 | Notes |
 | --- | --- | --- | --- |
@@ -65,7 +65,7 @@ The latest completed [compatibility and gameplay-smoke CI run](https://github.co
 
 ### Reports, logs, and source
 
-- [Latest fully green compatibility run (13 jobs)](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42136857118)
+- [Current one-job compatibility results](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/workflows/vanilla-factorio.yml)
 - [Official modules: full matrix, test method, version caveats](docs/compatibility/OFFICIAL_MOD_SUPPORT.md)
 - [Current-state source and functionality audit](docs/compatibility/CURRENT_STATE_AUDIT.md)
 - [Reusable CI workflow](.github/workflows/vanilla-factorio.yml)

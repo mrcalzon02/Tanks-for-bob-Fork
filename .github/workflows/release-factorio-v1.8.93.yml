@@ -52,19 +52,13 @@ jobs:
           sha, run_file, jobs_file = sys.argv[1:]
           run = json.load(open(run_file))
           jobs = json.load(open(jobs_file))["jobs"]
-          expected = {
-              "Current source, recipes and assets audit",
-              "2.0.77 | base", "2.0.77 | rails", "2.0.77 | quality",
-              "2.0.77 | rails-quality", "2.0.77 | space-age",
-              "2.1.23 | base", "2.1.23 | rails", "2.1.23 | recycler",
-              "2.1.23 | quality", "2.1.23 | rails-quality",
-              "2.1.23 | space-age-no-quality", "2.1.23 | space-age-full",
-          }
-          observed = {job["name"] for job in jobs if job["conclusion"] == "success"}
+          expected = "Factorio official suite (12 profiles + static)"
           assert run["conclusion"] == "success" and run["head_sha"] == sha, "Run not verified"
           assert run["event"] == "push" and run["head_branch"] == "main", "Not main push"
-          assert expected <= observed, "Missing successful mandatory jobs: " + str(expected - observed)
-          print("[TANKS-RELEASE] VERIFIED", len(expected), "passed jobs for", sha)
+          assert len(jobs) == 1, f"Expected ONE audit job, got {len(jobs)}"
+          assert jobs[0]["name"] == expected and jobs[0]["conclusion"] == "success", (
+              "One-job audit is not verified")
+          print("[TANKS-RELEASE] VERIFIED one successful audit job for", sha)
           PY
 
       - name: Verify source identity and main has not advanced
@@ -88,7 +82,7 @@ jobs:
           for path in ["README.md", "control.lua", "data.lua", "prototypes/item/ammo.lua"]:
               assert (p / path).is_file(), path
           text = (p / "README.md").read_text()
-          for phrase in ["12 Factorio engine configurations", "26/26", "13/13", "not", "Factorio 2.1"]:
+          for phrase in ["12 Factorio engine configurations", "26/26", "12/12", "not", "Factorio 2.1"]:
               assert phrase in text, f"Package README missing: {phrase}"
           assert Path("docs/releases/v1.8.93.md").is_file()
           print("[TANKS-RELEASE] SOURCE_PASS", meta["name"], meta["version"])

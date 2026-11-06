@@ -174,3 +174,16 @@ live tank variants at tick 900. Because one vehicle is deliberately destroyed
 by the physical-damage probe at tick 600, the expected inventory count may
 be seven. Insertion/rejection outcomes are logged as **diagnostics**, not
 release blockers. This is not a live firing or ammo-consumption test.
+
+## 7. CI consolidation: one job, full audit coverage
+
+The former 13-job fanout has been consolidated into **one GitHub Actions
+job** executing the same 12 official Factorio configurations plus the
+static audit. `ci/run_official_suite.py` executes each profile separately,
+records outcomes and logs, then rejects the one job if any required
+profile or static audit fails. Binaries are downloaded only twice
+(once per pinned engine version), not separately for each scenario.
+
+This changes CI presentation and overhead; it does not substitute
+one Factorio configuration for all the rest. Release publication must
+wait for this single consolidated job to pass on its exact source SHA.

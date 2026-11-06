@@ -1,4 +1,5 @@
 name: Tanks for Bob | official Factorio compatibility
+
 on:
   push:
     branches: [main]
@@ -6,13 +7,19 @@ on:
       - 'tanks_for_bob_fork_*/**'
       - 'ci/**'
       - '.github/workflows/vanilla-factorio.yml'
+      - '.github/workflows/release-factorio-v1.8.93.yml'
       - 'docs/compatibility/**'
+      - 'docs/releases/**'
+      - 'README.md'
   pull_request:
     paths:
       - 'tanks_for_bob_fork_*/**'
       - 'ci/**'
       - '.github/workflows/vanilla-factorio.yml'
+      - '.github/workflows/release-factorio-v1.8.93.yml'
       - 'docs/compatibility/**'
+      - 'docs/releases/**'
+      - 'README.md'
   workflow_dispatch:
   schedule:
     - cron: '11 8 * * 1'
@@ -25,174 +32,44 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  static-source:
-    name: Current source, recipes and assets audit
+  factorio-suite:
+    name: Factorio official suite (12 profiles + static)
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
-      - name: Check Python audit scripts
-        run: python3 -m py_compile ci/validate_mod.py ci/stage_profile.py ci/server_smoke.py
-      - name: Audit imported Lua, recipes, techs, packages and graphics
-        run: python3 ci/validate_mod.py --report test-artifacts/current-source-audit.json
-      - name: Preserve complete static audit, even on failure
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: tanks-current-source-audit
-          path: test-artifacts/current-source-audit.json
-          if-no-files-found: warn
-          retention-days: 30
-
-  official-runtime:
-    name: ${{ matrix.engine }} | ${{ matrix.profile }}
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - {engine: "2.0.77", profile: base}
-          - {engine: "2.0.77", profile: rails}
-          - {engine: "2.0.77", profile: quality}
-          - {engine: "2.0.77", profile: rails-quality}
-          - {engine: "2.0.77", profile: space-age}
-          - {engine: "2.1.23", profile: base}
-          - {engine: "2.1.23", profile: rails}
-          - {engine: "2.1.23", profile: recycler}
-          - {engine: "2.1.23", profile: quality}
-          - {engine: "2.1.23", profile: rails-quality}
-          - {engine: "2.1.23", profile: space-age-no-quality}
-          - {engine: "2.1.23", profile: space-age-full}
-    steps:
-      - uses: actions/checkout@v4
-      - name: Prepare exactly the selected official mods and the tested fork
+      - name: Syntax-check scripts once
+        run: python3 -m py_compile ci/validate_mod.py ci/stage_profile.py ci/server_smoke.py ci/run_official_suite.py
+      - name: Download each pinned headless engine once
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p test-artifacts
-          python3 ci/stage_profile.py \
-            --engine "${{ matrix.engine }}" \
-            --profile "${{ matrix.profile }}" \
-            --output "$RUNNER_TEMP/tanks-mods" \
-            | tee test-artifacts/staging.log
-          cp "$RUNNER_TEMP/tanks-mods/ci-profile.json" test-artifacts/ci-profile.json
-          cp "$RUNNER_TEMP/tanks-mods/mod-list.json" test-artifacts/mod-list.json
-      - name: Obtain exact pinned official headless engine
-        shell: bash
-        run: |
-          set -euo pipefail
-          version="${{ matrix.engine }}"
-          curl --fail --location --retry 3 \
-            --output "$RUNNER_TEMP/factorio.tar.xz" \
-            "https://factorio.com/get-download/${version}/headless/linux64"
-          tar -xJf "$RUNNER_TEMP/factorio.tar.xz" -C "$RUNNER_TEMP"
-          "$RUNNER_TEMP/factorio/bin/x64/factorio" --version \
-            | tee test-artifacts/factorio-version.txt
-          grep -Fq "${version}" test-artifacts/factorio-version.txt
-      - name: Load actual prototypes and create deterministic vanilla save
-        shell: bash
-        run: |
-          set -euo pipefail
-          bin="$RUNNER_TEMP/factorio/bin/x64/factorio"
-          if ! timeout 360s "$bin" \
-              --mod-directory "$RUNNER_TEMP/tanks-mods" \
-              --create "$RUNNER_TEMP/tanks-smoke.zip" \
-              --map-gen-seed 907260 \
-              > test-artifacts/factorio-create.log 2>&1; then
-            echo "::error::Factorio failed to create this official-mod profile"
-            tail -n 140 test-artifacts/factorio-create.log
-            exit 1
-          fi
-          if ! grep -Fq '[TANKS-CI] DATA_PASS' test-artifacts/factorio-create.log; then
-            echo "::error::Tanks data audit did not complete"
-            tail -n 140 test-artifacts/factorio-create.log
-            exit 1
-          fi
-          for marker in '[TANKS-CI] SUPPLY_GRAPH_PASS' '[TANKS-CI] WEAPON_AUDIT_PASS'; do
-            if ! grep -Fq "$marker" test-artifacts/factorio-create.log; then
-              echo "::error::Missing expected independent diagnostic: $marker"
-              exit 1
-            fi
+          for version in 2.0.77 2.1.23; do
+            directory="$RUNNER_TEMP/factorio-engines/$version"
+            mkdir -p "$directory"
+            curl --fail --location --retry 3 \
+              --output "$directory/factorio.tar.xz" \
+              "https://factorio.com/get-download/$version/headless/linux64"
+            tar -xJf "$directory/factorio.tar.xz" -C "$directory"
+            "$directory/factorio/bin/x64/factorio" --version | tee "test-artifacts/factorio-$version.txt"
+            grep -Fq "$version" "test-artifacts/factorio-$version.txt"
           done
-          grep -F '[TANKS-CI]' test-artifacts/factorio-create.log | tail -n 120 || true
-      - name: Benchmark 1200 real ticks and instantiate combat vehicles
+      - name: Run all official compatibility and functional audits in ONE job
         shell: bash
         run: |
           set -euo pipefail
-          bin="$RUNNER_TEMP/factorio/bin/x64/factorio"
-          if ! timeout 360s "$bin" \
-              --mod-directory "$RUNNER_TEMP/tanks-mods" \
-              --benchmark "$RUNNER_TEMP/tanks-smoke.zip" \
-              --benchmark-ticks 1200 \
-              > test-artifacts/factorio-benchmark.log 2>&1; then
-            echo "::error::Headless simulation failed"
-            tail -n 140 test-artifacts/factorio-benchmark.log
-            exit 1
-          fi
-          if ! grep -Fq '[TANKS-CI] RUNTIME_PASS' test-artifacts/factorio-benchmark.log; then
-            echo "::error::Vehicle instantiation was not demonstrated"
-            tail -n 140 test-artifacts/factorio-benchmark.log
-            exit 1
-          fi
-          if ! grep -Fq '[TANKS-CI] DAMAGE_RESPONSE_PASS' test-artifacts/factorio-benchmark.log; then
-            echo '::error::Real vehicle damage response was not demonstrated'
-            tail -n 140 test-artifacts/factorio-benchmark.log
-            exit 1
-          fi
-          if ! grep -Fq '[TANKS-CI] AMMO_INVENTORY_CHECKED' test-artifacts/factorio-benchmark.log; then
-            echo '::error::Ammunition inventory diagnostic did not execute'
-            tail -n 140 test-artifacts/factorio-benchmark.log
-            exit 1
-          fi
-          grep -F '[TANKS-CI]' test-artifacts/factorio-benchmark.log | tail -n 60 || true
-      - name: Verify private headless multiplayer server launch
-        shell: bash
-        run: |
-          set -euo pipefail
-          cat > "$RUNNER_TEMP/tanks-server-settings.json" <<'JSON'
-          {
-            "name":"Tanks for Bob Official Mod Compatibility CI",
-            "description":"Private dedicated server smoke test",
-            "max_players":1,
-            "visibility":{"public":false,"lan":false},
-            "require_user_verification":false,
-            "auto_pause":false,
-            "autosave_interval":10,
-            "autosave_slots":2
-          }
-          JSON
-          python3 ci/server_smoke.py \
-            --binary "$RUNNER_TEMP/factorio/bin/x64/factorio" \
-            --mods "$RUNNER_TEMP/tanks-mods" \
-            --save "$RUNNER_TEMP/tanks-smoke.zip" \
-            --settings "$RUNNER_TEMP/tanks-server-settings.json" \
-            --log test-artifacts/factorio-dedicated-server.log \
-            --timeout 120
-      - name: Summarize test evidence
-        shell: bash
+          python3 ci/run_official_suite.py \
+            --binary-20 "$RUNNER_TEMP/factorio-engines/2.0.77/factorio/bin/x64/factorio" \
+            --binary-21 "$RUNNER_TEMP/factorio-engines/2.1.23/factorio/bin/x64/factorio" \
+            --work "$RUNNER_TEMP/tanks-suite" \
+            --output test-artifacts
+          cat test-artifacts/suite-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Preserve one consolidated diagnostics artifact
         if: always()
-        run: |
-          {
-            echo '# Tanks for Bob official mod profile result'
-            echo 'Engine: ${{ matrix.engine }}'
-            echo 'Profile: ${{ matrix.profile }}'
-            echo '2.1 runs are disposable metadata compatibility probes, NOT released 2.1 packages.'
-            for file in test-artifacts/factorio-create.log test-artifacts/factorio-benchmark.log test-artifacts/factorio-dedicated-server.log; do
-              echo "## $file"
-              if [[ -f "$file" ]]; then
-                grep -F '[TANKS-CI]' "$file" | tail -n 90 || true
-                grep -Ei 'Error while loading|Failed to load|Error while running|stack traceback' "$file" | tail -n 25 || true
-              else
-                echo 'NOT REACHED'
-              fi
-            done
-          } > test-artifacts/profile-summary.md
-      - name: Publish diagnostics from every profile
         uses: actions/upload-artifact@v4
-        if: always()
         with:
-          name: tanks-${{ matrix.engine }}-${{ matrix.profile }}
+          name: tanks-official-factorio-one-job-audit
           path: test-artifacts/
           if-no-files-found: warn
           retention-days: 30

@@ -1,6 +1,6 @@
 # Tanks for Bob — official Factorio matrix
 
-This repository runs `.github/workflows/vanilla-factorio.yml` for
+This repository runs **ONE GitHub Actions job** (`.github/workflows/vanilla-factorio.yml`) which executes all 12 isolated compatibility profiles sequentially for
 vanilla, Elevated Rails, Quality, Recycler (Factorio 2.1), and Space Age.
 See `docs/compatibility/OFFICIAL_MOD_SUPPORT.md` for the full 12-profile
 matrix and engine-version differences.
@@ -33,3 +33,17 @@ join/migration tests still require separate acceptance.
 
 Artifacts and workflow:
 https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/workflows/vanilla-factorio.yml
+
+## Single-job suite (replaces the 13-job fanout)
+
+`ci/run_official_suite.py` runs the static source audit plus all 12
+headless Factorio profiles in one Actions job. The two pinned engine
+distributions are downloaded once per run and reused across profiles.
+Individual profile mod lists, logs, benchmark results, private-server
+startup checks and warnings are isolated under a **single artifact**:
+`tanks-official-factorio-one-job-audit`.
+
+All 12 profiles are attempted even if another fails; the one job fails
+if **any** required profile or the source audit fails. This removes the
+13-job Actions clutter without reducing compatibility checks.
+Quality/Recycler/Space Age combinations and 2.1 metadata caveats remain.

@@ -23,7 +23,7 @@ Quality and the full Space Age installation are included in the testing matrix.
 
 ## Reproducible headless profile matrix
 
-The workflow `.github/workflows/vanilla-factorio.yml` checks 12 isolated profiles:
+The workflow `.github/workflows/vanilla-factorio.yml` uses ONE GitHub Actions job to check 12 isolated profiles (and the static source audit):
 
 | Engine | Profile | Official modules explicitly enabled |
 | --- | --- | --- |
@@ -93,3 +93,17 @@ The original missing high-resolution turret image was subsequently
 restored from a prior package version containing the identical XCF source.
 The current-state audit records the remaining client and progression
 coverage gaps.
+
+## Single Actions job execution (2026-11-05)
+
+To avoid 13 separate jobs, the official compatibility workflow now has a
+single `factorio-suite` job. It downloads the Factorio 2.0.77 and
+2.1.23 engine distributions once, then runs all 12 profile checks
+sequentially in isolated mod directories and saves. The static source
+audit is run in the same job. Its `suite-results.json` and complete
+per-profile evidence appear in ONE workflow artifact.
+
+The job fails if any of the 12 engine profiles or the static audit fails,
+even though the runner attempts every profile to preserve diagnostics.
+The separate GitHub release publisher verifies the single successful job.
+This is a **job organization change**, not a reduction to one test.

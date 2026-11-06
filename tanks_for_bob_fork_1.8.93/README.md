@@ -4,7 +4,7 @@ Factorio **2.0** mod with specialized vehicles, turrets/guns, ammunition, interm
 
 ## Compatibility and current test evidence
 
-**Verified:** the [November 5, 2026 headless run](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42136857118) passed **all 13 CI jobs**, comprising one static audit and the following **12 Factorio engine configurations**:
+**Verified:** the [official-mod compatibility suite](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/workflows/vanilla-factorio.yml) verifies the following **12 Factorio engine configurations** plus a static source audit inside **ONE GitHub Actions job**:
 
 | Engine | Official mod combination (besides `core`) |
 | --- | --- |
@@ -35,7 +35,7 @@ Factorio **2.0** mod with specialized vehicles, turrets/guns, ammunition, interm
 
 **Not verified:** actual shooting and projectile impacts, player driving, in-client visuals, complete buildable progression, working recall controls, live two-client synchronization, save migration or fleet performance. The recall event handlers in `control.lua` are disabled/commented out as of this version.
 
-**Expanded documentation:** [GitHub repository README](https://github.com/mrcalzon02/Tanks-for-bob-Fork#readme), [official-mod support](https://github.com/mrcalzon02/Tanks-for-bob-Fork/blob/main/docs/compatibility/OFFICIAL_MOD_SUPPORT.md), [full audit](https://github.com/mrcalzon02/Tanks-for-bob-Fork/blob/main/docs/compatibility/CURRENT_STATE_AUDIT.md), and [CI run logs](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42136857118).
+**Expanded documentation:** [GitHub repository README](https://github.com/mrcalzon02/Tanks-for-bob-Fork#readme), [official-mod support](https://github.com/mrcalzon02/Tanks-for-bob-Fork/blob/main/docs/compatibility/OFFICIAL_MOD_SUPPORT.md), [full audit](https://github.com/mrcalzon02/Tanks-for-bob-Fork/blob/main/docs/compatibility/CURRENT_STATE_AUDIT.md), and [one-job CI run logs](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/workflows/vanilla-factorio.yml).
 
 ## Vehicle families and equipment
 
