@@ -105,7 +105,7 @@ def main():
         (ROOT / "ci" / "runtime_harness.lua").read_text(encoding="utf-8"),
         encoding="utf-8"
     )
-    for audit in ("progression_audit.lua", "weapon_audit.lua", "recipe_machine_audit.lua"):
+    for audit in ("progression_audit.lua", "weapon_audit.lua", "recipe_machine_audit.lua", "bobs_audit.lua"):
         (dest / ("ci_" + audit)).write_text(
             (ROOT / "ci" / audit).read_text(encoding="utf-8"),
             encoding="utf-8",
