@@ -44,14 +44,14 @@ for obj in wood:
     dist.operation="DISTANCE";dist.inputs[1].default_value=(0,0,0.40)
     ln.new(geom.outputs["Position"],dist.inputs[0])
     radial=node(ns,"ShaderNodeMapRange","Scorched core with gradual outer fade",(-700,-760))
-    radial.inputs["From Min"].default_value=.12;radial.inputs["From Max"].default_value=.90
+    radial.inputs["From Min"].default_value=.47;radial.inputs["From Max"].default_value=1.08
     radial.inputs["To Min"].default_value=1.0;radial.inputs["To Max"].default_value=0.0
     radial.clamp=True;ln.new(dist.outputs["Value"],radial.inputs["Value"])
     noise=node(ns,"ShaderNodeTexNoise","Irregular carbonized borders",(-900,-1100))
     noise.inputs["Scale"].default_value=13.0;noise.inputs["Detail"].default_value=3.2
     ln.new(geom.outputs["Position"],noise.inputs["Vector"])
     variation=node(ns,"ShaderNodeMapRange","Non-repeating 75%-100% char",(-700,-1030))
-    variation.inputs["To Min"].default_value=.75;variation.inputs["To Max"].default_value=1
+    variation.inputs["To Min"].default_value=.88;variation.inputs["To Max"].default_value=1
     ln.new(noise.outputs["Fac"],variation.inputs["Value"])
     mask=node(ns,"ShaderNodeMath","Spatially local char mask",(-500,-800))
     mask.operation="MULTIPLY"
@@ -88,11 +88,11 @@ s.render.image_settings.file_format="PNG"
 s.render.image_settings.color_mode="RGBA"
 s.cycles.samples=opts.samples
 s.render.resolution_percentage=100
-def render(name,on,res):
+def render(name,on,res,show_flames=True):
     s.frame_set(13 if on else 0)
     ctrl["Fire Active"]=float(on)
     bpy.context.view_layer.update()
-    for obj in flames+[light]: obj.hide_render=not bool(on)
+    for obj in flames+[light]: obj.hide_render=not bool(on and show_flames)
     for obj in wood:
         for mat in obj.data.materials:
             control=next(n for n in mat.node_tree.nodes if n.label=="FIRE ACTIVE control, 0 cold / 1 burning")
@@ -102,6 +102,7 @@ def render(name,on,res):
     bpy.ops.render.render(write_still=True)
 render("campfire-v9-idle-natural-wood.png",0,opts.resolution)
 render("campfire-v9-burning-charred-core.png",1,opts.resolution)
+render("campfire-v9-char-only-study.png",1,opts.resolution,show_flames=False)
 render("campfire-v9-native64.png",1,64)
 ctrl["Fire Active"]=1.0
 s.frame_set(13);bpy.context.view_layer.update()

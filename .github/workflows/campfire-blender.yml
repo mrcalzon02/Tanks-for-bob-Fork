@@ -78,7 +78,7 @@ jobs:
           from pathlib import Path
           p=Path('models/island-survival/blender/generated-v9')
           must=['campfire-v9-animated.blend','campfire-v9-idle-natural-wood.png',
-                'campfire-v9-burning-charred-core.png','campfire-v9-native64.png',
+                'campfire-v9-burning-charred-core.png','campfire-v9-char-only-study.png','campfire-v9-native64.png',
                 'campfire-v9-build-report.txt','campfire-v9-animated.gif',
                 'campfire-v9-object-manifest.json']
           for file in must:
@@ -88,6 +88,7 @@ jobs:
           data=(p/'campfire-v9-build-report.txt').read_text()
           assert 'Native Blender V9 core firewood char' in data
           assert (p/'campfire-v9-idle-natural-wood.png').read_bytes() != (p/'campfire-v9-burning-charred-core.png').read_bytes(), 'Identical idle/burning renders'
+          assert (p/'campfire-v9-idle-natural-wood.png').read_bytes() != (p/'campfire-v9-char-only-study.png').read_bytes(), 'Char-only material change is invisible'
           PY
       - name: Publish Blender artifact archive
         uses: actions/upload-artifact@v4
