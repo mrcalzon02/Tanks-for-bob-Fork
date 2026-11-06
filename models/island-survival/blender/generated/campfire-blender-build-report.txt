@@ -1,0 +1,9 @@
+Blender version: 4.0.2
+Vertices in separated groups: 7639
+Triangles: 12152
+Groups: 71
+Material instances: 18
+Packed texture images: 15
+Animated fire objects: 6
+Camera: ORTHO, scale=2.6500000953674316
+Engine: CYCLES, samples=20
