@@ -43,3 +43,14 @@ data:extend({
     order = "z[compatibility]-a[bobs-equipment-grids]"
   }
 })
+
+-- Bob's Warfare optional advanced hull recipes. No effect without Bob's Warfare.
+data:extend({
+  {
+    type = "bool-setting",
+    name = "tfbf-bobs-advanced-hulls",
+    setting_type = "startup",
+    default_value = true,
+    order = "z[compatibility]-b[bobs-advanced-hulls]"
+  }
+})
