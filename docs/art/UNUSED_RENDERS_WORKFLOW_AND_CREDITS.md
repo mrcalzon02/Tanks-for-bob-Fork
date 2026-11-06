@@ -38,3 +38,9 @@ Create one entry for **each** upstream image/mesh/material actually incorporated
 > Artwork based on "[original file name]" from **Unused Renders** by **Malcolm Riley** ([source](https://github.com/malcolmriley/unused-renders)), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Adapted for Tanks for Bob Fork: [specific changes].
 
 Credit must remain with distributed work (README, credits/NOTICE file, or linked in-mod credits as appropriate), identify modifications, link the material and the license, and not imply endorsement. Do not silently convert licensed images into "original" textures. The project repository's existing license is unchanged by this reference-credit addition.
+
+## Existing-asset-first reuse (asset library)
+
+Before making any replacement item icon from scratch, search the [Unused Renders catalog](https://github.com/malcolmriley/unused-renders/tree/main/item) and compare the exact candidate at native game resolution. The available catalog contains finished PNG renders and mipmapped item sprite sheets. Copy only art with appropriate semantic and visual fit, preserve the exact CC BY 4.0 source credit, and test in Factorio before switching a live reference.
+
+Four unmodified CC BY 4.0 assets are staged at [`art/third-party/unused-renders/item-mipped/`](../../art/third-party/unused-renders/item-mipped) for charcoal, casing, ash and wood-chip studies. See [their provenance ledger](../../art/third-party/unused-renders/README.md). These are **not** live sprite replacements or 3D mesh source assets.

@@ -107,3 +107,5 @@ The original motivation was stronger tank firepower for difficult biter scenario
 **Acknowledgment — Malcolm Riley:** [Unused Renders](https://github.com/malcolmriley/unused-renders) and its [Factorio Blender tutorial wiki](https://github.com/malcolmriley/unused-renders/wiki) are adopted as references for the island-survival 3D asset texturing/rendering workflow. Special thanks to Malcolm Riley for sharing his Blender methods and art resources.
 
 The wiki's **tutorial text is CC0**, while **images and Blender files are CC BY 4.0**, with credit and license link required for reused/adapted artwork. Referencing the methods alone does not mean assets from that repository have been imported. See [texturing workflow and provenance requirements](docs/art/UNUSED_RENDERS_WORKFLOW_AND_CREDITS.md) for techniques, licensing boundaries, and per-asset attribution.
+
+**Existing-art reuse:** We also stage selected CC BY 4.0 [Unused Renders candidate item sprites](art/third-party/unused-renders/README.md) for comparison before redrawing icons. These credited candidates are not yet wired into game prototypes; original art remains active until visually reviewed and tested.
