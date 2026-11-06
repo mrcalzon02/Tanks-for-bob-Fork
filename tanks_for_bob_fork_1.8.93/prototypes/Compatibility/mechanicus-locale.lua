@@ -5,6 +5,7 @@
 local mechanicus_mods = {
   "MechanicusMiniMAX",   -- Mechanicus (Rebuild)
   "mechanicus-reborn",   -- Mechanicus Reborn, Factorio 2.0 fork
+  "mechanicist-factorio", -- Mechanicist Factorio: compatible prototype-preserving retheme
   "Mechanicus",          -- legacy/alternate naming fallback
   "mechanicus"           -- lowercase fallback
 }
