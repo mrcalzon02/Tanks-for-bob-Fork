@@ -24,6 +24,8 @@ The Bob's (Updated) Modpack dependency list includes: `bobassembly`, `bobclasses
 | Setting / flag | Owner | Meaning | Default / rule |
 | --- | --- | --- | --- |
 | `tfbf-bobs-equipment-grids` | this fork | Assign Bob's vehicle equipment grids to fork-owned tank entities when `bobvehicleequipment` is present | true; does nothing without Bob module |
+| `tfbf-bobs-advanced-hulls` | this fork | Enable three recipes using Bob Mk2/Mk3 hulls, with separately gated research | true; no effect without `bobwarfare` |
+| `tfbf-bobs-metallurgy` | this fork | Enable an Invar-based variant of encabuloy alloy, retaining native byproducts | true; no effect without `bobplates` |
 | `bobmods-vehicleequipment-enablevehiclegrids` | Bob | Enables equipment grids on base vehicles | Respect false; never override |
 | `mods["bobvehicleequipment"]` | engine | Bob equipment integration detection | Require for grid mapping |
 | `mods["bobassembly"]` | engine | Bob assembling integration detection | Validate *final* crafting categories first |
@@ -31,7 +33,7 @@ The Bob's (Updated) Modpack dependency list includes: `bobassembly`, `bobclasses
 | `mods["bobwarfare"]` | engine | Bob tanks/ammunition/technologies | Check `bob-tanks-2/3`, no unconditional cross-caliber ammo |
 | `mods["bobtech"]` | engine | Expanded labs/science | Validate research acceptance and prerequisite closure |
 
-Additional toggles for metallurgy, tech conversion or ammunition are **not implemented** until their effects have been designed and runtime-tested; don't expose inert UI settings.
+Other metallurgy, technology conversion or ammunition toggles are **not implemented** until their effects are designed and engine-tested; avoid inert UI settings.
 
 ## Phased work (issue #1 is the single tracker)
 
@@ -40,7 +42,7 @@ Additional toggles for metallurgy, tech conversion or ammunition are **not imple
 - [x] **Phase 1b (source-level only):** add optional metadata for Bob family, a guarded equipment-grid adapter, a startup enable switch and static assertions; verify the edits on the branch.
 - [x] **Phase 2:** produce one version-locked, licensed, reproducible Factorio 2.0 combined mod directory: `base`, `elevated-rails`, `quality`, `space-age`, `tanks_for_bob_fork`, and full Bob family. Keep mod credentials in Actions secrets; never log them or commit them.
 - [ ] **Phase 3 (in progress; prototypes covered, progression incomplete):** complete the actual data-stage inventory: duplicate prototypes; every fork recipe's ingredient/result and recipe category; machines including Bob assembler 4/5/6; Bob equipment grids/categories; lab science acceptance; tech prerequisites/unlocks; resource reachability and pollution/waste/recycling outputs. Record exact failures, not guesses.
-- [ ] **Phase 4:** add guarded, stage-appropriate Bob material, electronics, warfare, tank upgrade, ammo and research integrations, verifying progression after each small change. Do not replace a reachable vanilla branch with an unreachable Bob-only ingredient.
+- [ ] **Phase 4 (partially implemented):** guarded Warfare Mk2/Mk3 hull alternatives and an Invar metallurgical material route are implemented and engine-tested. Remaining work: electronics, ammunition, deeper technology-gated supply closure and recipe reachability. Do not replace a reachable vanilla branch with an unreachable Bob-only ingredient.
 - [ ] **Phase 5:** execute headless create/benchmark/server, save/reload, ammunition inventory and firing/damage probes; record entity and recipe outcomes. Real multiplayer and graphical client checks remain distinct manual acceptance tasks.
 - [ ] **Phase 6:** review result, add truthful support table and release notes, bump to a new version only when ready; merge only after all required game lifecycle/updater gates pass. Maintain one Actions job.
 
@@ -89,6 +91,24 @@ Source comparison: `bobwarfare/prototypes/technology/tank.lua`, `bobwarfare/prot
 - The fork's `super-tank-research` currently requires `modular-tank-research2`, `military-3`, `encabulated-waste-recovery` and authorization; its `super-tank` and alternate recipes use vanilla tanks and fork-specific components.
 
 **Compatibility decision:** **do not unconditionally replace a vanilla tank ingredient with `bob-tank-2` or `bob-tank-3`**; that would dramatically move a currently reachable fork tech into a later Bob science tier and undermine base-only support. Any Bob-hull metallurgy integration must instead be a *deliberately unlocked alternate advanced recipe*, with manufacturing and tech-gate closure tested before adoption. Likewise, do not automatically make unrelated Bob ammunition fit this fork's guns merely because both are tank weapons.
+
+## Branch integration iteration: Warfare and metallurgy (verified)
+
+[GitHub Actions #42158977371](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42158977371) **PASS**: the optional Warfare adapter `prototypes/Compatibility/bobs_warfare.lua` registers **three alternative super-tank construction recipes** and **two additional research technologies**, while retaining all three original recipe IDs. This is explicitly *alternate construction*, **not** a new vehicle class and not an implicit vehicle-stat upgrade.
+
+| New recipe | Original output | Bob hull | New research gate |
+| --- | --- | --- | --- |
+| `tfbf-bobs-super-tank-mk2` | `super-tank` | `bob-tank-2` | `tfbf-bobs-hulls-mk2` |
+| `tfbf-bobs-super-tank-alternate-mk2` | `super-tank-alternate` | `bob-tank-2` | `tfbf-bobs-hulls-mk2` |
+| `tfbf-bobs-super-tank-wmd-mk3` | `super-tank-wmd` | `bob-tank-3` | `tfbf-bobs-hulls-mk3` |
+
+`tfbf-bobs-hulls-mk2` depends on both `bob-tanks-2` and `super-tank-research`; `tfbf-bobs-hulls-mk3` depends on both `bob-tanks-3` and `super-tank-research2`. Each research unit inherits the **actual final** Bob tank tier's science-pack requirements, with explicit research cost for the integration step. The recipes preserve the core source recipe's outputs and components, replacing the vanilla hull and modestly reducing one high-level component amount. They are disabled until their corresponding combined-tech unlock.
+
+[GitHub Actions #42159459588](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42159459588) **PASS**: the optional `prototypes/Compatibility/bobs_metallurgy.lua` registers `tfbf-bobs-encabuloy-invar`. It clones the existing multi-output `encabuloy-alloy` recipe and substitutes **two Bob Invar alloy plates** for iron/copper while retaining `hydrocoptic-crystal`, `bioceramic-grit` and all **three native outputs**, including probabilistic waste. This is a **side route**, never a replacement for the source island-survival recipe. Research `tfbf-bobs-encabuloy-invar` requires both `bob-invar-processing` and `pre-encabulation-materials`, using Bob's final science requirements.
+
+At the same #42159459588 run: **2,614 total recipes and 772 technologies**, game map creation PASS, simulation benchmark 1,200 ticks PASS, dedicated headless server PASS, `BOBS_WARFARE_ALTERNATES_PASS recipes=3 technologies=2 base_recipes_preserved=3`, `BOBS_METALLURGY_ALTERNATE_PASS recipes=1 technologies=1 waste_outputs_preserved=3`, and **`BOBS_TECH_LAB_AUDIT technologies=93 lab_supported=93 no_lab=0 missing_science=0`**. Bob equipment insertion remains 21 accepted, 0 rejected. All are from the same **single active CI job/profile**, not separate matrix jobs.
+
+**Important limitations:** science/lab acceptance and optimistic supply closure do not prove the full tech-gated production sequence in a normal playthrough. We have not yet performed real weapon firing tests or alternate-Bob-configuration permutations. These are open items, not implied successes.
 
 ## Acceptance evidence required
 
