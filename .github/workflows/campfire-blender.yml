@@ -43,7 +43,7 @@ jobs:
             --out models/island-survival/blender/generated-v8 --samples 20 --resolution 512
       - name: Render actual keyframed Blender animation (16 Cycles frames)
         run: |
-          blender -b -t 4 models/island-survival/blender/generated/campfire-v7-animated.blend \
+          blender -b -t 4 models/island-survival/blender/generated-v8/campfire-v8-animated.blend \
             --python models/island-survival/blender/render_campfire_gif_frames.py -- \
             --out /tmp/campfire-gif-frames --resolution 320 --samples 12
       - name: Assemble and verify looping animation GIF
