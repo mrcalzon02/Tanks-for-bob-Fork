@@ -1,0 +1,263 @@
+{
+  "native_blend": "/home/runner/work/Tanks-for-bob-Fork/Tanks-for-bob-Fork/models/island-survival/blender/generated/campfire-v7-animated.blend",
+  "blender_version": "4.0.2",
+  "render_engine": "CYCLES",
+  "camera": "Factorio render camera",
+  "timeline_frames": [
+    1,
+    96
+  ],
+  "mesh_object_count": 72,
+  "stone_objects": [
+    "stone_01",
+    "stone_02",
+    "stone_03",
+    "stone_04",
+    "stone_05",
+    "stone_06",
+    "stone_07",
+    "stone_08",
+    "stone_09",
+    "stone_10",
+    "stone_11",
+    "stone_12",
+    "stone_13",
+    "stone_14",
+    "stone_15"
+  ],
+  "log_objects": [
+    "cross_log_lower_west_east_bark",
+    "cross_log_lower_west_east_end_sapwood",
+    "cross_log_lower_west_east_end_ring",
+    "cross_log_lower_west_east_end_heart",
+    "cross_log_lower_west_east_end_checks",
+    "cross_log_lower_west_east_grain",
+    "cross_log_lower_west_east_knot",
+    "cross_log_upper_diagonal_bark",
+    "cross_log_upper_diagonal_end_sapwood",
+    "cross_log_upper_diagonal_end_ring",
+    "cross_log_upper_diagonal_end_heart",
+    "cross_log_upper_diagonal_end_checks",
+    "cross_log_upper_diagonal_grain",
+    "cross_log_upper_diagonal_knot",
+    "cross_log_rear_ember_log_bark",
+    "cross_log_rear_ember_log_end_sapwood",
+    "cross_log_rear_ember_log_end_ring",
+    "cross_log_rear_ember_log_end_heart",
+    "cross_log_rear_ember_log_end_checks",
+    "cross_log_rear_ember_log_grain",
+    "cross_log_rear_ember_log_knot",
+    "cross_log_kindling_left_bark",
+    "cross_log_kindling_left_end_sapwood",
+    "cross_log_kindling_left_end_ring",
+    "cross_log_kindling_left_end_heart",
+    "cross_log_kindling_left_end_checks",
+    "cross_log_kindling_left_grain",
+    "cross_log_kindling_left_knot",
+    "cross_log_kindling_right_bark",
+    "cross_log_kindling_right_end_sapwood",
+    "cross_log_kindling_right_end_ring",
+    "cross_log_kindling_right_end_heart",
+    "cross_log_kindling_right_end_checks",
+    "cross_log_kindling_right_grain",
+    "cross_log_kindling_right_knot",
+    "cross_log_charred_twig_bark",
+    "cross_log_charred_twig_end_sapwood",
+    "cross_log_charred_twig_end_ring",
+    "cross_log_charred_twig_end_heart",
+    "cross_log_charred_twig_end_checks",
+    "cross_log_charred_twig_grain",
+    "cross_log_charred_twig_knot"
+  ],
+  "ash_objects": [
+    "ash_and_coals"
+  ],
+  "animated_flame_objects": [
+    "flame_tongue_01",
+    "flame_tongue_02",
+    "flame_tongue_03",
+    "flame_tongue_04",
+    "flame_tongue_05",
+    "flame_tongue_06"
+  ],
+  "total_triangles": 12152,
+  "packed_images": 15,
+  "lighting_objects": [
+    "01 | NW warm key | broad source",
+    "02 | SE cool fill | restrained",
+    "03 | rear edge light",
+    "04 | animated fire light"
+  ],
+  "objects_sample": [
+    {
+      "name": "ash_and_coals",
+      "faces": 15,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_01",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_02",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_03",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_04",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_05",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_06",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_07",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_08",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_09",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_10",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_11",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_12",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_13",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_14",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "stone_15",
+      "faces": 234,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "coal_00",
+      "faces": 7,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "coal_01",
+      "faces": 7,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "coal_02",
+      "faces": 7,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "coal_03",
+      "faces": 7,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "coal_04",
+      "faces": 7,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "coal_05",
+      "faces": 7,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "coal_06",
+      "faces": 7,
+      "collection": [
+        "01 | Stones + ash + coals"
+      ]
+    },
+    {
+      "name": "cross_log_lower_west_east_bark",
+      "faces": 1056,
+      "collection": [
+        "02 | Firewood"
+      ]
+    }
+  ],
+  "verified_editable": true,
+  "verified_keyframed": true
+}
