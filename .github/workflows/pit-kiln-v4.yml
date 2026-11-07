@@ -1,0 +1,74 @@
+name: Pit kiln V4 | staged bricks wobble and original campfire crackles
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/pit-kiln/v4/*.py'
+      - '.github/workflows/pit-kiln-v4.yml'
+      - 'docs/art/PIT_KILN_V4_ANIMATION.md'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pit-kiln-v4-render
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Blender and Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          python3 -m py_compile models/island-survival/pit-kiln/v4/*.py
+      - name: Create V4 animation and all 68 transparent renders
+        run: |
+          blender -b -t 4 models/island-survival/pit-kiln/generated-v3b/pit-kiln-v3-real-campfire.blend \
+            --python-exit-code 1 --python models/island-survival/pit-kiln/v4/build_pit_kiln_v4.py -- \
+            --out /tmp/pit-kiln-v4 --samples 28
+      - name: Validate four real animated rotations and previews
+        run: |
+          /usr/bin/python3 models/island-survival/pit-kiln/v4/verify_pit_kiln_v4.py \
+            --out /tmp/pit-kiln-v4 --previous models/island-survival/pit-kiln/generated-v3b
+      - name: Independently reopen native Blender model and keyframes
+        run: |
+          blender -b -t 4 /tmp/pit-kiln-v4/pit-kiln-v4-animated.blend --python-exit-code 1 \
+            --python-expr "import bpy; s=bpy.context.scene; f=[o for o in s.objects if o.name.startswith('flame_tongue')]; w=[o for o in s.objects if o.name.startswith('V2 | WET BRICK on slab')]; b=[o for o in s.objects if o.name.startswith('V2 | firing-bank WET BRICK')]; c=[o for o in s.objects if o.name.startswith('V4 | original flame crackle')]; assert len(f)==len(c)==6 and len(w)==4 and len(b)==10; assert all(o.animation_data and o.animation_data.action for o in f+c+w); assert all(len({int(k.co.x) for fc in o.animation_data.action.fcurves for k in fc.keyframe_points})==17 for o in w+c); s.frame_set(1); x=[tuple(o.rotation_euler) for o in w]; s.frame_set(25); assert all(tuple(o.rotation_euler)!=x[i] for i,o in enumerate(w)); assert s.camera.data.type=='ORTHO'; print('PIT_KILN_V4_NATIVE_MOTION_AND_CAMPFIRE_REOPEN_PASS')"
+      - name: Verify all production evidence
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('/tmp/pit-kiln-v4')
+          b=json.loads((p/'build-report.json').read_text())
+          q=json.loads((p/'review-qa.json').read_text())
+          assert q['passed'] and q['real_source_frames']==68
+          assert b['staged_bricks_wobbling']==4 and b['original_campfire_flames']==6
+          assert len(list(p.glob('burning-d*-preview.gif')))==4
+          assert (p/'pit-kiln-v4-animated.blend').stat().st_size>25000
+          print('PIT_KILN_V4_BUILD_QA_COMPLETE')
+          PY
+      - name: Save complete model and visual evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pit-kiln-v4-brick-wobble-campfire-crackle
+          path: /tmp/pit-kiln-v4/
+          if-no-files-found: warn
+      - name: Commit V4 model and 68 render captures to main
+        run: |
+          mkdir -p models/island-survival/pit-kiln/generated-v4
+          cp -a /tmp/pit-kiln-v4/. models/island-survival/pit-kiln/generated-v4/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/pit-kiln/generated-v4/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(pit-kiln): publish V4 wobbling wet bricks and original campfire crackle'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
