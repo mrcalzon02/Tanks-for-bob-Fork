@@ -84,14 +84,25 @@ def main():
     frames=list(range(1,92,6))
     # Original V9 already runs its 16-frame cycle on these timeline samples.
     # Validate that our saved scene genuinely changes the 6 flame geometries.
-    scene.frame_set(1)
-    start=[tuple(round(float(v),5) for v in ob.scale) for ob in flames]
-    e1=light.data.energy
-    scene.frame_set(49)
-    middle=[tuple(round(float(v),5) for v in ob.scale) for ob in flames]
-    e2=light.data.energy
-    if start==middle or abs(e1-e2)<.005:
-        raise ValueError("Imported campfire flame movement or authored light flicker not playing")
+    motion_samples=[]
+    illumination=[]
+    for key in range(1,92,6):
+        scene.frame_set(key)
+        bpy.context.view_layer.update()
+        motion_samples.append([tuple(round(float(v),6) for v in ob.scale) for ob in flames])
+        illumination.append(round(float(light.data.energy),6))
+    moving_flames=sum(len({tuple(states[i][j] for i in range(len(states))) for j in range(3)})>1
+                      for states in [[frame[n] for frame in motion_samples] for n in range(6)])
+    light_range=max(illumination)-min(illumination)
+    print("ORIGINAL_CAMPFIRE_ACTION_DIAGNOSTIC",json.dumps({
+        "moving_flames":moving_flames,
+        "light_energy_samples":illumination,
+        "light_energy_range":round(light_range,6),
+        "scale_frame_1":motion_samples[0],"scale_frame_9":motion_samples[8]}),flush=True)
+    if moving_flames<3:
+        raise ValueError("Fewer than three imported original flame meshes actually animate")
+    if light_range<.005:
+        raise ValueError("Imported original campfire light energy does not vary across the 16-frame cycle")
     if any(o.hide_render for o in flames):
         raise ValueError("Imported flames incorrectly hidden on active frame")
     scene.render.engine="CYCLES"
