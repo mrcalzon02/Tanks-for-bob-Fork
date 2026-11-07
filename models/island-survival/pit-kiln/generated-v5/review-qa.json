@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "frames": 68,
+  "entire_tray_children": 5,
+  "rig_rocking_bricks": 4,
+  "rig_rocking_plank": 1,
+  "independent_brick_keys": 0,
+  "preserved_campfire_flame_actions": 6,
+  "preserved_crackle_controls": 6,
+  "pixel_travel_by_direction": {
+    "0": {
+      "tray_corner_motion_px_256": 10.859,
+      "equivalent_px_64": 2.715,
+      "seam_px_256": 0.0
+    },
+    "90": {
+      "tray_corner_motion_px_256": 9.456,
+      "equivalent_px_64": 2.364,
+      "seam_px_256": 0.0
+    },
+    "180": {
+      "tray_corner_motion_px_256": 11.702,
+      "equivalent_px_64": 2.925,
+      "seam_px_256": 0.0
+    },
+    "270": {
+      "tray_corner_motion_px_256": 10.8,
+      "equivalent_px_64": 2.7,
+      "seam_px_256": 0.0
+    }
+  },
+  "visual_changes_v4_to_v5": {
+    "0": 584,
+    "90": 482,
+    "180": 574,
+    "270": 581
+  },
+  "gifs": 4,
+  "prototype_changed": false,
+  "art_approved": false
+}
