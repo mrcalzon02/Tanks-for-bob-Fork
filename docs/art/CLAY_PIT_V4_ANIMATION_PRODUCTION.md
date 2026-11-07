@@ -49,3 +49,7 @@ generated-v4/clay-pit-v4.blend with states idle:[0], working:[1,7,...,91],
 directions [0,90,180,270], camera 45°, and the tiny lantern listed as an
 intentionally animated light. Then use the reusable Factorio sprite production
 command and explicit assembling-machine/clay-pit attachment.
+
+## V4b tuned lighting publication
+
+The first full V4 diagnostic render had an overbright lantern. V4b lowers the point-light energy to 2.4, wax-paper emission to 0.16× the flicker multiplier, and inner candle emission to 0.78×; native Blender Cycles sampling increases to 32. Publish final tuned files to `models/island-survival/clay-pit/generated-v4b/` to preserve the first V4 render as diagnostic history and avoid overwriting prior binary evidence. The actual bucket pivot and lighting keys remain unchanged.

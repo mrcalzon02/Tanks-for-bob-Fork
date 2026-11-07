@@ -70,14 +70,14 @@ jobs:
           if-no-files-found: warn
       - name: Commit versioned Blender model and proofs without modifying the mod
         run: |
-          mkdir -p models/island-survival/clay-pit/generated-v4
-          cp -a /tmp/clay-pit-v4/. models/island-survival/clay-pit/generated-v4/
+          mkdir -p models/island-survival/clay-pit/generated-v4b
+          cp -a /tmp/clay-pit-v4/. models/island-survival/clay-pit/generated-v4b/
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add models/island-survival/clay-pit/generated-v4/
+          git add models/island-survival/clay-pit/generated-v4b/
           git diff --cached --check
           if ! git diff --cached --quiet; then
-            git commit -m 'art(clay-pit): publish V4 dark wet basin and swinging lantern bucket'
+            git commit -m 'art(clay-pit): publish V4b restrained lantern and swinging bucket'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
