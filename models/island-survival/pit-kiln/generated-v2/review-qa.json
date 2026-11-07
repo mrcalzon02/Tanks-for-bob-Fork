@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "frame_count": 68,
+  "four_idles": true,
+  "bricks_on_slab": 4,
+  "bricks_on_firing_bank": 10,
+  "all_four_animations_verified": true,
+  "production_accepted": false
+}
