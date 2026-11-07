@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'tools/art/build_accepted_campfire_21.py'
+      - 'tools/art/publish_accepted_campfire_21.py'
       - '.github/workflows/campfire-approved-21.yml'
       - 'docs/art/CAMPFIRE_ACCEPTED_21.md'
   workflow_dispatch:
@@ -55,6 +56,11 @@ jobs:
             --benchmark "$RUNNER_TEMP/campfire-21-world.zip" --benchmark-ticks 300 \
             2>&1 | tee /tmp/tanks-campfire-21/engine-benchmark.log
           echo 'FACTORIO_21_ENGINE_SMOKE_PASS'
+      - name: Publish engine-verified Factorio 2.1 release to Mod Portal
+        env:
+          FACTORIO_MOD_UPLOAD_KEY: ${{ secrets.FACTORIO_MOD_UPLOAD_KEY }}
+        run: |
+          python3 tools/art/publish_accepted_campfire_21.py /tmp/tanks-campfire-21
       - name: Preserve installable package and diagnostic evidence
         if: always()
         uses: actions/upload-artifact@v4
