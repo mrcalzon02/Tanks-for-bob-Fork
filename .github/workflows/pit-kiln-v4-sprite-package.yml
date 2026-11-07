@@ -1,0 +1,70 @@
+name: Pit kiln V4 | package 4-way Factorio atlases from native Blender frames
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/pit-kiln/v4/pack_v4_factorio_atlases.py'
+      - '.github/workflows/pit-kiln-v4-sprite-package.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pit-kiln-v4-atlases
+  cancel-in-progress: false
+jobs:
+  package:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify packer syntax and image library
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y python3-pil
+          python3 -m py_compile models/island-survival/pit-kiln/v4/pack_v4_factorio_atlases.py
+      - name: Package existing verified V4 captures without another Blender render
+        run: |
+          /usr/bin/python3 models/island-survival/pit-kiln/v4/pack_v4_factorio_atlases.py \
+            --source models/island-survival/pit-kiln/generated-v4 \
+            --out /tmp/pit-kiln-v4-factorio
+      - name: Verify Factorio atlas layout, all four cardinal views and checksums
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          from PIL import Image
+          p=Path("/tmp/pit-kiln-v4-factorio")
+          r=json.loads((p/"production-qa.json").read_text())
+          assert r["passed"] and r["source_rgba_frames"]==68
+          assert r["model_rotations"]==[0,90,180,270]
+          for state in ("idle","burning"):
+              for size in (64,128,256):
+                  file=p/f"pit-kiln-v4-{state}-{size}.png"
+                  with Image.open(file) as im:
+                      assert im.mode=="RGBA" and im.size==(size*8,size*8)
+          assert "idle_animation" in (p/"prototype-ready.lua").read_text()
+          assert "burning-128.png" in (p/"prototype-ready.lua").read_text()
+          print("V4_FACTORIO_PROTOTYPE_READY_ATLAS_QA_PASS")
+          PY
+      - name: Preserve sprite package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pit-kiln-v4-four-direction-prototype-ready-atlases
+          path: /tmp/pit-kiln-v4-factorio/
+          if-no-files-found: warn
+      - name: Commit new Factorio-ready sprite package to main
+        run: |
+          mkdir -p models/island-survival/pit-kiln/production-v4
+          cp -a /tmp/pit-kiln-v4-factorio/. models/island-survival/pit-kiln/production-v4/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/pit-kiln/production-v4/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(pit-kiln): ship V4 four-direction 64 128 256 Factorio atlases'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
