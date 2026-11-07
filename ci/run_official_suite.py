@@ -55,8 +55,10 @@ def tail(logfile: Path, max_lines: int = 18) -> str:
         return "(log absent)"
     return "\n".join(logfile.read_text(encoding="utf-8", errors="replace").splitlines()[-max_lines:])
 
-def run_profile(engine: str, profile: str, binary: Path, work: Path, output: Path) -> dict:
-    name = f"{engine}-{profile}"
+def run_profile(engine: str, profile: str, binary: Path, work: Path,
+                output: Path, bobs_mods_dir: Path | None = None) -> dict:
+    name = f"{engine}-{profile}" + ("-bobs-full" if bobs_mods_dir else "")
+
     artifacts = output / "profiles" / name
     artifacts.mkdir(parents=True, exist_ok=True)
     mod_folder = work / name / "mods"
@@ -73,19 +75,33 @@ def run_profile(engine: str, profile: str, binary: Path, work: Path, output: Pat
         "autosave_interval": 10,
         "autosave_slots": 2,
     }, indent=2) + "\n", encoding="utf-8")
+    stage_command = [
+        sys.executable, str(ROOT / "ci/stage_profile.py"),
+        "--engine", engine, "--profile", profile, "--output", str(mod_folder)
+    ]
+    if bobs_mods_dir is not None:
+        stage_command += ["--bobs-mods-dir", str(bobs_mods_dir)]
+    required_data_markers = DATA_MARKERS
+    if bobs_mods_dir is not None:
+        required_data_markers += (
+            "[TANKS-CI] BOBS_AUDIT_CHECKED",
+            "[TANKS-CI] BOBS_TECH_LAB_AUDIT",
+            "[TANKS-CI] BOBS_WARFARE_ALTERNATES_PASS",
+            "[TANKS-CI] BOBS_METALLURGY_ALTERNATE_PASS",
+        )
+    required_runtime_markers = RUNTIME_MARKERS
+    if bobs_mods_dir is not None:
+        required_runtime_markers += ("[TANKS-CI] BOBS_EQUIPMENT_INSERT_CHECKED",)
     stages = [
-        ("stage", [
-            sys.executable, str(ROOT / "ci/stage_profile.py"),
-            "--engine", engine, "--profile", profile, "--output", str(mod_folder)
-        ], 90, ()),
+        ("stage", stage_command, 90, ()),
         ("create", [
             str(binary), "--mod-directory", str(mod_folder),
             "--create", str(save), "--map-gen-seed", "907260"
-        ], 360, DATA_MARKERS),
+        ], 360, required_data_markers),
         ("benchmark", [
             str(binary), "--mod-directory", str(mod_folder),
             "--benchmark", str(save), "--benchmark-ticks", "1200"
-        ], 360, RUNTIME_MARKERS),
+        ], 360, required_runtime_markers),
         ("server", [
             sys.executable, str(ROOT / "ci/server_smoke.py"),
             "--binary", str(binary), "--mods", str(mod_folder),
@@ -115,7 +131,11 @@ def run_profile(engine: str, profile: str, binary: Path, work: Path, output: Pat
         create_log = (artifacts / "create.log").read_text(encoding="utf-8", errors="replace")
         bench_log = (artifacts / "benchmark.log").read_text(encoding="utf-8", errors="replace")
         interesting = ("SOURCE_REGISTRY_PASS", "SUPPLY_GRAPH rounds", "WEAPON_AUDIT vehicles",
-                       "RUNTIME_PASS tick", "DAMAGE_RESPONSE_PASS tick", "AMMO_INVENTORY_CHECKED tick")
+                       "BOBS_AUDIT_CHECKED", "BOBS_TECH_LAB_AUDIT",
+                       "BOBS_WARFARE_ALTERNATES_PASS",
+                       "BOBS_METALLURGY_ALTERNATE_PASS",
+                       "RUNTIME_PASS tick", "DAMAGE_RESPONSE_PASS tick", "AMMO_INVENTORY_CHECKED tick",
+                       "BOBS_EQUIPMENT_INSERT_CHECKED tick")
         evidence = []
         for line in (create_log + "\n" + bench_log).splitlines():
             if "[TANKS-CI]" in line and any(key in line for key in interesting):
@@ -131,10 +151,13 @@ def main() -> int:
     parser.add_argument("--binary-20", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--work", type=Path, required=True)
+    parser.add_argument("--bobs-mods-dir", type=Path, default=None)
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)
     args.work.mkdir(parents=True, exist_ok=True)
-    print("[TANKS-CI] ONE_JOB_BEGIN: 1 job, 1 Factorio 2.0 profile", flush=True)
+    mode = "full-bobs-and-official" if args.bobs_mods_dir else "official-only"
+    print(f"[TANKS-CI] ONE_JOB_BEGIN: 1 job, 1 Factorio 2.0 profile mode={mode}",
+          flush=True)
     static_log = args.output / "static-audit.log"
     static_ok, static_detail = run_command([
         sys.executable, str(ROOT / "ci/validate_mod.py"),
@@ -150,7 +173,10 @@ def main() -> int:
     for index, (engine, profile) in enumerate(PROFILES, start=1):
         print(f"[TANKS-CI] CHECK {index}/1 {engine} {profile}", flush=True)
         try:
-            tests.append(run_profile(engine, profile, binaries[engine], args.work, args.output))
+            tests.append(run_profile(
+                engine, profile, binaries[engine], args.work, args.output,
+                bobs_mods_dir=args.bobs_mods_dir
+            ))
         except Exception as exc:
             tests.append({
                 "engine": engine, "profile": profile, "name": f"{engine}-{profile}",
@@ -162,7 +188,8 @@ def main() -> int:
     completed = len(tests)
     verified = static_ok and passed == 1 and completed == 1
     report = {
-        "test_system": "one-job official Factorio compatibility and auditing suite",
+        "test_system": "one-job Factorio compatibility and auditing suite",
+        "bob_modules_loaded": args.bobs_mods_dir is not None,
         "engine_versions": sorted(binaries),
         "total_jobs": 1,
         "static_audit": "passed" if static_ok else "failed",
@@ -192,7 +219,9 @@ def main() -> int:
         )
     summary += [
         "",
-        "Only Factorio 2.0 Base + Elevated Rails + Quality + Space Age is checked in this run.",
+        ("Factorio 2.0 full official expansion + 19 pinned Bob modules was checked."
+         if args.bobs_mods_dir else
+         "Only Factorio 2.0 Base + Elevated Rails + Quality + Space Age was checked."),
         "Ingredient supply is optimistic; ammo checks are inventory/registry checks, not actual firing.",
     ]
     (args.output / "suite-summary.md").write_text("\n".join(summary) + "\n", encoding="utf-8")

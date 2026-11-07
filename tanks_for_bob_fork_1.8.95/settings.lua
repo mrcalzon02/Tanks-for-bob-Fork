@@ -32,3 +32,36 @@ data:extend(
   -- },
   
 })
+
+-- Optional Bob's integration: no effect without Bob's Vehicle Equipment.
+data:extend({
+  {
+    type = "bool-setting",
+    name = "tfbf-bobs-equipment-grids",
+    setting_type = "startup",
+    default_value = true,
+    order = "z[compatibility]-a[bobs-equipment-grids]"
+  }
+})
+
+-- Bob's Warfare optional advanced hull recipes. No effect without Bob's Warfare.
+data:extend({
+  {
+    type = "bool-setting",
+    name = "tfbf-bobs-advanced-hulls",
+    setting_type = "startup",
+    default_value = true,
+    order = "z[compatibility]-b[bobs-advanced-hulls]"
+  }
+})
+
+-- Optional Bob's Invar substitution in the encabulation materials chain.
+data:extend({
+  {
+    type = "bool-setting",
+    name = "tfbf-bobs-metallurgy",
+    setting_type = "startup",
+    default_value = true,
+    order = "z[compatibility]-c[bobs-metallurgy]"
+  }
+})

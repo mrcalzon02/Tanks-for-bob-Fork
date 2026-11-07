@@ -129,3 +129,51 @@ script.on_nth_tick(900, function(event)
     " attempted=" .. tested .. " accepted=" .. accepted .. " skipped=" .. skipped)
   script.on_nth_tick(900, nil)
 end)
+
+
+-- CI-only live Bob equipment insertion test. Unlike data-stage grid checks,
+-- this exercises Factorio's actual LuaEquipmentGrid.put API on spawned tanks.
+-- Never runs in a Bob-free profile and never affects the shipped mod package.
+script.on_nth_tick(1050, function(event)
+  if event.tick < 1050 then return end
+  if not script.active_mods["bobvehicleequipment"] then
+    script.on_nth_tick(1050, nil)
+    return
+  end
+  local surface = game.surfaces[1]
+  local found = surface and surface.find_entities_filtered{
+    name = vehicle_names, force = "player"
+  } or {}
+  local equipment_names = {
+    "bob-vehicle-battery-equipment-1",
+    "bob-vehicle-motor-equipment",
+    "bob-vehicle-shield-equipment-1"
+  }
+  local checked, inserted, rejected = 0, 0, 0
+  for _, vehicle in pairs(found) do
+    if vehicle.valid then
+      checked = checked + 1
+      local grid = vehicle.grid
+      if grid and grid.valid then
+        for _, equipment_name in ipairs(equipment_names) do
+          local part = grid.put{name = equipment_name}
+          if part and part.valid then
+            inserted = inserted + 1
+          else
+            rejected = rejected + 1
+            log("[TANKS-BOBS] EQUIPMENT_DIAGNOSTIC rejected " ..
+                equipment_name .. " on " .. vehicle.name)
+          end
+        end
+      else
+        rejected = rejected + #equipment_names
+        log("[TANKS-BOBS] EQUIPMENT_DIAGNOSTIC missing grid on " ..
+            vehicle.name)
+      end
+    end
+  end
+  log("[TANKS-CI] BOBS_EQUIPMENT_INSERT_CHECKED tick=" .. event.tick ..
+      " vehicles=" .. checked .. " inserted=" .. inserted ..
+      " rejected=" .. rejected)
+  script.on_nth_tick(1050, nil)
+end)
