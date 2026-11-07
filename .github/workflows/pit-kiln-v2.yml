@@ -1,0 +1,75 @@
+name: Pit Kiln V2 | handmade wet bricks and primitive firing ring
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/pit-kiln/v2/*.py'
+      - '.github/workflows/pit-kiln-v2.yml'
+      - 'docs/art/PIT_KILN_V2_BUILD_SHEET.md'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pit-kiln-v2
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install native Blender/Pillow and check Python
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          python3 -m py_compile models/island-survival/pit-kiln/v2/*.py
+      - name: Build full editable V2 from V1; render four idle and 64 burning frames
+        run: |
+          blender -b -t 4 models/island-survival/pit-kiln/generated-v1/pit-kiln-v1.blend \
+            --python-exit-code 1 \
+            --python models/island-survival/pit-kiln/v2/build_pit_kiln_v2.py -- \
+            --out /tmp/pit-kiln-v2 --samples 24
+      - name: Validate real PNG frames and produce proof images/GIFs
+        run: |
+          /usr/bin/python3 models/island-survival/pit-kiln/v2/make_pit_kiln_v2_review.py \
+            --out /tmp/pit-kiln-v2 --mod tanks_for_bob_fork_1.8.95
+      - name: Reopen master and verify actual wooden slab and separate brick arrays
+        run: |
+          blender -b -t 4 /tmp/pit-kiln-v2/pit-kiln-v2.blend --python-exit-code 1 --python-expr "import bpy; s=bpy.context.scene; o=list(s.objects); a=[x for x in o if x.name.startswith('V2 | WET BRICK on slab')]; b=[x for x in o if x.name.startswith('V2 | firing-bank WET BRICK')]; p=[x for x in o if x.name=='V2 | rough support plank for unfired bricks']; assert len(a)==4 and len(b)==10 and len(p)==1; assert all(x.animation_data for x in b); s.frame_set(0); assert all(x.hide_render for x in b); s.frame_set(13); assert not any(x.hide_render for x in b); assert s.camera.data.type=='ORTHO'; print('PIT_KILN_V2_NATIVE_BRICK_LAYOUT_REOPEN_PASS')"
+      - name: Verify source count, material grouping and animation
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path('/tmp/pit-kiln-v2')
+          q=json.loads((p/'review-qa.json').read_text())
+          r=json.loads((p/'build-report.json').read_text())
+          assert q['passed'] and q['frame_count']==68
+          assert r['real_hand_formed_bricks']==14
+          assert r['firing_bank_is_outside_flame_core']
+          assert r['states']=={'idle':1,'burning':16}
+          assert (p/'pit-kiln-v2.blend').stat().st_size>10000
+          print('PIT_KILN_V2_PROOF_COMPLETE')
+          PY
+      - name: Upload complete Blender evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pit-kiln-v2-real-blender-brick-firing-evidence
+          path: /tmp/pit-kiln-v2/
+          if-no-files-found: warn
+      - name: Commit original model and render proof to main
+        run: |
+          mkdir -p models/island-survival/pit-kiln/generated-v2
+          cp -a /tmp/pit-kiln-v2/. models/island-survival/pit-kiln/generated-v2/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/pit-kiln/generated-v2/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(pit-kiln): publish four-way V2 handmade brick staging and firing-bank model'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
