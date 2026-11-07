@@ -26,56 +26,56 @@
       "angle": 0,
       "frame": 0,
       "path": "idle-d00.png",
-      "sha256": "59d91f396f68ad16c09b9c78e382dca8f4a75accb583c6cd3eec5eea302bd016"
+      "sha256": "5f8eb6379e6f8b12326fbe430f183aef3972ee63570b187e5cd39199ae01bb97"
     },
     {
       "state": "idle",
       "angle": 90,
       "frame": 0,
       "path": "idle-d01.png",
-      "sha256": "02a9fbbc8978ec08f6ab028c112f788ff6fbc37dc05e913fa2b8c679ce2925e9"
+      "sha256": "be319c6c4e4c50066542e2234676e3cf0ec28873da89f8c9ccf689e417f2ac9a"
     },
     {
       "state": "idle",
       "angle": 180,
       "frame": 0,
       "path": "idle-d02.png",
-      "sha256": "c9ab5675fef50f865ad899d956e66cb01044cba6f46d446d45d41cf00b9d5612"
+      "sha256": "ba6f99826553af091d8728e0af323ed2f3bb7d8bbc374b1de8551578d2a7a326"
     },
     {
       "state": "idle",
       "angle": 270,
       "frame": 0,
       "path": "idle-d03.png",
-      "sha256": "7e31255a429df9439d000cd084e87f106f299956b338721787d5bab4e2f35497"
+      "sha256": "178ea6fbf3df577a76756c56a5a7b3ca7c1393ce5d4b913fb3c30b7b133592fa"
     },
     {
       "state": "working",
       "angle": 0,
       "frame": 13,
       "path": "working-d00.png",
-      "sha256": "55b419d40153775c59965cf6f553e30ee95fd1105c18e503abc8ac9dd8fc0bc6"
+      "sha256": "4a95079a80eed339b82710608e9b65c5dd9e2db713d5ab70fd0997b9f602d55e"
     },
     {
       "state": "working",
       "angle": 90,
       "frame": 13,
       "path": "working-d01.png",
-      "sha256": "b3cad28293edcf3efbf7471dfe1a8fe8590ab1024fa9294c18c7c5c3788463a8"
+      "sha256": "4a70cac84e0f5ba847320a9678fcda8ba38e2b3c0f7c65762289e6c566663cba"
     },
     {
       "state": "working",
       "angle": 180,
       "frame": 13,
       "path": "working-d02.png",
-      "sha256": "90569b11003c5c5f3beeed9761f11bd95a14e2fe69310fbe81b8ab83732a438a"
+      "sha256": "9fab92c7c3408ca3c4d43459e9009b52e6e754d11cec3071d527d28efba9a77e"
     },
     {
       "state": "working",
       "angle": 270,
       "frame": 13,
       "path": "working-d03.png",
-      "sha256": "b59df23de30b91b4a13029046ac3d3d7030d5c9bbc53f4046d75a8416fcc5f97"
+      "sha256": "f16ef8c6f7d2c092917a9ec7d65e5dd74f9e0d1239c73e854f9da6a8b44cf7a3"
     }
   ],
   "source_original_unchanged": true,
