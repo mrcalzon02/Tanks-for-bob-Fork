@@ -1,0 +1,74 @@
+name: Pit Kiln V3b | hand-key real campfire kiln animation
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/pit-kiln/v3b/*.py'
+      - '.github/workflows/pit-kiln-v3b.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pit-kiln-v3b
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Blender and Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          python3 -m py_compile models/island-survival/pit-kiln/v3b/*.py
+      - name: Author additional kiln-specific fire keys and render four directions
+        run: |
+          blender -b -t 4 models/island-survival/pit-kiln/generated-v3/pit-kiln-v3-real-campfire.blend \
+            --python-exit-code 1 \
+            --python models/island-survival/pit-kiln/v3b/hand_animate_kiln_fire.py -- \
+            --out /tmp/pit-kiln-v3b
+      - name: Check all frames and four GIFs with reused original source actions
+        run: |
+          /usr/bin/python3 models/island-survival/pit-kiln/v3/make_pit_kiln_v3_review.py \
+            --out /tmp/pit-kiln-v3b --mod tanks_for_bob_fork_1.8.95
+          /usr/bin/python3 models/island-survival/pit-kiln/v3b/verify_hand_motion.py \
+            --out /tmp/pit-kiln-v3b --previous models/island-survival/pit-kiln/generated-v3
+      - name: Reopen Blender and check 17 hand-keyed poses on each real flame
+        run: |
+          blender -b -t 4 /tmp/pit-kiln-v3b/pit-kiln-v3-real-campfire.blend \
+            --python-exit-code 1 --python-expr "import bpy; s=bpy.context.scene; f=[o for o in s.objects if o.name.startswith('flame_tongue')]; h=[o for o in s.objects if o.name.startswith('V3b | HAND-KEYED original flame')]; assert len(f)==len(h)==6; assert all(o.animation_data and o.animation_data.action for o in f+h); assert all(len(set(int(k.co.x) for fc in o.animation_data.action.fcurves for k in fc.keyframe_points))==17 for o in h); assert all(o.parent in h for o in f); print('REUSED_CAMPFIRE_PLUS_HAND_KEYS_VERIFIED')"
+      - name: Verify final QA
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('/tmp/pit-kiln-v3b')
+          a=json.loads((p/'review-qa.json').read_text())
+          b=json.loads((p/'hand-motion-qa.json').read_text())
+          assert a['passed'] and a['actual_frames']==68 and b['passed']
+          assert len(list(p.glob('burning-d*-preview.gif')))==4
+          print('PIT_KILN_V3B_RENDER_VALIDATED')
+          PY
+      - name: Upload actual Blender evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pit-kiln-v3b-hand-keyed-original-campfire
+          path: /tmp/pit-kiln-v3b/
+          if-no-files-found: warn
+      - name: Commit native V3b and its visual proof
+        run: |
+          mkdir -p models/island-survival/pit-kiln/generated-v3b
+          cp -a /tmp/pit-kiln-v3b/. models/island-survival/pit-kiln/generated-v3b/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/pit-kiln/generated-v3b/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(pit-kiln): hand-key six real original campfire flames for the kiln'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
