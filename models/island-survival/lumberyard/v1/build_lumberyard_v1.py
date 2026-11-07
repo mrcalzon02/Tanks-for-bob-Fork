@@ -204,7 +204,7 @@ def animate(machine,full,halves,chip,col):
             key_discrete(c,frame,alive)
             c.location.z=(.13+.07*j)+(phase-7)*.065 if alive else .10+.07*j
             c.keyframe_insert(data_path="location",frame=frame)
-    for ob in [machine]+halves+chip:
+    for ob in [machine]+list(halves)+list(chip):
         if not ob.animation_data:continue
         for fc in ob.animation_data.action.fcurves:
             if fc.data_path=="hide_render":continue
