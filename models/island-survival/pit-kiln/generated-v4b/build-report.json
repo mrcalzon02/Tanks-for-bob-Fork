@@ -1,0 +1,664 @@
+{
+  "schema": 4,
+  "revision": "v4b-whole-tray-rocks-with-four-wet-bricks",
+  "original_campfire_flames": 6,
+  "original_campfire_actions": {
+    "flame_tongue_01": "CF7 | flame movement.001",
+    "flame_tongue_02": "CF7 | flame movement.002",
+    "flame_tongue_03": "CF7 | flame movement.003",
+    "flame_tongue_04": "CF7 | flame movement.004",
+    "flame_tongue_05": "CF7 | flame movement.005",
+    "flame_tongue_06": "CF7 | flame movement"
+  },
+  "original_animated_campfire_light": "04 | animated fire light",
+  "v3b_existing_flame_helpers": 6,
+  "new_crackle_controls": 6,
+  "staged_bricks_wobbling": 4,
+  "complete_tray_control": "V4b | COMPLETE TRAY AND FOUR BRICKS | rock together",
+  "tray_parts": 5,
+  "tray_motion_screen_pixels": {
+    "0": {
+      "wooden_tray_px_256": 6.677,
+      "four_bricks_px_256": [
+        7.384,
+        7.343,
+        6.23,
+        8.151
+      ],
+      "lowest_px_256": 6.23
+    },
+    "90": {
+      "wooden_tray_px_256": 6.688,
+      "four_bricks_px_256": [
+        6.914,
+        5.205,
+        4.91,
+        6.66
+      ],
+      "lowest_px_256": 4.91
+    },
+    "180": {
+      "wooden_tray_px_256": 6.509,
+      "four_bricks_px_256": [
+        7.423,
+        7.376,
+        6.147,
+        8.176
+      ],
+      "lowest_px_256": 6.147
+    },
+    "270": {
+      "wooden_tray_px_256": 2.071,
+      "four_bricks_px_256": [
+        3.229,
+        5.454,
+        4.609,
+        4.815
+      ],
+      "lowest_px_256": 2.071
+    }
+  },
+  "bank_bricks_stationary": 10,
+  "staging_board_stationary": false,
+  "crackle_ember_count": 2,
+  "camera_elevation_deg": 45,
+  "directions": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "fps": 8,
+  "source_frames": 68,
+  "master_sha256": "c0d821fb6f88fee119a9f9258ee1aa47528eed474e41d3d98f6a7c6e48338561",
+  "brick_motion_samples": {
+    "0": {
+      "wooden_tray_px_256": 6.677,
+      "four_bricks_px_256": [
+        7.384,
+        7.343,
+        6.23,
+        8.151
+      ],
+      "lowest_px_256": 6.23
+    },
+    "90": {
+      "wooden_tray_px_256": 6.688,
+      "four_bricks_px_256": [
+        6.914,
+        5.205,
+        4.91,
+        6.66
+      ],
+      "lowest_px_256": 4.91
+    },
+    "180": {
+      "wooden_tray_px_256": 6.509,
+      "four_bricks_px_256": [
+        7.423,
+        7.376,
+        6.147,
+        8.176
+      ],
+      "lowest_px_256": 6.147
+    },
+    "270": {
+      "wooden_tray_px_256": 2.071,
+      "four_bricks_px_256": [
+        3.229,
+        5.454,
+        4.609,
+        4.815
+      ],
+      "lowest_px_256": 2.071
+    }
+  },
+  "art_approved": false,
+  "factorio_prototype_changed": false,
+  "captures": [
+    {
+      "state": "idle",
+      "direction": 0,
+      "index": 0,
+      "frame": 0,
+      "path": "idle-d00.png",
+      "sha256": "5103bf1ada66c78e7102f80a7e7ccece403be6713b1808f700f598022a21747b"
+    },
+    {
+      "state": "idle",
+      "direction": 1,
+      "index": 0,
+      "frame": 0,
+      "path": "idle-d01.png",
+      "sha256": "4a4651a426c58b6c306cbc63f7799339128a3b22bcda7f5bbea4b4c22cad1803"
+    },
+    {
+      "state": "idle",
+      "direction": 2,
+      "index": 0,
+      "frame": 0,
+      "path": "idle-d02.png",
+      "sha256": "c6e7edb0a95afba02b0b6578f8080b182fcdecda3dd5d65c3811f36bd0e54436"
+    },
+    {
+      "state": "idle",
+      "direction": 3,
+      "index": 0,
+      "frame": 0,
+      "path": "idle-d03.png",
+      "sha256": "f936d51da8f2c1d6d05e1fd2f04972083ba52c968a377bedf3ae41362b8d7517"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 0,
+      "frame": 1,
+      "path": "burning-d00-f000.png",
+      "sha256": "160de37255b612e44b9d18f81c22000314cbca3e08886c9f3677c3d61ed3bbf9"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 1,
+      "frame": 7,
+      "path": "burning-d00-f001.png",
+      "sha256": "26d45b88e9245c844d9b7f83e2a522f6e23ad53976b114cefcd3828f11c2a64d"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 2,
+      "frame": 13,
+      "path": "burning-d00-f002.png",
+      "sha256": "f131aaf6820b45b04eabbb1c908ea8899822287e44ec4dcbd5a4af900db00218"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 3,
+      "frame": 19,
+      "path": "burning-d00-f003.png",
+      "sha256": "9709887b8caeb5fbda4ccc18e19e02dae04cf183601aad06eab45e5257879f20"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 4,
+      "frame": 25,
+      "path": "burning-d00-f004.png",
+      "sha256": "fc1b60ba11cb1555a1914b1d7d4beca427314ae24dd68f58832072e4790061ca"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 5,
+      "frame": 31,
+      "path": "burning-d00-f005.png",
+      "sha256": "664f06aaf79ade0ceec8653c466dc6b04ba40761b87a3de8087c6f6c60f52220"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 6,
+      "frame": 37,
+      "path": "burning-d00-f006.png",
+      "sha256": "93a31470214825df81c2257d7b021c77ff56093e46f9e076dfce1655e93d769f"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 7,
+      "frame": 43,
+      "path": "burning-d00-f007.png",
+      "sha256": "f9a72397ed3e51a0fabc9444fe803288bbf074ccd09c92058434e7eb0b370167"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 8,
+      "frame": 49,
+      "path": "burning-d00-f008.png",
+      "sha256": "fd12b30fa1983ee1a944b24fd4592e7b76662d8a622b88e89a0a075e0ff34ef3"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 9,
+      "frame": 55,
+      "path": "burning-d00-f009.png",
+      "sha256": "4d61669e63a0824c9236c0a9ec1c0453d43920a00d1092712a5b05dde6caf1ce"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 10,
+      "frame": 61,
+      "path": "burning-d00-f010.png",
+      "sha256": "242e7a18290776d9dc27a049d732021d369c839a287b2890e3f703dbb42694e1"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 11,
+      "frame": 67,
+      "path": "burning-d00-f011.png",
+      "sha256": "7c54c9231453ad44625f2590c095b2e217ad5063adedf39c840b2bedb3555abb"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 12,
+      "frame": 73,
+      "path": "burning-d00-f012.png",
+      "sha256": "66cde068298acea6fa1e45da31b1383fcc1fabd2b3b6eeb46c50d4f984f8a3bd"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 13,
+      "frame": 79,
+      "path": "burning-d00-f013.png",
+      "sha256": "50cb4eed2677fe834f93bfed8e78745216042c5524fb2c24b4e8b4d324526dd5"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 14,
+      "frame": 85,
+      "path": "burning-d00-f014.png",
+      "sha256": "6856f5a6e1fc0021dcfc4cd5db19deb78df1a7788b2f84120e9205cb69211e30"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "index": 15,
+      "frame": 91,
+      "path": "burning-d00-f015.png",
+      "sha256": "863758f6cccd7282dd74215f5f63e0b1248d5b2cd1976cb5cf003f43e374c763"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 0,
+      "frame": 1,
+      "path": "burning-d01-f000.png",
+      "sha256": "130aeebd0c70973325b6d3b1a3d84d20f0724fa1814560d26dda836e26def64f"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 1,
+      "frame": 7,
+      "path": "burning-d01-f001.png",
+      "sha256": "ea2aebc814a344c6fb44672fac63f15cac9b2bd4278b8dd74f8a683eea122a62"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 2,
+      "frame": 13,
+      "path": "burning-d01-f002.png",
+      "sha256": "efad482fb78b16c6e56592fa11eb1c5e0bbf179c0f797fdc96f3faa7f4508b21"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 3,
+      "frame": 19,
+      "path": "burning-d01-f003.png",
+      "sha256": "18309829c2d46888eb1f0b280f3576c0e35e28ddf42cae2c866cade50055a8ad"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 4,
+      "frame": 25,
+      "path": "burning-d01-f004.png",
+      "sha256": "6c9f62dffbb90b93b60efab7cd1d834c6f9e23417a7994cce69418238a0204c6"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 5,
+      "frame": 31,
+      "path": "burning-d01-f005.png",
+      "sha256": "308d52ccee1d3f6f54a9cd10bf691b8f022cda39f2d42ed0f1e28a99f70a7427"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 6,
+      "frame": 37,
+      "path": "burning-d01-f006.png",
+      "sha256": "9748ea9929cba09cd96cc64880f56addce000857ae4bc80d579a2a5d504e3c72"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 7,
+      "frame": 43,
+      "path": "burning-d01-f007.png",
+      "sha256": "1ffb43d4dc8a4d4422d038616dfe8589aab4ac2ceccd36aefb5c91ccc540486a"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 8,
+      "frame": 49,
+      "path": "burning-d01-f008.png",
+      "sha256": "3a3f19947f12e6b867cdc4ef0abd89308d628aa584e7237bd1ea95f642c38c3d"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 9,
+      "frame": 55,
+      "path": "burning-d01-f009.png",
+      "sha256": "7e021c8d351d2d9a9364e81302ef3f177a37695d1887727645ea0e93bd1c0a1c"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 10,
+      "frame": 61,
+      "path": "burning-d01-f010.png",
+      "sha256": "077aefc150ef3b057eef86226fac0a77bdecc341adb54676264dd905d2b6fe2a"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 11,
+      "frame": 67,
+      "path": "burning-d01-f011.png",
+      "sha256": "3adf110d6f032623b65607c8d2c67780348a1317a4deecb72dfb60f1b675a0f4"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 12,
+      "frame": 73,
+      "path": "burning-d01-f012.png",
+      "sha256": "78be52aa6295693befef8d5b19cda5969c02553a7247f9c6f834552855af34d7"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 13,
+      "frame": 79,
+      "path": "burning-d01-f013.png",
+      "sha256": "88d7683799c12e5007d42d46cb70d91e36fe53493c436a6e8968e686518a6a8c"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 14,
+      "frame": 85,
+      "path": "burning-d01-f014.png",
+      "sha256": "6bba7eb5e4f0d8652561cf7f3f248f4c4447297a8f846a2252a8e025fb9a7210"
+    },
+    {
+      "state": "burning",
+      "direction": 1,
+      "index": 15,
+      "frame": 91,
+      "path": "burning-d01-f015.png",
+      "sha256": "bdb796091970d3086ea8c7d1cab6c51fa19a70a701f0b8156feeae5bc447068a"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 0,
+      "frame": 1,
+      "path": "burning-d02-f000.png",
+      "sha256": "cb24075abddb20b755067482da0f26827327ce05a25e440f83d1a0045217bf13"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 1,
+      "frame": 7,
+      "path": "burning-d02-f001.png",
+      "sha256": "296e6a5bd06490fe44fb73107aae221133d81592d39218beed1af7ecfb036b57"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 2,
+      "frame": 13,
+      "path": "burning-d02-f002.png",
+      "sha256": "d4c4a337c6f2b40ae21b47358baef78994848007f6d84dc26747d92e790921d7"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 3,
+      "frame": 19,
+      "path": "burning-d02-f003.png",
+      "sha256": "4d249d668285b4c3754ae58bd85d381b9547eb6b292efb4c4adfa369484ecae9"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 4,
+      "frame": 25,
+      "path": "burning-d02-f004.png",
+      "sha256": "b87373f610b8a500b7ecf388a20cdbbf9943766c82f15adb994795e0dbdba95e"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 5,
+      "frame": 31,
+      "path": "burning-d02-f005.png",
+      "sha256": "ef734dbafec0d08d19c336056eecced9f640c026711a5db0f7de0ddb231ca4b4"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 6,
+      "frame": 37,
+      "path": "burning-d02-f006.png",
+      "sha256": "83c427d6b47e6add4c9d9d6af707c44d142828e28004ff40892805f04a839fd9"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 7,
+      "frame": 43,
+      "path": "burning-d02-f007.png",
+      "sha256": "668cd7ed853629d7bb0e9ef23a0e8fe6f42026e3e7ccf53144995dd8b06a8e0b"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 8,
+      "frame": 49,
+      "path": "burning-d02-f008.png",
+      "sha256": "1f90c0659b22e7ce80e09fbe444d356cdacc0fa20dd4159a9d719404ce0e2561"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 9,
+      "frame": 55,
+      "path": "burning-d02-f009.png",
+      "sha256": "c92600124d3cfa2c5c69b606ffc4650ca6dcd1fd655421c3ca6c0a3761d7fcf8"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 10,
+      "frame": 61,
+      "path": "burning-d02-f010.png",
+      "sha256": "b6442e84a7eff25e2f2d9034d29060cdac120cf9f23fa84be0d5ca611bca010c"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 11,
+      "frame": 67,
+      "path": "burning-d02-f011.png",
+      "sha256": "37cee46cf05e4e7870fe3112e3db2e9f0e9324d15a156f8acdf804bcbd3b73f3"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 12,
+      "frame": 73,
+      "path": "burning-d02-f012.png",
+      "sha256": "71370b442dcc9ebb90d92acf698a5a4da0586bb002d83c0d7fdd21c4a08f7b47"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 13,
+      "frame": 79,
+      "path": "burning-d02-f013.png",
+      "sha256": "bd40f4dd3c3cbc2cd08d82803f12bc8096fa5763e45d21096f2bcdc7bfe86b3a"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 14,
+      "frame": 85,
+      "path": "burning-d02-f014.png",
+      "sha256": "cc0b083518151659f312189efa6d2cdb38f431c9f544762df8cb5138e9f9c078"
+    },
+    {
+      "state": "burning",
+      "direction": 2,
+      "index": 15,
+      "frame": 91,
+      "path": "burning-d02-f015.png",
+      "sha256": "521bb3e95c24a9f3eda4a51f32f9940eb3f6dca4ae6e77172c3d74b27aa629c0"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 0,
+      "frame": 1,
+      "path": "burning-d03-f000.png",
+      "sha256": "b58e43f0446d15259482fcfed065fcee19585ebac76b60380f50c10da948efe1"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 1,
+      "frame": 7,
+      "path": "burning-d03-f001.png",
+      "sha256": "cb164f6fbd1f5253f9e82a090133ff1745f9140999d0d518228294bbde310698"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 2,
+      "frame": 13,
+      "path": "burning-d03-f002.png",
+      "sha256": "e277004486c8d3d50fbd3a647d5fa452c89897a579cb191bc1b515d19d2b9bc0"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 3,
+      "frame": 19,
+      "path": "burning-d03-f003.png",
+      "sha256": "1fbf61ec4c351e4af93546cd4aa899d61d336fc843f9cbb4ecf1cc22d3da1d40"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 4,
+      "frame": 25,
+      "path": "burning-d03-f004.png",
+      "sha256": "40c480201570d4a3999d422a1048e03e3588ac8794f19833c97ef786c44c5f86"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 5,
+      "frame": 31,
+      "path": "burning-d03-f005.png",
+      "sha256": "187f6a43977bbe9216300926816972f5b25277e5a94403866c49e63e201d364d"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 6,
+      "frame": 37,
+      "path": "burning-d03-f006.png",
+      "sha256": "98d6c3b21b1f4338a4ad1e7a3dcef83af15ecf2907ef2683745446c038b6b534"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 7,
+      "frame": 43,
+      "path": "burning-d03-f007.png",
+      "sha256": "4a4db07a0204f0358a7aac3b54d25c5155914e26da9a60ac6c6c50963ab1109d"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 8,
+      "frame": 49,
+      "path": "burning-d03-f008.png",
+      "sha256": "6a159d9db40d086580e288a685e9397866f92d72b369162b4ee9db5ddab4dddb"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 9,
+      "frame": 55,
+      "path": "burning-d03-f009.png",
+      "sha256": "45eb92226164cf67f6a78f49dcbc34e87efa65c11d1b0e1cb9eb3d6ef27cef74"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 10,
+      "frame": 61,
+      "path": "burning-d03-f010.png",
+      "sha256": "fd57669aba7677196eae826cbf2f15f80d8f733e2d16eb466e246e9041993f93"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 11,
+      "frame": 67,
+      "path": "burning-d03-f011.png",
+      "sha256": "4e27d4d83b6b59744f1a9107571e61aae4319eb4b06188751d78c6f1f5168037"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 12,
+      "frame": 73,
+      "path": "burning-d03-f012.png",
+      "sha256": "5b94dfd0a18b2787a49aa9392e451c09fd63173809a3789800baed8a428190b9"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 13,
+      "frame": 79,
+      "path": "burning-d03-f013.png",
+      "sha256": "373f107c7caec663f67bd289bf22e58ea9e74662c4fe2af73de02071508bf0dd"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 14,
+      "frame": 85,
+      "path": "burning-d03-f014.png",
+      "sha256": "0b32dd1ca8031c2a34114ffd36474ae1d1140583cb4e24abacee1bb4ce91b741"
+    },
+    {
+      "state": "burning",
+      "direction": 3,
+      "index": 15,
+      "frame": 91,
+      "path": "burning-d03-f015.png",
+      "sha256": "cc66b86390d645e18a4bfcb1cd1bf38d43742b7937cd8f6b0c213d1bbbd2bbb4"
+    }
+  ]
+}

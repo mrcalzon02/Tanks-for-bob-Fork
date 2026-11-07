@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "real_source_frames": 68,
+  "original_campfire_actions": 6,
+  "animated_staged_bricks": 4,
+  "whole_board_and_bricks_rock_together": true,
+  "tray_motion_screen_pixels": {
+    "0": {
+      "wooden_tray_px_256": 6.677,
+      "four_bricks_px_256": [
+        7.384,
+        7.343,
+        6.23,
+        8.151
+      ],
+      "lowest_px_256": 6.23
+    },
+    "90": {
+      "wooden_tray_px_256": 6.688,
+      "four_bricks_px_256": [
+        6.914,
+        5.205,
+        4.91,
+        6.66
+      ],
+      "lowest_px_256": 4.91
+    },
+    "180": {
+      "wooden_tray_px_256": 6.509,
+      "four_bricks_px_256": [
+        7.423,
+        7.376,
+        6.147,
+        8.176
+      ],
+      "lowest_px_256": 6.147
+    },
+    "270": {
+      "wooden_tray_px_256": 2.071,
+      "four_bricks_px_256": [
+        3.229,
+        5.454,
+        4.609,
+        4.815
+      ],
+      "lowest_px_256": 2.071
+    }
+  },
+  "nonmoving_bank_bricks": 10,
+  "original_flames_plus_crackle_controls": 6,
+  "emitted_embers": 2,
+  "crackle_pixel_changes": {
+    "0": 696,
+    "90": 429,
+    "180": 727,
+    "270": 536
+  },
+  "four_animated_gifs": 4,
+  "art_accepted": false,
+  "prototype_modified": false
+}
