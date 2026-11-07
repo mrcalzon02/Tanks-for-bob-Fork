@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "asset": "clay-pit",
+  "revision": "greybox-v1",
+  "reference_variants": [
+    [
+      64,
+      64
+    ],
+    [
+      120,
+      64
+    ]
+  ],
+  "active_crop_dimensions": [
+    64,
+    64
+  ],
+  "reference_primary_pit_count": 1,
+  "source_unused_basin_variants": 2,
+  "blender_version": "4.0.2",
+  "camera_elevation_deg": 45,
+  "camera_azimuth_deg": 0,
+  "ortho_scale": 3.3,
+  "states": [
+    "idle",
+    "working"
+  ],
+  "directions": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "model_meshes": 22,
+  "client_tested": false,
+  "user_art_accepted": false,
+  "source_primary": "tanks_for_bob_fork_1.8.95/graphics/entity/clay-pit.png",
+  "source_working": "tanks_for_bob_fork_1.8.95/graphics/entity/clay-pit-w.png",
+  "captures": [
+    {
+      "state": "idle",
+      "angle": 0,
+      "path": "idle-d00.png",
+      "sha256": "e0cb9e72df3594ca0b6de1af0e0df8eaaf70487ca84f24a4e0926c199abd0f1d"
+    },
+    {
+      "state": "idle",
+      "angle": 90,
+      "path": "idle-d01.png",
+      "sha256": "2819c2bc1e40e4a7287fb00ed3f7c7dfc78c3a1994b8db50e70d6868c8ccf777"
+    },
+    {
+      "state": "idle",
+      "angle": 180,
+      "path": "idle-d02.png",
+      "sha256": "5506c28f0bf01921312abf250b1efdbea5efef529305f84c332faa352a04d9b8"
+    },
+    {
+      "state": "idle",
+      "angle": 270,
+      "path": "idle-d03.png",
+      "sha256": "3c8938c2e08448d065252840c1ef8ba37c2acc942a86e737312afdf71d39f54e"
+    },
+    {
+      "state": "working",
+      "angle": 0,
+      "path": "working-d00.png",
+      "sha256": "718b629845383a711f20fd3822f94f6d5ac0ff8a9eb9ecab42b10de6bda7745c"
+    },
+    {
+      "state": "working",
+      "angle": 90,
+      "path": "working-d01.png",
+      "sha256": "6eed78c475240cc7d789c3ebfd35a67dde54a678aff8a5f9f2ab9d84b218897c"
+    },
+    {
+      "state": "working",
+      "angle": 180,
+      "path": "working-d02.png",
+      "sha256": "d67f9f4b0904055b93b5695a2d9db7d9f5cc79d77e71b3bcaecffc2cb005191a"
+    },
+    {
+      "state": "working",
+      "angle": 270,
+      "path": "working-d03.png",
+      "sha256": "7e71edd1b25dff39c3e71a9a7a926e02c146162d2c12e03dcce0f937999f3a1c"
+    }
+  ]
+}

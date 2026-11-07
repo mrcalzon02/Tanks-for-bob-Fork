@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "evidence": [
+    "source-reference-three-panel.png",
+    "v1-four-direction-proof.png"
+  ],
+  "source_dimensions": [
+    64,
+    64
+  ],
+  "game_visible_crop": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "working_sprite_dimensions": [
+    64,
+    64
+  ],
+  "render_count": 8,
+  "source_png_hashes": {
+    "base": "0cba469a58ab5e61026b8eb76da19ff5a53fa1444a503fffe28b7b4710c99825",
+    "working": "81f4f6f12af580634c9d4dd8eb3e2a57dc18d109f7fec5d6af72649a613457d8"
+  },
+  "review_hashes": {
+    "v1-four-direction-proof.png": "79ec2eb724fd0678d338f20d779f52536e0a6f835687521cfa4b6b3e58c2bbb0",
+    "source-reference-three-panel.png": "30b51cf9fe604f2e778dde11c12ffd330a1ecb56ba729c410b181381758a61cc"
+  }
+}
