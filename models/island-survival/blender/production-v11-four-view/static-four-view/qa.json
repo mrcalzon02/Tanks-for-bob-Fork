@@ -1,0 +1,144 @@
+{
+  "passed": true,
+  "capture_count": 4,
+  "atlas_count": 2,
+  "checks": [
+    "source master hash",
+    "frame order and hashes",
+    "RGBA and dimensions",
+    "nonempty transparent canvas",
+    "visible clipping",
+    "unique animation cells",
+    "atlas cell roundtrip",
+    "GIF frame count"
+  ],
+  "art_accepted": false,
+  "manual_review": [
+    "stone appearance",
+    "lighting calibration",
+    "native-size readability",
+    "animation loop seam"
+  ],
+  "sheets": [
+    {
+      "path": "idle-64.png",
+      "sha256": "3b2016f4687c7e534279d4517f6e851be10aa890cfbba74ffad872a2cbc33e52",
+      "state": "idle",
+      "cell_size": 64,
+      "frame_count": 1,
+      "columns": 1,
+      "direction_count": 4,
+      "rows_per_direction": 1,
+      "dimensions": [
+        64,
+        256
+      ],
+      "cells": [
+        {
+          "direction": 0,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            0,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 1,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            64,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 2,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            128,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 3,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            192,
+            64,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "idle-128.png",
+      "sha256": "dacfbaf636e3447d95e289e0a639abb4f9020896d8da61149b990c5dd187dd58",
+      "state": "idle",
+      "cell_size": 128,
+      "frame_count": 1,
+      "columns": 1,
+      "direction_count": 4,
+      "rows_per_direction": 1,
+      "dimensions": [
+        128,
+        512
+      ],
+      "cells": [
+        {
+          "direction": 0,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 1,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 2,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            256,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 3,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            384,
+            128,
+            128
+          ]
+        }
+      ]
+    }
+  ]
+}

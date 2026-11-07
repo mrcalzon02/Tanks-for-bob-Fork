@@ -1,0 +1,651 @@
+{
+  "schema": 1,
+  "source_sha256": "2716a2c2bcceb4c52298f3b8ed04995642f9fbac1db985fde778cc8850fda1b5",
+  "source_file": "campfire-v9-animated.blend",
+  "blender": "4.0.2",
+  "config": {
+    "schema": 1,
+    "asset": "campfire",
+    "source": "../../../models/island-survival/blender/generated-v9/campfire-v9-animated.blend",
+    "adapter": "campfire-matte-stones",
+    "source_size": 128,
+    "sizes": [
+      64,
+      128
+    ],
+    "samples": 24,
+    "seed": 5855,
+    "columns": 8,
+    "fps": 8,
+    "directions": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "pivot": [
+      0,
+      0,
+      0
+    ],
+    "exclude_rotation": [
+      "Ground | shadow catcher"
+    ],
+    "hide_render": [
+      "Ground | shadow catcher"
+    ],
+    "animated_lights": [
+      "04 | animated fire light"
+    ],
+    "states": {
+      "idle": [
+        0
+      ]
+    }
+  },
+  "camera": {
+    "name": "Factorio render camera",
+    "matrix_world": [
+      [
+        0.8201269507408142,
+        -0.3067632019519806,
+        0.4829990863800049,
+        3.0
+      ],
+      [
+        0.5721815824508667,
+        0.4396938979625702,
+        -0.6922987103462219,
+        -4.300000190734863
+      ],
+      [
+        1.6274427139251202e-08,
+        0.8441359996795654,
+        0.5361290574073792,
+        3.700000047683716
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 2.6500000953674316,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      128,
+      128
+    ]
+  },
+  "daylight": [
+    {
+      "name": "01 | NW warm key | broad source",
+      "type": "AREA",
+      "energy": 550.0,
+      "color": [
+        1.0,
+        0.9100000262260437,
+        0.7699999809265137
+      ],
+      "matrix_world": [
+        [
+          0.8045740723609924,
+          0.4379461407661438,
+          -0.40107816457748413,
+          -3.0999999046325684
+        ],
+        [
+          -0.5938522815704346,
+          0.5933464169502258,
+          -0.5433962941169739,
+          -4.199999809265137
+        ],
+        [
+          -1.1994124804459716e-08,
+          0.6753837466239929,
+          0.7374664545059204,
+          6.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "02 | SE cool fill | restrained",
+      "type": "AREA",
+      "energy": 180.0,
+      "color": [
+        0.699999988079071,
+        0.8299999833106995,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          0.25449317693710327,
+          -0.6722847819328308,
+          0.6951736807823181,
+          3.799999952316284
+        ],
+        [
+          0.9670745730400085,
+          0.17691682279109955,
+          -0.18294045329093933,
+          -1.0
+        ],
+        [
+          1.647251934855376e-07,
+          0.7188418507575989,
+          0.6951736211776733,
+          4.099999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "03 | rear edge light",
+      "type": "AREA",
+      "energy": 270.0,
+      "color": [
+        1.0,
+        0.9100000262260437,
+        0.7900000214576721
+      ],
+      "matrix_world": [
+        [
+          -0.9539936780929565,
+          -0.19708167016506195,
+          0.22595323622226715,
+          1.100000023841858
+        ],
+        [
+          0.2998266816139221,
+          -0.6270776987075806,
+          0.7189419269561768,
+          3.5
+        ],
+        [
+          -4.7549516324352226e-08,
+          0.7536128759384155,
+          0.6573184728622437,
+          3.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "world": {
+    "name": "World",
+    "color_management": {
+      "view_transform": "AgX",
+      "look": "None",
+      "exposure": 0.0,
+      "gamma": 1.0
+    }
+  },
+  "material_changes": [
+    {
+      "material": "CF8 | stone 01 | stone_01",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 02 | stone_02",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 03 | stone_03",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 04 | stone_04",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 05 | stone_05",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 06 | stone_06",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 07 | stone_07",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 08 | stone_08",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 09 | stone_09",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 10 | stone_10",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 11 | stone_11",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 12 | stone_12",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 13 | stone_13",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 14 | stone_14",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 15 | stone_15",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    }
+  ],
+  "mesh_count": 72,
+  "master_sha256": "703abac07c7836f79ea1d9f5bdd682a148534f4d32c6a3b1c4289f9b584a0dd0",
+  "frames": [
+    {
+      "state": "idle",
+      "direction": 0,
+      "angle": 0,
+      "index": 0,
+      "timeline_frame": 0,
+      "path": "frames/idle/d00/f000.png",
+      "sha256": "977c01d98890188202628cac2a75e35655dc5f9145d39106e99645d4342c9dee"
+    },
+    {
+      "state": "idle",
+      "direction": 1,
+      "angle": 90,
+      "index": 0,
+      "timeline_frame": 0,
+      "path": "frames/idle/d01/f000.png",
+      "sha256": "44cbb190b9bcc5d61fa56584a4455f6f1ee0e5de3ca78bf3109eeec5e2456f22"
+    },
+    {
+      "state": "idle",
+      "direction": 2,
+      "angle": 180,
+      "index": 0,
+      "timeline_frame": 0,
+      "path": "frames/idle/d02/f000.png",
+      "sha256": "4afde3e831d235e9e456037d2adcfdf12acf882e180bc62c1d6c7822bb5746d7"
+    },
+    {
+      "state": "idle",
+      "direction": 3,
+      "angle": 270,
+      "index": 0,
+      "timeline_frame": 0,
+      "path": "frames/idle/d03/f000.png",
+      "sha256": "5b8cc814013c26f68eb2c2632493d9779ef8f7cead7bb1a1540b8607b683b1b7"
+    }
+  ],
+  "art_accepted": false,
+  "engine_integration": "outside Blender-only scope"
+}
