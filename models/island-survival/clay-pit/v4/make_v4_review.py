@@ -38,7 +38,7 @@ def main():
         stills=[captures['working',d*90,i] for i in range(16)]
         if len({hashlib.sha256(s.tobytes()).hexdigest() for s in stills})<13:
             raise ValueError(f'Animation not distinct in direction {d}')
-        if not ImageChops.difference(stills[0],stills[8]).getbbox():
+        if not ImageChops.difference(stills[0].convert('RGB'),stills[8].convert('RGB')).getbbox():
             raise ValueError('Pendulum motion not visible')
         framed=[]
         for still in stills:
@@ -54,7 +54,7 @@ def main():
     if len({digest(out/f'idle-d{i:02d}.png') for i in range(4)})!=4:
         raise ValueError('Cardinal model rotations did not differ')
     old=Image.open(opts.previous).convert('RGBA')
-    if old.size!=(256,256) or not ImageChops.difference(old,captures['idle',0,0]).getbbox():
+    if old.size!=(256,256) or not ImageChops.difference(old.convert('RGB'),captures['idle',0,0].convert('RGB')).getbbox():
         raise ValueError('Wet-clay material unchanged since V3')
     source=Image.open(opts.mod/'graphics/entity/clay-pit.png').convert('RGBA').crop((0,0,64,64))
     source.save(out/'source-idle-64.png')
