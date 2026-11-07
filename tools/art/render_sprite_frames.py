@@ -157,7 +157,12 @@ def main():
             for index, frame in enumerate(frames):
                 scene.frame_set(frame)
                 bpy.context.view_layer.update()
-                if camera_record(scene) != camera or daylight_record(scene, cfg.get('animated_lights', [])) != daylight:
+                # The first Cycles render may finish evaluating an edited camera's
+                # depsgraph matrix. Compare against the actual rendered camera thereafter.
+                if records and (camera_record(scene) != camera or
+                                daylight_record(scene, cfg.get('animated_lights', [])) != daylight):
+                    print('CAMERA_REFERENCE', json.dumps(camera), flush=True)
+                    print('CAMERA_CHANGED', json.dumps(camera_record(scene)), flush=True)
                     raise ValueError('Camera or daylight changed during capture')
                 relative = f'frames/{state}/d{direction:02d}/f{index:03d}.png'
                 target = out / relative
@@ -165,6 +170,9 @@ def main():
                 scene.render.filepath = str(target)
                 print(f'CAPTURE {state} direction={angle} frame={frame}', flush=True)
                 bpy.ops.render.render(write_still=True)
+                if not records:
+                    camera = camera_record(scene)
+                    daylight = daylight_record(scene, cfg.get('animated_lights', []))
                 records.append({'state': state, 'direction': direction, 'angle': angle,
                                 'index': index, 'timeline_frame': frame, 'path': relative,
                                 'sha256': digest(target)})
