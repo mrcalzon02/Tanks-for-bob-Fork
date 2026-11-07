@@ -1,0 +1,85 @@
+{
+  "schema": 2,
+  "asset": "clay-pit",
+  "revision": "v2b-continuous-wet-bank",
+  "primary_excavations": 1,
+  "number_of_meshes": 55,
+  "props": {
+    "lantern": "wood frame, wax paper, perched at the support pole tip",
+    "rope": "vertical fiber cord from short lifting arm down into pit",
+    "bucket": "open wooden staves with separately modeled water surface",
+    "shovel": "primitive carved spade resting across left basin lip"
+  },
+  "materials": "procedural ochre/damp-clay/dark-wet clay and crude tools",
+  "four_directions": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "camera_pitch_deg": 45,
+  "camera_ortho_scale": 3.3,
+  "blender": "4.0.2",
+  "captures": [
+    {
+      "state": "idle",
+      "angle": 0,
+      "frame": 0,
+      "path": "idle-d00.png",
+      "sha256": "0d5f91deed94f5803eca31995ece73890a955aba5a3c2f8a5a951536f51bad2f"
+    },
+    {
+      "state": "idle",
+      "angle": 90,
+      "frame": 0,
+      "path": "idle-d01.png",
+      "sha256": "5bcf49471e6059e209e3303ebad2169d1922c1403dd3a93d520a29706947f9ec"
+    },
+    {
+      "state": "idle",
+      "angle": 180,
+      "frame": 0,
+      "path": "idle-d02.png",
+      "sha256": "b6ea9006a4e4f2526b51684031430cb083c32535e586c12189bb345798998ebe"
+    },
+    {
+      "state": "idle",
+      "angle": 270,
+      "frame": 0,
+      "path": "idle-d03.png",
+      "sha256": "8f19d5e02ee091fbc39c6967b06ed2f8b508960e361a39675c3e59f3de3b7118"
+    },
+    {
+      "state": "working",
+      "angle": 0,
+      "frame": 13,
+      "path": "working-d00.png",
+      "sha256": "8681c46b7a2f54f6082b8f1a55decda4ba1bb9eb6c28cef15e15651eb8f484a0"
+    },
+    {
+      "state": "working",
+      "angle": 90,
+      "frame": 13,
+      "path": "working-d01.png",
+      "sha256": "1f182c438bf6882907b146e9e5fb08473a9cd1d02fa2d37f2d22d2e38a411823"
+    },
+    {
+      "state": "working",
+      "angle": 180,
+      "frame": 13,
+      "path": "working-d02.png",
+      "sha256": "c40dd8f72180423bdb7acaf3329d894f49571db474cf627fbb164b0463d2fdd4"
+    },
+    {
+      "state": "working",
+      "angle": 270,
+      "frame": 13,
+      "path": "working-d03.png",
+      "sha256": "4bd8e8fc2a431772f369c46f1e17aff9c412f38744ed207c11d41a4f265a89eb"
+    }
+  ],
+  "source_original_unchanged": true,
+  "production_ready": false,
+  "user_visual_approval": false,
+  "factorio_client_tested": false
+}

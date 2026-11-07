@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "render_count": 8,
+  "visible_pits": 1,
+  "four_cardinal_directions": true,
+  "working_state_visually_distinct": true,
+  "visual_art_accepted": false,
+  "engine_tested": false,
+  "source_png_hashes": {
+    "idle": "0cba469a58ab5e61026b8eb76da19ff5a53fa1444a503fffe28b7b4710c99825",
+    "working": "81f4f6f12af580634c9d4dd8eb3e2a57dc18d109f7fec5d6af72649a613457d8"
+  },
+  "sheet_hashes": {
+    "v2-four-direction-proof.png": "9a38385c6d38e11bfba0910d22d5489a41dedefba82622d88d4430e77dd3e91d",
+    "v2-original-vs-model-64.png": "46785629ca647fc7fae8320abdfb818368877fae0151be04e6f368914f49f32c"
+  }
+}
