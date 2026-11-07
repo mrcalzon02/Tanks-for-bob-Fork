@@ -1,0 +1,71 @@
+name: Clay pit source-aligned Blender greybox
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/clay-pit/*.py'
+      - '.github/workflows/clay-pit-greybox.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+concurrency:
+  group: clay-pit-geometry-v1
+  cancel-in-progress: false
+
+jobs:
+  build-and-prove:
+    name: Native editable Blender blockout and four-view proof
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install rendering and imaging tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          blender --version | head -3
+          python3 -m py_compile models/island-survival/clay-pit/*.py
+      - name: Build actual Blender earthwork mesh, save .blend, render eight proofs
+        run: |
+          blender -b -t 4 --python-exit-code 1 \
+            --python models/island-survival/clay-pit/build_clay_pit_v1.py -- \
+            --out /tmp/clay-pit-model-v1 --samples 28
+      - name: Source sprite comparison and fail-closed QA
+        run: |
+          /usr/bin/python3 models/island-survival/clay-pit/make_clay_pit_review.py \
+            --out /tmp/clay-pit-model-v1 --mod tanks_for_bob_fork_1.8.95
+          /usr/bin/python3 - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path('/tmp/clay-pit-model-v1')
+          r=json.loads((p/'build-report.json').read_text())
+          qa=json.loads((p/'review-qa.json').read_text())
+          assert qa['passed'] and qa['render_count']==8
+          assert r['reference_primary_pit_count']==1 and r['camera_elevation_deg']==45
+          assert r['model_meshes']>=8
+          assert (p/'clay-pit-greybox-v1.blend').stat().st_size>10000
+          print('REAL_BLENDER_CLAY_PIT_GREYBOX_PASS',r['model_meshes'],'mesh objects')
+          PY
+      - name: Upload actual model and proof even if later Git operation fails
+        uses: actions/upload-artifact@v4
+        with:
+          name: clay-pit-v1-native-blender-greybox
+          path: /tmp/clay-pit-model-v1/
+          if-no-files-found: error
+      - name: Preserve versioned approved-for-review candidate on main
+        run: |
+          mkdir -p models/island-survival/clay-pit/generated-v1
+          cp -a /tmp/clay-pit-model-v1/. models/island-survival/clay-pit/generated-v1/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/clay-pit/generated-v1/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(clay-pit): publish native editable one-basin V1 greybox and four-view proof'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
