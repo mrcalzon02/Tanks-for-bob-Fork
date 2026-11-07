@@ -1,0 +1,61 @@
+name: Campfire V12 | Factorio 2.0 load validation (no deployment)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/campfire-v12-headless-smoke.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-mod-load:
+    name: Factorio 2.0.77 data stage and runtime smoke
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Confirm replacement actually wired into the mod
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          m=Path('tanks_for_bob_fork_1.8.95')
+          lua=(m/'prototypes/entity/entities.lua').read_text()
+          assert 'campfire-v12-burning.png' in lua and 'campfire-v12-idle.png' in lua
+          assert 'north = {' in lua and 'east = {' in lua and 'south = {' in lua and 'west = {' in lua
+          for p in ('graphics/entity/campfire-v12-burning.png',
+                    'graphics/entity/campfire-v12-idle.png',
+                    'graphics/icons/campfire-v12.png'):
+              assert (m/p).is_file(), p
+          print('CAMPFIRE_V12_ASSET_WIRING_PASS')
+          PY
+      - name: Download official pinned Factorio headless binary
+        shell: bash
+        run: |
+          set -euo pipefail
+          dir="$RUNNER_TEMP/factorio/2.0.77"
+          mkdir -p "$dir"
+          curl --fail --location --retry 3 \
+            --output "$dir/factorio.tar.xz" \
+            "https://factorio.com/get-download/2.0.77/headless/linux64"
+          tar -xJf "$dir/factorio.tar.xz" -C "$dir"
+          "$dir/factorio/bin/x64/factorio" --version | tee /tmp/factorio-v12-version.txt
+          grep -Fq "2.0.77" /tmp/factorio-v12-version.txt
+      - name: Run official mod-loading, benchmark and private-server checks
+        run: |
+          python3 ci/run_official_suite.py \
+            --binary-20 "$RUNNER_TEMP/factorio/2.0.77/factorio/bin/x64/factorio" \
+            --work "$RUNNER_TEMP/campfire-v12-suite" \
+            --output /tmp/campfire-v12-engine-evidence
+          cat /tmp/campfire-v12-engine-evidence/suite-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Preserve Factorio diagnostic logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: campfire-v12-factorio-2.0.77-headless-smoke
+          path: |
+            /tmp/campfire-v12-engine-evidence/
+            /tmp/factorio-v12-version.txt
+          if-no-files-found: warn
