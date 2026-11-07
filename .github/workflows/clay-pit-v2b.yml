@@ -1,0 +1,79 @@
+name: Clay pit V2b | continuous wet-earth shading for source-aligned model
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/clay-pit/v2b/*.py'
+      - '.github/workflows/clay-pit-v2b.yml'
+      - 'docs/art/CLAY_PIT_V2B_MATERIAL_FIX.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clay-pit-v2b-render
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install native Blender and image dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          blender --version | head -4
+          python3 -m py_compile models/island-survival/clay-pit/v2b/*.py
+      - name: Build V2b native model and eight real Blender captures
+        run: |
+          blender -b -t 4 --python-exit-code 1 \
+            --python models/island-survival/clay-pit/v2b/build_clay_pit_v2b.py -- \
+            --out /tmp/clay-pit-model-v2b --samples 28
+      - name: Verify source comparison, alpha and four rotations
+        run: |
+          /usr/bin/python3 models/island-survival/clay-pit/v2/make_v2_review.py \
+            --out /tmp/clay-pit-model-v2b --mod tanks_for_bob_fork_1.8.95 \
+            --v1 models/island-survival/clay-pit/generated-v1/working-d00.png
+          /usr/bin/python3 - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path('/tmp/clay-pit-model-v2b')
+          report=json.loads((p/'build-report.json').read_text())
+          qa=json.loads((p/'review-qa.json').read_text())
+          assert qa['passed'] and qa['render_count']==8
+          assert report['primary_excavations']==1
+          assert report['number_of_meshes'] >= 25
+          assert all(k in report['props'] for k in ('lantern','rope','bucket','shovel'))
+          assert (p/'clay-pit-v2b.blend').stat().st_size > 25000
+          print('CLAY_V2B_NATIVE_RENDER_AND_FOUR_WAY_PASS')
+          PY
+      - name: Reopen the actual V2b Blender file independently
+        run: |
+          blender -b -t 4 /tmp/clay-pit-model-v2b/clay-pit-v2b.blend \
+            --python-exit-code 1 --python-expr \
+            "import bpy; names={o.name for o in bpy.data.objects}; assert any('wax paper lantern body' in s for s in names); assert any('OPEN WOODEN WATER BUCKET' in s for s in names); assert any('primitive shovel blade' in s for s in names); assert bpy.context.scene.camera.data.type == 'ORTHO'; print('CLAY_V2B_REOPEN_VERIFIED')"
+      - name: Publish actual model/render proof as CI artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: clay-pit-v2b-native-blender-and-render-proof
+          path: /tmp/clay-pit-model-v2b/
+          if-no-files-found: error
+      - name: Commit versioned V2b model and visual evidence to main
+        run: |
+          mkdir -p models/island-survival/clay-pit/generated-v2b
+          cp -a /tmp/clay-pit-model-v2b/. models/island-survival/clay-pit/generated-v2b/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/clay-pit/generated-v2b/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(clay-pit): publish V2b smoothly blended wet-bank shader and four-view proof'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
