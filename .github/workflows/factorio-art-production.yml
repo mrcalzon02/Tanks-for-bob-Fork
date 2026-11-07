@@ -53,8 +53,8 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           if [ "${{ github.event_name }}" = push ]; then
-            /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE" \
-              --from-capture models/island-survival/blender/production-v12-structure-45
+            # Full Blender capture regression, not only a cached atlas repack.
+            /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           elif [ "$PUBLISH" = true ]; then
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE" --publish
           else

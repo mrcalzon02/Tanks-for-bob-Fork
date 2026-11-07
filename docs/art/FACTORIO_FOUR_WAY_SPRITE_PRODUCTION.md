@@ -22,7 +22,7 @@ python3 tools/art/produce_factorio_asset.py \
   --from-capture models/island-survival/blender/production-v12-structure-45
 ```
 
-**GitHub Actions:** `.github/workflows/factorio-art-production.yml` has a manual Run workflow entry for the same command. Its default push-triggered check uses the verified V12 capture for a fast packaging smoke test, while a manual Run workflow performs a fresh Blender render. The optional manual `publish` input installs/commits the versioned graphics. The job uploads QA and review files to Actions artifacts in all cases.
+**GitHub Actions:** `.github/workflows/factorio-art-production.yml` has a manual Run workflow entry for the same command. Its push-triggered regression now performs the full fresh Blender render, while a manual Run workflow performs the same end-to-end command using a selectable job. A verified previous capture can still be repackaged locally using `--from-capture`. The optional manual `publish` input installs/commits the versioned graphics. The job uploads QA and review files to Actions artifacts in all cases.
 
 ## New-model setup, once per asset
 
