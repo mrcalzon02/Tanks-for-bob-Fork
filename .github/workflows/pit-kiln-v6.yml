@@ -1,0 +1,85 @@
+name: Pit Kiln V6 | final inward-sliding pitched wooden brick tray
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/pit-kiln/v6/*.py'
+      - '.github/workflows/pit-kiln-v6.yml'
+      - 'docs/art/PIT_KILN_V6_FINAL_MOTION.md'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pit-kiln-v6-render-and-atlas
+  cancel-in-progress: false
+jobs:
+  render-package:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Blender and Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          python3 -m py_compile models/island-survival/pit-kiln/v6/*.py
+      - name: Rewrite existing shared V5 tray motion to inward translation and pitch; render 68 frames
+        run: |
+          blender -b -t 4 models/island-survival/pit-kiln/generated-v5/pit-kiln-v5-whole-tray.blend \
+            --python-exit-code 1 --python models/island-survival/pit-kiln/v6/build_pit_kiln_v6.py -- \
+            --out /tmp/pit-kiln-v6 --samples 28
+      - name: Verify actual inward motion, no yaw, RGBA frames and 4 looping GIFs
+        run: |
+          /usr/bin/python3 models/island-survival/pit-kiln/v6/verify_pit_kiln_v6.py \
+            --out /tmp/pit-kiln-v6 --previous models/island-survival/pit-kiln/generated-v5
+      - name: Reopen Blender; check shared tray action and original campfire
+        run: |
+          blender -b -t 4 /tmp/pit-kiln-v6/pit-kiln-v6-inward-pitch.blend --python-exit-code 1 \
+            --python-expr "import bpy; s=bpy.context.scene; r=bpy.data.objects['V6 | INWARD LATERAL and DOWNWARD PITCH | whole board + four bricks']; b=bpy.data.objects['V2 | rough support plank for unfired bricks']; bricks=[o for o in s.objects if o.name.startswith('V2 | WET BRICK on slab')]; fire=[o for o in s.objects if o.name.startswith('flame_tongue')]; cr=[o for o in s.objects if o.name.startswith('V4 | original flame crackle')]; assert len(bricks)==4 and len(fire)==len(cr)==6; assert b.parent==r and all(o.parent==r and o.animation_data is None for o in bricks); assert all(o.animation_data and o.animation_data.action for o in fire+cr); assert 'rotation_quaternion' in {fc.data_path for fc in r.animation_data.action.fcurves}; s.frame_set(49); assert abs(r.rotation_quaternion.z)<.0001; s.frame_set(1); p=r.location.copy(); s.frame_set(49); assert (r.location-p).length>.12; print('PIT_KILN_V6_RIG_INWARD_SLIDE_DOWN_PITCH_NO_YAW_VERIFIED')"
+      - name: Pack final verified Factorio four-direction animation atlases
+        run: |
+          /usr/bin/python3 models/island-survival/pit-kiln/v6/pack_v6_factorio_atlases.py \
+            --source /tmp/pit-kiln-v6 --out /tmp/pit-kiln-v6-production
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('/tmp/pit-kiln-v6')
+          q=json.loads((p/'review-qa.json').read_text())
+          r=json.loads((p/'build-report.json').read_text())
+          prod=json.loads((Path('/tmp/pit-kiln-v6-production')/'production-qa.json').read_text())
+          assert q['passed'] and q['frames']==68 and prod['passed']
+          assert r['per_brick_actions_remaining']==0 and r['rocking_brick_count']==4
+          assert len(list(p.glob('burning-d*-preview.gif')))==4
+          assert len(list(Path('/tmp/pit-kiln-v6-production').glob('pit-kiln-v6-*.png')))==7
+          print('V6_ALL_FRAMES_ATLASES_AND_SHARED_TRAY_PASSED')
+          PY
+      - name: Preserve rendered evidence even if a later publication fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pit-kiln-v6-final-inward-slide-pitch-and-atlases
+          path: |
+            /tmp/pit-kiln-v6/
+            /tmp/pit-kiln-v6-production/
+          if-no-files-found: warn
+      - name: Publish immutable V6 Blender and Factorio sprite assets on main
+        run: |
+          set -eu
+          if test -e models/island-survival/pit-kiln/generated-v6/build-report.json; then
+            echo 'Generated V6 already exists; no replacement or overwrite allowed'
+            exit 0
+          fi
+          mkdir -p models/island-survival/pit-kiln/generated-v6 models/island-survival/pit-kiln/production-v6
+          cp -a /tmp/pit-kiln-v6/. models/island-survival/pit-kiln/generated-v6/
+          cp -a /tmp/pit-kiln-v6-production/. models/island-survival/pit-kiln/production-v6/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/pit-kiln/generated-v6/ models/island-survival/pit-kiln/production-v6/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(pit-kiln): publish final V6 inward-pitched whole-tray animation and atlases'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
