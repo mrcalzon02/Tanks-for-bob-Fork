@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Source-guided Clay Pit V1 native Blender blockout.
 
-Reference is graphics/entity/clay-pit.png: 120x64 stored, first 64x64
+Reference uses current 64x64 clay-pit.png; older packaged variant is 120x64, first 64x64
 used by prototype. Working overlay adds separate primitive implements.
 All geometry is physically authored, editable and reusable; no image planes.
 Does not edit gameplay prototypes or existing sprites.
@@ -259,7 +259,7 @@ def main():
     # Restore the canonical editable authoring state; no source graphics altered.
     pivot.rotation_euler.z=0
     scene.frame_set(0)
-    report={'schema':1,'asset':'clay-pit','revision':'greybox-v1','actual_source_dimensions':[120,64],
+    report={'schema':1,'asset':'clay-pit','revision':'greybox-v1','reference_variants':[[64,64],[120,64]],
        'active_crop_dimensions':[64,64],'reference_primary_pit_count':1,
        'source_unused_basin_variants':2,'blender_version':bpy.app.version_string,
        'camera_elevation_deg':45,'camera_azimuth_deg':0,'ortho_scale':3.30,

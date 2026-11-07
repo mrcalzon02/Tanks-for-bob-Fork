@@ -4,7 +4,7 @@ Status: **V1 BLOCKOUT / NOT APPROVED ART / NOT INSTALLED**. Authoritative visual
 
 ## Source-of-truth finding — critical
 
-- `tanks_for_bob_fork_1.8.95/graphics/entity/clay-pit.png` is **120 × 64**, not 64 × 64. It physically contains one dominant large bowl at the left and two smaller bowl drawings toward the right. The entity's `graphics_set.animation` reads only **one 64 × 64 frame**, with `line_length=1`, at `(0, 0)`. Only the **dominant left-hand basin** is rendered in the current game. The other two designs are *not additional in-game excavations*: they lie outside the image crop selected by the prototype. Retain them as an optional reusable small-basin **kit library**, not as part of the primary entity.
+- The current main-branch `tanks_for_bob_fork_1.8.95/graphics/entity/clay-pit.png` is **64 × 64**. The previously packaged 2.1 build `tanks_for_bob_fork_1.8.96.zip` has a **120 × 64** variant with one dominant basin at the left and two extra smaller bowl drawings to the right. In either case, the entity's `graphics_set.animation` reads **one 64 × 64 frame**, with `line_length=1`, at `(0, 0)`. Only **one dominant basin** is visible in the current game. The two extras in the archived file fall outside the active sprite crop and should be reusable optional variants, not new visible pits.
 - `graphics/entity/clay-pit-w.png` is **64 × 64**, one-frame active overlay. It draws several slim straight implements *over* the primary bowl. Treat their identity as interpretive where pixels cannot resolve it. The overlay appears to show a left-hand spade/scoop, a central upright marked with a yellow tip, a small suspended scoop or weight, and diagonal/crossbar sticks to the right. Preserve their relative arrangement, not imagined moving gears.
 - Visible alpha bounds in the prototype crop: base approximately `(0,0,62,62)`, working overlay `(0,2,62,56)` in top-left-origin pixel coordinates. The current base already fills most of its 64px canvas.
 - Current graphics: idle base plus active overlay. Future modernized sprites should instead use complete idle/active states **as alternatives** (not full-object duplicate overlays), following the accepted campfire four-way pipeline.
@@ -38,7 +38,7 @@ These are approximate visual reading zones, deliberately not purported pixel-per
 - Inner lip and depression: layered rings reduce from outer radius to center; rim peaks near Z=0.15, dark wet center near Z=-0.215. Surface is shallow and concave (not a deep quarry).
 - Rough wooden poles: lengths and positions approximate the separate overlay, muted matte wood, not polished metal. The original active layer is one static frame; V1 may introduce slight deliberate paddle movement for the full-state animation pipeline, subject to user review.
 - No specular sparkle: dry clay roughness ~0.98 and damp center roughness ~0.83; treat the dark center as wet by **color and slope**, not glossy mirror reflection.
-- Two small bowl designs in the full source 120px graphic are **future geometry variants**. Their positions outside the game crop must never be treated as three pits visible simultaneously.
+- The archived 120px source contains two unused small bowl drawings suitable for **future geometry variants**; current main source is cropped to 64px. Neither reference justifies depicting three simultaneous pits in this asset.
 
 ## Execution and proof
 

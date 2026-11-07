@@ -18,7 +18,7 @@ def main():
     out=a.out.resolve(); mod=a.mod.resolve()
     base=Image.open(mod/'graphics/entity/clay-pit.png').convert('RGBA')
     work=Image.open(mod/'graphics/entity/clay-pit-w.png').convert('RGBA')
-    if base.size!=(120,64) or work.size!=(64,64):
+    if base.size not in ((64,64),(120,64)) or work.size!=(64,64):
         raise ValueError('Unexpected mod sprite dimensions; revisit exact source analysis')
     gamebase=base.crop((0,0,64,64))
     fill=Image.new('RGBA',(64,64),(53,55,58,255))
