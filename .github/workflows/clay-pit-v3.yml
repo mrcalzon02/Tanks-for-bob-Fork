@@ -1,0 +1,82 @@
+name: Clay pit V3 | continuous wet-earth shading for source-aligned model
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/clay-pit/v3/*.py'
+      - '.github/workflows/clay-pit-v3.yml'
+      - 'docs/art/CLAY_PIT_V2B_MATERIAL_FIX.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clay-pit-v3-render
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install native Blender and image dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          blender --version | head -4
+          python3 -m py_compile models/island-survival/clay-pit/v3/*.py
+      - name: Build V3 native model and eight real Blender captures
+        run: |
+          blender -b -t 4 --python-exit-code 1 \
+            --python models/island-survival/clay-pit/v3/build_clay_pit_v3.py -- \
+            --out /tmp/clay-pit-model-v3 --samples 28
+      - name: Verify source comparison, alpha and four rotations
+        run: |
+          /usr/bin/python3 models/island-survival/clay-pit/v2/make_v2_review.py \
+            --out /tmp/clay-pit-model-v3 --mod tanks_for_bob_fork_1.8.95 \
+            --v1 models/island-survival/clay-pit/generated-v2b/working-d00.png
+          /usr/bin/python3 - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path('/tmp/clay-pit-model-v3')
+          report=json.loads((p/'build-report.json').read_text())
+          qa=json.loads((p/'review-qa.json').read_text())
+          assert qa['passed'] and qa['render_count']==8
+          assert report['primary_excavations']==1
+          assert report['number_of_meshes'] >= 40
+          assert all(k in report['props'] for k in ('lantern','rope','bucket','shovel'))
+          assert (p/'clay-pit-v3.blend').stat().st_size > 25000
+          print('CLAY_V2B_NATIVE_RENDER_AND_FOUR_WAY_PASS')
+          PY
+      - name: Reopen the actual V3 Blender file independently
+        run: |
+          blender -b -t 4 /tmp/clay-pit-model-v3/clay-pit-v3.blend \
+            --python-exit-code 1 --python-expr \
+            "import bpy; names={o.name for o in bpy.data.objects}; assert any('wax paper lantern body' in s for s in names); assert any('OPEN WOODEN WATER BUCKET' in s for s in names); assert any('primitive shovel blade' in s for s in names); assert bpy.context.scene.camera.data.type == 'ORTHO'; print('CLAY_V2B_REOPEN_VERIFIED')"
+      - name: Verify V3 basin is a single continuous material
+        run: |
+          blender -b -t 4 /tmp/clay-pit-model-v3/clay-pit-v3.blend --python-exit-code 1 --python-expr "import bpy; b=next(o for o in bpy.context.scene.objects if 'one broad excavated clay bowl' in o.name); assert len(b.data.materials)==1; assert all(p.material_index==0 for p in b.data.polygons); assert b.data.materials[0].name.startswith('V3 |'); print('V3_SINGLE_MATERIAL_VERIFIED')"
+      - name: Publish actual model/render proof as CI artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: clay-pit-v3-native-blender-and-render-proof
+          path: /tmp/clay-pit-model-v3/
+          if-no-files-found: error
+      - name: Commit versioned V3 model and visual evidence to main
+        run: |
+          mkdir -p models/island-survival/clay-pit/generated-v3
+          cp -a /tmp/clay-pit-model-v3/. models/island-survival/clay-pit/generated-v3/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/clay-pit/generated-v3/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(clay-pit): publish V3 smoothly blended wet-bank shader and four-view proof'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
