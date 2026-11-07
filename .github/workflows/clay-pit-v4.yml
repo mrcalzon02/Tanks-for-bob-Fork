@@ -1,0 +1,83 @@
+name: Clay Pit V4 | animated primitive earthwork
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/clay-pit/v4/*.py'
+      - '.github/workflows/clay-pit-v4.yml'
+      - 'docs/art/CLAY_PIT_V4_ANIMATION_PRODUCTION.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clay-pit-v4
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Blender and Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          python3 -m py_compile models/island-survival/clay-pit/v4/*.py
+      - name: Render four idle and sixty-four animated Blender frames
+        run: |
+          blender -b -t 4 models/island-survival/clay-pit/generated-v3/clay-pit-v3.blend \
+            --python-exit-code 1 \
+            --python models/island-survival/clay-pit/v4/build_clay_pit_v4.py -- \
+            --out /tmp/clay-pit-v4 --samples 20
+      - name: Independently verify all frame captures and create four GIFs
+        run: |
+          /usr/bin/python3 models/island-survival/clay-pit/v4/make_v4_review.py \
+            --out /tmp/clay-pit-v4 \
+            --mod tanks_for_bob_fork_1.8.95 \
+            --previous models/island-survival/clay-pit/generated-v3/idle-d00.png
+      - name: Reopen and inspect saved native Blender animation and light
+        run: |
+          blender -b -t 4 /tmp/clay-pit-v4/clay-pit-v4.blend \
+            --python-exit-code 1 --python-expr \
+            "import bpy; p=bpy.data.objects['ANIMATION | bucket and rope pendulum pivot']; r=bpy.data.objects['WORK | rope hanging down from hoist arm']; l=bpy.data.objects['WORK | softly flickering lantern light']; b=next(o for o in bpy.context.scene.objects if o.name.startswith('WORK | OPEN WOODEN WATER BUCKET')); assert r.parent==p and b.parent==p; assert p.animation_data and l.data.animation_data; s=bpy.context.scene; s.frame_set(1); x=p.rotation_euler.y; e=l.data.energy; s.frame_set(49); assert x<-.08 and p.rotation_euler.y>.08; s.frame_set(97); assert abs(p.rotation_euler.y-x)<.0001 and abs(l.data.energy-e)<.001; print('CLAY_PIT_V4_ANIMATION_AND_LANTERN_REOPEN_PASS')"
+      - name: Confirm all genuine renders exist
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('/tmp/clay-pit-v4')
+          report=json.loads((p/'build-report.json').read_text())
+          qa=json.loads((p/'review-qa.json').read_text())
+          assert qa['passed'] and qa['capture_count']==68
+          assert report['swing_degrees']==[-6,6] and len(report['flicker'])==16
+          assert report['actual_frame_count']==68 and report['visual_accepted'] is False
+          assert (p/'clay-pit-v4.blend').stat().st_size>10000
+          assert all((p/f'working-d{d:02d}-preview.gif').is_file() for d in range(4))
+          print('CLAY_PIT_V4_OUTPUT_VERIFIED')
+          PY
+      - name: Publish actual render proof and editable scene
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: clay-pit-v4-native-blender-animated
+          path: /tmp/clay-pit-v4/
+          if-no-files-found: warn
+      - name: Commit versioned Blender model and proofs without modifying the mod
+        run: |
+          mkdir -p models/island-survival/clay-pit/generated-v4
+          cp -a /tmp/clay-pit-v4/. models/island-survival/clay-pit/generated-v4/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/clay-pit/generated-v4/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(clay-pit): publish V4 dark wet basin and swinging lantern bucket'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
