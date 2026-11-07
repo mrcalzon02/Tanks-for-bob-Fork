@@ -1,0 +1,65 @@
+name: Approved campfire | Factorio 2.1 production package
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/art/build_accepted_campfire_21.py'
+      - '.github/workflows/campfire-approved-21.yml'
+      - 'docs/art/CAMPFIRE_ACCEPTED_21.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: campfire-accepted-21
+  cancel-in-progress: false
+
+jobs:
+  verified-factorio-21:
+    name: Package approved campfire and load full mod in Factorio 2.1
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build versioned 2.1 package from existing approved graphics
+        run: |
+          python3 tools/art/build_accepted_campfire_21.py --output /tmp/tanks-campfire-21
+      - name: Fetch pinned official Factorio 2.1 headless binary
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/engine"
+          curl --fail --location --retry 3 --output "$RUNNER_TEMP/engine/factorio.tar.xz" \
+            "https://factorio.com/get-download/2.1.23/headless/linux64"
+          tar -xJf "$RUNNER_TEMP/engine/factorio.tar.xz" -C "$RUNNER_TEMP/engine"
+          "$RUNNER_TEMP/engine/factorio/bin/x64/factorio" --version | tee /tmp/tanks-campfire-21/engine-version.txt
+          grep -Fq "2.1.23" /tmp/tanks-campfire-21/engine-version.txt
+      - name: Official Factorio 2.1 data-stage and runtime smoke
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/mods"
+          cp /tmp/tanks-campfire-21/tanks_for_bob_fork_1.8.96.zip "$RUNNER_TEMP/mods/"
+          python3 - <<'PY'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['RUNNER_TEMP'])/'mods'/'mod-list.json'
+          p.write_text(json.dumps({"mods":[{"name":"base","enabled":True},
+               {"name":"tanks_for_bob_fork","enabled":True}]})+"\n")
+          PY
+          engine="$RUNNER_TEMP/engine/factorio/bin/x64/factorio"
+          "$engine" --mod-directory "$RUNNER_TEMP/mods" --create "$RUNNER_TEMP/campfire-21-world.zip" --map-gen-seed 20261106 \
+            2>&1 | tee /tmp/tanks-campfire-21/engine-create.log
+          grep -Eiq 'Loading mod tanks_for_bob_fork' /tmp/tanks-campfire-21/engine-create.log
+          "$engine" --mod-directory "$RUNNER_TEMP/mods" \
+            --benchmark "$RUNNER_TEMP/campfire-21-world.zip" --benchmark-ticks 300 \
+            2>&1 | tee /tmp/tanks-campfire-21/engine-benchmark.log
+          echo 'FACTORIO_21_ENGINE_SMOKE_PASS'
+      - name: Preserve installable package and diagnostic evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tanks-for-bob-1.8.96-factorio-2.1-accepted-campfire
+          path: /tmp/tanks-campfire-21/
+          if-no-files-found: warn
+          retention-days: 30
