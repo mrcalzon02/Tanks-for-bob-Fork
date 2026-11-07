@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "real_source_frames": 68,
+  "original_campfire_actions": 6,
+  "animated_staged_bricks": 4,
+  "nonmoving_bank_bricks": 10,
+  "original_flames_plus_crackle_controls": 6,
+  "emitted_embers": 2,
+  "crackle_pixel_changes": {
+    "0": 669,
+    "90": 384,
+    "180": 671,
+    "270": 493
+  },
+  "four_animated_gifs": 4,
+  "art_accepted": false,
+  "prototype_modified": false
+}
