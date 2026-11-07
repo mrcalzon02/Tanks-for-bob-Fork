@@ -23,23 +23,29 @@ def main():
     if not root or not basin or len(basin.data.materials)!=1:
         raise ValueError('V3 model and one continuous basin material required')
     m=basin.data.materials[0]
-    if not m.name.startswith('V3 | seamlessly graded clay'):
-        raise ValueError('Unrecognized V3 material; refusing to change unrelated model')
-    ramps=[n for n in m.node_tree.nodes if n.type=='VALTORGB']
-    def ramp_at(x,y):
-        candidates=sorted(ramps,key=lambda n:(n.location.x-x)**2+(n.location.y-y)**2)
-        if not candidates or abs(candidates[0].location.x-x)>12 or abs(candidates[0].location.y-y)>12:
-            raise ValueError('V3 moisture/color ramp missing')
-        return candidates[0].color_ramp
-    saturated=ramp_at(30,-200)
-    wetness=ramp_at(-140,195)
-    for pos,color in ((.03,(.045,.020,.012,1)),(.50,(.095,.043,.025,1)),(.95,(.195,.097,.052,1))):
-        el=min(saturated.elements,key=lambda e:abs(e.position-pos))
-        if abs(el.position-pos)>.02: raise ValueError('Unexpected V3 saturated ramp')
+    if not m.name.startswith('V3 | single feathered clay field'):
+        raise ValueError('Unrecognized saved V3 material; refusing unrelated changes')
+    # The saved production V3 scene uses UNPOSITIONED color-ramp nodes.
+    # Identify ramps by their exact authored control points, never editor XY.
+    ramps=[n.color_ramp for n in m.node_tree.nodes if n.type=='VALTORGB']
+    wetness=next((r for r in ramps if
+                  len(r.elements)==5 and
+                  any(abs(e.position-.23)<.01 for e in r.elements) and
+                  any(abs(e.position-.43)<.01 for e in r.elements) and
+                  any(abs(e.position-.59)<.01 for e in r.elements)),None)
+    damp=next((r for r in ramps if len(r.elements)==3 and
+               any(abs(e.position-.5)<.01 and abs(e.color[0]-.13)<.02
+                   for e in r.elements)),None)
+    if not damp or not wetness:
+        raise ValueError('Saved V3 saturated-clay control ramps could not be verified')
+    for pos,color in ((0,(.048,.021,.012,1)),(.5,(.092,.041,.023,1)),
+                      (1,(.185,.095,.050,1))):
+        el=min(damp.elements,key=lambda e:abs(e.position-pos))
+        if abs(el.position-pos)>.02: raise ValueError('Unexpected V3 dark-mud palette')
         el.color=color
-    for pos,value in ((.22,.97),(.39,.84),(.56,.34)):
+    for pos,value in ((.23,.96),(.43,.76),(.59,.27)):
         el=min(wetness.elements,key=lambda e:abs(e.position-pos))
-        if abs(el.position-pos)>.02: raise ValueError('Unexpected V3 moisture ramp')
+        if abs(el.position-pos)>.02: raise ValueError('Unexpected V3 moisture gradient')
         el.color=(value,value,value,1)
     m.name='V4 | feathered banks and deeper wet clay'
     rope=bpy.data.objects.get('WORK | rope hanging down from hoist arm')
