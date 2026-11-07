@@ -59,7 +59,7 @@ def main():
     # spinning around Z. Yaw remains identically zero in the local rig.
     tangent=Vector((-toward.y,toward.x,0))
     rig.animation_data_clear()
-    rig.name="V6 | INWARD LATERAL and DOWNWARD PITCH | whole board + four bricks"
+    rig.name="V6 | tray inward slide + downward pitch"
     rig.rotation_mode="QUATERNION"
     rig.rotation_quaternion=Quaternion((1,0,0,0))
     base=rig.location.copy()
