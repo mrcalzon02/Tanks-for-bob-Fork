@@ -18,7 +18,11 @@ bg=(26,29,34)
 tile=(45,48,54)
 def paste_obj(canvas,img,x,y,size=210):
     image=Image.open(img).convert('RGBA')
-    image.thumbnail((size,size),Image.Resampling.LANCZOS)
+    # Compare at equal sprite canvas size. The original game asset is only
+    # 64px; enlarge it with nearest-neighbor instead of leaving it tiny.
+    original_px = max(image.size) <= 64
+    image = image.resize((size, size),
+                         Image.Resampling.NEAREST if original_px else Image.Resampling.LANCZOS)
     rect=Image.new('RGBA',(size,size),(47,49,52,255))
     rect.alpha_composite(image,((size-image.width)//2,(size-image.height)//2))
     canvas.paste(rect.convert('RGB'),(x,y))
@@ -60,12 +64,17 @@ make([
      ('OLD V11 ~32.4°',out/'previous_32_d000.png'),
      ('PROPOSED 45°',out/'factorio_45_d000.png')]
 ], 'campfire-before-after.png', 'CAMPFIRE | in-game reference and candidate structure angle')
+make([
+    [('ORIGINAL 64px',original),
+     ('V11 ORIGINAL CAMERA',out/'previous_32_d000.png'),
+     ('45-DEGREE STRUCTURE TEST',out/'factorio_45_d000.png')]
+], 'campfire-equal-scale.png', 'EQUAL SIZE | original vs V11 camera vs 45-degree camera')
 for rec in manifest['captures']:
     p=out/rec['image']
     with Image.open(p) as image:
         if image.mode != 'RGBA' or image.size != (256,256):
             raise SystemExit(f'Invalid Blender capture: {p}')
-for p in ['calibration-pitches.png','calibration-four-directions.png','campfire-before-after.png']:
+for p in ['calibration-pitches.png','calibration-four-directions.png','campfire-before-after.png','campfire-equal-scale.png']:
     if not (out/p).is_file():
         raise SystemExit(f'Missing comparison: {p}')
 print('CALIBRATION_COMPARISON_PASSED; 12 captured views; 3 contact sheets')
