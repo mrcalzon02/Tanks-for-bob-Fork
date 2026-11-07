@@ -1,0 +1,79 @@
+name: Steam Lumberyard V2b | readable piston linkage and drive belt
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/lumberyard/v2b/*.py'
+      - '.github/workflows/lumberyard-v2b.yml'
+      - 'docs/art/LUMBERYARD_V2B_VISIBLE_POWER_TRANSMISSION.md'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: steam-lumberyard-v2b
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Blender and Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          python3 -m py_compile models/island-survival/lumberyard/v2b/*.py
+      - name: Build V2b native steam engine mechanical refinement
+        run: |
+          blender -b -t 4 models/island-survival/lumberyard/generated-v2/steam-lumberyard-v2.blend \
+            --python-exit-code 1 \
+            --python models/island-survival/lumberyard/v2b/refine_steam_lumberyard_v2b.py -- \
+            --out /tmp/lumberyard-v2b --samples 28
+      - name: Verify all four directions with unchanged real log splitting cycle
+        run: |
+          /usr/bin/python3 models/island-survival/lumberyard/v2/verify_steam_lumberyard_v2.py \
+            --out /tmp/lumberyard-v2b
+      - name: Reopen native Blender source and verify physical moving piston
+        run: |
+          blender -b -t 4 /tmp/lumberyard-v2b/steam-lumberyard-v2b.blend \
+            --python-exit-code 1 \
+            --python-expr "import bpy; s=bpy.context.scene; n={o.name for o in s.objects}; assert 'V2b | ACTUAL reciprocating steam piston slider' in n and 'V2b | keyframed steam-engine connecting rod' in n; p=bpy.data.objects['V2b | ACTUAL reciprocating steam piston slider']; c=bpy.data.objects['V2b | keyframed steam-engine connecting rod']; assert all(o.animation_data and o.animation_data.action for o in (p,c)); assert all(len({int(k.co.x) for f in o.animation_data.action.fcurves for k in f.keyframe_points})==17 for o in (p,c)); s.frame_set(1); first=p.location.y; s.frame_set(5); assert abs(p.location.y-first)>.03; assert 'DRIVE | one continuous oiled leather belt' in n; assert bpy.data.objects['DRIVE | one continuous oiled leather belt'].data.bevel_depth>.029; print('VISIBLE_STEAM_PISTON_BELT_SAW_REOPEN_PASS')"
+      - name: Ensure actual V2b frame count and preview proof
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('/tmp/lumberyard-v2b')
+          x=json.loads((p/'build-report.json').read_text())
+          y=json.loads((p/'review-qa.json').read_text())
+          assert y['passed'] and x['source_frames']==68
+          assert x['piston_animation_keys']==17 and x['connecting_rod_animation_keys']==17
+          assert len(list(p.glob('working-d*-preview.gif')))==4
+          print('STEAM_LUMBERYARD_V2B_GEOMETRY_RENDER_AND_MOTION_PASS')
+          PY
+      - name: Preserve visual proof
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: steam-lumberyard-v2b-moving-piston-belt-saw
+          path: /tmp/lumberyard-v2b/
+          if-no-files-found: warn
+      - name: Commit final V2b native model and all render proofs
+        run: |
+          if test -f models/island-survival/lumberyard/generated-v2b/build-report.json; then
+            echo 'V2b already published; preserve previous complete run'
+            exit 0
+          fi
+          mkdir -p models/island-survival/lumberyard/generated-v2b
+          cp -a /tmp/lumberyard-v2b/. models/island-survival/lumberyard/generated-v2b/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/lumberyard/generated-v2b/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(lumberyard): publish V2b piston-drive and visible belt sawmill proof'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
