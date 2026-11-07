@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_sha256": "14f19a533ebefbd5640e91a5e71f0e15e41a0bca8a809ea6b50e9aff81c1db05",
+  "source_sha256": "1361df06e6585846f0ac23f8edc41476cd3c3b84cc0b9f51a0d6d15d5fc32aa3",
   "source_file": "campfire-v9-animated.blend",
   "blender": "4.0.2",
   "config": {
@@ -607,7 +607,7 @@
     }
   ],
   "mesh_count": 72,
-  "master_sha256": "7f8f1e53cb8e5248126c731869de9e09ee03fc5b830927ff41237f262b3c256d",
+  "master_sha256": "9d84b858df4ab36df9d3cea15d88f3e2f57fbda9c20cc383a3086af2067b5e60",
   "frames": [
     {
       "state": "idle",
@@ -616,7 +616,7 @@
       "index": 0,
       "timeline_frame": 0,
       "path": "frames/idle/d00/f000.png",
-      "sha256": "4ece0694b05aa230636bc238d772a4c246db47cee43126532e2fbe85bd2fc29d"
+      "sha256": "e8bd1595bd99e08692cec10ad2d50fe7c04086705d43770fc649d7f52408b2be"
     },
     {
       "state": "idle",
@@ -625,7 +625,7 @@
       "index": 0,
       "timeline_frame": 0,
       "path": "frames/idle/d01/f000.png",
-      "sha256": "4f188e3be2f7a050cee5ec76c80863cce324763e6a13a85c4433f40dd076d247"
+      "sha256": "d1167f5cc0c1a012f0b0ff5dfc66fcefb19215e322d97de99282a604d872196d"
     },
     {
       "state": "idle",
@@ -634,7 +634,7 @@
       "index": 0,
       "timeline_frame": 0,
       "path": "frames/idle/d02/f000.png",
-      "sha256": "ff13f2dcd61a78fc6b9c67a64b2d2151a6dccbe561946540551c6974feb12e6d"
+      "sha256": "4bf4e07b616333b1ca797d350defdc863517c2c526c21342cdde97229c93c774"
     },
     {
       "state": "idle",
@@ -643,7 +643,7 @@
       "index": 0,
       "timeline_frame": 0,
       "path": "frames/idle/d03/f000.png",
-      "sha256": "5b76ed0f4a4ce41f25d474c6085c981188dd9fd4a8fba52df861d5bc386ba789"
+      "sha256": "45866581975ab6b142d996834c409d88bb5899223fd0b8f26f051f7dc2f736a1"
     }
   ],
   "art_accepted": false,
