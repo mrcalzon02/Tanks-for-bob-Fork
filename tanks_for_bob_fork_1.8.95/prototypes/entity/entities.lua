@@ -2611,7 +2611,7 @@ data:extend(
     type = "assembling-machine",
     icon_size = 64,
     name = "campfire",
-    icon = "__tanks_for_bob_fork__/graphics/icons/campfire.png",
+    icon = "__tanks_for_bob_fork__/graphics/icons/campfire-v12.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "campfire"},
     max_health = 100,
@@ -2641,35 +2641,27 @@ data:extend(
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    graphics_set =
-    {
+    -- V12: complete 45-degree, 4-way render states; no duplicate overlaid base.
+    graphics_set = {
       animation = {
-          filename = "__tanks_for_bob_fork__/graphics/entity/campfire.png",
-          priority = "high",
-          width = 64,
-          height = 64,
-          frame_count = 1,
-          line_length = 1,
-          shift = {0.00, -0.00}
+        north = { filename = "__tanks_for_bob_fork__/graphics/entity/campfire-v12-burning.png", priority = "high", width = 128, height = 128, x = 0, y = 0, frame_count = 16, line_length = 8, animation_speed = 8/60, scale = 0.5, shift = {0, 0} },
+        east = { filename = "__tanks_for_bob_fork__/graphics/entity/campfire-v12-burning.png", priority = "high", width = 128, height = 128, x = 0, y = 256, frame_count = 16, line_length = 8, animation_speed = 8/60, scale = 0.5, shift = {0, 0} },
+        south = { filename = "__tanks_for_bob_fork__/graphics/entity/campfire-v12-burning.png", priority = "high", width = 128, height = 128, x = 0, y = 512, frame_count = 16, line_length = 8, animation_speed = 8/60, scale = 0.5, shift = {0, 0} },
+        west = { filename = "__tanks_for_bob_fork__/graphics/entity/campfire-v12-burning.png", priority = "high", width = 128, height = 128, x = 0, y = 768, frame_count = 16, line_length = 8, animation_speed = 8/60, scale = 0.5, shift = {0, 0} }
       },
-      working_visualisations = {
-          {
-              animation = {
-                  filename = "__tanks_for_bob_fork__/graphics/entity/campfire-w.png",
-                  priority = "high",
-                  width = 64,
-                  height = 64,
-                  frame_count = 2,
-                  line_length = 2,
-                  shift = {0.00, -0.00}
-              },
-              light = {intensity = 0.4, size = 6}
-          }
-      }
+      idle_animation = {
+        north = { filename = "__tanks_for_bob_fork__/graphics/entity/campfire-v12-idle.png", priority = "high", width = 128, height = 128, x = 0, y = 0, frame_count = 16, line_length = 8, animation_speed = 8/60, scale = 0.5, shift = {0, 0} },
+        east = { filename = "__tanks_for_bob_fork__/graphics/entity/campfire-v12-idle.png", priority = "high", width = 128, height = 128, x = 0, y = 256, frame_count = 16, line_length = 8, animation_speed = 8/60, scale = 0.5, shift = {0, 0} },
+        south = { filename = "__tanks_for_bob_fork__/graphics/entity/campfire-v12-idle.png", priority = "high", width = 128, height = 128, x = 0, y = 512, frame_count = 16, line_length = 8, animation_speed = 8/60, scale = 0.5, shift = {0, 0} },
+        west = { filename = "__tanks_for_bob_fork__/graphics/entity/campfire-v12-idle.png", priority = "high", width = 128, height = 128, x = 0, y = 768, frame_count = 16, line_length = 8, animation_speed = 8/60, scale = 0.5, shift = {0, 0} }
+      },
+      always_draw_idle_animation = false,
+      working_visualisations = {{light = {intensity = 0.4, size = 6}}}
     },
 
     crafting_categories = {"cooking"},
     crafting_speed = 0.30,
+    match_animation_speed_to_activity = false,
     energy_source = {
         type = "burner",
         fuel_categories = {"chemical"},

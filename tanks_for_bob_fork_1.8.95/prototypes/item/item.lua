@@ -5,7 +5,7 @@ data:extend(
   {
         type = "item",
         name = "campfire",
-        icon = "__tanks_for_bob_fork__/graphics/icons/campfire.png",
+        icon = "__tanks_for_bob_fork__/graphics/icons/campfire-v12.png",
         icon_size = 64,
         subgroup = "production-machine",
         order = "a[campfire]",

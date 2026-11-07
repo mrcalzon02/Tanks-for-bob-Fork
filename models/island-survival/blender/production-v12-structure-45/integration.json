@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "runtime_tested": false,
+  "replacement": true,
+  "camera": {
+    "elevation_deg": 45,
+    "azimuth_deg": 0,
+    "distance": 6,
+    "target": [
+      0,
+      0,
+      0.37
+    ],
+    "ortho_scale": 2.2
+  },
+  "directions": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "states": {
+    "idle": 4,
+    "burning": 64
+  },
+  "frame_count": 16,
+  "direction_count": 4,
+  "atlas_columns": 8,
+  "atlas_rows": 8,
+  "source_sha256": "d7d4c75b0aec0c2417f990c9ff35b0aa9cdf014563e535e9ab32ac5eca2da3db",
+  "original_sprites_unchanged": {
+    "campfire.png": "af6835c36cdced028806cfc7c43bf8a82e53a8dcd6a23caaf3e2da09b6653af6",
+    "campfire-w.png": "efd757b339aab5e32450fe387964ca952304bf44443d668dc734402d73be1752"
+  },
+  "assets": {
+    "campfire-v12-idle-64.png": {
+      "sha256": "18a9b444a173fdb39ffa52d22d574b2b77f27f15acef76b6b5002c232341c8eb",
+      "size": [
+        512,
+        512
+      ],
+      "cell_size": 64
+    },
+    "campfire-v12-burning-64.png": {
+      "sha256": "80ec5f3fff9536bf5207718e776982f517c76d30db8b994055e1847a907b9650",
+      "size": [
+        512,
+        512
+      ],
+      "cell_size": 64
+    },
+    "campfire-v12-idle.png": {
+      "sha256": "bfe7d05754a0f7a3918ce40eeb20be42f48da0510091dc88ee2aae3fcb907719",
+      "size": [
+        1024,
+        1024
+      ],
+      "cell_size": 128
+    },
+    "campfire-v12-burning.png": {
+      "sha256": "3e8235f2035319a16e0f928d972173565f68f08811bbeb646d9943d1ac3cca0f",
+      "size": [
+        1024,
+        1024
+      ],
+      "cell_size": 128
+    },
+    "campfire-v12.png": {
+      "sha256": "197f6285c1334ea6225579f3e2e7829136869e0283f56f70fb4ca23cf8b1ac3e",
+      "size": [
+        64,
+        64
+      ],
+      "cell_size": 64
+    }
+  },
+  "prototype_paths": [
+    "tanks_for_bob_fork_1.8.95/prototypes/entity/entities.lua",
+    "tanks_for_bob_fork_1.8.95/prototypes/item/item.lua"
+  ],
+  "outstanding": "Actual Factorio client launch and visual review not exercised by this packer"
+}
