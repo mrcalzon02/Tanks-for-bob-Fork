@@ -1,0 +1,69 @@
+name: Factorio reusable four-way art production
+
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: Repository-relative job JSON
+        required: true
+        type: string
+        default: tools/art/jobs/campfire-next.json
+      publish:
+        description: Install sprites into mod, commit and push to main
+        required: true
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - 'tools/art/produce_factorio_asset.py'
+      - 'tools/art/test_produce_factorio_asset.py'
+      - 'tools/art/jobs/campfire-next.json'
+      - '.github/workflows/factorio-art-production.yml'
+
+permissions:
+  contents: write
+concurrency:
+  group: factorio-reusable-art-production
+  cancel-in-progress: false
+
+jobs:
+  four-way-export:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Blender and image tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          blender --version | head -3
+      - name: Run all export regression tests
+        run: |
+          /usr/bin/python3 -m unittest discover -s tools/art -p 'test_*.py' -v
+      - name: Execute reusable pipeline (full render on manual run)
+        env:
+          JOB_FILE: ${{ github.event_name == 'workflow_dispatch' && inputs.job || 'tools/art/jobs/campfire-next.json' }}
+          PUBLISH: ${{ github.event_name == 'workflow_dispatch' && inputs.publish || false }}
+        run: |
+          set -eu
+          case "$JOB_FILE" in tools/art/jobs/*) ;; *) echo 'Unsafe job path'; exit 1;; esac
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if [ "${{ github.event_name }}" = push ]; then
+            /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE" \
+              --from-capture models/island-survival/blender/production-v12-structure-45
+          elif [ "$PUBLISH" = true ]; then
+            /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE" --publish
+          else
+            /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
+          fi
+      - name: Retain review and Blender evidence even after failed render
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: factorio-four-way-production-evidence
+          path: models/sprite-production/
+          if-no-files-found: warn
