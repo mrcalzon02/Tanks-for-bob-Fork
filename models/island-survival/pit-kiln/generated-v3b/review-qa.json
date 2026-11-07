@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "actual_frames": 68,
+  "campfire_flames_imported": 6,
+  "old_kiln_flames_removed": 8,
+  "active_frames_per_direction": 16,
+  "real_source_actions": {
+    "flame_tongue_01": "CF7 | flame movement.001",
+    "flame_tongue_02": "CF7 | flame movement.002",
+    "flame_tongue_03": "CF7 | flame movement.003",
+    "flame_tongue_04": "CF7 | flame movement.004",
+    "flame_tongue_05": "CF7 | flame movement.005",
+    "flame_tongue_06": "CF7 | flame movement"
+  },
+  "art_approved": false,
+  "game_installed": false
+}
