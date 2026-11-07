@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "frame_count": 68,
+  "directions": 4,
+  "animation_frames_per_direction": 16,
+  "source_graphics_unchanged": true,
+  "gifs": [
+    "burning-d00-preview.gif",
+    "burning-d01-preview.gif",
+    "burning-d02-preview.gif",
+    "burning-d03-preview.gif"
+  ],
+  "visual_approved": false,
+  "factorio_client_tested": false
+}
