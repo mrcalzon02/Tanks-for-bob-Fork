@@ -1,0 +1,80 @@
+name: Primitive Lumberyard V1 | real Blender source reconstruction
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/lumberyard/v1/*.py'
+      - '.github/workflows/lumberyard-v1.yml'
+      - 'docs/art/LUMBERYARD_V1_BUILD_SHEET.md'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: primitive-lumberyard-v1
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install native Blender and Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          python3 -m py_compile models/island-survival/lumberyard/v1/*.py
+      - name: Build editable lumberyard from actual meshes; render all directions
+        run: |
+          blender -b -t 4 --python-exit-code 1 \
+            --python models/island-survival/lumberyard/v1/build_lumberyard_v1.py -- \
+            --out /tmp/lumberyard-v1 --samples 20
+      - name: Check 68 native images and prepare four working GIFs
+        run: |
+          /usr/bin/python3 models/island-survival/lumberyard/v1/verify_lumberyard_v1.py \
+            --out /tmp/lumberyard-v1
+      - name: Reopen saved editable native Blender and inspect actual geometry/actions
+        run: |
+          blender -b -t 4 /tmp/lumberyard-v1/primitive-lumberyard-v1.blend \
+            --python-exit-code 1 \
+            --python-expr "import bpy; s=bpy.context.scene; names={o.name for o in s.objects}; assert sum(n.startswith('INPUT | intact full log') for n in names)>=5; assert sum(n.startswith('OUTPUT | split D-face half log') for n in names)>=5; assert 'PROCESSOR | REAL lengthwise splitting wedge' in names; assert 'ANIMATION | entire lifting splitter head' in names; assert sum(n.startswith('WORK |') for n in names)>=3; head=bpy.data.objects['ANIMATION | entire lifting splitter head']; assert head.animation_data and head.animation_data.action; assert s.camera.data.type=='ORTHO' and abs(s.camera.data.ortho_scale-5.35)<.001; print('LUMBERYARD_NATIVE_GEOMETRY_AND_ACTIONS_REOPEN_PASS')"
+      - name: Verify actual source and preview results
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('/tmp/lumberyard-v1')
+          report=json.loads((p/'build-report.json').read_text())
+          qa=json.loads((p/'review-qa.json').read_text())
+          assert qa['passed'] and qa['capture_count']==68
+          assert report['geometry']['raw_full_logs']==6
+          assert report['geometry']['output_true_split_halves']==6
+          assert len(list(p.glob('working-d*-preview.gif')))==4
+          assert (p/'primitive-lumberyard-v1.blend').stat().st_size>40000
+          print('LUMBERYARD_V1_COMPLETE_PASS')
+          PY
+      - name: Preserve model and all proof even if later steps fail
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lumberyard-v1-real-blender-source-and-four-direction-proof
+          path: /tmp/lumberyard-v1/
+          if-no-files-found: warn
+      - name: Commit editable V1 and all 68 rendered PNGs to main
+        run: |
+          if test -e models/island-survival/lumberyard/generated-v1/build-report.json; then
+            echo 'V1 already published; never overwrite immutable source render evidence'
+            exit 0
+          fi
+          mkdir -p models/island-survival/lumberyard/generated-v1
+          cp -a /tmp/lumberyard-v1/. models/island-survival/lumberyard/generated-v1/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/lumberyard/generated-v1/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(lumberyard): publish editable primitive log processor and four-view animation'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
