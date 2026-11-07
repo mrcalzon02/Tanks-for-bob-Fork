@@ -42,7 +42,10 @@ def main():
                 raise ValueError(f'Clipping or empty Blender render: {state} {d} {bbox}')
             captures[(state,d)]=tile
     for d in range(4):
-        if not ImageChops.difference(captures[('idle',d)],captures[('working',d)]).getbbox():
+        # RGBA.getbbox() defaults to checking alpha only in modern Pillow.
+        # The tools modify opaque pixels inside the pit, without altering alpha.
+        diff = ImageChops.difference(captures[('idle',d)],captures[('working',d)])
+        if not any(channel.getbbox() for channel in diff.split()):
             raise ValueError(f'Idle/working state not visually distinct: {d}')
     for state in ('idle','working'):
         if len({digest(out/f'{state}-d{d:02d}.png') for d in range(4)})!=4:
