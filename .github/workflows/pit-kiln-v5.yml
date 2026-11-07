@@ -1,0 +1,76 @@
+name: Pit Kiln V5 | whole tray and brick pile rocking together
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/pit-kiln/v5/*.py'
+      - '.github/workflows/pit-kiln-v5.yml'
+      - 'docs/art/PIT_KILN_V5_WHOLE_TRAY.md'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pit-kiln-v5-render
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Blender and Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          python3 -m py_compile models/island-survival/pit-kiln/v5/*.py
+      - name: Build V5 from approved native V4 and render all four orientations
+        run: |
+          blender -b -t 4 models/island-survival/pit-kiln/generated-v4/pit-kiln-v4-animated.blend \
+            --python-exit-code 1 \
+            --python models/island-survival/pit-kiln/v5/build_pit_kiln_v5.py -- \
+            --out /tmp/pit-kiln-v5 --samples 28
+      - name: Check actual renders, motion and animated previews
+        run: |
+          /usr/bin/python3 models/island-survival/pit-kiln/v5/verify_pit_kiln_v5.py \
+            --out /tmp/pit-kiln-v5 --previous models/island-survival/pit-kiln/generated-v4
+      - name: Reopen Blender and verify one tray controller, not four independent brick animations
+        run: |
+          blender -b -t 4 /tmp/pit-kiln-v5/pit-kiln-v5-whole-tray.blend --python-exit-code 1 \
+            --python-expr "import bpy; s=bpy.context.scene; r=bpy.data.objects['V5 | WHOLE TRAY wobble (wood plank + all four bricks)']; b=bpy.data.objects['V2 | rough support plank for unfired bricks']; a=[o for o in s.objects if o.name.startswith('V2 | WET BRICK on slab')]; f=[o for o in s.objects if o.name.startswith('flame_tongue')]; c=[o for o in s.objects if o.name.startswith('V4 | original flame crackle')]; bank=[o for o in s.objects if o.name.startswith('V2 | firing-bank WET BRICK')]; assert len(a)==4 and len(bank)==10 and len(f)==len(c)==6; assert b.parent==r and all(o.parent==r and o.animation_data is None for o in a); assert r.animation_data and r.animation_data.action; assert len({int(k.co.x) for fc in r.animation_data.action.fcurves for k in fc.keyframe_points})==17; assert all(o.animation_data and o.animation_data.action for o in f+c); print('V5_ONE_SHARED_TRAY_AND_ORIGINAL_CAMPFIRE_REOPEN_PASS')"
+      - name: Verify production proof is complete
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('/tmp/pit-kiln-v5')
+          q=json.loads((p/'review-qa.json').read_text())
+          r=json.loads((p/'build-report.json').read_text())
+          assert q['passed'] and q['frames']==68
+          assert q['entire_tray_children']==5 and q['independent_brick_keys']==0
+          assert min(x['tray_corner_motion_px_256'] for x in r['tray_pixel_motion'].values())>=3.5
+          assert len(list(p.glob('burning-d*-preview.gif')))==4
+          assert (p/'pit-kiln-v5-whole-tray.blend').stat().st_size>25000
+          print('PIT_KILN_V5_RELEASE_PROOF_PASSED')
+          PY
+      - name: Retain all native Blender and animation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pit-kiln-v5-whole-tray-wobble-evidence
+          path: /tmp/pit-kiln-v5/
+          if-no-files-found: warn
+      - name: Publish versioned native Blender master and complete animation proof
+        run: |
+          mkdir -p models/island-survival/pit-kiln/generated-v5
+          cp -a /tmp/pit-kiln-v5/. models/island-survival/pit-kiln/generated-v5/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/pit-kiln/generated-v5/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(pit-kiln): publish V5 whole-board brick wobble and preserved campfire crackle'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
