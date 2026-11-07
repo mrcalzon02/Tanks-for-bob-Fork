@@ -170,7 +170,7 @@ def main():
         raise ValueError("Unexpected item icon layout")
     item = item[:campfire_at]+item[campfire_at:].replace(old_icon,new_icon,1)
     entity_at=revised.index('    --campfire')
-    next_entity=revised.index('    -- tank-assembly',entity_at)
+    next_entity=revised.index('-- tank-assembly',entity_at)
     segment=revised[entity_at:next_entity]
     if segment.count(old_icon)!=1:
         raise ValueError("Unexpected entity icon layout")
