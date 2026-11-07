@@ -1,0 +1,78 @@
+name: Steam Lumberyard V2 | Franklin boiler, belt drive and saw
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/lumberyard/v2/*.py'
+      - '.github/workflows/lumberyard-v2.yml'
+      - 'docs/art/LUMBERYARD_V2_STEAM_SAW.md'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: steam-lumberyard-v2
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install native Blender and Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          python3 -m py_compile models/island-survival/lumberyard/v2/*.py
+      - name: Build complete steam-driven sawmill native Blender and 68 source renders
+        run: |
+          blender -b -t 4 --python-exit-code 1 \
+            --python models/island-survival/lumberyard/v2/build_steam_lumberyard_v2.py -- \
+            --out /tmp/lumberyard-v2 --samples 24
+      - name: Verify real log feeding, ejection, rotation, and preview GIFs
+        run: |
+          /usr/bin/python3 models/island-survival/lumberyard/v2/verify_steam_lumberyard_v2.py \
+            --out /tmp/lumberyard-v2
+      - name: Reopen Blender to verify full visible machinery and keyed motions
+        run: |
+          blender -b -t 4 /tmp/lumberyard-v2/steam-lumberyard-v2.blend --python-exit-code 1 \
+            --python-expr "import bpy; s=bpy.context.scene; names={x.name for x in s.objects}; assert sum(n.startswith('INPUT | full bark log') for n in names)==6; assert sum(n.startswith('OUTPUT | true flat-face longitudinal half-log') for n in names)==6; assert 'BOILER | solid enclosed Franklin firebox' in names; assert 'BOILER | horizontal copper pressure vessel' in names; assert 'ENGINE | exposed brass steam cylinder' in names; assert 'DRIVE | one continuous oiled leather belt' in names; assert 'SAW | primitive 20-tooth circular steel saw' in names; assert 'WORK | whole log feeding through turning saw' in names; assert all(x.animation_data and x.animation_data.action for x in (bpy.data.objects['ANIM | driven steam flywheel'],bpy.data.objects['ANIM | receiving pulley and saw spindle'],bpy.data.objects['ANIM | keyed toothed saw rotation'])); assert s.camera.data.type=='ORTHO'; print('STEAM_LUMBERYARD_V2_NATIVE_BOILER_BELT_SAW_AND_ACTIONS_REOPEN_PASS')"
+      - name: Check source count and original model was not incorrectly promoted
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('/tmp/lumberyard-v2')
+          report=json.loads((p/'build-report.json').read_text())
+          qa=json.loads((p/'review-qa.json').read_text())
+          assert qa['passed'] and qa['source_frames']==68
+          assert report['states']=={'idle':1,'working':16}
+          assert len(list(p.glob('working-d*-preview.gif')))==4
+          assert (p/'steam-lumberyard-v2.blend').stat().st_size>40000
+          print('STEAM_LUMBERYARD_V2_CAPTURE_VERIFIED')
+          PY
+      - name: Preserve model and evidence even if a later step fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: steam-lumberyard-v2-real-boiler-belt-saw-proof
+          path: /tmp/lumberyard-v2/
+          if-no-files-found: warn
+      - name: Commit source Blender and actual image renders to main
+        run: |
+          if test -f models/island-survival/lumberyard/generated-v2/build-report.json; then
+            echo 'V2 already published; protect immutable source captures'
+            exit 0
+          fi
+          mkdir -p models/island-survival/lumberyard/generated-v2
+          cp -a /tmp/lumberyard-v2/. models/island-survival/lumberyard/generated-v2/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/lumberyard/generated-v2/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(lumberyard): publish steam-fired belt-driven sawmill with split-log animations'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
