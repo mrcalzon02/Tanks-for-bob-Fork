@@ -1,0 +1,404 @@
+{
+  "schema": 1,
+  "passed": true,
+  "approved": false,
+  "input_blend": "campfire-v9-animated.blend",
+  "input_sha256": "d7d4c75b0aec0c2417f990c9ff35b0aa9cdf014563e535e9ab32ac5eca2da3db",
+  "blender": "4.0.2",
+  "pitch_reference": "Wube FFF #133: 45-degree dimetric projection",
+  "original_camera_approx_elevation_deg": 32.4,
+  "model_root_count": 71,
+  "stone_material_count": 15,
+  "candidate_count": 12,
+  "notes": [
+    "No original game sprites or source Blender file overwritten",
+    "Candidate elevation/azimuth only; artwork and registration not approved",
+    "1x1 tile is a procedural geometric diagnostic, NOT an official STL",
+    "All cardinal views rotate the model beneath a fixed camera and daylight"
+  ],
+  "captures": [
+    {
+      "name": "previous_32",
+      "elevation_deg": 32.4,
+      "azimuth_deg": 35.0,
+      "model_rotation_deg": 0,
+      "image": "previous_32_d000.png",
+      "sha256": "a82c1f6ed47e3c299234a4a9c46c2e1f7010ecbd489ce9f9bd75bfab1ca33ae9",
+      "camera_matrix": [
+        [
+          0.82012695,
+          -0.3067632,
+          0.48299909,
+          3.0
+        ],
+        [
+          0.57218158,
+          0.4396939,
+          -0.69229871,
+          -4.30000019
+        ],
+        [
+          2e-08,
+          0.844136,
+          0.53612906,
+          3.70000005
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "candidate_38",
+      "elevation_deg": 38.0,
+      "azimuth_deg": 0.0,
+      "model_rotation_deg": 0,
+      "image": "candidate_38_d000.png",
+      "sha256": "70fbdd2c9c13889c2de80ef2f8369321c6fa108754900b3212c2a949ccedf1a1",
+      "camera_matrix": [
+        [
+          0.81915206,
+          -0.30733767,
+          0.48428658,
+          3.4414587
+        ],
+        [
+          0.57357645,
+          0.43892366,
+          -0.69163293,
+          -4.91491222
+        ],
+        [
+          0.0,
+          0.84432787,
+          0.53582686,
+          4.17771578
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "factorio_45",
+      "elevation_deg": 45.0,
+      "azimuth_deg": 0.0,
+      "model_rotation_deg": 0,
+      "image": "factorio_45_d000.png",
+      "sha256": "ca07c0478129a693a1ae8f99a2dffe9e91e967926ec9355caee77303b991270a",
+      "camera_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.61566144,
+          -0.78801078,
+          -6.0
+        ],
+        [
+          0.0,
+          0.78801078,
+          0.61566144,
+          5.05771351
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "factorio_45",
+      "elevation_deg": 45.0,
+      "azimuth_deg": 0.0,
+      "model_rotation_deg": 90,
+      "image": "factorio_45_d090.png",
+      "sha256": "1055493a94e2fe2615b7b2b0a324f2ebeacf1ce6c8b0b26c21a4c9d21e998198",
+      "camera_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.61566144,
+          -0.78801078,
+          -6.0
+        ],
+        [
+          0.0,
+          0.78801078,
+          0.61566144,
+          5.05771351
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "factorio_45",
+      "elevation_deg": 45.0,
+      "azimuth_deg": 0.0,
+      "model_rotation_deg": 180,
+      "image": "factorio_45_d180.png",
+      "sha256": "3f9f0a0a9bb91770cbf12cf7a47783da52efd112cc370c9c6cc3e035f8283eaa",
+      "camera_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.61566144,
+          -0.78801078,
+          -6.0
+        ],
+        [
+          0.0,
+          0.78801078,
+          0.61566144,
+          5.05771351
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "factorio_45",
+      "elevation_deg": 45.0,
+      "azimuth_deg": 0.0,
+      "model_rotation_deg": 270,
+      "image": "factorio_45_d270.png",
+      "sha256": "88a2f09bc6f8de3b978f1c6b5df9e13ea62257d5cedc957fd8d2bcd8e878cc15",
+      "camera_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.61566144,
+          -0.78801078,
+          -6.0
+        ],
+        [
+          0.0,
+          0.78801078,
+          0.61566144,
+          5.05771351
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "candidate_50",
+      "elevation_deg": 50.0,
+      "azimuth_deg": 0.0,
+      "model_rotation_deg": 0,
+      "image": "candidate_50_d000.png",
+      "sha256": "20e333dda9574002ea04ee9addcc55ac0bbabdcbe6d0f693bf93760e1790cdf3",
+      "camera_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.70710677,
+          -0.70710677,
+          -6.0
+        ],
+        [
+          0.0,
+          0.70710677,
+          0.70710677,
+          6.36999989
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "diagonal_45",
+      "elevation_deg": 45.0,
+      "azimuth_deg": 35.0,
+      "model_rotation_deg": 0,
+      "image": "diagonal_45_d000.png",
+      "sha256": "f2160be6f4497de729f9328a21b7c703450c5a6abb975d37e39e58db9d1bf0de",
+      "camera_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.76604438,
+          -0.64278769,
+          -6.0
+        ],
+        [
+          0.0,
+          0.64278769,
+          0.76604438,
+          7.52052164
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "diagonal_45",
+      "elevation_deg": 45.0,
+      "azimuth_deg": 35.0,
+      "model_rotation_deg": 90,
+      "image": "diagonal_45_d090.png",
+      "sha256": "5578c904fe693edc7652151be5fe6d291d8f3e5f5f34009a7726ded5313fcc77",
+      "camera_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.76604438,
+          -0.64278769,
+          -6.0
+        ],
+        [
+          0.0,
+          0.64278769,
+          0.76604438,
+          7.52052164
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "diagonal_45",
+      "elevation_deg": 45.0,
+      "azimuth_deg": 35.0,
+      "model_rotation_deg": 180,
+      "image": "diagonal_45_d180.png",
+      "sha256": "4d5933c7b86fa084fe054ff0963c6e37359a108a4bf9dd6bbd560c3d7f59389f",
+      "camera_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.76604438,
+          -0.64278769,
+          -6.0
+        ],
+        [
+          0.0,
+          0.64278769,
+          0.76604438,
+          7.52052164
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "diagonal_45",
+      "elevation_deg": 45.0,
+      "azimuth_deg": 35.0,
+      "model_rotation_deg": 270,
+      "image": "diagonal_45_d270.png",
+      "sha256": "13edc004cd4db42746c0cb9ea47b0778b7a638425b69dbdd4e273bf24844bfd6",
+      "camera_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.76604438,
+          -0.64278769,
+          -6.0
+        ],
+        [
+          0.0,
+          0.64278769,
+          0.76604438,
+          7.52052164
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "ground_plane_proxy",
+      "elevation_deg": 45,
+      "azimuth_deg": 0,
+      "model_rotation_deg": 0,
+      "image": "tile_proxy_45.png",
+      "sha256": "cd794ef5faa983aa0cc791250924afe2dbf0cc7c0fda740460bdf5c123d8dd30",
+      "notes": "1x1 geometric proxy only; not a published Wube mesh"
+    }
+  ]
+}
