@@ -96,11 +96,11 @@ def main():
     world=lamp.matrix_world.copy();lamp.parent=root;lamp.matrix_world=world
     for i,frame in enumerate(frames+[97]):
         level=flicker[i%16]
-        lamp_data.energy=28*level
+        lamp_data.energy=2.4*level
         lamp_data.keyframe_insert(data_path='energy',frame=frame)
-        ps.default_value=.34*level
+        ps.default_value=.16*level
         ps.keyframe_insert(data_path='default_value',frame=frame)
-        cs.default_value=1.12*level
+        cs.default_value=.78*level
         cs.keyframe_insert(data_path='default_value',frame=frame)
     lamp.hide_render=True;lamp.keyframe_insert(data_path='hide_render',frame=0)
     lamp.hide_render=False;lamp.keyframe_insert(data_path='hide_render',frame=1)

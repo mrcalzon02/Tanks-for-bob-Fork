@@ -34,7 +34,7 @@ jobs:
           blender -b -t 4 models/island-survival/clay-pit/generated-v3/clay-pit-v3.blend \
             --python-exit-code 1 \
             --python models/island-survival/clay-pit/v4/build_clay_pit_v4.py -- \
-            --out /tmp/clay-pit-v4 --samples 20
+            --out /tmp/clay-pit-v4 --samples 32
       - name: Independently verify all frame captures and create four GIFs
         run: |
           /usr/bin/python3 models/island-survival/clay-pit/v4/make_v4_review.py \
