@@ -36,9 +36,13 @@ jobs:
           /usr/bin/python3 -m unittest discover -s tools/art -p 'test_*.py' -v
       - name: Capture all four orientations from V9 editable master with calibrated camera
         run: |
-          /usr/bin/python3 tools/art/export_sprites.py \
+          if ! /usr/bin/python3 tools/art/export_sprites.py \
             --config tools/art/profiles/campfire-structure-replacement.json \
-            --out /tmp/campfire-v12-captures
+            --out /tmp/campfire-v12-captures; then
+            echo '=== Blender capture diagnostics ==='
+            tail -n 120 /tmp/campfire-v12-captures/blender.log || true
+            exit 1
+          fi
       - name: Package replacement art, item icon and directional Factorio graphics
         run: |
           /usr/bin/python3 tools/art/package_campfire_replacement.py \
