@@ -1,0 +1,77 @@
+name: Pit kiln V4b | complete tray rocks and original campfire crackles
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'models/island-survival/pit-kiln/v4b/*.py'
+      - '.github/workflows/pit-kiln-v4b.yml'
+      - 'docs/art/PIT_KILN_V4B_WHOLE_TRAY.md'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pit-kiln-v4b-render
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Blender and Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          python3 -m py_compile models/island-survival/pit-kiln/v4b/*.py
+      - name: Create V4 animation and all 68 transparent renders
+        run: |
+          blender -b -t 4 models/island-survival/pit-kiln/generated-v3b/pit-kiln-v3-real-campfire.blend \
+            --python-exit-code 1 --python models/island-survival/pit-kiln/v4b/build_pit_kiln_v4b.py -- \
+            --out /tmp/pit-kiln-v4b --samples 28
+      - name: Validate four real animated rotations and previews
+        run: |
+          /usr/bin/python3 models/island-survival/pit-kiln/v4b/verify_pit_kiln_v4b.py \
+            --out /tmp/pit-kiln-v4b --previous models/island-survival/pit-kiln/generated-v3b
+      - name: Independently reopen native Blender model and keyframes
+        run: |
+          blender -b -t 4 /tmp/pit-kiln-v4b/pit-kiln-v4b-whole-tray.blend --python-exit-code 1 \
+            --python-expr "import bpy; s=bpy.context.scene; f=[o for o in s.objects if o.name.startswith('flame_tongue')]; w=[o for o in s.objects if o.name.startswith('V2 | WET BRICK on slab')]; b=[o for o in s.objects if o.name.startswith('V2 | firing-bank WET BRICK')]; c=[o for o in s.objects if o.name.startswith('V4 | original flame crackle')]; assert len(f)==len(c)==6 and len(w)==4 and len(b)==10; assert all(o.animation_data and o.animation_data.action for o in f+c); t=bpy.data.objects['V4b | COMPLETE TRAY AND FOUR BRICKS | rock together']; assert len([o for o in s.objects if o.parent==t])==5; assert all(o.parent==t and not o.animation_data for o in w); assert bpy.data.objects['V2 | rough support plank for unfired bricks'].parent==t; assert len({int(k.co.x) for fc in t.animation_data.action.fcurves for k in fc.keyframe_points})==17; s.frame_set(1); x=tuple(t.rotation_euler); s.frame_set(49); assert tuple(t.rotation_euler)!=x; assert s.camera.data.type=='ORTHO'; print('PIT_KILN_V4B_WHOLE_TRAY_REOPEN_PASS')"
+      - name: Verify all production evidence
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('/tmp/pit-kiln-v4b')
+          b=json.loads((p/'build-report.json').read_text())
+          q=json.loads((p/'review-qa.json').read_text())
+          assert q['passed'] and q['real_source_frames']==68
+          assert b['staged_bricks_wobbling']==4 and b['original_campfire_flames']==6
+          assert b['tray_parts']==5 and not b['staging_board_stationary']
+          assert q['whole_board_and_bricks_rock_together']
+          assert min(d['lowest_px_256'] for d in b['tray_motion_screen_pixels'].values())>=2.0
+          assert len(list(p.glob('burning-d*-preview.gif')))==4
+          assert (p/'pit-kiln-v4b-whole-tray.blend').stat().st_size>25000
+          print('PIT_KILN_V4B_BUILD_QA_COMPLETE')
+          PY
+      - name: Save complete model and visual evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pit-kiln-v4b-whole-tray-and-campfire-crackle
+          path: /tmp/pit-kiln-v4b/
+          if-no-files-found: warn
+      - name: Commit V4 model and 68 render captures to main
+        run: |
+          mkdir -p models/island-survival/pit-kiln/generated-v4
+          cp -a /tmp/pit-kiln-v4b/. models/island-survival/pit-kiln/generated-v4b/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/pit-kiln/generated-v4b/
+          git diff --cached --check
+          if ! git diff --cached --quiet; then
+            git commit -m 'art(pit-kiln): publish V4b whole brick tray wobble with retained campfire crackle'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
