@@ -1,0 +1,681 @@
+{
+  "passed": true,
+  "capture_count": 17,
+  "atlas_count": 6,
+  "checks": [
+    "source master hash",
+    "frame order and hashes",
+    "RGBA and dimensions",
+    "nonempty transparent canvas",
+    "visible clipping",
+    "unique animation cells",
+    "atlas cell roundtrip",
+    "GIF frame count"
+  ],
+  "art_accepted": false,
+  "manual_review": [
+    "stone appearance",
+    "lighting calibration",
+    "native-size readability",
+    "animation loop seam"
+  ],
+  "sheets": [
+    {
+      "path": "idle-64.png",
+      "sha256": "aeed09cbbc02efc4dd454a6e161fba11192b456483808cc041b57d8113e4799b",
+      "state": "idle",
+      "cell_size": 64,
+      "frame_count": 1,
+      "columns": 1,
+      "direction_count": 1,
+      "rows_per_direction": 1,
+      "dimensions": [
+        64,
+        64
+      ],
+      "cells": [
+        {
+          "direction": 0,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            0,
+            64,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "idle-128.png",
+      "sha256": "e71d8ddeb819f0f12832a144136fb11f2357105d455081ae7641c0ecf9053aab",
+      "state": "idle",
+      "cell_size": 128,
+      "frame_count": 1,
+      "columns": 1,
+      "direction_count": 1,
+      "rows_per_direction": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "cells": [
+        {
+          "direction": 0,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            0,
+            128,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "path": "idle-256.png",
+      "sha256": "5760fbaf82d4904b7ef9d01c0fb3b811dd3d0c90e8b0b3bc74472234d73faef8",
+      "state": "idle",
+      "cell_size": 256,
+      "frame_count": 1,
+      "columns": 1,
+      "direction_count": 1,
+      "rows_per_direction": 1,
+      "dimensions": [
+        256,
+        256
+      ],
+      "cells": [
+        {
+          "direction": 0,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            0,
+            256,
+            256
+          ]
+        }
+      ]
+    },
+    {
+      "path": "burning-64.png",
+      "sha256": "b12ece5696e4125e32381a9626b6e66764b69219f2e05f1da06d3830a1b67ddd",
+      "state": "burning",
+      "cell_size": 64,
+      "frame_count": 16,
+      "columns": 8,
+      "direction_count": 1,
+      "rows_per_direction": 2,
+      "dimensions": [
+        512,
+        128
+      ],
+      "cells": [
+        {
+          "direction": 0,
+          "index": 0,
+          "frame": 1,
+          "rect": [
+            0,
+            0,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 1,
+          "frame": 7,
+          "rect": [
+            64,
+            0,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 2,
+          "frame": 13,
+          "rect": [
+            128,
+            0,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 3,
+          "frame": 19,
+          "rect": [
+            192,
+            0,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 4,
+          "frame": 25,
+          "rect": [
+            256,
+            0,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 5,
+          "frame": 31,
+          "rect": [
+            320,
+            0,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 6,
+          "frame": 37,
+          "rect": [
+            384,
+            0,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 7,
+          "frame": 43,
+          "rect": [
+            448,
+            0,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 8,
+          "frame": 49,
+          "rect": [
+            0,
+            64,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 9,
+          "frame": 55,
+          "rect": [
+            64,
+            64,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 10,
+          "frame": 61,
+          "rect": [
+            128,
+            64,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 11,
+          "frame": 67,
+          "rect": [
+            192,
+            64,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 12,
+          "frame": 73,
+          "rect": [
+            256,
+            64,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 13,
+          "frame": 79,
+          "rect": [
+            320,
+            64,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 14,
+          "frame": 85,
+          "rect": [
+            384,
+            64,
+            64,
+            64
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 15,
+          "frame": 91,
+          "rect": [
+            448,
+            64,
+            64,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "burning-128.png",
+      "sha256": "9a2c7b837438ca9c623d78064adab60e8376adc824a5e10d4860c0c4058a2f18",
+      "state": "burning",
+      "cell_size": 128,
+      "frame_count": 16,
+      "columns": 8,
+      "direction_count": 1,
+      "rows_per_direction": 2,
+      "dimensions": [
+        1024,
+        256
+      ],
+      "cells": [
+        {
+          "direction": 0,
+          "index": 0,
+          "frame": 1,
+          "rect": [
+            0,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 1,
+          "frame": 7,
+          "rect": [
+            128,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 2,
+          "frame": 13,
+          "rect": [
+            256,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 3,
+          "frame": 19,
+          "rect": [
+            384,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 4,
+          "frame": 25,
+          "rect": [
+            512,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 5,
+          "frame": 31,
+          "rect": [
+            640,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 6,
+          "frame": 37,
+          "rect": [
+            768,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 7,
+          "frame": 43,
+          "rect": [
+            896,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 8,
+          "frame": 49,
+          "rect": [
+            0,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 9,
+          "frame": 55,
+          "rect": [
+            128,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 10,
+          "frame": 61,
+          "rect": [
+            256,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 11,
+          "frame": 67,
+          "rect": [
+            384,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 12,
+          "frame": 73,
+          "rect": [
+            512,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 13,
+          "frame": 79,
+          "rect": [
+            640,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 14,
+          "frame": 85,
+          "rect": [
+            768,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 15,
+          "frame": 91,
+          "rect": [
+            896,
+            128,
+            128,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "path": "burning-256.png",
+      "sha256": "7cd5c8451194829662ad1f24e2c1ca98a001991320ff4412a15faa5e30a19b51",
+      "state": "burning",
+      "cell_size": 256,
+      "frame_count": 16,
+      "columns": 8,
+      "direction_count": 1,
+      "rows_per_direction": 2,
+      "dimensions": [
+        2048,
+        512
+      ],
+      "cells": [
+        {
+          "direction": 0,
+          "index": 0,
+          "frame": 1,
+          "rect": [
+            0,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 1,
+          "frame": 7,
+          "rect": [
+            256,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 2,
+          "frame": 13,
+          "rect": [
+            512,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 3,
+          "frame": 19,
+          "rect": [
+            768,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 4,
+          "frame": 25,
+          "rect": [
+            1024,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 5,
+          "frame": 31,
+          "rect": [
+            1280,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 6,
+          "frame": 37,
+          "rect": [
+            1536,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 7,
+          "frame": 43,
+          "rect": [
+            1792,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 8,
+          "frame": 49,
+          "rect": [
+            0,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 9,
+          "frame": 55,
+          "rect": [
+            256,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 10,
+          "frame": 61,
+          "rect": [
+            512,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 11,
+          "frame": 67,
+          "rect": [
+            768,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 12,
+          "frame": 73,
+          "rect": [
+            1024,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 13,
+          "frame": 79,
+          "rect": [
+            1280,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 14,
+          "frame": 85,
+          "rect": [
+            1536,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "direction": 0,
+          "index": 15,
+          "frame": 91,
+          "rect": [
+            1792,
+            256,
+            256,
+            256
+          ]
+        }
+      ]
+    }
+  ]
+}

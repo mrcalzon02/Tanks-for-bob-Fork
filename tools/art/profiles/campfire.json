@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "asset": "campfire",
+  "source": "../../../models/island-survival/blender/generated-v9/campfire-v9-animated.blend",
+  "adapter": "campfire-matte-stones",
+  "source_size": 256,
+  "sizes": [64, 128, 256],
+  "samples": 24,
+  "seed": 5855,
+  "columns": 8,
+  "fps": 8,
+  "directions": [0],
+  "pivot": [0, 0, 0],
+  "exclude_rotation": ["Ground | shadow catcher"],
+  "hide_render": ["Ground | shadow catcher"],
+  "animated_lights": ["04 | animated fire light"],
+  "states": {
+    "idle": [0],
+    "burning": [1, 7, 13, 19, 25, 31, 37, 43, 49, 55, 61, 67, 73, 79, 85, 91]
+  }
+}

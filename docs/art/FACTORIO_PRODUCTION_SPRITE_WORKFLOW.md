@@ -1,11 +1,21 @@
 # FACTORIO-SPRITE-PRODUCTION-v1 — Blender-to-Factorio export runbook
 
-**Stable invocation:** “Execute FACTORIO-SPRITE-PRODUCTION-v1 for <entity> in <repo>.”  
-**Authority:** This version-controlled document, plus the filled asset-specific work order. No remembered guess or previous assistant response overrides the checked-in procedure.  
-**State:** Procedure established; a particular asset is NOT export-ready just because it has a native .blend or a passing GIF render.  
+**Stable invocation:** “Execute FACTORIO-SPRITE-PRODUCTION-v1 for <entity> in <repo>.”
+**Authority:** This version-controlled document, plus the filled asset-specific work order. No remembered guess or previous assistant response overrides the checked-in procedure.
+**State:** Executable Blender capture/packing is now implemented and verified with the campfire; art approval and game integration remain separate.
 **Scope:** Factorio 2D entity/icon production from editable Blender masters; no recipe, balance, tech, or unrelated mod changes.
 
 Start by reading this document, the work-order template, the specific asset work order, the current prototype, and the exact source sprite. Record the source commit before editing. Do not declare a gate passed without linked evidence.
+
+## Effective Blender-only execution scope (v1.1, 2026-11-06)
+
+The user corrected the active campfire task to **Blender-only capture and atlas output**, without game integration/testing. Engine API/binary discovery must not block that task. For this scope, use the [working executable process](../../tools/art/SPRITE_EXPORT.md) and [recovery audit](CAMPFIRE_5855_RECOVERY_AUDIT.md). The original broader gates below remain applicable when a later task explicitly requests game integration. They do not prevent committing scripts or unapproved candidate art.
+
+```bash
+python3 tools/art/export_sprites.py --config tools/art/profiles/campfire.json --out /tmp/campfire-export
+```
+
+This creates complete RGBA state frames, not base/working overlays. P01 and P10 engine requirements are not applicable to Blender-only execution; P06 game-layer separation and P08 Lua are deferred to integration. P11 remains pending until actual user visual acceptance. P12 distinguishes source/candidate publication from replacing accepted game art. The implementation uses the existing authored camera/light rig and a tested local adapter, rather than claiming external community presets have been installed. It preserves their source references for future calibration.
 
 ## Sources and precedence
 
@@ -64,7 +74,7 @@ For any asset:
 3. For the campfire specifically use [the active campfire work order](../../models/island-survival/blender/CAMPFIRE_PRODUCTION_EXPORT_CHECKLIST.md).
 4. Audit the checklist with the standard-library CLI: python3 tools/art/validate_export_checklist.py <work-order.md>. Use --require export or --require publish for fail-closed production readiness checks; execute python3 -m unittest discover -s tools/art -p 'test_*.py' -v for regression verification. This checks statuses, not actual Blender/game output.
 5. For environment setup use the existing shared [bootstrap](https://github.com/mrcalzon02/HB-TTRPG-tools/blob/main/tools/factorio-render-pipeline/bootstrap.py) install/verify commands and record output. For existing V9 source use the [scoped Blender workflow](../../.github/workflows/campfire-blender.yml); it is a *development preview and animation workflow*, NOT a finished Factorio sprite packer.
-6. Before export approve the community add-on or document the fallback, then introduce a single deterministic Blender render-and-pack entrypoint. Until it exists, P07/P08 remain PENDING, not magically executable.
+6. The documented local fallback is now `tools/art/export_sprites.py`; its implementation and final campfire outputs are recorded in the recovery audit. Use a new profile for another authored model and revalidate its framing, required directions and timeline. External add-on compatibility is not claimed by this fallback.
 7. After any change rerun affected checks and update deviations. Check remote SHA and output artifacts after push.
 
 ### Compact audit entry format
@@ -80,3 +90,5 @@ Use an append-only entry in the asset work order:
 Treat missing steps as process defects. Add a new Pxx gate or amend a gate via reviewed Git commit; record revision, rationale, test and all affected asset checklists. Existing completed assets must explicitly decide whether a process change triggers revalidation. Do not modify this runbook from memory alone.
 
 **v1 (2026-11-06):** First standardized, auditable production-sprite procedure. It documents previously missing release gates; does not claim any campfire production atlas or Factorio graphical-client acceptance.
+
+**v1.1 (2026-11-06, Alaska):** Implement and execute Blender-only capture/packing, independent master reopen and four-direction static test; honor corrected scope, log stone-reflectivity correction and retain pending art approval. No game integration is claimed.

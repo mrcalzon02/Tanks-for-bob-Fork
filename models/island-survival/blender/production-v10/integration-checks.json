@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "repeat_pixels_identical": true,
+  "rgba_pixel_sha256": "f53da8fe7a84ca6de4f011388b42a23709fa1e3565cce1b2854e83bb63f05a8e",
+  "first_capture_file_sha256": "db2193b1dd6bafa68e6408b7b6482d51965c791ab81db623e19a89e45c878856",
+  "repeat_capture_file_sha256": "6d7f2fb6b443393db9342409b426dd70197b250ea3442411763f9a546aab15ef",
+  "png_bytes_identical": false,
+  "metadata_note": "PNG timestamps and Cycles render timing differ; decoded RGBA pixels match exactly",
+  "repeated_with": "same source, profile seed, samples and camera in separate Blender process",
+  "material_before_after_has_pixel_difference": true,
+  "static_four_view": true,
+  "static_directions": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "static_reopen": true,
+  "blender": "4.3.2",
+  "stone_visual_acceptance": "pending user review"
+}

@@ -1,9 +1,9 @@
 # Campfire — FACTORIO-SPRITE-PRODUCTION-v1 work order
 
-**Invocation:** “Execute FACTORIO-SPRITE-PRODUCTION-v1 for the Tanks for Bob campfire.”  
-**Master:** [production sprite runbook](../../../docs/art/FACTORIO_PRODUCTION_SPRITE_WORKFLOW.md).  
-**Status:** Planning and native Blender asset completed. **Not production export-ready; game sprites unchanged.**  
-**GitHub tracking issue:** [#3 — Campfire production export](https://github.com/mrcalzon02/Tanks-for-bob-Fork/issues/3).  
+**Invocation:** “Execute FACTORIO-SPRITE-PRODUCTION-v1 for the Tanks for Bob campfire.”
+**Master:** [production sprite runbook](../../../docs/art/FACTORIO_PRODUCTION_SPRITE_WORKFLOW.md).
+**Status:** Blender-only executable export implemented and locally verified. **V10 remains an unapproved art candidate.** See [recovery audit](../../../docs/art/CAMPFIRE_5855_RECOVERY_AUDIT.md).
+**GitHub tracking issue:** [#3 — Campfire production export](https://github.com/mrcalzon02/Tanks-for-bob-Fork/issues/3).
 **Baseline audited:** 2026-11-06, main at fd83c3c6b959448d3471520fe17d35ad606c9be8.
 
 ## Verified current sources (baseline, not target assumptions)
@@ -33,25 +33,31 @@
 | Origin / scale / shift | current 64px shift {0,0} | unknown, to calibrate; no per-frame crop | P05 |
 | Distribution | original sprites | no switch yet | P11 user approval, P12 |
 
-## Execution gates
+## Current Blender-only execution gates
+
+The user corrected scope to Blender capture/packing without game integration. Historical broader requirements and proposed in-game values below are retained for future integration, not prerequisites for this candidate export. Actual output is full-object states, not working overlays. Local runtime is Blender 4.3.2, not a claimed Blender 4.5 preset test.
 
 | ID | Status | Known evidence / outstanding requirement |
 | --- | --- | --- |
-| P00 | PASS | Existing prototype & native V9 source located above; baseline commit fd83c3c (revalidate on later HEAD) |
-| P01 | BLOCKED | Factorio 2.0.77 vs 2.1 and relevant working_visualisation API not yet locked to tested binary |
-| P02 | PENDING | Actual V9 maps procedural; verify source/license provenance on any future HDRI/preset/image imports; reference-only credits already documented |
-| P03 | IN_PROGRESS | V9 saved .blend reopened in GitHub CI run 42308478856; objects/animation/char tests passed; production Blender 4.5 LTS reopen and source comparison still pending |
-| P04 | PENDING | Pin and test Valerian .blend and AshenHermit exporter in Blender 4.5 LTS |
-| P05 | PENDING | Create HDRI + AO/edge camera calibration; source sprite side-by-side and frozen settings |
-| P06 | PENDING | Extract base vs burning-only char/flame overlays; prove registration and absence of double-drawn stones/logs |
-| P07 | PENDING | Render genuine transparent production frames from Blender, fixed camera and canvas |
-| P08 | PENDING | Verify packer, 1 direction, 16 candidate frames, 8×2 layout, Lua and hi-res syntax |
-| P09 | PENDING | Verify alpha, sheet dimensions, transitions, masks, hashes and actual fidelity |
-| P10 | PENDING | Exact client load + idle/fuel/work/stop/restart in disposable mod |
-| P11 | PENDING | Original-vs-new side-by-side & explicit art approval |
-| P12 | PENDING | Merge only approved replacement, remote readback and rollback preservation |
+| P00 | PASS | Remote baseline 2310ddda97b469015f6ee9c42fc10e775ea6649a; recovery audit records actual prior commits and missing process |
+| P01 | NOT_APPLICABLE | User corrected task to Blender-only export; engine/schema validation remains a later game-integration task |
+| P02 | PASS | Existing tracked procedural source and packed maps retained; no new third-party HDRI/preset/image imports; source hashes in production-v10/capture.json |
+| P03 | PASS | production-v10/reopen-qa.json and reopen.log: actual saved editable master independently reopened in Blender 4.3.2; 15 stones, 42 wood objects, six flames, cold/burning char toggles |
+| P04 | PASS | Documented local adapter tools/art/SPRITE_EXPORT.md executed on actual model; no untested external exporter claimed |
+| P05 | IN_PROGRESS | Camera/daylight fixed and recorded in production-v10/capture.json; repeated frame test recorded in integration-checks.json. Final art/Factorio lighting calibration remains unaccepted |
+| P06 | NOT_APPLICABLE | Blender-only full-object state atlases avoid base-plus-overlay duplication by using complete states. Separate game overlays/shadows are outside this execution scope |
+| P07 | PASS | production-v10/frames and capture.json: idle + 16 burning transparent captures, 256px source canvas, fixed camera and no independent cropping |
+| P08 | PASS | production-v10/qa.json: six atlases, 64/128/256px cells, 16 burning frames at 8×2; static-four-view separately tested. Lua remains outside Blender-only scope |
+| P09 | PASS | production-v10/qa.json, reopen-qa.json, process-tests.txt: dimensions, alpha, clipping, frame hashes/order, unique cells, atlas extraction and 14 regression tests; visual review is P11 |
+| P10 | NOT_APPLICABLE | User's Blender-only scope excludes Factorio deployment/load/state tests; none claimed |
+| P11 | PENDING | Stone reflectivity change implemented as V10 review candidate; explicit user art acceptance, final lighting/native readability and animation seam review still pending |
+| P12 | IN_PROGRESS | Source/candidate publication to main and remote readback are the remaining step of this recovery; game sprite replacement is not authorized by this export |
 
-### Next command when asked to execute
+### Next command when asked to execute (current scope)
+
+Read `tools/art/SPRITE_EXPORT.md` and run its `export_sprites.py` entrypoint into a new directory. Reopen/packing verification is automatic. Review actual stone appearance and motion; do not stop Blender export for an absent game binary. Do not mark P05/P11 accepted from test success.
+
+### Historical integration sequence (only for a future integration request)
 
 Open this file and runbook. Start with **P01**, not an arbitrary re-model or new GIF. Resolve installed engine target and exact 2.1-vs-2.0 API; then source/compatibility checks P02-P04; then camera and lighting P05; then passes, exporter and tests. Never infer that a preview job completed P05–P12.
 
@@ -82,6 +88,13 @@ Open this file and runbook. Start with **P01**, not an arbitrary re-model or new
 
 | Defect ID | Date | Gate reopened | Failure and cause | Fix SHA / evidence | Re-test status |
 | --- | --- | --- | --- | --- | --- |
+| ART-CF-005 | 2026-11-06 Alaska | P05/P11 | Stones looked sparkling/wet; correction was never logged or committed | V10 adapter, per-material before/after capture.json, stone-material-comparison.png | Material/reopen tests pass; visual acceptance pending |
+| ART-CF-006 | 2026-11-06 Alaska | P07/P09 | Development shadow catcher crossed alpha canvas bounds | Profile hides ground from beauty export; original object retained editable | Final frames pass clipping; separate shadow atlas not delivered |
+| ART-CF-007 | 2026-11-06 Alaska | P03/P09 | Background save discarded RENDER scene despite successful renders | Retain MODEL/RENDER with fake users; independent reopen verifier | Both scenes and state/material/camera checks pass |
+
+### Recovery execution record
+
+See `docs/art/CAMPFIRE_5855_RECOVERY_AUDIT.md` for the repository-based verdict and original commit receipts. Final V10 capture and static four-view outputs live in `production-v10/`. This is a locally verified executable Blender process with unapproved candidate art, not a game integration result.
 
 **Important:** Art diagnostics do not retroactively block unrelated gameplay releases. However **the new campfire sprite itself must not replace the approved sprite** until its own engine/load tests and visual signoff succeed.
 

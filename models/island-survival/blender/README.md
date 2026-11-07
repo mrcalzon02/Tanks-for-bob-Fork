@@ -1,5 +1,7 @@
 # Campfire — Native Blender scene and animation
 
+The executable static/animated sprite capture and atlas process is now [documented here](../../../tools/art/SPRITE_EXPORT.md). See `production-v10/` for locally verified full-state atlases, editable master and QA evidence; V10's matte-stone correction is still awaiting visual acceptance. The [5855 recovery audit](../../../docs/art/CAMPFIRE_5855_RECOVERY_AUDIT.md) records what the prior work did and did not commit.
+
 The source of truth for editing and animation is a native Blender scene, **not** a flattened OBJ render. The Blender scene build reconstructs the V6 6,763-vertex/12,152-triangle geometry deterministically from the tracked V4 generator, then creates distinct Blender objects by physical group with material nodes, tangent-space image **Normal Map** nodes, camera, lighting rig, and fire animations.
 
 ## Scene structure and controls

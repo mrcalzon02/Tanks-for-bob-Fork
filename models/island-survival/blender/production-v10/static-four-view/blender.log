@@ -1,0 +1,450 @@
+CAPTURE idle direction=0 frame=0
+Blender 4.3.2
+Read blend: "/workspace/scratch/a0fcc4188d19/tanks/models/island-survival/blender/generated-v9/campfire-v9-animated.blend"
+Fra:0 Mem:99.14M (Peak 99.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | ash_and_coals
+Fra:0 Mem:99.14M (Peak 99.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_02
+Fra:0 Mem:99.22M (Peak 99.22M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_03
+Fra:0 Mem:99.27M (Peak 99.27M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_04
+Fra:0 Mem:99.31M (Peak 99.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_05
+Fra:0 Mem:99.33M (Peak 99.33M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_06
+Fra:0 Mem:99.37M (Peak 99.37M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_07
+Fra:0 Mem:99.43M (Peak 99.43M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_knot
+Fra:0 Mem:99.43M (Peak 99.43M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_09
+Fra:0 Mem:99.48M (Peak 99.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_10
+Fra:0 Mem:99.53M (Peak 99.53M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_grain
+Fra:0 Mem:99.56M (Peak 99.56M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_checks
+Fra:0 Mem:99.56M (Peak 99.56M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_heart
+Fra:0 Mem:99.57M (Peak 99.57M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_11
+Fra:0 Mem:99.57M (Peak 99.57M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_12
+Fra:0 Mem:99.60M (Peak 99.60M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_ring
+Fra:0 Mem:99.62M (Peak 99.62M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_13
+Fra:0 Mem:99.70M (Peak 99.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_sapwood
+Fra:0 Mem:99.72M (Peak 99.72M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_14
+Fra:0 Mem:99.75M (Peak 99.75M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_bark
+Fra:0 Mem:99.78M (Peak 99.78M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_15
+Fra:0 Mem:99.82M (Peak 99.82M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_00
+Fra:0 Mem:99.85M (Peak 99.85M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_01
+Fra:0 Mem:99.86M (Peak 99.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_02
+Fra:0 Mem:99.89M (Peak 99.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_03
+Fra:0 Mem:99.88M (Peak 99.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_04
+Fra:0 Mem:99.88M (Peak 99.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_05
+Fra:0 Mem:99.90M (Peak 99.90M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_06
+Fra:0 Mem:99.92M (Peak 99.92M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_bark
+Fra:0 Mem:99.99M (Peak 99.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_sapwood
+Fra:0 Mem:100.08M (Peak 100.08M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_ring
+Fra:0 Mem:100.08M (Peak 100.08M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_heart
+Fra:0 Mem:100.14M (Peak 100.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_checks
+Fra:0 Mem:100.19M (Peak 100.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_grain
+Fra:0 Mem:100.19M (Peak 100.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_knot
+Fra:0 Mem:100.22M (Peak 100.22M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_bark
+Fra:0 Mem:100.31M (Peak 100.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_sapwood
+Fra:0 Mem:100.36M (Peak 100.36M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_ring
+Fra:0 Mem:100.44M (Peak 100.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_heart
+Fra:0 Mem:100.45M (Peak 100.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_checks
+Fra:0 Mem:100.45M (Peak 100.45M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_grain
+Fra:0 Mem:100.48M (Peak 100.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_knot
+Fra:0 Mem:100.48M (Peak 100.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_knot
+Fra:0 Mem:100.48M (Peak 100.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_grain
+Fra:0 Mem:100.48M (Peak 100.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_bark
+Fra:0 Mem:100.55M (Peak 100.55M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_checks
+Fra:0 Mem:100.57M (Peak 100.57M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_heart
+Fra:0 Mem:100.59M (Peak 100.59M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_ring
+Fra:0 Mem:100.63M (Peak 100.63M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_sapwood
+Fra:0 Mem:100.69M (Peak 100.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_sapwood
+Fra:0 Mem:100.73M (Peak 100.73M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_ring
+Fra:0 Mem:100.74M (Peak 100.74M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_bark
+Fra:0 Mem:100.80M (Peak 100.80M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_heart
+Fra:0 Mem:100.83M (Peak 100.83M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_checks
+Fra:0 Mem:100.83M (Peak 100.83M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_grain
+Fra:0 Mem:100.96M (Peak 100.96M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_knot
+Fra:0 Mem:100.96M (Peak 100.96M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_bark
+Fra:0 Mem:101.04M (Peak 101.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_sapwood
+Fra:0 Mem:101.14M (Peak 101.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_ring
+Fra:0 Mem:101.17M (Peak 101.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_heart
+Fra:0 Mem:101.18M (Peak 101.18M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_checks
+Fra:0 Mem:101.18M (Peak 101.18M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_grain
+Fra:0 Mem:101.24M (Peak 101.24M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_knot
+Fra:0 Mem:101.19M (Peak 101.24M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Initializing
+Fra:0 Mem:100.93M (Peak 101.24M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Updating Images | Loading CF7 | ash | albedo
+Fra:0 Mem:101.81M (Peak 101.81M) | Time:00:00.03 | Mem:0.28M, Peak:0.28M | RENDER, ViewLayer | Updating Images | Loading CF7 | char | albedo
+Fra:0 Mem:101.52M (Peak 101.81M) | Time:00:00.03 | Mem:0.42M, Peak:0.42M | RENDER, ViewLayer | Updating Images | Loading CF7 | bark | normal
+Fra:0 Mem:101.93M (Peak 101.93M) | Time:00:00.03 | Mem:0.56M, Peak:0.56M | RENDER, ViewLayer | Updating Images | Loading CF7 | char | normal
+Fra:0 Mem:102.37M (Peak 102.37M) | Time:00:00.03 | Mem:0.70M, Peak:0.70M | RENDER, ViewLayer | Updating Images | Loading CF7 | stone | normal
+Fra:0 Mem:80.57M (Peak 102.37M) | Time:00:00.03 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Waiting for render to start
+Fra:0 Mem:80.57M (Peak 102.37M) | Time:00:00.04 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:0 Mem:80.57M (Peak 102.37M) | Time:00:00.04 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Updating Scene
+Fra:0 Mem:80.57M (Peak 102.37M) | Time:00:00.04 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Updating Shaders
+Fra:0 Mem:81.40M (Peak 102.37M) | Time:00:00.04 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Procedurals
+Fra:0 Mem:81.40M (Peak 102.37M) | Time:00:00.04 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Background
+Fra:0 Mem:81.40M (Peak 102.37M) | Time:00:00.04 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Camera
+Fra:0 Mem:81.40M (Peak 102.37M) | Time:00:00.04 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Meshes Flags
+Fra:0 Mem:81.40M (Peak 102.37M) | Time:00:00.04 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Objects
+Fra:0 Mem:81.40M (Peak 102.37M) | Time:00:00.04 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:0 Mem:81.41M (Peak 102.37M) | Time:00:00.04 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:0 Mem:81.41M (Peak 102.37M) | Time:00:00.04 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Particle Systems
+Fra:0 Mem:81.41M (Peak 102.37M) | Time:00:00.04 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:0 Mem:81.41M (Peak 102.37M) | Time:00:00.04 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Meshes
+Fra:0 Mem:81.59M (Peak 102.37M) | Time:00:00.04 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Mesh | Computing attributes
+Fra:0 Mem:82.52M (Peak 102.37M) | Time:00:00.04 | Mem:2.04M, Peak:2.04M | RENDER, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:0 Mem:82.50M (Peak 102.37M) | Time:00:00.04 | Mem:2.93M, Peak:2.93M | RENDER, ViewLayer | Updating Scene BVH | Building
+Fra:0 Mem:82.50M (Peak 102.37M) | Time:00:00.04 | Mem:2.93M, Peak:2.93M | RENDER, ViewLayer | Updating Scene BVH | Building BVH
+Fra:0 Mem:82.50M (Peak 102.37M) | Time:00:00.04 | Mem:3.29M, Peak:3.29M | RENDER, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:0 Mem:82.50M (Peak 102.37M) | Time:00:00.04 | Mem:3.68M, Peak:4.04M | RENDER, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:0 Mem:82.50M (Peak 102.37M) | Time:00:00.04 | Mem:3.68M, Peak:4.04M | RENDER, ViewLayer | Updating Mesh | Computing normals
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.04 | Mem:3.68M, Peak:4.04M | RENDER, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.04 | Mem:4.14M, Peak:4.14M | RENDER, ViewLayer | Updating Objects Flags
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.04 | Mem:4.14M, Peak:4.14M | RENDER, ViewLayer | Updating Primitive Offsets
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.04 | Mem:4.14M, Peak:4.14M | RENDER, ViewLayer | Updating Images
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.04 | Mem:4.14M, Peak:4.14M | RENDER, ViewLayer | Updating Camera Volume
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.04 | Mem:4.14M, Peak:4.14M | RENDER, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.04 | Mem:4.22M, Peak:4.22M | RENDER, ViewLayer | Updating Lights
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.04 | Mem:4.22M, Peak:4.22M | RENDER, ViewLayer | Updating Lights | Computing tree
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.04 | Mem:4.22M, Peak:4.22M | RENDER, ViewLayer | Updating Integrator
+Fra:0 Mem:83.95M (Peak 102.37M) | Time:00:00.04 | Mem:5.22M, Peak:5.22M | RENDER, ViewLayer | Updating Film
+Fra:0 Mem:83.96M (Peak 102.37M) | Time:00:00.04 | Mem:5.14M, Peak:5.22M | RENDER, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:83.96M (Peak 102.37M) | Time:00:00.04 | Mem:5.23M, Peak:5.23M | RENDER, ViewLayer | Updating Baking
+Fra:0 Mem:83.96M (Peak 102.37M) | Time:00:00.04 | Mem:5.23M, Peak:5.23M | RENDER, ViewLayer | Updating Device | Writing constant memory
+Fra:0 Mem:83.96M (Peak 102.37M) | Time:00:00.04 | Mem:5.23M, Peak:5.23M | RENDER, ViewLayer | Sample 0/24
+Fra:0 Mem:84.54M (Peak 102.37M) | Time:00:00.05 | Remaining:00:00.10 | Mem:5.80M, Peak:5.80M | RENDER, ViewLayer | Sample 1/24
+Fra:0 Mem:84.79M (Peak 102.37M) | Time:00:00.13 | Mem:5.80M, Peak:5.80M | RENDER, ViewLayer | Sample 24/24
+Fra:0 Mem:84.79M (Peak 102.37M) | Time:00:00.13 | Mem:5.80M, Peak:5.80M | RENDER, ViewLayer | Finished
+Saved: '/workspace/scratch/a0fcc4188d19/tanks/models/island-survival/blender/production-v10/static-four-view/frames/idle/d00/f000.png'
+Time: 00:00.24 (Saving: 00:00.11)
+
+CAPTURE idle direction=90 frame=0
+Fra:0 Mem:99.70M (Peak 99.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | ash_and_coals
+Fra:0 Mem:99.70M (Peak 99.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_02
+Fra:0 Mem:99.76M (Peak 99.76M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_03
+Fra:0 Mem:99.80M (Peak 99.80M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_04
+Fra:0 Mem:99.83M (Peak 99.83M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_05
+Fra:0 Mem:99.83M (Peak 99.83M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_06
+Fra:0 Mem:99.90M (Peak 99.90M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_07
+Fra:0 Mem:99.90M (Peak 99.90M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_08
+Fra:0 Mem:99.94M (Peak 99.94M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_09
+Fra:0 Mem:99.99M (Peak 99.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_knot
+Fra:0 Mem:99.98M (Peak 99.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_11
+Fra:0 Mem:99.98M (Peak 99.99M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_12
+Fra:0 Mem:100.02M (Peak 100.02M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_grain
+Fra:0 Mem:100.07M (Peak 100.07M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_checks
+Fra:0 Mem:100.07M (Peak 100.07M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_heart
+Fra:0 Mem:100.09M (Peak 100.09M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_13
+Fra:0 Mem:100.08M (Peak 100.09M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_14
+Fra:0 Mem:100.11M (Peak 100.11M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_ring
+Fra:0 Mem:100.14M (Peak 100.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_sapwood
+Fra:0 Mem:100.17M (Peak 100.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_15
+Fra:0 Mem:100.17M (Peak 100.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_00
+Fra:0 Mem:100.18M (Peak 100.18M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_bark
+Fra:0 Mem:100.19M (Peak 100.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_02
+Fra:0 Mem:100.23M (Peak 100.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_03
+Fra:0 Mem:100.26M (Peak 100.26M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_04
+Fra:0 Mem:100.30M (Peak 100.30M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_05
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_06
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_bark
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_sapwood
+Fra:0 Mem:100.36M (Peak 100.36M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_ring
+Fra:0 Mem:100.46M (Peak 100.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_heart
+Fra:0 Mem:100.48M (Peak 100.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_checks
+Fra:0 Mem:100.48M (Peak 100.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_grain
+Fra:0 Mem:100.48M (Peak 100.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_knot
+Fra:0 Mem:100.50M (Peak 100.50M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_bark
+Fra:0 Mem:100.61M (Peak 100.61M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_sapwood
+Fra:0 Mem:100.64M (Peak 100.64M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_ring
+Fra:0 Mem:100.65M (Peak 100.65M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_heart
+Fra:0 Mem:100.65M (Peak 100.65M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_checks
+Fra:0 Mem:100.66M (Peak 100.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_grain
+Fra:0 Mem:100.68M (Peak 100.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_knot
+Fra:0 Mem:100.68M (Peak 100.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_grain
+Fra:0 Mem:100.68M (Peak 100.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_knot
+Fra:0 Mem:100.69M (Peak 100.69M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_bark
+Fra:0 Mem:100.74M (Peak 100.74M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_checks
+Fra:0 Mem:100.80M (Peak 100.80M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_heart
+Fra:0 Mem:100.81M (Peak 100.81M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_sapwood
+Fra:0 Mem:100.82M (Peak 100.82M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_ring
+Fra:0 Mem:100.86M (Peak 100.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_ring
+Fra:0 Mem:100.85M (Peak 100.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_heart
+Fra:0 Mem:100.86M (Peak 100.86M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_sapwood
+Fra:0 Mem:100.87M (Peak 100.87M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_checks
+Fra:0 Mem:100.88M (Peak 100.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_grain
+Fra:0 Mem:100.89M (Peak 100.89M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_knot
+Fra:0 Mem:100.90M (Peak 100.90M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_bark
+Fra:0 Mem:100.91M (Peak 100.91M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_bark
+Fra:0 Mem:101.15M (Peak 101.15M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_sapwood
+Fra:0 Mem:101.17M (Peak 101.17M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_ring
+Fra:0 Mem:101.18M (Peak 101.18M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_heart
+Fra:0 Mem:101.23M (Peak 101.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_checks
+Fra:0 Mem:101.19M (Peak 101.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_grain
+Fra:0 Mem:101.19M (Peak 101.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_knot
+Fra:0 Mem:101.19M (Peak 101.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Initializing
+Fra:0 Mem:100.93M (Peak 101.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Updating Images | Loading CF7 | endgrain | normal
+Fra:0 Mem:100.93M (Peak 101.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Updating Images | Loading CF7 | ash | normal
+Fra:0 Mem:101.80M (Peak 101.80M) | Time:00:00.02 | Mem:0.14M, Peak:0.14M | RENDER, ViewLayer | Updating Images | Loading CF7 | char | albedo
+Fra:0 Mem:101.65M (Peak 101.80M) | Time:00:00.02 | Mem:0.28M, Peak:0.28M | RENDER, ViewLayer | Updating Images | Loading CF7 | char | roughness
+Fra:0 Mem:101.80M (Peak 101.80M) | Time:00:00.02 | Mem:0.42M, Peak:0.42M | RENDER, ViewLayer | Updating Images | Loading CF7 | char | normal
+Fra:0 Mem:101.93M (Peak 101.93M) | Time:00:00.02 | Mem:0.56M, Peak:0.56M | RENDER, ViewLayer | Updating Images | Loading CF7 | bark | normal
+Fra:0 Mem:102.08M (Peak 102.08M) | Time:00:00.02 | Mem:0.70M, Peak:0.70M | RENDER, ViewLayer | Updating Images | Loading CF7 | stone | normal
+Fra:0 Mem:80.57M (Peak 102.08M) | Time:00:00.02 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Waiting for render to start
+Fra:0 Mem:80.57M (Peak 102.08M) | Time:00:00.02 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:0 Mem:80.57M (Peak 102.08M) | Time:00:00.02 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Updating Scene
+Fra:0 Mem:80.57M (Peak 102.08M) | Time:00:00.02 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Updating Shaders
+Fra:0 Mem:81.40M (Peak 102.08M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Procedurals
+Fra:0 Mem:81.40M (Peak 102.08M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Background
+Fra:0 Mem:81.40M (Peak 102.08M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Camera
+Fra:0 Mem:81.40M (Peak 102.08M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Meshes Flags
+Fra:0 Mem:81.40M (Peak 102.08M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Objects
+Fra:0 Mem:81.40M (Peak 102.08M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:0 Mem:81.41M (Peak 102.08M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:0 Mem:81.41M (Peak 102.08M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Particle Systems
+Fra:0 Mem:81.41M (Peak 102.08M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:0 Mem:81.41M (Peak 102.08M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Meshes
+Fra:0 Mem:81.59M (Peak 102.08M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Mesh | Computing attributes
+Fra:0 Mem:82.52M (Peak 102.08M) | Time:00:00.03 | Mem:2.04M, Peak:2.04M | RENDER, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:0 Mem:82.50M (Peak 102.08M) | Time:00:00.03 | Mem:2.93M, Peak:2.93M | RENDER, ViewLayer | Updating Scene BVH | Building
+Fra:0 Mem:82.50M (Peak 102.08M) | Time:00:00.03 | Mem:2.93M, Peak:2.93M | RENDER, ViewLayer | Updating Scene BVH | Building BVH
+Fra:0 Mem:82.50M (Peak 102.08M) | Time:00:00.03 | Mem:3.72M, Peak:4.08M | RENDER, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:0 Mem:82.50M (Peak 102.08M) | Time:00:00.03 | Mem:3.72M, Peak:4.08M | RENDER, ViewLayer | Updating Mesh | Computing normals
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:3.72M, Peak:4.08M | RENDER, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Objects Flags
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Primitive Offsets
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Images
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Camera Volume
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.26M, Peak:4.26M | RENDER, ViewLayer | Updating Lights
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.26M, Peak:4.26M | RENDER, ViewLayer | Updating Lights | Computing tree
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.26M, Peak:4.26M | RENDER, ViewLayer | Updating Integrator
+Fra:0 Mem:83.95M (Peak 102.08M) | Time:00:00.03 | Mem:5.26M, Peak:5.26M | RENDER, ViewLayer | Updating Film
+Fra:0 Mem:83.96M (Peak 102.08M) | Time:00:00.03 | Mem:5.18M, Peak:5.26M | RENDER, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:83.96M (Peak 102.08M) | Time:00:00.03 | Mem:5.26M, Peak:5.26M | RENDER, ViewLayer | Updating Baking
+Fra:0 Mem:83.96M (Peak 102.08M) | Time:00:00.03 | Mem:5.26M, Peak:5.26M | RENDER, ViewLayer | Updating Device | Writing constant memory
+Fra:0 Mem:83.96M (Peak 102.08M) | Time:00:00.03 | Mem:5.26M, Peak:5.26M | RENDER, ViewLayer | Sample 0/24
+Fra:0 Mem:84.54M (Peak 102.08M) | Time:00:00.04 | Remaining:00:00.11 | Mem:5.84M, Peak:5.84M | RENDER, ViewLayer | Sample 1/24
+Fra:0 Mem:84.79M (Peak 102.08M) | Time:00:00.13 | Mem:5.84M, Peak:5.84M | RENDER, ViewLayer | Sample 24/24
+Fra:0 Mem:84.79M (Peak 102.08M) | Time:00:00.13 | Mem:5.84M, Peak:5.84M | RENDER, ViewLayer | Finished
+Saved: '/workspace/scratch/a0fcc4188d19/tanks/models/island-survival/blender/production-v10/static-four-view/frames/idle/d01/f000.png'
+Time: 00:00.14 (Saving: 00:00.00)
+
+CAPTURE idle direction=180 frame=0
+Fra:0 Mem:99.70M (Peak 99.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | ash_and_coals
+Fra:0 Mem:99.70M (Peak 99.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_02
+Fra:0 Mem:99.76M (Peak 99.76M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_03
+Fra:0 Mem:99.80M (Peak 99.80M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_04
+Fra:0 Mem:99.82M (Peak 99.82M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_05
+Fra:0 Mem:99.84M (Peak 99.84M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_06
+Fra:0 Mem:99.88M (Peak 99.88M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_07
+Fra:0 Mem:99.92M (Peak 99.92M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_08
+Fra:0 Mem:99.95M (Peak 99.95M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_09
+Fra:0 Mem:99.96M (Peak 99.96M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_10
+Fra:0 Mem:100.00M (Peak 100.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_knot
+Fra:0 Mem:100.00M (Peak 100.00M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_11
+Fra:0 Mem:100.03M (Peak 100.03M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_grain
+Fra:0 Mem:100.05M (Peak 100.05M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_checks
+Fra:0 Mem:100.05M (Peak 100.05M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_12
+Fra:0 Mem:100.05M (Peak 100.05M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_13
+Fra:0 Mem:100.06M (Peak 100.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_heart
+Fra:0 Mem:100.10M (Peak 100.10M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_14
+Fra:0 Mem:100.13M (Peak 100.13M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_ring
+Fra:0 Mem:100.14M (Peak 100.14M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_sapwood
+Fra:0 Mem:100.16M (Peak 100.16M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_15
+Fra:0 Mem:100.19M (Peak 100.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_bark
+Fra:0 Mem:100.23M (Peak 100.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_00
+Fra:0 Mem:100.25M (Peak 100.25M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_01
+Fra:0 Mem:100.31M (Peak 100.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_02
+Fra:0 Mem:100.31M (Peak 100.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_03
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_04
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_05
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_06
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_bark
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_sapwood
+Fra:0 Mem:100.40M (Peak 100.40M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_ring
+Fra:0 Mem:100.46M (Peak 100.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_heart
+Fra:0 Mem:100.48M (Peak 100.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_checks
+Fra:0 Mem:100.48M (Peak 100.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_grain
+Fra:0 Mem:100.49M (Peak 100.49M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_knot
+Fra:0 Mem:100.50M (Peak 100.50M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_bark
+Fra:0 Mem:100.56M (Peak 100.56M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_sapwood
+Fra:0 Mem:100.64M (Peak 100.64M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_knot
+Fra:0 Mem:100.64M (Peak 100.64M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_ring
+Fra:0 Mem:100.64M (Peak 100.64M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_grain
+Fra:0 Mem:100.66M (Peak 100.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_checks
+Fra:0 Mem:100.66M (Peak 100.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_heart
+Fra:0 Mem:100.66M (Peak 100.66M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_heart
+Fra:0 Mem:100.67M (Peak 100.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_ring
+Fra:0 Mem:100.68M (Peak 100.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_checks
+Fra:0 Mem:100.68M (Peak 100.68M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_grain
+Fra:0 Mem:100.70M (Peak 100.70M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_sapwood
+Fra:0 Mem:100.72M (Peak 100.72M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_knot
+Fra:0 Mem:100.72M (Peak 100.72M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_bark
+Fra:0 Mem:100.72M (Peak 100.72M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_bark
+Fra:0 Mem:100.97M (Peak 100.97M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_sapwood
+Fra:0 Mem:101.03M (Peak 101.03M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_ring
+Fra:0 Mem:101.00M (Peak 101.03M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_heart
+Fra:0 Mem:101.00M (Peak 101.03M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_checks
+Fra:0 Mem:101.00M (Peak 101.03M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_grain
+Fra:0 Mem:101.02M (Peak 101.03M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_knot
+Fra:0 Mem:101.03M (Peak 101.03M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_bark
+Fra:0 Mem:101.19M (Peak 101.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_sapwood
+Fra:0 Mem:101.16M (Peak 101.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_ring
+Fra:0 Mem:101.23M (Peak 101.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_heart
+Fra:0 Mem:101.18M (Peak 101.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_knot
+Fra:0 Mem:101.19M (Peak 101.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_grain
+Fra:0 Mem:101.19M (Peak 101.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Initializing
+Fra:0 Mem:100.93M (Peak 101.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Updating Images | Loading CF7 | endgrain | normal
+Fra:0 Mem:100.93M (Peak 101.23M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Updating Images | Loading CF7 | ash | roughness
+Fra:0 Mem:101.51M (Peak 101.51M) | Time:00:00.02 | Mem:0.14M, Peak:0.14M | RENDER, ViewLayer | Updating Images | Loading CF7 | char | albedo
+Fra:0 Mem:101.65M (Peak 101.65M) | Time:00:00.02 | Mem:0.28M, Peak:0.28M | RENDER, ViewLayer | Updating Images | Loading CF7 | char | roughness
+Fra:0 Mem:101.79M (Peak 101.79M) | Time:00:00.02 | Mem:0.42M, Peak:0.42M | RENDER, ViewLayer | Updating Images | Loading CF7 | char | normal
+Fra:0 Mem:101.93M (Peak 101.93M) | Time:00:00.02 | Mem:0.56M, Peak:0.56M | RENDER, ViewLayer | Updating Images | Loading CF7 | bark | normal
+Fra:0 Mem:102.37M (Peak 102.37M) | Time:00:00.02 | Mem:0.70M, Peak:0.70M | RENDER, ViewLayer | Updating Images | Loading CF7 | stone | normal
+Fra:0 Mem:80.57M (Peak 102.37M) | Time:00:00.03 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Waiting for render to start
+Fra:0 Mem:80.57M (Peak 102.37M) | Time:00:00.03 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:0 Mem:80.57M (Peak 102.37M) | Time:00:00.03 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Updating Scene
+Fra:0 Mem:80.57M (Peak 102.37M) | Time:00:00.03 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Updating Shaders
+Fra:0 Mem:81.40M (Peak 102.37M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Procedurals
+Fra:0 Mem:81.40M (Peak 102.37M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Background
+Fra:0 Mem:81.40M (Peak 102.37M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Camera
+Fra:0 Mem:81.40M (Peak 102.37M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Meshes Flags
+Fra:0 Mem:81.40M (Peak 102.37M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Objects
+Fra:0 Mem:81.40M (Peak 102.37M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:0 Mem:81.41M (Peak 102.37M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:0 Mem:81.41M (Peak 102.37M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Particle Systems
+Fra:0 Mem:81.41M (Peak 102.37M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:0 Mem:81.41M (Peak 102.37M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Meshes
+Fra:0 Mem:81.59M (Peak 102.37M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Mesh | Computing attributes
+Fra:0 Mem:82.52M (Peak 102.37M) | Time:00:00.03 | Mem:2.04M, Peak:2.04M | RENDER, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:0 Mem:82.50M (Peak 102.37M) | Time:00:00.03 | Mem:2.93M, Peak:2.93M | RENDER, ViewLayer | Updating Scene BVH | Building
+Fra:0 Mem:82.50M (Peak 102.37M) | Time:00:00.03 | Mem:2.93M, Peak:2.93M | RENDER, ViewLayer | Updating Scene BVH | Building BVH
+Fra:0 Mem:82.50M (Peak 102.37M) | Time:00:00.03 | Mem:3.29M, Peak:3.29M | RENDER, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:0 Mem:82.50M (Peak 102.37M) | Time:00:00.03 | Mem:3.72M, Peak:4.08M | RENDER, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:0 Mem:82.50M (Peak 102.37M) | Time:00:00.03 | Mem:3.72M, Peak:4.08M | RENDER, ViewLayer | Updating Mesh | Computing normals
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.03 | Mem:3.72M, Peak:4.08M | RENDER, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Objects Flags
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Primitive Offsets
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Images
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Camera Volume
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.03 | Mem:4.26M, Peak:4.26M | RENDER, ViewLayer | Updating Lights
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.03 | Mem:4.26M, Peak:4.26M | RENDER, ViewLayer | Updating Lights | Computing tree
+Fra:0 Mem:82.95M (Peak 102.37M) | Time:00:00.03 | Mem:4.26M, Peak:4.26M | RENDER, ViewLayer | Updating Integrator
+Fra:0 Mem:83.95M (Peak 102.37M) | Time:00:00.03 | Mem:5.26M, Peak:5.26M | RENDER, ViewLayer | Updating Film
+Fra:0 Mem:83.96M (Peak 102.37M) | Time:00:00.03 | Mem:5.18M, Peak:5.26M | RENDER, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:83.96M (Peak 102.37M) | Time:00:00.03 | Mem:5.26M, Peak:5.26M | RENDER, ViewLayer | Updating Baking
+Fra:0 Mem:83.96M (Peak 102.37M) | Time:00:00.03 | Mem:5.26M, Peak:5.26M | RENDER, ViewLayer | Updating Device | Writing constant memory
+Fra:0 Mem:83.96M (Peak 102.37M) | Time:00:00.03 | Mem:5.26M, Peak:5.26M | RENDER, ViewLayer | Sample 0/24
+Fra:0 Mem:84.54M (Peak 102.37M) | Time:00:00.04 | Remaining:00:00.12 | Mem:5.84M, Peak:5.84M | RENDER, ViewLayer | Sample 1/24
+Fra:0 Mem:84.79M (Peak 102.37M) | Time:00:00.14 | Mem:5.84M, Peak:5.84M | RENDER, ViewLayer | Sample 24/24
+Fra:0 Mem:84.79M (Peak 102.37M) | Time:00:00.14 | Mem:5.84M, Peak:5.84M | RENDER, ViewLayer | Finished
+Saved: '/workspace/scratch/a0fcc4188d19/tanks/models/island-survival/blender/production-v10/static-four-view/frames/idle/d02/f000.png'
+Time: 00:00.15 (Saving: 00:00.00)
+
+CAPTURE idle direction=270 frame=0
+Fra:0 Mem:99.70M (Peak 99.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | ash_and_coals
+Fra:0 Mem:99.70M (Peak 99.70M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_02
+Fra:0 Mem:99.76M (Peak 99.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_03
+Fra:0 Mem:99.80M (Peak 99.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_04
+Fra:0 Mem:99.81M (Peak 99.81M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_05
+Fra:0 Mem:99.86M (Peak 99.86M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_06
+Fra:0 Mem:99.87M (Peak 99.87M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_07
+Fra:0 Mem:99.92M (Peak 99.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_knot
+Fra:0 Mem:99.92M (Peak 99.92M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_09
+Fra:0 Mem:99.96M (Peak 99.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_10
+Fra:0 Mem:99.98M (Peak 99.98M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_grain
+Fra:0 Mem:100.01M (Peak 100.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_checks
+Fra:0 Mem:100.01M (Peak 100.01M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_heart
+Fra:0 Mem:100.02M (Peak 100.02M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_11
+Fra:0 Mem:100.04M (Peak 100.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_ring
+Fra:0 Mem:100.06M (Peak 100.06M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_12
+Fra:0 Mem:100.07M (Peak 100.07M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_end_sapwood
+Fra:0 Mem:100.07M (Peak 100.07M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_14
+Fra:0 Mem:100.16M (Peak 100.16M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_charred_twig_bark
+Fra:0 Mem:100.28M (Peak 100.28M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | stone_15
+Fra:0 Mem:100.31M (Peak 100.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_00
+Fra:0 Mem:100.31M (Peak 100.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_01
+Fra:0 Mem:100.31M (Peak 100.31M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_02
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_03
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_04
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_05
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | coal_06
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_bark
+Fra:0 Mem:100.32M (Peak 100.32M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_sapwood
+Fra:0 Mem:100.36M (Peak 100.36M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_ring
+Fra:0 Mem:100.46M (Peak 100.46M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_heart
+Fra:0 Mem:100.48M (Peak 100.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_end_checks
+Fra:0 Mem:100.48M (Peak 100.48M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_grain
+Fra:0 Mem:100.50M (Peak 100.50M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_lower_west_east_knot
+Fra:0 Mem:100.50M (Peak 100.50M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_bark
+Fra:0 Mem:100.54M (Peak 100.54M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_sapwood
+Fra:0 Mem:100.67M (Peak 100.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_ring
+Fra:0 Mem:100.65M (Peak 100.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_knot
+Fra:0 Mem:100.65M (Peak 100.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_grain
+Fra:0 Mem:100.66M (Peak 100.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_heart
+Fra:0 Mem:100.66M (Peak 100.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_checks
+Fra:0 Mem:100.66M (Peak 100.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_heart
+Fra:0 Mem:100.67M (Peak 100.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_end_checks
+Fra:0 Mem:100.67M (Peak 100.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_grain
+Fra:0 Mem:100.67M (Peak 100.67M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_ring
+Fra:0 Mem:100.71M (Peak 100.71M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_end_sapwood
+Fra:0 Mem:100.72M (Peak 100.72M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_upper_diagonal_knot
+Fra:0 Mem:100.72M (Peak 100.72M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_bark
+Fra:0 Mem:100.76M (Peak 100.76M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_right_bark
+Fra:0 Mem:100.97M (Peak 100.97M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_sapwood
+Fra:0 Mem:100.98M (Peak 100.98M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_ring
+Fra:0 Mem:101.04M (Peak 101.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_end_heart
+Fra:0 Mem:101.00M (Peak 101.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_knot
+Fra:0 Mem:101.00M (Peak 101.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_grain
+Fra:0 Mem:101.01M (Peak 101.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_grain
+Fra:0 Mem:101.02M (Peak 101.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_checks
+Fra:0 Mem:101.03M (Peak 101.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_rear_ember_log_knot
+Fra:0 Mem:101.04M (Peak 101.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_heart
+Fra:0 Mem:101.04M (Peak 101.04M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_bark
+Fra:0 Mem:101.11M (Peak 101.11M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_ring
+Fra:0 Mem:101.13M (Peak 101.13M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Synchronizing object | cross_log_kindling_left_end_sapwood
+Fra:0 Mem:101.19M (Peak 101.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Initializing
+Fra:0 Mem:100.93M (Peak 101.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Updating Images | Loading CF7 | endgrain | normal
+Fra:0 Mem:100.93M (Peak 101.19M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | RENDER, ViewLayer | Updating Images | Loading CF7 | ash | normal
+Fra:0 Mem:101.80M (Peak 101.80M) | Time:00:00.02 | Mem:0.14M, Peak:0.14M | RENDER, ViewLayer | Updating Images | Loading CF7 | char | albedo
+Fra:0 Mem:101.65M (Peak 101.80M) | Time:00:00.02 | Mem:0.28M, Peak:0.28M | RENDER, ViewLayer | Updating Images | Loading CF7 | char | roughness
+Fra:0 Mem:101.80M (Peak 101.80M) | Time:00:00.02 | Mem:0.42M, Peak:0.42M | RENDER, ViewLayer | Updating Images | Loading CF7 | char | normal
+Fra:0 Mem:101.94M (Peak 101.94M) | Time:00:00.02 | Mem:0.56M, Peak:0.56M | RENDER, ViewLayer | Updating Images | Loading CF7 | bark | normal
+Fra:0 Mem:102.08M (Peak 102.08M) | Time:00:00.02 | Mem:0.70M, Peak:0.70M | RENDER, ViewLayer | Updating Images | Loading CF7 | stone | normal
+Fra:0 Mem:80.57M (Peak 102.08M) | Time:00:00.03 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Waiting for render to start
+Fra:0 Mem:80.57M (Peak 102.08M) | Time:00:00.03 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:0 Mem:80.57M (Peak 102.08M) | Time:00:00.03 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Updating Scene
+Fra:0 Mem:80.57M (Peak 102.08M) | Time:00:00.03 | Mem:1.27M, Peak:1.27M | RENDER, ViewLayer | Updating Shaders
+Fra:0 Mem:81.40M (Peak 102.08M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Procedurals
+Fra:0 Mem:81.40M (Peak 102.08M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Background
+Fra:0 Mem:81.40M (Peak 102.08M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Camera
+Fra:0 Mem:81.40M (Peak 102.08M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Meshes Flags
+Fra:0 Mem:81.40M (Peak 102.08M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Objects
+Fra:0 Mem:81.40M (Peak 102.08M) | Time:00:00.03 | Mem:2.01M, Peak:2.01M | RENDER, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:0 Mem:81.41M (Peak 102.08M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:0 Mem:81.41M (Peak 102.08M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Particle Systems
+Fra:0 Mem:81.41M (Peak 102.08M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:0 Mem:81.41M (Peak 102.08M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Meshes
+Fra:0 Mem:81.59M (Peak 102.08M) | Time:00:00.03 | Mem:2.03M, Peak:2.03M | RENDER, ViewLayer | Updating Mesh | Computing attributes
+Fra:0 Mem:82.52M (Peak 102.08M) | Time:00:00.03 | Mem:2.04M, Peak:2.04M | RENDER, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:0 Mem:82.50M (Peak 102.08M) | Time:00:00.03 | Mem:2.93M, Peak:2.93M | RENDER, ViewLayer | Updating Scene BVH | Building
+Fra:0 Mem:82.50M (Peak 102.08M) | Time:00:00.03 | Mem:2.93M, Peak:2.93M | RENDER, ViewLayer | Updating Scene BVH | Building BVH
+Fra:0 Mem:82.50M (Peak 102.08M) | Time:00:00.03 | Mem:3.72M, Peak:4.08M | RENDER, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:0 Mem:82.50M (Peak 102.08M) | Time:00:00.03 | Mem:3.72M, Peak:4.08M | RENDER, ViewLayer | Updating Mesh | Computing normals
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:3.72M, Peak:4.08M | RENDER, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Objects Flags
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Primitive Offsets
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Images
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Camera Volume
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.17M, Peak:4.17M | RENDER, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.26M, Peak:4.26M | RENDER, ViewLayer | Updating Lights
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.26M, Peak:4.26M | RENDER, ViewLayer | Updating Lights | Computing tree
+Fra:0 Mem:82.95M (Peak 102.08M) | Time:00:00.03 | Mem:4.26M, Peak:4.26M | RENDER, ViewLayer | Updating Integrator
+Fra:0 Mem:83.95M (Peak 102.08M) | Time:00:00.03 | Mem:5.26M, Peak:5.26M | RENDER, ViewLayer | Updating Film
+Fra:0 Mem:83.96M (Peak 102.08M) | Time:00:00.03 | Mem:5.18M, Peak:5.26M | RENDER, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:83.96M (Peak 102.08M) | Time:00:00.03 | Mem:5.26M, Peak:5.26M | RENDER, ViewLayer | Updating Baking
+Fra:0 Mem:83.96M (Peak 102.08M) | Time:00:00.03 | Mem:5.26M, Peak:5.26M | RENDER, ViewLayer | Updating Device | Writing constant memory
+Fra:0 Mem:83.96M (Peak 102.08M) | Time:00:00.03 | Mem:5.26M, Peak:5.26M | RENDER, ViewLayer | Sample 0/24
+Fra:0 Mem:84.54M (Peak 102.08M) | Time:00:00.04 | Remaining:00:00.12 | Mem:5.84M, Peak:5.84M | RENDER, ViewLayer | Sample 1/24
+Fra:0 Mem:84.79M (Peak 102.08M) | Time:00:00.14 | Mem:5.84M, Peak:5.84M | RENDER, ViewLayer | Sample 24/24
+Fra:0 Mem:84.79M (Peak 102.08M) | Time:00:00.14 | Mem:5.84M, Peak:5.84M | RENDER, ViewLayer | Finished
+Saved: '/workspace/scratch/a0fcc4188d19/tanks/models/island-survival/blender/production-v10/static-four-view/frames/idle/d03/f000.png'
+Time: 00:00.14 (Saving: 00:00.00)
+
+Info: Saved "master.blend"
+
+Blender quit

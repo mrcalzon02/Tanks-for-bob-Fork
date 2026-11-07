@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "blender": "4.3.2",
+  "checks": [
+    "saved master SHA256",
+    "MODEL/RENDER scenes",
+    "frozen camera and daylight",
+    "mesh count",
+    "packed image maps",
+    "transparent RGBA",
+    "15 matte stone materials",
+    "42 editable wood objects",
+    "6 keyed flames",
+    "frame 0 natural wood / frame 13 charred wood",
+    "cold/fire visibility"
+  ]
+}

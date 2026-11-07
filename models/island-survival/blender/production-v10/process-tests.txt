@@ -1,0 +1,19 @@
+test_bad_config_rejected (test_export_sprites.ExportIntegrity.test_bad_config_rejected) ... ok
+test_clipping_rejected (test_export_sprites.ExportIntegrity.test_clipping_rejected) ... ok
+test_corrupt_frame_rejected (test_export_sprites.ExportIntegrity.test_corrupt_frame_rejected) ... ok
+test_duplicate_animation_rejected (test_export_sprites.ExportIntegrity.test_duplicate_animation_rejected) ... ok
+test_missing_frame_rejected (test_export_sprites.ExportIntegrity.test_missing_frame_rejected) ... ok
+test_opaque_rectangle_rejected (test_export_sprites.ExportIntegrity.test_opaque_rectangle_rejected) ... ok
+test_reordered_frame_rejected (test_export_sprites.ExportIntegrity.test_reordered_frame_rejected) ... ok
+test_static_and_animated_multiple_directions_roundtrip (test_export_sprites.ExportIntegrity.test_static_and_animated_multiple_directions_roundtrip) ... ok
+test_all_pending_is_valid_plan_not_export (test_validate_export_checklist.ChecklistAuditTests.test_all_pending_is_valid_plan_not_export) ... ok
+test_bad_state_detected (test_validate_export_checklist.ChecklistAuditTests.test_bad_state_detected) ... ok
+test_complete_with_evidence_is_structurally_publish_ready (test_validate_export_checklist.ChecklistAuditTests.test_complete_with_evidence_is_structurally_publish_ready) ... ok
+test_duplicate_and_missing_gates_fail (test_validate_export_checklist.ChecklistAuditTests.test_duplicate_and_missing_gates_fail) ... ok
+test_not_applicable_needs_reason (test_validate_export_checklist.ChecklistAuditTests.test_not_applicable_needs_reason) ... ok
+test_pass_needs_evidence (test_validate_export_checklist.ChecklistAuditTests.test_pass_needs_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.026s
+
+OK

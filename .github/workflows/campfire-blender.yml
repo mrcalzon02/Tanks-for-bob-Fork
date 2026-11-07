@@ -7,6 +7,7 @@ on:
       - 'models/island-survival/blender/*.py'
       - '.github/workflows/campfire-blender.yml'
       - 'tools/art/*.py'
+      - 'tools/art/profiles/*.json'
       - 'docs/art/FACTORIO_PRODUCTION_*'
       - 'models/island-survival/blender/CAMPFIRE_PRODUCTION_EXPORT_CHECKLIST.md'
   workflow_dispatch:
@@ -23,6 +24,11 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
+      - name: Install Blender and image tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+          blender --version | head -3
       - name: Validate versioned sprite-export work order
         run: |
           python3 -m unittest discover -s tools/art -p 'test_*.py' -v
@@ -31,11 +37,6 @@ jobs:
             --require plan
           # 'plan' verifies the ledger; export/publish remain separately gated
           # until their actual Blender/Factorio/approval evidence is entered.
-      - name: Install Blender
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y blender
-          blender --version | head -3
       - name: Reconstruct V6 physical geometry
         run: |
           python3 models/island-survival/blender/rebuild_campfire_v6.py \
@@ -102,6 +103,21 @@ jobs:
           assert (p/'campfire-v9-idle-natural-wood.png').read_bytes() != (p/'campfire-v9-char-only-study.png').read_bytes(), 'Char-only material change is invisible'
           assert (p/'campfire-v9-burning-charred-core.png').read_bytes() != (p/'campfire-v9-char-only-study.png').read_bytes(), 'Char-only study still shows flames'
           PY
+      - name: Export and reopen verified Blender sprite atlases
+        run: |
+          sudo apt-get install -y python3-pil
+          /usr/bin/python3 tools/art/export_sprites.py \
+            --config tools/art/profiles/campfire.json --out /tmp/campfire-production
+          /usr/bin/python3 tools/art/export_sprites.py \
+            --config tools/art/profiles/campfire-static-four-view.json --out /tmp/campfire-static
+      - name: Publish verified sprite export evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: campfire-blender-sprite-export
+          path: |
+            /tmp/campfire-production/
+            /tmp/campfire-static/
+          if-no-files-found: error
       - name: Publish Blender artifact archive
         uses: actions/upload-artifact@v4
         with:

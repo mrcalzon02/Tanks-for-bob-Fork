@@ -1,0 +1,784 @@
+{
+  "schema": 1,
+  "source_sha256": "2d9ea5210ab612b231f0194aaf1c2c84b17d84c4f500f6970645e4bdc0a67b01",
+  "source_file": "campfire-v9-animated.blend",
+  "blender": "4.3.2",
+  "config": {
+    "schema": 1,
+    "asset": "campfire",
+    "source": "../../../models/island-survival/blender/generated-v9/campfire-v9-animated.blend",
+    "adapter": "campfire-matte-stones",
+    "source_size": 256,
+    "sizes": [
+      64,
+      128,
+      256
+    ],
+    "samples": 24,
+    "seed": 5855,
+    "columns": 8,
+    "fps": 8,
+    "directions": [
+      0
+    ],
+    "pivot": [
+      0,
+      0,
+      0
+    ],
+    "exclude_rotation": [
+      "Ground | shadow catcher"
+    ],
+    "hide_render": [
+      "Ground | shadow catcher"
+    ],
+    "animated_lights": [
+      "04 | animated fire light"
+    ],
+    "states": {
+      "idle": [
+        0
+      ],
+      "burning": [
+        1,
+        7,
+        13,
+        19,
+        25,
+        31,
+        37,
+        43,
+        49,
+        55,
+        61,
+        67,
+        73,
+        79,
+        85,
+        91
+      ]
+    }
+  },
+  "camera": {
+    "name": "Factorio render camera",
+    "matrix_world": [
+      [
+        0.8201269507408142,
+        -0.3067632019519806,
+        0.4829990863800049,
+        3.0
+      ],
+      [
+        0.5721815824508667,
+        0.4396938979625702,
+        -0.6922987103462219,
+        -4.300000190734863
+      ],
+      [
+        1.6274427139251202e-08,
+        0.8441359996795654,
+        0.5361290574073792,
+        3.700000047683716
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 2.6500000953674316,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      256,
+      256
+    ]
+  },
+  "daylight": [
+    {
+      "name": "01 | NW warm key | broad source",
+      "type": "AREA",
+      "energy": 550.0,
+      "color": [
+        1.0,
+        0.9100000262260437,
+        0.7699999809265137
+      ],
+      "matrix_world": [
+        [
+          0.8045740723609924,
+          0.4379461407661438,
+          -0.40107816457748413,
+          -3.0999999046325684
+        ],
+        [
+          -0.5938522815704346,
+          0.5933464169502258,
+          -0.5433962941169739,
+          -4.199999809265137
+        ],
+        [
+          -1.1994124804459716e-08,
+          0.6753837466239929,
+          0.7374664545059204,
+          6.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "02 | SE cool fill | restrained",
+      "type": "AREA",
+      "energy": 180.0,
+      "color": [
+        0.699999988079071,
+        0.8299999833106995,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          0.25449317693710327,
+          -0.6722847819328308,
+          0.6951736807823181,
+          3.799999952316284
+        ],
+        [
+          0.9670745730400085,
+          0.17691682279109955,
+          -0.18294045329093933,
+          -1.0
+        ],
+        [
+          1.647251934855376e-07,
+          0.7188418507575989,
+          0.6951736211776733,
+          4.099999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "03 | rear edge light",
+      "type": "AREA",
+      "energy": 270.0,
+      "color": [
+        1.0,
+        0.9100000262260437,
+        0.7900000214576721
+      ],
+      "matrix_world": [
+        [
+          -0.9539936780929565,
+          -0.19708167016506195,
+          0.22595323622226715,
+          1.100000023841858
+        ],
+        [
+          0.2998266816139221,
+          -0.6270776987075806,
+          0.7189419269561768,
+          3.5
+        ],
+        [
+          -4.7549516324352226e-08,
+          0.7536128759384155,
+          0.6573184728622437,
+          3.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "world": {
+    "name": "World",
+    "color_management": {
+      "view_transform": "AgX",
+      "look": "None",
+      "exposure": 0.0,
+      "gamma": 1.0
+    }
+  },
+  "material_changes": [
+    {
+      "material": "CF8 | stone 01 | stone_01",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 02 | stone_02",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 03 | stone_03",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 04 | stone_04",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 05 | stone_05",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 06 | stone_06",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 07 | stone_07",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 08 | stone_08",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 09 | stone_09",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 10 | stone_10",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 11 | stone_11",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 12 | stone_12",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 13 | stone_13",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 14 | stone_14",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 15 | stone_15",
+      "before": {
+        "Roughness": {
+          "value": 0.5,
+          "linked": true
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.5,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    }
+  ],
+  "mesh_count": 72,
+  "master_sha256": "7ddee7f10382f16e7c312740d67e8715deaf99026a0ba2e10b1c8f229578f2e6",
+  "frames": [
+    {
+      "state": "idle",
+      "direction": 0,
+      "angle": 0,
+      "index": 0,
+      "timeline_frame": 0,
+      "path": "frames/idle/d00/f000.png",
+      "sha256": "db2193b1dd6bafa68e6408b7b6482d51965c791ab81db623e19a89e45c878856"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 0,
+      "timeline_frame": 1,
+      "path": "frames/burning/d00/f000.png",
+      "sha256": "ce6b3d021dd2b08975d5ed77f797649e93882499f965e662272ea5c262daa795"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 1,
+      "timeline_frame": 7,
+      "path": "frames/burning/d00/f001.png",
+      "sha256": "f09ed03dd7155517e09a456509d64c7489fd6e38124fe3992bdae1bd8c4252ac"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 2,
+      "timeline_frame": 13,
+      "path": "frames/burning/d00/f002.png",
+      "sha256": "86a55551b1656c1d165e3e5adfb5602f849a16e0fc1ea9bb256ae1f0c378004b"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 3,
+      "timeline_frame": 19,
+      "path": "frames/burning/d00/f003.png",
+      "sha256": "c393630e1031ac4e3970026b73b11c80136b751f252e330e75b9488005122799"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 4,
+      "timeline_frame": 25,
+      "path": "frames/burning/d00/f004.png",
+      "sha256": "0b12292ef01940f88ee4110963ca7e30e3ec85ad6b720b89eba2cb285578b6c9"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 5,
+      "timeline_frame": 31,
+      "path": "frames/burning/d00/f005.png",
+      "sha256": "34d8d313d538f5cdc9d2fdfd338004ae40aacab248f3abaefb26febaa537e4ca"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 6,
+      "timeline_frame": 37,
+      "path": "frames/burning/d00/f006.png",
+      "sha256": "2d68269067c6788ee0a583f227a1e680cead6b4d34007ade1637079cf6eb01a6"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 7,
+      "timeline_frame": 43,
+      "path": "frames/burning/d00/f007.png",
+      "sha256": "8e9d06777672b52de4927447a38d5baa722535133b23124a82523e54c6273ebf"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 8,
+      "timeline_frame": 49,
+      "path": "frames/burning/d00/f008.png",
+      "sha256": "2b04b143ded79e57d45453cfeb4ba85f8567aa3c7bb2e58ea959f9067d2325e2"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 9,
+      "timeline_frame": 55,
+      "path": "frames/burning/d00/f009.png",
+      "sha256": "775507d4fe4f95b23eb12c2be3f8f08a8f090bf24456a880e355cef0a8a38daf"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 10,
+      "timeline_frame": 61,
+      "path": "frames/burning/d00/f010.png",
+      "sha256": "a861a5e1484795f322f4b43cb99ee19902970bb9b46d02fd73be0a52bd6ae5cf"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 11,
+      "timeline_frame": 67,
+      "path": "frames/burning/d00/f011.png",
+      "sha256": "271ac815c1f0db0074ef0a758b6eb4cce1f9269f15fab69f6f1f79342038c312"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 12,
+      "timeline_frame": 73,
+      "path": "frames/burning/d00/f012.png",
+      "sha256": "5ea9db3b8f5c99dfd39ff6ce95c5b03e71a561761910456f7b6f77e2eff5b09b"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 13,
+      "timeline_frame": 79,
+      "path": "frames/burning/d00/f013.png",
+      "sha256": "dfcfd1f4202eb2437428f90ac075789420c163c9dc7e1cc40da40e6efd46252f"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 14,
+      "timeline_frame": 85,
+      "path": "frames/burning/d00/f014.png",
+      "sha256": "be42e04b18e85f44f41ef2b7913aac028918c9c40cb586bba80b5d4038efb89a"
+    },
+    {
+      "state": "burning",
+      "direction": 0,
+      "angle": 0,
+      "index": 15,
+      "timeline_frame": 91,
+      "path": "frames/burning/d00/f015.png",
+      "sha256": "37944a97be5934ff5a7051b0830c185ad15e5035b437de2b07ce36428b504497"
+    }
+  ],
+  "art_accepted": false,
+  "engine_integration": "outside Blender-only scope"
+}
