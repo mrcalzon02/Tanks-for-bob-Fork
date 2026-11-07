@@ -1,0 +1,81 @@
+name: Clay Pit V4c | Factorio 2.1 live production release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/art/build_clay_pit_21_release.py'
+      - 'tools/art/publish_clay_pit_21_release.py'
+      - '.github/workflows/clay-pit-v4c-factorio-21-release.yml'
+      - 'docs/releases/v1.8.97.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: clay-pit-v4c-factorio-21-release
+  cancel-in-progress: false
+
+jobs:
+  verify-and-release:
+    name: Publish V4c to Factorio Mod Portal after real 2.1 load
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install image conversion dependency
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y python3-pil
+      - name: Rebuild proven Factorio 2.1 base 1.8.96 (preserve all accepted campfire content)
+        run: |
+          python3 tools/art/build_accepted_campfire_21.py --output /tmp/tanks-base-21
+      - name: Package the 68 existing Clay Pit V4c Blender renders as version 1.8.97
+        run: |
+          /usr/bin/python3 tools/art/build_clay_pit_21_release.py \
+            --base /tmp/tanks-base-21/tanks_for_bob_fork_1.8.96.zip \
+            --output /tmp/tanks-clay-v4c-21
+      - name: Download official Factorio 2.1.23 headless engine
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/engine"
+          curl --fail --location --retry 3 \
+            --output "$RUNNER_TEMP/engine/factorio.tar.xz" \
+            'https://factorio.com/get-download/2.1.23/headless/linux64'
+          tar -xJf "$RUNNER_TEMP/engine/factorio.tar.xz" -C "$RUNNER_TEMP/engine"
+          "$RUNNER_TEMP/engine/factorio/bin/x64/factorio" --version | tee /tmp/tanks-clay-v4c-21/engine-version.txt
+          grep -Fq '2.1.23' /tmp/tanks-clay-v4c-21/engine-version.txt
+      - name: Required real-engine mod load and brief simulation
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/mods"
+          cp /tmp/tanks-clay-v4c-21/tanks_for_bob_fork_1.8.97.zip "$RUNNER_TEMP/mods/"
+          python3 - <<'PY'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['RUNNER_TEMP'])/'mods'/'mod-list.json'
+          p.write_text(json.dumps({'mods':[{'name':'base','enabled':True},
+            {'name':'tanks_for_bob_fork','enabled':True}]})+'\n')
+          PY
+          engine="$RUNNER_TEMP/engine/factorio/bin/x64/factorio"
+          "$engine" --mod-directory "$RUNNER_TEMP/mods" --create "$RUNNER_TEMP/clay-v4c-21-world.zip" \
+            --map-gen-seed 20261107 2>&1 | tee /tmp/tanks-clay-v4c-21/engine-create.log
+          grep -Fq 'Loading mod tanks_for_bob_fork' /tmp/tanks-clay-v4c-21/engine-create.log
+          "$engine" --mod-directory "$RUNNER_TEMP/mods" \
+            --benchmark "$RUNNER_TEMP/clay-v4c-21-world.zip" --benchmark-ticks 300 \
+            2>&1 | tee /tmp/tanks-clay-v4c-21/engine-benchmark.log
+          echo 'FACTORIO_CLAY_V4C_21_ENGINE_PASS'
+      - name: Publish tested 1.8.97 to existing Factorio Mod Portal listing
+        env:
+          FACTORIO_MOD_UPLOAD_KEY: ${{ secrets.FACTORIO_MOD_UPLOAD_KEY }}
+        run: |
+          python3 tools/art/publish_clay_pit_21_release.py /tmp/tanks-clay-v4c-21
+      - name: Preserve installable mod and release receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tanks-for-bob-1.8.97-factorio-2.1-clay-pit-v4c
+          path: /tmp/tanks-clay-v4c-21/
+          if-no-files-found: warn
+          retention-days: 30
