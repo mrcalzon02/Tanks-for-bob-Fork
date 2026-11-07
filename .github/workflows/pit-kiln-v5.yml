@@ -3,8 +3,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'models/island-survival/pit-kiln/v5/*.py'
-      - '.github/workflows/pit-kiln-v5.yml'
+      - 'models/island-survival/pit-kiln/v5/build_pit_kiln_v5.py'
+      - 'models/island-survival/pit-kiln/v5/verify_pit_kiln_v5.py'
       - 'docs/art/PIT_KILN_V5_WHOLE_TRAY.md'
   workflow_dispatch:
 permissions:
