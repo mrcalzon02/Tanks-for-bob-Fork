@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "asset": "pit-kiln",
+  "revision": "v4b",
+  "original_source": "Campfire V9 keyframed native fire, retained via V3b",
+  "source_master_sha256": "c0d821fb6f88fee119a9f9258ee1aa47528eed474e41d3d98f6a7c6e48338561",
+  "source_rgba_frames": 68,
+  "idle_frames_per_direction": 16,
+  "burning_frames_per_direction": 16,
+  "model_rotations": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "fps": 8,
+  "three_resolutions": [
+    64,
+    128,
+    256
+  ],
+  "whole_tray_motion_verified": true,
+  "art_accepted": false,
+  "prototype_attached": false,
+  "factorio_client_tested": false,
+  "files": {
+    "pit-kiln-v4b-idle-64.png": {
+      "sha256": "0cabcfb7230b5807fd14ff2de1b838c56823ad311f2250a82f0282e341ea8d28",
+      "cell_px": 64,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "pit-kiln-v4b-idle-128.png": {
+      "sha256": "92f979bcfbfdca6ed6420efe3f1028081051708df82b3ceb0da263ccdd2b5011",
+      "cell_px": 128,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    "pit-kiln-v4b-idle-256.png": {
+      "sha256": "8c18ef3eaa5f4cb7fa35e54f2863df3accc50967a9fd743ca76e25659c6947d9",
+      "cell_px": 256,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "pit-kiln-v4b-burning-64.png": {
+      "sha256": "1f26655439fddc46901a3dc9ead0eee9f8e20a7f0be1af96bb63b6fe0dc5be86",
+      "cell_px": 64,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "pit-kiln-v4b-burning-128.png": {
+      "sha256": "4ef834773b71cdf07d3053686a9b57c27ccb4dbe53bdaa518fba1d4fe9362c3d",
+      "cell_px": 128,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    "pit-kiln-v4b-burning-256.png": {
+      "sha256": "22e12670e8568e063ca75b9d50e3ab0b37c3e6bc0d084f4f202834c7c88bfb7f",
+      "cell_px": 256,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "pit-kiln-v4b-icon-64.png": {
+      "sha256": "88d54e8ce278c6514b605cd18114d9338dfe79c8144fc545265e806dc10b4b1f",
+      "dimensions": [
+        64,
+        64
+      ]
+    }
+  }
+}
