@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "capture_count": 68,
+  "animated_per_direction": 16,
+  "gifs": {
+    "working-d00-preview.gif": "dae5af8d90c0cdc2a38868552ee153339393b0918396a9ba2a7c0d1994d307e4",
+    "working-d01-preview.gif": "02f5bb0c7341e93ef0d7b21078f6b63f5dacbe9a7fbd16c94094987c8a246079",
+    "working-d02-preview.gif": "92a436ec5e42d4b2819e3d97e2332d8dfb08587b72a060e6a484a62e387266ae",
+    "working-d03-preview.gif": "e1b17681f27e668e6fd21ab82fcd6f3e845b0e29863fc699a66ab8bb0bf3d018"
+  },
+  "visual_approved": false,
+  "game_tested": false,
+  "bucket_motion_verified": true
+}
