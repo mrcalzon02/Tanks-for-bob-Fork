@@ -142,6 +142,8 @@ jobs:
           path: |
             /tmp/campfire-production/
             /tmp/campfire-static/
+            tanks_for_bob_fork_1.8.95/graphics/entity/campfire.png
+            tanks_for_bob_fork_1.8.95/graphics/entity/campfire-w.png
           if-no-files-found: error
       - name: Publish Blender artifact archive
         uses: actions/upload-artifact@v4
