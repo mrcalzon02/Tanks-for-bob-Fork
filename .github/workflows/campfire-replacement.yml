@@ -1,0 +1,99 @@
+name: Campfire V12 structure replacement (45-degree four-way)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/art/render_sprite_frames.py'
+      - 'tools/art/package_campfire_replacement.py'
+      - 'tools/art/profiles/campfire-structure-replacement.json'
+      - '.github/workflows/campfire-replacement.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: campfire-v12-replacement
+  cancel-in-progress: false
+
+jobs:
+  export-replacement:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Blender, Pillow and Lua syntax checker
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil lua5.4
+          blender --version | head -3
+      - name: Test existing exporter (preserve backward compatibility)
+        run: |
+          /usr/bin/python3 -m unittest discover -s tools/art -p 'test_*.py' -v
+      - name: Capture all four orientations from V9 editable master with calibrated camera
+        run: |
+          /usr/bin/python3 tools/art/export_sprites.py \
+            --config tools/art/profiles/campfire-structure-replacement.json \
+            --out /tmp/campfire-v12-captures
+      - name: Package replacement art, item icon and directional Factorio graphics
+        run: |
+          /usr/bin/python3 tools/art/package_campfire_replacement.py \
+            --capture /tmp/campfire-v12-captures \
+            --mod-root tanks_for_bob_fork_1.8.95 \
+            --output-receipt /tmp/campfire-v12-captures/integration.json
+          luac5.4 -p tanks_for_bob_fork_1.8.95/prototypes/entity/entities.lua
+          luac5.4 -p tanks_for_bob_fork_1.8.95/prototypes/item/item.lua
+          /usr/bin/python3 - <<'PY'
+          from pathlib import Path
+          import json
+          from PIL import Image
+          p=Path('/tmp/campfire-v12-captures')
+          q=json.loads((p/'qa.json').read_text())
+          r=json.loads((p/'integration.json').read_text())
+          assert q['passed'] and q['capture_count']==68 and q['atlas_count']==6
+          assert r['passed'] and r['original_sprites_unchanged']
+          assert r['directions']==['north','east','south','west']
+          assert r['frame_count']==16
+          for name in ['burning-d00-preview.gif','burning-d01-preview.gif',
+                       'burning-d02-preview.gif','burning-d03-preview.gif']:
+              assert (p/name).stat().st_size>5000
+          with Image.open('tanks_for_bob_fork_1.8.95/graphics/entity/campfire-v12-burning.png') as im:
+              assert im.size==(1024,1024)
+          with Image.open('tanks_for_bob_fork_1.8.95/graphics/entity/campfire-v12-idle.png') as im:
+              assert im.size==(1024,1024)
+          print('READY_FOR_PUBLICATION: four rotations, 64 burning, 4 idle captures, matched idle/working animations')
+          PY
+      - name: Retain complete editable and reproducible export
+        run: |
+          mkdir -p models/island-survival/blender/production-v12-structure-45
+          cp -a /tmp/campfire-v12-captures/. models/island-survival/blender/production-v12-structure-45/
+      - name: Publish comparison and complete render evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: campfire-v12-structure-replacement-evidence
+          path: |
+            /tmp/campfire-v12-captures/
+            tanks_for_bob_fork_1.8.95/graphics/entity/campfire-v12*.png
+            tanks_for_bob_fork_1.8.95/graphics/icons/campfire-v12.png
+          if-no-files-found: error
+      - name: Publish new mod assets and prototype references to main
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add models/island-survival/blender/production-v12-structure-45/
+          git add tanks_for_bob_fork_1.8.95/graphics/entity/campfire-v12*.png
+          git add tanks_for_bob_fork_1.8.95/graphics/icons/campfire-v12.png
+          git add tanks_for_bob_fork_1.8.95/prototypes/entity/entities.lua
+          git add tanks_for_bob_fork_1.8.95/prototypes/item/item.lua
+          git diff --cached --check
+          if git diff --cached --quiet; then
+            echo 'Already published; no changes'
+          else
+            git commit -m 'art(campfire): activate complete 45-degree four-way V12 replacement'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

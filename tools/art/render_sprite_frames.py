@@ -7,7 +7,7 @@ from pathlib import Path
 import sys
 
 import bpy
-from mathutils import Matrix
+from mathutils import Matrix, Vector
 
 
 def digest(path):
@@ -116,8 +116,33 @@ def main():
     for root in roots:
         root.parent = pivot
         root.matrix_parent_inverse = Matrix.Translation(cfg['pivot']).inverted()
+    # A named export profile can override the source camera without modifying its
+    # authoring file. Camera and daylight remain stationary across all directions.
+    override = cfg.get('camera_override')
+    if override:
+        if scene.camera.data.type != 'ORTHO':
+            raise ValueError('Structure camera must be orthographic')
+        elev = math.radians(float(override['elevation_deg']))
+        azim = math.radians(float(override['azimuth_deg']))
+        distance = float(override['distance'])
+        if not (0 < elev < math.pi/2 and distance > 0):
+            raise ValueError('Invalid structure camera elevation/distance')
+        target = Vector(tuple(float(v) for v in override['target']))
+        if len(target) != 3:
+            raise ValueError('Camera target must contain three coordinates')
+        offset = Vector((math.sin(azim)*math.cos(elev),
+                         -math.cos(azim)*math.cos(elev), math.sin(elev))) * distance
+        scene.camera.location = target + offset
+        scene.camera.rotation_euler = (target-scene.camera.location).to_track_quat('-Z','Y').to_euler()
+        scene.camera.data.ortho_scale = float(override['ortho_scale'])
+        if scene.camera.data.ortho_scale <= 0:
+            raise ValueError('Invalid ortho scale')
     scene.frame_set(next(iter(cfg['states'].values()))[0])
     bpy.context.view_layer.update()
+    if override:
+        actual = math.degrees(math.asin((scene.camera.location-target).normalized().z))
+        if abs(actual-float(override['elevation_deg'])) > 0.01:
+            raise ValueError(f'Camera pitch mismatch: {actual}')
     camera = camera_record(scene)
     daylight = daylight_record(scene, cfg.get('animated_lights', []))
     world = {'name': scene.world.name if scene.world else None,
