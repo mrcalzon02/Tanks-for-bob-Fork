@@ -63,6 +63,13 @@ jobs:
           if-no-files-found: warn
       - name: Publish versioned native Blender master and complete animation proof
         run: |
+          # Published output revisions are immutable: a repeated Blender run may
+          # have byte-different but valid Cycles PNGs and .blend serialization.
+          # Never overwrite a previously packaged provenance-locked asset.
+          if test -f models/island-survival/pit-kiln/generated-v5/build-report.json; then
+            echo 'V5 already published: retain original source and atlas provenance'
+            exit 0
+          fi
           mkdir -p models/island-survival/pit-kiln/generated-v5
           cp -a /tmp/pit-kiln-v5/. models/island-survival/pit-kiln/generated-v5/
           git config user.name 'github-actions[bot]'
