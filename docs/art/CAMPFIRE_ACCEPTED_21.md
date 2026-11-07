@@ -11,3 +11,13 @@
 **Explicit 2.1 validation gate:** `.github/workflows/campfire-approved-21.yml` builds this actual package and attempts to load it in the official Factorio 2.1.23 headless engine and run a short benchmark. If a wider 2.1 schema incompatibility in unrelated Tanks for Bob prototypes is found, preserve the package and diagnostics but do **not** claim a successful full-mod 2.1 runtime or publish to Mod Portal until corrected.
 
 **Distribution:** GitHub Actions uploads `tanks_for_bob_fork_1.8.96.zip`, its SHA256 receipt and the engine logs as a production-candidate artifact. An accepted standalone test is not automatically equivalent to a successful whole-mod runtime test. No tag is rewritten; publication to the Factorio Mod Portal remains a separate approval and release action.
+
+## Verified production implementation receipt — 2026-11-06 Alaska
+
+- **User acceptance:** In-game Factorio 2.1 visual and functionality test of `factorio_campfire_pipeline_test_0.1.1.zip` passed, as explicitly reported by the user. This is evidence for the tested standalone mod and its exact sprite assets; it is not a claim that the user also tested the full Tanks package.
+- **Promotion implementation commit:** [`ed8b6e76dbdd5c2e9778d610888e64b9328ea71b`](https://github.com/mrcalzon02/Tanks-for-bob-Fork/commit/ed8b6e76dbdd5c2e9778d610888e64b9328ea71b).
+- **Official full-mod engine test:** [GitHub Actions run 42351190717](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42351190717) **SUCCESS** on Factorio headless `2.1.23`. The actual `tanks_for_bob_fork` mod version `1.8.96` loaded during map creation and loaded again during the 300-tick benchmark. This confirms engine data-stage and headless runtime smoke success, not graphical rendering inside the full mod.
+- **Distribution archive:** `tanks_for_bob_fork_1.8.96.zip`, SHA-256 `8ed3a4ddebeddef3811a8d1dd99ee9387701b993f493fe8aa82d3e43f0ce6ff3`. The build verifies the exact previously user-accepted 128px idle/burning atlas bytes and icon bytes before packaging and after extraction.
+- **GitHub CI artifact:** `tanks-for-bob-1.8.96-factorio-2.1-accepted-campfire` (workflow run above) contains the installable ZIP, hash receipt, map-creation and benchmark logs, engine version and promotion receipt.
+- **Rollback:** `tanks_for_bob_fork_1.8.95/` is preserved for 2.0. No release tag was moved, and no claim of automatic Factorio Mod Portal publication is made.
+- **Remaining distinction:** Full-mod GUI/visual inspection should be performed with the 1.8.96 archive. The user already accepted the visually identical standalone test sprites on 2.1, and the entire production mod passed headless engine loading.
