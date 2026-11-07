@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "asset": "pit-kiln",
+  "revision": "v4",
+  "original_source": "Campfire V9 keyframed native fire, retained via V3b",
+  "source_master_sha256": "35c3d8cf9f4a9f902cab25583fc7b3a3926a72fa048bf491aaf193bde487318f",
+  "source_rgba_frames": 68,
+  "idle_frames_per_direction": 16,
+  "burning_frames_per_direction": 16,
+  "model_rotations": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "fps": 8,
+  "three_resolutions": [
+    64,
+    128,
+    256
+  ],
+  "art_accepted": false,
+  "prototype_attached": false,
+  "factorio_client_tested": false,
+  "files": {
+    "pit-kiln-v4-idle-64.png": {
+      "sha256": "9632c6c14354450d2fe38936dc151c96d65f4b4fef4996036e41928198111574",
+      "cell_px": 64,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "pit-kiln-v4-idle-128.png": {
+      "sha256": "073cecfd50fb90b92cde8e8e34d410412fec1d6cca45ab5fbeb1ae86a8e210af",
+      "cell_px": 128,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    "pit-kiln-v4-idle-256.png": {
+      "sha256": "d4f55f184e3d38dce4390dcd25505f630ba1961f0e3062ce51653329754348b6",
+      "cell_px": 256,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "pit-kiln-v4-burning-64.png": {
+      "sha256": "9c50795904f6a39ed27756ca2590db09fd6669781747d0cbbfdc66f0704c2f0a",
+      "cell_px": 64,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "pit-kiln-v4-burning-128.png": {
+      "sha256": "c14644543959e3855c9596574cec36d322f2ff6c801b58140aca8e854db4a955",
+      "cell_px": 128,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    "pit-kiln-v4-burning-256.png": {
+      "sha256": "f3cb5d1f7e7d2954f03420f84ee88915cc1f280bd1a02033e9b3e8b7bf1810c5",
+      "cell_px": 256,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "pit-kiln-v4-icon-64.png": {
+      "sha256": "9e2e0909c49923a77e2020cbd72c4d82345b3a6872edc7e8e8dbda5fe71238c3",
+      "dimensions": [
+        64,
+        64
+      ]
+    }
+  }
+}
