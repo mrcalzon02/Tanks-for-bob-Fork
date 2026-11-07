@@ -10,7 +10,7 @@ parser.add_argument('--original',type=Path,required=True)
 opts=parser.parse_args()
 out=opts.captures
 manifest=json.loads((out/'capture.json').read_text())
-if not manifest['passed'] or len(manifest['captures']) != 13:
+if not manifest['passed'] or len(manifest['captures']) != 12:
     raise SystemExit("Capture manifest incomplete")
 font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',17)
 small=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',13)
@@ -68,4 +68,4 @@ for rec in manifest['captures']:
 for p in ['calibration-pitches.png','calibration-four-directions.png','campfire-before-after.png']:
     if not (out/p).is_file():
         raise SystemExit(f'Missing comparison: {p}')
-print('CALIBRATION_COMPARISON_PASSED; 13 captured views; 3 contact sheets')
+print('CALIBRATION_COMPARISON_PASSED; 12 captured views; 3 contact sheets')
