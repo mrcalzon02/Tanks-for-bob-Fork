@@ -40,6 +40,7 @@ def main():
         raise ValueError("New output required: do not overwrite existing V2")
     out.mkdir(parents=True,exist_ok=True)
     scene=bpy.context.scene
+    source_report=json.loads((Path(bpy.data.filepath).parent/"build-report.json").read_text())
     root=bpy.data.objects.get("EXPORT | turn lumberyard under fixed 45-degree camera")
     fly=bpy.data.objects.get("ANIM | driven steam flywheel")
     saw=bpy.data.objects.get("SAW | primitive 20-tooth circular steel saw")
@@ -157,7 +158,7 @@ def main():
                     "angle":deg,"frame":t,"path":name,"sha256":sha(file)})
     root.rotation_euler.z=0
     scene.frame_set(0)
-    prior=json.loads((Path(bpy.data.filepath).parent/"build-report.json").read_text())
+    prior=source_report
     prior.update(schema=3,revision="steam-lumberyard-v2b-visible-power-transmission",
                  source_blend="steam-lumberyard-v2.blend",
                  piston_animation_keys=17,connecting_rod_animation_keys=17,
