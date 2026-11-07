@@ -51,7 +51,7 @@ The user corrected scope to Blender capture/packing without game integration. Hi
 | P09 | PASS | production-v10/qa.json, reopen-qa.json, process-tests.txt: dimensions, alpha, clipping, frame hashes/order, unique cells, atlas extraction and 14 regression tests; visual review is P11 |
 | P10 | NOT_APPLICABLE | User's Blender-only scope excludes Factorio deployment/load/state tests; none claimed |
 | P11 | PENDING | Stone reflectivity change implemented as V10 review candidate; explicit user art acceptance, final lighting/native readability and animation seam review still pending |
-| P12 | IN_PROGRESS | Source/candidate publication to main and remote readback are the remaining step of this recovery; game sprite replacement is not authorized by this export |
+| P12 | PASS | Implementation 2c70b482 and generated publication ded1c3c4 verified on remote main; GitHub Blender run 42325606397 succeeded; fresh 14-test run and all eight published atlas hashes reproduced. See recovery audit publication receipt. Art acceptance P11 remains pending. |
 
 ### Next command when asked to execute (current scope)
 
@@ -107,4 +107,4 @@ python3 tools/art/validate_export_checklist.py models/island-survival/blender/CA
 python3 -m unittest discover -s tools/art -p 'test_*.py' -v
 ~~~
 
-The first audit should **pass structural validation** while naming P01 as the next unresolved gate. Both stricter modes must fail closed until the corresponding steps have independent evidence. This validator does not simulate Factorio or approve art.
+The first audit should **pass structural validation** while naming P05 as the next unresolved gate. Both stricter modes fail closed while lighting calibration and art acceptance remain unresolved. P12 records publication of the Blender-only candidate; it does not clear P05/P11 or authorize game integration. This validator does not simulate Factorio or approve art.

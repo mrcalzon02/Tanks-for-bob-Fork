@@ -54,4 +54,13 @@ The Blender executable capture/pack process and candidate outputs are implemente
 
 ## GitHub publication receipt
 
-Pending publication and remote readback of this implementation. This section will be updated only after the remote tree is verified.
+Verified against remote `main` on 2026-11-06 (Alaska):
+
+- Implementation commit: [`2c70b482a8d72a6d3dc0d01311cb8fbb4f793326`](https://github.com/mrcalzon02/Tanks-for-bob-Fork/commit/2c70b482a8d72a6d3dc0d01311cb8fbb4f793326).
+- Subsequent generated-source publication: `ded1c3c47ff43a939d6a074a9e0a9e52516510d6`, the head inspected for this readback.
+- Independent GitHub Blender workflow [42325606397](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42325606397): completed successfully for the implementation commit. Its workflow includes animated and four-direction static export plus saved-master reopen checks.
+- Fresh checkout verification: all 14 process regression tests passed again.
+- Repacked the published captures in isolated verification directories: all six animated/idle atlas SHA256 hashes and both four-direction static atlas SHA256 hashes reproduced exactly. The checks also verified the saved master and source-frame checksums, transparency, clipping, frame order and atlas-cell roundtrip.
+- Remote tree contains the exporter, profiles, editable masters, all 21 source captures, eight atlases, QA manifests, comparison and animated preview.
+
+The previously pending publication is complete. P05/P11 visual acceptance remains open; publication does not approve art or claim game integration. This follow-up verified existing captures and packing; it did not rerender Blender locally.
