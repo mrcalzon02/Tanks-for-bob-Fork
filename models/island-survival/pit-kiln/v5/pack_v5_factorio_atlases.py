@@ -20,7 +20,7 @@ def make():
     out.mkdir(parents=True,exist_ok=True)
     report=json.loads((src/"build-report.json").read_text())
     qa=json.loads((src/"review-qa.json").read_text())
-    if not(qa.get("passed") and qa.get("real_source_frames")==68 and
+    if not(qa.get("passed") and qa.get("frames")==68 and
            report.get("original_campfire_flames")==6 and
            report.get("rocking_brick_count")==4 and
            report.get("preserved_v4_crackle_controls")==6 and
