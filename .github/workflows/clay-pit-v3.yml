@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'models/island-survival/clay-pit/v3/*.py'
+      - 'models/island-survival/clay-pit/v2/make_v2_review.py'
       - '.github/workflows/clay-pit-v3.yml'
       - 'docs/art/CLAY_PIT_V2B_MATERIAL_FIX.md'
   workflow_dispatch:
@@ -62,6 +63,7 @@ jobs:
         run: |
           blender -b -t 4 /tmp/clay-pit-model-v3/clay-pit-v3.blend --python-exit-code 1 --python-expr "import bpy; b=next(o for o in bpy.context.scene.objects if 'one broad excavated clay bowl' in o.name); assert len(b.data.materials)==1; assert all(p.material_index==0 for p in b.data.polygons); assert b.data.materials[0].name.startswith('V3 |'); print('V3_SINGLE_MATERIAL_VERIFIED')"
       - name: Publish actual model/render proof as CI artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: clay-pit-v3-native-blender-and-render-proof

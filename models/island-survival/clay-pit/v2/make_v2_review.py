@@ -9,6 +9,19 @@ from PIL import Image, ImageDraw, ImageFont, ImageChops
 
 def sha(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
+def visible_rgb_difference(left, right):
+    """Compare visible composite RGB, not RGBA alpha-only getbbox.
+
+    PIL Image.getbbox on an RGBA difference may ignore changed RGB when alpha
+    is identical, incorrectly calling material-only revisions visually equal.
+    """
+    if left.size != right.size:
+        raise ValueError('Cannot compare images of different sizes')
+    background=Image.new('RGBA',left.size,(48,51,56,255))
+    a=Image.alpha_composite(background,left.convert('RGBA')).convert('RGB')
+    b=Image.alpha_composite(background,right.convert('RGBA')).convert('RGB')
+    return ImageChops.difference(a,b).getbbox()
+
 
 def main():
     p=argparse.ArgumentParser()
@@ -49,7 +62,7 @@ def main():
         if len({sha(out/f'{state}-d{d:02d}.png') for d in range(4)})!=4:
             raise ValueError(f'Direction rotation failed: {state}')
     for d in range(4):
-        if not ImageChops.difference(shots['idle',d],shots['working',d]).getbbox():
+        if not visible_rgb_difference(shots['idle',d],shots['working',d]):
             raise ValueError(f'Working props invisible in direction {d}')
     try:
         font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',15)
@@ -88,7 +101,7 @@ def main():
             if v1.size!=(256,256) or v1.mode!='RGBA':
                 raise ValueError('V1 benchmark must be actual 256px Blender frame')
             old=v1.copy()
-        if not ImageChops.difference(old,shots['working',0]).getbbox():
+        if not visible_rgb_difference(old,shots['working',0]):
             raise ValueError('V2 model is visually identical to V1')
     qa={'passed':True,'render_count':8,'visible_pits':1,
         'four_cardinal_directions':True,'working_state_visually_distinct':True,
