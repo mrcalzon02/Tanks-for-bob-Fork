@@ -127,15 +127,20 @@ def pack(out):
     contact.save(out / 'contact-sheet.png')
     for state, frames in cfg['states'].items():
         if len(frames) > 1:
-            sequence = []
-            for i in range(len(frames)):
-                background = Image.new('RGBA', (cfg['source_size'],)*2, (38,38,38,255))
-                sequence.append(Image.alpha_composite(background, images[state,0,i]).convert('RGB'))
-            sequence[0].save(out / f'{state}-preview.gif', save_all=True, append_images=sequence[1:],
-                             duration=round(1000/cfg['fps']/10)*10, loop=0, disposal=2)
-            with Image.open(out / f'{state}-preview.gif') as gif:
-                if gif.n_frames != len(frames):
-                    raise ValueError('GIF frame collapse')
+            for direction in range(len(cfg['directions'])):
+                sequence = []
+                for i in range(len(frames)):
+                    background = Image.new('RGBA', (cfg['source_size'],)*2, (38,38,38,255))
+                    sequence.append(Image.alpha_composite(background, images[state,direction,i]).convert('RGB'))
+                target = out / f'{state}-d{direction:02d}-preview.gif'
+                sequence[0].save(target, save_all=True, append_images=sequence[1:],
+                                 duration=round(1000/cfg['fps']/10)*10, loop=0, disposal=2)
+                with Image.open(target) as gif:
+                    if gif.n_frames != len(frames):
+                        raise ValueError(f'GIF frame collapse: direction {direction}')
+                if direction == 0:
+                    # Keep the original single-view preview filename compatible.
+                    (out / f'{state}-preview.gif').write_bytes(target.read_bytes())
     report = {'passed': True, 'capture_count': len(images), 'atlas_count': len(sheets),
               'checks': ['source master hash', 'frame order and hashes', 'RGBA and dimensions',
                          'nonempty transparent canvas', 'visible clipping', 'unique animation cells',

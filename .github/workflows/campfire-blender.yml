@@ -110,6 +110,31 @@ jobs:
             --config tools/art/profiles/campfire.json --out /tmp/campfire-production
           /usr/bin/python3 tools/art/export_sprites.py \
             --config tools/art/profiles/campfire-static-four-view.json --out /tmp/campfire-static
+      - name: Validate four full animated directions and stage published sprite files
+        run: |
+          /usr/bin/python3 - <<'PY'
+          import json
+          from pathlib import Path
+          animated = Path('/tmp/campfire-production')
+          static = Path('/tmp/campfire-static')
+          a = json.loads((animated / 'qa.json').read_text())
+          s = json.loads((static / 'qa.json').read_text())
+          assert a['passed'] and a['capture_count'] == 68 and a['atlas_count'] == 6, a
+          assert s['passed'] and s['capture_count'] == 4, s
+          for entry in a['sheets']:
+              assert entry['direction_count'] == 4, entry
+              assert entry['frame_count'] == (16 if entry['state'] == 'burning' else 1), entry
+              if entry['cell_size'] == 256:
+                  assert entry['dimensions'] == ([2048, 2048] if entry['state'] == 'burning' else [256, 1024]), entry
+          for d in range(4):
+              assert (animated / f'burning-d{d:02d}-preview.gif').is_file()
+              assert len(list((animated / 'frames' / 'burning' / f'd{d:02d}').glob('*.png'))) == 16
+              assert len(list((animated / 'frames' / 'idle' / f'd{d:02d}').glob('*.png'))) == 1
+          print('FOUR_VIEW_ANIMATION_VERIFIED: 64 animated + 4 idle source frames, 6 full atlases, 4 GIF previews')
+          PY
+          mkdir -p models/island-survival/blender/production-v11-four-view/static-four-view
+          cp -a /tmp/campfire-production/. models/island-survival/blender/production-v11-four-view/
+          cp -a /tmp/campfire-static/. models/island-survival/blender/production-v11-four-view/static-four-view/
       - name: Publish verified sprite export evidence
         uses: actions/upload-artifact@v4
         with:
@@ -129,6 +154,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add models/island-survival/blender/generated-v9/
+          git add models/island-survival/blender/production-v11-four-view/
           if ! git diff --cached --quiet; then
             git commit -m 'art(blender): publish V9 conditional core-char Blender scene'
             git push origin HEAD:main
