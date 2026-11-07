@@ -160,6 +160,8 @@ def setup_scene(samples):
     scene.render.engine="CYCLES"
     scene.cycles.samples=samples
     scene.cycles.device="CPU"
+    scene.cycles.use_denoising=False
+    for layer in scene.view_layers: layer.cycles.use_denoising=False
     scene.render.film_transparent=True
     scene.render.resolution_x=scene.render.resolution_y=256
     scene.render.resolution_percentage=100
