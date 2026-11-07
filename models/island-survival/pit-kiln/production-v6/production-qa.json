@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "asset": "pit-kiln",
+  "revision": "v6",
+  "original_source": "Campfire V9 keyframed native fire, retained via V3b",
+  "source_master_sha256": "9d3873621d59487f4405812001fd7bcc8059f92417a214a0e6c3ca2d0065d65a",
+  "source_rgba_frames": 68,
+  "idle_frames_per_direction": 16,
+  "burning_frames_per_direction": 16,
+  "model_rotations": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "fps": 8,
+  "three_resolutions": [
+    64,
+    128,
+    256
+  ],
+  "whole_tray_motion_verified": true,
+  "inward_pitch_not_yaw_verified": true,
+  "art_accepted": false,
+  "prototype_attached": false,
+  "factorio_client_tested": false,
+  "files": {
+    "pit-kiln-v6-idle-64.png": {
+      "sha256": "4acdc6e08e4849cadabafb66fde1a4e73983742dd8c1f2d7f2ca166716517c7c",
+      "cell_px": 64,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "pit-kiln-v6-idle-128.png": {
+      "sha256": "01808960746f20c2792686b5e2c8b30dc5d35effa072257c84a672fc0a0d1b90",
+      "cell_px": 128,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    "pit-kiln-v6-idle-256.png": {
+      "sha256": "cbf6873299ec81e79e1b11dc636a612a6e780266106927e876a218039b30db3e",
+      "cell_px": 256,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "pit-kiln-v6-burning-64.png": {
+      "sha256": "6a837e8efd1f1402291f31d9f8cdca2920d82695a57666b5a42f96a14cfc6509",
+      "cell_px": 64,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "pit-kiln-v6-burning-128.png": {
+      "sha256": "bf023da68376aed82ec5c87449904c451dd129ae47be0085a3e94cc88fd9928b",
+      "cell_px": 128,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    "pit-kiln-v6-burning-256.png": {
+      "sha256": "21d7bde49a721966f147e1c6c408b5ae33c3682e58a00bd2845047ab890352ff",
+      "cell_px": 256,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "pit-kiln-v6-icon-64.png": {
+      "sha256": "9e2e0909c49923a77e2020cbd72c4d82345b3a6872edc7e8e8dbda5fe71238c3",
+      "dimensions": [
+        64,
+        64
+      ]
+    }
+  }
+}
