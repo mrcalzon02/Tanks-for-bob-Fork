@@ -9,7 +9,17 @@ on:
         type: string
         default: tools/art/jobs/campfire-next.json
       publish:
-        description: Install sprites into mod, commit and push to main
+        description: Commit sprite files to main WITHOUT activating prototype
+        required: true
+        type: boolean
+        default: false
+      deploy:
+        description: Install, attach explicitly named prototype, commit/push and remote-readback
+        required: true
+        type: boolean
+        default: false
+      replace_attachment:
+        description: Explicitly switch a previously managed prototype attachment to this revision
         required: true
         type: boolean
         default: false
@@ -17,6 +27,8 @@ on:
     branches: [main]
     paths:
       - 'tools/art/produce_factorio_asset.py'
+      - 'tools/art/attach_factorio_prototype.py'
+      - 'tools/art/test_attach_factorio_prototype.py'
       - 'tools/art/test_produce_factorio_asset.py'
       - 'tools/art/jobs/campfire-next.json'
       - '.github/workflows/factorio-art-production.yml'
@@ -38,7 +50,7 @@ jobs:
       - name: Install Blender and image tools
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y blender python3-pil
+          sudo apt-get install -y blender python3-pil lua5.4
           blender --version | head -3
       - name: Run all export regression tests
         run: |
@@ -47,19 +59,49 @@ jobs:
         env:
           JOB_FILE: ${{ github.event_name == 'workflow_dispatch' && inputs.job || 'tools/art/jobs/campfire-next.json' }}
           PUBLISH: ${{ github.event_name == 'workflow_dispatch' && inputs.publish || false }}
+          DEPLOY: ${{ github.event_name == 'workflow_dispatch' && inputs.deploy || false }}
+          REPLACE_ATTACHMENT: ${{ github.event_name == 'workflow_dispatch' && inputs.replace_attachment || false }}
         run: |
           set -eu
           case "$JOB_FILE" in tools/art/jobs/*) ;; *) echo 'Unsafe job path'; exit 1;; esac
+          if [ "$DEPLOY" = true ] && [ "$PUBLISH" = true ]; then
+            echo 'Select either publish (assets only) OR deploy (attach prototype), not both'; exit 1
+          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           if [ "${{ github.event_name }}" = push ]; then
             # Full Blender capture regression, not only a cached atlas repack.
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
+          elif [ "$DEPLOY" = true ]; then
+            if [ "$REPLACE_ATTACHMENT" = true ]; then
+              /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE" --deploy --replace-attachment
+            else
+              /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE" --deploy
+            fi
           elif [ "$PUBLISH" = true ]; then
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE" --publish
           else
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           fi
+      - name: Validate prepared prototype attachment against real declarations and isolated Lua runtime
+        if: github.event_name == 'push'
+        run: |
+          /usr/bin/python3 - <<'PYCODE'
+          import sys
+          sys.path.insert(0, 'tools/art')
+          import attach_factorio_prototype as attachment
+          import produce_factorio_asset as producer
+          job, config, profile, mod = producer.load_job('tools/art/jobs/campfire-next.json')
+          output = producer.in_repo('models/sprite-production/campfire/v13-repro')
+          plan = attachment.attachment_plan(job, mod, producer.ROOT, output)
+          name = job['asset'] + '-' + job['revision'] + '.lua'
+          plan['generated'] = output/'prototype_ready/prototypes/generated_graphics'/name
+          plan['stage'] = output/'prototype_ready/data-final-fixes.lua'
+          assert plan['generated'].exists() and plan['stage'].exists()
+          checks = attachment.verify_lua_attachment(plan,job)
+          assert checks['luac_passed'] and checks['lua_probes'] == 3
+          print('PROTOTYPE_ATTACHMENT_PREPARED_AND_SMOKE_TESTED', job['prototype']['type'], job['prototype']['name'])
+          PYCODE
       - name: Retain review and Blender evidence even after failed render
         if: always()
         uses: actions/upload-artifact@v4

@@ -12,7 +12,7 @@ Run from the root of `mrcalzon02/Tanks-for-bob-Fork`, with Blender and Python Pi
 python3 tools/art/produce_factorio_asset.py --job tools/art/jobs/campfire-next.json
 ```
 
-This produces an immutable, versioned output under `models/sprite-production/campfire/v13-repro/`. It **does not** replace or alter the approved V12 sprite. To create a local mod installation (without committing) append `--install`. To install and commit/push to GitHub `main` in one authenticated command append `--publish`. No force push, no retag, no overwriting existing named files; remote commit SHA readback is mandatory. If a push fails the tool reports failure, retaining the generated data and logs.
+This produces an immutable, versioned output under `models/sprite-production/campfire/v13-repro/`. It **does not** replace or alter the approved V12 sprite. To create a local graphics-only installation (without committing) append `--install`. To install and commit/push sprite assets to GitHub `main` **without** changing prototypes, append `--publish`. For full named-prototype integration use **`--deploy`**. No force push, no retag, no overwriting existing named files; remote commit SHA readback is mandatory. If a push fails the tool reports failure, retaining the generated data and logs.
 
 To repackage a verified earlier render without rerendering (useful for fast regression tests):
 
@@ -22,7 +22,7 @@ python3 tools/art/produce_factorio_asset.py \
   --from-capture models/island-survival/blender/production-v12-structure-45
 ```
 
-**GitHub Actions:** `.github/workflows/factorio-art-production.yml` has a manual Run workflow entry for the same command. Its push-triggered regression now performs the full fresh Blender render, while a manual Run workflow performs the same end-to-end command using a selectable job. A verified previous capture can still be repackaged locally using `--from-capture`. The optional manual `publish` input installs/commits the versioned graphics. The job uploads QA and review files to Actions artifacts in all cases.
+**GitHub Actions:** `.github/workflows/factorio-art-production.yml` has a manual Run workflow entry for the same command. Its push-triggered regression performs a full fresh Blender render, while a manual Run workflow performs the same end-to-end command using a selectable job. A verified previous capture can still be repackaged locally using `--from-capture`. The optional manual `publish` input installs/commits the versioned graphics. The job uploads QA and review files to Actions artifacts in all cases.
 
 ## New-model setup, once per asset
 
@@ -30,7 +30,45 @@ python3 tools/art/produce_factorio_asset.py \
 2. Copy `tools/art/profiles/campfire-structure-replacement.json` to a new asset profile. Point `source` to the **actual `.blend`** (relative to that profile); set `adapter` to `null` unless you have a specific authored material adapter. Set `states` to `idle` (one timeline frame), plus an optional active state with the **exact keyframed frames** to capture. Set FPS, source resolution, sizes, samples and seed. Retain `directions: [0,90,180,270]`; specify `exclude_rotation`, `hide_render`, and `animated_lights` correctly.
 3. Retain `camera_override.elevation_deg=45`, `azimuth_deg=0`; adjust camera `target`/`ortho_scale` and profile pivot for the asset's placement footprint. The camera and daylight stay fixed. **Rotate the model**, not the 2D finished PNG. Measure native-size readability and avoid per-frame recentering or crop.
 4. Copy `tools/art/jobs/campfire-next.json` to a new job and update `asset`, **unique revision**, profile path, mod directory/name, active-state name (or `null` for static), primary cell size, graphics scale and shift. For hi-res graphics use 128px cells with `scale=0.5` only when a 64px effective footprint is appropriate; larger entities require their own calibrated scale. The mod name must match its `info.json`.
-5. Execute the single command. Inspect `four-way-review.png` directly in the chat, check the individual GIF loops/rotations, and inspect `production-receipt.json` for hashes and QA. When satisfactory, use `--install` and then/or `--publish` with a new revision. Attach the generated `prototype-ready.lua` fields to the correct entity prototype **only after checking its API type**. Load and rotate the entity in Factorio before marking engine integration complete.
+5. Execute the single command. Inspect `four-way-review.png` directly in the chat, check the individual GIF loops/rotations, and inspect `production-receipt.json` for hashes and QA. Once accepted, set the exact named `prototype` target in the job and execute `--deploy` with a fresh revision. The attachment engine verifies API compatibility, safely registers the generated graphics at data-final-fixes, and publishes the mod change. Load and rotate the entity in Factorio before marking engine integration complete.
+
+## Exact-prototype attachment: single-command deploy
+
+**The pipeline now automatically prepares a late-stage Factorio prototype attachment**, rather than asking a human to paste the graphics into an arbitrary Lua file. In the production job, specify the target **entity type, exact prototype name and declaration file**, and optionally the corresponding item/icon target:
+
+```json
+"prototype": {
+  "type": "assembling-machine",
+  "name": "campfire",
+  "source": "tanks_for_bob_fork_1.8.95/prototypes/entity/entities.lua",
+  "item_icon": {
+    "type": "item",
+    "name": "campfire",
+    "source": "tanks_for_bob_fork_1.8.95/prototypes/item/item.lua"
+  }
+}
+```
+
+**One command to render, package, attach and publish to GitHub:**
+
+```bash
+python3 tools/art/produce_factorio_asset.py \
+  --job tools/art/jobs/campfire-next.json --deploy
+```
+
+For a local-only installation plus exact prototype attachment without a GitHub commit, use `--install --attach-prototype`. For an assets-only GitHub publication, retain `--publish`. When intentionally switching an older **managed** attachment to a new revision of the same target, add `--replace-attachment`; this explicit flag is necessary to prevent accidental duplicate registrations. The selected job must have a unique revision to preserve rollback paths.
+
+The attachment engine (`tools/art/attach_factorio_prototype.py`):
+
+1. **Preflight the exact target**, checking that its indicated original mod Lua file actually declares one and only one `{type=..., name=...}` prototype. Text in Lua comments and quoted strings cannot masquerade as a declaration. Reject unknown type/name, files outside the named mod, unsupported graphics schemas or ambiguous declarations. Initially supported: `assembling-machine` and `furnace` (`CraftingMachineGraphicsSet`) only; do not guess at the correct fields of other entity types.
+2. **Generate a new module** under `prototypes/generated_graphics/ASSET-REVISION.lua` containing an exact `data.raw[TYPE][NAME]` lookup. The module replaces only `target.graphics_set`, preserves existing *light-only* `working_visualisations`, sets the new inventory/entity icon if requested, and leaves collision, energy, crafting, recipe and other gameplay fields untouched. It refuses unsafe legacy overlaid animations to prevent double-drawing complete replacement states.
+3. **Register at the proper data-stage location:** use or create the target mod's `data-final-fixes.lua`, adding one managed `require("prototypes.generated_graphics.ASSET-REVISION")` for the explicitly named prototype. This runs after the target's normal `data.lua` declaration is registered. Pre-existing unrelated data-stage content remains unchanged; only a managed line for the same exact target can be replaced, with explicit authorization.
+4. **Verify before modification:** `luac5.4` compiles the new module and staged data-final-fixes file; three isolated Lua 5.4 data-stage probes confirm that the correct named entity and item receive graphics, pre-existing light-only visuals and unrelated gameplay fields survive, missing targets fail, and old animation overlays fail. These are **not substitutes for a real Factorio client launch**.
+5. **Install and publish atomically at the operation level:** generated sprite files, prototype module, loader entry and source/camera/atlas receipts are all committed to main. Only newly generated, uniquely named files are installed; any module/entry failure rolls back new files before publication. Git pushes use non-force main with bounded retry and a remote SHA readback. Original sprite files remain for rollback.
+
+Outputs now include `prototype_ready/prototypes/generated_graphics/ASSET-REVISION.lua` and `prototype_ready/data-final-fixes.lua` as **reviewable previews** even without `--deploy`. The receipt distinguishes `prototype_prepared` from `prototype_attached`. The actual runtime load and rotation of a placed building must still be tested in Factorio before claiming game-level acceptance.
+
+The GitHub Actions production workflow exposes a separate `deploy` option. Leave it off when only generating art. Use `deploy=true` for the full one-command integration, optionally `replace_attachment=true` to intentionally replace an older managed reference.
 
 ## Output contract
 
@@ -54,8 +92,8 @@ The source exporter (`tools/art/export_sprites.py`) captures all four rotations 
 ### Explicit limitations
 
 - **Art preparation is not animation authoring.** Keyframe animation or an asset-specific authoring script must exist before capture.
-- **The Lua file is prototype-ready, not magically installed into every kind of entity.** The crafting-machine snippet is meant for `graphics_set` and replaces neither unrelated fields nor gameplay logic. Full-object idle/working sprites are *alternatives*, never overlaid twice.
-- **Sprites are only prepared until connected to the intended prototype.** The producer does not claim an actual Factorio client-load test; runtime suitability and visual acceptance are separate.
+- **Generic prototype attachment is limited to explicitly named compatible schemas.** `assembling-machine` and `furnace` graphics sets are automated through `--deploy`; every other entity type requires a reviewed adapter rather than guessed fields. Full-object idle/working sprites are *alternatives*, never overlaid twice.
+- **Sprites are only prepared by the normal command; `--deploy` additionally attaches them to the exact intended prototype.** The producer does not claim an actual Factorio client-load test; runtime suitability and visual acceptance are separate.
 - **No hidden rendering work:** after every model/art export, display the real `four-way-review.png` or actual frames in the chat, not just a GitHub link.
 
 ## Validation and sources

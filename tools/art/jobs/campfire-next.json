@@ -7,7 +7,24 @@
   "mod_name": "tanks_for_bob_fork",
   "active_state": "burning",
   "primary_size": 128,
-  "sizes": [64, 128, 256],
+  "sizes": [
+    64,
+    128,
+    256
+  ],
   "scale": 0.5,
-  "shift": [0, 0]
+  "shift": [
+    0,
+    0
+  ],
+  "prototype": {
+    "type": "assembling-machine",
+    "name": "campfire",
+    "source": "tanks_for_bob_fork_1.8.95/prototypes/entity/entities.lua",
+    "item_icon": {
+      "type": "item",
+      "name": "campfire",
+      "source": "tanks_for_bob_fork_1.8.95/prototypes/item/item.lua"
+    }
+  }
 }

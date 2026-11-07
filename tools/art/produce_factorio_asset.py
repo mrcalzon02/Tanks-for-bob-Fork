@@ -18,6 +18,8 @@ import sys
 
 from PIL import Image, ImageChops, ImageDraw
 
+from attach_factorio_prototype import attachment_plan, prepare_attachment, install_attachment, verify_lua_attachment, filehash
+
 ROOT = Path(__file__).resolve().parents[2]
 DIRECTIONS = ('north', 'east', 'south', 'west')
 SAFE = re.compile(r'^[a-z0-9][a-z0-9_-]*$')
@@ -284,12 +286,24 @@ def main(argv=None):
     p.add_argument('--from-capture',help='Repackage an existing verified Blender capture without rerendering')
     p.add_argument('--blender',default='blender')
     p.add_argument('--install',action='store_true',help='Copy new versioned images into target mod; no commit')
-    p.add_argument('--publish',action='store_true',help='Install, commit, push main and verify remote SHA')
+    p.add_argument('--publish',action='store_true',help='Install graphics, commit, push main and verify remote SHA (no prototype attachment)')
+    p.add_argument('--attach-prototype',action='store_true',help='With --install/--publish, attach exact named job.prototype via data-final-fixes.lua')
+    p.add_argument('--deploy',action='store_true',help='ONE COMMAND: render, install, attach indicated prototype, commit and verify remote GitHub main')
+    p.add_argument('--replace-attachment',action='store_true',help='Explicitly replace an older managed attachment for this SAME prototype target')
     args = p.parse_args(argv)
     job,cfg,profile,mod = load_job(args.job)
     out = in_repo(args.out or f"models/sprite-production/{job['asset']}/{job['revision']}")
-    install = args.install or args.publish
+    install = args.install or args.publish or args.deploy
+    attach = args.attach_prototype or args.deploy
+    publish_now = args.publish or args.deploy
+    if attach and not install:
+        p.error('--attach-prototype requires --install or --publish (or use --deploy)')
+    if args.replace_attachment and not attach:
+        p.error('--replace-attachment requires --attach-prototype or --deploy')
     preflight(job,out,mod,install)
+    # Resolve exact declared target BEFORE paying for any Blender render.
+    if job.get('prototype'):
+        attachment_plan(job, mod, ROOT, out, replace=args.replace_attachment)
     out.mkdir(parents=True)
     capture = in_repo(args.from_capture) if args.from_capture else out/'capture'
     if not args.from_capture:
@@ -303,9 +317,37 @@ def main(argv=None):
                 print('\n'.join(log.read_text(errors='replace').splitlines()[-90:]),file=sys.stderr)
             raise
     result,installed = package(job,cfg,capture,out,mod,install)
+    if job.get('prototype'):
+        # Every job with an indicated prototype receives a reviewable exact-target
+        # attachment module. Only --attach-prototype or --deploy installs it.
+        plan = prepare_attachment(job, mod, ROOT, out, replace=args.replace_attachment)
+        result['prototype_prepared'] = True
+        result['prototype_target'] = {
+            'type': job['prototype']['type'], 'name': job['prototype']['name'],
+            'declaration_sha256': plan['target_evidence']['source_sha256'],
+            'attachment_module_sha256': filehash(plan['generated']),
+            'stage_file_sha256': filehash(plan['stage'])}
+        result['files']['prototype_ready/prototypes/generated_graphics/' + plan['module'].name] = filehash(plan['generated'])
+        result['files']['prototype_ready/data-final-fixes.lua'] = filehash(plan['stage'])
+        if attach:
+            # Lua syntax and three isolated runtime probes must pass before any
+            # prototype stage file is touched or any publication takes place.
+            try:
+                verification = verify_lua_attachment(plan, job)
+                attached_files = install_attachment(plan)
+            except Exception:
+                # The newly installed uniquely named sprite files are rolled back;
+                # attachment module installation has its own rollback guard.
+                for path in installed:
+                    path.unlink(missing_ok=True)
+                raise
+            installed.extend(attached_files)
+            result['prototype_attached'] = True
+            result['attachment_lua_verification'] = verification
+        (out/'production-receipt.json').write_text(json.dumps(result,indent=2)+'\n')
     print('FACTORIO_PRODUCTION_QA_PASSED',json.dumps({k:result[k] for k in
-        ('asset','revision','source_frame_count','frames_per_direction','directions')}),flush=True)
-    if args.publish:
+        ('asset','revision','source_frame_count','frames_per_direction','directions','prototype_attached')}),flush=True)
+    if publish_now:
         publish(job,out,installed)
     else:
         print('NOT_PUBLISHED; review generated file:',out/'four-way-review.png',flush=True)
