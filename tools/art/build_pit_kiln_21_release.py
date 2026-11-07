@@ -34,13 +34,13 @@ def kiln_section(full,lua):
     # Full animated entity frames, never old base + a second full fire overlay.
     gfx=lua[lua.index("graphics_set ="):].strip()
     gfx=guard_replace(gfx,"graphics_set = {",
-        "graphics_set = {\\n    working_visualisations = {{ light = {intensity = 0.4, size = 6} }},")
-    sec=sec[:a]+"    -- Approved Pit Kiln V6, full 4-way idle/working alternatives.\\n    "+gfx+",\\n"+sec[b:]
+        "graphics_set = {\n    working_visualisations = {{ light = {intensity = 0.4, size = 6} }},")
+    sec=sec[:a]+"    -- Approved Pit Kiln V6, full 4-way idle/working alternatives.\n    "+gfx+",\n"+sec[b:]
     sec=guard_replace(sec,"graphics/icons/pit-kiln.png","graphics/icons/"+PREFIX+"-icon-64.png")
     sec=guard_replace(sec,"collision_box = {{-1.2, -1.2}, {1.2, 1.2}}",
                       "collision_box = {{-1.2, -1.1}, {1.2, 1.1}}")
     sec=guard_replace(sec,"    crafting_speed = 0.30,",
-                      "    crafting_speed = 0.30,\\n    match_animation_speed_to_activity = false,")
+                      "    crafting_speed = 0.30,\n    match_animation_speed_to_activity = false,")
     if sec.count(PREFIX+"-burning-128.png")!=4 or sec.count(PREFIX+"-idle-128.png")!=4:
         raise RuntimeError("Four directions missing")
     if "pit-kiln-w.png" in sec:raise RuntimeError("Old duplicate working overlay retained")

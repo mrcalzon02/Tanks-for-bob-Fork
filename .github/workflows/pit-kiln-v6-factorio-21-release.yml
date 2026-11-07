@@ -68,7 +68,7 @@ jobs:
           echo 'PIT_KILN_V6_OFFICIAL_FACTORIO_21_PASS'
       - name: Upload approved V6 release to Mod Portal
         env:
-          FACTORIO_MOD_UPLOAD_KEY: \${{ secrets.FACTORIO_MOD_UPLOAD_KEY }}
+          FACTORIO_MOD_UPLOAD_KEY: ${{ secrets.FACTORIO_MOD_UPLOAD_KEY }}
         run: |
           /usr/bin/python3 tools/art/publish_pit_kiln_21_release.py /tmp/accepted-kiln-21
       - name: Retain full mod and validation artifacts
