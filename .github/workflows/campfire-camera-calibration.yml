@@ -1,0 +1,41 @@
+name: Campfire structure camera calibration
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/art/calibrate_campfire_camera.py'
+      - 'tools/art/make_structure_calibration_sheet.py'
+      - '.github/workflows/campfire-camera-calibration.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  calibrate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Blender and Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil
+      - name: Render camera candidate frames with authored campfire model
+        run: |
+          blender -b -t 4 models/island-survival/blender/generated-v9/campfire-v9-animated.blend \
+            --python-exit-code 1 \
+            --python tools/art/calibrate_campfire_camera.py -- \
+            --out /tmp/campfire-structure-camera
+      - name: Compose original-versus-new calibration contact sheets
+        run: |
+          /usr/bin/python3 tools/art/make_structure_calibration_sheet.py \
+            --captures /tmp/campfire-structure-camera \
+            --original tanks_for_bob_fork_1.8.95/graphics/entity/campfire.png
+      - name: Publish camera evidence for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: campfire-structure-camera-calibration
+          path: /tmp/campfire-structure-camera/
+          if-no-files-found: error
