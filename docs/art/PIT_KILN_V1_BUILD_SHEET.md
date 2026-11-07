@@ -11,9 +11,12 @@ The next C-block worksite after the clay pit is **pit-kiln**. The active mod pro
 - Source image is deliberately **not** being used as a billboard plane. No hidden mechanics, underside, kiln lining or industrial walls are invented.
 
 ## First-pass geometry and look
-Re-use `models/island-survival/clay-pit/generated-v3/clay-pit-v3.blend` as the shared primitive earthwork kit. Remove clay pit's lantern, rope, bucket, shovel and support props. Preserve the V3 basin and feathered clay materials; add separate editable stone, coal, timber and flame objects with descriptive names. The stones are matte rough grey/ash-white with darker charcoal beneath. Retain the fixed orthographic 45-degree Factorio camera and a calibrated 3.15 Blender-unit framing.
+Re-use `models/island-survival/clay-pit/generated-v3/clay-pit-v3.blend` as the shared primitive earthwork kit. Remove clay pit's lantern, rope, bucket, shovel and support props. Preserve the V3 basin and feathered clay materials; add separate editable stone, coal, timber and flame objects with descriptive names. The stones are matte rough grey/ash-white with darker charcoal beneath. Retain the fixed orthographic 45-degree Factorio camera and a calibrated 3.55 Blender-unit framing.
 
 ## Native test
 Run the dedicated `.github/workflows/pit-kiln-v1.yml`. It renders four idle directions and 16 animated burning frames at each cardinal angle, 68 true Blender PNG captures, four GIFs, a directly inspectable comparison sheet and a saved editable `.blend`. The original sprite paths and gameplay prototype remain unchanged.
 
 Current status: greybox/first shader and animation pass. The kiln is **not** yet artist-approved, installed, or Mod Portal-published. Judge its material detail, stone placement and flame motion against the actual sprites before running the previously accepted Factorio production packager.
+
+## V1 camera proof correction
+The first CI pass rendered all 68 frames but the visible 90°/270° basin touched the transparent canvas. The independent alpha clipping check rejected it. Enlarging the orthographic scale from 3.15 to 3.55 preserves the calibrated 45° elevation and consistent four-view centering while leaving safe transparent margins. Never relax the clipping gate to hide real cut-off geometry.

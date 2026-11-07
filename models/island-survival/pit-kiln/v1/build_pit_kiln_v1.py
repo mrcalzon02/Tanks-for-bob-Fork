@@ -194,7 +194,7 @@ def main():
     # All visible kiln objects rotate, camera and fixed daylight do not.
     for ob in made+billets+flames+[light]:
         mw=ob.matrix_world.copy();ob.parent=root;ob.matrix_world=mw
-    scene.camera.data.ortho_scale=3.15
+    scene.camera.data.ortho_scale=3.55
     scene.cycles.samples=opt.samples
     scene.cycles.use_denoising=False
     scene.cycles.device="CPU"
@@ -231,7 +231,7 @@ def main():
                 blender=bpy.app.version_string,source_blend="clay-pit-v3.blend",
                 reused_basin=True,removed_clay_pit_tools=len(old_tools),
                 basin_count=1,rock_count=len(rocks),fuel_count=len(made)-len(rocks)+len(billets),
-                flame_count=len(flames),camera_elevation_deg=45,ortho_scale=3.15,
+                flame_count=len(flames),camera_elevation_deg=45,ortho_scale=3.55,
                 fps=8,directions=[0,90,180,270],states={"idle":1,"burning":16},
                 samples=frames,frames_count=len(records),master_sha256=sha(master),
                 original_sprites_modified=False,art_accepted=False,game_tested=False,

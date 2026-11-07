@@ -41,7 +41,7 @@ jobs:
             --out /tmp/pit-kiln-v1 --mod tanks_for_bob_fork_1.8.95
       - name: Reopen editable source and check original camera and flame keys
         run: |
-          blender -b -t 4 /tmp/pit-kiln-v1/pit-kiln-v1.blend --python-exit-code 1 --python-expr "import bpy; s=bpy.context.scene; b=next(o for o in s.objects if 'one broad excavated clay bowl' in o.name); flames=[o for o in s.objects if o.name.startswith('BURNING | flame tongue')]; assert len(flames)==8; assert all(o.animation_data for o in flames); assert s.camera.data.type=='ORTHO'; assert abs(s.camera.data.ortho_scale-3.15)<.001; print('PIT_KILN_V1_NATIVE_REOPEN_PASS')"
+          blender -b -t 4 /tmp/pit-kiln-v1/pit-kiln-v1.blend --python-exit-code 1 --python-expr "import bpy; s=bpy.context.scene; b=next(o for o in s.objects if 'one broad excavated clay bowl' in o.name); flames=[o for o in s.objects if o.name.startswith('BURNING | flame tongue')]; assert len(flames)==8; assert all(o.animation_data for o in flames); assert s.camera.data.type=='ORTHO'; assert abs(s.camera.data.ortho_scale-3.55)<.001; print('PIT_KILN_V1_NATIVE_REOPEN_PASS')"
       - name: Check render evidence
         run: |
           python3 - <<'PY'
