@@ -1,12 +1,6 @@
 name: Clay Pit V4 | animated primitive earthwork
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/clay-pit/v4/*.py'
-      - '.github/workflows/clay-pit-v4.yml'
-      - 'docs/art/CLAY_PIT_V4_ANIMATION_PRODUCTION.md'
   workflow_dispatch:
 
 permissions:

@@ -1,12 +1,6 @@
 name: Clay Pit V4c | verified visible bucket movement
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/clay-pit/v4c/*.py'
-      - '.github/workflows/clay-pit-v4c.yml'
-      - 'docs/art/CLAY_PIT_V4C_READABLE_SWING.md'
   workflow_dispatch:
 
 permissions:

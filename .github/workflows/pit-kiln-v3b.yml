@@ -1,11 +1,7 @@
 name: Pit Kiln V3b | hand-key real campfire kiln animation
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/pit-kiln/v3b/*.py'
-      - '.github/workflows/pit-kiln-v3b.yml'
   workflow_dispatch:
+
 permissions:
   contents: write
 concurrency:

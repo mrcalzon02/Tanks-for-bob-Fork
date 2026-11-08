@@ -1,10 +1,6 @@
 name: Campfire V12 | Factorio 2.0 load validation (no deployment)
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/campfire-v12-headless-smoke.yml'
   workflow_dispatch:
 
 permissions:

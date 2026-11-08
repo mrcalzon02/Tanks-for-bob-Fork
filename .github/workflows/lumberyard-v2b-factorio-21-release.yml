@@ -1,13 +1,7 @@
 name: Steam Lumberyard V2b | Factorio 2.1 1.8.99 release
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'tools/art/build_lumberyard_21_release.py'
-      - 'tools/art/publish_lumberyard_21_release.py'
-      - '.github/workflows/lumberyard-v2b-factorio-21-release.yml'
-      - 'docs/releases/v1.8.99.md'
   workflow_dispatch:
+
 permissions:
   contents: read
 concurrency:

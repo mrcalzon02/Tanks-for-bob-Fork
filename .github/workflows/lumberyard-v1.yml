@@ -1,12 +1,7 @@
 name: Primitive Lumberyard V1 | real Blender source reconstruction
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/lumberyard/v1/*.py'
-      - '.github/workflows/lumberyard-v1.yml'
-      - 'docs/art/LUMBERYARD_V1_BUILD_SHEET.md'
   workflow_dispatch:
+
 permissions:
   contents: write
 concurrency:

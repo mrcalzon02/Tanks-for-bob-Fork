@@ -2,36 +2,6 @@ name: Factorio reusable four-way art production
 
 on:
   workflow_dispatch:
-    inputs:
-      job:
-        description: Repository-relative job JSON
-        required: true
-        type: string
-        default: tools/art/jobs/campfire-next.json
-      publish:
-        description: Commit sprite files to main WITHOUT activating prototype
-        required: true
-        type: boolean
-        default: false
-      deploy:
-        description: Install, attach explicitly named prototype, commit/push and remote-readback
-        required: true
-        type: boolean
-        default: false
-      replace_attachment:
-        description: Explicitly switch a previously managed prototype attachment to this revision
-        required: true
-        type: boolean
-        default: false
-  push:
-    branches: [main]
-    paths:
-      - 'tools/art/produce_factorio_asset.py'
-      - 'tools/art/attach_factorio_prototype.py'
-      - 'tools/art/test_attach_factorio_prototype.py'
-      - 'tools/art/test_produce_factorio_asset.py'
-      - 'tools/art/jobs/campfire-next.json'
-      - '.github/workflows/factorio-art-production.yml'
 
 permissions:
   contents: write

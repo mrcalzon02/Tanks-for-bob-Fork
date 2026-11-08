@@ -1,11 +1,7 @@
 name: Pit kiln V5 | package 4-way Factorio atlases from native Blender frames
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/pit-kiln/v5/pack_v5_factorio_atlases.py'
-      - '.github/workflows/pit-kiln-v5-sprite-package.yml'
   workflow_dispatch:
+
 permissions:
   contents: write
 concurrency:

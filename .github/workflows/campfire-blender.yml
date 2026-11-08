@@ -1,15 +1,6 @@
 name: Campfire native Blender scene
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/blender/*.py'
-      - '.github/workflows/campfire-blender.yml'
-      - 'tools/art/*.py'
-      - 'tools/art/profiles/*.json'
-      - 'docs/art/FACTORIO_PRODUCTION_*'
-      - 'models/island-survival/blender/CAMPFIRE_PRODUCTION_EXPORT_CHECKLIST.md'
   workflow_dispatch:
 
 permissions:

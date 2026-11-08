@@ -1,12 +1,7 @@
 name: Steam Lumberyard V2b | readable piston linkage and drive belt
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/lumberyard/v2b/*.py'
-      - '.github/workflows/lumberyard-v2b.yml'
-      - 'docs/art/LUMBERYARD_V2B_VISIBLE_POWER_TRANSMISSION.md'
   workflow_dispatch:
+
 permissions:
   contents: write
 concurrency:

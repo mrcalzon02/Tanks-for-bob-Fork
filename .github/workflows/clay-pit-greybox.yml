@@ -1,11 +1,6 @@
 name: Clay pit source-aligned Blender greybox
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/clay-pit/*.py'
-      - '.github/workflows/clay-pit-greybox.yml'
   workflow_dispatch:
 
 permissions:

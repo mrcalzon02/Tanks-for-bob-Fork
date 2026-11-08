@@ -1,13 +1,6 @@
 name: Clay pit V3 | continuous wet-earth shading for source-aligned model
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/clay-pit/v3/*.py'
-      - 'models/island-survival/clay-pit/v2/make_v2_review.py'
-      - '.github/workflows/clay-pit-v3.yml'
-      - 'docs/art/CLAY_PIT_V2B_MATERIAL_FIX.md'
   workflow_dispatch:
 
 permissions:

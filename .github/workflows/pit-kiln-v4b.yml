@@ -1,12 +1,7 @@
 name: Pit kiln V4b | complete tray rocks and original campfire crackles
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/pit-kiln/v4b/*.py'
-      - '.github/workflows/pit-kiln-v4b.yml'
-      - 'docs/art/PIT_KILN_V4B_WHOLE_TRAY.md'
   workflow_dispatch:
+
 permissions:
   contents: write
 concurrency:

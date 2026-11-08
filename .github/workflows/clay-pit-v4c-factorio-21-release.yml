@@ -1,13 +1,6 @@
 name: Clay Pit V4c | Factorio 2.1 live production release
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'tools/art/build_clay_pit_21_release.py'
-      - 'tools/art/publish_clay_pit_21_release.py'
-      - '.github/workflows/clay-pit-v4c-factorio-21-release.yml'
-      - 'docs/releases/v1.8.97.md'
   workflow_dispatch:
 
 permissions:

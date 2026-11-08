@@ -1,11 +1,7 @@
 name: Factorio Output | portable module real Blender regression
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'factorio-output/**'
-      - '.github/workflows/factorio-output*.yml'
   workflow_dispatch:
+
 permissions:
   contents: read
 jobs:

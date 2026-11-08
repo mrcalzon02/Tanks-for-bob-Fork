@@ -1,13 +1,6 @@
 name: Campfire V12 structure replacement (45-degree four-way)
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'tools/art/render_sprite_frames.py'
-      - 'tools/art/package_campfire_replacement.py'
-      - 'tools/art/profiles/campfire-structure-replacement.json'
-      - '.github/workflows/campfire-replacement.yml'
   workflow_dispatch:
 
 permissions:

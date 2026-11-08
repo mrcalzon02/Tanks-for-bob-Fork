@@ -1,12 +1,7 @@
 name: Steam Lumberyard V2 | Franklin boiler, belt drive and saw
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/lumberyard/v2/*.py'
-      - '.github/workflows/lumberyard-v2.yml'
-      - 'docs/art/LUMBERYARD_V2_STEAM_SAW.md'
   workflow_dispatch:
+
 permissions:
   contents: write
 concurrency:

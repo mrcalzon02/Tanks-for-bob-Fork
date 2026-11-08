@@ -1,12 +1,6 @@
 name: Clay pit V2b | continuous wet-earth shading for source-aligned model
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/clay-pit/v2b/*.py'
-      - '.github/workflows/clay-pit-v2b.yml'
-      - 'docs/art/CLAY_PIT_V2B_MATERIAL_FIX.md'
   workflow_dispatch:
 
 permissions:

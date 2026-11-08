@@ -1,12 +1,6 @@
 name: Campfire structure camera calibration
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'tools/art/calibrate_campfire_camera.py'
-      - 'tools/art/make_structure_calibration_sheet.py'
-      - '.github/workflows/campfire-camera-calibration.yml'
   workflow_dispatch:
 
 permissions:

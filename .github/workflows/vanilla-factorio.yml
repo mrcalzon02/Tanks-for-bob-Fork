@@ -1,28 +1,7 @@
 name: Tanks for Bob | official Factorio compatibility
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'tanks_for_bob_fork_*/**'
-      - 'ci/**'
-      - '.github/workflows/vanilla-factorio.yml'
-      - '.github/workflows/release-factorio-v1.8.93.yml'
-      - 'docs/compatibility/**'
-      - 'docs/releases/**'
-      - 'README.md'
-  pull_request:
-    paths:
-      - 'tanks_for_bob_fork_*/**'
-      - 'ci/**'
-      - '.github/workflows/vanilla-factorio.yml'
-      - '.github/workflows/release-factorio-v1.8.93.yml'
-      - 'docs/compatibility/**'
-      - 'docs/releases/**'
-      - 'README.md'
   workflow_dispatch:
-  schedule:
-    - cron: '11 8 * * 1'
 
 permissions:
   contents: write

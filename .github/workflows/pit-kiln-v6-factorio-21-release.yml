@@ -1,13 +1,7 @@
 name: Pit Kiln V6 | Factorio 2.1 release 1.8.98
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'tools/art/build_pit_kiln_21_release.py'
-      - 'tools/art/publish_pit_kiln_21_release.py'
-      - '.github/workflows/pit-kiln-v6-factorio-21-release.yml'
-      - 'docs/releases/v1.8.98.md'
   workflow_dispatch:
+
 permissions:
   contents: read
 concurrency:

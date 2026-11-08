@@ -1,13 +1,6 @@
 name: Approved campfire | Factorio 2.1 production package
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'tools/art/build_accepted_campfire_21.py'
-      - 'tools/art/publish_accepted_campfire_21.py'
-      - '.github/workflows/campfire-approved-21.yml'
-      - 'docs/art/CAMPFIRE_ACCEPTED_21.md'
   workflow_dispatch:
 
 permissions:

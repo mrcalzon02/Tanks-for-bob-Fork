@@ -1,12 +1,7 @@
 name: Pit kiln V4 | staged bricks wobble and original campfire crackles
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/pit-kiln/v4/*.py'
-      - '.github/workflows/pit-kiln-v4.yml'
-      - 'docs/art/PIT_KILN_V4_ANIMATION.md'
   workflow_dispatch:
+
 permissions:
   contents: write
 concurrency:

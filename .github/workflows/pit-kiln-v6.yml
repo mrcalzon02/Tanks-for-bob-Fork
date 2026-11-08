@@ -1,12 +1,7 @@
 name: Pit Kiln V6 | final inward-sliding pitched wooden brick tray
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/pit-kiln/v6/*.py'
-      - '.github/workflows/pit-kiln-v6.yml'
-      - 'docs/art/PIT_KILN_V6_FINAL_MOTION.md'
   workflow_dispatch:
+
 permissions:
   contents: write
 concurrency:

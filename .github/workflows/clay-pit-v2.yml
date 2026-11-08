@@ -1,12 +1,6 @@
 name: Clay pit V2 | lantern rope water bucket shovel and clay shading
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/clay-pit/v2/*.py'
-      - '.github/workflows/clay-pit-v2.yml'
-      - 'docs/art/CLAY_PIT_V2_CORRECTION_BRIEF.md'
   workflow_dispatch:
 
 permissions:

@@ -1,12 +1,7 @@
 name: Pit Kiln V3 | actual authored campfire animation reuse
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'models/island-survival/pit-kiln/v3/*.py'
-      - '.github/workflows/pit-kiln-v3.yml'
-      - 'docs/art/PIT_KILN_V3_REAL_CAMPFIRE.md'
   workflow_dispatch:
+
 permissions:
   contents: write
 concurrency:
