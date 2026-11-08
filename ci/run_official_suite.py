@@ -20,6 +20,7 @@ DATA_MARKERS = (
     "[TANKS-CI] WEAPON_AUDIT_PASS",
     "[TANKS-CI] AMMO_REGISTRY_PASS",
     "[TANKS-CI] HANDHELD_UNLOCK_PASS",
+    "[TANKS-CI] WEAPON_PROGRESSION_PASS",
     "[TANKS-CI] RECIPE_MACHINE_PASS",
 )
 RUNTIME_MARKERS = (
@@ -155,7 +156,7 @@ def run_profile(engine: str, profile: str, binary: Path, work: Path, output: Pat
         bench_log = (artifacts / "benchmark.log").read_text(encoding="utf-8", errors="replace")
         progression_log = (artifacts / "progression-runtime.log").read_text(encoding="utf-8", errors="replace")
         interesting = ("SOURCE_REGISTRY_PASS", "SUPPLY_GRAPH rounds", "WEAPON_AUDIT vehicles",
-                       "AMMO_REGISTRY_PASS", "HANDHELD_UNLOCK_PASS", "RECIPE_MACHINE_PASS",
+                       "AMMO_REGISTRY_PASS", "HANDHELD_UNLOCK_PASS", "WEAPON_PROGRESSION_PASS", "RECIPE_MACHINE_PASS",
                        "RUNTIME_PASS tick", "DAMAGE_RESPONSE_PASS tick", "AMMO_INVENTORY_CHECKED tick")
         evidence = []
         for line in (create_log + "\n" + bench_log).splitlines():
@@ -176,7 +177,7 @@ def main() -> int:
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--work", type=Path, required=True)
     parser.add_argument("--baseline-package", type=Path,
-                        help="Optional exact 1.8.100 ZIP for the native saved-game migration check")
+                        help="Optional exact previous 2.1 ZIP for the native saved-game migration check")
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)
     args.work.mkdir(parents=True, exist_ok=True)

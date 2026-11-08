@@ -1,0 +1,66 @@
+{
+  "test_system": "one-job official Factorio compatibility and auditing suite",
+  "engine_versions": [
+    "2.1.24"
+  ],
+  "total_jobs": 1,
+  "static_audit": "passed",
+  "static_detail": "ok",
+  "expected_profiles": 1,
+  "completed_profiles": 1,
+  "passed_profiles": 1,
+  "failed_profiles": [],
+  "result": "passed",
+  "profiles": [
+    {
+      "engine": "2.1.24",
+      "profile": "space-age-full",
+      "name": "2.1.24-space-age-full",
+      "result": "passed",
+      "failure": null,
+      "stages": {
+        "engine-version": {
+          "passed": true,
+          "detail": "verified"
+        },
+        "stage": {
+          "passed": true,
+          "detail": "ok"
+        },
+        "create": {
+          "passed": true,
+          "detail": "verified"
+        },
+        "benchmark": {
+          "passed": true,
+          "detail": "verified"
+        },
+        "progression-runtime": {
+          "passed": true,
+          "detail": "verified"
+        },
+        "server": {
+          "passed": true,
+          "detail": "verified"
+        }
+      },
+      "source": "tanks_for_bob_fork_1.8.102",
+      "source_version": "1.8.102",
+      "metadata_modified": false,
+      "evidence": [
+        "SOURCE_REGISTRY_PASS declared_recipes=213 declared_technologies=90 recipes_missing_unlock=0",
+        "SUPPLY_GRAPH rounds=4 recipes=1044 mod_recipes=213 optimistic_reachable=213 optimistic_blocked=0",
+        "WEAPON_AUDIT vehicles=13 gun_slots=26 supported_categories=10 ammo_links=26 declared_ammo=14 declared_ammo_craftable=14 warnings=0",
+        "AMMO_REGISTRY_PASS audited=14 declared=14 craftable=14",
+        "HANDHELD_UNLOCK_PASS weapon=starting_handcraft ammo=locked discovery=root_scripted",
+        "WEAPON_PROGRESSION_PASS poison_mine=vehicle_and_land_mine artillery=wmd_and_artillery stone_tools=starting_only",
+        "RECIPE_MACHINE_PASS audited=16 workbench=6 advcooking=3 cooking=3 tank_ammo=2 pit_kiln=2",
+        "RUNTIME_PASS tick=300 vehicles_spawned=8",
+        "DAMAGE_RESPONSE_PASS tick=600 before=1250 after=0 engine_damage=1250",
+        "AMMO_INVENTORY_CHECKED tick=900 attempted=7 accepted=7 skipped=1",
+        "TANKS-CI PROGRESSION_RUNTIME_PASS fresh=yes migration=yes"
+      ]
+    }
+  ],
+  "two_one_is_metadata_probe_only": false
+}

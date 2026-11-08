@@ -1,0 +1,13 @@
+de     Deutsch
+fr     Français
+es-ES  Español (España)
+ru     Русский
+pt-BR  Português do Brasil
+pl     Polski
+no     Norsk bokmål
+uk     Українська
+ja     日本語
+ko     한국어
+cs     Čeština
+it     Italiano
+fi     Suomi

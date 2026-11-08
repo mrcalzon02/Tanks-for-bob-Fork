@@ -1,6 +1,7 @@
 -- Runs as a separate diagnostic mod, so production event handlers stay intact.
 -- Requires Factorio 2.1.24 native --test-scenario / --test-save support.
 local expected = require("fixture_config")
+local decisions = require("progression_decisions")
 local mode = script.test_arg or expected.fixture_mode
 local PREFIX = "TANKS-CI PROGRESSION_RUNTIME "
 local function flush(complete)
@@ -109,6 +110,7 @@ local function initialize_fresh()
   check("native player mined real tree", player.mine_entity(tree))
   storage.phase = "mined"
   initialize_machines(surface)
+  decisions.initialize(surface, check)
 end
 local function fresh_tick()
   if not storage.phase then initialize_fresh() return end
@@ -145,6 +147,7 @@ local function fresh_tick()
   end
   if game.tick % 120 == 0 then
     for _, test in ipairs(storage.machines) do machine_drain(test); machine_refill(test) end
+    decisions.update(check)
   end
   if game.tick >= 12000 then
     check("native player acquisition sequence completed", storage.phase=="player_complete", {phase=storage.phase})
@@ -156,6 +159,7 @@ local function fresh_tick()
       check(test.recipe .. " actually manufactured", selected and selected.name==test.recipe and (test.products[test.recipe] or 0)>0, test.products)
       storage.report.machine_results[#storage.report.machine_results+1]={recipe=test.recipe,products=test.products,crafts=test.entity.products_finished}
     end
+    storage.report.progression_decisions = decisions.finish(check)
     flush(true)
     log(PREFIX .. "FRESH_PASS")
     script.finish_test(true)
@@ -163,16 +167,19 @@ local function fresh_tick()
 end
 local function initialize_legacy_save()
   new_report()
-  check("legacy save created with published package", script.active_mods.tanks_for_bob_fork=="1.8.100")
+  check("legacy save created with supplied previous package", script.active_mods.tanks_for_bob_fork==expected.legacy_version)
   local researched=game.create_force("legacy_researched")
   local existing=game.create_force("legacy_existing_wood")
   local empty=game.create_force("legacy_empty")
   local partial=game.create_force("legacy_in_progress")
   researched.technologies["wood-spear"].researched=true
   researched.technologies.automation.researched=true
-  partial.technologies["growing-plot"].researched=true
-  check("historical spear research queued",partial.add_research("wood-spear"))
-  partial.research_progress=0.4
+  local lab_wood_research = partial.technologies["wood-spear"].prototype.research_trigger == nil
+  if lab_wood_research then
+    partial.technologies["growing-plot"].researched=true
+    check("historical spear research queued",partial.add_research("wood-spear"))
+    partial.research_progress=0.4
+  end
   for _, force in ipairs({researched,existing,empty,partial}) do force.recipes["iron-gear-wheel"].enabled=false end
   local surface=game.surfaces[1]
   surface.request_to_generate_chunks({0,0},1)
@@ -187,11 +194,15 @@ local function initialize_legacy_save()
   storage.legacy_character=character
   storage.legacy_snapshot={version=script.active_mods.tanks_for_bob_fork,wood=wood_count(character),
     researched=force_state(researched),existing=force_state(existing),empty=force_state(empty),
-    in_progress=force_state(partial),research_queue_head=partial.current_research.name,
-    research_progress=partial.research_progress}
+    in_progress=force_state(partial),research_queue_head=partial.current_research and partial.current_research.name or false,
+    research_progress=partial.research_progress,lab_wood_research=lab_wood_research}
   check("legacy researched state seeded",storage.legacy_snapshot.researched.researched and storage.legacy_snapshot.researched.ammunition)
-  check("legacy unresearched state reproduced",not storage.legacy_snapshot.empty.researched and storage.legacy_snapshot.empty.ammunition and not storage.legacy_snapshot.empty.weapon)
-  check("legacy partial research state reproduced",storage.legacy_snapshot.research_queue_head=="wood-spear" and storage.legacy_snapshot.research_progress==0.4)
+  local empty_state = storage.legacy_snapshot.empty
+  check("legacy unresearched state reproduced",not empty_state.researched and empty_state.ammunition==lab_wood_research and empty_state.weapon~=lab_wood_research)
+  if lab_wood_research then
+    check("legacy partial research state reproduced",storage.legacy_snapshot.research_queue_head=="wood-spear" and storage.legacy_snapshot.research_progress==0.4)
+  end
+  decisions.seed_legacy(check)
   storage.report.legacy_snapshot=storage.legacy_snapshot
   storage.report.saved_player_limitation="The normal headless converter has no player. Its real saved character inventory is attached to the native test player on joining the upgraded save; offline-player configuration-time discovery is not claimed."
   flush(true)
@@ -200,10 +211,10 @@ end
 local function migration_tick()
   if storage.migration_done then return end
   new_report()
-  check("loaded saved historical state",storage.legacy_snapshot and storage.legacy_snapshot.version=="1.8.100")
+  check("loaded saved historical state",storage.legacy_snapshot and storage.legacy_snapshot.version==expected.legacy_version)
   check("upgraded to corrected package",script.active_mods.tanks_for_bob_fork==expected.target_version)
   local change=storage.configuration_change and storage.configuration_change.mod_changes and storage.configuration_change.mod_changes.tanks_for_bob_fork
-  check("real configuration change observed",change and change.old_version=="1.8.100" and change.new_version==expected.target_version,change)
+  check("real configuration change observed",change and change.old_version==expected.legacy_version and change.new_version==expected.target_version,change)
   local researched=game.forces.legacy_researched
   local existing=game.forces.legacy_existing_wood
   local empty=game.forces.legacy_empty
@@ -218,8 +229,11 @@ local function migration_tick()
   check("existing wood inventory preserved",wood_count(player)==storage.legacy_snapshot.wood,{before=storage.legacy_snapshot.wood,after=wood_count(player)})
   check("saved wood discovered on native player joining",is_discovered(existing),force_state(existing))
   check("empty unresearched force remains gated",not empty.technologies["wood-spear"].researched and not empty.recipes["Sharp-stick"].enabled,force_state(empty))
-  check("partial research remains gated after type migration",not is_discovered(partial) and partial.recipes["wood-spear"].enabled,force_state(partial))
-  check("old lab research leaves the queue",not partial.current_research or partial.current_research.name~="wood-spear",{current=partial.current_research and partial.current_research.name or false})
+  check("additional unresearched force remains gated",not is_discovered(partial) and partial.recipes["wood-spear"].enabled,force_state(partial))
+  if storage.legacy_snapshot.lab_wood_research then
+    check("old lab research leaves the queue",not partial.current_research or partial.current_research.name~="wood-spear",{current=partial.current_research and partial.current_research.name or false})
+  end
+  storage.report.progression_decisions = decisions.verify_migration(check)
   storage.report.engine_recipe_reset_note="Factorio reapplies recipe effects before configuration handlers during prototype migration. Unrelated enabled-state overrides are observed, not promised preserved by this fixture."
   storage.report.before=storage.legacy_snapshot
   storage.report.after={researched=force_state(researched),existing=force_state(existing),empty=force_state(empty),in_progress=force_state(partial)}

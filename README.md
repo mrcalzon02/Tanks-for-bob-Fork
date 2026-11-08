@@ -1,7 +1,7 @@
 # Tanks! for Bob Fork — Factorio 2.1
 
-**Current source: 1.8.101.** The current source is directly buildable from
-[`tanks_for_bob_fork_1.8.101`](tanks_for_bob_fork_1.8.101), including the accepted
+**Current source: 1.8.102.** The current source is directly buildable from
+[`tanks_for_bob_fork_1.8.102`](tanks_for_bob_fork_1.8.102), including the accepted
 Campfire, Clay Pit, Pit Kiln and Lumberyard artwork carried forward from the
 verified **1.8.100** Mod Portal package. Base Factorio 2.1 is required; Elevated
 Rails, Quality, Recycler and Space Age remain optional.
@@ -27,12 +27,31 @@ The clear corrections are:
 - The source selector, package builder and existing single-job test workflow
   now operate on the actual **2.1 source**, rather than an old 2.0 probe.
 
-The audit separately records design decisions about poison-mine platforms,
-WMD artillery, stone-tool research, cooking specialization, parallel vanilla
-manufacturing, a resource-free island's oil/coal bootstrap, and historical
-unused prototypes. Those branches retain their existing behavior pending a
-specific decision. Industrial components and machine-gated starter operations
-are not moved behind weapons merely because they are related to ammunition.
+### Applied design decisions in 1.8.102
+
+The [follow-up decision record](docs/compatibility/PROGRESSION_DECISIONS_1.8.102.md)
+implements the user's choices after that audit. Current source contains
+**213 recipes and 90 custom technologies**.
+
+- Poison mine magazines now have a separate upgrade after their specialist
+  vehicle branch, chemical munitions and vanilla Land Mines.
+- WMD artillery ammunition requires both WMD development and vanilla Artillery;
+  the WMD tank keeps its original research timing.
+- Removed the redundant stone-tools technology. Starting tools remain available;
+  the hovel now follows Meal and Brick directly.
+- Cooking Fire retains ordinary cooking as well as advanced cooking.
+- Fish Resource Recovery follows Fish Pond and Meal. Campfire/Cooking Fire
+  carbonizes fish into coal and ash; Workbench extracts usable crude oil through
+  its new pipe outlet. Ash can later become calcified bone dust at its existing
+  biological-processing tier.
+- Vanilla manufacturing dependencies remain. Oil Processing recognizes crude
+  oil production so the fish route can satisfy its discovery while retaining
+  Oil Gathering and all downstream chemistry prerequisites.
+
+[Unused equipment and asset usability inventory](docs/compatibility/UNUSED_EQUIPMENT_AND_ASSETS_2026-11-08.md)
+is maintained separately. Historical prototypes are assessed rather than
+activated or deleted. The alternative super-tank's independent mine-ammunition
+branch remains the one unresolved decision from the original audit.
 
 ## Build the installable package
 
@@ -41,7 +60,7 @@ python3 ci/package_mod.py --output dist
 ```
 
 The command selects the highest versioned source and creates
-`tanks_for_bob_fork_1.8.101.zip` plus its SHA-256 file. It checks that every
+`tanks_for_bob_fork_1.8.102.zip` plus its SHA-256 file. It checks that every
 archived file matches the source and refuses to overwrite an existing package.
 Place the ZIP in Factorio's `mods` directory without unpacking it.
 
@@ -76,8 +95,9 @@ wood-acquisition fixtures separately exercise the starting unlock.
 
 This fork expands the vehicle family with autocannon, flame, mortar/grenade,
 rocket, mine and super-tank options, alongside the island-survival, paperwork,
-advanced-material and ammunition manufacturing chains. Prototype IDs are
-preserved for existing saves. Bob compatibility development remains on its
+advanced-material and ammunition manufacturing chains. Existing equipment IDs
+are preserved for saves; the obsolete stone-tools technology is deliberately
+removed. Bob compatibility development remains on its
 separate branch.
 
 ## Blender texturing and rendering references

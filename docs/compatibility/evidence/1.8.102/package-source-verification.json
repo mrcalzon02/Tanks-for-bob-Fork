@@ -1,0 +1,25 @@
+{
+  "package": "tanks_for_bob_fork_1.8.102.zip",
+  "package_sha256": "d21b17cfa1785cd586fc37afeae6d19f1097e87a81d3b43ed9823544d67b525c",
+  "files": 573,
+  "source_fingerprint_sha256": "41c1e88660178636fcb2f6ec2ed6d783ff065c1f69590f97c970244a51a135be",
+  "native_test_fingerprint_matches": true,
+  "archive_bytes_match_tested_source": true,
+  "previous_package": "tanks_for_bob_fork_1.8.101.zip",
+  "prior_files_removed": [],
+  "existing_art_and_sound_files_preserved": 516,
+  "changed_existing_files": [
+    "README.md",
+    "data-updates.lua",
+    "info.json",
+    "prototypes/entity/entities.lua",
+    "prototypes/item/item.lua",
+    "prototypes/recipe/recipe.lua",
+    "prototypes/technology/technology.lua"
+  ],
+  "added_files": [
+    "locale/en/progression-resources.cfg",
+    "locale/en/progression-weapons.cfg",
+    "migrations/1.8.102.lua"
+  ]
+}

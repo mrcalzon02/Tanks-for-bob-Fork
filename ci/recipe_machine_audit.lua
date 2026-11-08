@@ -78,9 +78,14 @@ end
 for _, name in ipairs({"saline-particulate", "bioceramic-grit"}) do
   verify(name, "pit-kiln", "pit-kiln")
 end
+verify("Seared-fish", "cooking", "cooking-fire")
+verify("fish-carbonization", "cooking", "campfire")
+verify("fish-carbonization", "cooking", "cooking-fire")
+verify("fish-oil-extraction", "Seablock", "workbench")
+verify("fish-ash-processing", "advcooking", "cooking-fire")
 if #problems > 0 then
   for _, message in ipairs(problems) do log("[TANKS-CI] RECIPE_MACHINE_FAIL " .. message) end
   error("[TANKS-CI] " .. #problems .. " verified recipe/machine design problems")
 end
 log("[TANKS-CI] RECIPE_MACHINE_PASS audited=" .. checked ..
-  " workbench=5 advcooking=2 tank_ammo=2 pit_kiln=2")
+  " workbench=6 advcooking=3 cooking=3 tank_ammo=2 pit_kiln=2")

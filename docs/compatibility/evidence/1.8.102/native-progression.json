@@ -1,0 +1,1073 @@
+{
+  "engine": "Version: 2.1.24 (build 87808, linux64, headless)\nVersion: 64\nMap input version: 1.0.0-0\nMap output version: 2.1.24-1",
+  "source": "/workspace/scratch/bcbf5d5b43f0/Tanks-for-bob-Fork/tanks_for_bob_fork_1.8.102",
+  "source_fingerprint_sha256": "41c1e88660178636fcb2f6ec2ed6d783ff065c1f69590f97c970244a51a135be",
+  "source_form": "directory",
+  "source_version": "1.8.102",
+  "profile": "space-age",
+  "commands": [
+    {
+      "mode": "fresh",
+      "command": [
+        "/workspace/scratch/bcbf5d5b43f0/validation-baseline/engine-2.1.24/factorio/bin/x64/factorio",
+        "--config",
+        "/workspace/scratch/bcbf5d5b43f0/progression-decisions-1.8.102/final-suite-work/2.1.24-space-age-full/progression-runtime/fresh/config.ini",
+        "--mod-directory",
+        "/workspace/scratch/bcbf5d5b43f0/progression-decisions-1.8.102/final-suite-work/2.1.24-space-age-full/progression-runtime/fresh/mods",
+        "--test-scenario",
+        "tanks-progression-runtime/progression",
+        "--test-arg",
+        "fresh",
+        "--test-ticks",
+        "15000"
+      ],
+      "exit_code": 0,
+      "log": "/workspace/scratch/bcbf5d5b43f0/progression-decisions-1.8.102/final-suite-work/2.1.24-space-age-full/progression-runtime/fresh/fresh.log"
+    },
+    {
+      "mode": "seed-legacy",
+      "command": [
+        "/workspace/scratch/bcbf5d5b43f0/validation-baseline/engine-2.1.24/factorio/bin/x64/factorio",
+        "--config",
+        "/workspace/scratch/bcbf5d5b43f0/progression-decisions-1.8.102/final-suite-work/2.1.24-space-age-full/progression-runtime/legacy/config.ini",
+        "--mod-directory",
+        "/workspace/scratch/bcbf5d5b43f0/progression-decisions-1.8.102/final-suite-work/2.1.24-space-age-full/progression-runtime/legacy/mods",
+        "--scenario2map",
+        "tanks-progression-runtime/progression"
+      ],
+      "exit_code": 0,
+      "log": "/workspace/scratch/bcbf5d5b43f0/progression-decisions-1.8.102/final-suite-work/2.1.24-space-age-full/progression-runtime/legacy/seed-legacy.log"
+    },
+    {
+      "mode": "migration",
+      "command": [
+        "/workspace/scratch/bcbf5d5b43f0/validation-baseline/engine-2.1.24/factorio/bin/x64/factorio",
+        "--config",
+        "/workspace/scratch/bcbf5d5b43f0/progression-decisions-1.8.102/final-suite-work/2.1.24-space-age-full/progression-runtime/migration/config.ini",
+        "--mod-directory",
+        "/workspace/scratch/bcbf5d5b43f0/progression-decisions-1.8.102/final-suite-work/2.1.24-space-age-full/progression-runtime/migration/mods",
+        "--test-save",
+        "/workspace/scratch/bcbf5d5b43f0/progression-decisions-1.8.102/final-suite-work/2.1.24-space-age-full/progression-runtime/legacy/runtime/saves/tanks-progression-runtime/progression.zip",
+        "--test-arg",
+        "migration",
+        "--test-ticks",
+        "120"
+      ],
+      "exit_code": 0,
+      "log": "/workspace/scratch/bcbf5d5b43f0/progression-decisions-1.8.102/final-suite-work/2.1.24-space-age-full/progression-runtime/migration/migration.log"
+    }
+  ],
+  "reports": {
+    "fresh": {
+      "mode": "fresh",
+      "complete": true,
+      "checks": [
+        {
+          "name": "native test player exists",
+          "passed": true
+        },
+        {
+          "name": "native character attached",
+          "passed": true
+        },
+        {
+          "name": "player starting weapon available",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "player ammunition awaits wood",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_mining starting weapon available",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_mining ammunition awaits wood",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_crafting starting weapon available",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_crafting ammunition awaits wood",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_quality starting weapon available",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_quality ammunition awaits wood",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "starting weapon is handcraftable category",
+          "passed": true,
+          "detail": [
+            "crafting"
+          ]
+        },
+        {
+          "name": "wood discovery is root scripted technology",
+          "passed": true
+        },
+        {
+          "name": "real tree created",
+          "passed": true
+        },
+        {
+          "name": "native player mined real tree",
+          "passed": true
+        },
+        {
+          "name": "saline-particulate kiln created",
+          "passed": true
+        },
+        {
+          "name": "saline-particulate selectable in actual kiln",
+          "passed": true
+        },
+        {
+          "name": "bioceramic-grit kiln created",
+          "passed": true
+        },
+        {
+          "name": "bioceramic-grit selectable in actual kiln",
+          "passed": true
+        },
+        {
+          "name": "redundant stone-tools technology removed",
+          "passed": true
+        },
+        {
+          "name": "stone tools remain a starting recipe",
+          "passed": true
+        },
+        {
+          "name": "recovery recipes await mid-tier research",
+          "passed": true
+        },
+        {
+          "name": "ash recovery retains its existing industrial gate",
+          "passed": true
+        },
+        {
+          "name": "mid-tier recovery research queues",
+          "passed": true
+        },
+        {
+          "name": "thinking-hut recovery fixture created",
+          "passed": true
+        },
+        {
+          "name": "thinking-hut recovery fixture created",
+          "passed": true
+        },
+        {
+          "name": "thinking-hut recovery fixture created",
+          "passed": true
+        },
+        {
+          "name": "thinking-hut recovery fixture created",
+          "passed": true
+        },
+        {
+          "name": "campfire recovery fixture created",
+          "passed": true
+        },
+        {
+          "name": "cooking-fire recovery fixture created",
+          "passed": true
+        },
+        {
+          "name": "cooking-fire recovery fixture created",
+          "passed": true
+        },
+        {
+          "name": "Seared-fish unlocked for fixture force",
+          "passed": true
+        },
+        {
+          "name": "Seared-fish selected on cooking-fire",
+          "passed": true
+        },
+        {
+          "name": "cooking-fire recovery fixture created",
+          "passed": true
+        },
+        {
+          "name": "workbench recovery fixture created",
+          "passed": true
+        },
+        {
+          "name": "north workbench outlet pipe created",
+          "passed": true
+        },
+        {
+          "name": "workbench recovery fixture created",
+          "passed": true
+        },
+        {
+          "name": "east workbench outlet pipe created",
+          "passed": true
+        },
+        {
+          "name": "workbench recovery fixture created",
+          "passed": true
+        },
+        {
+          "name": "south workbench outlet pipe created",
+          "passed": true
+        },
+        {
+          "name": "workbench recovery fixture created",
+          "passed": true
+        },
+        {
+          "name": "west workbench outlet pipe created",
+          "passed": true
+        },
+        {
+          "name": "native crude oil resource created",
+          "passed": true
+        },
+        {
+          "name": "native pumpjack created",
+          "passed": true
+        },
+        {
+          "name": "native mining event carried wood",
+          "passed": true,
+          "detail": {
+            "mined_wood": 4,
+            "crafted_wood": 1,
+            "crafted_weapon": 1,
+            "mined_payload": {
+              "name": "wood",
+              "count": 4,
+              "player_index": 1
+            },
+            "crafted_payload": {
+              "recipe": "desperation-scrape-driftwood",
+              "name": "wood",
+              "count": 1,
+              "player_index": 1,
+              "valid_for_read": true,
+              "research_during_crafted_event": true
+            }
+          }
+        },
+        {
+          "name": "harvesting wood researched ammunition",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": true,
+            "researched": true,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "starting weapon queues in player hands",
+          "passed": true
+        },
+        {
+          "name": "starting weapon actually hand-crafted",
+          "passed": true
+        },
+        {
+          "name": "driftwood force remains undiscovered",
+          "passed": true
+        },
+        {
+          "name": "native driftwood handcraft queues",
+          "passed": true
+        },
+        {
+          "name": "custom burner labs completed resource research",
+          "passed": true
+        },
+        {
+          "name": "fish-carbonization unlocked for fixture force",
+          "passed": true
+        },
+        {
+          "name": "fish-carbonization selected on campfire",
+          "passed": true
+        },
+        {
+          "name": "fish-carbonization unlocked for fixture force",
+          "passed": true
+        },
+        {
+          "name": "fish-carbonization selected on cooking-fire",
+          "passed": true
+        },
+        {
+          "name": "fish-oil-extraction unlocked for fixture force",
+          "passed": true
+        },
+        {
+          "name": "fish-oil-extraction selected on workbench",
+          "passed": true
+        },
+        {
+          "name": "north workbench can rotate after recipe selection",
+          "passed": true,
+          "detail": {
+            "placed_direction": 0,
+            "after_recipe": 0,
+            "configured_direction": 0
+          }
+        },
+        {
+          "name": "fish-oil-extraction unlocked for fixture force",
+          "passed": true
+        },
+        {
+          "name": "fish-oil-extraction selected on workbench",
+          "passed": true
+        },
+        {
+          "name": "east workbench can rotate after recipe selection",
+          "passed": true,
+          "detail": {
+            "placed_direction": 0,
+            "after_recipe": 0,
+            "configured_direction": 4
+          }
+        },
+        {
+          "name": "fish-oil-extraction unlocked for fixture force",
+          "passed": true
+        },
+        {
+          "name": "fish-oil-extraction selected on workbench",
+          "passed": true
+        },
+        {
+          "name": "south workbench can rotate after recipe selection",
+          "passed": true,
+          "detail": {
+            "placed_direction": 0,
+            "after_recipe": 0,
+            "configured_direction": 8
+          }
+        },
+        {
+          "name": "fish-oil-extraction unlocked for fixture force",
+          "passed": true
+        },
+        {
+          "name": "fish-oil-extraction selected on workbench",
+          "passed": true
+        },
+        {
+          "name": "west workbench can rotate after recipe selection",
+          "passed": true,
+          "detail": {
+            "placed_direction": 0,
+            "after_recipe": 0,
+            "configured_direction": 12
+          }
+        },
+        {
+          "name": "actual driftwood craft produced wood",
+          "passed": true
+        },
+        {
+          "name": "native crafting discovered ammunition",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": true,
+            "researched": true,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "quality force remains undiscovered",
+          "passed": true
+        },
+        {
+          "name": "rare wood inserted into actual player",
+          "passed": true
+        },
+        {
+          "name": "name-only item filter counts rare wood",
+          "passed": true
+        },
+        {
+          "name": "quality wood inventory event discovers ammunition",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": true,
+            "researched": true,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "workbench oil does not bypass Oil Gathering",
+          "passed": true
+        },
+        {
+          "name": "vanilla Oil Gathering prerequisite retained",
+          "passed": true
+        },
+        {
+          "name": "mid-tier fish recovery does not grant advanced ash processing",
+          "passed": true
+        },
+        {
+          "name": "fish-ash-processing unlocked for fixture force",
+          "passed": true
+        },
+        {
+          "name": "fish-ash-processing selected on cooking-fire",
+          "passed": true
+        },
+        {
+          "name": "manufactured ash moved into mineral recovery",
+          "passed": true
+        },
+        {
+          "name": "native player acquisition sequence completed",
+          "passed": true,
+          "detail": {
+            "phase": "player_complete"
+          }
+        },
+        {
+          "name": "saline-particulate actually manufactured",
+          "passed": true,
+          "detail": {
+            "saline-particulate": 27
+          }
+        },
+        {
+          "name": "bioceramic-grit actually manufactured",
+          "passed": true,
+          "detail": {
+            "bioceramic-grit": 7
+          }
+        },
+        {
+          "name": "mid-tier recovery research completed using its real lab inputs",
+          "passed": true
+        },
+        {
+          "name": "Cooking Fire still cooks ordinary fish without steam",
+          "passed": true
+        },
+        {
+          "name": "campfire manufactured actual coal and ash with wood fuel",
+          "passed": true,
+          "detail": {
+            "coal": 2,
+            "ash": 2
+          }
+        },
+        {
+          "name": "cooking-fire manufactured actual coal and ash with wood fuel",
+          "passed": true,
+          "detail": {
+            "coal": 5,
+            "ash": 5
+          }
+        },
+        {
+          "name": "north workbench exports manufactured crude oil to pipe",
+          "passed": true,
+          "detail": {
+            "pipe_crude_oil": 20,
+            "crafts": 2,
+            "direction": 0,
+            "placed_direction": 0,
+            "after_recipe": 0
+          }
+        },
+        {
+          "name": "east workbench exports manufactured crude oil to pipe",
+          "passed": true,
+          "detail": {
+            "pipe_crude_oil": 20,
+            "crafts": 2,
+            "direction": 4,
+            "placed_direction": 0,
+            "after_recipe": 0
+          }
+        },
+        {
+          "name": "south workbench exports manufactured crude oil to pipe",
+          "passed": true,
+          "detail": {
+            "pipe_crude_oil": 20,
+            "crafts": 2,
+            "direction": 8,
+            "placed_direction": 0,
+            "after_recipe": 0
+          }
+        },
+        {
+          "name": "west workbench exports manufactured crude oil to pipe",
+          "passed": true,
+          "detail": {
+            "pipe_crude_oil": 20,
+            "crafts": 2,
+            "direction": 12,
+            "placed_direction": 0,
+            "after_recipe": 0
+          }
+        },
+        {
+          "name": "fish oil completes Oil Processing after Oil Gathering",
+          "passed": true
+        },
+        {
+          "name": "ordinary pumpjack still produces crude oil",
+          "passed": true,
+          "detail": {
+            "crude_oil": 3.3333333134651184
+          }
+        },
+        {
+          "name": "ordinary pumpjack still completes Oil Processing",
+          "passed": true
+        },
+        {
+          "name": "actual recovered ash becomes useful mineral material",
+          "passed": true,
+          "detail": {
+            "calcified_bone_dust": 1
+          }
+        }
+      ],
+      "active_mods": {
+        "base": "2.1.24",
+        "elevated-rails": "2.1.24",
+        "recycler": "2.1.24",
+        "quality": "2.1.24",
+        "space-age": "2.1.24",
+        "tanks_for_bob_fork": "1.8.102",
+        "tanks-progression-runtime": "0.0.1"
+      },
+      "scope": "Native player mining and handcrafting events, plus seeded kiln production and seeded historical-save migration; not a full progression playthrough.",
+      "native_events": {
+        "mined_wood": 4,
+        "crafted_wood": 1,
+        "crafted_weapon": 1,
+        "mined_payload": {
+          "name": "wood",
+          "count": 4,
+          "player_index": 1
+        },
+        "crafted_payload": {
+          "recipe": "desperation-scrape-driftwood",
+          "name": "wood",
+          "count": 1,
+          "player_index": 1,
+          "valid_for_read": true,
+          "research_during_crafted_event": true
+        }
+      },
+      "machine_results": [
+        {
+          "recipe": "saline-particulate",
+          "products": {
+            "saline-particulate": 27
+          },
+          "crafts": 9
+        },
+        {
+          "recipe": "bioceramic-grit",
+          "products": {
+            "bioceramic-grit": 7
+          },
+          "crafts": 7
+        }
+      ],
+      "progression_decisions": {
+        "research_completed_tick": 3120,
+        "carbon": [
+          {
+            "machine": "campfire",
+            "coal": 2,
+            "ash": 2,
+            "crafts": 2
+          },
+          {
+            "machine": "cooking-fire",
+            "coal": 5,
+            "ash": 5,
+            "crafts": 5
+          }
+        ],
+        "oil": [
+          {
+            "direction": "north",
+            "pipe_crude_oil": 20,
+            "crafts": 2
+          },
+          {
+            "direction": "east",
+            "pipe_crude_oil": 20,
+            "crafts": 2
+          },
+          {
+            "direction": "south",
+            "pipe_crude_oil": 20,
+            "crafts": 2
+          },
+          {
+            "direction": "west",
+            "pipe_crude_oil": 20,
+            "crafts": 2
+          }
+        ],
+        "pumpjack_crude_oil": 3.3333333134651184,
+        "ash_recovered_as_bone_dust": 1
+      },
+      "tick": 12000
+    },
+    "seed-legacy": {
+      "mode": "seed-legacy",
+      "complete": true,
+      "checks": [
+        {
+          "name": "legacy save created with supplied previous package",
+          "passed": true
+        },
+        {
+          "name": "historical character created",
+          "passed": true
+        },
+        {
+          "name": "historical wood inventory seeded",
+          "passed": true
+        },
+        {
+          "name": "legacy researched state seeded",
+          "passed": true
+        },
+        {
+          "name": "legacy unresearched state reproduced",
+          "passed": true
+        },
+        {
+          "name": "legacy_poison_ready old shared ammunition unlock seeded",
+          "passed": true
+        },
+        {
+          "name": "legacy_poison_no_mine old shared ammunition unlock seeded",
+          "passed": true
+        },
+        {
+          "name": "legacy_poison_no_vehicle old shared ammunition unlock seeded",
+          "passed": true
+        },
+        {
+          "name": "legacy_wmd_ready old shared ammunition unlock seeded",
+          "passed": true
+        },
+        {
+          "name": "legacy_wmd_no_artillery old shared ammunition unlock seeded",
+          "passed": true
+        },
+        {
+          "name": "historical workbench created",
+          "passed": true
+        }
+      ],
+      "active_mods": {
+        "base": "2.1.24",
+        "elevated-rails": "2.1.24",
+        "recycler": "2.1.24",
+        "quality": "2.1.24",
+        "space-age": "2.1.24",
+        "tanks_for_bob_fork": "1.8.101",
+        "tanks-progression-runtime": "0.0.1"
+      },
+      "scope": "Native player mining and handcrafting events, plus seeded kiln production and seeded historical-save migration; not a full progression playthrough.",
+      "legacy_snapshot": {
+        "version": "1.8.101",
+        "wood": 3,
+        "researched": {
+          "weapon": true,
+          "ammunition": true,
+          "researched": true,
+          "unrelated_recipe": false,
+          "unrelated_research": true
+        },
+        "existing": {
+          "weapon": true,
+          "ammunition": false,
+          "researched": false,
+          "unrelated_recipe": false,
+          "unrelated_research": false
+        },
+        "empty": {
+          "weapon": true,
+          "ammunition": false,
+          "researched": false,
+          "unrelated_recipe": false,
+          "unrelated_research": false
+        },
+        "in_progress": {
+          "weapon": true,
+          "ammunition": false,
+          "researched": false,
+          "unrelated_recipe": false,
+          "unrelated_research": false
+        },
+        "research_queue_head": false,
+        "research_progress": 0,
+        "lab_wood_research": false
+      },
+      "saved_player_limitation": "The normal headless converter has no player. Its real saved character inventory is attached to the native test player on joining the upgraded save; offline-player configuration-time discovery is not claimed.",
+      "tick": 0
+    },
+    "migration": {
+      "mode": "migration",
+      "complete": true,
+      "checks": [
+        {
+          "name": "loaded saved historical state",
+          "passed": true
+        },
+        {
+          "name": "upgraded to corrected package",
+          "passed": true
+        },
+        {
+          "name": "real configuration change observed",
+          "passed": true,
+          "detail": {
+            "old_version": "1.8.101",
+            "new_version": "1.8.102"
+          }
+        },
+        {
+          "name": "legacy_researched default weapon available after migration",
+          "passed": true
+        },
+        {
+          "name": "legacy_existing_wood default weapon available after migration",
+          "passed": true
+        },
+        {
+          "name": "legacy_empty default weapon available after migration",
+          "passed": true
+        },
+        {
+          "name": "legacy_in_progress default weapon available after migration",
+          "passed": true
+        },
+        {
+          "name": "researched ammunition preserved",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": true,
+            "researched": true,
+            "unrelated_recipe": true,
+            "unrelated_research": true
+          }
+        },
+        {
+          "name": "unrelated research preserved",
+          "passed": true
+        },
+        {
+          "name": "native player attached saved character",
+          "passed": true
+        },
+        {
+          "name": "existing wood inventory preserved",
+          "passed": true,
+          "detail": {
+            "before": 3,
+            "after": 3
+          }
+        },
+        {
+          "name": "saved wood discovered on native player joining",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": true,
+            "researched": true,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "empty unresearched force remains gated",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "additional unresearched force remains gated",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "legacy_poison_ready obeys the new prerequisite boundary",
+          "passed": true,
+          "detail": {
+            "researched": true,
+            "recipe": true
+          }
+        },
+        {
+          "name": "legacy_poison_no_mine obeys the new prerequisite boundary",
+          "passed": true,
+          "detail": {
+            "researched": false,
+            "recipe": false
+          }
+        },
+        {
+          "name": "legacy_poison_no_vehicle obeys the new prerequisite boundary",
+          "passed": true,
+          "detail": {
+            "researched": false,
+            "recipe": false
+          }
+        },
+        {
+          "name": "legacy_wmd_ready obeys the new prerequisite boundary",
+          "passed": true,
+          "detail": {
+            "researched": true,
+            "recipe": true
+          }
+        },
+        {
+          "name": "legacy_wmd_no_artillery obeys the new prerequisite boundary",
+          "passed": true,
+          "detail": {
+            "researched": false,
+            "recipe": false
+          }
+        },
+        {
+          "name": "obsolete researched stone-tools node removed safely",
+          "passed": true
+        },
+        {
+          "name": "existing workbench keeps ordinary crafting recipe",
+          "passed": true
+        },
+        {
+          "name": "existing workbench keeps wood",
+          "passed": true
+        },
+        {
+          "name": "existing workbench keeps stone",
+          "passed": true
+        },
+        {
+          "name": "existing workbench keeps stone-tools",
+          "passed": true
+        },
+        {
+          "name": "existing workbench receives its oil output",
+          "passed": true
+        }
+      ],
+      "active_mods": {
+        "base": "2.1.24",
+        "elevated-rails": "2.1.24",
+        "recycler": "2.1.24",
+        "quality": "2.1.24",
+        "space-age": "2.1.24",
+        "tanks_for_bob_fork": "1.8.102",
+        "tanks-progression-runtime": "0.0.1"
+      },
+      "scope": "Native player mining and handcrafting events, plus seeded kiln production and seeded historical-save migration; not a full progression playthrough.",
+      "progression_decisions": {
+        "legacy_poison_ready": {
+          "researched": true,
+          "recipe": true
+        },
+        "legacy_poison_no_mine": {
+          "researched": false,
+          "recipe": false
+        },
+        "legacy_poison_no_vehicle": {
+          "researched": false,
+          "recipe": false
+        },
+        "legacy_wmd_ready": {
+          "researched": true,
+          "recipe": true
+        },
+        "legacy_wmd_no_artillery": {
+          "researched": false,
+          "recipe": false
+        }
+      },
+      "engine_recipe_reset_note": "Factorio reapplies recipe effects before configuration handlers during prototype migration. Unrelated enabled-state overrides are observed, not promised preserved by this fixture.",
+      "before": {
+        "version": "1.8.101",
+        "wood": 3,
+        "researched": {
+          "weapon": true,
+          "ammunition": true,
+          "researched": true,
+          "unrelated_recipe": false,
+          "unrelated_research": true
+        },
+        "existing": {
+          "weapon": true,
+          "ammunition": false,
+          "researched": false,
+          "unrelated_recipe": false,
+          "unrelated_research": false
+        },
+        "empty": {
+          "weapon": true,
+          "ammunition": false,
+          "researched": false,
+          "unrelated_recipe": false,
+          "unrelated_research": false
+        },
+        "in_progress": {
+          "weapon": true,
+          "ammunition": false,
+          "researched": false,
+          "unrelated_recipe": false,
+          "unrelated_research": false
+        },
+        "research_queue_head": false,
+        "research_progress": 0,
+        "lab_wood_research": false
+      },
+      "after": {
+        "researched": {
+          "weapon": true,
+          "ammunition": true,
+          "researched": true,
+          "unrelated_recipe": true,
+          "unrelated_research": true
+        },
+        "existing": {
+          "weapon": true,
+          "ammunition": true,
+          "researched": true,
+          "unrelated_recipe": true,
+          "unrelated_research": false
+        },
+        "empty": {
+          "weapon": true,
+          "ammunition": false,
+          "researched": false,
+          "unrelated_recipe": true,
+          "unrelated_research": false
+        },
+        "in_progress": {
+          "weapon": true,
+          "ammunition": false,
+          "researched": false,
+          "unrelated_recipe": true,
+          "unrelated_research": false
+        }
+      },
+      "configuration_change": {
+        "old_version": "1.8.101",
+        "new_version": "1.8.102"
+      },
+      "before_player_join": {
+        "players": 0,
+        "existing": {
+          "weapon": true,
+          "ammunition": false,
+          "researched": false,
+          "unrelated_recipe": true,
+          "unrelated_research": false
+        }
+      },
+      "saved_player_limitation": "Historical wood was serialized in a real character inventory and discovered when the native test player attached on join. Offline-player on_configuration_changed discovery remains unit-tested, not demonstrated by this native saved-map fixture.",
+      "tick": 0
+    }
+  },
+  "scope": "Native player event integration plus seeded machine and historical-save states; not a complete playthrough.",
+  "legacy_package_sha256": "3ef42495a542b7a3f925aa640484d88d7e206ea0d5763061cd3bed48e7ebb3d8",
+  "legacy_version": "1.8.101",
+  "legacy_save_sha256": "f7f98cfdfec331763a6d041db2a66e82e70c3df1069a97cde270f9c2816f4bec",
+  "passed": true
+}

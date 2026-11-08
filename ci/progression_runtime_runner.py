@@ -3,7 +3,7 @@
 
 Runs a separate diagnostic addon. No production handlers or prototypes are
 replaced. Target machinery receives seeded resources; this is not a playthrough.
-Supply an exact published 1.8.100 ZIP for the optional real upgrade-save check.
+Supply an exact previous 2.1 package for the optional real upgrade-save check.
 """
 from __future__ import annotations
 import argparse
@@ -65,6 +65,15 @@ def main() -> int:
              "profile":a.profile,"commands":[],"reports":{},"scope":"Native player event integration plus seeded machine and historical-save states; not a complete playthrough."}
     if a.legacy_package:
         receipt["legacy_package_sha256"]=hashlib.sha256(a.legacy_package.read_bytes()).hexdigest()
+        with zipfile.ZipFile(a.legacy_package) as archive:
+            metadata=[name for name in archive.namelist() if name.endswith("/info.json") and name.count("/")==1]
+            if len(metadata)!=1: raise ValueError("Expected one mod root in legacy ZIP")
+            legacy_info=json.loads(archive.read(metadata[0]))
+        if legacy_info["name"]!=info["name"] or legacy_info["factorio_version"]!="2.1":
+            raise ValueError("Expected previous Tanks for Bob Factorio 2.1 package")
+        if tuple(map(int,legacy_info["version"].split("."))) >= tuple(map(int,info["version"].split("."))):
+            raise ValueError("Legacy package must be older than current source")
+        receipt["legacy_version"]=legacy_info["version"]
     def stage(label: str,legacy: bool=False):
         folder=out/label
         mods=folder/"mods"
@@ -83,7 +92,8 @@ def main() -> int:
         addon.mkdir()
         (addon/"info.json").write_text(json.dumps({"name":ADDON,"version":"0.0.1","title":"Progression integration fixture","author":"Tanks for Bob CI","factorio_version":"2.1","dependencies":["base >= 2.1.24","tanks_for_bob_fork"]},indent=2)+"\n")
         shutil.copy2(ROOT/"ci/progression_runtime_fixture.lua",addon/"control.lua")
-        (addon/"fixture_config.lua").write_text("return {target_version="+json.dumps(info["version"])+",fixture_mode="+json.dumps("seed-legacy" if legacy else "fresh")+"}\n")
+        shutil.copy2(ROOT/"ci/progression_decisions_fixture.lua",addon/"progression_decisions.lua")
+        (addon/"fixture_config.lua").write_text("return {target_version="+json.dumps(info["version"])+",legacy_version="+json.dumps(receipt.get("legacy_version",""))+",fixture_mode="+json.dumps("seed-legacy" if legacy else "fresh")+"}\n")
         scenario=addon/"scenarios/progression"
         scenario.mkdir(parents=True)
         (scenario/"control.lua").write_text('''-- The old map stores a real character inventory. Native test mode supplies

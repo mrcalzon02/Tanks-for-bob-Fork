@@ -1,5 +1,11 @@
 # Progression order audit — 8 November 2026
 
+**Follow-up:** The user's subsequent decisions are implemented in
+[1.8.102](PROGRESSION_DECISIONS_1.8.102.md). This document preserves the original
+classification checkpoint and 1.8.101 evidence. The separate
+[unused-equipment and asset inventory](UNUSED_EQUIPMENT_AND_ASSETS_2026-11-08.md)
+records usability findings without activating or deleting historical content.
+
 ## Baseline and decision checkpoint
 
 This classification was written **before gameplay reorganization**. The audited

@@ -4,6 +4,7 @@ local car = data.raw.car or {}
 local guns = data.raw.gun or {}
 local ammo = data.raw.ammo or {}
 local recipes = data.raw.recipe or {}
+local technologies = data.raw.technology or {}
 local categories = data.raw["ammo-category"] or {}
 local manifest = require("ci_manifest")
 -- Explicit inventory from the progression audit. Keep these known ammunition
@@ -132,7 +133,7 @@ end
 -- from the broader diagnostic vehicle topology above. Runtime tests must
 -- additionally prove that wood acquisition completes this scripted research.
 local weapon_recipe, ammunition_recipe = recipes["wood-spear"], recipes["Sharp-stick"]
-local wood_technology = (data.raw.technology or {})["wood-spear"]
+local wood_technology = technologies["wood-spear"]
 local character = (data.raw.character or {}).character
 local function handcraftable(recipe)
   if not (recipe and character) then return false end
@@ -182,6 +183,55 @@ else
   end
   if not unlocks_ammunition then fail("wood-spear discovery must unlock Sharp-stick ammunition") end
 end
+
+-- Check every unlocking technology, so a second research path cannot silently
+-- reintroduce ammunition before the platform that fires it. An ancestor must
+-- be completed first; unlocking ammunition in the platform technology itself
+-- does not satisfy these dedicated upgrade branches.
+local function has_ancestor(name, wanted, visited)
+  visited = visited or {}
+  if visited[name] then return false end
+  visited[name] = true
+  for _, prerequisite in pairs((technologies[name] or {}).prerequisites or {}) do
+    if prerequisite == wanted or has_ancestor(prerequisite, wanted, visited) then
+      return true
+    end
+  end
+  return false
+end
+for _, gate in ipairs({
+  {recipe = "minepack-poison", prerequisites = {"new-munitions", "modular-tank-research3", "land-mine"}},
+  {recipe = "wmdartillery-ammo", prerequisites = {"super-tank-research2", "artillery"}}
+}) do
+  local recipe = recipes[gate.recipe]
+  if not recipe or recipe.enabled ~= false then
+    fail(gate.recipe .. " must start locked behind its weapon prerequisites")
+  end
+  local unlockers = 0
+  for name, technology in pairs(technologies) do
+    for _, effect in pairs(technology.effects or {}) do
+      if effect.type == "unlock-recipe" and effect.recipe == gate.recipe then
+        unlockers = unlockers + 1
+        for _, prerequisite in ipairs(gate.prerequisites) do
+          if not has_ancestor(name, prerequisite) then
+            fail(name .. " unlocks " .. gate.recipe .. " without prerequisite ancestry: " .. prerequisite)
+          end
+        end
+      end
+    end
+  end
+  if unlockers == 0 then fail(gate.recipe .. " has no research unlock") end
+end
+
+if technologies["stone-tools"] then
+  fail("stone-tools technology must be removed; basic tools are a starting recipe")
+end
+local starter_tools = recipes["stone-tools"]
+if not starter_tools or starter_tools.enabled == false or not handcraftable(starter_tools)
+    or not produces(starter_tools, "stone-tools") then
+  fail("stone-tools must remain an initially enabled handcraft recipe")
+end
+
 local category_count = 0
 for _ in pairs(used_categories) do category_count = category_count + 1 end
 log(("[TANKS-CI] WEAPON_AUDIT vehicles=%d gun_slots=%d supported_categories=%d ammo_links=%d declared_ammo=%d declared_ammo_craftable=%d warnings=%d"):format(
@@ -193,10 +243,11 @@ end
 if #warnings > 80 then log("[TANKS-CI] WEAPON_WARNINGS_ADDITIONAL " .. (#warnings - 80)) end
 if #failures > 0 then
   for _, message in ipairs(failures) do log("[TANKS-CI] WEAPON_FAIL " .. message) end
-  error("[TANKS-CI] " .. #failures .. " ammunition inventory or starting-weapon regressions")
+  error("[TANKS-CI] " .. #failures .. " ammunition registry or progression regressions")
 end
 log(("[TANKS-CI] AMMO_REGISTRY_PASS audited=%d declared=%d craftable=%d"):format(
   required_ammo_count, ammo_count, ammo_with_craft_recipe))
 log("[TANKS-CI] HANDHELD_UNLOCK_PASS weapon=starting_handcraft ammo=locked discovery=root_scripted")
+log("[TANKS-CI] WEAPON_PROGRESSION_PASS poison_mine=vehicle_and_land_mine artillery=wmd_and_artillery stone_tools=starting_only")
 -- True firing compatibility requires runtime driver, ammo and target scenarios.
 log("[TANKS-CI] WEAPON_AUDIT_PASS data-stage registry inspected (shots not yet fired)")
