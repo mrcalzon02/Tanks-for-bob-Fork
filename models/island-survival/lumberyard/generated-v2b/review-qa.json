@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "source_frames": 68,
+  "four_original_model_rotations": true,
+  "steam_stove_and_piston": true,
+  "mechanical_belt_drive": true,
+  "spinning_saw": true,
+  "real_lengthwise_half_log_ejection": true,
+  "machine_animation_change_pixels": {
+    "0": 1179,
+    "90": 942,
+    "180": 1039,
+    "270": 1306
+  },
+  "working_gifs": 4,
+  "game_prototype_changed": false,
+  "visual_accepted": false
+}
