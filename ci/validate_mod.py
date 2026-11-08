@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Inventory and auditable static diagnostics for Tanks for Bob's latest source.
+"""Inventory and auditable static diagnostics for Tanks for Bob's 2.1 source.
 
 This checker intentionally distinguishes imported Lua from dormant legacy files.
 Runtime game validation is still required to prove actual prototype validity.
@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PREFIX = "tanks_for_bob_fork_"
+FACTORIO_VERSION = "2.1"
 ENTRY_POINTS = ("settings.lua", "data.lua", "data-updates.lua", "control.lua")
 REQUIRE = re.compile(r"""\brequire\s*(?:\(\s*['"]([^'"]+)['"]\s*\)|['"]([^'"]+)['"])""")
 ASSET = re.compile(r"""__tanks_for_bob_fork__/([^\n"']+)""")
@@ -36,14 +37,18 @@ def select_mod():
     found = versioned_sources()
     if not found:
         raise ValueError("Missing versioned tanks_for_bob_fork source directory")
-    folder = found[-1][1]
-    info = json.loads((folder / "info.json").read_text(encoding="utf-8"))
+    # Historical 2.0 packages remain in the repository. Select the newest
+    # actual 2.1 package; never retarget an old package just for the test.
+    for _, folder in reversed(found):
+        info = json.loads((folder / "info.json").read_text(encoding="utf-8"))
+        if info.get("factorio_version") == FACTORIO_VERSION:
+            break
+    else:
+        raise ValueError("Missing versioned source declared for Factorio " + FACTORIO_VERSION)
     if info.get("name") != "tanks_for_bob_fork":
         raise ValueError("Incorrect mod name")
     if folder.name != PREFIX + info.get("version", ""):
         raise ValueError("Directory and info.json version mismatch")
-    if info.get("factorio_version") != "2.0":
-        raise ValueError("Latest source is not tagged for Factorio 2.0")
     required = []
     for dep in info.get("dependencies", []):
         dep = dep.strip()

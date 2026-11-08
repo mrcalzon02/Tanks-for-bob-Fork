@@ -1,0 +1,819 @@
+{
+  "engine": "Factorio 2.1.23 build 87750",
+  "package": "tanks_for_bob_fork 1.8.100",
+  "package_sha256": "c70c4ea68328032d8c72b926735b71d58ab49222bf0ed28fb74850169cfb6a39",
+  "passed": true,
+  "checks": [
+    {
+      "name": "baseline finished at12000ticks",
+      "passed": true
+    },
+    {
+      "name": "baseline uses base-only official mods",
+      "passed": true
+    },
+    {
+      "name": "baseline stone-furnace rejects saline-particulate",
+      "passed": true
+    },
+    {
+      "name": "baseline stone-furnace rejects bioceramic-grit",
+      "passed": true
+    },
+    {
+      "name": "baseline stone-furnace iron control works",
+      "passed": true
+    },
+    {
+      "name": "baseline steel-furnace rejects saline-particulate",
+      "passed": true
+    },
+    {
+      "name": "baseline steel-furnace rejects bioceramic-grit",
+      "passed": true
+    },
+    {
+      "name": "baseline steel-furnace iron control works",
+      "passed": true
+    },
+    {
+      "name": "baseline electric-furnace rejects saline-particulate",
+      "passed": true
+    },
+    {
+      "name": "baseline electric-furnace rejects bioceramic-grit",
+      "passed": true
+    },
+    {
+      "name": "baseline electric-furnace iron control works",
+      "passed": true
+    },
+    {
+      "name": "baseline pit-kiln brick control works",
+      "passed": true
+    },
+    {
+      "name": "baseline pit-kiln saline-particulate",
+      "passed": true
+    },
+    {
+      "name": "baseline pit-kiln bioceramic-grit",
+      "passed": true
+    },
+    {
+      "name": "baseline ammunition starts enabled",
+      "passed": true
+    },
+    {
+      "name": "baseline weapon starts disabled",
+      "passed": true
+    },
+    {
+      "name": "candidate finished at12000ticks",
+      "passed": true
+    },
+    {
+      "name": "candidate uses base-only official mods",
+      "passed": true
+    },
+    {
+      "name": "candidate stone-furnace rejects saline-particulate",
+      "passed": true
+    },
+    {
+      "name": "candidate stone-furnace rejects bioceramic-grit",
+      "passed": true
+    },
+    {
+      "name": "candidate stone-furnace iron control works",
+      "passed": true
+    },
+    {
+      "name": "candidate steel-furnace rejects saline-particulate",
+      "passed": true
+    },
+    {
+      "name": "candidate steel-furnace rejects bioceramic-grit",
+      "passed": true
+    },
+    {
+      "name": "candidate steel-furnace iron control works",
+      "passed": true
+    },
+    {
+      "name": "candidate electric-furnace rejects saline-particulate",
+      "passed": true
+    },
+    {
+      "name": "candidate electric-furnace rejects bioceramic-grit",
+      "passed": true
+    },
+    {
+      "name": "candidate electric-furnace iron control works",
+      "passed": true
+    },
+    {
+      "name": "candidate pit-kiln brick control works",
+      "passed": true
+    },
+    {
+      "name": "candidate pit-kiln saline-particulate",
+      "passed": true
+    },
+    {
+      "name": "candidate pit-kiln bioceramic-grit",
+      "passed": true
+    },
+    {
+      "name": "candidate ammunition starts enabled",
+      "passed": true
+    },
+    {
+      "name": "candidate weapon starts disabled",
+      "passed": true
+    },
+    {
+      "name": "candidate bioceramic byproduct actually produced",
+      "passed": true
+    }
+  ],
+  "results": {
+    "baseline": [
+      {
+        "machine": "stone-furnace",
+        "requested_recipe": "saline-particulate",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_ingredients",
+        "crafting_progress": 0,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "trace-mineral-slurry",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "total_seeded": {
+          "trace-mineral-slurry": 0
+        },
+        "coal_seeded": 50,
+        "energy": 0
+      },
+      {
+        "machine": "stone-furnace",
+        "requested_recipe": "bioceramic-grit",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_ingredients",
+        "crafting_progress": 0,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "bioceramic-preform",
+            "requested": 10000,
+            "inserted": 0
+          },
+          {
+            "name": "calcified-bone-dust",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "total_seeded": {
+          "bioceramic-preform": 0,
+          "calcified-bone-dust": 0
+        },
+        "coal_seeded": 50,
+        "energy": 0
+      },
+      {
+        "machine": "stone-furnace",
+        "requested_recipe": "iron-plate",
+        "selected_recipe": "iron-plate",
+        "products_finished": 62,
+        "produced": {
+          "iron-plate": 62
+        },
+        "source_items": {
+          "iron-ore": 53
+        },
+        "status": "working",
+        "crafting_progress": 0.4947916666665459,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "iron-ore",
+            "requested": 10000,
+            "inserted": 54
+          }
+        ],
+        "total_seeded": {
+          "iron-ore": 116
+        },
+        "coal_seeded": 55,
+        "energy": 1600
+      },
+      {
+        "machine": "steel-furnace",
+        "requested_recipe": "saline-particulate",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_ingredients",
+        "crafting_progress": 0,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "trace-mineral-slurry",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "total_seeded": {
+          "trace-mineral-slurry": 0
+        },
+        "coal_seeded": 50,
+        "energy": 0
+      },
+      {
+        "machine": "steel-furnace",
+        "requested_recipe": "bioceramic-grit",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_ingredients",
+        "crafting_progress": 0,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "bioceramic-preform",
+            "requested": 10000,
+            "inserted": 0
+          },
+          {
+            "name": "calcified-bone-dust",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "total_seeded": {
+          "bioceramic-preform": 0,
+          "calcified-bone-dust": 0
+        },
+        "coal_seeded": 50,
+        "energy": 0
+      },
+      {
+        "machine": "steel-furnace",
+        "requested_recipe": "iron-plate",
+        "selected_recipe": "iron-plate",
+        "products_finished": 124,
+        "produced": {
+          "iron-plate": 124
+        },
+        "source_items": {
+          "iron-ore": 53
+        },
+        "status": "working",
+        "crafting_progress": 0.989583333333281,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "iron-ore",
+            "requested": 10000,
+            "inserted": 54
+          }
+        ],
+        "total_seeded": {
+          "iron-ore": 178
+        },
+        "coal_seeded": 55,
+        "energy": 1600
+      },
+      {
+        "machine": "electric-furnace",
+        "requested_recipe": "saline-particulate",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_ingredients",
+        "crafting_progress": 0,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "trace-mineral-slurry",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "total_seeded": {
+          "trace-mineral-slurry": 0
+        },
+        "coal_seeded": 0,
+        "energy": 3306.6666666666665
+      },
+      {
+        "machine": "electric-furnace",
+        "requested_recipe": "bioceramic-grit",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_ingredients",
+        "crafting_progress": 0,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "bioceramic-preform",
+            "requested": 10000,
+            "inserted": 0
+          },
+          {
+            "name": "calcified-bone-dust",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "total_seeded": {
+          "bioceramic-preform": 0,
+          "calcified-bone-dust": 0
+        },
+        "coal_seeded": 0,
+        "energy": 3306.6666666666665
+      },
+      {
+        "machine": "electric-furnace",
+        "requested_recipe": "iron-plate",
+        "selected_recipe": "iron-plate",
+        "products_finished": 124,
+        "produced": {
+          "iron-plate": 124
+        },
+        "source_items": {
+          "iron-ore": 53
+        },
+        "status": "working",
+        "crafting_progress": 0.989583333333281,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "iron-ore",
+            "requested": 10000,
+            "inserted": 54
+          }
+        ],
+        "total_seeded": {
+          "iron-ore": 178
+        },
+        "coal_seeded": 0,
+        "energy": 3306.6666666666665
+      },
+      {
+        "machine": "pit-kiln",
+        "requested_recipe": "saline-particulate",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_recipe",
+        "crafting_progress": 0,
+        "source_slots": 0,
+        "output_slots": 0,
+        "initial_insertion": [
+          {
+            "name": "trace-mineral-slurry",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "set_recipe_ok": true,
+        "total_seeded": {
+          "trace-mineral-slurry": 0
+        },
+        "coal_seeded": 50,
+        "energy": 0
+      },
+      {
+        "machine": "pit-kiln",
+        "requested_recipe": "bioceramic-grit",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_recipe",
+        "crafting_progress": 0,
+        "source_slots": 0,
+        "output_slots": 0,
+        "initial_insertion": [
+          {
+            "name": "bioceramic-preform",
+            "requested": 10000,
+            "inserted": 0
+          },
+          {
+            "name": "calcified-bone-dust",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "set_recipe_ok": true,
+        "total_seeded": {
+          "bioceramic-preform": 0,
+          "calcified-bone-dust": 0
+        },
+        "coal_seeded": 50,
+        "energy": 0
+      },
+      {
+        "machine": "pit-kiln",
+        "requested_recipe": "brick",
+        "selected_recipe": "brick",
+        "products_finished": 1,
+        "produced": {
+          "brick": 2
+        },
+        "source_items": {
+          "clay": 104
+        },
+        "status": "working",
+        "crafting_progress": 0.999833333333221,
+        "source_slots": 1,
+        "output_slots": 2,
+        "initial_insertion": [
+          {
+            "name": "clay",
+            "requested": 10000,
+            "inserted": 104
+          }
+        ],
+        "set_recipe_ok": true,
+        "total_seeded": {
+          "clay": 116
+        },
+        "coal_seeded": 52,
+        "energy": 355.55555555555554
+      }
+    ],
+    "candidate": [
+      {
+        "machine": "stone-furnace",
+        "requested_recipe": "saline-particulate",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_ingredients",
+        "crafting_progress": 0,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "trace-mineral-slurry",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "total_seeded": {
+          "trace-mineral-slurry": 0
+        },
+        "coal_seeded": 50,
+        "energy": 0
+      },
+      {
+        "machine": "stone-furnace",
+        "requested_recipe": "bioceramic-grit",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_ingredients",
+        "crafting_progress": 0,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "bioceramic-preform",
+            "requested": 10000,
+            "inserted": 0
+          },
+          {
+            "name": "calcified-bone-dust",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "total_seeded": {
+          "bioceramic-preform": 0,
+          "calcified-bone-dust": 0
+        },
+        "coal_seeded": 50,
+        "energy": 0
+      },
+      {
+        "machine": "stone-furnace",
+        "requested_recipe": "iron-plate",
+        "selected_recipe": "iron-plate",
+        "products_finished": 62,
+        "produced": {
+          "iron-plate": 62
+        },
+        "source_items": {
+          "iron-ore": 53
+        },
+        "status": "working",
+        "crafting_progress": 0.4947916666665459,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "iron-ore",
+            "requested": 10000,
+            "inserted": 54
+          }
+        ],
+        "total_seeded": {
+          "iron-ore": 116
+        },
+        "coal_seeded": 55,
+        "energy": 1600
+      },
+      {
+        "machine": "steel-furnace",
+        "requested_recipe": "saline-particulate",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_ingredients",
+        "crafting_progress": 0,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "trace-mineral-slurry",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "total_seeded": {
+          "trace-mineral-slurry": 0
+        },
+        "coal_seeded": 50,
+        "energy": 0
+      },
+      {
+        "machine": "steel-furnace",
+        "requested_recipe": "bioceramic-grit",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_ingredients",
+        "crafting_progress": 0,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "bioceramic-preform",
+            "requested": 10000,
+            "inserted": 0
+          },
+          {
+            "name": "calcified-bone-dust",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "total_seeded": {
+          "bioceramic-preform": 0,
+          "calcified-bone-dust": 0
+        },
+        "coal_seeded": 50,
+        "energy": 0
+      },
+      {
+        "machine": "steel-furnace",
+        "requested_recipe": "iron-plate",
+        "selected_recipe": "iron-plate",
+        "products_finished": 124,
+        "produced": {
+          "iron-plate": 124
+        },
+        "source_items": {
+          "iron-ore": 53
+        },
+        "status": "working",
+        "crafting_progress": 0.989583333333281,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "iron-ore",
+            "requested": 10000,
+            "inserted": 54
+          }
+        ],
+        "total_seeded": {
+          "iron-ore": 178
+        },
+        "coal_seeded": 55,
+        "energy": 1600
+      },
+      {
+        "machine": "electric-furnace",
+        "requested_recipe": "saline-particulate",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_ingredients",
+        "crafting_progress": 0,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "trace-mineral-slurry",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "total_seeded": {
+          "trace-mineral-slurry": 0
+        },
+        "coal_seeded": 0,
+        "energy": 3306.6666666666665
+      },
+      {
+        "machine": "electric-furnace",
+        "requested_recipe": "bioceramic-grit",
+        "selected_recipe": false,
+        "products_finished": 0,
+        "produced": {},
+        "source_items": {},
+        "status": "no_ingredients",
+        "crafting_progress": 0,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "bioceramic-preform",
+            "requested": 10000,
+            "inserted": 0
+          },
+          {
+            "name": "calcified-bone-dust",
+            "requested": 10000,
+            "inserted": 0
+          }
+        ],
+        "total_seeded": {
+          "bioceramic-preform": 0,
+          "calcified-bone-dust": 0
+        },
+        "coal_seeded": 0,
+        "energy": 3306.6666666666665
+      },
+      {
+        "machine": "electric-furnace",
+        "requested_recipe": "iron-plate",
+        "selected_recipe": "iron-plate",
+        "products_finished": 124,
+        "produced": {
+          "iron-plate": 124
+        },
+        "source_items": {
+          "iron-ore": 53
+        },
+        "status": "working",
+        "crafting_progress": 0.989583333333281,
+        "source_slots": 1,
+        "output_slots": 1,
+        "initial_insertion": [
+          {
+            "name": "iron-ore",
+            "requested": 10000,
+            "inserted": 54
+          }
+        ],
+        "total_seeded": {
+          "iron-ore": 178
+        },
+        "coal_seeded": 0,
+        "energy": 3306.6666666666665
+      },
+      {
+        "machine": "pit-kiln",
+        "requested_recipe": "saline-particulate",
+        "selected_recipe": "saline-particulate",
+        "products_finished": 9,
+        "produced": {
+          "saline-particulate": 27
+        },
+        "source_items": {
+          "trace-mineral-slurry": 34
+        },
+        "status": "working",
+        "crafting_progress": 0.9991666666664905,
+        "source_slots": 1,
+        "output_slots": 2,
+        "initial_insertion": [
+          {
+            "name": "trace-mineral-slurry",
+            "requested": 10000,
+            "inserted": 34
+          }
+        ],
+        "set_recipe_ok": true,
+        "total_seeded": {
+          "trace-mineral-slurry": 184
+        },
+        "coal_seeded": 52,
+        "energy": 355.55555555555554
+      },
+      {
+        "machine": "pit-kiln",
+        "requested_recipe": "bioceramic-grit",
+        "selected_recipe": "bioceramic-grit",
+        "products_finished": 7,
+        "produced": {
+          "bioceramic-grit": 7,
+          "tank-ammo-Industrialwaste": 1
+        },
+        "source_items": {
+          "bioceramic-preform": 14,
+          "calcified-bone-dust": 14
+        },
+        "status": "working",
+        "crafting_progress": 0.49937499999986235,
+        "source_slots": 2,
+        "output_slots": 2,
+        "initial_insertion": [
+          {
+            "name": "bioceramic-preform",
+            "requested": 10000,
+            "inserted": 14
+          },
+          {
+            "name": "calcified-bone-dust",
+            "requested": 10000,
+            "inserted": 14
+          }
+        ],
+        "set_recipe_ok": true,
+        "total_seeded": {
+          "bioceramic-preform": 22,
+          "calcified-bone-dust": 22
+        },
+        "coal_seeded": 52,
+        "energy": 355.55555555555554
+      },
+      {
+        "machine": "pit-kiln",
+        "requested_recipe": "brick",
+        "selected_recipe": "brick",
+        "products_finished": 1,
+        "produced": {
+          "brick": 2
+        },
+        "source_items": {
+          "clay": 104
+        },
+        "status": "working",
+        "crafting_progress": 0.999833333333221,
+        "source_slots": 1,
+        "output_slots": 2,
+        "initial_insertion": [
+          {
+            "name": "clay",
+            "requested": 10000,
+            "inserted": 104
+          }
+        ],
+        "set_recipe_ok": true,
+        "total_seeded": {
+          "clay": 116
+        },
+        "coal_seeded": 52,
+        "energy": 355.55555555555554
+      }
+    ]
+  },
+  "scope": "Seeded base-only machine feasibility: published 1.8.100 versus two category changes only, not the final 1.8.101 gameplay test."
+}

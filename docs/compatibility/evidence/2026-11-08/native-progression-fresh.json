@@ -1,0 +1,305 @@
+{
+  "engine": "Version: 2.1.24 (build 87808, linux64, headless)\nVersion: 64\nMap input version: 1.0.0-0\nMap output version: 2.1.24-1",
+  "profile": "space-age",
+  "source_fingerprint_sha256": "3ef42495a542b7a3f925aa640484d88d7e206ea0d5763061cd3bed48e7ebb3d8",
+  "scope": "Native player event integration plus seeded machine and historical-save states; not a complete playthrough.",
+  "reports": {
+    "fresh": {
+      "mode": "fresh",
+      "complete": true,
+      "checks": [
+        {
+          "name": "native test player exists",
+          "passed": true
+        },
+        {
+          "name": "native character attached",
+          "passed": true
+        },
+        {
+          "name": "player starting weapon available",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "player ammunition awaits wood",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_mining starting weapon available",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_mining ammunition awaits wood",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_crafting starting weapon available",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_crafting ammunition awaits wood",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_quality starting weapon available",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_quality ammunition awaits wood",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "starting weapon is handcraftable category",
+          "passed": true,
+          "detail": [
+            "crafting"
+          ]
+        },
+        {
+          "name": "wood discovery is root scripted technology",
+          "passed": true
+        },
+        {
+          "name": "real tree created",
+          "passed": true
+        },
+        {
+          "name": "native player mined real tree",
+          "passed": true
+        },
+        {
+          "name": "saline-particulate kiln created",
+          "passed": true
+        },
+        {
+          "name": "saline-particulate selectable in actual kiln",
+          "passed": true
+        },
+        {
+          "name": "bioceramic-grit kiln created",
+          "passed": true
+        },
+        {
+          "name": "bioceramic-grit selectable in actual kiln",
+          "passed": true
+        },
+        {
+          "name": "native mining event carried wood",
+          "passed": true,
+          "detail": {
+            "mined_wood": 4,
+            "crafted_wood": 1,
+            "crafted_weapon": 1,
+            "mined_payload": {
+              "name": "wood",
+              "count": 4,
+              "player_index": 1
+            },
+            "crafted_payload": {
+              "recipe": "desperation-scrape-driftwood",
+              "name": "wood",
+              "count": 1,
+              "player_index": 1,
+              "valid_for_read": true,
+              "research_during_crafted_event": true
+            }
+          }
+        },
+        {
+          "name": "harvesting wood researched ammunition",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": true,
+            "researched": true,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "starting weapon queues in player hands",
+          "passed": true
+        },
+        {
+          "name": "starting weapon actually hand-crafted",
+          "passed": true
+        },
+        {
+          "name": "driftwood force remains undiscovered",
+          "passed": true
+        },
+        {
+          "name": "native driftwood handcraft queues",
+          "passed": true
+        },
+        {
+          "name": "actual driftwood craft produced wood",
+          "passed": true
+        },
+        {
+          "name": "native crafting discovered ammunition",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": true,
+            "researched": true,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "quality force remains undiscovered",
+          "passed": true
+        },
+        {
+          "name": "rare wood inserted into actual player",
+          "passed": true
+        },
+        {
+          "name": "name-only item filter counts rare wood",
+          "passed": true
+        },
+        {
+          "name": "quality wood inventory event discovers ammunition",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": true,
+            "researched": true,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "native player acquisition sequence completed",
+          "passed": true,
+          "detail": {
+            "phase": "player_complete"
+          }
+        },
+        {
+          "name": "saline-particulate actually manufactured",
+          "passed": true,
+          "detail": {
+            "saline-particulate": 27,
+            "tank-ammo-Industrialwaste": 2
+          }
+        },
+        {
+          "name": "bioceramic-grit actually manufactured",
+          "passed": true,
+          "detail": {
+            "bioceramic-grit": 7,
+            "tank-ammo-Industrialwaste": 1
+          }
+        }
+      ],
+      "active_mods": {
+        "base": "2.1.24",
+        "elevated-rails": "2.1.24",
+        "recycler": "2.1.24",
+        "quality": "2.1.24",
+        "space-age": "2.1.24",
+        "tanks_for_bob_fork": "1.8.101",
+        "tanks-progression-runtime": "0.0.1"
+      },
+      "scope": "Native player mining and handcrafting events, plus seeded kiln production and seeded historical-save migration; not a full progression playthrough.",
+      "native_events": {
+        "mined_wood": 4,
+        "crafted_wood": 1,
+        "crafted_weapon": 1,
+        "mined_payload": {
+          "name": "wood",
+          "count": 4,
+          "player_index": 1
+        },
+        "crafted_payload": {
+          "recipe": "desperation-scrape-driftwood",
+          "name": "wood",
+          "count": 1,
+          "player_index": 1,
+          "valid_for_read": true,
+          "research_during_crafted_event": true
+        }
+      },
+      "machine_results": [
+        {
+          "recipe": "saline-particulate",
+          "products": {
+            "saline-particulate": 27,
+            "tank-ammo-Industrialwaste": 2
+          },
+          "crafts": 9
+        },
+        {
+          "recipe": "bioceramic-grit",
+          "products": {
+            "bioceramic-grit": 7,
+            "tank-ammo-Industrialwaste": 1
+          },
+          "crafts": 7
+        }
+      ],
+      "tick": 12000
+    }
+  },
+  "passed": true,
+  "package": "tanks_for_bob_fork_1.8.101.zip",
+  "package_sha256": "3ef42495a542b7a3f925aa640484d88d7e206ea0d5763061cd3bed48e7ebb3d8"
+}

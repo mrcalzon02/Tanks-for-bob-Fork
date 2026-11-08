@@ -1,4 +1,4 @@
--- CI-only vehicle weapon, ammunition and item-placement topology audit.
+-- CI-only vehicle/handheld weapon, ammunition and item-placement audit.
 -- This inspects prototypes, not actual firing, damage, or graphical animation.
 local car = data.raw.car or {}
 local guns = data.raw.gun or {}
@@ -6,13 +6,31 @@ local ammo = data.raw.ammo or {}
 local recipes = data.raw.recipe or {}
 local categories = data.raw["ammo-category"] or {}
 local manifest = require("ci_manifest")
+-- Explicit inventory from the progression audit. Keep these known ammunition
+-- families covered even if a future manifest edit misses a declaration file.
+local required_ammo = {
+  ["Sharp-stick"] = "wood",
+  ["flame-thrower-ammo-tanker"] = "tank-spray-ammo",
+  ["flame-thrower-ammo-tanker-2"] = "tank-spray-ammo-2",
+  ["45mm-auto"] = "auto-cannon-ammo",
+  ["50mm-mortar"] = "tank-nade-ammo",
+  ["cannon-shell-2"] = "cannon-shell",
+  ["minepack"] = "tank-mine-ammo",
+  ["rocketpack"] = "tank-rocket-ammo",
+  ["50mm-mortar-poison"] = "tank-nade-ammo",
+  ["minepack-poison"] = "tank-mine-ammo",
+  ["piercing-shotgun-shell-brick"] = "shotgun-shell",
+  ["ap-bullet-brick"] = "bullet",
+  ["tank-wmd-ammo"] = "tank-wmd-ammo",
+  ["wmdartillery-ammo"] = "artillery-shell",
+}
 local target_names = {
   "modular-tank", "flame-tank", "auto-tank", "nade-tank",
   "flame-tank-wlsk", "auto-tank-wlsk", "nade-tank-wlsk",
   "mine-tank", "rocket-tank", "super-tank", "super-tank-alternate",
   "super-tank-wmd", "car-flamer"
 }
-local warnings, weapon_count, linked_ammo, supported = {}, 0, 0, 0
+local warnings, failures, weapon_count, linked_ammo, supported = {}, {}, 0, 0, 0
 local used_categories = {}
 local ammo_by_category = {}
 local craftable_ammo = {}
@@ -36,6 +54,7 @@ end
 local function flag(what)
   if #warnings < 160 then warnings[#warnings+1] = what end
 end
+local function fail(what) failures[#failures+1] = what end
 for _, name in ipairs(target_names) do
   local vehicle = car[name]
   if not vehicle then
@@ -92,6 +111,77 @@ for name in pairs(manifest.ammo or {}) do
     flag("source-declared ammo has no detected crafting output: " .. name)
   end
 end
+local required_ammo_count = 0
+for name, category in pairs(required_ammo) do
+  required_ammo_count = required_ammo_count + 1
+  if not (manifest.ammo or {})[name] then
+    fail("audited ammunition is missing from the source manifest: " .. name)
+  end
+  local prototype = ammo[name]
+  if not prototype then
+    fail("audited ammunition is missing from the live registry: " .. name)
+  elseif prototype.ammo_category ~= category or not categories[category] then
+    fail("audited ammunition category changed or is unregistered: " .. name .. " / " .. category)
+  end
+  if not craftable_ammo[name] then
+    fail("audited ammunition has no crafting output: " .. name)
+  end
+end
+
+-- The user's starting-weapon regression is an explicit contract, separate
+-- from the broader diagnostic vehicle topology above. Runtime tests must
+-- additionally prove that wood acquisition completes this scripted research.
+local weapon_recipe, ammunition_recipe = recipes["wood-spear"], recipes["Sharp-stick"]
+local wood_technology = (data.raw.technology or {})["wood-spear"]
+local character = (data.raw.character or {}).character
+local function handcraftable(recipe)
+  if not (recipe and character) then return false end
+  for _, ingredient in pairs(recipe.ingredients or {}) do
+    if ingredient.type == "fluid" then return false end
+  end
+  for _, category in pairs(recipe.categories or {recipe.category or "crafting"}) do
+    for _, allowed in pairs(character.crafting_categories or {}) do
+      if category == allowed then return true end
+    end
+  end
+  return false
+end
+local function produces(recipe, item_name)
+  for _, product in pairs((recipe or {}).results or {}) do
+    if (product.type or "item") == "item" and (product.name or product[1]) == item_name then
+      return true
+    end
+  end
+  return recipe and recipe.result == item_name
+end
+if not weapon_recipe or weapon_recipe.enabled == false or not handcraftable(weapon_recipe)
+    or not produces(weapon_recipe, "wood-spear") then
+  fail("wood-spear must be an initially enabled handcraft recipe for the wooden weapon")
+end
+if not ammunition_recipe or ammunition_recipe.enabled ~= false or not handcraftable(ammunition_recipe)
+    or not produces(ammunition_recipe, "Sharp-stick") then
+  fail("Sharp-stick must start locked and remain handcraftable after its material discovery")
+end
+local wooden_gun = guns["wood-spear"]
+if not wooden_gun or (wooden_gun.attack_parameters or {}).ammo_category ~= "wood" then
+  fail("wood-spear must accept the wooden ammunition category")
+end
+if not wood_technology then
+  fail("missing wooden-ammunition discovery technology")
+else
+  if next(wood_technology.prerequisites or {}) or wood_technology.unit or
+      wood_technology.enabled == false or
+      (wood_technology.research_trigger or {}).type ~= "scripted" then
+    fail("wood-spear technology must be a root scripted material discovery without science-pack research")
+  end
+  local unlocks_ammunition = false
+  for _, effect in pairs(wood_technology.effects or {}) do
+    if effect.type == "unlock-recipe" and effect.recipe == "Sharp-stick" then
+      unlocks_ammunition = true
+    end
+  end
+  if not unlocks_ammunition then fail("wood-spear discovery must unlock Sharp-stick ammunition") end
+end
 local category_count = 0
 for _ in pairs(used_categories) do category_count = category_count + 1 end
 log(("[TANKS-CI] WEAPON_AUDIT vehicles=%d gun_slots=%d supported_categories=%d ammo_links=%d declared_ammo=%d declared_ammo_craftable=%d warnings=%d"):format(
@@ -101,5 +191,12 @@ for i, message in ipairs(warnings) do
   log("[TANKS-CI] WEAPON_WARNING " .. message)
 end
 if #warnings > 80 then log("[TANKS-CI] WEAPON_WARNINGS_ADDITIONAL " .. (#warnings - 80)) end
+if #failures > 0 then
+  for _, message in ipairs(failures) do log("[TANKS-CI] WEAPON_FAIL " .. message) end
+  error("[TANKS-CI] " .. #failures .. " ammunition inventory or starting-weapon regressions")
+end
+log(("[TANKS-CI] AMMO_REGISTRY_PASS audited=%d declared=%d craftable=%d"):format(
+  required_ammo_count, ammo_count, ammo_with_craft_recipe))
+log("[TANKS-CI] HANDHELD_UNLOCK_PASS weapon=starting_handcraft ammo=locked discovery=root_scripted")
 -- True firing compatibility requires runtime driver, ammo and target scenarios.
 log("[TANKS-CI] WEAPON_AUDIT_PASS data-stage registry inspected (shots not yet fired)")

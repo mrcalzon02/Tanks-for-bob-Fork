@@ -1,11 +1,15 @@
 -- CI-only runtime harness. Injected into disposable mod folder.
 local expected = require("ci_profile")
+local wood_progression = require("scripts.wood_progression")
 local vehicle_names = {
   "flame-tank", "auto-tank", "nade-tank", "rocket-tank",
   "mine-tank", "super-tank", "super-tank-alternate", "super-tank-wmd"
 }
 
 script.on_init(function()
+  -- Factorio has one on_init callback per mod. Compose production startup
+  -- instead of silently replacing it when this CI-only harness is appended.
+  wood_progression.on_init()
   local active = script.active_mods
   for name in pairs(active) do
     if name ~= "core" and not expected[name] and name ~= "tanks_for_bob_fork" then

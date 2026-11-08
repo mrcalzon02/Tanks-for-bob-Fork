@@ -1,0 +1,17 @@
+{
+  "name": "tanks_for_bob_fork",
+  "version": "1.8.101",
+  "title": "Tanks! for Bob fork!!",
+  "author": "mrcalzon",
+  "homepage": "none",
+  "description": "Tanks! for Bob!! fork of Tanks! for bob!, this mod brings in stronger tanks you need if you want a player to have more influence on the map now with less teleporters and blue walls",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base >= 2.1",
+    "? elevated-rails >= 2.0",
+    "? quality >= 2.0",
+    "? space-age >= 2.0",
+    "? recycler >= 2.1.0",
+    "! tanks_for_bob_ >= 1.7.1"
+  ]
+}

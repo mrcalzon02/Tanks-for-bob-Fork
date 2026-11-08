@@ -1,4 +1,4 @@
--- Factorio 2.0 data-stage machine/recipe feasibility checks.
+-- Factorio 2.1 data-stage machine/recipe feasibility checks.
 -- All checks run inside the existing single official Factorio test profile.
 -- Unlike ingredient-only supply closure, these validate real machine
 -- item-ingredient capacity and the required fluid directions.
@@ -10,6 +10,12 @@ local function problem(s) problems[#problems + 1] = s end
 local function accepts(machine, category)
   for _, v in pairs(machine.crafting_categories or {}) do
     if v == category then return true end
+  end
+  return false
+end
+local function recipe_uses(recipe, wanted)
+  for _, category in pairs(recipe.categories or {recipe.category or "crafting"}) do
+    if category == wanted then return true end
   end
   return false
 end
@@ -34,7 +40,7 @@ local function verify(name, category, machine_name)
   local recipe, machine = recipes[name], machines[machine_name]
   if not recipe then problem("missing recipe " .. name) return end
   if not machine then problem("missing machine " .. machine_name) return end
-  if (recipe.category or "crafting") ~= category or not accepts(machine, category) then
+  if not recipe_uses(recipe, category) or not accepts(machine, category) then
     problem(name .. " category cannot be selected on " .. machine_name)
     return
   end
@@ -67,9 +73,14 @@ end
 for _, name in ipairs({"tank-ammo-industrial-coke", "Rubberized-timber"}) do
   verify(name, "tank-ammo-component", "tank-ammo-assembling-machine")
 end
+-- Furnaces cannot provide two item inputs or separate product slots for
+-- these recipes. The existing kiln can accept their actual ingredient lists.
+for _, name in ipairs({"saline-particulate", "bioceramic-grit"}) do
+  verify(name, "pit-kiln", "pit-kiln")
+end
 if #problems > 0 then
   for _, message in ipairs(problems) do log("[TANKS-CI] RECIPE_MACHINE_FAIL " .. message) end
   error("[TANKS-CI] " .. #problems .. " verified recipe/machine design problems")
 end
 log("[TANKS-CI] RECIPE_MACHINE_PASS audited=" .. checked ..
-  " workbench=5 advcooking=2 tank_ammo=2")
+  " workbench=5 advcooking=2 tank_ammo=2 pit_kiln=2")

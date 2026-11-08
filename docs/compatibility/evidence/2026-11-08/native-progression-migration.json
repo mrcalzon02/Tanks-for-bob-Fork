@@ -1,0 +1,636 @@
+{
+  "engine": "Version: 2.1.24 (build 87808, linux64, headless)\nVersion: 64\nMap input version: 1.0.0-0\nMap output version: 2.1.24-1",
+  "source": "/workspace/scratch/bcbf5d5b43f0/deliverables/tanks_for_bob_fork_1.8.101.zip",
+  "source_fingerprint_sha256": "3ef42495a542b7a3f925aa640484d88d7e206ea0d5763061cd3bed48e7ebb3d8",
+  "source_form": "archive",
+  "source_version": "1.8.101",
+  "profile": "space-age",
+  "commands": [
+    {
+      "mode": "fresh",
+      "command": [
+        "/workspace/scratch/bcbf5d5b43f0/validation-baseline/engine-2.1.24/factorio/bin/x64/factorio",
+        "--config",
+        "/workspace/scratch/bcbf5d5b43f0/validation-baseline/final-migration-runtime/fresh/config.ini",
+        "--mod-directory",
+        "/workspace/scratch/bcbf5d5b43f0/validation-baseline/final-migration-runtime/fresh/mods",
+        "--test-scenario",
+        "tanks-progression-runtime/progression",
+        "--test-arg",
+        "fresh",
+        "--test-ticks",
+        "15000"
+      ],
+      "exit_code": 0,
+      "log": "/workspace/scratch/bcbf5d5b43f0/validation-baseline/final-migration-runtime/fresh/fresh.log"
+    },
+    {
+      "mode": "seed-legacy",
+      "command": [
+        "/workspace/scratch/bcbf5d5b43f0/validation-baseline/engine-2.1.24/factorio/bin/x64/factorio",
+        "--config",
+        "/workspace/scratch/bcbf5d5b43f0/validation-baseline/final-migration-runtime/legacy/config.ini",
+        "--mod-directory",
+        "/workspace/scratch/bcbf5d5b43f0/validation-baseline/final-migration-runtime/legacy/mods",
+        "--scenario2map",
+        "tanks-progression-runtime/progression"
+      ],
+      "exit_code": 0,
+      "log": "/workspace/scratch/bcbf5d5b43f0/validation-baseline/final-migration-runtime/legacy/seed-legacy.log"
+    },
+    {
+      "mode": "migration",
+      "command": [
+        "/workspace/scratch/bcbf5d5b43f0/validation-baseline/engine-2.1.24/factorio/bin/x64/factorio",
+        "--config",
+        "/workspace/scratch/bcbf5d5b43f0/validation-baseline/final-migration-runtime/migration/config.ini",
+        "--mod-directory",
+        "/workspace/scratch/bcbf5d5b43f0/validation-baseline/final-migration-runtime/migration/mods",
+        "--test-save",
+        "/workspace/scratch/bcbf5d5b43f0/validation-baseline/final-migration-runtime/legacy/runtime/saves/tanks-progression-runtime/progression.zip",
+        "--test-arg",
+        "migration",
+        "--test-ticks",
+        "120"
+      ],
+      "exit_code": 0,
+      "log": "/workspace/scratch/bcbf5d5b43f0/validation-baseline/final-migration-runtime/migration/migration.log"
+    }
+  ],
+  "reports": {
+    "fresh": {
+      "mode": "fresh",
+      "complete": true,
+      "checks": [
+        {
+          "name": "native test player exists",
+          "passed": true
+        },
+        {
+          "name": "native character attached",
+          "passed": true
+        },
+        {
+          "name": "player starting weapon available",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "player ammunition awaits wood",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_mining starting weapon available",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_mining ammunition awaits wood",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_crafting starting weapon available",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_crafting ammunition awaits wood",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_quality starting weapon available",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "fixture_quality ammunition awaits wood",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "starting weapon is handcraftable category",
+          "passed": true,
+          "detail": [
+            "crafting"
+          ]
+        },
+        {
+          "name": "wood discovery is root scripted technology",
+          "passed": true
+        },
+        {
+          "name": "real tree created",
+          "passed": true
+        },
+        {
+          "name": "native player mined real tree",
+          "passed": true
+        },
+        {
+          "name": "saline-particulate kiln created",
+          "passed": true
+        },
+        {
+          "name": "saline-particulate selectable in actual kiln",
+          "passed": true
+        },
+        {
+          "name": "bioceramic-grit kiln created",
+          "passed": true
+        },
+        {
+          "name": "bioceramic-grit selectable in actual kiln",
+          "passed": true
+        },
+        {
+          "name": "native mining event carried wood",
+          "passed": true,
+          "detail": {
+            "mined_wood": 4,
+            "crafted_wood": 1,
+            "crafted_weapon": 1,
+            "mined_payload": {
+              "name": "wood",
+              "count": 4,
+              "player_index": 1
+            },
+            "crafted_payload": {
+              "recipe": "desperation-scrape-driftwood",
+              "name": "wood",
+              "count": 1,
+              "player_index": 1,
+              "valid_for_read": true,
+              "research_during_crafted_event": true
+            }
+          }
+        },
+        {
+          "name": "harvesting wood researched ammunition",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": true,
+            "researched": true,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "starting weapon queues in player hands",
+          "passed": true
+        },
+        {
+          "name": "starting weapon actually hand-crafted",
+          "passed": true
+        },
+        {
+          "name": "driftwood force remains undiscovered",
+          "passed": true
+        },
+        {
+          "name": "native driftwood handcraft queues",
+          "passed": true
+        },
+        {
+          "name": "actual driftwood craft produced wood",
+          "passed": true
+        },
+        {
+          "name": "native crafting discovered ammunition",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": true,
+            "researched": true,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "quality force remains undiscovered",
+          "passed": true
+        },
+        {
+          "name": "rare wood inserted into actual player",
+          "passed": true
+        },
+        {
+          "name": "name-only item filter counts rare wood",
+          "passed": true
+        },
+        {
+          "name": "quality wood inventory event discovers ammunition",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": true,
+            "researched": true,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "native player acquisition sequence completed",
+          "passed": true,
+          "detail": {
+            "phase": "player_complete"
+          }
+        },
+        {
+          "name": "saline-particulate actually manufactured",
+          "passed": true,
+          "detail": {
+            "saline-particulate": 27,
+            "tank-ammo-Industrialwaste": 2
+          }
+        },
+        {
+          "name": "bioceramic-grit actually manufactured",
+          "passed": true,
+          "detail": {
+            "bioceramic-grit": 7,
+            "tank-ammo-Industrialwaste": 2
+          }
+        }
+      ],
+      "active_mods": {
+        "base": "2.1.24",
+        "elevated-rails": "2.1.24",
+        "recycler": "2.1.24",
+        "quality": "2.1.24",
+        "space-age": "2.1.24",
+        "tanks_for_bob_fork": "1.8.101",
+        "tanks-progression-runtime": "0.0.1"
+      },
+      "scope": "Native player mining and handcrafting events, plus seeded kiln production and seeded historical-save migration; not a full progression playthrough.",
+      "native_events": {
+        "mined_wood": 4,
+        "crafted_wood": 1,
+        "crafted_weapon": 1,
+        "mined_payload": {
+          "name": "wood",
+          "count": 4,
+          "player_index": 1
+        },
+        "crafted_payload": {
+          "recipe": "desperation-scrape-driftwood",
+          "name": "wood",
+          "count": 1,
+          "player_index": 1,
+          "valid_for_read": true,
+          "research_during_crafted_event": true
+        }
+      },
+      "machine_results": [
+        {
+          "recipe": "saline-particulate",
+          "products": {
+            "saline-particulate": 27,
+            "tank-ammo-Industrialwaste": 2
+          },
+          "crafts": 9
+        },
+        {
+          "recipe": "bioceramic-grit",
+          "products": {
+            "bioceramic-grit": 7,
+            "tank-ammo-Industrialwaste": 2
+          },
+          "crafts": 7
+        }
+      ],
+      "tick": 12000
+    },
+    "seed-legacy": {
+      "mode": "seed-legacy",
+      "complete": true,
+      "checks": [
+        {
+          "name": "legacy save created with published package",
+          "passed": true
+        },
+        {
+          "name": "historical spear research queued",
+          "passed": true
+        },
+        {
+          "name": "historical character created",
+          "passed": true
+        },
+        {
+          "name": "historical wood inventory seeded",
+          "passed": true
+        },
+        {
+          "name": "legacy researched state seeded",
+          "passed": true
+        },
+        {
+          "name": "legacy unresearched state reproduced",
+          "passed": true
+        },
+        {
+          "name": "legacy partial research state reproduced",
+          "passed": true
+        }
+      ],
+      "active_mods": {
+        "base": "2.1.24",
+        "elevated-rails": "2.1.24",
+        "recycler": "2.1.24",
+        "quality": "2.1.24",
+        "space-age": "2.1.24",
+        "tanks_for_bob_fork": "1.8.100",
+        "tanks-progression-runtime": "0.0.1"
+      },
+      "scope": "Native player mining and handcrafting events, plus seeded kiln production and seeded historical-save migration; not a full progression playthrough.",
+      "legacy_snapshot": {
+        "version": "1.8.100",
+        "wood": 3,
+        "researched": {
+          "weapon": true,
+          "ammunition": true,
+          "researched": true,
+          "unrelated_recipe": false,
+          "unrelated_research": true
+        },
+        "existing": {
+          "weapon": false,
+          "ammunition": true,
+          "researched": false,
+          "unrelated_recipe": false,
+          "unrelated_research": false
+        },
+        "empty": {
+          "weapon": false,
+          "ammunition": true,
+          "researched": false,
+          "unrelated_recipe": false,
+          "unrelated_research": false
+        },
+        "in_progress": {
+          "weapon": false,
+          "ammunition": true,
+          "researched": false,
+          "unrelated_recipe": false,
+          "unrelated_research": false
+        },
+        "research_queue_head": "wood-spear",
+        "research_progress": 0.4
+      },
+      "saved_player_limitation": "The normal headless converter has no player. Its real saved character inventory is attached to the native test player on joining the upgraded save; offline-player configuration-time discovery is not claimed.",
+      "tick": 0
+    },
+    "migration": {
+      "mode": "migration",
+      "complete": true,
+      "checks": [
+        {
+          "name": "loaded saved historical state",
+          "passed": true
+        },
+        {
+          "name": "upgraded to corrected package",
+          "passed": true
+        },
+        {
+          "name": "real configuration change observed",
+          "passed": true,
+          "detail": {
+            "old_version": "1.8.100",
+            "new_version": "1.8.101"
+          }
+        },
+        {
+          "name": "legacy_researched default weapon available after migration",
+          "passed": true
+        },
+        {
+          "name": "legacy_existing_wood default weapon available after migration",
+          "passed": true
+        },
+        {
+          "name": "legacy_empty default weapon available after migration",
+          "passed": true
+        },
+        {
+          "name": "legacy_in_progress default weapon available after migration",
+          "passed": true
+        },
+        {
+          "name": "researched ammunition preserved",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": true,
+            "researched": true,
+            "unrelated_recipe": true,
+            "unrelated_research": true
+          }
+        },
+        {
+          "name": "unrelated research preserved",
+          "passed": true
+        },
+        {
+          "name": "native player attached saved character",
+          "passed": true
+        },
+        {
+          "name": "existing wood inventory preserved",
+          "passed": true,
+          "detail": {
+            "before": 3,
+            "after": 3
+          }
+        },
+        {
+          "name": "saved wood discovered on native player joining",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": true,
+            "researched": true,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "empty unresearched force remains gated",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "partial research remains gated after type migration",
+          "passed": true,
+          "detail": {
+            "weapon": true,
+            "ammunition": false,
+            "researched": false,
+            "unrelated_recipe": true,
+            "unrelated_research": false
+          }
+        },
+        {
+          "name": "old lab research leaves the queue",
+          "passed": true,
+          "detail": {
+            "current": false
+          }
+        }
+      ],
+      "active_mods": {
+        "base": "2.1.24",
+        "elevated-rails": "2.1.24",
+        "recycler": "2.1.24",
+        "quality": "2.1.24",
+        "space-age": "2.1.24",
+        "tanks_for_bob_fork": "1.8.101",
+        "tanks-progression-runtime": "0.0.1"
+      },
+      "scope": "Native player mining and handcrafting events, plus seeded kiln production and seeded historical-save migration; not a full progression playthrough.",
+      "engine_recipe_reset_note": "Factorio reapplies recipe effects before configuration handlers during prototype migration. Unrelated enabled-state overrides are observed, not promised preserved by this fixture.",
+      "before": {
+        "version": "1.8.100",
+        "wood": 3,
+        "researched": {
+          "weapon": true,
+          "ammunition": true,
+          "researched": true,
+          "unrelated_recipe": false,
+          "unrelated_research": true
+        },
+        "existing": {
+          "weapon": false,
+          "ammunition": true,
+          "researched": false,
+          "unrelated_recipe": false,
+          "unrelated_research": false
+        },
+        "empty": {
+          "weapon": false,
+          "ammunition": true,
+          "researched": false,
+          "unrelated_recipe": false,
+          "unrelated_research": false
+        },
+        "in_progress": {
+          "weapon": false,
+          "ammunition": true,
+          "researched": false,
+          "unrelated_recipe": false,
+          "unrelated_research": false
+        },
+        "research_queue_head": "wood-spear",
+        "research_progress": 0.4
+      },
+      "after": {
+        "researched": {
+          "weapon": true,
+          "ammunition": true,
+          "researched": true,
+          "unrelated_recipe": true,
+          "unrelated_research": true
+        },
+        "existing": {
+          "weapon": true,
+          "ammunition": true,
+          "researched": true,
+          "unrelated_recipe": true,
+          "unrelated_research": false
+        },
+        "empty": {
+          "weapon": true,
+          "ammunition": false,
+          "researched": false,
+          "unrelated_recipe": true,
+          "unrelated_research": false
+        },
+        "in_progress": {
+          "weapon": true,
+          "ammunition": false,
+          "researched": false,
+          "unrelated_recipe": true,
+          "unrelated_research": false
+        }
+      },
+      "configuration_change": {
+        "old_version": "1.8.100",
+        "new_version": "1.8.101"
+      },
+      "before_player_join": {
+        "players": 0,
+        "existing": {
+          "weapon": true,
+          "ammunition": false,
+          "researched": false,
+          "unrelated_recipe": true,
+          "unrelated_research": false
+        }
+      },
+      "saved_player_limitation": "Historical wood was serialized in a real character inventory and discovered when the native test player attached on join. Offline-player on_configuration_changed discovery remains unit-tested, not demonstrated by this native saved-map fixture.",
+      "tick": 0
+    }
+  },
+  "scope": "Native player event integration plus seeded machine and historical-save states; not a complete playthrough.",
+  "legacy_package_sha256": "c70c4ea68328032d8c72b926735b71d58ab49222bf0ed28fb74850169cfb6a39",
+  "legacy_save_sha256": "c4450bcd7e404a71bfc7d7dc82933981ea1049bbecf69f67562f47d243cfe91f",
+  "passed": true
+}

@@ -94,16 +94,28 @@ end
 local recipes_without_unlock, no_machine, tank_recipes, tank_missing_unlock = 0, 0, 0, 0
 local category_count = {}
 for name, recipe in pairs(recipes) do
-  local category = recipe.category or (recipe.categories and recipe.categories[1]) or "crafting"
-  category_count[category] = (category_count[category] or 0) + 1
-  if not producers[category] and category ~= "crafting" and category ~= "parameters" then
+  -- Factorio 2.1 permits several categories. A producer for any one of them
+  -- is sufficient; checking only the first would report false dead ends.
+  local recipe_categories = recipe.categories or {recipe.category or "crafting"}
+  local supported, tank_recipe = false, false
+  for _, category in pairs(recipe_categories) do
+    category_count[category] = (category_count[category] or 0) + 1
+    if producers[category] or category == "crafting" or category == "parameters" then
+      supported = true
+    end
+    if category == "tank-crafting" or category == "tank-ammo-component" then
+      tank_recipe = true
+    end
+  end
+  if not supported then
     no_machine = no_machine + 1
-    warn("No machine crafts category " .. category .. " (recipe " .. name .. ")")
+    warn("No machine crafts any category " .. table.concat(recipe_categories, ",") ..
+      " (recipe " .. name .. ")")
   end
   if recipe.enabled == false and not unlocked[name] then
     recipes_without_unlock = recipes_without_unlock + 1
   end
-  if category == "tank-crafting" or category == "tank-ammo-component" then
+  if tank_recipe then
     tank_recipes = tank_recipes + 1
     if recipe.enabled == false and not unlocked[name] then
       tank_missing_unlock = tank_missing_unlock + 1

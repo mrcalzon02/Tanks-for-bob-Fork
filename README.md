@@ -1,106 +1,84 @@
-# Tanks! for Bob Fork — Factorio 2.0
+# Tanks! for Bob Fork — Factorio 2.1
 
-A Factorio tank and vehicle expansion originally created to provide stronger firepower against large biter hordes. The fork includes specialized tanks, guns, ammunition, and substantial intermediate-product and technology chains.
+**Current source: 1.8.101.** The current source is directly buildable from
+[`tanks_for_bob_fork_1.8.101`](tanks_for_bob_fork_1.8.101), including the accepted
+Campfire, Clay Pit, Pit Kiln and Lumberyard artwork carried forward from the
+verified **1.8.100** Mod Portal package. Base Factorio 2.1 is required; Elevated
+Rails, Quality, Recycler and Space Age remain optional.
 
-**Current version:** `tanks_for_bob_fork_1.8.95.zip` — Factorio **2.0** target, with base game required and official expansion modules optional. [GitHub release](https://github.com/mrcalzon02/Tanks-for-bob-Fork/releases/tag/v1.8.95).
+## Progression audit and repairs — 8 November 2026
 
-## 1.8.95 recipe-chain repairs and model development
+The [classified audit](docs/compatibility/PROGRESSION_ORDER_AUDIT_2026-11-08.md)
+was mapped before gameplay changes. It covers **210 recipes, 88 technologies,
+14 ammunition prototypes and 11 guns**, including practical machine capacity
+and research/material ancestry. The [complete inventory](docs/compatibility/PROGRESSION_ORDER_INVENTORY_2026-11-08.md)
+and [machine-readable baseline](docs/compatibility/PROGRESSION_ORDER_BASELINE_2026-11-08.json)
+record the inspected package.
 
-The island-survival production chain now has mechanical fixes for **five
-early three-ingredient Workbench recipes** and **two steam-based Cooking Fire
-recipes**. The specialized ammunition assembler also has **input and output
-fluid connections**. These repairs preserve the existing research
-prerequisites and recipe costs.
+The clear corrections are:
 
-A new [21-structure primitive 3D model library](models/island-survival/README.md)
-includes editable **Wavefront OBJ geometry, materials, and sprite links**.
-These are source-controlled visual-comparison models, **not in-game sprite
-replacements**. Their primitive proportions must be checked against the
-existing art before visual approval.
+- The **wooden spear starts handcraftable**. Acquiring wood completes its root
+  material technology and unlocks sharp-stick ammunition, including both tree
+  harvesting and SeaBlock driftwood crafting. No lab or Lumberyard is needed.
+- **Saline particulate and bioceramic grit use the Pit Kiln**. Ordinary
+  furnaces reject their ingredients because the recipes need separate products
+  or multiple item inputs. Existing ingredients, outputs and research stay intact.
+- The ammunition audit includes the wooden ammunition it previously missed.
+- The source selector, package builder and existing single-job test workflow
+  now operate on the actual **2.1 source**, rather than an old 2.0 probe.
 
-[See the logical audit and follow-up](docs/compatibility/RECIPE_TECH_LOGICAL_AUDIT.md)
-for what was fixed and what still requires manual playtesting.
+The audit separately records design decisions about poison-mine platforms,
+WMD artillery, stone-tool research, cooking specialization, parallel vanilla
+manufacturing, a resource-free island's oil/coal bootstrap, and historical
+unused prototypes. Those branches retain their existing behavior pending a
+specific decision. Industrial components and machine-gated starter operations
+are not moved behind weapons merely because they are related to ammunition.
 
-## Official Factorio compatibility — verified November 5, 2026
+## Build the installable package
 
-**Current automated CI:** exactly **one job and one Factorio 2.0.77 profile**, with Base, Elevated Rails, Quality and Space Age enabled together. This includes static source, recipe, ammunition, vehicle, damage, save creation, benchmark and server-startup checks. [View current checks](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/workflows/vanilla-factorio.yml).
+```bash
+python3 ci/package_mod.py --output dist
+```
 
-Previously, [12 Factorio 2.0/2.1 profiles passed](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42136857118). Those results are retained **for historical reference only**; current CI does not retest all twelve or Factorio 2.1.
+The command selects the highest versioned source and creates
+`tanks_for_bob_fork_1.8.101.zip` plus its SHA-256 file. It checks that every
+archived file matches the source and refuses to overwrite an existing package.
+Place the ZIP in Factorio's `mods` directory without unpacking it.
 
-| Official module | Factorio 2.0.77 | Factorio 2.1.23 | Notes |
-| --- | --- | --- | --- |
-| `core` | Built-in | Built-in | Required by Factorio |
-| `base` | **Pass** | **Pass*** | The fork requires base |
-| `elevated-rails` | **Pass** | **Pass*** | Optional, individually tested |
-| `quality` | **Pass** | **Pass*** | Optional, individually tested |
-| `recycler` | Part of Quality | **Pass*** | Standalone official module in 2.1 |
-| `space-age` | **Pass** | **Pass*** | Full expansion profile tested |
-| Space Age **without Quality** | Not separately tested | **Pass*** | Explicit 2.1 test profile |
+This source change does not publish a Mod Portal release. Previously published
+versions and tags are retained. The [Mod Portal](https://mods.factorio.com/mod/tanks_for_bob_fork)
+last published baseline for this audit is **1.8.100**; the older 1.8.95 GitHub
+release targets Factorio 2.0 and is historical.
 
-\* **Factorio 2.1 test-only probe:** CI updates the `factorio_version` metadata **only in a disposable copy** to exercise the 2.1 engine. This release's actual `info.json` specifies **Factorio 2.0**, and the downloadable package is **not** a published 2.1 build. All these checks run with **only this fork and official mods**; they do not certify Bob's Enemies, AAI, Mechanicus, or other third-party mods.
+## Verification
 
-### Historical 12-profile results (not run by current CI)
+The [single manually dispatched compatibility job](.github/workflows/vanilla-factorio.yml)
+uses **Factorio 2.1.24** with Base, Elevated Rails, Recycler, Quality and Space
+Age enabled together. Ordinary commits do not dispatch it. No release upload
+is performed by this audit workflow.
 
-| Engine | Official mods enabled besides `core` |
-| --- | --- |
-| 2.0.77 | `base` |
-| 2.0.77 | `base` + `elevated-rails` |
-| 2.0.77 | `base` + `quality` |
-| 2.0.77 | `base` + `elevated-rails` + `quality` |
-| 2.0.77 | `base` + `elevated-rails` + `quality` + `space-age` |
-| 2.1.23 | `base` |
-| 2.1.23 | `base` + `elevated-rails` |
-| 2.1.23 | `base` + `recycler` |
-| 2.1.23 | `base` + `quality` + `recycler` |
-| 2.1.23 | `base` + `elevated-rails` + `quality` + `recycler` |
-| 2.1.23 | `base` + `elevated-rails` + `recycler` + `space-age` |
-| 2.1.23 | `base` + `elevated-rails` + `quality` + `recycler` + `space-age` |
+The checks cover actual source loading, save creation/reload, simulation,
+vehicle/ammunition registry checks, server startup, and targeted progression
+fixtures. The earlier 1.8.100 baseline was also inspected in **2.1.23** with
+explicit base-only and full official-module configurations. See the audit's
+verification section for observed results and fixture limits.
 
-### What is actually tested
+A successful load or an ingredient-only graph does not prove a full survival
+playthrough, driving/firing every vehicle, two-client multiplayer, or endgame
+balance. Seeded machine tests prove their production operations; the actual
+wood-acquisition fixtures separately exercise the starting unlock.
 
-| Audit | Observed result | Scope |
-| --- | --- | --- |
-| Active source registry | **210 recipes / 88 technologies** present | Factorio data stage + source declaration manifest |
-| Disabled mod recipes lacking technology unlock | **0** in the source-declared manifest | Does not prove end-to-end research feasibility |
-| Recipe supply closure | **210/210** optimistically reachable | Diagnostic only; ignores research, machines, power, terrain and logistics |
-| Vehicle prototypes | **13** variants inspected | Prototype registry and item-placement relationships |
-| Mounted gun slots | **26/26** link to ammunition categories | Registry match; not real firing |
-| Declared ammunition | **13/13** prototype and crafting output checks | Includes custom and vanilla-category ammunition |
-| Spawning/simulation | **8** vehicles spawned after tick **300** | Real headless simulation, 1,200 ticks |
-| Physical damage | **Passed** at tick **600** | Actual engine hitpoint response: **1,250 → 0** |
-| Tank ammunition inventory | **7/7** surviving tested vehicles accepted assigned ammo at tick **900** | The eighth vehicle was intentionally destroyed in the damage check |
-| Dedicated server | **Pass** for the current full-expansion profile; earlier 12-profile baseline | Private headless server startup, not two connected clients |
-| Source/asset audit | **Pass** | Active Lua module paths, case-sensitive image references, duplicates |
-
-**Not yet established:** a player driving each tank; firing projectiles and consuming ammo; explosions, stream rendering and turret sprite alignment in the graphical client; a complete technology-gated production path; recall/teleport GUI behavior; two-client multiplayer; migration of older saves; and large-fleet balance. In `control.lua`, the recall event registrations are currently commented out, so the existence of recall functions is **not** proof that recall works.
-
-### Compatibility repairs already merged
-
-- Repaired case-sensitive Lua imports and artwork references, and restored the original matching high-resolution turret asset.
-- Corrected missing recipe icon references and duplicate recipe-category definitions.
-- Adjusted affected Factorio 2.1 prototype helpers/properties for engine probe compatibility.
-- Added conditional Quality / Recycler / Space Age waste-loop protections.
-- Added independent, repeatable official-mod Factorio CI suites; no Tech Priests dependency.
-
-### Reports, logs, and source
-
-- [Current one-job compatibility results](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/workflows/vanilla-factorio.yml)
-- [Official modules: full matrix, test method, version caveats](docs/compatibility/OFFICIAL_MOD_SUPPORT.md)
-- [Current-state source and functionality audit](docs/compatibility/CURRENT_STATE_AUDIT.md)
-- [Reusable CI workflow](.github/workflows/vanilla-factorio.yml)
-- [Release notes](docs/releases/v1.8.95.md)
-
-## Factorio Mod Portal distribution
-
-Version **1.8.95** is built and uploaded to the [Factorio Mod Portal](https://mods.factorio.com/mod/tanks_for_bob_fork) by the same **single** CI job after the full official-expansion Factorio 2.0.77 smoke test passes. Uploads require the private GitHub Actions secret `FACTORIO_MOD_UPLOAD_KEY`. Existing published versions are never overwritten.
-
-## Installing
-
-Download **`tanks_for_bob_fork_1.8.95.zip`** from the GitHub release and place it in Factorio's `mods` directory without unpacking it. For this package use Factorio 2.0 and enable the fork alongside `base`; Elevated Rails, Quality, and Space Age remain optional. A corresponding SHA-256 checksum is published with the ZIP.
+[CI instructions](ci/README.md) ·
+[Original 1.8.95 logical audit](docs/compatibility/RECIPE_TECH_LOGICAL_AUDIT.md) ·
+[Historical official-module checks](docs/compatibility/OFFICIAL_MOD_SUPPORT.md)
 
 ## Background
 
-The original motivation was stronger tank firepower for difficult biter scenarios. This fork expands the vehicle family with autocannon, flame, mortar/grenade, rocket, mine and super-tank options, plus added ammunition, intermediates, research, and manufacturing paths. Gameplay features and historical descriptions in the mod folder's README do not supersede the verified test limitations above.
+This fork expands the vehicle family with autocannon, flame, mortar/grenade,
+rocket, mine and super-tank options, alongside the island-survival, paperwork,
+advanced-material and ammunition manufacturing chains. Prototype IDs are
+preserved for existing saves. Bob compatibility development remains on its
+separate branch.
 
 ## Blender texturing and rendering references
 

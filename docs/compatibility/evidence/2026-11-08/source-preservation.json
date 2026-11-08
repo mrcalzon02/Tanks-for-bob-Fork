@@ -1,0 +1,32 @@
+{
+  "base_package": "tanks_for_bob_fork_1.8.100.zip",
+  "base_sha256": "c70c4ea68328032d8c72b926735b71d58ab49222bf0ed28fb74850169cfb6a39",
+  "candidate_source": "tanks_for_bob_fork_1.8.101",
+  "prior_files_removed": 0,
+  "art_and_sound_files_preserved_byte_for_byte": 516,
+  "changed_existing_files": [
+    "README.md",
+    "control.lua",
+    "info.json",
+    "locale/cs/base.cfg",
+    "locale/de/base.cfg",
+    "locale/en/40k.cfg",
+    "locale/en/base.cfg",
+    "locale/es-ES/base.cfg",
+    "locale/fi/base.cfg",
+    "locale/fr/base.cfg",
+    "locale/it/base.cfg",
+    "locale/ja/base.cfg",
+    "locale/ko/base.cfg",
+    "locale/no/base.cfg",
+    "locale/pl/base.cfg",
+    "locale/pt-BR/base.cfg",
+    "locale/ru/base.cfg",
+    "locale/uk/base.cfg",
+    "prototypes/recipe/recipe.lua",
+    "prototypes/technology/technology.lua"
+  ],
+  "added_files": [
+    "scripts/wood_progression.lua"
+  ]
+}
