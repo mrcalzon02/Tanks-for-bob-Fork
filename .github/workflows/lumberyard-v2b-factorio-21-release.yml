@@ -1,0 +1,87 @@
+name: Steam Lumberyard V2b | Factorio 2.1 1.8.99 release
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/art/build_lumberyard_21_release.py'
+      - 'tools/art/publish_lumberyard_21_release.py'
+      - '.github/workflows/lumberyard-v2b-factorio-21-release.yml'
+      - 'docs/releases/v1.8.99.md'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: steam-lumberyard-v2b-factorio21-release
+  cancel-in-progress: false
+jobs:
+  verify-and-publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Pillow and check release scripts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y python3-pil
+          python3 -m py_compile tools/art/build_lumberyard_21_release.py tools/art/publish_lumberyard_21_release.py
+      - name: Rebuild accepted 1.8.96 campfire
+        run: |
+          python3 tools/art/build_accepted_campfire_21.py --output /tmp/tanks-base-21
+      - name: Rebuild accepted 1.8.97 clay pit
+        run: |
+          /usr/bin/python3 tools/art/build_clay_pit_21_release.py \
+            --base /tmp/tanks-base-21/tanks_for_bob_fork_1.8.96.zip \
+            --output /tmp/tanks-clay-21
+      - name: Rebuild accepted 1.8.98 pit kiln
+        run: |
+          /usr/bin/python3 tools/art/build_pit_kiln_21_release.py \
+            --base /tmp/tanks-clay-21/tanks_for_bob_fork_1.8.97.zip \
+            --output /tmp/tanks-kiln-21
+      - name: Attach repaired V2b lumberyard and build complete 1.8.99
+        run: |
+          /usr/bin/python3 tools/art/build_lumberyard_21_release.py \
+            --base /tmp/tanks-kiln-21/tanks_for_bob_fork_1.8.98.zip \
+            --output /tmp/tanks-lumber-21
+      - name: Download official Factorio 2.1.23 headless
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/engine"
+          curl --fail --location --retry 3 \
+            --output "$RUNNER_TEMP/engine/factorio.tar.xz" \
+            'https://factorio.com/get-download/2.1.23/headless/linux64'
+          tar -xJf "$RUNNER_TEMP/engine/factorio.tar.xz" -C "$RUNNER_TEMP/engine"
+          "$RUNNER_TEMP/engine/factorio/bin/x64/factorio" --version | tee /tmp/tanks-lumber-21/engine-version.txt
+          grep -Fq '2.1.23' /tmp/tanks-lumber-21/engine-version.txt
+      - name: Full Factorio 2.1 mod load and 300-tick benchmark
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/mods"
+          cp /tmp/tanks-lumber-21/tanks_for_bob_fork_1.8.99.zip "$RUNNER_TEMP/mods/"
+          python3 - <<'PY'
+          import json,os
+          from pathlib import Path
+          f=Path(os.environ['RUNNER_TEMP'])/'mods/mod-list.json'
+          f.write_text(json.dumps({'mods':[{'name':'base','enabled':True},
+            {'name':'tanks_for_bob_fork','enabled':True}]})+'\n')
+          PY
+          engine="$RUNNER_TEMP/engine/factorio/bin/x64/factorio"
+          "$engine" --mod-directory "$RUNNER_TEMP/mods" --create "$RUNNER_TEMP/lumberyard-world.zip" \
+            --map-gen-seed 20261107 2>&1 | tee /tmp/tanks-lumber-21/engine-create.log
+          grep -Fq 'Loading mod tanks_for_bob_fork' /tmp/tanks-lumber-21/engine-create.log
+          "$engine" --mod-directory "$RUNNER_TEMP/mods" \
+            --benchmark "$RUNNER_TEMP/lumberyard-world.zip" --benchmark-ticks 300 \
+            2>&1 | tee /tmp/tanks-lumber-21/engine-benchmark.log
+          echo 'STEAM_LUMBERYARD_FACTORIO_21_ENGINE_PASS'
+      - name: Upload approved 1.8.99 to the Factorio Mod Portal
+        env:
+          FACTORIO_MOD_UPLOAD_KEY: ${{ secrets.FACTORIO_MOD_UPLOAD_KEY }}
+        run: |
+          /usr/bin/python3 tools/art/publish_lumberyard_21_release.py /tmp/tanks-lumber-21
+      - name: Retain full installable ZIP and official test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tanks-for-bob-1.8.99-steam-lumberyard-factorio21
+          path: /tmp/tanks-lumber-21/
+          if-no-files-found: warn
+          retention-days: 30
