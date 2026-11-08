@@ -33,8 +33,12 @@ jobs:
             --out /tmp/lumberyard-v2b --samples 28
       - name: Verify all four directions with unchanged real log splitting cycle
         run: |
+          # Original verifier expects the V2 filename; this temporary alias
+          # references the actual V2b master and is removed after readback.
+          ln -s steam-lumberyard-v2b.blend /tmp/lumberyard-v2b/steam-lumberyard-v2.blend
           /usr/bin/python3 models/island-survival/lumberyard/v2/verify_steam_lumberyard_v2.py \
             --out /tmp/lumberyard-v2b
+          rm /tmp/lumberyard-v2b/steam-lumberyard-v2.blend
       - name: Reopen native Blender source and verify physical moving piston
         run: |
           blender -b -t 4 /tmp/lumberyard-v2b/steam-lumberyard-v2b.blend \
@@ -50,6 +54,10 @@ jobs:
           y=json.loads((p/'review-qa.json').read_text())
           assert y['passed'] and x['source_frames']==68
           assert x['piston_animation_keys']==17 and x['connecting_rod_animation_keys']==17
+          assert x['wooden_drive_pulley_fixed_to_boiler_shafts']
+          assert all(max(values)<.002 for values in x['shaft_mount_after_fix'].values())
+          assert x['original_pulley_orbit_samples']['saw_pulley'][0]>.8
+          print('LOOSE_BROWN_SAW_PULLEY_CORRECTED_AND_SHAFT_CENTERED')
           assert len(list(p.glob('working-d*-preview.gif')))==4
           print('STEAM_LUMBERYARD_V2B_GEOMETRY_RENDER_AND_MOTION_PASS')
           PY
