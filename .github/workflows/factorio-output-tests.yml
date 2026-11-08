@@ -1,0 +1,52 @@
+name: Factorio Output | portable module real Blender regression
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'factorio-output/**'
+      - '.github/workflows/factorio-output*.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native-smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Blender Pillow and Lua
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil lua5.4
+      - name: Run all portable exporter and attachment regression tests
+        run: |
+          /usr/bin/python3 -m unittest discover -s factorio-output/tests -p 'test_*.py' -v
+      - name: Author editable Blender demonstration scene
+        run: |
+          blender -b -t 2 --python factorio-output/examples/make_demo_scene.py
+      - name: Execute entire standalone module through four actual Blender rotations
+        run: |
+          /usr/bin/python3 factorio-output/run.py --job factorio-output/examples/demo-job.json
+      - name: Verify output atlas frames, Lua and saved native Blender provenance
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('models/sprite-production/demo-press/v1')
+          x=json.loads((p/'production-receipt.json').read_text())
+          assert x['passed'] and x['factorio_client_tested'] is False
+          assert x['directions']==['north','east','south','west']
+          assert x['frames_per_direction']==4 and x['source_frame_count']==20
+          assert (p/'four-way-review.png').is_file()
+          assert (p/'capture/master.blend').is_file()
+          assert (p/'prototype-ready.lua').is_file()
+          assert len(list((p/'prototype_ready/graphics/entity').glob('*.png')))==6
+          print('COPYABLE_FACTORIO_OUTPUT_REAL_BLENDER_END_TO_END_PASSED')
+          PY
+      - name: Preserve actual source and sprite evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: factorio-output-copyable-module-real-blender-proof
+          path: models/sprite-production/demo-press/v1/
+          if-no-files-found: warn

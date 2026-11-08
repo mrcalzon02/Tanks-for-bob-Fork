@@ -1,0 +1,108 @@
+name: Factorio Output | portable Blender four-way renderer
+on:
+  workflow_call:
+    inputs:
+      job:
+        description: Repository-relative job JSON
+        required: true
+        type: string
+      mode:
+        description: review, publish, or deploy
+        required: false
+        default: review
+        type: string
+      from_capture:
+        description: Existing verified module capture directory (optional)
+        required: false
+        default: ""
+        type: string
+      replace_attachment:
+        description: Explicitly replace managed attachment of same prototype
+        required: false
+        default: false
+        type: boolean
+  workflow_dispatch:
+    inputs:
+      job:
+        description: Repository-relative job JSON
+        required: true
+        type: string
+        default: factorio-output/examples/demo-job.json
+      mode:
+        required: true
+        type: choice
+        default: review
+        options: [review, publish, deploy]
+      from_capture:
+        required: false
+        type: string
+        default: ""
+      replace_attachment:
+        required: false
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: factorio-output-${{ github.ref }}-${{ inputs.job }}
+  cancel-in-progress: false
+jobs:
+  produce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          ref: main
+      - name: Install native Blender, Pillow and Lua compiler
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y blender python3-pil lua5.4
+          blender --version | head -3
+      - name: Run reusable exporter, attachment and portability tests
+        run: |
+          /usr/bin/python3 -m unittest discover -s factorio-output/tests -p 'test_*.py' -v
+      - name: Produce four-direction sprites and optional guarded deployment
+        env:
+          FACTORIO_JOB: ${{ inputs.job }}
+          FACTORIO_MODE: ${{ inputs.mode }}
+          FACTORIO_CAPTURE: ${{ inputs.from_capture }}
+          FACTORIO_REPLACE: ${{ inputs.replace_attachment }}
+        run: |
+          set -euo pipefail
+          case "$FACTORIO_JOB" in
+            ""|/*|*../*|*/..|*\\*) echo 'Unsafe job path'; exit 1;;
+          esac
+          test -f "$FACTORIO_JOB"
+          case "$FACTORIO_MODE" in
+            review|publish|deploy) ;;
+            *) echo 'Invalid output mode'; exit 1;;
+          esac
+          if [ "$FACTORIO_JOB" = factorio-output/examples/demo-job.json ]; then
+            test "$FACTORIO_MODE" = review || { echo 'Example cannot publish'; exit 1; }
+            if [ -z "$FACTORIO_CAPTURE" ]; then
+              blender -b -t 2 --python factorio-output/examples/make_demo_scene.py
+            fi
+          fi
+          if [ "$FACTORIO_REPLACE" = true ] && [ "$FACTORIO_MODE" != deploy ]; then
+            echo 'Replacing an attachment requires deploy mode'; exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          args=(--job "$FACTORIO_JOB" --blender blender)
+          if [ -n "$FACTORIO_CAPTURE" ]; then args+=(--from-capture "$FACTORIO_CAPTURE"); fi
+          if [ "$FACTORIO_REPLACE" = true ]; then args+=(--replace-attachment); fi
+          case "$FACTORIO_MODE" in
+            publish) args+=(--publish);;
+            deploy) args+=(--deploy);;
+          esac
+          /usr/bin/python3 factorio-output/run.py "${args[@]}"
+      - name: Preserve real Blender master, renders, art and QA on success/failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: factorio-output-real-blender-four-direction-proof
+          path: models/sprite-production/
+          if-no-files-found: warn
+          retention-days: 30
