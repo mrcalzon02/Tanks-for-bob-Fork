@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "asset": "demo-press",
+  "revision": "v1",
+  "capture_profile": "factorio-output/examples/demo-profile.json",
+  "mod_root": "factorio-output/examples/demo-mod",
+  "mod_name": "factorio_output_demo",
+  "active_state": "working",
+  "primary_size": 128,
+  "sizes": [
+    64,
+    128,
+    256
+  ],
+  "scale": 0.5,
+  "shift": [
+    0,
+    0
+  ]
+}

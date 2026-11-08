@@ -1,0 +1,23 @@
+{
+  "module": "factorio-output",
+  "version": "1.0.0",
+  "source_repo": "mrcalzon02/Tanks-for-bob-Fork",
+  "source_tools": "tools/art",
+  "entrypoint": "python3 factorio-output/run.py --job path/to/job.json",
+  "workflow": ".github/workflows/factorio-output.yml",
+  "copyable_workflow": "factorio-output/workflow.template.yml",
+  "modes": [
+    "review",
+    "publish",
+    "deploy"
+  ],
+  "requires": [
+    "Blender Cycles",
+    "Python 3",
+    "Pillow"
+  ],
+  "optional": [
+    "Lua 5.4 for deployment"
+  ],
+  "scope": "3D Blender scene export, Factorio directional sprites, icon, Lua, QA, optional GitHub push; not 3D scene invention or Mod Portal upload"
+}

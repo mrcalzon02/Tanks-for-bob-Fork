@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "asset": "portable-machine-demo",
+  "source": "demo.blend",
+  "adapter": null,
+  "source_size": 256,
+  "sizes": [
+    64,
+    128,
+    256
+  ],
+  "samples": 12,
+  "seed": 1601,
+  "columns": 8,
+  "fps": 8,
+  "directions": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "exclude_rotation": [],
+  "hide_render": [],
+  "animated_lights": [],
+  "camera_override": {
+    "elevation_deg": 45,
+    "azimuth_deg": 0,
+    "distance": 6,
+    "target": [
+      0,
+      0,
+      0.56
+    ],
+    "ortho_scale": 3
+  },
+  "states": {
+    "idle": [
+      0
+    ],
+    "working": [
+      1,
+      5,
+      9,
+      13
+    ]
+  }
+}
