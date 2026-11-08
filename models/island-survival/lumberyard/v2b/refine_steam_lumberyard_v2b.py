@@ -55,6 +55,56 @@ def main():
         raise RuntimeError("V2 power wheel is not keyed")
     if belt.type!="CURVE":
         raise RuntimeError("Expected an actual continuous Blender leather belt path")
+    # The old V2 rendering had a BROWN WOODEN DISK orbiting above and below
+    # the machine. It is the boiler-side drive pulley with a bad local
+    # parent-space offset. It must turn IN PLACE on the flywheel shaft.
+    wood_pulley=bpy.data.objects.get("DRIVE | boiler power pulley")
+    steel_flywheel=bpy.data.objects.get("ENGINE | five-spoke power flywheel")
+    saw_pulley=bpy.data.objects.get("DRIVE | sawshaft receiving pulley")
+    saw_hub=bpy.data.objects.get("ANIM | receiving pulley and saw spindle")
+    saw_rig=bpy.data.objects.get("ANIM | keyed toothed saw rotation")
+    if any(ob is None for ob in (wood_pulley,steel_flywheel,saw_pulley,saw_hub,saw_rig)):
+        raise RuntimeError("Missing original pulley, shaft, or wheel")
+    if wood_pulley.parent!=fly or steel_flywheel.parent!=fly or saw_pulley.parent!=saw_hub:
+        raise RuntimeError("Incorrect mechanical shaft parent hierarchy")
+    first_drift={}
+    for label,object_,pivot in (
+        ("wooden_drive_pulley",wood_pulley,fly),
+        ("steel_flywheel",steel_flywheel,fly),
+        ("saw_pulley",saw_pulley,saw_hub),
+    ):
+        distances=[]
+        for frame in (1,5,9,13,17):
+            scene.frame_set(frame);bpy.context.view_layer.update()
+            distances.append(round(float((object_.matrix_world.translation-pivot.matrix_world.translation).length),5))
+        first_drift[label]=distances
+    print("FREE_FLOATING_WHEEL_DIAGNOSTIC_BEFORE",json.dumps(first_drift),flush=True)
+    # Shaft-centered local transforms, not world-preserved child transforms.
+    # This ensures the wheel can only rotate about its parent's physical axle,
+    # and cannot revolve in a huge orbit like an unmounted loose disk.
+    for wheel_obj,pivot in ((wood_pulley,fly),(steel_flywheel,fly),(saw_pulley,saw_hub)):
+        wheel_obj.parent=pivot
+        wheel_obj.matrix_parent_inverse.identity()
+        wheel_obj.location=(0,0,0)
+        wheel_obj.rotation_mode="XYZ"
+        wheel_obj.rotation_euler=(0,math.pi/2,0)
+        wheel_obj.scale=(1,1,1)
+    scene.frame_set(1);bpy.context.view_layer.update()
+    wheel_anchor_qa={}
+    for label,object_,pivot in (
+        ("wooden_drive_pulley",wood_pulley,fly),
+        ("steel_flywheel",steel_flywheel,fly),
+        ("saw_pulley",saw_pulley,saw_hub),
+    ):
+        distances=[]
+        for frame in (1,5,9,13,17):
+            scene.frame_set(frame);bpy.context.view_layer.update()
+            distances.append(round(float((object_.matrix_world.translation-pivot.matrix_world.translation).length),6))
+        if max(distances)>.002:
+            raise RuntimeError(f"{label} is still orbiting its shaft: {distances}")
+        wheel_anchor_qa[label]=distances
+    print("BOILER_AND_SAW_PULLEYS_NOW_FIXED_TO_SHAFTS",json.dumps(wheel_anchor_qa),flush=True)
+
     # Make the loop read as a primitive wide, leather power-transmission belt.
     belt.data.bevel_depth=.031
     belt.data.bevel_resolution=2
@@ -95,7 +145,7 @@ def main():
         transform=ob.matrix_world.copy()
         ob.parent=root
         ob.matrix_world=transform
-    for index,frame in enumerate(FRAMES+(17,)):
+    for index,frame in enumerate(FRAMES+[17]):
         u=(index%16)/16
         theta=4*math.pi*u
         crank=DRIVE+Vector((.055,.20*math.cos(theta),.20*math.sin(theta)))
@@ -165,6 +215,9 @@ def main():
                  piston_sample_positions=coords,
                  increased_belt_width=True,
                  increased_visible_tooth_silhouette=True,
+                 original_pulley_orbit_samples=first_drift,
+                 shaft_mount_after_fix=wheel_anchor_qa,
+                 wooden_drive_pulley_fixed_to_boiler_shafts=True,
                  counts={**prior["counts"],"reciprocating_steam_pistons":1,
                     "moving_crank_rods":1},
                  source_frames=68,captures=captures,master_sha256=sha(master),
