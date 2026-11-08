@@ -59,8 +59,8 @@ def main():
                 'base >= 2.1' not in meta.get('dependencies',[])):
             raise RuntimeError('Wrong engine dependency in production release')
         if len(receipt.get('new_art_hashes',{}))!=7 or not receipt.get('pulley_alignment_verified'):
-        raise RuntimeError('Corrected saw-side pulley provenance missing')
-    for rel,digest in receipt['new_art_hashes'].items():
+            raise RuntimeError('Corrected saw-side pulley provenance missing')
+        for rel,digest in receipt['new_art_hashes'].items():
             if sha_bytes(z.read(rootdir+rel))!=digest:
                 raise RuntimeError('Accepted lumberyard atlas hash changed: '+rel)
         source=z.read(rootdir+'prototypes/entity/entities.lua').decode('utf-8')
