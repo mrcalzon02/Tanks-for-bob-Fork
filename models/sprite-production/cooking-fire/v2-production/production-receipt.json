@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "passed": true,
+  "factorio_client_tested": false,
+  "prototype_attached": true,
+  "asset": "cooking-fire",
+  "revision": "v2-production",
+  "camera": {
+    "elevation_deg": 45,
+    "azimuth_deg": 0,
+    "distance": 6,
+    "target": [
+      0,
+      0,
+      0.7
+    ],
+    "ortho_scale": 3.35
+  },
+  "directions": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "source_frame_count": 68,
+  "frames_per_direction": 16,
+  "fps": 8,
+  "master_sha256": "58edec317ffee6f2763614da71026a0b0d90f7f3b9e5c35ba1672219b2d89b60",
+  "files": {
+    "prototype_ready/graphics/entity/cooking-fire-v2-production-idle-64.png": "0a747f5b96f7f20ff85dc548004a3332db2a395a4fa50ab42cc382f390f5f08a",
+    "prototype_ready/graphics/entity/cooking-fire-v2-production-idle-128.png": "38de1735150814a0e11a2591bf8c44a663c0718ec93aa4598772f965c17cf3a1",
+    "prototype_ready/graphics/entity/cooking-fire-v2-production-idle.png": "ea2f07d47ba8d18189c6c590d6890966acd824f0265c9a71a6fb76527b6f570b",
+    "prototype_ready/graphics/entity/cooking-fire-v2-production-working-64.png": "b687a8f0e1135e3aee7a39a6d6f9897735984e4581475c0ffc5739d750b2754a",
+    "prototype_ready/graphics/entity/cooking-fire-v2-production-working-128.png": "115333d85e0982c5364bc197323ac0c38def836069b50b962a44468eb335ff0a",
+    "prototype_ready/graphics/entity/cooking-fire-v2-production-working.png": "a53938346acd89048ef966edbd434091da478b36ce19eb0708daf715e39bc559",
+    "prototype_ready/graphics/icons/cooking-fire-v2-production.png": "70d0a0daab3ef98f1b72ca0cb20b656782154c90ea819431389381ff49e1b06e",
+    "prototype-ready.lua": "4d0a2a55cd3eb7e94d26ceddf8e236ad60357667c5915046ad8bf641e1cec14f",
+    "four-way-review.png": "d07a8ba2f0cc971cb8fdc99141a1db49a53003aa6f8c28376257949eb3f232b5",
+    "prototype_ready/prototypes/generated_graphics/cooking-fire-v2-production.lua": "8d4f16950a3233d669a079d94ed85d6e29cd6cc0eb5711dea27f3872c2ada460",
+    "prototype_ready/data-final-fixes.lua": "d9c6ad69b4bf52f53532307008a40f36a64ba3c957127568c54e444454944f2b"
+  },
+  "note": "Prototype-ready snippet only; verify insertion and actual Factorio runtime before acceptance.",
+  "prototype_prepared": true,
+  "prototype_target": {
+    "type": "assembling-machine",
+    "name": "cooking-fire",
+    "declaration_sha256": "e720bdc917f857374fa43abc1c0e15a88d4f2a1452e5fc36c6f28df153288830",
+    "attachment_module_sha256": "8d4f16950a3233d669a079d94ed85d6e29cd6cc0eb5711dea27f3872c2ada460",
+    "stage_file_sha256": "d9c6ad69b4bf52f53532307008a40f36a64ba3c957127568c54e444454944f2b"
+  },
+  "attachment_lua_verification": {
+    "luac_passed": true,
+    "lua_probes": 3,
+    "factorio_client_tested": false
+  }
+}

@@ -1,0 +1,9 @@
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Pump box | upper seating lip", Modifier: "Weighted face normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Pump box | cast housing", Modifier: "Weighted face normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Hand bellows | rear timber support", Modifier: "Weighted face normals", Enable 'Auto Smooth' in Object Data Properties
+WARN (bke.modifier): ./source/blender/blenkernel/intern/modifier.cc:461 BKE_modifier_set_error: Object: "Hand bellows | front timber support", Modifier: "Weighted face normals", Enable 'Auto Smooth' in Object Data Properties
+REOPEN_VERIFIED ['saved master SHA256', 'MODEL/RENDER scenes', 'frozen camera and daylight', 'mesh count', 'packed image maps', 'transparent RGBA', '15 matte stone materials', '42 editable wood objects', '6 keyed flames', 'frame 0 natural wood / frame 13 charred wood', 'cold/fire visibility']
+Blender 4.0.2
+Read blend: "/home/runner/work/Tanks-for-bob-Fork/Tanks-for-bob-Fork/models/sprite-production/cooking-fire/v2-production/capture/master.blend"
+
+Blender quit

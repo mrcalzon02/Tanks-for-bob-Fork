@@ -1,0 +1,1257 @@
+{
+  "schema": 1,
+  "source_sha256": "6d95ba48a586956170dac4d9f37322068f66e25967f55eb54aed222933f2e675",
+  "source_file": "cooking-fire-v2.blend",
+  "blender": "4.0.2",
+  "config": {
+    "schema": 1,
+    "asset": "cooking-fire-v2",
+    "source": "../../../models/island-survival/cooking-fire/v2/cooking-fire-v2.blend",
+    "adapter": "campfire-matte-stones",
+    "source_size": 256,
+    "sizes": [
+      64,
+      128,
+      256
+    ],
+    "samples": 24,
+    "seed": 5855,
+    "columns": 8,
+    "fps": 8,
+    "directions": [
+      0,
+      -90,
+      180,
+      90
+    ],
+    "pivot": [
+      0,
+      0,
+      0
+    ],
+    "exclude_rotation": [
+      "Ground | shadow catcher"
+    ],
+    "hide_render": [
+      "Ground | shadow catcher"
+    ],
+    "animated_lights": [
+      "04 | animated fire light"
+    ],
+    "camera_override": {
+      "elevation_deg": 45,
+      "azimuth_deg": 0,
+      "distance": 6,
+      "target": [
+        0,
+        0,
+        0.7
+      ],
+      "ortho_scale": 3.35
+    },
+    "states": {
+      "idle": [
+        0
+      ],
+      "working": [
+        1,
+        7,
+        13,
+        19,
+        25,
+        31,
+        37,
+        43,
+        49,
+        55,
+        61,
+        67,
+        73,
+        79,
+        85,
+        91
+      ]
+    }
+  },
+  "camera": {
+    "name": "Factorio render camera",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        -0.7071067690849304,
+        -4.242640495300293
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304,
+        4.94264030456543
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 3.3499999046325684,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      256,
+      256
+    ]
+  },
+  "daylight": [
+    {
+      "name": "01 | NW warm key | broad source",
+      "type": "AREA",
+      "energy": 550.0,
+      "color": [
+        1.0,
+        0.9100000262260437,
+        0.7699999809265137
+      ],
+      "matrix_world": [
+        [
+          0.8045740723609924,
+          0.4379461407661438,
+          -0.40107816457748413,
+          -3.0999999046325684
+        ],
+        [
+          -0.5938522815704346,
+          0.5933464169502258,
+          -0.5433962941169739,
+          -4.199999809265137
+        ],
+        [
+          -1.1994124804459716e-08,
+          0.6753837466239929,
+          0.7374664545059204,
+          6.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "02 | SE cool fill | restrained",
+      "type": "AREA",
+      "energy": 180.0,
+      "color": [
+        0.699999988079071,
+        0.8299999833106995,
+        1.0
+      ],
+      "matrix_world": [
+        [
+          0.25449317693710327,
+          -0.6722847819328308,
+          0.6951736807823181,
+          3.799999952316284
+        ],
+        [
+          0.9670745730400085,
+          0.17691682279109955,
+          -0.18294045329093933,
+          -1.0
+        ],
+        [
+          1.647251934855376e-07,
+          0.7188418507575989,
+          0.6951736211776733,
+          4.099999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "03 | rear edge light",
+      "type": "AREA",
+      "energy": 270.0,
+      "color": [
+        1.0,
+        0.9100000262260437,
+        0.7900000214576721
+      ],
+      "matrix_world": [
+        [
+          -0.9539936780929565,
+          -0.19708167016506195,
+          0.22595323622226715,
+          1.100000023841858
+        ],
+        [
+          0.2998266816139221,
+          -0.6270776987075806,
+          0.7189419269561768,
+          3.5
+        ],
+        [
+          -4.7549516324352226e-08,
+          0.7536128759384155,
+          0.6573184728622437,
+          3.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "world": {
+    "name": "World",
+    "color_management": {
+      "view_transform": "AgX",
+      "look": "None",
+      "exposure": 0.0,
+      "gamma": 1.0
+    }
+  },
+  "material_changes": [
+    {
+      "material": "CF8 | stone 01 | stone_01",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 02 | stone_02",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 03 | stone_03",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 04 | stone_04",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 05 | stone_05",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 06 | stone_06",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 07 | stone_07",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 08 | stone_08",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 09 | stone_09",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 10 | stone_10",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 11 | stone_11",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 12 | stone_12",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 13 | stone_13",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 14 | stone_14",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    },
+    {
+      "material": "CF8 | stone 15 | stone_15",
+      "before": {
+        "Roughness": {
+          "value": 0.9800000190734863,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Specular IOR Level": {
+          "value": 0.07999999821186066,
+          "linked": false
+        },
+        "Coat Weight": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "after": {
+        "Roughness": 0.98,
+        "Metallic": 0.0,
+        "Specular IOR Level": 0.08,
+        "Coat Weight": 0.0
+      }
+    }
+  ],
+  "mesh_count": 113,
+  "master_sha256": "58edec317ffee6f2763614da71026a0b0d90f7f3b9e5c35ba1672219b2d89b60",
+  "frames": [
+    {
+      "state": "idle",
+      "direction": 0,
+      "angle": 0,
+      "index": 0,
+      "timeline_frame": 0,
+      "path": "frames/idle/d00/f000.png",
+      "sha256": "9b25b89b2eea539a257f6495825d0dfa6d8a834fbf4cb1523deeb394af5c4436"
+    },
+    {
+      "state": "idle",
+      "direction": 1,
+      "angle": -90,
+      "index": 0,
+      "timeline_frame": 0,
+      "path": "frames/idle/d01/f000.png",
+      "sha256": "251eb7710def463a285183136143bcfcbc1ce60c5570c1ff416666d3d69e0e5c"
+    },
+    {
+      "state": "idle",
+      "direction": 2,
+      "angle": 180,
+      "index": 0,
+      "timeline_frame": 0,
+      "path": "frames/idle/d02/f000.png",
+      "sha256": "2186800e13d772158610861ab2d68791049cadd874eadb73a04cebab73094b30"
+    },
+    {
+      "state": "idle",
+      "direction": 3,
+      "angle": 90,
+      "index": 0,
+      "timeline_frame": 0,
+      "path": "frames/idle/d03/f000.png",
+      "sha256": "fd0ad659de7fba9257cac78fc065ae674518470484d55484716684df2c7a8b5f"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 0,
+      "timeline_frame": 1,
+      "path": "frames/working/d00/f000.png",
+      "sha256": "4545e576a1e37337dcc1720a6a1968c9a033b1c75e827198d5abefc3b13811a4"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 1,
+      "timeline_frame": 7,
+      "path": "frames/working/d00/f001.png",
+      "sha256": "cbf3dec8a58bb95f63d0c65fab283d6613e84e54749c6fc566743ced7c5c9755"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 2,
+      "timeline_frame": 13,
+      "path": "frames/working/d00/f002.png",
+      "sha256": "163a0a76a4d4fec87b1892dbee16f83c0f90478d2ed928962ec01c6f833a9509"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 3,
+      "timeline_frame": 19,
+      "path": "frames/working/d00/f003.png",
+      "sha256": "73f7dbfd16c1e8e04d525fbe29f1ec7fcdd4799a602cb59fb4b47fe87f13a5d2"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 4,
+      "timeline_frame": 25,
+      "path": "frames/working/d00/f004.png",
+      "sha256": "37096954d6540379d322c23f6e639a289f5079a389b286ad51e2a24239e8aee5"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 5,
+      "timeline_frame": 31,
+      "path": "frames/working/d00/f005.png",
+      "sha256": "fb4462bc362950962977e8f9df3d0c33aa48916dabe109dbb6e0f83baa68157e"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 6,
+      "timeline_frame": 37,
+      "path": "frames/working/d00/f006.png",
+      "sha256": "0becaff77603daf3a071c6183ff45dd12812fd48a409e16a0bb49f94b58dc77b"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 7,
+      "timeline_frame": 43,
+      "path": "frames/working/d00/f007.png",
+      "sha256": "62481596c8e1e3729868089a5f1d01daa449a69c9c65e12cc45e6dec498a2284"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 8,
+      "timeline_frame": 49,
+      "path": "frames/working/d00/f008.png",
+      "sha256": "3e8ec74a0a46386e6be121293bd181aa06c0998360844da7388792637ecebddb"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 9,
+      "timeline_frame": 55,
+      "path": "frames/working/d00/f009.png",
+      "sha256": "b7b33d72e1643d6be28644a42d0de7c1e4328ecdf6d3b1ff227fba9e624f0066"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 10,
+      "timeline_frame": 61,
+      "path": "frames/working/d00/f010.png",
+      "sha256": "b0e455028c749108f7e2f42dd2ebe1946dd4108fcccf875f00ade7a5ec74a6f9"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 11,
+      "timeline_frame": 67,
+      "path": "frames/working/d00/f011.png",
+      "sha256": "dcaed4ed8b93841341216510a234ef8ede6a2020817a3b63d583623602b59454"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 12,
+      "timeline_frame": 73,
+      "path": "frames/working/d00/f012.png",
+      "sha256": "958d38f27ec08d559a841287f1948b701f65ad01333d605d52f5619e438534a7"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 13,
+      "timeline_frame": 79,
+      "path": "frames/working/d00/f013.png",
+      "sha256": "bd7fdeb3366f16dc2ca5efa05b983f2268c42ac778a8f493b468868e4bacb8ca"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 14,
+      "timeline_frame": 85,
+      "path": "frames/working/d00/f014.png",
+      "sha256": "6a70499a4a5ba12ce89af63d8a8f8f90f2f998b266e005871eb52944c0d0ff28"
+    },
+    {
+      "state": "working",
+      "direction": 0,
+      "angle": 0,
+      "index": 15,
+      "timeline_frame": 91,
+      "path": "frames/working/d00/f015.png",
+      "sha256": "26d40c1171784b0e165247b5da6625f09f6c25562b9cb98bf0e656b97f77d06a"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 0,
+      "timeline_frame": 1,
+      "path": "frames/working/d01/f000.png",
+      "sha256": "27a54a18e7c302b6b5b503da3d2c641bd9d650003933df8dcf0c2fb7a942b814"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 1,
+      "timeline_frame": 7,
+      "path": "frames/working/d01/f001.png",
+      "sha256": "29178891f4356b778f3f1f42866654f67bd7e38f4f0df8b8f20a60b195d888c7"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 2,
+      "timeline_frame": 13,
+      "path": "frames/working/d01/f002.png",
+      "sha256": "789b2e4e97027c260eb4a5bd71b366c16f64d792824a6385125afef5f490dbc8"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 3,
+      "timeline_frame": 19,
+      "path": "frames/working/d01/f003.png",
+      "sha256": "1cd2ee889b632817929f98451cafbcbdc1a9708488b6689a303f2a000609b3a8"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 4,
+      "timeline_frame": 25,
+      "path": "frames/working/d01/f004.png",
+      "sha256": "2b8d4bce5d4d753ec3b607430fb6e5281084d7c0ff614cd48444de81ab3bfecb"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 5,
+      "timeline_frame": 31,
+      "path": "frames/working/d01/f005.png",
+      "sha256": "9168e35f6783e570b75d46ee73bc58eb147baace21e4d4f791ed76155182b8e1"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 6,
+      "timeline_frame": 37,
+      "path": "frames/working/d01/f006.png",
+      "sha256": "76612bd36f0b9fcaac6b3b48135a711a95d44c79f19bf0750bcb588d39143694"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 7,
+      "timeline_frame": 43,
+      "path": "frames/working/d01/f007.png",
+      "sha256": "21e960e92747973e1ba00622435a45fe409ab1cf2450cac0f259b583283bcfee"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 8,
+      "timeline_frame": 49,
+      "path": "frames/working/d01/f008.png",
+      "sha256": "e6ecff2008b634a331e827741ed8b33a13fe144a4b1b336be4bd1a66aad36258"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 9,
+      "timeline_frame": 55,
+      "path": "frames/working/d01/f009.png",
+      "sha256": "ed24d1e7c67627bc1a18c70f84c71a4d7cb61bf2e00da1f985f342d5f8fece66"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 10,
+      "timeline_frame": 61,
+      "path": "frames/working/d01/f010.png",
+      "sha256": "194d6947011ac8c09e72dc042c3f0a57d9e7b5784899b81cf43b8c75eb4b2932"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 11,
+      "timeline_frame": 67,
+      "path": "frames/working/d01/f011.png",
+      "sha256": "ff7a863928b0ac7d48d6c0f911771c777002610029ea5903fdc57f645d451a02"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 12,
+      "timeline_frame": 73,
+      "path": "frames/working/d01/f012.png",
+      "sha256": "454da9988f637efd4bde39156d6fbbe8417742af5d6cf1f6c9b2a40c96379aa0"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 13,
+      "timeline_frame": 79,
+      "path": "frames/working/d01/f013.png",
+      "sha256": "7f39b313b87bc22d5a23b6602c12de4ee8c3ad79798cf196767e88c30a549f0f"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 14,
+      "timeline_frame": 85,
+      "path": "frames/working/d01/f014.png",
+      "sha256": "3b380c904f17e04f98efeeefcf4f2bf6b4ea6d76fa13834f2eb4aaa9ca3c22fe"
+    },
+    {
+      "state": "working",
+      "direction": 1,
+      "angle": -90,
+      "index": 15,
+      "timeline_frame": 91,
+      "path": "frames/working/d01/f015.png",
+      "sha256": "5edac24c1c9f3a79d0cfe9e92de6fd258b14fabd34a5524e87fe7f5cc9bba3a0"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 0,
+      "timeline_frame": 1,
+      "path": "frames/working/d02/f000.png",
+      "sha256": "5cc8363d5b2f1aa5d48c1567ecb71e83ec4523b1aca07d6619cd18005d3d91ef"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 1,
+      "timeline_frame": 7,
+      "path": "frames/working/d02/f001.png",
+      "sha256": "bac792ceb77902352e349f052672c0c13a13e51826d6f6d4fc249be9542c3e8d"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 2,
+      "timeline_frame": 13,
+      "path": "frames/working/d02/f002.png",
+      "sha256": "274f961707a5e4b0dc2b90e0d0a8bcb7c176e763f79c7a0f7bae55b8cefcbaf4"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 3,
+      "timeline_frame": 19,
+      "path": "frames/working/d02/f003.png",
+      "sha256": "558e63cc9d5ab9bdba3ede335ab167dd0b21417997a34b14c9c44610c8c93725"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 4,
+      "timeline_frame": 25,
+      "path": "frames/working/d02/f004.png",
+      "sha256": "9a44dd5d9745298905e2b9d4596c02ca8caf14db6bef70244fdd37d9d0de296b"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 5,
+      "timeline_frame": 31,
+      "path": "frames/working/d02/f005.png",
+      "sha256": "9712636af8dada13d14de19bee742d802d7d861a19087338ae6b2262c572e777"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 6,
+      "timeline_frame": 37,
+      "path": "frames/working/d02/f006.png",
+      "sha256": "525b78d295850161d3e545641e0f2d69aae19e9dc74a1fa1d7c856ff236d866d"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 7,
+      "timeline_frame": 43,
+      "path": "frames/working/d02/f007.png",
+      "sha256": "8a8a752d7ba1c36477b9e3ff0a43c59a86b8eb2b2c347d3ac05fb018916e4866"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 8,
+      "timeline_frame": 49,
+      "path": "frames/working/d02/f008.png",
+      "sha256": "04fa63d575a350c14f0612d03e836f573218ddeb18148f2be0095014ac3013aa"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 9,
+      "timeline_frame": 55,
+      "path": "frames/working/d02/f009.png",
+      "sha256": "d8b837de9d4576c7faae0d28e3659b3f51e3d123b8265fd10c4fd30928f276ec"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 10,
+      "timeline_frame": 61,
+      "path": "frames/working/d02/f010.png",
+      "sha256": "209b515e3861713f31960f7b6ffce8f491379f4635f920c9595f8e84fee5c8ec"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 11,
+      "timeline_frame": 67,
+      "path": "frames/working/d02/f011.png",
+      "sha256": "6fd8e75b4a894042fa16669990f7a01344b659da902ca7b372347f5204eb6dcd"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 12,
+      "timeline_frame": 73,
+      "path": "frames/working/d02/f012.png",
+      "sha256": "47f2c8650c224ac59645958d3342ade2978a529c47a6162a6a4249d3091606c5"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 13,
+      "timeline_frame": 79,
+      "path": "frames/working/d02/f013.png",
+      "sha256": "3fdfa9347d368957241e3720e86e78a402d0d137d18f7e1273f40e80069e0d8f"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 14,
+      "timeline_frame": 85,
+      "path": "frames/working/d02/f014.png",
+      "sha256": "a36d1c944d00033446dffdb394d65e3ddb6a3e5640398fbb516464fa58fc5363"
+    },
+    {
+      "state": "working",
+      "direction": 2,
+      "angle": 180,
+      "index": 15,
+      "timeline_frame": 91,
+      "path": "frames/working/d02/f015.png",
+      "sha256": "b26df03a7723f722458e6ebbc9600a1dd3935da5241962cf1d03ccbd503e7640"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 0,
+      "timeline_frame": 1,
+      "path": "frames/working/d03/f000.png",
+      "sha256": "8b9a8ea86d3e54b0c1615f883039e632e49140a302187a14667ad934e46e7fd7"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 1,
+      "timeline_frame": 7,
+      "path": "frames/working/d03/f001.png",
+      "sha256": "bbc0868f9b53f36219a99c18b17d5123987527d4dc2c8269cf25802da98f08b5"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 2,
+      "timeline_frame": 13,
+      "path": "frames/working/d03/f002.png",
+      "sha256": "af8623370f8d2772fb81a3ac7d9c0cdee2c11ea4e1954cf123ff757a582fc273"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 3,
+      "timeline_frame": 19,
+      "path": "frames/working/d03/f003.png",
+      "sha256": "fb6734fa7bb2e20acd90572871f8c8fb15e9a01de9d430165231a8e6ee703660"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 4,
+      "timeline_frame": 25,
+      "path": "frames/working/d03/f004.png",
+      "sha256": "2ad1d62477e9d7a3fdc067bf34610962de0e256b15cc1e05f73d03aaf3028942"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 5,
+      "timeline_frame": 31,
+      "path": "frames/working/d03/f005.png",
+      "sha256": "61900f9c5f3107225a27e9807fed3fc7c4e53987aeac109e01bbf85eccb0a41f"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 6,
+      "timeline_frame": 37,
+      "path": "frames/working/d03/f006.png",
+      "sha256": "e436f3624fc9bb492377cc6ea53512c9cf8196f1be00a39486ef728d3b728f47"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 7,
+      "timeline_frame": 43,
+      "path": "frames/working/d03/f007.png",
+      "sha256": "317f00547cf9d2e559b19677ef798f56fe5c2c605f76756afa0c65677951c098"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 8,
+      "timeline_frame": 49,
+      "path": "frames/working/d03/f008.png",
+      "sha256": "c12b1270e693670602ce538e2d8058daa86169fa6f6177352351c1e0656c7a06"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 9,
+      "timeline_frame": 55,
+      "path": "frames/working/d03/f009.png",
+      "sha256": "ce10457c157e79faa825503ba1a83160bf8e31689a4a0ba3ce9d10965230db3f"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 10,
+      "timeline_frame": 61,
+      "path": "frames/working/d03/f010.png",
+      "sha256": "2e7566e3f7c61d17bb5d6dc58ae1fe94a652f9741630074187f6d8c9567c5242"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 11,
+      "timeline_frame": 67,
+      "path": "frames/working/d03/f011.png",
+      "sha256": "2974c3578dc5bff6a46dbcca5f641c8b9629dd47b186a1d0b0e618413f1c4ee3"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 12,
+      "timeline_frame": 73,
+      "path": "frames/working/d03/f012.png",
+      "sha256": "459f97223c95e0115afc2ae61e14facb185fd9a6837df6c430447f3e40222eda"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 13,
+      "timeline_frame": 79,
+      "path": "frames/working/d03/f013.png",
+      "sha256": "25763c5c7490dc78301d710bca4e4041044527e84b3ae1e6eb9a5f470924cafb"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 14,
+      "timeline_frame": 85,
+      "path": "frames/working/d03/f014.png",
+      "sha256": "a61219b3b23e25f21994b011c0927ba28e602937ee23ef5a9321e8eac9cd331e"
+    },
+    {
+      "state": "working",
+      "direction": 3,
+      "angle": 90,
+      "index": 15,
+      "timeline_frame": 91,
+      "path": "frames/working/d03/f015.png",
+      "sha256": "8257885fbf723e5a142ab2ef959d22064850e52833c38f24e388073d63351ad6"
+    }
+  ],
+  "art_accepted": false,
+  "engine_integration": "outside Blender-only scope"
+}
