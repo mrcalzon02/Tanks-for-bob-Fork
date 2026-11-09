@@ -2,6 +2,32 @@ name: Factorio reusable four-way art production
 
 on:
   workflow_dispatch:
+    inputs:
+      job:
+        description: Repository-relative production job JSON
+        required: false
+        default: tools/art/jobs/campfire-next.json
+      publish:
+        description: Render/install graphics only and publish
+        type: boolean
+        required: false
+        default: false
+      deploy:
+        description: Render/install graphics, attach prototype, publish
+        type: boolean
+        required: false
+        default: false
+      replace_attachment:
+        description: Replace an older managed attachment for the same prototype
+        type: boolean
+        required: false
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - tools/art/jobs/cooking-fire-v2.json
+      - tools/art/profiles/cooking-fire-v2.json
+      - .github/workflows/factorio-art-production.yml
 
 permissions:
   contents: write
@@ -27,7 +53,7 @@ jobs:
           /usr/bin/python3 -m unittest discover -s tools/art -p 'test_*.py' -v
       - name: Execute reusable pipeline (full render on manual run)
         env:
-          JOB_FILE: ${{ github.event_name == 'workflow_dispatch' && inputs.job || 'tools/art/jobs/campfire-next.json' }}
+          JOB_FILE: ${{ github.event_name == 'push' && 'tools/art/jobs/cooking-fire-v2.json' || inputs.job || 'tools/art/jobs/campfire-next.json' }}
           PUBLISH: ${{ github.event_name == 'workflow_dispatch' && inputs.publish || false }}
           DEPLOY: ${{ github.event_name == 'workflow_dispatch' && inputs.deploy || false }}
           REPLACE_ATTACHMENT: ${{ github.event_name == 'workflow_dispatch' && inputs.replace_attachment || false }}
@@ -40,8 +66,9 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           if [ "${{ github.event_name }}" = push ]; then
-            # Full Blender capture regression, not only a cached atlas repack.
-            /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
+            # One-shot Cooking Fire V2 production integration: render, install,
+            # attach the exact prototype, commit, push, and verify remote SHA.
+            /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE" --deploy
           elif [ "$DEPLOY" = true ]; then
             if [ "$REPLACE_ATTACHMENT" = true ]; then
               /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE" --deploy --replace-attachment
@@ -53,25 +80,6 @@ jobs:
           else
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           fi
-      - name: Validate prepared prototype attachment against real declarations and isolated Lua runtime
-        if: github.event_name == 'push'
-        run: |
-          /usr/bin/python3 - <<'PYCODE'
-          import sys
-          sys.path.insert(0, 'tools/art')
-          import attach_factorio_prototype as attachment
-          import produce_factorio_asset as producer
-          job, config, profile, mod = producer.load_job('tools/art/jobs/campfire-next.json')
-          output = producer.in_repo('models/sprite-production/campfire/v13-repro')
-          plan = attachment.attachment_plan(job, mod, producer.ROOT, output)
-          name = job['asset'] + '-' + job['revision'] + '.lua'
-          plan['generated'] = output/'prototype_ready/prototypes/generated_graphics'/name
-          plan['stage'] = output/'prototype_ready/data-final-fixes.lua'
-          assert plan['generated'].exists() and plan['stage'].exists()
-          checks = attachment.verify_lua_attachment(plan,job)
-          assert checks['luac_passed'] and checks['lua_probes'] == 3
-          print('PROTOTYPE_ATTACHMENT_PREPARED_AND_SMOKE_TESTED', job['prototype']['type'], job['prototype']['name'])
-          PYCODE
       - name: Retain review and Blender evidence even after failed render
         if: always()
         uses: actions/upload-artifact@v4

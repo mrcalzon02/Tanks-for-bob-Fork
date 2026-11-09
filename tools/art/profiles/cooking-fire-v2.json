@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "asset": "cooking-fire-v2",
+  "source": "../../../models/island-survival/cooking-fire/v2/cooking-fire-v2.blend",
+  "adapter": "campfire-matte-stones",
+  "source_size": 256,
+  "sizes": [
+    64,
+    128,
+    256
+  ],
+  "samples": 24,
+  "seed": 5855,
+  "columns": 8,
+  "fps": 8,
+  "directions": [
+    0,
+    -90,
+    180,
+    90
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "exclude_rotation": [
+    "Ground | shadow catcher"
+  ],
+  "hide_render": [
+    "Ground | shadow catcher"
+  ],
+  "animated_lights": [
+    "04 | animated fire light"
+  ],
+  "camera_override": {
+    "elevation_deg": 45,
+    "azimuth_deg": 0,
+    "distance": 6,
+    "target": [
+      0,
+      0,
+      0.7
+    ],
+    "ortho_scale": 3.35
+  },
+  "states": {
+    "idle": [
+      0
+    ],
+    "working": [
+      1,
+      7,
+      13,
+      19,
+      25,
+      31,
+      37,
+      43,
+      49,
+      55,
+      61,
+      67,
+      73,
+      79,
+      85,
+      91
+    ]
+  }
+}

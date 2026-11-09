@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "asset": "cooking-fire",
+  "revision": "v2-production",
+  "capture_profile": "tools/art/profiles/cooking-fire-v2.json",
+  "mod_root": "tanks_for_bob_fork_1.8.95",
+  "mod_name": "tanks_for_bob_fork",
+  "active_state": "working",
+  "primary_size": 256,
+  "sizes": [
+    64,
+    128,
+    256
+  ],
+  "scale": 0.5,
+  "shift": [
+    0,
+    0
+  ],
+  "prototype": {
+    "type": "assembling-machine",
+    "name": "cooking-fire",
+    "source": "tanks_for_bob_fork_1.8.95/prototypes/entity/entities.lua",
+    "item_icon": {
+      "type": "item",
+      "name": "cooking-fire",
+      "source": "tanks_for_bob_fork_1.8.95/prototypes/item/item.lua"
+    }
+  }
+}

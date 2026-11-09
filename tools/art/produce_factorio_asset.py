@@ -60,7 +60,9 @@ def load_job(job_path):
         raise ValueError('Mod name does not match target info.json')
     profile = in_repo(job['capture_profile'])
     cfg = json.loads(profile.read_text())
-    if cfg.get('directions') != [0, 90, 180, 270] or 'idle' not in cfg.get('states', {}):
+    directions = cfg.get('directions')
+    valid_cardinal_orders = ([0, 90, 180, 270], [0, -90, 180, 90], [0, 270, 180, 90])
+    if directions not in valid_cardinal_orders or 'idle' not in cfg.get('states', {}):
         raise ValueError('Four cardinal directions and idle state required')
     if len(cfg['states']['idle']) != 1:
         raise ValueError('Use one authored idle frame; packer will repeat it if necessary')
