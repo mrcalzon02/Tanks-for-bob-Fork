@@ -1,0 +1,883 @@
+{
+  "asset": "Cooking Fire V2",
+  "status": "model candidate",
+  "source_commit": "d9e12ce02fa55c5239be12b5f38e6ac14b87dddc",
+  "source_path": "models/island-survival/cooking-fire/v1/cooking-fire-v1.blend",
+  "source_sha256": "edf8e055e4f1e8ee1a94e7a7bc0028ef51aab9b7c83fae22a382a59a579957b8",
+  "native_sha256": "6d95ba48a586956170dac4d9f37322068f66e25967f55eb54aed222933f2e675",
+  "blender": "4.3.2",
+  "preserved_v1_objects": 81,
+  "preserved_v1_geometry": {
+    "ash_and_coals": "7e4acde5167836b5aa636aeb04c2d39449d12a82b959f50658fef0d67d0df570",
+    "stone_01": "8b0a907ea62297fc2149ebfaf2b8ba10ad94be935a8e1662c1504b334ee5d3e7",
+    "stone_02": "db8f34ab131a9005f9d94d4f2009d5d1458f0730b7db332c26176f0799f27b6e",
+    "stone_03": "5e4acdbf45b74eb8d7e5ab0ea96125250fa1a18b448ba4be4e5a0d6b410abb7c",
+    "stone_04": "fc2e84b69ee9008cc856775c649a2395f267f252c19952ca44bae3a2d8e2b1b6",
+    "stone_05": "3ef6cf93ed1f3dfe00fa8c8279e516e6985b594af3bcd17cac7dbafff1d809b3",
+    "stone_06": "35e57c9a5666a12eb5327dff0a4751f59ea146f3977f3996d3cbde1b52e86be4",
+    "stone_07": "6322ba82b617f17c8377fecb13b29ef2153cb5dbce2efeffa54d72804ff03744",
+    "stone_08": "f5f3ca5a6b27b851d9e6bdd30822050111db53ca968d06471022ef381f3f523e",
+    "stone_09": "6f3d9ab3e7a0539cb87f4f891109bea6778f4dfda96a94e128485158d97fbaec",
+    "stone_10": "b9cb3893f35e102d3334452a7ea02d2ed8abc20ff6facbf6406700a8d6e475d9",
+    "stone_11": "fa9247ffbf13097f6a44a3795de86918ff9e6f13e7fac20de63672e04941b4e5",
+    "stone_12": "a71c43308bf94451bccc2dadde867cef7bf8d0e12060740d20e513debb0ad583",
+    "stone_13": "55cfb6b47cd6c76a264df83327ce2ce3dfe04bdd194fd4e7900fc472e9839375",
+    "stone_14": "987f131566e7db907c9d7dd31149595e01f05f739b06c26d35cfc6b4d8665345",
+    "stone_15": "cf0524dc529f06777caf53b0934c2540d18c2eb3e2af256844f12200a0501967",
+    "coal_00": "7fd069ce6149603a719e7e2371f1f56b2ac98fbba4f1269341fbcacfd546a1da",
+    "coal_01": "0a63f6eb7610833e23c45f7a9dcd39e260e0de1328a367146f17064b1daf8810",
+    "coal_02": "b0b7e8efc3839145a441a8990bd78dcd858faffcf9d206a1167aef792480e657",
+    "coal_03": "ec96806f3b85b7d7a85eb76f7da4a33e2425ee5d424055dd524c9eda986ab607",
+    "coal_04": "c01f1eec27511fa5c4a50870577f232429e19f60998d042d16de82b44a7634bd",
+    "coal_05": "c89f0c57dd2573d8e38e5e2b144e09199e2a4c1601b84ac6d85a90dcc01dc26e",
+    "coal_06": "6e66822f51a8147a74c34c693c6605e80c442f3561b3d3ccedff18b9c7467e75",
+    "cross_log_lower_west_east_bark": "ceb2e6d518ee699aad519d9795656689d668cf399d02076519043c3c58fbe22b",
+    "cross_log_lower_west_east_end_sapwood": "a0c082ad7362d5ef6bd639e5906c33be2cfb72ad729675adf3fa503ba34cbb53",
+    "cross_log_lower_west_east_end_ring": "9a46c21b7e550fd0c17c57912dbeac25439d05596da075a7d5d434ca8cf5a04f",
+    "cross_log_lower_west_east_end_heart": "3e9ac86cae10652b319c92d04398f5da3bb8105473462809af5c49c7f925ce31",
+    "cross_log_lower_west_east_end_checks": "f6fdd567f19419ac62236119cda8706e60ada0df4ff3998251524e49cecf1254",
+    "cross_log_lower_west_east_grain": "827f952d9704411213a568d48578969236097b504013b2986f6d15c82b828d22",
+    "cross_log_lower_west_east_knot": "b41903b9d272940712a0d751521d5af40955686ea84cf61c82c1a3f73c1cf05e",
+    "cross_log_upper_diagonal_bark": "04e3d2ea5e8b27be375fdb1d5014c0e381f270a609e4687cd8853d1e0e20969f",
+    "cross_log_upper_diagonal_end_sapwood": "293a140e7c6e3fc2e048cc31eb56c74f241cd888128139e378f044665fe40235",
+    "cross_log_upper_diagonal_end_ring": "9f8d793637a46a9f965dea3c508d4d9329672eb29b4f099a46e0bc6a05725950",
+    "cross_log_upper_diagonal_end_heart": "60657cf76d6f5336b94819c4a7b1b6f8e8bc865f7e0ce670a0ddfbbd4033a50f",
+    "cross_log_upper_diagonal_end_checks": "1012776657f5e5deb334ec2853fd2cf72a5ec6164cf9675b06d5c14904478a8f",
+    "cross_log_upper_diagonal_grain": "d656b2fdfdf12ca0fc7a5c87419647d470f687ddb672e676ead3b5fcee3aadc1",
+    "cross_log_upper_diagonal_knot": "5dad095837b5f0306b924148550303533a0d1a0964af7bcf473e6f295f8b8318",
+    "cross_log_rear_ember_log_bark": "52c4e7b9b30c4e331727a1edb669c3bf5e0e096531d3fa3a90663342268628d9",
+    "cross_log_rear_ember_log_end_sapwood": "167178bb9199d6a3447149cb68ccd038f25a63472d08ca7feb201c341b9ebfb8",
+    "cross_log_rear_ember_log_end_ring": "bde35cf3ba0c12e137b60990839b57f481388031f16d5ffd171cb373afb0bc91",
+    "cross_log_rear_ember_log_end_heart": "1ba560ce89c9717a5e601f2b5102da42bd9847cbe35440c484fe967ddf20eec7",
+    "cross_log_rear_ember_log_end_checks": "7e8c73c20619bd56e50c7bd77dcad73c86510fec4b4684d1d447009add1dd714",
+    "cross_log_rear_ember_log_grain": "6c305d33650a2a00e97595fea82f869e545f22c1b1c035085544c8322f7e9cf0",
+    "cross_log_rear_ember_log_knot": "690fc8f04e1dfd327ea6fbf99b841c97bb7ab05e293cc2f18ed1f4ddbd909ade",
+    "cross_log_kindling_left_bark": "051b887b32af9b226811abc83c796c0f7af396de4ed88ae82afaa159d5ccd40e",
+    "cross_log_kindling_left_end_sapwood": "0ffe20af88613930318d42b7c9e3c706337791584af96d59f80c32fb6c409dfa",
+    "cross_log_kindling_left_end_ring": "68d22f4fdafc09568a0e04f0dbd4de659607f45f1f2f748e3e865126d142934c",
+    "cross_log_kindling_left_end_heart": "acde5616bd4f02d1f195cf6da09e8c57d6a534db80e02ff50761db3f81e8b885",
+    "cross_log_kindling_left_end_checks": "bc81449fa97e447e288b0430193f22c9da6aa595810a06e8b7c484f82a87dd33",
+    "cross_log_kindling_left_grain": "b894f67fb9e069a32b4e8c34717f8ac16b7d37ac53b382a72f3700817f10a8aa",
+    "cross_log_kindling_left_knot": "b42dacb47086b9a0dd5472923bf028874824241f3b70f0f2dd8080eb685f90bc",
+    "cross_log_kindling_right_bark": "e3a4a1f126727ffc39906012e59688ad066bf5e2aa48efb9e741f9059a280175",
+    "cross_log_kindling_right_end_sapwood": "bb5edd7e5e183dc54e2db343fd0c8b288fdde2c71b62bad90374b87d2c7e0bea",
+    "cross_log_kindling_right_end_ring": "7a03937555963424fd2230749c2c137e05589483545a396406bbd483d24d8f3e",
+    "cross_log_kindling_right_end_heart": "d3a6c02e8667af3fcbb5e1b79ef564c213ee2ce1028759ac5d7f25ba922af876",
+    "cross_log_kindling_right_end_checks": "40e655d8fb5c8ee813b924e996c7a3b60cc1f614fc94ac5f51a16ad722ab254b",
+    "cross_log_kindling_right_grain": "1296dbadf4133ab9f1b608fae47b13de8bf06cfb67587b143c5340bbd3de7aa4",
+    "cross_log_kindling_right_knot": "38607751fdefe88bf97e54ee1cf973592c8fc991f72347b2a9503d8b71795809",
+    "cross_log_charred_twig_bark": "23c0b541d61aea1f4af6f9b590b99963775c3901780f1aafbe5fd70d2674b1dc",
+    "cross_log_charred_twig_end_sapwood": "0b9ad0b183dd913c5381b395b58acf118bff3e460a326074b778f5a955d6be30",
+    "cross_log_charred_twig_end_ring": "58256017b75d21d036d5469f38001d69cdcd35d310b10252e144acce93cfec90",
+    "cross_log_charred_twig_end_heart": "bea3a7d4965f5de64a6dbe4a5e2a5f977891564ac49a10f3078c00f2c4a1cf62",
+    "cross_log_charred_twig_end_checks": "2672a68dce789c2ac500d37b0e7997c66be8b16c344e3838e5f885aea81ac105",
+    "cross_log_charred_twig_grain": "de822a82cd24404221bdd4d730218496ee533692f8386294ed719e71174354cb",
+    "cross_log_charred_twig_knot": "4ccd68b3cba4ce7c682138379a903b8b6dd727fc98414b77b0d745d72926dbd9",
+    "flame_tongue_01": "79ec3b0157ecefb9ac2c73f83e3a4f4822debf3a0bff019bacc38349505a0fab",
+    "flame_tongue_02": "4448dfc1b72210bf2a814c56770c6331c152466172c9c1f03dbf87b46660a04f",
+    "flame_tongue_03": "b7c7f4a3f302ea475d6e0c068304886e0f321e6b72c7652c6f5fe3302be4b072",
+    "flame_tongue_04": "61b00d8575edc23d0af7c2f5de347c8de136597a8f4ae93e72d02dc8712c00a8",
+    "flame_tongue_05": "8da32807ba5e6041c0c9541d5ddeea4e6f45527303dbf38168b278cdcea0cb47",
+    "flame_tongue_06": "67b1a4928f11151aa4608d54178b4f097d0b3f4422a35178af8c1a33e25b01ac",
+    "Ground | shadow catcher": "10c4a0d7d943d4a0867db5770b2d970c411578f4e713eb263bb2869856fbecbc",
+    "Cooking Fire | thick-walled cauldron": "ad60022213e32602ed0996feb9b5e3d8cb831b40ee49e614127a8f9d96e38c0f",
+    "Cooking Fire | rolled rim": "9c527984889198ad512cbd29896a639f3cf02ea9f8519dd1b9d132a94eb6bfe4",
+    "Cooking Fire | left handle": "0cafd8a0b461e00d78128e2321bb081b9b28e8e28f7f8c1ad8c38100edbe8336",
+    "Cooking Fire | right handle": "5755af8f6cee677335ef98f67bc9373ac4aa1871a5af374ad1ed72f3cc6847d6",
+    "Cooking Fire | supported trivet leg 1": "f92b8eb4b704185b82d99878408b91240c8e15d8789276e34ffc36450bf3a7c7",
+    "Cooking Fire | supported trivet leg 2": "baed75456e805a5e55c1142d1428d25724db32443b994f2195468a90223f9bfc",
+    "Cooking Fire | supported trivet leg 3": "089e21383cbb74f31512644037c97f47dd32698ba3f45e12131727375316c12a",
+    "Cooking Fire | trivet cradle": "52781a0eced1b5d03cd109d95ae8cd7e7ddfc31b19870f1136d2c9191d5c7890",
+    "Cooking Fire | cooking surface": "40ded54d381b67d545bddc893733c537b09f4f072bde46623cc1e4aa5876ddbd"
+  },
+  "replaced_v1_objects": [
+    "Cooking Fire | rear steam feed",
+    "Cooking Fire | open north steam socket",
+    "Cooking Fire | steam collar",
+    "SOCKET | steam input | north boundary"
+  ],
+  "inherited_animation_actions": [
+    "04 | animated ember pointAction",
+    "04 | animated fire lightAction",
+    "CF7 | flame movement",
+    "CF7 | flame movement.001",
+    "CF7 | flame movement.002",
+    "CF7 | flame movement.003",
+    "CF7 | flame movement.004",
+    "CF7 | flame movement.005",
+    "Key.001Action",
+    "Key.002Action",
+    "Key.003Action",
+    "Key.004Action",
+    "Key.005Action",
+    "KeyAction",
+    "Shader NodetreeAction",
+    "Shader NodetreeAction.001",
+    "Shader NodetreeAction.002",
+    "Shader NodetreeAction.003",
+    "Shader NodetreeAction.004",
+    "Shader NodetreeAction.005",
+    "Shader NodetreeAction.006",
+    "Shader NodetreeAction.007",
+    "Shader NodetreeAction.008",
+    "Shader NodetreeAction.009",
+    "Shader NodetreeAction.010",
+    "Shader NodetreeAction.011",
+    "Shader NodetreeAction.012",
+    "Shader NodetreeAction.013",
+    "Shader NodetreeAction.014",
+    "Shader NodetreeAction.015",
+    "Shader NodetreeAction.016",
+    "Shader NodetreeAction.017",
+    "Shader NodetreeAction.018",
+    "Shader NodetreeAction.019",
+    "Shader NodetreeAction.020",
+    "Shader NodetreeAction.021",
+    "Shader NodetreeAction.022",
+    "Shader NodetreeAction.023",
+    "Shader NodetreeAction.024",
+    "Shader NodetreeAction.025",
+    "Shader NodetreeAction.026",
+    "Shader NodetreeAction.027",
+    "Shader NodetreeAction.028",
+    "Shader NodetreeAction.029",
+    "Shader NodetreeAction.030",
+    "Shader NodetreeAction.031",
+    "Shader NodetreeAction.032",
+    "Shader NodetreeAction.033",
+    "Shader NodetreeAction.034",
+    "Shader NodetreeAction.035",
+    "Shader NodetreeAction.036",
+    "Shader NodetreeAction.037",
+    "Shader NodetreeAction.038",
+    "Shader NodetreeAction.039",
+    "Shader NodetreeAction.040",
+    "Shader NodetreeAction.041",
+    "Shader NodetreeAction.042",
+    "Shader NodetreeAction.043",
+    "Shader NodetreeAction.044",
+    "Shader NodetreeAction.045",
+    "Shader NodetreeAction.046",
+    "Shader NodetreeAction.047",
+    "Shader NodetreeAction.048",
+    "Shader NodetreeAction.049",
+    "Shader NodetreeAction.050",
+    "Shader NodetreeAction.051",
+    "Shader NodetreeAction.052",
+    "Shader NodetreeAction.053",
+    "Shader NodetreeAction.054",
+    "Shader NodetreeAction.055",
+    "Shader NodetreeAction.056",
+    "Shader NodetreeAction.057",
+    "Shader NodetreeAction.058",
+    "Shader NodetreeAction.059",
+    "Shader NodetreeAction.060",
+    "Shader NodetreeAction.061",
+    "Shader NodetreeAction.062",
+    "Shader NodetreeAction.063",
+    "Shader NodetreeAction.064",
+    "Shader NodetreeAction.065",
+    "Shader NodetreeAction.066",
+    "Shader NodetreeAction.067",
+    "Shader NodetreeAction.068",
+    "Shader NodetreeAction.069",
+    "Shader NodetreeAction.070",
+    "Shader NodetreeAction.071",
+    "Shader NodetreeAction.072",
+    "Shader NodetreeAction.073",
+    "Shader NodetreeAction.074",
+    "Shader NodetreeAction.075"
+  ],
+  "native_reopen": "passed",
+  "supports": [
+    {
+      "name": "front",
+      "position": [
+        0.8391,
+        -0.16
+      ],
+      "bottom": 0.2579008083343506,
+      "top": 0.34
+    },
+    {
+      "name": "rear",
+      "position": [
+        1.1741000000000001,
+        -0.16
+      ],
+      "bottom": 0.018000000000000002,
+      "top": 0.34
+    }
+  ],
+  "bellows_poses": [
+    {
+      "frame": 0,
+      "hand_compression": 0.0,
+      "accordion_compression": 0.0,
+      "upper_board_angle_degrees": 21.00000058437824,
+      "accordion_cap_z": 1.1575000286102295
+    },
+    {
+      "frame": 1,
+      "hand_compression": 0.0,
+      "accordion_compression": 0.0,
+      "upper_board_angle_degrees": 21.00000058437824,
+      "accordion_cap_z": 1.1575000286102295
+    },
+    {
+      "frame": 25,
+      "hand_compression": 0.5,
+      "accordion_compression": 0.5,
+      "upper_board_angle_degrees": 14.49999983431683,
+      "accordion_cap_z": 1.0994999408721924
+    },
+    {
+      "frame": 49,
+      "hand_compression": 1.0,
+      "accordion_compression": 1.0,
+      "upper_board_angle_degrees": 7.999999938029066,
+      "accordion_cap_z": 1.0414999723434448
+    },
+    {
+      "frame": 73,
+      "hand_compression": 0.5,
+      "accordion_compression": 0.5,
+      "upper_board_angle_degrees": 14.49999983431683,
+      "accordion_cap_z": 1.0994999408721924
+    },
+    {
+      "frame": 97,
+      "hand_compression": 0.0,
+      "accordion_compression": 0.0,
+      "upper_board_angle_degrees": 21.00000058437824,
+      "accordion_cap_z": 1.1575000286102295
+    }
+  ],
+  "pipe_interface": {
+    "reference_repo_commit": "0ea7ed22d508fb2f5c7d71102679b0be80a379ab",
+    "reference_source": "art/source-to-3d/boiler-v05/build_boiler_v05.py",
+    "units_per_tile": 1,
+    "barrel_od": 0.57,
+    "collar_od": 0.68,
+    "bore_id": 0.49,
+    "collar_depth": 0.075,
+    "center_height": 0.36,
+    "machine_plane": [
+      0,
+      1.5,
+      0.36
+    ],
+    "adjacent_barrel_span_y": [
+      1.5,
+      2.5
+    ],
+    "matched_vertices": 128,
+    "max_mating_error": 6.143906154658885e-08,
+    "directions": [
+      {
+        "direction": "north",
+        "yaw": 0,
+        "model_plane": [
+          0.0,
+          1.5,
+          0.36000001430511475
+        ],
+        "native_adjacent_pipe_center": [
+          0,
+          -2
+        ]
+      },
+      {
+        "direction": "east",
+        "yaw": -90,
+        "model_plane": [
+          1.5,
+          -6.556707887739321e-08,
+          0.36000001430511475
+        ],
+        "native_adjacent_pipe_center": [
+          2,
+          0
+        ]
+      },
+      {
+        "direction": "south",
+        "yaw": 180,
+        "model_plane": [
+          1.3113415775478643e-07,
+          -1.5,
+          0.36000001430511475
+        ],
+        "native_adjacent_pipe_center": [
+          0,
+          2
+        ]
+      },
+      {
+        "direction": "west",
+        "yaw": 90,
+        "model_plane": [
+          -1.5,
+          -6.556707887739321e-08,
+          0.36000001430511475
+        ],
+        "native_adjacent_pipe_center": [
+          -2,
+          0
+        ]
+      }
+    ],
+    "native_cooking_fire_registration": "not yet performed; model fit only"
+  },
+  "camera": {
+    "elevation_deg": 45,
+    "asset_scale": 3.35,
+    "asset_target": [
+      0,
+      0,
+      0.7
+    ]
+  },
+  "game_integration": false,
+  "captures": [
+    {
+      "name": "hero",
+      "frame": 25,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/hero.png",
+      "sha256": "988852e4bd68ba168120cc8eea51ca0c23eb82c47f84f56e7c8bf22f6a62f6bd"
+    },
+    {
+      "name": "working-north",
+      "frame": 25,
+      "yaw": 0,
+      "reference_pipe_visible": false,
+      "path": "renders/working-north.png",
+      "sha256": "f32927f17b01bf13f704eecab3d1eeb54b9b5a51e37e4ea31ef9a63faf959308"
+    },
+    {
+      "name": "working-east",
+      "frame": 25,
+      "yaw": -90,
+      "reference_pipe_visible": false,
+      "path": "renders/working-east.png",
+      "sha256": "cb3bffbe0175ac8d746c1e5ba85f4b833aa613866c87d8e67542f1278f313348"
+    },
+    {
+      "name": "working-south",
+      "frame": 25,
+      "yaw": 180,
+      "reference_pipe_visible": false,
+      "path": "renders/working-south.png",
+      "sha256": "c00f7a4fa9593337095ff441126bfb1d18a2487f4679920f4ceea4f5d34bb9c6"
+    },
+    {
+      "name": "working-west",
+      "frame": 25,
+      "yaw": 90,
+      "reference_pipe_visible": false,
+      "path": "renders/working-west.png",
+      "sha256": "188339f943a06ac3a6c2458f4981113d2e8953978873abe1a6b3207aff79b66b"
+    },
+    {
+      "name": "idle-north",
+      "frame": 0,
+      "yaw": 0,
+      "reference_pipe_visible": false,
+      "path": "renders/idle-north.png",
+      "sha256": "353f28433cdf85f6f05a21c33e59a23f2bee09c8bcc1b707f407a56b6a0da2f4"
+    },
+    {
+      "name": "idle-east",
+      "frame": 0,
+      "yaw": -90,
+      "reference_pipe_visible": false,
+      "path": "renders/idle-east.png",
+      "sha256": "339a69c0a579c1776604fbf9b2d28887ef0df59b296e7fc96dd5a745be4eb946"
+    },
+    {
+      "name": "idle-south",
+      "frame": 0,
+      "yaw": 180,
+      "reference_pipe_visible": false,
+      "path": "renders/idle-south.png",
+      "sha256": "19541db4a34110c9285fe284facab5029d5f3bc21bd48bb569a2c09552745b89"
+    },
+    {
+      "name": "idle-west",
+      "frame": 0,
+      "yaw": 90,
+      "reference_pipe_visible": false,
+      "path": "renders/idle-west.png",
+      "sha256": "8e795d399150a9516779145ecef8e515c2e0fe263cba228407b4e10c4c5b1724"
+    },
+    {
+      "name": "pipe-fit-north",
+      "frame": 25,
+      "yaw": 0,
+      "reference_pipe_visible": true,
+      "path": "renders/pipe-fit-north.png",
+      "sha256": "6e10ed31b3f1fff94411d9ff9911bf5d5edd3980152418796b4d0e1fe85df4cb"
+    },
+    {
+      "name": "pipe-fit-east",
+      "frame": 25,
+      "yaw": -90,
+      "reference_pipe_visible": true,
+      "path": "renders/pipe-fit-east.png",
+      "sha256": "81fe0b6235cb30ea51eb6fdb403982252dcf9557e0dfae0528067e5f1a391747"
+    },
+    {
+      "name": "pipe-fit-south",
+      "frame": 25,
+      "yaw": 180,
+      "reference_pipe_visible": true,
+      "path": "renders/pipe-fit-south.png",
+      "sha256": "5412ab4e07900d4fd63decff57a1fa829a09eb6cc5073d5ee035f1279c097d01"
+    },
+    {
+      "name": "pipe-fit-west",
+      "frame": 25,
+      "yaw": 90,
+      "reference_pipe_visible": true,
+      "path": "renders/pipe-fit-west.png",
+      "sha256": "8e8c64f0f52298312391de1de3160ebaead1358d79019331fabbf7a402cf0356"
+    },
+    {
+      "name": "bellows-open",
+      "frame": 1,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/bellows-open.png",
+      "sha256": "635fe0068a7d39bc67b8e5bbaa2cb56205990c7481f5d337e7139d7c5fe16535"
+    },
+    {
+      "name": "bellows-compressed",
+      "frame": 49,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/bellows-compressed.png",
+      "sha256": "5e50d9502bc14292a5ef1b58fadaafba24fb6e842f3f4d0bfa724cf85f1bf759"
+    },
+    {
+      "name": "loop-00",
+      "frame": 1,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-00.png",
+      "sha256": "9f8fc27ed05f70078ce6fa3ff4a64bbc9ed4c3e9be3fd9fb9d3d8d233826ce77"
+    },
+    {
+      "name": "loop-01",
+      "frame": 7,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-01.png",
+      "sha256": "51f06b4aa4e257fab5f8a286a9a0d1a3fe631ca86a0a70bdf6d35a3351074782"
+    },
+    {
+      "name": "loop-02",
+      "frame": 13,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-02.png",
+      "sha256": "9cf2bd42c41bfb184140df4d3b911b93248e7dd5b121115cb6d74b57454c830b"
+    },
+    {
+      "name": "loop-03",
+      "frame": 19,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-03.png",
+      "sha256": "f45fac3edeeeae4f3402c0b4cb97e04c3927e703cf9ddefe27ef8b3ee4666bee"
+    },
+    {
+      "name": "loop-04",
+      "frame": 25,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-04.png",
+      "sha256": "948c0b70af1e64fcd99b3797da21d514e6329d502b6ec3bbb5b2617d8cd8d55e"
+    },
+    {
+      "name": "loop-05",
+      "frame": 31,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-05.png",
+      "sha256": "d6900dab105737fe28b32f42b192cbfed233ab6024a7e4e2905f2242267964e7"
+    },
+    {
+      "name": "loop-06",
+      "frame": 37,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-06.png",
+      "sha256": "5e564b0e266e2de65009b8744897356ea1d9450d7f1b5c645e7a0a9e87d01c4a"
+    },
+    {
+      "name": "loop-07",
+      "frame": 43,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-07.png",
+      "sha256": "380c5ff9b3c7e52b67aa044c8b6c9f8044791d73d09d17ce97fa286b2d64c0f8"
+    },
+    {
+      "name": "loop-08",
+      "frame": 49,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-08.png",
+      "sha256": "93a175a954ac087c1b4c959cf9a7149e6d36349148ad9dbe10709933cac7f586"
+    },
+    {
+      "name": "loop-09",
+      "frame": 55,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-09.png",
+      "sha256": "dbf9f9977eb55b8daf1a28d43b627329e18dba308c6e51b322fac3ad55260a73"
+    },
+    {
+      "name": "loop-10",
+      "frame": 61,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-10.png",
+      "sha256": "cfb9236bc1efa95419a55c272d7bfbf0b2ad8cf3625c8d7029c936e3d938e0be"
+    },
+    {
+      "name": "loop-11",
+      "frame": 67,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-11.png",
+      "sha256": "4a74b10ad6fb755403ce440f21e7bd0e9deb07cc0f69108a328d7ae120b436d6"
+    },
+    {
+      "name": "loop-12",
+      "frame": 73,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-12.png",
+      "sha256": "98db04d1f1363547504a2769a5d291c650a5c8597339fb9f170da309815fe6a4"
+    },
+    {
+      "name": "loop-13",
+      "frame": 79,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-13.png",
+      "sha256": "e6b6d49e53ed753144eec724c4f868f16f4a000f43469864ead32ccd7a17659b"
+    },
+    {
+      "name": "loop-14",
+      "frame": 85,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-14.png",
+      "sha256": "9226dc23802425b2981e04c7214ec9081bdfc29105697f3c0fd185ecc522a7bf"
+    },
+    {
+      "name": "loop-15",
+      "frame": 91,
+      "yaw": 225,
+      "reference_pipe_visible": false,
+      "path": "renders/loop-15.png",
+      "sha256": "861ce53432cff6a02e21faeaf00e08e5cb378a2966f4332a46ab44cff775b696"
+    }
+  ],
+  "capture_checks": {
+    "decoded_pngs": 31,
+    "rgba_size": [
+      512,
+      512
+    ],
+    "all_frames_have_margin": true,
+    "gif_frames": 16,
+    "gif_fps": 8,
+    "frames": [
+      {
+        "file": "bellows-compressed.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "bellows-open.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "hero.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "idle-east.png",
+        "alpha_bounds": [
+          118,
+          83,
+          487,
+          462
+        ]
+      },
+      {
+        "file": "idle-north.png",
+        "alpha_bounds": [
+          107,
+          54,
+          486,
+          421
+        ]
+      },
+      {
+        "file": "idle-south.png",
+        "alpha_bounds": [
+          26,
+          101,
+          406,
+          493
+        ]
+      },
+      {
+        "file": "idle-west.png",
+        "alpha_bounds": [
+          25,
+          83,
+          394,
+          429
+        ]
+      },
+      {
+        "file": "loop-00.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-01.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-02.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-03.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-04.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-05.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-06.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-07.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-08.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-09.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-10.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-11.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-12.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-13.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-14.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "loop-15.png",
+        "alpha_bounds": [
+          74,
+          101,
+          458,
+          466
+        ]
+      },
+      {
+        "file": "pipe-fit-east.png",
+        "alpha_bounds": [
+          169,
+          147,
+          496,
+          385
+        ]
+      },
+      {
+        "file": "pipe-fit-north.png",
+        "alpha_bounds": [
+          162,
+          86,
+          400,
+          359
+        ]
+      },
+      {
+        "file": "pipe-fit-south.png",
+        "alpha_bounds": [
+          112,
+          159,
+          350,
+          472
+        ]
+      },
+      {
+        "file": "pipe-fit-west.png",
+        "alpha_bounds": [
+          15,
+          147,
+          343,
+          364
+        ]
+      },
+      {
+        "file": "working-east.png",
+        "alpha_bounds": [
+          118,
+          83,
+          487,
+          462
+        ]
+      },
+      {
+        "file": "working-north.png",
+        "alpha_bounds": [
+          107,
+          60,
+          486,
+          421
+        ]
+      },
+      {
+        "file": "working-south.png",
+        "alpha_bounds": [
+          26,
+          101,
+          406,
+          493
+        ]
+      },
+      {
+        "file": "working-west.png",
+        "alpha_bounds": [
+          25,
+          83,
+          394,
+          429
+        ]
+      }
+    ]
+  }
+}
