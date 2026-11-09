@@ -1,0 +1,2285 @@
+{
+  "asset": "Cooking Fire V1",
+  "status": "review candidate",
+  "source_commit": "ce3ef9720298807e3036962bde094341643c237f",
+  "source_path": "models/island-survival/blender/production-v12-structure-45/master.blend",
+  "source_sha256": "7cf8e35b27a670f00bc5b4a5b55c2dbe4ce448edb3ad8bf1b3ff9fd316493632",
+  "native_sha256": "edf8e055e4f1e8ee1a94e7a7bc0028ef51aab9b7c83fae22a382a59a579957b8",
+  "blender": "4.3.2",
+  "source_mesh_count": 72,
+  "source_meshes_unchanged": true,
+  "source_animation_actions_retained": [
+    "04 | animated ember pointAction",
+    "04 | animated fire lightAction",
+    "CF7 | flame movement",
+    "CF7 | flame movement.001",
+    "CF7 | flame movement.002",
+    "CF7 | flame movement.003",
+    "CF7 | flame movement.004",
+    "CF7 | flame movement.005",
+    "Key.001Action",
+    "Key.002Action",
+    "Key.003Action",
+    "Key.004Action",
+    "Key.005Action",
+    "KeyAction",
+    "Shader NodetreeAction",
+    "Shader NodetreeAction.001",
+    "Shader NodetreeAction.002",
+    "Shader NodetreeAction.003",
+    "Shader NodetreeAction.004",
+    "Shader NodetreeAction.005",
+    "Shader NodetreeAction.006",
+    "Shader NodetreeAction.007",
+    "Shader NodetreeAction.008",
+    "Shader NodetreeAction.009",
+    "Shader NodetreeAction.010",
+    "Shader NodetreeAction.011",
+    "Shader NodetreeAction.012",
+    "Shader NodetreeAction.013",
+    "Shader NodetreeAction.014",
+    "Shader NodetreeAction.015",
+    "Shader NodetreeAction.016",
+    "Shader NodetreeAction.017",
+    "Shader NodetreeAction.018",
+    "Shader NodetreeAction.019",
+    "Shader NodetreeAction.020",
+    "Shader NodetreeAction.021",
+    "Shader NodetreeAction.022",
+    "Shader NodetreeAction.023",
+    "Shader NodetreeAction.024",
+    "Shader NodetreeAction.025",
+    "Shader NodetreeAction.026",
+    "Shader NodetreeAction.027",
+    "Shader NodetreeAction.028",
+    "Shader NodetreeAction.029",
+    "Shader NodetreeAction.030",
+    "Shader NodetreeAction.031",
+    "Shader NodetreeAction.032",
+    "Shader NodetreeAction.033",
+    "Shader NodetreeAction.034",
+    "Shader NodetreeAction.035",
+    "Shader NodetreeAction.036",
+    "Shader NodetreeAction.037",
+    "Shader NodetreeAction.038",
+    "Shader NodetreeAction.039",
+    "Shader NodetreeAction.040",
+    "Shader NodetreeAction.041",
+    "Shader NodetreeAction.042",
+    "Shader NodetreeAction.043",
+    "Shader NodetreeAction.044",
+    "Shader NodetreeAction.045",
+    "Shader NodetreeAction.046",
+    "Shader NodetreeAction.047",
+    "Shader NodetreeAction.048",
+    "Shader NodetreeAction.049",
+    "Shader NodetreeAction.050",
+    "Shader NodetreeAction.051",
+    "Shader NodetreeAction.052",
+    "Shader NodetreeAction.053",
+    "Shader NodetreeAction.054",
+    "Shader NodetreeAction.055",
+    "Shader NodetreeAction.056",
+    "Shader NodetreeAction.057",
+    "Shader NodetreeAction.058",
+    "Shader NodetreeAction.059",
+    "Shader NodetreeAction.060",
+    "Shader NodetreeAction.061",
+    "Shader NodetreeAction.062",
+    "Shader NodetreeAction.063",
+    "Shader NodetreeAction.064",
+    "Shader NodetreeAction.065",
+    "Shader NodetreeAction.066",
+    "Shader NodetreeAction.067",
+    "Shader NodetreeAction.068",
+    "Shader NodetreeAction.069",
+    "Shader NodetreeAction.070",
+    "Shader NodetreeAction.071",
+    "Shader NodetreeAction.072",
+    "Shader NodetreeAction.073",
+    "Shader NodetreeAction.074",
+    "Shader NodetreeAction.075"
+  ],
+  "source_mesh_fingerprints": {
+    "ash_and_coals": {
+      "mesh_sha256": "721c8201035643feea13b2653b46b8c88913af70c447f55cba77768e41e8e6aa",
+      "materials": [
+        "CF7 | ash",
+        "CF7 | char"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_01": {
+      "mesh_sha256": "d4210ac2a016fe190c04b25a14a2260aeb8a3b5f41e6f574a000ac51d482e347",
+      "materials": [
+        "CF8 | stone 01 | stone_01"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_02": {
+      "mesh_sha256": "285b63eff1984691f1f4466b0d5671765f9f7fa08be535326f4eb19ea9df8370",
+      "materials": [
+        "CF8 | stone 02 | stone_02"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_03": {
+      "mesh_sha256": "f52d4e68a344dca92d60726f6b4f12ff6e3a519471804b47e8397cceb8856f97",
+      "materials": [
+        "CF8 | stone 03 | stone_03"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_04": {
+      "mesh_sha256": "0228a15fc4346f4765dda23423457106d26fc1df415abff74806de42c39e4fa0",
+      "materials": [
+        "CF8 | stone 04 | stone_04"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_05": {
+      "mesh_sha256": "1aa52970288227120a15135008bcd93f3fa343db20f00b78972b580bcf1e137f",
+      "materials": [
+        "CF8 | stone 05 | stone_05"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_06": {
+      "mesh_sha256": "bb5eabf306e0270d8e8d60e2d9e90db59cfedd1b8b512adaee2e700fadd615ae",
+      "materials": [
+        "CF8 | stone 06 | stone_06"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_07": {
+      "mesh_sha256": "75ebdcb34c6a76d9781d64daacffb6844f5b08840a06b7eaf14f3268850f6dbc",
+      "materials": [
+        "CF8 | stone 07 | stone_07"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_08": {
+      "mesh_sha256": "5481dede1fd71e6b50115892bdcef9914d25066a8cf3d48064127078f037028a",
+      "materials": [
+        "CF8 | stone 08 | stone_08"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_09": {
+      "mesh_sha256": "2af4546f982581f3c22e40d27c7ad2eecffa6dde8b1f03c3814834e6e9362e60",
+      "materials": [
+        "CF8 | stone 09 | stone_09"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_10": {
+      "mesh_sha256": "5414be853dc40452e94f7ff2e811e28ce6211d846cfe40b6f6015458607a2dec",
+      "materials": [
+        "CF8 | stone 10 | stone_10"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_11": {
+      "mesh_sha256": "8045638fde53c83eaa6848190476d224059a7ecb8d90c1bd354b0c0420598532",
+      "materials": [
+        "CF8 | stone 11 | stone_11"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_12": {
+      "mesh_sha256": "54756d3fffd1bc8fd52cdcae92a13f25c182ba7696afa61482b377c66e3491d2",
+      "materials": [
+        "CF8 | stone 12 | stone_12"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_13": {
+      "mesh_sha256": "7ba22a720b2bfe6c8919689f05e377b32cb79d779f9e23745dad6989db0d87f6",
+      "materials": [
+        "CF8 | stone 13 | stone_13"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_14": {
+      "mesh_sha256": "8681f80b0d857fd425957b942d2e7e5d315d769132930b6186ee8bdad48929fc",
+      "materials": [
+        "CF8 | stone 14 | stone_14"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "stone_15": {
+      "mesh_sha256": "3bc5dc441390d75407f10524fc82fab8eacc2ec592eaddc913c9d0613c984958",
+      "materials": [
+        "CF8 | stone 15 | stone_15"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "coal_00": {
+      "mesh_sha256": "fd2d40ba6e905543bbb55fa795ca6a7d8651a57045ef7b433c15464c7b6886d8",
+      "materials": [
+        "CF7 | embers",
+        "CF7 | ash",
+        "CF7 | char"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "coal_01": {
+      "mesh_sha256": "e7a074cccc5ffbefc40b92578cad8181356f3f81099dc49995b7b5e26c4b8e78",
+      "materials": [
+        "CF7 | char",
+        "CF7 | ash"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "coal_02": {
+      "mesh_sha256": "3a50a199102b67791676a98bc6e8556d25772584c7f8136bbd088611603ab04b",
+      "materials": [
+        "CF7 | ash",
+        "CF7 | embers",
+        "CF7 | char"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "coal_03": {
+      "mesh_sha256": "f68ebe963c9720c656ecc704a60ab10e589d04b5d6c2f913b0a3f16495ed9e51",
+      "materials": [
+        "CF7 | embers",
+        "CF7 | char",
+        "CF7 | ash"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "coal_04": {
+      "mesh_sha256": "6bc3761df25a2fd46ad92435d74e3e9348ed26df8e0cd3fb5dd61b4f710c8167",
+      "materials": [
+        "CF7 | char",
+        "CF7 | embers",
+        "CF7 | ash"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "coal_05": {
+      "mesh_sha256": "b94f569c3376ad94f0cab9803002575ee0b4f49c1ef5b2e396dd53df62138bd7",
+      "materials": [
+        "CF7 | embers",
+        "CF7 | ash",
+        "CF7 | char"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "coal_06": {
+      "mesh_sha256": "568869ed8a2fbbbe1eb582fb1ef0b37ba7ff7d289e5db77e1f87c3380d156782",
+      "materials": [
+        "CF7 | ash",
+        "CF7 | embers",
+        "CF7 | char"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_lower_west_east_bark": {
+      "mesh_sha256": "48dc384345cff21ba10fc3a13e4a01aaf2d019ebd6afaacdda9693f91f6c7a51",
+      "materials": [
+        "CF8 | bark | wood 22 | 0",
+        "CF8 | bark | wood 22 | 1",
+        "CF8 | bark | wood 22 | 2",
+        "CF8 | bark | wood 22 | 3",
+        "CF8 | bark | wood 22 | 4"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_lower_west_east_end_sapwood": {
+      "mesh_sha256": "d7be6787caf8ec1d8d3276b086ea599e46ed29138ddea23d6215545816c3d28d",
+      "materials": [
+        "CF8 | cut | wood 26 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_lower_west_east_end_ring": {
+      "mesh_sha256": "def26c2e5b8542e0aa382f710471195ded6057768fb5ff54ae71073d563b201d",
+      "materials": [
+        "CF8 | cut | wood 25 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_lower_west_east_end_heart": {
+      "mesh_sha256": "6153c8245c42a3c445e29d58d63abc3c7409590e99b9bc6ad56e08361eeeeee9",
+      "materials": [
+        "CF8 | cut | wood 24 | 0",
+        "CF8 | cut | wood 24 | 1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_lower_west_east_end_checks": {
+      "mesh_sha256": "b8ef57d59d74875ad35a12171d713715ac0f4ed1d3bc78a5ccb8bee9f9b10610",
+      "materials": [
+        "CF8 | cut | wood 23 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_lower_west_east_grain": {
+      "mesh_sha256": "cc24511c5042f3bb8bf4515a40704d364eb3f000877899c1056be770b1eb4151",
+      "materials": [
+        "CF8 | bark | wood 27 | 0",
+        "CF8 | bark | wood 27 | 1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_lower_west_east_knot": {
+      "mesh_sha256": "070280d282d4156114fd49d2c024810a5b58b84032259c3cc3799c479bb650b7",
+      "materials": [
+        "CF8 | bark | wood 28 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_upper_diagonal_bark": {
+      "mesh_sha256": "d79b3c1521a5b927b162ca0dca59198b1d2a49a994e2ecdd9d3d6a6c5a568fd0",
+      "materials": [
+        "CF8 | bark | wood 36 | 0",
+        "CF8 | bark | wood 36 | 1",
+        "CF8 | bark | wood 36 | 2",
+        "CF8 | bark | wood 36 | 3",
+        "CF8 | bark | wood 36 | 4"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_upper_diagonal_end_sapwood": {
+      "mesh_sha256": "78ca7392387e435ec2ea8c008bc9ab7e7909da392dd92118abd04072d5360af4",
+      "materials": [
+        "CF8 | cut | wood 40 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_upper_diagonal_end_ring": {
+      "mesh_sha256": "8d563b9163aaed8562d7ae3b5d3f425e761441e8fbcc1a5180b2e64fea1bb629",
+      "materials": [
+        "CF8 | cut | wood 39 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_upper_diagonal_end_heart": {
+      "mesh_sha256": "94eff5e44d20a842a946ded58ca5cf96a10fc52b337b6edaa7dd3ac910c06b2e",
+      "materials": [
+        "CF8 | cut | wood 38 | 0",
+        "CF8 | cut | wood 38 | 1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_upper_diagonal_end_checks": {
+      "mesh_sha256": "e1cf74acda0ca9cd73c9e4ce1ca4cfeffdc4836549e7af01c53866efc66070fd",
+      "materials": [
+        "CF8 | cut | wood 37 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_upper_diagonal_grain": {
+      "mesh_sha256": "2b43fb7fdc54f73cae1f7302a8d952ed9a45d7358a8f42ff69c5de1a2a2cb3b8",
+      "materials": [
+        "CF8 | bark | wood 41 | 0",
+        "CF8 | bark | wood 41 | 1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_upper_diagonal_knot": {
+      "mesh_sha256": "be8fe7af317d7b5a9ee5464cdbc253ee1c7ea850e49f868e9fc168a11a01a27e",
+      "materials": [
+        "CF8 | bark | wood 42 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_rear_ember_log_bark": {
+      "mesh_sha256": "d43dab3b17b9b2005eae5a94c0b01bb5fb08f13b77a44dfc54e7be03a93d24c5",
+      "materials": [
+        "CF8 | bark | wood 29 | 0",
+        "CF8 | bark | wood 29 | 1",
+        "CF8 | bark | wood 29 | 2",
+        "CF8 | bark | wood 29 | 3"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_rear_ember_log_end_sapwood": {
+      "mesh_sha256": "5dad1e8513c88fff71c5fd8fbdbf97891fe29e3e72f9ef06d8a16de726abde57",
+      "materials": [
+        "CF8 | cut | wood 33 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_rear_ember_log_end_ring": {
+      "mesh_sha256": "0a3f306e8a7b8e0b7e366f07dbf1fdc84790a513e533f53511478b148078a476",
+      "materials": [
+        "CF8 | cut | wood 32 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_rear_ember_log_end_heart": {
+      "mesh_sha256": "9889a3d5242b78f7f097477e593a744a8916981d652a2b66b7ed5e474804adf1",
+      "materials": [
+        "CF8 | cut | wood 31 | 0",
+        "CF8 | cut | wood 31 | 1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_rear_ember_log_end_checks": {
+      "mesh_sha256": "dc8b684ed9dd5005b1972aba7191859e9943557cf4c1fc639b7f62f0ecc488fc",
+      "materials": [
+        "CF8 | cut | wood 30 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_rear_ember_log_grain": {
+      "mesh_sha256": "9d1ddf8ffe9eed11cf011830c050466207bbf5cde56befba6be0f42a5721c937",
+      "materials": [
+        "CF8 | bark | wood 34 | 0",
+        "CF8 | bark | wood 34 | 1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_rear_ember_log_knot": {
+      "mesh_sha256": "49eb25dab4057eea31fee72104db8d2d230cfc12d9ed13fbdce5426737369cb7",
+      "materials": [
+        "CF8 | bark | wood 35 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_left_bark": {
+      "mesh_sha256": "bbdadf9ac78d1b31fd7bf6d245adf5001f9924a91e946fe6e5678170f936525e",
+      "materials": [
+        "CF8 | bark | wood 08 | 0",
+        "CF8 | bark | wood 08 | 1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_left_end_sapwood": {
+      "mesh_sha256": "9ccd667a847f336e51e64d165d7ccb1a6d124a6c67d91e8516c10891f955b70b",
+      "materials": [
+        "CF8 | cut | wood 12 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_left_end_ring": {
+      "mesh_sha256": "53e73934d4d954ed17c97c40695f10fa28a8a2db003a72c0b9aa3cb70df910ca",
+      "materials": [
+        "CF8 | cut | wood 11 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_left_end_heart": {
+      "mesh_sha256": "7f2b60e5e67a742393542eac12edffcfb6bd57ec2b07b288425550e2810f0cf7",
+      "materials": [
+        "CF8 | cut | wood 10 | 0",
+        "CF8 | cut | wood 10 | 1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_left_end_checks": {
+      "mesh_sha256": "32fd05a045e747a322974c994ab2a0689e7d7fcaeb0a128d1812509c3c29b7e8",
+      "materials": [
+        "CF8 | cut | wood 09 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_left_grain": {
+      "mesh_sha256": "3c475e64b25e49844e645a47e9e362dade6960a0bed88cadd0bb38c63c1231c5",
+      "materials": [
+        "CF8 | bark | wood 13 | 0",
+        "CF8 | bark | wood 13 | 1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_left_knot": {
+      "mesh_sha256": "1b7bd14f1576729826d1ecb3f34e29859e0cb3da295ea6fc6c5e3a9ed0ed1623",
+      "materials": [
+        "CF8 | bark | wood 14 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_right_bark": {
+      "mesh_sha256": "997343792e725da239e739742733abee42ada4713b464ad22e427b2b8e9e9f14",
+      "materials": [
+        "CF8 | bark | wood 15 | 0",
+        "CF8 | bark | wood 15 | 1",
+        "CF8 | bark | wood 15 | 2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_right_end_sapwood": {
+      "mesh_sha256": "996866bf799f732c568ee6b8fc38c097b63c37c04516a218bb259e953c68bd9e",
+      "materials": [
+        "CF8 | cut | wood 19 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_right_end_ring": {
+      "mesh_sha256": "9d26bee77ad7b6f7e11a61c5e95c2ba20a085b9b596e7716e5ca20e23f74a950",
+      "materials": [
+        "CF8 | cut | wood 18 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_right_end_heart": {
+      "mesh_sha256": "d3726fa9af2b4f7d78147ca5e1fa5212cb45abf5dccf5ab29dea7df293ecc018",
+      "materials": [
+        "CF8 | cut | wood 17 | 0",
+        "CF8 | cut | wood 17 | 1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_right_end_checks": {
+      "mesh_sha256": "db4c725a423eadbf28896ca2c20b95c1e44d50ea3bb452f76510fc38372d09f1",
+      "materials": [
+        "CF8 | cut | wood 16 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_right_grain": {
+      "mesh_sha256": "c3fb20bd2f3ce4bd14834fe8d1ae544a44811a6241142d45994ddea4f9fcc10c",
+      "materials": [
+        "CF8 | bark | wood 20 | 0",
+        "CF8 | bark | wood 20 | 1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_kindling_right_knot": {
+      "mesh_sha256": "5451497c61dbc739054aa0045fe7b0975507eee1b58ddab144e8febf663332f9",
+      "materials": [
+        "CF8 | bark | wood 21 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_charred_twig_bark": {
+      "mesh_sha256": "ca176891b21bdb00e50cadbbd6ad7ab85913dfa5a128355214f3325f4f68ca6a",
+      "materials": [
+        "CF8 | bark | wood 01 | 0",
+        "CF8 | bark | wood 01 | 1",
+        "CF8 | bark | wood 01 | 2"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_charred_twig_end_sapwood": {
+      "mesh_sha256": "537399870dfc822c09ff9a1cef58e5837a6433385f3922a2f5e1b1f6192ccb80",
+      "materials": [
+        "CF8 | cut | wood 05 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_charred_twig_end_ring": {
+      "mesh_sha256": "418fcaa1f802c046d3820aa7f68451b6ed48fe09452a62cc02284379142abaec",
+      "materials": [
+        "CF8 | cut | wood 04 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_charred_twig_end_heart": {
+      "mesh_sha256": "321633e4a7afde2d08202de8b09e8b2bae2c565071252d8a5cbe98e8f9b844b9",
+      "materials": [
+        "CF8 | cut | wood 03 | 0",
+        "CF8 | cut | wood 03 | 1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_charred_twig_end_checks": {
+      "mesh_sha256": "10155870eb455b8e55fdb3c1073e61fcde6ef3e19897f3f09b1ec42707ffbe68",
+      "materials": [
+        "CF8 | cut | wood 02 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_charred_twig_grain": {
+      "mesh_sha256": "5282b1c7e6f395aafd1beedbdf5703f04802026c1f173c8004193623627aa301",
+      "materials": [
+        "CF8 | bark | wood 06 | 0",
+        "CF8 | bark | wood 06 | 1"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "cross_log_charred_twig_knot": {
+      "mesh_sha256": "fe7e3bfb0d3f4f4a946e417590bdc142745addeda51169fc641bc538a93a747b",
+      "materials": [
+        "CF8 | bark | wood 07 | 0"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "flame_tongue_01": {
+      "mesh_sha256": "babab6ad0e7ade70258edafca978e88b766b52dca2d064b5f9d9c7a200251f86",
+      "materials": [
+        "CF8 | flame 00 | vertical color and fading alpha"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0800000429153442,
+        1.0
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "flame_tongue_02": {
+      "mesh_sha256": "0e4acdaf685857e7ebdce9a9fbc03694505b4a89536e2b93f1754262960c4aeb",
+      "materials": [
+        "CF8 | flame 01 | vertical color and fading alpha"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.014581936411559582
+      ],
+      "scale": [
+        1.0420736074447632,
+        1.0432242155075073,
+        1.070863962173462
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "flame_tongue_03": {
+      "mesh_sha256": "adbe6317d51633e6cf6f288f9b62c9d83c17a8d80a10ccd8b66ca6175816fe72",
+      "materials": [
+        "CF8 | flame 02 | vertical color and fading alpha"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.027590258046984673
+      ],
+      "scale": [
+        1.0454648733139038,
+        0.966708242893219,
+        1.108399510383606
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "flame_tongue_04": {
+      "mesh_sha256": "aee8bc13cc2666a25b9d4f67138c5b0ce989a9f90953e7d769c2154beb2bec11",
+      "materials": [
+        "CF8 | flame 03 | vertical color and fading alpha"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.03762117028236389
+      ],
+      "scale": [
+        1.0070559978485107,
+        0.9208006262779236,
+        1.0949530601501465
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "flame_tongue_05": {
+      "mesh_sha256": "1cf4fbffc718a8d3c938cd8bb56859e66bc3e76805e318081d2adc157fa12747",
+      "materials": [
+        "CF8 | flame 04 | vertical color and fading alpha"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0435921810567379
+      ],
+      "scale": [
+        0.9621598720550537,
+        0.9477084875106812,
+        1.0368486642837524
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "flame_tongue_06": {
+      "mesh_sha256": "cbf607789b7664d3a98d171bc4e9e311afe9ba1ecfafb14ccc3cb7d3b3e86a63",
+      "materials": [
+        "CF8 | flame 05 | vertical color and fading alpha"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.04485892504453659
+      ],
+      "scale": [
+        0.9520537853240967,
+        1.0226929187774658,
+        0.9614138603210449
+      ],
+      "parent": "EXPORT | direction pivot"
+    },
+    "Ground | shadow catcher": {
+      "mesh_sha256": "d0a0c96500cbd307425b5898a041aa8b3a6dd53ea1852241819906fe4f22b71b",
+      "materials": [],
+      "location": [
+        0.0,
+        0.0,
+        -0.026000000536441803
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent": null
+    }
+  },
+  "supports": [
+    {
+      "foot": [
+        4.469960816887839e-17,
+        -0.73,
+        0.2908287048339844
+      ],
+      "contact": "ray-cast against unchanged source stone"
+    },
+    {
+      "foot": [
+        0.6321985447626403,
+        0.36499999999999994,
+        0.2357170581817627
+      ],
+      "contact": "ray-cast against unchanged source stone"
+    },
+    {
+      "foot": [
+        -0.6321985447626403,
+        0.36499999999999994,
+        0.2564065456390381
+      ],
+      "contact": "ray-cast against unchanged source stone"
+    }
+  ],
+  "camera": {
+    "elevation_deg": 45,
+    "ortho_scale": 3.35,
+    "target": [
+      0,
+      0,
+      0.7
+    ]
+  },
+  "daylight": {
+    "01 | NW warm key | broad source": {
+      "matrix": [
+        [
+          0.8045740723609924,
+          0.4379461407661438,
+          -0.40107816457748413,
+          -3.0999999046325684
+        ],
+        [
+          -0.5938522815704346,
+          0.5933464169502258,
+          -0.5433962941169739,
+          -4.199999809265137
+        ],
+        [
+          -1.1994124804459716e-08,
+          0.6753837466239929,
+          0.7374664545059204,
+          6.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "power": 550.0,
+      "color": [
+        1.0,
+        0.9100000262260437,
+        0.7699999809265137
+      ]
+    },
+    "02 | SE cool fill | restrained": {
+      "matrix": [
+        [
+          0.25449317693710327,
+          -0.6722847819328308,
+          0.6951736807823181,
+          3.799999952316284
+        ],
+        [
+          0.9670745730400085,
+          0.17691682279109955,
+          -0.18294045329093933,
+          -1.0
+        ],
+        [
+          1.647251934855376e-07,
+          0.7188418507575989,
+          0.6951736211776733,
+          4.099999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "power": 180.0,
+      "color": [
+        0.699999988079071,
+        0.8299999833106995,
+        1.0
+      ]
+    },
+    "03 | rear edge light": {
+      "matrix": [
+        [
+          -0.9539936780929565,
+          -0.19708167016506195,
+          0.22595323622226715,
+          1.100000023841858
+        ],
+        [
+          0.2998266816139221,
+          -0.6270776987075806,
+          0.7189419269561768,
+          3.5
+        ],
+        [
+          -4.7549516324352226e-08,
+          0.7536128759384155,
+          0.6573184728622437,
+          3.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "power": 270.0,
+      "color": [
+        1.0,
+        0.9100000262260437,
+        0.7900000214576721
+      ]
+    }
+  },
+  "native_reopen": "passed",
+  "game_integration": false,
+  "captures": [
+    {
+      "name": "working-north",
+      "frame": 37,
+      "angle": 0,
+      "path": "renders/working-north.png",
+      "sha256": "e740800883154f6edd12bbb1ac6284f71a5fb95b035516311905e091700795ce"
+    },
+    {
+      "name": "idle-north",
+      "frame": 0,
+      "angle": 0,
+      "path": "renders/idle-north.png",
+      "sha256": "eaec0092174b82e0117273139b3e1a933eb25782c84ad5f9a5e85b75d01463a9"
+    },
+    {
+      "name": "idle-east",
+      "frame": 0,
+      "angle": 90,
+      "path": "renders/idle-east.png",
+      "sha256": "5faaedea31ab9ce2461478bb9467ec8b2a6be0bfd04ce74d3b663c5e80ce9d86"
+    },
+    {
+      "name": "idle-south",
+      "frame": 0,
+      "angle": 180,
+      "path": "renders/idle-south.png",
+      "sha256": "5848dc7fdac6b1b0c5d34563f1e2a16deebd7bd047ab0ae7c4c45100c3a8acdb"
+    },
+    {
+      "name": "idle-west",
+      "frame": 0,
+      "angle": 270,
+      "path": "renders/idle-west.png",
+      "sha256": "d6f42b7cf9c84cc66b7e1299fa367862d842322d9bf57a2815a1abcf9a34cd4f"
+    },
+    {
+      "name": "working-east",
+      "frame": 37,
+      "angle": 90,
+      "path": "renders/working-east.png",
+      "sha256": "b0157fb338e86b4e5463ab63f6d46f05ccb34e82b7007982f0504b6a296802dd"
+    },
+    {
+      "name": "working-south",
+      "frame": 37,
+      "angle": 180,
+      "path": "renders/working-south.png",
+      "sha256": "f511d7bb205e791c8ca6b9105c5e8709dc603f3d992118dd4e5e36a53f7a3c93"
+    },
+    {
+      "name": "working-west",
+      "frame": 37,
+      "angle": 270,
+      "path": "renders/working-west.png",
+      "sha256": "c83536ebbd62e43ad379678b2bd167114f5f909f0967656e94e051540378b2d2"
+    },
+    {
+      "name": "source-campfire",
+      "frame": 37,
+      "angle": 0,
+      "path": "renders/source-campfire.png",
+      "sha256": "066a53f66947873ce7cdd6bb1a93f95c77d521ee965792647e07e18f65aa5966"
+    },
+    {
+      "name": "loop-00",
+      "frame": 1,
+      "angle": 0,
+      "path": "renders/loop-00.png",
+      "sha256": "5af2aa9237a0b98847fa93a239952abb62665aba64b0e83dfc8ae8a9fc8d96ef"
+    },
+    {
+      "name": "loop-01",
+      "frame": 7,
+      "angle": 0,
+      "path": "renders/loop-01.png",
+      "sha256": "4d1f8e2e80a6be40ad09452b96662106d918247e6e6124f16573eef5e5d2ff00"
+    },
+    {
+      "name": "loop-02",
+      "frame": 13,
+      "angle": 0,
+      "path": "renders/loop-02.png",
+      "sha256": "09414df2d58d3a3f4cd35ae5949b5d0af095214c43adbab4b7bb521bf23495c2"
+    },
+    {
+      "name": "loop-03",
+      "frame": 19,
+      "angle": 0,
+      "path": "renders/loop-03.png",
+      "sha256": "11e559f72fd9290e1096749ce7d8088d186cd8245cd631b3a40a649f1f5f3adb"
+    },
+    {
+      "name": "loop-04",
+      "frame": 25,
+      "angle": 0,
+      "path": "renders/loop-04.png",
+      "sha256": "b4b73e426a1979ca0595ceb10d1bb706cbb3316ff208b0743e3adc0721ccbbd6"
+    },
+    {
+      "name": "loop-05",
+      "frame": 31,
+      "angle": 0,
+      "path": "renders/loop-05.png",
+      "sha256": "8714a650e28eec583cfe79656bed7cfe0824e76d4343b6da34af946f46504d2c"
+    },
+    {
+      "name": "loop-06",
+      "frame": 37,
+      "angle": 0,
+      "path": "renders/loop-06.png",
+      "sha256": "2eef0ed6827d92218cfb598023736d09aebf0d65620e2d8de8717296af0bfed3"
+    },
+    {
+      "name": "loop-07",
+      "frame": 43,
+      "angle": 0,
+      "path": "renders/loop-07.png",
+      "sha256": "1079564167ea82c8f5ee0dfb8e8bc5c454157df9bebf2b44f23c7c63288006f9"
+    },
+    {
+      "name": "loop-08",
+      "frame": 49,
+      "angle": 0,
+      "path": "renders/loop-08.png",
+      "sha256": "c00b15cfe7bda816e58855d0487b7f44721c0fd9786d42c2815494dfab26f3b2"
+    },
+    {
+      "name": "loop-09",
+      "frame": 55,
+      "angle": 0,
+      "path": "renders/loop-09.png",
+      "sha256": "327f5dba428230bc006bb5eda2e630ae5e45511f249445d850cfebbdcd4075c6"
+    },
+    {
+      "name": "loop-10",
+      "frame": 61,
+      "angle": 0,
+      "path": "renders/loop-10.png",
+      "sha256": "c803f7e1cde555b4758d5948a2440e9ad7878f861221b0aee9f4d712d000673d"
+    },
+    {
+      "name": "loop-11",
+      "frame": 67,
+      "angle": 0,
+      "path": "renders/loop-11.png",
+      "sha256": "286b9c1f1b470fdb24867497767ae401043703f94e6522da33b7ca596ccb8629"
+    },
+    {
+      "name": "loop-12",
+      "frame": 73,
+      "angle": 0,
+      "path": "renders/loop-12.png",
+      "sha256": "7f95a46c2afe35ea02d132c768933c9afca580cc137818e38c34a974d16019b6"
+    },
+    {
+      "name": "loop-13",
+      "frame": 79,
+      "angle": 0,
+      "path": "renders/loop-13.png",
+      "sha256": "74295f7e51cf4a6829ab3a2f7f6a6c098c1d8b3391d8dd3f66a211347516895a"
+    },
+    {
+      "name": "loop-14",
+      "frame": 85,
+      "angle": 0,
+      "path": "renders/loop-14.png",
+      "sha256": "3c6ab97e385c61ca54393354f3465533ec4f289fb33beef54a8cc7eb5d6fd13a"
+    },
+    {
+      "name": "loop-15",
+      "frame": 91,
+      "angle": 0,
+      "path": "renders/loop-15.png",
+      "sha256": "a4c16d9e96895f5be7fcdd9586a47454c2e54d68c593a0700cf0b4473e640d87"
+    }
+  ],
+  "review_capture_checks": {
+    "decoded_frames": 25,
+    "frame_size": [
+      384,
+      384
+    ],
+    "transparent_rgba": true,
+    "all_frames_have_margin": true,
+    "gif_frames": 16,
+    "gif_fps": 8,
+    "frames": [
+      {
+        "file": "idle-east.png",
+        "alpha_bounds": [
+          19,
+          62,
+          296,
+          322
+        ]
+      },
+      {
+        "file": "idle-north.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "idle-south.png",
+        "alpha_bounds": [
+          81,
+          76,
+          304,
+          350
+        ]
+      },
+      {
+        "file": "idle-west.png",
+        "alpha_bounds": [
+          88,
+          62,
+          365,
+          319
+        ]
+      },
+      {
+        "file": "loop-00.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-01.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-02.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-03.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-04.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-05.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-06.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-07.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-08.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-09.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-10.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-11.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-12.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-13.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-14.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "loop-15.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "source-campfire.png",
+        "alpha_bounds": [
+          80,
+          154,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "working-east.png",
+        "alpha_bounds": [
+          19,
+          62,
+          296,
+          322
+        ]
+      },
+      {
+        "file": "working-north.png",
+        "alpha_bounds": [
+          80,
+          76,
+          303,
+          316
+        ]
+      },
+      {
+        "file": "working-south.png",
+        "alpha_bounds": [
+          81,
+          76,
+          304,
+          350
+        ]
+      },
+      {
+        "file": "working-west.png",
+        "alpha_bounds": [
+          88,
+          62,
+          365,
+          319
+        ]
+      }
+    ]
+  }
+}
