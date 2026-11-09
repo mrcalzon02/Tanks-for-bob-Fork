@@ -11,6 +11,10 @@ python3 -m unittest discover -s tools/art -p 'test_*.py' -v
 
 The first command is the complete animated production test. The second tests static capture at four angles. Output directories must be new or empty; failed runs are retained for diagnosis. `--pack-only` rechecks existing captures without rendering. Tested locally in **Blender 4.3.2**, CPU Cycles, Pillow 13. The existing scoped Blender CI also exercises both commands and records its actual installed Blender version; a local pass does not imply a CI pass.
 
+## Reusable fluid-connection reference
+
+For machines with pipe fittings, start with the [fluid connection modeling guide](../../docs/art/FLUID_CONNECTION_MODELING_GUIDE.md) and append the [canonical Blender reference](../../models/reference/factorio-fluid-interface/factorio-fluid-interface-reference.blend). It provides the standard pipe, machine-side collar template and socket markers at one Blender unit per tile. Place its ground root at the declared joint boundary, keep unit scale, and shape the machine's receiving structure around the mount. Exclude reference pipes and review helpers from production captures. Verify each machine's native sprite placement separately.
+
 ## Supply another model
 
 Copy a profile. Set `source` relative to that profile, `adapter` to null (or omit it), `states` to a mapping of named states to explicit timeline frames, and `directions` to rotation angles in degrees. One timeline frame is a static capture; multiple frames form an animation. `pivot` is the model rotation center in world coordinates. Supply the required authored orthographic camera, Cycles materials, animation and lights in the source `.blend`; pack external textures first. List fixed ground objects in `exclude_rotation`, optional non-export objects in `hide_render`, and deliberately animated lights in `animated_lights`. The exporter fails if any other light or the camera moves during capture.
@@ -41,3 +45,4 @@ The profile excludes the development ground shadow catcher from beauty capture b
 ## Recovery evidence
 
 See [the dated recovery audit](../../docs/art/CAMPFIRE_5855_RECOVERY_AUDIT.md) and [the campfire ledger](../../models/island-survival/blender/CAMPFIRE_PRODUCTION_EXPORT_CHECKLIST.md). The original V9 and game graphics are preserved in their existing locations. The executable pipeline uses a local adapter around the authored scene; no Valerian preset, AshenHermit add-on or third-party HDRI was imported or claimed tested.
+

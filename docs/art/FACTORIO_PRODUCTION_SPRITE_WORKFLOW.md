@@ -1,5 +1,7 @@
 # FACTORIO-SPRITE-PRODUCTION-v1 — Blender-to-Factorio export runbook
 
+**Machines with pipe fittings:** use the [fluid connection modeling guide](FLUID_CONNECTION_MODELING_GUIDE.md) and its [standalone Blender reference](../../models/reference/factorio-fluid-interface/factorio-fluid-interface-reference.blend) before modeling the receiving box, manifold or neck. The reference establishes joint size, height, direction and ground origin; keep its helpers out of production captures and verify native sprite placement for each machine.
+
 **Stable invocation:** “Execute FACTORIO-SPRITE-PRODUCTION-v1 for <entity> in <repo>.”
 **Authority:** This version-controlled document, plus the filled asset-specific work order. No remembered guess or previous assistant response overrides the checked-in procedure.
 **State:** Executable Blender capture/packing is now implemented and verified with the campfire; art approval and game integration remain separate.
@@ -92,3 +94,4 @@ Treat missing steps as process defects. Add a new Pxx gate or amend a gate via r
 **v1 (2026-11-06):** First standardized, auditable production-sprite procedure. It documents previously missing release gates; does not claim any campfire production atlas or Factorio graphical-client acceptance.
 
 **v1.1 (2026-11-06, Alaska):** Implement and execute Blender-only capture/packing, independent master reopen and four-direction static test; honor corrected scope, log stone-reflectivity correction and retain pending art approval. No game integration is claimed.
+

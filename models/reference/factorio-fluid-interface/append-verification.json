@@ -1,0 +1,176 @@
+{
+  "standard_id": "factorio-fluid-interface-v1",
+  "native_sha256": "af6d1d74f0439b327b0b4e496386aa35fdac0859c177b55707dbfb5243e691ca",
+  "blender": "4.3.2",
+  "status": "passed",
+  "tolerance_tiles": 1e-06,
+  "total_appended_assemblies": 5,
+  "source_file_unchanged": true,
+  "scenarios": [
+    {
+      "scenario": "3x3 cardinal boundaries",
+      "fresh_scene": true,
+      "saved_reopened": true,
+      "original_machine_sentinel_preserved": true,
+      "unwanted_objects_imported": 0,
+      "independent_appended_roots": true,
+      "placements": [
+        {
+          "facing": "N",
+          "joint_ground": [
+            0.0,
+            1.5,
+            0.0
+          ],
+          "socket": [
+            0.0,
+            1.5,
+            0.36000001430511475
+          ],
+          "adjacent_pipe_cell": [
+            0.0,
+            2.0,
+            0.0
+          ],
+          "object_count": 9,
+          "mesh_count": 5,
+          "local_editable": true,
+          "unit_scales": true,
+          "opposed_face_normals": true,
+          "mating_face_vertices": 128,
+          "max_mating_error_tiles": 6.143906154658885e-08,
+          "dimensions_verified": true,
+          "collection": "Verification port 0",
+          "root": "Verification port 0 | ground placement root",
+          "reopened_max_mating_error_tiles": 6.143906154658885e-08
+        },
+        {
+          "facing": "E",
+          "joint_ground": [
+            1.5,
+            0.0,
+            0.0
+          ],
+          "socket": [
+            1.5,
+            0.0,
+            0.36000001430511475
+          ],
+          "adjacent_pipe_cell": [
+            2.0,
+            0.0,
+            0.0
+          ],
+          "object_count": 9,
+          "mesh_count": 5,
+          "local_editable": true,
+          "unit_scales": true,
+          "opposed_face_normals": true,
+          "mating_face_vertices": 128,
+          "max_mating_error_tiles": 6.143906154658885e-08,
+          "dimensions_verified": true,
+          "collection": "Verification port 1",
+          "root": "Verification port 1 | ground placement root",
+          "reopened_max_mating_error_tiles": 6.143906154658885e-08
+        },
+        {
+          "facing": "S",
+          "joint_ground": [
+            0.0,
+            -1.5,
+            0.0
+          ],
+          "socket": [
+            0.0,
+            -1.5,
+            0.36000001430511475
+          ],
+          "adjacent_pipe_cell": [
+            0.0,
+            -2.0,
+            0.0
+          ],
+          "object_count": 9,
+          "mesh_count": 5,
+          "local_editable": true,
+          "unit_scales": true,
+          "opposed_face_normals": true,
+          "mating_face_vertices": 128,
+          "max_mating_error_tiles": 6.143906154658885e-08,
+          "dimensions_verified": true,
+          "collection": "Verification port 2",
+          "root": "Verification port 2 | ground placement root",
+          "reopened_max_mating_error_tiles": 6.143906154658885e-08
+        },
+        {
+          "facing": "W",
+          "joint_ground": [
+            -1.5,
+            0.0,
+            0.0
+          ],
+          "socket": [
+            -1.5,
+            0.0,
+            0.36000001430511475
+          ],
+          "adjacent_pipe_cell": [
+            -2.0,
+            0.0,
+            0.0
+          ],
+          "object_count": 9,
+          "mesh_count": 5,
+          "local_editable": true,
+          "unit_scales": true,
+          "opposed_face_normals": true,
+          "mating_face_vertices": 128,
+          "max_mating_error_tiles": 6.143906154658885e-08,
+          "dimensions_verified": true,
+          "collection": "Verification port 3",
+          "root": "Verification port 3 | ground placement root",
+          "reopened_max_mating_error_tiles": 6.143906154658885e-08
+        }
+      ]
+    },
+    {
+      "scenario": "2x2 east rear-row boundary",
+      "fresh_scene": true,
+      "saved_reopened": true,
+      "original_machine_sentinel_preserved": true,
+      "unwanted_objects_imported": 0,
+      "independent_appended_roots": true,
+      "placements": [
+        {
+          "facing": "E",
+          "joint_ground": [
+            1.0,
+            0.5,
+            0.0
+          ],
+          "socket": [
+            1.0,
+            0.5,
+            0.36000001430511475
+          ],
+          "adjacent_pipe_cell": [
+            1.5,
+            0.5,
+            0.0
+          ],
+          "object_count": 9,
+          "mesh_count": 5,
+          "local_editable": true,
+          "unit_scales": true,
+          "opposed_face_normals": true,
+          "mating_face_vertices": 128,
+          "max_mating_error_tiles": 6.664001874625056e-08,
+          "dimensions_verified": true,
+          "collection": "Verification port 0",
+          "root": "Verification port 0 | ground placement root",
+          "reopened_max_mating_error_tiles": 6.664001874625056e-08
+        }
+      ]
+    }
+  ]
+}

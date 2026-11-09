@@ -1,0 +1,206 @@
+{
+  "standard_id": "factorio-fluid-interface-v1",
+  "schema_version": 1,
+  "asset_collection": "FACTORIO_FLUID_INTERFACE_REFERENCE",
+  "root_name": "IFACE | ground placement root",
+  "environment_collection": "REVIEW ENVIRONMENT | do not append",
+  "native_file": "factorio-fluid-interface-reference.blend",
+  "native_sha256": "af6d1d74f0439b327b0b4e496386aa35fdac0859c177b55707dbfb5243e691ca",
+  "blender": "4.3.2",
+  "dimensions": {
+    "units_per_tile": 1.0,
+    "barrel_od": 0.57,
+    "bore_id": 0.49,
+    "collar_od": 0.68,
+    "collar_depth": 0.075,
+    "centre_height": 0.36,
+    "adjacent_barrel_length": 1.0
+  },
+  "coordinate_contract": {
+    "root": [
+      0,
+      0,
+      0
+    ],
+    "joint": [
+      0,
+      0,
+      0.36
+    ],
+    "joint_plane": "Y0",
+    "outward_axis": "+Y",
+    "blender_to_native_ground": "(x,y) -> (x,-y)",
+    "native_facing_yaw_degrees": {
+      "N": 0,
+      "E": -90,
+      "S": 180,
+      "W": 90
+    }
+  },
+  "source": {
+    "repository": "mrcalzon02/Tanks-for-bob-Fork",
+    "commit": "807d024e74507d60fbdc04d17cd4738a02eaf225",
+    "path": "models/island-survival/cooking-fire/v2/cooking-fire-v2.blend",
+    "sha256": "6d95ba48a586956170dac4d9f37322068f66e25967f55eb54aed222933f2e675",
+    "original_dimensional_authority": "mrcalzon02/Tech-Priests@0ea7ed22d508fb2f5c7d71102679b0be80a379ab:art/source-to-3d/boiler-v05/build_boiler_v05.py"
+  },
+  "geometry": {
+    "reference_barrel": {
+      "source_object": "REFERENCE | one-tile pipe barrel",
+      "source_mesh_sha256": "9bd12b3136596b723eb10856ec8b6981b0c3bdad2a487657ff96837eaf4d489f",
+      "canonical_mesh_sha256": "29962ce54ca67d9aa8eedb0a527e2c9ca234541b5bad8088092a2b63339a70d8",
+      "vertices": 256,
+      "faces": 256,
+      "translation_only_error_tiles": 0.0,
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "width": 0.003000000026077032,
+          "segments": 3
+        }
+      ]
+    },
+    "reference_near_collar": {
+      "source_object": "REFERENCE | near pipe collar",
+      "source_mesh_sha256": "8381cf3bd93cfda9ea564be8165ed2aec3e3f7b9e8178fe7f27754b51a19b6c7",
+      "canonical_mesh_sha256": "513228d37cbfd9235e850db3a510aa8e1217139e5cfbdc5134480a32de609eb0",
+      "vertices": 256,
+      "faces": 256,
+      "translation_only_error_tiles": 0.0,
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "width": 0.003000000026077032,
+          "segments": 3
+        }
+      ]
+    },
+    "reference_far_collar": {
+      "source_object": "REFERENCE | far pipe collar",
+      "source_mesh_sha256": "ec5203fe41febdd53ae515843921f79b8a5315c7de8bd73d609ed09013f8f219",
+      "canonical_mesh_sha256": "4fe72c7f836c8b4a7612a919c30baaa1f06a321723faee004f8283cf92729771",
+      "vertices": 256,
+      "faces": 256,
+      "translation_only_error_tiles": 0.0,
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "width": 0.003000000026077032,
+          "segments": 3
+        }
+      ]
+    },
+    "machine_collar": {
+      "source_object": "Pump box | standard mounting collar",
+      "source_mesh_sha256": "d486d8ccbfacb6d2db2085f4bb08c8e409b550b7f3d60e12b394cfb24b353b05",
+      "canonical_mesh_sha256": "ae508e87bd5d07bd0f0128800398f35ae6e89594e42bc43f43ed78e1d61ce59f",
+      "vertices": 256,
+      "faces": 256,
+      "translation_only_error_tiles": 0.0,
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "width": 0.003000000026077032,
+          "segments": 3
+        }
+      ]
+    },
+    "machine_throat": {
+      "source_object": "Pump box | full-size throat",
+      "source_mesh_sha256": "5957ea33de1180f7eb9eaffbbaab55b3db6e78557e45313140bd5ec14b4ab46a",
+      "canonical_mesh_sha256": "ba76c42b86378b829a14b3a8b3796218eb87370ab8481958311de1e00e320997",
+      "vertices": 256,
+      "faces": 256,
+      "translation_only_error_tiles": 0.0,
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "width": 0.003000000026077032,
+          "segments": 3
+        }
+      ]
+    }
+  },
+  "verification": {
+    "saved_native_reopened": true,
+    "reference_meshes": 5,
+    "fixture_objects": 9,
+    "mating_vertices": 128,
+    "max_mating_error_tiles": 6.143906154658885e-08,
+    "tolerance_tiles": 1e-06,
+    "unit_scales": true,
+    "no_animation_or_external_dependencies": true,
+    "mesh_bounds": {
+      "reference_barrel": {
+        "min": [
+          -0.2849999666213989,
+          0.0,
+          0.07500004768371582
+        ],
+        "max": [
+          0.2849999666213989,
+          1.0,
+          0.6449999809265137
+        ]
+      },
+      "reference_near_collar": {
+        "min": [
+          -0.3400000035762787,
+          0.0,
+          0.020000040531158447
+        ],
+        "max": [
+          0.3400000035762787,
+          0.07500004768371582,
+          0.699999988079071
+        ]
+      },
+      "reference_far_collar": {
+        "min": [
+          -0.3400000035762787,
+          0.9250001907348633,
+          0.020000040531158447
+        ],
+        "max": [
+          0.3400000035762787,
+          1.0,
+          0.699999988079071
+        ]
+      },
+      "machine_collar": {
+        "min": [
+          -0.3400000035762787,
+          -0.07500004768371582,
+          0.020000040531158447
+        ],
+        "max": [
+          0.3400000035762787,
+          0.0,
+          0.699999988079071
+        ]
+      },
+      "machine_throat": {
+        "min": [
+          -0.2849999666213989,
+          -0.28999996185302734,
+          0.07500004768371582
+        ],
+        "max": [
+          0.2849999666213989,
+          0.0,
+          0.6449999809265137
+        ]
+      }
+    }
+  },
+  "camera": {
+    "type": "ORTHO",
+    "elevation_degrees": 45
+  },
+  "production_policy": "Reference fixture/environment excluded; copy authored machine fitting into machine collection.",
+  "native_game_registration": "Not performed by this reusable modeling-reference task.",
+  "preview": {
+    "file": "reference-overview.png",
+    "sha256": "a1dd01422f05c7ffcf002bf79948b194e55a47f96af06c4e81c06491fda447d4"
+  }
+}

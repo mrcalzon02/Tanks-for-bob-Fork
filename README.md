@@ -115,3 +115,8 @@ For individual licensed graphics and Blender-reference research, see [snouz's cu
 ### Repeatable Factorio production-sprite export procedure
 
 Use the [versioned Blender-to-Factorio production export runbook](docs/art/FACTORIO_PRODUCTION_SPRITE_WORKFLOW.md) for every new 3D-derived structure or animation. The [per-asset checklist template](docs/art/FACTORIO_PRODUCTION_ASSET_CHECKLIST_TEMPLATE.md) records mandatory evidence, failures, correction history and approval. The first active instance is the [campfire work order](models/island-survival/blender/CAMPFIRE_PRODUCTION_EXPORT_CHECKLIST.md). **This documents the steps; it does not mark an uncalibrated asset export-ready or replace current sprites.**
+
+### Reusable pipe-fitting reference
+
+Use the [fluid connection modeling guide](docs/art/FLUID_CONNECTION_MODELING_GUIDE.md) and [standalone Blender reference](models/reference/factorio-fluid-interface/factorio-fluid-interface-reference.blend) when adding pipe connections to machines. The appendable collection includes the standard pipe, machine-side collar and socket markers, with a separate tile-grid review environment. Its [asset notes](models/reference/factorio-fluid-interface/README.md) cover placement, reuse and regeneration.
+
