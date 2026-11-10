@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "asset": "solar-boiler",
+  "revision": "v1",
+  "mode": "editable-blender-proof-only",
+  "authorized_source_sha256": "55ead13e68734c0f8304547f4856ac5a0e6835b5d0477002df0396619fdc1ccc",
+  "source_archive": "tools/art/jobs/solar-boiler-v1-sources.tar.gz",
+  "source_committed_after_verification": true,
+  "reference": "mrcalzon02/Tech-Priests@939ff2d0fea5d236d7092b907c5f08961d5a7560",
+  "prototype": "tanks_for_bob_fork_1.8.102:boiler/solar-boiler",
+  "footprint": [
+    3,
+    2
+  ],
+  "ports": [
+    "water-west",
+    "water-east",
+    "steam-north"
+  ],
+  "expected_proofs": 8,
+  "replace_live_graphics": false,
+  "release": false
+}

@@ -22,6 +22,10 @@ on:
         type: boolean
         required: false
         default: false
+  push:
+    branches: [main]
+    paths:
+      - tools/art/jobs/solar-boiler-v1-proof.json
 
 permissions:
   contents: write
@@ -46,6 +50,7 @@ jobs:
         run: |
           /usr/bin/python3 -m unittest discover -s tools/art -p 'test_*.py' -v
       - name: Execute reusable pipeline (full render on manual run)
+        if: github.event_name == 'workflow_dispatch'
         env:
           JOB_FILE: ${{ inputs.job || 'tools/art/jobs/campfire-next.json' }}
           PUBLISH: ${{ inputs.publish || false }}
@@ -70,10 +75,70 @@ jobs:
           else
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           fi
+      - name: Recover and hash-check authored Solar Boiler V1 sources
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "55ead13e68734c0f8304547f4856ac5a0e6835b5d0477002df0396619fdc1ccc  tools/art/jobs/solar-boiler-v1-sources.tar.gz" | sha256sum -c -
+          mkdir -p models/island-survival/solar-boiler/v1
+          tar -xzf tools/art/jobs/solar-boiler-v1-sources.tar.gz -C models/island-survival/solar-boiler/v1
+          /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v1/*.py
+          /usr/bin/python3 models/island-survival/solar-boiler/v1/build_solar_boiler_v1.py --self-check
+      - name: Stage only owner-authored FMPL PBR maps and camera guard from pinned Tech-Priests commit
+        if: github.event_name == 'push'
+        run: |
+          set -euo pipefail
+          /usr/bin/python3 models/island-survival/solar-boiler/v1/stage_fmpl_source.py --output "$RUNNER_TEMP/solar-fmpl"
+      - name: Native Blender 3x2 construction, same-camera four-way proof, independent reopen
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          blender -b -t 4 --factory-startup --python-exit-code 1 --python models/island-survival/solar-boiler/v1/build_solar_boiler_v1.py -- --fmpl-root "$RUNNER_TEMP/solar-fmpl" --output models/island-survival/solar-boiler/generated-v1 --render proof --samples 24
+          blender -b -t 4 models/island-survival/solar-boiler/generated-v1/solar-boiler-v1.blend --python-exit-code 1 --python models/island-survival/solar-boiler/v1/verify_solar_boiler_v1.py -- --fmpl-root "$RUNNER_TEMP/solar-fmpl" --output models/island-survival/solar-boiler/generated-v1
+          /usr/bin/python3 models/island-survival/solar-boiler/v1/make_proof_sheet.py --output models/island-survival/solar-boiler/generated-v1
+      - name: Commit verified Solar Boiler V1 sources and native proof without touching game prototypes
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          test "$(git branch --show-current)" = main
+          /usr/bin/python3 - <<'PY'
+          import json
+          from pathlib import Path
+          output=Path('models/island-survival/solar-boiler/generated-v1')
+          qa=json.loads((output/'proof-qa.json').read_text())
+          assert qa['passed'] and qa['actual_blender_views']==8
+          assert qa['native_reopen'] and qa['fmpl_pbr_maps_packed']
+          assert not qa['game_integrated'] and not qa['visual_approved']
+          PY
+          git add -- models/island-survival/solar-boiler/v1 models/island-survival/solar-boiler/generated-v1
+          git rm -- tools/art/jobs/solar-boiler-v1-sources.tar.gz
+          git diff --cached --check
+          git diff --cached --quiet && { echo 'No source and native proof to publish'; exit 1; }
+          git commit -m 'art(solar-boiler): publish 3x2 FMPL PBR native model and cardinal proof [skip ci]'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              local_sha="$(git rev-parse HEAD)"
+              remote_sha="$(git ls-remote origin refs/heads/main | cut -f1)"
+              test "$local_sha" = "$remote_sha"
+              echo "SOLAR_BOILER_NATIVE_MODEL_COMMIT_VERIFIED $local_sha"
+              exit 0
+            fi
+            echo "Bounded nonforce retry $attempt"
+          done
+          exit 1
       - name: Retain review and Blender evidence even after failed render
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: factorio-four-way-production-evidence
-          path: models/sprite-production/
+          path: |
+            models/sprite-production/
+            models/island-survival/solar-boiler/generated-v1/
           if-no-files-found: warn
