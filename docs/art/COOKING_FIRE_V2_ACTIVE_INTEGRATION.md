@@ -22,3 +22,13 @@ accepted item/entity icon. Production game logic is not modified.
 frames, file targets, animation speed, icon, burner and north steam input.
 Actual Factorio 2.1 native-engine results must be checked before claiming
 runtime acceptance. Do not infer them from Lua-only probes.
+
+## Factorio 2.1 native verification — complete
+
+The corrected active 1.8.102 package passed official **Factorio 2.1.24**
+`space-age-full` suite in [Actions run 42893564032](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42893564032):
+static audit PASS, data-stage Cooking Fire sprite and 3x3 north fluid-port
+assertions PASS, map creation PASS, 1200-tick benchmark PASS, progression
+runtime PASS, dedicated-server smoke PASS, 1/1 profile passed.
+This is source/native runtime integration acceptance, **not** proof of
+Mod Portal publication or human visual approval of Fish Pond V1.
