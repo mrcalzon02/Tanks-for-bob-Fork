@@ -8,5 +8,11 @@
   "output": "models/island-survival/fish-pond/generated-v1",
   "render_count": 8,
   "prototype_attachment": false,
-  "game_release": false
+  "game_release": false,
+  "recovery_source": {
+    "run_id": 42891762806,
+    "artifact_id": 13798362694,
+    "mode": "reuse real native Blender output; rerun corrected QA only"
+  },
+  "attempt": 2
 }
