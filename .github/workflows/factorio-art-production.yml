@@ -102,6 +102,18 @@ jobs:
           assert source.count(old)==1
           p.write_text(source.replace(old,new))
           PY
+          # V2's helper creates radius-1 sphere meshes with dimension-scaled
+          # objects. Passing radii as scale *multipliers* made ~2-unit clouds:
+          # correct them to true Blender-unit radii before every Cycles frame.
+          /usr/bin/python3 - <<'PY'
+          from pathlib import Path
+          p=Path('models/island-survival/solar-boiler/v3/animate_solar_boiler_v3.py')
+          source=p.read_text()
+          old="vapor.scale = (radius/.035, radius/.040, (radius * 1.55)/.048)"
+          new="vapor.scale = (radius, radius*.90, radius*1.55)"
+          assert source.count(old)==1
+          p.write_text(source.replace(old,new))
+          PY
           /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v3/*.py
           /usr/bin/python3 models/island-survival/solar-boiler/v3/animate_solar_boiler_v3.py --self-check
       - name: Render full 68-frame Blender animation and controlled effect-isolation proof
