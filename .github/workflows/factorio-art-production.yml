@@ -76,13 +76,21 @@ jobs:
           else
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           fi
-      - name: Construct Fish Pond V1 editable Blender candidate (no game edits)
+      - name: Recover original eight Blender renders and editable native source
+        if: github.event_name == 'push'
+        uses: actions/download-artifact@v4
+        with:
+          name: factorio-four-way-production-evidence
+          run-id: 42891762806
+          github-token: ${{ github.token }}
+          path: models
+      - name: Independently revalidate native Fish Pond V1 and repair proof QA (no rerender)
         if: github.event_name == 'push'
         run: |
           set -euo pipefail
+          test -s models/island-survival/fish-pond/generated-v1/fish-pond-v1.blend
           /usr/bin/python3 -m py_compile models/island-survival/fish-pond/v1/*.py
           /usr/bin/python3 models/island-survival/fish-pond/v1/build_fish_pond_v1.py --self-check
-          blender -b -t 4 --factory-startup --python models/island-survival/fish-pond/v1/build_fish_pond_v1.py -- --out models/island-survival/fish-pond/generated-v1 --render proof --samples 24
           blender -b -t 4 models/island-survival/fish-pond/generated-v1/fish-pond-v1.blend --python models/island-survival/fish-pond/v1/verify_fish_pond_v1.py
           /usr/bin/python3 models/island-survival/fish-pond/v1/make_proof_sheet.py models/island-survival/fish-pond/generated-v1
       - name: Publish Fish Pond native proof candidate and verify main readback
