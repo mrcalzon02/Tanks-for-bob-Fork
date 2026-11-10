@@ -19,5 +19,7 @@
   ],
   "expected_proofs": 8,
   "replace_live_graphics": false,
-  "release": false
+  "release": false,
+  "attempt": 2,
+  "error_repaired": "Ubuntu Blender 4.0 lacks OpenImageDenoiser; disable it in committed native Blender source before rendering"
 }
