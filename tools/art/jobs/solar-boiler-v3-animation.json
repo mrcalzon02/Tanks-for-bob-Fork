@@ -6,7 +6,7 @@
   "source": "models/island-survival/solar-boiler/generated-v2/solar-boiler-v2.blend",
   "source_sha256": "cdfbed9a6d8304ca68f1faf96e58e69ba6fe73078ea14dfff8c32394929775e9",
   "archive": "tools/art/jobs/solar-boiler-v3-sources.tar.gz",
-  "archive_sha256": "deae5f688e67a762317927612eb54a28aa659eddd0c670ee9ced3f63e6443ef9",
+  "archive_sha256": "fb0181f418a7a34968d8b1b72b6097ae70dd8e72dd2d3c58a9d0bcaa7709c6bb",
   "output": "models/island-survival/solar-boiler/generated-v3",
   "game_prototype": "tanks_for_bob_fork_1.8.102/boiler/solar-boiler",
   "footprint": [
@@ -38,10 +38,24 @@
   "allow_release": false,
   "allow_new_workflows": false,
   "owner_visual_approval": false,
-  "attempt": 3,
+  "attempt": 4,
   "repair": "V2 union object names exceed Blender 63-byte cap; use unique nontruncated socket prefix",
   "clipping_repair": {
     "issue": "V3 steam sphere scale divided by the original radius; clouds extended beyond the 256px sprite cell",
     "fix": "Set actual sphere object scale to Blender-unit radius; retain strict alpha-margin QA"
-  }
+  },
+  "pilot_first": {
+    "true_visible_effects_required": [
+      "gauge needle swing",
+      "red core glow",
+      "high pressure joint steam"
+    ],
+    "same_frame_pixel_isolation_thresholds": {
+      "gauge": 18,
+      "heat": 30,
+      "joint-steam": 30
+    },
+    "render_full_only_after_pass": true
+  },
+  "emission_corrected": "0.12 to 1.62 red; local lamp 1.8W per emission unit; preserve ivory dial legibility"
 }
