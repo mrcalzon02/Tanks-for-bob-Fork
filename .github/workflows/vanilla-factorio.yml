@@ -2,6 +2,11 @@ name: Tanks for Bob | official Factorio compatibility
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      # Explicit one-shot integration smoke request, not a broad push trigger.
+      - ci/validation-requests/cooking-fire-v2-smoke.json
 
 permissions:
   contents: read

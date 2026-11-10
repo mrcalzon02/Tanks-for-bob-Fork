@@ -22,6 +22,7 @@ DATA_MARKERS = (
     "[TANKS-CI] HANDHELD_UNLOCK_PASS",
     "[TANKS-CI] WEAPON_PROGRESSION_PASS",
     "[TANKS-CI] RECIPE_MACHINE_PASS",
+    "[TANKS-CI] COOKING_FIRE_GRAPHICS_PASS",
 )
 RUNTIME_MARKERS = (
     "[TANKS-CI] RUNTIME_PASS",
@@ -156,7 +157,7 @@ def run_profile(engine: str, profile: str, binary: Path, work: Path, output: Pat
         bench_log = (artifacts / "benchmark.log").read_text(encoding="utf-8", errors="replace")
         progression_log = (artifacts / "progression-runtime.log").read_text(encoding="utf-8", errors="replace")
         interesting = ("SOURCE_REGISTRY_PASS", "SUPPLY_GRAPH rounds", "WEAPON_AUDIT vehicles",
-                       "AMMO_REGISTRY_PASS", "HANDHELD_UNLOCK_PASS", "WEAPON_PROGRESSION_PASS", "RECIPE_MACHINE_PASS",
+                       "AMMO_REGISTRY_PASS", "HANDHELD_UNLOCK_PASS", "WEAPON_PROGRESSION_PASS", "RECIPE_MACHINE_PASS", "COOKING_FIRE_GRAPHICS_PASS",
                        "RUNTIME_PASS tick", "DAMAGE_RESPONSE_PASS tick", "AMMO_INVENTORY_CHECKED tick")
         evidence = []
         for line in (create_log + "\n" + bench_log).splitlines():

@@ -130,6 +130,71 @@ for _, name in ipairs({"tank-crafting", "tank-ammo-component"}) do
   if not producers[name] then fail("No machine supports category: " .. name) end
 end
 
+-- Cooking Fire V2 exact native production registration.
+-- A native Factorio data-final-fixes load must resolve every directional
+-- atlas and the game-aligned north steam port; this is not a visual-style gate.
+local cf_errors = 0
+local function cf_fail(message)
+  cf_errors = cf_errors + 1
+  fail("COOKING_FIRE_GRAPHICS: " .. message)
+end
+local cf = (data.raw["assembling-machine"] or {})["cooking-fire"]
+local item = (data.raw.item or {})["cooking-fire"]
+local prefix = "__tanks_for_bob_fork__/graphics/entity/cooking-fire-v2-production-"
+local expected_icon = "__tanks_for_bob_fork__/graphics/icons/cooking-fire-v2-production.png"
+if not cf then
+  cf_fail("assembling-machine missing")
+else
+  local set = cf.graphics_set or {}
+  if set.always_draw_idle_animation ~= false then
+    cf_fail("idle sprites overlap active graphics")
+  end
+  local dirs = {"north", "east", "south", "west"}
+  for _, state in ipairs({"working", "idle"}) do
+    local animation = state == "working" and set.animation or set.idle_animation
+    for i, direction in ipairs(dirs) do
+      local view = animation and animation[direction]
+      if type(view) ~= "table" then
+        cf_fail(state .. "/" .. direction .. " is absent")
+      else
+        if view.filename ~= prefix .. state .. ".png" then
+          cf_fail(state .. "/" .. direction .. " has wrong atlas")
+        end
+        if view.width ~= 256 or view.height ~= 256 or
+            view.frame_count ~= 16 or view.line_length ~= 8 then
+          cf_fail(state .. "/" .. direction .. " has wrong frame layout")
+        end
+        if view.x ~= 0 or view.y ~= (i - 1) * 512 then
+          cf_fail(state .. "/" .. direction .. " has wrong atlas row")
+        end
+        if math.abs((view.animation_speed or 0) - (8 / 60)) > 0.00001 then
+          cf_fail(state .. "/" .. direction .. " has wrong speed")
+        end
+      end
+    end
+  end
+  if cf.icon ~= expected_icon or cf.icon_size ~= 64 then
+    cf_fail("placed entity icon was not promoted")
+  end
+  if not cf.energy_source or cf.energy_source.type ~= "burner" then
+    cf_fail("original burner behavior missing")
+  end
+  local input = cf.fluid_boxes and cf.fluid_boxes[1]
+  local connection = input and input.pipe_connections and input.pipe_connections[1]
+  local position = connection and connection.position
+  if not input or input.production_type ~= "input" or not connection or
+      connection.flow_direction ~= "input" or not position or
+      position[1] ~= 0 or position[2] ~= -1 then
+    cf_fail("3x3 north steam input position changed")
+  end
+end
+if not item or item.icon ~= expected_icon or item.icon_size ~= 64 then
+  cf_fail("item icon was not promoted")
+end
+if cf_errors == 0 then
+  log("[TANKS-CI] COOKING_FIRE_GRAPHICS_PASS directions=4 states=2 frames=16 steam=north")
+end
+
 -- Recycling/quality guardrail is applied for Quality, Space Age, and 2.1 Recycler.
 local protected_names = {"corporate-waste-reprocessing", "tank-ammo-Reprocessing", "ore-from-waste"}
 local no_recycle = 0
