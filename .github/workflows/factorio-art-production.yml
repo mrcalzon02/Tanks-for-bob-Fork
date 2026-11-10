@@ -80,42 +80,20 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          echo 'deae5f688e67a762317927612eb54a28aa659eddd0c670ee9ced3f63e6443ef9  tools/art/jobs/solar-boiler-v3-sources.tar.gz' | sha256sum -c -
+          echo 'fb0181f418a7a34968d8b1b72b6097ae70dd8e72dd2d3c58a9d0bcaa7709c6bb  tools/art/jobs/solar-boiler-v3-sources.tar.gz' | sha256sum -c -
           test -s models/island-survival/solar-boiler/generated-v2/solar-boiler-v2.blend
           mkdir -p models/island-survival/solar-boiler/v3
           tar -tzf tools/art/jobs/solar-boiler-v3-sources.tar.gz | sort
           tar -xzf tools/art/jobs/solar-boiler-v3-sources.tar.gz -C models/island-survival/solar-boiler/v3
-          # Blender object names are capped at 63 bytes, so the V2
-          # collector union suffix is truncated in its actual saved .blend.
-          # Resolve the unique existing mesh by its non-truncated socket
-          # prefix. Keep this corrected source in the published V3 folder.
-          /usr/bin/python3 - <<'PY'
-          from pathlib import Path
-          p=Path('models/island-survival/solar-boiler/v3/animate_solar_boiler_v3.py')
-          source=p.read_text()
-          old="        collar = bpy.data.objects[f'CONCENTRATOR | {label} | hot collector outlet to drum | drum receiver collar']"
-          new=("        prefix = f'CONCENTRATOR | {label} | hot collector outlet to drum |'\\n"
-               "        matches = [o for o in bpy.data.objects if o.type == 'MESH' and o.name.startswith(prefix)]\\n"
-               "        assert len(matches) == 1, (label, [o.name for o in matches])\\n"
-               "        collar = matches[0]")
-          new=new.replace('\\n','\n')
-          assert source.count(old)==1
-          p.write_text(source.replace(old,new))
-          PY
-          # V2's helper creates radius-1 sphere meshes with dimension-scaled
-          # objects. Passing radii as scale *multipliers* made ~2-unit clouds:
-          # correct them to true Blender-unit radii before every Cycles frame.
-          /usr/bin/python3 - <<'PY'
-          from pathlib import Path
-          p=Path('models/island-survival/solar-boiler/v3/animate_solar_boiler_v3.py')
-          source=p.read_text()
-          old="vapor.scale = (radius/.035, radius/.040, (radius * 1.55)/.048)"
-          new="vapor.scale = (radius, radius*.90, radius*1.55)"
-          assert source.count(old)==1
-          p.write_text(source.replace(old,new))
-          PY
           /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v3/*.py
           /usr/bin/python3 models/island-survival/solar-boiler/v3/animate_solar_boiler_v3.py --self-check
+      - name: Pilot gate -- six real Cycles image pairs must show gauge, heat and joint steam
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          blender -b -t 4 --factory-startup --python-exit-code 1 --python models/island-survival/solar-boiler/v3/animate_solar_boiler_v3.py -- --output models/island-survival/solar-boiler/pilot-v3 --render pilot --samples 24
+          /usr/bin/python3 models/island-survival/solar-boiler/v3/make_proof_sheet.py --pilot-isolation --output models/island-survival/solar-boiler/pilot-v3
       - name: Render full 68-frame Blender animation and controlled effect-isolation proof
         if: github.event_name == 'push'
         shell: bash
@@ -169,4 +147,5 @@ jobs:
           path: |
             models/sprite-production/
             models/island-survival/solar-boiler/generated-v3/
+            models/island-survival/solar-boiler/pilot-v3/
           if-no-files-found: warn
