@@ -23,7 +23,7 @@ This is the **survival / manufacturing structures** queue, separate from vehicle
   orthographic camera, 64/128px readability crops, true packed material maps,
   and native save/reopen checks are committed at
   `5ebc2d914ddde6ce941204b81f7a13d4b371b16e`.
-  The owner-approved FMPL ferrocrete/ferrocrete_light/ferrocrete_dark
+  The owner-authored FMPL ferrocrete/ferrocrete_light/ferrocrete_dark
   PBR maps (9 total) were imported from the pinned Tech-Priests
   `939ff2d0fea5d236d7092b907c5f08961d5a7560` revision; custom
   copper/iron/reflective materials remain candidate finishes. Model-space
