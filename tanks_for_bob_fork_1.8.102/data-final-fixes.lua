@@ -33,3 +33,6 @@ if bench then
   bench.match_animation_speed_to_activity = false
   -- No other prototype parameters are changed; existing fluid box remains south.
 end
+
+-- Accepted Cooking Fire V2: four-direction idle/working art, no gameplay changes.
+require("prototypes.generated_graphics.cooking-fire-v2-production")
