@@ -37,5 +37,7 @@
   "allow_game_integration": false,
   "allow_release": false,
   "allow_new_workflows": false,
-  "owner_visual_approval": false
+  "owner_visual_approval": false,
+  "attempt": 2,
+  "repair": "V2 union object names exceed Blender 63-byte cap; use unique nontruncated socket prefix"
 }
