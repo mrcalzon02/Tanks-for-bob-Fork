@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "task": "one-shot official Factorio 2.1 headless Cooking Fire V2 integration smoke",
+  "source_ref": "main",
+  "expected_version": "2.1.24",
+  "expected_data_marker": "[TANKS-CI] COOKING_FIRE_GRAPHICS_PASS",
+  "checks": [
+    "data-stage startup",
+    "active+idle atlas 4-way layout",
+    "16-frame cycle",
+    "item icon",
+    "3x3 north fluid connection",
+    "existing recipe-machine audit",
+    "1200-tick benchmark",
+    "single server smoke"
+  ],
+  "release": false
+}
