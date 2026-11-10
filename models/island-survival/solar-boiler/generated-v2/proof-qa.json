@@ -1,0 +1,101 @@
+{
+  "schema": "tanks.solar-boiler.v2.review-proof",
+  "passed": true,
+  "actual_blender_views": 8,
+  "directions": [
+    "NORTH",
+    "EAST",
+    "SOUTH",
+    "WEST"
+  ],
+  "native_sha256": "cdfbed9a6d8304ca68f1faf96e58e69ba6fe73078ea14dfff8c32394929775e9",
+  "native_reopen": true,
+  "fmpl_pbr_maps_packed": true,
+  "directional_proof_sha256": "1e4a661a9ec940207d20e3e2532e7c529dd32061f53c02bae42b05472b3d6a5a",
+  "cells": [
+    {
+      "file": "idle-d00.png",
+      "sha256": "89c5b28594a3be900e7129522467ad20f3f851b86e0dc9d71f75e9cdb2b6e305",
+      "alpha_bbox": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00.png",
+      "sha256": "54c31284631469737f4c460466becbf91c2ef7765f1132e3f1d0e6d61c3fa542",
+      "alpha_bbox": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "idle-d01.png",
+      "sha256": "0fc388abd38afe629a306547ba4f008f741da484d7b679ff4c23d9d14f30a639",
+      "alpha_bbox": [
+        69,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01.png",
+      "sha256": "19ad7a6390fefa6b5fcc1f3265756170af394c13b1a3bc3cf0d765f55b87cfb4",
+      "alpha_bbox": [
+        69,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "idle-d02.png",
+      "sha256": "c887b9842f5a839bad09690c2b84fe5b255a1b91619503b770557fb647164925",
+      "alpha_bbox": [
+        40,
+        97,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02.png",
+      "sha256": "01a3874611756753d1d75c7128cd91aee24adf01f1cc65a977c07925fd5fff7d",
+      "alpha_bbox": [
+        40,
+        89,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "idle-d03.png",
+      "sha256": "943b13a23e6bd502ece88a3929ff41ca17932ecbafd7e0a01bdbe8b4f7a75207",
+      "alpha_bbox": [
+        71,
+        58,
+        187,
+        227
+      ]
+    },
+    {
+      "file": "working-d03.png",
+      "sha256": "5732d825484002915ca96e19b42d90bb8b8dc005add1088e5758988615ef497e",
+      "alpha_bbox": [
+        71,
+        58,
+        187,
+        227
+      ]
+    }
+  ],
+  "working_north_64_sha256": "13485a223a6c77e323fcbd01f09602cd508f3954ca12654ef866665d6354aafc",
+  "working_north_128_sha256": "f86a1bd9145bbdb5fb6fd8c7cd63e597c5d5cfdba15105202d9d624ff44b5f00",
+  "visual_approved": false,
+  "game_integrated": false
+}

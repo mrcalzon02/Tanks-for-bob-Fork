@@ -1,0 +1,268 @@
+{
+  "schema": "tanks.solar-boiler.parabolic.v2",
+  "status": "3D review candidate",
+  "revision": "v2",
+  "source_v1": "models/island-survival/solar-boiler/generated-v1/solar-boiler-v1.blend",
+  "source_v1_sha256": "ac40fea1be3a2a822fa4617730679c96805a17351a601821d56d3d8a118f43bf",
+  "source_v1_unchanged_sha256": "ac40fea1be3a2a822fa4617730679c96805a17351a601821d56d3d8a118f43bf",
+  "native_sha256": "cdfbed9a6d8304ca68f1faf96e58e69ba6fe73078ea14dfff8c32394929775e9",
+  "blender": "4.0.2",
+  "model_meshes_preserved": 102,
+  "removed_flat_collector_meshes": [
+    "SOLAR | west | cast reflector backing",
+    "SOLAR | west | segmented mirror strip 1",
+    "SOLAR | west | segmented mirror strip 2",
+    "SOLAR | west | segmented mirror strip 3",
+    "SOLAR | west | segmented mirror strip 4",
+    "SOLAR | west | segmented mirror strip 5",
+    "SOLAR | west | segmented mirror strip 6",
+    "SOLAR | west | folded end rail",
+    "SOLAR | west | folded end rail.001",
+    "SOLAR | west | side retaining rail",
+    "SOLAR | west | side retaining rail.001",
+    "SOLAR | west | black thermal absorber",
+    "SOLAR | west | copper transfer strip",
+    "SOLAR | west | absorber termination",
+    "SOLAR | west | absorber termination.001",
+    "SOLAR | hot copper transfer pipe from collector",
+    "SOLAR | east | cast reflector backing",
+    "SOLAR | east | segmented mirror strip 1",
+    "SOLAR | east | segmented mirror strip 2",
+    "SOLAR | east | segmented mirror strip 3",
+    "SOLAR | east | segmented mirror strip 4",
+    "SOLAR | east | segmented mirror strip 5",
+    "SOLAR | east | segmented mirror strip 6",
+    "SOLAR | east | folded end rail",
+    "SOLAR | east | folded end rail.001",
+    "SOLAR | east | side retaining rail",
+    "SOLAR | east | side retaining rail.001",
+    "SOLAR | east | black thermal absorber",
+    "SOLAR | east | copper transfer strip",
+    "SOLAR | east | absorber termination",
+    "SOLAR | east | absorber termination.001",
+    "SOLAR | hot copper transfer pipe from collector.001"
+  ],
+  "native_footprint_tiles": [
+    3,
+    2
+  ],
+  "ports": [
+    {
+      "id": "water-west",
+      "role": "input-output",
+      "native_cell": [
+        -1,
+        0.5
+      ],
+      "native_direction": "west",
+      "blender_flange_xyz": [
+        -1.5,
+        -0.5,
+        0.36
+      ],
+      "normal_xyz": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "water-east",
+      "role": "input-output",
+      "native_cell": [
+        1,
+        0.5
+      ],
+      "native_direction": "east",
+      "blender_flange_xyz": [
+        1.5,
+        -0.5,
+        0.36
+      ],
+      "normal_xyz": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "steam-north",
+      "role": "output",
+      "native_cell": [
+        0,
+        -0.5
+      ],
+      "native_direction": "north",
+      "blender_flange_xyz": [
+        0,
+        1,
+        0.36
+      ],
+      "normal_xyz": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "parabolic_concentrators": 2,
+  "parabola_z": "y^2/(4*f)",
+  "focus_height_bu": 0.28,
+  "rim_height_bu": 0.10321428571428573,
+  "aperture_half_width_bu": 0.34,
+  "absorber_outer_diameter_bu": 0.088,
+  "tilt_deg": 11.0,
+  "stationary_collector_and_continuous_thermal_lines": true,
+  "solar_thermal_endpoints": {
+    "west": {
+      "hot_start": [
+        -0.21000003814697266,
+        0.19657348096370697,
+        1.4448555707931519
+      ],
+      "cool_start": [
+        -1.1100000143051147,
+        0.19657348096370697,
+        1.4448555707931519
+      ],
+      "hot_drum": [
+        -0.35,
+        -0.1,
+        1.055
+      ],
+      "cool_drum": [
+        -0.7,
+        -0.1,
+        0.83
+      ]
+    },
+    "east": {
+      "hot_start": [
+        0.21000003814697266,
+        0.19657348096370697,
+        1.4448555707931519
+      ],
+      "cool_start": [
+        1.1100000143051147,
+        0.19657348096370697,
+        1.4448555707931519
+      ],
+      "hot_drum": [
+        0.35,
+        -0.1,
+        1.055
+      ],
+      "cool_drum": [
+        0.7,
+        -0.1,
+        0.83
+      ]
+    }
+  },
+  "camera": {
+    "name": "FMPL_CAPTURE_CAMERA",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        -0.7071067690849304,
+        -6.0
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304,
+        6.929999828338623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 4.449999809265137,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      256,
+      256
+    ]
+  },
+  "uses_packed_fmpl_pbr": true,
+  "visual_approved": false,
+  "game_integrated": false,
+  "renders": [
+    {
+      "state": "idle",
+      "index": 0,
+      "yaw": 0,
+      "frame": 0,
+      "file": "idle-d00.png",
+      "sha256": "89c5b28594a3be900e7129522467ad20f3f851b86e0dc9d71f75e9cdb2b6e305"
+    },
+    {
+      "state": "idle",
+      "index": 1,
+      "yaw": 90,
+      "frame": 0,
+      "file": "idle-d01.png",
+      "sha256": "0fc388abd38afe629a306547ba4f008f741da484d7b679ff4c23d9d14f30a639"
+    },
+    {
+      "state": "idle",
+      "index": 2,
+      "yaw": 180,
+      "frame": 0,
+      "file": "idle-d02.png",
+      "sha256": "c887b9842f5a839bad09690c2b84fe5b255a1b91619503b770557fb647164925"
+    },
+    {
+      "state": "idle",
+      "index": 3,
+      "yaw": 270,
+      "frame": 0,
+      "file": "idle-d03.png",
+      "sha256": "943b13a23e6bd502ece88a3929ff41ca17932ecbafd7e0a01bdbe8b4f7a75207"
+    },
+    {
+      "state": "working",
+      "index": 0,
+      "yaw": 0,
+      "frame": 25,
+      "file": "working-d00.png",
+      "sha256": "54c31284631469737f4c460466becbf91c2ef7765f1132e3f1d0e6d61c3fa542"
+    },
+    {
+      "state": "working",
+      "index": 1,
+      "yaw": 90,
+      "frame": 25,
+      "file": "working-d01.png",
+      "sha256": "19ad7a6390fefa6b5fcc1f3265756170af394c13b1a3bc3cf0d765f55b87cfb4"
+    },
+    {
+      "state": "working",
+      "index": 2,
+      "yaw": 180,
+      "frame": 25,
+      "file": "working-d02.png",
+      "sha256": "01a3874611756753d1d75c7128cd91aee24adf01f1cc65a977c07925fd5fff7d"
+    },
+    {
+      "state": "working",
+      "index": 3,
+      "yaw": 270,
+      "frame": 25,
+      "file": "working-d03.png",
+      "sha256": "5732d825484002915ca96e19b42d90bb8b8dc005add1088e5758988615ef497e"
+    }
+  ]
+}
