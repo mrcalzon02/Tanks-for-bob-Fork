@@ -25,9 +25,8 @@ on:
   push:
     branches: [main]
     paths:
-      - tools/art/jobs/cooking-fire-v2.json
-      - tools/art/profiles/cooking-fire-v2.json
-      - .github/workflows/factorio-art-production.yml
+      # One deliberately bounded request; never re-run completed Cooking Fire art.
+      - tools/art/jobs/fish-pond-v1-proof.json
 
 permissions:
   contents: write
@@ -52,6 +51,7 @@ jobs:
         run: |
           /usr/bin/python3 -m unittest discover -s tools/art -p 'test_*.py' -v
       - name: Execute reusable pipeline (full render on manual run)
+        if: github.event_name == 'workflow_dispatch'
         env:
           JOB_FILE: ${{ github.event_name == 'push' && 'tools/art/jobs/cooking-fire-v2.json' || inputs.job || 'tools/art/jobs/campfire-next.json' }}
           PUBLISH: ${{ github.event_name == 'workflow_dispatch' && inputs.publish || false }}
@@ -65,11 +65,7 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          if [ "${{ github.event_name }}" = push ]; then
-            # One-shot Cooking Fire V2 production integration: render, install,
-            # attach the exact prototype, commit, push, and verify remote SHA.
-            /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE" --deploy
-          elif [ "$DEPLOY" = true ]; then
+          if [ "$DEPLOY" = true ]; then
             if [ "$REPLACE_ATTACHMENT" = true ]; then
               /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE" --deploy --replace-attachment
             else
@@ -80,10 +76,52 @@ jobs:
           else
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           fi
+      - name: Construct Fish Pond V1 editable Blender candidate (no game edits)
+        if: github.event_name == 'push'
+        run: |
+          set -euo pipefail
+          /usr/bin/python3 -m py_compile models/island-survival/fish-pond/v1/*.py
+          /usr/bin/python3 models/island-survival/fish-pond/v1/build_fish_pond_v1.py --self-check
+          blender -b -t 4 --factory-startup --python models/island-survival/fish-pond/v1/build_fish_pond_v1.py -- --out models/island-survival/fish-pond/generated-v1 --render proof --samples 24
+          blender -b -t 4 models/island-survival/fish-pond/generated-v1/fish-pond-v1.blend --python models/island-survival/fish-pond/v1/verify_fish_pond_v1.py
+          /usr/bin/python3 models/island-survival/fish-pond/v1/make_proof_sheet.py models/island-survival/fish-pond/generated-v1
+      - name: Publish Fish Pond native proof candidate and verify main readback
+        if: github.event_name == 'push'
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          test "$(git branch --show-current)" = main
+          /usr/bin/python3 - <<'PY'
+          import json
+          from pathlib import Path
+          receipt=json.loads(Path('models/island-survival/fish-pond/generated-v1/proof-qa.json').read_text())
+          assert receipt['passed'] and receipt['actual_blender_renders']==8
+          assert not receipt['visual_approved'] and not receipt['game_integrated']
+          PY
+          git add -- models/island-survival/fish-pond/generated-v1
+          git diff --cached --check
+          git diff --cached --quiet && { echo 'No new proof to publish'; exit 1; }
+          git commit -m 'art(fish-pond): native V1 and cardinal Blender proof [skip ci]'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              local_sha="$(git rev-parse HEAD)"
+              remote_sha="$(git ls-remote origin refs/heads/main | cut -f1)"
+              test "$local_sha" = "$remote_sha"
+              echo "FISH_POND_NATIVE_MODEL_COMMIT_VERIFIED $local_sha"
+              exit 0
+            fi
+            echo "Bounded retry $attempt"
+          done
+          exit 1
       - name: Retain review and Blender evidence even after failed render
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: factorio-four-way-production-evidence
-          path: models/sprite-production/
+          path: |
+            models/sprite-production/
+            models/island-survival/fish-pond/generated-v1/
           if-no-files-found: warn

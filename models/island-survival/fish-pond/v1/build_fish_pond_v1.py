@@ -165,6 +165,26 @@ def make_fish(bpy, collection, root, spec, index):
     indices.append(1)
     mesh = register_mesh(bpy, collection, f'POND | fish {index+1:02d} {name} body',
                          vertices, faces, [body,fin], orbit, indices)
+    # Editable 3D caudal strokes make the swimmers visibly propel themselves.
+    # Body, fins and previous material assignments remain unchanged.
+    mesh.shape_key_add(name='Rest')
+    tail_left = mesh.shape_key_add(name='Tail stroke left')
+    tail_right = mesh.shape_key_add(name='Tail stroke right')
+    for shape, sign in ((tail_left, 1), (tail_right, -1)):
+        for vertex in shape.data:
+            x = vertex.co.x
+            if x < -.10:
+                strength = min(1.0, (-.10 - x) / .12)
+                vertex.co.y += sign * .065 * strength
+    # Four tail beats for each complete sixteen-pose orbital loop.
+    for k, frame in enumerate((*WORK_FRAMES, LOOP_END)):
+        wave = math.sin(k * math.pi / 2)
+        tail_left.value = max(0.0, wave)
+        tail_right.value = max(0.0, -wave)
+        tail_left.keyframe_insert(data_path='value', frame=frame)
+        tail_right.keyframe_insert(data_path='value', frame=frame)
+    tail_left.value = 0.0
+    tail_right.value = 0.0
     # Fish meshes, not orbit empties, disappear for the idle/empty-pond state.
     mesh.hide_render = True
     mesh.keyframe_insert(data_path='hide_render', frame=0)
@@ -206,6 +226,12 @@ def validate(bpy):
     orbits = [o for o in scene.objects if o.name.startswith('POND | fish') and o.name.endswith('orbit')]
     if water is None or len(bodies) != 4 or len(orbits) != 4:
         raise RuntimeError('Expected one water plane and four 3D swimming fish')
+    for body in bodies:
+        keys = body.data.shape_keys
+        if not keys or {key.name for key in keys.key_blocks} != {
+            'Rest', 'Tail stroke left', 'Tail stroke right'
+        }:
+            raise RuntimeError('Fish is missing editable tail animation shape keys')
     if any(o.name.startswith('WORK |') for o in scene.objects):
         raise RuntimeError('Clay Pit bucket/lantern/shovel accidentally retained')
     scene.frame_set(0)
@@ -295,6 +321,7 @@ def build(options):
               'source_sha256':source_hash,'master_sha256':sha256(native),
               'blender':bpy.app.version_string,'terrain_meshes_preserved':ground_parts,
               'clay_working_props_removed':len(removed),'water':True,'fish_count':4,
+              'tail_stroke_keys_per_fish':17,
               'idle_has_fish':False,'working_animation_frames':16,'directions':[0,90,180,270],
               'camera_ortho_scale':CAMERA_SCALE,'render_mode':options.render,
               'renders':frames,'game_integration':False,'visual_approved':False}
