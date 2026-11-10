@@ -1,0 +1,276 @@
+{
+  "schema": 1,
+  "asset": "solar-boiler",
+  "revision": "v1",
+  "active_target": "tanks_for_bob_fork_1.8.102",
+  "source_commit": "939ff2d0fea5d236d7092b907c5f08961d5a7560",
+  "material_ids": [
+    "ferrocrete",
+    "ferrocrete_light",
+    "ferrocrete_dark"
+  ],
+  "texture_sha256s": {
+    "art/source-to-3d/martian-bunker/src/v10/textures/ferrocrete_albedo.png": "0614a801528f244f1f8bbe6c8451d7b11c3ab2fca5373d36293c83c02848a0ec",
+    "art/source-to-3d/martian-bunker/src/v10/textures/ferrocrete_normal.png": "9d90397d143a9fab840c55407bf67e544dea7d0e7957757a04ed334e8d811a21",
+    "art/source-to-3d/martian-bunker/src/v10/textures/ferrocrete_orm.png": "601bd00a7719a15467559ce5df611f13d39ed92d7c8dffc918da5e6f09322be9",
+    "art/source-to-3d/martian-bunker/src/v10/textures/ferrocrete_light_albedo.png": "22f6d1423ebda6aefe6ae8280bb88a183d30d2cba6b9b7c5e0db9771291ad20e",
+    "art/source-to-3d/martian-bunker/src/v10/textures/ferrocrete_light_normal.png": "a4fbe2afb8526d4d08949059b78cf53bc1285bd2db2c265a36b9846e4d4c21e8",
+    "art/source-to-3d/martian-bunker/src/v10/textures/ferrocrete_light_orm.png": "2435aa208b5b78126e4787c3979179b4ed9f337b409ff503dcf96392fad93f4a",
+    "art/source-to-3d/martian-bunker/src/v10/textures/ferrocrete_dark_albedo.png": "121ae5f812f14b60204275c702e79590006c4c676e492c90d9b115d383b9ed4d",
+    "art/source-to-3d/martian-bunker/src/v10/textures/ferrocrete_dark_normal.png": "e81a79eb4d5389939f425c18c7bdb1c4656600b10e7c52098e2e908166e98610",
+    "art/source-to-3d/martian-bunker/src/v10/textures/ferrocrete_dark_orm.png": "f2dc43e597d7e4d7fccacabe662d1eee9703131dd991a72721357ff6d71a1d72"
+  },
+  "native_sha256": "ac40fea1be3a2a822fa4617730679c96805a17351a601821d56d3d8a118f43bf",
+  "native_reopen_passed": false,
+  "footprint": [
+    3,
+    2
+  ],
+  "port_standard": "factorio-fluid-interface-v1",
+  "ports": [
+    {
+      "id": "water-west",
+      "role": "input-output",
+      "native_cell": [
+        -1,
+        0.5
+      ],
+      "native_direction": "west",
+      "blender_flange_xyz": [
+        -1.5,
+        -0.5,
+        0.36
+      ],
+      "normal_xyz": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "water-east",
+      "role": "input-output",
+      "native_cell": [
+        1,
+        0.5
+      ],
+      "native_direction": "east",
+      "blender_flange_xyz": [
+        1.5,
+        -0.5,
+        0.36
+      ],
+      "normal_xyz": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "steam-north",
+      "role": "output",
+      "native_cell": [
+        0,
+        -0.5
+      ],
+      "native_direction": "north",
+      "blender_flange_xyz": [
+        0,
+        1,
+        0.36
+      ],
+      "normal_xyz": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "camera_profile": {
+    "camera_policy": "fmpl.factorio45.v1",
+    "capture_kind": "entity",
+    "directions": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "states": {
+      "idle": [
+        0
+      ],
+      "working": [
+        1,
+        7,
+        13,
+        19,
+        25,
+        31,
+        37,
+        43,
+        49,
+        55,
+        61,
+        67,
+        73,
+        79,
+        85,
+        91
+      ]
+    },
+    "source_size": 256,
+    "camera_override": {
+      "type": "ORTHO",
+      "elevation_deg": 45,
+      "azimuth_deg": 0,
+      "distance": 8.48528137423857,
+      "target": [
+        0,
+        0,
+        0.93
+      ],
+      "ortho_scale": 4.45,
+      "shift_x": 0,
+      "shift_y": 0
+    }
+  },
+  "camera_receipt": {
+    "policy": "fmpl.factorio45.v1",
+    "removed_camera_objects": [],
+    "persistent_camera_count": 1,
+    "name": "FMPL_CAPTURE_CAMERA"
+  },
+  "camera": {
+    "name": "FMPL_CAPTURE_CAMERA",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        -0.7071067690849304,
+        -6.0
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304,
+        6.929999828338623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 4.449999809265137,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      256,
+      256
+    ]
+  },
+  "idle_frames": [
+    0
+  ],
+  "working_frames": [
+    1,
+    7,
+    13,
+    19,
+    25,
+    31,
+    37,
+    43,
+    49,
+    55,
+    61,
+    67,
+    73,
+    79,
+    85,
+    91
+  ],
+  "directions": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "visual_approved": false,
+  "game_integrated": false,
+  "model_meshes": 134,
+  "renders": [
+    {
+      "state": "idle",
+      "index": 0,
+      "yaw": 0,
+      "frame": 0,
+      "file": "idle-d00.png",
+      "sha256": "04fd55f5ba3a88bbcfd90e4968e62d00dc668088d9598a5bc34d7d70a5996497"
+    },
+    {
+      "state": "idle",
+      "index": 1,
+      "yaw": 90,
+      "frame": 0,
+      "file": "idle-d01.png",
+      "sha256": "3ecab40878e6255370f87e65c9bca263cc40d0258958837000e5f4f7d0376019"
+    },
+    {
+      "state": "idle",
+      "index": 2,
+      "yaw": 180,
+      "frame": 0,
+      "file": "idle-d02.png",
+      "sha256": "9054d757fdf97c961d9f6125fce331a9eb05d5fb2ef1060fdff9abd86e24f481"
+    },
+    {
+      "state": "idle",
+      "index": 3,
+      "yaw": 270,
+      "frame": 0,
+      "file": "idle-d03.png",
+      "sha256": "e3501688892b13f949d9cdec76f311310be6f3d08025525eb80889258b0412a1"
+    },
+    {
+      "state": "working",
+      "index": 0,
+      "yaw": 0,
+      "frame": 25,
+      "file": "working-d00.png",
+      "sha256": "b02922c763abecfaae44d438e43ab92b688dbdedaf7d08011f7e20fd1c957e7e"
+    },
+    {
+      "state": "working",
+      "index": 1,
+      "yaw": 90,
+      "frame": 25,
+      "file": "working-d01.png",
+      "sha256": "4a51f810d2a84074963e0876184eb24b339e932370c910c2eefc77bfa39e15be"
+    },
+    {
+      "state": "working",
+      "index": 2,
+      "yaw": 180,
+      "frame": 25,
+      "file": "working-d02.png",
+      "sha256": "759755d10600de7009f9220c590a7aab91f63fddbd4f3143e78a0beccbc13358"
+    },
+    {
+      "state": "working",
+      "index": 3,
+      "yaw": 270,
+      "frame": 25,
+      "file": "working-d03.png",
+      "sha256": "e986dac58b8fcc4ffcc01e53c69e2482c9f401df4f3607e58707eddf7961612e"
+    }
+  ]
+}
