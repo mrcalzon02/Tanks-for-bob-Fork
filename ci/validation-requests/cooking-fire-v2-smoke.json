@@ -14,5 +14,9 @@
     "1200-tick benchmark",
     "single server smoke"
   ],
-  "release": false
+  "release": false,
+  "attempt": 2,
+  "expected_source": "tanks_for_bob_fork_1.8.102",
+  "promotion_commit": "5edcc5372e8758b142bfd32c6869db838f41a736",
+  "reason": "Retry native test after promoting byte-identical accepted V2 atlases into active 2.1 package"
 }
