@@ -22,6 +22,10 @@ on:
         type: boolean
         required: false
         default: false
+  push:
+    branches: [main]
+    paths:
+      - tools/art/jobs/solar-boiler-v3-animation.json
 
 permissions:
   contents: write
@@ -71,10 +75,69 @@ jobs:
           else
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           fi
+      - name: Validate V3 animation sources and original V2 hash
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo 'deae5f688e67a762317927612eb54a28aa659eddd0c670ee9ced3f63e6443ef9  tools/art/jobs/solar-boiler-v3-sources.tar.gz' | sha256sum -c -
+          test -s models/island-survival/solar-boiler/generated-v2/solar-boiler-v2.blend
+          mkdir -p models/island-survival/solar-boiler/v3
+          tar -tzf tools/art/jobs/solar-boiler-v3-sources.tar.gz | sort
+          tar -xzf tools/art/jobs/solar-boiler-v3-sources.tar.gz -C models/island-survival/solar-boiler/v3
+          /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v3/*.py
+          /usr/bin/python3 models/island-survival/solar-boiler/v3/animate_solar_boiler_v3.py --self-check
+      - name: Render full 68-frame Blender animation and controlled effect-isolation proof
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          blender -b -t 4 --factory-startup --python-exit-code 1 --python models/island-survival/solar-boiler/v3/animate_solar_boiler_v3.py -- --output models/island-survival/solar-boiler/generated-v3 --render all --samples 24
+          blender -b -t 4 models/island-survival/solar-boiler/generated-v3/solar-boiler-v3.blend --python-exit-code 1 --python models/island-survival/solar-boiler/v3/verify_solar_boiler_v3.py -- --output models/island-survival/solar-boiler/generated-v3
+          /usr/bin/python3 models/island-survival/solar-boiler/v3/make_proof_sheet.py --output models/island-survival/solar-boiler/generated-v3
+      - name: Commit only validated V3 source, animation, sprites and visual proof
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git branch --show-current)" = main
+          /usr/bin/python3 - <<'PY'
+          import json
+          from pathlib import Path
+          o=Path('models/island-survival/solar-boiler/generated-v3')
+          q=json.loads((o/'proof-qa.json').read_text())
+          assert q['passed'] and q['native_reopen']
+          assert q['actual_blender_views']==68 and q['frames_per_direction']==16
+          assert q['isolations_rendered']==6
+          assert min(q['effect_isolation_changed_rgb_pixels'].values())>=18
+          assert not q['visual_approved'] and not q['game_integrated']
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- models/island-survival/solar-boiler/v3 models/island-survival/solar-boiler/generated-v3
+          git rm -- tools/art/jobs/solar-boiler-v3-sources.tar.gz
+          git diff --cached --check
+          git diff --cached --quiet && { echo 'No new V3 evidence to commit'; exit 1; }
+          git commit -m 'art(solar-boiler): animated gauge, emissive accumulator and live joint vapor [skip ci]'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              local_sha="$(git rev-parse HEAD)"
+              remote_sha="$(git ls-remote origin refs/heads/main | cut -f1)"
+              test "$local_sha" = "$remote_sha"
+              echo "SOLAR_BOILER_V3_ANIMATION_COMMIT_VERIFIED $local_sha"
+              exit 0
+            fi
+            echo "Bounded non-force retry $attempt"
+          done
+          exit 1
       - name: Retain review and Blender evidence even after failed render
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: factorio-four-way-production-evidence
-          path: models/sprite-production/
+          path: |
+            models/sprite-production/
+            models/island-survival/solar-boiler/generated-v3/
           if-no-files-found: warn
