@@ -22,10 +22,6 @@ on:
         type: boolean
         required: false
         default: false
-  push:
-    branches: [main]
-    paths:
-      - tools/art/jobs/solar-boiler-v1-proof.json
 
 permissions:
   contents: write
@@ -75,101 +71,10 @@ jobs:
           else
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           fi
-      - name: Recover and hash-check authored Solar Boiler V1 sources
-        if: github.event_name == 'push'
-        shell: bash
-        run: |
-          set -euo pipefail
-          echo "55ead13e68734c0f8304547f4856ac5a0e6835b5d0477002df0396619fdc1ccc  tools/art/jobs/solar-boiler-v1-sources.tar.gz" | sha256sum -c -
-          mkdir -p models/island-survival/solar-boiler/v1
-          tar -xzf tools/art/jobs/solar-boiler-v1-sources.tar.gz -C models/island-survival/solar-boiler/v1
-          # Debian/Ubuntu Blender 4.0 Cycles can be built without OpenImageDenoiser.
-          # Fix the authored derivative source before compilation; publish this
-          # corrected text alongside its saved native model, not a hidden patch.
-          /usr/bin/python3 - <<'PY'
-          from pathlib import Path
-          source=Path('models/island-survival/solar-boiler/v1/build_solar_boiler_v1.py')
-          text=source.read_text()
-          old="scene.render.engine='CYCLES';scene.cycles.device='CPU';scene.cycles.samples=args.samples"
-          new=old+"\n    # The runner's Cycles may omit OpenImageDenoiser entirely.\n    if hasattr(scene.cycles,'use_denoising'):\n        scene.cycles.use_denoising=False\n    for layer in scene.view_layers:\n        if hasattr(layer.cycles,'use_denoising'):\n            layer.cycles.use_denoising=False\n"
-          assert text.count(old)==1
-          source.write_text(text.replace(old,new))
-          PY
-          # Blender ID-properties preserve float32 values; compare with
-          # measured tolerances rather than JSON's exact decimal spelling.
-          /usr/bin/python3 - <<'PY'
-          from pathlib import Path
-          p=Path('models/island-survival/solar-boiler/v1/verify_solar_boiler_v1.py')
-          source=p.read_text()
-          old="assert list(actual['port_center'])==port['blender_flange_xyz']"
-          new="assert max(abs(a-b) for a,b in zip(actual['port_center'],port['blender_flange_xyz'])) < 1e-5"
-          assert source.count(old)==1
-          p.write_text(source.replace(old,new))
-          PY
-          /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v1/*.py
-          /usr/bin/python3 models/island-survival/solar-boiler/v1/build_solar_boiler_v1.py --self-check
-      - name: Stage only owner-authored FMPL PBR maps and camera guard from pinned Tech-Priests commit
-        if: github.event_name == 'push'
-        run: |
-          set -euo pipefail
-          /usr/bin/python3 models/island-survival/solar-boiler/v1/stage_fmpl_source.py --output "$RUNNER_TEMP/solar-fmpl"
-      - name: Recover actual Solar Boiler V1 native model and eight successful Cycles renders
-        if: github.event_name == 'push'
-        uses: actions/download-artifact@v4
-        with:
-          name: factorio-four-way-production-evidence
-          run-id: 42906931649
-          github-token: ${{ github.token }}
-          path: models
-      - name: Independently reopen exact native source and test pipe faces, then assemble proof
-        if: github.event_name == 'push'
-        shell: bash
-        run: |
-          set -euo pipefail
-          test -s models/island-survival/solar-boiler/generated-v1/solar-boiler-v1.blend
-          blender -b -t 4 models/island-survival/solar-boiler/generated-v1/solar-boiler-v1.blend --python-exit-code 1 --python models/island-survival/solar-boiler/v1/verify_solar_boiler_v1.py -- --fmpl-root "$RUNNER_TEMP/solar-fmpl" --output models/island-survival/solar-boiler/generated-v1
-          /usr/bin/python3 models/island-survival/solar-boiler/v1/make_proof_sheet.py --output models/island-survival/solar-boiler/generated-v1
-      - name: Commit verified Solar Boiler V1 sources and native proof without touching game prototypes
-        if: github.event_name == 'push'
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          test "$(git branch --show-current)" = main
-          /usr/bin/python3 - <<'PY'
-          import json
-          from pathlib import Path
-          output=Path('models/island-survival/solar-boiler/generated-v1')
-          qa=json.loads((output/'proof-qa.json').read_text())
-          assert qa['passed'] and qa['actual_blender_views']==8
-          assert qa['native_reopen'] and qa['fmpl_pbr_maps_packed']
-          assert not qa['game_integrated'] and not qa['visual_approved']
-          PY
-          git add -- models/island-survival/solar-boiler/v1 models/island-survival/solar-boiler/generated-v1
-          git rm -- tools/art/jobs/solar-boiler-v1-sources.tar.gz
-          git diff --cached --check
-          git diff --cached --quiet && { echo 'No source and native proof to publish'; exit 1; }
-          git commit -m 'art(solar-boiler): publish 3x2 FMPL PBR native model and cardinal proof [skip ci]'
-          for attempt in 1 2 3; do
-            git fetch origin main
-            git rebase origin/main
-            if git push origin HEAD:main; then
-              local_sha="$(git rev-parse HEAD)"
-              remote_sha="$(git ls-remote origin refs/heads/main | cut -f1)"
-              test "$local_sha" = "$remote_sha"
-              echo "SOLAR_BOILER_NATIVE_MODEL_COMMIT_VERIFIED $local_sha"
-              exit 0
-            fi
-            echo "Bounded nonforce retry $attempt"
-          done
-          exit 1
       - name: Retain review and Blender evidence even after failed render
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: factorio-four-way-production-evidence
-          path: |
-            models/sprite-production/
-            models/island-survival/solar-boiler/generated-v1/
+          path: models/sprite-production/
           if-no-files-found: warn

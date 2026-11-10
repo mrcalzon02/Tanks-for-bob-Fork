@@ -18,14 +18,28 @@ This is the **survival / manufacturing structures** queue, separate from vehicle
   commit `fb3cb0da452a4bc7ac8295f24eb96f63583899d4`.
   Visual acceptance and full sixteen-frame four-direction production capture
   remain outstanding. **Do not replace live Fish Pond graphics yet.**
-- Two one-shot push triggers were removed after their scoped jobs; existing
-  manual art and Factorio compatibility workflows remain available.
+- **Solar Boiler V1: editable 3×2 Blender construction and cardinal proof PASSED.**
+  Four idle and four working 256px Cycles renders, one calibrated FMPL 45°
+  orthographic camera, 64/128px readability crops, true packed material maps,
+  and native save/reopen checks are committed at
+  `5ebc2d914ddde6ce941204b81f7a13d4b371b16e`.
+  The owner-approved FMPL ferrocrete/ferrocrete_light/ferrocrete_dark
+  PBR maps (9 total) were imported from the pinned Tech-Priests
+  `939ff2d0fea5d236d7092b907c5f08961d5a7560` revision; custom
+  copper/iron/reflective materials remain candidate finishes. Model-space
+  west/east water and north steam mouth surfaces passed 128-vertex
+  adjacent-pipe fit checks with error below 0.0000001 Blender unit.
+  See [successful production run 42907291544](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42907291544).
+  Full sixteen-frame sprite atlas, native Factorio gameplay, and human visual
+  acceptance remain pending; **do not replace live Solar Boiler graphics**.
+- One-shot art/native push triggers were removed after their scoped jobs;
+  the existing single-job manual workflows remain available.
 
-## Production queue (next source: Solar Boiler)
+## Production queue (next source: Steam Condenser)
 
 1. **Fish Pond (V1 source/proof complete; awaiting visual approval)** — derived from Clay Pit V4c with one excavated basin, fitted water surface, four 3D swimming fish and editable tail strokes. Native source and eight cardinal proof renders are retained; proceed to complete animated atlases only after visual acceptance. Source: `models/island-survival/fish-pond/v1/build_fish_pond_v1.py`.
-2. **Solar Boiler (next 3D construction)** — adapt proven Boiler/FMPL donors to this exact `type="boiler"` 3×2 footprint and **three** native fluid ports: water west `(-1,+0.5)`, water east `(+1,+0.5)`, steam north `(0,-0.5)`. Preserve actual Factorio boiler behavior; a solar collector/pressure vessel must replace the inherited vanilla appearance, not reuse its camera offsets. The donor's two-port 2×2 fixture is reference geometry only.
-3. Steam Condenser — rebuild around the 3×3 Tanks prototype using actual condenser donor components; do not paste in the 2×2 Tech-Priests machine wholesale.
+2. **Solar Boiler (V1 source and real Blender cardinal proof complete; awaiting visual review)** — new thermal collector/pressure-vessel model for the exact `type="boiler"` 3×2 footprint; three full-bore native-cell-mapped fittings: water west `(-1,+0.5)`, water east `(+1,+0.5)`, steam north `(0,-0.5)`. Source: `models/island-survival/solar-boiler/v1/`; native .blend, eight renders, test receipts: `models/island-survival/solar-boiler/generated-v1/`. No live sprite substitution until reviewed.
+3. **Steam Condenser (next construction)** — rebuild for the active 3×3 Tanks `assembling-machine/steam-condenser` with north steam input at `(0,-1)` and south water output at `(0,+1)`. Start from reviewed condenser donor hardware and FMPL PBR/pipe fixtures, but do not paste the 2×2 Tech-Priests source wholesale. Create a visibly connected inlet → cooling body → condensate outlet, supported piping, and one 45° four-direction proof.
 4. Primitive Steam-Powered Pump — real piston, rods and 1×2 model with measured north/south connections.
 5. Beach Pump — unique shoreline lifting mechanism rather than inherited offshore pump graphics.
 6. Stone Water Wheel — rotating stone-supported wheel and water outlet, rather than inherited offshore pump art.
@@ -39,7 +53,7 @@ This is the **survival / manufacturing structures** queue, separate from vehicle
 14. Thinking Hut — timber, basic research tools, light and roof silhouette.
 15. Pondering Hovel — evolved brick research shelter with lamp and chimney.
 
-**Existing advanced model sources, not to rebuild from scratch:** Campfire V12, Clay Pit V4c, Pit Kiln V6, Lumberyard V2b (live ID `growing-plot`), Workbench V7/V8, Cooking Fire V2 (**native 2.1 integration passed**), and Fish Pond V1 (**native Blender proof, awaiting visual acceptance**). The fish pond uses Clay Pit as a **donor**, not a second sculpt.
+**Existing advanced model sources, not to rebuild from scratch:** Campfire V12, Clay Pit V4c, Pit Kiln V6, Lumberyard V2b (live ID `growing-plot`), Workbench V7/V8, Cooking Fire V2 (**native 2.1 integration passed**), Fish Pond V1 (**native Blender proof, awaiting visual acceptance**), and Solar Boiler V1 (**3×2 native Blender proof, awaiting visual acceptance**). The fish pond uses Clay Pit as a **donor**, not a second sculpt.
 
 **Exclusions:** The Auto-Cannon Turret is a **Tech-Priests** asset, never a Tanks-for-Bob construction target. Tanks' dormant turret Lua is not a work authorization. Vehicle 3D art is tracked in a separate queue.
 
