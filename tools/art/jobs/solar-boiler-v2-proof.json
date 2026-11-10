@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "asset": "solar-boiler",
+  "revision": "v2-parabolic-true-focus",
+  "task": "Correct flat collector geometry and arbitrary center bar into open-sky parabolic mirrors and absorber pipes at calculated focus",
+  "archive": "tools/art/jobs/solar-boiler-v2-proof-sources.tar.gz",
+  "archive_sha256": "b0220597997ba928074ac47fa1eb7fa7e05c36ae6b8bd34679b33da547af995d",
+  "V1_sha256": "ac40fea1be3a2a822fa4617730679c96805a17351a601821d56d3d8a118f43bf",
+  "source": "models/island-survival/solar-boiler/generated-v1/solar-boiler-v1.blend",
+  "output": "models/island-survival/solar-boiler/generated-v2",
+  "expected_real_Blender_proof_frames": 8,
+  "optical_focus_z_bu": 0.28,
+  "mode": "native-source-and-proof-only",
+  "live_game_modification": false,
+  "release": false,
+  "visual_approved": false
+}
