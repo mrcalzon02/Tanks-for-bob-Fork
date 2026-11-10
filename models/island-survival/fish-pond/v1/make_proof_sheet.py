@@ -18,7 +18,7 @@ for i, direction in enumerate(names):
             assert bounds and bounds[0]>0 and bounds[1]>0 and bounds[2]<256 and bounds[3]<256,(filename,bounds)
             images[state,i]=im
             checks.append({'file':filename,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'alpha_bounds':bounds})
-    assert ImageChops.difference(images['idle',i],images['working',i]).getbbox() is not None, direction
+    assert ImageChops.difference(images['idle',i].convert('RGB'),images['working',i].convert('RGB')).getbbox() is not None, direction
 canvas=Image.new('RGB',(1108,780),(27,32,37))
 draw=ImageDraw.Draw(canvas)
 font=ImageFont.load_default()
