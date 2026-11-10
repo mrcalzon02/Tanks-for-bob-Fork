@@ -91,14 +91,7 @@ jobs:
           source=Path('models/island-survival/solar-boiler/v1/build_solar_boiler_v1.py')
           text=source.read_text()
           old="scene.render.engine='CYCLES';scene.cycles.device='CPU';scene.cycles.samples=args.samples"
-          new=old+"""
-    # The runner's Cycles may omit OpenImageDenoiser entirely.
-    if hasattr(scene.cycles,'use_denoising'):
-        scene.cycles.use_denoising=False
-    for layer in scene.view_layers:
-        if hasattr(layer.cycles,'use_denoising'):
-            layer.cycles.use_denoising=False
-"""
+          new=old+"\n    # The runner's Cycles may omit OpenImageDenoiser entirely.\n    if hasattr(scene.cycles,'use_denoising'):\n        scene.cycles.use_denoising=False\n    for layer in scene.view_layers:\n        if hasattr(layer.cycles,'use_denoising'):\n            layer.cycles.use_denoising=False\n"
           assert text.count(old)==1
           source.write_text(text.replace(old,new))
           PY
