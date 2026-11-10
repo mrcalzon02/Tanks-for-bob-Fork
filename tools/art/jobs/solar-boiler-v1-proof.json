@@ -20,7 +20,12 @@
   "expected_proofs": 8,
   "replace_live_graphics": false,
   "release": false,
-  "attempt": 3,
-  "error_repaired": "Ubuntu Blender 4.0 lacks OpenImageDenoiser; disable it in committed native Blender source before rendering",
-  "repair": "YAML heredoc script literal encoded on one indented line; native render will disable unavailable OIDN"
+  "attempt": 4,
+  "error_repaired": "native reopen socket property float tolerance rather than exact JSON equality",
+  "repair": "YAML heredoc script literal encoded on one indented line; native render will disable unavailable OIDN",
+  "recovery": {
+    "run_id": 42906931649,
+    "artifact_id": 13805147488,
+    "mode": "reuse eight genuine Cycles renders and packed native Blender file"
+  }
 }
