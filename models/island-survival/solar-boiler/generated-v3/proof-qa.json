@@ -1,0 +1,717 @@
+{
+  "schema": "tanks.solar-boiler.v3.animated-proof",
+  "passed": true,
+  "blender_source_sha256": "299c7fc29308c8f638e60fe316236e15b51a1aea5820b6fafc1ee5389c05cc9e",
+  "frames_per_direction": 16,
+  "actual_blender_views": 68,
+  "isolations_rendered": 6,
+  "fps": 8,
+  "loop_duration_ms": 2000,
+  "directions": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "effect_isolation_changed_rgb_pixels": {
+    "gauge": 46,
+    "heat": 3053,
+    "joint-steam": 136
+  },
+  "preview_only_atlas_sha256": {
+    "preview-only-solar-boiler-v3-idle-64.png": "3521b70c657875555768864175331ce660531dc988dc30a8b312c893281afe69",
+    "preview-only-solar-boiler-v3-idle-128.png": "e45b5e1d2d87cb111ef39d97d16e76926d7ccd1bf7f5fc938633d7daf3b2985b",
+    "preview-only-solar-boiler-v3-idle-256.png": "83c2e1b12f146064ca54edd024a91e05463de1c7215c2e4d076a2bc8bb72e75a",
+    "preview-only-solar-boiler-v3-working-64.png": "f7270021a2d57ae7b198f1c16d5218c234a1c73c41e4ab3f656db55e638ca5f5",
+    "preview-only-solar-boiler-v3-working-128.png": "7c0bcc243e1bb7315a3d051efe82f6f096142ccc63800ddd0263cbe5aea7ef2e",
+    "preview-only-solar-boiler-v3-working-256.png": "c90f7fa8780c28b78696c1c30a835a077cad58e180373d63ee51c9a1eabdd5b1",
+    "working-four-directions.gif": "056240789cd0bd5a6b963868daea94c7cf61ba5ffbc5c63f9608863fe3ad2107",
+    "review-four-directions.png": "7f0c2b11be837e822b41c858a3e6e29cf75808b70770f944ae60d98aa63490a7"
+  },
+  "render_file_checks": [
+    {
+      "file": "idle-d00.png",
+      "sha256": "8eb90603b6ab077952443a5949073adc6ca6e7df2980693fed04999f1caab6a2",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f000.png",
+      "sha256": "aee5fa9394f8719b3853fb97cfb2e1ed028f186d7b70e6246124b54df530722d",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f001.png",
+      "sha256": "16af33936b0be9bfcbc9d642578e2f31c1356ca60e7b5de1e46d8f93ea5bce5a",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f002.png",
+      "sha256": "5dd70979abca1286d5ba753a8dac1c124e9f0183ade3f05ffc20d0ae0297af59",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f003.png",
+      "sha256": "077d03d0220db920fd3490dc7e94f19c2244e1869faf55998d10a8fc356d5eea",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f004.png",
+      "sha256": "19a6d0ed0ba5823b6c84e132aaa8793a7b14d7989802cd32ed1f79d9eb7235c7",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f005.png",
+      "sha256": "6aab677eea422a0735a929b608d7e321a6873c5953ec70813b101d3892bb17bd",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f006.png",
+      "sha256": "540261887eaef69b91592993c05b843651abc316f5ce5466cbbdf8e4a99215c6",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f007.png",
+      "sha256": "92eab7dc1700b6710c5569b67359add1ad001f25c78dc8e4ddafc8095d75ebe1",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f008.png",
+      "sha256": "1da1c2f608f77ba085fe035520f61a24e7c58f511ea1762e17d2f6d651021503",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f009.png",
+      "sha256": "e108df097688d49be4692a04101f04db1495cf7759ccd32fa8ad817e91597927",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f010.png",
+      "sha256": "7b5021755b883a146df5b2ce82c78cfc738c7b89edfd4c0f7be69769efc809e6",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f011.png",
+      "sha256": "471b96b61f8c2deab6a5db67c7486c43f4dd9de477d5de02b7365feb941a7f83",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f012.png",
+      "sha256": "d6d86ea47ff2a36031b4f63b44ff84c8a801e110790fa370523f6c9063489989",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f013.png",
+      "sha256": "ff8a34eb652f4b68914c05e61254913ef63ef1dbc2b2b35c3fbd45f81920894d",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f014.png",
+      "sha256": "a2ed9acdb82d2f16f77ba9e4a468492cac1eae69cea095489eb30c46c439db37",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d00-f015.png",
+      "sha256": "b2712dde452f5625b770b3829d0c8becf7f57b223795ce55cbeb9522ae811bc1",
+      "alpha_bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "idle-d01.png",
+      "sha256": "6bd824da5f2dd4e4ebf071b466e55dd742a54efc3cebc3d3c2693def745e749d",
+      "alpha_bounds": [
+        69,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f000.png",
+      "sha256": "3b25f460c6823e154a360dbdf60a2615441f7866de9d7f9cb0ca38df064497cb",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f001.png",
+      "sha256": "f9e061def263fd0b57fc515c85f46d33870352bc73dd9c901e5529bd0bb94065",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f002.png",
+      "sha256": "507fdfd407d7723f4e7d7855f751ada194c6203f19994965f3011d4566770b5d",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f003.png",
+      "sha256": "7a9b99af84249b010308e6ffa7a5701cf87f51d1058e471c7da9f64293b0b182",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f004.png",
+      "sha256": "5872d2fa087fb8c74a15dd50883f510450528114a9718337c544ecf677967fa9",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f005.png",
+      "sha256": "596abc05483c1a8717de11578f593bbcb846339278efb06fcb8aa453bae446fb",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f006.png",
+      "sha256": "3726a574a95911a0c67a8e324902333d1bc4e852a56776978707ff11ba45cfb1",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f007.png",
+      "sha256": "92ec777d06e15d0fc480182d848549590f1701fa687b513bd9e77563fa2065cf",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f008.png",
+      "sha256": "27d330e9cdb6b74452f61041562b34d352d9d357d0e4d4b7a7bb41d0bde5f145",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f009.png",
+      "sha256": "bf2818e3d3065b320341c7648f933e66cfaeea53593cd2d1ad78b4f39a0b9cdb",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f010.png",
+      "sha256": "57b980ddcdf87c98fa4945d38c6f153688e0af6e18b86ae310249cd83b218f97",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f011.png",
+      "sha256": "9f08cdc7c37cb1bb01aac01bcdb3231c3ce1aca431634c481ab3aceac138eaba",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f012.png",
+      "sha256": "42198095cc0a960a2f75478941690dbda203acb9d2aed41e1f19113dcdf6f115",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f013.png",
+      "sha256": "fe33db1ede4cc43e030de6c7604868eb49782d825ffa825a5d34aa7b9f123bca",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f014.png",
+      "sha256": "8c4acedae31cf4fa3ad61d129c6b934305905ba3ffbd90ade51490416b4c670e",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d01-f015.png",
+      "sha256": "c717a3e30b155219f5fd5f5afcb48bedb82b5d83e11f3547ec04b0d418d81dfe",
+      "alpha_bounds": [
+        64,
+        58,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "idle-d02.png",
+      "sha256": "e74526862a29a3fc328a76a86310306ab47be477116980e6eaf540fbee60f15f",
+      "alpha_bounds": [
+        40,
+        97,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f000.png",
+      "sha256": "77e6634b9bab4fcb27dd68c6b1cdda000d45b9bca6781537295921c531957c19",
+      "alpha_bounds": [
+        40,
+        87,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f001.png",
+      "sha256": "047f1e13cca40972b45a64e0ed8b4ad20cd05941c5a1743e0866266d3160c777",
+      "alpha_bounds": [
+        40,
+        88,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f002.png",
+      "sha256": "d82ea0ad183b86c6677a214d5492f8a106dbe84f613f47abb88332923f094238",
+      "alpha_bounds": [
+        40,
+        88,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f003.png",
+      "sha256": "75e0a0a8be57d3625f72cb6c206bf5ddb33d55b3ed1478cf210baece09658073",
+      "alpha_bounds": [
+        40,
+        88,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f004.png",
+      "sha256": "e392a337a0a8dd279f78a26e1f836af51490a72c57d5c6187b670cc3143a6397",
+      "alpha_bounds": [
+        40,
+        89,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f005.png",
+      "sha256": "bc4c8bc49b5d3e7c3d39796590905de75d236fdb5a0bdb7c358acbc863336a76",
+      "alpha_bounds": [
+        40,
+        89,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f006.png",
+      "sha256": "41a2b967fa90fbabf91e957180ac1934e0cd90cee5fb3a9102ce056f2348a39f",
+      "alpha_bounds": [
+        40,
+        89,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f007.png",
+      "sha256": "22771929d7e8cfcbe19aa937f190124edbc2b4b7bbf4e70f0fb84b701eb67124",
+      "alpha_bounds": [
+        40,
+        89,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f008.png",
+      "sha256": "c85d4516c3f9751349238570a0ef87de60e8700c8983444a4c9b9193d3980487",
+      "alpha_bounds": [
+        40,
+        89,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f009.png",
+      "sha256": "955013423cbdf997cb068443f6a6d07da4f011920c3bbce89e42108b17db01ac",
+      "alpha_bounds": [
+        40,
+        88,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f010.png",
+      "sha256": "12a584e8bb9d69bf7573a2de7ffabc92f249dd291f21ad960f653013276cba66",
+      "alpha_bounds": [
+        40,
+        88,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f011.png",
+      "sha256": "0b074973eda39df8d37981ecad6eb24e97cac79eed94f94e255e08afe47e39c9",
+      "alpha_bounds": [
+        40,
+        88,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f012.png",
+      "sha256": "11f34ffbe1ac6ed054a3f0f167f35e6388fa5a5b1286539ad06155d17442baac",
+      "alpha_bounds": [
+        40,
+        87,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f013.png",
+      "sha256": "1f8401c1688587a36c4182b3e49e1dc53b22fb423b332aba372eef8949c5c73d",
+      "alpha_bounds": [
+        40,
+        87,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f014.png",
+      "sha256": "4fbde970f2c7c1c4130ba1b8a2b169366c33d80066cd2b78181e171a14cc1fdf",
+      "alpha_bounds": [
+        40,
+        87,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "working-d02-f015.png",
+      "sha256": "bb68ef5e4894f223600ebc3788a129e976b7eedd5fa94fbe028131a3e64c7f65",
+      "alpha_bounds": [
+        40,
+        87,
+        216,
+        207
+      ]
+    },
+    {
+      "file": "idle-d03.png",
+      "sha256": "23fca08247d9a61bf11dc4e9a9d8b6635301c34e6b7d119649e98ac59e5181b1",
+      "alpha_bounds": [
+        71,
+        58,
+        187,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f000.png",
+      "sha256": "d58977d46b945d83045123614ba7d803872d48bed5bd26a55e658e1c4f7abf36",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f001.png",
+      "sha256": "255d776c42400800256c40d5cce66aadf9eef70597421c26924dd1127656a33b",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f002.png",
+      "sha256": "912e7a7c1a26408aaa950e80ae98de7b52f2423090acd2893c26d69991413492",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f003.png",
+      "sha256": "ea2b4f906a9393140a83fcfb2509bb76ef02ab5fc56272b1f93d3402485c9c24",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f004.png",
+      "sha256": "f2751a628a7d8fca0b090f81702cc6ad7517834fe824324a8044645da01860ff",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f005.png",
+      "sha256": "49c9ef46f848d559ab8d0014bc41cdf674eb0474a7e3d6ff1064a25bde721e9f",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f006.png",
+      "sha256": "7bb943ecca199dc1760b1347c3a4434300453c5b55c4c117b0d02140d9fe1045",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f007.png",
+      "sha256": "213940c34133d594b23a3bf08b63dd66ffd39ec6058655397ab2614917fd4146",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f008.png",
+      "sha256": "7fb66078490cf1d0eacc5f83bbbe4c7d3d6e5466feee135dbefb4af992df4ef0",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f009.png",
+      "sha256": "5a5ae8151a0c8a29cd389cb6c2f95824fbde5d6a5a626d84120976d810ca10a4",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f010.png",
+      "sha256": "e933359d858e36ccc2d47208f77ccd917481d18e5a53de562f9989e6ee6d84b3",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f011.png",
+      "sha256": "52aaa95855aa1d8ca401e8ed1b84d8d75626e326936a41b1002946c3394cef93",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f012.png",
+      "sha256": "679e7730b2c8e37c82736217dc73fcc84f93f666c15994f1274c4ad37651d4eb",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f013.png",
+      "sha256": "5cd3f5cbb11089b24c84b1eab636135436462881ade4f6bbff7f462e3065119d",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f014.png",
+      "sha256": "f7cf1a2264a761be3f0ea2c1ad0d30d20da9f9aa43fd5cabdfbe80d8d4b0c1e5",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    },
+    {
+      "file": "working-d03-f015.png",
+      "sha256": "09a3a6a96dacc3f32f4214b8025705850e9d36229e9446e372428263b1e074cd",
+      "alpha_bounds": [
+        71,
+        58,
+        192,
+        227
+      ]
+    }
+  ],
+  "native_reopen": true,
+  "materials_packed": true,
+  "visual_approved": false,
+  "game_integrated": false
+}

@@ -1,0 +1,86 @@
+{
+  "schema": "tanks.solar-boiler.v3.native-reopen",
+  "passed": true,
+  "source_v2_sha256": "cdfbed9a6d8304ca68f1faf96e58e69ba6fe73078ea14dfff8c32394929775e9",
+  "native_sha256": "299c7fc29308c8f638e60fe316236e15b51a1aea5820b6fafc1ee5389c05cc9e",
+  "preserved_source_mesh_count": 198,
+  "gauge_range_degrees": [
+    -29.24264213889836,
+    29.24264213889836
+  ],
+  "heat_emission_range": [
+    0.11999999731779099,
+    1.6200000047683716
+  ],
+  "steam_joint_ids": [
+    "west-hot-union",
+    "east-hot-union",
+    "steam-extraction-neck",
+    "steam-output-flange"
+  ],
+  "steam_joint_puffs": 16,
+  "ports": [
+    {
+      "id": "water-west",
+      "native_cell": [
+        -1,
+        0.5
+      ],
+      "face_vertices": 128,
+      "max_error_bu": 6.664001874625056e-08
+    },
+    {
+      "id": "water-east",
+      "native_cell": [
+        1,
+        0.5
+      ],
+      "face_vertices": 128,
+      "max_error_bu": 6.664001874625056e-08
+    },
+    {
+      "id": "steam-north",
+      "native_cell": [
+        0,
+        -0.5
+      ],
+      "face_vertices": 128,
+      "max_error_bu": 8.429369702178807e-08
+    }
+  ],
+  "parabolic_optics": [
+    {
+      "label": "west",
+      "parabola_residual_bu": 9.38773173086993e-09,
+      "focus": 0.28
+    },
+    {
+      "label": "east",
+      "parabola_residual_bu": 9.38773173086993e-09,
+      "focus": 0.28
+    }
+  ],
+  "fmpl_pbr_maps_packed": {
+    "ferrocrete": [
+      "ferrocrete_albedo.png",
+      "ferrocrete_orm.png",
+      "ferrocrete_normal.png"
+    ],
+    "ferrocrete_light": [
+      "ferrocrete_light_albedo.png",
+      "ferrocrete_light_orm.png",
+      "ferrocrete_light_normal.png"
+    ],
+    "ferrocrete_dark": [
+      "ferrocrete_dark_albedo.png",
+      "ferrocrete_dark_orm.png",
+      "ferrocrete_dark_normal.png"
+    ]
+  },
+  "camera_locked": true,
+  "loop_frame97_equals_frame1": true,
+  "actual_blender_frames": 68,
+  "effect_isolation_images": 6,
+  "visual_approved": false,
+  "game_integrated": false
+}
