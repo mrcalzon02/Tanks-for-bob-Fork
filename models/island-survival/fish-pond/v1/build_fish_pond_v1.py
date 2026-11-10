@@ -171,8 +171,10 @@ def make_fish(bpy, collection, root, spec, index):
     mesh.hide_render = False
     mesh.keyframe_insert(data_path='hide_render', frame=1)
     mesh.keyframe_insert(data_path='hide_render', frame=LOOP_END)
+    # Blender 5.x layered Actions may not expose legacy action.fcurves.
+    # Boolean hide_render channels hold exact states even without editing curves.
     if mesh.animation_data and mesh.animation_data.action:
-        for curve in mesh.animation_data.action.fcurves:
+        for curve in (getattr(mesh.animation_data.action, 'fcurves', None) or []):
             for key in curve.keyframe_points:
                 key.interpolation = 'CONSTANT'
     for k,frame in enumerate((*WORK_FRAMES, LOOP_END)):
@@ -182,7 +184,7 @@ def make_fish(bpy, collection, root, spec, index):
         orbit.keyframe_insert(data_path='location', frame=frame)
         orbit.keyframe_insert(data_path='rotation_euler', frame=frame)
     # Linear interpolation avoids speed lurches; frame 97 matches frame 1.
-    for curve in orbit.animation_data.action.fcurves:
+    for curve in (getattr(orbit.animation_data.action, 'fcurves', None) or []):
         for key in curve.keyframe_points:
             key.interpolation = 'LINEAR'
     return orbit, mesh
