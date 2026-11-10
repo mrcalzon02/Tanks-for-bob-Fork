@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "passed": true,
+  "actual_blender_renders": 8,
+  "native_model": "0a7a738ddeba0f3675ce40724a20bf5acf1a0537e0bef085032cfc3d13100427",
+  "donor_sha256": "6fd8eab76224c93276ff801108c615193f95f2d91ce38ec05ecac4789a42241d",
+  "visual_approved": false,
+  "game_integrated": false,
+  "four_directions": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "images": [
+    {
+      "file": "idle-d00.png",
+      "sha256": "f4c7e0336fd9fafafcec0099d729590d195f05d63ad58afc5be2a66527cb0b93",
+      "alpha_bounds": [
+        27,
+        51,
+        234,
+        220
+      ]
+    },
+    {
+      "file": "working-d00-f004.png",
+      "sha256": "2c08f2a6df879b914e1f14b2ae3489e7c810aa2f792e551dd4206ca44bbb08ba",
+      "alpha_bounds": [
+        27,
+        51,
+        234,
+        220
+      ]
+    },
+    {
+      "file": "idle-d01.png",
+      "sha256": "be3be033d3d968bf67e27081614f09d7055d4f1c27b912412116e6d104d7beeb",
+      "alpha_bounds": [
+        6,
+        61,
+        245,
+        209
+      ]
+    },
+    {
+      "file": "working-d01-f004.png",
+      "sha256": "8a635b255a32ee91f5e0ac251e21d183c32ebf7e8e79e2d1c564e352a2075e1f",
+      "alpha_bounds": [
+        6,
+        61,
+        245,
+        209
+      ]
+    },
+    {
+      "file": "idle-d02.png",
+      "sha256": "1fe526ba41a9c930ff765fd686d156eeabe717e521842e3d5700488155c575dc",
+      "alpha_bounds": [
+        22,
+        54,
+        229,
+        223
+      ]
+    },
+    {
+      "file": "working-d02-f004.png",
+      "sha256": "ff3e127af2df25a5790ec4ba8ff7eea304c7ef27c303f60678add8126615726a",
+      "alpha_bounds": [
+        22,
+        54,
+        229,
+        223
+      ]
+    },
+    {
+      "file": "idle-d03.png",
+      "sha256": "a77a85e893a6a6325041dff587326bad8f93be5592b96ddbdf018b894fe0ae83",
+      "alpha_bounds": [
+        11,
+        66,
+        249,
+        212
+      ]
+    },
+    {
+      "file": "working-d03-f004.png",
+      "sha256": "485ff3ecc8c74fe586e1285fa475e3ad73a3227a3d203e9ad6c9d92e9e93e0d4",
+      "alpha_bounds": [
+        11,
+        66,
+        249,
+        212
+      ]
+    }
+  ],
+  "contact_sha256": "7d7a04eed01fc298c8f81d93537b382f40cbb282f3e7097281247c4183582f47"
+}
