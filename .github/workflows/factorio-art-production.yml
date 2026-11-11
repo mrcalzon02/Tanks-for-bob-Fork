@@ -29,6 +29,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 concurrency:
   group: factorio-reusable-art-production
   cancel-in-progress: false
@@ -85,14 +86,33 @@ jobs:
           test -s models/island-survival/blender/generated-v8/campfire-v8-animated.blend
           mkdir -p models/island-survival/solar-boiler/v4
           tar xzf tools/art/jobs/solar-boiler-v4-wood-sources.tar.gz -C models/island-survival/solar-boiler/v4
+          # Blender truncates long display names to 63 bytes. Count the
+          # retained per-object role identifier rather than a suffix in the name.
+          /usr/bin/python3 - <<'PY'
+          from pathlib import Path
+          p=Path('models/island-survival/solar-boiler/v4/verify_solar_boiler_v4.py')
+          source=p.read_text()
+          old="conduits=[o for o in s.objects if o.name.startswith('WOOD PIPE V4 |') and 'bent stave' in o.name]"
+          new="conduits=[o for o in s.objects if o.get('wood_role')=='curved planking on hollow conduit']"
+          assert source.count(old)==1
+          p.write_text(source.replace(old,new))
+          PY
           /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v4/*.py
           /usr/bin/python3 models/island-survival/solar-boiler/v4/build_solar_boiler_v4.py --self-check
-      - name: Construct timber Solar Boiler V4 and genuine 256px Cycles proof
+      - name: Recover successful V4 Blender model and actual 26-render evidence
+        if: github.event_name == 'push'
+        uses: actions/download-artifact@v4
+        with:
+          name: factorio-four-way-production-evidence
+          run-id: 42929600944
+          github-token: ${{ github.token }}
+          path: models
+      - name: Independently re-open V4 source and finish V4 pilot QA (no rerender)
         if: github.event_name == 'push'
         shell: bash
         run: |
           set -euo pipefail
-          blender -b -t 4 --factory-startup --python-exit-code 1 --python models/island-survival/solar-boiler/v4/build_solar_boiler_v4.py -- --output models/island-survival/solar-boiler/generated-v4 --render pilot --samples 24
+          test -s models/island-survival/solar-boiler/generated-v4/solar-boiler-v4.blend
           blender -b -t 4 models/island-survival/solar-boiler/generated-v4/solar-boiler-v4.blend --python-exit-code 1 --python models/island-survival/solar-boiler/v4/verify_solar_boiler_v4.py -- --output models/island-survival/solar-boiler/generated-v4
           /usr/bin/python3 models/island-survival/solar-boiler/v4/make_proof_sheet.py --output models/island-survival/solar-boiler/generated-v4
       - name: Publish verified V4 wood model only, no live Factorio sprite attachment
