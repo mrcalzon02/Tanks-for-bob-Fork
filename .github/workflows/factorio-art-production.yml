@@ -30,6 +30,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 concurrency:
   group: factorio-reusable-art-production
   cancel-in-progress: false
@@ -81,45 +82,32 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          echo 'e6886c5163321aeceabdb0bcf819e58987d7365a0cb0ac357d237813a05b9cde  tools/art/jobs/solar-boiler-v6-sources.tar.gz' | sha256sum -c -
+          echo 'f655b33333829c52a58f0495ea17936056c410ea714d8f4fc25882b889c1bbe2  tools/art/jobs/solar-boiler-v6-sources.tar.gz' | sha256sum -c -
           test -s models/island-survival/solar-boiler/generated-v5/solar-boiler-v5.blend
           mkdir -p models/island-survival/solar-boiler/v6
           tar xzf tools/art/jobs/solar-boiler-v6-sources.tar.gz -C models/island-survival/solar-boiler/v6
           /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v6/*.py
           /usr/bin/python3 models/island-survival/solar-boiler/v6/build_solar_boiler_v6.py --self-check
-      - name: Six-effect-image Cycles pilot and native 64px gating before the full 4-way capture
+      - name: Recover saved native V6 Blender and 52 validated north/east/south frames
         if: github.event_name == 'push'
-        shell: bash
-        run: |
-          set -euo pipefail
-          blender -b -t 4 --factory-startup --python-exit-code 1 --python models/island-survival/solar-boiler/v6/build_solar_boiler_v6.py -- --output models/island-survival/solar-boiler/pilot-v6 --render proof --samples 24
-          /usr/bin/python3 - <<'PY'
-          from pathlib import Path
-          from PIL import Image,ImageChops
-          p=Path('models/island-survival/solar-boiler/pilot-v6')
-          def changed(name):
-              with Image.open(p/('iso-'+name+'-off.png')) as a,Image.open(p/('iso-'+name+'-on.png')) as b:
-                  x=a.convert('RGBA');y=b.convert('RGBA')
-                  def delta(im1,im2,n):
-                      d=ImageChops.difference(im1.convert('RGB'),im2.convert('RGB'))
-                      return sum(max(color)>n for color in d.getdata())
-                  return delta(x,y,12),delta(x.resize((64,64),Image.Resampling.LANCZOS),y.resize((64,64),Image.Resampling.LANCZOS),6)
-          required={'focal-boil':(30,3),'focal-steam':(18,2),'body-rumble':(10,1)}
-          for name,(large,small) in required.items():
-              a,b=changed(name)
-              print('SOLAR_V6_REAL_CYCLES_PILOT',name,'changed_rgb_256',a,'changed_rgb_64',b,flush=True)
-              assert a>=large and b>=small,(name,a,b,large,small)
-          for d in range(4):
-              assert (p/f'idle-d{d:02d}.png').is_file()
-              assert (p/f'working-d{d:02d}-f004.png').is_file()
-          print('SOLAR_V6_FOUR_CARDINAL_PILOT_PIXEL_VISIBILITY_PASS',flush=True)
-          PY
+        uses: actions/download-artifact@v4
+        with:
+          name: factorio-four-way-production-evidence
+          run-id: 42952067863
+          github-token: ${{ github.token }}
+          path: models
       - name: Render full 4-direction 16-pose Blender cycle and independently verify native pipe anchors
         if: github.event_name == 'push'
         shell: bash
         run: |
           set -euo pipefail
-          blender -b -t 4 --factory-startup --python-exit-code 1 --python models/island-survival/solar-boiler/v6/build_solar_boiler_v6.py -- --output models/island-survival/solar-boiler/generated-v6 --render all --samples 24
+          V6=models/island-survival/solar-boiler
+          test -s "$V6/generated-v6/solar-boiler-v6.blend"
+          blender -b -t 4 "$V6/generated-v6/solar-boiler-v6.blend" --python-exit-code 1 --python "$V6/v6/resume_capture_v6.py" -- --output "$V6/generated-v6" --direction 3
+          for effect in focal-boil focal-steam body-rumble; do
+            blender -b -t 4 "$V6/generated-v6/solar-boiler-v6.blend" --python-exit-code 1 --python "$V6/v6/resume_capture_v6.py" -- --output "$V6/generated-v6" --effect "$effect"
+          done
+          blender -b -t 4 "$V6/generated-v6/solar-boiler-v6.blend" --python-exit-code 1 --python "$V6/v6/resume_capture_v6.py" -- --output "$V6/generated-v6" --audit
           blender -b -t 4 models/island-survival/solar-boiler/generated-v6/solar-boiler-v6.blend --python-exit-code 1 --python models/island-survival/solar-boiler/v6/verify_solar_boiler_v6.py -- --output models/island-survival/solar-boiler/generated-v6
           /usr/bin/python3 models/island-survival/solar-boiler/v6/make_proof_sheet.py --output models/island-survival/solar-boiler/generated-v6
       - name: Commit only independently verified V6 editable model, real 4-way animation and receipts
@@ -145,6 +133,7 @@ jobs:
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          find models/island-survival/solar-boiler/v6 -type d -name __pycache__ -prune -exec rm -rf '{}' +
           git add -- models/island-survival/solar-boiler/v6 models/island-survival/solar-boiler/generated-v6
           git rm -- tools/art/jobs/solar-boiler-v6-sources.tar.gz
           git diff --cached --check
