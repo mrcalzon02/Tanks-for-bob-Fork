@@ -28,11 +28,12 @@
   "save_editable_blend": true,
   "game_integrated": false,
   "visual_approved": false,
-  "attempt": 5,
+  "attempt": 6,
   "preflight_repair": "Source uses float tolerance and derives approved bark/endgrain shaders from the actual Firewood objects in Campfire V8; do not infer material names",
   "material_contract": "V8 actual Firewood material: procedural color/grain/roughness + packed tangent normal; not 3 image textures",
   "recovery_run_id": 42929600944,
   "artifact_id": 13816145947,
   "source_verifier_fix": "wood conduit count by saved semantic wood_role, not truncated Blender object.name",
-  "recovery_mode": "reuse actual saved 24+2 Cycles frames and native Blender V4 source"
+  "recovery_mode": "reuse actual saved 24+2 Cycles frames and native Blender V4 source",
+  "reason": "Reuse already rendered and independently verified V4; strip trailing whitespace before git diff --check"
 }
