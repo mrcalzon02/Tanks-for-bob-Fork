@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "asset": "solar-boiler",
+  "revision": "v5-glass-accumulator-boiling-and-end-vents",
+  "purpose": "Repair barrel side-pipe socket roof, glass vessel with real 3D agitated fluid, two intermittent glass end jets",
+  "source": "models/island-survival/solar-boiler/generated-v4/solar-boiler-v4.blend",
+  "expected_source_sha256": "bb60cb3e42258ca4de9dea8837d6c1f6bc6651e755c44cb4863779907d14d3b2",
+  "archive": "tools/art/jobs/solar-boiler-v5-source.tar.gz",
+  "archive_sha256": "02cd19ca7bb8837122f4fa937dbb9d31871c5d93fb57e278349781d75cc2d6c2",
+  "output": "models/island-survival/solar-boiler/generated-v5",
+  "proof": {
+    "cardinal_idle_views": 4,
+    "cardinal_working_views": 4,
+    "north_loop_frames": 16,
+    "effect_isolation_images": 4,
+    "fps": 8
+  },
+  "materials": "approved V4 wood PBR preserved, historic glass/water shader descendants, noise-feathered V4 gas material copy",
+  "guards": [
+    "two roof socket patches real bore",
+    "three untouched native pipe mouths",
+    "18 wooded barrel staves",
+    "65 bentwood conduits",
+    "two polished wood reflectors",
+    "animated fluid keyed 16 sample closed loop",
+    "alternating two end jets",
+    "real 64px pixel isolation"
+  ],
+  "live_game_changes": false,
+  "release": false,
+  "visual_approved": false,
+  "workflow_policy": "one existing reusable art workflow; temporary push hook removed after completion"
+}

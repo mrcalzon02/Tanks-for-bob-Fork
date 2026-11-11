@@ -25,7 +25,7 @@ on:
   push:
     branches: [main]
     paths:
-      - tools/art/jobs/solar-boiler-v4b-steam-proof.json
+      - tools/art/jobs/solar-boiler-v5-proof.json
 
 permissions:
   contents: write
@@ -76,50 +76,54 @@ jobs:
           else
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           fi
-      - name: Read source checksum and executable steam derivative preflight
+      -      - name: Validate exact source hashes and V5 glass/fluid/wood preflight
         if: github.event_name == 'push'
         shell: bash
         run: |
           set -euo pipefail
-          echo '199dd2d961b4a24eb7178a49f863ea5f10c7e1a3a13b5ade53d67453e1bf7ce5  tools/art/jobs/solar-boiler-v4b-steam-sources.tar.gz' | sha256sum -c -
+          echo '02cd19ca7bb8837122f4fa937dbb9d31871c5d93fb57e278349781d75cc2d6c2  tools/art/jobs/solar-boiler-v5-source.tar.gz' | sha256sum -c -
           test -s models/island-survival/solar-boiler/generated-v4/solar-boiler-v4.blend
-          mkdir -p models/island-survival/solar-boiler/v4b
-          tar xzf tools/art/jobs/solar-boiler-v4b-steam-sources.tar.gz -C models/island-survival/solar-boiler/v4b
-          /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v4b/*.py
-          /usr/bin/python3 models/island-survival/solar-boiler/v4b/refine_steam_v4b.py --self-check
-      - name: Render actual V4b Cycles steam visibility pilot and independently reopen native file
+          test -s models/island-survival/solar-boiler/generated-v4/build-report.json
+          mkdir -p models/island-survival/solar-boiler/v5
+          tar -xzf tools/art/jobs/solar-boiler-v5-source.tar.gz -C models/island-survival/solar-boiler/v5
+          /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v5/*.py
+          /usr/bin/python3 models/island-survival/solar-boiler/v5/build_solar_boiler_v5.py --self-check
+      - name: Construct authentic native Blender V5 and render the 4-way pilot
         if: github.event_name == 'push'
         shell: bash
         run: |
           set -euo pipefail
-          blender -b -t 4 --factory-startup --python-exit-code 1 --python models/island-survival/solar-boiler/v4b/refine_steam_v4b.py -- --output models/island-survival/solar-boiler/generated-v4b --render pilot --samples 24
-          blender -b -t 4 models/island-survival/solar-boiler/generated-v4b/solar-boiler-v4b.blend --python-exit-code 1 --python models/island-survival/solar-boiler/v4b/verify_steam_v4b.py -- --output models/island-survival/solar-boiler/generated-v4b
-          /usr/bin/python3 models/island-survival/solar-boiler/v4b/make_steam_proof.py --output models/island-survival/solar-boiler/generated-v4b
-      - name: Publish only checked V4b Blender and real animated visual evidence
+          blender -b -t 4 --factory-startup --python-exit-code 1 --python models/island-survival/solar-boiler/v5/build_solar_boiler_v5.py -- --output models/island-survival/solar-boiler/generated-v5 --render proof --samples 24
+          blender -b -t 4 models/island-survival/solar-boiler/generated-v5/solar-boiler-v5.blend --python-exit-code 1 --python models/island-survival/solar-boiler/v5/verify_solar_boiler_v5.py -- --output models/island-survival/solar-boiler/generated-v5
+          /usr/bin/python3 models/island-survival/solar-boiler/v5/make_proof_sheet.py --output models/island-survival/solar-boiler/generated-v5
+      - name: Commit V5 native source, true Cycles proof and geometry QA only
         if: github.event_name == 'push'
         shell: bash
         run: |
           set -euo pipefail
-          test "$(git branch --show-current)" = "main"
+          test "$(git branch --show-current)" = main
           /usr/bin/python3 - <<'PY'
           import json
           from pathlib import Path
-          o=Path('models/island-survival/solar-boiler/generated-v4b')
-          proof=json.loads((o/'proof-qa.json').read_text())
-          native=json.loads((o/'native-reopen-qa.json').read_text())
-          assert native['passed'] and proof['passed'] and proof['actual_blender_views']==24
-          assert proof['same_frame_steam_pixels_256']>=70 and proof['same_frame_steam_pixels_64']>=3
-          assert native['wood_staves']==18 and native['bentwood_conduits']==65
-          assert native['wood_parabolic_mirrors']==2 and len(native['full_port_mating'])==3
-          assert not proof['visual_approved'] and not proof['game_integrated']
+          p=Path('models/island-survival/solar-boiler/generated-v5')
+          q=json.loads((p/'proof-qa.json').read_text())
+          n=json.loads((p/'native-reopen-qa.json').read_text())
+          assert q['passed'] and n['passed'] and q['native_reopen']
+          assert q['actual_blender_views']==24 and q['isolation_render_count']==4
+          assert n['glass_walls_are_thick_3d'] and n['bubbles']>=20
+          assert n['wood_staves']==18 and n['wood_conduit_planks']==65
+          assert len(n['roof_socket_patches'])==2 and len(n['existing_ports'])==3
+          assert q['two_end_steam_effect_pixels']['pixel_changes_64']>=2
+          assert q['glass_fluid_effect_pixels']['pixel_changes_64']>=3
+          assert not q['game_integrated'] and not q['visual_approved']
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- models/island-survival/solar-boiler/v4b models/island-survival/solar-boiler/generated-v4b
-          git rm -- tools/art/jobs/solar-boiler-v4b-steam-sources.tar.gz
+          git add -- models/island-survival/solar-boiler/v5 models/island-survival/solar-boiler/generated-v5
+          git rm -- tools/art/jobs/solar-boiler-v5-source.tar.gz
           git diff --cached --check
-          git diff --cached --quiet && { echo 'No V4b source/proof changes'; exit 1; }
-          git commit -m 'art(solar-boiler): brighter feathered 3D relief steam on wooden V4 [skip ci]'
+          git diff --cached --quiet && { echo 'No new native V5 evidence to publish'; exit 1; }
+          git commit -m 'art(solar-boiler): wooden socket repair and glass boiling accumulator V5 [skip ci]'
           for attempt in 1 2 3; do
             git fetch origin main
             git rebase origin/main
@@ -127,18 +131,18 @@ jobs:
               local_sha="$(git rev-parse HEAD)"
               remote_sha="$(git ls-remote origin refs/heads/main | cut -f1)"
               test "$local_sha" = "$remote_sha"
-              echo "SOLAR_V4B_STEAM_PROOF_COMMIT_VERIFIED $local_sha"
+              echo "SOLAR_V5_GLASS_ACCUMULATOR_PROOF_COMMIT_VERIFIED $local_sha"
               exit 0
             fi
-            echo "Bounded non-force push retry $attempt"
+            echo "Bounded nonforce push retry $attempt"
           done
           exit 1
-      - name: Retain review and Blender evidence even after failed render
+ name: Retain review and Blender evidence even after failed render
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: factorio-four-way-production-evidence
           path: |
             models/sprite-production/
-            models/island-survival/solar-boiler/generated-v4b/
+            models/island-survival/solar-boiler/generated-v5/
           if-no-files-found: warn
