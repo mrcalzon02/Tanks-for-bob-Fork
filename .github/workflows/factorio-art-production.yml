@@ -22,15 +22,9 @@ on:
         type: boolean
         required: false
         default: false
-  push:
-    branches: [main]
-    paths:
-      # One bounded request only, never reprocess the previous V5 model.
-      - tools/art/jobs/solar-boiler-v6-proof.json
 
 permissions:
   contents: write
-  actions: read
 concurrency:
   group: factorio-reusable-art-production
   cancel-in-progress: false
@@ -77,82 +71,10 @@ jobs:
           else
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           fi
-      - name: Preflight exact V6 source and closing steam-phase contract
-        if: github.event_name == 'push'
-        shell: bash
-        run: |
-          set -euo pipefail
-          echo 'f655b33333829c52a58f0495ea17936056c410ea714d8f4fc25882b889c1bbe2  tools/art/jobs/solar-boiler-v6-sources.tar.gz' | sha256sum -c -
-          test -s models/island-survival/solar-boiler/generated-v5/solar-boiler-v5.blend
-          /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v6/*.py
-          /usr/bin/python3 models/island-survival/solar-boiler/v6/build_solar_boiler_v6.py --self-check
-      - name: Recover actual saved V6 Blender and 68 Cycles sprite views without rerender
-        if: github.event_name == 'push'
-        uses: actions/download-artifact@v4
-        with:
-          name: factorio-four-way-production-evidence
-          run-id: 42987410872
-          github-token: ${{ github.token }}
-          path: models
-      - name: Close frame-97 steam key and independently validate true rigid pipe anchors
-        if: github.event_name == 'push'
-        shell: bash
-        run: |
-          set -euo pipefail
-          V6=models/island-survival/solar-boiler
-          test -s "$V6/generated-v6/solar-boiler-v6.blend"
-          blender -b -t 4 "$V6/generated-v6/solar-boiler-v6.blend" --python-exit-code 1 --python "$V6/v6/repair_seam_v6.py" -- --output "$V6/generated-v6"
-          blender -b -t 4 "$V6/generated-v6/solar-boiler-v6.blend" --python-exit-code 1 --python "$V6/v6/verify_solar_boiler_v6.py" -- --output "$V6/generated-v6"
-          /usr/bin/python3 "$V6/v6/make_proof_sheet.py" --output "$V6/generated-v6"
-      - name: Commit only independently verified V6 editable model, real 4-way animation and receipts
-        if: github.event_name == 'push'
-        shell: bash
-        run: |
-          set -euo pipefail
-          test "$(git branch --show-current)" = main
-          /usr/bin/python3 - <<'PY'
-          import json
-          from pathlib import Path
-          p=Path('models/island-survival/solar-boiler/generated-v6')
-          qa=json.loads((p/'proof-qa.json').read_text())
-          native=json.loads((p/'native-reopen-qa.json').read_text())
-          assert qa['passed'] and native['passed'] and qa['native_reopen']
-          assert qa['actual_blender_views']==68 and qa['effect_isolation_render_count']==6
-          assert len(native['focal_glass_receivers'])==2 and native['internal_bubbles']==24
-          assert native['source_barrel_staves']==18 and native['source_bentwood_planks']==65
-          assert native['wood_socket_repairs']==2 and native['flexed_pipe_staves']==33
-          assert len(native['native_pipe_mouths_rigid'])==3 and native['rumble_loop_verified']
-          assert native['source_wrong_above_barrel_glass_hidden']
-          assert not qa['visual_approved'] and not qa['game_integrated']
-          PY
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          find models/island-survival/solar-boiler/v6 -type d -name __pycache__ -prune -exec rm -rf '{}' +
-          git add -- models/island-survival/solar-boiler/v6 models/island-survival/solar-boiler/generated-v6
-          git rm -- tools/art/jobs/solar-boiler-v6-sources.tar.gz
-          git diff --cached --check
-          git diff --cached --quiet && { echo 'No V6 native source and real captures to publish'; exit 1; }
-          git commit -m 'art(solar-boiler): glass boiling at optical foci and anchor-safe full-body rumble [skip ci]'
-          for attempt in 1 2 3; do
-            git fetch origin main
-            git rebase origin/main
-            if git push origin HEAD:main; then
-              local_sha="$(git rev-parse HEAD)"
-              remote_sha="$(git ls-remote origin refs/heads/main | cut -f1)"
-              test "$local_sha" = "$remote_sha"
-              echo "SOLAR_V6_FOCAL_GLASS_RUMBLE_COMMIT_VERIFIED $local_sha"
-              exit 0
-            fi
-            echo "Bounded nonforce push retry $attempt"
-          done
-          exit 1
       - name: Retain review and Blender evidence even after failed render
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: factorio-four-way-production-evidence
-          path: |
-            models/sprite-production/
-            models/island-survival/solar-boiler/pilot-v6/
-            models/island-survival/solar-boiler/generated-v6/
+          path: models/sprite-production/
           if-no-files-found: warn
