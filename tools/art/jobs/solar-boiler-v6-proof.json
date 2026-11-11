@@ -5,7 +5,7 @@
   "source": "models/island-survival/solar-boiler/generated-v5/solar-boiler-v5.blend",
   "source_sha256": "07528207351c36c2655b064565d9075db6788806ac7fef933e6e0c4c0e25480c",
   "source_archive": "tools/art/jobs/solar-boiler-v6-sources.tar.gz",
-  "archive_sha256": "9445c7375b2f814be496c40d3e2b2ec347725aa7e45d6dd0e19eb704eaa3a858",
+  "archive_sha256": "e6886c5163321aeceabdb0bcf819e58987d7365a0cb0ac357d237813a05b9cde",
   "constraints": {
     "glass": [
       "west concentrator true optical focal tube",
@@ -39,5 +39,11 @@
   "production_model_only": true,
   "game_integrated": false,
   "visual_approved": false,
-  "new_workflow": false
+  "new_workflow": false,
+  "attempt": 2,
+  "repair": {
+    "issue": "V4 wood stave mesh outer control points differ from nominal (-1.30,+1.30,0.79) model coordinates",
+    "corrected_model": "derive per-mesh outermost socket ring; zero flex at actual farthest edge; interpolate only toward barrel",
+    "qa": "independent 33-plank basis-vs-shape-keys fixed vertex verification, all 3 port sockets world stationary"
+  }
 }
