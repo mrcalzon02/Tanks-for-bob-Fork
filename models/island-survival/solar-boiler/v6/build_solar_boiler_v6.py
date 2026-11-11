@@ -57,6 +57,12 @@ def steam_on(tube,cap,k):
     return k in (1,2,3,6,7,10,11)
 
 
+def vent_lobe_enabled(tube,cap,phase,k):
+    """Per-lobe phase modulo must close at frame 97 (k=16)."""
+    index=k%16
+    return steam_on(tube,cap,index) and ((index+phase*2)%3!=2)
+
+
 def self_check():
     assert len(FRAMES)==16 and FRAMES[0]==1 and FRAMES[-1]==91
     assert all(abs(a-b)<1e-11 for a,b in zip(rumble(0),rumble(16)))
@@ -65,6 +71,9 @@ def self_check():
         for cap in (0,1):
             assert steam_on(tube,cap,0)==steam_on(tube,cap,16)
         assert any(steam_on(tube,0,k)!=steam_on(tube,1,k) for k in range(16))
+        for cap in (0,1):
+            for phase in range(3):
+                assert vent_lobe_enabled(tube,cap,phase,0)==vent_lobe_enabled(tube,cap,phase,16)
     assert max(abs(v) for k in range(16) for v in rumble(k))<.022
     assert WATER_RADIUS<TUBE_RADIUS-.012 and .75<TUBE_LENGTH<.95
     report=json.loads(SOURCE_REPORT.read_text())
@@ -259,7 +268,7 @@ def feathered_steam(bpy,name,center,sign,material,col,parent,phase,tube,cap):
     obj['v6_receiver_tube']=tube;obj['v6_glass_end']=cap
     obj['v6_no_closed_pipe_leaks']=True
     for frame,k in [(0,None)]+list(zip(FRAMES,range(16)))+[(CLOSE,16)]:
-        on=k is not None and steam_on(tube,cap,k) and ((k+phase*2)%3!=2)
+        on=k is not None and vent_lobe_enabled(tube,cap,phase,k)
         age=0 if k is None else ((k+phase*3)%16)/16
         obj.hide_render=not on
         obj.location=(center[0]+sign*.025*age,center[1]+.012*math.sin(4*age+phase),center[2]+.04*age)
