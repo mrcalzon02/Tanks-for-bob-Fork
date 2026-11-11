@@ -6,7 +6,7 @@
   "source": "models/island-survival/solar-boiler/generated-v4/solar-boiler-v4.blend",
   "expected_source_sha256": "bb60cb3e42258ca4de9dea8837d6c1f6bc6651e755c44cb4863779907d14d3b2",
   "archive": "tools/art/jobs/solar-boiler-v5-source.tar.gz",
-  "archive_sha256": "02cd19ca7bb8837122f4fa937dbb9d31871c5d93fb57e278349781d75cc2d6c2",
+  "archive_sha256": "3f13bfc0827ee2d21975f795fac8ba74b4c7854e7c789ddd5cc3b772d9ad042f",
   "output": "models/island-survival/solar-boiler/generated-v5",
   "proof": {
     "cardinal_idle_views": 4,
@@ -30,6 +30,7 @@
   "release": false,
   "visual_approved": false,
   "workflow_policy": "one existing reusable art workflow; temporary push hook removed after completion",
-  "attempt": 2,
-  "preflight_fix": "Workflow YAML list indentation corrected; valid seven named steps and one checkout in the existing single job"
+  "attempt": 3,
+  "preflight_fix": "Workflow YAML list indentation corrected; valid seven named steps and one checkout in the existing single job",
+  "material_source_fix": "V4 dropped unused V1 glass/water material datablocks; V5 explicitly constructs editable FMPL-guided glass and liquid PBR, preserving source-provenanced Campfire wood"
 }
