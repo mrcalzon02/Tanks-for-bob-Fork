@@ -22,6 +22,10 @@ on:
         type: boolean
         required: false
         default: false
+  push:
+    branches: [main]
+    paths:
+      - tools/art/jobs/solar-boiler-v4-wood-proof.json
 
 permissions:
   contents: write
@@ -71,10 +75,69 @@ jobs:
           else
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           fi
+      - name: Validate bounded Solar Boiler V4 wood and feathered steam source
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo '0468a76041ec898d523cdc60b5b9725e38434ac647b8f897e557d4a377042574  tools/art/jobs/solar-boiler-v4-wood-sources.tar.gz' | sha256sum -c -
+          test -s models/island-survival/solar-boiler/generated-v3/solar-boiler-v3.blend
+          test -s models/island-survival/blender/generated-v9/campfire-v9-animated.blend
+          mkdir -p models/island-survival/solar-boiler/v4
+          tar xzf tools/art/jobs/solar-boiler-v4-wood-sources.tar.gz -C models/island-survival/solar-boiler/v4
+          /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v4/*.py
+          /usr/bin/python3 models/island-survival/solar-boiler/v4/build_solar_boiler_v4.py --self-check
+      - name: Construct timber Solar Boiler V4 and genuine 256px Cycles proof
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          blender -b -t 4 --factory-startup --python-exit-code 1 --python models/island-survival/solar-boiler/v4/build_solar_boiler_v4.py -- --output models/island-survival/solar-boiler/generated-v4 --render pilot --samples 24
+          blender -b -t 4 models/island-survival/solar-boiler/generated-v4/solar-boiler-v4.blend --python-exit-code 1 --python models/island-survival/solar-boiler/v4/verify_solar_boiler_v4.py -- --output models/island-survival/solar-boiler/generated-v4
+          /usr/bin/python3 models/island-survival/solar-boiler/v4/make_proof_sheet.py --output models/island-survival/solar-boiler/generated-v4
+      - name: Publish verified V4 wood model only, no live Factorio sprite attachment
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git branch --show-current)" = "main"
+          /usr/bin/python3 - <<'PY'
+          import json
+          from pathlib import Path
+          out=Path('models/island-survival/solar-boiler/generated-v4')
+          q=json.loads((out/'proof-qa.json').read_text())
+          n=json.loads((out/'native-reopen-qa.json').read_text())
+          assert q['passed'] and n['passed'] and q['actual_blender_views']==24
+          assert q['steam_changed_rgb_pixels']>=18 and n['barrel_staves']==18
+          assert n['wood_plank_conduits']>=60 and len(n['polished_parabolic_wood'])==2
+          assert not q['game_integrated'] and not q['visual_approved']
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- models/island-survival/solar-boiler/v4 models/island-survival/solar-boiler/generated-v4
+          git rm -- tools/art/jobs/solar-boiler-v4-wood-sources.tar.gz
+          git diff --cached --check
+          git diff --cached --quiet && { echo 'No wood-build evidence to publish'; exit 1; }
+          git commit -m 'art(solar-boiler): V4 wooden barrel, plank pipes, polished wood mirrors, feathered relief [skip ci]'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              local_sha="$(git rev-parse HEAD)"
+              remote_sha="$(git ls-remote origin refs/heads/main | cut -f1)"
+              test "$local_sha" = "$remote_sha"
+              echo "SOLAR_V4_WOOD_PROOF_COMMIT_VERIFIED $local_sha"
+              exit 0
+            fi
+            echo "Bounded non-force push retry $attempt"
+          done
+          exit 1
       - name: Retain review and Blender evidence even after failed render
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: factorio-four-way-production-evidence
-          path: models/sprite-production/
+          path: |
+            models/sprite-production/
+            models/island-survival/solar-boiler/generated-v4/
           if-no-files-found: warn

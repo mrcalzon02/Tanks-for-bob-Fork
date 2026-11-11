@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "asset": "solar-boiler",
+  "revision": "v4-wooden-survival-boiler",
+  "state": "source-and-pilot-render-only",
+  "source_v3": "models/island-survival/solar-boiler/generated-v3/solar-boiler-v3.blend",
+  "wood_material_donor": "models/island-survival/blender/generated-v9/campfire-v9-animated.blend",
+  "source_archive": "tools/art/jobs/solar-boiler-v4-wood-sources.tar.gz",
+  "archive_sha256": "0468a76041ec898d523cdc60b5b9725e38434ac647b8f897e557d4a377042574",
+  "output": "models/island-survival/solar-boiler/generated-v4",
+  "proof_views": 24,
+  "pilot_stages": [
+    "4 idle",
+    "4 working",
+    "16 working north",
+    "2 same-frame steam isolation"
+  ],
+  "design_corrections": [
+    "18 bowed wooden barrel staves",
+    "wooden barrel hoops and end caps",
+    "3 large wooden stave pipes",
+    "4 bentwood hot/cold conduits",
+    "2 polished-wood parabolic reflectors from verified V2 geometry",
+    "gentle metallic heating only on focal absorbers",
+    "steam from open relief valve only using 12 noise-feathered volumetric wisps"
+  ],
+  "preserve_native_3x2_ports": true,
+  "save_editable_blend": true,
+  "game_integrated": false,
+  "visual_approved": false
+}
