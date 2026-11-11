@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'models/island-survival/solar-boiler/v7/**'
+      - 'models/island-survival/solar-boiler/v8/**'
   workflow_dispatch:
     inputs:
       job:
@@ -75,23 +75,23 @@ jobs:
           else
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           fi
-      - name: Build and publish corrected Solar Boiler V7 ground-lock animation
+      - name: Build and publish Solar Boiler V8 without concrete floor
         if: github.event_name == 'push'
         run: |
           set -eu
-          python3 models/island-survival/solar-boiler/v7/refine_solar_boiler_v7.py --self-check
+          python3 models/island-survival/solar-boiler/v8/remove_solar_boiler_floor_v8.py --self-check
           blender -b -t 4 --factory-startup --python-exit-code 1 \
-            --python models/island-survival/solar-boiler/v7/refine_solar_boiler_v7.py -- \
-            --output models/island-survival/solar-boiler/generated-v7 --render all --samples 24
-          blender -b -t 4 models/island-survival/solar-boiler/generated-v7/solar-boiler-v7.blend \
-            --python-exit-code 1 --python models/island-survival/solar-boiler/v7/verify_solar_boiler_v7.py -- \
-            --output models/island-survival/solar-boiler/generated-v7
-          /usr/bin/python3 models/island-survival/solar-boiler/v7/make_proof_sheet.py \
-            --output models/island-survival/solar-boiler/generated-v7
+            --python models/island-survival/solar-boiler/v8/remove_solar_boiler_floor_v8.py -- \
+            --output models/island-survival/solar-boiler/generated-v8 --render all --samples 24
+          blender -b -t 4 models/island-survival/solar-boiler/generated-v8/solar-boiler-v8.blend \
+            --python-exit-code 1 --python models/island-survival/solar-boiler/v8/verify_solar_boiler_v8.py -- \
+            --output models/island-survival/solar-boiler/generated-v8
+          /usr/bin/python3 models/island-survival/solar-boiler/v8/make_proof_sheet.py \
+            --output models/island-survival/solar-boiler/generated-v8
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add models/island-survival/solar-boiler/generated-v7/
-          git commit -m 'art(solar-boiler): render grounded V7 4-view Blender review [skip ci]'
+          git add models/island-survival/solar-boiler/generated-v8/
+          git commit -m 'art(solar-boiler): render floorless V8 4-view Blender review [skip ci]'
           git push origin HEAD:main
       - name: Retain review and Blender evidence even after failed render
         if: always()
