@@ -1,0 +1,67 @@
+{
+  "schema": "tanks.solar.v6.native-reopen",
+  "passed": true,
+  "v5_source_sha256": "07528207351c36c2655b064565d9075db6788806ac7fef933e6e0c4c0e25480c",
+  "v6_native_sha256": "28097ac6b89d859e80541694a49b4336077f6cd9f4353442179642c8051ed007",
+  "source_barrel_staves": 18,
+  "source_bentwood_planks": 65,
+  "wood_socket_repairs": 2,
+  "wood_mirrors": 2,
+  "focal_glass_receivers": [
+    {
+      "name": "west",
+      "center": [
+        -0.6600000262260437,
+        0.19657348096370697,
+        1.4448555707931519
+      ],
+      "focus_error_bu": 0.0
+    },
+    {
+      "name": "east",
+      "center": [
+        0.6600000262260437,
+        0.19657348096370697,
+        1.4448555707931519
+      ],
+      "focus_error_bu": 0.0
+    }
+  ],
+  "water_surfaces": 4,
+  "internal_bubbles": 24,
+  "vent_lobes": 12,
+  "independent_vent_sites": 4,
+  "flexed_pipe_staves": 33,
+  "native_pipe_mouths_rigid": [
+    {
+      "id": "water-west",
+      "native_cell": [
+        -1,
+        0.5
+      ],
+      "mating_error_bu": 6.664001874625056e-08
+    },
+    {
+      "id": "water-east",
+      "native_cell": [
+        1,
+        0.5
+      ],
+      "mating_error_bu": 6.664001874625056e-08
+    },
+    {
+      "id": "steam-north",
+      "native_cell": [
+        0,
+        -0.5
+      ],
+      "mating_error_bu": 8.429369702178807e-08
+    }
+  ],
+  "rumble_loop_verified": true,
+  "fixed_camera_verified": true,
+  "source_wrong_above_barrel_glass_hidden": true,
+  "render_count": 68,
+  "visual_approved": false,
+  "game_integrated": false
+}

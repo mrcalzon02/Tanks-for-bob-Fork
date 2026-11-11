@@ -1,0 +1,789 @@
+{
+  "schema": "tanks.solar-boiler.v6.dual-focal-glass-rumble",
+  "native_sha256": "28097ac6b89d859e80541694a49b4336077f6cd9f4353442179642c8051ed007",
+  "v5_source_sha256": "07528207351c36c2655b064565d9075db6788806ac7fef933e6e0c4c0e25480c",
+  "camera": {
+    "name": "FMPL_CAPTURE_CAMERA",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        -0.7071067690849304,
+        -6.0
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304,
+        6.929999828338623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 4.449999809265137,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      256,
+      256
+    ]
+  },
+  "footprint": [
+    3,
+    2
+  ],
+  "fps": 8,
+  "directions": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "frames": [
+    1,
+    7,
+    13,
+    19,
+    25,
+    31,
+    37,
+    43,
+    49,
+    55,
+    61,
+    67,
+    73,
+    79,
+    85,
+    91
+  ],
+  "seam": 97,
+  "glass_receiver_names": [
+    "GLASS V6 | west | optical focal hot-water receiver",
+    "GLASS V6 | east | optical focal hot-water receiver"
+  ],
+  "glass_focus_records": {
+    "west": {
+      "hot_start": [
+        -0.21000003814697266,
+        0.19657348096370697,
+        1.4448555707931519
+      ],
+      "cool_start": [
+        -1.1100000143051147,
+        0.19657348096370697,
+        1.4448555707931519
+      ],
+      "hot_drum": [
+        -0.35,
+        -0.1,
+        1.055
+      ],
+      "cool_drum": [
+        -0.7,
+        -0.1,
+        0.83
+      ]
+    },
+    "east": {
+      "hot_start": [
+        0.21000003814697266,
+        0.19657348096370697,
+        1.4448555707931519
+      ],
+      "cool_start": [
+        1.1100000143051147,
+        0.19657348096370697,
+        1.4448555707931519
+      ],
+      "hot_drum": [
+        0.35,
+        -0.1,
+        1.055
+      ],
+      "cool_drum": [
+        0.7,
+        -0.1,
+        0.83
+      ]
+    }
+  },
+  "bubbles": 24,
+  "menisci": [
+    "FLUID V6 | west | moving real meniscus",
+    "FLUID V6 | west | churning foam crest",
+    "FLUID V6 | east | moving real meniscus",
+    "FLUID V6 | east | churning foam crest"
+  ],
+  "steam_vents": 12,
+  "steam_objects": [
+    "VENT V6 | west | end 0 | soft gas lobe 00",
+    "VENT V6 | west | end 0 | soft gas lobe 01",
+    "VENT V6 | west | end 0 | soft gas lobe 02",
+    "VENT V6 | west | end 1 | soft gas lobe 00",
+    "VENT V6 | west | end 1 | soft gas lobe 01",
+    "VENT V6 | west | end 1 | soft gas lobe 02",
+    "VENT V6 | east | end 0 | soft gas lobe 00",
+    "VENT V6 | east | end 0 | soft gas lobe 01",
+    "VENT V6 | east | end 0 | soft gas lobe 02",
+    "VENT V6 | east | end 1 | soft gas lobe 00",
+    "VENT V6 | east | end 1 | soft gas lobe 01",
+    "VENT V6 | east | end 1 | soft gas lobe 02"
+  ],
+  "old_v5_above_barrel_hidden": 48,
+  "old_absorbers_hidden": [
+    "CONCENTRATOR | west | focal black absorber tube",
+    "CONCENTRATOR | east | focal black absorber tube"
+  ],
+  "rumble_rig": "SHAKE V6 | wooden boiler and two concentrators; sockets station",
+  "flexed_wood_pipe_planks": [
+    "WOOD PIPE V4 | east water inlet | bent stave 00",
+    "WOOD PIPE V4 | east water inlet | bent stave 01",
+    "WOOD PIPE V4 | east water inlet | bent stave 02",
+    "WOOD PIPE V4 | east water inlet | bent stave 03",
+    "WOOD PIPE V4 | east water inlet | bent stave 04",
+    "WOOD PIPE V4 | east water inlet | bent stave 05",
+    "WOOD PIPE V4 | east water inlet | bent stave 06",
+    "WOOD PIPE V4 | east water inlet | bent stave 07",
+    "WOOD PIPE V4 | east water inlet | bent stave 08",
+    "WOOD PIPE V4 | east water inlet | bent stave 09",
+    "WOOD PIPE V4 | east water inlet | bent stave 10",
+    "WOOD PIPE V4 | north steam outlet | bent stave 00",
+    "WOOD PIPE V4 | north steam outlet | bent stave 01",
+    "WOOD PIPE V4 | north steam outlet | bent stave 02",
+    "WOOD PIPE V4 | north steam outlet | bent stave 03",
+    "WOOD PIPE V4 | north steam outlet | bent stave 04",
+    "WOOD PIPE V4 | north steam outlet | bent stave 05",
+    "WOOD PIPE V4 | north steam outlet | bent stave 06",
+    "WOOD PIPE V4 | north steam outlet | bent stave 07",
+    "WOOD PIPE V4 | north steam outlet | bent stave 08",
+    "WOOD PIPE V4 | north steam outlet | bent stave 09",
+    "WOOD PIPE V4 | north steam outlet | bent stave 10",
+    "WOOD PIPE V4 | west water inlet | bent stave 00",
+    "WOOD PIPE V4 | west water inlet | bent stave 01",
+    "WOOD PIPE V4 | west water inlet | bent stave 02",
+    "WOOD PIPE V4 | west water inlet | bent stave 03",
+    "WOOD PIPE V4 | west water inlet | bent stave 04",
+    "WOOD PIPE V4 | west water inlet | bent stave 05",
+    "WOOD PIPE V4 | west water inlet | bent stave 06",
+    "WOOD PIPE V4 | west water inlet | bent stave 07",
+    "WOOD PIPE V4 | west water inlet | bent stave 08",
+    "WOOD PIPE V4 | west water inlet | bent stave 09",
+    "WOOD PIPE V4 | west water inlet | bent stave 10"
+  ],
+  "wood_staves_preserved": 18,
+  "wood_conduit_planks_preserved": 65,
+  "polished_wood_parabolas_preserved": 2,
+  "roof_patches_preserved": 2,
+  "native_port_interfaces_fixed": [
+    "water-west",
+    "water-east",
+    "steam-north"
+  ],
+  "visual_approved": false,
+  "game_integrated": false,
+  "renders": [
+    {
+      "file": "idle-d00.png",
+      "frame": 0,
+      "sha256": "65eae40d977d42f643ee4ca15ddb7b0f70be3a2fa59d606cae78b5a2ac80a3d0",
+      "direction": 0,
+      "state": "idle",
+      "index": 0
+    },
+    {
+      "file": "idle-d01.png",
+      "frame": 0,
+      "sha256": "902fc9ed0df50f3a258a58092a500135609160f7cb9f39c6f724e8b1bad2302a",
+      "direction": 1,
+      "state": "idle",
+      "index": 0
+    },
+    {
+      "file": "idle-d02.png",
+      "frame": 0,
+      "sha256": "f46b187381885f96333fa7fbb2b76ec3a1b70f2cd350e1ab6cc628b2da3915c1",
+      "direction": 2,
+      "state": "idle",
+      "index": 0
+    },
+    {
+      "file": "idle-d03.png",
+      "frame": 0,
+      "sha256": "49d7702af9a97471657d8faedb51fecc6655ba798caefa038528aba423f3a5b4",
+      "direction": 3,
+      "state": "idle",
+      "index": 0
+    },
+    {
+      "file": "working-d00-f000.png",
+      "frame": 1,
+      "sha256": "5c413e8c4e0a28202de279421e451ec10c750d882a4e8da36a05123844763fab",
+      "direction": 0,
+      "state": "working",
+      "index": 0
+    },
+    {
+      "file": "working-d00-f001.png",
+      "frame": 7,
+      "sha256": "c7ae1642cac14e5be451cc07f36af961cd56435c4e4478d2750ad46e36ba5095",
+      "direction": 0,
+      "state": "working",
+      "index": 1
+    },
+    {
+      "file": "working-d00-f002.png",
+      "frame": 13,
+      "sha256": "3a81370f59b7611f393c4dd5c42d205903876e4983c6b0083327d354189c3b3a",
+      "direction": 0,
+      "state": "working",
+      "index": 2
+    },
+    {
+      "file": "working-d00-f003.png",
+      "frame": 19,
+      "sha256": "8bc2acda2f1249ea52193f7c20a5c0381991e4e8745522de23922c76eaf48559",
+      "direction": 0,
+      "state": "working",
+      "index": 3
+    },
+    {
+      "file": "working-d00-f004.png",
+      "frame": 25,
+      "sha256": "3f0f1ddd345e3759d58a8942f2d8ac4e3262923140c9fc2c0673cad5f2d44111",
+      "direction": 0,
+      "state": "working",
+      "index": 4
+    },
+    {
+      "file": "working-d00-f005.png",
+      "frame": 31,
+      "sha256": "80f0e60a7b0715969f99bef2b1c65c15fe901fb408eaaac7336a441fa479c45a",
+      "direction": 0,
+      "state": "working",
+      "index": 5
+    },
+    {
+      "file": "working-d00-f006.png",
+      "frame": 37,
+      "sha256": "d3333f19cc7ff4260b766620c4b81f5024df34cf5c36c1f294de9640fbaf1d8c",
+      "direction": 0,
+      "state": "working",
+      "index": 6
+    },
+    {
+      "file": "working-d00-f007.png",
+      "frame": 43,
+      "sha256": "29f8ad0f6160eb8fc591816f4d26fd7f16ab0ae7851d95c78f8a49045acec571",
+      "direction": 0,
+      "state": "working",
+      "index": 7
+    },
+    {
+      "file": "working-d00-f008.png",
+      "frame": 49,
+      "sha256": "fd63d58525d430a618564fbfb3841ba7eb4ebf1c3bcc785ce7cac537d7bc8534",
+      "direction": 0,
+      "state": "working",
+      "index": 8
+    },
+    {
+      "file": "working-d00-f009.png",
+      "frame": 55,
+      "sha256": "884e804cdaedb7f937bb1dc3a48cdf9e045a27e67a0ddca045298803b65d6db2",
+      "direction": 0,
+      "state": "working",
+      "index": 9
+    },
+    {
+      "file": "working-d00-f010.png",
+      "frame": 61,
+      "sha256": "4a7e5e4a1035e822d8a52595ed75503f091b9fe36e4c359dd1bbda7ce0712585",
+      "direction": 0,
+      "state": "working",
+      "index": 10
+    },
+    {
+      "file": "working-d00-f011.png",
+      "frame": 67,
+      "sha256": "1d0f03ccf328753dec8c521c75a5f650fb6bfaecbf651e9bb1c071ef9487452a",
+      "direction": 0,
+      "state": "working",
+      "index": 11
+    },
+    {
+      "file": "working-d00-f012.png",
+      "frame": 73,
+      "sha256": "732ff7328f57b6f4c774a8bdba201b6c1fbae93864b39ec12d4ae80fabda08fb",
+      "direction": 0,
+      "state": "working",
+      "index": 12
+    },
+    {
+      "file": "working-d00-f013.png",
+      "frame": 79,
+      "sha256": "31f00f13d83967c8406615e7ff995a10c42b48422ec282d95358ba9c62dc5906",
+      "direction": 0,
+      "state": "working",
+      "index": 13
+    },
+    {
+      "file": "working-d00-f014.png",
+      "frame": 85,
+      "sha256": "e2904f7f1b422bf0a37a013b90b234c217788fb4546433c9d0e924dc9b8b9716",
+      "direction": 0,
+      "state": "working",
+      "index": 14
+    },
+    {
+      "file": "working-d00-f015.png",
+      "frame": 91,
+      "sha256": "e63293b9d0a5613d4eb69efbde9060ad1a59f054069c83645eeae86764647b26",
+      "direction": 0,
+      "state": "working",
+      "index": 15
+    },
+    {
+      "file": "working-d01-f000.png",
+      "frame": 1,
+      "sha256": "e5483d48b29ec572b1541cf5084804be6bba8fb34c9bc4281f46cae7eae845f9",
+      "direction": 1,
+      "state": "working",
+      "index": 0
+    },
+    {
+      "file": "working-d01-f001.png",
+      "frame": 7,
+      "sha256": "33fcfd6d45336b3d3d3159efc7b9ba0d6e6655094fe8df7d8aaf883473d205fe",
+      "direction": 1,
+      "state": "working",
+      "index": 1
+    },
+    {
+      "file": "working-d01-f002.png",
+      "frame": 13,
+      "sha256": "faf1f99f88513cf70e73fbf5e2eb2329448b8aefd918482aeb249369e13ef6e6",
+      "direction": 1,
+      "state": "working",
+      "index": 2
+    },
+    {
+      "file": "working-d01-f003.png",
+      "frame": 19,
+      "sha256": "b78e91dc7473b6a9ff872299563275aef0ad75b289d410e04028cf9a96c2d330",
+      "direction": 1,
+      "state": "working",
+      "index": 3
+    },
+    {
+      "file": "working-d01-f004.png",
+      "frame": 25,
+      "sha256": "3d4b6d611ef75dc5ba99727dcf10f6bc2499ea9a2faa9afdced785aaef1b153c",
+      "direction": 1,
+      "state": "working",
+      "index": 4
+    },
+    {
+      "file": "working-d01-f005.png",
+      "frame": 31,
+      "sha256": "0b3099d269d92ed34674b1e02de9effd3734e9020ea76fa06815f01fdb499c3b",
+      "direction": 1,
+      "state": "working",
+      "index": 5
+    },
+    {
+      "file": "working-d01-f006.png",
+      "frame": 37,
+      "sha256": "0ab3d9a4a64630028024672e89346c6e101bcbf81a22439dfa13a9340359f0a5",
+      "direction": 1,
+      "state": "working",
+      "index": 6
+    },
+    {
+      "file": "working-d01-f007.png",
+      "frame": 43,
+      "sha256": "581862d19207f341bcd2c0368c9efd807faeadd3c0e50f9a658c892b70ecce78",
+      "direction": 1,
+      "state": "working",
+      "index": 7
+    },
+    {
+      "file": "working-d01-f008.png",
+      "frame": 49,
+      "sha256": "f43bd205d14479e94b2ba91ed9dbad29e86b38e879c9bee7a49ee1c0101b3090",
+      "direction": 1,
+      "state": "working",
+      "index": 8
+    },
+    {
+      "file": "working-d01-f009.png",
+      "frame": 55,
+      "sha256": "272f8c8bba375d919a8fd8845a1feed4a93980fdeaa929d49e529e18d5c50e9e",
+      "direction": 1,
+      "state": "working",
+      "index": 9
+    },
+    {
+      "file": "working-d01-f010.png",
+      "frame": 61,
+      "sha256": "203744c08f6db51b70c4f19c14067cfd16b55d18e66e41c045324d8da47bf6f4",
+      "direction": 1,
+      "state": "working",
+      "index": 10
+    },
+    {
+      "file": "working-d01-f011.png",
+      "frame": 67,
+      "sha256": "828d889b6868c4467d26070c65e1a9f304ad7c81803a9e5b89d1e9be344d7f48",
+      "direction": 1,
+      "state": "working",
+      "index": 11
+    },
+    {
+      "file": "working-d01-f012.png",
+      "frame": 73,
+      "sha256": "90dee7785d383ba03db01ce5cb0cf7b3c2bb12b686786b98d6f988cb1cf9a61e",
+      "direction": 1,
+      "state": "working",
+      "index": 12
+    },
+    {
+      "file": "working-d01-f013.png",
+      "frame": 79,
+      "sha256": "df48d71ea8f96007c8283637c3940a9f2a9c11682bfe740b48fed8520d1ec0f2",
+      "direction": 1,
+      "state": "working",
+      "index": 13
+    },
+    {
+      "file": "working-d01-f014.png",
+      "frame": 85,
+      "sha256": "8b848518afd2087476737152f2245ccb290bc0e29edfa6cf611d617f62b6feff",
+      "direction": 1,
+      "state": "working",
+      "index": 14
+    },
+    {
+      "file": "working-d01-f015.png",
+      "frame": 91,
+      "sha256": "3b762bd2d7472882b1f9e43431178c57bcb77a58ecb64cdfeb6a49d0846a3791",
+      "direction": 1,
+      "state": "working",
+      "index": 15
+    },
+    {
+      "file": "working-d02-f000.png",
+      "frame": 1,
+      "sha256": "2f4c8d81f3d4d3588b6a701e7fb9a317b598ca80fd02e514a568cef31eea865f",
+      "direction": 2,
+      "state": "working",
+      "index": 0
+    },
+    {
+      "file": "working-d02-f001.png",
+      "frame": 7,
+      "sha256": "21bf4ad0d994f67a2837813bc86361866c3d70d28cc97bf5d337191fe5ee133c",
+      "direction": 2,
+      "state": "working",
+      "index": 1
+    },
+    {
+      "file": "working-d02-f002.png",
+      "frame": 13,
+      "sha256": "f4b5bb471bf544a5110f38c8036e3e79ce492879f38692b92f236fb828ca3c61",
+      "direction": 2,
+      "state": "working",
+      "index": 2
+    },
+    {
+      "file": "working-d02-f003.png",
+      "frame": 19,
+      "sha256": "1ef4a499a6cd3f6039cfef8d454365fc8424e8d66f1de1d9b4cb0415e6680592",
+      "direction": 2,
+      "state": "working",
+      "index": 3
+    },
+    {
+      "file": "working-d02-f004.png",
+      "frame": 25,
+      "sha256": "818bb5f627fa86a3d32e3d35e5f7e84b3b2e1b1f6418d0472c6f28647198a417",
+      "direction": 2,
+      "state": "working",
+      "index": 4
+    },
+    {
+      "file": "working-d02-f005.png",
+      "frame": 31,
+      "sha256": "915b232563963200e36161c75fe8f2de0ec17d28c2b6827a1b72bdbb9f8cb19e",
+      "direction": 2,
+      "state": "working",
+      "index": 5
+    },
+    {
+      "file": "working-d02-f006.png",
+      "frame": 37,
+      "sha256": "bd2ff492f25a9222a5816e94d23b834101a485b428b8142394fdb589b2b91f66",
+      "direction": 2,
+      "state": "working",
+      "index": 6
+    },
+    {
+      "file": "working-d02-f007.png",
+      "frame": 43,
+      "sha256": "1a6cbcfef81bf4ba753187cc6dff94449c525065ef1ca7b40242d31747a409a0",
+      "direction": 2,
+      "state": "working",
+      "index": 7
+    },
+    {
+      "file": "working-d02-f008.png",
+      "frame": 49,
+      "sha256": "2ab183b4b48fafd7567d634c8f3677956d1f96c8610981826c65ba5ecf20903c",
+      "direction": 2,
+      "state": "working",
+      "index": 8
+    },
+    {
+      "file": "working-d02-f009.png",
+      "frame": 55,
+      "sha256": "746cf0825cf22324e9c24642d58ef3c2c755ad145a5fd13d89c4ffe46e4b55fb",
+      "direction": 2,
+      "state": "working",
+      "index": 9
+    },
+    {
+      "file": "working-d02-f010.png",
+      "frame": 61,
+      "sha256": "8e643a83e7d10003741763fedd92f2d89db2a67615bd0e43d0ac256da4292271",
+      "direction": 2,
+      "state": "working",
+      "index": 10
+    },
+    {
+      "file": "working-d02-f011.png",
+      "frame": 67,
+      "sha256": "69d4d035fe6d4d6bfc19c32b947a39c55be8c16a7bf5c54f2095e1032bbcc383",
+      "direction": 2,
+      "state": "working",
+      "index": 11
+    },
+    {
+      "file": "working-d02-f012.png",
+      "frame": 73,
+      "sha256": "023576d655c0213552bb11ec39a1a7ec86b342a5facfe2a496f5db0d46cbe33e",
+      "direction": 2,
+      "state": "working",
+      "index": 12
+    },
+    {
+      "file": "working-d02-f013.png",
+      "frame": 79,
+      "sha256": "d899895e8e7a5106274d6fc191c34dcf937d767745715d906f7622687bf68963",
+      "direction": 2,
+      "state": "working",
+      "index": 13
+    },
+    {
+      "file": "working-d02-f014.png",
+      "frame": 85,
+      "sha256": "736cd63cc39ad89ea587234bddf1eaf2738f6df96c030d94f404c836a146e848",
+      "direction": 2,
+      "state": "working",
+      "index": 14
+    },
+    {
+      "file": "working-d02-f015.png",
+      "frame": 91,
+      "sha256": "48be7822617a9b0edc92089a31b217a1e50d770586fb63a47a1efc050133f058",
+      "direction": 2,
+      "state": "working",
+      "index": 15
+    },
+    {
+      "file": "working-d03-f000.png",
+      "frame": 1,
+      "sha256": "f6b8877828cc8b4f9ad944a56bf13accf4f4be0d1fa1280dcb068b41678b54a8",
+      "direction": 3,
+      "state": "working",
+      "index": 0
+    },
+    {
+      "file": "working-d03-f001.png",
+      "frame": 7,
+      "sha256": "573397ba338d5ae7d92f5457eb69ae1992f6904db7b38647dfa44b36725eb52f",
+      "direction": 3,
+      "state": "working",
+      "index": 1
+    },
+    {
+      "file": "working-d03-f002.png",
+      "frame": 13,
+      "sha256": "1d5a4dd4f74a1cc74aa4006af15906d8bdc9e2a5be2a115e3632ea7bf76767aa",
+      "direction": 3,
+      "state": "working",
+      "index": 2
+    },
+    {
+      "file": "working-d03-f003.png",
+      "frame": 19,
+      "sha256": "f120061121b54e5b168d6c0c5c987e21dda161a54dbe76d983675ab302e37db6",
+      "direction": 3,
+      "state": "working",
+      "index": 3
+    },
+    {
+      "file": "working-d03-f004.png",
+      "frame": 25,
+      "sha256": "c100693132a315e979e3e5c4ca3d5f97124d4e3d3dde08b8a005e25399f9ab1a",
+      "direction": 3,
+      "state": "working",
+      "index": 4
+    },
+    {
+      "file": "working-d03-f005.png",
+      "frame": 31,
+      "sha256": "cb960b030320defad605aae1d2b6df2b98849bf72383b2614000f28cf43a27d9",
+      "direction": 3,
+      "state": "working",
+      "index": 5
+    },
+    {
+      "file": "working-d03-f006.png",
+      "frame": 37,
+      "sha256": "05b2070fdc36c1042f4ecf405dd962069fd3d23075a207d54187eec9a4a13e7d",
+      "direction": 3,
+      "state": "working",
+      "index": 6
+    },
+    {
+      "file": "working-d03-f007.png",
+      "frame": 43,
+      "sha256": "6ad5cb819f22197221e9c6a3cd5d85a04182d7a928ea6cee5be3710cb92ef87e",
+      "direction": 3,
+      "state": "working",
+      "index": 7
+    },
+    {
+      "file": "working-d03-f008.png",
+      "frame": 49,
+      "sha256": "49960ef31d0d4875a397b3b7ff80d5d4c390a2ce1ecce9c9911565be7208af3e",
+      "direction": 3,
+      "state": "working",
+      "index": 8
+    },
+    {
+      "file": "working-d03-f009.png",
+      "frame": 55,
+      "sha256": "3398de55435401f1c12cc130b8aa098a8be22f3dc3a32b2cc81e64693c290380",
+      "direction": 3,
+      "state": "working",
+      "index": 9
+    },
+    {
+      "file": "working-d03-f010.png",
+      "frame": 61,
+      "sha256": "a7478a0d578898a4099b2bf55dd969c2e975aba312e2d15b887f148c5eb24ac6",
+      "direction": 3,
+      "state": "working",
+      "index": 10
+    },
+    {
+      "file": "working-d03-f011.png",
+      "frame": 67,
+      "sha256": "8d0317e7a76e2a2ad5ae5c43fc4c0bc2abd1ff748fb62e48c47be97e5bbda412",
+      "direction": 3,
+      "state": "working",
+      "index": 11
+    },
+    {
+      "file": "working-d03-f012.png",
+      "frame": 73,
+      "sha256": "9d174e4c5a75e7f134b577c3b132f72041348e6e9e3c6c98a626d14e2477b09c",
+      "direction": 3,
+      "state": "working",
+      "index": 12
+    },
+    {
+      "file": "working-d03-f013.png",
+      "frame": 79,
+      "sha256": "dd11198f93dff16b3c8d959d181dc6af788656c61a27237fe5f5209b92983329",
+      "direction": 3,
+      "state": "working",
+      "index": 13
+    },
+    {
+      "file": "working-d03-f014.png",
+      "frame": 85,
+      "sha256": "70f65c02f59105048aa5fd698940810c7dd07f6f999f5c50f099fd8ae854826f",
+      "direction": 3,
+      "state": "working",
+      "index": 14
+    },
+    {
+      "file": "working-d03-f015.png",
+      "frame": 91,
+      "sha256": "cca91b7ab74dd362dc60446a8def9a30834afee1234eb4e0dd57caacb614a8a6",
+      "direction": 3,
+      "state": "working",
+      "index": 15
+    }
+  ],
+  "isolation": {
+    "focal-boil": [
+      {
+        "file": "iso-focal-boil-off.png",
+        "frame": 25,
+        "sha256": "87a0fe9c3a78ec76b0e251ac44a409a656aeed56e2992bbf0282ddd622af920f"
+      },
+      {
+        "file": "iso-focal-boil-on.png",
+        "frame": 25,
+        "sha256": "4462abc1762422a9ec534d078eb2eb816c761962b8f2e54ac9df05d353518822"
+      }
+    ],
+    "focal-steam": [
+      {
+        "file": "iso-focal-steam-off.png",
+        "frame": 13,
+        "sha256": "a10f13c7f0d70602def10248eedf06e0044b40206e674c7bf101025865f039ee"
+      },
+      {
+        "file": "iso-focal-steam-on.png",
+        "frame": 13,
+        "sha256": "a0e37b652dea06c2c6e68e74fda5377f89c8135d6b65bbd20cdefd8a05db1a8d"
+      }
+    ],
+    "body-rumble": [
+      {
+        "file": "iso-body-rumble-off.png",
+        "frame": 25,
+        "sha256": "38e6a2155c4ee7ac125a824c731d2e975b7a4e81223d1b2c8b0770c61725803b"
+      },
+      {
+        "file": "iso-body-rumble-on.png",
+        "frame": 25,
+        "sha256": "042e4e4aef0d66b6706d7be824bf5a4a5814cd38d67a34c51ff324d11a76df2a"
+      }
+    ]
+  },
+  "render_count": 68,
+  "frame97_steam_seam_repair": {
+    "original_native_sha256": "d92ac17073e78c74bcf8d2d24c3ac5c812c4e0e62e0478999fcc3706060d59c7",
+    "corrected_native_sha256": "28097ac6b89d859e80541694a49b4336077f6cd9f4353442179642c8051ed007",
+    "corrected_steam_visibility_keys": 2,
+    "unchanged_blender_sprite_frames": 68,
+    "unchanged_isolation_images": 6,
+    "scope": "Frame 97 closure only; no rendered frames altered"
+  }
+}
