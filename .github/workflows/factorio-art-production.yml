@@ -97,6 +97,23 @@ jobs:
           assert source.count(old)==1
           p.write_text(source.replace(old,new))
           PY
+          # Normalize only trailing whitespace in derived V4 source files
+          # before Git's source-integrity whitespace gate. The native model and
+          # real Blender renders are reused from the previous verified artifact.
+          /usr/bin/python3 - <<'PY'
+          from pathlib import Path
+          source_dir=Path('models/island-survival/solar-boiler/v4')
+          changed=[]
+          for path in sorted(source_dir.iterdir()):
+              if path.suffix not in ('.py','.md','.json'):
+                  continue
+              data=path.read_text()
+              clean='\n'.join(line.rstrip() for line in data.splitlines())+'\n'
+              if clean != data:
+                  path.write_text(clean)
+                  changed.append(path.name)
+          print('SOURCE_TRAILING_WHITESPACE_FIXED',changed,flush=True)
+          PY
           /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v4/*.py
           /usr/bin/python3 models/island-survival/solar-boiler/v4/build_solar_boiler_v4.py --self-check
       - name: Recover successful V4 Blender model and actual 26-render evidence
