@@ -110,7 +110,7 @@ def lua_module(b,ports,cal):
           f'  x=0,y={render_index*2*256},frame_count=16,line_length=8,',
           f'  animation_speed={8/60:.9f},scale={scale:.9f},',
           f'  shift={{{xshift:.9f},{yshift:.9f}}}',
-          '}}}'))
+          '}}'))
     lines.append('boiler.pictures=pictures')
     lines.append('-- Suppress legacy independent boiler layers; full-object V8 art includes all details.')
     lines.append('boiler.structure=nil; boiler.patch=nil; boiler.fire=nil; boiler.fire_glow=nil')
