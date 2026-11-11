@@ -36,3 +36,6 @@ end
 
 -- Accepted Cooking Fire V2: four-direction idle/working art, no gameplay changes.
 require("prototypes.generated_graphics.cooking-fire-v2-production")
+
+-- Approved V8 Solar Boiler; BoilerPictureSet adapter, 3x2 original connections.
+require("prototypes.generated_graphics.solar-boiler-v8-production")

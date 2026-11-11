@@ -1,0 +1,231 @@
+{
+  "schema": "tanks.solar-boiler.v8.engine-candidate",
+  "approved_v8_native_sha256": "c1067b1a4852b23d2e9e00708f1bd81ce6e8c35152cfd2dcbb653bbefeca9b3f",
+  "mod": "tanks_for_bob_fork_1.8.102",
+  "footprint": [
+    3,
+    2
+  ],
+  "source_blender_directions": [
+    0,
+    3,
+    2,
+    1
+  ],
+  "factorio_directions": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "calibration": {
+    "scale256": 0.5562499761581421,
+    "shift": [
+      -0.0,
+      -0.6576091738660637
+    ],
+    "source_pixels_per_tile": 57.52809235339614,
+    "camera_ortho_scale": 4.449999809265137,
+    "normal_resolution_scale128": 1.1124999523162842,
+    "preview_resolution_scale64": 2.2249999046325684,
+    "correction_tiles": [
+      0,
+      0
+    ]
+  },
+  "port_projections": [
+    {
+      "facing": "north",
+      "ports": [
+        {
+          "id": "water-west",
+          "render_direction": 0,
+          "projected_mouth_px": [
+            -48.0,
+            3.1678383255004725
+          ],
+          "native_tile_edge_px": [
+            -48.0,
+            16.0
+          ],
+          "center_distance_px": 12.832161674499527
+        },
+        {
+          "id": "water-east",
+          "render_direction": 0,
+          "projected_mouth_px": [
+            48.0,
+            3.1678383255004725
+          ],
+          "native_tile_edge_px": [
+            48.0,
+            16.0
+          ],
+          "center_distance_px": 12.832161674499527
+        },
+        {
+          "id": "steam-north",
+          "render_direction": 0,
+          "projected_mouth_px": [
+            0.0,
+            -30.77328659057619
+          ],
+          "native_tile_edge_px": [
+            0,
+            -32
+          ],
+          "center_distance_px": 1.2267134094238088
+        }
+      ]
+    },
+    {
+      "facing": "east",
+      "ports": [
+        {
+          "id": "water-west",
+          "render_direction": 3,
+          "projected_mouth_px": [
+            -15.999999999999993,
+            -42.08699489593508
+          ],
+          "native_tile_edge_px": [
+            -16.0,
+            -48.0
+          ],
+          "center_distance_px": 5.913005104064922
+        },
+        {
+          "id": "water-east",
+          "render_direction": 3,
+          "projected_mouth_px": [
+            -16.00000000000001,
+            25.79525493621825
+          ],
+          "native_tile_edge_px": [
+            -16.0,
+            48.0
+          ],
+          "center_distance_px": 22.20474506378175
+        },
+        {
+          "id": "steam-north",
+          "render_direction": 3,
+          "projected_mouth_px": [
+            32.0,
+            -8.145869979858425
+          ],
+          "native_tile_edge_px": [
+            32,
+            0
+          ],
+          "center_distance_px": 8.145869979858425
+        }
+      ]
+    },
+    {
+      "facing": "south",
+      "ports": [
+        {
+          "id": "water-west",
+          "render_direction": 2,
+          "projected_mouth_px": [
+            48.0,
+            -19.459578285217304
+          ],
+          "native_tile_edge_px": [
+            48.0,
+            -16.0
+          ],
+          "center_distance_px": 3.4595782852173045
+        },
+        {
+          "id": "water-east",
+          "render_direction": 2,
+          "projected_mouth_px": [
+            -48.0,
+            -19.459578285217304
+          ],
+          "native_tile_edge_px": [
+            -48.0,
+            -16.0
+          ],
+          "center_distance_px": 3.4595782852173045
+        },
+        {
+          "id": "steam-north",
+          "render_direction": 2,
+          "projected_mouth_px": [
+            0.0,
+            14.481546630859356
+          ],
+          "native_tile_edge_px": [
+            0,
+            32
+          ],
+          "center_distance_px": 17.518453369140644
+        }
+      ]
+    },
+    {
+      "facing": "west",
+      "ports": [
+        {
+          "id": "water-west",
+          "render_direction": 1,
+          "projected_mouth_px": [
+            15.999999999999993,
+            25.79525493621825
+          ],
+          "native_tile_edge_px": [
+            16.0,
+            48.0
+          ],
+          "center_distance_px": 22.20474506378175
+        },
+        {
+          "id": "water-east",
+          "render_direction": 1,
+          "projected_mouth_px": [
+            16.00000000000001,
+            -42.08699489593508
+          ],
+          "native_tile_edge_px": [
+            16.0,
+            -48.0
+          ],
+          "center_distance_px": 5.913005104064922
+        },
+        {
+          "id": "steam-north",
+          "render_direction": 1,
+          "projected_mouth_px": [
+            -32.0,
+            -8.145869979858425
+          ],
+          "native_tile_edge_px": [
+            -32,
+            0
+          ],
+          "center_distance_px": 8.145869979858425
+        }
+      ]
+    }
+  ],
+  "pipe_visual_test": "pending-client-screenshots",
+  "engine_smoke": "pending-engine-execution",
+  "sprite_qa": true,
+  "model_accepted": true,
+  "visual_alignment_accepted": false,
+  "files": {
+    "graphics/entity/solar-boiler-v8/idle-128.png": "ec62ac86798a59bf20a069aae96e16be834b139e1f66f72213db56d3175383ed",
+    "graphics/entity/solar-boiler-v8/idle-256.png": "ca1a2d6706e361cc68ded2528f2a247f336f3dd36f208ea9e8d767969cb5e1c3",
+    "graphics/entity/solar-boiler-v8/idle-64.png": "d8f7ecac8865dac02bf3a35b5eeda924157547384c723d0499a941eb076ef17d",
+    "graphics/entity/solar-boiler-v8/working-128.png": "fcbcdf8a7fb881816e04d242fb8b3c588c70db26ddc79e1f68a8a31d4cdcfeac",
+    "graphics/entity/solar-boiler-v8/working-256.png": "82bfee56d051e0c0ac9f856cf236c785814dee524ceab87e2c1744ee682bbf35",
+    "graphics/entity/solar-boiler-v8/working-64.png": "96df5ce7a1b082c2eb8c9d99a73737d3c3c99288f46b000b5c9fbe8951cb0626"
+  },
+  "module_sha256": "7fa999f9aacae0a06395af73b05b7fa457d5b11cb636270b1ac204eb9f73c814",
+  "stage_loader_sha256": "b725039cbd01084ca225fa206ed5ccf378c31c85d1881237c3e63246616b34d6",
+  "candidate_installed": true,
+  "pipe_overlay_sha256": "fa8ed9f3c9a66b70b155199ebf64d40daec7ba82143b774c75354e17b8b00f1b"
+}
