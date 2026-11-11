@@ -21,7 +21,7 @@
   "calibration": {
     "scale256": 0.5562499761581421,
     "shift": [
-      -0.0,
+      0,
       -0.6576091738660637
     ],
     "source_pixels_per_tile": 57.52809235339614,
@@ -41,12 +41,12 @@
           "id": "water-west",
           "render_direction": 0,
           "projected_mouth_px": [
-            -48.0,
+            -48,
             3.1678383255004725
           ],
           "native_tile_edge_px": [
-            -48.0,
-            16.0
+            -48,
+            16
           ],
           "center_distance_px": 12.832161674499527
         },
@@ -54,12 +54,12 @@
           "id": "water-east",
           "render_direction": 0,
           "projected_mouth_px": [
-            48.0,
+            48,
             3.1678383255004725
           ],
           "native_tile_edge_px": [
-            48.0,
-            16.0
+            48,
+            16
           ],
           "center_distance_px": 12.832161674499527
         },
@@ -67,7 +67,7 @@
           "id": "steam-north",
           "render_direction": 0,
           "projected_mouth_px": [
-            0.0,
+            0,
             -30.77328659057619
           ],
           "native_tile_edge_px": [
@@ -89,8 +89,8 @@
             -42.08699489593508
           ],
           "native_tile_edge_px": [
-            -16.0,
-            -48.0
+            -16,
+            -48
           ],
           "center_distance_px": 5.913005104064922
         },
@@ -102,8 +102,8 @@
             25.79525493621825
           ],
           "native_tile_edge_px": [
-            -16.0,
-            48.0
+            -16,
+            48
           ],
           "center_distance_px": 22.20474506378175
         },
@@ -111,7 +111,7 @@
           "id": "steam-north",
           "render_direction": 3,
           "projected_mouth_px": [
-            32.0,
+            32,
             -8.145869979858425
           ],
           "native_tile_edge_px": [
@@ -129,12 +129,12 @@
           "id": "water-west",
           "render_direction": 2,
           "projected_mouth_px": [
-            48.0,
+            48,
             -19.459578285217304
           ],
           "native_tile_edge_px": [
-            48.0,
-            -16.0
+            48,
+            -16
           ],
           "center_distance_px": 3.4595782852173045
         },
@@ -142,12 +142,12 @@
           "id": "water-east",
           "render_direction": 2,
           "projected_mouth_px": [
-            -48.0,
+            -48,
             -19.459578285217304
           ],
           "native_tile_edge_px": [
-            -48.0,
-            -16.0
+            -48,
+            -16
           ],
           "center_distance_px": 3.4595782852173045
         },
@@ -155,7 +155,7 @@
           "id": "steam-north",
           "render_direction": 2,
           "projected_mouth_px": [
-            0.0,
+            0,
             14.481546630859356
           ],
           "native_tile_edge_px": [
@@ -177,8 +177,8 @@
             25.79525493621825
           ],
           "native_tile_edge_px": [
-            16.0,
-            48.0
+            16,
+            48
           ],
           "center_distance_px": 22.20474506378175
         },
@@ -190,8 +190,8 @@
             -42.08699489593508
           ],
           "native_tile_edge_px": [
-            16.0,
-            -48.0
+            16,
+            -48
           ],
           "center_distance_px": 5.913005104064922
         },
@@ -199,7 +199,7 @@
           "id": "steam-north",
           "render_direction": 1,
           "projected_mouth_px": [
-            -32.0,
+            -32,
             -8.145869979858425
           ],
           "native_tile_edge_px": [
@@ -211,8 +211,8 @@
       ]
     }
   ],
-  "pipe_visual_test": "pending-client-screenshots",
-  "engine_smoke": "pending-engine-execution",
+  "pipe_visual_test": "pending-native-game-client-screen-shots",
+  "engine_smoke": "passed-factorio-2.1.24",
   "sprite_qa": true,
   "model_accepted": true,
   "visual_alignment_accepted": false,
@@ -227,5 +227,15 @@
   "module_sha256": "7fa999f9aacae0a06395af73b05b7fa457d5b11cb636270b1ac204eb9f73c814",
   "stage_loader_sha256": "b725039cbd01084ca225fa206ed5ccf378c31c85d1881237c3e63246616b34d6",
   "candidate_installed": true,
-  "pipe_overlay_sha256": "fa8ed9f3c9a66b70b155199ebf64d40daec7ba82143b774c75354e17b8b00f1b"
+  "pipe_overlay_sha256": "fa8ed9f3c9a66b70b155199ebf64d40daec7ba82143b774c75354e17b8b00f1b",
+  "engine_evidence": {
+    "run": "https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/43120594298",
+    "engine_version": "2.1.24",
+    "exit_code": 0,
+    "passed": true,
+    "connected_ports": 12,
+    "boiler_orientations": 4,
+    "mod_loading": true
+  },
+  "visual_review_issue": "https://github.com/mrcalzon02/Tanks-for-bob-Fork/issues/4"
 }
