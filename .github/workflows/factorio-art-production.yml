@@ -22,6 +22,11 @@ on:
         type: boolean
         required: false
         default: false
+  push:
+    branches: [main]
+    paths:
+      # One bounded request only, never reprocess the previous V5 model.
+      - tools/art/jobs/solar-boiler-v6-proof.json
 
 permissions:
   contents: write
@@ -71,10 +76,100 @@ jobs:
           else
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           fi
+      - name: Preflight V6 source integrity, optical foci and rigid port contract
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo '9445c7375b2f814be496c40d3e2b2ec347725aa7e45d6dd0e19eb704eaa3a858  tools/art/jobs/solar-boiler-v6-sources.tar.gz' | sha256sum -c -
+          test -s models/island-survival/solar-boiler/generated-v5/solar-boiler-v5.blend
+          mkdir -p models/island-survival/solar-boiler/v6
+          tar xzf tools/art/jobs/solar-boiler-v6-sources.tar.gz -C models/island-survival/solar-boiler/v6
+          /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v6/*.py
+          /usr/bin/python3 models/island-survival/solar-boiler/v6/build_solar_boiler_v6.py --self-check
+      - name: Six-effect-image Cycles pilot and native 64px gating before the full 4-way capture
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          blender -b -t 4 --factory-startup --python-exit-code 1 --python models/island-survival/solar-boiler/v6/build_solar_boiler_v6.py -- --output models/island-survival/solar-boiler/pilot-v6 --render proof --samples 24
+          /usr/bin/python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageChops
+          p=Path('models/island-survival/solar-boiler/pilot-v6')
+          def changed(name):
+              with Image.open(p/('iso-'+name+'-off.png')) as a,Image.open(p/('iso-'+name+'-on.png')) as b:
+                  x=a.convert('RGBA');y=b.convert('RGBA')
+                  def delta(im1,im2,n):
+                      d=ImageChops.difference(im1.convert('RGB'),im2.convert('RGB'))
+                      return sum(max(color)>n for color in d.getdata())
+                  return delta(x,y,12),delta(x.resize((64,64),Image.Resampling.LANCZOS),y.resize((64,64),Image.Resampling.LANCZOS),6)
+          required={'focal-boil':(30,3),'focal-steam':(18,2),'body-rumble':(10,1)}
+          for name,(large,small) in required.items():
+              a,b=changed(name)
+              print('SOLAR_V6_REAL_CYCLES_PILOT',name,'changed_rgb_256',a,'changed_rgb_64',b,flush=True)
+              assert a>=large and b>=small,(name,a,b,large,small)
+          for d in range(4):
+              assert (p/f'idle-d{d:02d}.png').is_file()
+              assert (p/f'working-d{d:02d}-f004.png').is_file()
+          print('SOLAR_V6_FOUR_CARDINAL_PILOT_PIXEL_VISIBILITY_PASS',flush=True)
+          PY
+      - name: Render full 4-direction 16-pose Blender cycle and independently verify native pipe anchors
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          blender -b -t 4 --factory-startup --python-exit-code 1 --python models/island-survival/solar-boiler/v6/build_solar_boiler_v6.py -- --output models/island-survival/solar-boiler/generated-v6 --render all --samples 24
+          blender -b -t 4 models/island-survival/solar-boiler/generated-v6/solar-boiler-v6.blend --python-exit-code 1 --python models/island-survival/solar-boiler/v6/verify_solar_boiler_v6.py -- --output models/island-survival/solar-boiler/generated-v6
+          /usr/bin/python3 models/island-survival/solar-boiler/v6/make_proof_sheet.py --output models/island-survival/solar-boiler/generated-v6
+      - name: Commit only independently verified V6 editable model, real 4-way animation and receipts
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git branch --show-current)" = main
+          /usr/bin/python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('models/island-survival/solar-boiler/generated-v6')
+          qa=json.loads((p/'proof-qa.json').read_text())
+          native=json.loads((p/'native-reopen-qa.json').read_text())
+          assert qa['passed'] and native['passed'] and qa['native_reopen']
+          assert qa['actual_blender_views']==68 and qa['effect_isolation_render_count']==6
+          assert len(native['focal_glass_receivers'])==2 and native['internal_bubbles']==24
+          assert native['source_barrel_staves']==18 and native['source_bentwood_planks']==65
+          assert native['wood_socket_repairs']==2 and native['flexed_pipe_staves']==33
+          assert len(native['native_pipe_mouths_rigid'])==3 and native['rumble_loop_verified']
+          assert native['source_wrong_above_barrel_glass_hidden']
+          assert not qa['visual_approved'] and not qa['game_integrated']
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- models/island-survival/solar-boiler/v6 models/island-survival/solar-boiler/generated-v6
+          git rm -- tools/art/jobs/solar-boiler-v6-sources.tar.gz
+          git diff --cached --check
+          git diff --cached --quiet && { echo 'No V6 native source and real captures to publish'; exit 1; }
+          git commit -m 'art(solar-boiler): glass boiling at optical foci and anchor-safe full-body rumble [skip ci]'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              local_sha="$(git rev-parse HEAD)"
+              remote_sha="$(git ls-remote origin refs/heads/main | cut -f1)"
+              test "$local_sha" = "$remote_sha"
+              echo "SOLAR_V6_FOCAL_GLASS_RUMBLE_COMMIT_VERIFIED $local_sha"
+              exit 0
+            fi
+            echo "Bounded nonforce push retry $attempt"
+          done
+          exit 1
       - name: Retain review and Blender evidence even after failed render
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: factorio-four-way-production-evidence
-          path: models/sprite-production/
+          path: |
+            models/sprite-production/
+            models/island-survival/solar-boiler/pilot-v6/
+            models/island-survival/solar-boiler/generated-v6/
           if-no-files-found: warn

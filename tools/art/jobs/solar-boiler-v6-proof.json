@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "asset": "solar-boiler",
+  "revision": "v6-glass-focus-anchored-rumble",
+  "source": "models/island-survival/solar-boiler/generated-v5/solar-boiler-v5.blend",
+  "source_sha256": "07528207351c36c2655b064565d9075db6788806ac7fef933e6e0c4c0e25480c",
+  "source_archive": "tools/art/jobs/solar-boiler-v6-sources.tar.gz",
+  "archive_sha256": "9445c7375b2f814be496c40d3e2b2ec347725aa7e45d6dd0e19eb704eaa3a858",
+  "constraints": {
+    "glass": [
+      "west concentrator true optical focal tube",
+      "east concentrator true optical focal tube"
+    ],
+    "boiling": "24 animated internal bubbles and keyed real meniscus/foam on both foci",
+    "vapor": "intermittent feathered gas from four glass end relief nozzles, never sealed native pipe",
+    "rumble": "whole timber machine including both concentrators, 16 poses, sub 0.022 Blender tile",
+    "fixed_ports": [
+      "water-west",
+      "water-east",
+      "steam-north"
+    ],
+    "connection_flex": "33 anchored planks with zero displacement at outer native pipe mouth",
+    "preserve": [
+      "18 wooden barrel staves",
+      "65 original bentwood planks",
+      "2 repaired wood socket holes",
+      "2 polished wood parabolas",
+      "Campfire wood and FMPL concrete PBR"
+    ],
+    "old_center_accumulator": "hide erroneous V5 above-barrel glass tube; do not delete V5 source"
+  },
+  "output": "models/island-survival/solar-boiler/generated-v6",
+  "expected_blender_views": 68,
+  "pilot_effect_isolation_views": 6,
+  "full_effect_isolation_views": 6,
+  "frame_rate": 8,
+  "source_frame_count": 16,
+  "original_3x2_footprint_preserved": true,
+  "production_model_only": true,
+  "game_integrated": false,
+  "visual_approved": false,
+  "new_workflow": false
+}
