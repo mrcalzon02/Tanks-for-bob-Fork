@@ -18,5 +18,8 @@
   "live_sprite_replacement": false,
   "game_integrated": false,
   "owner_approved": false,
-  "release": false
+  "release": false,
+  "attempt": 1,
+  "requested_run": true,
+  "note": "one bounded proof; no additional workflows, no game sprite attachment"
 }
