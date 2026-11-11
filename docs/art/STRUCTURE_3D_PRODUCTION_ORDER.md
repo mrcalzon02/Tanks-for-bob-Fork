@@ -66,13 +66,38 @@ This is the **survival / manufacturing structures** queue, separate from vehicle
   [Actions run 42922593398](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42922593398)
   is **art/export proof, not gameplay integration, human visual acceptance,
   or a Mod Portal release**.
+- **Solar Boiler V4: predominantly wooden construction approved as technical source, not visually accepted.**
+  Eighteen bowed wooden barrel staves, 65 bent-plank conduit meshes, two polished
+  parabolic wooden reflectors, small retained metal fittings and the approved
+  Campfire wood source shader are committed at
+  `0b91477dd60db8a3ae96aa4c0ef9e68797f92bf0`.
+  This replaced V3's visually rejected glowing copper main vessel, but the old
+  roof gap above the two large pipe-to-barrel junctions remained for V5 repair.
+- **Solar Boiler V5: native glass accumulator/boiling-fluid/wood-joint proof PASSED.**
+  Source commit `bbddbdbd940bef49ad82a2b4c299b20f3745aca3`; actual
+  [Blender proof run 42943111518](https://github.com/mrcalzon02/Tanks-for-bob-Fork/actions/runs/42943111518).
+  The editable V5 derivative retains V4's eighteen barrel staves, 65 bentwood
+  conduit planks and two polished-wood parabolas. It adds an uneven hollow
+  handblown-style glass vessel with true liquid volume, 3 animated meniscus
+  shape keys, moving foam crest and 22 rising bubbles, two individually
+  intermittent end-glass steam jets (7 of 16 frames per side), and two fitted
+  wooden roof patches around the side-barrel pipe bores (radius 0.132 Blender
+  tile unit). The original **three** native metal fluid fittings were
+  independently checked with matching adjacent-pipe face geometry.
+  **Native Blender reopen passed.** Four idle and four working cardinal Cycles
+  views, 16 working north frames at 8 FPS, and four real effect-isolation
+  renders passed; changed RGB pixels at 64px were **28 fluid** and
+  **13 steam**. The V5 proof contact sheet, looping GIF, editable native .blend,
+  and receipts reside under `models/island-survival/solar-boiler/generated-v5/`.
+  Candidate only: user visual review, complete animated cardinal sprite
+  export and Factorio 2.1 game integration are still pending.
 - One-shot art/native push triggers were removed after their scoped jobs;
   the existing single-job manual workflows remain available.
 
-## Production queue (Solar Boiler V2 visual review active; Steam Condenser next)
+## Production queue (Solar Boiler V5 visual review active; Steam Condenser next)
 
 1. **Fish Pond (V1 source/proof complete; awaiting visual approval)** — derived from Clay Pit V4c with one excavated basin, fitted water surface, four 3D swimming fish and editable tail strokes. Native source and eight cardinal proof renders are retained; proceed to complete animated atlases only after visual acceptance. Source: `models/island-survival/fish-pond/v1/build_fish_pond_v1.py`.
-2. **Solar Boiler (V3 full animation technical proof complete; awaiting visual approval and separate live graphics registration)** — V1's flat solar strips were visually rejected; V2 uses curved silver concentrators and focal receiver tubes, four continuous supported hot/cold thermal lines, and the original exact 3x2 three-port prototype geometry. V1 remains as an immutable baseline. V2 source: `models/island-survival/solar-boiler/v2/`; eight renders and editable model: `models/island-survival/solar-boiler/generated-v2/`. Do not export final production atlases or replace live graphics until user acceptance.
+2. **Solar Boiler (V5 wood + glass boiling accumulator pilot proof complete; owner visual acceptance pending)** — V3's copper/steel-dominant form was rejected; V4 rebuilt the barrel, crude bentwood pipes and polished-wood parabolas. V5 adds real translucent glass/liquid, keyed waterline and 22 internal bubbles, alternating twin end vents, and physically repairs the two large timber pipe-socket gaps without obstructing bores. V4 and earlier native sources are preserved. V5 source: `models/island-survival/solar-boiler/v5/`; `.blend`, 4 idle + 4 working cardinal renders, 16 animated north poses and GIF: `models/island-survival/solar-boiler/generated-v5/`. Do not replace live Factorio graphics before owner visual acceptance and full cardinal atlas/native test.
 3. **Steam Condenser (next construction)** — rebuild for the active 3×3 Tanks `assembling-machine/steam-condenser` with north steam input at `(0,-1)` and south water output at `(0,+1)`. Start from reviewed condenser donor hardware and FMPL PBR/pipe fixtures, but do not paste the 2×2 Tech-Priests source wholesale. Create a visibly connected inlet → cooling body → condensate outlet, supported piping, and one 45° four-direction proof.
 4. Primitive Steam-Powered Pump — real piston, rods and 1×2 model with measured north/south connections.
 5. Beach Pump — unique shoreline lifting mechanism rather than inherited offshore pump graphics.
@@ -87,7 +112,7 @@ This is the **survival / manufacturing structures** queue, separate from vehicle
 14. Thinking Hut — timber, basic research tools, light and roof silhouette.
 15. Pondering Hovel — evolved brick research shelter with lamp and chimney.
 
-**Existing advanced model sources, not to rebuild from scratch:** Campfire V12, Clay Pit V4c, Pit Kiln V6, Lumberyard V2b (live ID `growing-plot`), Workbench V7/V8, Cooking Fire V2 (**native 2.1 integration passed**), Fish Pond V1 (**native Blender proof, awaiting visual acceptance**), and Solar Boiler V3 (**parabolic focus plus full gauge/heat/steam animation technically verified; owner visual review pending**). The fish pond uses Clay Pit as a **donor**, not a second sculpt.
+**Existing advanced model sources, not to rebuild from scratch:** Campfire V12, Clay Pit V4c, Pit Kiln V6, Lumberyard V2b (live ID `growing-plot`), Workbench V7/V8, Cooking Fire V2 (**native 2.1 integration passed**), Fish Pond V1 (**native Blender proof, awaiting visual acceptance**), and Solar Boiler V5 (**timber/glass boiling and two end vents technically verified; owner visual review pending**). The fish pond uses Clay Pit as a **donor**, not a second sculpt.
 
 **Exclusions:** The Auto-Cannon Turret is a **Tech-Priests** asset, never a Tanks-for-Bob construction target. Tanks' dormant turret Lua is not a work authorization. Vehicle 3D art is tracked in a separate queue.
 
