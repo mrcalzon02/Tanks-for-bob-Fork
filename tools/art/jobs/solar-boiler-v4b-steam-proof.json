@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "asset": "solar-boiler",
+  "revision": "v4b-feathered-relief-visibility",
+  "source": "models/island-survival/solar-boiler/generated-v4/solar-boiler-v4.blend",
+  "source_sha256": "bb60cb3e42258ca4de9dea8837d6c1f6bc6651e755c44cb4863779907d14d3b2",
+  "archive": "tools/art/jobs/solar-boiler-v4b-steam-sources.tar.gz",
+  "archive_sha256": "199dd2d961b4a24eb7178a49f863ea5f10c7e1a3a13b5ade53d67453e1bf7ce5",
+  "output": "models/island-survival/solar-boiler/generated-v4b",
+  "scope": "only 12 actual noise-feathered gas volumes at open boiler relief; no fixed solid steam spheres",
+  "expected_cycles_views": 24,
+  "steam_visibility_256_min_pixels": 70,
+  "steam_visibility_64_min_pixels": 3,
+  "immutable_wood_barrel_staves": 18,
+  "immutable_wood_conduit_planks": 65,
+  "immutable_timber_parabolic_mirrors": 2,
+  "immutable_standard_pipe_ports": 3,
+  "live_sprite_replacement": false,
+  "game_integrated": false,
+  "owner_approved": false,
+  "release": false
+}
