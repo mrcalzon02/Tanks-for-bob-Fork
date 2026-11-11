@@ -1,0 +1,33 @@
+{
+  "schema": "tanks.solar.v8.actual-cycles-floorless-proof",
+  "passed": true,
+  "real_blender_frames": 68,
+  "directions": 4,
+  "fps": 8,
+  "measured_removed_opaque_pixels_by_direction": [
+    7436,
+    6533,
+    7264,
+    6564
+  ],
+  "contact_sha256": "aee315017efe8e2b73772f4c3c6f3c680646893cb5b1380383571b8ecead4b3f",
+  "comparison_sha256": "763f597e831c404aa2ec74783aa9409d9856dae565524738b5bf7b177ff6da56",
+  "gif_sha256": "0a24f2b241bc0f641e0095f4d91e81a4cc8e03176cd3925299095a4686f0170a",
+  "atlases": {
+    "64": {
+      "idle": "preview-only-solar-v8-idle-64.png",
+      "working": "preview-only-solar-v8-working-64.png"
+    },
+    "128": {
+      "idle": "preview-only-solar-v8-idle-128.png",
+      "working": "preview-only-solar-v8-working-128.png"
+    },
+    "256": {
+      "idle": "preview-only-solar-v8-idle-256.png",
+      "working": "preview-only-solar-v8-working-256.png"
+    }
+  },
+  "preview_only": true,
+  "visual_approved": false,
+  "game_integrated": false
+}
