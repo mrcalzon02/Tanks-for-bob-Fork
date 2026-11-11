@@ -1,0 +1,263 @@
+{
+  "schema": "tanks.solar-boiler.v4.pixel-qa",
+  "passed": true,
+  "native_reopen": true,
+  "actual_blender_views": 24,
+  "cardinal_idle_and_working": 8,
+  "north_working_frames": 16,
+  "working_unique_pixel_frames": 16,
+  "native64_size": [
+    64,
+    64
+  ],
+  "all_alpha_margins_valid": true,
+  "pixel_checks": [
+    {
+      "file": "idle-d00.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "ec36aefa5ca4a2451bd0d4f19dc9525c10b23fe1be95df1ef686cf1232e324f4"
+    },
+    {
+      "file": "idle-d01.png",
+      "bounds": [
+        69,
+        57,
+        185,
+        227
+      ],
+      "sha256": "41f10a561f5d1ad20f20b88fba31831eab424a5a0d32fa61d8aec2f4e7b29650"
+    },
+    {
+      "file": "idle-d02.png",
+      "bounds": [
+        41,
+        97,
+        215,
+        207
+      ],
+      "sha256": "55d9d18a76803e60052f5ea11620fc3bdd37a872e890fd4bd7912876137b8c48"
+    },
+    {
+      "file": "idle-d03.png",
+      "bounds": [
+        71,
+        57,
+        187,
+        227
+      ],
+      "sha256": "1d2b98056e01106c46320e08460cd827f93054742361069136fb4e3d7b5ad8b6"
+    },
+    {
+      "file": "working-d00.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "f202b502678da30aa85d50e13beee0a3177e9aad441e8aa703a758bee3631176"
+    },
+    {
+      "file": "working-d01.png",
+      "bounds": [
+        69,
+        57,
+        185,
+        227
+      ],
+      "sha256": "d5bf8e9d4cef05a87dcbda9201dcc4d78da44d3376d9e42814147c007f20de2e"
+    },
+    {
+      "file": "working-d02.png",
+      "bounds": [
+        41,
+        96,
+        215,
+        207
+      ],
+      "sha256": "2087f5aeaee1e5b86d25b4f9b417888b39689cb912ba0de23c95a45511ed8991"
+    },
+    {
+      "file": "working-d03.png",
+      "bounds": [
+        71,
+        57,
+        187,
+        227
+      ],
+      "sha256": "e921f9768537fe27b3554471e9dcdf1a3782bd8faf04738561aba29cb716cabd"
+    },
+    {
+      "file": "loop-d00-f000.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "f1bf646eefdea86e8ff514f7ca843ab3e5f21df51e7b845b4dfa770964bfabbe"
+    },
+    {
+      "file": "loop-d00-f001.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "24316716ae3593d87e12ca2790a99cd6329b912bd4f4ce2ef3b60e21c6d1ab12"
+    },
+    {
+      "file": "loop-d00-f002.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "5d89a689e76b87be0f6cc90c6a836bf90291255cccabec9fc15a8a4567a93ac7"
+    },
+    {
+      "file": "loop-d00-f003.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "b7d13231b5f3ce752a11505248da4c66914dd26b716410c87f833debf902ea2f"
+    },
+    {
+      "file": "loop-d00-f004.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "e2cfc4718df15362800a7cd40a8ddd9ae4320524119cbbde08c8f554ba74e21f"
+    },
+    {
+      "file": "loop-d00-f005.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "aa7380e654d9a42564ff86c60d4356f196faa48affc4295f32ca52cc419caf90"
+    },
+    {
+      "file": "loop-d00-f006.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "45d2d19aba07c35b02d1769835ffdac3849b3de2a684170429a178c50ad6e8d5"
+    },
+    {
+      "file": "loop-d00-f007.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "f99f9bfd3d6823064220ececee45bfde94f7199f6ee9a5cd87f38956e6cb9d08"
+    },
+    {
+      "file": "loop-d00-f008.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "fb0ac6454a27626a598e2cea5a90a7b83f1a41380cb8445f582091d3f9ec6b3f"
+    },
+    {
+      "file": "loop-d00-f009.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "1147208e458f0ca1a914cc2f757867acce0c139cb41fc1459b64005e1ddf4f67"
+    },
+    {
+      "file": "loop-d00-f010.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "64ec6fd0acf4010647221bcb8a0b868d6216210a901fd3235b44cb082f51f03d"
+    },
+    {
+      "file": "loop-d00-f011.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "a40e489f3b81b1569eea42f81e8fb7dcb9b479eff7097a3b8a2b1429e839f5ad"
+    },
+    {
+      "file": "loop-d00-f012.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "43bf497206adf876734484cab3016e23a5d669956b90f0c000020227d1a29414"
+    },
+    {
+      "file": "loop-d00-f013.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "e958c1320f8b256804781b43024c55a47f1c18048e0321d6ec2c60f357078c2f"
+    },
+    {
+      "file": "loop-d00-f014.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "430111ba8a92c451e2c5f555ee43c2caa9d8d6fa8092b1e1396087c17d19302b"
+    },
+    {
+      "file": "loop-d00-f015.png",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ],
+      "sha256": "bfba70dca9a4f511e84e8a1a00daa2da160e668802bf384aae7793e17199ee91"
+    }
+  ],
+  "proof_sha256": "971814b8d2902794f01d1ed3d761ca81da8fd32c7ce4cb1bc019296b175dfa6a",
+  "gif_sha256": "922bace3ea4f3031067983e1dabe19d8512c27e373cf350fcfeb67c452829ac2",
+  "steam_source": "atmospheric-relief-only",
+  "steam_changed_rgb_pixels": 22,
+  "wood_material_source": "approved campfire packed PBR",
+  "visual_approved": false,
+  "game_integrated": false
+}

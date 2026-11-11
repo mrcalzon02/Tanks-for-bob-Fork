@@ -1,0 +1,156 @@
+{
+  "schema": "tanks.solar-boiler.v4.native-readback",
+  "passed": true,
+  "source_v3_sha256": "299c7fc29308c8f638e60fe316236e15b51a1aea5820b6fafc1ee5389c05cc9e",
+  "native_sha256": "bb60cb3e42258ca4de9dea8837d6c1f6bc6651e755c44cb4863779907d14d3b2",
+  "barrel_staves": 18,
+  "wood_plank_conduits": 65,
+  "wood_models": 113,
+  "polished_parabolic_wood": [
+    {
+      "side": "west",
+      "vertices": 990,
+      "wood_material": "SOLAR V4 | polished wood solar parabolic reflector"
+    },
+    {
+      "side": "east",
+      "vertices": 990,
+      "wood_material": "SOLAR V4 | polished wood solar parabolic reflector"
+    }
+  ],
+  "wood_source_maps_packed": [
+    {
+      "name": "SOLAR V4 | barrel endgrain",
+      "donor": "CF8 | cut | wood 02 | 0",
+      "maps": [
+        "CF7 | endgrain | normal"
+      ]
+    },
+    {
+      "name": "SOLAR V4 | faded bent sapwood",
+      "donor": "CF8 | bark | wood 01 | 1",
+      "maps": [
+        "CF7 | bark | normal"
+      ]
+    },
+    {
+      "name": "SOLAR V4 | polished wood reflector strip",
+      "donor": "CF8 | bark | wood 01 | 1",
+      "maps": [
+        "CF7 | bark | normal"
+      ]
+    },
+    {
+      "name": "SOLAR V4 | polished wood solar parabolic reflector",
+      "donor": "CF8 | cut | wood 02 | 0",
+      "maps": [
+        "CF7 | endgrain | normal"
+      ]
+    },
+    {
+      "name": "SOLAR V4 | scarred timber conduit staves",
+      "donor": "CF8 | bark | wood 01 | 0",
+      "maps": [
+        "CF7 | bark | normal"
+      ]
+    },
+    {
+      "name": "SOLAR V4 | scavenged weathered staves",
+      "donor": "CF8 | bark | wood 01 | 0",
+      "maps": [
+        "CF7 | bark | normal"
+      ]
+    }
+  ],
+  "heated_metal_receivers": [
+    {
+      "side": "west",
+      "emission_range": [
+        0.04500000178813934,
+        0.26499998569488525
+      ]
+    },
+    {
+      "side": "east",
+      "emission_range": [
+        0.04500000178813934,
+        0.26499998569488525
+      ]
+    }
+  ],
+  "gauge_range_degrees": [
+    -29.24264213889836,
+    29.24264213889836
+  ],
+  "steam_wisps": 12,
+  "steam_origin": "open-pressure-relief-nozzle only",
+  "original_steam_source_hidden": true,
+  "copper_drum_hidden": true,
+  "red_jacket_hidden": true,
+  "ports": [
+    {
+      "name": "water-west",
+      "game_cell": [
+        -1,
+        0.5
+      ],
+      "mating_error_bu": 6.664001874625056e-08
+    },
+    {
+      "name": "water-east",
+      "game_cell": [
+        1,
+        0.5
+      ],
+      "mating_error_bu": 6.664001874625056e-08
+    },
+    {
+      "name": "steam-north",
+      "game_cell": [
+        0,
+        -0.5
+      ],
+      "mating_error_bu": 8.429369702178807e-08
+    }
+  ],
+  "camera": {
+    "name": "FMPL_CAPTURE_CAMERA",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        -0.7071067690849304,
+        -6.0
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304,
+        6.929999828338623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 4.449999809265137,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      256,
+      256
+    ]
+  },
+  "render_count": 24,
+  "visual_approved": false,
+  "game_integrated": false
+}
