@@ -43,3 +43,13 @@ on every direction; 64/128/256px atlases are preview-only.
 
 No game sprite substitution, tile occupancy changes or Mod Portal release
 until owner visual approval.
+
+## Render evidence resilience
+
+V8's production run uses the existing single reusable workflow, never a new
+per-asset workflow. The unconditional evidence-upload step now includes
+`generated-v8/`, so the native .blend, genuine Cycles captures, GIF and QA
+receipts remain accessible as a GitHub Actions artifact even if the final
+Git push fails during a GitHub incident. A finished task requires a successful
+run, verified native QA, human-visible proof and a published commit; a merely
+queued run or a documentation-only commit does **not** count as a render.

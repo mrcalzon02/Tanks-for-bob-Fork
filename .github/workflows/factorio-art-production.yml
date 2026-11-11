@@ -98,5 +98,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: factorio-four-way-production-evidence
-          path: models/sprite-production/
+          path: |
+            models/sprite-production/
+            models/island-survival/solar-boiler/generated-v8/
           if-no-files-found: warn
