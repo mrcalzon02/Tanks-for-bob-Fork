@@ -1,0 +1,63 @@
+{
+  "schema": "tanks.solar-boiler.v5.native-reopen",
+  "passed": true,
+  "native_sha256": "07528207351c36c2655b064565d9075db6788806ac7fef933e6e0c4c0e25480c",
+  "v4_source_sha256": "bb60cb3e42258ca4de9dea8837d6c1f6bc6651e755c44cb4863779907d14d3b2",
+  "wood_staves": 18,
+  "wood_conduit_planks": 65,
+  "wood_parabolic_reflectors": 2,
+  "roof_socket_patches": [
+    "WOOD REPAIR V5 | -1 | closed gap above actual side conduit",
+    "WOOD REPAIR V5 | 1 | closed gap above actual side conduit"
+  ],
+  "open_socket_hole_radius": 0.132,
+  "glass_walls_are_thick_3d": true,
+  "glass_transmission": 0.9599999785423279,
+  "liquid_body_vertices": 825,
+  "wave_surface_vertices": 480,
+  "foam_waterline_vertices": 192,
+  "shape_keys": [
+    "Basis",
+    "Roil crest",
+    "Backwash",
+    "Boil pulses"
+  ],
+  "bubbles": 22,
+  "steam_end_lobes": 12,
+  "steam_intervals": {
+    "west": 7,
+    "east": 7
+  },
+  "existing_ports": [
+    {
+      "id": "water-west",
+      "native_cell": [
+        -1,
+        0.5
+      ],
+      "mating_error_bu": 6.664001874625056e-08
+    },
+    {
+      "id": "water-east",
+      "native_cell": [
+        1,
+        0.5
+      ],
+      "mating_error_bu": 6.664001874625056e-08
+    },
+    {
+      "id": "steam-north",
+      "native_cell": [
+        0,
+        -0.5
+      ],
+      "mating_error_bu": 8.429369702178807e-08
+    }
+  ],
+  "camera_unchanged": true,
+  "blender_loop_seam_closed": true,
+  "render_count": 24,
+  "isolation_images": 4,
+  "visual_approved": false,
+  "game_integrated": false
+}

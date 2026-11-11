@@ -1,0 +1,110 @@
+{
+  "schema": "tanks.solar.v5.cycles.proof",
+  "passed": true,
+  "actual_blender_views": 24,
+  "isolation_render_count": 4,
+  "four_directions": [
+    "NORTH",
+    "EAST",
+    "SOUTH",
+    "WEST"
+  ],
+  "fps": 8,
+  "work_frames_per_direction_proven": 16,
+  "real_unique_working_north_frames": 16,
+  "glass_fluid_effect_pixels": {
+    "pixel_changes_256": 237,
+    "pixel_changes_64": 28
+  },
+  "two_end_steam_effect_pixels": {
+    "pixel_changes_256": 159,
+    "pixel_changes_64": 13
+  },
+  "images": [
+    {
+      "file": "idle-d00.png",
+      "sha256": "78abaf8bb2f860dbb47ca97bbbc6e93a53cd937810f42e1e6551ceaa237abdf9",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "idle-d01.png",
+      "sha256": "6c214aa52060008b01e1c03fb0742409b6fa3790bced9bd03b3c3f2865dad6a7",
+      "bounds": [
+        69,
+        57,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "idle-d02.png",
+      "sha256": "09b404b786c29e92b3428319908f1dcb708b9fa58ca7c6ce0d0170cde8cad947",
+      "bounds": [
+        41,
+        89,
+        215,
+        207
+      ]
+    },
+    {
+      "file": "idle-d03.png",
+      "sha256": "72d47a669c450319c94000e639b41c5ace2f4c0209c821414f2163869af87a7d",
+      "bounds": [
+        71,
+        57,
+        187,
+        227
+      ]
+    },
+    {
+      "file": "working-d00.png",
+      "sha256": "e3667ca0388942e22c199ac6c1487cd7d6bd8fcf5e9062085d47e946c5c3c9d8",
+      "bounds": [
+        40,
+        86,
+        216,
+        206
+      ]
+    },
+    {
+      "file": "working-d01.png",
+      "sha256": "e26191179465203562ec05ae338f11d6ad19e8c002e49988cec1e7a95235e47d",
+      "bounds": [
+        69,
+        57,
+        185,
+        227
+      ]
+    },
+    {
+      "file": "working-d02.png",
+      "sha256": "6796377f9d14241098cdefa5e57fc1f27704c70a4d50e256611c35ac96db7655",
+      "bounds": [
+        41,
+        89,
+        215,
+        207
+      ]
+    },
+    {
+      "file": "working-d03.png",
+      "sha256": "2e7cbe0354d6a2a2302546f846ef4c59f8b408d69652bfd323ae99da41223e0d",
+      "bounds": [
+        71,
+        57,
+        187,
+        227
+      ]
+    }
+  ],
+  "proof_sha256": "23b1ae4b853e885a865cd698cfd884bfe224311826404106802e54d430f0cd10",
+  "gif_sha256": "2022bcedabe52d0e78bc27569502ebb60fb1b8752e6eb309350a17d5235e1509",
+  "native_reopen": true,
+  "visual_approved": false,
+  "game_integrated": false
+}

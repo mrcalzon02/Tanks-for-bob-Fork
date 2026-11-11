@@ -1,0 +1,281 @@
+{
+  "schema": "tanks.solar-boiler.v5.glass-liquid.v1",
+  "native_sha256": "07528207351c36c2655b064565d9075db6788806ac7fef933e6e0c4c0e25480c",
+  "v4_source_sha256": "bb60cb3e42258ca4de9dea8837d6c1f6bc6651e755c44cb4863779907d14d3b2",
+  "v4_original_mesh_count": 595,
+  "barrel_staves": 18,
+  "bentwood_pipe_planks": 65,
+  "wood_mirrors": 2,
+  "patched_join_roofs": [
+    "WOOD REPAIR V5 | -1 | closed gap above actual side conduit",
+    "WOOD REPAIR V5 | 1 | closed gap above actual side conduit"
+  ],
+  "glass_accumulator": "GLASS V5 | main visibly imperfect hollow accumulator",
+  "fluid_body": "FLUID V5 | non-flat 3D glass-contained liquid body",
+  "fluid_surface": "FLUID V5 | physically waving liquid meniscus",
+  "waterline_foam": "FOAM V5 | moving three-dimensional waterline crescent",
+  "bubble_count": 22,
+  "steam_vent_lobes": 12,
+  "obsoleted_v4_relief_steam": 12,
+  "glass_properties": {
+    "length": 0.94,
+    "outer_radius": 0.169,
+    "interior_radius": 0.155
+  },
+  "steam_vents": [
+    "west-glass-endcap",
+    "east-glass-endcap"
+  ],
+  "frames": [
+    1,
+    7,
+    13,
+    19,
+    25,
+    31,
+    37,
+    43,
+    49,
+    55,
+    61,
+    67,
+    73,
+    79,
+    85,
+    91
+  ],
+  "loop_seam": 97,
+  "fps": 8,
+  "camera": {
+    "name": "FMPL_CAPTURE_CAMERA",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        -0.7071067690849304,
+        -6.0
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304,
+        6.929999828338623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 4.449999809265137,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      256,
+      256
+    ]
+  },
+  "port_geometry_preserved": [
+    "water-west",
+    "water-east",
+    "steam-north"
+  ],
+  "renders": [
+    {
+      "file": "idle-d00.png",
+      "sha256": "78abaf8bb2f860dbb47ca97bbbc6e93a53cd937810f42e1e6551ceaa237abdf9",
+      "frame": 0,
+      "state": "idle",
+      "yaw": 0
+    },
+    {
+      "file": "idle-d01.png",
+      "sha256": "6c214aa52060008b01e1c03fb0742409b6fa3790bced9bd03b3c3f2865dad6a7",
+      "frame": 0,
+      "state": "idle",
+      "yaw": 90
+    },
+    {
+      "file": "idle-d02.png",
+      "sha256": "09b404b786c29e92b3428319908f1dcb708b9fa58ca7c6ce0d0170cde8cad947",
+      "frame": 0,
+      "state": "idle",
+      "yaw": 180
+    },
+    {
+      "file": "idle-d03.png",
+      "sha256": "72d47a669c450319c94000e639b41c5ace2f4c0209c821414f2163869af87a7d",
+      "frame": 0,
+      "state": "idle",
+      "yaw": 270
+    },
+    {
+      "file": "working-d00.png",
+      "sha256": "e3667ca0388942e22c199ac6c1487cd7d6bd8fcf5e9062085d47e946c5c3c9d8",
+      "frame": 25,
+      "state": "working",
+      "yaw": 0
+    },
+    {
+      "file": "working-d01.png",
+      "sha256": "e26191179465203562ec05ae338f11d6ad19e8c002e49988cec1e7a95235e47d",
+      "frame": 25,
+      "state": "working",
+      "yaw": 90
+    },
+    {
+      "file": "working-d02.png",
+      "sha256": "6796377f9d14241098cdefa5e57fc1f27704c70a4d50e256611c35ac96db7655",
+      "frame": 25,
+      "state": "working",
+      "yaw": 180
+    },
+    {
+      "file": "working-d03.png",
+      "sha256": "2e7cbe0354d6a2a2302546f846ef4c59f8b408d69652bfd323ae99da41223e0d",
+      "frame": 25,
+      "state": "working",
+      "yaw": 270
+    },
+    {
+      "file": "working-north-f000.png",
+      "sha256": "9708fdad0ee25bd0c857319b7c450c961fc34e6c41f5de7ab380d5bdfaf5a9cf",
+      "frame": 1,
+      "sample": 0
+    },
+    {
+      "file": "working-north-f001.png",
+      "sha256": "3b91b595f04949ac647657c350b9ecdc02bf0a6f864dc9a0e3de2289bdf02aac",
+      "frame": 7,
+      "sample": 1
+    },
+    {
+      "file": "working-north-f002.png",
+      "sha256": "cbf46ca506f5c41a1dcfb9cbf9468c0a43bc6e34c9d2e68301c58c7919c23b5f",
+      "frame": 13,
+      "sample": 2
+    },
+    {
+      "file": "working-north-f003.png",
+      "sha256": "c80f3f28e3adee2ff78341d5136e4e2cc1408a1ddd7d4329619c944a7ccb189c",
+      "frame": 19,
+      "sample": 3
+    },
+    {
+      "file": "working-north-f004.png",
+      "sha256": "46cd14889877797c86df1ffd1cb6b64345d094b9516be6e73222ae781b2ef104",
+      "frame": 25,
+      "sample": 4
+    },
+    {
+      "file": "working-north-f005.png",
+      "sha256": "56cd72f8cd73893c3003745806308dba95ce3344cd3a4c59d51c5d019fa518e6",
+      "frame": 31,
+      "sample": 5
+    },
+    {
+      "file": "working-north-f006.png",
+      "sha256": "a7abfacb5587af83647ebe90d595e46f6d677748ccd07aad51a1a2c05c939c65",
+      "frame": 37,
+      "sample": 6
+    },
+    {
+      "file": "working-north-f007.png",
+      "sha256": "d9328e7c3cc97ba37af98f8211726f0880263e6de9330cbf301565105910b1b2",
+      "frame": 43,
+      "sample": 7
+    },
+    {
+      "file": "working-north-f008.png",
+      "sha256": "1c869271bb74dee62d46650df87e6636128b7c0a89c6f6ced88dfcad9b924233",
+      "frame": 49,
+      "sample": 8
+    },
+    {
+      "file": "working-north-f009.png",
+      "sha256": "c32e913718c273a24003100f29f96437f5c4b3561e9ab221192821bee196117d",
+      "frame": 55,
+      "sample": 9
+    },
+    {
+      "file": "working-north-f010.png",
+      "sha256": "671aca45a0d1d6fbd1e1db480bd360642690da910fbe581818361846f73b4aac",
+      "frame": 61,
+      "sample": 10
+    },
+    {
+      "file": "working-north-f011.png",
+      "sha256": "bc0b16a34bb4fdabb0df9db7a8dc7d301c0365ba4ceda929446c23ddedc15cdd",
+      "frame": 67,
+      "sample": 11
+    },
+    {
+      "file": "working-north-f012.png",
+      "sha256": "b558bf42024fd67e3ee7fd760ef8f6b978a2a880c7098bbc06b78d28ffb3dfc8",
+      "frame": 73,
+      "sample": 12
+    },
+    {
+      "file": "working-north-f013.png",
+      "sha256": "d18c6bd3885a4b283ccd4bafd2c9dd221c9d6def9f83d5d21ac43350985de6e3",
+      "frame": 79,
+      "sample": 13
+    },
+    {
+      "file": "working-north-f014.png",
+      "sha256": "11acb7d4b76ff7cf681baabd2a1f8ae6b2df33f91acc4618bfee85c4eb5fada8",
+      "frame": 85,
+      "sample": 14
+    },
+    {
+      "file": "working-north-f015.png",
+      "sha256": "36eee373b079fd53c930e9b50957042e7938f895f1a8dded0840d47b24b37c68",
+      "frame": 91,
+      "sample": 15
+    }
+  ],
+  "isolation": {
+    "fluid": [
+      {
+        "file": "iso-fluid-off.png",
+        "sha256": "d1c16b1e049e5268c71958b87de2344750653496ae1be2532dba3689a875ebad",
+        "frame": 25,
+        "effect": "fluid",
+        "setting": "off"
+      },
+      {
+        "file": "iso-fluid-on.png",
+        "sha256": "80e48544bcc3da282865b49a1d162d18d9bc3f1ff060dba75b131cb125f0d4b6",
+        "frame": 25,
+        "effect": "fluid",
+        "setting": "on"
+      }
+    ],
+    "steam": [
+      {
+        "file": "iso-steam-off.png",
+        "sha256": "9975323ff8b7640861e4b1399e9d9f240596e9113b432454e71fb697b94fd1e1",
+        "frame": 25,
+        "effect": "steam",
+        "setting": "off"
+      },
+      {
+        "file": "iso-steam-on.png",
+        "sha256": "d22e398eaef7233dbaee93262621f55a8b26805c25f574ca1ab95bb9c5727be9",
+        "frame": 25,
+        "effect": "steam",
+        "setting": "on"
+      }
+    ]
+  },
+  "visual_approved": false,
+  "game_integrated": false
+}
