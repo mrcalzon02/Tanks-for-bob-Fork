@@ -27,5 +27,7 @@
   "preserve_native_3x2_ports": true,
   "save_editable_blend": true,
   "game_integrated": false,
-  "visual_approved": false
+  "visual_approved": false,
+  "attempt": 2,
+  "preflight_repair": "Closed loop phase check uses 1e-12 tolerance for floating point sin(2π)"
 }
