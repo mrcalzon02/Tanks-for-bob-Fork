@@ -81,7 +81,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          echo '3f13bfc0827ee2d21975f795fac8ba74b4c7854e7c789ddd5cc3b772d9ad042f  tools/art/jobs/solar-boiler-v5-source.tar.gz' | sha256sum -c -
+          echo '0fceca8b433546244b03f54844be315e62ec9c3564ce9f41a698a0260515f20d  tools/art/jobs/solar-boiler-v5-source.tar.gz' | sha256sum -c -
           test -s models/island-survival/solar-boiler/generated-v4/solar-boiler-v4.blend
           test -s models/island-survival/solar-boiler/generated-v4/build-report.json
           mkdir -p models/island-survival/solar-boiler/v5
