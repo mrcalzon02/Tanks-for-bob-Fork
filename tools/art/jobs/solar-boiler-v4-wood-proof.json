@@ -6,7 +6,7 @@
   "source_v3": "models/island-survival/solar-boiler/generated-v3/solar-boiler-v3.blend",
   "wood_material_donor": "models/island-survival/blender/generated-v8/campfire-v8-animated.blend",
   "source_archive": "tools/art/jobs/solar-boiler-v4-wood-sources.tar.gz",
-  "archive_sha256": "c1f192388016f749da3ccc46c723c22e1344d0a4a9540ab63f69293233cd04b0",
+  "archive_sha256": "1c80875d30a82127a3edb712715ac2ec8b5a42eea87acad09044d4fbca94c6c0",
   "output": "models/island-survival/solar-boiler/generated-v4",
   "proof_views": 24,
   "pilot_stages": [
@@ -28,6 +28,7 @@
   "save_editable_blend": true,
   "game_integrated": false,
   "visual_approved": false,
-  "attempt": 3,
-  "preflight_repair": "Source uses float tolerance and derives approved bark/endgrain shaders from the actual Firewood objects in Campfire V8; do not infer material names"
+  "attempt": 4,
+  "preflight_repair": "Source uses float tolerance and derives approved bark/endgrain shaders from the actual Firewood objects in Campfire V8; do not infer material names",
+  "material_contract": "V8 actual Firewood material: procedural color/grain/roughness + packed tangent normal; not 3 image textures"
 }

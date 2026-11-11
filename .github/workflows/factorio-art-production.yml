@@ -80,7 +80,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          echo 'c1f192388016f749da3ccc46c723c22e1344d0a4a9540ab63f69293233cd04b0  tools/art/jobs/solar-boiler-v4-wood-sources.tar.gz' | sha256sum -c -
+          echo '1c80875d30a82127a3edb712715ac2ec8b5a42eea87acad09044d4fbca94c6c0  tools/art/jobs/solar-boiler-v4-wood-sources.tar.gz' | sha256sum -c -
           test -s models/island-survival/solar-boiler/generated-v3/solar-boiler-v3.blend
           test -s models/island-survival/blender/generated-v8/campfire-v8-animated.blend
           mkdir -p models/island-survival/solar-boiler/v4
