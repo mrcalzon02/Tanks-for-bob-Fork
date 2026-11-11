@@ -40,12 +40,20 @@
   "game_integrated": false,
   "visual_approved": false,
   "new_workflow": false,
-  "attempt": 4,
+  "attempt": 5,
   "repair": {
-    "issue": "V4 timber staves have a curved cross-section, so an absolute X/Y extremum anchors only one vertex; 33 staves failed physical socket ring count",
-    "corrected_model": "lock first 4 cross-section vertices and first 12.5% longitudinal segments, smoothstep bending farther toward wooden barrel",
-    "qa": "native .blend reopen verifies full stave anchor ring local shape-key equality and world-space immobility at frames 0,1,25,49,73,91,97; all three real Factorio ports remain fixed"
+    "issue": "Each individual steam lobe used a modulo-3 visibility condition that did not wrap at index 16 (frame 97)",
+    "corrected_source": "all steam phase gates use k%16, including modulo-3 flutter, with self-check for each of the 12 lobe closure states",
+    "native_fix": "patch only the 12 gas visibility keyframes at unrendered frame 97; preserve all 68 genuine Cycles frame hashes, 6 isolation frame hashes and anchored V6 geometry",
+    "qa": "independent saved native Blender reopen still requires all original three Factorio sockets and the entire fixed V4 timber cross-sections to have zero world-space drift"
   },
-  "recovery": null,
+  "recovery": {
+    "run_id": 42987410872,
+    "artifact_id": 13840840309,
+    "render_count": 68,
+    "effect_isolations": 6,
+    "exact_glass_boiling_and_rumble_source_preserved": true,
+    "no_rerender": true
+  },
   "full_rerender_from_corrected_native_source": true
 }
