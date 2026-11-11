@@ -84,30 +84,35 @@ jobs:
           set -euo pipefail
           echo 'f655b33333829c52a58f0495ea17936056c410ea714d8f4fc25882b889c1bbe2  tools/art/jobs/solar-boiler-v6-sources.tar.gz' | sha256sum -c -
           test -s models/island-survival/solar-boiler/generated-v5/solar-boiler-v5.blend
-          mkdir -p models/island-survival/solar-boiler/v6
-          tar xzf tools/art/jobs/solar-boiler-v6-sources.tar.gz -C models/island-survival/solar-boiler/v6
+          test -s models/island-survival/solar-boiler/v6/build_solar_boiler_v6.py
+          test -s models/island-survival/solar-boiler/v6/verify_solar_boiler_v6.py
           /usr/bin/python3 -m py_compile models/island-survival/solar-boiler/v6/*.py
           /usr/bin/python3 models/island-survival/solar-boiler/v6/build_solar_boiler_v6.py --self-check
-      - name: Recover saved native V6 Blender and 52 validated north/east/south frames
-        if: github.event_name == 'push'
-        uses: actions/download-artifact@v4
-        with:
-          name: factorio-four-way-production-evidence
-          run-id: 42952067863
-          github-token: ${{ github.token }}
-          path: models
-      - name: Render full 4-direction 16-pose Blender cycle and independently verify native pipe anchors
+      - name: Pilot real Cycles visibility and 64px effects before full 4-way export
         if: github.event_name == 'push'
         shell: bash
         run: |
           set -euo pipefail
-          V6=models/island-survival/solar-boiler
-          test -s "$V6/generated-v6/solar-boiler-v6.blend"
-          blender -b -t 4 "$V6/generated-v6/solar-boiler-v6.blend" --python-exit-code 1 --python "$V6/v6/resume_capture_v6.py" -- --output "$V6/generated-v6" --direction 3
-          for effect in focal-boil focal-steam body-rumble; do
-            blender -b -t 4 "$V6/generated-v6/solar-boiler-v6.blend" --python-exit-code 1 --python "$V6/v6/resume_capture_v6.py" -- --output "$V6/generated-v6" --effect "$effect"
-          done
-          blender -b -t 4 "$V6/generated-v6/solar-boiler-v6.blend" --python-exit-code 1 --python "$V6/v6/resume_capture_v6.py" -- --output "$V6/generated-v6" --audit
+          blender -b -t 4 --factory-startup --python-exit-code 1 --python models/island-survival/solar-boiler/v6/build_solar_boiler_v6.py -- --output models/island-survival/solar-boiler/pilot-v6 --render proof --samples 24
+          /usr/bin/python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageChops
+          p=Path('models/island-survival/solar-boiler/pilot-v6')
+          for effect,minimum in [('focal-boil',(30,3)),('focal-steam',(18,2)),('body-rumble',(10,1))]:
+              with Image.open(p/f'iso-{effect}-off.png') as aa,Image.open(p/f'iso-{effect}-on.png') as bb:
+                  a=aa.convert('RGB');b=bb.convert('RGB')
+                  def diff(a,b,t):return sum(max(pixel)>t for pixel in ImageChops.difference(a,b).getdata())
+                  large=diff(a,b,12)
+                  small=diff(a.resize((64,64),Image.Resampling.LANCZOS),b.resize((64,64),Image.Resampling.LANCZOS),6)
+                  print('SOLAR_V6_FIXED_SOCKET_REAL_PIXEL_GATE',effect,large,small,flush=True)
+                  assert large>=minimum[0] and small>=minimum[1],(effect,large,small)
+          PY
+      - name: Render full four-direction V6 and independently verify pipe geometry and rumble
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          set -euo pipefail
+          blender -b -t 4 --factory-startup --python-exit-code 1 --python models/island-survival/solar-boiler/v6/build_solar_boiler_v6.py -- --output models/island-survival/solar-boiler/generated-v6 --render all --samples 24
           blender -b -t 4 models/island-survival/solar-boiler/generated-v6/solar-boiler-v6.blend --python-exit-code 1 --python models/island-survival/solar-boiler/v6/verify_solar_boiler_v6.py -- --output models/island-survival/solar-boiler/generated-v6
           /usr/bin/python3 models/island-survival/solar-boiler/v6/make_proof_sheet.py --output models/island-survival/solar-boiler/generated-v6
       - name: Commit only independently verified V6 editable model, real 4-way animation and receipts

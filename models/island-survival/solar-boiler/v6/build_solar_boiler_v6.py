@@ -307,17 +307,27 @@ def anchor_flex(bpy,root,work_group):
         kz=obj.shape_key_add(name='V6 local flex vertical')
         ky.slider_min=kz.slider_min=-1.0
         ky.slider_max=kz.slider_max=1.0
-        # The original V4 plank meshes are not positioned exactly at their
-        # nominal control-point coordinate: their baked dimensions and bend
-        # spline vary. Determine each actual socket-side outermost ring from
-        # THIS MESH, so the whole ring remains anchored without a guess.
+        # V4 path_samples creates two longitudinal vertices per section and
+        # two radial layers. The exterior socket is the entire FIRST section,
+        # NOT one absolute-coordinate extremum (which varies across a bend).
+        # Each timber stave therefore has FOUR immutable socket-end vertices.
+        vertex_count=len(obj.data.vertices)
+        if vertex_count%4 or vertex_count<16:
+            raise RuntimeError(('Unexpected V4 bentwood stave topology',name,vertex_count))
+        sections=vertex_count//4
         edge=max(v.co.y for v in obj.data.vertices) if north else max(abs(v.co.x) for v in obj.data.vertices)
-        obj['v6_socket_anchor_edge']=float(edge)
+        obj['v6_socket_anchor_edge']=float(edge)  # measured reference only
         obj['v6_socket_anchor_axis']='Y north' if north else 'X west-east'
+        obj['v6_socket_anchor_indices']=[0,1,2*sections,2*sections+1]
+        obj['v6_socket_lock_fraction']=0.125
         for i,vert in enumerate(obj.data.vertices):
-            # Skin at the real outermost pipe ring stays exactly stationary.
-            distance=(edge-vert.co.y) if north else (edge-abs(vert.co.x))
-            weight=min(1.,max(0.,distance/(.37 if north else .40)))
+            # Source layout is [outer 2*sections, inner 2*sections].
+            # Hold the first 12.5% rigid, then smoothly ramp flex toward the
+            # pressure barrel. No world-space flange or exposed pipe mouth moves.
+            section=(i%(2*sections))//2
+            u=section/(sections-1)
+            ramp=min(1.,max(0.,(u-.125)/.625))
+            weight=ramp*ramp*(3.-2.*ramp)
             dy=.014*weight
             dz=.010*weight
             ky.data[i].co.x+=dy if north else 0.

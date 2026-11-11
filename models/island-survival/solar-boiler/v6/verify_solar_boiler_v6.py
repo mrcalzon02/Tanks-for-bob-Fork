@@ -97,21 +97,35 @@ def check(output):
         basis=keys.key_blocks['V6 original fixed socket']
         lat=keys.key_blocks['V6 local flex lateral']
         vert=keys.key_blocks['V6 local flex vertical']
-        north='north steam outlet' in obj.name
-        edge=float(obj['v6_socket_anchor_edge'])
-        measured=max(v.co.y for v in basis.data) if north else max(abs(v.co.x) for v in basis.data)
-        assert abs(measured-edge)<1e-5,(obj.name,measured,edge)
+        vertex_count=len(basis.data)
+        assert vertex_count%4==0 and vertex_count>=16,(obj.name,vertex_count)
+        sections=vertex_count//4
+        required=[0,1,2*sections,2*sections+1]
+        assert list(obj['v6_socket_anchor_indices'])==required,(obj.name,'anchor topology')
+        assert abs(float(obj['v6_socket_lock_fraction'])-.125)<1e-7
         fixed=0
         deform=0
         for i,v in enumerate(basis.data):
-            at_port=abs((v.co.y if north else abs(v.co.x))-edge)<1e-5
+            row=(i%(2*sections))//2
+            u=row/(sections-1)
             diff=max((v.co-lat.data[i].co).length,(v.co-vert.data[i].co).length)
-            if at_port:
+            if u<=.125+1e-8:
                 assert diff<1e-6,(obj.name,i,diff)
                 fixed+=1
             elif diff>.0001:
                 deform+=1
         assert fixed>=4 and deform>0,(obj.name,fixed,deform)
+        # True world-space proof at the entire outer timber socket end, not
+        # just zero shape-key weights or a stationary Factorio port object.
+        def evaluated_end(frame):
+            s.frame_set(frame);bpy.context.view_layer.update()
+            ob=obj.evaluated_get(bpy.context.evaluated_depsgraph_get())
+            return [ob.matrix_world@ob.data.vertices[i].co for i in required]
+        baseline=evaluated_end(0)
+        for frame in (1,25,49,73,91,97):
+            actual=evaluated_end(frame)
+            residual=max((a-b).length for a,b in zip(actual,baseline))
+            assert residual<1e-6,(obj.name,'socket world drift',frame,residual)
     s.frame_set(1)
     start=group.location.copy()
     s.frame_set(CLOSE)
