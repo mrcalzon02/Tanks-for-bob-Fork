@@ -57,5 +57,5 @@ script.on_nth_tick(30,function()
   end
   ensure(connected==12,"expected 12 total pipe connections, got "..connected)
   log("SOLAR_BOILER_V8_NATIVE_ENGINE_PIPE_PASS direction_count=4 pipe_connections=12")
-  game.write_file("solar-boiler-v8-native-runtime.txt","SOLAR_BOILER_V8_NATIVE_ENGINE_PIPE_PASS connections=12\n",false)
+  -- Factorio 2.1 removed game.write_file; the engine log marker is the test receipt.
 end)
