@@ -29,5 +29,7 @@
   "live_game_changes": false,
   "release": false,
   "visual_approved": false,
-  "workflow_policy": "one existing reusable art workflow; temporary push hook removed after completion"
+  "workflow_policy": "one existing reusable art workflow; temporary push hook removed after completion",
+  "attempt": 2,
+  "preflight_fix": "Workflow YAML list indentation corrected; valid seven named steps and one checkout in the existing single job"
 }
