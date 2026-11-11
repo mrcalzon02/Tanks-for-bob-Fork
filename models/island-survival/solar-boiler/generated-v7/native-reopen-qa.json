@@ -1,0 +1,23 @@
+{
+  "schema": "tanks.solar.v7.native-reopen-qa",
+  "passed": true,
+  "v6_source_sha256": "28097ac6b89d859e80541694a49b4336077f6cd9f4353442179642c8051ed007",
+  "v7_native_sha256": "fcce7ece30cfaff0933ccff2c7d750c93f92e08157085bc2721f5b07ef1694f4",
+  "grounded_mesh_count": 31,
+  "max_ground_vertex_drift_bu": 0.0,
+  "max_socket_vertex_drift_bu": 0.0,
+  "max_upper_motion_bu": 0.00977192655912711,
+  "locked_native_ports": [
+    "water-west",
+    "water-east",
+    "steam-north"
+  ],
+  "focal_glass_receivers": 2,
+  "real_boiling_bubbles": 24,
+  "steam_lobes": 12,
+  "flexed_pipe_staves": 33,
+  "real_blender_frames": 68,
+  "render_complete": true,
+  "visual_approved": false,
+  "game_integrated": false
+}

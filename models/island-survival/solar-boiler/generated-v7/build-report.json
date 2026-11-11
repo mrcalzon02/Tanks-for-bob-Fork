@@ -1,0 +1,715 @@
+{
+  "schema": "tanks.solar-boiler.v7.ground-locked-restrained-rumble",
+  "native_sha256": "fcce7ece30cfaff0933ccff2c7d750c93f92e08157085bc2721f5b07ef1694f4",
+  "v6_source_sha256": "28097ac6b89d859e80541694a49b4336077f6cd9f4353442179642c8051ed007",
+  "camera": {
+    "name": "FMPL_CAPTURE_CAMERA",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        -0.7071067690849304,
+        -6.0
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304,
+        6.929999828338623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 4.449999809265137,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      256,
+      256
+    ]
+  },
+  "footprint": [
+    3,
+    2
+  ],
+  "fps": 8,
+  "directions": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "frames": [
+    1,
+    7,
+    13,
+    19,
+    25,
+    31,
+    37,
+    43,
+    49,
+    55,
+    61,
+    67,
+    73,
+    79,
+    85,
+    91
+  ],
+  "seam": 97,
+  "rumble_rig": "SHAKE V7 | upper wooden machine and focal glass, base static",
+  "grounded_objects": [
+    "CONCENTRATOR | west | load-bearing collector saddle extension",
+    "CONCENTRATOR | east | load-bearing collector saddle extension",
+    "FMPL | 3x2 ferrocrete continuous equipment pad",
+    "FMPL | laid exterior concrete paver",
+    "FMPL | laid exterior concrete paver.001",
+    "FMPL | laid exterior concrete paver.002",
+    "FMPL | laid exterior concrete paver.003",
+    "FMPL | laid exterior concrete paver.004",
+    "FMPL | laid exterior concrete paver.005",
+    "FMPL | laid exterior concrete paver.006",
+    "FMPL | laid exterior concrete paver.007",
+    "FMPL | laid exterior concrete paver.008",
+    "FMPL | laid exterior concrete paver.009",
+    "SOLAR | diagonal collector cage brace",
+    "SOLAR | diagonal collector cage brace.001",
+    "SOLAR | load-bearing angled steel array support",
+    "SOLAR | load-bearing angled steel array support.001",
+    "SOLAR | load-bearing angled steel array support.002",
+    "SOLAR | load-bearing angled steel array support.003",
+    "SUPPORT | boiler cast seating plinth",
+    "SUPPORT | boiler cast seating plinth.001",
+    "SUPPORT | boiler cast seating plinth.002",
+    "SUPPORT | boiler cast seating plinth.003",
+    "SUPPORT | rusted steel saddle shoe",
+    "SUPPORT | rusted steel saddle shoe.001",
+    "SUPPORT | rusted steel saddle shoe.002",
+    "SUPPORT | rusted steel saddle shoe.003",
+    "WOOD V4 | shaped barrel seating cradle",
+    "WOOD V4 | shaped barrel seating cradle.001",
+    "WOOD V4 | shaped barrel seating cradle.002",
+    "WOOD V4 | shaped barrel seating cradle.003"
+  ],
+  "fixed_ground_count": 31,
+  "flexed_wood_pipe_planks": [
+    "WOOD PIPE V4 | east water inlet | bent stave 00",
+    "WOOD PIPE V4 | east water inlet | bent stave 01",
+    "WOOD PIPE V4 | east water inlet | bent stave 02",
+    "WOOD PIPE V4 | east water inlet | bent stave 03",
+    "WOOD PIPE V4 | east water inlet | bent stave 04",
+    "WOOD PIPE V4 | east water inlet | bent stave 05",
+    "WOOD PIPE V4 | east water inlet | bent stave 06",
+    "WOOD PIPE V4 | east water inlet | bent stave 07",
+    "WOOD PIPE V4 | east water inlet | bent stave 08",
+    "WOOD PIPE V4 | east water inlet | bent stave 09",
+    "WOOD PIPE V4 | east water inlet | bent stave 10",
+    "WOOD PIPE V4 | north steam outlet | bent stave 00",
+    "WOOD PIPE V4 | north steam outlet | bent stave 01",
+    "WOOD PIPE V4 | north steam outlet | bent stave 02",
+    "WOOD PIPE V4 | north steam outlet | bent stave 03",
+    "WOOD PIPE V4 | north steam outlet | bent stave 04",
+    "WOOD PIPE V4 | north steam outlet | bent stave 05",
+    "WOOD PIPE V4 | north steam outlet | bent stave 06",
+    "WOOD PIPE V4 | north steam outlet | bent stave 07",
+    "WOOD PIPE V4 | north steam outlet | bent stave 08",
+    "WOOD PIPE V4 | north steam outlet | bent stave 09",
+    "WOOD PIPE V4 | north steam outlet | bent stave 10",
+    "WOOD PIPE V4 | west water inlet | bent stave 00",
+    "WOOD PIPE V4 | west water inlet | bent stave 01",
+    "WOOD PIPE V4 | west water inlet | bent stave 02",
+    "WOOD PIPE V4 | west water inlet | bent stave 03",
+    "WOOD PIPE V4 | west water inlet | bent stave 04",
+    "WOOD PIPE V4 | west water inlet | bent stave 05",
+    "WOOD PIPE V4 | west water inlet | bent stave 06",
+    "WOOD PIPE V4 | west water inlet | bent stave 07",
+    "WOOD PIPE V4 | west water inlet | bent stave 08",
+    "WOOD PIPE V4 | west water inlet | bent stave 09",
+    "WOOD PIPE V4 | west water inlet | bent stave 10"
+  ],
+  "glass_receiver_names": [
+    "GLASS V6 | west | optical focal hot-water receiver",
+    "GLASS V6 | east | optical focal hot-water receiver"
+  ],
+  "steam_objects": [
+    "VENT V6 | west | end 0 | soft gas lobe 00",
+    "VENT V6 | west | end 0 | soft gas lobe 01",
+    "VENT V6 | west | end 0 | soft gas lobe 02",
+    "VENT V6 | west | end 1 | soft gas lobe 00",
+    "VENT V6 | west | end 1 | soft gas lobe 01",
+    "VENT V6 | west | end 1 | soft gas lobe 02",
+    "VENT V6 | east | end 0 | soft gas lobe 00",
+    "VENT V6 | east | end 0 | soft gas lobe 01",
+    "VENT V6 | east | end 0 | soft gas lobe 02",
+    "VENT V6 | east | end 1 | soft gas lobe 00",
+    "VENT V6 | east | end 1 | soft gas lobe 01",
+    "VENT V6 | east | end 1 | soft gas lobe 02"
+  ],
+  "native_port_interfaces_fixed": [
+    "water-west",
+    "water-east",
+    "steam-north"
+  ],
+  "preserved_visual_design": "V6 glass, steam, reflectors, barrel, pipe locations",
+  "visual_approved": false,
+  "game_integrated": false,
+  "renders": [
+    {
+      "file": "idle-d00.png",
+      "frame": 0,
+      "sha256": "2dae1247d30bdb5e87f4740a49a56d4be434fdeb2254f205abb040e23dcf7683",
+      "direction": 0,
+      "state": "idle",
+      "index": -1
+    },
+    {
+      "file": "idle-d01.png",
+      "frame": 0,
+      "sha256": "9ec35b3bc4490271b68368f6f52d205aa3d3ddc8ff75c11261da102417cdf34d",
+      "direction": 1,
+      "state": "idle",
+      "index": -1
+    },
+    {
+      "file": "idle-d02.png",
+      "frame": 0,
+      "sha256": "71a3c89e435970e7368f847e70fe211d22760063bb4234f4c35a2bd69ae8d837",
+      "direction": 2,
+      "state": "idle",
+      "index": -1
+    },
+    {
+      "file": "idle-d03.png",
+      "frame": 0,
+      "sha256": "c5da08aac89b58cf7ffe8db3831fa8cc997d1cef183bbab8cacd6a9316f2692b",
+      "direction": 3,
+      "state": "idle",
+      "index": -1
+    },
+    {
+      "file": "working-d00-f000.png",
+      "frame": 1,
+      "sha256": "f82f35ed38c19ff461689507571320400190bcde42d1f5812ef7486b442f84e3",
+      "direction": 0,
+      "state": "working",
+      "index": 0
+    },
+    {
+      "file": "working-d00-f001.png",
+      "frame": 7,
+      "sha256": "c57258e2bae7ca85b39800e94d7d578920f4c58ff169a81730babab1ef134a59",
+      "direction": 0,
+      "state": "working",
+      "index": 1
+    },
+    {
+      "file": "working-d00-f002.png",
+      "frame": 13,
+      "sha256": "5408d95c44fd7cdd9ed85590a3e9b2ce6fe940e5e4a91da032dfa7c2904ede04",
+      "direction": 0,
+      "state": "working",
+      "index": 2
+    },
+    {
+      "file": "working-d00-f003.png",
+      "frame": 19,
+      "sha256": "ad6ca47e09d819d156d2103d1f5ad82b0474b13219f9ab953cbc3090b2eb07a5",
+      "direction": 0,
+      "state": "working",
+      "index": 3
+    },
+    {
+      "file": "working-d00-f004.png",
+      "frame": 25,
+      "sha256": "374eaf56adcd9f4641e25cdb8499cc237e9d15fb8c3b667561e0255754d5abe7",
+      "direction": 0,
+      "state": "working",
+      "index": 4
+    },
+    {
+      "file": "working-d00-f005.png",
+      "frame": 31,
+      "sha256": "bd32d1f19e8970670dec4f987c0e1f3a7c70758e5c0ccda2751a884d0684f6dc",
+      "direction": 0,
+      "state": "working",
+      "index": 5
+    },
+    {
+      "file": "working-d00-f006.png",
+      "frame": 37,
+      "sha256": "8943247425cc6415b36c8451440ba5fab2300ae4342681bf7fcb903610637503",
+      "direction": 0,
+      "state": "working",
+      "index": 6
+    },
+    {
+      "file": "working-d00-f007.png",
+      "frame": 43,
+      "sha256": "7b19b133faf335e831e44a1d55f5577731b8e200f0582459b3899bd233c79b97",
+      "direction": 0,
+      "state": "working",
+      "index": 7
+    },
+    {
+      "file": "working-d00-f008.png",
+      "frame": 49,
+      "sha256": "a4cb1366b4c7520f3aa790e83d5115b585a12aa7af1a37ffd85f2696fe0313cf",
+      "direction": 0,
+      "state": "working",
+      "index": 8
+    },
+    {
+      "file": "working-d00-f009.png",
+      "frame": 55,
+      "sha256": "db5a9d9e1c0026e33068a806ce3aab7d39cc404ce7d5766607c52312d8b17a76",
+      "direction": 0,
+      "state": "working",
+      "index": 9
+    },
+    {
+      "file": "working-d00-f010.png",
+      "frame": 61,
+      "sha256": "5ef5712ba10384338fe639df90337aa3820c5f7409ac3cfb2a29a5e4217e5e13",
+      "direction": 0,
+      "state": "working",
+      "index": 10
+    },
+    {
+      "file": "working-d00-f011.png",
+      "frame": 67,
+      "sha256": "06513db9744f6d059b31b4ed1f75bd1aec7f5b7e6b182e52d0c741873ceb4b52",
+      "direction": 0,
+      "state": "working",
+      "index": 11
+    },
+    {
+      "file": "working-d00-f012.png",
+      "frame": 73,
+      "sha256": "df9ac6aa35037da848e04da891239be4cd308495f86ab1d0b7c831c76f93c6ee",
+      "direction": 0,
+      "state": "working",
+      "index": 12
+    },
+    {
+      "file": "working-d00-f013.png",
+      "frame": 79,
+      "sha256": "34e469fc37b128f303cd88a6766d0220cfced7ec64b29d53b2a3bdc03a2e4be2",
+      "direction": 0,
+      "state": "working",
+      "index": 13
+    },
+    {
+      "file": "working-d00-f014.png",
+      "frame": 85,
+      "sha256": "bdcdba3bc78e8f8a40eb9bd5f8431530b49303e06be48ef48e8bdebeb76f335c",
+      "direction": 0,
+      "state": "working",
+      "index": 14
+    },
+    {
+      "file": "working-d00-f015.png",
+      "frame": 91,
+      "sha256": "5a8bf079695026da1fe6e34bb28cb26a311d9b075672962971bbc7fbe4a988b7",
+      "direction": 0,
+      "state": "working",
+      "index": 15
+    },
+    {
+      "file": "working-d01-f000.png",
+      "frame": 1,
+      "sha256": "d325be438deb6f8fb0b444a1a7bd2924edcea03f020ca67f311855d2b382e1d1",
+      "direction": 1,
+      "state": "working",
+      "index": 0
+    },
+    {
+      "file": "working-d01-f001.png",
+      "frame": 7,
+      "sha256": "ab1335b2dbd472eb0d0b4127e5e87a2f0070e6b1653782d005dae4ffc84e927a",
+      "direction": 1,
+      "state": "working",
+      "index": 1
+    },
+    {
+      "file": "working-d01-f002.png",
+      "frame": 13,
+      "sha256": "8be78ec6da9c6c50511d936a581242d18afe66e47a9e6f0575cb10cf7f97d207",
+      "direction": 1,
+      "state": "working",
+      "index": 2
+    },
+    {
+      "file": "working-d01-f003.png",
+      "frame": 19,
+      "sha256": "8eb5fb58368fe29870fa0361470c8692ed84f821906e5e038092082489a99445",
+      "direction": 1,
+      "state": "working",
+      "index": 3
+    },
+    {
+      "file": "working-d01-f004.png",
+      "frame": 25,
+      "sha256": "cd5e99ea2caa97d840185c7eaa99d0a859c84bd89fa1fa0d94a0d9c8830a5c6e",
+      "direction": 1,
+      "state": "working",
+      "index": 4
+    },
+    {
+      "file": "working-d01-f005.png",
+      "frame": 31,
+      "sha256": "6905299a8efc603ef536e6bf61b681fd465b5b96b111952cb81fec132d54d47d",
+      "direction": 1,
+      "state": "working",
+      "index": 5
+    },
+    {
+      "file": "working-d01-f006.png",
+      "frame": 37,
+      "sha256": "2157db75c91bc94c554ed442fceeca7a42653505bf33f033ef04a9a1815e44d0",
+      "direction": 1,
+      "state": "working",
+      "index": 6
+    },
+    {
+      "file": "working-d01-f007.png",
+      "frame": 43,
+      "sha256": "8f0ab5a92031f3a33bb81f98b78a03119495a18921273a59fe99faf33c3925f5",
+      "direction": 1,
+      "state": "working",
+      "index": 7
+    },
+    {
+      "file": "working-d01-f008.png",
+      "frame": 49,
+      "sha256": "43fe6135113312b82632e401299919b4c776ff194b2ad7d57f34a96c978fa70a",
+      "direction": 1,
+      "state": "working",
+      "index": 8
+    },
+    {
+      "file": "working-d01-f009.png",
+      "frame": 55,
+      "sha256": "bb0a2452540399bf99f22df011b8714d79c6dba3d63c8f547b4c4b58adf310e5",
+      "direction": 1,
+      "state": "working",
+      "index": 9
+    },
+    {
+      "file": "working-d01-f010.png",
+      "frame": 61,
+      "sha256": "04bf86d089e434629a66e860d142d84af57a7d266bf56ea8a6e1c96e4461fc8a",
+      "direction": 1,
+      "state": "working",
+      "index": 10
+    },
+    {
+      "file": "working-d01-f011.png",
+      "frame": 67,
+      "sha256": "84643a52b2581547e0882e093e06b27c592ee6574ed71dfe94f4ea5361ad85a8",
+      "direction": 1,
+      "state": "working",
+      "index": 11
+    },
+    {
+      "file": "working-d01-f012.png",
+      "frame": 73,
+      "sha256": "386f9ff58d61df24e51663aaab297dff05d3a56feb67a56e8e5b7fd9c9d73d27",
+      "direction": 1,
+      "state": "working",
+      "index": 12
+    },
+    {
+      "file": "working-d01-f013.png",
+      "frame": 79,
+      "sha256": "42fcd26697f628762150dbdd01001ff48c7c26a8b6e8908a4afbb82d70715d16",
+      "direction": 1,
+      "state": "working",
+      "index": 13
+    },
+    {
+      "file": "working-d01-f014.png",
+      "frame": 85,
+      "sha256": "bd287b40880f5056c1fc4a2ac62d3bcc20755f3acee1d56d486fe9c536894037",
+      "direction": 1,
+      "state": "working",
+      "index": 14
+    },
+    {
+      "file": "working-d01-f015.png",
+      "frame": 91,
+      "sha256": "497af2a6ffaca20a464bf3f937a75d0ae77f88be83a1158382453846122c31a8",
+      "direction": 1,
+      "state": "working",
+      "index": 15
+    },
+    {
+      "file": "working-d02-f000.png",
+      "frame": 1,
+      "sha256": "aab0c51ab9bd993301d90e78ba850d9c5d9840d032967d77b2e70f7b84669db4",
+      "direction": 2,
+      "state": "working",
+      "index": 0
+    },
+    {
+      "file": "working-d02-f001.png",
+      "frame": 7,
+      "sha256": "1aa1c0288ba17365a1a7e6ba75d25a90f2bff2d65d51163fbbbe9ec845a02d2b",
+      "direction": 2,
+      "state": "working",
+      "index": 1
+    },
+    {
+      "file": "working-d02-f002.png",
+      "frame": 13,
+      "sha256": "c909f2a3b2b872362d811f712c1fd6a1dd57a916ff7a65d4d82b614ecc04ffdf",
+      "direction": 2,
+      "state": "working",
+      "index": 2
+    },
+    {
+      "file": "working-d02-f003.png",
+      "frame": 19,
+      "sha256": "f23957bc1bfa01d32b743030cc670a59d7145d6b1b1ce591f67b47c7f2081abf",
+      "direction": 2,
+      "state": "working",
+      "index": 3
+    },
+    {
+      "file": "working-d02-f004.png",
+      "frame": 25,
+      "sha256": "fa3c0a6afc124bbf32b6490d81a38c05ab751a1b2cb7e0a02113958761b64c82",
+      "direction": 2,
+      "state": "working",
+      "index": 4
+    },
+    {
+      "file": "working-d02-f005.png",
+      "frame": 31,
+      "sha256": "731ba97ef9b1c2b67c019562224134ed2bd14c2f51bb126984cea4e00a8f94e3",
+      "direction": 2,
+      "state": "working",
+      "index": 5
+    },
+    {
+      "file": "working-d02-f006.png",
+      "frame": 37,
+      "sha256": "4cc7f6c5dedd27c39cd9a1b95d296a87d3b829734a2a14df22980f822f691b26",
+      "direction": 2,
+      "state": "working",
+      "index": 6
+    },
+    {
+      "file": "working-d02-f007.png",
+      "frame": 43,
+      "sha256": "7523f204a01c375388a91d93eacd5d99986974c6809ee97ca5f97801e005ec98",
+      "direction": 2,
+      "state": "working",
+      "index": 7
+    },
+    {
+      "file": "working-d02-f008.png",
+      "frame": 49,
+      "sha256": "a23d471ffed2f25cfff98acac58a9b0849d70ba84b4837fb13501d341ab9bd96",
+      "direction": 2,
+      "state": "working",
+      "index": 8
+    },
+    {
+      "file": "working-d02-f009.png",
+      "frame": 55,
+      "sha256": "1d6f947fe40f9c89e1ba9cea839ac4f4013a387e73208d83ea4418b8bb28788c",
+      "direction": 2,
+      "state": "working",
+      "index": 9
+    },
+    {
+      "file": "working-d02-f010.png",
+      "frame": 61,
+      "sha256": "df53761cbc62eb506f7575d339afbb2d5bb998f019baca61e8ebcfcd728aa48f",
+      "direction": 2,
+      "state": "working",
+      "index": 10
+    },
+    {
+      "file": "working-d02-f011.png",
+      "frame": 67,
+      "sha256": "d5b1e089bbc42e871e6f4f8838b9f899499de7374b6c17de17511c1a3cfd274f",
+      "direction": 2,
+      "state": "working",
+      "index": 11
+    },
+    {
+      "file": "working-d02-f012.png",
+      "frame": 73,
+      "sha256": "e71fa2ae8aec9ee9a2c368d69e986b3776bc74bc131092b514c68c511f477287",
+      "direction": 2,
+      "state": "working",
+      "index": 12
+    },
+    {
+      "file": "working-d02-f013.png",
+      "frame": 79,
+      "sha256": "0671b33a157cef9c995a392a99494b439dde4ed0ea5eaddc89dc627552c49c16",
+      "direction": 2,
+      "state": "working",
+      "index": 13
+    },
+    {
+      "file": "working-d02-f014.png",
+      "frame": 85,
+      "sha256": "620a62a339ae94a382cbc37c3a43927ddf253f851d55b14a18adc6c8a99a74db",
+      "direction": 2,
+      "state": "working",
+      "index": 14
+    },
+    {
+      "file": "working-d02-f015.png",
+      "frame": 91,
+      "sha256": "84d25af745b82844a4fbaaf748d080211b88b5d57a077961f844a9a0b32f5bfc",
+      "direction": 2,
+      "state": "working",
+      "index": 15
+    },
+    {
+      "file": "working-d03-f000.png",
+      "frame": 1,
+      "sha256": "0f83a13aa1ecd0ebdd8a42ac72c4af047cc2b376e1bef1ee7aabd76d981f1c49",
+      "direction": 3,
+      "state": "working",
+      "index": 0
+    },
+    {
+      "file": "working-d03-f001.png",
+      "frame": 7,
+      "sha256": "521a10f8faa26564d27cca26ed5cc1cb63a32d4030c35aba67a0775d8cefccae",
+      "direction": 3,
+      "state": "working",
+      "index": 1
+    },
+    {
+      "file": "working-d03-f002.png",
+      "frame": 13,
+      "sha256": "9a1a130aee7044a5193c490dec8cf5d5da4062af8d7b93490066bfbe64bdf99c",
+      "direction": 3,
+      "state": "working",
+      "index": 2
+    },
+    {
+      "file": "working-d03-f003.png",
+      "frame": 19,
+      "sha256": "3c42d78834690ede3cc06113b85b6c3fd1935fd49a7a917dd0d4b8d213517291",
+      "direction": 3,
+      "state": "working",
+      "index": 3
+    },
+    {
+      "file": "working-d03-f004.png",
+      "frame": 25,
+      "sha256": "e654ce534a1bec4332796c86e441deee4ed970160d4f61524cc1a0f7a2f7dbb4",
+      "direction": 3,
+      "state": "working",
+      "index": 4
+    },
+    {
+      "file": "working-d03-f005.png",
+      "frame": 31,
+      "sha256": "92dced82469b234a44d3196e4404f0993e6ed8548dd73bbdea175eea89037d46",
+      "direction": 3,
+      "state": "working",
+      "index": 5
+    },
+    {
+      "file": "working-d03-f006.png",
+      "frame": 37,
+      "sha256": "1cd41ae07dadf564df90b942461cb9b5716e1782b4cc7687f03cfd205afb6aa5",
+      "direction": 3,
+      "state": "working",
+      "index": 6
+    },
+    {
+      "file": "working-d03-f007.png",
+      "frame": 43,
+      "sha256": "f40d19a62affa396806d8e8282d0c8c740da4b03474106e310f1387217c74dc2",
+      "direction": 3,
+      "state": "working",
+      "index": 7
+    },
+    {
+      "file": "working-d03-f008.png",
+      "frame": 49,
+      "sha256": "e75899c06f64d9745287c80fb9fc61e13baa7a8358c960eaf75d5728ce2c159f",
+      "direction": 3,
+      "state": "working",
+      "index": 8
+    },
+    {
+      "file": "working-d03-f009.png",
+      "frame": 55,
+      "sha256": "0b4b4f62199b303570fd7f1502c01f1b0f73d61b0ce5b1a82360324247242ac3",
+      "direction": 3,
+      "state": "working",
+      "index": 9
+    },
+    {
+      "file": "working-d03-f010.png",
+      "frame": 61,
+      "sha256": "814c191c8f7ef12ea7665fe1edc213400df38f7f07f0a972fdfe9929a7fadcce",
+      "direction": 3,
+      "state": "working",
+      "index": 10
+    },
+    {
+      "file": "working-d03-f011.png",
+      "frame": 67,
+      "sha256": "8492bdb91c9be25e7f9db8773c2f3ecb10cae9f6e9493e9f16e34f7b25dc9c7f",
+      "direction": 3,
+      "state": "working",
+      "index": 11
+    },
+    {
+      "file": "working-d03-f012.png",
+      "frame": 73,
+      "sha256": "9ddb56f73f208feedc2ad88c3e11a76b78e501ce06f7ca0b9f0dca236b79f991",
+      "direction": 3,
+      "state": "working",
+      "index": 12
+    },
+    {
+      "file": "working-d03-f013.png",
+      "frame": 79,
+      "sha256": "40f0777b4c91b5037850aea5e027c7c8468eb100d2c3eaaba147d5f1698c6188",
+      "direction": 3,
+      "state": "working",
+      "index": 13
+    },
+    {
+      "file": "working-d03-f014.png",
+      "frame": 85,
+      "sha256": "cb90248847aa1564390191068e0adf1569bace91a70e58facc2eba9a20b4932b",
+      "direction": 3,
+      "state": "working",
+      "index": 14
+    },
+    {
+      "file": "working-d03-f015.png",
+      "frame": 91,
+      "sha256": "ce4a83f420308669d1e0ecefd630972637bac58796d32678b62cc0bd783930b5",
+      "direction": 3,
+      "state": "working",
+      "index": 15
+    }
+  ],
+  "render_count": 68
+}

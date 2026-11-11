@@ -1,0 +1,27 @@
+{
+  "schema": "tanks.solar.v7.actual-cycles-proof",
+  "passed": true,
+  "frames": 68,
+  "directions": 4,
+  "fps": 8,
+  "preview_only": true,
+  "review_four_directions_sha256": "28cd8e2b4c718d36104597b6ac87c5deb705dad3857034225230c3fac8b58935",
+  "real_before_after_sha256": "037cb3ecec9372bd746f8797ce2bee89ef4076d29fc7df2ca0b56de9efbd7237",
+  "four_direction_gif_sha256": "c9951857baedc9d3d6b3c523c6bf4e569c40b5b460a5512f4748e27cb7a49a12",
+  "atlases": {
+    "64": {
+      "idle": "preview-only-solar-v7-idle-64.png",
+      "working": "preview-only-solar-v7-working-64.png"
+    },
+    "128": {
+      "idle": "preview-only-solar-v7-idle-128.png",
+      "working": "preview-only-solar-v7-working-128.png"
+    },
+    "256": {
+      "idle": "preview-only-solar-v7-idle-256.png",
+      "working": "preview-only-solar-v7-working-256.png"
+    }
+  },
+  "visual_approved": false,
+  "game_integrated": false
+}
