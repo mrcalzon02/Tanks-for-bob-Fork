@@ -24,7 +24,9 @@ def sha(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 def blob_sha(path):
-    data=Path(path).read_bytes()
+    # Windows Git working trees can apply CRLF while the canonical Git blob is LF.
+    # Canonicalize only line endings before checking the immutable V1 Git blob SHA.
+    data=Path(path).read_bytes().replace(b"\r\n",b"\n")
     return hashlib.sha1(b"blob "+str(len(data)).encode()+b"\x00"+data).hexdigest()
 
 def source():
