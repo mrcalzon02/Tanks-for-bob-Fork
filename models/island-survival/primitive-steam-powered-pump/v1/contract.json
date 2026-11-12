@@ -1,0 +1,104 @@
+{
+  "schema": "tanks.primitive-steam-pump.v1.native-contract",
+  "entity_type": "pump",
+  "entity_name": "primitive-steam-powered-pump",
+  "footprint_tiles": [
+    1,
+    2
+  ],
+  "tile_scale_bu": 1,
+  "gameplay_locked": true,
+  "source_of_truth": "tanks_for_bob_fork_1.8.102/prototypes/entity/entities.lua",
+  "native_connections": [
+    {
+      "id": "outlet-north",
+      "flow_direction": "output",
+      "native_position": [
+        0,
+        -0.75
+      ],
+      "native_direction": "north",
+      "blender_joint": [
+        0,
+        1,
+        0.36
+      ],
+      "fixture_facing": "N"
+    },
+    {
+      "id": "inlet-south",
+      "flow_direction": "input",
+      "native_position": [
+        0,
+        0.75
+      ],
+      "native_direction": "south",
+      "blender_joint": [
+        0,
+        -1,
+        0.36
+      ],
+      "fixture_facing": "S"
+    }
+  ],
+  "note": "Prototype native coordinates are +/-0.75, not +/-1; fitted external mouths lie at the +/-1 tile perimeter. Never change gameplay plumbing to fit art.",
+  "fixture": {
+    "path": "models/reference/factorio-fluid-interface/factorio-fluid-interface-reference.blend",
+    "sha256": "af6d1d74f0439b327b0b4e496386aa35fdac0859c177b55707dbfb5243e691ca",
+    "standard": "factorio-fluid-interface-v1",
+    "collar_diameter_bu": 0.68,
+    "bore_diameter_bu": 0.49,
+    "center_height_bu": 0.36
+  },
+  "fmpl_pbr_donor": {
+    "path": "models/island-survival/solar-boiler/generated-v8/solar-boiler-v8.blend",
+    "sha256": "c1067b1a4852b23d2e9e00708f1bd81ce6e8c35152cfd2dcbb653bbefeca9b3f",
+    "material_match": "ferrocrete",
+    "restriction": "Only approved packed materials imported; no donor geometry"
+  },
+  "capture": {
+    "camera": [
+      0,
+      -6,
+      6.93
+    ],
+    "elevation_degrees": 45,
+    "ortho_scale": 3.85,
+    "resolution": [
+      256,
+      256
+    ],
+    "fixed_yaws": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "fps": 8,
+    "frames": [
+      1,
+      7,
+      13,
+      19,
+      25,
+      31,
+      37,
+      43,
+      49,
+      55,
+      61,
+      67,
+      73,
+      79,
+      85,
+      91
+    ],
+    "seam": 97
+  },
+  "output_status": {
+    "art_source": "candidate",
+    "native_rendered": false,
+    "approved": false,
+    "game_integrated": false
+  }
+}
