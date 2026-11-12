@@ -133,5 +133,26 @@
     "source": "pending actual Blender build",
     "human_visual": false,
     "native_game_graphics_installed": false
+  },
+  "offshore_water_behavior": {
+    "mode": "world-shoreline-fluid-generation",
+    "not_a_pipe_to_pipe_pump": true,
+    "shoreline_water_required": true,
+    "fluid": "water",
+    "source_native_offset": [
+      0,
+      -1
+    ],
+    "single_south_output_native_position": [
+      0,
+      0.25
+    ],
+    "pumping_speed_units_per_tick": 0.01,
+    "pumping_speed_units_per_second_at_60_tps": 0.6,
+    "vanilla_reference_units_per_second_at_normal_quality": 1200,
+    "nominal_slower_factor": 2000,
+    "no_fuel_or_electricity": true,
+    "invariant_test": "ci/beach_pump_offshore_audit.lua",
+    "native_map_shoreline_production_verified": false
   }
 }

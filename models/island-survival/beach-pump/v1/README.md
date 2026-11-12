@@ -35,3 +35,18 @@ blender -b --factory-startup --python-exit-code 1 \
 The [full 68-frame Blender source/atlas run](https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43262584206) **passed**. It produced 4 idle and 64 genuine Cycles working frames, validated in a separate native Blender source reopening, and 6 SHA-256-checked 64/128/256 pixel state atlases. All [candidate PNG sprites and receipts](../generated-v1-full/) are committed. The exact [full-run native Blender master](../generated-v1-full/NATIVE-SOURCE.md) is also GitHub-versioned in 12 byte-preserving source parts with a one-command SHA-256-checked reconstruction script. Gameplay and graphics registration remain unchanged.
 
 Do not alter the live beachpump `OffshorePumpGraphicsSet` or the original native water output connection before separate game-client art acceptance.
+
+## Critical functionality: real offshore water source, not a transfer pump
+
+`beachpump` **creates water from the shoreline tile** as an
+`offshore-pump` and feeds the pipe network connected to its one south output.
+It does not draw water from an upstream pipe and must not become an
+`assembling-machine` or an ordinary `pump` merely to accommodate the mesh.
+Keep the original `fluid_source_offset={0,-1}`, output position
+`{0,+0.25}`, `fluid="water"`, and void-powered operating behavior.
+The intentionally tiny existing extraction rate is **0.01 water/tick = 0.6
+water/second**, versus normal-quality vanilla **1200 water/second**.
+This is approximately **2,000× slower**; do not "normalize" the production
+rate during graphics integration. The native data-stage check is
+`ci/beach_pump_offshore_audit.lua`, executed by the existing Factorio suite.
+A true shoreline placement/pipe-filling test still needs an actual game run.

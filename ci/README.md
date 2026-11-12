@@ -100,3 +100,20 @@ The classified 8 November audit and before/after inventories are in
 a deterministic versioned ZIP and a SHA-256 file. It verifies archive contents
 against source and refuses to overwrite an existing package. It does not
 upload, retag or publish anything.
+
+## Beach Pump offshore-water extraction invariant
+
+The original Beach Pump is **not** a regular pipe-to-pipe pump. It must remain
+`offshore-pump/beachpump`: it generates water from the adjacent shoreline
+(`fluid_source_offset = {0,-1}`) and outputs to the connected south-facing pipe.
+Its existing `pumping_speed = 0.01` is **per tick** (0.6 water/sec at 60 TPS),
+versus vanilla's 20 units/tick (1200/sec) at normal quality — 2,000x slower.
+It needs no electrical or fuel supply (`energy_source.type = "void"`).
+
+The official one-job Factorio 2.1 data-stage suite now calls
+`ci/beach_pump_offshore_audit.lua` through its **disposable staged mod copy**.
+It rejects replacement with an ordinary `pump`, a pipe input, changed
+shoreline extraction, disabled output, or a substantial speed increase.
+A passing run emits `[TANKS-CI] BEACH_PUMP_OFFSHORE_PASS`. Source-only
+or Blender-only tests are not sufficient evidence for actual map water extraction;
+shoreline placement and downstream flow also require native in-world verification.
