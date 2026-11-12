@@ -1,0 +1,194 @@
+{
+  "schema": "tanks.beach-pump.v2.archimedes-native-blender",
+  "native_sha256": "ee9c9ba560f8b28a580c7307e642f1f6c420627a3165131a0c4f6b53987d0646",
+  "donor_builder_blob_sha1": "8e71744515f81968b7769b0076ed21f8b21ea5f7",
+  "footprint": [
+    1,
+    1
+  ],
+  "shoreline_selection": [
+    [
+      -0.6,
+      -1.49
+    ],
+    [
+      0.6,
+      0.49
+    ]
+  ],
+  "native_offshore": {
+    "prototype_type": "offshore-pump",
+    "prototype_name": "beachpump",
+    "fluid": "water",
+    "shoreline_source_offset": [
+      0,
+      -1
+    ],
+    "native_output_position": [
+      0,
+      0.25
+    ],
+    "native_output_direction": "south",
+    "water_per_tick": 0.01,
+    "nominal_water_per_second": 0.6,
+    "vanilla_water_per_second": 1200,
+    "energy_source": "void",
+    "tile_width": 1,
+    "tile_height": 1,
+    "graphics_or_gameplay_modification": false
+  },
+  "geometry": {
+    "removed_v1_objects": 50,
+    "length_bu": 1.49282,
+    "helix_mesh_vertices": 580,
+    "wheel_spokes": 8,
+    "wheel_paddles": 8,
+    "crank_handle_count": 1,
+    "water_pockets": 6,
+    "spill_droplets": 6,
+    "static_south_port_meshes": 2,
+    "screw_low_xyz": [
+      -0.1899999976158142,
+      1.159999966621399,
+      0.3700000047683716
+    ],
+    "screw_high_xyz": [
+      -0.1899999976158142,
+      0.07000000029802322,
+      1.3899999856948853
+    ],
+    "wheel_xyz": [
+      0.28,
+      -0.13,
+      0.97
+    ],
+    "no_game_data_changed": true
+  },
+  "native_reopen_preview_checks": {
+    "valid": true,
+    "native_type": "offshore-pump",
+    "source_offset": [
+      0,
+      -1
+    ],
+    "native_south_output": [
+      0,
+      0.25
+    ],
+    "port_fitted": true,
+    "all_external_fittings_static": true,
+    "loop97_matches_frame1": true,
+    "real_helix_vertices": 580,
+    "wheel_paddles": 8,
+    "oversize_crank": true,
+    "gameplay_unchanged": true
+  },
+  "source_materials": [
+    "BEACH | black wet forged iron",
+    "BEACH | bright visibly blue-green moving water",
+    "BEACH | chalk dial",
+    "BEACH | dented copper",
+    "BEACH | green-blue water",
+    "BEACH | hemp tied lashings",
+    "BEACH | oiled leather bellows",
+    "BEACH | old green glass",
+    "BEACH | pitted salt driftwood",
+    "BEACH | weathered brass",
+    "BEACH | wet salt-darkened timber"
+  ],
+  "four_facings": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "fps": 8,
+  "working_frames": [
+    1,
+    7,
+    13,
+    19,
+    25,
+    31,
+    37,
+    43,
+    49,
+    55,
+    61,
+    67,
+    73,
+    79,
+    85,
+    91
+  ],
+  "render_mode": "proof",
+  "render_count": 8,
+  "renders": [
+    {
+      "file": "idle-d00.png",
+      "state": "idle",
+      "direction": 0,
+      "index": -1,
+      "frame": 0,
+      "sha256": "5be7ff70f8544b10f04c60bec2aac3ac5f8113332fa6cb7e3832d3ed074ba40a"
+    },
+    {
+      "file": "working-d00-f004.png",
+      "state": "working",
+      "direction": 0,
+      "index": 4,
+      "frame": 25,
+      "sha256": "1d61a71b7c66a2cd13a06c2d5bfa2befda448e4c8abdb0b782549a85cb7eea02"
+    },
+    {
+      "file": "idle-d01.png",
+      "state": "idle",
+      "direction": 1,
+      "index": -1,
+      "frame": 0,
+      "sha256": "6d2336206c37b118f153b839ab141a55be7ead80461c3e26eb43db15fdc9efb5"
+    },
+    {
+      "file": "working-d01-f004.png",
+      "state": "working",
+      "direction": 1,
+      "index": 4,
+      "frame": 25,
+      "sha256": "ae9085f4d5c9927633f8761323024f5b4089b4faa4dd07d0eb890eb716c31347"
+    },
+    {
+      "file": "idle-d02.png",
+      "state": "idle",
+      "direction": 2,
+      "index": -1,
+      "frame": 0,
+      "sha256": "1d214f5276e0d901bfa67b35fa8b70ea60abcf4dd024c59ab38ecaad9c46c330"
+    },
+    {
+      "file": "working-d02-f004.png",
+      "state": "working",
+      "direction": 2,
+      "index": 4,
+      "frame": 25,
+      "sha256": "5f30fc9a51a2b96f75d8a19167923fbce044108618ed0b12b62315ced4fb30df"
+    },
+    {
+      "file": "idle-d03.png",
+      "state": "idle",
+      "direction": 3,
+      "index": -1,
+      "frame": 0,
+      "sha256": "f973691fe0a588c3e7f4bd2c87e5cf778a857643b95b9417353917f0c49a4268"
+    },
+    {
+      "file": "working-d03-f004.png",
+      "state": "working",
+      "direction": 3,
+      "index": 4,
+      "frame": 25,
+      "sha256": "f5641caf02106f3361c41561c7be11520fa7620cd701f4731284007131783e74"
+    }
+  ],
+  "game_integrated": false,
+  "human_visual_approved": false
+}
