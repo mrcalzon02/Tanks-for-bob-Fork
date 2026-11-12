@@ -158,6 +158,10 @@ def stage_client_profile(exe:Path, temp:Path) -> tuple[Path,Path,list[str]]:
     config=temp/"config.ini"
     config.write_text("[path]\nread-data="+str(installed)+
                       "\nwrite-data="+str(userdata)+"\n",encoding="utf-8")
+    # Valve-supported development launch: prevent SteamAPI_RestartAppIfNecessary
+    # from redirecting our isolated job to Steam and losing CLI scenario args.
+    # Write ONLY to per-run scratch; never modify the installed Factorio tree.
+    (temp/"steam_appid.txt").write_text("427520",encoding="ascii")
     command=[str(exe),"--config",str(config),"--mod-directory",str(mods),
              "--disable-migration-window",
              "--load-scenario","solar-boiler-v8-visual/pipe-capture"]
@@ -236,7 +240,7 @@ def capture(exe:Path,version:str,out:Path,temp:Path,max_seconds:int):
     print("GUI_SCREENSHOT_SESSION_START",flush=True)
     with log.open("w",encoding="utf-8",errors="replace") as stream:
         process=subprocess.Popen(cmd,stdout=stream,stderr=subprocess.STDOUT,
-                                 cwd=str(exe.parents[2]))
+                                 cwd=str(temp))
         try:
             while time.monotonic()-start<max_seconds:
                 finished=all((target/name).is_file() and
@@ -246,7 +250,10 @@ def capture(exe:Path,version:str,out:Path,temp:Path,max_seconds:int):
                     break
                 rc=process.poll()
                 if rc is not None:
-                    raise RuntimeError(f"GUI client exited before 16 screenshots: exit={rc}")
+                    early=log.read_text(encoding="utf-8",errors="replace")
+                    if "Steam requires game restart" in early:
+                        raise RuntimeError("Steam API redirected the test process despite the isolated development app-id; no screenshots")
+                    raise RuntimeError(f"GUI client exited before 16 screenshots: exit={rc}; log tail: {early[-1800:]}")
                 time.sleep(2)
             else:
                 raise TimeoutError("Full Factorio graphical client did not produce all 16 "+
