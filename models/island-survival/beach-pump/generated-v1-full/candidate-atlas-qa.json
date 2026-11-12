@@ -1,0 +1,79 @@
+{
+  "schema": "tanks.beach-pump.v1.68-frame-candidate-atlas",
+  "passed": true,
+  "source_blender_sha256": "022ff8b827f326bb351515b5180be06527a6c7daf5028d9b24fb3fdcab084ee0",
+  "blender_native_reopen_passed": true,
+  "actual_cycles_frame_count": 68,
+  "factorio_entity": "offshore-pump/beachpump",
+  "native_single_south_output": {
+    "position_native": [
+      0,
+      0.25
+    ],
+    "direction": "south",
+    "flow_direction": "output"
+  },
+  "fluid_source_offset_native": [
+    0,
+    -1
+  ],
+  "native_placement_selection_box": [
+    [
+      -0.6,
+      -1.49
+    ],
+    [
+      0.6,
+      0.49
+    ]
+  ],
+  "factorio_direction_order": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "blender_source_index_for_factorio": [
+    0,
+    3,
+    2,
+    1
+  ],
+  "fps": 8,
+  "working_frames_each_direction": 16,
+  "files": {
+    "idle-64.png": {
+      "sha256": "bd1983b65b6ef3cf994c358149589fd25483be6ee5749995963a9cc103a66cad",
+      "width": 256,
+      "height": 64
+    },
+    "working-64.png": {
+      "sha256": "a630658c9c11d39f84672b2d9415dc2e2143e09b7fcc690965bbb3cef90a8a3c",
+      "width": 512,
+      "height": 512
+    },
+    "idle-128.png": {
+      "sha256": "506af93d28dd6be3c57ee5c3f236558de73d169eb573ad9b01fda2df7dec327b",
+      "width": 512,
+      "height": 128
+    },
+    "working-128.png": {
+      "sha256": "091f7365b2de259b46e5789678bacb41d1e611d4644629bef26cd440b8207860",
+      "width": 1024,
+      "height": 1024
+    },
+    "idle-256.png": {
+      "sha256": "06b45de29dc8303516b9e47a41691a38f477dd35b5b24c1ca4fb73632ef2bc1c",
+      "width": 1024,
+      "height": 256
+    },
+    "working-256.png": {
+      "sha256": "018ead2e061d18dd23e6ef6d8a88a8e6b1691a856ca5a81d3a6e82405bd7e786",
+      "width": 2048,
+      "height": 2048
+    }
+  },
+  "original_game_graphics_replaced": false,
+  "official_offshore_pump_schema_tested": false,
+  "native_client_visual_approved": false
+}
