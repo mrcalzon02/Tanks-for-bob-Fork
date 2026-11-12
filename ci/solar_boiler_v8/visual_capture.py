@@ -33,6 +33,27 @@ PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
 def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
+def require_interactive_desktop() -> int:
+    """The Windows Actions service is Session 0: D3D11 GUI output cannot be created there."""
+    if os.name != "nt":
+        raise RuntimeError("Genuine Factorio GUI capture requires the Windows desktop client")
+    import ctypes
+    session_id=ctypes.c_ulong(0)
+    pid=os.getpid()
+    ok=ctypes.windll.kernel32.ProcessIdToSessionId(
+        ctypes.c_ulong(pid),ctypes.byref(session_id))
+    if not ok:
+        raise OSError("Cannot determine Windows desktop session ID")
+    if session_id.value == 0:
+        raise RuntimeError(
+            "INTERACTIVE_DESKTOP_REQUIRED: Windows service Session 0 cannot display "
+            "Factorio D3D11: actual engine log showed SDL_DXGIGetOutputInfo failure "
+            "and DXGI_ERROR_NOT_CURRENTLY_AVAILABLE (0x887a0022). "
+            "Run this exact capture from a logged-on Windows user desktop, not "
+            "the GitHub runner service. No in-game screenshot was captured.")
+    print("FACTORIO_GRAPHICAL_WINDOWS_SESSION",session_id.value,flush=True)
+    return session_id.value
+
 def game_candidates() -> list[Path]:
     """Only known install locations, PATH, and Steam library metadata."""
     found = []
@@ -248,6 +269,20 @@ def capture(exe:Path,version:str,out:Path,temp:Path,max_seconds:int):
                 if finished:
                     time.sleep(2) # let the engine finish writing all queued frames
                     break
+                # A full GUI binary can remain alive indefinitely in Session 0 while
+                # DXGI initialization has already failed. Observe its actual log,
+                # report the display failure promptly rather than sleeping 360s.
+                stream.flush()
+                current=log.read_text(encoding="utf-8",errors="replace")
+                if any(m in current for m in (
+                    "DXGI_ERROR_NOT_CURRENTLY_AVAILABLE",
+                    "Failed to enumerate adapter output",
+                    "Failed to get SDL_DXGIGetOutputInfo",
+                )):
+                    raise RuntimeError(
+                        "INTERACTIVE_DESKTOP_REQUIRED: Factorio graphical renderer "
+                        "cannot initialize a GPU display in this Windows session; "
+                        "see captured native engine log. No screenshots generated.")
                 rc=process.poll()
                 if rc is not None:
                     early=log.read_text(encoding="utf-8",errors="replace")
@@ -304,6 +339,7 @@ def main():
     if out.exists():
         raise FileExistsError("Do not overwrite existing in-game screenshots: "+str(out))
     try:
+        require_interactive_desktop()
         exe,version=find_client(a.client)
         capture(exe,version,out,temp,a.max_seconds)
     except Exception as err:
