@@ -79,3 +79,9 @@ by the Solar Boiler. The old pump prototype also has optional
 full-object animation is eventually attached. The exact native fluid-box
 positions, connector graphics and collision remain unchanged. Game-client
 pipe fit for all four rotations has **not** been approved.
+
+## Current successful production capture
+
+[Native Core30 job 43183442468](https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43183442468) **PASS** — an independently reopened real Blender 5.2.3 editable master, 4 idle + 64 working Cycles frame captures, full 16-pose loop, rigid canonical north/south sockets, genuine four-view proof, and six candidate idle/working RGBA atlases (64/128/256). Each source frame and each atlas was SHA-256 checked and the generated model is [retained as an Actions artifact](https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43183442468/artifacts/13927757032).
+
+The native Blender source SHA256 from this **successful** run is `1c6e1b23d0ec1472d1c25303416b97b827735298f9a34724beecc7e085d9cd6c`. This is a newly saved model file from a repeatable native build; its SHA differs from the separate initial eight-frame proof as expected. The native pump prototype has **not** been replaced; actual Factorio screenshot approval is separate.
