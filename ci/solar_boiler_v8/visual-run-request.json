@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "reason": "Require actual client screenshot evidence; no more headless projections",
+  "run_mode": "graphical-factorio-game-client",
+  "runner": [
+    "self-hosted",
+    "Windows",
+    "X64",
+    "OLD-CORE30-homebrew"
+  ],
+  "expected_screenshots": 16,
+  "orientations": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "terrain": [
+    "dirt-7",
+    "concrete"
+  ],
+  "zoom": [
+    1.6,
+    2.9
+  ],
+  "approved_model": "generated-v8/solar-boiler-v8.blend",
+  "source_graphics": "tanks_for_bob_fork_1.8.102/graphics/entity/solar-boiler-v8",
+  "visual_approval_pending": true
+}
