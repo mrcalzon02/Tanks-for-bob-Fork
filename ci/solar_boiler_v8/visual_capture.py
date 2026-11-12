@@ -216,19 +216,19 @@ def make_contact(out:Path,metadata:dict):
     bg=(25,29,33)
     def title(draw,x,y,label):
         draw.text((x,y),label,fill=(240,242,232),font=font)
-    poster=Image.new("RGB",(2020,910),bg)
+    poster=Image.new("RGB",(2020,1710),bg)
     draw=ImageDraw.Draw(poster)
     title(draw,20,12,"SOLAR BOILER V8 | ACTUAL FACTORIO 2.1 GRAPHICAL CLIENT | CONNECTED PIPES")
-    title(draw,20,31,"TRUE in-game screenshots (4 rotations x natural/concrete) — not Blender projections")
+    title(draw,20,31,"ALL 16 engine screenshots: four rotations x two grounds x 100%/close zoom")
     for i,d in enumerate(DIRECTIONS):
         x=18+502*i
         title(draw,x+4,55,d.upper())
-        for j,g in enumerate(GROUNDS):
-            y=80+400*j
-            img=crop_capture(out/shot_name(d,g,"close"))
+        for j,(g,z) in enumerate((g,z) for g in GROUNDS for z in ZOOMS):
+            y=80+402*j
+            img=crop_capture(out/shot_name(d,g,z))
             poster.paste(img,(x,y))
-            title(draw,x+5,y+366,g.upper()+"  |  close zoom 2.9  |  genuine engine PNG")
-    title(draw,20,887,"Verification: PNG signatures, native engine log markers, 24 connected pipes; visual alignment for human review")
+            title(draw,x+5,y+366,g.upper()+" | "+z+" zoom "+str(1.0 if z=="normal" else 2.9)+" | genuine engine PNG")
+    title(draw,20,1685,"Verification: PNG signatures, native engine log markers, 24 connected pipes; visual alignment for human review")
     poster.save(out/"factorio-client-pipes-all-four.png",optimize=True)
     # Exact natural view across four rotations against the approved V8 Blender
     # camera; do NOT calculate a false pixel-difference metric across contexts.
@@ -318,7 +318,7 @@ def capture(exe:Path,version:str,out:Path,temp:Path,max_seconds:int):
           "target_prototype":"boiler/solar-boiler",
           "native_boilers":8,"native_connected_pipes":24,
           "directions":list(DIRECTIONS),"ground_tiles":list(GROUNDS),
-          "zooms":{"normal":1.6,"close":2.9},
+          "zooms":{"normal":1.0,"close":2.9},
           "screen_capture_count":len(screenshots),"engine_log_marker":"SOLAR_V8_GUI_WORLD_PASS",
           "screenshots_sha256":screenshots,"visual_alignment_human_approved":False}
     make_contact(out,data)

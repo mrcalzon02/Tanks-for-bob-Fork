@@ -82,10 +82,11 @@ The one-shot launcher:
   mod directory, Steamworks app-id and user-data directory (not production
   saves or installed mods);
 - places eight boilers and 24 real pipes in the engine, takes sixteen
-  true game PNGs across four rotations, two terrain types and two zooms;
+  true game PNGs across four rotations, two terrain types and two zooms
+  (true 1.0x/100% game scale and 2.9x inspection close-up);
 - verifies PNG headers, sizes, render variation, engine log markers and
   file SHA-256 values before marking the screenshot capture successful;
-- writes `factorio-client-pipes-all-four.png`,
+- writes `factorio-client-pipes-all-four.png` **containing all sixteen actual screenshots**,
   `client-vs-approved-v8.png` and a provenance receipt into a unique
   `generated-v8/visual-client-<UTC timestamp>` directory.
 

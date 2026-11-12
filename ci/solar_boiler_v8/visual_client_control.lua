@@ -8,7 +8,7 @@ local DIRECTIONS={
   {"west",defines.direction.west}
 }
 local GROUNDS={"natural","concrete"}
-local ZOOMS={{"normal",1.6},{"close",2.9}}
+local ZOOMS={{"normal",1.0},{"close",2.9}}
 local shots={}
 local locations={}
 local function ensure(ok,message)
