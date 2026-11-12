@@ -1,0 +1,34 @@
+{
+  "schema": "tanks.beach-pump.v2-full.github-parts.v1",
+  "source_runner": "https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43293980849",
+  "source_git_commit": "14d3543ec4d2e490adb2068425b9fa5e1d2697e9",
+  "source_native_blender_sha256": "77e212ecd01df4e1795e19bb1bb81c207917b1ac248420c4777a86f5b3924bf9",
+  "production": "68 real Blender Cycles frames and 6 verified candidate atlases",
+  "parts_chunk_bytes": 180000,
+  "assembly": {
+    "blender": {
+      "target": "beach-pump-v2.blend",
+      "parts_dir": "source-parts/beach-pump-v2.blend",
+      "bytes": 3399312,
+      "sha256": "77e212ecd01df4e1795e19bb1bb81c207917b1ac248420c4777a86f5b3924bf9",
+      "parts": 19
+    },
+    "working-128": {
+      "target": "working-128.png",
+      "parts_dir": "atlas-parts/working-128.png",
+      "bytes": 345371,
+      "sha256": "6610fab65021c423d9bfd265435b40ea18639765a402ea6dc2b21ee0595d93fe",
+      "parts": 2
+    },
+    "working-256": {
+      "target": "working-256.png",
+      "parts_dir": "atlas-parts/working-256.png",
+      "bytes": 1179754,
+      "sha256": "da22edade7abe0fb421bb47400954ead9e36a03a494f23bfdc3cefeea8fe3d65",
+      "parts": 7
+    }
+  },
+  "full_frame_storage": "Core30 persistent reports",
+  "live_factorio_installed": false,
+  "owner_visual_approved": false
+}
