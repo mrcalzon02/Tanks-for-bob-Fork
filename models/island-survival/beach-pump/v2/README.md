@@ -54,6 +54,6 @@ Native QA proved the 580-vertex helical flight, eight-paddle wheel, large
 external rotating crank, visible water pockets and trough-to-wheel drops,
 exact loop seam and both stationary full-bore pipe-fitting meshes.
 
-**Still pending:** full 68-frame production atlas export, owner visual
-acceptance and in-client Factorio 2.1 offshore-pump graphics check. Do not
-replace live graphics or alter the shoreline-to-pipe water mechanics.
+**Full production complete (technical):** [Core30 run #43293980849](https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43293980849) generated and independently verified all 68 authentic Blender Cycles frames, six 64/128/256-pixel atlas candidates and the newer 3,399,312-byte editable Blender source (SHA256 `77e212ecd01df4e1795e19bb1bb81c207917b1ac248420c4777a86f5b3924bf9`). Full model and large atlas bytes are preserved as SHA256-reassemblable Git binary parts and the genuine [four-way production proof is visible on GitHub](../generated-v2-full/review-four-directions.png). See [publication and `assemble_assets.py`](../generated-v2-full/). Blender-to-Factorio atlas source direction map is `0,3,2,1` for N/E/S/W.
+
+**Still pending:** owner visual acceptance and an actual Factorio 2.1 `OffshorePumpGraphicsSet` in-game shoreline/pipe-mouth test. **No live graphics or gameplay altered**. This source supersedes neither historical V1 nor V2 native proof.
