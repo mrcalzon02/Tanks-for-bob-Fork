@@ -20,8 +20,7 @@ not Actions artifacts.
 - Name: `beach-pump-v1.blend`
 - SHA256: `aed52dad68e16f40d626e713c525081ce77eb93210fc622e8cfa55ddecb5428d`
 - Preserved on Core30 under a dedicated `_homebrew/reports/beach-pump-v1-proof-43259212246/` directory.
-- **The .blend is not yet published as a GitHub file.** This source receipt
-  documents verification, not a claim that the binary has been transferred.
+- **The exact .blend is preserved as 12 byte-for-byte native Git source parts**, plus `assemble_native.py` and a SHA-256/size-checking reconstruction guide in this folder. The original file is reconstructed, never remeshed or faked.
 
 ### Recovered proof files (SHA256)
 - `review-four-directions.png`: `80802bab4a13624c72f568214257f3d4e70eace48dcb1255454b6250ab6ff8d3` (148176 bytes)

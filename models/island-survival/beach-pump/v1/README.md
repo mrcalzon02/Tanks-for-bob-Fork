@@ -27,3 +27,11 @@ blender -b --factory-startup --python-exit-code 1 \
 ```
 
 `--render proof` saves an editable `.blend` and eight true Blender PNGs. `--render all` saves 68 frames. The independent native opener and proof contact generator are required before calling Blender production complete. No new workflow, unapproved art attachment, fabricated screenshot, or live mod prototype mutation.
+
+## Current native proof and production progress (Nov 12, 2026)
+
+[The native 4-way Cycles proof](../generated-v1/review-four-directions.png) and independently checked Blender reopen receipts are now permanently visible in GitHub. Core30 **Blender 5.2.3 actually rendered 8 frames** and verified the single south FMPL collar, shoreline source offset, no base slab, four distinct footings, and frame-97 loop closure. The original SHA256-checked editable master can be reconstructed from [12 Git part files](../generated-v1/README.md) with one Python command; direct GitHub Actions attachment was unavailable due to repository artifact quota, so this was recovered without losing source provenance.
+
+A separate [full 68-frame Blender source/atlas run](https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43262584206) has been dispatched using the same approved builder. It should produce 4 idle + 64 working source frames and 6 versioned 64/128/256 art candidates, preserving the output independently of Actions artifact storage. **Do not claim this pending run passed until native receipts exist.**
+
+Do not alter the live beachpump `OffshorePumpGraphicsSet` or the original native water output connection before separate game-client art acceptance.
