@@ -38,3 +38,23 @@ independent native file reopening, 64/128/256 atlases, Factorio integration,
 human visual approval. These gates must not be claimed passed just because a
 source-generation script or a manifest was committed. No live mod files,
 gameplay values or existing GitHub workflows are changed by this stage.
+
+## Production atlas stage (does not touch live Factorio)
+
+Only after a successful **68-frame** Blender run and independent native reopen,
+package its evidence using the existing verified native render output:
+
+```sh
+python models/island-survival/steam-condenser/v1/pack_verified_atlases.py \
+  --source models/island-survival/steam-condenser/generated-v1-full \
+  --output models/island-survival/steam-condenser/generated-v1-atlases
+```
+
+The packer refuses partial or unverified sets: it checks the native `.blend`
+SHA, all 68 PNG hashes and alpha/frame dimensions against `build-report.json`,
+and a passing independent `native-reopen-qa.json`. It produces versioned
+64/128/256 idle and animated four-direction sprite atlases plus a
+`candidate-graphics-only.lua` for **inspection only**, with no modifications
+to any active mod Lua, item, fluid boxes or gameplay fields. All existing
+in-game geometry remains untouched. True native graphical-client pipe-mouth
+alignment still requires screenshots/visual review before attachment.
