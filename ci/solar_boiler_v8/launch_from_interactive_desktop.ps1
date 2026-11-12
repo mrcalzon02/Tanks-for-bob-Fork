@@ -89,3 +89,29 @@ Write-Host 'SOLAR_V8_ACTUAL_GUI_SCREENSHOTS_VERIFIED count=16'
 Write-Host "Four-way genuine game contact sheet: $(Join-Path $out 'factorio-client-pipes-all-four.png')"
 Write-Host "Source comparison: $(Join-Path $out 'client-vs-approved-v8.png')"
 Write-Host 'Review pipe mouth alignment visually before marking issue #4 complete.'
+# Package only the independently verified genuine Factorio screenshot output.
+# Keep a distinct non-overwriting ZIP for easy review/upload from the desktop.
+$gallery=Join-Path $out 'factorio-client-pipes-all-four.png'
+$comparison=Join-Path $out 'client-vs-approved-v8.png'
+foreach($file in @($gallery,$comparison)){
+  if(-not(Test-Path -LiteralPath $file -PathType Leaf)){
+    throw ('Missing expected real client visual proof: '+$file)
+  }
+}
+$bundle=$out+'.zip'
+if(Test-Path -LiteralPath $bundle){
+  throw ('Refusing to overwrite existing screenshot ZIP: '+$bundle)
+}
+Compress-Archive -Path (Join-Path $out '*') -DestinationPath $bundle -CompressionLevel Optimal
+if(-not(Test-Path -LiteralPath $bundle -PathType Leaf) -or
+   (Get-Item -LiteralPath $bundle).Length -lt 4096){
+  throw 'Screenshot evidence ZIP was not created successfully'
+}
+Write-Host ('Genuine Factorio screenshot evidence ZIP: '+$bundle)
+try {
+  Start-Process -FilePath $gallery -ErrorAction Stop | Out-Null
+  Write-Host 'Opened actual in-game comparison sheet in the desktop image viewer.'
+} catch {
+  Write-Warning ('Open the in-game visual contact sheet manually: '+$gallery)
+}
+
