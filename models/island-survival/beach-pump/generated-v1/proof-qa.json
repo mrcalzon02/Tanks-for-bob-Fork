@@ -1,0 +1,109 @@
+{
+  "schema": "tanks.beach-pump.v1.proof",
+  "passed": true,
+  "actual_cycles_frames": 8,
+  "native_source_sha256": "aed52dad68e16f40d626e713c525081ce77eb93210fc622e8cfa55ddecb5428d",
+  "true_cardinal_45_degree": true,
+  "native_reopened": true,
+  "four_facing_evidence": [
+    {
+      "state": "idle",
+      "direction": "north",
+      "filename": "idle-d00.png",
+      "sha256": "d4c6a66e32e02da42ef1e6e95592c42770bdd80b5485671644f341aeb23cee16",
+      "alpha_bounds": [
+        96,
+        50,
+        160,
+        196
+      ]
+    },
+    {
+      "state": "working",
+      "direction": "north",
+      "filename": "working-d00-f004.png",
+      "sha256": "e14321cf0216b0b8bc9895d2a5ebe9bcc0e04556f4a55f134173baf92e281adc",
+      "alpha_bounds": [
+        96,
+        48,
+        160,
+        196
+      ]
+    },
+    {
+      "state": "idle",
+      "direction": "east",
+      "filename": "idle-d01.png",
+      "sha256": "5a245752ee1ce587b5b5ed7c053036823e2683d4c7f8a09e2823c09a998eeee6",
+      "alpha_bounds": [
+        25,
+        77,
+        163,
+        195
+      ]
+    },
+    {
+      "state": "working",
+      "direction": "east",
+      "filename": "working-d01-f004.png",
+      "sha256": "da545d025d510be9ac5e8cf80f3f9bffc9ce83c586554ec7ad035fc5286954b5",
+      "alpha_bounds": [
+        25,
+        77,
+        163,
+        195
+      ]
+    },
+    {
+      "state": "idle",
+      "direction": "south",
+      "filename": "idle-d02.png",
+      "sha256": "6804d12dc3fe30fb7e61a1bfa702d64590cf615db124dce4f57770e36caa12cf",
+      "alpha_bounds": [
+        96,
+        102,
+        160,
+        244
+      ]
+    },
+    {
+      "state": "working",
+      "direction": "south",
+      "filename": "working-d02-f004.png",
+      "sha256": "4c64e0a378c84230dff4d3fb6ed81382b1978469f5378e19f8a6454c7d0f5b86",
+      "alpha_bounds": [
+        96,
+        105,
+        160,
+        244
+      ]
+    },
+    {
+      "state": "idle",
+      "direction": "west",
+      "filename": "idle-d03.png",
+      "sha256": "580eb1b3e2c001bcb9df3d398f8dbc0dc3f5d81277e18381fe43866bf6a73d88",
+      "alpha_bounds": [
+        93,
+        77,
+        231,
+        195
+      ]
+    },
+    {
+      "state": "working",
+      "direction": "west",
+      "filename": "working-d03-f004.png",
+      "sha256": "8d3c53459c38786752b32760c50947d591f4727ae18521bfeb5b4f4914b94019",
+      "alpha_bounds": [
+        93,
+        77,
+        231,
+        195
+      ]
+    }
+  ],
+  "contact_sha256": "80802bab4a13624c72f568214257f3d4e70eace48dcb1255454b6250ab6ff8d3",
+  "game_integrated": false,
+  "human_art_approved": false
+}

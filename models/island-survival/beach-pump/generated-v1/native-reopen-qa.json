@@ -1,0 +1,30 @@
+{
+  "schema": "tanks.beach-pump.v1.native-reopen-qa",
+  "passed": true,
+  "source_sha256": "aed52dad68e16f40d626e713c525081ce77eb93210fc622e8cfa55ddecb5428d",
+  "real_blender_frame_count": 8,
+  "fixed_one_full_bore_output": true,
+  "port_meshes": 2,
+  "port_vertices_each": 256,
+  "native_output_position": [
+    0,
+    0.25
+  ],
+  "blender_visible_output_joint": [
+    0,
+    -0.49,
+    0.36
+  ],
+  "water_intake_native": [
+    0,
+    -1
+  ],
+  "shoreline_offset_selection": true,
+  "four_separate_stone_feet": true,
+  "no_filled_concrete_pad": true,
+  "stroke_bu": 0.1420000195503235,
+  "animation_loop_closed": true,
+  "single_45_degree_camera": true,
+  "game_integrated": false,
+  "human_art_approved": false
+}

@@ -1,0 +1,170 @@
+{
+  "schema": "tanks.beach-pump.v1.native-blender",
+  "asset": "beachpump",
+  "factorio_prototype": "offshore-pump/beachpump",
+  "master_sha256": "aed52dad68e16f40d626e713c525081ce77eb93210fc622e8cfa55ddecb5428d",
+  "fluid_fixture_sha256": "af6d1d74f0439b327b0b4e496386aa35fdac0859c177b55707dbfb5243e691ca",
+  "pbr_material_donor_sha256": "c1067b1a4852b23d2e9e00708f1bd81ce6e8c35152cfd2dcbb653bbefeca9b3f",
+  "fmpl_materials": [
+    "TP Library | ferrocrete_light",
+    "TP Library | ferrocrete_dark",
+    "TP Library | ferrocrete"
+  ],
+  "prototype": {
+    "type": "offshore-pump",
+    "name": "beachpump",
+    "source": "tanks_for_bob_fork_1.8.102/prototypes/entity/entities.lua",
+    "selection_box_native": [
+      [
+        -0.6,
+        -1.49
+      ],
+      [
+        0.6,
+        0.49
+      ]
+    ],
+    "collision_box_native": [
+      [
+        -0.6,
+        -1.05
+      ],
+      [
+        0.6,
+        0.3
+      ]
+    ],
+    "tile_width": 1,
+    "tile_height": 1,
+    "fluid_source_offset": [
+      0,
+      -1
+    ],
+    "output_connection": {
+      "position_native": [
+        0,
+        0.25
+      ],
+      "direction": "south",
+      "flow_direction": "output"
+    },
+    "pumping_speed": 0.01,
+    "energy_source": "void",
+    "note": "Water-side +Y in Blender (native -Y). Native fluid position (0,+0.25) maps to Blender (0,-0.25); visible edge outlet at Y=-0.49. The water intake extends toward Blender +Y. Tile_width/tile_height are 1/1 despite elongated placement selection box."
+  },
+  "orientation_degrees": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "fps": 8,
+  "working_frames": [
+    1,
+    7,
+    13,
+    19,
+    25,
+    31,
+    37,
+    43,
+    49,
+    55,
+    61,
+    67,
+    73,
+    79,
+    85,
+    91
+  ],
+  "geometry_qa": {
+    "rigid_template_meshes": 2,
+    "vertices_per_mesh": 256,
+    "native_output_position": [
+      0,
+      0.25
+    ],
+    "visible_outlet_xyz": [
+      0,
+      -0.49,
+      0.36
+    ],
+    "intake_offset": [
+      0,
+      -1
+    ],
+    "separate_stone_feet": 4,
+    "bellows_travel_bu": 0.1420000195503235,
+    "frame97_seam": true
+  },
+  "render_mode": "proof",
+  "renders": [
+    {
+      "file": "idle-d00.png",
+      "sha256": "d4c6a66e32e02da42ef1e6e95592c42770bdd80b5485671644f341aeb23cee16",
+      "state": "idle",
+      "direction": 0,
+      "index": -1,
+      "frame": 0
+    },
+    {
+      "file": "working-d00-f004.png",
+      "sha256": "e14321cf0216b0b8bc9895d2a5ebe9bcc0e04556f4a55f134173baf92e281adc",
+      "state": "working",
+      "direction": 0,
+      "index": 4,
+      "frame": 25
+    },
+    {
+      "file": "idle-d01.png",
+      "sha256": "5a245752ee1ce587b5b5ed7c053036823e2683d4c7f8a09e2823c09a998eeee6",
+      "state": "idle",
+      "direction": 1,
+      "index": -1,
+      "frame": 0
+    },
+    {
+      "file": "working-d01-f004.png",
+      "sha256": "da545d025d510be9ac5e8cf80f3f9bffc9ce83c586554ec7ad035fc5286954b5",
+      "state": "working",
+      "direction": 1,
+      "index": 4,
+      "frame": 25
+    },
+    {
+      "file": "idle-d02.png",
+      "sha256": "6804d12dc3fe30fb7e61a1bfa702d64590cf615db124dce4f57770e36caa12cf",
+      "state": "idle",
+      "direction": 2,
+      "index": -1,
+      "frame": 0
+    },
+    {
+      "file": "working-d02-f004.png",
+      "sha256": "4c64e0a378c84230dff4d3fb6ed81382b1978469f5378e19f8a6454c7d0f5b86",
+      "state": "working",
+      "direction": 2,
+      "index": 4,
+      "frame": 25
+    },
+    {
+      "file": "idle-d03.png",
+      "sha256": "580eb1b3e2c001bcb9df3d398f8dbc0dc3f5d81277e18381fe43866bf6a73d88",
+      "state": "idle",
+      "direction": 3,
+      "index": -1,
+      "frame": 0
+    },
+    {
+      "file": "working-d03-f004.png",
+      "sha256": "8d3c53459c38786752b32760c50947d591f4727ae18521bfeb5b4f4914b94019",
+      "state": "working",
+      "direction": 3,
+      "index": 4,
+      "frame": 25
+    }
+  ],
+  "render_count": 8,
+  "game_integrated": false,
+  "human_approved": false
+}
