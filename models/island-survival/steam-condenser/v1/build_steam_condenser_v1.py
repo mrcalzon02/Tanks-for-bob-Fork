@@ -376,7 +376,7 @@ def native_checks(bpy, contract, root, collars):
     assert abs(scene.camera.data.ortho_scale-contract["capture"]["camera_ortho_scale"])<1e-5
     assert list(root["footprint_tiles"])==[3,3]
     for collar,entry in zip(collars,contract["fixed_native_fluid_boxes"]):
-        assert collar["fixed_native_cell"] == entry["native_cell"]
+        assert tuple(collar["fixed_native_cell"]) == tuple(entry["native_cell"])
         assert collar["canonical_interface_sha256"] == contract["fluid_fixture"]["sha256"]
         assert len(collar.data.vertices)==256
     scene.frame_set(1);bpy.context.view_layer.update()
