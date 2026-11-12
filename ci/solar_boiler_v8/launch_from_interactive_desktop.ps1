@@ -57,8 +57,13 @@ if ([string]::IsNullOrWhiteSpace($OutputDirectory)) {
 $out=[IO.Path]::GetFullPath($OutputDirectory)
 if (Test-Path -LiteralPath $out) { throw "Refusing to overwrite screenshot evidence: $out" }
 # Keep any missing Pillow dependency in disposable scratch, never system Python.
-& $python -c 'from PIL import Image; print(Image.__version__)' 2>$null
-if ($LASTEXITCODE -ne 0) {
+$priorErrorAction=$ErrorActionPreference
+$ErrorActionPreference='Continue'
+try {
+  & $python -c 'from PIL import Image; print(Image.__version__)' 2>$null
+  $pillowExit=$LASTEXITCODE
+} finally { $ErrorActionPreference=$priorErrorAction }
+if ($pillowExit -ne 0) {
   $deps=Join-Path $work 'python-deps'
   New-Item -ItemType Directory -Path $deps | Out-Null
   & $python -m pip install --disable-pip-version-check --no-input --only-binary=:all: --target $deps 'Pillow==11.3.0'
