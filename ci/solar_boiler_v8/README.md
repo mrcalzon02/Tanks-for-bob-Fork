@@ -45,3 +45,53 @@ Factorio native fluid connections or rebuild the approved geometry.
 
 A successful CI run is *integration candidate ready for client visual QA*,
 not a completed in-game screenshot sign-off.
+
+## Genuine client screenshots — Windows graphical session
+
+The user-approved floorless Blender V8 is integrated and the official Factorio
+2.1.24 headless connectivity smoke **passed** (four rotations, twelve
+physically connected fluid pipes). This is not equivalent to a native graphics
+comparison: `game.take_screenshot` requires the **full graphical client**.
+
+**Confirmed block on OLD-CORE30-homebrew:** the GitHub Actions runner is a
+Windows service in Session 0. Native Factorio 2.1.24 GUI startup returned
+`Failed to get SDL_DXGIGetOutputInfo` and
+`DXGI_ERROR_NOT_CURRENTLY_AVAILABLE (0x887a0022)` despite detecting the
+NVIDIA GeForce GTX 1660 SUPER. Steamworks `steam_appid.txt` in isolated
+per-run scratch eliminated the preliminary Steam relaunch but cannot create
+a Direct3D output in Session 0. These are real engine logs, and **zero of
+sixteen screenshots** exist from that attempt. See
+[the worker run](https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43133825717)
+and [tracking issue #4](https://github.com/mrcalzon02/Tanks-for-bob-Fork/issues/4).
+
+### One-shot interactive capture
+
+Sign in to an **ordinary visible Windows desktop on OLD-CORE30** and open
+PowerShell there (not inside the GitHub runner service). Within a current
+Tanks-for-bob-Fork clone on `main`, use:
+
+```powershell
+git pull --ff-only
+powershell -NoProfile -ExecutionPolicy Bypass -File .\ci\solar_boiler_v8\launch_from_interactive_desktop.ps1 -FactorioExe 'D:\SteamLibrary B\steamapps\common\Factorio\bin\x64\factorio.exe'
+```
+
+The one-shot launcher:
+- checks the process is **not Session 0**, refuses to interfere with an
+  already running Factorio client, and verifies source/graphics presence;
+- uses the actual full installed Factorio 2.1 client with a temporary
+  mod directory, Steamworks app-id and user-data directory (not production
+  saves or installed mods);
+- places eight boilers and 24 real pipes in the engine, takes sixteen
+  true game PNGs across four rotations, two terrain types and two zooms;
+- verifies PNG headers, sizes, render variation, engine log markers and
+  file SHA-256 values before marking the screenshot capture successful;
+- writes `factorio-client-pipes-all-four.png`,
+  `client-vs-approved-v8.png` and a provenance receipt into a unique
+  `generated-v8/visual-client-<UTC timestamp>` directory.
+
+If the interactive process reports a client startup, scenario, Lua,
+screenshot or connection failure, the launcher preserves that actual
+error and **does not** generate artificial evidence. Publication of real
+screenshots and human visual pipe-alignment acceptance remain pending
+until these files exist and are reviewed. The native 3×2 tile footprint
+and all three actual fluid-box coordinates remain locked.
