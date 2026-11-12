@@ -1,0 +1,106 @@
+{
+  "schema": "tanks.steam-condenser.v1.source-contract",
+  "prototype": "assembling-machine/steam-condenser",
+  "footprint_tiles": [
+    3,
+    3
+  ],
+  "blender_units_per_tile": 1,
+  "geometry_provenance": "new 3x3 Tanks machine; NOT Tech-Priests 2x2 emergency condenser",
+  "fixed_native_fluid_boxes": [
+    {
+      "id": "steam-north",
+      "type": "input",
+      "native_cell": [
+        0,
+        -1
+      ],
+      "direction": "north",
+      "flange_blender_xyz": [
+        0,
+        1.5,
+        0.36
+      ],
+      "fixture_facing": "N"
+    },
+    {
+      "id": "water-south",
+      "type": "output",
+      "native_cell": [
+        0,
+        1
+      ],
+      "direction": "south",
+      "flange_blender_xyz": [
+        0,
+        -1.5,
+        0.36
+      ],
+      "fixture_facing": "S"
+    }
+  ],
+  "fluid_fixture": {
+    "path": "models/reference/factorio-fluid-interface/factorio-fluid-interface-reference.blend",
+    "sha256": "af6d1d74f0439b327b0b4e496386aa35fdac0859c177b55707dbfb5243e691ca",
+    "interface_id": "factorio-fluid-interface-v1",
+    "socket_center_height": 0.36,
+    "outer_diameter": 0.57,
+    "bore_diameter": 0.49,
+    "collar_diameter": 0.68
+  },
+  "packed_pbr_donor": {
+    "path": "models/island-survival/solar-boiler/generated-v8/solar-boiler-v8.blend",
+    "sha256": "c1067b1a4852b23d2e9e00708f1bd81ce6e8c35152cfd2dcbb653bbefeca9b3f",
+    "required_material_substring": "ferrocrete",
+    "source_usage": "material datablocks only; no Solar Boiler mesh or source mutation"
+  },
+  "capture": {
+    "fixed_camera": [
+      0,
+      -6,
+      6.93
+    ],
+    "camera_rotation_deg": [
+      45,
+      0,
+      0
+    ],
+    "camera_ortho_scale": 5.2,
+    "resolution": [
+      256,
+      256
+    ],
+    "fixed_yaws_deg": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "fps": 8,
+    "working_frames": [
+      1,
+      7,
+      13,
+      19,
+      25,
+      31,
+      37,
+      43,
+      49,
+      55,
+      61,
+      67,
+      73,
+      79,
+      85,
+      91
+    ],
+    "exact_loop_seam_frame": 97
+  },
+  "status": {
+    "source": "authored-next-stage",
+    "native_render": "pending-run",
+    "owner_visual_approved": false,
+    "game_prototype_modified": false
+  }
+}
