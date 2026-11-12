@@ -42,3 +42,40 @@ The current vanilla pump graphic remains live. Do not set new `pump.animations`
 until 2.1 pump schema, native pipe overlay, four game rotations, production
 atlas and actual client visual review are validated. No workflow duplication,
 gameplay edits or release in this stage.
+
+## Full production and pump-specific integration gate
+
+The initial [Core30 Blender proof](https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43181815716)
+**passed**: actual Blender 5.2 Cycles rendered eight views; independent native
+reopening verified two canonical full-bore static collars and throats (four meshes,
+256 vertices each), the true ±0.75 native fluid positions, measured piston
+stroke 0.206 Blender units, a fixed 45° camera and the exact frame-97 loop seam.
+The saved source SHA-256 is
+`3b3e1b27685fcac11b41c9d8348463f893d2f0c6165d2c04b583237149d8c7f6`.
+Owner visual acceptance of the **design** and actual Factorio alignment remain
+distinct from native file-integrity tests.
+
+For full production capture, execute the same builder with
+`--render all`, reopen with `verify_pump_v1.py`, then package only the
+verified 68 independent Blender frames:
+
+```sh
+python models/island-survival/primitive-steam-powered-pump/v1/pack_verified_atlases.py \
+  --source models/island-survival/primitive-steam-powered-pump/generated-v1-full \
+  --out models/island-survival/primitive-steam-powered-pump/generated-v1-atlases
+```
+
+The packer refuses partial, wrong-prototype or hash-mismatched source and writes
+six **candidate-only** RGBA atlases (idle and 16-frame working, each at
+64/128/256) plus a JSON manifest. It does not and must not install a Factorio
+Lua adapter without the game/schema stage. Each direction rotates the Blender
+model under the unchanged 45° camera, never rotates final pixels.
+
+Official [Factorio 2.1 PumpPrototype](https://lua-api.factorio.com/latest/prototypes/PumpPrototype.html)
+graphics are in **`pump.animations`**, an `Animation4Way`, NOT the
+`graphics_set` used by assembling machines or the `BoilerPictureSet` used
+by the Solar Boiler. The old pump prototype also has optional
+`fluid_animation` and `glass_pictures` to avoid double drawing once a
+full-object animation is eventually attached. The exact native fluid-box
+positions, connector graphics and collision remain unchanged. Game-client
+pipe fit for all four rotations has **not** been approved.
