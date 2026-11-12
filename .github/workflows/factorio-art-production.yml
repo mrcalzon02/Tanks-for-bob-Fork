@@ -1,17 +1,11 @@
 name: Factorio reusable four-way art production
 
+# Manual only: model/fixture source edits must not re-run an already installed
+# Factorio prototype. Real Windows GUI screenshot testing is routed through
+# the authorized Dens-Mortis worker; this single job packages art on request.
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'ci/solar_boiler_v8/**'
   workflow_dispatch:
     inputs:
-      visual_capture:
-        description: Capture real Factorio GUI screenshots on OLD-CORE30-homebrew (Windows)
-        required: false
-        type: boolean
-        default: false
       job:
         description: Repository-relative production job JSON
         required: false
@@ -40,24 +34,22 @@ concurrency:
 
 jobs:
   four-way-export:
-    runs-on: ${{ (startsWith(github.event.head_commit.message, 'visual(solar-boiler)') || inputs.visual_capture == true) && fromJSON('["self-hosted","Windows","X64","OLD-CORE30-homebrew"]') || 'ubuntu-24.04' }}
+    runs-on: ubuntu-24.04
     timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
       - name: Install Blender and image tools
-        if: ${{ !(startsWith(github.event.head_commit.message, 'visual(solar-boiler)') || inputs.visual_capture == true) }}
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y blender python3-pil lua5.4
           blender --version | head -3
       - name: Run all export regression tests
-        if: ${{ !(startsWith(github.event.head_commit.message, 'visual(solar-boiler)') || inputs.visual_capture == true) }}
         run: |
           /usr/bin/python3 -m unittest discover -s tools/art -p 'test_*.py' -v
       - name: Execute reusable pipeline (full render on manual run)
-        if: github.event_name == 'workflow_dispatch' && !inputs.visual_capture
+        if: github.event_name == 'workflow_dispatch'
         env:
           JOB_FILE: ${{ inputs.job || 'tools/art/jobs/campfire-next.json' }}
           PUBLISH: ${{ inputs.publish || false }}
@@ -82,98 +74,6 @@ jobs:
           else
             /usr/bin/python3 tools/art/produce_factorio_asset.py --job "$JOB_FILE"
           fi
-      - name: Package approved V8 into BoilerPictureSet and verify pipe projection
-        if: ${{ github.event_name == 'push' && !(startsWith(github.event.head_commit.message, 'visual(solar-boiler)') || inputs.visual_capture == true) }}
-        run: |
-          set -eu
-          /usr/bin/python3 ci/solar_boiler_v8/assemble.py --install
-          luac5.4 -p tanks_for_bob_fork_1.8.102/prototypes/generated_graphics/solar-boiler-v8-production.lua
-          luac5.4 -p tanks_for_bob_fork_1.8.102/data-final-fixes.lua
-      - name: Validate real Factorio 2.1.24 runtime pipe connections (4 directions)
-        if: ${{ github.event_name == 'push' && !(startsWith(github.event.head_commit.message, 'visual(solar-boiler)') || inputs.visual_capture == true) }}
-        run: |
-          set -euo pipefail
-          mkdir -p "$RUNNER_TEMP/solar-boiler-v8-engine"
-          curl --fail --location --retry 3 \
-            --output "$RUNNER_TEMP/solar-boiler-v8-engine/factorio.tar.xz" \
-            "https://factorio.com/get-download/2.1.24/headless/linux64"
-          tar -xJf "$RUNNER_TEMP/solar-boiler-v8-engine/factorio.tar.xz" -C "$RUNNER_TEMP/solar-boiler-v8-engine"
-          /usr/bin/python3 ci/solar_boiler_v8/run_engine.py \
-            --binary "$RUNNER_TEMP/solar-boiler-v8-engine/factorio/bin/x64/factorio" \
-            --out "$RUNNER_TEMP/solar-boiler-v8-native-qa"
-      - name: Publish checked V8 sprites and boiler-only attachment (non-force)
-        if: ${{ github.event_name == 'push' && !(startsWith(github.event.head_commit.message, 'visual(solar-boiler)') || inputs.visual_capture == true) }}
-        run: |
-          set -eu
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- tanks_for_bob_fork_1.8.102/graphics/entity/solar-boiler-v8/ \
-            tanks_for_bob_fork_1.8.102/prototypes/generated_graphics/solar-boiler-v8-production.lua \
-            tanks_for_bob_fork_1.8.102/data-final-fixes.lua \
-            models/island-survival/solar-boiler/generated-v8/pipe-placement-qa.png \
-            models/island-survival/solar-boiler/generated-v8/factorio-placement-receipt.json
-          git diff --cached --check
-          git commit -m 'art(solar-boiler): integrate approved V8 and test 4-way native pipe hookups [skip ci]'
-          for attempt in 1 2 3; do
-            git fetch origin main
-            git rebase origin/main
-            if git push origin HEAD:main; then
-              local_sha=$(git rev-parse HEAD)
-              remote_sha=$(git ls-remote origin refs/heads/main | cut -f1)
-              test "$local_sha" = "$remote_sha"
-              echo "SOLAR_V8_INTEGRATION_PUSH_VERIFIED $local_sha"
-              exit 0
-            fi
-            echo "Bounded non-force push retry $attempt"
-          done
-          exit 1
-      - name: Capture real in-game Factorio graphical-client pipe screenshots
-        if: ${{ (startsWith(github.event.head_commit.message, 'visual(solar-boiler)') || inputs.visual_capture == true) }}
-        shell: pwsh
-        env:
-          FACTORIO_GUI_EXE: ${{ vars.FACTORIO_GUI_EXE }}
-        run: |
-          $ErrorActionPreference = 'Stop'
-          Write-Host "TARGETED_SELF_HOSTED_RUNNER=$env:RUNNER_NAME OS=$env:RUNNER_OS"
-          Write-Host "SCREEN_SESSION=$env:SESSIONNAME USER=$env:USERNAME"
-          if (Get-Command python -ErrorAction SilentlyContinue) {
-            python ci/solar_boiler_v8/visual_capture.py --output models/island-survival/solar-boiler/generated-v8/visual-client --working "$env:RUNNER_TEMP/solar-boiler-v8-gui"
-          } elseif (Get-Command py -ErrorAction SilentlyContinue) {
-            py -3 ci/solar_boiler_v8/visual_capture.py --output models/island-survival/solar-boiler/generated-v8/visual-client --working "$env:RUNNER_TEMP/solar-boiler-v8-gui"
-          } else {
-            throw 'No Python 3 executable found on the self-hosted GUI runner'
-          }
-          if ($LASTEXITCODE -ne 0) { throw "Actual client screenshot verifier FAILED: exit=$LASTEXITCODE" }
-      - name: Commit real graphical-client proof with non-force GitHub readback
-        if: ${{ (startsWith(github.event.head_commit.message, 'visual(solar-boiler)') || inputs.visual_capture == true) }}
-        shell: pwsh
-        run: |
-          $ErrorActionPreference = 'Stop'
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- models/island-survival/solar-boiler/generated-v8/visual-client/
-          git diff --cached --check
-          if ($LASTEXITCODE -ne 0) { throw 'Staged graphical screenshot proof failed whitespace checks' }
-          git diff --cached --quiet
-          if ($LASTEXITCODE -eq 0) { throw 'No actual game screenshot files were created' }
-          git commit -m 'proof(solar-boiler): capture real Factorio client with connected pipes [skip ci]'
-          if ($LASTEXITCODE -ne 0) { throw 'Failed to commit screenshots' }
-          for ($i=1; $i -le 3; $i++) {
-            git fetch origin main
-            if ($LASTEXITCODE -ne 0) { throw 'Could not fetch main before screenshot publication' }
-            git rebase origin/main
-            if ($LASTEXITCODE -ne 0) { throw 'Rebase rejected: do not force push' }
-            git push origin HEAD:main
-            if ($LASTEXITCODE -eq 0) {
-              $local = (git rev-parse HEAD).Trim()
-              $remote = ((git ls-remote origin refs/heads/main) -split "\s+")[0]
-              if ($local -ne $remote) { throw 'Screenshot commit remote readback mismatch' }
-              Write-Host "SOLAR_V8_REAL_CLIENT_VISUAL_PROOF_COMMITTED=$local"
-              exit 0
-            }
-            Write-Host "Bounded push retry $i"
-          }
-          throw 'Screenshot publication push failed after 3 attempts'
       - name: Retain review and Blender evidence even after failed render
         if: always()
         uses: actions/upload-artifact@v4
@@ -181,8 +81,4 @@ jobs:
           name: factorio-four-way-production-evidence
           path: |
             models/sprite-production/
-            models/island-survival/solar-boiler/generated-v8/
-            models/island-survival/solar-boiler/generated-v8/visual-client/
-            ${{ runner.temp }}/solar-boiler-v8-gui/
-            ${{ runner.temp }}/solar-boiler-v8-native-qa/
           if-no-files-found: warn
