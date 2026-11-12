@@ -5,7 +5,7 @@
 - Native full-source Blender .blend SHA256: `022ff8b827f326bb351515b5180be06527a6c7daf5028d9b24fb3fdcab084ee0`.
 - Full native Blender source, all 68 individual frames, six atlases and receipts are saved separately on OLD-CORE30-homebrew under `_homebrew/reports/beach-pump-v1-full-43262584206-1` with verified copies. They were *not* uploaded to GitHub Actions artifact storage because the account's artifact quota is exhausted.
 - This folder contains the **genuine** four-way contact PNG, complete native build/QA reports and **six actual PNG atlases** recovered from that pinned run as ordinary Git commits. Their source hashes and cell dimensions are in `candidate-atlas-qa.json`.
-- The independently verified original editable V1 Blender .blend from the 8-view pilot is reproducible byte-for-byte from `../generated-v1/assemble_native.py` and the native source parts. The full run's own `.blend` has a different SHA and is retained on Core30; do not substitute one SHA for the other.
+- The independently verified original editable V1 Blender .blend from the 8-view pilot remains separately reconstructible from `../generated-v1/assemble_native.py`. The **distinct full-run source master** is now also [preserved byte-for-byte in this folder](NATIVE-SOURCE.md) with its own SHA-256, source binary parts and `assemble_native.py`. Neither geometry nor textures were reconstructed from 2D pixels.
 - No vanilla-graphics fallback removed, no Factorio 2.1 `OffshorePumpGraphicsSet` game-client schema or fluid connection tested in-game, no human visual approval, and no release published.
 
 ## Render output
