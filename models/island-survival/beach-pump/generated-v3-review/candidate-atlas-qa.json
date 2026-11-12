@@ -1,0 +1,82 @@
+{
+  "schema": "tanks.beach-pump.v3.68-frame-six-candidate-atlases",
+  "passed": true,
+  "native_blender_sha256": "7ab069297904d21b23d9e84a1210130fe324d5b18d1cd4384ba436e68ea97928",
+  "independent_blender_reopen_passed": true,
+  "actual_cycles_frames": 68,
+  "offshore_entity": "offshore-pump/beachpump",
+  "water_per_tick": 0.01,
+  "fluid_source_offset": [
+    0,
+    -1
+  ],
+  "native_south_output": [
+    0,
+    0.25
+  ],
+  "directions_factorio": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "blender_direction_by_factorio_slot": [
+    0,
+    3,
+    2,
+    1
+  ],
+  "fps": 8,
+  "working_frames_each_direction": 16,
+  "atlas_layout": {
+    "idle": [
+      4,
+      1
+    ],
+    "working": [
+      8,
+      8
+    ]
+  },
+  "files": {
+    "idle-64.png": {
+      "sha256": "9fe61833d4669e185389a29ae9485b773814c92b4bd5ed3ba0f50b520d9e0b34",
+      "width": 256,
+      "height": 64,
+      "bytes": 9447
+    },
+    "working-64.png": {
+      "sha256": "dbd801632e2349855cdf6284f90731212c1e82b732dc87c930fc0db0e721f35d",
+      "width": 512,
+      "height": 512,
+      "bytes": 104354
+    },
+    "idle-128.png": {
+      "sha256": "3415fd0d872bfa77f2dbb4db87dab67b7c349a577cca1e90a6a7580cd0cea2bb",
+      "width": 512,
+      "height": 128,
+      "bytes": 28508
+    },
+    "working-128.png": {
+      "sha256": "1679e1ba360422a21addfeb64e3c9929ecd2b4c83f7ca7bdc4bc1bb9b5e85ad6",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 344773
+    },
+    "idle-256.png": {
+      "sha256": "37c84bcabe76d318e27b6cbe20d697ccbbf1cfccf9c390fb8dfe2c8440662aae",
+      "width": 1024,
+      "height": 256,
+      "bytes": 94511
+    },
+    "working-256.png": {
+      "sha256": "7549fc6c40567f6d1275554e76d4763e53a6a713c294f8d0e8922e3806d8e433",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 1176040
+    }
+  },
+  "official_factorio_offshore_schema_tested": false,
+  "original_game_graphics_replaced": false,
+  "native_client_visual_approved": false
+}

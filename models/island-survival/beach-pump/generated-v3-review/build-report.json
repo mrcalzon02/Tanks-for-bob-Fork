@@ -1,0 +1,682 @@
+{
+  "schema": "tanks.beach-pump.v3.archimedes-native-blender",
+  "native_sha256": "7ab069297904d21b23d9e84a1210130fe324d5b18d1cd4384ba436e68ea97928",
+  "donor_builder_blob_sha1": "8e71744515f81968b7769b0076ed21f8b21ea5f7",
+  "footprint": [
+    1,
+    1
+  ],
+  "shoreline_selection": [
+    [
+      -0.6,
+      -1.49
+    ],
+    [
+      0.6,
+      0.49
+    ]
+  ],
+  "native_offshore": {
+    "prototype_type": "offshore-pump",
+    "prototype_name": "beachpump",
+    "fluid": "water",
+    "shoreline_source_offset": [
+      0,
+      -1
+    ],
+    "native_output_position": [
+      0,
+      0.25
+    ],
+    "native_output_direction": "south",
+    "water_per_tick": 0.01,
+    "nominal_water_per_second": 0.6,
+    "vanilla_water_per_second": 1200,
+    "energy_source": "void",
+    "tile_width": 1,
+    "tile_height": 1,
+    "graphics_or_gameplay_modification": false
+  },
+  "geometry": {
+    "removed_v1_objects": 50,
+    "length_bu": 1.49282,
+    "helix_mesh_vertices": 580,
+    "wheel_spokes": 8,
+    "wheel_paddles": 8,
+    "crank_handle_count": 1,
+    "water_pockets": 6,
+    "spill_droplets": 6,
+    "static_south_port_meshes": 2,
+    "screw_low_xyz": [
+      -0.1899999976158142,
+      1.159999966621399,
+      0.3700000047683716
+    ],
+    "screw_high_xyz": [
+      -0.1899999976158142,
+      0.07000000029802322,
+      1.3899999856948853
+    ],
+    "wheel_xyz": [
+      0.28,
+      -0.13,
+      0.97
+    ],
+    "no_game_data_changed": true,
+    "v3_refinement": true,
+    "cupped_mesh_buckets": 8,
+    "remaining_dock_planks": 5,
+    "fluid_sphere_replacements": 12,
+    "moving_water_glints": 4,
+    "linear_keyframes": 1752
+  },
+  "native_reopen_preview_checks": {
+    "valid": true,
+    "native_type": "offshore-pump",
+    "source_offset": [
+      0,
+      -1
+    ],
+    "native_south_output": [
+      0,
+      0.25
+    ],
+    "port_fitted": true,
+    "all_external_fittings_static": true,
+    "loop97_matches_frame1": true,
+    "real_helix_vertices": 580,
+    "wheel_paddles": 8,
+    "oversize_crank": true,
+    "gameplay_unchanged": true
+  },
+  "source_materials": [
+    "BEACH | black wet forged iron",
+    "BEACH | bright visibly blue-green moving water",
+    "BEACH | chalk dial",
+    "BEACH | dented copper",
+    "BEACH | green-blue water",
+    "BEACH | hemp tied lashings",
+    "BEACH | oiled leather bellows",
+    "BEACH | old green glass",
+    "BEACH | pale mobile foam highlights",
+    "BEACH | pitted salt driftwood",
+    "BEACH | weathered brass",
+    "BEACH | wet salt-darkened timber"
+  ],
+  "four_facings": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "fps": 8,
+  "working_frames": [
+    1,
+    7,
+    13,
+    19,
+    25,
+    31,
+    37,
+    43,
+    49,
+    55,
+    61,
+    67,
+    73,
+    79,
+    85,
+    91
+  ],
+  "render_mode": "all",
+  "render_count": 68,
+  "renders": [
+    {
+      "file": "idle-d00.png",
+      "state": "idle",
+      "direction": 0,
+      "index": -1,
+      "frame": 0,
+      "sha256": "3c929dd3d164512e1fa878037f7458eb17e200b43a7c67de0b7ead21dfb0b7ba"
+    },
+    {
+      "file": "working-d00-f000.png",
+      "state": "working",
+      "direction": 0,
+      "index": 0,
+      "frame": 1,
+      "sha256": "2ad62273932537b65c9a1f1c9ce83790242ecfbef516f4f26a854d9ed53be364"
+    },
+    {
+      "file": "working-d00-f001.png",
+      "state": "working",
+      "direction": 0,
+      "index": 1,
+      "frame": 7,
+      "sha256": "657c5092ba1570a5ee05d27bdc1f2c570bacda630e667efbde7309ccc8b0a094"
+    },
+    {
+      "file": "working-d00-f002.png",
+      "state": "working",
+      "direction": 0,
+      "index": 2,
+      "frame": 13,
+      "sha256": "d4cc355681393c9d769187905c104c05a64dc53262c4b82163c0bbf7bc61796c"
+    },
+    {
+      "file": "working-d00-f003.png",
+      "state": "working",
+      "direction": 0,
+      "index": 3,
+      "frame": 19,
+      "sha256": "9a198510b4ff13ffd87a12795e8c34a0b27d31b76779e08a78591972aab1fc80"
+    },
+    {
+      "file": "working-d00-f004.png",
+      "state": "working",
+      "direction": 0,
+      "index": 4,
+      "frame": 25,
+      "sha256": "f4b824f8a4fb12b9b63b851986247dd446c0acbf7f60061610077e3ff377576d"
+    },
+    {
+      "file": "working-d00-f005.png",
+      "state": "working",
+      "direction": 0,
+      "index": 5,
+      "frame": 31,
+      "sha256": "c65d3ec8a6731af26003d68f16efef780bedc3933239db5dc3cbee222dfb06b5"
+    },
+    {
+      "file": "working-d00-f006.png",
+      "state": "working",
+      "direction": 0,
+      "index": 6,
+      "frame": 37,
+      "sha256": "2ae5d0f4b57ec49dec2dc8304895513733cb45b78da080f58ceaefe65286e7d7"
+    },
+    {
+      "file": "working-d00-f007.png",
+      "state": "working",
+      "direction": 0,
+      "index": 7,
+      "frame": 43,
+      "sha256": "f9a57789004441bc93ec0e0669171c75d039e07936920ec13b0c03daaa60b7bd"
+    },
+    {
+      "file": "working-d00-f008.png",
+      "state": "working",
+      "direction": 0,
+      "index": 8,
+      "frame": 49,
+      "sha256": "6297d9cf12133aa87bcb75cce67cc50502fc46439c2dcdd300ef1b9b4d30f122"
+    },
+    {
+      "file": "working-d00-f009.png",
+      "state": "working",
+      "direction": 0,
+      "index": 9,
+      "frame": 55,
+      "sha256": "1bd96b8448e3cbfe0b4763708470e471694299925bd9844fe84bc113bb8a4bcf"
+    },
+    {
+      "file": "working-d00-f010.png",
+      "state": "working",
+      "direction": 0,
+      "index": 10,
+      "frame": 61,
+      "sha256": "6556627349fa14bd8bc46e716516b2c206b1ef8584a1e9de7fa113e5202a04db"
+    },
+    {
+      "file": "working-d00-f011.png",
+      "state": "working",
+      "direction": 0,
+      "index": 11,
+      "frame": 67,
+      "sha256": "7727545aedcbcc55a86ca8ed16b4aa7de00269075ce8eaa2dda219c44b23d5bc"
+    },
+    {
+      "file": "working-d00-f012.png",
+      "state": "working",
+      "direction": 0,
+      "index": 12,
+      "frame": 73,
+      "sha256": "06eaaf6cf1df353f5690e8c6bb518e0c3e7f0eb45880f5dc9753619b782c6390"
+    },
+    {
+      "file": "working-d00-f013.png",
+      "state": "working",
+      "direction": 0,
+      "index": 13,
+      "frame": 79,
+      "sha256": "881d3e0b18b46153cc4ef0c710acfefc8210f0f80793178cef8b32e7fe6a94b7"
+    },
+    {
+      "file": "working-d00-f014.png",
+      "state": "working",
+      "direction": 0,
+      "index": 14,
+      "frame": 85,
+      "sha256": "aeafc28f77b1d808f210809df40d1004d7c224e6f487d4b5400ddafb35200b82"
+    },
+    {
+      "file": "working-d00-f015.png",
+      "state": "working",
+      "direction": 0,
+      "index": 15,
+      "frame": 91,
+      "sha256": "063dcca4f37ee6ff0caf3bae20edab37dd5c2df44d053a84bb1767b43c2de608"
+    },
+    {
+      "file": "idle-d01.png",
+      "state": "idle",
+      "direction": 1,
+      "index": -1,
+      "frame": 0,
+      "sha256": "e3efac977aa1ebd38b2d80cbb70bfdc5e534096ea2e8fa814636d8531d52a6ab"
+    },
+    {
+      "file": "working-d01-f000.png",
+      "state": "working",
+      "direction": 1,
+      "index": 0,
+      "frame": 1,
+      "sha256": "3f3f720b7fd63d1a03195cd0aec43810ecb7538123fcfddf48ab9ba22b3ac51b"
+    },
+    {
+      "file": "working-d01-f001.png",
+      "state": "working",
+      "direction": 1,
+      "index": 1,
+      "frame": 7,
+      "sha256": "1594f51bf9ec7db1293ef43ac43da7344c0341400db14df4e3f69ce53ef817fe"
+    },
+    {
+      "file": "working-d01-f002.png",
+      "state": "working",
+      "direction": 1,
+      "index": 2,
+      "frame": 13,
+      "sha256": "a48df9a65ea610da317e9e130a566e1b273c05e286f8321d5e06ee98c185e418"
+    },
+    {
+      "file": "working-d01-f003.png",
+      "state": "working",
+      "direction": 1,
+      "index": 3,
+      "frame": 19,
+      "sha256": "622198fa0eedac66722d8ed6be5774ed57160aca2c2d9143e85f3d844bfdf217"
+    },
+    {
+      "file": "working-d01-f004.png",
+      "state": "working",
+      "direction": 1,
+      "index": 4,
+      "frame": 25,
+      "sha256": "57fa4e0c8ba0bbf8de1de1d3aa16a4d76369968e179b2297ddeea0b7cb77c4a4"
+    },
+    {
+      "file": "working-d01-f005.png",
+      "state": "working",
+      "direction": 1,
+      "index": 5,
+      "frame": 31,
+      "sha256": "1f215d9cf4eb285999467374593e59816f82e74048eb0d9aa94ef1331e239958"
+    },
+    {
+      "file": "working-d01-f006.png",
+      "state": "working",
+      "direction": 1,
+      "index": 6,
+      "frame": 37,
+      "sha256": "16fb17dc2d285203069c4e2eb28872fdb3be4706221945a27db6a512f43cdc72"
+    },
+    {
+      "file": "working-d01-f007.png",
+      "state": "working",
+      "direction": 1,
+      "index": 7,
+      "frame": 43,
+      "sha256": "2094feaea074aebbf516d3c5ae9655bf924e985df0d96c281363fda8b4149bf2"
+    },
+    {
+      "file": "working-d01-f008.png",
+      "state": "working",
+      "direction": 1,
+      "index": 8,
+      "frame": 49,
+      "sha256": "534833f9bf04d8eee004471389b75302a347ef5a8f5046d92f81148b005ca9da"
+    },
+    {
+      "file": "working-d01-f009.png",
+      "state": "working",
+      "direction": 1,
+      "index": 9,
+      "frame": 55,
+      "sha256": "cebf293fd7925413a44491870573720d06c81ae82d2eb577f37a04d7328b733f"
+    },
+    {
+      "file": "working-d01-f010.png",
+      "state": "working",
+      "direction": 1,
+      "index": 10,
+      "frame": 61,
+      "sha256": "95ad0ded7d1bcc4e0428b7316b7b017ecbecafb81363014f3602171f6f2c973d"
+    },
+    {
+      "file": "working-d01-f011.png",
+      "state": "working",
+      "direction": 1,
+      "index": 11,
+      "frame": 67,
+      "sha256": "f42f894c14b8fb8c47c50dcaaeedd87ef5a7cb411df0dee637b79c6cbf7749be"
+    },
+    {
+      "file": "working-d01-f012.png",
+      "state": "working",
+      "direction": 1,
+      "index": 12,
+      "frame": 73,
+      "sha256": "1a8c68614733df7604540b66f9ef0662d15f1b7a4cc4df4731c5a1ae997bd6ad"
+    },
+    {
+      "file": "working-d01-f013.png",
+      "state": "working",
+      "direction": 1,
+      "index": 13,
+      "frame": 79,
+      "sha256": "531b3a218640cc3162596181e843ef217e2eab75c2f30f92f344527287839a1f"
+    },
+    {
+      "file": "working-d01-f014.png",
+      "state": "working",
+      "direction": 1,
+      "index": 14,
+      "frame": 85,
+      "sha256": "4e3b7a77489cec4e5abd62d88e694a729b9106a881dfe8f8bb5122a4645d1db6"
+    },
+    {
+      "file": "working-d01-f015.png",
+      "state": "working",
+      "direction": 1,
+      "index": 15,
+      "frame": 91,
+      "sha256": "790cad3b9a39d579f7793dbc6b0256d9a6cf938aa4578b0abe3ff35055801460"
+    },
+    {
+      "file": "idle-d02.png",
+      "state": "idle",
+      "direction": 2,
+      "index": -1,
+      "frame": 0,
+      "sha256": "5c80e768c71ee002f58101d02c7a9ede98af03e9a75d426c67188270bece8843"
+    },
+    {
+      "file": "working-d02-f000.png",
+      "state": "working",
+      "direction": 2,
+      "index": 0,
+      "frame": 1,
+      "sha256": "c9d287c87cf934190d75336d692a7be4fe80a28e167df4c1f69ec38a5002cb9c"
+    },
+    {
+      "file": "working-d02-f001.png",
+      "state": "working",
+      "direction": 2,
+      "index": 1,
+      "frame": 7,
+      "sha256": "79196d030983c1fa9c566912090a1c273025ea1d9b0b0bae51b32f13c9872015"
+    },
+    {
+      "file": "working-d02-f002.png",
+      "state": "working",
+      "direction": 2,
+      "index": 2,
+      "frame": 13,
+      "sha256": "db229084a7fb814e9ed89bcdbe3c761a8fa63aa2d39d5c81dc6705f482ff670b"
+    },
+    {
+      "file": "working-d02-f003.png",
+      "state": "working",
+      "direction": 2,
+      "index": 3,
+      "frame": 19,
+      "sha256": "712028131a53394fbc5269fc464ac49c8c343d55a22d6aaeaa8191cb7a4b6638"
+    },
+    {
+      "file": "working-d02-f004.png",
+      "state": "working",
+      "direction": 2,
+      "index": 4,
+      "frame": 25,
+      "sha256": "da1d884f8084b641e83ed29753d6fa098bdbaa2dca45aaf0903a845937adf6b8"
+    },
+    {
+      "file": "working-d02-f005.png",
+      "state": "working",
+      "direction": 2,
+      "index": 5,
+      "frame": 31,
+      "sha256": "8e2d13bc9d5141c6a39de982fb1278b1aec8f11691de62bd4e1c5b28e255f109"
+    },
+    {
+      "file": "working-d02-f006.png",
+      "state": "working",
+      "direction": 2,
+      "index": 6,
+      "frame": 37,
+      "sha256": "81ef5f5c09965cce88374be7c9075d8e1d2d871f7acde0adcdfb1d0f2eea4853"
+    },
+    {
+      "file": "working-d02-f007.png",
+      "state": "working",
+      "direction": 2,
+      "index": 7,
+      "frame": 43,
+      "sha256": "cba3a8be9d37d9af368e84f4eddf4529bc99ebfe7af3205d780cff082b72acdb"
+    },
+    {
+      "file": "working-d02-f008.png",
+      "state": "working",
+      "direction": 2,
+      "index": 8,
+      "frame": 49,
+      "sha256": "b9be5184b175e363eb7da08d33cbded19205bf390257d6bff01bd3b72ee3300e"
+    },
+    {
+      "file": "working-d02-f009.png",
+      "state": "working",
+      "direction": 2,
+      "index": 9,
+      "frame": 55,
+      "sha256": "3fbfc61d9efe19c527959cdce231d16cef081a1f98d1881c7913b055e6b905cf"
+    },
+    {
+      "file": "working-d02-f010.png",
+      "state": "working",
+      "direction": 2,
+      "index": 10,
+      "frame": 61,
+      "sha256": "d6fb932211e047e0652d9c629f329d625f6573a4be4fd939b8177831ec436460"
+    },
+    {
+      "file": "working-d02-f011.png",
+      "state": "working",
+      "direction": 2,
+      "index": 11,
+      "frame": 67,
+      "sha256": "40a2eaf7898fbdb0c1bdb340ffda06a0db2c64827513f381d4a073856813f103"
+    },
+    {
+      "file": "working-d02-f012.png",
+      "state": "working",
+      "direction": 2,
+      "index": 12,
+      "frame": 73,
+      "sha256": "c8ec1aad41baad6330aa398cfbaec6ed76a131211bccf2bab7da7bf954943561"
+    },
+    {
+      "file": "working-d02-f013.png",
+      "state": "working",
+      "direction": 2,
+      "index": 13,
+      "frame": 79,
+      "sha256": "53536a47523c3ed153aa1d2884af226785d063b1517f962c8d7975792c576da1"
+    },
+    {
+      "file": "working-d02-f014.png",
+      "state": "working",
+      "direction": 2,
+      "index": 14,
+      "frame": 85,
+      "sha256": "d2e4babc67f90c08b635cc5524eb6618b58301de17a09e536214af48270fca76"
+    },
+    {
+      "file": "working-d02-f015.png",
+      "state": "working",
+      "direction": 2,
+      "index": 15,
+      "frame": 91,
+      "sha256": "d29cb515c3e8885cd14908cfec37ef764f87c621b1d32f54cbd9e76dcce06b20"
+    },
+    {
+      "file": "idle-d03.png",
+      "state": "idle",
+      "direction": 3,
+      "index": -1,
+      "frame": 0,
+      "sha256": "5475c3bd24c533568c80180ce2268bb427add5242088dc92977b665f19a91ea9"
+    },
+    {
+      "file": "working-d03-f000.png",
+      "state": "working",
+      "direction": 3,
+      "index": 0,
+      "frame": 1,
+      "sha256": "7ffc6d806c1d6abf8bac664d5b0e060daf588f676fc475cbfb0e668a3189848f"
+    },
+    {
+      "file": "working-d03-f001.png",
+      "state": "working",
+      "direction": 3,
+      "index": 1,
+      "frame": 7,
+      "sha256": "7de2adda4591fc9c75cba2c7e9b4a96003df5ad0952076274912078dfd097583"
+    },
+    {
+      "file": "working-d03-f002.png",
+      "state": "working",
+      "direction": 3,
+      "index": 2,
+      "frame": 13,
+      "sha256": "65ce1699d43024481c17acf795e39d726df1b3b3f7c16af0dc2564eb719a860a"
+    },
+    {
+      "file": "working-d03-f003.png",
+      "state": "working",
+      "direction": 3,
+      "index": 3,
+      "frame": 19,
+      "sha256": "f2cdb27c8f85b3448a23af17ca8e3f714a0340cc440a3597c3fcaeb0e4e0d563"
+    },
+    {
+      "file": "working-d03-f004.png",
+      "state": "working",
+      "direction": 3,
+      "index": 4,
+      "frame": 25,
+      "sha256": "268c48fd43f430da4d4b2f2fc3f401417e627d65d72991526730dc37c8cefab2"
+    },
+    {
+      "file": "working-d03-f005.png",
+      "state": "working",
+      "direction": 3,
+      "index": 5,
+      "frame": 31,
+      "sha256": "7dd2e718960dab8989613f3978568a4c3001c14e5df2b915ad693247a5da2680"
+    },
+    {
+      "file": "working-d03-f006.png",
+      "state": "working",
+      "direction": 3,
+      "index": 6,
+      "frame": 37,
+      "sha256": "8b5fddb4146401fa02c1239c8e7d41cd1342613aa66707c9422595f216943f6b"
+    },
+    {
+      "file": "working-d03-f007.png",
+      "state": "working",
+      "direction": 3,
+      "index": 7,
+      "frame": 43,
+      "sha256": "bde1c271638a63170c8e978fa136e84f7ce48e66d6f5a4d75ab862bd9d5ebc10"
+    },
+    {
+      "file": "working-d03-f008.png",
+      "state": "working",
+      "direction": 3,
+      "index": 8,
+      "frame": 49,
+      "sha256": "bb48bd83c06e22936f7e73288c86cec6ccda5eb7031d34f9bbdd1514a9c3027f"
+    },
+    {
+      "file": "working-d03-f009.png",
+      "state": "working",
+      "direction": 3,
+      "index": 9,
+      "frame": 55,
+      "sha256": "0a046f046caae5b64e39bdbc3b9db768c1df28ee76b61093d1b9939ee628aa27"
+    },
+    {
+      "file": "working-d03-f010.png",
+      "state": "working",
+      "direction": 3,
+      "index": 10,
+      "frame": 61,
+      "sha256": "35131ae0db718794b520abb3844c37230f4cc47a38ad3538ca3f9d99e525a1f4"
+    },
+    {
+      "file": "working-d03-f011.png",
+      "state": "working",
+      "direction": 3,
+      "index": 11,
+      "frame": 67,
+      "sha256": "4816a58892f48f2d0b7a1e17592c2e31db36a6ad04110f0693086d02f79b1df7"
+    },
+    {
+      "file": "working-d03-f012.png",
+      "state": "working",
+      "direction": 3,
+      "index": 12,
+      "frame": 73,
+      "sha256": "e03fc9e644680961985fce27f50f5251877f583d28dea46a7a8446b8039f5cc4"
+    },
+    {
+      "file": "working-d03-f013.png",
+      "state": "working",
+      "direction": 3,
+      "index": 13,
+      "frame": 79,
+      "sha256": "0f7c53fb4bf44ea2622d0e5de7528f7e4462c7314016ea0ed665996e19337c3d"
+    },
+    {
+      "file": "working-d03-f014.png",
+      "state": "working",
+      "direction": 3,
+      "index": 14,
+      "frame": 85,
+      "sha256": "191f8e692b66e289e39bb4ebd1f6780994082d807c839d2c8cbdf5759d5b9b29"
+    },
+    {
+      "file": "working-d03-f015.png",
+      "state": "working",
+      "direction": 3,
+      "index": 15,
+      "frame": 91,
+      "sha256": "b2d1fbefa8b3ab29cdc057cb4f98c430c9fb1015e0b29f60edd561b50e7ac418"
+    }
+  ],
+  "game_integrated": false,
+  "human_visual_approved": false,
+  "visual_refinement": "curved cupped buckets; reduced blocky deck; thin water and keyed glints"
+}
