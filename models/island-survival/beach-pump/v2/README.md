@@ -35,7 +35,25 @@ Production is 4 idle and 64 true Blender Cycles working frames (16 poses at
 8 FPS, loop frame 97 identical to frame 1), rotated 0/90/180/270 beneath the
 same fixed camera. A new verified output directory is required, no overwrite.
 
-**Source status:** Script and dimensional/functional contract authored;
-genuine Blender render, independent source reopen, visual acceptance and
-Factorio sprite integration require their own receipts. Do not replace
-the real `OffshorePumpGraphicsSet` with assembler or ordinary pump graphics.
+**Native Blender 5.2.3 status: PASS.** The new editable V2 machine was built and
+independently reopened in [Core30 run 43287477872](https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43287477872).
+The [genuine four-direction Cycles render](../generated-v2/review-four-directions.png)
+and actual Blender model-source QA receipts are committed alongside the source.
+
+The original source is 3,399,311 bytes; SHA256
+`ee9c9ba560f8b28a580c7307e642f1f6c420627a3165131a0c4f6b53987d0646`.
+Its 12 Git source parts are **byte-identical** to the independently reopened
+Blender master, verified by post-commit readback. Reassemble the actual
+editable file from a Git checkout:
+
+```sh
+python3 models/island-survival/beach-pump/generated-v2/assemble_native.py
+```
+
+Native QA proved the 580-vertex helical flight, eight-paddle wheel, large
+external rotating crank, visible water pockets and trough-to-wheel drops,
+exact loop seam and both stationary full-bore pipe-fitting meshes.
+
+**Still pending:** full 68-frame production atlas export, owner visual
+acceptance and in-client Factorio 2.1 offshore-pump graphics check. Do not
+replace live graphics or alter the shoreline-to-pipe water mechanics.
