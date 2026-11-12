@@ -1,0 +1,103 @@
+{
+  "schema": "tanks.beach-pump.v2.archimedes-waterwheel",
+  "model": "offshore-pump/beachpump",
+  "original_entity_unchanged": true,
+  "scope": "VISIBLE ONLY. Replaces V1 wave paddle/diaphragm with real Archimedes screw, spill trough, waterwheel, and oversize side crank.",
+  "v1_builder": {
+    "path": "models/island-survival/beach-pump/v1/build_beach_pump_v1.py",
+    "git_blob_sha1": "8e71744515f81968b7769b0076ed21f8b21ea5f7",
+    "reuse": [
+      "fixed one south pipe collar/throat",
+      "four separate concrete footings and timber skids",
+      "approved packed FMPL materials",
+      "unchanged single 45 degree orthographic camera"
+    ]
+  },
+  "lock": {
+    "prototype_type": "offshore-pump",
+    "prototype_name": "beachpump",
+    "fluid": "water",
+    "shoreline_source_offset": [
+      0,
+      -1
+    ],
+    "native_output_position": [
+      0,
+      0.25
+    ],
+    "native_output_direction": "south",
+    "water_per_tick": 0.01,
+    "nominal_water_per_second": 0.6,
+    "vanilla_water_per_second": 1200,
+    "energy_source": "void",
+    "tile_width": 1,
+    "tile_height": 1,
+    "graphics_or_gameplay_modification": false
+  },
+  "dimensions": {
+    "blender_units_per_tile": 1,
+    "shoreline_intake_y_positive": true,
+    "screw_intake_xyz": [
+      -0.19,
+      1.16,
+      0.37
+    ],
+    "screw_discharge_xyz": [
+      -0.19,
+      0.07,
+      1.39
+    ],
+    "trough_waterwheel_feed_xyz": [
+      0.22,
+      -0.12,
+      1.34
+    ],
+    "waterwheel_center_xyz": [
+      0.28,
+      -0.13,
+      0.97
+    ],
+    "waterwheel_axis": "+X",
+    "waterwheel_radius": 0.28,
+    "crank_protrusion_outer_x": 0.57,
+    "stationary_outlet_xyz": [
+      0,
+      -0.49,
+      0.36
+    ],
+    "no_concrete_slab": true
+  },
+  "animation": {
+    "fps": 8,
+    "frames": [
+      1,
+      7,
+      13,
+      19,
+      25,
+      31,
+      37,
+      43,
+      49,
+      55,
+      61,
+      67,
+      73,
+      79,
+      85,
+      91
+    ],
+    "loop_end": 97,
+    "screw_revolutions_per_cycle": 1,
+    "wheel_revolutions_per_cycle": -1,
+    "droplets": true,
+    "visible_water_in_trough": true,
+    "ideo_fixed_static_outlet": true
+  },
+  "evidence": {
+    "native_blender_built": false,
+    "rendered_frame_count": 0,
+    "visual_approved": false,
+    "game_client_verified": false
+  }
+}
