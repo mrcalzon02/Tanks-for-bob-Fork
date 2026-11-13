@@ -1,0 +1,110 @@
+{
+  "schema": "tanks.beach-pump.v5.native-four-way-contact",
+  "passed": true,
+  "native_reopened": true,
+  "actual_blender_frames": 68,
+  "verified_views": [
+    {
+      "file": "idle-d00.png",
+      "direction": "north",
+      "state": "idle",
+      "sha256": "ff8d785f986689842151e222d8fbb1b0d0be2f682a5d1f1c94b97f1cbfe21888",
+      "alpha_bbox": [
+        97,
+        84,
+        167,
+        196
+      ]
+    },
+    {
+      "file": "working-d00-f004.png",
+      "direction": "north",
+      "state": "working",
+      "sha256": "dfbcb106c9a86823defcba51719a10524b7f86010dda3a4fb007770302307eb6",
+      "alpha_bbox": [
+        97,
+        84,
+        167,
+        196
+      ]
+    },
+    {
+      "file": "idle-d01.png",
+      "direction": "east",
+      "state": "idle",
+      "sha256": "f4c44c260fbd46675de9454e1b4ba61ac9999937550b1b32e1fce6d71b7635d3",
+      "alpha_bbox": [
+        34,
+        78,
+        167,
+        195
+      ]
+    },
+    {
+      "file": "working-d01-f004.png",
+      "direction": "east",
+      "state": "working",
+      "sha256": "f5419e3ff2acf7bb52e3e144464d517dec9f0c9ad4fa81157126435febd23e53",
+      "alpha_bbox": [
+        34,
+        86,
+        167,
+        195
+      ]
+    },
+    {
+      "file": "idle-d02.png",
+      "direction": "south",
+      "state": "idle",
+      "sha256": "7ee05d1b5286c837d396038fa975a8e7d9b5bfb3fdaf190e67b9af6edfde5d76",
+      "alpha_bbox": [
+        89,
+        89,
+        159,
+        232
+      ]
+    },
+    {
+      "file": "working-d02-f004.png",
+      "direction": "south",
+      "state": "working",
+      "sha256": "d1cc86aafd6d948a8fb0cb2de04243d8091bd2853bb63b6a19890d55d67d7df8",
+      "alpha_bbox": [
+        89,
+        89,
+        159,
+        232
+      ]
+    },
+    {
+      "file": "idle-d03.png",
+      "direction": "west",
+      "state": "idle",
+      "sha256": "b15ab3e1674c7e25649ecfe261335855c7219cc52da329eb7e61cee9f1739982",
+      "alpha_bbox": [
+        89,
+        85,
+        222,
+        195
+      ]
+    },
+    {
+      "file": "working-d03-f004.png",
+      "direction": "west",
+      "state": "working",
+      "sha256": "a626ccae1dfdf8f4d8bfb50735d0730bfbb2bd93075893a2440aad66f899b45e",
+      "alpha_bbox": [
+        89,
+        85,
+        222,
+        195
+      ]
+    }
+  ],
+  "contact_sha256": "7bda25530ff76273726ed9eaecd08e58c1d393de592c3b7d57e1643e8546554d",
+  "motion_review_gif": "motion-review.gif",
+  "motion_review_gif_sha256": "4eb0d909fa52fa2b23cb65089e635de3c4df7571e0cbc94054dab85c1095db67",
+  "genuine_animation_frames": 16,
+  "game_integrated": false,
+  "human_visual_approved": false
+}

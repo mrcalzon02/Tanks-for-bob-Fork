@@ -1,0 +1,32 @@
+{
+  "schema": "tanks.beach-pump.v5.independent-native-qa",
+  "passed": true,
+  "actual_blender_frames": 68,
+  "native_sha256": "a6f7c938835b98e2a24e4bac513627daccc83e6cd9d4c600e81b20c81eb93db1",
+  "real_helix_mesh_vertices": 580,
+  "water_wheel_paddles": 8,
+  "large_eccentric_side_crank": true,
+  "glass_outer_radius": 0.209,
+  "glass_wall_thickness": 0.014,
+  "fluid_single_connected_body": true,
+  "fluid_vertex_count": 3024,
+  "old_blue_beads_remaining": 0,
+  "continuous_spill_sheet": true,
+  "animated_water_material": true,
+  "fixed_native_port_meshes": 2,
+  "fixed_port_vertices_each": 256,
+  "port_max_drift_bu": 0,
+  "frame97_matches_frame1": true,
+  "one_45_degree_ortho_camera": true,
+  "native_south_output": [
+    0,
+    0.25
+  ],
+  "source_offset": [
+    0,
+    -1
+  ],
+  "gameplay_original_rate_per_tick": 0.01,
+  "game_integrated": false,
+  "human_visual_approved": false
+}

@@ -1,0 +1,698 @@
+{
+  "schema": "tanks.beach-pump.v5.glass-water-native-blender",
+  "native_sha256": "a6f7c938835b98e2a24e4bac513627daccc83e6cd9d4c600e81b20c81eb93db1",
+  "donor_builder_blob_sha1": "8e71744515f81968b7769b0076ed21f8b21ea5f7",
+  "footprint": [
+    1,
+    1
+  ],
+  "shoreline_selection": [
+    [
+      -0.6,
+      -1.49
+    ],
+    [
+      0.6,
+      0.49
+    ]
+  ],
+  "native_offshore": {
+    "prototype_type": "offshore-pump",
+    "prototype_name": "beachpump",
+    "fluid": "water",
+    "shoreline_source_offset": [
+      0,
+      -1
+    ],
+    "native_output_position": [
+      0,
+      0.25
+    ],
+    "native_output_direction": "south",
+    "water_per_tick": 0.01,
+    "nominal_water_per_second": 0.6,
+    "vanilla_water_per_second": 1200,
+    "energy_source": "void",
+    "tile_width": 1,
+    "tile_height": 1,
+    "graphics_or_gameplay_modification": false
+  },
+  "geometry": {
+    "removed_v1_objects": 50,
+    "length_bu": 1.49282,
+    "helix_mesh_vertices": 580,
+    "wheel_spokes": 8,
+    "wheel_paddles": 8,
+    "crank_handle_count": 1,
+    "water_pockets": 6,
+    "spill_droplets": 6,
+    "static_south_port_meshes": 2,
+    "screw_low_xyz": [
+      -0.1899999976158142,
+      1.159999966621399,
+      0.3700000047683716
+    ],
+    "screw_high_xyz": [
+      -0.1899999976158142,
+      0.07000000029802322,
+      1.3899999856948853
+    ],
+    "wheel_xyz": [
+      0.28,
+      -0.13,
+      0.97
+    ],
+    "no_game_data_changed": true,
+    "v3_refinement": true,
+    "cupped_mesh_buckets": 8,
+    "remaining_dock_planks": 2,
+    "fluid_sphere_replacements": 12,
+    "moving_water_glints": 4,
+    "linear_keyframes": 1752,
+    "v4_silhouette_open": true,
+    "slim_supports": 20,
+    "wheel_scale_radial": 1.38,
+    "native_pipe_unchanged": true,
+    "face_index_count": 1,
+    "crank_grip_bands": 2,
+    "v5_glass_housing": true,
+    "v5_one_continuous_fluid_body": true,
+    "v5_deleted_blue_bead_meshes": 12,
+    "v5_animated_water_shader": true,
+    "v5_continuous_spill_sheet": true,
+    "v5_materials": [
+      "BEACH V5 | flawed sea-glass screw jacket",
+      "BEACH V5 | continuous contained green seawater"
+    ],
+    "v5_screw_rotation_parent_unchanged": true
+  },
+  "native_reopen_preview_checks": {
+    "valid": true,
+    "native_type": "offshore-pump",
+    "source_offset": [
+      0,
+      -1
+    ],
+    "native_south_output": [
+      0,
+      0.25
+    ],
+    "port_fitted": true,
+    "all_external_fittings_static": true,
+    "loop97_matches_frame1": true,
+    "real_helix_vertices": 580,
+    "wheel_paddles": 8,
+    "oversize_crank": true,
+    "gameplay_unchanged": true
+  },
+  "source_materials": [
+    "BEACH | black wet forged iron",
+    "BEACH | bright visibly blue-green moving water",
+    "BEACH | chalk dial",
+    "BEACH | dented copper",
+    "BEACH | green-blue water",
+    "BEACH | hemp tied lashings",
+    "BEACH | oiled leather bellows",
+    "BEACH | old green glass",
+    "BEACH | pale mobile foam highlights",
+    "BEACH | pitted salt driftwood",
+    "BEACH | weathered brass",
+    "BEACH | wet salt-darkened timber"
+  ],
+  "four_facings": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "fps": 8,
+  "working_frames": [
+    1,
+    7,
+    13,
+    19,
+    25,
+    31,
+    37,
+    43,
+    49,
+    55,
+    61,
+    67,
+    73,
+    79,
+    85,
+    91
+  ],
+  "render_mode": "all",
+  "render_count": 68,
+  "renders": [
+    {
+      "file": "idle-d00.png",
+      "state": "idle",
+      "direction": 0,
+      "index": -1,
+      "frame": 0,
+      "sha256": "ff8d785f986689842151e222d8fbb1b0d0be2f682a5d1f1c94b97f1cbfe21888"
+    },
+    {
+      "file": "working-d00-f000.png",
+      "state": "working",
+      "direction": 0,
+      "index": 0,
+      "frame": 1,
+      "sha256": "0abdc4cae2d5aaa0de9f865d90eb6bc134ccce22e2a490f2fbd2592d8f4731cc"
+    },
+    {
+      "file": "working-d00-f001.png",
+      "state": "working",
+      "direction": 0,
+      "index": 1,
+      "frame": 7,
+      "sha256": "38c8bd9e85d5a939ba5c91cc197370bf67e716cca3ff2180bd5bd7f8be8525c4"
+    },
+    {
+      "file": "working-d00-f002.png",
+      "state": "working",
+      "direction": 0,
+      "index": 2,
+      "frame": 13,
+      "sha256": "4eadf7d703b70c16ed058f958c4b19a33d0c2d996a0a2b4bacb5191f8b8c6558"
+    },
+    {
+      "file": "working-d00-f003.png",
+      "state": "working",
+      "direction": 0,
+      "index": 3,
+      "frame": 19,
+      "sha256": "cc702cd129be89b69f3188d3116956e040b768dcba771d64908f11d9c866f95c"
+    },
+    {
+      "file": "working-d00-f004.png",
+      "state": "working",
+      "direction": 0,
+      "index": 4,
+      "frame": 25,
+      "sha256": "dfbcb106c9a86823defcba51719a10524b7f86010dda3a4fb007770302307eb6"
+    },
+    {
+      "file": "working-d00-f005.png",
+      "state": "working",
+      "direction": 0,
+      "index": 5,
+      "frame": 31,
+      "sha256": "edac61061d590faf901bec60560cfbcfb3c46740f15fc6ff47c56f95a1661a01"
+    },
+    {
+      "file": "working-d00-f006.png",
+      "state": "working",
+      "direction": 0,
+      "index": 6,
+      "frame": 37,
+      "sha256": "5e265017002ecdd174ee04b14777be6554c7d6a0225f0dda1db0baa99193509f"
+    },
+    {
+      "file": "working-d00-f007.png",
+      "state": "working",
+      "direction": 0,
+      "index": 7,
+      "frame": 43,
+      "sha256": "a2c5a30c5c55f6102e6414c187988bafa69f6e6e2579955ee36215e32517dd5b"
+    },
+    {
+      "file": "working-d00-f008.png",
+      "state": "working",
+      "direction": 0,
+      "index": 8,
+      "frame": 49,
+      "sha256": "ba927eacdded20d928696e22c54ab7875c50f852e5864349f3cd9da7816b9e1e"
+    },
+    {
+      "file": "working-d00-f009.png",
+      "state": "working",
+      "direction": 0,
+      "index": 9,
+      "frame": 55,
+      "sha256": "0380f33ef74687ed65fca3591d930c78ba60ae6038dc3742aa7a2ea4f89e9c47"
+    },
+    {
+      "file": "working-d00-f010.png",
+      "state": "working",
+      "direction": 0,
+      "index": 10,
+      "frame": 61,
+      "sha256": "2165ba4dd0f55e48afebd1ab3314b37ac2af26422aae945c127d51cc98fb8632"
+    },
+    {
+      "file": "working-d00-f011.png",
+      "state": "working",
+      "direction": 0,
+      "index": 11,
+      "frame": 67,
+      "sha256": "4434481b61142974f71e333534a04a3509bd09bae42d6cfeceff4fe9a45fa507"
+    },
+    {
+      "file": "working-d00-f012.png",
+      "state": "working",
+      "direction": 0,
+      "index": 12,
+      "frame": 73,
+      "sha256": "8152068b43a82dec333c40e125593467f5b1652be58e63616568e91fee38b189"
+    },
+    {
+      "file": "working-d00-f013.png",
+      "state": "working",
+      "direction": 0,
+      "index": 13,
+      "frame": 79,
+      "sha256": "6a9614a73c4a57c3a3a8e192b8fe84521e247842838c12b2cea7c3329f2c58ce"
+    },
+    {
+      "file": "working-d00-f014.png",
+      "state": "working",
+      "direction": 0,
+      "index": 14,
+      "frame": 85,
+      "sha256": "99205b6e2a606b342a1fdb99c508f3a019f2db22cef8dd530ceb6980eff13018"
+    },
+    {
+      "file": "working-d00-f015.png",
+      "state": "working",
+      "direction": 0,
+      "index": 15,
+      "frame": 91,
+      "sha256": "ea727754b7a71d2c11e6a49e46b5fc1cfcc5bc9ff6605395306565188058e25d"
+    },
+    {
+      "file": "idle-d01.png",
+      "state": "idle",
+      "direction": 1,
+      "index": -1,
+      "frame": 0,
+      "sha256": "f4c44c260fbd46675de9454e1b4ba61ac9999937550b1b32e1fce6d71b7635d3"
+    },
+    {
+      "file": "working-d01-f000.png",
+      "state": "working",
+      "direction": 1,
+      "index": 0,
+      "frame": 1,
+      "sha256": "2e2f2789462c0897b77ce169dda995941dbe8f775f5460f0b164b3ce41e922e5"
+    },
+    {
+      "file": "working-d01-f001.png",
+      "state": "working",
+      "direction": 1,
+      "index": 1,
+      "frame": 7,
+      "sha256": "23a6894622ece58e3d35fd448af8bf8001caa6f55d13bbf88c3c34c776c9ff68"
+    },
+    {
+      "file": "working-d01-f002.png",
+      "state": "working",
+      "direction": 1,
+      "index": 2,
+      "frame": 13,
+      "sha256": "12bac2f3ef322d649c9b074beded69e2e07355442f98a2a927acb2174935192c"
+    },
+    {
+      "file": "working-d01-f003.png",
+      "state": "working",
+      "direction": 1,
+      "index": 3,
+      "frame": 19,
+      "sha256": "6aa145347c0d07eb318c480c6b35bee3692207d2c5144debcf5a58c0de9766e5"
+    },
+    {
+      "file": "working-d01-f004.png",
+      "state": "working",
+      "direction": 1,
+      "index": 4,
+      "frame": 25,
+      "sha256": "f5419e3ff2acf7bb52e3e144464d517dec9f0c9ad4fa81157126435febd23e53"
+    },
+    {
+      "file": "working-d01-f005.png",
+      "state": "working",
+      "direction": 1,
+      "index": 5,
+      "frame": 31,
+      "sha256": "3fe1e295d2db8684dfa50b8aff3ac92005d923b428a12e9dd51749eb9966b259"
+    },
+    {
+      "file": "working-d01-f006.png",
+      "state": "working",
+      "direction": 1,
+      "index": 6,
+      "frame": 37,
+      "sha256": "347cf0956e4bf6774dc3f554a600a0f725204f3a0a1e418afcdc3b03220da457"
+    },
+    {
+      "file": "working-d01-f007.png",
+      "state": "working",
+      "direction": 1,
+      "index": 7,
+      "frame": 43,
+      "sha256": "1e3513903e55e6ac4b252f2ab355dbd8090239040feb96e33819fa850face2a9"
+    },
+    {
+      "file": "working-d01-f008.png",
+      "state": "working",
+      "direction": 1,
+      "index": 8,
+      "frame": 49,
+      "sha256": "541795cecc58e98003ead92a586eb10130a9a1c2ae6e174219b49373aa0b5d06"
+    },
+    {
+      "file": "working-d01-f009.png",
+      "state": "working",
+      "direction": 1,
+      "index": 9,
+      "frame": 55,
+      "sha256": "399988b396fae9553e91a6e4ef4ff1e063cf16c12ac04578805bb3b8ff06b5b0"
+    },
+    {
+      "file": "working-d01-f010.png",
+      "state": "working",
+      "direction": 1,
+      "index": 10,
+      "frame": 61,
+      "sha256": "5dfc296ab75f7fd1b9ccce741112a855ce3af665d3bb7599b1166ce2416a3c5c"
+    },
+    {
+      "file": "working-d01-f011.png",
+      "state": "working",
+      "direction": 1,
+      "index": 11,
+      "frame": 67,
+      "sha256": "eb83bceeabb6be364e2cee949ecf5664ba9e83130201e2be8879d787a43a4a84"
+    },
+    {
+      "file": "working-d01-f012.png",
+      "state": "working",
+      "direction": 1,
+      "index": 12,
+      "frame": 73,
+      "sha256": "faf0a89cee7a8e3939804cf53fa0665a55f131bbe1f6be79dfbfc9b9a5556e8c"
+    },
+    {
+      "file": "working-d01-f013.png",
+      "state": "working",
+      "direction": 1,
+      "index": 13,
+      "frame": 79,
+      "sha256": "d0360d1cf89b80d44880d0d63f25ef636c4871cca15058039fa46e86d9e0d3d7"
+    },
+    {
+      "file": "working-d01-f014.png",
+      "state": "working",
+      "direction": 1,
+      "index": 14,
+      "frame": 85,
+      "sha256": "cc3c4e55e6aa6295a4d00d6ee80df174b64f5567ff22ecba92c1d4978d12c31b"
+    },
+    {
+      "file": "working-d01-f015.png",
+      "state": "working",
+      "direction": 1,
+      "index": 15,
+      "frame": 91,
+      "sha256": "79b9ea0ba803c9fdcbde4eb0576b32e55df3d0f2999034013f33208ed47eeb41"
+    },
+    {
+      "file": "idle-d02.png",
+      "state": "idle",
+      "direction": 2,
+      "index": -1,
+      "frame": 0,
+      "sha256": "7ee05d1b5286c837d396038fa975a8e7d9b5bfb3fdaf190e67b9af6edfde5d76"
+    },
+    {
+      "file": "working-d02-f000.png",
+      "state": "working",
+      "direction": 2,
+      "index": 0,
+      "frame": 1,
+      "sha256": "71e3f5fead69484d746fa249dcb2c2d10e140437e07460320e471b032b2ebad7"
+    },
+    {
+      "file": "working-d02-f001.png",
+      "state": "working",
+      "direction": 2,
+      "index": 1,
+      "frame": 7,
+      "sha256": "f94baed793a74241ef4555a8014ce06cb2482723a72d0eb77efdcff5c12ae57c"
+    },
+    {
+      "file": "working-d02-f002.png",
+      "state": "working",
+      "direction": 2,
+      "index": 2,
+      "frame": 13,
+      "sha256": "2d91f912c9b68c14a930d82bbb4887d116c6e493a4d621aa216a1634e3b03a17"
+    },
+    {
+      "file": "working-d02-f003.png",
+      "state": "working",
+      "direction": 2,
+      "index": 3,
+      "frame": 19,
+      "sha256": "92f8390aeda6ed995604911ed37bf6889615268b638e1d2001e9bf27c36fadda"
+    },
+    {
+      "file": "working-d02-f004.png",
+      "state": "working",
+      "direction": 2,
+      "index": 4,
+      "frame": 25,
+      "sha256": "d1cc86aafd6d948a8fb0cb2de04243d8091bd2853bb63b6a19890d55d67d7df8"
+    },
+    {
+      "file": "working-d02-f005.png",
+      "state": "working",
+      "direction": 2,
+      "index": 5,
+      "frame": 31,
+      "sha256": "cd8cbc6edf782cd5ba461df01bfead8e0a8bc87e67dca617175b2a060b31a858"
+    },
+    {
+      "file": "working-d02-f006.png",
+      "state": "working",
+      "direction": 2,
+      "index": 6,
+      "frame": 37,
+      "sha256": "ba554835f47b7dfb2367e5164099622fdacebef18179492fadf944764324e7f4"
+    },
+    {
+      "file": "working-d02-f007.png",
+      "state": "working",
+      "direction": 2,
+      "index": 7,
+      "frame": 43,
+      "sha256": "47d18bc3ae50023089e0c6afb6dab5de0e6e7891b4d6142de3f0404a22415768"
+    },
+    {
+      "file": "working-d02-f008.png",
+      "state": "working",
+      "direction": 2,
+      "index": 8,
+      "frame": 49,
+      "sha256": "cc2dbf3d0ae5c54859db63acb44aba1cc94326cac1ea800b898ac293f3dd874c"
+    },
+    {
+      "file": "working-d02-f009.png",
+      "state": "working",
+      "direction": 2,
+      "index": 9,
+      "frame": 55,
+      "sha256": "80a99adbc7aebcd36a85f7728691a6975d9cd75af31447f86a2abd754b7456c9"
+    },
+    {
+      "file": "working-d02-f010.png",
+      "state": "working",
+      "direction": 2,
+      "index": 10,
+      "frame": 61,
+      "sha256": "9d4822b9a42e9ef28c182fa9b69e3a64e1368827d50b2187b3f7816c9cb3a321"
+    },
+    {
+      "file": "working-d02-f011.png",
+      "state": "working",
+      "direction": 2,
+      "index": 11,
+      "frame": 67,
+      "sha256": "0ab4a2f2e58e255014525ec884860341bffe9b63e17e6ab482ca6058ac744b5e"
+    },
+    {
+      "file": "working-d02-f012.png",
+      "state": "working",
+      "direction": 2,
+      "index": 12,
+      "frame": 73,
+      "sha256": "e9d42437f6237d9d468788df9779086c49ae85bb41fe779bcd76aedebfaa741d"
+    },
+    {
+      "file": "working-d02-f013.png",
+      "state": "working",
+      "direction": 2,
+      "index": 13,
+      "frame": 79,
+      "sha256": "6dd7cdc8cb33dd11ab955433cf083d12bbf456c06f3b3ce103667cd7a8d02ecf"
+    },
+    {
+      "file": "working-d02-f014.png",
+      "state": "working",
+      "direction": 2,
+      "index": 14,
+      "frame": 85,
+      "sha256": "4c25ba79a824c8e9f34f696356039433d441f33b1dd424effe72fcc6af5b4159"
+    },
+    {
+      "file": "working-d02-f015.png",
+      "state": "working",
+      "direction": 2,
+      "index": 15,
+      "frame": 91,
+      "sha256": "da94281e6fd968640a68ce7509fe6d5207f95e6fde0e097425fac43dc711b9e2"
+    },
+    {
+      "file": "idle-d03.png",
+      "state": "idle",
+      "direction": 3,
+      "index": -1,
+      "frame": 0,
+      "sha256": "b15ab3e1674c7e25649ecfe261335855c7219cc52da329eb7e61cee9f1739982"
+    },
+    {
+      "file": "working-d03-f000.png",
+      "state": "working",
+      "direction": 3,
+      "index": 0,
+      "frame": 1,
+      "sha256": "a0bb5f3d56a85b9e29796f2ca07cd1c8ed98520cb8e99afb60b0b5f51375bbc4"
+    },
+    {
+      "file": "working-d03-f001.png",
+      "state": "working",
+      "direction": 3,
+      "index": 1,
+      "frame": 7,
+      "sha256": "79f843dcde072055aa872a5d3698bf63c521efb951a633b18ddd38bd93c4657a"
+    },
+    {
+      "file": "working-d03-f002.png",
+      "state": "working",
+      "direction": 3,
+      "index": 2,
+      "frame": 13,
+      "sha256": "2ae9dba4ac071c13bea5b7975a64925dffda189d14207ed0dbad1f58c51ec9e7"
+    },
+    {
+      "file": "working-d03-f003.png",
+      "state": "working",
+      "direction": 3,
+      "index": 3,
+      "frame": 19,
+      "sha256": "f5f303153c9300ff264da24e495d0b378dfd3f4edda8c32a4c3cb1984d47bfa1"
+    },
+    {
+      "file": "working-d03-f004.png",
+      "state": "working",
+      "direction": 3,
+      "index": 4,
+      "frame": 25,
+      "sha256": "a626ccae1dfdf8f4d8bfb50735d0730bfbb2bd93075893a2440aad66f899b45e"
+    },
+    {
+      "file": "working-d03-f005.png",
+      "state": "working",
+      "direction": 3,
+      "index": 5,
+      "frame": 31,
+      "sha256": "9a5448c5590164def09d88e3736cb2b70fee211c96f08ce4e4ec7f5fcaa6a338"
+    },
+    {
+      "file": "working-d03-f006.png",
+      "state": "working",
+      "direction": 3,
+      "index": 6,
+      "frame": 37,
+      "sha256": "eac3e2c1dafb85fff714c158fb60f11ba09cfcd775429ce14ff5f739863ae79a"
+    },
+    {
+      "file": "working-d03-f007.png",
+      "state": "working",
+      "direction": 3,
+      "index": 7,
+      "frame": 43,
+      "sha256": "c63dfba42cb5f4d7a02e65c2e9acb2cd2165e418aa8251908674b1519473705a"
+    },
+    {
+      "file": "working-d03-f008.png",
+      "state": "working",
+      "direction": 3,
+      "index": 8,
+      "frame": 49,
+      "sha256": "4e5dd27646778f53c9759cd592be98968aa3ed6f5744a055e5ed3f2309d1c5ac"
+    },
+    {
+      "file": "working-d03-f009.png",
+      "state": "working",
+      "direction": 3,
+      "index": 9,
+      "frame": 55,
+      "sha256": "4706676a664f5685705a1ed0e2b3e212faf8419b8c8e1dfaa356763f26315228"
+    },
+    {
+      "file": "working-d03-f010.png",
+      "state": "working",
+      "direction": 3,
+      "index": 10,
+      "frame": 61,
+      "sha256": "e0ea968251cc97794365ac1bc5e95ad052db1cc8d8013feaaba4dabe05849a8b"
+    },
+    {
+      "file": "working-d03-f011.png",
+      "state": "working",
+      "direction": 3,
+      "index": 11,
+      "frame": 67,
+      "sha256": "68f6467ab410d24d195f08aeabfedee479535516f759684a7f71dd9f64e3a952"
+    },
+    {
+      "file": "working-d03-f012.png",
+      "state": "working",
+      "direction": 3,
+      "index": 12,
+      "frame": 73,
+      "sha256": "31a15763ae9452479ee4c01dfa8e24687db88cc626ac817fc5904b7314d6c68a"
+    },
+    {
+      "file": "working-d03-f013.png",
+      "state": "working",
+      "direction": 3,
+      "index": 13,
+      "frame": 79,
+      "sha256": "f4b90798e4bde76dbf121cd81a0d32099ce41a357a452154aa625673402fcf9b"
+    },
+    {
+      "file": "working-d03-f014.png",
+      "state": "working",
+      "direction": 3,
+      "index": 14,
+      "frame": 85,
+      "sha256": "260ff89d738ad0e1265b7d2c1d68536caf1c5ac842265fcb23f04d197be3a428"
+    },
+    {
+      "file": "working-d03-f015.png",
+      "state": "working",
+      "direction": 3,
+      "index": 15,
+      "frame": 91,
+      "sha256": "2824113b5c17c0cded72c639efb816250856fd59830fc0e22c592f3868edf92a"
+    }
+  ],
+  "game_integrated": false,
+  "human_visual_approved": false,
+  "visual_refinement": "thick transparent glass sleeve, single enclosed fluid body, continuous pouring sheet; twelve prior blue blobs deleted"
+}
