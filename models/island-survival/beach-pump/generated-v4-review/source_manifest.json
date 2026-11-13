@@ -1,0 +1,62 @@
+{
+  "schema": "tanks.beach-pump.v4.exact-native-blender-git-parts",
+  "source_sha256": "ee5887f02b9fca9b4c8ac0046384280ee2f7fbaf9eb638a5f2aa2efc9a06f210",
+  "source_bytes": 3443478,
+  "source_filename": "beach-pump-v4.blend",
+  "run_id": 43305148603,
+  "blender_source_commit": "2319edc1d1037af0a12b62e9292871bca74289be",
+  "parts": [
+    {
+      "name": "source-parts/v4-master-000.bin",
+      "bytes": 360000,
+      "git_blob_sha1": "2899c3ec011b15c5a76634d5d0bb82213862a9c2"
+    },
+    {
+      "name": "source-parts/v4-master-001.bin",
+      "bytes": 360000,
+      "git_blob_sha1": "ce7eea99e330b35da4b0bbebf2c91fc805466861"
+    },
+    {
+      "name": "source-parts/v4-master-002.bin",
+      "bytes": 360000,
+      "git_blob_sha1": "8a1bb2b4c95139f924d629a3e9dfdaa736b946f0"
+    },
+    {
+      "name": "source-parts/v4-master-003.bin",
+      "bytes": 360000,
+      "git_blob_sha1": "d37043ba43468338e96f2b6ed6cf258e8da539c5"
+    },
+    {
+      "name": "source-parts/v4-master-004.bin",
+      "bytes": 360000,
+      "git_blob_sha1": "301b199087a1f246f2d73f70c6987a56e4470458"
+    },
+    {
+      "name": "source-parts/v4-master-005.bin",
+      "bytes": 360000,
+      "git_blob_sha1": "12577d4300064470edb50df13ae9f3807d339bb0"
+    },
+    {
+      "name": "source-parts/v4-master-006.bin",
+      "bytes": 360000,
+      "git_blob_sha1": "31cb0c2d395698539e8a6f4a94b621e4d2724ddc"
+    },
+    {
+      "name": "source-parts/v4-master-007.bin",
+      "bytes": 360000,
+      "git_blob_sha1": "fdd28ec872c6fd1a329791ef0feee054abaeccb4"
+    },
+    {
+      "name": "source-parts/v4-master-008.bin",
+      "bytes": 360000,
+      "git_blob_sha1": "34821654adb1c5f3231020fb178ec600b2e68227"
+    },
+    {
+      "name": "source-parts/v4-master-009.bin",
+      "bytes": 203478,
+      "git_blob_sha1": "bb2145542bc7005b7b373eddadea352b643d5786"
+    }
+  ],
+  "game_integrated": false,
+  "human_visual_approved": false
+}

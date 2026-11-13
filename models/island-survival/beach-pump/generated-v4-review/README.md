@@ -1,13 +1,23 @@
-# Beach Pump V4 — source-authentic Blender proof (not approved or integrated)
-**Core30 genuine Blender 5.2.3 run PASS:** https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43305148603
+# Beach Pump V4 — genuine Blender four-direction animation proof
 
-- [Actual four-direction Blender contact render](review-four-directions.png): 4 idle and 4 working native Cycles frames.
-- [Actual 16-frame, 8 FPS animated four-facing preview](motion-review.gif): one complete keyed operating loop per facing, no image generation.
-- [64px idle atlas](idle-64.png) and [64px moving atlas](working-64.png).
-- 128px and 256px idle candidates are available; higher resolution operating atlases retained on runner, pending separate publication.
-- [SHA256 receipts and native independent Blender reopen](native-reopen-qa.json) and [full 68-render manifest](build-report.json).
-- [V4 editable source and V2/V3 donor stack](../v4/). Original native .blend SHA256 `ee5887f02b9fca9b4c8ac0046384280ee2f7fbaf9eb638a5f2aa2efc9a06f210`, original byte length `3443478`. Native master retained on Core30 pending Git binary archive.
+**Actual native Blender 5.2.3 production PASS**: [Core30 run 43305148603](https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43305148603). Source pinned to commit `2319edc1d1037af0a12b62e9292871bca74289be`.
 
-V4 changes from visually rejected V3: only 2 remaining dock boards, thin rails/cradle, 38% larger actually rotating 8-cup wheel, visible keyed index and grip accents. The native 1x1 offshore-pump uses exact unchanged north water and stationary south pipe output. Water production 0.01/tick. No game assets changed.
+- [Four-way real Blender visual proof](review-four-directions.png) — four idle and four working views.
+- [True 16-frame 8 FPS Blender animation](motion-review.gif) — motion visible from all four directions.
+- [64px working atlas](working-64.png) and [64px idle atlas](idle-64.png) — real game-scale readability check.
+- [Native Blender independent reopen receipt](native-reopen-qa.json), [full 68-render report](build-report.json), [render QA hashes](proof-qa.json).
+- [V4 editable Python source](../v4/) and complete V1–V3 donor chain.
 
-**Do not assert owner visual acceptance:** source-native reopen/animation passed; actual rendered silhouette must be inspected at original 64px scale and live Factorio client visual connectivity remains open.
+## Reconstruct *original* editable native Blender master
+
+10 exact Git binary parts preserve the actual production `beach-pump-v4.blend` master, not a reconstructed approximation. The original is **3,443,478 bytes**, SHA256 `ee5887f02b9fca9b4c8ac0046384280ee2f7fbaf9eb638a5f2aa2efc9a06f210`.
+
+From a cloned repository:
+
+```sh
+python3 models/island-survival/beach-pump/generated-v4-review/assemble_native.py
+```
+
+The assembly script validates every part's Git blob SHA-1, expected part lengths, combined length and full Blender SHA256, refusing to overwrite an existing mismatched file. Use `--verify-only` to check bytes without writing.
+
+This is a candidate-only native Blender asset. **Human visual acceptance and Factorio in-client connection testing remain outstanding.** Preserve original 1×1 shoreline pump, north intake, stationary south pipe at (0,+0.25), 0.01 water/tick and original game assets; no game sprite replacement.
