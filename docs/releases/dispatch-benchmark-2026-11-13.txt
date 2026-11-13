@@ -1,0 +1,10 @@
+ONE-SHOT GITHUB BENCHMARK RELEASE REQUEST
+Requested: 2026-11-13
+Project: mrcalzon02/Tanks-for-bob-Fork
+Tag: v1.8.102-benchmark.20261113
+Original game-source commit: 1a1dcbfc05b29631e34957349676311ff4a8e365
+Immutable active game mod tree: 96a503c5b94f68da64ea71766a2a09228c9426ee
+Archive: tanks_for_bob_fork_1.8.102.zip
+Kind: public GitHub prerelease (NOT Mod Portal)
+Policy: do not overwrite, re-tag or mutate historical releases
+Exact source build, integrity and static tests run before publish
