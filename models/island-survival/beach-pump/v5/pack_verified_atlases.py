@@ -26,7 +26,7 @@ def sha(path: Path) -> str:
 def validate(source: Path):
     report = json.loads((source / "build-report.json").read_text(encoding="utf-8-sig"))
     proof = json.loads((source / "native-reopen-qa.json").read_text(encoding="utf-8-sig"))
-    assert report["schema"] == "tanks.beach-pump.v5.archimedes-native-blender"
+    assert report["schema"] == "tanks.beach-pump.v5.glass-water-native-blender"
     assert report["render_mode"] == "all" and report["render_count"] == 68
     assert len(report["renders"]) == 68
     assert tuple(report["four_facings"]) == (0, 90, 180, 270)
