@@ -129,6 +129,7 @@ for i,fr in enumerate(range(1,97,3)):
  s.frame_set(fr);render(f'close-frame-{i:02d}.png')
 s.camera.location=oldcam;s.camera.data.ortho_scale=oldscale
 s.render.resolution_x=s.render.resolution_y=448
-for i,fr in enumerate(range(1,97,3)):
- s.frame_set(fr);render(f'frame-{i:02d}.png')
+if '--full-motion' in sys.argv:
+ for i,fr in enumerate(range(1,97,3)):
+  s.frame_set(fr);render(f'frame-{i:02d}.png')
 (out/'build-review.json').write_text(json.dumps({'source':'Recovered unpublished native V7','blender':bpy.app.version_string,'bucket_pools':8,'moving_drains':8,'rendered_motion_phases':32,'port_vertices_unchanged':True,'game_integrated':False,'human_visual_approved':False,'native_sha256':hashlib.sha256((out/'beach-pump-v8-review.blend').read_bytes()).hexdigest()},indent=2)+'\n')

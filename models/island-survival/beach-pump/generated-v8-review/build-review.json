@@ -1,0 +1,13 @@
+{
+  "source": "Recovered unpublished native V7",
+  "blender": "5.0.1",
+  "bucket_pools": 8,
+  "moving_drains": 8,
+  "rendered_closeup_motion_phases": 32,
+  "rendered_hero_stills": 2,
+  "port_vertices_unchanged": true,
+  "water_method": "authored meshes and curves, not fluid simulation",
+  "game_integrated": false,
+  "human_visual_approved": false,
+  "native_sha256": "fc8a1716bb5d34672218b8d9f2d05683f7ffe4c44a00e228ee9373779d577960"
+}
