@@ -1,7 +1,7 @@
 # Tanks! for Bob Fork — Factorio 2.1
 
-**Current source: 1.8.102.** The current source is directly buildable from
-[`tanks_for_bob_fork_1.8.102`](tanks_for_bob_fork_1.8.102), including the accepted
+**Current source: 1.8.103 (art integration; not a new release).** The current source is directly buildable from
+[`tanks_for_bob_fork_1.8.103`](tanks_for_bob_fork_1.8.103), including the accepted
 Campfire, Clay Pit, Pit Kiln and Lumberyard artwork carried forward from the
 verified **1.8.100** Mod Portal package. Base Factorio 2.1 is required; Elevated
 Rails, Quality, Recycler and Space Age remain optional.
@@ -120,3 +120,5 @@ Use the [versioned Blender-to-Factorio production export runbook](docs/art/FACTO
 
 Use the [fluid connection modeling guide](docs/art/FLUID_CONNECTION_MODELING_GUIDE.md) and [standalone Blender reference](models/reference/factorio-fluid-interface/factorio-fluid-interface-reference.blend) when adding pipe connections to machines. The appendable collection includes the standard pipe, machine-side collar and socket markers, with a separate tile-grid review environment. Its [asset notes](models/reference/factorio-fluid-interface/README.md) cover placement, reuse and regeneration.
 
+
+Beach Pump V12 now uses the accepted four-facing native pipe alignment. Local water, full-output and landfill checks passed. Underwater-layer visual separation remains open; see `docs/art/local-machine-alignment/2026-11-13.json`.

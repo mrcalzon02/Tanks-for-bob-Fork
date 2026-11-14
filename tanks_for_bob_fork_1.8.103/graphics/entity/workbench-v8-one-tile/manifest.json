@@ -1,0 +1,131 @@
+{
+  "schema": "workbench-one-tile-v8",
+  "source": "original corrected workbench V7 real OLD-CORE30 Blender animation frames",
+  "source_archive_sha256": "a10c9e6824ebc0bffe5568468555a6734457a337eef5d90cf24ec2261d53c1f8",
+  "tile_size_pixels": 32,
+  "scale": 0.33,
+  "shift": [
+    0.0,
+    -0.07
+  ],
+  "frame_cell_px": [
+    128,
+    128
+  ],
+  "frame_count": 96,
+  "line_length": 12,
+  "fps": 12,
+  "animation_speed": 0.2,
+  "directions": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "graphics_only": true,
+  "working_animation_source_unchanged": true,
+  "footprint_tiles": [
+    1,
+    1
+  ],
+  "per_direction": {
+    "north": {
+      "rest_alpha_bbox": [
+        22,
+        28,
+        106,
+        117
+      ],
+      "rest_width_game_px": 27.72,
+      "rest_height_game_px": 29.37,
+      "rest_width_tiles": 0.8663,
+      "rest_height_tiles": 0.9178,
+      "animated_alpha_union": [
+        22,
+        22,
+        106,
+        117
+      ],
+      "rest_frame_sha256": "1a68532b498e0c9ef217832b278c7231bbee9127319e88663289c4ee36e7ac59",
+      "working_atlas_sha256": "9389410a3e570ce63f19fdfd41774789c1f9bec5a8145e04f90a63a9f0434cdd",
+      "idle_png_sha256": "dd040bc4eee8b7626dc774b79fb98073963485e0659b2f5b6013bfeea57e9360",
+      "cell_readback_count": 96
+    },
+    "east": {
+      "rest_alpha_bbox": [
+        23,
+        27,
+        105,
+        118
+      ],
+      "rest_width_game_px": 27.06,
+      "rest_height_game_px": 30.03,
+      "rest_width_tiles": 0.8456,
+      "rest_height_tiles": 0.9384,
+      "animated_alpha_union": [
+        23,
+        22,
+        105,
+        118
+      ],
+      "rest_frame_sha256": "af2f7acc097f3abf0031b2df84fb121deeb7957ceabf835fb97c59683c2c9d5a",
+      "working_atlas_sha256": "396db3cd6893918c989a1ea037ddc14f3c661d16a46412cc9f3ae217cb85c04b",
+      "idle_png_sha256": "eb722f8035f7060633a927033f0c8a739331ebb03c1d6870b630af793470c096",
+      "cell_readback_count": 96
+    },
+    "south": {
+      "rest_alpha_bbox": [
+        22,
+        28,
+        106,
+        117
+      ],
+      "rest_width_game_px": 27.72,
+      "rest_height_game_px": 29.37,
+      "rest_width_tiles": 0.8663,
+      "rest_height_tiles": 0.9178,
+      "animated_alpha_union": [
+        22,
+        3,
+        106,
+        117
+      ],
+      "rest_frame_sha256": "20eea8bcbb69001abb3ad07daca1a7db56ec09a748acd51575440fb4d6b513f3",
+      "working_atlas_sha256": "c55ccac3c3b062b4f071b6a5bc17517b5a92290d6333e4d4f31c13f63203c91f",
+      "idle_png_sha256": "c4dee1cb92abef97b078e870b54c0583b9ccf4bed3e97fceef964e43cf2a09b8",
+      "cell_readback_count": 96
+    },
+    "west": {
+      "rest_alpha_bbox": [
+        23,
+        27,
+        105,
+        118
+      ],
+      "rest_width_game_px": 27.06,
+      "rest_height_game_px": 30.03,
+      "rest_width_tiles": 0.8456,
+      "rest_height_tiles": 0.9384,
+      "animated_alpha_union": [
+        23,
+        8,
+        105,
+        118
+      ],
+      "rest_frame_sha256": "097df77d63990603abe11f4f233085a6f50101834130fe861d5cf9822b180a04",
+      "working_atlas_sha256": "761d087b84f6e788e51e0f78da0b24780cf5d17db049b67819d622ef2ec6ecf0",
+      "idle_png_sha256": "99fbe871d27ddb4e0d04b89b16d84e77165954f7041bf3b30e1f5c24d152aecb",
+      "cell_readback_count": 96
+    }
+  },
+  "blender_source_sha256": "354d34fc1f9f3e9c27912c61d30b0224de4348b5cc83d05311c5e347782c0d7d",
+  "blender_version": "5.2.3 LTS",
+  "impact_frames": [
+    32,
+    48,
+    64,
+    80,
+    96,
+    112
+  ]
+}
