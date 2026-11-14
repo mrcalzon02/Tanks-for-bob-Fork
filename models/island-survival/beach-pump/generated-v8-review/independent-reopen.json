@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "native_reopened": true,
+  "port_phases_checked": 97,
+  "bucket_clearance_phases_checked": 97,
+  "bucket_ring_or_gutter_intersections": 0,
+  "port_vertex_drift": 0,
+  "eight_pool_fill_and_empty_cycles": true,
+  "eight_drains_move_with_buckets": true,
+  "drain_loop_error": 5.960464477539063e-08,
+  "idle_effects_hidden": true,
+  "camera_elevation": 45,
+  "game_integrated": false,
+  "human_visual_approved": false
+}
