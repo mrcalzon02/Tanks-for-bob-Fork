@@ -1,0 +1,40 @@
+{
+  "source": "exact reconstructed V5 master",
+  "blender": "5.0.1",
+  "port_vertices_unchanged": true,
+  "collars_separated": true,
+  "game_integrated": false,
+  "human_visual_approved": false,
+  "water_method": "authored traveling mesh free surface, no fluid simulation",
+  "motion_samples": {
+    "1": [
+      -0.0,
+      0.0,
+      0.6666666865348816
+    ],
+    "25": [
+      -1.5707963705062866,
+      1.5707963705062866,
+      0.3333333432674408
+    ],
+    "49": [
+      -3.1415927410125732,
+      3.1415927410125732,
+      0.0
+    ],
+    "73": [
+      -4.71238899230957,
+      4.71238899230957,
+      0.3333333432674408
+    ],
+    "97": [
+      -6.2831854820251465,
+      6.2831854820251465,
+      0.6666666865348816
+    ]
+  },
+  "wheel_moves": true,
+  "screw_moves": true,
+  "loop_transform_error": 1.7484556000744883e-07,
+  "native_sha256": "ffa88a3e93a0e91e5d4505f2cc6b6a4c65576e48b8c76af3910db44927ebcbad"
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "blender": "5.0.1",
+  "independent_reopen": true,
+  "port_max_drift": 0,
+  "wheel_and_screw_animate": true,
+  "loop_matches": true,
+  "idle_falling_water_hidden": true,
+  "collars_separated": true,
+  "review_camera_elevation": 45,
+  "four_review_angles": [
+    -45,
+    45,
+    135,
+    225
+  ],
+  "game_integrated": false,
+  "human_visual_approved": false
+}
