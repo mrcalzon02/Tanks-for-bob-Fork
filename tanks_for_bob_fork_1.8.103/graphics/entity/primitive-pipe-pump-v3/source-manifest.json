@@ -62,10 +62,14 @@
     }
   },
   "verified": true,
-  "native_game_verified": false,
+  "native_game_verified": true,
   "native_projection": {
     "global_ground_y_scale": 1.4142135623730951,
     "runtime_geometry_changed": false,
     "purpose": "Match Factorio square ground tiles under the fixed 45-degree camera"
-  }
+  },
+  "native_engine": "2.1.24",
+  "owner_approved": true,
+  "native_alignment_reviewed": true,
+  "gameplay_changed": false
 }

@@ -53,5 +53,11 @@
   "native_transfer_reload_passed": true,
   "client_alignment_reviewed": true,
   "evidence": "docs/art/primitive-pipe-pump-v3/",
-  "central_library_registration": "pending immutable source commit"
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "ebe6bcafd3dc431b36c040d5f51fcc1249a63cbf",
+    "model_id": "tanks-primitive-steam-powered-pump-v3",
+    "registry": "tools/fmpl/FMPL.json",
+    "installed_event": "tanks-pipe-pump-v3-installed-2026-11-15"
+  }
 }

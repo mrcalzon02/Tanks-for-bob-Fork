@@ -139,7 +139,7 @@
         "docs/art/primitive-pipe-pump-v3/engine-receipt.json",
         "docs/art/primitive-pipe-pump-v3/capture-receipt.json"
       ],
-      "fmpl_delivery": "Editable source, embedded-map GLB and FMPL delivery manifest verified; central registry entry follows immutable publication.",
+      "fmpl_delivery": "Registered in canonical FMPL at ebe6bcafd3dc431b36c040d5f51fcc1249a63cbf; source, embedded-map GLB, 68 frames, native integration and owner acceptance verified.",
       "done": true
     },
     {
