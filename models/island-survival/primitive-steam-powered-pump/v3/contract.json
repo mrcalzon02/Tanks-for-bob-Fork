@@ -1,0 +1,27 @@
+{
+  "schema": "tanks.pipe-pump.v3.authored-contract",
+  "source_sha256": "a4c1476f51927858bcaa3eb6e5ab72f02a4234d35eab6c32f56ec7b1953f3b65",
+  "prototype": "pump/primitive-steam-powered-pump",
+  "native_footprint_tiles": [1, 2],
+  "native_connections": {"south_input": [0, 0.75], "north_output": [0, -0.75]},
+  "immutable_port_meshes": 4,
+  "visual_joint_planes": {"south": [0, -1, 0.36], "north": [0, 1, 0.36]},
+  "mechanism": {"crank_radius": 0.103, "rod_length": 0.6, "rod_plane_x": 0.375, "cycle_source_frames": [1, 97], "source_fps": 48, "production_capture_fps": 8},
+  "construction": [
+    "Retain exact native collar/throat meshes and the existing skid/foot ground frame",
+    "Use real hollow reducers and circular elbows with outside radius smaller than centerline bend radius",
+    "Keep the discharge beside and beneath the raised, offset lined firebox rather than passing through it",
+    "Seat a single joined copper pressure jacket on the firebox cap; mount its straps, valves and internal steam feed",
+    "Move the rigid connecting rod clear of the guides and risers; bore the sliding crosshead and fit actual sleeves"
+  ],
+  "surface_plan": {
+    "skids_crosshead": "Dry worn timber, longitudinal fibers on long faces and growth rings on actual end cuts; restrained edge wear",
+    "pump_body_inlet": "Dark cast iron, local pores and oily roughness; polished contact surfaces stay distinct",
+    "boiler_discharge": "Aged copper, local dark oxidation and occasional small verdigris regions, fitted seams and bands",
+    "firebox": "Separate clay/refractory bricks, dark iron frame, grate and hinged door; no exposed timber combustion chamber",
+    "bearings_gauge": "Worn bronze on bearing/rim surfaces, ivory dial with actual ticks and mounted needle",
+    "footings": "Retain packed approved FMPL ferrocrete maps only on separate structural feet"
+  },
+  "delivery": {"source": "editable blend", "runtime": "independently reimported GLB", "maps": "model-specific albedo, roughness and normal images with explicit exported channels", "preview": "four fixed-camera facings plus clay and close inspection"},
+  "approval": "Candidate only; visual acceptance, full revised sprites and actual Factorio transfer/placement/reload remain required"
+}

@@ -5,10 +5,11 @@
 Use the [ongoing completion ledger](STRUCTURE_COMPLETION_LEDGER.md) and its
 [machine-readable records](STRUCTURE_COMPLETION_LEDGER.json) for current status.
 All 21 structure IDs are reconciled against designs.json and source 1.8.103 at
-`7290824bf43711d0bb31bd8e2969c51459864f91`. Seven accepted/integrated assets are
-preserved; four advanced assets still have repair/export/promotion gates; ten
-need substantial production work. Current focus is the existing Primitive
-Steam-Powered Pump candidate, the actual pipe-to-pipe pump. The rough water-wheel
+`7290824bf43711d0bb31bd8e2969c51459864f91` plus the current V3 pump integration.
+Eight accepted/integrated assets are preserved; three advanced assets still have
+repair/export/promotion gates; ten need substantial production work. Primitive
+Steam-Powered Pump V3 is accepted, animated and integrated; Fish Pond is next.
+The rough water-wheel
 study is held; retained lifting buckets must remain upright.
 
 The November 11 queue and checkpoints below are historical. In particular,

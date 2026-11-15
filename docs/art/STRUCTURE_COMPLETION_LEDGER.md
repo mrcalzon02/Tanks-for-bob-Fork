@@ -6,7 +6,7 @@ Updated 2026-11-15 against `7290824bf43711d0bb31bd8e2969c51459864f91`.
 
 Accepted historical art stays accepted. New/revised assets require independently reopened editable source, inspected exported artifact and true Blender renders, bounded repair, visual disposition and native runtime evidence. Missing receipts are pending, never automatic PASS.
 
-**7 accepted/integrated; 4 advanced with open work; 10 requiring substantial production. Current focus: Primitive Steam-Powered Pump.**
+**8 accepted/integrated; 3 advanced with open work; 10 requiring substantial production. Current focus: Fish Pond.**
 
 | Structure | Latest known revision | Status | Remaining action |
 | --- | --- | --- | --- |
@@ -19,8 +19,8 @@ Accepted historical art stays accepted. New/revised assets require independently
 | Solar Boiler | V8 | accepted integrated | Optional graphical pipe-overlap diagnostic issue #4 remains separate; preserve accepted floorless source. |
 | Beach Pump | V12 | repair required | Separate above-water and underwater geometry/passes, rerender all affected states/facings; verify shoreline, full output and landfill again. Accepted per-facing alignment must be preserved. |
 | Steam Condenser | V24 local test / V1 repository master | advanced candidate | Recover exact V24 editable source, current atlases and receipts from origin; preserve accepted per-facing scale. Combined profile passed fuel-fed water/pipe tests, but active 1.8.103 entities.lua still binds the legacy 64px single-frame sprite. Complete source-backed promotion. |
-| Primitive Steam-Powered Pump | V2 mechanism candidate; V1 full capture archived | advanced candidate | CURRENT FOCUS: V1 recovered and archived; rigid V2 linkage/actual GLB passed 97-pose checks. Construction and surface review requires rework: repair reducers/elbows, support and line firebox/boiler, bake model-specific maps, then full sprite/native integration and visual acceptance. |
-| Fish Pond | V1 | advanced candidate | Reuse Clay Pit-derived basin and four animated fish. Inspect design and source, complete 16-pose four-way captures and atlases, test recipe/working states, then integrate reviewed candidate. |
+| Primitive Steam-Powered Pump | V3 owner-approved, animated and integrated | accepted integrated | Complete: 68 native Blender frames, six atlases, saved editable source, inspected GLB, actual four-facing water/oil transfer, no-fuel, stop/restart, full-output and save/reload tests, plus eight genuine client screenshots. Preserve this accepted design and move on. |
+| Fish Pond | V1 | advanced candidate | NEXT: Recover the existing V1 fish-pond source/proof, retain its basin and swimming fish; use restrained motion and finish export/integration instead of an unnecessary rebuild. |
 | Stone Water Wheel | V2 failed study, held | rebuild required | Both recipe and technology are active, but this is a shoreline intake, not the pipe pump. Preserve rejected studies. If resuming lifting buckets, use independent upright pivots; repair outlet boolean degenerates and race joints before any production capture. |
 | Wood Basin | OBJ blockout | rebuild required | Author timber-stave cistern, hoops, visible level/window; preserve 25000 volume and four declared corner connections/two-direction contract. |
 | Tank Ammunition Assembler | OBJ blockout | rebuild required | Build distinct component/ammunition process, feed and discharge, moving tooling; verify native north/south fluids. |
@@ -40,7 +40,7 @@ FMPL uses the canonical pinned library in `fmpl-consumer.json`; validate the act
 
 ## Continuation
 
-Resume the existing Primitive Steam-Powered Pump artifact first: this is the pipe-to-pipe pump the owner identified. Keep the rejected wheel studies held; its separate shoreline intake remains in progression and any retained lifting buckets must stay upright. Recover exact Condenser V24 source/artifacts rather than duplicating them. Repair Beach Pump underwater occlusion while preserving owner-accepted placement. Finish Fish Pond export after reviewing its existing pilot, then continue through the remaining production targets. Reconcile the remote HEAD before publication and preserve concurrent work.
+Primitive Steam-Powered Pump V3 is accepted, animated, exported and integrated; preserve it and move on. Resume Fish Pond from its existing V1 source/proof with restrained swimming motion, then complete its export/integration. Keep rejected wheel studies held; its separate shoreline intake remains in progression and any retained lifting buckets must stay upright. Recover exact Condenser V24 source/artifacts rather than duplicating them. Repair Beach Pump underwater occlusion while preserving owner-accepted placement, then continue through the remaining production targets. Reconcile the remote HEAD before publication and preserve concurrent work.
 
 Owner review gates replacement of art; it does not block independent modeling, candidate capture or other structures. Never mark missing review or uninspected output PASS. Do not create a new CI workflow per structure, change progression/balance, duplicate the workbench, or add Tech-Priests turret/vehicle work.
 
@@ -55,7 +55,7 @@ Owner review gates replacement of art; it does not block independent modeling, c
 - Solar Boiler: [STRUCTURE_3D_PRODUCTION_ORDER.md](../../docs/art/STRUCTURE_3D_PRODUCTION_ORDER.md), [4](https://github.com/mrcalzon02/Tanks-for-bob-Fork/issues/4)
 - Beach Pump: [2026-11-13.json](../../docs/art/local-machine-alignment/2026-11-13.json)
 - Steam Condenser: [2026-11-13.json](../../docs/art/local-machine-alignment/2026-11-13.json), [contract.json](../../models/island-survival/steam-condenser/v1/contract.json), [entities.lua](../../tanks_for_bob_fork_1.8.103/prototypes/entity/entities.lua)
-- Primitive Steam-Powered Pump: [STRUCTURE_3D_PRODUCTION_ORDER.md](../../docs/art/STRUCTURE_3D_PRODUCTION_ORDER.md), [43183442468](https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43183442468), [WORK_ORDER.md](../../models/island-survival/primitive-steam-powered-pump/v2/WORK_ORDER.md), [runtime-inspection.json](../../models/island-survival/primitive-steam-powered-pump/candidates/v2-mechanism01/runtime-inspection.json), [visual-review.json](../../models/island-survival/primitive-steam-powered-pump/candidates/v2-mechanism01/visual-review.json)
+- Primitive Steam-Powered Pump: [FMPL_MODEL.json](../../models/island-survival/primitive-steam-powered-pump/v3/FMPL_MODEL.json), [engine-receipt.json](../../docs/art/primitive-pipe-pump-v3/engine-receipt.json), [capture-receipt.json](../../docs/art/primitive-pipe-pump-v3/capture-receipt.json)
 - Fish Pond: [STRUCTURE_3D_PRODUCTION_ORDER.md](../../docs/art/STRUCTURE_3D_PRODUCTION_ORDER.md)
 - Stone Water Wheel: [WORK_ORDER.md](../../models/island-survival/stone-water-wheel/v1/WORK_ORDER.md)
 - Wood Basin: [designs.json](../../models/island-survival/designs.json)

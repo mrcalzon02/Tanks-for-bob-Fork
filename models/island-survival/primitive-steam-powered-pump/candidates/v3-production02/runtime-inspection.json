@@ -1,0 +1,72 @@
+{
+  "schema": "tanks.pipe-pump.runtime-inspection",
+  "geometry_and_motion_checks_passed": true,
+  "overall_visual_accepted": true,
+  "game_integrated": false,
+  "source_sha256": "1324db1d55ae14bc68724cdaff8f13ecd8fd0d67945c017c210d828839af95f1",
+  "glb_sha256": "f0b9ba976e40736613859d0ed87820dff178f9d8ec712ae3384e149ea766e74b",
+  "source_geometry": {
+    "min": [
+      -0.41999998688697815,
+      -1.0,
+      -0.0005000010132789612
+    ],
+    "max": [
+      0.47999998927116394,
+      1.0,
+      1.7475000619888306
+    ],
+    "triangles": 65038,
+    "degenerate_objects": []
+  },
+  "runtime_geometry": {
+    "min": [
+      -0.41999998688697815,
+      -1.0,
+      -0.0005000010132789612
+    ],
+    "max": [
+      0.48000001907348633,
+      1.0,
+      1.7475000619888306
+    ],
+    "triangles": 65038,
+    "degenerate_objects": []
+  },
+  "bounds_error_tiles": 2.9802322387695312e-08,
+  "sampled_source_frames": 97,
+  "max_joint_error_tiles": 3.5762786865234375e-07,
+  "max_rigid_length_error_tiles": 3.593158803827379e-08,
+  "max_socket_motion_tiles": 0.0,
+  "embedded_images": 21,
+  "textured_materials_with_exported_albedo_normal_metallic_roughness": [
+    "PUMP V3 | worn-bronze-fittings",
+    "TP Library | ferrocrete_light",
+    "PUMP V3 | cast-iron-housing",
+    "PUMP V3 | long-grain-oak",
+    "PUMP V3 | cut-oak-growth-rings",
+    "PUMP V3 | aged-copper-jacket",
+    "PUMP V3 | fired-clay-lining"
+  ],
+  "runtime_renders": [
+    {
+      "file": "actual-glb-north.png",
+      "sha256": "dda0a3c36e03ecacce7929ce7511eb2b3298d63af2ce08efa40c5af7da900246"
+    },
+    {
+      "file": "actual-glb-east.png",
+      "sha256": "b63fa825deb1e2fabeee2b8bb37ebc51ac57662667ea057c236fb87d925d42f1"
+    },
+    {
+      "file": "actual-glb-south.png",
+      "sha256": "c733dc351340968e426ea0cbc8a4587bd32b16eec79428ab223339a6d897c682"
+    },
+    {
+      "file": "actual-glb-west.png",
+      "sha256": "1d724d4b1ac246efe2137458a5ad0dea24b3e8ecbe9c6a7342595def866d443b"
+    }
+  ],
+  "remaining": [
+    "Native Factorio integration/transfer/registration evidence"
+  ]
+}

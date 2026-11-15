@@ -36,12 +36,13 @@ def main():
     p=argparse.ArgumentParser()
     p.add_argument('--candidate',type=Path,required=True)
     p.add_argument('--fmpl-tools',type=Path,required=True)
+    p.add_argument('--stem',default='pipe-pump-v2')
     args=p.parse_args(sys.argv[sys.argv.index('--')+1:])
     out=args.candidate.resolve()
     sys.path.insert(0,str(args.fmpl_tools.resolve()))
     from blender_camera_guard import install_canonical_camera,assert_clean
-    native=out/'pipe-pump-v2.blend'
-    runtime=out/'pipe-pump-v2.glb'
+    native=out/(args.stem+'.blend')
+    runtime=out/(args.stem+'.glb')
     bpy.ops.wm.open_mainfile(filepath=str(native))
     bpy.context.scene.frame_set(1)
     original=geometry()
@@ -120,14 +121,20 @@ def main():
         scene.render.filepath=str(path)
         bpy.ops.render.render(write_still=True)
         images.append({'file':path.name,'sha256':sha(path)})
-    result={'schema':'tanks.pipe-pump.v2.runtime-inspection','geometry_and_motion_checks_passed':True,
-        'overall_visual_accepted':False,'game_integrated':False,'source_sha256':sha(native),'glb_sha256':sha(runtime),
+    texture_channels=[]
+    for material in gltf.get('materials',[]):
+        pbr=material.get('pbrMetallicRoughness',{})
+        if 'baseColorTexture' in pbr:
+            assert 'normalTexture' in material and 'metallicRoughnessTexture' in pbr,material.get('name')
+            texture_channels.append(material.get('name'))
+    approved=(out/'owner-disposition.json').is_file()
+    result={'schema':'tanks.pipe-pump.runtime-inspection','geometry_and_motion_checks_passed':True,
+        'overall_visual_accepted':approved,'game_integrated':False,'source_sha256':sha(native),'glb_sha256':sha(runtime),
         'source_geometry':original,'runtime_geometry':imported,'bounds_error_tiles':bounds_error,
         'sampled_source_frames':97,'max_joint_error_tiles':max_joint,'max_rigid_length_error_tiles':max_rod,
         'max_socket_motion_tiles':max_port,'embedded_images':len(gltf.get('images',[])),
-        'runtime_renders':images,'remaining':['Physical/art review of hollow reducers, firebox/boiler support and clearances',
-            'Model-specific timber and metal baking; inherited procedural bump is not an exported normal map',
-            'Full revised animation/atlas capture, native game proof and owner acceptance']}
+        'textured_materials_with_exported_albedo_normal_metallic_roughness':texture_channels,
+        'runtime_renders':images,'remaining':['Native Factorio integration/transfer/registration evidence'] if approved else ['Owner visual disposition and native integration']}
     (out/'runtime-inspection.json').write_text(json.dumps(result,indent=2)+'\n')
     print('ACTUAL_PIPE_PUMP_EXPORT_INSPECTED',json.dumps(result),flush=True)
 

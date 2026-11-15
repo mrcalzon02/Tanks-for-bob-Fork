@@ -1,0 +1,57 @@
+{
+  "id": "tanks-primitive-steam-powered-pump-v3",
+  "schema": "fmpl.model-delivery.v1",
+  "status": "owner-approved-native-integrated",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "prototype": {
+    "type": "pump",
+    "name": "primitive-steam-powered-pump"
+  },
+  "footprint_tiles": [
+    1,
+    2
+  ],
+  "scene_units_per_tile": 1,
+  "native_connections": [
+    [
+      0,
+      -0.75
+    ],
+    [
+      0,
+      0.75
+    ]
+  ],
+  "source": {
+    "path": "models/island-survival/primitive-steam-powered-pump/candidates/v3-production02/pipe-pump-v3.blend",
+    "sha256": "1324db1d55ae14bc68724cdaff8f13ecd8fd0d67945c017c210d828839af95f1"
+  },
+  "runtime": {
+    "path": "models/island-survival/primitive-steam-powered-pump/candidates/v3-production02/pipe-pump-v3.glb",
+    "sha256": "f0b9ba976e40736613859d0ed87820dff178f9d8ec712ae3384e149ea766e74b"
+  },
+  "packed_pbr_images": 21,
+  "source_and_runtime_pose_checks": 97,
+  "capture_policy": "fmpl.factorio45.v1",
+  "native_capture_projection": {
+    "global_ground_y_scale": 1.4142135623730951,
+    "runtime_geometry_changed": false,
+    "purpose": "Match Factorio square ground tiles under the fixed 45-degree camera"
+  },
+  "production_frames": 68,
+  "fps": 8,
+  "orientations": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "atlas_sha256": "1dbf0bf25813e4b78567574c05d7097a92e4164af9c600b950b4039ce31d1f95",
+  "gameplay_changed": false,
+  "owner_approved": true,
+  "native_engine": "2.1.24",
+  "native_transfer_reload_passed": true,
+  "client_alignment_reviewed": true,
+  "evidence": "docs/art/primitive-pipe-pump-v3/",
+  "central_library_registration": "pending immutable source commit"
+}

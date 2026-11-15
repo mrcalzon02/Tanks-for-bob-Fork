@@ -18,10 +18,14 @@ def main():
         assert r['status'] in allowed and r['next'] and r['evidence'] and r['fmpl_delivery']
         assert r['done'] == (r['status'] == 'accepted_integrated'), r['id']
     counts = Counter(r['status'] for r in rows)
+    accepted = counts['accepted_integrated']
+    advanced = counts['repair_required'] + counts['advanced_candidate']
+    production = counts['in_progress'] + counts['rebuild_required']
+    focus = next(r['name'] for r in rows if r['id'] == data['active_structure'])
     out = ['# Ongoing structure completion ledger', '',
            'Updated '+data['updated']+' against `'+data['baseline_commit']+'`.', '',
            data['scope']+'.', '', data['completion_policy'], '',
-           '**7 accepted/integrated; 4 advanced with open work; 10 requiring substantial production. Current focus: Primitive Steam-Powered Pump.**', '',
+           f'**{accepted} accepted/integrated; {advanced} advanced with open work; {production} requiring substantial production. Current focus: {focus}.**', '',
            '| Structure | Latest known revision | Status | Remaining action |',
            '| --- | --- | --- | --- |']
     for r in rows:
@@ -30,7 +34,7 @@ def main():
             'For each unfinished structure: lock native dimensions and ports; author supported geometry and its surface plan; unwrap/bake model-specific materials; animate real mechanisms and prove loop/clearance; save and independently reopen the editable master; export and independently inspect the FMPL runtime artifact; render and actually view front/rear/close/clay and four production facings; pack true RGBA states/layers and atlases; validate native Factorio placement/working/stop/restart/save-reload; record visual disposition before replacement; publish and read back hashes.', '',
             'FMPL uses the canonical pinned library in `fmpl-consumer.json`; validate the actual capture profile and matrix against its camera authority. Export/registry receipt audit is pending for historical accepted assets and does not authorize their rebuild. Candidate art may be saved and reviewed while approval remains pending.', '',
             '## Continuation', '',
-            'Resume the existing Primitive Steam-Powered Pump artifact first: this is the pipe-to-pipe pump the owner identified. Keep the rejected wheel studies held; its separate shoreline intake remains in progression and any retained lifting buckets must stay upright. Recover exact Condenser V24 source/artifacts rather than duplicating them. Repair Beach Pump underwater occlusion while preserving owner-accepted placement. Finish Fish Pond export after reviewing its existing pilot, then continue through the remaining production targets. Reconcile the remote HEAD before publication and preserve concurrent work.', '',
+            'Primitive Steam-Powered Pump V3 is accepted, animated, exported and integrated; preserve it and move on. Resume Fish Pond from its existing V1 source/proof with restrained swimming motion, then complete its export/integration. Keep rejected wheel studies held; its separate shoreline intake remains in progression and any retained lifting buckets must stay upright. Recover exact Condenser V24 source/artifacts rather than duplicating them. Repair Beach Pump underwater occlusion while preserving owner-accepted placement, then continue through the remaining production targets. Reconcile the remote HEAD before publication and preserve concurrent work.', '',
             'Owner review gates replacement of art; it does not block independent modeling, candidate capture or other structures. Never mark missing review or uninspected output PASS. Do not create a new CI workflow per structure, change progression/balance, duplicate the workbench, or add Tech-Priests turret/vehicle work.', '',
             '## Evidence', '']
     for r in rows:

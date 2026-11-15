@@ -1,0 +1,40 @@
+{
+  "genuine_factorio_client_capture": true,
+  "windows_session": 1,
+  "screenshots": [
+    {
+      "file": "north-normal.png",
+      "sha256": "7054dd6e69097b5b709950b80006617631a47a153e84c1acbcdf8fbb7af73a03"
+    },
+    {
+      "file": "north-close.png",
+      "sha256": "01159c17ea89864cdbd7c21a7f417e2d4202d39513e1ea0e02ccac2f4c34411f"
+    },
+    {
+      "file": "east-normal.png",
+      "sha256": "e6e092aa46b6546e028be6dfb40ad0857954e8396419eee7e46886999079ffbf"
+    },
+    {
+      "file": "east-close.png",
+      "sha256": "b05acf4134ac2dd1bc964ea5440db9ba32207bfe723d37baeb95f7c9bae03384"
+    },
+    {
+      "file": "south-normal.png",
+      "sha256": "75c1c60fac2d88dd9c90ddb467fc422ca9bfebe1ef3d66f49e40a67857ca2896"
+    },
+    {
+      "file": "south-close.png",
+      "sha256": "10f618b16c0ff22b5d742097f0c5c11bc0c107f7f99e637a526a603f9c643ac3"
+    },
+    {
+      "file": "west-normal.png",
+      "sha256": "17b5883cbe848e4b2f2590fbb41d802796f3a5f5972b380886e13660b7fda1ee"
+    },
+    {
+      "file": "west-close.png",
+      "sha256": "52b4773555fece542c2025fc6b360188ec84c192ee781d046f93e2970e0ab380"
+    }
+  ],
+  "visual_review_passed": true,
+  "review": "All four actual close client screenshots viewed after ground projection correction; both mouths match the adjacent native pipe size and placement. Owner accepted design and directed minimal animation/integration."
+}

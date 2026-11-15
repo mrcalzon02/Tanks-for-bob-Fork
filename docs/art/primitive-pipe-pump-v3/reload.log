@@ -1,0 +1,51 @@
+   0.002 2026-11-15 14:41:30; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.002 Operating system: Windows 11 (build 26200) 
+   0.002 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\pipe-pump-v3-native07\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\pipe-pump-v3-native07\mods" "--test-save" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\pipe-pump-v3-native07\pipe-pump-v3-proof.zip" "--test-ticks" "300" 
+   0.003 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/pipe-pump-v3-native07/config.ini
+   0.003 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.003 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/pipe-pump-v3-native07/runtime [310133/1906722MB]
+   0.003 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.010 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 16586/32526 MB, page: 24507/43790 MB, virtual: 4299/134217727 MB, extended virtual: 0 MB]
+   0.038 Running in headless mode
+   0.038 Audio is disabled
+   0.039 Info ModManager.cpp:455: FeatureFlag: 
+   0.041 Loading mod settings tanks_for_bob_fork 1.8.103 (settings.lua)
+   0.044 Loading mod core 0.0.0 (data.lua)
+   0.059 Loading mod base 2.1.24 (data.lua)
+   0.316 Loading mod tanks_for_bob_fork 1.8.103 (data.lua)
+   0.347 Loading mod base 2.1.24 (data-updates.lua)
+   0.353 Loading mod tanks_for_bob_fork 1.8.103 (data-updates.lua)
+   0.357 Loading mod tanks_for_bob_fork 1.8.103 (data-final-fixes.lua)
+   0.395 Checksum for core: 3668028660
+   0.395 Checksum of base: 3864816957
+   0.395 Checksum of tanks_for_bob_fork: 602535704
+   0.395 Checksum of pipe-pump-v3-proof: 0
+   0.527 Prototype list checksum: 1368343619
+   0.554 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.554 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.556 Info GlobalContext.cpp:1347: Resetting config.
+   0.557 Factorio initialised
+   0.557 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\pipe-pump-v3-native07\pipe-pump-v3-proof.zip: 452530 bytes.
+   0.667 Loading level.dat: 575479 bytes.
+   0.667 Info Scenario.cpp:152: Map version 2.1.24-1
+   0.674 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   0.674 Loading script.dat: 5199 bytes.
+   0.679 Checksum for script __level__/control.lua: 3368906707
+   0.681 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   0.682 Checksum for script __pipe-pump-v3-proof__/control.lua: 1018103231
+   0.684 Script @__pipe-pump-v3-proof__/control.lua:58: PIPE_PUMP_V3_RELOAD_PASS pumps=12 connections=24
+   0.698 Script @__pipe-pump-v3-proof__/control.lua:75: PIPE_PUMP_V3_INITIAL_PASS water=4 oil=4 unfuelled=4 connections=24
+   0.711 Script @__pipe-pump-v3-proof__/control.lua:89: PIPE_PUMP_V3_STOP_PASS pumps=4
+   0.722 Script @__pipe-pump-v3-proof__/control.lua:99: PIPE_PUMP_V3_RESTART_PASS pumps=4
+   0.728 Script @__pipe-pump-v3-proof__/control.lua:103: PIPE_PUMP_V3_FULL_DIAG {"tick":210,"facing":"north","input":100,"output":100,"capacity":100,"pump_fluid":{"water":200}}
+   0.728 Script @__pipe-pump-v3-proof__/control.lua:103: PIPE_PUMP_V3_FULL_DIAG {"tick":210,"facing":"east","input":100,"output":100,"capacity":100,"pump_fluid":{"water":200}}
+   0.728 Script @__pipe-pump-v3-proof__/control.lua:103: PIPE_PUMP_V3_FULL_DIAG {"tick":210,"facing":"south","input":100,"output":100,"capacity":100,"pump_fluid":{"water":200}}
+   0.728 Script @__pipe-pump-v3-proof__/control.lua:103: PIPE_PUMP_V3_FULL_DIAG {"tick":210,"facing":"west","input":100,"output":100,"capacity":100,"pump_fluid":{"water":200}}
+   0.733 Script @__pipe-pump-v3-proof__/control.lua:107: PIPE_PUMP_V3_FULL_DIAG {"tick":240,"facing":"north","input":100,"output":100,"capacity":100,"pump_fluid":{"water":200}}
+   0.734 Script @__pipe-pump-v3-proof__/control.lua:107: PIPE_PUMP_V3_FULL_DIAG {"tick":240,"facing":"east","input":100,"output":100,"capacity":100,"pump_fluid":{"water":200}}
+   0.734 Script @__pipe-pump-v3-proof__/control.lua:107: PIPE_PUMP_V3_FULL_DIAG {"tick":240,"facing":"south","input":100,"output":100,"capacity":100,"pump_fluid":{"water":200}}
+   0.734 Script @__pipe-pump-v3-proof__/control.lua:107: PIPE_PUMP_V3_FULL_DIAG {"tick":240,"facing":"west","input":100,"output":100,"capacity":100,"pump_fluid":{"water":200}}
+   0.738 Script @__pipe-pump-v3-proof__/control.lua:114: PIPE_PUMP_V3_NATIVE_PASS {"passed":true,"pumps":12,"connections":24,"facings":4,"water_transfer":true,"oil_transfer":true,"no_fuel_stopped":true,"stop_restart":true,"full_output":true,"units":[{"facing":"north","state":"water","position":{"y":24,"x":24.5},"ports":[{"flow_direction":"output","position":{"y":23.25,"x":24.5},"target_position":{"y":22.25,"x":24.5}},{"flow_direction":"input","position":{"y":24.75,"x":24.5},"target_position":{"y":25.75,"x":24.5}}]},{"facing":"east","state":"water","position":{"y":24.5,"x":49},"ports":[{"flow_direction":"output","position":{"y":24.5,"x":49.75},"target_position":{"y":24.5,"x":50.75}},{"flow_direction":"input","position":{"y":24.5,"x":48.25},"target_position":{"y":24.5,"x":47.25}}]},{"facing":"south","state":"water","position":{"y":24,"x":72.5},"ports":[{"flow_direction":"output","position":{"y":24.75,"x":72.5},"target_position":{"y":25.75,"x":72.5}},{"flow_direction":"input","position":{"y":23.25,"x":72.5},"target_position":{"y":22.25,"x":72.5}}]},{"facing":"west","state":"water","position":{"y":24.5,"x":97},"ports":[{"flow_direction":"output","position":{"y":24.5,"x":96.25},"target_position":{"y":24.5,"x":95.25}},{"flow_direction":"input","position":{"y":24.5,"x":97.75},"target_position":{"y":24.5,"x":98.75}}]},{"facing":"north","state":"crude-oil","position":{"y":48,"x":24.5},"ports":[{"flow_direction":"output","position":{"y":47.25,"x":24.5},"target_position":{"y":46.25,"x":24.5}},{"flow_direction":"input","position":{"y":48.75,"x":24.5},"target_position":{"y":49.75,"x":24.5}}]},{"facing":"east","state":"crude-oil","position":{"y":48.5,"x":49},"ports":[{"flow_direction":"output","position":{"y":48.5,"x":49.75},"target_position":{"y":48.5,"x":50.75}},{"flow_direction":"input","position":{"y":48.5,"x":48.25},"target_position":{"y":48.5,"x":47.25}}]},{"facing":"south","state":"crude-oil","position":{"y":48,"x":72.5},"ports":[{"flow_direction":"output","position":{"y":48.75,"x":72.5},"target_position":{"y":49.75,"x":72.5}},{"flow_direction":"input","position":{"y":47.25,"x":72.5},"target_position":{"y":46.25,"x":72.5}}]},{"facing":"west","state":"crude-oil","position":{"y":48.5,"x":97},"ports":[{"flow_direction":"output","position":{"y":48.5,"x":96.25},"target_position":{"y":48.5,"x":95.25}},{"flow_direction":"input","position":{"y":48.5,"x":97.75},"target_position":{"y":48.5,"x":98.75}}]},{"facing":"north","state":"unfuelled","position":{"y":72,"x":24.5},"ports":[{"flow_direction":"output","position":{"y":71.25,"x":24.5},"target_position":{"y":70.25,"x":24.5}},{"flow_direction":"input","position":{"y":72.75,"x":24.5},"target_position":{"y":73.75,"x":24.5}}]},{"facing":"east","state":"unfuelled","position":{"y":72.5,"x":49},"ports":[{"flow_direction":"output","position":{"y":72.5,"x":49.75},"target_position":{"y":72.5,"x":50.75}},{"flow_direction":"input","position":{"y":72.5,"x":48.25},"target_position":{"y":72.5,"x":47.25}}]},{"facing":"south","state":"unfuelled","position":{"y":72,"x":72.5},"ports":[{"flow_direction":"output","position":{"y":72.75,"x":72.5},"target_position":{"y":73.75,"x":72.5}},{"flow_direction":"input","position":{"y":71.25,"x":72.5},"target_position":{"y":70.25,"x":72.5}}]},{"facing":"west","state":"unfuelled","position":{"y":72.5,"x":97},"ports":[{"flow_direction":"output","position":{"y":72.5,"x":96.25},"target_position":{"y":72.5,"x":95.25}},{"flow_direction":"input","position":{"y":72.5,"x":97.75},"target_position":{"y":72.5,"x":98.75}}]}]}
+   0.750 Info RunTest.cpp:80: Ran 300 ticks without the test finishing
+   0.750 Info GlobalContext.cpp:763: Deleting active scenario.
+   0.800 Goodbye

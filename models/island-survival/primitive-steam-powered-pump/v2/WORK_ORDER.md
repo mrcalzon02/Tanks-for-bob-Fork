@@ -1,5 +1,9 @@
 # Primitive Steam-Powered Pump — active refinement work order
 
+**Superseded by accepted and integrated V3.** See `../v3/WORK_ORDER.md` and
+`docs/art/primitive-pipe-pump-v3/`. This V2 document records the earlier mechanism
+study and its repair history; it is not the current remaining-work list.
+
 **Current focus confirmed after owner correction, 2026-11-15.** This is the
 actual 1x2 pipe-to-pipe pump, distinct from Stone Water Wheel's shoreline intake.
 Neither structure is unused: both have recipes, research and downstream consumers.

@@ -42,3 +42,6 @@ require("prototypes.generated_graphics.solar-boiler-v8-production")
 
 -- Accepted Beach Pump V12 and native tile-aligned output socket.
 require("prototypes.generated_graphics.beach-pump-v12-production")
+
+-- Accepted primitive pipe pump: restrained native mechanism animation, same gameplay.
+require("prototypes.generated_graphics.primitive-pipe-pump-v3-production")

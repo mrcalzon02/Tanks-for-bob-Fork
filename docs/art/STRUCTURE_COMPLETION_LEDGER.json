@@ -130,20 +130,17 @@
     {
       "id": "primitive-steam-powered-pump",
       "name": "Primitive Steam-Powered Pump",
-      "revision": "V2 mechanism candidate; V1 full capture archived",
-      "status": "advanced_candidate",
+      "revision": "V3 owner-approved, animated and integrated",
+      "status": "accepted_integrated",
       "priority": 10,
-      "next": "CURRENT FOCUS: V1 recovered and archived; rigid V2 linkage/actual GLB passed 97-pose checks. Construction and surface review requires rework: repair reducers/elbows, support and line firebox/boiler, bake model-specific maps, then full sprite/native integration and visual acceptance.",
+      "next": "Complete: 68 native Blender frames, six atlases, saved editable source, inspected GLB, actual four-facing water/oil transfer, no-fuel, stop/restart, full-output and save/reload tests, plus eight genuine client screenshots. Preserve this accepted design and move on.",
       "evidence": [
-        "docs/art/STRUCTURE_3D_PRODUCTION_ORDER.md",
-        "https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43183442468",
-        "models/island-survival/primitive-steam-powered-pump/v2/WORK_ORDER.md",
-        "models/island-survival/primitive-steam-powered-pump/candidates/v2-mechanism01/runtime-inspection.json",
-        "models/island-survival/primitive-steam-powered-pump/candidates/v2-mechanism01/visual-review.json"
+        "models/island-survival/primitive-steam-powered-pump/v3/FMPL_MODEL.json",
+        "docs/art/primitive-pipe-pump-v3/engine-receipt.json",
+        "docs/art/primitive-pipe-pump-v3/capture-receipt.json"
       ],
-      "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false,
-      "active": true
+      "fmpl_delivery": "Editable source, embedded-map GLB and FMPL delivery manifest verified; central registry entry follows immutable publication.",
+      "done": true
     },
     {
       "id": "fish-pond",
@@ -151,12 +148,13 @@
       "revision": "V1",
       "status": "advanced_candidate",
       "priority": 11,
-      "next": "Reuse Clay Pit-derived basin and four animated fish. Inspect design and source, complete 16-pose four-way captures and atlases, test recipe/working states, then integrate reviewed candidate.",
+      "next": "NEXT: Recover the existing V1 fish-pond source/proof, retain its basin and swimming fish; use restrained motion and finish export/integration instead of an unnecessary rebuild.",
       "evidence": [
         "docs/art/STRUCTURE_3D_PRODUCTION_ORDER.md"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false
+      "done": false,
+      "active": true
     },
     {
       "id": "stone-water-wheel",
@@ -169,8 +167,7 @@
         "models/island-survival/stone-water-wheel/v1/WORK_ORDER.md"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false,
-      "active": false
+      "done": false
     },
     {
       "id": "wood-basin",
@@ -290,7 +287,7 @@
       "done": false
     }
   ],
-  "active_structure": "primitive-steam-powered-pump",
+  "active_structure": "fish-pond",
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
