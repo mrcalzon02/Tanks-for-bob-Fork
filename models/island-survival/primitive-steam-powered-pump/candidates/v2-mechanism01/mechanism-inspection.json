@@ -1,0 +1,23 @@
+{
+  "schema": "tanks.pipe-pump.v2.mechanism-check",
+  "passed": true,
+  "sampled_frames": 97,
+  "rigid_rod_length_tiles": 0.6,
+  "maximum_joint_error_tiles": 1.8328428268432617e-06,
+  "maximum_rod_length_error_tiles": 1.649585481544591e-07,
+  "maximum_port_motion_tiles": 0.0,
+  "piston_stroke_tiles": 0.2059999704360962,
+  "native_positions": [
+    [
+      0,
+      -0.75
+    ],
+    [
+      0,
+      0.75
+    ]
+  ],
+  "bucket_mechanism": false,
+  "game_integrated": false,
+  "visual_approved": false
+}

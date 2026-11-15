@@ -1,0 +1,35 @@
+{
+  "schema": "tanks.primitive-steam-pump.v1.native-reopen-qa",
+  "passed": true,
+  "native_sha256": "1c6e1b23d0ec1472d1c25303416b97b827735298f9a34724beecc7e085d9cd6c",
+  "full_bore_rigid_mesh_count": 4,
+  "mating_vertices_each": 256,
+  "native_positions": [
+    [
+      0,
+      -0.75
+    ],
+    [
+      0,
+      0.75
+    ]
+  ],
+  "mating_ground_joints": [
+    [
+      0,
+      1,
+      0.36
+    ],
+    [
+      0,
+      -1,
+      0.36
+    ]
+  ],
+  "piston_movement_bu": 0.20600000023841858,
+  "loop_97_matches_1": true,
+  "single_45_degree_ortho": true,
+  "actual_blender_frame_count": 68,
+  "game_integrated": false,
+  "owner_visual_approved": false
+}

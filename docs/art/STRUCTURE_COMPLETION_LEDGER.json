@@ -1,0 +1,299 @@
+{
+  "schema": "tanks.structure-production-ledger.v1",
+  "updated": "2026-11-15",
+  "baseline_commit": "7290824bf43711d0bb31bd8e2969c51459864f91",
+  "active_source": "tanks_for_bob_fork_1.8.103",
+  "scope": "21 survival/manufacturing structures; excludes vehicles and Tech-Priests turrets",
+  "goal": "Finish authored modeling, model-specific surfacing, animation, FMPL export/registration, genuine sprite export and tested Factorio integration; preserve accepted assets.",
+  "completion_policy": "Accepted historical art stays accepted. New/revised assets require independently reopened editable source, inspected exported artifact and true Blender renders, bounded repair, visual disposition and native runtime evidence. Missing receipts are pending, never automatic PASS.",
+  "structures": [
+    {
+      "id": "campfire",
+      "name": "Campfire",
+      "revision": "V12",
+      "status": "accepted_integrated",
+      "priority": 1,
+      "next": "Preserve accepted source and installed animation.",
+      "evidence": [
+        "docs/art/CAMPFIRE_ACCEPTED_21.md"
+      ],
+      "fmpl_delivery": "Audit existing archive/registry receipt without rebuilding accepted art",
+      "done": true
+    },
+    {
+      "id": "clay-pit",
+      "name": "Clay Pit",
+      "revision": "V4c",
+      "status": "accepted_integrated",
+      "priority": 2,
+      "next": "Preserve readable swing and installed four-way animation.",
+      "evidence": [
+        "docs/art/CLAY_PIT_V4C_READABLE_SWING.md"
+      ],
+      "fmpl_delivery": "Audit existing archive/registry receipt without rebuilding accepted art",
+      "done": true
+    },
+    {
+      "id": "pit-kiln",
+      "name": "Pit Kiln",
+      "revision": "V6",
+      "status": "accepted_integrated",
+      "priority": 3,
+      "next": "Preserve whole-tray motion and installed animation.",
+      "evidence": [
+        "docs/art/PIT_KILN_V6_FINAL_MOTION.md"
+      ],
+      "fmpl_delivery": "Audit existing archive/registry receipt without rebuilding accepted art",
+      "done": true
+    },
+    {
+      "id": "growing-plot",
+      "name": "Lumberyard",
+      "revision": "V2b",
+      "status": "accepted_integrated",
+      "priority": 4,
+      "next": "Preserve visible transmission and live growing-plot ID.",
+      "evidence": [
+        "docs/art/LUMBERYARD_V2B_VISIBLE_POWER_TRANSMISSION.md"
+      ],
+      "fmpl_delivery": "Audit existing archive/registry receipt without rebuilding accepted art",
+      "done": true
+    },
+    {
+      "id": "workbench",
+      "name": "Timber Workbench",
+      "revision": "V8 one-tile",
+      "status": "accepted_integrated",
+      "priority": 5,
+      "next": "Preserve accepted one-tile source and all eight sprite files; no duplicate rebuild.",
+      "evidence": [
+        "docs/art/workbench-v8-one-tile/README.md"
+      ],
+      "fmpl_delivery": "Audit existing archive/registry receipt without rebuilding accepted art",
+      "done": true
+    },
+    {
+      "id": "cooking-fire",
+      "name": "Cooking Fire",
+      "revision": "V2",
+      "status": "accepted_integrated",
+      "priority": 6,
+      "next": "Preserve approved art and native steam-input integration.",
+      "evidence": [
+        "docs/art/COOKING_FIRE_V2_ACTIVE_INTEGRATION.md"
+      ],
+      "fmpl_delivery": "Audit existing archive/registry receipt without rebuilding accepted art",
+      "done": true
+    },
+    {
+      "id": "solar-boiler",
+      "name": "Solar Boiler",
+      "revision": "V8",
+      "status": "accepted_integrated",
+      "priority": 7,
+      "next": "Optional graphical pipe-overlap diagnostic issue #4 remains separate; preserve accepted floorless source.",
+      "evidence": [
+        "docs/art/STRUCTURE_3D_PRODUCTION_ORDER.md",
+        "https://github.com/mrcalzon02/Tanks-for-bob-Fork/issues/4"
+      ],
+      "fmpl_delivery": "Audit existing archive/registry receipt without rebuilding accepted art",
+      "done": true
+    },
+    {
+      "id": "beachpump",
+      "name": "Beach Pump",
+      "revision": "V12",
+      "status": "repair_required",
+      "priority": 8,
+      "next": "Separate above-water and underwater geometry/passes, rerender all affected states/facings; verify shoreline, full output and landfill again. Accepted per-facing alignment must be preserved.",
+      "evidence": [
+        "docs/art/local-machine-alignment/2026-11-13.json"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false
+    },
+    {
+      "id": "steam-condenser",
+      "name": "Steam Condenser",
+      "revision": "V24 local test / V1 repository master",
+      "status": "advanced_candidate",
+      "priority": 9,
+      "next": "Recover exact V24 editable source, current atlases and receipts from origin; preserve accepted per-facing scale. Combined profile passed fuel-fed water/pipe tests, but active 1.8.103 entities.lua still binds the legacy 64px single-frame sprite. Complete source-backed promotion.",
+      "evidence": [
+        "docs/art/local-machine-alignment/2026-11-13.json",
+        "models/island-survival/steam-condenser/v1/contract.json",
+        "tanks_for_bob_fork_1.8.103/prototypes/entity/entities.lua"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false
+    },
+    {
+      "id": "primitive-steam-powered-pump",
+      "name": "Primitive Steam-Powered Pump",
+      "revision": "V2 mechanism candidate; V1 full capture archived",
+      "status": "advanced_candidate",
+      "priority": 10,
+      "next": "CURRENT FOCUS: V1 recovered and archived; rigid V2 linkage/actual GLB passed 97-pose checks. Construction and surface review requires rework: repair reducers/elbows, support and line firebox/boiler, bake model-specific maps, then full sprite/native integration and visual acceptance.",
+      "evidence": [
+        "docs/art/STRUCTURE_3D_PRODUCTION_ORDER.md",
+        "https://github.com/mrcalzon02/Dens-Mortis/actions/runs/43183442468",
+        "models/island-survival/primitive-steam-powered-pump/v2/WORK_ORDER.md",
+        "models/island-survival/primitive-steam-powered-pump/candidates/v2-mechanism01/runtime-inspection.json",
+        "models/island-survival/primitive-steam-powered-pump/candidates/v2-mechanism01/visual-review.json"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false,
+      "active": true
+    },
+    {
+      "id": "fish-pond",
+      "name": "Fish Pond",
+      "revision": "V1",
+      "status": "advanced_candidate",
+      "priority": 11,
+      "next": "Reuse Clay Pit-derived basin and four animated fish. Inspect design and source, complete 16-pose four-way captures and atlases, test recipe/working states, then integrate reviewed candidate.",
+      "evidence": [
+        "docs/art/STRUCTURE_3D_PRODUCTION_ORDER.md"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false
+    },
+    {
+      "id": "stone-water-wheel",
+      "name": "Stone Water Wheel",
+      "revision": "V2 failed study, held",
+      "status": "rebuild_required",
+      "priority": 12,
+      "next": "Both recipe and technology are active, but this is a shoreline intake, not the pipe pump. Preserve rejected studies. If resuming lifting buckets, use independent upright pivots; repair outlet boolean degenerates and race joints before any production capture.",
+      "evidence": [
+        "models/island-survival/stone-water-wheel/v1/WORK_ORDER.md"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false,
+      "active": false
+    },
+    {
+      "id": "wood-basin",
+      "name": "Wood Basin",
+      "revision": "OBJ blockout",
+      "status": "rebuild_required",
+      "priority": 13,
+      "next": "Author timber-stave cistern, hoops, visible level/window; preserve 25000 volume and four declared corner connections/two-direction contract.",
+      "evidence": [
+        "models/island-survival/designs.json"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false
+    },
+    {
+      "id": "tank-ammo-assembling-machine",
+      "name": "Tank Ammunition Assembler",
+      "revision": "OBJ blockout",
+      "status": "rebuild_required",
+      "priority": 14,
+      "next": "Build distinct component/ammunition process, feed and discharge, moving tooling; verify native north/south fluids.",
+      "evidence": [
+        "models/island-survival/designs.json"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false
+    },
+    {
+      "id": "tank-assembling-machine",
+      "name": "Tank Assembling Machine",
+      "revision": "OBJ blockout",
+      "status": "rebuild_required",
+      "priority": 15,
+      "next": "Build heavy gantry and vehicle assembly bed with legible assembly motion; preserve prototype contract.",
+      "evidence": [
+        "models/island-survival/designs.json"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false
+    },
+    {
+      "id": "Steam-Compressor",
+      "name": "Steam Compressor",
+      "revision": "OBJ blockout",
+      "status": "rebuild_required",
+      "priority": 16,
+      "next": "Build pressure barrel, reciprocating drive, valves and fixed native fittings; inspect mechanism clearance.",
+      "evidence": [
+        "models/island-survival/designs.json"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false
+    },
+    {
+      "id": "quarry",
+      "name": "Quarry",
+      "revision": "OBJ blockout",
+      "status": "rebuild_required",
+      "priority": 17,
+      "next": "Build supported excavation hoist, real cable path and lifted stone with readable working loop.",
+      "evidence": [
+        "models/island-survival/designs.json"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false
+    },
+    {
+      "id": "shaler",
+      "name": "Shaler",
+      "revision": "OBJ blockout",
+      "status": "rebuild_required",
+      "priority": 18,
+      "next": "Build crushing jaws, constrained transmission, material feed/discharge and cycle.",
+      "evidence": [
+        "models/island-survival/designs.json"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false
+    },
+    {
+      "id": "calcifier",
+      "name": "Calcifier",
+      "revision": "OBJ blockout",
+      "status": "rebuild_required",
+      "priority": 19,
+      "next": "Build mineral furnace, charge/discharge, localized fuel/heat/exhaust and working states.",
+      "evidence": [
+        "models/island-survival/designs.json"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false
+    },
+    {
+      "id": "thinking-hut",
+      "name": "Thinking Hut",
+      "revision": "OBJ blockout",
+      "status": "rebuild_required",
+      "priority": 20,
+      "next": "Build timber research shelter, tools and light with readable roof silhouette; appropriate subtle activity.",
+      "evidence": [
+        "models/island-survival/designs.json"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false
+    },
+    {
+      "id": "pondering-hovel",
+      "name": "Pondering Hovel",
+      "revision": "OBJ blockout",
+      "status": "rebuild_required",
+      "priority": 21,
+      "next": "Build evolved brick research shelter, supported chimney, lamp and restrained activity.",
+      "evidence": [
+        "models/island-survival/designs.json"
+      ],
+      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "done": false
+    }
+  ],
+  "active_structure": "primitive-steam-powered-pump",
+  "owner_corrections": [
+    "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
+    "2026-11-15: Any retained lifting buckets must stay upright.",
+    "2026-11-15: Resolve shoreline intake versus pipe-to-pipe pump purpose; current focus is the existing Primitive Steam-Powered Pump candidate."
+  ]
+}

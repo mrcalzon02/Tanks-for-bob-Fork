@@ -1,0 +1,51 @@
+{
+  "schema": "tanks.authored-visual-review.v1",
+  "date": "2026-11-15",
+  "reviewer": "Codex, not owner approval",
+  "source_sha256": "a4c1476f51927858bcaa3eb6e5ab72f02a4234d35eab6c32f56ec7b1953f3b65",
+  "runtime_sha256": "6b46e6480da1e2546d81c8a91e2f46da4bd5b06b6070b48f0fdf9c91c1522b97",
+  "render_sha256": [
+    {
+      "file": "actual-glb-north.png",
+      "sha256": "93b0df5bf38c1388211ec3dbfdd1d2899a71b335def6b6919c1493824b547c2b"
+    },
+    {
+      "file": "actual-glb-east.png",
+      "sha256": "8e8d96762bdbabd68e9ba9ad6dcd4cdfe218eb2a67b13beab2d4be9b72aa0e29"
+    },
+    {
+      "file": "actual-glb-south.png",
+      "sha256": "ea0f1d84b9a8dee8f3df51c2f46a3b663d24b04481e32aadce8d585b4879b289"
+    },
+    {
+      "file": "actual-glb-west.png",
+      "sha256": "9f57755143da853019aed1b2c3088a1d66e050a4bb47b760086d466598e9a088"
+    }
+  ],
+  "reference_sha256": "3a4582a345c6d02a223542783086808f61200d23b92ddfed391853a3662657cb",
+  "owner_status": "No approval; prior bucket-wheel study rejected and current target corrected to pipe pump",
+  "scores_out_of_10": {
+    "functional_identity": {
+      "score": 7,
+      "reason": "Correct native two-port pump, fuel and motion contract; internal flow routing still needs redesign"
+    },
+    "silhouette": {
+      "score": 5,
+      "reason": "Readable small piston pump, but large primitive blocks and pressure parts lack authored transitions"
+    },
+    "construction": {
+      "score": 4,
+      "reason": "Rigid rod and fixed ports now work; tight hollow elbows, firebox and boiler support remain unresolved"
+    },
+    "surfaces": {
+      "score": 3,
+      "reason": "Inherited uniform procedural metal/timber lacks model-specific baked finish; only structural-foot maps export"
+    },
+    "motion": {
+      "score": 8,
+      "reason": "97 native and actual-export poses keep rigid rod, hinge endpoints, original stroke and fixed ports"
+    }
+  },
+  "disposition": "REWORK; do not produce final batch or integrate as finished",
+  "next_revision": "Rebuild reducer/elbow geometry and supported lined firebox/boiler, then author and bake surfaces before full capture"
+}

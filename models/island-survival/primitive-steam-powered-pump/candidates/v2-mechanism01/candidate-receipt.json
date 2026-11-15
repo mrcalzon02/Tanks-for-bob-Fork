@@ -1,0 +1,79 @@
+{
+  "source_sha256": "a4c1476f51927858bcaa3eb6e5ab72f02a4234d35eab6c32f56ec7b1953f3b65",
+  "glb_sha256": "6b46e6480da1e2546d81c8a91e2f46da4bd5b06b6070b48f0fdf9c91c1522b97",
+  "mechanism": {
+    "schema": "tanks.pipe-pump.v2.mechanism-check",
+    "passed": true,
+    "sampled_frames": 97,
+    "rigid_rod_length_tiles": 0.6,
+    "maximum_joint_error_tiles": 1.8328428268432617e-06,
+    "maximum_rod_length_error_tiles": 1.649585481544591e-07,
+    "maximum_port_motion_tiles": 0.0,
+    "piston_stroke_tiles": 0.2059999704360962,
+    "native_positions": [
+      [
+        0,
+        -0.75
+      ],
+      [
+        0,
+        0.75
+      ]
+    ],
+    "bucket_mechanism": false,
+    "game_integrated": false,
+    "visual_approved": false
+  },
+  "renders": [
+    {
+      "file": "north-working-1.png",
+      "sha256": "ed95b1cec622df8513df5e8a98af45fac3b4b74815b5b544a6b6c00354623ecb",
+      "frame": 1,
+      "direction": "north"
+    },
+    {
+      "file": "north-working-49.png",
+      "sha256": "66d250467e3589f808943432b8c8010fad2fcc3fb8258b7dab79f547a5c6e883",
+      "frame": 49,
+      "direction": "north"
+    },
+    {
+      "file": "east-working-1.png",
+      "sha256": "fbd899c456747f0b39ae7d4b5634b64151e0eaf2f6149d21349858e9392c123c",
+      "frame": 1,
+      "direction": "east"
+    },
+    {
+      "file": "east-working-49.png",
+      "sha256": "ca0f13e6a268aed5fa77034c338186d9f16145a88760e15235e31ab6107bcc34",
+      "frame": 49,
+      "direction": "east"
+    },
+    {
+      "file": "south-working-1.png",
+      "sha256": "25ee9406cfe76bf055a268550a83b8c7f8f5bdde7fa67f391edc61f6426122fd",
+      "frame": 1,
+      "direction": "south"
+    },
+    {
+      "file": "south-working-49.png",
+      "sha256": "9f804bfc6ae929692b80bfa8e8cce65b5cea1ff3c2c5e476f45d7daa04c6946c",
+      "frame": 49,
+      "direction": "south"
+    },
+    {
+      "file": "west-working-1.png",
+      "sha256": "21d303d9c9163541b8b36da2b7bb9fc8e28a8b31b0d83f06de5b5b0d00e90562",
+      "frame": 1,
+      "direction": "west"
+    },
+    {
+      "file": "west-working-49.png",
+      "sha256": "9e542ed5afd3648058def6c19772a6984f8f300e5693dc634bb0d18880f3b771",
+      "frame": 49,
+      "direction": "west"
+    }
+  ],
+  "blender": "5.0.0",
+  "overall_finished": false
+}

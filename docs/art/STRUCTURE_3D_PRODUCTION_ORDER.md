@@ -1,5 +1,25 @@
 # Tanks-for-Bob Fork — 3D structure production order
 
+## Current authority — 2026-11-15
+
+Use the [ongoing completion ledger](STRUCTURE_COMPLETION_LEDGER.md) and its
+[machine-readable records](STRUCTURE_COMPLETION_LEDGER.json) for current status.
+All 21 structure IDs are reconciled against designs.json and source 1.8.103 at
+`7290824bf43711d0bb31bd8e2969c51459864f91`. Seven accepted/integrated assets are
+preserved; four advanced assets still have repair/export/promotion gates; ten
+need substantial production work. Current focus is the existing Primitive
+Steam-Powered Pump candidate, the actual pipe-to-pipe pump. The rough water-wheel
+study is held; retained lifting buckets must remain upright.
+
+The November 11 queue and checkpoints below are historical. In particular,
+Beach Pump has reached V12 with accepted four-facing placement, but its
+underwater layer separation failed visual review on November 13. Condenser V24
+has local runtime/alignment evidence, while active 1.8.103 still declares its
+legacy single-frame 64px art: do not confuse that profile with installed V24.
+FMPL archival/registry receipts are audited separately from accepted game art.
+The enduring goal continues through actual modeling, animation, export and
+integration; documenting a queue does not complete it.
+
 This is the **survival / manufacturing structures** queue, separate from vehicle/tank art. Legacy first-pass OBJ geometry is not considered a production-ready `.blend`; state verification must inspect native source and actual sprite export evidence. Preserve every accepted source; never replace old assets in place. Use the canonical Tech-Priests FMPL asset library, actual Factorio tile/fluidbox dimensions, approved construction-pads/PBR, and one fixed calibrated 45° camera. User review precedes live graphics substitution.
 
 ## Current checkpoint (2026-11-11)

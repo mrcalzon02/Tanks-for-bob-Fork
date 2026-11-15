@@ -1,0 +1,65 @@
+{
+  "schema": "tanks.pipe-pump.v2.runtime-inspection",
+  "geometry_and_motion_checks_passed": true,
+  "overall_visual_accepted": false,
+  "game_integrated": false,
+  "source_sha256": "a4c1476f51927858bcaa3eb6e5ab72f02a4234d35eab6c32f56ec7b1953f3b65",
+  "glb_sha256": "6b46e6480da1e2546d81c8a91e2f46da4bd5b06b6070b48f0fdf9c91c1522b97",
+  "source_geometry": {
+    "min": [
+      -0.41999998688697815,
+      -1.0,
+      -0.0005000010132789612
+    ],
+    "max": [
+      0.41999998688697815,
+      1.0,
+      1.69990873336792
+    ],
+    "triangles": 31420,
+    "degenerate_objects": []
+  },
+  "runtime_geometry": {
+    "min": [
+      -0.41999998688697815,
+      -1.0,
+      -0.0005000010132789612
+    ],
+    "max": [
+      0.41999998688697815,
+      1.0,
+      1.69990873336792
+    ],
+    "triangles": 31420,
+    "degenerate_objects": []
+  },
+  "bounds_error_tiles": 0.0,
+  "sampled_source_frames": 97,
+  "max_joint_error_tiles": 3.6286698764222625e-07,
+  "max_rigid_length_error_tiles": 3.593158803827379e-08,
+  "max_socket_motion_tiles": 0.0,
+  "embedded_images": 3,
+  "runtime_renders": [
+    {
+      "file": "actual-glb-north.png",
+      "sha256": "93b0df5bf38c1388211ec3dbfdd1d2899a71b335def6b6919c1493824b547c2b"
+    },
+    {
+      "file": "actual-glb-east.png",
+      "sha256": "8e8d96762bdbabd68e9ba9ad6dcd4cdfe218eb2a67b13beab2d4be9b72aa0e29"
+    },
+    {
+      "file": "actual-glb-south.png",
+      "sha256": "ea0f1d84b9a8dee8f3df51c2f46a3b663d24b04481e32aadce8d585b4879b289"
+    },
+    {
+      "file": "actual-glb-west.png",
+      "sha256": "9f57755143da853019aed1b2c3088a1d66e050a4bb47b760086d466598e9a088"
+    }
+  ],
+  "remaining": [
+    "Physical/art review of hollow reducers, firebox/boiler support and clearances",
+    "Model-specific timber and metal baking; inherited procedural bump is not an exported normal map",
+    "Full revised animation/atlas capture, native game proof and owner acceptance"
+  ]
+}

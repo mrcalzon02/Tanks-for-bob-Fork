@@ -1,0 +1,51 @@
+{
+  "recovered_source_sha256": "1c6e1b23d0ec1472d1c25303416b97b827735298f9a34724beecc7e085d9cd6c",
+  "artifact_id": 13927757032,
+  "builder_sha256": "f5ac43a0978abe9f48a83c58bcca31d7a7ba3597137060e914228ee09bbc3fac",
+  "camera": {
+    "name": "FMPL_CAPTURE_CAMERA",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071068286895752,
+        -0.7071067094802856,
+        -6.0
+      ],
+      [
+        0.0,
+        0.7071067094802856,
+        0.7071068286895752,
+        6.929999828338623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 3.8499999046325684,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      768,
+      768
+    ]
+  },
+  "changes": [
+    "Constant-length slider-crank; no stretching rod",
+    "Crank-plane crosshead and real pivots",
+    "True hollow smooth pipe meshes survive GLB export",
+    "Canonical FMPL camera installed and validated"
+  ],
+  "surface_limit": "Inherited procedural timber/metal bump still needs model-specific baking and visual refinement",
+  "game_integrated": false,
+  "owner_visual_approved": false
+}
