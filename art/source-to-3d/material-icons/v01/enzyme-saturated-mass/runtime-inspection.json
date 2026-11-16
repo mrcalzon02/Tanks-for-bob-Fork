@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "enzyme-saturated-mass",
+  "triangles": 884,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "dbebb04476a14c4ac084d75f7334881b940722aec5a82a4a68750043db2561d7",
+  "authored_sha256": "3d816c09769f9309f52f2fe7b0106643b6e18656d7f6bc39367ce110721dba3b",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

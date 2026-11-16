@@ -1,0 +1,17 @@
+{
+  "asset": "executive-marseline-resin",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.0974293612301988,
+    0.10679820568420705,
+    0.13798354658765496
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "2244d67b47e15ebe1a542ae45bc8c37cedbf294f8de9cffe862b46b09df72d84"
+}

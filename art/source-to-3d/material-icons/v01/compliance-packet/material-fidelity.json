@@ -1,0 +1,17 @@
+{
+  "asset": "compliance-packet",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.12270666201604465,
+    0.12390419718637367,
+    0.1350889431461458
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "9d06a4848fdcba231d25684839f199d6a7d2cdeba895317403302aa540c62d62"
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "stone-tools",
+  "triangles": 10064,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "8a5bbf654a63d942f5e5a0eb74b058536f351ec742732031d4e60115d7d2c395",
+  "authored_sha256": "a5c778287f6aee9ab95c8da68684e6628ec62951101a22561889928660f0cda9",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

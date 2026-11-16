@@ -1,0 +1,19 @@
+{
+  "asset": "phase-reactive-granules",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "14c98eb4c2177241ec4f50b8b86925d04bb6665f8e12604c2d59d887230c00cc",
+  "source_sha256": "a563588a01705c30af34297eceeb1a601b2cf885408db749758ca7da6c4051d6",
+  "render_sha256": "cb89d4d0c9afc44cf43ca6d544009779dd8a4adea4156feb56bcfe3b38e938df",
+  "reference_icon_sha256": [
+    "7a60a6ce7b7bc718a2f6075cf191f0b822cbcdd890e20d36c68e7db5571d02b8"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Round reactive granules packed into a compact low mound. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

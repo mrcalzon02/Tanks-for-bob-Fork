@@ -1,0 +1,54 @@
+{
+  "asset": "phase-primed-carrier",
+  "construction": "A keyed copper carrier disc with recessed active center and four supported contact posts.",
+  "regions": [
+    {
+      "part": "Keyed carrier puck",
+      "materials": [
+        "phase-primed-carrier | steel"
+      ]
+    },
+    {
+      "part": "Supported retaining collar",
+      "materials": [
+        "phase-primed-carrier | brass"
+      ]
+    },
+    {
+      "part": "Recessed active center",
+      "materials": [
+        "phase-primed-carrier | product"
+      ]
+    },
+    {
+      "part": "Supported contact stud",
+      "materials": [
+        "phase-primed-carrier | brass"
+      ]
+    },
+    {
+      "part": "Supported contact stud.001",
+      "materials": [
+        "phase-primed-carrier | brass"
+      ]
+    },
+    {
+      "part": "Supported contact stud.002",
+      "materials": [
+        "phase-primed-carrier | brass"
+      ]
+    },
+    {
+      "part": "Supported contact stud.003",
+      "materials": [
+        "phase-primed-carrier | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

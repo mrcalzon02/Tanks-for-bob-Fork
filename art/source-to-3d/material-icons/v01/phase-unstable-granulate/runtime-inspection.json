@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "phase-unstable-granulate",
+  "triangles": 4696,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "8bb5531e0f96c27faf948218caa81174b0eb4a87458f2be1d4e46d7a90083836",
+  "authored_sha256": "9463c6d0feb4671dfdf2770b328f8cb09ddc37009e365e42cfd66201f37c6de9",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

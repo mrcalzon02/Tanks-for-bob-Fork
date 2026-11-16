@@ -1,0 +1,36 @@
+{
+  "asset": "stabilized-brine-gel",
+  "construction": "A single stabilized gel portion under a thick retaining rim and a sealed side tab.",
+  "regions": [
+    {
+      "part": "Thick-walled sample vessel",
+      "materials": [
+        "stabilized-brine-gel | steel"
+      ]
+    },
+    {
+      "part": "Supported vessel retaining rim",
+      "materials": [
+        "stabilized-brine-gel | ceramic"
+      ]
+    },
+    {
+      "part": "Contained sample surface",
+      "materials": [
+        "stabilized-brine-gel | product"
+      ]
+    },
+    {
+      "part": "Single stabilized gel portion",
+      "materials": [
+        "stabilized-brine-gel | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

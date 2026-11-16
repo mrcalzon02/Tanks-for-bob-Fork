@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "viscoelastic-froth",
+  "triangles": 5176,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "e5a4a5cc91c6300268dcd72c68e071252269901fa4399eb9530e26ce05304d6b",
+  "authored_sha256": "2cbd70f3202594eaa7cc08ec08044ccac5bbc91169a73067cf9ec0b8ca977b87",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

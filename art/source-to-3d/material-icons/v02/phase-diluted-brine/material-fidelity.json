@@ -1,0 +1,17 @@
+{
+  "asset": "phase-diluted-brine",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.33907243394215575,
+    0.3282679798610856,
+    0.3327882106501047
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "67257e85988a8fc884f4c79ae378185b85dbe2d4ddea8a82074ab8e0238b1cd9"
+}

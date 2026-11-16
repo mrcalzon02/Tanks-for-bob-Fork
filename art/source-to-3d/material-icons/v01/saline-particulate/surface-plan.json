@@ -1,0 +1,192 @@
+{
+  "asset": "saline-particulate",
+  "construction": "A low pile of angular cubic salt particles; no jar or parchment backing.",
+  "regions": [
+    {
+      "part": "Angular material grain",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.001",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.002",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.003",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.004",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.005",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.006",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.007",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.008",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.009",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.010",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.011",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.012",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.013",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.014",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.015",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.016",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.017",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.018",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.019",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.020",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.021",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.022",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.023",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.024",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.025",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.026",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.027",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.028",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.029",
+      "materials": [
+        "saline-particulate | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

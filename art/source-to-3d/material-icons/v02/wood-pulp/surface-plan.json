@@ -1,0 +1,180 @@
+{
+  "asset": "wood-pulp",
+  "construction": "Wet shredded wood fibers in a shallow wooden pulping tray; no shipping crate.",
+  "regions": [
+    {
+      "part": "Shallow pulping tray",
+      "materials": [
+        "wood-pulp | wood"
+      ]
+    },
+    {
+      "part": "Wet pulped fiber mass",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.001",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.002",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.003",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.004",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.005",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.006",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.007",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.008",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.009",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.010",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.011",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.012",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.013",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.014",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.015",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.016",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.017",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.018",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.019",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.020",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.021",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.022",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.023",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.024",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    },
+    {
+      "part": "Loose wet shredded wood fiber.025",
+      "materials": [
+        "wood-pulp | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

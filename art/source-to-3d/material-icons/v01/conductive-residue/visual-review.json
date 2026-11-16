@@ -1,0 +1,19 @@
+{
+  "asset": "conductive-residue",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "fab9dad4f4de0896e9cad3efab5abf0dd3965885172dfefa008cc6b031f9679d",
+  "source_sha256": "d2325d70207efae04c9bc8f83f7e91b6bb08da9d83897be2c93c6d6d98a22b0f",
+  "render_sha256": "3f2555144ae872f2359897e263c68352106b27a196cac4d876882e54e7370f43",
+  "reference_icon_sha256": [
+    "a2e580f0f56ead6f1f11ec09c934e95b02629b2c5b8cf17da2e365f83bd44309"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A dark residue pile containing short copper strands and thin metallic flakes. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

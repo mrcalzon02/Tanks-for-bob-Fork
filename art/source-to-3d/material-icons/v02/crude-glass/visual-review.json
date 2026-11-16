@@ -1,0 +1,19 @@
+{
+  "asset": "crude-glass",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "f1f401c5c1e31c6f0711df7c1f584c42637ad164441a6f4b1969e8c80cc61be6",
+  "source_sha256": "9ce405f2503fe90ac08ad69a16a749eec8fb8c73a4874d09c00a7a4e857e0290",
+  "render_sha256": "0e04b2384a0ff0364d1a9735e734cc075a898adcbd2382986044c361f1bf555f",
+  "reference_icon_sha256": [
+    "6ca6ba0865d31233588b0101555af46aab7fc3dba430bebc052a69b3aa93fbd3"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Three irregular thick glass panes with chipped edges, slight warping and exposed pale fracture faces. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

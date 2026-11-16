@@ -1,0 +1,78 @@
+{
+  "asset": "compressed-biohazard-waste",
+  "construction": "A compact sealed biohazard-waste briquette canister with raised containment collar.",
+  "regions": [
+    {
+      "part": "Waste containment drum",
+      "materials": [
+        "compressed-biohazard-waste | product"
+      ]
+    },
+    {
+      "part": "Supported rolled drum hoop",
+      "materials": [
+        "compressed-biohazard-waste | steel"
+      ]
+    },
+    {
+      "part": "Supported rolled drum hoop.001",
+      "materials": [
+        "compressed-biohazard-waste | steel"
+      ]
+    },
+    {
+      "part": "Supported rolled drum hoop.002",
+      "materials": [
+        "compressed-biohazard-waste | steel"
+      ]
+    },
+    {
+      "part": "Fitted sealed waste lid",
+      "materials": [
+        "compressed-biohazard-waste | dark"
+      ]
+    },
+    {
+      "part": "Hazard identification backing",
+      "materials": [
+        "compressed-biohazard-waste | ceramic"
+      ]
+    },
+    {
+      "part": "Geometric waste hazard mark",
+      "materials": [
+        "compressed-biohazard-waste | dark"
+      ]
+    },
+    {
+      "part": "Geometric waste hazard mark.001",
+      "materials": [
+        "compressed-biohazard-waste | dark"
+      ]
+    },
+    {
+      "part": "Geometric waste hazard mark.002",
+      "materials": [
+        "compressed-biohazard-waste | dark"
+      ]
+    },
+    {
+      "part": "Briquette compression rail",
+      "materials": [
+        "compressed-biohazard-waste | dark"
+      ]
+    },
+    {
+      "part": "Briquette compression rail.001",
+      "materials": [
+        "compressed-biohazard-waste | dark"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "asset": "encabuloy-alloy",
+  "construction": "A machined tapered encabuloy ingot with a supported band and freshly exposed bevels.",
+  "regions": [
+    {
+      "part": "Tapered machined alloy ingot",
+      "materials": [
+        "encabuloy-alloy | product"
+      ]
+    },
+    {
+      "part": "Supported identification band",
+      "materials": [
+        "encabuloy-alloy | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

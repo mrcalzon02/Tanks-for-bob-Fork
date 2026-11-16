@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "amulite-flakes",
+  "triangles": 2832,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "bfe9c42075fdef573714c54f039a40ca73ae8531e943dbcc9ebe66e11e4c4c6a",
+  "authored_sha256": "581d596da3c58185f394803c2e7d852c401781d92aa776ee8a2c79e1e7caf7d6",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

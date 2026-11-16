@@ -1,0 +1,19 @@
+{
+  "asset": "compliance-packet",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "9d06a4848fdcba231d25684839f199d6a7d2cdeba895317403302aa540c62d62",
+  "source_sha256": "69a83687997f7b754bcb194d91e5ab76bce166b10ccddd28db018317d4473c60",
+  "render_sha256": "f3abdb29997b51e8b41d8b793940f92ff4ec7f4d7150231c878e13a9689d1ade",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A tall compliance packet secured with two exposed steel binding rings. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

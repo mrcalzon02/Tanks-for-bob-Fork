@@ -1,0 +1,17 @@
+{
+  "asset": "meal",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.12824677352856662,
+    0.11652777951299959,
+    0.12739720893042317
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "b961afffbf299f601209787ff241a2372d62419a92b055c71047c7d39870648f"
+}

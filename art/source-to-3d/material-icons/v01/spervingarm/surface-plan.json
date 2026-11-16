@@ -1,0 +1,48 @@
+{
+  "asset": "spervingarm",
+  "construction": "A single articulated sperving arm with two joints and a bolted installation foot.",
+  "regions": [
+    {
+      "part": "Arm installation foot",
+      "materials": [
+        "spervingarm | steel"
+      ]
+    },
+    {
+      "part": "Articulated sperving arm",
+      "materials": [
+        "spervingarm | product"
+      ]
+    },
+    {
+      "part": "Supported articulation joint",
+      "materials": [
+        "spervingarm | brass"
+      ]
+    },
+    {
+      "part": "Supported articulation joint.001",
+      "materials": [
+        "spervingarm | brass"
+      ]
+    },
+    {
+      "part": "Supported articulation joint.002",
+      "materials": [
+        "spervingarm | brass"
+      ]
+    },
+    {
+      "part": "Supported articulation joint.003",
+      "materials": [
+        "spervingarm | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

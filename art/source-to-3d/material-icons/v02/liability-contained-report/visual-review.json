@@ -1,0 +1,19 @@
+{
+  "asset": "liability-contained-report",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "ba79fa29bc6a263343e0a6b52113a0c3c6d5ec28365ab86b2268183e7b19cb36",
+  "source_sha256": "ffe96cb3df8ba6402a967f78d2eb9798b6e6dafbbdaa5abf27d2a94387479470",
+  "render_sha256": "1cdf16e92a745416a992e8c2bcf0de9cd496147b33d43e2be409739e563081f5",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A red hard-sided report enclosure with two real latches and a thick protective spine. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

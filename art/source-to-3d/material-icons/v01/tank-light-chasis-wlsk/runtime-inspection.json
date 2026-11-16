@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "tank-light-chasis-wlsk",
+  "triangles": 12464,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "415ce57ef19606624406f4ec66dd67cec4b8a2764009a1e54d03c84aee8edd1a",
+  "authored_sha256": "47aea670357bb73280bf11ade0b0d155c390c67573b14c7eeb3dc35800a97ce5",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

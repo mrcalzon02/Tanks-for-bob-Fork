@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "ink",
+  "triangles": 6524,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "2d31d890baf45e8826397b166f2e89ff50f4d39d4707cf13481bbbace7f7e59c",
+  "authored_sha256": "9984b199d8efae7649978f51230797b3cf5c610ec10edfd8e410a56c8fbe673b",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

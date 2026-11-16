@@ -1,0 +1,19 @@
+{
+  "asset": "tank-ammo-universal-explosive",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "360df8937340b6a2bb1a758cafbd802b80cf1a3d8c7c27f68ef079de36e72d7c",
+  "source_sha256": "e45bd39e09d89a0e1b1c2f80a61bc69aa8a0064c16afb403d8282c11edf13ef8",
+  "render_sha256": "c03b52c3ba866753f06b0f9fa39af09807e5605018a26be24bc3291417daa6cb",
+  "reference_icon_sha256": [
+    "d92e93d5c5514db182e9720bb367eab34aacda67b20d201190193e49c1350c03"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Solid explosive blocks secured in an open protective carrier with a broad restraint band. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

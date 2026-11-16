@@ -1,0 +1,19 @@
+{
+  "asset": "stabilized-brine-gel",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "2e7db8db1288d19b945bdaedec4f071a3c443ac408edf0e1649bc56f74bf6ec1",
+  "source_sha256": "b6d96d03863131595118ca6d7fb8fcba951a2ef0a0722d0175b751032f99af4c",
+  "render_sha256": "8a339e53a20d00194e5e149e52dfc6f1377c16eea0c9b84f7ab130c8c92258c1",
+  "reference_icon_sha256": [
+    "4f7296f34f74a77ea03f814dabd09d537acc1803ce1210ad87a340aca5f7d4e2"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A single stabilized gel portion under a thick retaining rim and a sealed side tab. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

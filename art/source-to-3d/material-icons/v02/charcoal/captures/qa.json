@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "capture_count": 1,
+  "atlas_count": 3,
+  "checks": [
+    "source master hash",
+    "frame order and hashes",
+    "RGBA and dimensions",
+    "nonempty transparent canvas",
+    "visible clipping",
+    "unique animation cells",
+    "atlas cell roundtrip",
+    "GIF frame count"
+  ],
+  "art_accepted": false,
+  "manual_review": [
+    "stone appearance",
+    "lighting calibration",
+    "native-size readability",
+    "animation loop seam"
+  ],
+  "sheets": [
+    {
+      "path": "icon-64.png",
+      "sha256": "fd260adb70ebc454a5dccea104488cd46962748e8a270e075af4cfecb3f338b7",
+      "state": "icon",
+      "cell_size": 64,
+      "frame_count": 1,
+      "columns": 1,
+      "direction_count": 1,
+      "rows_per_direction": 1,
+      "dimensions": [
+        64,
+        64
+      ],
+      "cells": [
+        {
+          "direction": 0,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            0,
+            64,
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "path": "icon-128.png",
+      "sha256": "530922360394b9025aa9e088c28abb839162209ace2f5a281627cc09742b29a5",
+      "state": "icon",
+      "cell_size": 128,
+      "frame_count": 1,
+      "columns": 1,
+      "direction_count": 1,
+      "rows_per_direction": 1,
+      "dimensions": [
+        128,
+        128
+      ],
+      "cells": [
+        {
+          "direction": 0,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            0,
+            128,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "path": "icon-256.png",
+      "sha256": "fffdb2f94fe90c8b92305fb4aa1c4a3d6c5ef7f3e03a98dcba7fe5449e0025e3",
+      "state": "icon",
+      "cell_size": 256,
+      "frame_count": 1,
+      "columns": 1,
+      "direction_count": 1,
+      "rows_per_direction": 1,
+      "dimensions": [
+        256,
+        256
+      ],
+      "cells": [
+        {
+          "direction": 0,
+          "index": 0,
+          "frame": 0,
+          "rect": [
+            0,
+            0,
+            256,
+            256
+          ]
+        }
+      ]
+    }
+  ]
+}

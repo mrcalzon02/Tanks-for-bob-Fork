@@ -1,0 +1,19 @@
+{
+  "asset": "framulatedencabulator",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "2d925387656e01f301d5c9000f2dd3ca99f9aa44de1a2d3a7a4e72305bcd15f6",
+  "source_sha256": "f2ef28c57f635cb1719919c2cf3c8e5f941302b6ce8c80e32dd752383b029e81",
+  "render_sha256": "72bf5054ee79e7cfcf9c224d390399c0453d53ed04072df5b8e64f8ea264e102",
+  "reference_icon_sha256": [
+    "fe8181776e876b0c11f8e3b63610a9b243210d9e51bc4fb547061f733102eba8"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A framed three-coil encabulator with additional closed side braces and a square top bridge. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

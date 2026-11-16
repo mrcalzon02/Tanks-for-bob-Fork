@@ -1,0 +1,17 @@
+{
+  "asset": "marseline-compound",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.13521585144060497,
+    0.12365272326983823,
+    0.11928783382789318
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "c7a806073dca89da8ae3f35430bbe649f6776c6c9724efaeb4d7210504c1e162"
+}

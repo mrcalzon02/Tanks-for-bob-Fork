@@ -1,0 +1,17 @@
+{
+  "asset": "seared-fish",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.08439402324294411,
+    0.08935159564655967,
+    0.10090389227079874
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "27abe5e0722da8b0ee41a54e2c8ed503ae115320e81d456e9d9477013953a943"
+}

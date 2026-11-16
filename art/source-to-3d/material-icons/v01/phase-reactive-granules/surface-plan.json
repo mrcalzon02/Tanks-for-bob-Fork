@@ -1,0 +1,192 @@
+{
+  "asset": "phase-reactive-granules",
+  "construction": "Round reactive granules packed into a compact low mound.",
+  "regions": [
+    {
+      "part": "Round reactive granule",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.001",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.002",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.003",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.004",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.005",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.006",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.007",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.008",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.009",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.010",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.011",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.012",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.013",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.014",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.015",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.016",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.017",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.018",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.019",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.020",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.021",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.022",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.023",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.024",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.025",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.026",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.027",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.028",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    },
+    {
+      "part": "Round reactive granule.029",
+      "materials": [
+        "phase-reactive-granules | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

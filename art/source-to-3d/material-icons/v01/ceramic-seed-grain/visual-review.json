@@ -1,0 +1,19 @@
+{
+  "asset": "ceramic-seed-grain",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "7c1e36b031a33b3b67752bc9e3a9b6c511c3729ceafa0a6c039a812e4ab551eb",
+  "source_sha256": "2433b256d56b3620073127ec87970a1889d3e071979c337b69a50e10cbe88aed",
+  "render_sha256": "cae082ac641d25bbfc872a78bb0c7fc9e84098016e045524bfd4e04e73350af4",
+  "reference_icon_sha256": [
+    "42906523f182704a74237da137b05474d76d20b4cdf669b8a4707805dcb79d30"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Small ceramic seed beads in a thick-walled ceramic assay bowl. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "bioceramic-preform",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.03730112178312193,
+    0.03687953662291957,
+    0.04505462277293057
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "ce03d66cc456d434fb70236ff05e1527adfa3a4c70ebf77748d3f8fec42384ae"
+}

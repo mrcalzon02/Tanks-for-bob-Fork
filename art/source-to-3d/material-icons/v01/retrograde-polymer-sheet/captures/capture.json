@@ -1,0 +1,160 @@
+{
+  "schema": 1,
+  "source_sha256": "828a6e5a497bcf8de5396b50b5f82336ede1b2b15f09626120b79e66f12c0ff3",
+  "source_file": "runtime-reimport.blend",
+  "camera_policy": "fmpl.factorio45.v1",
+  "persistent_camera_count": 1,
+  "camera_cleanup": {
+    "policy": "fmpl.factorio45.v1",
+    "removed_camera_objects": [
+      "FMPL_CAPTURE_CAMERA"
+    ],
+    "persistent_camera_count": 1,
+    "name": "FMPL_CAPTURE_CAMERA"
+  },
+  "blender": "5.0.0",
+  "config": {
+    "schema": 1,
+    "asset": "retrograde-polymer-sheet",
+    "source": "runtime-reimport.blend",
+    "capture_kind": "item",
+    "camera_policy": "fmpl.factorio45.v1",
+    "source_size": 256,
+    "sizes": [
+      64,
+      128,
+      256
+    ],
+    "samples": 32,
+    "seed": 5855,
+    "columns": 1,
+    "fps": 24,
+    "directions": [
+      0
+    ],
+    "pivot": [
+      0,
+      0,
+      0
+    ],
+    "camera_override": {
+      "type": "ORTHO",
+      "elevation_deg": 45,
+      "azimuth_deg": 0,
+      "distance": 8.485281374,
+      "target": [
+        0.03268668055534363,
+        -0.10803568363189697,
+        -0.015240877866744995
+      ],
+      "ortho_scale": 1.7498919856094557
+    },
+    "states": {
+      "icon": [
+        0
+      ]
+    },
+    "threads": 4,
+    "workers": 1
+  },
+  "camera": {
+    "name": "FMPL_CAPTURE_CAMERA",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.03268668055534363
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        -0.7071067690849304,
+        -6.108035087585449
+      ],
+      [
+        0.0,
+        0.7071067690849304,
+        0.7071067690849304,
+        5.9847588539123535
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 1.749891996383667,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      256,
+      256
+    ]
+  },
+  "daylight": [
+    {
+      "name": "Northwest sun",
+      "type": "SUN",
+      "energy": 2.299999952316284,
+      "color": [
+        1.0,
+        0.9399999976158142,
+        0.8500000238418579
+      ],
+      "matrix_world": [
+        [
+          0.8320503234863281,
+          0.41202086210250854,
+          -0.3713907301425934,
+          0.0
+        ],
+        [
+          -0.5547001361846924,
+          0.61803138256073,
+          -0.5570861101150513,
+          0.0
+        ],
+        [
+          2.274588872808181e-08,
+          0.6695342063903809,
+          0.7427812218666077,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "world": {
+    "name": "Canonical northwest daylight",
+    "color_management": {
+      "view_transform": "AgX",
+      "look": "None",
+      "exposure": 0.0,
+      "gamma": 1.0
+    }
+  },
+  "material_changes": [],
+  "mesh_count": 1,
+  "master_sha256": "eeb7b8b2a458dc7b407df6bcd1075cd604ee97efa37e52ec84ff7d2d86a0d8b2",
+  "frames": [
+    {
+      "state": "icon",
+      "direction": 0,
+      "angle": 0,
+      "index": 0,
+      "timeline_frame": 0,
+      "path": "frames/icon/d00/f000.png",
+      "sha256": "5d57ebe3106a82f70ba041cd40d6d0b98e78341e1e153990196ae2c1520d96e4"
+    }
+  ],
+  "art_accepted": false,
+  "engine_integration": "outside Blender-only scope"
+}

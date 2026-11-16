@@ -1,0 +1,17 @@
+{
+  "asset": "audit-ready-deliverable",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.1846023750873194,
+    0.1732294079439195,
+    0.20799784305795557
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "764ce3c32a85b41ada74ebc7211a7b6e0f85fbdeb9be2ec55539cc584d7bb0c6"
+}

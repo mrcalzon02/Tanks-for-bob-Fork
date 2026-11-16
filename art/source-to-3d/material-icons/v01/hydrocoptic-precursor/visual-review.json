@@ -1,0 +1,19 @@
+{
+  "asset": "hydrocoptic-precursor",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "f59e46c14020e25613e43c3fd61a18581688f9fd3551f9433bc01bfd1bd1e8fd",
+  "source_sha256": "7537b5f46e4de09a2a3b84e2e8b7fa902c020080238d5044c55f7b61f3c07cc0",
+  "render_sha256": "48d2db0a6eec2660d16facf7eebed38f0880785348a06dadabfa2bfa15980fbb",
+  "reference_icon_sha256": [
+    "953ab16bbc836ed21340a3726f092dd30ae3b5d85c99b47b6b9b3aa70d8c3de9"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A cylindrical precursor cartridge with three longitudinal sight strips and a keyed end cap. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

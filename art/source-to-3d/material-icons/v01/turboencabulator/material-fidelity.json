@@ -1,0 +1,17 @@
+{
+  "asset": "turboencabulator",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.18561091429863572,
+    0.17119544735056907,
+    0.16629607296299087
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "4f9a52f07f2dab1d69e45a6a61c96349e3e0fed9596be5185343bad9e68caae1"
+}

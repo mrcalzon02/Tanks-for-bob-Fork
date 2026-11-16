@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "salinity-locked-emulsion",
+  "triangles": 3880,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "a487fd74bcfcc0bc0812890ed9edf3f0d0886f1ac594cf583efb988b2f625b14",
+  "authored_sha256": "ca0458a42b49bcd3cb954d3bf020dde45a0a9b136115b2125c3c7516377ac6bf",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

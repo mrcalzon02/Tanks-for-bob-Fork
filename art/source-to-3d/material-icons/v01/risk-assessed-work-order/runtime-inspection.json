@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "risk-assessed-work-order",
+  "triangles": 1737,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "73ace946a479fdb56643e44b327024be08d290dc5bfa194ba7c3e8d4f489753c",
+  "authored_sha256": "5ab1bf0a226ad5ed2ba33156a339487593af22d5d09db819b68f1a0acd1c6ae9",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

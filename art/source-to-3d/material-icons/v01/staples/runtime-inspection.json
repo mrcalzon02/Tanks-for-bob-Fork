@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "staples",
+  "triangles": 1140,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "83635a4b1b150a7713156db8cb03a3169256c60c0a0682b484f152a12adb2a69",
+  "authored_sha256": "82c4dd3d7dceedf400babbda93caef7a8180775b393226ba6d6681edd8d487c2",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

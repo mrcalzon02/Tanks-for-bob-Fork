@@ -1,0 +1,19 @@
+{
+  "asset": "board-advisory-risk-assessment",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "2e0e7c692934ef7700e5e02a8b5cb98bfea3a55cd4e49ef5187538cd0a5f5dfa",
+  "source_sha256": "2ab021cc2020f1ed217f7a7b16fa640ee75cdba1b11edb2107bf087ab41dba76",
+  "render_sha256": "0385e06212105543d07913a971aa29b935978496cc0cac6b15e4b04a99b68a53",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A heavy advisory binder with two raised warning panels and a three-tab index. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

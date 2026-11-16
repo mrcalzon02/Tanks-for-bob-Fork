@@ -1,0 +1,126 @@
+{
+  "asset": "hydrolyzed-suspension",
+  "construction": "A tall suspension vessel with a broad sight window and lower sediment band.",
+  "regions": [
+    {
+      "part": "Closed sample vessel",
+      "materials": [
+        "hydrolyzed-suspension | steel"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band",
+      "materials": [
+        "hydrolyzed-suspension | dark"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band.001",
+      "materials": [
+        "hydrolyzed-suspension | dark"
+      ]
+    },
+    {
+      "part": "Vessel cap",
+      "materials": [
+        "hydrolyzed-suspension | steel"
+      ]
+    },
+    {
+      "part": "Cap retaining lip",
+      "materials": [
+        "hydrolyzed-suspension | brass"
+      ]
+    },
+    {
+      "part": "Welded inset sample port boss",
+      "materials": [
+        "hydrolyzed-suspension | dark"
+      ]
+    },
+    {
+      "part": "Supported metal port bezel",
+      "materials": [
+        "hydrolyzed-suspension | brass"
+      ]
+    },
+    {
+      "part": "Recessed sample glass",
+      "materials": [
+        "hydrolyzed-suspension | product"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss",
+      "materials": [
+        "hydrolyzed-suspension | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.001",
+      "materials": [
+        "hydrolyzed-suspension | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.002",
+      "materials": [
+        "hydrolyzed-suspension | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.003",
+      "materials": [
+        "hydrolyzed-suspension | steel"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener",
+      "materials": [
+        "hydrolyzed-suspension | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.001",
+      "materials": [
+        "hydrolyzed-suspension | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.002",
+      "materials": [
+        "hydrolyzed-suspension | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.003",
+      "materials": [
+        "hydrolyzed-suspension | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.004",
+      "materials": [
+        "hydrolyzed-suspension | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.005",
+      "materials": [
+        "hydrolyzed-suspension | brass"
+      ]
+    },
+    {
+      "part": "Visible sediment band",
+      "materials": [
+        "hydrolyzed-suspension | secondary"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

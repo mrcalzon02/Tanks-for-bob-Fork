@@ -1,0 +1,144 @@
+{
+  "asset": "duplexed-substrate",
+  "construction": "Two offset substrate boards with distinct insulating layers, conductive traces and edge contacts.",
+  "regions": [
+    {
+      "part": "Duplex insulating substrate",
+      "materials": [
+        "duplexed-substrate | ceramic"
+      ]
+    },
+    {
+      "part": "Etched substrate face",
+      "materials": [
+        "duplexed-substrate | product"
+      ]
+    },
+    {
+      "part": "Copper circuit trace",
+      "materials": [
+        "duplexed-substrate | copper"
+      ]
+    },
+    {
+      "part": "Copper circuit trace.001",
+      "materials": [
+        "duplexed-substrate | copper"
+      ]
+    },
+    {
+      "part": "Copper circuit trace.002",
+      "materials": [
+        "duplexed-substrate | copper"
+      ]
+    },
+    {
+      "part": "Copper circuit trace.003",
+      "materials": [
+        "duplexed-substrate | copper"
+      ]
+    },
+    {
+      "part": "Edge contact",
+      "materials": [
+        "duplexed-substrate | brass"
+      ]
+    },
+    {
+      "part": "Edge contact.001",
+      "materials": [
+        "duplexed-substrate | brass"
+      ]
+    },
+    {
+      "part": "Edge contact.002",
+      "materials": [
+        "duplexed-substrate | brass"
+      ]
+    },
+    {
+      "part": "Edge contact.003",
+      "materials": [
+        "duplexed-substrate | brass"
+      ]
+    },
+    {
+      "part": "Edge contact.004",
+      "materials": [
+        "duplexed-substrate | brass"
+      ]
+    },
+    {
+      "part": "Duplex insulating substrate.001",
+      "materials": [
+        "duplexed-substrate | ceramic"
+      ]
+    },
+    {
+      "part": "Etched substrate face.001",
+      "materials": [
+        "duplexed-substrate | product"
+      ]
+    },
+    {
+      "part": "Copper circuit trace.004",
+      "materials": [
+        "duplexed-substrate | copper"
+      ]
+    },
+    {
+      "part": "Copper circuit trace.005",
+      "materials": [
+        "duplexed-substrate | copper"
+      ]
+    },
+    {
+      "part": "Copper circuit trace.006",
+      "materials": [
+        "duplexed-substrate | copper"
+      ]
+    },
+    {
+      "part": "Copper circuit trace.007",
+      "materials": [
+        "duplexed-substrate | copper"
+      ]
+    },
+    {
+      "part": "Edge contact.005",
+      "materials": [
+        "duplexed-substrate | brass"
+      ]
+    },
+    {
+      "part": "Edge contact.006",
+      "materials": [
+        "duplexed-substrate | brass"
+      ]
+    },
+    {
+      "part": "Edge contact.007",
+      "materials": [
+        "duplexed-substrate | brass"
+      ]
+    },
+    {
+      "part": "Edge contact.008",
+      "materials": [
+        "duplexed-substrate | brass"
+      ]
+    },
+    {
+      "part": "Edge contact.009",
+      "materials": [
+        "duplexed-substrate | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

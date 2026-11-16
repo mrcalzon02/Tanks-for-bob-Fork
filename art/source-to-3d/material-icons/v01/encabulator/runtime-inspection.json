@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "encabulator",
+  "triangles": 7472,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "28808f4b8a553fc47831940847fa0b22f5087c49cc7ff8bf91f8fc024f3c8622",
+  "authored_sha256": "7aec9d3c69fbdb78451b7fb467ba66bd4d64ab6b9d062787c8be5206352b9128",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "compressed-biohazard-waste",
+  "triangles": 9692,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "889f32da34d987a62626197464d180e6a6ab9f1cef5eafb7bc477099e3ad6b78",
+  "authored_sha256": "40a59b956d79c4f3bfb5bc560c36a10476bd879df9284b45d80442c6d34259f7",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

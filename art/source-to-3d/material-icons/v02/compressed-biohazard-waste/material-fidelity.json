@@ -1,0 +1,17 @@
+{
+  "asset": "compressed-biohazard-waste",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.2278906797477225,
+    0.22843377715487037,
+    0.23370707778556413
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "889f32da34d987a62626197464d180e6a6ab9f1cef5eafb7bc477099e3ad6b78"
+}

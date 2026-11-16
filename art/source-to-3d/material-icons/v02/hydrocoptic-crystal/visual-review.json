@@ -1,0 +1,19 @@
+{
+  "asset": "hydrocoptic-crystal",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "0d9b740b1df430858f414bcbe02b69b1c7bc8d0cd70d51407e2b064499b277bb",
+  "source_sha256": "a6a4933f8b22de643677e4132dcf79686b5e36f0c2af0ea0d5451f3fd64bf0d0",
+  "render_sha256": "d81437db7356161f16947615bb26ca4255b64a54ec1bd3f0c1e16a94416094e7",
+  "reference_icon_sha256": [
+    "a0ca150de6fdb3320302c7e9a2401d13d139eefad1bbfe4765b2569457e77d1b"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Three broad hydrocoptic crystals with large readable terminal facets. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

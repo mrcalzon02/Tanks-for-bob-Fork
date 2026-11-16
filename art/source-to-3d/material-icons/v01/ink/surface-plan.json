@@ -1,0 +1,72 @@
+{
+  "asset": "ink",
+  "construction": "Squat dark glass inkwell, threaded brass neck, fitted cap and visible ink at the mouth.",
+  "regions": [
+    {
+      "part": "Squat thick glass inkwell",
+      "materials": [
+        "ink | glass"
+      ]
+    },
+    {
+      "part": "Brass bottle shoulder",
+      "materials": [
+        "ink | brass"
+      ]
+    },
+    {
+      "part": "Short glass neck",
+      "materials": [
+        "ink | glass"
+      ]
+    },
+    {
+      "part": "Supported threaded brass neck",
+      "materials": [
+        "ink | brass"
+      ]
+    },
+    {
+      "part": "Visible black ink meniscus",
+      "materials": [
+        "ink | ink"
+      ]
+    },
+    {
+      "part": "Detached fitted screw cap",
+      "materials": [
+        "ink | brass"
+      ]
+    },
+    {
+      "part": "Small bone-paper bottle label",
+      "materials": [
+        "ink | paper"
+      ]
+    },
+    {
+      "part": "Impressed label rule",
+      "materials": [
+        "ink | ink"
+      ]
+    },
+    {
+      "part": "Impressed label rule.001",
+      "materials": [
+        "ink | ink"
+      ]
+    },
+    {
+      "part": "Impressed label rule.002",
+      "materials": [
+        "ink | ink"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

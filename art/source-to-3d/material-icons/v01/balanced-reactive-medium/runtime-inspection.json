@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "balanced-reactive-medium",
+  "triangles": 3924,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "e532af26fd7eba73bed0df87013fcc39b7ff62db70accf4bee54e29422277746",
+  "authored_sha256": "6382d3c1126d3cdee098237e7a8e77775b187243e9cc35260dc400e6e2ad6523",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

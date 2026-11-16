@@ -1,0 +1,72 @@
+{
+  "asset": "clay",
+  "construction": "Three irregular wet clay lumps; thumb-compressed surfaces, coarse inclusions and no crate.",
+  "regions": [
+    {
+      "part": "Thumb compressed wet clay",
+      "materials": [
+        "clay | clay"
+      ]
+    },
+    {
+      "part": "Thumb compressed wet clay.001",
+      "materials": [
+        "clay | clay"
+      ]
+    },
+    {
+      "part": "Thumb compressed wet clay.002",
+      "materials": [
+        "clay | clay"
+      ]
+    },
+    {
+      "part": "Coarse mineral inclusion",
+      "materials": [
+        "clay | pulp"
+      ]
+    },
+    {
+      "part": "Coarse mineral inclusion.001",
+      "materials": [
+        "clay | pulp"
+      ]
+    },
+    {
+      "part": "Coarse mineral inclusion.002",
+      "materials": [
+        "clay | pulp"
+      ]
+    },
+    {
+      "part": "Coarse mineral inclusion.003",
+      "materials": [
+        "clay | pulp"
+      ]
+    },
+    {
+      "part": "Coarse mineral inclusion.004",
+      "materials": [
+        "clay | pulp"
+      ]
+    },
+    {
+      "part": "Coarse mineral inclusion.005",
+      "materials": [
+        "clay | pulp"
+      ]
+    },
+    {
+      "part": "Coarse mineral inclusion.006",
+      "materials": [
+        "clay | pulp"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "tank-ammo-radioactivewaste",
+  "triangles": 8500,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "6d03caf2aaac8eae138a36ec69d683e1793bd3696d3da60d45ac3d4abf2e8847",
+  "authored_sha256": "3adeb47ed3224593e24562f2a633fbadc842d9860afa74baa783c6fefd523da9",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

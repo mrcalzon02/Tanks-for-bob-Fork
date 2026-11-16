@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "fractured-lattice-mass",
+  "triangles": 4704,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "441b96480f09d61c7881c2689ddbda4ff593e9d1c69eef7b7526966b2b9662a9",
+  "authored_sha256": "4b6ff49e8f3bdf6dc9c5b6417becd1bb2d974e59da88851242128493d60a394e",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

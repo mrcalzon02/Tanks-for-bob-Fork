@@ -1,0 +1,19 @@
+{
+  "asset": "bio-reactive-slurry",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "172470b5f6085b15e987c694a1c286a77c1689c5c4c1d11ace9fa605efd90708",
+  "source_sha256": "edcb5ea5982c98571b029f344ca3f4c0217f955e39e74c2b2b0f97bff272db53",
+  "render_sha256": "8c05ebc1801f22b161b1f362d9ca3a6c1a4c7b0f9b9339f8ec8640f7383f094d",
+  "reference_icon_sha256": [
+    "589547941081bdb3cf6d1fd920f470e7e4e343e835c8cfcb0eddc4e65c3de0af"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A sealed squat slurry drum with a guarded side gauge and two cap bolts. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

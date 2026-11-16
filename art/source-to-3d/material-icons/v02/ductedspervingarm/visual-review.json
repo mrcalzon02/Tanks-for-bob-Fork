@@ -1,0 +1,19 @@
+{
+  "asset": "ductedspervingarm",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "d19f6ee7a1d7eda229ac671a00e30e6bf3a2e8ef284d21a0673855daa8501ef8",
+  "source_sha256": "712cab8f8599511a0bed307ad7ab80e00ba257823305e45c5ae102915405671a",
+  "render_sha256": "b6b481eb51b58241817cafb08748ea26434305516994b59282a42678189fd68f",
+  "reference_icon_sha256": [
+    "0a246b48babcb21acfd4662a87cad4b9656eb0dab5ad25e383860f5a4d73e615"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A jointed sperving arm with an integrated rigid protective duct and supported end connection. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

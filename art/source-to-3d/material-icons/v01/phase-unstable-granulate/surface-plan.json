@@ -1,0 +1,114 @@
+{
+  "asset": "phase-unstable-granulate",
+  "construction": "Unstable granules in a shallow steel containment pan with a supported hazard collar.",
+  "regions": [
+    {
+      "part": "Thick-walled sample vessel",
+      "materials": [
+        "phase-unstable-granulate | steel"
+      ]
+    },
+    {
+      "part": "Supported vessel retaining rim",
+      "materials": [
+        "phase-unstable-granulate | brass"
+      ]
+    },
+    {
+      "part": "Contained sample surface",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.001",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.002",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.003",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.004",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.005",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.006",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.007",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.008",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.009",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.010",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.011",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.012",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.013",
+      "materials": [
+        "phase-unstable-granulate | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

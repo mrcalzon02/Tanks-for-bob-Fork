@@ -1,0 +1,96 @@
+{
+  "asset": "audit-ready-deliverable",
+  "construction": "A compact delivered document pack with twin buckled straps and a protruding index tab.",
+  "regions": [
+    {
+      "part": "Folded document backing",
+      "materials": [
+        "audit-ready-deliverable | product"
+      ]
+    },
+    {
+      "part": "Bound report sheet",
+      "materials": [
+        "audit-ready-deliverable | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.001",
+      "materials": [
+        "audit-ready-deliverable | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.002",
+      "materials": [
+        "audit-ready-deliverable | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.003",
+      "materials": [
+        "audit-ready-deliverable | paper"
+      ]
+    },
+    {
+      "part": "Printed document header",
+      "materials": [
+        "audit-ready-deliverable | dark"
+      ]
+    },
+    {
+      "part": "Printed report rule",
+      "materials": [
+        "audit-ready-deliverable | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.001",
+      "materials": [
+        "audit-ready-deliverable | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.002",
+      "materials": [
+        "audit-ready-deliverable | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.003",
+      "materials": [
+        "audit-ready-deliverable | ink"
+      ]
+    },
+    {
+      "part": "Document containment strap",
+      "materials": [
+        "audit-ready-deliverable | leather"
+      ]
+    },
+    {
+      "part": "Supported report latch",
+      "materials": [
+        "audit-ready-deliverable | brass"
+      ]
+    },
+    {
+      "part": "Document containment strap.001",
+      "materials": [
+        "audit-ready-deliverable | leather"
+      ]
+    },
+    {
+      "part": "Supported report latch.001",
+      "materials": [
+        "audit-ready-deliverable | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

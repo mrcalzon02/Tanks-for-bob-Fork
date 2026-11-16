@@ -1,0 +1,19 @@
+{
+  "asset": "bioceramic-grit",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "56087df57cbba00cc8eb6d137154d13ececab78b08d80f1e619284ce9052c873",
+  "source_sha256": "e64d35521a75646319184c38862b79df95b2e492ddc429d40872abc3cc5ac694",
+  "render_sha256": "ce707b2a5d83ed02ae1d79dc13b75b910d4ac64be205071e94661a92bcad4de6",
+  "reference_icon_sha256": [
+    "5b7ee12a710c2a6e0416fbe610518bcb7c46729b44a0a74adc698f12b1ea6241"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Coarse irregular bioceramic grit with matte, freshly fractured surfaces. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

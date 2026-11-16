@@ -1,0 +1,19 @@
+{
+  "asset": "gradient-saline-matrix",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "0b861a786dbdd78b0e176ac6e068f49057c1b40992a4234894d7efecf69c3733",
+  "source_sha256": "23278e51a6039ae17efb25d2ffc615ca4266b257f419c70f634ceca655ba83fe",
+  "render_sha256": "6f3f644ee2ff801f2b79789ad55df8782fc39c3bde20623170c2092310725ae9",
+  "reference_icon_sha256": [
+    "58a649074b59cd047e7f447a194aff3947c84714a750d7d753443e5f1d498cdb"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A sloping cellular saline block with visible layered cell walls. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

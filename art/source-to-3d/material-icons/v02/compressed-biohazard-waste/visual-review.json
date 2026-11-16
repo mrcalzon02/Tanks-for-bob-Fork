@@ -1,0 +1,19 @@
+{
+  "asset": "compressed-biohazard-waste",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "889f32da34d987a62626197464d180e6a6ab9f1cef5eafb7bc477099e3ad6b78",
+  "source_sha256": "40a59b956d79c4f3bfb5bc560c36a10476bd879df9284b45d80442c6d34259f7",
+  "render_sha256": "e3645573e5ee80e90a75347b801ff129dd89b975bb64cbcff888dd263ec34ad3",
+  "reference_icon_sha256": [
+    "e191262e4c3ccde7c5bd1921e4882d9873ced895c4b1fd00fd49555e9adceee5"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A compact sealed biohazard-waste briquette canister with raised containment collar. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

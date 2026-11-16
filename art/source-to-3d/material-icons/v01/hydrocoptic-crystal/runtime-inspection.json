@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "hydrocoptic-crystal",
+  "triangles": 1256,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "722279981fd74914282735a6aa2b020657c04cbf0d1353de44e15359acff0871",
+  "authored_sha256": "06e951bd2d31a708e2cb22240b5fa853ec08aa4b3c3577d444d11ff1bf49a021",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "hydrocoptic-crystal",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.15373153547580068,
+    0.08484023472710216,
+    0.09606151468883943
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "0d9b740b1df430858f414bcbe02b69b1c7bc8d0cd70d51407e2b064499b277bb"
+}

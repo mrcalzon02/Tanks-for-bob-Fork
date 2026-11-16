@@ -1,0 +1,17 @@
+{
+  "asset": "balanced-reactive-medium",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.14712818413923484,
+    0.14202186750862422,
+    0.17967608021984446
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "e532af26fd7eba73bed0df87013fcc39b7ff62db70accf4bee54e29422277746"
+}

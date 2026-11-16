@@ -1,0 +1,42 @@
+{
+  "asset": "compressed-crystal-bed",
+  "construction": "A compressed crystalline slab held by a rigid four-corner compression frame.",
+  "regions": [
+    {
+      "part": "Compressed mineral slab",
+      "materials": [
+        "compressed-crystal-bed | product"
+      ]
+    },
+    {
+      "part": "Side compression shoe",
+      "materials": [
+        "compressed-crystal-bed | steel"
+      ]
+    },
+    {
+      "part": "Side compression shoe.001",
+      "materials": [
+        "compressed-crystal-bed | steel"
+      ]
+    },
+    {
+      "part": "Compression carrier rail",
+      "materials": [
+        "compressed-crystal-bed | brass"
+      ]
+    },
+    {
+      "part": "Compression carrier rail.001",
+      "materials": [
+        "compressed-crystal-bed | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

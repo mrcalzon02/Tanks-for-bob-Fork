@@ -1,0 +1,19 @@
+{
+  "asset": "tank-ammo-radioactivewaste",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "6d03caf2aaac8eae138a36ec69d683e1793bd3696d3da60d45ac3d4abf2e8847",
+  "source_sha256": "3adeb47ed3224593e24562f2a633fbadc842d9860afa74baa783c6fefd523da9",
+  "render_sha256": "b0f7545b0b4fe28657cbcab3aeb3ff5d52595a2569d9f509e337b5d709dd1f8c",
+  "reference_icon_sha256": [
+    "4777554774cf6f287036685e1d96d1adf943d22d54a10dfd12716171461e3c75"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A heavy shielded radioactive-waste cask with thick lid, lock tabs and restrained indicator. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

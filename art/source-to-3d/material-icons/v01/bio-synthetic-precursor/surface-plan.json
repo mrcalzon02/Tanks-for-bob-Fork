@@ -1,0 +1,54 @@
+{
+  "asset": "bio-synthetic-precursor",
+  "construction": "Two long precursor vials in a single mechanical carrier with separate closed terminals.",
+  "regions": [
+    {
+      "part": "Common vial carrier",
+      "materials": [
+        "bio-synthetic-precursor | steel"
+      ]
+    },
+    {
+      "part": "Sealed precursor vial",
+      "materials": [
+        "bio-synthetic-precursor | product"
+      ]
+    },
+    {
+      "part": "Individual insulating cap",
+      "materials": [
+        "bio-synthetic-precursor | ceramic"
+      ]
+    },
+    {
+      "part": "Individual insulating cap.001",
+      "materials": [
+        "bio-synthetic-precursor | ceramic"
+      ]
+    },
+    {
+      "part": "Sealed precursor vial.001",
+      "materials": [
+        "bio-synthetic-precursor | product"
+      ]
+    },
+    {
+      "part": "Individual insulating cap.002",
+      "materials": [
+        "bio-synthetic-precursor | ceramic"
+      ]
+    },
+    {
+      "part": "Individual insulating cap.003",
+      "materials": [
+        "bio-synthetic-precursor | ceramic"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

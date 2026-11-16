@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "duplexed-substrate",
+  "triangles": 4136,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "0e39e3c57859c05cac402cea30a4f9b7678d50b895571a7ba4d9b6345135936c",
+  "authored_sha256": "ac6cb4764f57dff13850702abc31a02022b0ce4f3a38e76abcbc81db6c6bd6c7",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

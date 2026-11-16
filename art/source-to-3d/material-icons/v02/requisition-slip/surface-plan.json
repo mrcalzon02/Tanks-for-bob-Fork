@@ -1,0 +1,90 @@
+{
+  "asset": "requisition-slip",
+  "construction": "A loose requisition sheet with perforated edge and a single signed request panel.",
+  "regions": [
+    {
+      "part": "Folded document backing",
+      "materials": [
+        "requisition-slip | product"
+      ]
+    },
+    {
+      "part": "Bound report sheet",
+      "materials": [
+        "requisition-slip | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.001",
+      "materials": [
+        "requisition-slip | paper"
+      ]
+    },
+    {
+      "part": "Printed document header",
+      "materials": [
+        "requisition-slip | dark"
+      ]
+    },
+    {
+      "part": "Printed report rule",
+      "materials": [
+        "requisition-slip | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.001",
+      "materials": [
+        "requisition-slip | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.002",
+      "materials": [
+        "requisition-slip | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.003",
+      "materials": [
+        "requisition-slip | ink"
+      ]
+    },
+    {
+      "part": "Perforated request-sheet edge recess",
+      "materials": [
+        "requisition-slip | dark"
+      ]
+    },
+    {
+      "part": "Perforated request-sheet edge recess.001",
+      "materials": [
+        "requisition-slip | dark"
+      ]
+    },
+    {
+      "part": "Perforated request-sheet edge recess.002",
+      "materials": [
+        "requisition-slip | dark"
+      ]
+    },
+    {
+      "part": "Perforated request-sheet edge recess.003",
+      "materials": [
+        "requisition-slip | dark"
+      ]
+    },
+    {
+      "part": "Perforated request-sheet edge recess.004",
+      "materials": [
+        "requisition-slip | dark"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

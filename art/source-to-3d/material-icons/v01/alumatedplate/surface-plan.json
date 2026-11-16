@@ -1,0 +1,24 @@
+{
+  "asset": "alumatedplate",
+  "construction": "Two aligned perforated alloy sheets with a formed edge and real through-holes.",
+  "regions": [
+    {
+      "part": "Perforated alloy sheet",
+      "materials": [
+        "alumatedplate | product"
+      ]
+    },
+    {
+      "part": "Perforated alloy sheet.001",
+      "materials": [
+        "alumatedplate | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

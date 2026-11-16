@@ -1,0 +1,19 @@
+{
+  "asset": "trace-mineral-slurry",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "7c0abef847c059815c0f50b2931d2e14e020c20854e55a9af81b7b991c25dc1b",
+  "source_sha256": "253ffaa272503094428f3606706c9f49c870bd8ed9951f01ba474f84f4b275af",
+  "render_sha256": "9fe4c13fd3a91a16e812f6bf346dc568a8a39ba0b21b5481b4433977b285ee7d",
+  "reference_icon_sha256": [
+    "03340fe70e429bb7b028dd99bf79bd585a2a10f9eb719e14160d6365797b4829"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Wet mineral slurry in an open assay pan, settled coarse grains at the meniscus. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

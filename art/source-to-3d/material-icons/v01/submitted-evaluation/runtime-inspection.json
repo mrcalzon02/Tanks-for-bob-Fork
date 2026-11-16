@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "submitted-evaluation",
+  "triangles": 1704,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "8ffc9808ff3dce0505e01086c062f541b679d9d6ea215ddf848a5a829b8d0c20",
+  "authored_sha256": "7e3f48afd89080349d3ca6c83b74a6cd14c9eac73f78fd72fc83252cd92cb0f1",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

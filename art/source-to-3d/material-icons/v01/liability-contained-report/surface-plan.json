@@ -1,0 +1,96 @@
+{
+  "asset": "liability-contained-report",
+  "construction": "A red hard-sided report enclosure with two real latches and a thick protective spine.",
+  "regions": [
+    {
+      "part": "Rigid report cover",
+      "materials": [
+        "liability-contained-report | product"
+      ]
+    },
+    {
+      "part": "Bound report sheet",
+      "materials": [
+        "liability-contained-report | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.001",
+      "materials": [
+        "liability-contained-report | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.002",
+      "materials": [
+        "liability-contained-report | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.003",
+      "materials": [
+        "liability-contained-report | paper"
+      ]
+    },
+    {
+      "part": "Printed document header",
+      "materials": [
+        "liability-contained-report | dark"
+      ]
+    },
+    {
+      "part": "Printed report rule",
+      "materials": [
+        "liability-contained-report | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.001",
+      "materials": [
+        "liability-contained-report | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.002",
+      "materials": [
+        "liability-contained-report | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.003",
+      "materials": [
+        "liability-contained-report | ink"
+      ]
+    },
+    {
+      "part": "Document containment strap",
+      "materials": [
+        "liability-contained-report | leather"
+      ]
+    },
+    {
+      "part": "Supported report latch",
+      "materials": [
+        "liability-contained-report | brass"
+      ]
+    },
+    {
+      "part": "Document containment strap.001",
+      "materials": [
+        "liability-contained-report | leather"
+      ]
+    },
+    {
+      "part": "Supported report latch.001",
+      "materials": [
+        "liability-contained-report | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

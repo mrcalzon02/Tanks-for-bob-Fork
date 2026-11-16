@@ -1,0 +1,19 @@
+{
+  "asset": "amulite-flakes",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "bfe9c42075fdef573714c54f039a40ca73ae8531e943dbcc9ebe66e11e4c4c6a",
+  "source_sha256": "581d596da3c58185f394803c2e7d852c401781d92aa776ee8a2c79e1e7caf7d6",
+  "render_sha256": "5bc31dabf4c2c56bd66594aaceb884246c53373bb20707f6cb45659123ab0bd7",
+  "reference_icon_sha256": [
+    "4da8f9a5a2f3bcff01517c9941697f5a0ca930ce9caa298297f14bd2c46797ba"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Thin overlapping mica-like amulite flakes with bright cut edges. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

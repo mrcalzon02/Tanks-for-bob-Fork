@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "hydrolyzed-suspension",
+  "triangles": 4044,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "63de82f0a5961df8ee9996282266744850f98a5973ea62d6092e0b33a35f8f6e",
+  "authored_sha256": "70b266b284b4545a398dc642174ef39452ac278a43eff3e281a46be614bd379b",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

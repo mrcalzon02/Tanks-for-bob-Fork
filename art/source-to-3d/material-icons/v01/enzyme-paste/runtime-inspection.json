@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "enzyme-paste",
+  "triangles": 4268,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "2930ec554271c74fdd7f1321048851d112b177788ef7e4b024243b487a6678ab",
+  "authored_sha256": "eabc8be110e7b303a278bf4e8dec1722cbccff169d40198c7c7cb106a64c97a9",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

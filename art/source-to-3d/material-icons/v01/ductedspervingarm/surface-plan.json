@@ -1,0 +1,54 @@
+{
+  "asset": "ductedspervingarm",
+  "construction": "A jointed sperving arm with an integrated rigid protective duct and supported end connection.",
+  "regions": [
+    {
+      "part": "Arm installation foot",
+      "materials": [
+        "ductedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Articulated sperving arm",
+      "materials": [
+        "ductedspervingarm | product"
+      ]
+    },
+    {
+      "part": "Supported articulation joint",
+      "materials": [
+        "ductedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Supported articulation joint.001",
+      "materials": [
+        "ductedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Supported articulation joint.002",
+      "materials": [
+        "ductedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Supported articulation joint.003",
+      "materials": [
+        "ductedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Rigid protective arm duct",
+      "materials": [
+        "ductedspervingarm | dark"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

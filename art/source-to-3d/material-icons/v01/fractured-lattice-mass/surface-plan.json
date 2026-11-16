@@ -1,0 +1,156 @@
+{
+  "asset": "fractured-lattice-mass",
+  "construction": "A fractured black lattice block with broken open cell walls exposed at one corner.",
+  "regions": [
+    {
+      "part": "Open matrix horizontal beam",
+      "materials": [
+        "fractured-lattice-mass | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web",
+      "materials": [
+        "fractured-lattice-mass | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.001",
+      "materials": [
+        "fractured-lattice-mass | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.001",
+      "materials": [
+        "fractured-lattice-mass | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.002",
+      "materials": [
+        "fractured-lattice-mass | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.002",
+      "materials": [
+        "fractured-lattice-mass | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.003",
+      "materials": [
+        "fractured-lattice-mass | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.003",
+      "materials": [
+        "fractured-lattice-mass | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.004",
+      "materials": [
+        "fractured-lattice-mass | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.004",
+      "materials": [
+        "fractured-lattice-mass | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.005",
+      "materials": [
+        "fractured-lattice-mass | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.005",
+      "materials": [
+        "fractured-lattice-mass | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.006",
+      "materials": [
+        "fractured-lattice-mass | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.006",
+      "materials": [
+        "fractured-lattice-mass | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.007",
+      "materials": [
+        "fractured-lattice-mass | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.007",
+      "materials": [
+        "fractured-lattice-mass | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.008",
+      "materials": [
+        "fractured-lattice-mass | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.008",
+      "materials": [
+        "fractured-lattice-mass | product"
+      ]
+    },
+    {
+      "part": "Nested inner phase support",
+      "materials": [
+        "fractured-lattice-mass | brass"
+      ]
+    },
+    {
+      "part": "Nested inner phase support.001",
+      "materials": [
+        "fractured-lattice-mass | brass"
+      ]
+    },
+    {
+      "part": "Broken open cell fragment",
+      "materials": [
+        "fractured-lattice-mass | product"
+      ]
+    },
+    {
+      "part": "Broken open cell fragment.001",
+      "materials": [
+        "fractured-lattice-mass | product"
+      ]
+    },
+    {
+      "part": "Broken open cell fragment.002",
+      "materials": [
+        "fractured-lattice-mass | product"
+      ]
+    },
+    {
+      "part": "Broken open cell fragment.003",
+      "materials": [
+        "fractured-lattice-mass | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

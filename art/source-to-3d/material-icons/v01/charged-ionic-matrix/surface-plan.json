@@ -1,0 +1,132 @@
+{
+  "asset": "charged-ionic-matrix",
+  "construction": "A conductive open-cell matrix with small charged inserts inside a rigid brass carrier.",
+  "regions": [
+    {
+      "part": "Open matrix horizontal beam",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.001",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.001",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.002",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.002",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.003",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.003",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.004",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.004",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.005",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.005",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.006",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.006",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.007",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.007",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.008",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.008",
+      "materials": [
+        "charged-ionic-matrix | product"
+      ]
+    },
+    {
+      "part": "Contained ionic insert",
+      "materials": [
+        "charged-ionic-matrix | secondary"
+      ]
+    },
+    {
+      "part": "Contained ionic insert.001",
+      "materials": [
+        "charged-ionic-matrix | secondary"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

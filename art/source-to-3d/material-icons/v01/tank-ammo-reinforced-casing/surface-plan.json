@@ -1,0 +1,48 @@
+{
+  "asset": "tank-ammo-reinforced-casing",
+  "construction": "A hollow reinforced shell case with two structural collars and a thick keyed base.",
+  "regions": [
+    {
+      "part": "Drawn case body",
+      "materials": [
+        "tank-ammo-reinforced-casing | product"
+      ]
+    },
+    {
+      "part": "Extractor base",
+      "materials": [
+        "tank-ammo-reinforced-casing | brass"
+      ]
+    },
+    {
+      "part": "Dark hollow case mouth",
+      "materials": [
+        "tank-ammo-reinforced-casing | dark"
+      ]
+    },
+    {
+      "part": "Open case mouth rim",
+      "materials": [
+        "tank-ammo-reinforced-casing | product"
+      ]
+    },
+    {
+      "part": "Structural case collar",
+      "materials": [
+        "tank-ammo-reinforced-casing | steel"
+      ]
+    },
+    {
+      "part": "Structural case collar.001",
+      "materials": [
+        "tank-ammo-reinforced-casing | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

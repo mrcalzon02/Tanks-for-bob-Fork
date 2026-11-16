@@ -1,0 +1,19 @@
+{
+  "asset": "wood-pulp",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "2bc832f3deac64201ff9fb5ba100cbd5410bfdb9b962d920e5cd98917bdf55c9",
+  "source_sha256": "f6e03aaaaba8f28f9c533a8864ba679743f8e55ec76f6343cca6a5b5ad153320",
+  "render_sha256": "264d65938bcf4ad40a3d0ee9967402857b189c5be494ed12edf405cda997b0d3",
+  "reference_icon_sha256": [
+    "11c1c1964989ff5ffe3f88f7929e3241e2259e451289abd063f5190788bfd235"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Wet shredded wood fibers in a shallow wooden pulping tray; no shipping crate. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

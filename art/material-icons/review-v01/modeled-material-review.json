@@ -1,0 +1,2671 @@
+{
+  "assistant_gate_passed": true,
+  "owner_acceptance": false,
+  "assets": [
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "clay",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\clay",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "clay",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "5b8d33104557f4f588863a161a05b175d37e31b8f05458924f7586b0842ff1d6",
+      "source_sha256": "a7d7e5a98c69f0437d19dcab15cbf784d84af63b95488672dfe826ddee5e948c",
+      "render_sha256": "f865079a2577e00ee256c664b49fd3008731a4b7012ab6c249b2270a7054fdd1",
+      "reference_icon_sha256": [
+        "330fa5dbbcf1f23f5aa8e2f23f890f9d12f902316632d0f63881b241dcae5602"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Three irregular wet clay lumps; thumb-compressed surfaces, coarse inclusions and no crate. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "brick",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\brick",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "brick",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "eabcb2d248d43b3010f0dfcbf63d169076f545eed25904f4a5000cda4ef33b6c",
+      "source_sha256": "0e67cb18b95c2af12d58a6f3b7a6d988a7a9a686d652feabb00e9203d6015cc1",
+      "render_sha256": "dcffd798b4b1c950cc6f44c756a8d4190a7a78ae1f2f5d9b4efe9659f33f6c28",
+      "reference_icon_sha256": [
+        "57c4c8e0a9db9f989348d9da1e0fd4edaf79d777e33f26195ff28673b2045d0b"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Three fired clay bricks; true recessed frogs and worn chamfered arrises. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "charcoal",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\charcoal",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "charcoal",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "32311d49598faee2783d6275ad8143957c0e2aee1651f77bca9d3405651bad60",
+      "source_sha256": "e133789613c4fc582d8c5c29c49db8e2ba6672e2f2f6951380667bc4e0725f89",
+      "render_sha256": "530922360394b9025aa9e088c28abb839162209ace2f5a281627cc09742b29a5",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Charred split timber pieces with actual end checking and pale ash in recessed fractures. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "crude-paper",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\crude-paper",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "crude-paper",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "17b62abe13bbb742654cad25097a7db04230aea5a745b64a82c4c69340e86c35",
+      "source_sha256": "6ff8ab1867d68b611a15477ee334c2c79388375721259cc9f91c0fa267dcdde0",
+      "render_sha256": "a3ee6641129077cd739879eb28c15e123cdc049d3d29497bba077f2ef287ae8e",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Uneven unbleached pulp sheets in a loose stack; frayed edge fibers and one folded corner. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "ink",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\ink",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "ink",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "2d31d890baf45e8826397b166f2e89ff50f4d39d4707cf13481bbbace7f7e59c",
+      "source_sha256": "9984b199d8efae7649978f51230797b3cf5c610ec10edfd8e410a56c8fbe673b",
+      "render_sha256": "9bbbb5f2a47c79dee6433375d602f8d208e4b42b637e7e6c09e1c6f92e02cbae",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Squat dark glass inkwell, threaded brass neck, fitted cap and visible ink at the mouth. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tech-priests",
+      "type": "item",
+      "name": "tech-priests-field-supply-pack",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\field-supply-pack",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "field-supply-pack",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "0a1540cb5880674aab192206075b32389e41ae6b08dfc12ebc79e16a6e863b34",
+      "source_sha256": "14179561ce5b7735998b5ad2a7281ed5769f4b8e25c5c4eb92c852b7a01211c3",
+      "render_sha256": "519e21e278ce3a7a85ed24dffa7501b259b13230f784eec0b9283e9ca048d3b8",
+      "reference_icon_sha256": [
+        "519779858e61b8be29870d07b190d3a6e2db15911eb23283596372bb5eea683c"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Canvas field-power pack with supported buckled straps, armored contact cover and recessed fuel gauge. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "calcifier",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\calcifier",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "calcifier",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "12889cb8d952bb84c0a488b2f7565a25d68567a9ff2a35c87e3f61506dfaf319",
+      "source_sha256": "6e73d1d17bc598dd15543e5228fab5e8a81cc2704007476b1f1c90569b80d85d",
+      "render_sha256": "a2136b2c981f1a9aa545f09ddf6c18517922ea5d37ce7e29b96b5965c74bdab6",
+      "reference_icon_sha256": [
+        "67f823dcb81b917739b4af0dfb21b8a90318e5618ecc4e829ffff5e64cbb5cf1"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Icon-scale calcifier enclosure with masonry heat chamber, open supported calcination pan and a braced flue; world entity graphics are unchanged. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "crude-glass",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\crude-glass",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "crude-glass",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "f1f401c5c1e31c6f0711df7c1f584c42637ad164441a6f4b1969e8c80cc61be6",
+      "source_sha256": "9ce405f2503fe90ac08ad69a16a749eec8fb8c73a4874d09c00a7a4e857e0290",
+      "render_sha256": "0e04b2384a0ff0364d1a9735e734cc075a898adcbd2382986044c361f1bf555f",
+      "reference_icon_sha256": [
+        "6ca6ba0865d31233588b0101555af46aab7fc3dba430bebc052a69b3aa93fbd3"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Three irregular thick glass panes with chipped edges, slight warping and exposed pale fracture faces. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "fluid",
+      "name": "toxic-sludge",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\toxic-sludge",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "toxic-sludge",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "6223a94ee79d3a610e222f5f4e3d77bf257a8bab9a4fb75cd59bb847700d4811",
+      "source_sha256": "6be0d3f9776674e64184468394c7260b509fbf3d60804a4aa18b0d2c77432cd4",
+      "render_sha256": "adbb66cdcfb10122e36e8d299134ab5f6fd8ae93b2e7ec13c74b212c6423c88b",
+      "reference_icon_sha256": [
+        "e2529bff9b840555046b822df778c45df89a11865516f36955be56b6897256f9"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A dense irregular toxic-sludge droplet, distinct from bottled inventory chemicals. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "stone-tools",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\stone-tools",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "stone-tools",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "8a5bbf654a63d942f5e5a0eb74b058536f351ec742732031d4e60115d7d2c395",
+      "source_sha256": "a5c778287f6aee9ab95c8da68684e6628ec62951101a22561889928660f0cda9",
+      "render_sha256": "f061891b7928e12ee407d6005ccf83864f4a54b059c8ebefb20f8343c3898ad2",
+      "reference_icon_sha256": [
+        "975a5daa86e8948fad6d3d1a7dfc003316be8e78a334ec4aebbd418ebea35cb1"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Knapped stone hammer and sharpened stone adze, cord-bound to two separate wooden handles. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "wood-pulp",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\wood-pulp",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "wood-pulp",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "2bc832f3deac64201ff9fb5ba100cbd5410bfdb9b962d920e5cd98917bdf55c9",
+      "source_sha256": "f6e03aaaaba8f28f9c533a8864ba679743f8e55ec76f6343cca6a5b5ad153320",
+      "render_sha256": "264d65938bcf4ad40a3d0ee9967402857b189c5be494ed12edf405cda997b0d3",
+      "reference_icon_sha256": [
+        "11c1c1964989ff5ffe3f88f7929e3241e2259e451289abd063f5190788bfd235"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Wet shredded wood fibers in a shallow wooden pulping tray; no shipping crate. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "staples",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\staples",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "staples",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "83635a4b1b150a7713156db8cb03a3169256c60c0a0682b484f152a12adb2a69",
+      "source_sha256": "82c4dd3d7dceedf400babbda93caef7a8180775b393226ba6d6681edd8d487c2",
+      "render_sha256": "bf89191b2e7a7a66082f4a2a1c9598eb5a49efae31ef71aa7006be0cd6042322",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A collated strip of formed steel staples and three loose U-shaped staples. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "stamps",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\stamps",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "stamps",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "27acca13a8b23f60ee056774522b9142e3fdeee9465e37a1416ee4fbf09b1606",
+      "source_sha256": "ce2b6c295328263fabe33f3bc428b4817158ecd757fde9000b74c948042a173c",
+      "render_sha256": "b1b26d61be52c2ef4fa94c2fdd3e455d6c689fa7d0d9102341626c814a9e0fe2",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Wooden hand stamp, engraved metal foot and matching ink-pad tray. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "folder",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\folder",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "folder",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "ac1669ad255f52f1945a2d59d361e770ecaa3f098bba8f4743924e0663b2b48c",
+      "source_sha256": "1d40c495362f1eeef4d9503626651d7ca6f5a8c4fbf1202e2ebf89a01e9a84c6",
+      "render_sha256": "b9312cd3b73f2c1d1887a5bfdfe5969b2d5305bd79c6d72c1171928d9208ec63",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A heavy tabbed manila folder with folded spine and protruding sheets. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "clipboard",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\clipboard",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "clipboard",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "9eeb054ccee64b5cf32e484cb5c84b6fecde7841c17043b563ebd0e06ae9d046",
+      "source_sha256": "a470f2fe76e149159a14c7ae8da1fd02335f9ab25d374492e5dc8329589d58dc",
+      "render_sha256": "661ee98cbbcfc19d1022ac7c25dfb5b3c7e9056e4006284fd76367ff2a9598bf",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Wooden clipboard with spring-steel clip and a white work sheet. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "corporate-waste",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\corporate-waste",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "corporate-waste",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "6c3ce0724abd3d2342f36e070be36698c3baeafa99a4cdfc437f606025354da3",
+      "source_sha256": "dbec3c18a35d27cd38a9d07495dd89eb824f4d9827ce1885871e6e924e5308e1",
+      "render_sha256": "7d006b667b11f17b3e5a860517d114acb6e1e870ea77c7ee0f25dd50068310bb",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Crumpled rejected paper, bent staples and a torn folder in a compact waste bundle. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "PhaseDetractor",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\phasedetractor",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "phasedetractor",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "5fb8af774f1e87c12af78ba353528f6ed518e068f39141f566ce870b3b57d8a6",
+      "source_sha256": "44281da8047b6a0c16286f64104a2eefa8b433f0d95d41331f790206c981b66a",
+      "render_sha256": "533d2e7f74e54a4299dfb3b116e805cdcb8430f537ccee6b5776e42fc3f07664",
+      "reference_icon_sha256": [
+        "eda048eb65ff18a6ce6db3745625a55aa7e8f1ac5f8c34eeb0e6720b21822b75"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Upright stepped phase column on a bolted base, with a braced twin-disc rotor. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "Canister",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\canister",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "canister",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "8cc3754b72961c37694dd2a1657d1cdde7457bc4815b600212967352dc671d46",
+      "source_sha256": "815763bafa2ab23028242d05d7ff668460d4e5d433b7407a1906d511ecbb471f",
+      "render_sha256": "f5b0f395fef090d4092ab0e8dcebfacdd1b1bd3411efdf119c2b8569e81b3b65",
+      "reference_icon_sha256": [
+        "6ec44543e81aeb6e3238d3b0ca9ae5693264b0ea506c7224d99aa13619d4c72b"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Uncharged pressure canister with thick rolled rim, sealed front access and clean fittings. Current 128 px and 64 px renders were inspected on the final contact sheets. State variants share the vessel; window state, locks and shielding are distinct."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "Charged-Canister",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\charged-canister",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "charged-canister",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "30d05a0793bfc762e4ce4afbafb00edcb6840cd577e48a3563eab206eb431a20",
+      "source_sha256": "3bfe306dda00897bc90e916b76c219a791045141054659a5c9e43630466b2a70",
+      "render_sha256": "44b859c58678eaa9b0f58817618ca1e9282c888b5eb81736a9529012b69a8dba",
+      "reference_icon_sha256": [
+        "ed8c5c6a764ab037abb798ee12db0d1288494934789dae1d7c1f73c5e0ace054"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "The matching pressure canister with a closed contact cover and visible charged-state window. Current 128 px and 64 px renders were inspected on the final contact sheets. State variants share the vessel; window state, locks and shielding are distinct."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "Canister-waste",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\canister-waste",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "canister-waste",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "149023a8836d7d5426ace9559a736fef779c74c2f1441bb795a84927d3942239",
+      "source_sha256": "8aec0bd8f535d326d2d0f89678273f683a042575d04fe1b3032b1dee3fea47ae",
+      "render_sha256": "f98f1a6b7250f98765b20448e4f9eb52d1554428b1d3af7e19526d76f76badc8",
+      "reference_icon_sha256": [
+        "0cc670feb1055cea7b2d81ae3d4249b5072bea54db68b14d85edf2f5300c81d1"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Contaminated return canister, dark residue at the service opening and a waste collar. Current 128 px and 64 px renders were inspected on the final contact sheets. State variants share the vessel; window state, locks and shielding are distinct."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "Canister-Radioactivewaste",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\canister-radioactivewaste",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "canister-radioactivewaste",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "c8570a474d0464d0eca526bcc712a5fe263d0fc2a572fad5999ab90189f2a9e4",
+      "source_sha256": "992b5341e384c9184fa8d8bbd3501a5b15c14dc5649e188f382a7fdb5ebe761c",
+      "render_sha256": "6d5c9feb9e3f85efa42242d9159f020880e8d21fb9f6669e342f08b3d621d1d7",
+      "reference_icon_sha256": [
+        "e191262e4c3ccde7c5bd1921e4882d9873ced895c4b1fd00fd49555e9adceee5"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Thick-walled radioactive-return canister with a lead collar and three lock tabs. Current 128 px and 64 px renders were inspected on the final contact sheets. State variants share the vessel; window state, locks and shielding are distinct."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "Alumatedplate",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\alumatedplate",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "alumatedplate",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "0ef018aacedde1331a59258f4e896c695dce885a15c177073811ceb08eb2f16c",
+      "source_sha256": "ffce922b847c667ddaa0378ee176a4b436eb3f44a9f9588a940ed0fb8671de48",
+      "render_sha256": "af2f76e48ebd500fd58af233690540b281012a288a99c745a2812f4d58d7c510",
+      "reference_icon_sha256": [
+        "5736c321c44b115dcd1969656ba1474d41dffefe93187ce54564927af625564f"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Two aligned perforated alloy sheets with a formed edge and real through-holes. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "trace-mineral-slurry",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\trace-mineral-slurry",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "trace-mineral-slurry",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "7c0abef847c059815c0f50b2931d2e14e020c20854e55a9af81b7b991c25dc1b",
+      "source_sha256": "253ffaa272503094428f3606706c9f49c870bd8ed9951f01ba474f84f4b275af",
+      "render_sha256": "9fe4c13fd3a91a16e812f6bf346dc568a8a39ba0b21b5481b4433977b285ee7d",
+      "reference_icon_sha256": [
+        "03340fe70e429bb7b028dd99bf79bd585a2a10f9eb719e14160d6365797b4829"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Wet mineral slurry in an open assay pan, settled coarse grains at the meniscus. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "saline-particulate",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\saline-particulate",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "saline-particulate",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "205ee40f4de755f7d98fb66cb3a407ef684fc260d4b7a8acf421e3f00c6dbdda",
+      "source_sha256": "df6d355aa23660e370127aa771dfe5554bcdaa636e03bc9cd3394bd6b0dbb512",
+      "render_sha256": "244a88cb35df906a937458441d3f5017feb5bf40ea813e18beb979b0088c530e",
+      "reference_icon_sha256": [
+        "2aba8fcc8c080f43ca1ba4a25293efe833330e1334ba80c9bc0d73916250b8ec"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A low pile of angular cubic salt particles; no jar or parchment backing. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "ionic-scum",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\ionic-scum",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "ionic-scum",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "b2e99c7d0a11e7aeb882ad949a4266fccd2d5f4bd7110456c45d4abce3dbb483",
+      "source_sha256": "83837e793001f18c2eb99579e605132518006b7337faa6354305a3ad8b3aa049",
+      "render_sha256": "3e88a5b08ab2295abb3534a0cb482c0096fe480dc63df01d419061a4837b1bcf",
+      "reference_icon_sha256": [
+        "62a06873663041db57facff989556a4f4ee8bb758e22e75b1eb4bf6b0929c722"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A folded porous ionic crust with actual open pores and a moist dark underside. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "heavy-brine-fraction",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\heavy-brine-fraction",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "heavy-brine-fraction",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "b94567742acb42e3523eeee2885e2d14da6197707f67fcd0e6abcdeb459390c5",
+      "source_sha256": "74b29b54466d23c2890748adf26af9f61333d557f43d465aeacfbfad6ff6a4e2",
+      "render_sha256": "acd801bbb65d2ad407b1bf97d6325ad7c73900127fdb71df58e6515ba1bcc9af",
+      "reference_icon_sha256": [
+        "073bcef07e08adb9f5c69cb53dcb9fe781d9e8cfbb53f013daad7b510cb30d5b"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A squat, wide-shouldered brine container with a large side sight port. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "microcrystal-sediment",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\microcrystal-sediment",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "microcrystal-sediment",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "defba503ae909ff71a7f509d7aaeb411d924121cac0b9192037f344ab32b79c3",
+      "source_sha256": "01fe5700579b93a1e9864603aa47a6252476490527365dfa63bba098566b1f23",
+      "render_sha256": "4199a73c3c76cc43d70e12a9a91c67525e84471f8599f57b3f668d6860e0b223",
+      "reference_icon_sha256": [
+        "470749e226e3b6ee88059cea5a54b97ce8c0e362729712fa43bac21d40415397"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A narrow sediment vial with a pale deposited bottom band and long neck. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "fish-oil-residue",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\fish-oil-residue",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "fish-oil-residue",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "9fad37a4dae0e19b6f797ffecd74a2c7b08c1ccdb344b74bbbbfa39589331165",
+      "source_sha256": "04bf93d3db432cf222a7e3fb41d91dbcedc4f21146aa3ab368924aea9f913811",
+      "render_sha256": "89e69d9e9c1222504478e9b6aa328d950ce45017ad2c4d41cd47028c37294c6f",
+      "reference_icon_sha256": [
+        "cd5407823b36f8192a964da8ac0a93dbf06d06a4989ba65a0afc0e5cd4dc94ce"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A wide open oil jar with a sticky amber meniscus and removable dark lid. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "fish-ash",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\fish-ash",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "fish-ash",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "6bc25133bbe1a6c3bf7b60e1939b2faf5d2328d9ca16db57979b2d3fe09cedbc",
+      "source_sha256": "e975f3539ca60b42a3b306f2f160e2452cafa3107eabf700cf8e08343bd4784b",
+      "render_sha256": "10820df0dfc40e901da10834f9c82df00e0b264c7332ade1da29170e555f1c93",
+      "reference_icon_sha256": [
+        "314ae2f4b7dd989c3cbc8c7334ba3d152359ea72c1ba3494619b74f3b291012e",
+        "22a9fa11bd8630f18caf97c9aec4e1385763e81b4022f03afe85564009d612b2"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A low ash mound containing charred fish-spine fragments. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "protein-slurry",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\protein-slurry",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "protein-slurry",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "a94742ec73c2d7dc74d8749fe817d35b7fb32222eccb51603307913619093160",
+      "source_sha256": "9a1fca716f37f20c127686144b0e9c61b07e2a50d3a2c1e425ae17ea67ac2733",
+      "render_sha256": "c6e9b39d3d43dda814cb344e3237c463aa30ad781dcfb7878834f9bcbaf41a80",
+      "reference_icon_sha256": [
+        "851c5673ddc3b951e9ac85c5316454f1b600618c4339ada1fc174a0d74862521"
+      ],
+      "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Thick protein slurry in a shallow ceramic dish with supported coagulated surface pieces. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "calcified-bone-dust",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\calcified-bone-dust",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "calcified-bone-dust",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "a98bccbc12a13ba21783c3e0e44016897acecc3293c31bf4158e9b5a92b25c26",
+      "source_sha256": "8cc5025081750d6a7c70b8e5bfd5970542321bf937fbcc01ef160d232aef1a27",
+      "render_sha256": "23755600ac0d2c2e30bd2f4b9b729d21ffef1074730ed799ad4c501415286013",
+      "reference_icon_sha256": [
+        "314ae2f4b7dd989c3cbc8c7334ba3d152359ea72c1ba3494619b74f3b291012e"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Fine pale dust with a clearly exposed calcified bone and joint fragments. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "enzyme-paste",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\enzyme-paste",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "enzyme-paste",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "2930ec554271c74fdd7f1321048851d112b177788ef7e4b024243b487a6678ab",
+      "source_sha256": "eabc8be110e7b303a278bf4e8dec1722cbccff169d40198c7c7cb106a64c97a9",
+      "render_sha256": "41979ff3cd7a9a5db290221807bdad76de6403b6578251afe7e469f55ce15a45",
+      "reference_icon_sha256": [
+        "827e517d2a8495173f0860c92c495bce28a4465cf71a68bac7ea663dc17078fb"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A short ceramic paste cartridge with a supported plunger and recessed nozzle. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "rendered-organics",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\rendered-organics",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "rendered-organics",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "51ee87285f93383a262b1061bee1df42a510b78c7b029d2418dde93fbce40005",
+      "source_sha256": "f6c3acc2fb5e3c447007a5c8ecb2cefa0f364de814e0b7b964f125cf0e7af9d6",
+      "render_sha256": "a5d7302d4d007bee5c8e4c1e28caef5bb2f4adb886cc718e9f9892bb0872f803",
+      "reference_icon_sha256": [
+        "773f0cd9e2a29c0a879dbf730f07feeff51a1b321d59d9e349133b8a35cbe707"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Three solid rendered-organic slabs with soft edges and visible scored cuts. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "hydrolyzed-suspension",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\hydrolyzed-suspension",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "hydrolyzed-suspension",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "c381867208662057b1a2f16609c07edcbc314f3614e36e82465ccfafac77d390",
+      "source_sha256": "7bec42ed0bb91f6f33d534a4baba73ab8e097636b5378d84e3a4b1439999afc8",
+      "render_sha256": "26b5ccc1b4edb2dd747dd0a703d5a494f46940d1141f62395bb62248c3c89315",
+      "reference_icon_sha256": [
+        "8ccdc5bdff2763e9c3b01832942737ce691cb34fa3450e42a417eccbb21bd644"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A tall suspension vessel with a broad sight window and lower sediment band. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "phase-diluted-brine",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\phase-diluted-brine",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "phase-diluted-brine",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "67257e85988a8fc884f4c79ae378185b85dbe2d4ddea8a82074ab8e0238b1cd9",
+      "source_sha256": "3ddffd4d48203f91a0604f930e46763cff3cbdbdca143f20d07601022e2e8389",
+      "render_sha256": "beaf3b29fc024bcb93eacb7ad40e098552911c5284ddaef6fe74b25c1c76f3a1",
+      "reference_icon_sha256": [
+        "a1d22d9dc52da41920bace0343ad3e49d96afb057f32ddd327c1e5a653ba2b23"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A long-neck brine flask with a separated pale lower phase. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "osmotic-residue",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\osmotic-residue",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "osmotic-residue",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "83758914088c83c7c019102515d070710e60b2c96913486b238e52fa8c350700",
+      "source_sha256": "ceeea282803ff1dff6fc97058c063f81f2998caaf063dc2d44cd8e37dafee3a5",
+      "render_sha256": "d8da99ffb18193850f2d336bd07164d8789c183ab873a481755d2f0e72c23de6",
+      "reference_icon_sha256": [
+        "946adc10acd0f6a143fbcd8bf4d9ee41e3fb38ae3ecd7cddbe021b47477218c1"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A square filter carrier holding a folded residue membrane and crystalline deposits. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "gradient-saline-matrix",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\gradient-saline-matrix",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "gradient-saline-matrix",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "0b861a786dbdd78b0e176ac6e068f49057c1b40992a4234894d7efecf69c3733",
+      "source_sha256": "23278e51a6039ae17efb25d2ffc615ca4266b257f419c70f634ceca655ba83fe",
+      "render_sha256": "6f3f644ee2ff801f2b79789ad55df8782fc39c3bde20623170c2092310725ae9",
+      "reference_icon_sha256": [
+        "58a649074b59cd047e7f447a194aff3947c84714a750d7d753443e5f1d498cdb"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A sloping cellular saline block with visible layered cell walls. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "biphasic-brine-gel",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\biphasic-brine-gel",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "biphasic-brine-gel",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "0ce8a87e1bf409d96cfde8b7962f90f8ce45dc2a851cfc946660f0ac98898c60",
+      "source_sha256": "da00c51e832670fdbba24fb6814959416e4abd782e3bb86ebc52c1b7bed15349",
+      "render_sha256": "292b6db1d30dd1c73882e1956bd8ab5f6936ea7c5191cbf797610ac048762568",
+      "reference_icon_sha256": [
+        "bdff66ad535a2ed2c0ecb6bdce1ddf6c1eeef01f4ef6ee8c1f619ed74d864030"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A broad gel cup with two physically separate layers under the retaining rim. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "salinity-locked-emulsion",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\salinity-locked-emulsion",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "salinity-locked-emulsion",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "07431dbfb7c18032ef3bd3b05cc6a556439bd00db3a22c78b022fbfc9b19097b",
+      "source_sha256": "cd0efcd46a90cbf9de531f2fa42d87cae14a032b41075cd9e766fe74ed6bbefe",
+      "render_sha256": "b9315316a89105253ed82ef1484d068cf2dde637437e56053259ec4ff52de5e1",
+      "reference_icon_sha256": [
+        "dee8d19b3ea282e67c5b0bc9154da92475d0aa0bf1c4e5ce79e16c956fd63ce9"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A sealed pear-shaped emulsion flask, locking collar and ceramic stopper. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "hydrocoptic-precursor",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\hydrocoptic-precursor",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "hydrocoptic-precursor",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "f59e46c14020e25613e43c3fd61a18581688f9fd3551f9433bc01bfd1bd1e8fd",
+      "source_sha256": "7537b5f46e4de09a2a3b84e2e8b7fa902c020080238d5044c55f7b61f3c07cc0",
+      "render_sha256": "48d2db0a6eec2660d16facf7eebed38f0880785348a06dadabfa2bfa15980fbb",
+      "reference_icon_sha256": [
+        "953ab16bbc836ed21340a3726f092dd30ae3b5d85c99b47b6b9b3aa70d8c3de9"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A cylindrical precursor cartridge with three longitudinal sight strips and a keyed end cap. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "denatured-organic-base",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\denatured-organic-base",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "denatured-organic-base",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "24a9efc3b00ff3ab4468aaf9ca245073e29f08a8d2e9d266b17f0d9c200497fd",
+      "source_sha256": "124b13e132d06e6a8a18a856d3f2447cf65d54bf36c69d8e57b9d59264379a8b",
+      "render_sha256": "1f43f2b9e403afe50b254e2c8f2eae17272c353924117a4d3373e87cd60331f1",
+      "reference_icon_sha256": [
+        "41ddfc4d22d8e6012d06c468a64901cea4da762c2d083242f56a450a1838a1d2"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A rough coagulated organic mass on a shallow ceramic support. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "enzyme-saturated-mass",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\enzyme-saturated-mass",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "enzyme-saturated-mass",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "500c564db88ca2b41b7396154e3f09aea252841bcb2798a27ab875d91961e3da",
+      "source_sha256": "ac7daa5a9c144ac22fc7fe28cb525fa21dc46185cdd051844f955f6b41638757",
+      "render_sha256": "9eafff4e6e7768ade6c7bd69739ab7a8900e993d14d463e06686179b47be5b7b",
+      "reference_icon_sha256": [
+        "4a91ccec64adf14ee4be33d22bcaeb0122410fbf0409d10bb87db0c8d3881003"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A dense organic sponge held in a shallow perforated support cage. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "lipid-carrier-gel",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\lipid-carrier-gel",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "lipid-carrier-gel",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "6a9b805ab82268e688bf496eba00bc23a7d45bb905b473a41e0be4eeb2b128e6",
+      "source_sha256": "a7bb426b96c8698fb52fc16791eecb836f66cd49a2ffaf084cbb8341851d3569",
+      "render_sha256": "2ba624ccd9ce1990867ef71fb2bac3d0ec5b526f72a4d03d45d572bea9f83f6c",
+      "reference_icon_sha256": [
+        "a9e0839e090d1afcc29e7d6a6ce60ce17c305e83e85daf6070da7d5cbae8bb3b"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A translucent-looking satin gel bar divided into three soft-edged carrier blocks. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "bio-reactive-slurry",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\bio-reactive-slurry",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "bio-reactive-slurry",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "172470b5f6085b15e987c694a1c286a77c1689c5c4c1d11ace9fa605efd90708",
+      "source_sha256": "edcb5ea5982c98571b029f344ca3f4c0217f955e39e74c2b2b0f97bff272db53",
+      "render_sha256": "8c05ebc1801f22b161b1f362d9ca3a6c1a4c7b0f9b9339f8ec8640f7383f094d",
+      "reference_icon_sha256": [
+        "589547941081bdb3cf6d1fd920f470e7e4e343e835c8cfcb0eddc4e65c3de0af"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A sealed squat slurry drum with a guarded side gauge and two cap bolts. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "catalytic-organic-medium",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\catalytic-organic-medium",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "catalytic-organic-medium",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "8370f611ad8d70e40fe11fae252c6ef61a0d67d8d987c799ec38cde6a8f5ad18",
+      "source_sha256": "515ba4c9ecfd5d93c4de69691d788878945d9a1a76d4886dbe23dde8dd2aeee2",
+      "render_sha256": "da82c10f0fdaeedeb4052cea3f1f4ceb72425581dfcb99406b4080af8b4397f8",
+      "reference_icon_sha256": [
+        "05fb04847e788f224336226dc6a5ee36b441e1076ef78904c6cc7ae955322272"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Round catalytic pellets in a supported conical assay hopper. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "reactive-enzyme-binder",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\reactive-enzyme-binder",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "reactive-enzyme-binder",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "143212f9c96062536b07ad59cb58ea8acc53e5f4c3046c3c0a43855672ccc235",
+      "source_sha256": "a4b4ad2447c9ac5b3ac6ac05c00612d15eb11f23a35c93cb059c26149563dd9a",
+      "render_sha256": "23ccbe5d18c92de84a268f40e1b070f1c4e32c73166724096eef580b52947d0f",
+      "reference_icon_sha256": [
+        "6a85dc57e627ee2524977e29084050c2e06bf37a75c12306ca7835e42af3e67a"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A dense binder puck retained by an asymmetric clamp and a recessed service center. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "bio-synthetic-precursor",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\bio-synthetic-precursor",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "bio-synthetic-precursor",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "73ace5c9bfd4715709754ec79b19211e4fbd0ba9be31e02d06a839bef33af04b",
+      "source_sha256": "a312a1994772471731aad4b56498068697e867711ba44b4649e46c3e16af06d9",
+      "render_sha256": "bf0ab6aeaaba7f5567a32d78bc0dfeac5cbe4850f7b36e6c4c6670461912b011",
+      "reference_icon_sha256": [
+        "273a79d8eb774215dce8d0a3dce5144593aecd6c09248892094462c034e5f422"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Two long precursor vials in a single mechanical carrier with separate closed terminals. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "crystalline-agglomerate",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\crystalline-agglomerate",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "crystalline-agglomerate",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "001a236304a7c2c8771a5b8ec42f3ebbd99689fe1621482e8150be74d2de9666",
+      "source_sha256": "0572e1358e1771b71e5d7a46117b83d43390d1b1546cf3ea9d462fe68ab2f6f1",
+      "render_sha256": "a0a43302e8c27d9781f06f684b32d4641421ada7f51fa71b3fd90c59e952b810",
+      "reference_icon_sha256": [
+        "2f1b1063c087ad043e47d9c0a9ee003478c31493136d400f1a8cdc3de09cd5ce"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Seven irregularly grown pale mineral crystals on one coarse rock base. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "fractured-lattice-mass",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\fractured-lattice-mass",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "fractured-lattice-mass",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "441b96480f09d61c7881c2689ddbda4ff593e9d1c69eef7b7526966b2b9662a9",
+      "source_sha256": "4b6ff49e8f3bdf6dc9c5b6417becd1bb2d974e59da88851242128493d60a394e",
+      "render_sha256": "122a4f07a30ea777ffae97858e394d5d79b1dfd5b3c260d1375f1d35e241b2e0",
+      "reference_icon_sha256": [
+        "44b852c8bcea921662ce1901b06f5729ab00b3d79cfa754e8c71f609d4f76123"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A fractured black lattice block with broken open cell walls exposed at one corner. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "ceramic-seed-grain",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\ceramic-seed-grain",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "ceramic-seed-grain",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "7c1e36b031a33b3b67752bc9e3a9b6c511c3729ceafa0a6c039a812e4ab551eb",
+      "source_sha256": "2433b256d56b3620073127ec87970a1889d3e071979c337b69a50e10cbe88aed",
+      "render_sha256": "cae082ac641d25bbfc872a78bb0c7fc9e84098016e045524bfd4e04e73350af4",
+      "reference_icon_sha256": [
+        "42906523f182704a74237da137b05474d76d20b4cdf669b8a4707805dcb79d30"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Small ceramic seed beads in a thick-walled ceramic assay bowl. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "mineral-phase-fragments",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\mineral-phase-fragments",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "mineral-phase-fragments",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "1907a5e03d3e7e4917343e9d63410521c12c7b521625d190bd8fe9c2bc504bab",
+      "source_sha256": "314f72fd7cd2e4dc280d436b51982c6641d45c837baa01e118bf3f66924d9458",
+      "render_sha256": "c9ac0c716a7d1ff9d4cb121e83d7c2d0aff5dd8c62110de18a6ef358d0d7d800",
+      "reference_icon_sha256": [
+        "0d3a5838215c4dddefec5c7dacd332d7d77b9c7367451f6c415baea66725015b"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Angular broken mineral fragments with varied thickness and freshly exposed edges. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "ceramic-lattice-core",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\ceramic-lattice-core",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "ceramic-lattice-core",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "b518f6dd7e2ec286a65f28432ecf52b8515d68ee233915005f0a135e2d94b27e",
+      "source_sha256": "de433032d3115f0acfcdaf9822b625657d1f0f15b5c247c63cfdf4bff39a2bfe",
+      "render_sha256": "c6f95bc8c796808a5b2631bdb137e5933e8c68dcbb3b068168e18ece2b32ede5",
+      "reference_icon_sha256": [
+        "e7d689d3f4a8a846be616c34e480cd5d085e140f647a5948c108721e2d32da77"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "An open cylindrical ceramic core with real hexagonal cells and a protective outside band. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "compressed-crystal-bed",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\compressed-crystal-bed",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "compressed-crystal-bed",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "3f89c587defa6dfde08eada694f1f669eac6a7301d44d1de655f312b20b448e1",
+      "source_sha256": "97b2fe91e74375f1c579b39c43c9738bb077d9aca885428de0893702892dd006",
+      "render_sha256": "8074a87b28d4f88911e250011d27331e193d7995a07edbd756ae370f65d16c5c",
+      "reference_icon_sha256": [
+        "4f3f6e1f7d69ae749f9e01cf53b3370140141c9e4a49e2da5500eb8dfbf89b39"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A compressed crystalline slab held by a rigid four-corner compression frame. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "bioceramic-preform",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\bioceramic-preform",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "bioceramic-preform",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "ce03d66cc456d434fb70236ff05e1527adfa3a4c70ebf77748d3f8fec42384ae",
+      "source_sha256": "15acc09b411fce1993df41dafd589547213cad12b73e19c3223666b4d83cbd79",
+      "render_sha256": "ef4efe5d99686f67f5fa6da858db726bc251e33af9f99bba2c0a7e2bd336ea9c",
+      "reference_icon_sha256": [
+        "dfcbe9e23668012c145d7dc7c0fefe968ecb916e8d77714ac3a6302b55d0870b"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A hollow shaped bioceramic preform with two mounting feet and a deep central opening. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "charged-ionic-matrix",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\charged-ionic-matrix",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "charged-ionic-matrix",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "61354da51f8561aff9918fb8c0b941c634d54d035f23e69020d0a557a4b42850",
+      "source_sha256": "26ad713a78868a645a678b90e79aab9c41360eff12b7f1fac6607839f66e95e0",
+      "render_sha256": "153204ad3b8e22e69cd2ec37e70f5c0583e5fd8987f01e61411620ec4202028d",
+      "reference_icon_sha256": [
+        "21631b9ad157b4da84587a9a32ae68cb74ee809cadee0c54a98b9ff00db367b7"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A conductive open-cell matrix with small charged inserts inside a rigid brass carrier. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "dielectric-suspension",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\dielectric-suspension",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "dielectric-suspension",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "41a464409f796100e63c663bba3dcd396bf71784e9c8bbedb5750f2d5c1a51aa",
+      "source_sha256": "37d13809055819a2ed1a0a19a513210ebaa0f70d0fdbf0b71511995e30b4ea38",
+      "render_sha256": "c1c76c19d0ef5b4af480fbc85faa8f395c73a5c72bc528cc977f36711213589f",
+      "reference_icon_sha256": [
+        "6629e523c8d7e3526ba32087dcf45d9040a49adca0763c01602107408052b03d"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "An electrically insulated suspension vial with a ceramic cap and two protected contacts. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "conductive-residue",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\conductive-residue",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "conductive-residue",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "fab9dad4f4de0896e9cad3efab5abf0dd3965885172dfefa008cc6b031f9679d",
+      "source_sha256": "d2325d70207efae04c9bc8f83f7e91b6bb08da9d83897be2c93c6d6d98a22b0f",
+      "render_sha256": "3f2555144ae872f2359897e263c68352106b27a196cac4d876882e54e7370f43",
+      "reference_icon_sha256": [
+        "a2e580f0f56ead6f1f11ec09c934e95b02629b2c5b8cf17da2e365f83bd44309"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A dark residue pile containing short copper strands and thin metallic flakes. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "phase-unstable-granulate",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\phase-unstable-granulate",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "phase-unstable-granulate",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "8bb5531e0f96c27faf948218caa81174b0eb4a87458f2be1d4e46d7a90083836",
+      "source_sha256": "9463c6d0feb4671dfdf2770b328f8cb09ddc37009e365e42cfd66201f37c6de9",
+      "render_sha256": "b8b78c5928ae356ef71b583f2a67232701313b4f9d1723c5eba71c7b756a320d",
+      "reference_icon_sha256": [
+        "4d77e9cb899795ff269ae0776a5ad2b29e218a54e835a0c33a6c47981d6f1630"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Unstable granules in a shallow steel containment pan with a supported hazard collar. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "balanced-reactive-medium",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\balanced-reactive-medium",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "balanced-reactive-medium",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "e532af26fd7eba73bed0df87013fcc39b7ff62db70accf4bee54e29422277746",
+      "source_sha256": "6382d3c1126d3cdee098237e7a8e77775b187243e9cc35260dc400e6e2ad6523",
+      "render_sha256": "360d70c60ccdebc1726453bdb0f702ca95a0327320074bf48d0835a05801e8a0",
+      "reference_icon_sha256": [
+        "29293b75f36efac3c75155171792bce69215a5e3b84822c416f8114ed631c29c"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A divided reaction cup with two separate media and a broad central divider. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "phase-primed-carrier",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\phase-primed-carrier",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "phase-primed-carrier",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "5eac54b366133d8ddf01e3c3b0aa5baef56d6e70697cc1b32012962fb09c6f73",
+      "source_sha256": "015497228ae7761eda88436ca6f93bfb38fcabff63b3acaaa02659ff6e36a05d",
+      "render_sha256": "c37418bcf51bf738cc826caccd049f32a875586435f834dd052afd454a8b5365",
+      "reference_icon_sha256": [
+        "24a3e51497a265b91f55b2ca5228704b6e25e93b445220ea9d3e68fdcc0fafa1"
+      ],
+      "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A keyed copper carrier disc with recessed active center and four supported contact posts. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "electro-phase-precursor",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\electro-phase-precursor",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "electro-phase-precursor",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "3ad9fb6b1e62c6691f013abfbb99f2e2d217d969bcce2c59d1dc0954b8e24e44",
+      "source_sha256": "57d3c657fc7e06960e4b4bc35cdfedaee9193c031e5f39f52e013609d6c8e315",
+      "render_sha256": "b0061b75e66328ed875ce431cfb3327df5ce95a0a469d802fc4c2987f706b893",
+      "reference_icon_sha256": [
+        "82ee90c807c9d45b683edd8cf827c3a35e0fde1549b2c03451bd8535c862054e"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Three triangular precursor wafers retained by an offset conductive clip. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "marseline-compound",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\marseline-compound",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "marseline-compound",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "c7a806073dca89da8ae3f35430bbe649f6776c6c9724efaeb4d7210504c1e162",
+      "source_sha256": "7e69aba1acdba2fd26f244749f1ee767999e181e6309dc007dfe963b71356777",
+      "render_sha256": "78e28518e4e971933e26cf8d99d6eaf1a2088a16803ae50487ce278dce6eda94",
+      "reference_icon_sha256": [
+        "52681a3bed75bff51a8dd41eb60e261ad7d17710c808c903a81e2618a88d8810"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A dense cluster of slender marseline crystals with an exposed dark mineral base. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "bioceramic-grit",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\bioceramic-grit",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "bioceramic-grit",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "56087df57cbba00cc8eb6d137154d13ececab78b08d80f1e619284ce9052c873",
+      "source_sha256": "e64d35521a75646319184c38862b79df95b2e492ddc429d40872abc3cc5ac694",
+      "render_sha256": "ce707b2a5d83ed02ae1d79dc13b75b910d4ac64be205071e94661a92bcad4de6",
+      "reference_icon_sha256": [
+        "5b7ee12a710c2a6e0416fbe610518bcb7c46729b44a0a74adc698f12b1ea6241"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Coarse irregular bioceramic grit with matte, freshly fractured surfaces. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "hydrocoptic-crystal",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\hydrocoptic-crystal",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "hydrocoptic-crystal",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "0d9b740b1df430858f414bcbe02b69b1c7bc8d0cd70d51407e2b064499b277bb",
+      "source_sha256": "a6a4933f8b22de643677e4132dcf79686b5e36f0c2af0ea0d5451f3fd64bf0d0",
+      "render_sha256": "d81437db7356161f16947615bb26ca4255b64a54ec1bd3f0c1e16a94416094e7",
+      "reference_icon_sha256": [
+        "a0ca150de6fdb3320302c7e9a2401d13d139eefad1bbfe4765b2569457e77d1b"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Three broad hydrocoptic crystals with large readable terminal facets. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "amulite-flakes",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\amulite-flakes",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "amulite-flakes",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "bfe9c42075fdef573714c54f039a40ca73ae8531e943dbcc9ebe66e11e4c4c6a",
+      "source_sha256": "581d596da3c58185f394803c2e7d852c401781d92aa776ee8a2c79e1e7caf7d6",
+      "render_sha256": "5bc31dabf4c2c56bd66594aaceb884246c53373bb20707f6cb45659123ab0bd7",
+      "reference_icon_sha256": [
+        "4da8f9a5a2f3bcff01517c9941697f5a0ca930ce9caa298297f14bd2c46797ba"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Thin overlapping mica-like amulite flakes with bright cut edges. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "phase-reactive-granules",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\phase-reactive-granules",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "phase-reactive-granules",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "14c98eb4c2177241ec4f50b8b86925d04bb6665f8e12604c2d59d887230c00cc",
+      "source_sha256": "a563588a01705c30af34297eceeb1a601b2cf885408db749758ca7da6c4051d6",
+      "render_sha256": "cb89d4d0c9afc44cf43ca6d544009779dd8a4adea4156feb56bcfe3b38e938df",
+      "reference_icon_sha256": [
+        "7a60a6ce7b7bc718a2f6075cf191f0b822cbcdd890e20d36c68e7db5571d02b8"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Round reactive granules packed into a compact low mound. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "oscillated-lubricant",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\oscillated-lubricant",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "oscillated-lubricant",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "1d2b8f0a897dd97a6724f9b0e341803361992556dc8727a628d73b9a8b38c43f",
+      "source_sha256": "6c1ba799236e857549e43f40b5431af6ad088b00feb526b739aa66cbfbcd8f83",
+      "render_sha256": "3fe17d5605268e16c8d9d6f39dc139b88649a92db5ea53c3b19f1b54892e1cef",
+      "reference_icon_sha256": [
+        "ccc6dfde8a0183b2defca4490098f786d38b890cfa84547f5bfb14b8f9daecb1"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A tall lubricant bottle with a recessed sight window and internal baffle silhouette. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "stabilized-brine-gel",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\stabilized-brine-gel",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "stabilized-brine-gel",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "2e7db8db1288d19b945bdaedec4f071a3c443ac408edf0e1649bc56f74bf6ec1",
+      "source_sha256": "b6d96d03863131595118ca6d7fb8fcba951a2ef0a0722d0175b751032f99af4c",
+      "render_sha256": "8a339e53a20d00194e5e149e52dfc6f1377c16eea0c9b84f7ab130c8c92258c1",
+      "reference_icon_sha256": [
+        "4f7296f34f74a77ea03f814dabd09d537acc1803ce1210ad87a340aca5f7d4e2"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A single stabilized gel portion under a thick retaining rim and a sealed side tab. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "dielectric-chowder",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\dielectric-chowder",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "dielectric-chowder",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "56efda866d98b882fa777d37e85dcfe69590c37428d09554f645078e95384e5a",
+      "source_sha256": "cb46d5a5342a07962641d75a6c3c82bc1cf7ca9b5d7022a0783e5c90fbcee631",
+      "render_sha256": "3961416678bd4d85ec71caad92e9d5af9f6ffadd175202a31acd094d1a42209c",
+      "reference_icon_sha256": [
+        "0c637a1478d5aee24bcce3dd44fa8c6de961ebae2df0cdd91967318ad553a6dd"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A broad ceramic vessel holding pale dielectric paste and visible inert ceramic inclusions. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "pre-turbulated-emulsion",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\pre-turbulated-emulsion",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "pre-turbulated-emulsion",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "90aff24f1fc62eb49a8d304bfa0da40faac21d67d56c7af8499342bf3c619352",
+      "source_sha256": "d6aed0ddb1a1e7353cbb94a01a3e67439e5595d5df993b6e3b3d5fd6310a2bab",
+      "render_sha256": "42ed9b16c32e56b6e48a072935d3c7421f8319284005f04cf718101a6dfb6cda",
+      "reference_icon_sha256": [
+        "f91f2bfb65872a75d68260e68edfb8199f3b46552550e8e27236a655746f21b1"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "An emulsion vessel with a real centered impeller, supported shaft and three protective ribs. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "viscoelastic-froth",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\viscoelastic-froth",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "viscoelastic-froth",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "e5a4a5cc91c6300268dcd72c68e071252269901fa4399eb9530e26ce05304d6b",
+      "source_sha256": "2cbd70f3202594eaa7cc08ec08044ccac5bbc91169a73067cf9ec0b8ca977b87",
+      "render_sha256": "51453eb7bbe74fc848998c02ab0ea51e201abe1593c80d7a875279c41494ee8d",
+      "reference_icon_sha256": [
+        "bd95e5ad26fc76c49464ec279962251708cdfbe9a2f7835206b6376bb6957db0"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A wide froth cartridge with a visible bubble cap inside the supported upper rim. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "executive-marseline-resin",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\executive-marseline-resin",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "executive-marseline-resin",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "2244d67b47e15ebe1a542ae45bc8c37cedbf294f8de9cffe862b46b09df72d84",
+      "source_sha256": "787423b2cfab98bebea0e5e54783de02fdc6e6ca22ed84ac8dcf6ee88d1d7d4b",
+      "render_sha256": "9eb1b647961a640df2ae636c26a2c43ad2645473d7d5aa1011d958ee4703e4f9",
+      "reference_icon_sha256": [
+        "d589865c46d9f3bdd76fcf66786c9cb729693f954fe88940e9bf748d331d9f76"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A faceted resin block enclosing a small mineral aggregate and mounted on an executive-grade steel shoe. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "encabuloy-alloy",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\encabuloy-alloy",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "encabuloy-alloy",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "6deed4467987a58812856e3ff90cbf4dc1512714a50c1bd45be02142a8b1628e",
+      "source_sha256": "eae4100068783d34b242675aa16de2e07b89030189ed2b0849ef1761e029dc43",
+      "render_sha256": "7958a016119024e899c0263932198db91d84ed2f4cec21b26bee2ba4a802a058",
+      "reference_icon_sha256": [
+        "28ab742198be5c0a8003b899e92fce9c291a2abe05ef4fd62086a04ac2c0fe2d"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A machined tapered encabuloy ingot with a supported band and freshly exposed bevels. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "hyperphase-matrix",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\hyperphase-matrix",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "hyperphase-matrix",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "321ddd1ecdfdf916f5264717521b72ebb8639a250cb24e413ddcc4fff86b41a0",
+      "source_sha256": "94132bb402f4c903a725c15b41bfcd7d5ec9700af4c8aa056ad9bf20f34f290e",
+      "render_sha256": "0a88edebb5c838466922ea9cfd20801e33f4ba87c16964530cd7bb42322c35b7",
+      "reference_icon_sha256": [
+        "711c2a3a10475c5fa8eeea43522c457e3485ea8461062a08ced51b54e90cf2cc"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A nested cubic phase lattice with real open cells and keyed corner mounts. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "retrograde-polymer-sheet",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\retrograde-polymer-sheet",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "retrograde-polymer-sheet",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "b6bb90fb49108aad8e4f283c62cb9c3894c41f5db727fc3b3bca8f9ddeb6c9d0",
+      "source_sha256": "066aea7dbfd5c1f4b887c0325e8d153ee027bc4cee3dc8a8eacf498326c8db88",
+      "render_sha256": "366736e925f57643311025d2bf24898ed9c5e398bd714c59e432468422c71863",
+      "reference_icon_sha256": [
+        "163b7ce557cb7aab78ead837b0e74cdc8327842643b686b54d5c4a2cb8cee167"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A rolled polymer sheet with visible layered spiral and a loose flat leading edge. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "duplexed-substrate",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\duplexed-substrate",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "duplexed-substrate",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "0e39e3c57859c05cac402cea30a4f9b7678d50b895571a7ba4d9b6345135936c",
+      "source_sha256": "ac6cb4764f57dff13850702abc31a02022b0ce4f3a38e76abcbc81db6c6bd6c7",
+      "render_sha256": "e151dd9d932c1b12bca21509514cd9eb0306fd0da0e954103f2a8d2ae8ef17cc",
+      "reference_icon_sha256": [
+        "1555babecaae05e62e642ce51403f23d9509362f54105994d30e6dc2a79f3017"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Two offset substrate boards with distinct insulating layers, conductive traces and edge contacts. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "tank-light-chasis-wlsk",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\tank-light-chasis-wlsk",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "tank-light-chasis-wlsk",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "415ce57ef19606624406f4ec66dd67cec4b8a2764009a1e54d03c84aee8edd1a",
+      "source_sha256": "47aea670357bb73280bf11ade0b0d155c390c67573b14c7eeb3dc35800a97ce5",
+      "render_sha256": "c81c556b87c368be5d0c3d31938cd3b80757eeab5ea86bf1c1267abb0cf7fbdd",
+      "reference_icon_sha256": [
+        "10a18b078cc9d6796b55489200dda5b3283ae352442b531261fa1392e8a04dd3"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "An unarmed light tracked chassis with exposed road wheels and an empty turret mounting well. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "tank-ammo-casing",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\tank-ammo-casing",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "tank-ammo-casing",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "c7281bd05ac50e83fc16c46bdf6d1c41f3d4761c0f378b6365caa4889549f155",
+      "source_sha256": "7c60f7b39450f888c669fab45ab3c39cec99983d74f050a8b5a45894ab649659",
+      "render_sha256": "3c280fe2833bedadf24b2714f561b338c2cfdea21583879acad220ac4af315e0",
+      "reference_icon_sha256": [
+        "5bce411d4ef191d672cfe2741648c768536f6adf5cd053e2e20a8ce3a844b40b"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A drawn brass shell case with a hollow mouth, primer rim and supported extractor groove. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "tank-ammo-reinforced-casing",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\tank-ammo-reinforced-casing",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "tank-ammo-reinforced-casing",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "a776ddadac61e1aa98b70524cb839ccb75b337cec26ce2af9d7bccf73793cf67",
+      "source_sha256": "b3cd34b5ee8e6a100c8c500ddfd2730188e57b522b7f2a42f4a0d544d70e439e",
+      "render_sha256": "81c652888166a58677ef4f69425ab090a9538200e4d6812f71267aa36403d0e0",
+      "reference_icon_sha256": [
+        "2c54ca138cb0436ac6394bac46b8b7d2563c00e1a80b90de61c1475a301de11d"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A hollow reinforced shell case with two structural collars and a thick keyed base. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "tank-ammo-Industrialwaste",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\tank-ammo-industrialwaste",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "tank-ammo-industrialwaste",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "0999b91dd30a4b7cb0c8ad68e5aae931941aff78e271f3ef200eb4e2e4383a20",
+      "source_sha256": "af23297f08915853bb7f75ce387b35db9aa879d2a93f33a727eecc7d024d46c7",
+      "render_sha256": "6f716a34816301d04340dfcfff5913f2235c6c73227cbbbd77b4b7a2bfda68ef",
+      "reference_icon_sha256": [
+        "497e3048fd1c6a4c697d00eed8c7829df08c34b2792f4adc3dbcdea9f40b8bd2"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A dented industrial-waste drum with a fitted lid and contained dark residue. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "tank-ammo-Radioactivewaste",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\tank-ammo-radioactivewaste",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "tank-ammo-radioactivewaste",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "6d03caf2aaac8eae138a36ec69d683e1793bd3696d3da60d45ac3d4abf2e8847",
+      "source_sha256": "3adeb47ed3224593e24562f2a633fbadc842d9860afa74baa783c6fefd523da9",
+      "render_sha256": "b0f7545b0b4fe28657cbcab3aeb3ff5d52595a2569d9f509e337b5d709dd1f8c",
+      "reference_icon_sha256": [
+        "4777554774cf6f287036685e1d96d1adf943d22d54a10dfd12716171461e3c75"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A heavy shielded radioactive-waste cask with thick lid, lock tabs and restrained indicator. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "tank-ammo-universal-explosive",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\tank-ammo-universal-explosive",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "tank-ammo-universal-explosive",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "360df8937340b6a2bb1a758cafbd802b80cf1a3d8c7c27f68ef079de36e72d7c",
+      "source_sha256": "e45bd39e09d89a0e1b1c2f80a61bc69aa8a0064c16afb403d8282c11edf13ef8",
+      "render_sha256": "c03b52c3ba866753f06b0f9fa39af09807e5605018a26be24bc3291417daa6cb",
+      "reference_icon_sha256": [
+        "d92e93d5c5514db182e9720bb367eab34aacda67b20d201190193e49c1350c03"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Solid explosive blocks secured in an open protective carrier with a broad restraint band. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "compressed-biohazard-waste",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\compressed-biohazard-waste",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "compressed-biohazard-waste",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "889f32da34d987a62626197464d180e6a6ab9f1cef5eafb7bc477099e3ad6b78",
+      "source_sha256": "40a59b956d79c4f3bfb5bc560c36a10476bd879df9284b45d80442c6d34259f7",
+      "render_sha256": "e3645573e5ee80e90a75347b801ff129dd89b975bb64cbcff888dd263ec34ad3",
+      "reference_icon_sha256": [
+        "e191262e4c3ccde7c5bd1921e4882d9873ced895c4b1fd00fd49555e9adceee5"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A compact sealed biohazard-waste briquette canister with raised containment collar. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "Seared-fish",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\seared-fish",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "seared-fish",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "27abe5e0722da8b0ee41a54e2c8ed503ae115320e81d456e9d9477013953a943",
+      "source_sha256": "cdea227899c37046a990a2460ebd8cc05e7dcc6354b8ec31ffcdb29ad62c4ad5",
+      "render_sha256": "b087694bb13100b1101ae1ec1ea8e037c6c346bc8e0c572ec6849d84a79eaed2",
+      "reference_icon_sha256": [
+        "d29b477f3483c96bdf3eb1ed29c9d49d4506627d0680bcbbfa7fbd5650256092"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A cooked fish with modeled fins and tail, charred skin grooves and a wooden serving skewer. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "meal",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\meal",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "meal",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "b961afffbf299f601209787ff241a2372d62419a92b055c71047c7d39870648f",
+      "source_sha256": "ac4903dd809be16ee5588f40e5f9cc311c5a1cada5508795ac925b5ac2a40999",
+      "render_sha256": "3a660c1bd9e6f733c237967b0528e6a7cd48b4864af5e0783ce17495a06d8b2c",
+      "reference_icon_sha256": [
+        "b2abe97414d28058c6fd452c3f5e993804912c4737a812b7ea87501db1c70d26"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "An open metal mess tin with a hinged lid and visible portions of cooked food. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "requisition-slip",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\requisition-slip",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "requisition-slip",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "ebafdf682dacc41a4401136701f5b05a6382a69798f89c377ef7b371e89b8621",
+      "source_sha256": "2877f1d1a5e58cb99a1d9968c8c86c3eccbbd0729318419385fba2f79ac28ecf",
+      "render_sha256": "9a25b83a22a7faa513b58c37c5833a132c526a5a4d2c5325bbbca99920e232a9",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A loose requisition sheet with perforated edge and a single signed request panel. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "work-order-slip",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\work-order-slip",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "work-order-slip",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "310c388d5e51357a6630112545969d8385131969e46446799d6ca8bff3fa7e82",
+      "source_sha256": "ed9bb2c66e8ef54b2f74de1643edaf88e17f4294d840094dc0e638c046dfc716",
+      "render_sha256": "984c741b51ccebb34b2eeff816b6fb0cd12dde9190eecd4c2b85ae2bac980ff5",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A folded work order with a dark job header and one exposed mechanical diagram. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "certified-work-order",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\certified-work-order",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "certified-work-order",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "7fa1eac0bbc3f6a1ff99d2ddbe85f82f801bfa8106c9947f04b0d8152408a5f8",
+      "source_sha256": "273ff6ada3ca6558e415cbf2dd34f2cb69fbb6e81b2bdb9c397b1172eb298386",
+      "render_sha256": "15af3c7813c3f7befaa99b9cf9f42766d0a0d177d4a09f30bb8bfdfe3bbfb8f7",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A folded certified order with a raised red wax seal and tied document ribbon. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "submitted-evaluation",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\submitted-evaluation",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "submitted-evaluation",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "8ffc9808ff3dce0505e01086c062f541b679d9d6ea215ddf848a5a829b8d0c20",
+      "source_sha256": "7e3f48afd89080349d3ca6c83b74a6cd14c9eac73f78fd72fc83252cd92cb0f1",
+      "render_sha256": "f24e5b8df55a670ecdc67ec06c6761489e650b6dd8135cfe880ac888493054fb",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A closed evaluation folio with a deep spine and supported submission clip. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "risk-assessment",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\risk-assessment",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "risk-assessment",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "ededc332632c8ae3733f161321c1890640a09c0dd9bca9eaba9ed288005975f7",
+      "source_sha256": "74726583dd9ee1e60020ddf2400c6ea9677af166b81c632a9f78600a8fc8b1a5",
+      "render_sha256": "23738286058e3600bba8bb7d83c80914c355362126daf0f4113e55eda3cf02d1",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A thick risk report with a hazard spine and a clearly raised warning plate. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "risk-assessed-work-order",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\risk-assessed-work-order",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "risk-assessed-work-order",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "73ace946a479fdb56643e44b327024be08d290dc5bfa194ba7c3e8d4f489753c",
+      "source_sha256": "5ab1bf0a226ad5ed2ba33156a339487593af22d5d09db819b68f1a0acd1c6ae9",
+      "render_sha256": "23e443ecbe5637241f537e60f708dac982ae8d5528b8eadd206644d7154f9654",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A broad work clipboard with an attached risk strip and inset job panel. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "compliance-packet",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\compliance-packet",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "compliance-packet",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "9d06a4848fdcba231d25684839f199d6a7d2cdeba895317403302aa540c62d62",
+      "source_sha256": "69a83687997f7b754bcb194d91e5ab76bce166b10ccddd28db018317d4473c60",
+      "render_sha256": "f3abdb29997b51e8b41d8b793940f92ff4ec7f4d7150231c878e13a9689d1ade",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A tall compliance packet secured with two exposed steel binding rings. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "audit-ready-deliverable",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\audit-ready-deliverable",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "audit-ready-deliverable",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "764ce3c32a85b41ada74ebc7211a7b6e0f85fbdeb9be2ec55539cc584d7bb0c6",
+      "source_sha256": "b1aafdb4f34a240760ec4b024825170d4133d307854bb4367a64b1210df44573",
+      "render_sha256": "631422c4811be503b2e405be2ad6953f5ac2d1757c9c6011ff4bc3b445011c61",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A compact delivered document pack with twin buckled straps and a protruding index tab. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "stakeholder-review-summary",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\stakeholder-review-summary",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "stakeholder-review-summary",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "ec8473e5421a7d0bf3fa0801ed0d75a8af5498b9b9af9c68965084882a0f2fef",
+      "source_sha256": "f8dc27ab2be0ab47e6af448a9d382f9472b919eed71fbf5c191efc3f23daf22a",
+      "render_sha256": "d9bed55ff7f6fb78e876bbed8a9818625eb5456384edde937ecccfe0ee4f7796",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Three fanned summary folders with staggered index tabs and a short summary sheet. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "liability-contained-report",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\liability-contained-report",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "liability-contained-report",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "ba79fa29bc6a263343e0a6b52113a0c3c6d5ec28365ab86b2268183e7b19cb36",
+      "source_sha256": "ffe96cb3df8ba6402a967f78d2eb9798b6e6dafbbdaa5abf27d2a94387479470",
+      "render_sha256": "1cdf16e92a745416a992e8c2bcf0de9cd496147b33d43e2be409739e563081f5",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A red hard-sided report enclosure with two real latches and a thick protective spine. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "board-review-docket",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\board-review-docket",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "board-review-docket",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "3cdd2d16f73df1d0554930b93ce609c76059bf600d937ed317889d2f65300574",
+      "source_sha256": "f8afb29d6c50abab5595963d5616b9015a06714d2709de3870dfd7f69bd4189c",
+      "render_sha256": "b1520c5261aa69ee202df67f22f54e9ead1fd0c3cdf67ebeb1a7a12720638d67",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A dark blue board docket with visible ring binder and large structural corner protectors. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "tool",
+      "name": "board-advisory-risk-assessment",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\board-advisory-risk-assessment",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "board-advisory-risk-assessment",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "2e0e7c692934ef7700e5e02a8b5cb98bfea3a55cd4e49ef5187538cd0a5f5dfa",
+      "source_sha256": "2ab021cc2020f1ed217f7a7b16fa640ee75cdba1b11edb2107bf087ab41dba76",
+      "render_sha256": "0385e06212105543d07913a971aa29b935978496cc0cac6b15e4b04a99b68a53",
+      "reference_icon_sha256": [
+        "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A heavy advisory binder with two raised warning panels and a three-tab index. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "module",
+      "name": "Cradinal-grametter",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\cradinal-grametter",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "cradinal-grametter",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "4a5da0c149ef880fd73f005de8faa39643050a9cfa475f743c4372ec2951980f",
+      "source_sha256": "eac258201e5c5342aac74a0da568f68b9bd48ad28902728cd061cb898bb67c2c",
+      "render_sha256": "8db0b0c045c9ceef5c1c499262f85b52902649816dd0a3d4f6ad799bcec9f245",
+      "reference_icon_sha256": [
+        "fde9427675f4eb58a56c2db9217653ae6cf8bd9b0802513e88351011af15532c"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A braced parallel-disc grametter with two coaxial gears and an open support frame. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "module",
+      "name": "Hydrocoptic-marselvanes",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\hydrocoptic-marselvanes",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "hydrocoptic-marselvanes",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "588fedbeffaf5ef44dc46f08245f12e75ad867bb3f80b0da6f2b89ad7720356a",
+      "source_sha256": "c04e05bfcea62f796e8edbdb8204e9125cf073612da85ebd17f8737f159215fe",
+      "render_sha256": "c126eab4e8498bd28f7d9f63eb95f80486116411477c2638267b0c33903920b6",
+      "reference_icon_sha256": [
+        "2e68268461491e5d59866a4431dbe2017be61fbc1e3652a7912080d8cd78b167"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A six-vane hydrocoptic rotor inside a rigid bolted containment rim. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "module",
+      "name": "Retro-Encabulator",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\retro-encabulator",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "retro-encabulator",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "17313d8627388a4c59b280227b565f328447fd06c9007f113e7d282f87dd0726",
+      "source_sha256": "eb7ae25017ac1ce6de8d21c6ee46b383b2b50932e05ff9737bc0b55eb680a85a",
+      "render_sha256": "29b5a989517386b7de443d9009c845e96b86b8f128aae79f62cc171bce2e19e6",
+      "reference_icon_sha256": [
+        "9c9d67939145b04d8ada132d97a96249907a35477d01d323e1ec3457e9ef419c"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A supported upright reverse rotor with three indexed discs and a closed lower drive. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "module",
+      "name": "SpervingArm",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\spervingarm",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "spervingarm",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "d3d63f947b50718e5088d51ab6f6f1f271fb562a20b28e5af3bfb9d8c18f4f44",
+      "source_sha256": "75c60bc07f4ecf6cff03e98178ba5fee3c3f494fe324cc47c1aef806d2d504eb",
+      "render_sha256": "1f88b533f4d04de5cf4dec8b75ef46c67897a3aa25b18f4fcc0ecb1e3c3a2a75",
+      "reference_icon_sha256": [
+        "20d231c33533e44acddba74a1a7c2523f34141bdc1e0daeb43ebff0cb1004bdc"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A single articulated sperving arm with two joints and a bolted installation foot. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "module",
+      "name": "DuctedSpervingArm",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\ductedspervingarm",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "ductedspervingarm",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "d19f6ee7a1d7eda229ac671a00e30e6bf3a2e8ef284d21a0673855daa8501ef8",
+      "source_sha256": "712cab8f8599511a0bed307ad7ab80e00ba257823305e45c5ae102915405671a",
+      "render_sha256": "b6b481eb51b58241817cafb08748ea26434305516994b59282a42678189fd68f",
+      "reference_icon_sha256": [
+        "0a246b48babcb21acfd4662a87cad4b9656eb0dab5ad25e383860f5a4d73e615"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A jointed sperving arm with an integrated rigid protective duct and supported end connection. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "module",
+      "name": "DuplexedSpervingArm",
+      "selected_model": "art\\source-to-3d\\material-icons\\v02\\duplexedspervingarm",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "duplexedspervingarm",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "5cf57d017c03eb3caf85f773b66550b4483cff344a5be1fb2a0dc9da19b9db74",
+      "source_sha256": "24d321fc0e703662cd0eea03d0a25e33811aacdd10d6c774c7364f9cbd6d6af9",
+      "render_sha256": "08a6208d6d8ea791a08e0eb4d38a6349a033393bc823da74ee2e669bf0069d61",
+      "reference_icon_sha256": [
+        "f9f8e17c7afab3fb5d14651e551ffe25b5cb1cdaf97547d62cc3e66bdfd7d8ff"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Two linked sperving arms with independent joints and one reinforced mounting beam. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "module",
+      "name": "Encabulator",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\encabulator",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "encabulator",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "28808f4b8a553fc47831940847fa0b22f5087c49cc7ff8bf91f8fc024f3c8622",
+      "source_sha256": "7aec9d3c69fbdb78451b7fb467ba66bd4d64ab6b9d062787c8be5206352b9128",
+      "render_sha256": "cce7a2698608030cfc60286535b4dddcd5460eeab2e26a045c004aa6834e6f95",
+      "reference_icon_sha256": [
+        "a7a782b72dfa7d2730b0f25de64d10662ff1afb93b573f05107cb65b75ffe33e"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A single-coil encabulator drive with an open rotor frame and a supported motor casing. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "module",
+      "name": "TurboEncabulator",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\turboencabulator",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "turboencabulator",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "4f9a52f07f2dab1d69e45a6a61c96349e3e0fed9596be5185343bad9e68caae1",
+      "source_sha256": "964a130d33a326d09d605fc8234fdd6e15cabf69f728ff862b5093843dd795d1",
+      "render_sha256": "d9d8c7dcdfa0479f8197a5a370ddcbd5147d057e669f7334589e34203aff6c7e",
+      "reference_icon_sha256": [
+        "cfa343509f20db5ff2c3bd057fbc975ee815cd79fc4bd8c931cd77da0bd02503"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A twin-coil turbo drive with braced rotor discs and an exposed lower coupling. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "module",
+      "name": "HyperEncabulator",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\hyperencabulator",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "hyperencabulator",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "6aa82e5b0adf9d660e973bb6b667b60ed0540e8a7a98bddc1d7b5c1edac2ca0e",
+      "source_sha256": "ab86e582a83022ce0c84261f89cbbbfdb23282c6df855c80dfca7ae3b5a7accb",
+      "render_sha256": "85ffd4a27177555c61cfc8b1c5935155c56f3432a3c8a2b0e77f3fb40a2267a8",
+      "reference_icon_sha256": [
+        "5f8721ffd143f67857a1c032415ec00d631c36d14806387c283f83dc85028b6e"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A three-coil hyper drive with a triangulated bridge and three supported terminal housings. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "module",
+      "name": "FramulatedEncabulator",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\framulatedencabulator",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "framulatedencabulator",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "2d925387656e01f301d5c9000f2dd3ca99f9aa44de1a2d3a7a4e72305bcd15f6",
+      "source_sha256": "f2ef28c57f635cb1719919c2cf3c8e5f941302b6ce8c80e32dd752383b029e81",
+      "render_sha256": "72bf5054ee79e7cfcf9c224d390399c0453d53ed04072df5b8e64f8ea264e102",
+      "reference_icon_sha256": [
+        "fe8181776e876b0c11f8e3b63610a9b243210d9e51bc4fb547061f733102eba8"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A framed three-coil encabulator with additional closed side braces and a square top bridge. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tanks_for_bob_fork",
+      "type": "item",
+      "name": "stone-water-wheel",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\stone-water-wheel",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "stone-water-wheel",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "57672214a9c563031158f822e4237cfe5c102f09e8dff00297ca9e4199632b3f",
+      "source_sha256": "326f0e2881981515d246025c28587f81c5b40bbda37cb1c93476c61e2a0b9ecd",
+      "render_sha256": "d7fd05689773873138fed6c16ed6475e457c7c86bf4b45e00079519aaeabd985",
+      "reference_icon_sha256": [
+        "b9b001c83f0e26c6b5864cb3929020adccfbb48e05a3854ac2baeebb52fd1078"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "A stone-supported water-wheel assembly with a real axle, spokes and broad wooden paddles. Current 128 px and 64 px renders were inspected on the final contact sheets."
+    },
+    {
+      "owner": "tech-priests",
+      "type": "item",
+      "name": "tech-priests-martian-manufactorum",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\martian-manufactorum",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "martian-manufactorum",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "72464ca3b58b2890442532aa70bc1df139e2d8468762eff6555cf41bcf083855",
+      "source_sha256": "890816a08426343b7a668f4ae1b6a741d37ba378d654624fb97ddc0b11a0af09",
+      "render_sha256": "f8f055ac1166fb802bc3814bc08dd00accd869c74fa4406657e2b517a185c6da",
+      "reference_icon_sha256": [
+        "8643739c0bdd5e750c7439db49f3225b4ac083008f3129469690ceda53ec20ed"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Reuse the existing authored Martian Manufactorum model; upright building under canonical FMPL optics. Current 128 px and 64 px renders were inspected on the final contact sheets. Existing project-authored building GLB is unchanged; inventory capture only."
+    },
+    {
+      "owner": "tech-priests",
+      "type": "item",
+      "name": "tech-priests-guard-muster-hall",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\guard-muster-hall",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "guard-muster-hall",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "d3212d2147e45ced07b5b9cb615e0573c3dfe3cf8147e7b3232fe1f06b084ec2",
+      "source_sha256": "d7b142571bc50ed61331d91a94365e49bbd9911a6005d36ad2b40ac4e05033b1",
+      "render_sha256": "f1da65b16e55f2be4e9613e18498430104a90c7b58ec09360d0df425fd12df61",
+      "reference_icon_sha256": [
+        "8643739c0bdd5e750c7439db49f3225b4ac083008f3129469690ceda53ec20ed"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Reuse the existing authored Guard Muster Hall model; upright building under canonical FMPL optics. Current 128 px and 64 px renders were inspected on the final contact sheets. Existing project-authored building GLB is unchanged; inventory capture only."
+    },
+    {
+      "owner": "tech-priests",
+      "type": "item",
+      "name": "tech-priests-sororitas-convent",
+      "selected_model": "art\\source-to-3d\\material-icons\\v01\\sororitas-convent",
+      "status": "assistant-reviewed; native integration pending",
+      "asset": "sororitas-convent",
+      "assistant_gate_passed": true,
+      "owner_visual_acceptance": false,
+      "glb_sha256": "8871e5f33830a2c1bef345aace1ff50128191565e3e6507d4729a341de7e1341",
+      "source_sha256": "5235451bd7623f28cc937f8f2871c08a510bc6632c4c5b4326dff93b5a1d7c25",
+      "render_sha256": "31ab48c5c43d82faf0f6c34acffc762657b4bc1b369914fc9f68b3d18f1bd475",
+      "reference_icon_sha256": [
+        "8643739c0bdd5e750c7439db49f3225b4ac083008f3129469690ceda53ec20ed"
+      ],
+      "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+      "scores_out_of_5": {
+        "export_fidelity": 5,
+        "native_size_readability": 4,
+        "construction": 4,
+        "material_identity": 4
+      },
+      "review": "Reuse the existing authored Sororitas Convent model; upright building under canonical FMPL optics. Current 128 px and 64 px renders were inspected on the final contact sheets. Existing project-authored building GLB is unchanged; inventory capture only."
+    }
+  ]
+}

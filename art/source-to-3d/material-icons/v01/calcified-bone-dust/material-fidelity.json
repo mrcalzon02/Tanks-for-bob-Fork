@@ -1,0 +1,17 @@
+{
+  "asset": "calcified-bone-dust",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.060123876821076505,
+    0.05946087411672337,
+    0.06874291197766728
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "a98bccbc12a13ba21783c3e0e44016897acecc3293c31bf4158e9b5a92b25c26"
+}

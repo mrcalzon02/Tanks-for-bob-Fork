@@ -1,0 +1,17 @@
+{
+  "asset": "crystalline-agglomerate",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.17080859912130664,
+    0.16284334440084516,
+    0.1684609450984338
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "001a236304a7c2c8771a5b8ec42f3ebbd99689fe1621482e8150be74d2de9666"
+}

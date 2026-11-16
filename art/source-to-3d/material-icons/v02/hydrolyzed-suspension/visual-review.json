@@ -1,0 +1,19 @@
+{
+  "asset": "hydrolyzed-suspension",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "c381867208662057b1a2f16609c07edcbc314f3614e36e82465ccfafac77d390",
+  "source_sha256": "7bec42ed0bb91f6f33d534a4baba73ab8e097636b5378d84e3a4b1439999afc8",
+  "render_sha256": "26b5ccc1b4edb2dd747dd0a703d5a494f46940d1141f62395bb62248c3c89315",
+  "reference_icon_sha256": [
+    "8ccdc5bdff2763e9c3b01832942737ce691cb34fa3450e42a417eccbb21bd644"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A tall suspension vessel with a broad sight window and lower sediment band. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "audit-ready-deliverable",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "764ce3c32a85b41ada74ebc7211a7b6e0f85fbdeb9be2ec55539cc584d7bb0c6",
+  "source_sha256": "b1aafdb4f34a240760ec4b024825170d4133d307854bb4367a64b1210df44573",
+  "render_sha256": "631422c4811be503b2e405be2ad6953f5ac2d1757c9c6011ff4bc3b445011c61",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A compact delivered document pack with twin buckled straps and a protruding index tab. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

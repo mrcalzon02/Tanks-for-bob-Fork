@@ -1,0 +1,19 @@
+{
+  "asset": "canister-waste",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "149023a8836d7d5426ace9559a736fef779c74c2f1441bb795a84927d3942239",
+  "source_sha256": "8aec0bd8f535d326d2d0f89678273f683a042575d04fe1b3032b1dee3fea47ae",
+  "render_sha256": "f98f1a6b7250f98765b20448e4f9eb52d1554428b1d3af7e19526d76f76badc8",
+  "reference_icon_sha256": [
+    "0cc670feb1055cea7b2d81ae3d4249b5072bea54db68b14d85edf2f5300c81d1"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Contaminated return canister, dark residue at the service opening and a waste collar. Current 128 px and 64 px renders were inspected on the final contact sheets. State variants share the vessel; window state, locks and shielding are distinct."
+}

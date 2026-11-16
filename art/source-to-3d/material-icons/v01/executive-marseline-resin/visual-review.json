@@ -1,0 +1,19 @@
+{
+  "asset": "executive-marseline-resin",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "2244d67b47e15ebe1a542ae45bc8c37cedbf294f8de9cffe862b46b09df72d84",
+  "source_sha256": "787423b2cfab98bebea0e5e54783de02fdc6e6ca22ed84ac8dcf6ee88d1d7d4b",
+  "render_sha256": "9eb1b647961a640df2ae636c26a2c43ad2645473d7d5aa1011d958ee4703e4f9",
+  "reference_icon_sha256": [
+    "d589865c46d9f3bdd76fcf66786c9cb729693f954fe88940e9bf748d331d9f76"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A faceted resin block enclosing a small mineral aggregate and mounted on an executive-grade steel shoe. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

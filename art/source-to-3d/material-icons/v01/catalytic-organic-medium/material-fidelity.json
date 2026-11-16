@@ -1,0 +1,17 @@
+{
+  "asset": "catalytic-organic-medium",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.1789463746223565,
+    0.1789274924471299,
+    0.2013783987915408
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "8370f611ad8d70e40fe11fae252c6ef61a0d67d8d987c799ec38cde6a8f5ad18"
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "bio-synthetic-precursor",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "73ace5c9bfd4715709754ec79b19211e4fbd0ba9be31e02d06a839bef33af04b",
+  "source_sha256": "a312a1994772471731aad4b56498068697e867711ba44b4649e46c3e16af06d9",
+  "render_sha256": "bf0ab6aeaaba7f5567a32d78bc0dfeac5cbe4850f7b36e6c4c6670461912b011",
+  "reference_icon_sha256": [
+    "273a79d8eb774215dce8d0a3dce5144593aecd6c09248892094462c034e5f422"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Two long precursor vials in a single mechanical carrier with separate closed terminals. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "bioceramic-preform",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "ce03d66cc456d434fb70236ff05e1527adfa3a4c70ebf77748d3f8fec42384ae",
+  "source_sha256": "15acc09b411fce1993df41dafd589547213cad12b73e19c3223666b4d83cbd79",
+  "render_sha256": "ef4efe5d99686f67f5fa6da858db726bc251e33af9f99bba2c0a7e2bd336ea9c",
+  "reference_icon_sha256": [
+    "dfcbe9e23668012c145d7dc7c0fefe968ecb916e8d77714ac3a6302b55d0870b"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A hollow shaped bioceramic preform with two mounting feet and a deep central opening. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

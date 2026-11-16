@@ -1,0 +1,19 @@
+{
+  "asset": "canister-radioactivewaste",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "c8570a474d0464d0eca526bcc712a5fe263d0fc2a572fad5999ab90189f2a9e4",
+  "source_sha256": "992b5341e384c9184fa8d8bbd3501a5b15c14dc5649e188f382a7fdb5ebe761c",
+  "render_sha256": "6d5c9feb9e3f85efa42242d9159f020880e8d21fb9f6669e342f08b3d621d1d7",
+  "reference_icon_sha256": [
+    "e191262e4c3ccde7c5bd1921e4882d9873ced895c4b1fd00fd49555e9adceee5"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Thick-walled radioactive-return canister with a lead collar and three lock tabs. Current 128 px and 64 px renders were inspected on the final contact sheets. State variants share the vessel; window state, locks and shielding are distinct."
+}

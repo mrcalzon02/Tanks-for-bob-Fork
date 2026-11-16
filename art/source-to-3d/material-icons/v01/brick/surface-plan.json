@@ -1,0 +1,30 @@
+{
+  "asset": "brick",
+  "construction": "Three fired clay bricks; true recessed frogs and worn chamfered arrises.",
+  "regions": [
+    {
+      "part": "Fired brick 0",
+      "materials": [
+        "brick | fired"
+      ]
+    },
+    {
+      "part": "Fired brick 1",
+      "materials": [
+        "brick | fired"
+      ]
+    },
+    {
+      "part": "Fired brick 2",
+      "materials": [
+        "brick | fired"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

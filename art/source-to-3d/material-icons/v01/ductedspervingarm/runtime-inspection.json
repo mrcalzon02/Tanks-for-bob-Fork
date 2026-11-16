@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "ductedspervingarm",
+  "triangles": 3396,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "81a05484a2e4d665f29a5ecb958fd4203af3ec05724d63a01458c88d0edd4843",
+  "authored_sha256": "153b7bcbce2069e0c5ec82287b69a9098933d0e2449ad65bfbc1a37cda0c4a42",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

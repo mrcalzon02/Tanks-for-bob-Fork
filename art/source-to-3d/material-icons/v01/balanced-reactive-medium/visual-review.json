@@ -1,0 +1,19 @@
+{
+  "asset": "balanced-reactive-medium",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "e532af26fd7eba73bed0df87013fcc39b7ff62db70accf4bee54e29422277746",
+  "source_sha256": "6382d3c1126d3cdee098237e7a8e77775b187243e9cc35260dc400e6e2ad6523",
+  "render_sha256": "360d70c60ccdebc1726453bdb0f702ca95a0327320074bf48d0835a05801e8a0",
+  "reference_icon_sha256": [
+    "29293b75f36efac3c75155171792bce69215a5e3b84822c416f8114ed631c29c"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A divided reaction cup with two separate media and a broad central divider. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

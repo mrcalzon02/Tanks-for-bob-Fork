@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "osmotic-residue",
+  "triangles": 684,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "83758914088c83c7c019102515d070710e60b2c96913486b238e52fa8c350700",
+  "authored_sha256": "ceeea282803ff1dff6fc97058c063f81f2998caaf063dc2d44cd8e37dafee3a5",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

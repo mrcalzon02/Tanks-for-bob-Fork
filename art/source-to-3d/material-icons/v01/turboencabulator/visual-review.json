@@ -1,0 +1,19 @@
+{
+  "asset": "turboencabulator",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "4f9a52f07f2dab1d69e45a6a61c96349e3e0fed9596be5185343bad9e68caae1",
+  "source_sha256": "964a130d33a326d09d605fc8234fdd6e15cabf69f728ff862b5093843dd795d1",
+  "render_sha256": "d9d8c7dcdfa0479f8197a5a370ddcbd5147d057e669f7334589e34203aff6c7e",
+  "reference_icon_sha256": [
+    "cfa343509f20db5ff2c3bd057fbc975ee815cd79fc4bd8c931cd77da0bd02503"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A twin-coil turbo drive with braced rotor discs and an exposed lower coupling. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "wood-pulp",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.11691731106788747,
+    0.11003842687034489,
+    0.10667014564258266
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "9ab93cc2bfbdf0349483f42611599ccfc98a7e9a2632ca06a45fd409bed1805e"
+}

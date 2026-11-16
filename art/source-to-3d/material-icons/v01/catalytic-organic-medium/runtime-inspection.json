@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "catalytic-organic-medium",
+  "triangles": 4560,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "8370f611ad8d70e40fe11fae252c6ef61a0d67d8d987c799ec38cde6a8f5ad18",
+  "authored_sha256": "515ba4c9ecfd5d93c4de69691d788878945d9a1a76d4886dbe23dde8dd2aeee2",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

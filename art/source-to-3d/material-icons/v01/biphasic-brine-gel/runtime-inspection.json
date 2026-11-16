@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "biphasic-brine-gel",
+  "triangles": 4044,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "1312d57e640e760d71c28a93c1c0b2ebaa700ba2e819478f9997e4130fcbc5ea",
+  "authored_sha256": "18549b9d54eb00289c3d137ab5223533f682585b2ecdcafd28e975c6b9a9509f",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

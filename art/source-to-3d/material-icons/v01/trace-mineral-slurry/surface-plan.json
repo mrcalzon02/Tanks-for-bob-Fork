@@ -1,0 +1,114 @@
+{
+  "asset": "trace-mineral-slurry",
+  "construction": "Wet mineral slurry in an open assay pan, settled coarse grains at the meniscus.",
+  "regions": [
+    {
+      "part": "Thick-walled sample vessel",
+      "materials": [
+        "trace-mineral-slurry | steel"
+      ]
+    },
+    {
+      "part": "Supported vessel retaining rim",
+      "materials": [
+        "trace-mineral-slurry | ceramic"
+      ]
+    },
+    {
+      "part": "Contained sample surface",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.001",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.002",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.003",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.004",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.005",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.006",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.007",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.008",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.009",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.010",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.011",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.012",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.013",
+      "materials": [
+        "trace-mineral-slurry | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

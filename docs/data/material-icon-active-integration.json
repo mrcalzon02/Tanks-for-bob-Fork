@@ -1,0 +1,1985 @@
+{
+  "passed": true,
+  "full_user_mod_pack": true,
+  "matched_current_source": true,
+  "native_loads": 2,
+  "direct_icons": 107,
+  "research_icons": 10,
+  "icon_record_changes": 330,
+  "non_icon_record_changes": 0,
+  "newer_structure_hooks_preserved": true,
+  "actual_user_profile_modified": false,
+  "icons": [
+    {
+      "type": "item",
+      "name": "clay",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/clay.png",
+      "sha256": "8814dab800f12a46bf6afb9005569fbcfdccfddf71df688ea2d0296c742f29ff"
+    },
+    {
+      "type": "item",
+      "name": "brick",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/brick.png",
+      "sha256": "23203c261216c415a183556be9319af9c922cfbfe8fc3a86d799d67c7f471ee1"
+    },
+    {
+      "type": "item",
+      "name": "charcoal",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/charcoal.png",
+      "sha256": "fd260adb70ebc454a5dccea104488cd46962748e8a270e075af4cfecb3f338b7"
+    },
+    {
+      "type": "item",
+      "name": "crude-paper",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/crude-paper.png",
+      "sha256": "8b08828294909828b27b36cbb8e2307fb5a1999ebd31c63be968a31298216eda"
+    },
+    {
+      "type": "item",
+      "name": "ink",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/ink.png",
+      "sha256": "d655140bbda04dfe03399bd75ad1c4c078e4742b74233b48d567941b6eb322f4"
+    },
+    {
+      "type": "item",
+      "name": "calcifier",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/calcifier.png",
+      "sha256": "a663c9d2f49df92b4becf8e801607926b21f8013fd4555524571a7ac1402b78b"
+    },
+    {
+      "type": "item",
+      "name": "crude-glass",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/crude-glass.png",
+      "sha256": "8dec1347152d17746dd5624136598b14a7cb470375d223d037cc6597b522bb53"
+    },
+    {
+      "type": "fluid",
+      "name": "toxic-sludge",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/toxic-sludge.png",
+      "sha256": "3916624b5a7b76fc47e4e5f835a5985b954f57398254176626a836cf2d5e94b7"
+    },
+    {
+      "type": "item",
+      "name": "stone-tools",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/stone-tools.png",
+      "sha256": "4a07e17efbea14e1f1472b9c9aaa231c11442f2fa212f51c97a94009fed89842"
+    },
+    {
+      "type": "item",
+      "name": "wood-pulp",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/wood-pulp.png",
+      "sha256": "2c6ab9aeb6ec924da696f8eb223e7877103c8ba5ffde057462a3369e6f07395f"
+    },
+    {
+      "type": "item",
+      "name": "staples",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/staples.png",
+      "sha256": "eb84695abcca25477fb97ab521f5570e6f9e5fe06bc3b91a03caea09b13aecce"
+    },
+    {
+      "type": "item",
+      "name": "stamps",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/stamps.png",
+      "sha256": "0249aafc3181838ada56a3e133ac96eec1e7783d597c185006fe4824216f8a2b"
+    },
+    {
+      "type": "item",
+      "name": "folder",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/folder.png",
+      "sha256": "11b68e3a5ddd4728258b599ffa441182ba57fe97d8f4678dd9df9c5cd6fa16fd"
+    },
+    {
+      "type": "item",
+      "name": "clipboard",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/clipboard.png",
+      "sha256": "c92a45b24e5ff8a24459bf035773f14720e86dafa8574b4e7acf4d46938ca8fa"
+    },
+    {
+      "type": "item",
+      "name": "corporate-waste",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/corporate-waste.png",
+      "sha256": "292828a756050e06a4164ab137d2c054d6c9699c15d700ccf2d7980245e13b63"
+    },
+    {
+      "type": "item",
+      "name": "PhaseDetractor",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/phasedetractor.png",
+      "sha256": "9b9f52f4925354500a96561f2c0de09f1527501243dd470727184f2ed4eef947"
+    },
+    {
+      "type": "item",
+      "name": "Canister",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/canister.png",
+      "sha256": "7414627fa613da6d819a0a0a182a8490d81a2893021cb70af1f630e24fb16294"
+    },
+    {
+      "type": "item",
+      "name": "Charged-Canister",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/charged-canister.png",
+      "sha256": "4fdfdbe4e088dd88016de78f3340c4f4f16baf16d1bc115b1251f1bdd3167042"
+    },
+    {
+      "type": "item",
+      "name": "Canister-waste",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/canister-waste.png",
+      "sha256": "9e588a9fbdc235e4869c2dff190c62fa58a3a5f0fb94daec86a4f0ad0c2d392a"
+    },
+    {
+      "type": "item",
+      "name": "Canister-Radioactivewaste",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/canister-radioactivewaste.png",
+      "sha256": "6e509bedf42ffe7e3ca3ad9979a912c8ba2c627c0e20b7aebf8143189a4dbaf8"
+    },
+    {
+      "type": "item",
+      "name": "Alumatedplate",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/alumatedplate.png",
+      "sha256": "c98e6d9564b25f1fa7c6d78f69f0e256baf5c19cccd588fb830d2171414b2ca1"
+    },
+    {
+      "type": "item",
+      "name": "trace-mineral-slurry",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/trace-mineral-slurry.png",
+      "sha256": "bccacf768822323d897355b44028d4d1093ca8d512ebc72c6e46d2ba23159e43"
+    },
+    {
+      "type": "item",
+      "name": "saline-particulate",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/saline-particulate.png",
+      "sha256": "862511742b5b7c62f9a1b0460eddeb78c1c3d9fdbdff43354d152543ac5956c2"
+    },
+    {
+      "type": "item",
+      "name": "ionic-scum",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/ionic-scum.png",
+      "sha256": "5e40cc223c7d3e48e452b09def9513f4c2e805ac217095a227c720ae30c20926"
+    },
+    {
+      "type": "item",
+      "name": "heavy-brine-fraction",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/heavy-brine-fraction.png",
+      "sha256": "e96a6196f12889af30914a0883dfb41d712542e4440cad7e6981f0acf00218e5"
+    },
+    {
+      "type": "item",
+      "name": "microcrystal-sediment",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/microcrystal-sediment.png",
+      "sha256": "4a4fa8addcb06c7edabd8f53784d82935c2b255506c025feaeee6a83c2378b9e"
+    },
+    {
+      "type": "item",
+      "name": "fish-oil-residue",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/fish-oil-residue.png",
+      "sha256": "5602c435f1a0f0d35006bb7c9e6bbb3ea552bae29ae4377d602af5a8aa975f48"
+    },
+    {
+      "type": "item",
+      "name": "fish-ash",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/fish-ash.png",
+      "sha256": "6dbfd297fcd4f8adb068afb7d88175421637793520162b3beb86498062cf002d"
+    },
+    {
+      "type": "item",
+      "name": "protein-slurry",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/protein-slurry.png",
+      "sha256": "21d817e3c1b8be6f9768f15bff0fb488a169049c7df6caed3fc77e56e0bdd5cf"
+    },
+    {
+      "type": "item",
+      "name": "calcified-bone-dust",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/calcified-bone-dust.png",
+      "sha256": "7f1ad3bb9bb2a7aba78d80dde855a9e7d28a889ab3c59c07bca8184bae536159"
+    },
+    {
+      "type": "item",
+      "name": "enzyme-paste",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/enzyme-paste.png",
+      "sha256": "b2a3dd78b566fc25430ddcbe4f10037bb0f6c614951ccc731dd45ca17e2ecc84"
+    },
+    {
+      "type": "item",
+      "name": "rendered-organics",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/rendered-organics.png",
+      "sha256": "7f7c26a87af20232fed2d433fe0e4a17d96f4f678252b2844e2bf8550b7089bc"
+    },
+    {
+      "type": "item",
+      "name": "hydrolyzed-suspension",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/hydrolyzed-suspension.png",
+      "sha256": "30f1f12a593e2e2b9b7cd5d3a6ed63dd62e6fcba2dac12f81c20257cc3c3121e"
+    },
+    {
+      "type": "item",
+      "name": "phase-diluted-brine",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/phase-diluted-brine.png",
+      "sha256": "7f370e18f1ab5e46cc072120c5c17940ddae9f545463a9477deb1175a28efacb"
+    },
+    {
+      "type": "item",
+      "name": "osmotic-residue",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/osmotic-residue.png",
+      "sha256": "4da2a804ba7556857e1efb7615c8c9aec2825c7750063bff9d7938ef5993cff3"
+    },
+    {
+      "type": "item",
+      "name": "gradient-saline-matrix",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/gradient-saline-matrix.png",
+      "sha256": "13a149aece96a8c27d07a50643026132f489cf8a25dcb1ad402625025b48035a"
+    },
+    {
+      "type": "item",
+      "name": "biphasic-brine-gel",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/biphasic-brine-gel.png",
+      "sha256": "03ddd4745e9097d1540f907a7b2bd88c9562b13a6f9dfeff67830a570b8c0df0"
+    },
+    {
+      "type": "item",
+      "name": "salinity-locked-emulsion",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/salinity-locked-emulsion.png",
+      "sha256": "c865f4dff15f0865b5e7d5816c1e5558c74afc3cfbd37b37fea4d26fcfc55945"
+    },
+    {
+      "type": "item",
+      "name": "hydrocoptic-precursor",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/hydrocoptic-precursor.png",
+      "sha256": "cde2407c016de668e2ee819d4c6e2c8960c72c1e423f9c3b94858b31c60e1a8b"
+    },
+    {
+      "type": "item",
+      "name": "denatured-organic-base",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/denatured-organic-base.png",
+      "sha256": "6dc346ddcb2eecb80d9e13cb0eb825c8ede4fdbaee92123f263d44c9f4b51ed4"
+    },
+    {
+      "type": "item",
+      "name": "enzyme-saturated-mass",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/enzyme-saturated-mass.png",
+      "sha256": "9c396261464e7d5a0c9c5bd0b1c639f717f0c7efee735d9cdc9ba968508c42d8"
+    },
+    {
+      "type": "item",
+      "name": "lipid-carrier-gel",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/lipid-carrier-gel.png",
+      "sha256": "f8c7b311d34c22f9de537b481a48957be96c412492a60e4d13158d7c7f5e0eee"
+    },
+    {
+      "type": "item",
+      "name": "bio-reactive-slurry",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/bio-reactive-slurry.png",
+      "sha256": "8fdce82d50e9294c631fd493499573386304dc3675a5ee3de60d6c171cf867dd"
+    },
+    {
+      "type": "item",
+      "name": "catalytic-organic-medium",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/catalytic-organic-medium.png",
+      "sha256": "eb7b0d226a257f1cd327108539ae05eb072143199cc6bb28d2b4f55fcabdeca3"
+    },
+    {
+      "type": "item",
+      "name": "reactive-enzyme-binder",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/reactive-enzyme-binder.png",
+      "sha256": "6ef245864d1035d7128958ea1bad9c38c294bb81187bc957106e96dea35acfda"
+    },
+    {
+      "type": "item",
+      "name": "bio-synthetic-precursor",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/bio-synthetic-precursor.png",
+      "sha256": "ec4afcac8dcf1b0f33a2e1db1cec35b08a5e2b48a51ca0219f5ec7a9d587ac9f"
+    },
+    {
+      "type": "item",
+      "name": "crystalline-agglomerate",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/crystalline-agglomerate.png",
+      "sha256": "073a623759fc2ec70eab5de70581200c8359993b35aff20f87b6f120e5275bb5"
+    },
+    {
+      "type": "item",
+      "name": "fractured-lattice-mass",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/fractured-lattice-mass.png",
+      "sha256": "092e070a617074632d67bea698d560eec034c7bd06ebd73abe19a694b30a2419"
+    },
+    {
+      "type": "item",
+      "name": "ceramic-seed-grain",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/ceramic-seed-grain.png",
+      "sha256": "1dfdef90d6e52366e9eda12e80f59a5dc667b2c245408549cafb4bbaad539e30"
+    },
+    {
+      "type": "item",
+      "name": "mineral-phase-fragments",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/mineral-phase-fragments.png",
+      "sha256": "f5a2e05f7dd8ca210de9a109506e554d5e4f47238db3c0ae3f3f6dbef4621900"
+    },
+    {
+      "type": "item",
+      "name": "ceramic-lattice-core",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/ceramic-lattice-core.png",
+      "sha256": "0888a642df9efa496028efcf81075173343e08a11912e8d96f0d0b9eb025a0f8"
+    },
+    {
+      "type": "item",
+      "name": "compressed-crystal-bed",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/compressed-crystal-bed.png",
+      "sha256": "1ad4fa05d3849cb3f4b82a048db138b23261568c3a363b236da72d5ecc8d7093"
+    },
+    {
+      "type": "item",
+      "name": "bioceramic-preform",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/bioceramic-preform.png",
+      "sha256": "09558ea5d771f28f909199cd99d4939c746c98a1cafe9befdf01eefa8c6bcdef"
+    },
+    {
+      "type": "item",
+      "name": "charged-ionic-matrix",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/charged-ionic-matrix.png",
+      "sha256": "ef71382e7518be416497556eeef2a3915380c0cc82c1cd1d2956587b2f1b75ef"
+    },
+    {
+      "type": "item",
+      "name": "dielectric-suspension",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/dielectric-suspension.png",
+      "sha256": "4780063571d94fdd21a23e63e7a9cc109dc22938c4af447b897ab4fc11c2e3fb"
+    },
+    {
+      "type": "item",
+      "name": "conductive-residue",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/conductive-residue.png",
+      "sha256": "7cd5c138714db0e0ff71916b93ed76ce3e7e98d40ad6b05dca5f88e129d56fbf"
+    },
+    {
+      "type": "item",
+      "name": "phase-unstable-granulate",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/phase-unstable-granulate.png",
+      "sha256": "2cb01cceefdcde744403fe0ac1983b54fbacffcdc8840c84c42861a1372b99de"
+    },
+    {
+      "type": "item",
+      "name": "balanced-reactive-medium",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/balanced-reactive-medium.png",
+      "sha256": "45b4e5597a45fcc8d6e7557312e9e05fc7ce9e8972d601273be40a67e6021ca5"
+    },
+    {
+      "type": "item",
+      "name": "phase-primed-carrier",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/phase-primed-carrier.png",
+      "sha256": "a993b4b635601491719ccfa8703342dc3d2021d2bdb01d31e3d2f149c45b6262"
+    },
+    {
+      "type": "item",
+      "name": "electro-phase-precursor",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/electro-phase-precursor.png",
+      "sha256": "28450e8e2f77d2f359623afdeeff1736555cccc96a87004946409c7ceb6689be"
+    },
+    {
+      "type": "item",
+      "name": "marseline-compound",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/marseline-compound.png",
+      "sha256": "dd733be1b62e57bea40f3b5ea3a71c799a1e1533c8b67875122fa143749f6154"
+    },
+    {
+      "type": "item",
+      "name": "bioceramic-grit",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/bioceramic-grit.png",
+      "sha256": "3360b9dc89c3a08a2904cb3934fc5737610e1d359f76dc9cdacf589e7e81d442"
+    },
+    {
+      "type": "item",
+      "name": "hydrocoptic-crystal",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/hydrocoptic-crystal.png",
+      "sha256": "1e754aecb197c0bcbbbbdeccdd1029bc39cfcf4a6e5898b0dd1b78aad9b4dbc1"
+    },
+    {
+      "type": "item",
+      "name": "amulite-flakes",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/amulite-flakes.png",
+      "sha256": "3f642ce0f5c63b686ed2228b1c257afcce11a40fb6f156429100a32c3001f40d"
+    },
+    {
+      "type": "item",
+      "name": "phase-reactive-granules",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/phase-reactive-granules.png",
+      "sha256": "911b704ee3eb59e1106b9a060ee3f7bd36e45f4480ddba04322c446c87b52817"
+    },
+    {
+      "type": "item",
+      "name": "oscillated-lubricant",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/oscillated-lubricant.png",
+      "sha256": "d136769682d9361ed591444014e684710f822f96dd5c01e0bb696e58fb5f99cc"
+    },
+    {
+      "type": "item",
+      "name": "stabilized-brine-gel",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/stabilized-brine-gel.png",
+      "sha256": "f65e9cf959ec710e7c30624f28c0b9689fbf122a247ce8ea165f92b4cecf0102"
+    },
+    {
+      "type": "item",
+      "name": "dielectric-chowder",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/dielectric-chowder.png",
+      "sha256": "2fd7145e6b0d371ecce783458a5c8e426f3b4647351ce5c641dc22308ad4e6cf"
+    },
+    {
+      "type": "item",
+      "name": "pre-turbulated-emulsion",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/pre-turbulated-emulsion.png",
+      "sha256": "539e37f8fb77fe9a51c076a5ff97a72fc85912b00962b0b037030536d3cc3ce9"
+    },
+    {
+      "type": "item",
+      "name": "viscoelastic-froth",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/viscoelastic-froth.png",
+      "sha256": "3667b70d8f03f2dbcf030086974decb3a7951ca2f4f17868c21c4c3fa8004dad"
+    },
+    {
+      "type": "item",
+      "name": "executive-marseline-resin",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/executive-marseline-resin.png",
+      "sha256": "b98a06a1a8ffe66adf2eda3e2ca7950490b193a9ec88fd004771283c98eafff5"
+    },
+    {
+      "type": "item",
+      "name": "encabuloy-alloy",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/encabuloy-alloy.png",
+      "sha256": "54ea9d78dc4544e866490ec7f23e3be695b31ee307683763739dbae2bd7a674e"
+    },
+    {
+      "type": "item",
+      "name": "hyperphase-matrix",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/hyperphase-matrix.png",
+      "sha256": "e48b5ae21abc51ae692c1791395259992653524d768dc09767ef41acceea397d"
+    },
+    {
+      "type": "item",
+      "name": "retrograde-polymer-sheet",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/retrograde-polymer-sheet.png",
+      "sha256": "d469bf58d32bcf63d27a1363085579c768598b867447b843eb1723973300f4e4"
+    },
+    {
+      "type": "item",
+      "name": "duplexed-substrate",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/duplexed-substrate.png",
+      "sha256": "d768e0db81efc2128e445a007d64f774bbc46745830019a9fc548e96bdfc36cd"
+    },
+    {
+      "type": "item",
+      "name": "tank-light-chasis-wlsk",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/tank-light-chasis-wlsk.png",
+      "sha256": "1fff913fa49a6322ffe6d6f9418ece39fc5d53fd56ca621ba31914beb5a8dda3"
+    },
+    {
+      "type": "item",
+      "name": "tank-ammo-casing",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/tank-ammo-casing.png",
+      "sha256": "d18a40a89900d63673b70747b0cea5f01c25f48333cc4cc08d8cc94e2124d077"
+    },
+    {
+      "type": "item",
+      "name": "tank-ammo-reinforced-casing",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/tank-ammo-reinforced-casing.png",
+      "sha256": "181248aafc4c0864d36093b8b59f7ce1cb1802dc2e6b07c3e0dc9b43895602a8"
+    },
+    {
+      "type": "item",
+      "name": "tank-ammo-Industrialwaste",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/tank-ammo-industrialwaste.png",
+      "sha256": "1a70a7a3a4d0abb03c14adffe4296526fc139676d7f0ee32fb424c8b1769e363"
+    },
+    {
+      "type": "item",
+      "name": "tank-ammo-Radioactivewaste",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/tank-ammo-radioactivewaste.png",
+      "sha256": "87c1b2a0996f36f02fec5cb0681cc2966ecaf4b74a2b961e7ce7fc456fbb89df"
+    },
+    {
+      "type": "item",
+      "name": "tank-ammo-universal-explosive",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/tank-ammo-universal-explosive.png",
+      "sha256": "80e5aa17135d63d789be3e1f74a05d441328d3cc45683087426e1e19a2ac0221"
+    },
+    {
+      "type": "item",
+      "name": "compressed-biohazard-waste",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/compressed-biohazard-waste.png",
+      "sha256": "8480d6b475f23ac770307f019429b62871557afcfec00d7e57f131caed287064"
+    },
+    {
+      "type": "tool",
+      "name": "Seared-fish",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/seared-fish.png",
+      "sha256": "880362b6670e6c9809556887c2a9b8ba961ee67d7f39ba42a9ab46f88a98479a"
+    },
+    {
+      "type": "tool",
+      "name": "meal",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/meal.png",
+      "sha256": "243982f6d43175edd59f228b95b42a31d7ab1097ad5cb4c54e13db498ca74530"
+    },
+    {
+      "type": "tool",
+      "name": "requisition-slip",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/requisition-slip.png",
+      "sha256": "659facabca1f49ebb9aa92406dd017dbfdecdf17eeeace809fd013fef0030dcd"
+    },
+    {
+      "type": "tool",
+      "name": "work-order-slip",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/work-order-slip.png",
+      "sha256": "c6da64edb74ef624705fee9f6707ca595285472ea6a49d29c5eac0e6064d60b3"
+    },
+    {
+      "type": "tool",
+      "name": "certified-work-order",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/certified-work-order.png",
+      "sha256": "645d82bc45a1f70020dc61142b53f954dfdcf8a291846206061afd920e1c5862"
+    },
+    {
+      "type": "tool",
+      "name": "submitted-evaluation",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/submitted-evaluation.png",
+      "sha256": "c71fd2dd194f59fc4c9dc4412427f4a0c1fcee063bad85d80e12f92c7b867326"
+    },
+    {
+      "type": "tool",
+      "name": "risk-assessment",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/risk-assessment.png",
+      "sha256": "73fdb3ac07f754fd00c9d2555081d8322bac1746babd1d45c9675bd620a32fa3"
+    },
+    {
+      "type": "tool",
+      "name": "risk-assessed-work-order",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/risk-assessed-work-order.png",
+      "sha256": "f65f8cc372176f67ea5143e82731603bbc735bd4cbc16145a347c49209fb0b3b"
+    },
+    {
+      "type": "tool",
+      "name": "compliance-packet",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/compliance-packet.png",
+      "sha256": "e896f87c65e22bcbb950e58de98e3bfabf9d865adc0099979dc66fc0bbf01ee6"
+    },
+    {
+      "type": "tool",
+      "name": "audit-ready-deliverable",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/audit-ready-deliverable.png",
+      "sha256": "bf539f2b47277904ab36b64ffb9607b1223b362b2a858a240246c32fcdf00727"
+    },
+    {
+      "type": "tool",
+      "name": "stakeholder-review-summary",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/stakeholder-review-summary.png",
+      "sha256": "8f3cb619bafc62f29d1e233d623a59b3ee5c9d2f628dc7ead5e0f87ff5db1505"
+    },
+    {
+      "type": "tool",
+      "name": "liability-contained-report",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/liability-contained-report.png",
+      "sha256": "cad52d7839524b82e705a74da5560b294dc720482f2d2a533744295796bf3a38"
+    },
+    {
+      "type": "tool",
+      "name": "board-review-docket",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/board-review-docket.png",
+      "sha256": "bfd369ffb13f15104abef7f567df46ffeb463cd8ef9a3f77237a2bf04017b131"
+    },
+    {
+      "type": "tool",
+      "name": "board-advisory-risk-assessment",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/board-advisory-risk-assessment.png",
+      "sha256": "e4a8c02ef6e8dcbcf71b249ab920ecf4d5d5fdb86471db17d6aff92c8343f9c3"
+    },
+    {
+      "type": "module",
+      "name": "Cradinal-grametter",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/cradinal-grametter.png",
+      "sha256": "030916914ce755c364e4227b12c58418bee83b5b19c724237f018040a374790e"
+    },
+    {
+      "type": "module",
+      "name": "Hydrocoptic-marselvanes",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/hydrocoptic-marselvanes.png",
+      "sha256": "d7b13758b8127a831eb26ed069167f095c381c4eacb60430467313632476d7bf"
+    },
+    {
+      "type": "module",
+      "name": "Retro-Encabulator",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/retro-encabulator.png",
+      "sha256": "24b88d8cdef85752d8554247842df96feac3c77af018aeb58ec70cdfab0cd145"
+    },
+    {
+      "type": "module",
+      "name": "SpervingArm",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/spervingarm.png",
+      "sha256": "f42511a906a2815063f6d41a8575b8fa27eb1e5d36693b85da79446a179a1c8a"
+    },
+    {
+      "type": "module",
+      "name": "DuctedSpervingArm",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/ductedspervingarm.png",
+      "sha256": "bb77b4a4ca4550be4fa79373daeece66a46b4efe23d3c9d414cbe3ffb02a4602"
+    },
+    {
+      "type": "module",
+      "name": "DuplexedSpervingArm",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/duplexedspervingarm.png",
+      "sha256": "323f85e0371c0ae4bb32cc3899743b08768ad8d0cea359b31e56ee76f2e1bfe7"
+    },
+    {
+      "type": "module",
+      "name": "Encabulator",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/encabulator.png",
+      "sha256": "c97fa2367d1ad2436113e5c079ec47a0f8e4cc336200b1e2567f72790eee57ae"
+    },
+    {
+      "type": "module",
+      "name": "TurboEncabulator",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/turboencabulator.png",
+      "sha256": "5a750aed7a70cc484f416af85824ad76924168742f82d69397eebffda551fb61"
+    },
+    {
+      "type": "module",
+      "name": "HyperEncabulator",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/hyperencabulator.png",
+      "sha256": "3c58bb509f3ca47ca0e978251b4108195b68868e2fb2f2d08a928dd2bff2eb1a"
+    },
+    {
+      "type": "module",
+      "name": "FramulatedEncabulator",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/framulatedencabulator.png",
+      "sha256": "52f97af5e8e54800760765f8196a252cf70294fcad7d8e5d2b9fcb1c9a5f8986"
+    },
+    {
+      "type": "item",
+      "name": "stone-water-wheel",
+      "icon": "__tanks_for_bob_fork__/graphics/icons/material-icons-v01/stone-water-wheel.png",
+      "sha256": "26e26ea620464defba426e0363830e5abcaddeafadbfbf12a21647af934d0fce"
+    }
+  ],
+  "icon_changes": [
+    {
+      "type": "item",
+      "name": "clay"
+    },
+    {
+      "type": "item",
+      "name": "brick"
+    },
+    {
+      "type": "item",
+      "name": "crude-glass"
+    },
+    {
+      "type": "item",
+      "name": "stone-water-wheel"
+    },
+    {
+      "type": "item",
+      "name": "stone-tools"
+    },
+    {
+      "type": "item",
+      "name": "calcifier"
+    },
+    {
+      "type": "item",
+      "name": "charcoal"
+    },
+    {
+      "type": "item",
+      "name": "wood-pulp"
+    },
+    {
+      "type": "item",
+      "name": "crude-paper"
+    },
+    {
+      "type": "item",
+      "name": "staples"
+    },
+    {
+      "type": "item",
+      "name": "ink"
+    },
+    {
+      "type": "item",
+      "name": "stamps"
+    },
+    {
+      "type": "item",
+      "name": "folder"
+    },
+    {
+      "type": "item",
+      "name": "clipboard"
+    },
+    {
+      "type": "item",
+      "name": "corporate-waste"
+    },
+    {
+      "type": "item",
+      "name": "PhaseDetractor"
+    },
+    {
+      "type": "item",
+      "name": "Canister-waste"
+    },
+    {
+      "type": "item",
+      "name": "Canister-Radioactivewaste"
+    },
+    {
+      "type": "item",
+      "name": "Canister"
+    },
+    {
+      "type": "item",
+      "name": "Charged-Canister"
+    },
+    {
+      "type": "item",
+      "name": "Alumatedplate"
+    },
+    {
+      "type": "item",
+      "name": "trace-mineral-slurry"
+    },
+    {
+      "type": "item",
+      "name": "saline-particulate"
+    },
+    {
+      "type": "item",
+      "name": "ionic-scum"
+    },
+    {
+      "type": "item",
+      "name": "heavy-brine-fraction"
+    },
+    {
+      "type": "item",
+      "name": "microcrystal-sediment"
+    },
+    {
+      "type": "item",
+      "name": "fish-oil-residue"
+    },
+    {
+      "type": "item",
+      "name": "fish-ash"
+    },
+    {
+      "type": "item",
+      "name": "protein-slurry"
+    },
+    {
+      "type": "item",
+      "name": "calcified-bone-dust"
+    },
+    {
+      "type": "item",
+      "name": "enzyme-paste"
+    },
+    {
+      "type": "item",
+      "name": "rendered-organics"
+    },
+    {
+      "type": "item",
+      "name": "hydrolyzed-suspension"
+    },
+    {
+      "type": "item",
+      "name": "phase-diluted-brine"
+    },
+    {
+      "type": "item",
+      "name": "osmotic-residue"
+    },
+    {
+      "type": "item",
+      "name": "gradient-saline-matrix"
+    },
+    {
+      "type": "item",
+      "name": "biphasic-brine-gel"
+    },
+    {
+      "type": "item",
+      "name": "salinity-locked-emulsion"
+    },
+    {
+      "type": "item",
+      "name": "hydrocoptic-precursor"
+    },
+    {
+      "type": "item",
+      "name": "denatured-organic-base"
+    },
+    {
+      "type": "item",
+      "name": "enzyme-saturated-mass"
+    },
+    {
+      "type": "item",
+      "name": "lipid-carrier-gel"
+    },
+    {
+      "type": "item",
+      "name": "bio-reactive-slurry"
+    },
+    {
+      "type": "item",
+      "name": "catalytic-organic-medium"
+    },
+    {
+      "type": "item",
+      "name": "reactive-enzyme-binder"
+    },
+    {
+      "type": "item",
+      "name": "bio-synthetic-precursor"
+    },
+    {
+      "type": "item",
+      "name": "crystalline-agglomerate"
+    },
+    {
+      "type": "item",
+      "name": "fractured-lattice-mass"
+    },
+    {
+      "type": "item",
+      "name": "ceramic-seed-grain"
+    },
+    {
+      "type": "item",
+      "name": "mineral-phase-fragments"
+    },
+    {
+      "type": "item",
+      "name": "ceramic-lattice-core"
+    },
+    {
+      "type": "item",
+      "name": "compressed-crystal-bed"
+    },
+    {
+      "type": "item",
+      "name": "bioceramic-preform"
+    },
+    {
+      "type": "item",
+      "name": "charged-ionic-matrix"
+    },
+    {
+      "type": "item",
+      "name": "dielectric-suspension"
+    },
+    {
+      "type": "item",
+      "name": "conductive-residue"
+    },
+    {
+      "type": "item",
+      "name": "phase-unstable-granulate"
+    },
+    {
+      "type": "item",
+      "name": "balanced-reactive-medium"
+    },
+    {
+      "type": "item",
+      "name": "phase-primed-carrier"
+    },
+    {
+      "type": "item",
+      "name": "electro-phase-precursor"
+    },
+    {
+      "type": "item",
+      "name": "marseline-compound"
+    },
+    {
+      "type": "item",
+      "name": "bioceramic-grit"
+    },
+    {
+      "type": "item",
+      "name": "hydrocoptic-crystal"
+    },
+    {
+      "type": "item",
+      "name": "amulite-flakes"
+    },
+    {
+      "type": "item",
+      "name": "phase-reactive-granules"
+    },
+    {
+      "type": "item",
+      "name": "oscillated-lubricant"
+    },
+    {
+      "type": "item",
+      "name": "stabilized-brine-gel"
+    },
+    {
+      "type": "item",
+      "name": "dielectric-chowder"
+    },
+    {
+      "type": "item",
+      "name": "pre-turbulated-emulsion"
+    },
+    {
+      "type": "item",
+      "name": "viscoelastic-froth"
+    },
+    {
+      "type": "item",
+      "name": "executive-marseline-resin"
+    },
+    {
+      "type": "item",
+      "name": "encabuloy-alloy"
+    },
+    {
+      "type": "item",
+      "name": "hyperphase-matrix"
+    },
+    {
+      "type": "item",
+      "name": "retrograde-polymer-sheet"
+    },
+    {
+      "type": "item",
+      "name": "duplexed-substrate"
+    },
+    {
+      "type": "item",
+      "name": "tank-light-chasis-wlsk"
+    },
+    {
+      "type": "item",
+      "name": "tank-ammo-casing"
+    },
+    {
+      "type": "item",
+      "name": "tank-ammo-reinforced-casing"
+    },
+    {
+      "type": "item",
+      "name": "tank-ammo-Industrialwaste"
+    },
+    {
+      "type": "item",
+      "name": "tank-ammo-Radioactivewaste"
+    },
+    {
+      "type": "item",
+      "name": "tank-ammo-universal-explosive"
+    },
+    {
+      "type": "item",
+      "name": "compressed-biohazard-waste"
+    },
+    {
+      "type": "recipe",
+      "name": "clay-with-tools"
+    },
+    {
+      "type": "recipe",
+      "name": "brick"
+    },
+    {
+      "type": "recipe",
+      "name": "crude-glass"
+    },
+    {
+      "type": "recipe",
+      "name": "stone-water-wheel"
+    },
+    {
+      "type": "recipe",
+      "name": "Canister"
+    },
+    {
+      "type": "recipe",
+      "name": "calcifier"
+    },
+    {
+      "type": "recipe",
+      "name": "Charged-Canister"
+    },
+    {
+      "type": "recipe",
+      "name": "UnCharge-Canister"
+    },
+    {
+      "type": "recipe",
+      "name": "shalera"
+    },
+    {
+      "type": "recipe",
+      "name": "shalerb"
+    },
+    {
+      "type": "recipe",
+      "name": "shalerc"
+    },
+    {
+      "type": "recipe",
+      "name": "shaler3"
+    },
+    {
+      "type": "recipe",
+      "name": "trace-mineral-slurry"
+    },
+    {
+      "type": "recipe",
+      "name": "saline-particulate"
+    },
+    {
+      "type": "recipe",
+      "name": "ionic-scum"
+    },
+    {
+      "type": "recipe",
+      "name": "heavy-brine-fraction"
+    },
+    {
+      "type": "recipe",
+      "name": "microcrystal-sediment"
+    },
+    {
+      "type": "recipe",
+      "name": "fish-oil-residue"
+    },
+    {
+      "type": "recipe",
+      "name": "fish-ash-processing"
+    },
+    {
+      "type": "recipe",
+      "name": "protein-slurry"
+    },
+    {
+      "type": "recipe",
+      "name": "calcified-bone-dust"
+    },
+    {
+      "type": "recipe",
+      "name": "rendered-organics"
+    },
+    {
+      "type": "recipe",
+      "name": "enzyme-paste"
+    },
+    {
+      "type": "recipe",
+      "name": "steam-meal"
+    },
+    {
+      "type": "recipe",
+      "name": "charcoal"
+    },
+    {
+      "type": "recipe",
+      "name": "wood-pulp"
+    },
+    {
+      "type": "recipe",
+      "name": "crude-paper"
+    },
+    {
+      "type": "recipe",
+      "name": "ink"
+    },
+    {
+      "type": "recipe",
+      "name": "staples"
+    },
+    {
+      "type": "recipe",
+      "name": "stamps"
+    },
+    {
+      "type": "recipe",
+      "name": "folder"
+    },
+    {
+      "type": "recipe",
+      "name": "clipboard"
+    },
+    {
+      "type": "recipe",
+      "name": "requisition-slip"
+    },
+    {
+      "type": "recipe",
+      "name": "work-order-slip"
+    },
+    {
+      "type": "recipe",
+      "name": "certified-work-order"
+    },
+    {
+      "type": "recipe",
+      "name": "submitted-evaluation"
+    },
+    {
+      "type": "recipe",
+      "name": "risk-assessment"
+    },
+    {
+      "type": "recipe",
+      "name": "risk-assessed-work-order"
+    },
+    {
+      "type": "recipe",
+      "name": "compliance-packet"
+    },
+    {
+      "type": "recipe",
+      "name": "audit-ready-deliverable"
+    },
+    {
+      "type": "recipe",
+      "name": "stakeholder-review-summary"
+    },
+    {
+      "type": "recipe",
+      "name": "liability-contained-report"
+    },
+    {
+      "type": "recipe",
+      "name": "board-review-docket"
+    },
+    {
+      "type": "recipe",
+      "name": "board-advisory-risk-assessment"
+    },
+    {
+      "type": "recipe",
+      "name": "hydrolyzed-suspension"
+    },
+    {
+      "type": "recipe",
+      "name": "phase-diluted-brine"
+    },
+    {
+      "type": "recipe",
+      "name": "osmotic-residue"
+    },
+    {
+      "type": "recipe",
+      "name": "gradient-saline-matrix"
+    },
+    {
+      "type": "recipe",
+      "name": "biphasic-brine-gel"
+    },
+    {
+      "type": "recipe",
+      "name": "salinity-locked-emulsion"
+    },
+    {
+      "type": "recipe",
+      "name": "hydrocoptic-precursor"
+    },
+    {
+      "type": "recipe",
+      "name": "denatured-organic-base"
+    },
+    {
+      "type": "recipe",
+      "name": "enzyme-saturated-mass"
+    },
+    {
+      "type": "recipe",
+      "name": "lipid-carrier-gel"
+    },
+    {
+      "type": "recipe",
+      "name": "bio-reactive-slurry"
+    },
+    {
+      "type": "recipe",
+      "name": "catalytic-organic-medium"
+    },
+    {
+      "type": "recipe",
+      "name": "reactive-enzyme-binder"
+    },
+    {
+      "type": "recipe",
+      "name": "bio-synthetic-precursor"
+    },
+    {
+      "type": "recipe",
+      "name": "crystalline-agglomerate"
+    },
+    {
+      "type": "recipe",
+      "name": "fractured-lattice-mass"
+    },
+    {
+      "type": "recipe",
+      "name": "ceramic-seed-grain"
+    },
+    {
+      "type": "recipe",
+      "name": "mineral-phase-fragments"
+    },
+    {
+      "type": "recipe",
+      "name": "ceramic-lattice-core"
+    },
+    {
+      "type": "recipe",
+      "name": "compressed-crystal-bed"
+    },
+    {
+      "type": "recipe",
+      "name": "bioceramic-preform"
+    },
+    {
+      "type": "recipe",
+      "name": "charged-ionic-matrix"
+    },
+    {
+      "type": "recipe",
+      "name": "dielectric-suspension"
+    },
+    {
+      "type": "recipe",
+      "name": "conductive-residue"
+    },
+    {
+      "type": "recipe",
+      "name": "phase-unstable-granulate"
+    },
+    {
+      "type": "recipe",
+      "name": "balanced-reactive-medium"
+    },
+    {
+      "type": "recipe",
+      "name": "phase-primed-carrier"
+    },
+    {
+      "type": "recipe",
+      "name": "electro-phase-precursor"
+    },
+    {
+      "type": "recipe",
+      "name": "marseline-compound"
+    },
+    {
+      "type": "recipe",
+      "name": "bioceramic-grit"
+    },
+    {
+      "type": "recipe",
+      "name": "hydrocoptic-crystal"
+    },
+    {
+      "type": "recipe",
+      "name": "amulite-flakes"
+    },
+    {
+      "type": "recipe",
+      "name": "phase-reactive-granules"
+    },
+    {
+      "type": "recipe",
+      "name": "oscillated-lubricant"
+    },
+    {
+      "type": "recipe",
+      "name": "stabilized-brine-gel"
+    },
+    {
+      "type": "recipe",
+      "name": "dielectric-chowder"
+    },
+    {
+      "type": "recipe",
+      "name": "pre-turbulated-emulsion"
+    },
+    {
+      "type": "recipe",
+      "name": "viscoelastic-froth"
+    },
+    {
+      "type": "recipe",
+      "name": "compress-toxic-sludge"
+    },
+    {
+      "type": "recipe",
+      "name": "industrial-waste-to-toxic-sludge"
+    },
+    {
+      "type": "recipe",
+      "name": "radioactive-waste-to-toxic-sludge"
+    },
+    {
+      "type": "recipe",
+      "name": "corporate-waste-to-toxic-sludge"
+    },
+    {
+      "type": "recipe",
+      "name": "executive-marseline-resin"
+    },
+    {
+      "type": "recipe",
+      "name": "encabuloy-alloy"
+    },
+    {
+      "type": "recipe",
+      "name": "hyperphase-matrix"
+    },
+    {
+      "type": "recipe",
+      "name": "retrograde-polymer-sheet"
+    },
+    {
+      "type": "recipe",
+      "name": "duplexed-substrate"
+    },
+    {
+      "type": "recipe",
+      "name": "Hydrocoptic-marselvanes"
+    },
+    {
+      "type": "recipe",
+      "name": "PhaseDetractor"
+    },
+    {
+      "type": "recipe",
+      "name": "Cradinal-grametter"
+    },
+    {
+      "type": "recipe",
+      "name": "Alumatedplate"
+    },
+    {
+      "type": "recipe",
+      "name": "Retro-Encabulator"
+    },
+    {
+      "type": "recipe",
+      "name": "Encabulator"
+    },
+    {
+      "type": "recipe",
+      "name": "SpervingArm"
+    },
+    {
+      "type": "recipe",
+      "name": "DuctedSpervingArm"
+    },
+    {
+      "type": "recipe",
+      "name": "TurboEncabulator"
+    },
+    {
+      "type": "recipe",
+      "name": "HyperEncabulator"
+    },
+    {
+      "type": "recipe",
+      "name": "DuplexedSpervingArm"
+    },
+    {
+      "type": "recipe",
+      "name": "FramulatedEncabulator"
+    },
+    {
+      "type": "recipe",
+      "name": "tank-light-chasis-wlsk"
+    },
+    {
+      "type": "recipe",
+      "name": "tank-ammo-universal-explosive"
+    },
+    {
+      "type": "recipe",
+      "name": "tank-ammo-universal-explosive-synthetic"
+    },
+    {
+      "type": "recipe",
+      "name": "tank-ammo-casing"
+    },
+    {
+      "type": "recipe",
+      "name": "tank-ammo-reinforced-casing"
+    },
+    {
+      "type": "recipe",
+      "name": "wood-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "meal-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "brick-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "crude-glass-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "stone-water-wheel-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "calcifier-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "charcoal-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "crude-paper-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "staples-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "ink-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "stamps-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "folder-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "clipboard-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "corporate-waste-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "PhaseDetractor-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "Canister-waste-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "Canister-Radioactivewaste-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "Canister-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "Charged-Canister-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "Alumatedplate-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "trace-mineral-slurry-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "saline-particulate-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "ionic-scum-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "heavy-brine-fraction-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "microcrystal-sediment-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "fish-oil-residue-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "fish-ash-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "protein-slurry-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "calcified-bone-dust-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "enzyme-paste-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "rendered-organics-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "hydrolyzed-suspension-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "phase-diluted-brine-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "osmotic-residue-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "gradient-saline-matrix-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "biphasic-brine-gel-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "salinity-locked-emulsion-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "hydrocoptic-precursor-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "denatured-organic-base-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "enzyme-saturated-mass-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "lipid-carrier-gel-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "bio-reactive-slurry-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "catalytic-organic-medium-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "reactive-enzyme-binder-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "bio-synthetic-precursor-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "crystalline-agglomerate-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "fractured-lattice-mass-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "ceramic-seed-grain-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "mineral-phase-fragments-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "ceramic-lattice-core-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "compressed-crystal-bed-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "bioceramic-preform-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "charged-ionic-matrix-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "dielectric-suspension-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "conductive-residue-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "phase-unstable-granulate-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "balanced-reactive-medium-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "phase-primed-carrier-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "electro-phase-precursor-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "marseline-compound-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "bioceramic-grit-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "hydrocoptic-crystal-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "amulite-flakes-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "phase-reactive-granules-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "oscillated-lubricant-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "stabilized-brine-gel-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "dielectric-chowder-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "pre-turbulated-emulsion-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "viscoelastic-froth-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "executive-marseline-resin-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "encabuloy-alloy-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "hyperphase-matrix-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "retrograde-polymer-sheet-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "duplexed-substrate-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "tank-light-chasis-wlsk-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "tank-ammo-casing-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "tank-ammo-reinforced-casing-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "tank-ammo-Industrialwaste-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "tank-ammo-Radioactivewaste-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "tank-ammo-universal-explosive-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "compressed-biohazard-waste-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "Cradinal-grametter-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "Hydrocoptic-marselvanes-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "Retro-Encabulator-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "SpervingArm-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "DuctedSpervingArm-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "DuplexedSpervingArm-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "Encabulator-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "TurboEncabulator-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "HyperEncabulator-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "FramulatedEncabulator-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "requisition-slip-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "work-order-slip-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "certified-work-order-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "submitted-evaluation-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "risk-assessment-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "risk-assessed-work-order-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "compliance-packet-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "audit-ready-deliverable-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "stakeholder-review-summary-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "liability-contained-report-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "board-review-docket-recycling"
+    },
+    {
+      "type": "recipe",
+      "name": "board-advisory-risk-assessment-recycling"
+    },
+    {
+      "type": "fluid",
+      "name": "toxic-sludge"
+    },
+    {
+      "type": "offshore-pump",
+      "name": "stone-water-wheel"
+    },
+    {
+      "type": "assembling-machine",
+      "name": "calcifier"
+    },
+    {
+      "type": "module",
+      "name": "Cradinal-grametter"
+    },
+    {
+      "type": "module",
+      "name": "Hydrocoptic-marselvanes"
+    },
+    {
+      "type": "module",
+      "name": "Retro-Encabulator"
+    },
+    {
+      "type": "module",
+      "name": "SpervingArm"
+    },
+    {
+      "type": "module",
+      "name": "DuctedSpervingArm"
+    },
+    {
+      "type": "module",
+      "name": "DuplexedSpervingArm"
+    },
+    {
+      "type": "module",
+      "name": "Encabulator"
+    },
+    {
+      "type": "module",
+      "name": "TurboEncabulator"
+    },
+    {
+      "type": "module",
+      "name": "HyperEncabulator"
+    },
+    {
+      "type": "module",
+      "name": "FramulatedEncabulator"
+    },
+    {
+      "type": "technology",
+      "name": "mineral-fractionation"
+    },
+    {
+      "type": "technology",
+      "name": "ceramic-lattice-conditioning"
+    },
+    {
+      "type": "technology",
+      "name": "bio-reactive-processing"
+    },
+    {
+      "type": "technology",
+      "name": "organic-substrate-conditioning"
+    },
+    {
+      "type": "technology",
+      "name": "brine-conditioning"
+    },
+    {
+      "type": "technology",
+      "name": "stabilized-emulsion-systems"
+    },
+    {
+      "type": "technology",
+      "name": "ionic-phase-conditioning"
+    },
+    {
+      "type": "technology",
+      "name": "biomineral-synthesis"
+    },
+    {
+      "type": "technology",
+      "name": "pre-encabulation-materials"
+    },
+    {
+      "type": "technology",
+      "name": "advanced-encabulation-substrates"
+    },
+    {
+      "type": "tool",
+      "name": "Seared-fish"
+    },
+    {
+      "type": "tool",
+      "name": "meal"
+    },
+    {
+      "type": "tool",
+      "name": "requisition-slip"
+    },
+    {
+      "type": "tool",
+      "name": "work-order-slip"
+    },
+    {
+      "type": "tool",
+      "name": "certified-work-order"
+    },
+    {
+      "type": "tool",
+      "name": "submitted-evaluation"
+    },
+    {
+      "type": "tool",
+      "name": "risk-assessment"
+    },
+    {
+      "type": "tool",
+      "name": "risk-assessed-work-order"
+    },
+    {
+      "type": "tool",
+      "name": "compliance-packet"
+    },
+    {
+      "type": "tool",
+      "name": "audit-ready-deliverable"
+    },
+    {
+      "type": "tool",
+      "name": "stakeholder-review-summary"
+    },
+    {
+      "type": "tool",
+      "name": "liability-contained-report"
+    },
+    {
+      "type": "tool",
+      "name": "board-review-docket"
+    },
+    {
+      "type": "tool",
+      "name": "board-advisory-risk-assessment"
+    }
+  ],
+  "package_sha256": "6ebd90763d8224adc4be7fd7d89bc32dbb35677dbb22f73671b350fbfdaa3ba2",
+  "package_files": 739,
+  "active_source_parent": "a5d566c5fd896eadfe331890a833a7e35be66e96",
+  "imported_art_commit": "b5617634f32c9cd92d5fe3debf59c224b8bd3338",
+  "integration_checkout": "tanks-structure-production",
+  "static_missing_assets": 0,
+  "static_errors": 0
+}

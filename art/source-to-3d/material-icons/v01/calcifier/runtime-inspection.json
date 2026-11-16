@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "calcifier",
+  "triangles": 6540,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "12889cb8d952bb84c0a488b2f7565a25d68567a9ff2a35c87e3f61506dfaf319",
+  "authored_sha256": "6e73d1d17bc598dd15543e5228fab5e8a81cc2704007476b1f1c90569b80d85d",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

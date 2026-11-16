@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "marseline-compound",
+  "triangles": 4328,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "c7a806073dca89da8ae3f35430bbe649f6776c6c9724efaeb4d7210504c1e162",
+  "authored_sha256": "7e69aba1acdba2fd26f244749f1ee767999e181e6309dc007dfe963b71356777",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

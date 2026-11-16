@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "compliance-packet",
+  "triangles": 4888,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "9d06a4848fdcba231d25684839f199d6a7d2cdeba895317403302aa540c62d62",
+  "authored_sha256": "69a83687997f7b754bcb194d91e5ab76bce166b10ccddd28db018317d4473c60",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

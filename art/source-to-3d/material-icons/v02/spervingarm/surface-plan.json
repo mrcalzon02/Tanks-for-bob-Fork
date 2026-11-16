@@ -1,0 +1,114 @@
+{
+  "asset": "spervingarm",
+  "construction": "A single articulated sperving arm with two joints and a bolted installation foot.",
+  "regions": [
+    {
+      "part": "Arm installation foot",
+      "materials": [
+        "spervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate",
+      "materials": [
+        "spervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.001",
+      "materials": [
+        "spervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.002",
+      "materials": [
+        "spervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.003",
+      "materials": [
+        "spervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.004",
+      "materials": [
+        "spervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.005",
+      "materials": [
+        "spervingarm | steel"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing",
+      "materials": [
+        "spervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin",
+      "materials": [
+        "spervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing.001",
+      "materials": [
+        "spervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin.001",
+      "materials": [
+        "spervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing.002",
+      "materials": [
+        "spervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin.002",
+      "materials": [
+        "spervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing.003",
+      "materials": [
+        "spervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin.003",
+      "materials": [
+        "spervingarm | dark"
+      ]
+    },
+    {
+      "part": "Arm hydraulic cylinder support",
+      "materials": [
+        "spervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported bright piston rod",
+      "materials": [
+        "spervingarm | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

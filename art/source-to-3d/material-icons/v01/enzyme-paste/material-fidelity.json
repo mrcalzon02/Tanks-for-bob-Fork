@@ -1,0 +1,17 @@
+{
+  "asset": "enzyme-paste",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.06338634755591104,
+    0.05877195680930261,
+    0.06770849355523426
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "2930ec554271c74fdd7f1321048851d112b177788ef7e4b024243b487a6678ab"
+}

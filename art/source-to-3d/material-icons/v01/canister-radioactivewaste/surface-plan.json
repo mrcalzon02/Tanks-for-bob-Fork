@@ -1,0 +1,72 @@
+{
+  "asset": "canister-radioactivewaste",
+  "construction": "Thick-walled radioactive-return canister with a lead collar and three lock tabs.",
+  "regions": [
+    {
+      "part": "Pressure shell",
+      "materials": [
+        "canister-radioactivewaste | steel"
+      ]
+    },
+    {
+      "part": "Thick rolled end cap",
+      "materials": [
+        "canister-radioactivewaste | dark"
+      ]
+    },
+    {
+      "part": "Thick rolled end cap.001",
+      "materials": [
+        "canister-radioactivewaste | dark"
+      ]
+    },
+    {
+      "part": "Retaining neck collar",
+      "materials": [
+        "canister-radioactivewaste | brass"
+      ]
+    },
+    {
+      "part": "Closed service neck",
+      "materials": [
+        "canister-radioactivewaste | steel"
+      ]
+    },
+    {
+      "part": "Flush front inspection bezel",
+      "materials": [
+        "canister-radioactivewaste | dark"
+      ]
+    },
+    {
+      "part": "Contained state window",
+      "materials": [
+        "canister-radioactivewaste | product"
+      ]
+    },
+    {
+      "part": "Supported return lock tab",
+      "materials": [
+        "canister-radioactivewaste | brass"
+      ]
+    },
+    {
+      "part": "Supported return lock tab.001",
+      "materials": [
+        "canister-radioactivewaste | brass"
+      ]
+    },
+    {
+      "part": "Thick shielding collar",
+      "materials": [
+        "canister-radioactivewaste | dark"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

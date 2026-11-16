@@ -1,0 +1,120 @@
+{
+  "asset": "ductedspervingarm",
+  "construction": "A jointed sperving arm with an integrated rigid protective duct and supported end connection.",
+  "regions": [
+    {
+      "part": "Arm installation foot",
+      "materials": [
+        "ductedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate",
+      "materials": [
+        "ductedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.001",
+      "materials": [
+        "ductedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.002",
+      "materials": [
+        "ductedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.003",
+      "materials": [
+        "ductedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.004",
+      "materials": [
+        "ductedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.005",
+      "materials": [
+        "ductedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing",
+      "materials": [
+        "ductedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin",
+      "materials": [
+        "ductedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing.001",
+      "materials": [
+        "ductedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin.001",
+      "materials": [
+        "ductedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing.002",
+      "materials": [
+        "ductedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin.002",
+      "materials": [
+        "ductedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing.003",
+      "materials": [
+        "ductedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin.003",
+      "materials": [
+        "ductedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Arm hydraulic cylinder support",
+      "materials": [
+        "ductedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported bright piston rod",
+      "materials": [
+        "ductedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Rigid protective arm duct",
+      "materials": [
+        "ductedspervingarm | dark"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

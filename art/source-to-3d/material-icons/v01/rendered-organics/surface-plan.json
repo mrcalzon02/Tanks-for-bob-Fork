@@ -1,0 +1,30 @@
+{
+  "asset": "rendered-organics",
+  "construction": "Three solid rendered-organic slabs with soft edges and visible scored cuts.",
+  "regions": [
+    {
+      "part": "Soft edged rendered block",
+      "materials": [
+        "rendered-organics | product"
+      ]
+    },
+    {
+      "part": "Soft edged rendered block.001",
+      "materials": [
+        "rendered-organics | product"
+      ]
+    },
+    {
+      "part": "Soft edged rendered block.002",
+      "materials": [
+        "rendered-organics | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

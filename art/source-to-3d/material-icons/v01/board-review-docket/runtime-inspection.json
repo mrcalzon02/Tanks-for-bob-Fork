@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "board-review-docket",
+  "triangles": 5108,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "3cdd2d16f73df1d0554930b93ce609c76059bf600d937ed317889d2f65300574",
+  "authored_sha256": "f8afb29d6c50abab5595963d5616b9015a06714d2709de3870dfd7f69bd4189c",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "risk-assessment",
+  "triangles": 1629,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "ededc332632c8ae3733f161321c1890640a09c0dd9bca9eaba9ed288005975f7",
+  "authored_sha256": "74726583dd9ee1e60020ddf2400c6ea9677af166b81c632a9f78600a8fc8b1a5",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "calcifier",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "12889cb8d952bb84c0a488b2f7565a25d68567a9ff2a35c87e3f61506dfaf319",
+  "source_sha256": "6e73d1d17bc598dd15543e5228fab5e8a81cc2704007476b1f1c90569b80d85d",
+  "render_sha256": "a2136b2c981f1a9aa545f09ddf6c18517922ea5d37ce7e29b96b5965c74bdab6",
+  "reference_icon_sha256": [
+    "67f823dcb81b917739b4af0dfb21b8a90318e5618ecc4e829ffff5e64cbb5cf1"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Icon-scale calcifier enclosure with masonry heat chamber, open supported calcination pan and a braced flue; world entity graphics are unchanged. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

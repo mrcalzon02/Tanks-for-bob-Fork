@@ -1,0 +1,17 @@
+{
+  "asset": "clay",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.20197159046805868,
+    0.19481487231234962,
+    0.18798416517891794
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "5b8d33104557f4f588863a161a05b175d37e31b8f05458924f7586b0842ff1d6"
+}

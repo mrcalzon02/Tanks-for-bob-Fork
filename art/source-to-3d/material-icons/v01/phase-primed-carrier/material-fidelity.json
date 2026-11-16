@@ -1,0 +1,17 @@
+{
+  "asset": "phase-primed-carrier",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.17870988242770894,
+    0.1819510645058786,
+    0.20321576104226247
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "5eac54b366133d8ddf01e3c3b0aa5baef56d6e70697cc1b32012962fb09c6f73"
+}

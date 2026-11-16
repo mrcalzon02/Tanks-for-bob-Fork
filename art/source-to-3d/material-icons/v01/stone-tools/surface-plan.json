@@ -1,0 +1,72 @@
+{
+  "asset": "stone-tools",
+  "construction": "Knapped stone hammer and sharpened stone adze, cord-bound to two separate wooden handles.",
+  "regions": [
+    {
+      "part": "Wooden stone-tool handle",
+      "materials": [
+        "stone-tools | wood"
+      ]
+    },
+    {
+      "part": "Knapped stone tool head",
+      "materials": [
+        "stone-tools | stone"
+      ]
+    },
+    {
+      "part": "Binding cord wrap",
+      "materials": [
+        "stone-tools | stitch"
+      ]
+    },
+    {
+      "part": "Binding cord wrap.001",
+      "materials": [
+        "stone-tools | stitch"
+      ]
+    },
+    {
+      "part": "Binding cord wrap.002",
+      "materials": [
+        "stone-tools | stitch"
+      ]
+    },
+    {
+      "part": "Wooden stone-tool handle.001",
+      "materials": [
+        "stone-tools | wood"
+      ]
+    },
+    {
+      "part": "Knapped stone tool head.001",
+      "materials": [
+        "stone-tools | stone"
+      ]
+    },
+    {
+      "part": "Binding cord wrap.003",
+      "materials": [
+        "stone-tools | stitch"
+      ]
+    },
+    {
+      "part": "Binding cord wrap.004",
+      "materials": [
+        "stone-tools | stitch"
+      ]
+    },
+    {
+      "part": "Binding cord wrap.005",
+      "materials": [
+        "stone-tools | stitch"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

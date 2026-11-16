@@ -1,0 +1,30 @@
+{
+  "asset": "bioceramic-preform",
+  "construction": "A hollow shaped bioceramic preform with two mounting feet and a deep central opening.",
+  "regions": [
+    {
+      "part": "Shaped bioceramic preform",
+      "materials": [
+        "bioceramic-preform | product"
+      ]
+    },
+    {
+      "part": "Integral mounting foot",
+      "materials": [
+        "bioceramic-preform | product"
+      ]
+    },
+    {
+      "part": "Integral mounting foot.001",
+      "materials": [
+        "bioceramic-preform | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "asset": "canister",
+  "construction": "Uncharged pressure canister with thick rolled rim, sealed front access and clean fittings.",
+  "regions": [
+    {
+      "part": "Pressure shell",
+      "materials": [
+        "canister | steel"
+      ]
+    },
+    {
+      "part": "Dished pressure-vessel end",
+      "materials": [
+        "canister | steel"
+      ]
+    },
+    {
+      "part": "Dished pressure-vessel end.001",
+      "materials": [
+        "canister | steel"
+      ]
+    },
+    {
+      "part": "Thick rolled end cap",
+      "materials": [
+        "canister | dark"
+      ]
+    },
+    {
+      "part": "Thick rolled end cap.001",
+      "materials": [
+        "canister | dark"
+      ]
+    },
+    {
+      "part": "Retaining neck collar",
+      "materials": [
+        "canister | brass"
+      ]
+    },
+    {
+      "part": "Closed service neck",
+      "materials": [
+        "canister | steel"
+      ]
+    },
+    {
+      "part": "Flush front inspection bezel",
+      "materials": [
+        "canister | dark"
+      ]
+    },
+    {
+      "part": "Contained state window",
+      "materials": [
+        "canister | glass"
+      ]
+    },
+    {
+      "part": "Flush window-retaining screw",
+      "materials": [
+        "canister | brass"
+      ]
+    },
+    {
+      "part": "Flush window-retaining screw.001",
+      "materials": [
+        "canister | brass"
+      ]
+    },
+    {
+      "part": "Flush window-retaining screw.002",
+      "materials": [
+        "canister | brass"
+      ]
+    },
+    {
+      "part": "Flush window-retaining screw.003",
+      "materials": [
+        "canister | brass"
+      ]
+    },
+    {
+      "part": "Recessed state indicator",
+      "materials": [
+        "canister | dark"
+      ]
+    },
+    {
+      "part": "Recessed state indicator.001",
+      "materials": [
+        "canister | dark"
+      ]
+    },
+    {
+      "part": "Recessed state indicator.002",
+      "materials": [
+        "canister | dark"
+      ]
+    },
+    {
+      "part": "Service cap retaining bolt",
+      "materials": [
+        "canister | brass"
+      ]
+    },
+    {
+      "part": "Service cap retaining bolt.001",
+      "materials": [
+        "canister | brass"
+      ]
+    },
+    {
+      "part": "Service cap retaining bolt.002",
+      "materials": [
+        "canister | brass"
+      ]
+    },
+    {
+      "part": "Service cap retaining bolt.003",
+      "materials": [
+        "canister | brass"
+      ]
+    },
+    {
+      "part": "Service cap retaining bolt.004",
+      "materials": [
+        "canister | brass"
+      ]
+    },
+    {
+      "part": "Service cap retaining bolt.005",
+      "materials": [
+        "canister | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

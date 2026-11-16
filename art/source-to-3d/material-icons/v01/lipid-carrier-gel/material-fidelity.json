@@ -1,0 +1,17 @@
+{
+  "asset": "lipid-carrier-gel",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.055216016859852474,
+    0.06144119315879063,
+    0.09169165923644322
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "6a9b805ab82268e688bf496eba00bc23a7d45bb905b473a41e0be4eeb2b128e6"
+}

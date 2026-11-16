@@ -1,0 +1,17 @@
+{
+  "asset": "risk-assessed-work-order",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.07486593692928682,
+    0.08014703316388846,
+    0.10594763106773529
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "73ace946a479fdb56643e44b327024be08d290dc5bfa194ba7c3e8d4f489753c"
+}

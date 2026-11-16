@@ -1,0 +1,132 @@
+{
+  "asset": "fish-oil-residue",
+  "construction": "A wide open oil jar with a sticky amber meniscus and removable dark lid.",
+  "regions": [
+    {
+      "part": "Closed sample vessel",
+      "materials": [
+        "fish-oil-residue | steel"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band",
+      "materials": [
+        "fish-oil-residue | dark"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band.001",
+      "materials": [
+        "fish-oil-residue | dark"
+      ]
+    },
+    {
+      "part": "Vessel cap",
+      "materials": [
+        "fish-oil-residue | steel"
+      ]
+    },
+    {
+      "part": "Cap retaining lip",
+      "materials": [
+        "fish-oil-residue | brass"
+      ]
+    },
+    {
+      "part": "Welded inset sample port boss",
+      "materials": [
+        "fish-oil-residue | dark"
+      ]
+    },
+    {
+      "part": "Supported metal port bezel",
+      "materials": [
+        "fish-oil-residue | brass"
+      ]
+    },
+    {
+      "part": "Recessed sample glass",
+      "materials": [
+        "fish-oil-residue | product"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss",
+      "materials": [
+        "fish-oil-residue | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.001",
+      "materials": [
+        "fish-oil-residue | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.002",
+      "materials": [
+        "fish-oil-residue | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.003",
+      "materials": [
+        "fish-oil-residue | steel"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener",
+      "materials": [
+        "fish-oil-residue | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.001",
+      "materials": [
+        "fish-oil-residue | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.002",
+      "materials": [
+        "fish-oil-residue | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.003",
+      "materials": [
+        "fish-oil-residue | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.004",
+      "materials": [
+        "fish-oil-residue | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.005",
+      "materials": [
+        "fish-oil-residue | brass"
+      ]
+    },
+    {
+      "part": "Open dark neck",
+      "materials": [
+        "fish-oil-residue | dark"
+      ]
+    },
+    {
+      "part": "Glossy sample meniscus",
+      "materials": [
+        "fish-oil-residue | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

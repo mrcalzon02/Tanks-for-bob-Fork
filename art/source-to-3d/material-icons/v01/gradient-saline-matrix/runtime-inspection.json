@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "gradient-saline-matrix",
+  "triangles": 3384,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "0b861a786dbdd78b0e176ac6e068f49057c1b40992a4234894d7efecf69c3733",
+  "authored_sha256": "23278e51a6039ae17efb25d2ffc615ca4266b257f419c70f634ceca655ba83fe",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

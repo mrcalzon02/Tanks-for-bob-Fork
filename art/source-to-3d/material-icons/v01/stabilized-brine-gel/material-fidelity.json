@@ -1,0 +1,17 @@
+{
+  "asset": "stabilized-brine-gel",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.1265129242869688,
+    0.12000305448436485,
+    0.13323278988965676
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "2e7db8db1288d19b945bdaedec4f071a3c443ac408edf0e1649bc56f74bf6ec1"
+}

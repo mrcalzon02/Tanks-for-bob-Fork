@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "fish-ash",
+  "triangles": 1308,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "6bc25133bbe1a6c3bf7b60e1939b2faf5d2328d9ca16db57979b2d3fe09cedbc",
+  "authored_sha256": "e975f3539ca60b42a3b306f2f160e2452cafa3107eabf700cf8e08343bd4784b",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

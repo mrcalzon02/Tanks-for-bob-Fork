@@ -1,0 +1,30 @@
+{
+  "asset": "reactive-enzyme-binder",
+  "construction": "A dense binder puck retained by an asymmetric clamp and a recessed service center.",
+  "regions": [
+    {
+      "part": "Keyed carrier puck",
+      "materials": [
+        "reactive-enzyme-binder | steel"
+      ]
+    },
+    {
+      "part": "Supported retaining collar",
+      "materials": [
+        "reactive-enzyme-binder | brass"
+      ]
+    },
+    {
+      "part": "Recessed active center",
+      "materials": [
+        "reactive-enzyme-binder | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

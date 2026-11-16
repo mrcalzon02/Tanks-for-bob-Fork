@@ -1,0 +1,19 @@
+{
+  "asset": "denatured-organic-base",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "24a9efc3b00ff3ab4468aaf9ca245073e29f08a8d2e9d266b17f0d9c200497fd",
+  "source_sha256": "124b13e132d06e6a8a18a856d3f2447cf65d54bf36c69d8e57b9d59264379a8b",
+  "render_sha256": "1f43f2b9e403afe50b254e2c8f2eae17272c353924117a4d3373e87cd60331f1",
+  "reference_icon_sha256": [
+    "41ddfc4d22d8e6012d06c468a64901cea4da762c2d083242f56a450a1838a1d2"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A rough coagulated organic mass on a shallow ceramic support. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

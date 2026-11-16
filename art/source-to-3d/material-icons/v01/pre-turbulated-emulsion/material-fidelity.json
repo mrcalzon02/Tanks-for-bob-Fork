@@ -1,0 +1,17 @@
+{
+  "asset": "pre-turbulated-emulsion",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.17070321969279592,
+    0.1651938206580426,
+    0.1746920245939573
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "90aff24f1fc62eb49a8d304bfa0da40faac21d67d56c7af8499342bf3c619352"
+}

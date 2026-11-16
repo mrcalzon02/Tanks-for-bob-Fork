@@ -1,0 +1,66 @@
+{
+  "asset": "work-order-slip",
+  "construction": "A folded work order with a dark job header and one exposed mechanical diagram.",
+  "regions": [
+    {
+      "part": "Folded document backing",
+      "materials": [
+        "work-order-slip | product"
+      ]
+    },
+    {
+      "part": "Bound report sheet",
+      "materials": [
+        "work-order-slip | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.001",
+      "materials": [
+        "work-order-slip | paper"
+      ]
+    },
+    {
+      "part": "Printed document header",
+      "materials": [
+        "work-order-slip | dark"
+      ]
+    },
+    {
+      "part": "Printed report rule",
+      "materials": [
+        "work-order-slip | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.001",
+      "materials": [
+        "work-order-slip | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.002",
+      "materials": [
+        "work-order-slip | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.003",
+      "materials": [
+        "work-order-slip | ink"
+      ]
+    },
+    {
+      "part": "Spring steel retaining clip",
+      "materials": [
+        "work-order-slip | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

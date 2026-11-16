@@ -1,0 +1,17 @@
+{
+  "asset": "hyperencabulator",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.32091665653178586,
+    0.2692287645290755,
+    0.2540959396771896
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "6aa82e5b0adf9d660e973bb6b667b60ed0540e8a7a98bddc1d7b5c1edac2ca0e"
+}

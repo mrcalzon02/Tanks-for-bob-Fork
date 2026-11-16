@@ -1,0 +1,19 @@
+{
+  "asset": "certified-work-order",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "7fa1eac0bbc3f6a1ff99d2ddbe85f82f801bfa8106c9947f04b0d8152408a5f8",
+  "source_sha256": "273ff6ada3ca6558e415cbf2dd34f2cb69fbb6e81b2bdb9c397b1172eb298386",
+  "render_sha256": "15af3c7813c3f7befaa99b9cf9f42766d0a0d177d4a09f30bb8bfdfe3bbfb8f7",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A folded certified order with a raised red wax seal and tied document ribbon. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

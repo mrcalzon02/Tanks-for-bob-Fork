@@ -1,0 +1,66 @@
+{
+  "asset": "folder",
+  "construction": "A heavy tabbed manila folder with folded spine and protruding sheets.",
+  "regions": [
+    {
+      "part": "Folded document backing",
+      "materials": [
+        "folder | product"
+      ]
+    },
+    {
+      "part": "Bound report sheet",
+      "materials": [
+        "folder | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.001",
+      "materials": [
+        "folder | paper"
+      ]
+    },
+    {
+      "part": "Printed document header",
+      "materials": [
+        "folder | dark"
+      ]
+    },
+    {
+      "part": "Printed report rule",
+      "materials": [
+        "folder | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.001",
+      "materials": [
+        "folder | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.002",
+      "materials": [
+        "folder | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.003",
+      "materials": [
+        "folder | ink"
+      ]
+    },
+    {
+      "part": "Supported indexed folder tab",
+      "materials": [
+        "folder | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

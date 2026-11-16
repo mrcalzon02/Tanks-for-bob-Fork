@@ -1,0 +1,19 @@
+{
+  "asset": "heavy-brine-fraction",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "b94567742acb42e3523eeee2885e2d14da6197707f67fcd0e6abcdeb459390c5",
+  "source_sha256": "74b29b54466d23c2890748adf26af9f61333d557f43d465aeacfbfad6ff6a4e2",
+  "render_sha256": "acd801bbb65d2ad407b1bf97d6325ad7c73900127fdb71df58e6515ba1bcc9af",
+  "reference_icon_sha256": [
+    "073bcef07e08adb9f5c69cb53dcb9fe781d9e8cfbb53f013daad7b510cb30d5b"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A squat, wide-shouldered brine container with a large side sight port. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

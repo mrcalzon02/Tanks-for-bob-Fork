@@ -1,0 +1,17 @@
+{
+  "asset": "oscillated-lubricant",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.3103475250816498,
+    0.3069250777384468,
+    0.3144740187354546
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "1d2b8f0a897dd97a6724f9b0e341803361992556dc8727a628d73b9a8b38c43f"
+}

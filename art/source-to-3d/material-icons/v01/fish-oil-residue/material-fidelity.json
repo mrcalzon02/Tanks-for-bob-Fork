@@ -1,0 +1,17 @@
+{
+  "asset": "fish-oil-residue",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.16849615806805707,
+    0.17547681119648736,
+    0.20038076289791437
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "02652e7dbee1012131ec2da0682563ca5b2ab81e918cbdc3111fc5ec9c8f4de0"
+}

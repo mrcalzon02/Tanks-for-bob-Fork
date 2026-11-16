@@ -1,0 +1,78 @@
+{
+  "asset": "stakeholder-review-summary",
+  "construction": "Three fanned summary folders with staggered index tabs and a short summary sheet.",
+  "regions": [
+    {
+      "part": "Fanned summary folder",
+      "materials": [
+        "stakeholder-review-summary | product"
+      ]
+    },
+    {
+      "part": "Fanned summary folder.001",
+      "materials": [
+        "stakeholder-review-summary | product"
+      ]
+    },
+    {
+      "part": "Fanned summary folder.002",
+      "materials": [
+        "stakeholder-review-summary | product"
+      ]
+    },
+    {
+      "part": "Bound report sheet",
+      "materials": [
+        "stakeholder-review-summary | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.001",
+      "materials": [
+        "stakeholder-review-summary | paper"
+      ]
+    },
+    {
+      "part": "Printed document header",
+      "materials": [
+        "stakeholder-review-summary | dark"
+      ]
+    },
+    {
+      "part": "Printed report rule",
+      "materials": [
+        "stakeholder-review-summary | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.001",
+      "materials": [
+        "stakeholder-review-summary | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.002",
+      "materials": [
+        "stakeholder-review-summary | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.003",
+      "materials": [
+        "stakeholder-review-summary | ink"
+      ]
+    },
+    {
+      "part": "Supported indexed folder tab",
+      "materials": [
+        "stakeholder-review-summary | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

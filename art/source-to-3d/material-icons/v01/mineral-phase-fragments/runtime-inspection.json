@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "mineral-phase-fragments",
+  "triangles": 2832,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "1907a5e03d3e7e4917343e9d63410521c12c7b521625d190bd8fe9c2bc504bab",
+  "authored_sha256": "314f72fd7cd2e4dc280d436b51982c6641d45c837baa01e118bf3f66924d9458",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

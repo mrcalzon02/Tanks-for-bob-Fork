@@ -1,0 +1,210 @@
+{
+  "asset": "stone-water-wheel",
+  "construction": "A stone-supported water-wheel assembly with a real axle, spokes and broad wooden paddles.",
+  "regions": [
+    {
+      "part": "Stone wheel support pier",
+      "materials": [
+        "stone-water-wheel | stone"
+      ]
+    },
+    {
+      "part": "Stone wheel support pier.001",
+      "materials": [
+        "stone-water-wheel | stone"
+      ]
+    },
+    {
+      "part": "Supported wooden wheel axle",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Circular wooden wheel rim",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.001",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.002",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.003",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.004",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.005",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.006",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.007",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Circular wooden wheel rim.001",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.008",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.009",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.010",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.011",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.012",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.013",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.014",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Load-bearing wheel spoke.015",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Broad wooden paddle",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Broad wooden paddle.001",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Broad wooden paddle.002",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Broad wooden paddle.003",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Broad wooden paddle.004",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Broad wooden paddle.005",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Broad wooden paddle.006",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Broad wooden paddle.007",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Broad wooden paddle.008",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Broad wooden paddle.009",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Broad wooden paddle.010",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    },
+    {
+      "part": "Broad wooden paddle.011",
+      "materials": [
+        "stone-water-wheel | wood"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

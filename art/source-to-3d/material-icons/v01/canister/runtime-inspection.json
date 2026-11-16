@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "canister",
+  "triangles": 5928,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "de5963c1a38689e1bd616468a0f8f471e0cce2d9d05b034d26b072af16382d98",
+  "authored_sha256": "38273c6ffff690bc6482f41ffbab5b1f1eedc4b55fa817352eafbabf1c0da77b",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "oscillated-lubricant",
+  "triangles": 14152,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "1d2b8f0a897dd97a6724f9b0e341803361992556dc8727a628d73b9a8b38c43f",
+  "authored_sha256": "6c1ba799236e857549e43f40b5431af6ad088b00feb526b739aa66cbfbcd8f83",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

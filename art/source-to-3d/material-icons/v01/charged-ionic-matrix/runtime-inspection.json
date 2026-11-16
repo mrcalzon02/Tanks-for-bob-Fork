@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "charged-ionic-matrix",
+  "triangles": 3544,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "61354da51f8561aff9918fb8c0b941c634d54d035f23e69020d0a557a4b42850",
+  "authored_sha256": "26ad713a78868a645a678b90e79aab9c41360eff12b7f1fac6607839f66e95e0",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

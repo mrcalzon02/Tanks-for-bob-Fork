@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "crude-glass",
+  "triangles": 1692,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "f1f401c5c1e31c6f0711df7c1f584c42637ad164441a6f4b1969e8c80cc61be6",
+  "authored_sha256": "5c403a55f04980f8507d3f1b96f0fc3886085075394a502f25c3f656b789de97",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

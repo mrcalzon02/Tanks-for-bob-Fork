@@ -1,0 +1,90 @@
+{
+  "asset": "turboencabulator",
+  "construction": "A twin-coil turbo drive with braced rotor discs and an exposed lower coupling.",
+  "regions": [
+    {
+      "part": "Bolted mechanical base",
+      "materials": [
+        "turboencabulator | steel"
+      ]
+    },
+    {
+      "part": "Supported rotor upright",
+      "materials": [
+        "turboencabulator | dark"
+      ]
+    },
+    {
+      "part": "Supported rotor upright.001",
+      "materials": [
+        "turboencabulator | dark"
+      ]
+    },
+    {
+      "part": "Supported encabulator core",
+      "materials": [
+        "turboencabulator | product"
+      ]
+    },
+    {
+      "part": "Actual conductive winding",
+      "materials": [
+        "turboencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.001",
+      "materials": [
+        "turboencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.002",
+      "materials": [
+        "turboencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.003",
+      "materials": [
+        "turboencabulator | copper"
+      ]
+    },
+    {
+      "part": "Supported encabulator core.001",
+      "materials": [
+        "turboencabulator | product"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.004",
+      "materials": [
+        "turboencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.005",
+      "materials": [
+        "turboencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.006",
+      "materials": [
+        "turboencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.007",
+      "materials": [
+        "turboencabulator | copper"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

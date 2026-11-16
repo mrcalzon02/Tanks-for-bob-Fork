@@ -1,0 +1,17 @@
+{
+  "asset": "osmotic-residue",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.09981950779287299,
+    0.09538037513110076,
+    0.10306348935339886
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "83758914088c83c7c019102515d070710e60b2c96913486b238e52fa8c350700"
+}

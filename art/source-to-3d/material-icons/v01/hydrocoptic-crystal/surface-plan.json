@@ -1,0 +1,54 @@
+{
+  "asset": "hydrocoptic-crystal",
+  "construction": "Three broad hydrocoptic crystals with large readable terminal facets.",
+  "regions": [
+    {
+      "part": "Mineral growth base",
+      "materials": [
+        "hydrocoptic-crystal | stone"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces",
+      "materials": [
+        "hydrocoptic-crystal | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination",
+      "materials": [
+        "hydrocoptic-crystal | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.001",
+      "materials": [
+        "hydrocoptic-crystal | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.001",
+      "materials": [
+        "hydrocoptic-crystal | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.002",
+      "materials": [
+        "hydrocoptic-crystal | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.002",
+      "materials": [
+        "hydrocoptic-crystal | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

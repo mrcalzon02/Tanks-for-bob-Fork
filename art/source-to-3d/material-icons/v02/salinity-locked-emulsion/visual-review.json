@@ -1,0 +1,19 @@
+{
+  "asset": "salinity-locked-emulsion",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "07431dbfb7c18032ef3bd3b05cc6a556439bd00db3a22c78b022fbfc9b19097b",
+  "source_sha256": "cd0efcd46a90cbf9de531f2fa42d87cae14a032b41075cd9e766fe74ed6bbefe",
+  "render_sha256": "b9315316a89105253ed82ef1484d068cf2dde637437e56053259ec4ff52de5e1",
+  "reference_icon_sha256": [
+    "dee8d19b3ea282e67c5b0bc9154da92475d0aa0bf1c4e5ce79e16c956fd63ce9"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A sealed pear-shaped emulsion flask, locking collar and ceramic stopper. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

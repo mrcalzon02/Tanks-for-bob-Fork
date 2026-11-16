@@ -1,0 +1,17 @@
+{
+  "asset": "protein-slurry",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.14302572574935096,
+    0.14424514200298955,
+    0.14902446699708913
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "a94742ec73c2d7dc74d8749fe817d35b7fb32222eccb51603307913619093160"
+}

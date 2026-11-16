@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "charcoal",
+  "triangles": 2508,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "edd5ad6d85ecc4b0590194f79bb26217ebf3382ac5238851c5430fe939f3a564",
+  "authored_sha256": "658053efb0ce8240336fa851c83bf73a0582989a5d032ac1533b90bb7c0ed7d4",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

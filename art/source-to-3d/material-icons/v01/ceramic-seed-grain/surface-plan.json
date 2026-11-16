@@ -1,0 +1,114 @@
+{
+  "asset": "ceramic-seed-grain",
+  "construction": "Small ceramic seed beads in a thick-walled ceramic assay bowl.",
+  "regions": [
+    {
+      "part": "Thick-walled sample vessel",
+      "materials": [
+        "ceramic-seed-grain | steel"
+      ]
+    },
+    {
+      "part": "Supported vessel retaining rim",
+      "materials": [
+        "ceramic-seed-grain | ceramic"
+      ]
+    },
+    {
+      "part": "Contained sample surface",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.001",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.002",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.003",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.004",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.005",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.006",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.007",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.008",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.009",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.010",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.011",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.012",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.013",
+      "materials": [
+        "ceramic-seed-grain | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "asset": "biphasic-brine-gel",
+  "construction": "A broad gel cup with two physically separate layers under the retaining rim.",
+  "regions": [
+    {
+      "part": "Closed sample vessel",
+      "materials": [
+        "biphasic-brine-gel | dark"
+      ]
+    },
+    {
+      "part": "Vessel cap",
+      "materials": [
+        "biphasic-brine-gel | steel"
+      ]
+    },
+    {
+      "part": "Cap retaining lip",
+      "materials": [
+        "biphasic-brine-gel | brass"
+      ]
+    },
+    {
+      "part": "Recessed sample sight port",
+      "materials": [
+        "biphasic-brine-gel | steel"
+      ]
+    },
+    {
+      "part": "Opaque glass sample window",
+      "materials": [
+        "biphasic-brine-gel | product"
+      ]
+    },
+    {
+      "part": "Lower separated phase",
+      "materials": [
+        "biphasic-brine-gel | secondary"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "bio-synthetic-precursor",
+  "triangles": 6308,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "73ace5c9bfd4715709754ec79b19211e4fbd0ba9be31e02d06a839bef33af04b",
+  "authored_sha256": "a312a1994772471731aad4b56498068697e867711ba44b4649e46c3e16af06d9",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

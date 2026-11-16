@@ -1,0 +1,17 @@
+{
+  "asset": "tank-ammo-reinforced-casing",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.15475785689998542,
+    0.15297679765547836,
+    0.1565551075921698
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "a776ddadac61e1aa98b70524cb839ccb75b337cec26ce2af9d7bccf73793cf67"
+}

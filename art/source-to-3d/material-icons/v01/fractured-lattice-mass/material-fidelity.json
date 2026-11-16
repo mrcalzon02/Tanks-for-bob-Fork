@@ -1,0 +1,17 @@
+{
+  "asset": "fractured-lattice-mass",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.19299112985313363,
+    0.19828413552421115,
+    0.19377635596917261
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "441b96480f09d61c7881c2689ddbda4ff593e9d1c69eef7b7526966b2b9662a9"
+}

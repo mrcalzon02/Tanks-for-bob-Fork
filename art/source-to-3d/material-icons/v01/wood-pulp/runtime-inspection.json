@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "wood-pulp",
+  "triangles": 1420,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "9ab93cc2bfbdf0349483f42611599ccfc98a7e9a2632ca06a45fd409bed1805e",
+  "authored_sha256": "ae83f3532d4b6ee1b9d0b52e79fe5ce4165ffc41f589d50045c56e3af2257fb8",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

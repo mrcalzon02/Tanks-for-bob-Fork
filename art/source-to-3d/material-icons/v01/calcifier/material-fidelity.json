@@ -1,0 +1,17 @@
+{
+  "asset": "calcifier",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.21812248995983935,
+    0.21496701090074585,
+    0.22932802639127942
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "12889cb8d952bb84c0a488b2f7565a25d68567a9ff2a35c87e3f61506dfaf319"
+}

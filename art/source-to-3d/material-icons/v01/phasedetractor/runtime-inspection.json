@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "phasedetractor",
+  "triangles": 4644,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "5fb8af774f1e87c12af78ba353528f6ed518e068f39141f566ce870b3b57d8a6",
+  "authored_sha256": "44281da8047b6a0c16286f64104a2eefa8b433f0d95d41331f790206c981b66a",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

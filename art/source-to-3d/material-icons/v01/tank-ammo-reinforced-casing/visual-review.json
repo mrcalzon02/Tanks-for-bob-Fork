@@ -1,0 +1,19 @@
+{
+  "asset": "tank-ammo-reinforced-casing",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "a776ddadac61e1aa98b70524cb839ccb75b337cec26ce2af9d7bccf73793cf67",
+  "source_sha256": "b3cd34b5ee8e6a100c8c500ddfd2730188e57b522b7f2a42f4a0d544d70e439e",
+  "render_sha256": "81c652888166a58677ef4f69425ab090a9538200e4d6812f71267aa36403d0e0",
+  "reference_icon_sha256": [
+    "2c54ca138cb0436ac6394bac46b8b7d2563c00e1a80b90de61c1475a301de11d"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A hollow reinforced shell case with two structural collars and a thick keyed base. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

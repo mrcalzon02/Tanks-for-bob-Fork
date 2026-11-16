@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "ceramic-seed-grain",
+  "triangles": 4696,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "7c1e36b031a33b3b67752bc9e3a9b6c511c3729ceafa0a6c039a812e4ab551eb",
+  "authored_sha256": "2433b256d56b3620073127ec87970a1889d3e071979c337b69a50e10cbe88aed",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

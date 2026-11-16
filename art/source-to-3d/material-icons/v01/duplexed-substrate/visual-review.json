@@ -1,0 +1,19 @@
+{
+  "asset": "duplexed-substrate",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "0e39e3c57859c05cac402cea30a4f9b7678d50b895571a7ba4d9b6345135936c",
+  "source_sha256": "ac6cb4764f57dff13850702abc31a02022b0ce4f3a38e76abcbc81db6c6bd6c7",
+  "render_sha256": "e151dd9d932c1b12bca21509514cd9eb0306fd0da0e954103f2a8d2ae8ef17cc",
+  "reference_icon_sha256": [
+    "1555babecaae05e62e642ce51403f23d9509362f54105994d30e6dc2a79f3017"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Two offset substrate boards with distinct insulating layers, conductive traces and edge contacts. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

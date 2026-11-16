@@ -1,0 +1,19 @@
+{
+  "asset": "duplexedspervingarm",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "5cf57d017c03eb3caf85f773b66550b4483cff344a5be1fb2a0dc9da19b9db74",
+  "source_sha256": "24d321fc0e703662cd0eea03d0a25e33811aacdd10d6c774c7364f9cbd6d6af9",
+  "render_sha256": "08a6208d6d8ea791a08e0eb4d38a6349a033393bc823da74ee2e669bf0069d61",
+  "reference_icon_sha256": [
+    "f9f8e17c7afab3fb5d14651e551ffe25b5cb1cdaf97547d62cc3e66bdfd7d8ff"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Two linked sperving arms with independent joints and one reinforced mounting beam. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

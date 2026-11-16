@@ -1,0 +1,17 @@
+{
+  "asset": "bio-synthetic-precursor",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.0953171397480588,
+    0.08937826223279662,
+    0.11342887179770929
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "73ace5c9bfd4715709754ec79b19211e4fbd0ba9be31e02d06a839bef33af04b"
+}

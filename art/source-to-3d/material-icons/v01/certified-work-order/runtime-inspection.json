@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "certified-work-order",
+  "triangles": 2580,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "7fa1eac0bbc3f6a1ff99d2ddbe85f82f801bfa8106c9947f04b0d8152408a5f8",
+  "authored_sha256": "273ff6ada3ca6558e415cbf2dd34f2cb69fbb6e81b2bdb9c397b1172eb298386",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

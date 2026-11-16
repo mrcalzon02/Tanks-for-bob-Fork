@@ -1,0 +1,17 @@
+{
+  "asset": "phase-reactive-granules",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.12119588343761328,
+    0.13607350553970782,
+    0.22880648059132244
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "14c98eb4c2177241ec4f50b8b86925d04bb6665f8e12604c2d59d887230c00cc"
+}

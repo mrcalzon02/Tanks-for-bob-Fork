@@ -1,0 +1,19 @@
+{
+  "asset": "catalytic-organic-medium",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "8370f611ad8d70e40fe11fae252c6ef61a0d67d8d987c799ec38cde6a8f5ad18",
+  "source_sha256": "515ba4c9ecfd5d93c4de69691d788878945d9a1a76d4886dbe23dde8dd2aeee2",
+  "render_sha256": "da82c10f0fdaeedeb4052cea3f1f4ceb72425581dfcb99406b4080af8b4397f8",
+  "reference_icon_sha256": [
+    "05fb04847e788f224336226dc6a5ee36b441e1076ef78904c6cc7ae955322272"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Round catalytic pellets in a supported conical assay hopper. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

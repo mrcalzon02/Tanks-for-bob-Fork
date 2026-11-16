@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "dielectric-chowder",
+  "triangles": 4696,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "56efda866d98b882fa777d37e85dcfe69590c37428d09554f645078e95384e5a",
+  "authored_sha256": "cb46d5a5342a07962641d75a6c3c82bc1cf7ca9b5d7022a0783e5c90fbcee631",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

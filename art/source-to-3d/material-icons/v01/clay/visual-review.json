@@ -1,0 +1,19 @@
+{
+  "asset": "clay",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "5b8d33104557f4f588863a161a05b175d37e31b8f05458924f7586b0842ff1d6",
+  "source_sha256": "a7d7e5a98c69f0437d19dcab15cbf784d84af63b95488672dfe826ddee5e948c",
+  "render_sha256": "f865079a2577e00ee256c664b49fd3008731a4b7012ab6c249b2270a7054fdd1",
+  "reference_icon_sha256": [
+    "330fa5dbbcf1f23f5aa8e2f23f890f9d12f902316632d0f63881b241dcae5602"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Three irregular wet clay lumps; thumb-compressed surfaces, coarse inclusions and no crate. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

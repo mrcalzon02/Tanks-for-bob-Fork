@@ -1,0 +1,17 @@
+{
+  "asset": "phase-unstable-granulate",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.1852332625285186,
+    0.1833451341357879,
+    0.2000039336008182
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "8bb5531e0f96c27faf948218caa81174b0eb4a87458f2be1d4e46d7a90083836"
+}

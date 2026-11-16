@@ -1,0 +1,17 @@
+{
+  "asset": "requisition-slip",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.06470840056640433,
+    0.06841856840210316,
+    0.08308361049823822
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "ebafdf682dacc41a4401136701f5b05a6382a69798f89c377ef7b371e89b8621"
+}

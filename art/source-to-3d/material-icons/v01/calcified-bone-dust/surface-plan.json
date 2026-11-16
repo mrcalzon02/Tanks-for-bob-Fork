@@ -1,0 +1,102 @@
+{
+  "asset": "calcified-bone-dust",
+  "construction": "Fine pale dust with a clearly exposed calcified bone and joint fragments.",
+  "regions": [
+    {
+      "part": "Coagulated material mass",
+      "materials": [
+        "calcified-bone-dust | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate",
+      "materials": [
+        "calcified-bone-dust | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.001",
+      "materials": [
+        "calcified-bone-dust | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.002",
+      "materials": [
+        "calcified-bone-dust | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.003",
+      "materials": [
+        "calcified-bone-dust | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.004",
+      "materials": [
+        "calcified-bone-dust | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.005",
+      "materials": [
+        "calcified-bone-dust | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.006",
+      "materials": [
+        "calcified-bone-dust | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.007",
+      "materials": [
+        "calcified-bone-dust | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.008",
+      "materials": [
+        "calcified-bone-dust | product"
+      ]
+    },
+    {
+      "part": "Exposed bone shaft",
+      "materials": [
+        "calcified-bone-dust | ceramic"
+      ]
+    },
+    {
+      "part": "Calcified bone joint",
+      "materials": [
+        "calcified-bone-dust | ceramic"
+      ]
+    },
+    {
+      "part": "Calcified bone joint.001",
+      "materials": [
+        "calcified-bone-dust | ceramic"
+      ]
+    },
+    {
+      "part": "Calcified bone joint.002",
+      "materials": [
+        "calcified-bone-dust | ceramic"
+      ]
+    },
+    {
+      "part": "Calcified bone joint.003",
+      "materials": [
+        "calcified-bone-dust | ceramic"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

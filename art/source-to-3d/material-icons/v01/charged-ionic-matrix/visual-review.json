@@ -1,0 +1,19 @@
+{
+  "asset": "charged-ionic-matrix",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "61354da51f8561aff9918fb8c0b941c634d54d035f23e69020d0a557a4b42850",
+  "source_sha256": "26ad713a78868a645a678b90e79aab9c41360eff12b7f1fac6607839f66e95e0",
+  "render_sha256": "153204ad3b8e22e69cd2ec37e70f5c0583e5fd8987f01e61411620ec4202028d",
+  "reference_icon_sha256": [
+    "21631b9ad157b4da84587a9a32ae68cb74ee809cadee0c54a98b9ff00db367b7"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A conductive open-cell matrix with small charged inserts inside a rigid brass carrier. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

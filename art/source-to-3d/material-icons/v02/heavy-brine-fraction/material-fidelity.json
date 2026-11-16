@@ -1,0 +1,17 @@
+{
+  "asset": "heavy-brine-fraction",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.323021978998241,
+    0.30269540342211404,
+    0.30777704731614575
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "b94567742acb42e3523eeee2885e2d14da6197707f67fcd0e6abcdeb459390c5"
+}

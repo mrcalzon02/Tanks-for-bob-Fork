@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "electro-phase-precursor",
+  "triangles": 896,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "3ad9fb6b1e62c6691f013abfbb99f2e2d217d969bcce2c59d1dc0954b8e24e44",
+  "authored_sha256": "57d3c657fc7e06960e4b4bc35cdfedaee9193c031e5f39f52e013609d6c8e315",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

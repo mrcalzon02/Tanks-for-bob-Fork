@@ -1,0 +1,19 @@
+{
+  "asset": "microcrystal-sediment",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "defba503ae909ff71a7f509d7aaeb411d924121cac0b9192037f344ab32b79c3",
+  "source_sha256": "01fe5700579b93a1e9864603aa47a6252476490527365dfa63bba098566b1f23",
+  "render_sha256": "4199a73c3c76cc43d70e12a9a91c67525e84471f8599f57b3f668d6860e0b223",
+  "reference_icon_sha256": [
+    "470749e226e3b6ee88059cea5a54b97ce8c0e362729712fa43bac21d40415397"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A narrow sediment vial with a pale deposited bottom band and long neck. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "liability-contained-report",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.16630974338660362,
+    0.15318817077850538,
+    0.19608085859648688
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "ba79fa29bc6a263343e0a6b52113a0c3c6d5ec28365ab86b2268183e7b19cb36"
+}

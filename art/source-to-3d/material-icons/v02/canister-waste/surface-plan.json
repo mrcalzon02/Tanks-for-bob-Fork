@@ -1,0 +1,156 @@
+{
+  "asset": "canister-waste",
+  "construction": "Contaminated return canister, dark residue at the service opening and a waste collar.",
+  "regions": [
+    {
+      "part": "Pressure shell",
+      "materials": [
+        "canister-waste | steel"
+      ]
+    },
+    {
+      "part": "Dished pressure-vessel end",
+      "materials": [
+        "canister-waste | steel"
+      ]
+    },
+    {
+      "part": "Dished pressure-vessel end.001",
+      "materials": [
+        "canister-waste | steel"
+      ]
+    },
+    {
+      "part": "Thick rolled end cap",
+      "materials": [
+        "canister-waste | dark"
+      ]
+    },
+    {
+      "part": "Thick rolled end cap.001",
+      "materials": [
+        "canister-waste | dark"
+      ]
+    },
+    {
+      "part": "Retaining neck collar",
+      "materials": [
+        "canister-waste | brass"
+      ]
+    },
+    {
+      "part": "Closed service neck",
+      "materials": [
+        "canister-waste | steel"
+      ]
+    },
+    {
+      "part": "Flush front inspection bezel",
+      "materials": [
+        "canister-waste | dark"
+      ]
+    },
+    {
+      "part": "Contained state window",
+      "materials": [
+        "canister-waste | product"
+      ]
+    },
+    {
+      "part": "Flush window-retaining screw",
+      "materials": [
+        "canister-waste | brass"
+      ]
+    },
+    {
+      "part": "Flush window-retaining screw.001",
+      "materials": [
+        "canister-waste | brass"
+      ]
+    },
+    {
+      "part": "Flush window-retaining screw.002",
+      "materials": [
+        "canister-waste | brass"
+      ]
+    },
+    {
+      "part": "Flush window-retaining screw.003",
+      "materials": [
+        "canister-waste | brass"
+      ]
+    },
+    {
+      "part": "Recessed state indicator",
+      "materials": [
+        "canister-waste | dark"
+      ]
+    },
+    {
+      "part": "Recessed state indicator.001",
+      "materials": [
+        "canister-waste | dark"
+      ]
+    },
+    {
+      "part": "Recessed state indicator.002",
+      "materials": [
+        "canister-waste | dark"
+      ]
+    },
+    {
+      "part": "Service cap retaining bolt",
+      "materials": [
+        "canister-waste | brass"
+      ]
+    },
+    {
+      "part": "Service cap retaining bolt.001",
+      "materials": [
+        "canister-waste | brass"
+      ]
+    },
+    {
+      "part": "Service cap retaining bolt.002",
+      "materials": [
+        "canister-waste | brass"
+      ]
+    },
+    {
+      "part": "Service cap retaining bolt.003",
+      "materials": [
+        "canister-waste | brass"
+      ]
+    },
+    {
+      "part": "Service cap retaining bolt.004",
+      "materials": [
+        "canister-waste | brass"
+      ]
+    },
+    {
+      "part": "Service cap retaining bolt.005",
+      "materials": [
+        "canister-waste | brass"
+      ]
+    },
+    {
+      "part": "Supported return lock tab",
+      "materials": [
+        "canister-waste | brass"
+      ]
+    },
+    {
+      "part": "Supported return lock tab.001",
+      "materials": [
+        "canister-waste | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

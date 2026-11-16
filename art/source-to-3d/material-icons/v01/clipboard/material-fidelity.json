@@ -1,0 +1,17 @@
+{
+  "asset": "clipboard",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.08436958367745763,
+    0.08849907522654042,
+    0.10079449090930241
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "9eeb054ccee64b5cf32e484cb5c84b6fecde7841c17043b563ebd0e06ae9d046"
+}

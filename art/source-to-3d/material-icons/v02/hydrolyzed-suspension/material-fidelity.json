@@ -1,0 +1,17 @@
+{
+  "asset": "hydrolyzed-suspension",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.28177094826375654,
+    0.256935946558607,
+    0.2503560753475496
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "c381867208662057b1a2f16609c07edcbc314f3614e36e82465ccfafac77d390"
+}

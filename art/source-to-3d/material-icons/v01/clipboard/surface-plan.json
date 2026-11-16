@@ -1,0 +1,66 @@
+{
+  "asset": "clipboard",
+  "construction": "Wooden clipboard with spring-steel clip and a white work sheet.",
+  "regions": [
+    {
+      "part": "Rigid report cover",
+      "materials": [
+        "clipboard | product"
+      ]
+    },
+    {
+      "part": "Bound report sheet",
+      "materials": [
+        "clipboard | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.001",
+      "materials": [
+        "clipboard | paper"
+      ]
+    },
+    {
+      "part": "Printed document header",
+      "materials": [
+        "clipboard | dark"
+      ]
+    },
+    {
+      "part": "Printed report rule",
+      "materials": [
+        "clipboard | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.001",
+      "materials": [
+        "clipboard | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.002",
+      "materials": [
+        "clipboard | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.003",
+      "materials": [
+        "clipboard | ink"
+      ]
+    },
+    {
+      "part": "Spring steel retaining clip",
+      "materials": [
+        "clipboard | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

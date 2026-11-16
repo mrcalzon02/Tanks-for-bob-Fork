@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "seared-fish",
+  "triangles": 784,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "27abe5e0722da8b0ee41a54e2c8ed503ae115320e81d456e9d9477013953a943",
+  "authored_sha256": "cdea227899c37046a990a2460ebd8cc05e7dcc6354b8ec31ffcdb29ad62c4ad5",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

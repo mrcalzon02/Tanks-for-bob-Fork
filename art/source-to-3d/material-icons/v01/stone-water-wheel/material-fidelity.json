@@ -1,0 +1,17 @@
+{
+  "asset": "stone-water-wheel",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.25747445913461536,
+    0.23747370793269232,
+    0.21553861177884615
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "57672214a9c563031158f822e4237cfe5c102f09e8dff00297ca9e4199632b3f"
+}

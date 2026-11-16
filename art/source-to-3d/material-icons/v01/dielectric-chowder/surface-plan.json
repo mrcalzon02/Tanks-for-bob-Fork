@@ -1,0 +1,114 @@
+{
+  "asset": "dielectric-chowder",
+  "construction": "A broad ceramic vessel holding pale dielectric paste and visible inert ceramic inclusions.",
+  "regions": [
+    {
+      "part": "Thick-walled sample vessel",
+      "materials": [
+        "dielectric-chowder | ceramic"
+      ]
+    },
+    {
+      "part": "Supported vessel retaining rim",
+      "materials": [
+        "dielectric-chowder | ceramic"
+      ]
+    },
+    {
+      "part": "Contained sample surface",
+      "materials": [
+        "dielectric-chowder | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.001",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.002",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.003",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.004",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.005",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.006",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.007",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.008",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.009",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.010",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.011",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.012",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.013",
+      "materials": [
+        "dielectric-chowder | secondary"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

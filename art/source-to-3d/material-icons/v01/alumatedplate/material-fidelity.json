@@ -1,0 +1,17 @@
+{
+  "asset": "alumatedplate",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.1492548500331039,
+    0.14555720728035876,
+    0.1468563790583503
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "0ef018aacedde1331a59258f4e896c695dce885a15c177073811ceb08eb2f16c"
+}

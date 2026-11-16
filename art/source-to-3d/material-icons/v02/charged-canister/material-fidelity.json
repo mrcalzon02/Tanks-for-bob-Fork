@@ -1,0 +1,17 @@
+{
+  "asset": "charged-canister",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.22383797789646237,
+    0.20987784887102745,
+    0.21008936597747344
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "30d05a0793bfc762e4ce4afbafb00edcb6840cd577e48a3563eab206eb431a20"
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "viscoelastic-froth",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "e5a4a5cc91c6300268dcd72c68e071252269901fa4399eb9530e26ce05304d6b",
+  "source_sha256": "2cbd70f3202594eaa7cc08ec08044ccac5bbc91169a73067cf9ec0b8ca977b87",
+  "render_sha256": "51453eb7bbe74fc848998c02ab0ea51e201abe1593c80d7a875279c41494ee8d",
+  "reference_icon_sha256": [
+    "bd95e5ad26fc76c49464ec279962251708cdfbe9a2f7835206b6376bb6957db0"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A wide froth cartridge with a visible bubble cap inside the supported upper rim. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

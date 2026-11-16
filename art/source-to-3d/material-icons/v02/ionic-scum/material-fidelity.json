@@ -1,0 +1,17 @@
+{
+  "asset": "ionic-scum",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.09176161460574897,
+    0.08968899358959839,
+    0.11316737264140259
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "b2e99c7d0a11e7aeb882ad949a4266fccd2d5f4bd7110456c45d4abce3dbb483"
+}

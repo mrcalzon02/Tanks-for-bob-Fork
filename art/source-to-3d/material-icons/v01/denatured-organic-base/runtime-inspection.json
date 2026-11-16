@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "denatured-organic-base",
+  "triangles": 800,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "24a9efc3b00ff3ab4468aaf9ca245073e29f08a8d2e9d266b17f0d9c200497fd",
+  "authored_sha256": "124b13e132d06e6a8a18a856d3f2447cf65d54bf36c69d8e57b9d59264379a8b",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

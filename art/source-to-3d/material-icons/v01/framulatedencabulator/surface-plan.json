@@ -1,0 +1,126 @@
+{
+  "asset": "framulatedencabulator",
+  "construction": "A framed three-coil encabulator with additional closed side braces and a square top bridge.",
+  "regions": [
+    {
+      "part": "Bolted mechanical base",
+      "materials": [
+        "framulatedencabulator | steel"
+      ]
+    },
+    {
+      "part": "Supported rotor upright",
+      "materials": [
+        "framulatedencabulator | dark"
+      ]
+    },
+    {
+      "part": "Supported rotor upright.001",
+      "materials": [
+        "framulatedencabulator | dark"
+      ]
+    },
+    {
+      "part": "Supported encabulator core",
+      "materials": [
+        "framulatedencabulator | product"
+      ]
+    },
+    {
+      "part": "Actual conductive winding",
+      "materials": [
+        "framulatedencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.001",
+      "materials": [
+        "framulatedencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.002",
+      "materials": [
+        "framulatedencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.003",
+      "materials": [
+        "framulatedencabulator | copper"
+      ]
+    },
+    {
+      "part": "Supported encabulator core.001",
+      "materials": [
+        "framulatedencabulator | product"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.004",
+      "materials": [
+        "framulatedencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.005",
+      "materials": [
+        "framulatedencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.006",
+      "materials": [
+        "framulatedencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.007",
+      "materials": [
+        "framulatedencabulator | copper"
+      ]
+    },
+    {
+      "part": "Supported encabulator core.002",
+      "materials": [
+        "framulatedencabulator | product"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.008",
+      "materials": [
+        "framulatedencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.009",
+      "materials": [
+        "framulatedencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.010",
+      "materials": [
+        "framulatedencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.011",
+      "materials": [
+        "framulatedencabulator | copper"
+      ]
+    },
+    {
+      "part": "Framulated top bridge",
+      "materials": [
+        "framulatedencabulator | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

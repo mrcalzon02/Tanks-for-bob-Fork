@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "microcrystal-sediment",
+  "triangles": 13744,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "defba503ae909ff71a7f509d7aaeb411d924121cac0b9192037f344ab32b79c3",
+  "authored_sha256": "01fe5700579b93a1e9864603aa47a6252476490527365dfa63bba098566b1f23",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "tank-ammo-reinforced-casing",
+  "triangles": 7668,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "a776ddadac61e1aa98b70524cb839ccb75b337cec26ce2af9d7bccf73793cf67",
+  "authored_sha256": "b3cd34b5ee8e6a100c8c500ddfd2730188e57b522b7f2a42f4a0d544d70e439e",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

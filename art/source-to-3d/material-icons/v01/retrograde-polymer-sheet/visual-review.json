@@ -1,0 +1,19 @@
+{
+  "asset": "retrograde-polymer-sheet",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "b6bb90fb49108aad8e4f283c62cb9c3894c41f5db727fc3b3bca8f9ddeb6c9d0",
+  "source_sha256": "066aea7dbfd5c1f4b887c0325e8d153ee027bc4cee3dc8a8eacf498326c8db88",
+  "render_sha256": "366736e925f57643311025d2bf24898ed9c5e398bd714c59e432468422c71863",
+  "reference_icon_sha256": [
+    "163b7ce557cb7aab78ead837b0e74cdc8327842643b686b54d5c4a2cb8cee167"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A rolled polymer sheet with visible layered spiral and a loose flat leading edge. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

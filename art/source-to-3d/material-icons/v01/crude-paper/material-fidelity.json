@@ -1,0 +1,17 @@
+{
+  "asset": "crude-paper",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.10808386177063363,
+    0.10894410853856364,
+    0.1256697635550312
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "e2e876311f38f70184d4fca2c790db04ef04beb5d5ef27811b3304348d9b053e"
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "cradinal-grametter",
+  "triangles": 5164,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "4a5da0c149ef880fd73f005de8faa39643050a9cfa475f743c4372ec2951980f",
+  "authored_sha256": "eac258201e5c5342aac74a0da568f68b9bd48ad28902728cd061cb898bb67c2c",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

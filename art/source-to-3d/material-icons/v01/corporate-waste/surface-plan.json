@@ -1,0 +1,72 @@
+{
+  "asset": "corporate-waste",
+  "construction": "Crumpled rejected paper, bent staples and a torn folder in a compact waste bundle.",
+  "regions": [
+    {
+      "part": "Crumpled rejected paper",
+      "materials": [
+        "corporate-waste | paper"
+      ]
+    },
+    {
+      "part": "Crumpled rejected paper.001",
+      "materials": [
+        "corporate-waste | paper"
+      ]
+    },
+    {
+      "part": "Crumpled rejected paper.002",
+      "materials": [
+        "corporate-waste | paper"
+      ]
+    },
+    {
+      "part": "Crumpled rejected paper.003",
+      "materials": [
+        "corporate-waste | paper"
+      ]
+    },
+    {
+      "part": "Crumpled rejected paper.004",
+      "materials": [
+        "corporate-waste | paper"
+      ]
+    },
+    {
+      "part": "Crumpled rejected paper.005",
+      "materials": [
+        "corporate-waste | paper"
+      ]
+    },
+    {
+      "part": "Crumpled rejected paper.006",
+      "materials": [
+        "corporate-waste | paper"
+      ]
+    },
+    {
+      "part": "Torn folder fragment",
+      "materials": [
+        "corporate-waste | product"
+      ]
+    },
+    {
+      "part": "Torn folder fragment.001",
+      "materials": [
+        "corporate-waste | product"
+      ]
+    },
+    {
+      "part": "Torn folder fragment.002",
+      "materials": [
+        "corporate-waste | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

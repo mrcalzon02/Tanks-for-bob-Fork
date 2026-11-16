@@ -1,0 +1,84 @@
+{
+  "asset": "tank-ammo-radioactivewaste",
+  "construction": "A heavy shielded radioactive-waste cask with thick lid, lock tabs and restrained indicator.",
+  "regions": [
+    {
+      "part": "Waste containment drum",
+      "materials": [
+        "tank-ammo-radioactivewaste | product"
+      ]
+    },
+    {
+      "part": "Supported rolled drum hoop",
+      "materials": [
+        "tank-ammo-radioactivewaste | steel"
+      ]
+    },
+    {
+      "part": "Supported rolled drum hoop.001",
+      "materials": [
+        "tank-ammo-radioactivewaste | steel"
+      ]
+    },
+    {
+      "part": "Supported rolled drum hoop.002",
+      "materials": [
+        "tank-ammo-radioactivewaste | steel"
+      ]
+    },
+    {
+      "part": "Fitted sealed waste lid",
+      "materials": [
+        "tank-ammo-radioactivewaste | dark"
+      ]
+    },
+    {
+      "part": "Hazard identification backing",
+      "materials": [
+        "tank-ammo-radioactivewaste | ceramic"
+      ]
+    },
+    {
+      "part": "Geometric waste hazard mark",
+      "materials": [
+        "tank-ammo-radioactivewaste | dark"
+      ]
+    },
+    {
+      "part": "Geometric waste hazard mark.001",
+      "materials": [
+        "tank-ammo-radioactivewaste | dark"
+      ]
+    },
+    {
+      "part": "Geometric waste hazard mark.002",
+      "materials": [
+        "tank-ammo-radioactivewaste | dark"
+      ]
+    },
+    {
+      "part": "Heavy shielding cap",
+      "materials": [
+        "tank-ammo-radioactivewaste | steel"
+      ]
+    },
+    {
+      "part": "Cap locking lug",
+      "materials": [
+        "tank-ammo-radioactivewaste | brass"
+      ]
+    },
+    {
+      "part": "Cap locking lug.001",
+      "materials": [
+        "tank-ammo-radioactivewaste | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

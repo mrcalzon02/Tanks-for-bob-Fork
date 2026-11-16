@@ -1,0 +1,17 @@
+{
+  "asset": "ceramic-lattice-core",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.1177013153673404,
+    0.11795529889851353,
+    0.12588225858196983
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "b518f6dd7e2ec286a65f28432ecf52b8515d68ee233915005f0a135e2d94b27e"
+}

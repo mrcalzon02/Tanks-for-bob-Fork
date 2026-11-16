@@ -1,0 +1,19 @@
+{
+  "asset": "ceramic-lattice-core",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "b518f6dd7e2ec286a65f28432ecf52b8515d68ee233915005f0a135e2d94b27e",
+  "source_sha256": "de433032d3115f0acfcdaf9822b625657d1f0f15b5c247c63cfdf4bff39a2bfe",
+  "render_sha256": "c6f95bc8c796808a5b2631bdb137e5933e8c68dcbb3b068168e18ece2b32ede5",
+  "reference_icon_sha256": [
+    "e7d689d3f4a8a846be616c34e480cd5d085e140f647a5948c108721e2d32da77"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "An open cylindrical ceramic core with real hexagonal cells and a protective outside band. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

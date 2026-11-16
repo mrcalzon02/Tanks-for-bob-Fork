@@ -1,0 +1,192 @@
+{
+  "asset": "bioceramic-grit",
+  "construction": "Coarse irregular bioceramic grit with matte, freshly fractured surfaces.",
+  "regions": [
+    {
+      "part": "Angular material grain",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.001",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.002",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.003",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.004",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.005",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.006",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.007",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.008",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.009",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.010",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.011",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.012",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.013",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.014",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.015",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.016",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.017",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.018",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.019",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.020",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.021",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.022",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.023",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.024",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.025",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.026",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.027",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.028",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    },
+    {
+      "part": "Angular material grain.029",
+      "materials": [
+        "bioceramic-grit | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "asset": "electro-phase-precursor",
+  "construction": "Three triangular precursor wafers retained by an offset conductive clip.",
+  "regions": [
+    {
+      "part": "Triangular precursor wafer",
+      "materials": [
+        "electro-phase-precursor | product"
+      ]
+    },
+    {
+      "part": "Triangular precursor wafer.001",
+      "materials": [
+        "electro-phase-precursor | product"
+      ]
+    },
+    {
+      "part": "Triangular precursor wafer.002",
+      "materials": [
+        "electro-phase-precursor | product"
+      ]
+    },
+    {
+      "part": "Conductive wafer retaining clip",
+      "materials": [
+        "electro-phase-precursor | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

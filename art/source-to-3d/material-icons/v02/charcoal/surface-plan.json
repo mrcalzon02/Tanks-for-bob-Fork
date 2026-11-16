@@ -1,0 +1,156 @@
+{
+  "asset": "charcoal",
+  "construction": "Charred split timber pieces with actual end checking and pale ash in recessed fractures.",
+  "regions": [
+    {
+      "part": "Irregular split charcoal chunk 0",
+      "materials": [
+        "charcoal | char"
+      ]
+    },
+    {
+      "part": "Ash caught in longitudinal char checking",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Ash caught in longitudinal char checking.001",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Ash caught in longitudinal char checking.002",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Charred end-grain fissure",
+      "materials": [
+        "charcoal | dark"
+      ]
+    },
+    {
+      "part": "Charred end-grain fissure.001",
+      "materials": [
+        "charcoal | dark"
+      ]
+    },
+    {
+      "part": "Irregular split charcoal chunk 1",
+      "materials": [
+        "charcoal | char"
+      ]
+    },
+    {
+      "part": "Ash caught in longitudinal char checking.003",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Ash caught in longitudinal char checking.004",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Ash caught in longitudinal char checking.005",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Charred end-grain fissure.002",
+      "materials": [
+        "charcoal | dark"
+      ]
+    },
+    {
+      "part": "Charred end-grain fissure.003",
+      "materials": [
+        "charcoal | dark"
+      ]
+    },
+    {
+      "part": "Irregular split charcoal chunk 2",
+      "materials": [
+        "charcoal | char"
+      ]
+    },
+    {
+      "part": "Ash caught in longitudinal char checking.006",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Ash caught in longitudinal char checking.007",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Ash caught in longitudinal char checking.008",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Charred end-grain fissure.004",
+      "materials": [
+        "charcoal | dark"
+      ]
+    },
+    {
+      "part": "Charred end-grain fissure.005",
+      "materials": [
+        "charcoal | dark"
+      ]
+    },
+    {
+      "part": "Irregular split charcoal chunk 3",
+      "materials": [
+        "charcoal | char"
+      ]
+    },
+    {
+      "part": "Ash caught in longitudinal char checking.009",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Ash caught in longitudinal char checking.010",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Ash caught in longitudinal char checking.011",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Charred end-grain fissure.006",
+      "materials": [
+        "charcoal | dark"
+      ]
+    },
+    {
+      "part": "Charred end-grain fissure.007",
+      "materials": [
+        "charcoal | dark"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "rendered-organics",
+  "triangles": 564,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "51ee87285f93383a262b1061bee1df42a510b78c7b029d2418dde93fbce40005",
+  "authored_sha256": "f6c3acc2fb5e3c447007a5c8ecb2cefa0f364de814e0b7b964f125cf0e7af9d6",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

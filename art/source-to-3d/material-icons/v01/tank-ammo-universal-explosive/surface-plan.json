@@ -1,0 +1,42 @@
+{
+  "asset": "tank-ammo-universal-explosive",
+  "construction": "Solid explosive blocks secured in an open protective carrier with a broad restraint band.",
+  "regions": [
+    {
+      "part": "Protective explosive carrier",
+      "materials": [
+        "tank-ammo-universal-explosive | steel"
+      ]
+    },
+    {
+      "part": "Solid explosive block",
+      "materials": [
+        "tank-ammo-universal-explosive | product"
+      ]
+    },
+    {
+      "part": "Solid explosive block.001",
+      "materials": [
+        "tank-ammo-universal-explosive | product"
+      ]
+    },
+    {
+      "part": "Solid explosive block.002",
+      "materials": [
+        "tank-ammo-universal-explosive | product"
+      ]
+    },
+    {
+      "part": "Broad restraint band",
+      "materials": [
+        "tank-ammo-universal-explosive | dark"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

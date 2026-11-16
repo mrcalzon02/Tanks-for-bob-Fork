@@ -1,0 +1,36 @@
+{
+  "asset": "enzyme-saturated-mass",
+  "construction": "A dense organic sponge held in a shallow perforated support cage.",
+  "regions": [
+    {
+      "part": "Porous ionic crust",
+      "materials": [
+        "enzyme-saturated-mass | product"
+      ]
+    },
+    {
+      "part": "Perforated support sole",
+      "materials": [
+        "enzyme-saturated-mass | steel"
+      ]
+    },
+    {
+      "part": "Supported cage side",
+      "materials": [
+        "enzyme-saturated-mass | steel"
+      ]
+    },
+    {
+      "part": "Supported cage side.001",
+      "materials": [
+        "enzyme-saturated-mass | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

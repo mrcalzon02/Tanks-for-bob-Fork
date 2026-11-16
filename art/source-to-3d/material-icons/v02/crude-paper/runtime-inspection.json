@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "crude-paper",
+  "triangles": 1556,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "17b62abe13bbb742654cad25097a7db04230aea5a745b64a82c4c69340e86c35",
+  "authored_sha256": "6ff8ab1867d68b611a15477ee334c2c79388375721259cc9f91c0fa267dcdde0",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

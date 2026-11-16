@@ -1,0 +1,17 @@
+{
+  "asset": "stakeholder-review-summary",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.19149185240681776,
+    0.1013181307360929,
+    0.11253277767372168
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "ec8473e5421a7d0bf3fa0801ed0d75a8af5498b9b9af9c68965084882a0f2fef"
+}

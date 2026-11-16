@@ -1,0 +1,17 @@
+{
+  "asset": "charcoal",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.220552063405302,
+    0.21417053839846953,
+    0.2177370866356928
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "32311d49598faee2783d6275ad8143957c0e2aee1651f77bca9d3405651bad60"
+}

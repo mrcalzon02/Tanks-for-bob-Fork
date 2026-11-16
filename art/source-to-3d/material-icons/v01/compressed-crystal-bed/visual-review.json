@@ -1,0 +1,19 @@
+{
+  "asset": "compressed-crystal-bed",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "3f89c587defa6dfde08eada694f1f669eac6a7301d44d1de655f312b20b448e1",
+  "source_sha256": "97b2fe91e74375f1c579b39c43c9738bb077d9aca885428de0893702892dd006",
+  "render_sha256": "8074a87b28d4f88911e250011d27331e193d7995a07edbd756ae370f65d16c5c",
+  "reference_icon_sha256": [
+    "4f3f6e1f7d69ae749f9e01cf53b3370140141c9e4a49e2da5500eb8dfbf89b39"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A compressed crystalline slab held by a rigid four-corner compression frame. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

@@ -1,0 +1,84 @@
+{
+  "asset": "amulite-flakes",
+  "construction": "Thin overlapping mica-like amulite flakes with bright cut edges.",
+  "regions": [
+    {
+      "part": "Thin mica-like flake",
+      "materials": [
+        "amulite-flakes | product"
+      ]
+    },
+    {
+      "part": "Thin mica-like flake.001",
+      "materials": [
+        "amulite-flakes | product"
+      ]
+    },
+    {
+      "part": "Thin mica-like flake.002",
+      "materials": [
+        "amulite-flakes | product"
+      ]
+    },
+    {
+      "part": "Thin mica-like flake.003",
+      "materials": [
+        "amulite-flakes | product"
+      ]
+    },
+    {
+      "part": "Thin mica-like flake.004",
+      "materials": [
+        "amulite-flakes | product"
+      ]
+    },
+    {
+      "part": "Thin mica-like flake.005",
+      "materials": [
+        "amulite-flakes | product"
+      ]
+    },
+    {
+      "part": "Thin mica-like flake.006",
+      "materials": [
+        "amulite-flakes | product"
+      ]
+    },
+    {
+      "part": "Thin mica-like flake.007",
+      "materials": [
+        "amulite-flakes | product"
+      ]
+    },
+    {
+      "part": "Thin mica-like flake.008",
+      "materials": [
+        "amulite-flakes | product"
+      ]
+    },
+    {
+      "part": "Thin mica-like flake.009",
+      "materials": [
+        "amulite-flakes | product"
+      ]
+    },
+    {
+      "part": "Thin mica-like flake.010",
+      "materials": [
+        "amulite-flakes | product"
+      ]
+    },
+    {
+      "part": "Thin mica-like flake.011",
+      "materials": [
+        "amulite-flakes | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

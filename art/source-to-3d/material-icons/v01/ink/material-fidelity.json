@@ -1,0 +1,17 @@
+{
+  "asset": "ink",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.19115358642355912,
+    0.1459966528670836,
+    0.15655186587979683
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "2d31d890baf45e8826397b166f2e89ff50f4d39d4707cf13481bbbace7f7e59c"
+}

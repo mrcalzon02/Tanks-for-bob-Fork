@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "clay",
+  "triangles": 3200,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "5b8d33104557f4f588863a161a05b175d37e31b8f05458924f7586b0842ff1d6",
+  "authored_sha256": "234836494cc73e774cd2514146d5a97fa5f65085818c016c4ee84273e65ec52c",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "tank-ammo-industrialwaste",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "0999b91dd30a4b7cb0c8ad68e5aae931941aff78e271f3ef200eb4e2e4383a20",
+  "source_sha256": "af23297f08915853bb7f75ce387b35db9aa879d2a93f33a727eecc7d024d46c7",
+  "render_sha256": "6f716a34816301d04340dfcfff5913f2235c6c73227cbbbd77b4b7a2bfda68ef",
+  "reference_icon_sha256": [
+    "497e3048fd1c6a4c697d00eed8c7829df08c34b2792f4adc3dbcdea9f40b8bd2"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A dented industrial-waste drum with a fitted lid and contained dark residue. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

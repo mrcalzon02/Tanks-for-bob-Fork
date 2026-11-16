@@ -1,0 +1,17 @@
+{
+  "asset": "tank-ammo-radioactivewaste",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.6537181505868881,
+    0.7073969367306041,
+    0.7532028342399084
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "6d03caf2aaac8eae138a36ec69d683e1793bd3696d3da60d45ac3d4abf2e8847"
+}

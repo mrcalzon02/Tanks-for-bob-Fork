@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "calcified-bone-dust",
+  "triangles": 1308,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "a98bccbc12a13ba21783c3e0e44016897acecc3293c31bf4158e9b5a92b25c26",
+  "authored_sha256": "8cc5025081750d6a7c70b8e5bfd5970542321bf937fbcc01ef160d232aef1a27",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "certified-work-order",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.08305879027084624,
+    0.0869404486196736,
+    0.15471181133183287
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "7fa1eac0bbc3f6a1ff99d2ddbe85f82f801bfa8106c9947f04b0d8152408a5f8"
+}

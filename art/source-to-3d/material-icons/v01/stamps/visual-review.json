@@ -1,0 +1,19 @@
+{
+  "asset": "stamps",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "27acca13a8b23f60ee056774522b9142e3fdeee9465e37a1416ee4fbf09b1606",
+  "source_sha256": "ce2b6c295328263fabe33f3bc428b4817158ecd757fde9000b74c948042a173c",
+  "render_sha256": "b1b26d61be52c2ef4fa94c2fdd3e455d6c689fa7d0d9102341626c814a9e0fe2",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Wooden hand stamp, engraved metal foot and matching ink-pad tray. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

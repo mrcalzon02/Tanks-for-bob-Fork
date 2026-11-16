@@ -1,0 +1,120 @@
+{
+  "asset": "hyperencabulator",
+  "construction": "A three-coil hyper drive with a triangulated bridge and three supported terminal housings.",
+  "regions": [
+    {
+      "part": "Bolted mechanical base",
+      "materials": [
+        "hyperencabulator | steel"
+      ]
+    },
+    {
+      "part": "Supported rotor upright",
+      "materials": [
+        "hyperencabulator | dark"
+      ]
+    },
+    {
+      "part": "Supported rotor upright.001",
+      "materials": [
+        "hyperencabulator | dark"
+      ]
+    },
+    {
+      "part": "Supported encabulator core",
+      "materials": [
+        "hyperencabulator | product"
+      ]
+    },
+    {
+      "part": "Actual conductive winding",
+      "materials": [
+        "hyperencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.001",
+      "materials": [
+        "hyperencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.002",
+      "materials": [
+        "hyperencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.003",
+      "materials": [
+        "hyperencabulator | copper"
+      ]
+    },
+    {
+      "part": "Supported encabulator core.001",
+      "materials": [
+        "hyperencabulator | product"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.004",
+      "materials": [
+        "hyperencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.005",
+      "materials": [
+        "hyperencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.006",
+      "materials": [
+        "hyperencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.007",
+      "materials": [
+        "hyperencabulator | copper"
+      ]
+    },
+    {
+      "part": "Supported encabulator core.002",
+      "materials": [
+        "hyperencabulator | product"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.008",
+      "materials": [
+        "hyperencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.009",
+      "materials": [
+        "hyperencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.010",
+      "materials": [
+        "hyperencabulator | copper"
+      ]
+    },
+    {
+      "part": "Actual conductive winding.011",
+      "materials": [
+        "hyperencabulator | copper"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

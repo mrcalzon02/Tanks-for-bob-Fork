@@ -1,0 +1,19 @@
+{
+  "asset": "lipid-carrier-gel",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "6a9b805ab82268e688bf496eba00bc23a7d45bb905b473a41e0be4eeb2b128e6",
+  "source_sha256": "a7bb426b96c8698fb52fc16791eecb836f66cd49a2ffaf084cbb8341851d3569",
+  "render_sha256": "2ba624ccd9ce1990867ef71fb2bac3d0ec5b526f72a4d03d45d572bea9f83f6c",
+  "reference_icon_sha256": [
+    "a9e0839e090d1afcc29e7d6a6ce60ce17c305e83e85daf6070da7d5cbae8bb3b"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A translucent-looking satin gel bar divided into three soft-edged carrier blocks. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

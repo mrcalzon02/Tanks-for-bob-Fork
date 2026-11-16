@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "encabuloy-alloy",
+  "triangles": 344,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "6deed4467987a58812856e3ff90cbf4dc1512714a50c1bd45be02142a8b1628e",
+  "authored_sha256": "eae4100068783d34b242675aa16de2e07b89030189ed2b0849ef1761e029dc43",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "fish-oil-residue",
+  "triangles": 5928,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "02652e7dbee1012131ec2da0682563ca5b2ab81e918cbdc3111fc5ec9c8f4de0",
+  "authored_sha256": "d900dfb890fe581cb62e16ff182cf2533d35da864d6f661c1a5e64c3ec8141e0",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

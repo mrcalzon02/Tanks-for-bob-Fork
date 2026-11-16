@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "hydrocoptic-marselvanes",
+  "triangles": 3992,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "588fedbeffaf5ef44dc46f08245f12e75ad867bb3f80b0da6f2b89ad7720356a",
+  "authored_sha256": "c04e05bfcea62f796e8edbdb8204e9125cf073612da85ebd17f8737f159215fe",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

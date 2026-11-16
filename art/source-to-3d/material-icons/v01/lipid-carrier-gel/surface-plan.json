@@ -1,0 +1,30 @@
+{
+  "asset": "lipid-carrier-gel",
+  "construction": "A translucent-looking satin gel bar divided into three soft-edged carrier blocks.",
+  "regions": [
+    {
+      "part": "Soft edged rendered block",
+      "materials": [
+        "lipid-carrier-gel | product"
+      ]
+    },
+    {
+      "part": "Soft edged rendered block.001",
+      "materials": [
+        "lipid-carrier-gel | product"
+      ]
+    },
+    {
+      "part": "Soft edged rendered block.002",
+      "materials": [
+        "lipid-carrier-gel | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

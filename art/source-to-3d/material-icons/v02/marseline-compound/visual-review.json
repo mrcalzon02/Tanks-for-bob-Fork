@@ -1,0 +1,19 @@
+{
+  "asset": "marseline-compound",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "c7a806073dca89da8ae3f35430bbe649f6776c6c9724efaeb4d7210504c1e162",
+  "source_sha256": "7e69aba1acdba2fd26f244749f1ee767999e181e6309dc007dfe963b71356777",
+  "render_sha256": "78e28518e4e971933e26cf8d99d6eaf1a2088a16803ae50487ce278dce6eda94",
+  "reference_icon_sha256": [
+    "52681a3bed75bff51a8dd41eb60e261ad7d17710c808c903a81e2618a88d8810"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A dense cluster of slender marseline crystals with an exposed dark mineral base. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

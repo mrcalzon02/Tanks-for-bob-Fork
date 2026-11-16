@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "board-advisory-risk-assessment",
+  "triangles": 6017,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "2e0e7c692934ef7700e5e02a8b5cb98bfea3a55cd4e49ef5187538cd0a5f5dfa",
+  "authored_sha256": "2ab021cc2020f1ed217f7a7b16fa640ee75cdba1b11edb2107bf087ab41dba76",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

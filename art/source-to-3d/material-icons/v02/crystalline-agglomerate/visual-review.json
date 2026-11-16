@@ -1,0 +1,19 @@
+{
+  "asset": "crystalline-agglomerate",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "001a236304a7c2c8771a5b8ec42f3ebbd99689fe1621482e8150be74d2de9666",
+  "source_sha256": "0572e1358e1771b71e5d7a46117b83d43390d1b1546cf3ea9d462fe68ab2f6f1",
+  "render_sha256": "a0a43302e8c27d9781f06f684b32d4641421ada7f51fa71b3fd90c59e952b810",
+  "reference_icon_sha256": [
+    "2f1b1063c087ad043e47d9c0a9ee003478c31493136d400f1a8cdc3de09cd5ce"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Seven irregularly grown pale mineral crystals on one coarse rock base. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

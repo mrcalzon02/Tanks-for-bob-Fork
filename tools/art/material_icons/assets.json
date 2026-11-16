@@ -1,0 +1,1127 @@
+{
+  "clay": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "clay",
+    "shape": "clay",
+    "construction": "Three irregular wet clay lumps; thumb-compressed surfaces, coarse inclusions and no crate."
+  },
+  "brick": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "brick",
+    "shape": "brick",
+    "construction": "Three fired clay bricks; true recessed frogs and worn chamfered arrises."
+  },
+  "charcoal": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "charcoal",
+    "shape": "charcoal",
+    "revision": "v02",
+    "construction": "Charred split timber pieces with actual end checking and pale ash in recessed fractures."
+  },
+  "crude-paper": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "crude-paper",
+    "shape": "paper",
+    "revision": "v02",
+    "construction": "Uneven unbleached pulp sheets in a loose stack; frayed edge fibers and one folded corner."
+  },
+  "ink": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "ink",
+    "shape": "ink",
+    "construction": "Squat dark glass inkwell, threaded brass neck, fitted cap and visible ink at the mouth."
+  },
+  "calcifier": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "calcifier",
+    "shape": "calcifier",
+    "color": "cream",
+    "construction": "Icon-scale calcifier enclosure with masonry heat chamber, open supported calcination pan and a braced flue; world entity graphics are unchanged.",
+    "parameters": {}
+  },
+  "crude-glass": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "crude-glass",
+    "shape": "glass-sheets",
+    "color": "teal",
+    "construction": "Three irregular thick glass panes with chipped edges, slight warping and exposed pale fracture faces.",
+    "parameters": {},
+    "revision": "v02"
+  },
+  "toxic-sludge": {
+    "owner": "tanks_for_bob_fork",
+    "type": "fluid",
+    "name": "toxic-sludge",
+    "shape": "droplet",
+    "color": "green",
+    "construction": "A dense irregular toxic-sludge droplet, distinct from bottled inventory chemicals.",
+    "parameters": {}
+  },
+  "stone-tools": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "stone-tools",
+    "shape": "tools",
+    "color": "stone",
+    "construction": "Knapped stone hammer and sharpened stone adze, cord-bound to two separate wooden handles.",
+    "parameters": {}
+  },
+  "wood-pulp": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "wood-pulp",
+    "shape": "pulp",
+    "color": "ivory",
+    "construction": "Wet shredded wood fibers in a shallow wooden pulping tray; no shipping crate.",
+    "parameters": {},
+    "revision": "v02"
+  },
+  "staples": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "staples",
+    "shape": "staples",
+    "color": "silver",
+    "construction": "A collated strip of formed steel staples and three loose U-shaped staples.",
+    "parameters": {}
+  },
+  "stamps": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "stamps",
+    "shape": "stamp",
+    "color": "red",
+    "construction": "Wooden hand stamp, engraved metal foot and matching ink-pad tray.",
+    "parameters": {}
+  },
+  "folder": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "folder",
+    "shape": "document",
+    "color": "ochre",
+    "construction": "A heavy tabbed manila folder with folded spine and protruding sheets.",
+    "parameters": {
+      "document": "folder"
+    }
+  },
+  "clipboard": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "clipboard",
+    "shape": "document",
+    "color": "brown",
+    "construction": "Wooden clipboard with spring-steel clip and a white work sheet.",
+    "parameters": {
+      "document": "clipboard"
+    }
+  },
+  "corporate-waste": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "corporate-waste",
+    "shape": "paper-waste",
+    "color": "ivory",
+    "construction": "Crumpled rejected paper, bent staples and a torn folder in a compact waste bundle.",
+    "parameters": {}
+  },
+  "phasedetractor": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "PhaseDetractor",
+    "shape": "mechanism",
+    "color": "blue",
+    "construction": "Upright stepped phase column on a bolted base, with a braced twin-disc rotor.",
+    "parameters": {
+      "mechanism": "column"
+    }
+  },
+  "canister": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "Canister",
+    "shape": "canister",
+    "color": "steel",
+    "construction": "Uncharged pressure canister with thick rolled rim, sealed front access and clean fittings.",
+    "parameters": {
+      "state": "empty"
+    },
+    "revision": "v02"
+  },
+  "charged-canister": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "Charged-Canister",
+    "shape": "canister",
+    "color": "cyan",
+    "construction": "The matching pressure canister with a closed contact cover and visible charged-state window.",
+    "parameters": {
+      "state": "charged"
+    },
+    "revision": "v02"
+  },
+  "canister-waste": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "Canister-waste",
+    "shape": "canister",
+    "color": "magenta",
+    "construction": "Contaminated return canister, dark residue at the service opening and a waste collar.",
+    "parameters": {
+      "state": "waste"
+    },
+    "revision": "v02"
+  },
+  "canister-radioactivewaste": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "Canister-Radioactivewaste",
+    "shape": "canister",
+    "color": "green",
+    "construction": "Thick-walled radioactive-return canister with a lead collar and three lock tabs.",
+    "parameters": {
+      "state": "radioactive"
+    },
+    "revision": "v02"
+  },
+  "alumatedplate": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "Alumatedplate",
+    "shape": "perforated",
+    "color": "silver",
+    "construction": "Two aligned perforated alloy sheets with a formed edge and real through-holes.",
+    "parameters": {}
+  },
+  "trace-mineral-slurry": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "trace-mineral-slurry",
+    "shape": "bowl",
+    "color": "brown",
+    "construction": "Wet mineral slurry in an open assay pan, settled coarse grains at the meniscus.",
+    "parameters": {
+      "grains": true
+    }
+  },
+  "saline-particulate": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "saline-particulate",
+    "shape": "granules",
+    "color": "ivory",
+    "construction": "A low pile of angular cubic salt particles; no jar or parchment backing.",
+    "parameters": {
+      "angular": true
+    }
+  },
+  "ionic-scum": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "ionic-scum",
+    "shape": "porous",
+    "color": "olive",
+    "construction": "A folded porous ionic crust with actual open pores and a moist dark underside.",
+    "parameters": {},
+    "revision": "v02"
+  },
+  "heavy-brine-fraction": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "heavy-brine-fraction",
+    "shape": "vessel",
+    "color": "green",
+    "construction": "A squat, wide-shouldered brine container with a large side sight port.",
+    "parameters": {
+      "vessel": "squat"
+    },
+    "revision": "v02"
+  },
+  "microcrystal-sediment": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "microcrystal-sediment",
+    "shape": "vessel",
+    "color": "blue",
+    "construction": "A narrow sediment vial with a pale deposited bottom band and long neck.",
+    "parameters": {
+      "vessel": "sediment"
+    },
+    "revision": "v02"
+  },
+  "fish-oil-residue": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "fish-oil-residue",
+    "shape": "vessel",
+    "color": "amber",
+    "construction": "A wide open oil jar with a sticky amber meniscus and removable dark lid.",
+    "parameters": {
+      "vessel": "open"
+    },
+    "revision": "v02"
+  },
+  "fish-ash": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "fish-ash",
+    "shape": "bone-dust",
+    "color": "ash",
+    "construction": "A low ash mound containing charred fish-spine fragments.",
+    "parameters": {
+      "bone_color": "dark"
+    }
+  },
+  "protein-slurry": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "protein-slurry",
+    "shape": "bowl",
+    "color": "pink",
+    "construction": "Thick protein slurry in a shallow ceramic dish with supported coagulated surface pieces.",
+    "parameters": {
+      "grains": true
+    }
+  },
+  "calcified-bone-dust": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "calcified-bone-dust",
+    "shape": "bone-dust",
+    "color": "ivory",
+    "construction": "Fine pale dust with a clearly exposed calcified bone and joint fragments.",
+    "parameters": {}
+  },
+  "enzyme-paste": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "enzyme-paste",
+    "shape": "cartridge",
+    "color": "ochre",
+    "construction": "A short ceramic paste cartridge with a supported plunger and recessed nozzle.",
+    "parameters": {}
+  },
+  "rendered-organics": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "rendered-organics",
+    "shape": "slabs",
+    "color": "cream",
+    "construction": "Three solid rendered-organic slabs with soft edges and visible scored cuts.",
+    "parameters": {}
+  },
+  "hydrolyzed-suspension": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "hydrolyzed-suspension",
+    "shape": "vessel",
+    "color": "cyan",
+    "construction": "A tall suspension vessel with a broad sight window and lower sediment band.",
+    "parameters": {
+      "vessel": "tall"
+    },
+    "revision": "v02"
+  },
+  "phase-diluted-brine": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "phase-diluted-brine",
+    "shape": "vessel",
+    "color": "pale-green",
+    "construction": "A long-neck brine flask with a separated pale lower phase.",
+    "parameters": {
+      "vessel": "flask",
+      "two_phase": true
+    },
+    "revision": "v02"
+  },
+  "osmotic-residue": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "osmotic-residue",
+    "shape": "filter",
+    "color": "cream",
+    "construction": "A square filter carrier holding a folded residue membrane and crystalline deposits.",
+    "parameters": {}
+  },
+  "gradient-saline-matrix": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "gradient-saline-matrix",
+    "shape": "matrix",
+    "color": "pale-green",
+    "construction": "A sloping cellular saline block with visible layered cell walls.",
+    "parameters": {
+      "matrix": "gradient"
+    }
+  },
+  "biphasic-brine-gel": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "biphasic-brine-gel",
+    "shape": "vessel",
+    "color": "green",
+    "construction": "A broad gel cup with two physically separate layers under the retaining rim.",
+    "parameters": {
+      "vessel": "cup",
+      "two_phase": true
+    },
+    "revision": "v02"
+  },
+  "salinity-locked-emulsion": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "salinity-locked-emulsion",
+    "shape": "vessel",
+    "color": "ochre",
+    "construction": "A sealed pear-shaped emulsion flask, locking collar and ceramic stopper.",
+    "parameters": {
+      "vessel": "pear"
+    },
+    "revision": "v02"
+  },
+  "hydrocoptic-precursor": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "hydrocoptic-precursor",
+    "shape": "cartridge",
+    "color": "violet",
+    "construction": "A cylindrical precursor cartridge with three longitudinal sight strips and a keyed end cap.",
+    "parameters": {
+      "strips": 3
+    }
+  },
+  "denatured-organic-base": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "denatured-organic-base",
+    "shape": "mound",
+    "color": "rust",
+    "construction": "A rough coagulated organic mass on a shallow ceramic support.",
+    "parameters": {}
+  },
+  "enzyme-saturated-mass": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "enzyme-saturated-mass",
+    "shape": "porous",
+    "color": "olive",
+    "construction": "A dense organic sponge held in a shallow perforated support cage.",
+    "parameters": {
+      "cage": true
+    },
+    "revision": "v02"
+  },
+  "lipid-carrier-gel": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "lipid-carrier-gel",
+    "shape": "slabs",
+    "color": "yellow",
+    "construction": "A translucent-looking satin gel bar divided into three soft-edged carrier blocks.",
+    "parameters": {}
+  },
+  "bio-reactive-slurry": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "bio-reactive-slurry",
+    "shape": "vessel",
+    "color": "rust",
+    "construction": "A sealed squat slurry drum with a guarded side gauge and two cap bolts.",
+    "parameters": {
+      "vessel": "drum"
+    },
+    "revision": "v02"
+  },
+  "catalytic-organic-medium": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "catalytic-organic-medium",
+    "shape": "bowl",
+    "color": "ochre",
+    "construction": "Round catalytic pellets in a supported conical assay hopper.",
+    "parameters": {
+      "grains": true,
+      "hopper": true
+    }
+  },
+  "reactive-enzyme-binder": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "reactive-enzyme-binder",
+    "shape": "puck",
+    "color": "violet",
+    "construction": "A dense binder puck retained by an asymmetric clamp and a recessed service center.",
+    "parameters": {}
+  },
+  "bio-synthetic-precursor": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "bio-synthetic-precursor",
+    "shape": "twin-vials",
+    "color": "green",
+    "construction": "Two long precursor vials in a single mechanical carrier with separate closed terminals.",
+    "parameters": {}
+  },
+  "crystalline-agglomerate": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "crystalline-agglomerate",
+    "shape": "crystal",
+    "color": "silver",
+    "construction": "Seven irregularly grown pale mineral crystals on one coarse rock base.",
+    "parameters": {
+      "crystals": 7
+    },
+    "revision": "v02"
+  },
+  "fractured-lattice-mass": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "fractured-lattice-mass",
+    "shape": "broken-matrix",
+    "color": "ash",
+    "construction": "A fractured black lattice block with broken open cell walls exposed at one corner.",
+    "parameters": {}
+  },
+  "ceramic-seed-grain": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "ceramic-seed-grain",
+    "shape": "bowl",
+    "color": "ivory",
+    "construction": "Small ceramic seed beads in a thick-walled ceramic assay bowl.",
+    "parameters": {
+      "grains": true
+    }
+  },
+  "mineral-phase-fragments": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "mineral-phase-fragments",
+    "shape": "flakes",
+    "color": "stone",
+    "construction": "Angular broken mineral fragments with varied thickness and freshly exposed edges.",
+    "parameters": {
+      "thick": true
+    }
+  },
+  "ceramic-lattice-core": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "ceramic-lattice-core",
+    "shape": "honeycomb",
+    "color": "cream",
+    "construction": "An open cylindrical ceramic core with real hexagonal cells and a protective outside band.",
+    "parameters": {}
+  },
+  "compressed-crystal-bed": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "compressed-crystal-bed",
+    "shape": "slab-frame",
+    "color": "blue",
+    "construction": "A compressed crystalline slab held by a rigid four-corner compression frame.",
+    "parameters": {}
+  },
+  "bioceramic-preform": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "bioceramic-preform",
+    "shape": "preform",
+    "color": "ivory",
+    "construction": "A hollow shaped bioceramic preform with two mounting feet and a deep central opening.",
+    "parameters": {}
+  },
+  "charged-ionic-matrix": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "charged-ionic-matrix",
+    "shape": "matrix",
+    "color": "cyan",
+    "construction": "A conductive open-cell matrix with small charged inserts inside a rigid brass carrier.",
+    "parameters": {
+      "matrix": "charged"
+    }
+  },
+  "dielectric-suspension": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "dielectric-suspension",
+    "shape": "vessel",
+    "color": "violet",
+    "construction": "An electrically insulated suspension vial with a ceramic cap and two protected contacts.",
+    "parameters": {
+      "vessel": "insulated"
+    },
+    "revision": "v02"
+  },
+  "conductive-residue": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "conductive-residue",
+    "shape": "conductive",
+    "color": "ash",
+    "construction": "A dark residue pile containing short copper strands and thin metallic flakes.",
+    "parameters": {}
+  },
+  "phase-unstable-granulate": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "phase-unstable-granulate",
+    "shape": "bowl",
+    "color": "amber",
+    "construction": "Unstable granules in a shallow steel containment pan with a supported hazard collar.",
+    "parameters": {
+      "grains": true,
+      "hazard": true
+    }
+  },
+  "balanced-reactive-medium": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "balanced-reactive-medium",
+    "shape": "split-vessel",
+    "color": "red",
+    "construction": "A divided reaction cup with two separate media and a broad central divider.",
+    "parameters": {}
+  },
+  "phase-primed-carrier": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "phase-primed-carrier",
+    "shape": "puck",
+    "color": "yellow",
+    "construction": "A keyed copper carrier disc with recessed active center and four supported contact posts.",
+    "parameters": {
+      "contacts": true
+    }
+  },
+  "electro-phase-precursor": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "electro-phase-precursor",
+    "shape": "wafers",
+    "color": "silver",
+    "construction": "Three triangular precursor wafers retained by an offset conductive clip.",
+    "parameters": {}
+  },
+  "marseline-compound": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "marseline-compound",
+    "shape": "crystal",
+    "color": "violet",
+    "construction": "A dense cluster of slender marseline crystals with an exposed dark mineral base.",
+    "parameters": {
+      "crystals": 9
+    },
+    "revision": "v02"
+  },
+  "bioceramic-grit": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "bioceramic-grit",
+    "shape": "granules",
+    "color": "cream",
+    "construction": "Coarse irregular bioceramic grit with matte, freshly fractured surfaces.",
+    "parameters": {
+      "angular": true,
+      "coarse": true
+    }
+  },
+  "hydrocoptic-crystal": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "hydrocoptic-crystal",
+    "shape": "crystal",
+    "color": "teal",
+    "construction": "Three broad hydrocoptic crystals with large readable terminal facets.",
+    "parameters": {
+      "crystals": 3,
+      "broad": true
+    },
+    "revision": "v02"
+  },
+  "amulite-flakes": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "amulite-flakes",
+    "shape": "flakes",
+    "color": "silver",
+    "construction": "Thin overlapping mica-like amulite flakes with bright cut edges.",
+    "parameters": {}
+  },
+  "phase-reactive-granules": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "phase-reactive-granules",
+    "shape": "granules",
+    "color": "orange",
+    "construction": "Round reactive granules packed into a compact low mound.",
+    "parameters": {}
+  },
+  "oscillated-lubricant": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "oscillated-lubricant",
+    "shape": "vessel",
+    "color": "amber",
+    "construction": "A tall lubricant bottle with a recessed sight window and internal baffle silhouette.",
+    "parameters": {
+      "vessel": "baffled"
+    },
+    "revision": "v02"
+  },
+  "stabilized-brine-gel": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "stabilized-brine-gel",
+    "shape": "bowl",
+    "color": "pale-green",
+    "construction": "A single stabilized gel portion under a thick retaining rim and a sealed side tab.",
+    "parameters": {
+      "gel": true
+    }
+  },
+  "dielectric-chowder": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "dielectric-chowder",
+    "shape": "bowl",
+    "color": "violet",
+    "construction": "A broad ceramic vessel holding pale dielectric paste and visible inert ceramic inclusions.",
+    "parameters": {
+      "grains": true,
+      "ceramic": true
+    }
+  },
+  "pre-turbulated-emulsion": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "pre-turbulated-emulsion",
+    "shape": "mixer",
+    "color": "ochre",
+    "construction": "An emulsion vessel with a real centered impeller, supported shaft and three protective ribs.",
+    "parameters": {}
+  },
+  "viscoelastic-froth": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "viscoelastic-froth",
+    "shape": "froth",
+    "color": "cream",
+    "construction": "A wide froth cartridge with a visible bubble cap inside the supported upper rim.",
+    "parameters": {}
+  },
+  "executive-marseline-resin": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "executive-marseline-resin",
+    "shape": "resin",
+    "color": "amber",
+    "construction": "A faceted resin block enclosing a small mineral aggregate and mounted on an executive-grade steel shoe.",
+    "parameters": {}
+  },
+  "encabuloy-alloy": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "encabuloy-alloy",
+    "shape": "ingot",
+    "color": "steel",
+    "construction": "A machined tapered encabuloy ingot with a supported band and freshly exposed bevels.",
+    "parameters": {}
+  },
+  "hyperphase-matrix": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "hyperphase-matrix",
+    "shape": "matrix",
+    "color": "blue",
+    "construction": "A nested cubic phase lattice with real open cells and keyed corner mounts.",
+    "parameters": {
+      "matrix": "nested"
+    }
+  },
+  "retrograde-polymer-sheet": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "retrograde-polymer-sheet",
+    "shape": "roll",
+    "color": "ash",
+    "construction": "A rolled polymer sheet with visible layered spiral and a loose flat leading edge.",
+    "parameters": {}
+  },
+  "duplexed-substrate": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "duplexed-substrate",
+    "shape": "substrate",
+    "color": "blue",
+    "construction": "Two offset substrate boards with distinct insulating layers, conductive traces and edge contacts.",
+    "parameters": {}
+  },
+  "tank-light-chasis-wlsk": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "tank-light-chasis-wlsk",
+    "shape": "chassis",
+    "color": "steel",
+    "construction": "An unarmed light tracked chassis with exposed road wheels and an empty turret mounting well.",
+    "parameters": {}
+  },
+  "tank-ammo-casing": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "tank-ammo-casing",
+    "shape": "shell-case",
+    "color": "brass",
+    "construction": "A drawn brass shell case with a hollow mouth, primer rim and supported extractor groove.",
+    "parameters": {}
+  },
+  "tank-ammo-reinforced-casing": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "tank-ammo-reinforced-casing",
+    "shape": "shell-case",
+    "color": "silver",
+    "construction": "A hollow reinforced shell case with two structural collars and a thick keyed base.",
+    "parameters": {
+      "reinforced": true
+    }
+  },
+  "tank-ammo-industrialwaste": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "tank-ammo-Industrialwaste",
+    "shape": "waste-drum",
+    "color": "rust",
+    "construction": "A dented industrial-waste drum with a fitted lid and contained dark residue.",
+    "parameters": {
+      "waste": "industrial"
+    },
+    "revision": "v02"
+  },
+  "tank-ammo-radioactivewaste": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "tank-ammo-Radioactivewaste",
+    "shape": "waste-drum",
+    "color": "green",
+    "construction": "A heavy shielded radioactive-waste cask with thick lid, lock tabs and restrained indicator.",
+    "parameters": {
+      "waste": "radioactive"
+    },
+    "revision": "v02"
+  },
+  "tank-ammo-universal-explosive": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "tank-ammo-universal-explosive",
+    "shape": "explosive",
+    "color": "red",
+    "construction": "Solid explosive blocks secured in an open protective carrier with a broad restraint band.",
+    "parameters": {}
+  },
+  "compressed-biohazard-waste": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "compressed-biohazard-waste",
+    "shape": "waste-drum",
+    "color": "olive",
+    "construction": "A compact sealed biohazard-waste briquette canister with raised containment collar.",
+    "parameters": {
+      "waste": "biohazard"
+    },
+    "revision": "v02"
+  },
+  "seared-fish": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "Seared-fish",
+    "shape": "fish",
+    "color": "brown",
+    "construction": "A cooked fish with modeled fins and tail, charred skin grooves and a wooden serving skewer.",
+    "parameters": {}
+  },
+  "meal": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "meal",
+    "shape": "meal",
+    "color": "olive",
+    "construction": "An open metal mess tin with a hinged lid and visible portions of cooked food.",
+    "parameters": {}
+  },
+  "requisition-slip": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "requisition-slip",
+    "shape": "document",
+    "color": "cream",
+    "construction": "A loose requisition sheet with perforated edge and a single signed request panel.",
+    "parameters": {
+      "document": "slip"
+    },
+    "revision": "v02"
+  },
+  "work-order-slip": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "work-order-slip",
+    "shape": "document",
+    "color": "blue",
+    "construction": "A folded work order with a dark job header and one exposed mechanical diagram.",
+    "parameters": {
+      "document": "work"
+    }
+  },
+  "certified-work-order": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "certified-work-order",
+    "shape": "document",
+    "color": "red",
+    "construction": "A folded certified order with a raised red wax seal and tied document ribbon.",
+    "parameters": {
+      "document": "certified"
+    }
+  },
+  "submitted-evaluation": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "submitted-evaluation",
+    "shape": "document",
+    "color": "olive",
+    "construction": "A closed evaluation folio with a deep spine and supported submission clip.",
+    "parameters": {
+      "document": "folio"
+    }
+  },
+  "risk-assessment": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "risk-assessment",
+    "shape": "document",
+    "color": "yellow",
+    "construction": "A thick risk report with a hazard spine and a clearly raised warning plate.",
+    "parameters": {
+      "document": "risk"
+    }
+  },
+  "risk-assessed-work-order": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "risk-assessed-work-order",
+    "shape": "document",
+    "color": "yellow",
+    "construction": "A broad work clipboard with an attached risk strip and inset job panel.",
+    "parameters": {
+      "document": "risk-work"
+    }
+  },
+  "compliance-packet": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "compliance-packet",
+    "shape": "document",
+    "color": "silver",
+    "construction": "A tall compliance packet secured with two exposed steel binding rings.",
+    "parameters": {
+      "document": "packet"
+    }
+  },
+  "audit-ready-deliverable": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "audit-ready-deliverable",
+    "shape": "document",
+    "color": "red",
+    "construction": "A compact delivered document pack with twin buckled straps and a protruding index tab.",
+    "parameters": {
+      "document": "deliverable"
+    },
+    "revision": "v02"
+  },
+  "stakeholder-review-summary": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "stakeholder-review-summary",
+    "shape": "document",
+    "color": "teal",
+    "construction": "Three fanned summary folders with staggered index tabs and a short summary sheet.",
+    "parameters": {
+      "document": "summary"
+    }
+  },
+  "liability-contained-report": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "liability-contained-report",
+    "shape": "document",
+    "color": "red",
+    "construction": "A red hard-sided report enclosure with two real latches and a thick protective spine.",
+    "parameters": {
+      "document": "contained"
+    },
+    "revision": "v02"
+  },
+  "board-review-docket": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "board-review-docket",
+    "shape": "document",
+    "color": "blue",
+    "construction": "A dark blue board docket with visible ring binder and large structural corner protectors.",
+    "parameters": {
+      "document": "docket"
+    }
+  },
+  "board-advisory-risk-assessment": {
+    "owner": "tanks_for_bob_fork",
+    "type": "tool",
+    "name": "board-advisory-risk-assessment",
+    "shape": "document",
+    "color": "ochre",
+    "construction": "A heavy advisory binder with two raised warning panels and a three-tab index.",
+    "parameters": {
+      "document": "board-risk"
+    },
+    "revision": "v02"
+  },
+  "cradinal-grametter": {
+    "owner": "tanks_for_bob_fork",
+    "type": "module",
+    "name": "Cradinal-grametter",
+    "shape": "mechanism",
+    "color": "steel",
+    "construction": "A braced parallel-disc grametter with two coaxial gears and an open support frame.",
+    "parameters": {
+      "mechanism": "discs"
+    }
+  },
+  "hydrocoptic-marselvanes": {
+    "owner": "tanks_for_bob_fork",
+    "type": "module",
+    "name": "Hydrocoptic-marselvanes",
+    "shape": "mechanism",
+    "color": "steel",
+    "construction": "A six-vane hydrocoptic rotor inside a rigid bolted containment rim.",
+    "parameters": {
+      "mechanism": "vanes"
+    }
+  },
+  "retro-encabulator": {
+    "owner": "tanks_for_bob_fork",
+    "type": "module",
+    "name": "Retro-Encabulator",
+    "shape": "mechanism",
+    "color": "steel",
+    "construction": "A supported upright reverse rotor with three indexed discs and a closed lower drive.",
+    "parameters": {
+      "mechanism": "retro"
+    }
+  },
+  "spervingarm": {
+    "owner": "tanks_for_bob_fork",
+    "type": "module",
+    "name": "SpervingArm",
+    "shape": "arm",
+    "color": "steel",
+    "construction": "A single articulated sperving arm with two joints and a bolted installation foot.",
+    "parameters": {
+      "arms": 1
+    },
+    "revision": "v02"
+  },
+  "ductedspervingarm": {
+    "owner": "tanks_for_bob_fork",
+    "type": "module",
+    "name": "DuctedSpervingArm",
+    "shape": "arm",
+    "color": "steel",
+    "construction": "A jointed sperving arm with an integrated rigid protective duct and supported end connection.",
+    "parameters": {
+      "arms": 1,
+      "duct": true
+    },
+    "revision": "v02"
+  },
+  "duplexedspervingarm": {
+    "owner": "tanks_for_bob_fork",
+    "type": "module",
+    "name": "DuplexedSpervingArm",
+    "shape": "arm",
+    "color": "steel",
+    "construction": "Two linked sperving arms with independent joints and one reinforced mounting beam.",
+    "parameters": {
+      "arms": 2
+    },
+    "revision": "v02"
+  },
+  "encabulator": {
+    "owner": "tanks_for_bob_fork",
+    "type": "module",
+    "name": "Encabulator",
+    "shape": "mechanism",
+    "color": "steel",
+    "construction": "A single-coil encabulator drive with an open rotor frame and a supported motor casing.",
+    "parameters": {
+      "mechanism": "coils",
+      "coils": 1
+    }
+  },
+  "turboencabulator": {
+    "owner": "tanks_for_bob_fork",
+    "type": "module",
+    "name": "TurboEncabulator",
+    "shape": "mechanism",
+    "color": "violet",
+    "construction": "A twin-coil turbo drive with braced rotor discs and an exposed lower coupling.",
+    "parameters": {
+      "mechanism": "coils",
+      "coils": 2
+    }
+  },
+  "hyperencabulator": {
+    "owner": "tanks_for_bob_fork",
+    "type": "module",
+    "name": "HyperEncabulator",
+    "shape": "mechanism",
+    "color": "cyan",
+    "construction": "A three-coil hyper drive with a triangulated bridge and three supported terminal housings.",
+    "parameters": {
+      "mechanism": "coils",
+      "coils": 3
+    }
+  },
+  "framulatedencabulator": {
+    "owner": "tanks_for_bob_fork",
+    "type": "module",
+    "name": "FramulatedEncabulator",
+    "shape": "mechanism",
+    "color": "violet",
+    "construction": "A framed three-coil encabulator with additional closed side braces and a square top bridge.",
+    "parameters": {
+      "mechanism": "coils",
+      "coils": 3,
+      "frame": true
+    }
+  },
+  "stone-water-wheel": {
+    "owner": "tanks_for_bob_fork",
+    "type": "item",
+    "name": "stone-water-wheel",
+    "shape": "waterwheel",
+    "color": "stone",
+    "construction": "A stone-supported water-wheel assembly with a real axle, spokes and broad wooden paddles.",
+    "parameters": {}
+  }
+}

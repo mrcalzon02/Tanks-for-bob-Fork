@@ -1,0 +1,19 @@
+{
+  "asset": "board-review-docket",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "3cdd2d16f73df1d0554930b93ce609c76059bf600d937ed317889d2f65300574",
+  "source_sha256": "f8afb29d6c50abab5595963d5616b9015a06714d2709de3870dfd7f69bd4189c",
+  "render_sha256": "b1520c5261aa69ee202df67f22f54e9ead1fd0c3cdf67ebeb1a7a12720638d67",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A dark blue board docket with visible ring binder and large structural corner protectors. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

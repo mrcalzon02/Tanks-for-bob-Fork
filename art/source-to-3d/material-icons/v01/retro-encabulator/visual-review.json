@@ -1,0 +1,19 @@
+{
+  "asset": "retro-encabulator",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "17313d8627388a4c59b280227b565f328447fd06c9007f113e7d282f87dd0726",
+  "source_sha256": "eb7ae25017ac1ce6de8d21c6ee46b383b2b50932e05ff9737bc0b55eb680a85a",
+  "render_sha256": "29b5a989517386b7de443d9009c845e96b86b8f128aae79f62cc171bce2e19e6",
+  "reference_icon_sha256": [
+    "9c9d67939145b04d8ada132d97a96249907a35477d01d323e1ec3457e9ef419c"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A supported upright reverse rotor with three indexed discs and a closed lower drive. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

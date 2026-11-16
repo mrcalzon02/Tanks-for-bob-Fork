@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "ceramic-lattice-core",
+  "triangles": 5568,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "b518f6dd7e2ec286a65f28432ecf52b8515d68ee233915005f0a135e2d94b27e",
+  "authored_sha256": "de433032d3115f0acfcdaf9822b625657d1f0f15b5c247c63cfdf4bff39a2bfe",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

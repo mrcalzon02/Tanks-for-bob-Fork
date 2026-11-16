@@ -1,0 +1,19 @@
+{
+  "asset": "hyperphase-matrix",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "321ddd1ecdfdf916f5264717521b72ebb8639a250cb24e413ddcc4fff86b41a0",
+  "source_sha256": "94132bb402f4c903a725c15b41bfcd7d5ec9700af4c8aa056ad9bf20f34f290e",
+  "render_sha256": "0a88edebb5c838466922ea9cfd20801e33f4ba87c16964530cd7bb42322c35b7",
+  "reference_icon_sha256": [
+    "711c2a3a10475c5fa8eeea43522c457e3485ea8461062a08ced51b54e90cf2cc"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A nested cubic phase lattice with real open cells and keyed corner mounts. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

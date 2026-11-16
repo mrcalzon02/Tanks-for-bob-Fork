@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "spervingarm",
+  "triangles": 7308,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "d3d63f947b50718e5088d51ab6f6f1f271fb562a20b28e5af3bfb9d8c18f4f44",
+  "authored_sha256": "75c60bc07f4ecf6cff03e98178ba5fee3c3f494fe324cc47c1aef806d2d504eb",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

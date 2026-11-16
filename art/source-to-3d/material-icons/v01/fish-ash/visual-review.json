@@ -1,0 +1,20 @@
+{
+  "asset": "fish-ash",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "6bc25133bbe1a6c3bf7b60e1939b2faf5d2328d9ca16db57979b2d3fe09cedbc",
+  "source_sha256": "e975f3539ca60b42a3b306f2f160e2452cafa3107eabf700cf8e08343bd4784b",
+  "render_sha256": "10820df0dfc40e901da10834f9c82df00e0b264c7332ade1da29170e555f1c93",
+  "reference_icon_sha256": [
+    "314ae2f4b7dd989c3cbc8c7334ba3d152359ea72c1ba3494619b74f3b291012e",
+    "22a9fa11bd8630f18caf97c9aec4e1385763e81b4022f03afe85564009d612b2"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A low ash mound containing charred fish-spine fragments. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

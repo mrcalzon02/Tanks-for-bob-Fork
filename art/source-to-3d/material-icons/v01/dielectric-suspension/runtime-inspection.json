@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "dielectric-suspension",
+  "triangles": 5928,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "0a93d7dc70fd0d887c6488041872e7c79841db0fe6a730ea3397107ee07258c6",
+  "authored_sha256": "112e5a56ff2177b88de39c57d80eab54b35e2e81b7192745b261ddfa6b441524",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

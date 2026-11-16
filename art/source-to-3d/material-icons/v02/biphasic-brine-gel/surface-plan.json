@@ -1,0 +1,90 @@
+{
+  "asset": "biphasic-brine-gel",
+  "construction": "A broad gel cup with two physically separate layers under the retaining rim.",
+  "regions": [
+    {
+      "part": "Closed sample vessel",
+      "materials": [
+        "biphasic-brine-gel | steel"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band",
+      "materials": [
+        "biphasic-brine-gel | dark"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band.001",
+      "materials": [
+        "biphasic-brine-gel | dark"
+      ]
+    },
+    {
+      "part": "Contained gel surface",
+      "materials": [
+        "biphasic-brine-gel | product"
+      ]
+    },
+    {
+      "part": "Thick open ceramic cup rim",
+      "materials": [
+        "biphasic-brine-gel | ceramic"
+      ]
+    },
+    {
+      "part": "Welded inset sample port boss",
+      "materials": [
+        "biphasic-brine-gel | dark"
+      ]
+    },
+    {
+      "part": "Supported metal port bezel",
+      "materials": [
+        "biphasic-brine-gel | brass"
+      ]
+    },
+    {
+      "part": "Recessed sample glass",
+      "materials": [
+        "biphasic-brine-gel | product"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss",
+      "materials": [
+        "biphasic-brine-gel | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.001",
+      "materials": [
+        "biphasic-brine-gel | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.002",
+      "materials": [
+        "biphasic-brine-gel | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.003",
+      "materials": [
+        "biphasic-brine-gel | steel"
+      ]
+    },
+    {
+      "part": "Lower separated phase",
+      "materials": [
+        "biphasic-brine-gel | secondary"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

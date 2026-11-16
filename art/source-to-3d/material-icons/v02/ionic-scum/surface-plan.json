@@ -1,0 +1,18 @@
+{
+  "asset": "ionic-scum",
+  "construction": "A folded porous ionic crust with actual open pores and a moist dark underside.",
+  "regions": [
+    {
+      "part": "Irregular porous ionic crust",
+      "materials": [
+        "ionic-scum | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

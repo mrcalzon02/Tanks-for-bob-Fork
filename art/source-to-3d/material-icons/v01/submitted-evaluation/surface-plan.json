@@ -1,0 +1,72 @@
+{
+  "asset": "submitted-evaluation",
+  "construction": "A closed evaluation folio with a deep spine and supported submission clip.",
+  "regions": [
+    {
+      "part": "Folded document backing",
+      "materials": [
+        "submitted-evaluation | product"
+      ]
+    },
+    {
+      "part": "Bound report sheet",
+      "materials": [
+        "submitted-evaluation | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.001",
+      "materials": [
+        "submitted-evaluation | paper"
+      ]
+    },
+    {
+      "part": "Printed document header",
+      "materials": [
+        "submitted-evaluation | dark"
+      ]
+    },
+    {
+      "part": "Printed report rule",
+      "materials": [
+        "submitted-evaluation | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.001",
+      "materials": [
+        "submitted-evaluation | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.002",
+      "materials": [
+        "submitted-evaluation | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.003",
+      "materials": [
+        "submitted-evaluation | ink"
+      ]
+    },
+    {
+      "part": "Supported indexed folder tab",
+      "materials": [
+        "submitted-evaluation | product"
+      ]
+    },
+    {
+      "part": "Spring steel retaining clip",
+      "materials": [
+        "submitted-evaluation | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

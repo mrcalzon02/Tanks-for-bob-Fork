@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "bioceramic-grit",
+  "triangles": 5640,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "56087df57cbba00cc8eb6d137154d13ececab78b08d80f1e619284ce9052c873",
+  "authored_sha256": "e64d35521a75646319184c38862b79df95b2e492ddc429d40872abc3cc5ac694",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

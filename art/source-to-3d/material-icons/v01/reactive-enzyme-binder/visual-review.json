@@ -1,0 +1,19 @@
+{
+  "asset": "reactive-enzyme-binder",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "143212f9c96062536b07ad59cb58ea8acc53e5f4c3046c3c0a43855672ccc235",
+  "source_sha256": "a4b4ad2447c9ac5b3ac6ac05c00612d15eb11f23a35c93cb059c26149563dd9a",
+  "render_sha256": "23ccbe5d18c92de84a268f40e1b070f1c4e32c73166724096eef580b52947d0f",
+  "reference_icon_sha256": [
+    "6a85dc57e627ee2524977e29084050c2e06bf37a75c12306ca7835e42af3e67a"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A dense binder puck retained by an asymmetric clamp and a recessed service center. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

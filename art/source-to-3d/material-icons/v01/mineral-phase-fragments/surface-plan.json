@@ -1,0 +1,84 @@
+{
+  "asset": "mineral-phase-fragments",
+  "construction": "Angular broken mineral fragments with varied thickness and freshly exposed edges.",
+  "regions": [
+    {
+      "part": "Broken phase fragment",
+      "materials": [
+        "mineral-phase-fragments | product"
+      ]
+    },
+    {
+      "part": "Broken phase fragment.001",
+      "materials": [
+        "mineral-phase-fragments | product"
+      ]
+    },
+    {
+      "part": "Broken phase fragment.002",
+      "materials": [
+        "mineral-phase-fragments | product"
+      ]
+    },
+    {
+      "part": "Broken phase fragment.003",
+      "materials": [
+        "mineral-phase-fragments | product"
+      ]
+    },
+    {
+      "part": "Broken phase fragment.004",
+      "materials": [
+        "mineral-phase-fragments | product"
+      ]
+    },
+    {
+      "part": "Broken phase fragment.005",
+      "materials": [
+        "mineral-phase-fragments | product"
+      ]
+    },
+    {
+      "part": "Broken phase fragment.006",
+      "materials": [
+        "mineral-phase-fragments | product"
+      ]
+    },
+    {
+      "part": "Broken phase fragment.007",
+      "materials": [
+        "mineral-phase-fragments | product"
+      ]
+    },
+    {
+      "part": "Broken phase fragment.008",
+      "materials": [
+        "mineral-phase-fragments | product"
+      ]
+    },
+    {
+      "part": "Broken phase fragment.009",
+      "materials": [
+        "mineral-phase-fragments | product"
+      ]
+    },
+    {
+      "part": "Broken phase fragment.010",
+      "materials": [
+        "mineral-phase-fragments | product"
+      ]
+    },
+    {
+      "part": "Broken phase fragment.011",
+      "materials": [
+        "mineral-phase-fragments | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

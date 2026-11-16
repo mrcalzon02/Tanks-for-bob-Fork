@@ -1,0 +1,17 @@
+{
+  "asset": "tank-light-chasis-wlsk",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.2706500601907584,
+    0.26731641818686913,
+    0.2689832391888138
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "415ce57ef19606624406f4ec66dd67cec4b8a2764009a1e54d03c84aee8edd1a"
+}

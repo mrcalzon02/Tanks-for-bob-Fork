@@ -1,0 +1,17 @@
+{
+  "asset": "fish-ash",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.1284829451278025,
+    0.1271045974003315,
+    0.13268777806856843
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "6bc25133bbe1a6c3bf7b60e1939b2faf5d2328d9ca16db57979b2d3fe09cedbc"
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "microcrystal-sediment",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.3026976870501969,
+    0.2651292264518173,
+    0.2539265830806138
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "defba503ae909ff71a7f509d7aaeb411d924121cac0b9192037f344ab32b79c3"
+}

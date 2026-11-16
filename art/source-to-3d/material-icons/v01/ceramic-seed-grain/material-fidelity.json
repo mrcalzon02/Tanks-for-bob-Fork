@@ -1,0 +1,17 @@
+{
+  "asset": "ceramic-seed-grain",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.13132326331523878,
+    0.12676028636613956,
+    0.13382109983478876
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "7c1e36b031a33b3b67752bc9e3a9b6c511c3729ceafa0a6c039a812e4ab551eb"
+}

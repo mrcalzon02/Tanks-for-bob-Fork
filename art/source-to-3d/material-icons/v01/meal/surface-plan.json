@@ -1,0 +1,48 @@
+{
+  "asset": "meal",
+  "construction": "An open metal mess tin with a hinged lid and visible portions of cooked food.",
+  "regions": [
+    {
+      "part": "Open metal mess tin",
+      "materials": [
+        "meal | steel"
+      ]
+    },
+    {
+      "part": "Food-filled tin interior",
+      "materials": [
+        "meal | dark"
+      ]
+    },
+    {
+      "part": "Cooked meal portion",
+      "materials": [
+        "meal | product"
+      ]
+    },
+    {
+      "part": "Cooked meal portion.001",
+      "materials": [
+        "meal | product"
+      ]
+    },
+    {
+      "part": "Cooked meal portion.002",
+      "materials": [
+        "meal | secondary"
+      ]
+    },
+    {
+      "part": "Attached open hinged lid",
+      "materials": [
+        "meal | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

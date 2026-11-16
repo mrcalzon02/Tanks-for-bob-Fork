@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "canister-waste",
+  "triangles": 13948,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "149023a8836d7d5426ace9559a736fef779c74c2f1441bb795a84927d3942239",
+  "authored_sha256": "8aec0bd8f535d326d2d0f89678273f683a042575d04fe1b3032b1dee3fea47ae",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

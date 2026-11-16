@@ -1,0 +1,78 @@
+{
+  "asset": "hydrocoptic-marselvanes",
+  "construction": "A six-vane hydrocoptic rotor inside a rigid bolted containment rim.",
+  "regions": [
+    {
+      "part": "Bolted mechanical base",
+      "materials": [
+        "hydrocoptic-marselvanes | steel"
+      ]
+    },
+    {
+      "part": "Supported rotor upright",
+      "materials": [
+        "hydrocoptic-marselvanes | dark"
+      ]
+    },
+    {
+      "part": "Supported rotor upright.001",
+      "materials": [
+        "hydrocoptic-marselvanes | dark"
+      ]
+    },
+    {
+      "part": "Rigid vane containment rim",
+      "materials": [
+        "hydrocoptic-marselvanes | steel"
+      ]
+    },
+    {
+      "part": "Supported rotor hub",
+      "materials": [
+        "hydrocoptic-marselvanes | brass"
+      ]
+    },
+    {
+      "part": "Hydrocoptic rotor vane",
+      "materials": [
+        "hydrocoptic-marselvanes | product"
+      ]
+    },
+    {
+      "part": "Hydrocoptic rotor vane.001",
+      "materials": [
+        "hydrocoptic-marselvanes | product"
+      ]
+    },
+    {
+      "part": "Hydrocoptic rotor vane.002",
+      "materials": [
+        "hydrocoptic-marselvanes | product"
+      ]
+    },
+    {
+      "part": "Hydrocoptic rotor vane.003",
+      "materials": [
+        "hydrocoptic-marselvanes | product"
+      ]
+    },
+    {
+      "part": "Hydrocoptic rotor vane.004",
+      "materials": [
+        "hydrocoptic-marselvanes | product"
+      ]
+    },
+    {
+      "part": "Hydrocoptic rotor vane.005",
+      "materials": [
+        "hydrocoptic-marselvanes | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

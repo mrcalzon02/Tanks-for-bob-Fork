@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "hyperphase-matrix",
+  "triangles": 3760,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "321ddd1ecdfdf916f5264717521b72ebb8639a250cb24e413ddcc4fff86b41a0",
+  "authored_sha256": "94132bb402f4c903a725c15b41bfcd7d5ec9700af4c8aa056ad9bf20f34f290e",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

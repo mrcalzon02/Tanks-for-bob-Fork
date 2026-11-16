@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "compressed-crystal-bed",
+  "triangles": 940,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "3f89c587defa6dfde08eada694f1f669eac6a7301d44d1de655f312b20b448e1",
+  "authored_sha256": "97b2fe91e74375f1c579b39c43c9738bb077d9aca885428de0893702892dd006",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

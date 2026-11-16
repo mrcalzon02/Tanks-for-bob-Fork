@@ -1,0 +1,96 @@
+{
+  "asset": "phase-diluted-brine",
+  "construction": "A long-neck brine flask with a separated pale lower phase.",
+  "regions": [
+    {
+      "part": "Closed sample vessel",
+      "materials": [
+        "phase-diluted-brine | steel"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band",
+      "materials": [
+        "phase-diluted-brine | dark"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band.001",
+      "materials": [
+        "phase-diluted-brine | dark"
+      ]
+    },
+    {
+      "part": "Sloping vessel shoulder",
+      "materials": [
+        "phase-diluted-brine | steel"
+      ]
+    },
+    {
+      "part": "Long sealed flask neck",
+      "materials": [
+        "phase-diluted-brine | glass"
+      ]
+    },
+    {
+      "part": "Ceramic stopper",
+      "materials": [
+        "phase-diluted-brine | ceramic"
+      ]
+    },
+    {
+      "part": "Welded inset sample port boss",
+      "materials": [
+        "phase-diluted-brine | dark"
+      ]
+    },
+    {
+      "part": "Supported metal port bezel",
+      "materials": [
+        "phase-diluted-brine | brass"
+      ]
+    },
+    {
+      "part": "Recessed sample glass",
+      "materials": [
+        "phase-diluted-brine | product"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss",
+      "materials": [
+        "phase-diluted-brine | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.001",
+      "materials": [
+        "phase-diluted-brine | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.002",
+      "materials": [
+        "phase-diluted-brine | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.003",
+      "materials": [
+        "phase-diluted-brine | steel"
+      ]
+    },
+    {
+      "part": "Lower separated phase",
+      "materials": [
+        "phase-diluted-brine | secondary"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

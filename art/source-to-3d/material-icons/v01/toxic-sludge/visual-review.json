@@ -1,0 +1,19 @@
+{
+  "asset": "toxic-sludge",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "6223a94ee79d3a610e222f5f4e3d77bf257a8bab9a4fb75cd59bb847700d4811",
+  "source_sha256": "6be0d3f9776674e64184468394c7260b509fbf3d60804a4aa18b0d2c77432cd4",
+  "render_sha256": "adbb66cdcfb10122e36e8d299134ab5f6fd8ae93b2e7ec13c74b212c6423c88b",
+  "reference_icon_sha256": [
+    "e2529bff9b840555046b822df778c45df89a11865516f36955be56b6897256f9"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A dense irregular toxic-sludge droplet, distinct from bottled inventory chemicals. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

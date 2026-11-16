@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "canister-radioactivewaste",
+  "triangles": 15484,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "c8570a474d0464d0eca526bcc712a5fe263d0fc2a572fad5999ab90189f2a9e4",
+  "authored_sha256": "992b5341e384c9184fa8d8bbd3501a5b15c14dc5649e188f382a7fdb5ebe761c",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

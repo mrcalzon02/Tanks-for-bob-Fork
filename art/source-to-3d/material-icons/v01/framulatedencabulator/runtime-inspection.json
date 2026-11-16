@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "framulatedencabulator",
+  "triangles": 21476,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "2d925387656e01f301d5c9000f2dd3ca99f9aa44de1a2d3a7a4e72305bcd15f6",
+  "authored_sha256": "f2ef28c57f635cb1719919c2cf3c8e5f941302b6ce8c80e32dd752383b029e81",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

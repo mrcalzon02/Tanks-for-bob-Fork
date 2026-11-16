@@ -1,0 +1,72 @@
+{
+  "asset": "seared-fish",
+  "construction": "A cooked fish with modeled fins and tail, charred skin grooves and a wooden serving skewer.",
+  "regions": [
+    {
+      "part": "Cooked fish body",
+      "materials": [
+        "seared-fish | product"
+      ]
+    },
+    {
+      "part": "Seared skin groove",
+      "materials": [
+        "seared-fish | dark"
+      ]
+    },
+    {
+      "part": "Seared skin groove.001",
+      "materials": [
+        "seared-fish | dark"
+      ]
+    },
+    {
+      "part": "Seared skin groove.002",
+      "materials": [
+        "seared-fish | dark"
+      ]
+    },
+    {
+      "part": "Seared skin groove.003",
+      "materials": [
+        "seared-fish | dark"
+      ]
+    },
+    {
+      "part": "Seared skin groove.004",
+      "materials": [
+        "seared-fish | dark"
+      ]
+    },
+    {
+      "part": "Fish tail fin",
+      "materials": [
+        "seared-fish | product"
+      ]
+    },
+    {
+      "part": "Fish tail fin.001",
+      "materials": [
+        "seared-fish | product"
+      ]
+    },
+    {
+      "part": "Seared fish eye",
+      "materials": [
+        "seared-fish | dark"
+      ]
+    },
+    {
+      "part": "Wooden serving skewer",
+      "materials": [
+        "seared-fish | wood"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

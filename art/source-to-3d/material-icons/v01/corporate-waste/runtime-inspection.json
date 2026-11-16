@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "corporate-waste",
+  "triangles": 1268,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "6c3ce0724abd3d2342f36e070be36698c3baeafa99a4cdfc437f606025354da3",
+  "authored_sha256": "dbec3c18a35d27cd38a9d07495dd89eb824f4d9827ce1885871e6e924e5308e1",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

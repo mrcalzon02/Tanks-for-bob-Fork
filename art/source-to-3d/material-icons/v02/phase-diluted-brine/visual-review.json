@@ -1,0 +1,19 @@
+{
+  "asset": "phase-diluted-brine",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "67257e85988a8fc884f4c79ae378185b85dbe2d4ddea8a82074ab8e0238b1cd9",
+  "source_sha256": "3ddffd4d48203f91a0604f930e46763cff3cbdbdca143f20d07601022e2e8389",
+  "render_sha256": "beaf3b29fc024bcb93eacb7ad40e098552911c5284ddaef6fe74b25c1c76f3a1",
+  "reference_icon_sha256": [
+    "a1d22d9dc52da41920bace0343ad3e49d96afb057f32ddd327c1e5a653ba2b23"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A long-neck brine flask with a separated pale lower phase. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

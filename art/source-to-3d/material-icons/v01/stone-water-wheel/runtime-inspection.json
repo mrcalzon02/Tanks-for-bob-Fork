@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "stone-water-wheel",
+  "triangles": 7044,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "57672214a9c563031158f822e4237cfe5c102f09e8dff00297ca9e4199632b3f",
+  "authored_sha256": "326f0e2881981515d246025c28587f81c5b40bbda37cb1c93476c61e2a0b9ecd",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

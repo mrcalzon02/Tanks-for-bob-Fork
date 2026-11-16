@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "lipid-carrier-gel",
+  "triangles": 564,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "6a9b805ab82268e688bf496eba00bc23a7d45bb905b473a41e0be4eeb2b128e6",
+  "authored_sha256": "a7bb426b96c8698fb52fc16791eecb836f66cd49a2ffaf084cbb8341851d3569",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

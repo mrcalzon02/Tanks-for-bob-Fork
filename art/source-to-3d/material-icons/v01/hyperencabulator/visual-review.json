@@ -1,0 +1,19 @@
+{
+  "asset": "hyperencabulator",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "6aa82e5b0adf9d660e973bb6b667b60ed0540e8a7a98bddc1d7b5c1edac2ca0e",
+  "source_sha256": "ab86e582a83022ce0c84261f89cbbbfdb23282c6df855c80dfca7ae3b5a7accb",
+  "render_sha256": "85ffd4a27177555c61cfc8b1c5935155c56f3432a3c8a2b0e77f3fb40a2267a8",
+  "reference_icon_sha256": [
+    "5f8721ffd143f67857a1c032415ec00d631c36d14806387c283f83dc85028b6e"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A three-coil hyper drive with a triangulated bridge and three supported terminal housings. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

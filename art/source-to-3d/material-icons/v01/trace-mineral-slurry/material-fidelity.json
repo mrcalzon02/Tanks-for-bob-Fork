@@ -1,0 +1,17 @@
+{
+  "asset": "trace-mineral-slurry",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.14802139878845094,
+    0.14676264652663049,
+    0.15008653921800016
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "7c0abef847c059815c0f50b2931d2e14e020c20854e55a9af81b7b991c25dc1b"
+}

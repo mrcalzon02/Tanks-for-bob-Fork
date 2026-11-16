@@ -1,0 +1,17 @@
+{
+  "asset": "rendered-organics",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.04177676906865527,
+    0.04307368079760071,
+    0.04925022290670341
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "51ee87285f93383a262b1061bee1df42a510b78c7b029d2418dde93fbce40005"
+}

@@ -1,0 +1,18 @@
+{
+  "asset": "toxic-sludge",
+  "construction": "A dense irregular toxic-sludge droplet, distinct from bottled inventory chemicals.",
+  "regions": [
+    {
+      "part": "Dense toxic sludge droplet",
+      "materials": [
+        "toxic-sludge | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

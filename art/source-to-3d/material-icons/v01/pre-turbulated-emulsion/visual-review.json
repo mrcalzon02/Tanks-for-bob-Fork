@@ -1,0 +1,19 @@
+{
+  "asset": "pre-turbulated-emulsion",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "90aff24f1fc62eb49a8d304bfa0da40faac21d67d56c7af8499342bf3c619352",
+  "source_sha256": "d6aed0ddb1a1e7353cbb94a01a3e67439e5595d5df993b6e3b3d5fd6310a2bab",
+  "render_sha256": "42ed9b16c32e56b6e48a072935d3c7421f8319284005f04cf718101a6dfb6cda",
+  "reference_icon_sha256": [
+    "f91f2bfb65872a75d68260e68edfb8199f3b46552550e8e27236a655746f21b1"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "An emulsion vessel with a real centered impeller, supported shaft and three protective ribs. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "alumatedplate",
+  "triangles": 876,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "0ef018aacedde1331a59258f4e896c695dce885a15c177073811ceb08eb2f16c",
+  "authored_sha256": "ffce922b847c667ddaa0378ee176a4b436eb3f44a9f9588a940ed0fb8671de48",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

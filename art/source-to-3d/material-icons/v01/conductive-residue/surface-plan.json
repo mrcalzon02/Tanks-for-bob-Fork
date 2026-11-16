@@ -1,0 +1,114 @@
+{
+  "asset": "conductive-residue",
+  "construction": "A dark residue pile containing short copper strands and thin metallic flakes.",
+  "regions": [
+    {
+      "part": "Coagulated material mass",
+      "materials": [
+        "conductive-residue | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate",
+      "materials": [
+        "conductive-residue | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.001",
+      "materials": [
+        "conductive-residue | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.002",
+      "materials": [
+        "conductive-residue | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.003",
+      "materials": [
+        "conductive-residue | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.004",
+      "materials": [
+        "conductive-residue | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.005",
+      "materials": [
+        "conductive-residue | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.006",
+      "materials": [
+        "conductive-residue | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.007",
+      "materials": [
+        "conductive-residue | product"
+      ]
+    },
+    {
+      "part": "Coarse surface aggregate.008",
+      "materials": [
+        "conductive-residue | product"
+      ]
+    },
+    {
+      "part": "Copper filament in residue",
+      "materials": [
+        "conductive-residue | copper"
+      ]
+    },
+    {
+      "part": "Copper filament in residue.001",
+      "materials": [
+        "conductive-residue | copper"
+      ]
+    },
+    {
+      "part": "Copper filament in residue.002",
+      "materials": [
+        "conductive-residue | copper"
+      ]
+    },
+    {
+      "part": "Copper filament in residue.003",
+      "materials": [
+        "conductive-residue | copper"
+      ]
+    },
+    {
+      "part": "Copper filament in residue.004",
+      "materials": [
+        "conductive-residue | copper"
+      ]
+    },
+    {
+      "part": "Copper filament in residue.005",
+      "materials": [
+        "conductive-residue | copper"
+      ]
+    },
+    {
+      "part": "Copper filament in residue.006",
+      "materials": [
+        "conductive-residue | copper"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "reactive-enzyme-binder",
+  "triangles": 3064,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "143212f9c96062536b07ad59cb58ea8acc53e5f4c3046c3c0a43855672ccc235",
+  "authored_sha256": "a4b4ad2447c9ac5b3ac6ac05c00612d15eb11f23a35c93cb059c26149563dd9a",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

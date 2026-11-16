@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "tank-ammo-industrialwaste",
+  "triangles": 6668,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "0999b91dd30a4b7cb0c8ad68e5aae931941aff78e271f3ef200eb4e2e4383a20",
+  "authored_sha256": "af23297f08915853bb7f75ce387b35db9aa879d2a93f33a727eecc7d024d46c7",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "retro-encabulator",
+  "triangles": 4644,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "17313d8627388a4c59b280227b565f328447fd06c9007f113e7d282f87dd0726",
+  "authored_sha256": "eb7ae25017ac1ce6de8d21c6ee46b383b2b50932e05ff9737bc0b55eb680a85a",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

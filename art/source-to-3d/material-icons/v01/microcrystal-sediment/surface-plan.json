@@ -1,0 +1,48 @@
+{
+  "asset": "microcrystal-sediment",
+  "construction": "A narrow sediment vial with a pale deposited bottom band and long neck.",
+  "regions": [
+    {
+      "part": "Closed sample vessel",
+      "materials": [
+        "microcrystal-sediment | dark"
+      ]
+    },
+    {
+      "part": "Vessel cap",
+      "materials": [
+        "microcrystal-sediment | steel"
+      ]
+    },
+    {
+      "part": "Cap retaining lip",
+      "materials": [
+        "microcrystal-sediment | brass"
+      ]
+    },
+    {
+      "part": "Recessed sample sight port",
+      "materials": [
+        "microcrystal-sediment | steel"
+      ]
+    },
+    {
+      "part": "Opaque glass sample window",
+      "materials": [
+        "microcrystal-sediment | product"
+      ]
+    },
+    {
+      "part": "Visible sediment band",
+      "materials": [
+        "microcrystal-sediment | secondary"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

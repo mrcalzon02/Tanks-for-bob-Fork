@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "trace-mineral-slurry",
+  "triangles": 4696,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "7c0abef847c059815c0f50b2931d2e14e020c20854e55a9af81b7b991c25dc1b",
+  "authored_sha256": "253ffaa272503094428f3606706c9f49c870bd8ed9951f01ba474f84f4b275af",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

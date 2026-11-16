@@ -1,0 +1,84 @@
+{
+  "asset": "pre-turbulated-emulsion",
+  "construction": "An emulsion vessel with a real centered impeller, supported shaft and three protective ribs.",
+  "regions": [
+    {
+      "part": "Thick-walled sample vessel",
+      "materials": [
+        "pre-turbulated-emulsion | steel"
+      ]
+    },
+    {
+      "part": "Supported vessel retaining rim",
+      "materials": [
+        "pre-turbulated-emulsion | ceramic"
+      ]
+    },
+    {
+      "part": "Contained sample surface",
+      "materials": [
+        "pre-turbulated-emulsion | product"
+      ]
+    },
+    {
+      "part": "Supported impeller shaft",
+      "materials": [
+        "pre-turbulated-emulsion | steel"
+      ]
+    },
+    {
+      "part": "Real mixing paddle",
+      "materials": [
+        "pre-turbulated-emulsion | brass"
+      ]
+    },
+    {
+      "part": "Real mixing paddle.001",
+      "materials": [
+        "pre-turbulated-emulsion | brass"
+      ]
+    },
+    {
+      "part": "Real mixing paddle.002",
+      "materials": [
+        "pre-turbulated-emulsion | brass"
+      ]
+    },
+    {
+      "part": "Real mixing paddle.003",
+      "materials": [
+        "pre-turbulated-emulsion | brass"
+      ]
+    },
+    {
+      "part": "Protective impeller rib",
+      "materials": [
+        "pre-turbulated-emulsion | steel"
+      ]
+    },
+    {
+      "part": "Protective impeller rib.001",
+      "materials": [
+        "pre-turbulated-emulsion | steel"
+      ]
+    },
+    {
+      "part": "Protective impeller rib.002",
+      "materials": [
+        "pre-turbulated-emulsion | steel"
+      ]
+    },
+    {
+      "part": "Shaft support bridge ring",
+      "materials": [
+        "pre-turbulated-emulsion | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

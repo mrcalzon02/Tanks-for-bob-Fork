@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "bioceramic-preform",
+  "triangles": 584,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "ce03d66cc456d434fb70236ff05e1527adfa3a4c70ebf77748d3f8fec42384ae",
+  "authored_sha256": "15acc09b411fce1993df41dafd589547213cad12b73e19c3223666b4d83cbd79",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

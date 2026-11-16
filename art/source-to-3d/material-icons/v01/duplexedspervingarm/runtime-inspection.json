@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "duplexedspervingarm",
+  "triangles": 6452,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "9de3e63952ef315b7954489f6f73fbc1302ebef58c800229a921f594155b7fa6",
+  "authored_sha256": "00f3f83313f816a783cd05a8e4df242ae20502d843487eac0023f65647ebd85c",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

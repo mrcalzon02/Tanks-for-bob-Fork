@@ -1,0 +1,114 @@
+{
+  "asset": "protein-slurry",
+  "construction": "Thick protein slurry in a shallow ceramic dish with supported coagulated surface pieces.",
+  "regions": [
+    {
+      "part": "Thick-walled sample vessel",
+      "materials": [
+        "protein-slurry | steel"
+      ]
+    },
+    {
+      "part": "Supported vessel retaining rim",
+      "materials": [
+        "protein-slurry | ceramic"
+      ]
+    },
+    {
+      "part": "Contained sample surface",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.001",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.002",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.003",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.004",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.005",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.006",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.007",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.008",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.009",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.010",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.011",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.012",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    },
+    {
+      "part": "Visible surface inclusion.013",
+      "materials": [
+        "protein-slurry | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

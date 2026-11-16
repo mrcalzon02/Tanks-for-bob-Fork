@@ -1,0 +1,19 @@
+{
+  "asset": "folder",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "ac1669ad255f52f1945a2d59d361e770ecaa3f098bba8f4743924e0663b2b48c",
+  "source_sha256": "1d40c495362f1eeef4d9503626651d7ca6f5a8c4fbf1202e2ebf89a01e9a84c6",
+  "render_sha256": "b9312cd3b73f2c1d1887a5bfdfe5969b2d5305bd79c6d72c1171928d9208ec63",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A heavy tabbed manila folder with folded spine and protruding sheets. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

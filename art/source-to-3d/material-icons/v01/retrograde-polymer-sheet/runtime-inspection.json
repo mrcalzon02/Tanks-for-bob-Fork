@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "retrograde-polymer-sheet",
+  "triangles": 1384,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "b6bb90fb49108aad8e4f283c62cb9c3894c41f5db727fc3b3bca8f9ddeb6c9d0",
+  "authored_sha256": "066aea7dbfd5c1f4b887c0325e8d153ee027bc4cee3dc8a8eacf498326c8db88",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

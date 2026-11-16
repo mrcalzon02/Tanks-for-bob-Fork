@@ -1,0 +1,36 @@
+{
+  "asset": "tank-ammo-casing",
+  "construction": "A drawn brass shell case with a hollow mouth, primer rim and supported extractor groove.",
+  "regions": [
+    {
+      "part": "Drawn case body",
+      "materials": [
+        "tank-ammo-casing | product"
+      ]
+    },
+    {
+      "part": "Extractor base",
+      "materials": [
+        "tank-ammo-casing | brass"
+      ]
+    },
+    {
+      "part": "Dark hollow case mouth",
+      "materials": [
+        "tank-ammo-casing | dark"
+      ]
+    },
+    {
+      "part": "Open case mouth rim",
+      "materials": [
+        "tank-ammo-casing | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

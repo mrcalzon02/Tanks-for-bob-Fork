@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "requisition-slip",
+  "triangles": 1440,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "4b7fd350a5b9ab21900d9d94fcea6d28c4b2afd1962cfd4887c4f7147585becb",
+  "authored_sha256": "80b81efd76e0f373e8d688834d2707572c8b353f60f8631a1060b438f53aae01",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

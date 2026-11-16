@@ -1,0 +1,19 @@
+{
+  "asset": "spervingarm",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "d3d63f947b50718e5088d51ab6f6f1f271fb562a20b28e5af3bfb9d8c18f4f44",
+  "source_sha256": "75c60bc07f4ecf6cff03e98178ba5fee3c3f494fe324cc47c1aef806d2d504eb",
+  "render_sha256": "1f88b533f4d04de5cf4dec8b75ef46c67897a3aa25b18f4fcc0ecb1e3c3a2a75",
+  "reference_icon_sha256": [
+    "20d231c33533e44acddba74a1a7c2523f34141bdc1e0daeb43ebff0cb1004bdc"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A single articulated sperving arm with two joints and a bolted installation foot. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

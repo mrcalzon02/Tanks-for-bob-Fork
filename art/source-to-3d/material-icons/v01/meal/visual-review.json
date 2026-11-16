@@ -1,0 +1,19 @@
+{
+  "asset": "meal",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "b961afffbf299f601209787ff241a2372d62419a92b055c71047c7d39870648f",
+  "source_sha256": "ac4903dd809be16ee5588f40e5f9cc311c5a1cada5508795ac925b5ac2a40999",
+  "render_sha256": "3a660c1bd9e6f733c237967b0528e6a7cd48b4864af5e0783ce17495a06d8b2c",
+  "reference_icon_sha256": [
+    "b2abe97414d28058c6fd452c3f5e993804912c4737a812b7ea87501db1c70d26"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "An open metal mess tin with a hinged lid and visible portions of cooked food. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

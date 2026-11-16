@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "toxic-sludge",
+  "triangles": 1916,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "6223a94ee79d3a610e222f5f4e3d77bf257a8bab9a4fb75cd59bb847700d4811",
+  "authored_sha256": "6be0d3f9776674e64184468394c7260b509fbf3d60804a4aa18b0d2c77432cd4",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

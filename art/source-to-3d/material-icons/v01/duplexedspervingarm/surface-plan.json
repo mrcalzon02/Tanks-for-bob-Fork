@@ -1,0 +1,78 @@
+{
+  "asset": "duplexedspervingarm",
+  "construction": "Two linked sperving arms with independent joints and one reinforced mounting beam.",
+  "regions": [
+    {
+      "part": "Arm installation foot",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Articulated sperving arm",
+      "materials": [
+        "duplexedspervingarm | product"
+      ]
+    },
+    {
+      "part": "Supported articulation joint",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Supported articulation joint.001",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Supported articulation joint.002",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Supported articulation joint.003",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Articulated sperving arm.001",
+      "materials": [
+        "duplexedspervingarm | product"
+      ]
+    },
+    {
+      "part": "Supported articulation joint.004",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Supported articulation joint.005",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Supported articulation joint.006",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Supported articulation joint.007",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

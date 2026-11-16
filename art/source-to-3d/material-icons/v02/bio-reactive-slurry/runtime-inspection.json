@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "bio-reactive-slurry",
+  "triangles": 13588,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "172470b5f6085b15e987c694a1c286a77c1689c5c4c1d11ace9fa605efd90708",
+  "authored_sha256": "edcb5ea5982c98571b029f344ca3f4c0217f955e39e74c2b2b0f97bff272db53",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

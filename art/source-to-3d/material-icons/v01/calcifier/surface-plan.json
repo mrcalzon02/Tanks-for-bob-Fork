@@ -1,0 +1,72 @@
+{
+  "asset": "calcifier",
+  "construction": "Icon-scale calcifier enclosure with masonry heat chamber, open supported calcination pan and a braced flue; world entity graphics are unchanged.",
+  "regions": [
+    {
+      "part": "Masonry calcifier plinth",
+      "materials": [
+        "calcifier | stone"
+      ]
+    },
+    {
+      "part": "Refractory heat chamber",
+      "materials": [
+        "calcifier | stone"
+      ]
+    },
+    {
+      "part": "Recessed chamber interior",
+      "materials": [
+        "calcifier | dark"
+      ]
+    },
+    {
+      "part": "Supported furnace grate",
+      "materials": [
+        "calcifier | steel"
+      ]
+    },
+    {
+      "part": "Supported calcination pan",
+      "materials": [
+        "calcifier | steel"
+      ]
+    },
+    {
+      "part": "Thick pan retaining rim",
+      "materials": [
+        "calcifier | brass"
+      ]
+    },
+    {
+      "part": "Calcined material surface",
+      "materials": [
+        "calcifier | product"
+      ]
+    },
+    {
+      "part": "Braced furnace flue",
+      "materials": [
+        "calcifier | dark"
+      ]
+    },
+    {
+      "part": "Supported flue cap",
+      "materials": [
+        "calcifier | steel"
+      ]
+    },
+    {
+      "part": "Flue retaining bracket",
+      "materials": [
+        "calcifier | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

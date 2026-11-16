@@ -1,0 +1,48 @@
+{
+  "asset": "hydrocoptic-precursor",
+  "construction": "A cylindrical precursor cartridge with three longitudinal sight strips and a keyed end cap.",
+  "regions": [
+    {
+      "part": "Cartridge body",
+      "materials": [
+        "hydrocoptic-precursor | ceramic"
+      ]
+    },
+    {
+      "part": "Retaining end cap",
+      "materials": [
+        "hydrocoptic-precursor | steel"
+      ]
+    },
+    {
+      "part": "Retaining end cap.001",
+      "materials": [
+        "hydrocoptic-precursor | steel"
+      ]
+    },
+    {
+      "part": "Recessed product sight strip",
+      "materials": [
+        "hydrocoptic-precursor | product"
+      ]
+    },
+    {
+      "part": "Recessed product sight strip.001",
+      "materials": [
+        "hydrocoptic-precursor | product"
+      ]
+    },
+    {
+      "part": "Recessed dispensing nozzle",
+      "materials": [
+        "hydrocoptic-precursor | dark"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

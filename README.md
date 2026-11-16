@@ -6,6 +6,10 @@ Campfire, Clay Pit, Pit Kiln and Lumberyard artwork carried forward from the
 verified **1.8.100** Mod Portal package. Base Factorio 2.1 is required; Elevated
 Rails, Quality, Recycler and Space Age remain optional.
 
+## Modeled material icons
+
+The active 1.8.103 source includes **107 authored 3D material, fluid, module and placeholder replacements**, with **10 matching research icons**. The integration preserves the newer pump and Fish Pond graphics. [Audit and rebuild instructions](docs/MATERIAL_ICON_AUDIT.md) and [current full-pack native validation](docs/data/material-icon-active-integration.json) accompany the editable sources and 64/128/256 renders.
+
 ## Progression audit and repairs — 8 November 2026
 
 The [classified audit](docs/compatibility/PROGRESSION_ORDER_AUDIT_2026-11-08.md)

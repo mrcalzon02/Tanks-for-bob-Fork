@@ -1,0 +1,42 @@
+{
+  "asset": "enzyme-paste",
+  "construction": "A short ceramic paste cartridge with a supported plunger and recessed nozzle.",
+  "regions": [
+    {
+      "part": "Cartridge body",
+      "materials": [
+        "enzyme-paste | ceramic"
+      ]
+    },
+    {
+      "part": "Retaining end cap",
+      "materials": [
+        "enzyme-paste | steel"
+      ]
+    },
+    {
+      "part": "Retaining end cap.001",
+      "materials": [
+        "enzyme-paste | steel"
+      ]
+    },
+    {
+      "part": "Recessed product sight strip",
+      "materials": [
+        "enzyme-paste | product"
+      ]
+    },
+    {
+      "part": "Recessed dispensing nozzle",
+      "materials": [
+        "enzyme-paste | dark"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

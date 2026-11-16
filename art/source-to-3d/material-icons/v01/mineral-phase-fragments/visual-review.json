@@ -1,0 +1,19 @@
+{
+  "asset": "mineral-phase-fragments",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "1907a5e03d3e7e4917343e9d63410521c12c7b521625d190bd8fe9c2bc504bab",
+  "source_sha256": "314f72fd7cd2e4dc280d436b51982c6641d45c837baa01e118bf3f66924d9458",
+  "render_sha256": "c9ac0c716a7d1ff9d4cb121e83d7c2d0aff5dd8c62110de18a6ef358d0d7d800",
+  "reference_icon_sha256": [
+    "0d3a5838215c4dddefec5c7dacd332d7d77b9c7367451f6c415baea66725015b"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Angular broken mineral fragments with varied thickness and freshly exposed edges. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

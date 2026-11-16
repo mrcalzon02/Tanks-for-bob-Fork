@@ -1,0 +1,17 @@
+{
+  "asset": "dielectric-suspension",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.27460578432105226,
+    0.2611912413123085,
+    0.2416112398176519
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "41a464409f796100e63c663bba3dcd396bf71784e9c8bbedb5750f2d5c1a51aa"
+}

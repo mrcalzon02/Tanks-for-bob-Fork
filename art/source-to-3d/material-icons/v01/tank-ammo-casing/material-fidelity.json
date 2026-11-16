@@ -1,0 +1,17 @@
+{
+  "asset": "tank-ammo-casing",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.10535240589637689,
+    0.11064101272623485,
+    0.12863906517578322
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "c7281bd05ac50e83fc16c46bdf6d1c41f3d4761c0f378b6365caa4889549f155"
+}

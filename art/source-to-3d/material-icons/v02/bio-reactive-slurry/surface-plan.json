@@ -1,0 +1,120 @@
+{
+  "asset": "bio-reactive-slurry",
+  "construction": "A sealed squat slurry drum with a guarded side gauge and two cap bolts.",
+  "regions": [
+    {
+      "part": "Closed sample vessel",
+      "materials": [
+        "bio-reactive-slurry | steel"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band",
+      "materials": [
+        "bio-reactive-slurry | dark"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band.001",
+      "materials": [
+        "bio-reactive-slurry | dark"
+      ]
+    },
+    {
+      "part": "Vessel cap",
+      "materials": [
+        "bio-reactive-slurry | steel"
+      ]
+    },
+    {
+      "part": "Cap retaining lip",
+      "materials": [
+        "bio-reactive-slurry | brass"
+      ]
+    },
+    {
+      "part": "Welded inset sample port boss",
+      "materials": [
+        "bio-reactive-slurry | dark"
+      ]
+    },
+    {
+      "part": "Supported metal port bezel",
+      "materials": [
+        "bio-reactive-slurry | brass"
+      ]
+    },
+    {
+      "part": "Recessed sample glass",
+      "materials": [
+        "bio-reactive-slurry | product"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss",
+      "materials": [
+        "bio-reactive-slurry | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.001",
+      "materials": [
+        "bio-reactive-slurry | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.002",
+      "materials": [
+        "bio-reactive-slurry | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.003",
+      "materials": [
+        "bio-reactive-slurry | steel"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener",
+      "materials": [
+        "bio-reactive-slurry | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.001",
+      "materials": [
+        "bio-reactive-slurry | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.002",
+      "materials": [
+        "bio-reactive-slurry | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.003",
+      "materials": [
+        "bio-reactive-slurry | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.004",
+      "materials": [
+        "bio-reactive-slurry | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.005",
+      "materials": [
+        "bio-reactive-slurry | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

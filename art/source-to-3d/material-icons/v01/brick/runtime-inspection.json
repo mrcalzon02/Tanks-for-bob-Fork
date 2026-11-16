@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "brick",
+  "triangles": 612,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "eabcb2d248d43b3010f0dfcbf63d169076f545eed25904f4a5000cda4ef33b6c",
+  "authored_sha256": "0e67cb18b95c2af12d58a6f3b7a6d988a7a9a686d652feabb00e9203d6015cc1",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "salinity-locked-emulsion",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.24304525877285885,
+    0.21866836122290476,
+    0.2256937089599661
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "07431dbfb7c18032ef3bd3b05cc6a556439bd00db3a22c78b022fbfc9b19097b"
+}

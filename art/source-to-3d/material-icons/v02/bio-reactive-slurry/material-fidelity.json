@@ -1,0 +1,17 @@
+{
+  "asset": "bio-reactive-slurry",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.3399877095952945,
+    0.33366693003248177,
+    0.3281713633570363
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "172470b5f6085b15e987c694a1c286a77c1689c5c4c1d11ace9fa605efd90708"
+}

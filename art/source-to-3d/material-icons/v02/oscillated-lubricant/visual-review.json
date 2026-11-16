@@ -1,0 +1,19 @@
+{
+  "asset": "oscillated-lubricant",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "1d2b8f0a897dd97a6724f9b0e341803361992556dc8727a628d73b9a8b38c43f",
+  "source_sha256": "6c1ba799236e857549e43f40b5431af6ad088b00feb526b739aa66cbfbcd8f83",
+  "render_sha256": "3fe17d5605268e16c8d9d6f39dc139b88649a92db5ea53c3b19f1b54892e1cef",
+  "reference_icon_sha256": [
+    "ccc6dfde8a0183b2defca4490098f786d38b890cfa84547f5bfb14b8f9daecb1"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A tall lubricant bottle with a recessed sight window and internal baffle silhouette. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

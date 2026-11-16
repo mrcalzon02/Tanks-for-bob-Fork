@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "work-order-slip",
+  "triangles": 1516,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "310c388d5e51357a6630112545969d8385131969e46446799d6ca8bff3fa7e82",
+  "authored_sha256": "ed9bb2c66e8ef54b2f74de1643edaf88e17f4294d840094dc0e638c046dfc716",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

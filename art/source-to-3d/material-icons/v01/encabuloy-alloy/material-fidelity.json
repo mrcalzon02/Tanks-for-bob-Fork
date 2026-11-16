@@ -1,0 +1,17 @@
+{
+  "asset": "encabuloy-alloy",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.10630210667861946,
+    0.10264455401165397,
+    0.10834603316898252
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "6deed4467987a58812856e3ff90cbf4dc1512714a50c1bd45be02142a8b1628e"
+}

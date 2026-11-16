@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "pre-turbulated-emulsion",
+  "triangles": 7448,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "90aff24f1fc62eb49a8d304bfa0da40faac21d67d56c7af8499342bf3c619352",
+  "authored_sha256": "d6aed0ddb1a1e7353cbb94a01a3e67439e5595d5df993b6e3b3d5fd6310a2bab",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

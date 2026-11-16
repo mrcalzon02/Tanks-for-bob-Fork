@@ -1,0 +1,19 @@
+{
+  "asset": "risk-assessment",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "ededc332632c8ae3733f161321c1890640a09c0dd9bca9eaba9ed288005975f7",
+  "source_sha256": "74726583dd9ee1e60020ddf2400c6ea9677af166b81c632a9f78600a8fc8b1a5",
+  "render_sha256": "23738286058e3600bba8bb7d83c80914c355362126daf0f4113e55eda3cf02d1",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A thick risk report with a hazard spine and a clearly raised warning plate. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

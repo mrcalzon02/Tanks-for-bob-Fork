@@ -1,0 +1,17 @@
+{
+  "asset": "mineral-phase-fragments",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.11148473874806002,
+    0.10649050897369573,
+    0.11984161725496438
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "1907a5e03d3e7e4917343e9d63410521c12c7b521625d190bd8fe9c2bc504bab"
+}

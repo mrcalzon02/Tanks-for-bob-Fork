@@ -1,0 +1,17 @@
+{
+  "asset": "cradinal-grametter",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.16833400494069414,
+    0.16213185696515234,
+    0.16913993377367417
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "4a5da0c149ef880fd73f005de8faa39643050a9cfa475f743c4372ec2951980f"
+}

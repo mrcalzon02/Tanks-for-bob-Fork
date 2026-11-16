@@ -1,0 +1,17 @@
+{
+  "asset": "staples",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.3197774914359345,
+    0.312360539300418,
+    0.3152833212860241
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "83635a4b1b150a7713156db8cb03a3169256c60c0a0682b484f152a12adb2a69"
+}

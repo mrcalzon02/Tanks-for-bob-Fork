@@ -1,0 +1,17 @@
+{
+  "asset": "conductive-residue",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.12682192508633666,
+    0.12391747099973435,
+    0.12448419374833967
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "fab9dad4f4de0896e9cad3efab5abf0dd3965885172dfefa008cc6b031f9679d"
+}

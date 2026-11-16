@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "phase-diluted-brine",
+  "triangles": 4036,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "48379b27130bceb1e24de131c7dfa53241e6608e0fc6edf51b9044e7e5655425",
+  "authored_sha256": "19d14a43d5b77d6e4ab6e9c458d2e448e5ba6b7c8043d2fd9542aa1ed000e81b",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

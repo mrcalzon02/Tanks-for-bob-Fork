@@ -1,0 +1,19 @@
+{
+  "asset": "crude-paper",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "17b62abe13bbb742654cad25097a7db04230aea5a745b64a82c4c69340e86c35",
+  "source_sha256": "6ff8ab1867d68b611a15477ee334c2c79388375721259cc9f91c0fa267dcdde0",
+  "render_sha256": "a3ee6641129077cd739879eb28c15e123cdc049d3d29497bba077f2ef287ae8e",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Uneven unbleached pulp sheets in a loose stack; frayed edge fibers and one folded corner. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

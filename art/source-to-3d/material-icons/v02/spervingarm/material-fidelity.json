@@ -1,0 +1,17 @@
+{
+  "asset": "spervingarm",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.19126528574993762,
+    0.1834789119041677,
+    0.18522585475418019
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "d3d63f947b50718e5088d51ab6f6f1f271fb562a20b28e5af3bfb9d8c18f4f44"
+}

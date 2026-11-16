@@ -1,0 +1,19 @@
+{
+  "asset": "work-order-slip",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "310c388d5e51357a6630112545969d8385131969e46446799d6ca8bff3fa7e82",
+  "source_sha256": "ed9bb2c66e8ef54b2f74de1643edaf88e17f4294d840094dc0e638c046dfc716",
+  "render_sha256": "984c741b51ccebb34b2eeff816b6fb0cd12dde9190eecd4c2b85ae2bac980ff5",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A folded work order with a dark job header and one exposed mechanical diagram. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "ductedspervingarm",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.20513359983168525,
+    0.1953713444140543,
+    0.19960025247212287
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "d19f6ee7a1d7eda229ac671a00e30e6bf3a2e8ef284d21a0673855daa8501ef8"
+}

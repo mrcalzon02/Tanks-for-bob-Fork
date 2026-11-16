@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "crystalline-agglomerate",
+  "triangles": 3384,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "001a236304a7c2c8771a5b8ec42f3ebbd99689fe1621482e8150be74d2de9666",
+  "authored_sha256": "0572e1358e1771b71e5d7a46117b83d43390d1b1546cf3ea9d462fe68ab2f6f1",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

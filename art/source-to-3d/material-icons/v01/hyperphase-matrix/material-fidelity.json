@@ -1,0 +1,17 @@
+{
+  "asset": "hyperphase-matrix",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.2020625297194484,
+    0.1706490727532097,
+    0.16610199714693294
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "321ddd1ecdfdf916f5264717521b72ebb8639a250cb24e413ddcc4fff86b41a0"
+}

@@ -1,0 +1,102 @@
+{
+  "asset": "crystalline-agglomerate",
+  "construction": "Seven irregularly grown pale mineral crystals on one coarse rock base.",
+  "regions": [
+    {
+      "part": "Mineral growth base",
+      "materials": [
+        "crystalline-agglomerate | stone"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.001",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.001",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.002",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.002",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.003",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.003",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.004",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.004",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.005",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.005",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.006",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.006",
+      "materials": [
+        "crystalline-agglomerate | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

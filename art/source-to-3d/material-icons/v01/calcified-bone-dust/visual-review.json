@@ -1,0 +1,19 @@
+{
+  "asset": "calcified-bone-dust",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "a98bccbc12a13ba21783c3e0e44016897acecc3293c31bf4158e9b5a92b25c26",
+  "source_sha256": "8cc5025081750d6a7c70b8e5bfd5970542321bf937fbcc01ef160d232aef1a27",
+  "render_sha256": "23755600ac0d2c2e30bd2f4b9b729d21ffef1074730ed799ad4c501415286013",
+  "reference_icon_sha256": [
+    "314ae2f4b7dd989c3cbc8c7334ba3d152359ea72c1ba3494619b74f3b291012e"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Fine pale dust with a clearly exposed calcified bone and joint fragments. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

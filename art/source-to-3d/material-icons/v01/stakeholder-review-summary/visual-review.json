@@ -1,0 +1,19 @@
+{
+  "asset": "stakeholder-review-summary",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "ec8473e5421a7d0bf3fa0801ed0d75a8af5498b9b9af9c68965084882a0f2fef",
+  "source_sha256": "f8dc27ab2be0ab47e6af448a9d382f9472b919eed71fbf5c191efc3f23daf22a",
+  "render_sha256": "d9bed55ff7f6fb78e876bbed8a9818625eb5456384edde937ecccfe0ee4f7796",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Three fanned summary folders with staggered index tabs and a short summary sheet. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "stone-tools",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "8a5bbf654a63d942f5e5a0eb74b058536f351ec742732031d4e60115d7d2c395",
+  "source_sha256": "a5c778287f6aee9ab95c8da68684e6628ec62951101a22561889928660f0cda9",
+  "render_sha256": "f061891b7928e12ee407d6005ccf83864f4a54b059c8ebefb20f8343c3898ad2",
+  "reference_icon_sha256": [
+    "975a5daa86e8948fad6d3d1a7dfc003316be8e78a334ec4aebbd418ebea35cb1"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Knapped stone hammer and sharpened stone adze, cord-bound to two separate wooden handles. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

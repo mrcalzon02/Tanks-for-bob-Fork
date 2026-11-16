@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "clipboard",
+  "triangles": 1548,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "9eeb054ccee64b5cf32e484cb5c84b6fecde7841c17043b563ebd0e06ae9d046",
+  "authored_sha256": "a470f2fe76e149159a14c7ae8da1fd02335f9ab25d374492e5dc8329589d58dc",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

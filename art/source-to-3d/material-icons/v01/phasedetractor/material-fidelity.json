@@ -1,0 +1,17 @@
+{
+  "asset": "phasedetractor",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.14957020057306591,
+    0.11638968481375359,
+    0.1192168099331423
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "5fb8af774f1e87c12af78ba353528f6ed518e068f39141f566ce870b3b57d8a6"
+}

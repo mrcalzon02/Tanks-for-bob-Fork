@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "phase-primed-carrier",
+  "triangles": 6120,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "5eac54b366133d8ddf01e3c3b0aa5baef56d6e70697cc1b32012962fb09c6f73",
+  "authored_sha256": "015497228ae7761eda88436ca6f93bfb38fcabff63b3acaaa02659ff6e36a05d",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

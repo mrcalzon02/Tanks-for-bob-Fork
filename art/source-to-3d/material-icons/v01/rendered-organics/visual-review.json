@@ -1,0 +1,19 @@
+{
+  "asset": "rendered-organics",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "51ee87285f93383a262b1061bee1df42a510b78c7b029d2418dde93fbce40005",
+  "source_sha256": "f6c3acc2fb5e3c447007a5c8ecb2cefa0f364de814e0b7b964f125cf0e7af9d6",
+  "render_sha256": "a5d7302d4d007bee5c8e4c1e28caef5bb2f4adb886cc718e9f9892bb0872f803",
+  "reference_icon_sha256": [
+    "773f0cd9e2a29c0a879dbf730f07feeff51a1b321d59d9e349133b8a35cbe707"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Three solid rendered-organic slabs with soft edges and visible scored cuts. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

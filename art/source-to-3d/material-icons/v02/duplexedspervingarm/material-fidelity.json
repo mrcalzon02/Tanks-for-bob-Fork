@@ -1,0 +1,17 @@
+{
+  "asset": "duplexedspervingarm",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.32706640703686296,
+    0.3100785603975022,
+    0.31092907182345175
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "5cf57d017c03eb3caf85f773b66550b4483cff344a5be1fb2a0dc9da19b9db74"
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "hydrocoptic-precursor",
+  "triangles": 4456,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "f59e46c14020e25613e43c3fd61a18581688f9fd3551f9433bc01bfd1bd1e8fd",
+  "authored_sha256": "7537b5f46e4de09a2a3b84e2e8b7fa902c020080238d5044c55f7b61f3c07cc0",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

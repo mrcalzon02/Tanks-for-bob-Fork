@@ -1,0 +1,17 @@
+{
+  "asset": "retro-encabulator",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.15325692454632284,
+    0.1456733524355301,
+    0.15447946513849092
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "17313d8627388a4c59b280227b565f328447fd06c9007f113e7d282f87dd0726"
+}

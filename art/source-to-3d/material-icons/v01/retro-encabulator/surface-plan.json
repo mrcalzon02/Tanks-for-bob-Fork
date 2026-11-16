@@ -1,0 +1,54 @@
+{
+  "asset": "retro-encabulator",
+  "construction": "A supported upright reverse rotor with three indexed discs and a closed lower drive.",
+  "regions": [
+    {
+      "part": "Bolted mechanical base",
+      "materials": [
+        "retro-encabulator | steel"
+      ]
+    },
+    {
+      "part": "Supported rotor upright",
+      "materials": [
+        "retro-encabulator | dark"
+      ]
+    },
+    {
+      "part": "Supported rotor upright.001",
+      "materials": [
+        "retro-encabulator | dark"
+      ]
+    },
+    {
+      "part": "Indexed upright rotor disc",
+      "materials": [
+        "retro-encabulator | product"
+      ]
+    },
+    {
+      "part": "Indexed upright rotor disc.001",
+      "materials": [
+        "retro-encabulator | product"
+      ]
+    },
+    {
+      "part": "Indexed upright rotor disc.002",
+      "materials": [
+        "retro-encabulator | product"
+      ]
+    },
+    {
+      "part": "Supported central shaft",
+      "materials": [
+        "retro-encabulator | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

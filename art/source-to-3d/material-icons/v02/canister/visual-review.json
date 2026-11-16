@@ -1,0 +1,19 @@
+{
+  "asset": "canister",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "8cc3754b72961c37694dd2a1657d1cdde7457bc4815b600212967352dc671d46",
+  "source_sha256": "815763bafa2ab23028242d05d7ff668460d4e5d433b7407a1906d511ecbb471f",
+  "render_sha256": "f5b0f395fef090d4092ab0e8dcebfacdd1b1bd3411efdf119c2b8569e81b3b65",
+  "reference_icon_sha256": [
+    "6ec44543e81aeb6e3238d3b0ca9ae5693264b0ea506c7224d99aa13619d4c72b"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Uncharged pressure canister with thick rolled rim, sealed front access and clean fittings. Current 128 px and 64 px renders were inspected on the final contact sheets. State variants share the vessel; window state, locks and shielding are distinct."
+}

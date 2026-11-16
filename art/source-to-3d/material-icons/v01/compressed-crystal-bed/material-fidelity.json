@@ -1,0 +1,17 @@
+{
+  "asset": "compressed-crystal-bed",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.16511046716649036,
+    0.10986921791392606,
+    0.11224568020483572
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "3f89c587defa6dfde08eada694f1f669eac6a7301d44d1de655f312b20b448e1"
+}

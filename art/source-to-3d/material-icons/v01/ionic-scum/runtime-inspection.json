@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "ionic-scum",
+  "triangles": 320,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "355582d5b0aa785da738e8118bfc308588de8f1a51c2155f420065e67a8285d5",
+  "authored_sha256": "550f42d1fd0d52930ddd7e99c9e4d740f4146c2c8ab65c42339b0a561e322380",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

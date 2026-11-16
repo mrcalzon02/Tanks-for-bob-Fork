@@ -1,0 +1,42 @@
+{
+  "asset": "stamps",
+  "construction": "Wooden hand stamp, engraved metal foot and matching ink-pad tray.",
+  "regions": [
+    {
+      "part": "Recessed ink pad tray",
+      "materials": [
+        "stamps | steel"
+      ]
+    },
+    {
+      "part": "Red ink pad surface",
+      "materials": [
+        "stamps | product"
+      ]
+    },
+    {
+      "part": "Engraved stamp foot",
+      "materials": [
+        "stamps | dark"
+      ]
+    },
+    {
+      "part": "Supported stamp handle stem",
+      "materials": [
+        "stamps | brass"
+      ]
+    },
+    {
+      "part": "Wooden hand stamp grip",
+      "materials": [
+        "stamps | wood"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "stamps",
+  "triangles": 1872,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "27acca13a8b23f60ee056774522b9142e3fdeee9465e37a1416ee4fbf09b1606",
+  "authored_sha256": "ce2b6c295328263fabe33f3bc428b4817158ecd757fde9000b74c948042a173c",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

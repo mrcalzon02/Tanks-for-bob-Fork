@@ -1,0 +1,132 @@
+{
+  "asset": "hyperphase-matrix",
+  "construction": "A nested cubic phase lattice with real open cells and keyed corner mounts.",
+  "regions": [
+    {
+      "part": "Open matrix horizontal beam",
+      "materials": [
+        "hyperphase-matrix | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web",
+      "materials": [
+        "hyperphase-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.001",
+      "materials": [
+        "hyperphase-matrix | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.001",
+      "materials": [
+        "hyperphase-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.002",
+      "materials": [
+        "hyperphase-matrix | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.002",
+      "materials": [
+        "hyperphase-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.003",
+      "materials": [
+        "hyperphase-matrix | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.003",
+      "materials": [
+        "hyperphase-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.004",
+      "materials": [
+        "hyperphase-matrix | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.004",
+      "materials": [
+        "hyperphase-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.005",
+      "materials": [
+        "hyperphase-matrix | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.005",
+      "materials": [
+        "hyperphase-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.006",
+      "materials": [
+        "hyperphase-matrix | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.006",
+      "materials": [
+        "hyperphase-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.007",
+      "materials": [
+        "hyperphase-matrix | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.007",
+      "materials": [
+        "hyperphase-matrix | product"
+      ]
+    },
+    {
+      "part": "Open matrix horizontal beam.008",
+      "materials": [
+        "hyperphase-matrix | steel"
+      ]
+    },
+    {
+      "part": "Open matrix vertical web.008",
+      "materials": [
+        "hyperphase-matrix | product"
+      ]
+    },
+    {
+      "part": "Nested inner phase support",
+      "materials": [
+        "hyperphase-matrix | brass"
+      ]
+    },
+    {
+      "part": "Nested inner phase support.001",
+      "materials": [
+        "hyperphase-matrix | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

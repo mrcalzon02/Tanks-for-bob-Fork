@@ -1,0 +1,138 @@
+{
+  "asset": "crude-paper",
+  "construction": "Uneven unbleached pulp sheets in a loose stack; frayed edge fibers and one folded corner.",
+  "regions": [
+    {
+      "part": "Unbleached handmade pulp sheet 0",
+      "materials": [
+        "crude-paper | paper"
+      ]
+    },
+    {
+      "part": "Visible edge fiber",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.001",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.002",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Unbleached handmade pulp sheet 1",
+      "materials": [
+        "crude-paper | paper"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.003",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.004",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.005",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Unbleached handmade pulp sheet 2",
+      "materials": [
+        "crude-paper | paper"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.006",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.007",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.008",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Unbleached handmade pulp sheet 3",
+      "materials": [
+        "crude-paper | paper"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.009",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.010",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.011",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Unbleached handmade pulp sheet 4",
+      "materials": [
+        "crude-paper | paper"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.012",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.013",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Visible edge fiber.014",
+      "materials": [
+        "crude-paper | pulp"
+      ]
+    },
+    {
+      "part": "Curled pulp sheet edge",
+      "materials": [
+        "crude-paper | paper"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "asset": "balanced-reactive-medium",
+  "construction": "A divided reaction cup with two separate media and a broad central divider.",
+  "regions": [
+    {
+      "part": "Thick-walled sample vessel",
+      "materials": [
+        "balanced-reactive-medium | steel"
+      ]
+    },
+    {
+      "part": "Supported vessel retaining rim",
+      "materials": [
+        "balanced-reactive-medium | ceramic"
+      ]
+    },
+    {
+      "part": "Contained sample surface",
+      "materials": [
+        "balanced-reactive-medium | product"
+      ]
+    },
+    {
+      "part": "Central reaction divider",
+      "materials": [
+        "balanced-reactive-medium | ceramic"
+      ]
+    },
+    {
+      "part": "Separated reaction medium",
+      "materials": [
+        "balanced-reactive-medium | product"
+      ]
+    },
+    {
+      "part": "Separated reaction medium.001",
+      "materials": [
+        "balanced-reactive-medium | secondary"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

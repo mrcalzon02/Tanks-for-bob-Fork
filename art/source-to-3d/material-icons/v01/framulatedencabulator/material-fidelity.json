@@ -1,0 +1,17 @@
+{
+  "asset": "framulatedencabulator",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.25755341980031726,
+    0.2358495847718578,
+    0.2201548940934963
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "2d925387656e01f301d5c9000f2dd3ca99f9aa44de1a2d3a7a4e72305bcd15f6"
+}

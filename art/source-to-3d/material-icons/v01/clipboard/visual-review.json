@@ -1,0 +1,19 @@
+{
+  "asset": "clipboard",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "9eeb054ccee64b5cf32e484cb5c84b6fecde7841c17043b563ebd0e06ae9d046",
+  "source_sha256": "a470f2fe76e149159a14c7ae8da1fd02335f9ab25d374492e5dc8329589d58dc",
+  "render_sha256": "661ee98cbbcfc19d1022ac7c25dfb5b3c7e9056e4006284fd76367ff2a9598bf",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Wooden clipboard with spring-steel clip and a white work sheet. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

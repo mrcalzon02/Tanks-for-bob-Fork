@@ -1,0 +1,78 @@
+{
+  "asset": "risk-assessed-work-order",
+  "construction": "A broad work clipboard with an attached risk strip and inset job panel.",
+  "regions": [
+    {
+      "part": "Rigid report cover",
+      "materials": [
+        "risk-assessed-work-order | product"
+      ]
+    },
+    {
+      "part": "Bound report sheet",
+      "materials": [
+        "risk-assessed-work-order | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.001",
+      "materials": [
+        "risk-assessed-work-order | paper"
+      ]
+    },
+    {
+      "part": "Printed document header",
+      "materials": [
+        "risk-assessed-work-order | dark"
+      ]
+    },
+    {
+      "part": "Printed report rule",
+      "materials": [
+        "risk-assessed-work-order | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.001",
+      "materials": [
+        "risk-assessed-work-order | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.002",
+      "materials": [
+        "risk-assessed-work-order | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.003",
+      "materials": [
+        "risk-assessed-work-order | ink"
+      ]
+    },
+    {
+      "part": "Spring steel retaining clip",
+      "materials": [
+        "risk-assessed-work-order | steel"
+      ]
+    },
+    {
+      "part": "Raised warning plate",
+      "materials": [
+        "risk-assessed-work-order | yellow"
+      ]
+    },
+    {
+      "part": "Warning exclamation",
+      "materials": [
+        "risk-assessed-work-order | dark"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

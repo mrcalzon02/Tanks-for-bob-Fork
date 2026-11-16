@@ -1,0 +1,66 @@
+{
+  "asset": "crude-glass",
+  "construction": "Three irregular thick glass panes with chipped edges, slight warping and exposed pale fracture faces.",
+  "regions": [
+    {
+      "part": "Thick warped glass pane",
+      "materials": [
+        "crude-glass | product"
+      ]
+    },
+    {
+      "part": "Exposed pale fracture edge",
+      "materials": [
+        "crude-glass | ceramic"
+      ]
+    },
+    {
+      "part": "Exposed pale fracture edge.001",
+      "materials": [
+        "crude-glass | ceramic"
+      ]
+    },
+    {
+      "part": "Thick warped glass pane.001",
+      "materials": [
+        "crude-glass | product"
+      ]
+    },
+    {
+      "part": "Exposed pale fracture edge.002",
+      "materials": [
+        "crude-glass | ceramic"
+      ]
+    },
+    {
+      "part": "Exposed pale fracture edge.003",
+      "materials": [
+        "crude-glass | ceramic"
+      ]
+    },
+    {
+      "part": "Thick warped glass pane.002",
+      "materials": [
+        "crude-glass | product"
+      ]
+    },
+    {
+      "part": "Exposed pale fracture edge.004",
+      "materials": [
+        "crude-glass | ceramic"
+      ]
+    },
+    {
+      "part": "Exposed pale fracture edge.005",
+      "materials": [
+        "crude-glass | ceramic"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "heavy-brine-fraction",
+  "triangles": 3888,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 0.0,
+  "glb_sha256": "13a55867a53c11f1ba8ae35570be20af6583854f82158bb8e62e0ec4ffb272f5",
+  "authored_sha256": "2fec3e8ebbcd17f578a8ceb8dc76685c506a2c8aa0ed7730c3c00882b52c6a36",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

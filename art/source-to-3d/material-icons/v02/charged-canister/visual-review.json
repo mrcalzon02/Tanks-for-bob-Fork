@@ -1,0 +1,19 @@
+{
+  "asset": "charged-canister",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "30d05a0793bfc762e4ce4afbafb00edcb6840cd577e48a3563eab206eb431a20",
+  "source_sha256": "3bfe306dda00897bc90e916b76c219a791045141054659a5c9e43630466b2a70",
+  "render_sha256": "44b859c58678eaa9b0f58817618ca1e9282c888b5eb81736a9529012b69a8dba",
+  "reference_icon_sha256": [
+    "ed8c5c6a764ab037abb798ee12db0d1288494934789dae1d7c1f73c5e0ace054"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "The matching pressure canister with a closed contact cover and visible charged-state window. Current 128 px and 64 px renders were inspected on the final contact sheets. State variants share the vessel; window state, locks and shielding are distinct."
+}

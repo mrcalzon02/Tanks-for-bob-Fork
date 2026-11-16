@@ -1,0 +1,24 @@
+{
+  "asset": "retrograde-polymer-sheet",
+  "construction": "A rolled polymer sheet with visible layered spiral and a loose flat leading edge.",
+  "regions": [
+    {
+      "part": "Actual layered polymer spiral",
+      "materials": [
+        "retrograde-polymer-sheet | product"
+      ]
+    },
+    {
+      "part": "Loose flat leading sheet",
+      "materials": [
+        "retrograde-polymer-sheet | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

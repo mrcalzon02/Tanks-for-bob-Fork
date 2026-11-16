@@ -1,0 +1,84 @@
+{
+  "asset": "charcoal",
+  "construction": "Charred split timber pieces with actual end checking and pale ash in recessed fractures.",
+  "regions": [
+    {
+      "part": "Charred timber chunk 0",
+      "materials": [
+        "charcoal | char"
+      ]
+    },
+    {
+      "part": "Recessed ash in split",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Recessed ash in split.001",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Recessed ash in split.002",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Charred timber chunk 1",
+      "materials": [
+        "charcoal | char"
+      ]
+    },
+    {
+      "part": "Recessed ash in split.003",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Recessed ash in split.004",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Recessed ash in split.005",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Charred timber chunk 2",
+      "materials": [
+        "charcoal | char"
+      ]
+    },
+    {
+      "part": "Recessed ash in split.006",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Recessed ash in split.007",
+      "materials": [
+        "charcoal | ash"
+      ]
+    },
+    {
+      "part": "Recessed ash in split.008",
+      "materials": [
+        "charcoal | ash"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

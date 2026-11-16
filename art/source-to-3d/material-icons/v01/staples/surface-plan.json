@@ -1,0 +1,102 @@
+{
+  "asset": "staples",
+  "construction": "A collated strip of formed steel staples and three loose U-shaped staples.",
+  "regions": [
+    {
+      "part": "Collated U-shaped staple",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Collated U-shaped staple.001",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Collated U-shaped staple.002",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Collated U-shaped staple.003",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Collated U-shaped staple.004",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Collated U-shaped staple.005",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Collated U-shaped staple.006",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Collated U-shaped staple.007",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Collated U-shaped staple.008",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Collated U-shaped staple.009",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Collated U-shaped staple.010",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Collated U-shaped staple.011",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Loose formed staple",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Loose formed staple.001",
+      "materials": [
+        "staples | steel"
+      ]
+    },
+    {
+      "part": "Loose formed staple.002",
+      "materials": [
+        "staples | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

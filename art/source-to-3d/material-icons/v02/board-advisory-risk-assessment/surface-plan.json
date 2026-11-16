@@ -1,0 +1,126 @@
+{
+  "asset": "board-advisory-risk-assessment",
+  "construction": "A heavy advisory binder with two raised warning panels and a three-tab index.",
+  "regions": [
+    {
+      "part": "Rigid report cover",
+      "materials": [
+        "board-advisory-risk-assessment | product"
+      ]
+    },
+    {
+      "part": "Bound report sheet",
+      "materials": [
+        "board-advisory-risk-assessment | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.001",
+      "materials": [
+        "board-advisory-risk-assessment | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.002",
+      "materials": [
+        "board-advisory-risk-assessment | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.003",
+      "materials": [
+        "board-advisory-risk-assessment | paper"
+      ]
+    },
+    {
+      "part": "Printed document header",
+      "materials": [
+        "board-advisory-risk-assessment | dark"
+      ]
+    },
+    {
+      "part": "Printed report rule",
+      "materials": [
+        "board-advisory-risk-assessment | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.001",
+      "materials": [
+        "board-advisory-risk-assessment | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.002",
+      "materials": [
+        "board-advisory-risk-assessment | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.003",
+      "materials": [
+        "board-advisory-risk-assessment | ink"
+      ]
+    },
+    {
+      "part": "Supported indexed folder tab",
+      "materials": [
+        "board-advisory-risk-assessment | product"
+      ]
+    },
+    {
+      "part": "Raised warning plate",
+      "materials": [
+        "board-advisory-risk-assessment | yellow"
+      ]
+    },
+    {
+      "part": "Warning exclamation",
+      "materials": [
+        "board-advisory-risk-assessment | dark"
+      ]
+    },
+    {
+      "part": "Actual ring binder loop",
+      "materials": [
+        "board-advisory-risk-assessment | steel"
+      ]
+    },
+    {
+      "part": "Actual ring binder loop.001",
+      "materials": [
+        "board-advisory-risk-assessment | steel"
+      ]
+    },
+    {
+      "part": "Three separate advisory index tabs",
+      "materials": [
+        "board-advisory-risk-assessment | product"
+      ]
+    },
+    {
+      "part": "Three separate advisory index tabs.001",
+      "materials": [
+        "board-advisory-risk-assessment | product"
+      ]
+    },
+    {
+      "part": "Three separate advisory index tabs.002",
+      "materials": [
+        "board-advisory-risk-assessment | product"
+      ]
+    },
+    {
+      "part": "Secondary advisory warning plate",
+      "materials": [
+        "board-advisory-risk-assessment | yellow"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

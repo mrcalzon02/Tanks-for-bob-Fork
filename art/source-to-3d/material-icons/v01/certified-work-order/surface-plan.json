@@ -1,0 +1,78 @@
+{
+  "asset": "certified-work-order",
+  "construction": "A folded certified order with a raised red wax seal and tied document ribbon.",
+  "regions": [
+    {
+      "part": "Folded document backing",
+      "materials": [
+        "certified-work-order | product"
+      ]
+    },
+    {
+      "part": "Bound report sheet",
+      "materials": [
+        "certified-work-order | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.001",
+      "materials": [
+        "certified-work-order | paper"
+      ]
+    },
+    {
+      "part": "Printed document header",
+      "materials": [
+        "certified-work-order | dark"
+      ]
+    },
+    {
+      "part": "Printed report rule",
+      "materials": [
+        "certified-work-order | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.001",
+      "materials": [
+        "certified-work-order | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.002",
+      "materials": [
+        "certified-work-order | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.003",
+      "materials": [
+        "certified-work-order | ink"
+      ]
+    },
+    {
+      "part": "Raised wax certification seal",
+      "materials": [
+        "certified-work-order | product"
+      ]
+    },
+    {
+      "part": "Tied certification ribbon",
+      "materials": [
+        "certified-work-order | red"
+      ]
+    },
+    {
+      "part": "Tied certification ribbon.001",
+      "materials": [
+        "certified-work-order | red"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

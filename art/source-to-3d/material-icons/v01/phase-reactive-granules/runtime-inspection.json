@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "phase-reactive-granules",
+  "triangles": 2400,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "14c98eb4c2177241ec4f50b8b86925d04bb6665f8e12604c2d59d887230c00cc",
+  "authored_sha256": "a563588a01705c30af34297eceeb1a601b2cf885408db749758ca7da6c4051d6",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

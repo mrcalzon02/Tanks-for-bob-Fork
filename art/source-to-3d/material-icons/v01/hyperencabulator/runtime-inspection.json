@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "hyperencabulator",
+  "triangles": 21288,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "6aa82e5b0adf9d660e973bb6b667b60ed0540e8a7a98bddc1d7b5c1edac2ca0e",
+  "authored_sha256": "ab86e582a83022ce0c84261f89cbbbfdb23282c6df855c80dfca7ae3b5a7accb",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

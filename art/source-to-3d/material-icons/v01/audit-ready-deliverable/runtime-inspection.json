@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "audit-ready-deliverable",
+  "triangles": 2568,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "a4296f47526ac024b84144f5385e5d0a453d9475dfd9b78568cb16067cf4c4e3",
+  "authored_sha256": "b0fa250ffed0adbbfa24fdc8e8f5e429a91387f9f4069f46c94ebdcc4489fc4c",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,54 @@
+{
+  "asset": "phasedetractor",
+  "construction": "Upright stepped phase column on a bolted base, with a braced twin-disc rotor.",
+  "regions": [
+    {
+      "part": "Bolted mechanical base",
+      "materials": [
+        "phasedetractor | steel"
+      ]
+    },
+    {
+      "part": "Supported rotor upright",
+      "materials": [
+        "phasedetractor | dark"
+      ]
+    },
+    {
+      "part": "Supported rotor upright.001",
+      "materials": [
+        "phasedetractor | dark"
+      ]
+    },
+    {
+      "part": "Indexed upright rotor disc",
+      "materials": [
+        "phasedetractor | product"
+      ]
+    },
+    {
+      "part": "Indexed upright rotor disc.001",
+      "materials": [
+        "phasedetractor | product"
+      ]
+    },
+    {
+      "part": "Indexed upright rotor disc.002",
+      "materials": [
+        "phasedetractor | product"
+      ]
+    },
+    {
+      "part": "Supported central shaft",
+      "materials": [
+        "phasedetractor | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

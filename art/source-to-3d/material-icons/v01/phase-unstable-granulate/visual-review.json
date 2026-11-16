@@ -1,0 +1,19 @@
+{
+  "asset": "phase-unstable-granulate",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "8bb5531e0f96c27faf948218caa81174b0eb4a87458f2be1d4e46d7a90083836",
+  "source_sha256": "9463c6d0feb4671dfdf2770b328f8cb09ddc37009e365e42cfd66201f37c6de9",
+  "render_sha256": "b8b78c5928ae356ef71b583f2a67232701313b4f9d1723c5eba71c7b756a320d",
+  "reference_icon_sha256": [
+    "4d77e9cb899795ff269ae0776a5ad2b29e218a54e835a0c33a6c47981d6f1630"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Unstable granules in a shallow steel containment pan with a supported hazard collar. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

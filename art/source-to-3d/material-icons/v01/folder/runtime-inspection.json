@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "folder",
+  "triangles": 1628,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "ac1669ad255f52f1945a2d59d361e770ecaa3f098bba8f4743924e0663b2b48c",
+  "authored_sha256": "1d40c495362f1eeef4d9503626651d7ca6f5a8c4fbf1202e2ebf89a01e9a84c6",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "stabilized-brine-gel",
+  "triangles": 3656,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "2e7db8db1288d19b945bdaedec4f071a3c443ac408edf0e1649bc56f74bf6ec1",
+  "authored_sha256": "b6d96d03863131595118ca6d7fb8fcba951a2ef0a0722d0175b751032f99af4c",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,120 @@
+{
+  "asset": "heavy-brine-fraction",
+  "construction": "A squat, wide-shouldered brine container with a large side sight port.",
+  "regions": [
+    {
+      "part": "Closed sample vessel",
+      "materials": [
+        "heavy-brine-fraction | steel"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band",
+      "materials": [
+        "heavy-brine-fraction | dark"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band.001",
+      "materials": [
+        "heavy-brine-fraction | dark"
+      ]
+    },
+    {
+      "part": "Vessel cap",
+      "materials": [
+        "heavy-brine-fraction | steel"
+      ]
+    },
+    {
+      "part": "Cap retaining lip",
+      "materials": [
+        "heavy-brine-fraction | brass"
+      ]
+    },
+    {
+      "part": "Welded inset sample port boss",
+      "materials": [
+        "heavy-brine-fraction | dark"
+      ]
+    },
+    {
+      "part": "Supported metal port bezel",
+      "materials": [
+        "heavy-brine-fraction | brass"
+      ]
+    },
+    {
+      "part": "Recessed sample glass",
+      "materials": [
+        "heavy-brine-fraction | product"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss",
+      "materials": [
+        "heavy-brine-fraction | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.001",
+      "materials": [
+        "heavy-brine-fraction | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.002",
+      "materials": [
+        "heavy-brine-fraction | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.003",
+      "materials": [
+        "heavy-brine-fraction | steel"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener",
+      "materials": [
+        "heavy-brine-fraction | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.001",
+      "materials": [
+        "heavy-brine-fraction | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.002",
+      "materials": [
+        "heavy-brine-fraction | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.003",
+      "materials": [
+        "heavy-brine-fraction | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.004",
+      "materials": [
+        "heavy-brine-fraction | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.005",
+      "materials": [
+        "heavy-brine-fraction | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

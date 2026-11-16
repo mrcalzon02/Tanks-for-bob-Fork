@@ -1,0 +1,17 @@
+{
+  "asset": "canister-waste",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.25264569706768575,
+    0.24158521349305503,
+    0.24037260233703242
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "149023a8836d7d5426ace9559a736fef779c74c2f1441bb795a84927d3942239"
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "turboencabulator",
+  "triangles": 14380,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "4f9a52f07f2dab1d69e45a6a61c96349e3e0fed9596be5185343bad9e68caae1",
+  "authored_sha256": "964a130d33a326d09d605fc8234fdd6e15cabf69f728ff862b5093843dd795d1",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "duplexed-substrate",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.2187315474253763,
+    0.1358591518744803,
+    0.12468818914717472
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "0e39e3c57859c05cac402cea30a4f9b7678d50b895571a7ba4d9b6345135936c"
+}

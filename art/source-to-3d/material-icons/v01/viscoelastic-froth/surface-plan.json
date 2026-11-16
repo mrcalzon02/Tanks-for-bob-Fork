@@ -1,0 +1,150 @@
+{
+  "asset": "viscoelastic-froth",
+  "construction": "A wide froth cartridge with a visible bubble cap inside the supported upper rim.",
+  "regions": [
+    {
+      "part": "Thick-walled sample vessel",
+      "materials": [
+        "viscoelastic-froth | ceramic"
+      ]
+    },
+    {
+      "part": "Supported vessel retaining rim",
+      "materials": [
+        "viscoelastic-froth | ceramic"
+      ]
+    },
+    {
+      "part": "Contained sample surface",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.001",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.002",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.003",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.004",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.005",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.006",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.007",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.008",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.009",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.010",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.011",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.012",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.013",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.014",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.015",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.016",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.017",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.018",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    },
+    {
+      "part": "Supported viscoelastic foam bubble.019",
+      "materials": [
+        "viscoelastic-froth | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

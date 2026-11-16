@@ -1,0 +1,17 @@
+{
+  "asset": "toxic-sludge",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.09271453799874285,
+    0.07749408841928822,
+    0.13915412014726572
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "6223a94ee79d3a610e222f5f4e3d77bf257a8bab9a4fb75cd59bb847700d4811"
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "requisition-slip",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "ebafdf682dacc41a4401136701f5b05a6382a69798f89c377ef7b371e89b8621",
+  "source_sha256": "2877f1d1a5e58cb99a1d9968c8c86c3eccbbd0729318419385fba2f79ac28ecf",
+  "render_sha256": "9a25b83a22a7faa513b58c37c5833a132c526a5a4d2c5325bbbca99920e232a9",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A loose requisition sheet with perforated edge and a single signed request panel. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

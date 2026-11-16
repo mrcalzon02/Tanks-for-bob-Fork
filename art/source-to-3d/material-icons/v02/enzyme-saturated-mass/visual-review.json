@@ -1,0 +1,19 @@
+{
+  "asset": "enzyme-saturated-mass",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "500c564db88ca2b41b7396154e3f09aea252841bcb2798a27ab875d91961e3da",
+  "source_sha256": "ac7daa5a9c144ac22fc7fe28cb525fa21dc46185cdd051844f955f6b41638757",
+  "render_sha256": "9eafff4e6e7768ade6c7bd69739ab7a8900e993d14d463e06686179b47be5b7b",
+  "reference_icon_sha256": [
+    "4a91ccec64adf14ee4be33d22bcaeb0122410fbf0409d10bb87db0c8d3881003"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A dense organic sponge held in a shallow perforated support cage. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

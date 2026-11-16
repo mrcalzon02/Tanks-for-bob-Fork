@@ -1,0 +1,19 @@
+{
+  "asset": "electro-phase-precursor",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "3ad9fb6b1e62c6691f013abfbb99f2e2d217d969bcce2c59d1dc0954b8e24e44",
+  "source_sha256": "57d3c657fc7e06960e4b4bc35cdfedaee9193c031e5f39f52e013609d6c8e315",
+  "render_sha256": "b0061b75e66328ed875ce431cfb3327df5ce95a0a469d802fc4c2987f706b893",
+  "reference_icon_sha256": [
+    "82ee90c807c9d45b683edd8cf827c3a35e0fde1549b2c03451bd8535c862054e"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Three triangular precursor wafers retained by an offset conductive clip. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

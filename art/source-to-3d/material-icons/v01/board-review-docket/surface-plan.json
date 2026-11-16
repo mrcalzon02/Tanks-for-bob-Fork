@@ -1,0 +1,90 @@
+{
+  "asset": "board-review-docket",
+  "construction": "A dark blue board docket with visible ring binder and large structural corner protectors.",
+  "regions": [
+    {
+      "part": "Rigid report cover",
+      "materials": [
+        "board-review-docket | product"
+      ]
+    },
+    {
+      "part": "Bound report sheet",
+      "materials": [
+        "board-review-docket | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.001",
+      "materials": [
+        "board-review-docket | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.002",
+      "materials": [
+        "board-review-docket | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.003",
+      "materials": [
+        "board-review-docket | paper"
+      ]
+    },
+    {
+      "part": "Printed document header",
+      "materials": [
+        "board-review-docket | dark"
+      ]
+    },
+    {
+      "part": "Printed report rule",
+      "materials": [
+        "board-review-docket | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.001",
+      "materials": [
+        "board-review-docket | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.002",
+      "materials": [
+        "board-review-docket | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.003",
+      "materials": [
+        "board-review-docket | ink"
+      ]
+    },
+    {
+      "part": "Supported indexed folder tab",
+      "materials": [
+        "board-review-docket | product"
+      ]
+    },
+    {
+      "part": "Actual ring binder loop",
+      "materials": [
+        "board-review-docket | steel"
+      ]
+    },
+    {
+      "part": "Actual ring binder loop.001",
+      "materials": [
+        "board-review-docket | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

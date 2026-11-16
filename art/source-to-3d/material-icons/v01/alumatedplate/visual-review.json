@@ -1,0 +1,19 @@
+{
+  "asset": "alumatedplate",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "0ef018aacedde1331a59258f4e896c695dce885a15c177073811ceb08eb2f16c",
+  "source_sha256": "ffce922b847c667ddaa0378ee176a4b436eb3f44a9f9588a940ed0fb8671de48",
+  "render_sha256": "af2f76e48ebd500fd58af233690540b281012a288a99c745a2812f4d58d7c510",
+  "reference_icon_sha256": [
+    "5736c321c44b115dcd1969656ba1474d41dffefe93187ce54564927af625564f"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Two aligned perforated alloy sheets with a formed edge and real through-holes. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

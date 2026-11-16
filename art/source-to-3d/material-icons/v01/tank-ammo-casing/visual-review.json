@@ -1,0 +1,19 @@
+{
+  "asset": "tank-ammo-casing",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "c7281bd05ac50e83fc16c46bdf6d1c41f3d4761c0f378b6365caa4889549f155",
+  "source_sha256": "7c60f7b39450f888c669fab45ab3c39cec99983d74f050a8b5a45894ab649659",
+  "render_sha256": "3c280fe2833bedadf24b2714f561b338c2cfdea21583879acad220ac4af315e0",
+  "reference_icon_sha256": [
+    "5bce411d4ef191d672cfe2741648c768536f6adf5cd053e2e20a8ce3a844b40b"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A drawn brass shell case with a hollow mouth, primer rim and supported extractor groove. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

@@ -1,0 +1,54 @@
+{
+  "asset": "cradinal-grametter",
+  "construction": "A braced parallel-disc grametter with two coaxial gears and an open support frame.",
+  "regions": [
+    {
+      "part": "Bolted mechanical base",
+      "materials": [
+        "cradinal-grametter | steel"
+      ]
+    },
+    {
+      "part": "Supported rotor upright",
+      "materials": [
+        "cradinal-grametter | dark"
+      ]
+    },
+    {
+      "part": "Supported rotor upright.001",
+      "materials": [
+        "cradinal-grametter | dark"
+      ]
+    },
+    {
+      "part": "Parallel coaxial grametter disc",
+      "materials": [
+        "cradinal-grametter | product"
+      ]
+    },
+    {
+      "part": "Disc retaining ring",
+      "materials": [
+        "cradinal-grametter | brass"
+      ]
+    },
+    {
+      "part": "Parallel coaxial grametter disc.001",
+      "materials": [
+        "cradinal-grametter | product"
+      ]
+    },
+    {
+      "part": "Disc retaining ring.001",
+      "materials": [
+        "cradinal-grametter | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "enzyme-paste",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "2930ec554271c74fdd7f1321048851d112b177788ef7e4b024243b487a6678ab",
+  "source_sha256": "eabc8be110e7b303a278bf4e8dec1722cbccff169d40198c7c7cb106a64c97a9",
+  "render_sha256": "41979ff3cd7a9a5db290221807bdad76de6403b6578251afe7e469f55ce15a45",
+  "reference_icon_sha256": [
+    "827e517d2a8495173f0860c92c495bce28a4465cf71a68bac7ea663dc17078fb"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A short ceramic paste cartridge with a supported plunger and recessed nozzle. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

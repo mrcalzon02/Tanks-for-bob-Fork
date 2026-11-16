@@ -1,0 +1,42 @@
+{
+  "asset": "bio-reactive-slurry",
+  "construction": "A sealed squat slurry drum with a guarded side gauge and two cap bolts.",
+  "regions": [
+    {
+      "part": "Closed sample vessel",
+      "materials": [
+        "bio-reactive-slurry | dark"
+      ]
+    },
+    {
+      "part": "Vessel cap",
+      "materials": [
+        "bio-reactive-slurry | steel"
+      ]
+    },
+    {
+      "part": "Cap retaining lip",
+      "materials": [
+        "bio-reactive-slurry | brass"
+      ]
+    },
+    {
+      "part": "Recessed sample sight port",
+      "materials": [
+        "bio-reactive-slurry | steel"
+      ]
+    },
+    {
+      "part": "Opaque glass sample window",
+      "materials": [
+        "bio-reactive-slurry | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

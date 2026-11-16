@@ -1,0 +1,66 @@
+{
+  "asset": "osmotic-residue",
+  "construction": "A square filter carrier holding a folded residue membrane and crystalline deposits.",
+  "regions": [
+    {
+      "part": "Filter carrier",
+      "materials": [
+        "osmotic-residue | steel"
+      ]
+    },
+    {
+      "part": "Folded residue membrane",
+      "materials": [
+        "osmotic-residue | product"
+      ]
+    },
+    {
+      "part": "Supported filter reinforcement",
+      "materials": [
+        "osmotic-residue | ceramic"
+      ]
+    },
+    {
+      "part": "Supported filter reinforcement.001",
+      "materials": [
+        "osmotic-residue | ceramic"
+      ]
+    },
+    {
+      "part": "Supported filter reinforcement.002",
+      "materials": [
+        "osmotic-residue | ceramic"
+      ]
+    },
+    {
+      "part": "Supported filter reinforcement.003",
+      "materials": [
+        "osmotic-residue | ceramic"
+      ]
+    },
+    {
+      "part": "Supported filter reinforcement.004",
+      "materials": [
+        "osmotic-residue | ceramic"
+      ]
+    },
+    {
+      "part": "Crystalline membrane deposit",
+      "materials": [
+        "osmotic-residue | secondary"
+      ]
+    },
+    {
+      "part": "Crystalline membrane deposit.001",
+      "materials": [
+        "osmotic-residue | secondary"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

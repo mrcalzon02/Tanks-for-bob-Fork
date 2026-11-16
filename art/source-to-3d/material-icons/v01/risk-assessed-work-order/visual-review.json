@@ -1,0 +1,19 @@
+{
+  "asset": "risk-assessed-work-order",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "73ace946a479fdb56643e44b327024be08d290dc5bfa194ba7c3e8d4f489753c",
+  "source_sha256": "5ab1bf0a226ad5ed2ba33156a339487593af22d5d09db819b68f1a0acd1c6ae9",
+  "render_sha256": "23e443ecbe5637241f537e60f708dac982ae8d5528b8eadd206644d7154f9654",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A broad work clipboard with an attached risk strip and inset job panel. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

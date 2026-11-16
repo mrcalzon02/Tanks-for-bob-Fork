@@ -1,0 +1,19 @@
+{
+  "asset": "stone-water-wheel",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "57672214a9c563031158f822e4237cfe5c102f09e8dff00297ca9e4199632b3f",
+  "source_sha256": "326f0e2881981515d246025c28587f81c5b40bbda37cb1c93476c61e2a0b9ecd",
+  "render_sha256": "d7fd05689773873138fed6c16ed6475e457c7c86bf4b45e00079519aaeabd985",
+  "reference_icon_sha256": [
+    "b9b001c83f0e26c6b5864cb3929020adccfbb48e05a3854ac2baeebb52fd1078"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A stone-supported water-wheel assembly with a real axle, spokes and broad wooden paddles. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

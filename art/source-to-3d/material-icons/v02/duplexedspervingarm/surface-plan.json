@@ -1,0 +1,210 @@
+{
+  "asset": "duplexedspervingarm",
+  "construction": "Two linked sperving arms with independent joints and one reinforced mounting beam.",
+  "regions": [
+    {
+      "part": "Arm installation foot",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.001",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.002",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.003",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.004",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.005",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin",
+      "materials": [
+        "duplexedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing.001",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin.001",
+      "materials": [
+        "duplexedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing.002",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin.002",
+      "materials": [
+        "duplexedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing.003",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin.003",
+      "materials": [
+        "duplexedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Arm hydraulic cylinder support",
+      "materials": [
+        "duplexedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported bright piston rod",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.006",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.007",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.008",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.009",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.010",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Paired structural arm fork plate.011",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing.004",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin.004",
+      "materials": [
+        "duplexedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing.005",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin.005",
+      "materials": [
+        "duplexedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing.006",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin.006",
+      "materials": [
+        "duplexedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported articulation bearing.007",
+      "materials": [
+        "duplexedspervingarm | brass"
+      ]
+    },
+    {
+      "part": "Recessed bearing pin.007",
+      "materials": [
+        "duplexedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Arm hydraulic cylinder support.001",
+      "materials": [
+        "duplexedspervingarm | dark"
+      ]
+    },
+    {
+      "part": "Supported bright piston rod.001",
+      "materials": [
+        "duplexedspervingarm | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

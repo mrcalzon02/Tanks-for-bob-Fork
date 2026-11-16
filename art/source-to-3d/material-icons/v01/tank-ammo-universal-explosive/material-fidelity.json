@@ -1,0 +1,17 @@
+{
+  "asset": "tank-ammo-universal-explosive",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.10989751654770752,
+    0.11568705390318511,
+    0.2170298809256347
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "360df8937340b6a2bb1a758cafbd802b80cf1a3d8c7c27f68ef079de36e72d7c"
+}

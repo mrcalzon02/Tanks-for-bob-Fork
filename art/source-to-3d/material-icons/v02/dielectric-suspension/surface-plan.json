@@ -1,0 +1,132 @@
+{
+  "asset": "dielectric-suspension",
+  "construction": "An electrically insulated suspension vial with a ceramic cap and two protected contacts.",
+  "regions": [
+    {
+      "part": "Closed sample vessel",
+      "materials": [
+        "dielectric-suspension | steel"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band",
+      "materials": [
+        "dielectric-suspension | dark"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band.001",
+      "materials": [
+        "dielectric-suspension | dark"
+      ]
+    },
+    {
+      "part": "Vessel cap",
+      "materials": [
+        "dielectric-suspension | ceramic"
+      ]
+    },
+    {
+      "part": "Cap retaining lip",
+      "materials": [
+        "dielectric-suspension | brass"
+      ]
+    },
+    {
+      "part": "Welded inset sample port boss",
+      "materials": [
+        "dielectric-suspension | dark"
+      ]
+    },
+    {
+      "part": "Supported metal port bezel",
+      "materials": [
+        "dielectric-suspension | brass"
+      ]
+    },
+    {
+      "part": "Recessed sample glass",
+      "materials": [
+        "dielectric-suspension | product"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss",
+      "materials": [
+        "dielectric-suspension | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.001",
+      "materials": [
+        "dielectric-suspension | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.002",
+      "materials": [
+        "dielectric-suspension | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.003",
+      "materials": [
+        "dielectric-suspension | steel"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener",
+      "materials": [
+        "dielectric-suspension | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.001",
+      "materials": [
+        "dielectric-suspension | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.002",
+      "materials": [
+        "dielectric-suspension | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.003",
+      "materials": [
+        "dielectric-suspension | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.004",
+      "materials": [
+        "dielectric-suspension | brass"
+      ]
+    },
+    {
+      "part": "Cap retaining fastener.005",
+      "materials": [
+        "dielectric-suspension | brass"
+      ]
+    },
+    {
+      "part": "Guarded electrical contact",
+      "materials": [
+        "dielectric-suspension | brass"
+      ]
+    },
+    {
+      "part": "Guarded electrical contact.001",
+      "materials": [
+        "dielectric-suspension | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "denatured-organic-base",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.1090300619048303,
+    0.10983439380664435,
+    0.1688809732416012
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "24a9efc3b00ff3ab4468aaf9ca245073e29f08a8d2e9d266b17f0d9c200497fd"
+}

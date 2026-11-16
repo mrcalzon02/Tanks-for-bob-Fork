@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "conductive-residue",
+  "triangles": 1192,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 2.9802322387695312e-08,
+  "glb_sha256": "fab9dad4f4de0896e9cad3efab5abf0dd3965885172dfefa008cc6b031f9679d",
+  "authored_sha256": "d2325d70207efae04c9bc8f83f7e91b6bb08da9d83897be2c93c6d6d98a22b0f",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

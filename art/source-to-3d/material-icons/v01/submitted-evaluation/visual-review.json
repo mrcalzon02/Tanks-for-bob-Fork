@@ -1,0 +1,19 @@
+{
+  "asset": "submitted-evaluation",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "8ffc9808ff3dce0505e01086c062f541b679d9d6ea215ddf848a5a829b8d0c20",
+  "source_sha256": "7e3f48afd89080349d3ca6c83b74a6cd14c9eac73f78fd72fc83252cd92cb0f1",
+  "render_sha256": "f24e5b8df55a670ecdc67ec06c6761489e650b6dd8135cfe880ac888493054fb",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A closed evaluation folio with a deep spine and supported submission clip. Current 128 px and 64 px renders were inspected on the final contact sheets. Document families retain a common paper language, with different binding, seals, warnings or containment hardware."
+}

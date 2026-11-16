@@ -1,0 +1,19 @@
+{
+  "asset": "encabuloy-alloy",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "6deed4467987a58812856e3ff90cbf4dc1512714a50c1bd45be02142a8b1628e",
+  "source_sha256": "eae4100068783d34b242675aa16de2e07b89030189ed2b0849ef1761e029dc43",
+  "render_sha256": "7958a016119024e899c0263932198db91d84ed2f4cec21b26bee2ba4a802a058",
+  "reference_icon_sha256": [
+    "28ab742198be5c0a8003b899e92fce9c291a2abe05ef4fd62086a04ac2c0fe2d"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A machined tapered encabuloy ingot with a supported band and freshly exposed bevels. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

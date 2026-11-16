@@ -1,0 +1,19 @@
+{
+  "asset": "saline-particulate",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "205ee40f4de755f7d98fb66cb3a407ef684fc260d4b7a8acf421e3f00c6dbdda",
+  "source_sha256": "df6d355aa23660e370127aa771dfe5554bcdaa636e03bc9cd3394bd6b0dbb512",
+  "render_sha256": "244a88cb35df906a937458441d3f5017feb5bf40ea813e18beb979b0088c530e",
+  "reference_icon_sha256": [
+    "2aba8fcc8c080f43ca1ba4a25293efe833330e1334ba80c9bc0d73916250b8ec"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A low pile of angular cubic salt particles; no jar or parchment backing. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

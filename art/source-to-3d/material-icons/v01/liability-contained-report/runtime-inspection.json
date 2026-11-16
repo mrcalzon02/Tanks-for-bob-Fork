@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "liability-contained-report",
+  "triangles": 2600,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "9e67025c1388c80de2cbe5f5de6d31b5b610ad665a354e7a6f153f4962d74710",
+  "authored_sha256": "cc399e800f8640aa369395f373d321801e462b13205f57735f0582512d3b00fb",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

@@ -1,0 +1,19 @@
+{
+  "asset": "cradinal-grametter",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "4a5da0c149ef880fd73f005de8faa39643050a9cfa475f743c4372ec2951980f",
+  "source_sha256": "eac258201e5c5342aac74a0da568f68b9bd48ad28902728cd061cb898bb67c2c",
+  "render_sha256": "8db0b0c045c9ceef5c1c499262f85b52902649816dd0a3d4f6ad799bcec9f245",
+  "reference_icon_sha256": [
+    "fde9427675f4eb58a56c2db9217653ae6cf8bd9b0802513e88351011af15532c"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A braced parallel-disc grametter with two coaxial gears and an open support frame. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "executive-marseline-resin",
+  "triangles": 736,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "2244d67b47e15ebe1a542ae45bc8c37cedbf294f8de9cffe862b46b09df72d84",
+  "authored_sha256": "787423b2cfab98bebea0e5e54783de02fdc6e6ca22ed84ac8dcf6ee88d1d7d4b",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

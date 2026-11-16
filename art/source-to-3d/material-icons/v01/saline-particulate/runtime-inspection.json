@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "asset": "saline-particulate",
+  "triangles": 5640,
+  "degenerate_triangles": 0,
+  "bounds_max_error": 5.960464477539063e-08,
+  "glb_sha256": "205ee40f4de755f7d98fb66cb3a407ef684fc260d4b7a8acf421e3f00c6dbdda",
+  "authored_sha256": "df6d355aa23660e370127aa771dfe5554bcdaa636e03bc9cd3394bd6b0dbb512",
+  "pose": {
+    "preset": "C",
+    "screen_diagonal": 35,
+    "end_view": 12,
+    "top_view": 18
+  },
+  "map_size": 1024
+}

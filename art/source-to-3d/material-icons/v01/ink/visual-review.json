@@ -1,0 +1,19 @@
+{
+  "asset": "ink",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "2d31d890baf45e8826397b166f2e89ff50f4d39d4707cf13481bbbace7f7e59c",
+  "source_sha256": "9984b199d8efae7649978f51230797b3cf5c610ec10edfd8e410a56c8fbe673b",
+  "render_sha256": "9bbbb5f2a47c79dee6433375d602f8d208e4b42b637e7e6c09e1c6f92e02cbae",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Squat dark glass inkwell, threaded brass neck, fitted cap and visible ink at the mouth. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

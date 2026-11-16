@@ -1,0 +1,19 @@
+{
+  "asset": "fractured-lattice-mass",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "441b96480f09d61c7881c2689ddbda4ff593e9d1c69eef7b7526966b2b9662a9",
+  "source_sha256": "4b6ff49e8f3bdf6dc9c5b6417becd1bb2d974e59da88851242128493d60a394e",
+  "render_sha256": "122a4f07a30ea777ffae97858e394d5d79b1dfd5b3c260d1375f1d35e241b2e0",
+  "reference_icon_sha256": [
+    "44b852c8bcea921662ce1901b06f5729ab00b3d79cfa754e8c71f609d4f76123"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A fractured black lattice block with broken open cell walls exposed at one corner. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

@@ -1,0 +1,126 @@
+{
+  "asset": "marseline-compound",
+  "construction": "A dense cluster of slender marseline crystals with an exposed dark mineral base.",
+  "regions": [
+    {
+      "part": "Mineral growth base",
+      "materials": [
+        "marseline-compound | stone"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.001",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.001",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.002",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.002",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.003",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.003",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.004",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.004",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.005",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.005",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.006",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.006",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.007",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.007",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Large planar crystal faces.008",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    },
+    {
+      "part": "Faceted crystal termination.008",
+      "materials": [
+        "marseline-compound | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

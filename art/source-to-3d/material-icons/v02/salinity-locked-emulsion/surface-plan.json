@@ -1,0 +1,90 @@
+{
+  "asset": "salinity-locked-emulsion",
+  "construction": "A sealed pear-shaped emulsion flask, locking collar and ceramic stopper.",
+  "regions": [
+    {
+      "part": "Bulbous emulsion flask",
+      "materials": [
+        "salinity-locked-emulsion | glass"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band",
+      "materials": [
+        "salinity-locked-emulsion | dark"
+      ]
+    },
+    {
+      "part": "Supported structural retaining band.001",
+      "materials": [
+        "salinity-locked-emulsion | dark"
+      ]
+    },
+    {
+      "part": "Sloping vessel shoulder",
+      "materials": [
+        "salinity-locked-emulsion | steel"
+      ]
+    },
+    {
+      "part": "Long sealed flask neck",
+      "materials": [
+        "salinity-locked-emulsion | glass"
+      ]
+    },
+    {
+      "part": "Ceramic stopper",
+      "materials": [
+        "salinity-locked-emulsion | ceramic"
+      ]
+    },
+    {
+      "part": "Welded inset sample port boss",
+      "materials": [
+        "salinity-locked-emulsion | dark"
+      ]
+    },
+    {
+      "part": "Supported metal port bezel",
+      "materials": [
+        "salinity-locked-emulsion | brass"
+      ]
+    },
+    {
+      "part": "Recessed sample glass",
+      "materials": [
+        "salinity-locked-emulsion | product"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss",
+      "materials": [
+        "salinity-locked-emulsion | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.001",
+      "materials": [
+        "salinity-locked-emulsion | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.002",
+      "materials": [
+        "salinity-locked-emulsion | steel"
+      ]
+    },
+    {
+      "part": "Port fastener on welded boss.003",
+      "materials": [
+        "salinity-locked-emulsion | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

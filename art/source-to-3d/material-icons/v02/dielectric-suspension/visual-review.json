@@ -1,0 +1,19 @@
+{
+  "asset": "dielectric-suspension",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "41a464409f796100e63c663bba3dcd396bf71784e9c8bbedb5750f2d5c1a51aa",
+  "source_sha256": "37d13809055819a2ed1a0a19a513210ebaa0f70d0fdbf0b71511995e30b4ea38",
+  "render_sha256": "c1c76c19d0ef5b4af480fbc85faa8f395c73a5c72bc528cc977f36711213589f",
+  "reference_icon_sha256": [
+    "6629e523c8d7e3526ba32087dcf45d9040a49adca0763c01602107408052b03d"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "An electrically insulated suspension vial with a ceramic cap and two protected contacts. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "enzyme-saturated-mass",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.13361049144865814,
+    0.1331203947813155,
+    0.14535591157980127
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "500c564db88ca2b41b7396154e3f09aea252841bcb2798a27ab875d91961e3da"
+}

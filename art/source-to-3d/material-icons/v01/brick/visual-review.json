@@ -1,0 +1,19 @@
+{
+  "asset": "brick",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "eabcb2d248d43b3010f0dfcbf63d169076f545eed25904f4a5000cda4ef33b6c",
+  "source_sha256": "0e67cb18b95c2af12d58a6f3b7a6d988a7a9a686d652feabb00e9203d6015cc1",
+  "render_sha256": "dcffd798b4b1c950cc6f44c756a8d4190a7a78ae1f2f5d9b4efe9659f33f6c28",
+  "reference_icon_sha256": [
+    "57c4c8e0a9db9f989348d9da1e0fd4edaf79d777e33f26195ff28673b2045d0b"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Three fired clay bricks; true recessed frogs and worn chamfered arrises. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

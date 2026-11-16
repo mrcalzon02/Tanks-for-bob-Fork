@@ -1,0 +1,60 @@
+{
+  "asset": "ceramic-lattice-core",
+  "construction": "An open cylindrical ceramic core with real hexagonal cells and a protective outside band.",
+  "regions": [
+    {
+      "part": "True open ceramic hexagonal cell",
+      "materials": [
+        "ceramic-lattice-core | product"
+      ]
+    },
+    {
+      "part": "True open ceramic hexagonal cell.001",
+      "materials": [
+        "ceramic-lattice-core | product"
+      ]
+    },
+    {
+      "part": "True open ceramic hexagonal cell.002",
+      "materials": [
+        "ceramic-lattice-core | product"
+      ]
+    },
+    {
+      "part": "True open ceramic hexagonal cell.003",
+      "materials": [
+        "ceramic-lattice-core | product"
+      ]
+    },
+    {
+      "part": "True open ceramic hexagonal cell.004",
+      "materials": [
+        "ceramic-lattice-core | product"
+      ]
+    },
+    {
+      "part": "True open ceramic hexagonal cell.005",
+      "materials": [
+        "ceramic-lattice-core | product"
+      ]
+    },
+    {
+      "part": "True open ceramic hexagonal cell.006",
+      "materials": [
+        "ceramic-lattice-core | product"
+      ]
+    },
+    {
+      "part": "Outside retaining band",
+      "materials": [
+        "ceramic-lattice-core | steel"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

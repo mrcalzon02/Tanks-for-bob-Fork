@@ -1,0 +1,72 @@
+{
+  "asset": "risk-assessment",
+  "construction": "A thick risk report with a hazard spine and a clearly raised warning plate.",
+  "regions": [
+    {
+      "part": "Folded document backing",
+      "materials": [
+        "risk-assessment | product"
+      ]
+    },
+    {
+      "part": "Bound report sheet",
+      "materials": [
+        "risk-assessment | paper"
+      ]
+    },
+    {
+      "part": "Bound report sheet.001",
+      "materials": [
+        "risk-assessment | paper"
+      ]
+    },
+    {
+      "part": "Printed document header",
+      "materials": [
+        "risk-assessment | dark"
+      ]
+    },
+    {
+      "part": "Printed report rule",
+      "materials": [
+        "risk-assessment | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.001",
+      "materials": [
+        "risk-assessment | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.002",
+      "materials": [
+        "risk-assessment | ink"
+      ]
+    },
+    {
+      "part": "Printed report rule.003",
+      "materials": [
+        "risk-assessment | ink"
+      ]
+    },
+    {
+      "part": "Raised warning plate",
+      "materials": [
+        "risk-assessment | yellow"
+      ]
+    },
+    {
+      "part": "Warning exclamation",
+      "materials": [
+        "risk-assessment | dark"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

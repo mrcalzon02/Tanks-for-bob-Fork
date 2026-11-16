@@ -1,0 +1,60 @@
+{
+  "asset": "oscillated-lubricant",
+  "construction": "A tall lubricant bottle with a recessed sight window and internal baffle silhouette.",
+  "regions": [
+    {
+      "part": "Closed sample vessel",
+      "materials": [
+        "oscillated-lubricant | dark"
+      ]
+    },
+    {
+      "part": "Vessel cap",
+      "materials": [
+        "oscillated-lubricant | steel"
+      ]
+    },
+    {
+      "part": "Cap retaining lip",
+      "materials": [
+        "oscillated-lubricant | brass"
+      ]
+    },
+    {
+      "part": "Recessed sample sight port",
+      "materials": [
+        "oscillated-lubricant | steel"
+      ]
+    },
+    {
+      "part": "Opaque glass sample window",
+      "materials": [
+        "oscillated-lubricant | product"
+      ]
+    },
+    {
+      "part": "Internal baffle silhouette",
+      "materials": [
+        "oscillated-lubricant | brass"
+      ]
+    },
+    {
+      "part": "Internal baffle silhouette.001",
+      "materials": [
+        "oscillated-lubricant | brass"
+      ]
+    },
+    {
+      "part": "Internal baffle silhouette.002",
+      "materials": [
+        "oscillated-lubricant | brass"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

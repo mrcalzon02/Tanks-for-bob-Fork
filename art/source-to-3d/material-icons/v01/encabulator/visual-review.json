@@ -1,0 +1,19 @@
+{
+  "asset": "encabulator",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "28808f4b8a553fc47831940847fa0b22f5087c49cc7ff8bf91f8fc024f3c8622",
+  "source_sha256": "7aec9d3c69fbdb78451b7fb467ba66bd4d64ab6b9d062787c8be5206352b9128",
+  "render_sha256": "cce7a2698608030cfc60286535b4dddcd5460eeab2e26a045c004aa6834e6f95",
+  "reference_icon_sha256": [
+    "a7a782b72dfa7d2730b0f25de64d10662ff1afb93b573f05107cb65b75ffe33e"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A single-coil encabulator drive with an open rotor frame and a supported motor casing. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

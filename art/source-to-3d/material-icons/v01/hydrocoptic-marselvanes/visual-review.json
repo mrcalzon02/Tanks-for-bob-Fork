@@ -1,0 +1,19 @@
+{
+  "asset": "hydrocoptic-marselvanes",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "588fedbeffaf5ef44dc46f08245f12e75ad867bb3f80b0da6f2b89ad7720356a",
+  "source_sha256": "c04e05bfcea62f796e8edbdb8204e9125cf073612da85ebd17f8737f159215fe",
+  "render_sha256": "c126eab4e8498bd28f7d9f63eb95f80486116411477c2638267b0c33903920b6",
+  "reference_icon_sha256": [
+    "2e68268461491e5d59866a4431dbe2017be61fbc1e3652a7912080d8cd78b167"
+  ],
+  "contact_sheet_sha256": "3290e2de2c72bdc074017c3f329bb2d75ede15dfdd2b73d1535c8193ea4457b8",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A six-vane hydrocoptic rotor inside a rigid bolted containment rim. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

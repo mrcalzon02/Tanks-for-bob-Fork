@@ -1,0 +1,17 @@
+{
+  "asset": "bioceramic-grit",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.09646302250803858,
+    0.10095468558358471,
+    0.11544071336228329
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "56087df57cbba00cc8eb6d137154d13ececab78b08d80f1e619284ce9052c873"
+}

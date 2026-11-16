@@ -1,0 +1,186 @@
+{
+  "asset": "tank-light-chasis-wlsk",
+  "construction": "An unarmed light tracked chassis with exposed road wheels and an empty turret mounting well.",
+  "regions": [
+    {
+      "part": "Unarmed chassis hull",
+      "materials": [
+        "tank-light-chasis-wlsk | steel"
+      ]
+    },
+    {
+      "part": "Empty turret well",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Turret mounting rim",
+      "materials": [
+        "tank-light-chasis-wlsk | brass"
+      ]
+    },
+    {
+      "part": "Continuous track backbone",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Supported road wheel",
+      "materials": [
+        "tank-light-chasis-wlsk | steel"
+      ]
+    },
+    {
+      "part": "Supported road wheel.001",
+      "materials": [
+        "tank-light-chasis-wlsk | steel"
+      ]
+    },
+    {
+      "part": "Supported road wheel.002",
+      "materials": [
+        "tank-light-chasis-wlsk | steel"
+      ]
+    },
+    {
+      "part": "Supported road wheel.003",
+      "materials": [
+        "tank-light-chasis-wlsk | steel"
+      ]
+    },
+    {
+      "part": "Supported road wheel.004",
+      "materials": [
+        "tank-light-chasis-wlsk | steel"
+      ]
+    },
+    {
+      "part": "Track tread shoe",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Track tread shoe.001",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Track tread shoe.002",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Track tread shoe.003",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Track tread shoe.004",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Track tread shoe.005",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Track tread shoe.006",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Continuous track backbone.001",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Supported road wheel.005",
+      "materials": [
+        "tank-light-chasis-wlsk | steel"
+      ]
+    },
+    {
+      "part": "Supported road wheel.006",
+      "materials": [
+        "tank-light-chasis-wlsk | steel"
+      ]
+    },
+    {
+      "part": "Supported road wheel.007",
+      "materials": [
+        "tank-light-chasis-wlsk | steel"
+      ]
+    },
+    {
+      "part": "Supported road wheel.008",
+      "materials": [
+        "tank-light-chasis-wlsk | steel"
+      ]
+    },
+    {
+      "part": "Supported road wheel.009",
+      "materials": [
+        "tank-light-chasis-wlsk | steel"
+      ]
+    },
+    {
+      "part": "Track tread shoe.007",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Track tread shoe.008",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Track tread shoe.009",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Track tread shoe.010",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Track tread shoe.011",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Track tread shoe.012",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    },
+    {
+      "part": "Track tread shoe.013",
+      "materials": [
+        "tank-light-chasis-wlsk | dark"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

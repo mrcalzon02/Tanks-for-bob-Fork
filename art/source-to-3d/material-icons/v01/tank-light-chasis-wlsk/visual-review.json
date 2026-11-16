@@ -1,0 +1,19 @@
+{
+  "asset": "tank-light-chasis-wlsk",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "415ce57ef19606624406f4ec66dd67cec4b8a2764009a1e54d03c84aee8edd1a",
+  "source_sha256": "47aea670357bb73280bf11ade0b0d155c390c67573b14c7eeb3dc35800a97ce5",
+  "render_sha256": "c81c556b87c368be5d0c3d31938cd3b80757eeab5ea86bf1c1267abb0cf7fbdd",
+  "reference_icon_sha256": [
+    "10a18b078cc9d6796b55489200dda5b3283ae352442b531261fa1392e8a04dd3"
+  ],
+  "contact_sheet_sha256": "7fda2aba94875d1c577799aa22027519ef659db19ba7623dce4a8cc16ea66c70",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "An unarmed light tracked chassis with exposed road wheels and an empty turret mounting well. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

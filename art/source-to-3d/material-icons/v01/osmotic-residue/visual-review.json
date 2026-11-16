@@ -1,0 +1,19 @@
+{
+  "asset": "osmotic-residue",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "83758914088c83c7c019102515d070710e60b2c96913486b238e52fa8c350700",
+  "source_sha256": "ceeea282803ff1dff6fc97058c063f81f2998caaf063dc2d44cd8e37dafee3a5",
+  "render_sha256": "d8da99ffb18193850f2d336bd07164d8789c183ab873a481755d2f0e72c23de6",
+  "reference_icon_sha256": [
+    "946adc10acd0f6a143fbcd8bf4d9ee41e3fb38ae3ecd7cddbe021b47477218c1"
+  ],
+  "contact_sheet_sha256": "95ab7c488567377f852c3aed2f51903f011b8f010b1f56159c5f13b2e2e086b0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "A square filter carrier holding a folded residue membrane and crystalline deposits. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

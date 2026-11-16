@@ -1,0 +1,54 @@
+{
+  "asset": "charged-canister",
+  "construction": "The matching pressure canister with a closed contact cover and visible charged-state window.",
+  "regions": [
+    {
+      "part": "Pressure shell",
+      "materials": [
+        "charged-canister | steel"
+      ]
+    },
+    {
+      "part": "Thick rolled end cap",
+      "materials": [
+        "charged-canister | dark"
+      ]
+    },
+    {
+      "part": "Thick rolled end cap.001",
+      "materials": [
+        "charged-canister | dark"
+      ]
+    },
+    {
+      "part": "Retaining neck collar",
+      "materials": [
+        "charged-canister | brass"
+      ]
+    },
+    {
+      "part": "Closed service neck",
+      "materials": [
+        "charged-canister | steel"
+      ]
+    },
+    {
+      "part": "Flush front inspection bezel",
+      "materials": [
+        "charged-canister | dark"
+      ]
+    },
+    {
+      "part": "Contained state window",
+      "materials": [
+        "charged-canister | product"
+      ]
+    }
+  ],
+  "principles": [
+    "Model-specific construction and material regions",
+    "No borrowed crate artwork",
+    "No floating fittings",
+    "Pose C under unchanged FMPL camera"
+  ]
+}

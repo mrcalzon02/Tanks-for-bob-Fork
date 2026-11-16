@@ -1,0 +1,19 @@
+{
+  "asset": "corporate-waste",
+  "assistant_gate_passed": true,
+  "owner_visual_acceptance": false,
+  "glb_sha256": "6c3ce0724abd3d2342f36e070be36698c3baeafa99a4cdfc437f606025354da3",
+  "source_sha256": "dbec3c18a35d27cd38a9d07495dd89eb824f4d9827ce1885871e6e924e5308e1",
+  "render_sha256": "7d006b667b11f17b3e5a860517d114acb6e1e870ea77c7ee0f25dd50068310bb",
+  "reference_icon_sha256": [
+    "4d9193d2b04a1a0f06edad75c0938e638cb285f845b750fbafcb63a0737ff0b8"
+  ],
+  "contact_sheet_sha256": "04ae7cea0dd7c21c432f72e33030807dd3f1f3437ead50045b4f08faf6d3a6c0",
+  "scores_out_of_5": {
+    "export_fidelity": 5,
+    "native_size_readability": 4,
+    "construction": 4,
+    "material_identity": 4
+  },
+  "review": "Crumpled rejected paper, bent staples and a torn folder in a compact waste bundle. Current 128 px and 64 px renders were inspected on the final contact sheets."
+}

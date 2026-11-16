@@ -1,0 +1,17 @@
+{
+  "asset": "canister-radioactivewaste",
+  "passed": true,
+  "mean_absolute_rgb_error_8bit": [
+    0.28288027451611175,
+    0.27399781959859165,
+    0.2766250245741962
+  ],
+  "p95_max_channel_error_8bit": 1,
+  "silhouette_iou": 1.0,
+  "limits": {
+    "mean_max": 4,
+    "p95_max": 12,
+    "iou_min": 0.995
+  },
+  "glb_sha256": "c8570a474d0464d0eca526bcc712a5fe263d0fc2a572fad5999ab90189f2a9e4"
+}
