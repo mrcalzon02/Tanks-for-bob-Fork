@@ -16,6 +16,10 @@ bound in [owner-disposition.json](owner-disposition.json).
 [All four connected native facings](native-four-connections.png) ·
 [Reasoned visual review](visual-review.json)
 
+Registered as `tanks-fish-pond-v2` in the [canonical FMPL library](https://github.com/mrcalzon02/Tech-Priests/blob/1276ab6a70189926deeb15240bd86df745f0b794/tools/fmpl/FMPL.json),
+with an installed checkpoint and verified remote source/export hashes. See the
+[publication receipt](publication-receipt.json).
+
 ## Verified delivery
 
 - Editable Blender 5.0 source and actual reimported GLB: 8,412 triangles,

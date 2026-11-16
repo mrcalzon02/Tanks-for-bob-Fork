@@ -1,0 +1,21 @@
+{
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "source_commit": "648470b4448b4db9e619d48d4a64d2c2034d236e",
+  "source_git_blob_sha": "91d71b8b209692df343f5bc59244bd0c796fb605",
+  "runtime_git_blob_sha": "8c1eed4aabb5c36004ac8fb1afaa14d4f1f03d56",
+  "source_and_runtime_remote_readback_verified": true,
+  "canonical_repository": "mrcalzon02/Tech-Priests",
+  "canonical_base_commit": "15f7a0f0adf0e7617f1cc806112b303d5eb9e2f7",
+  "canonical_registration_commit": "1276ab6a70189926deeb15240bd86df745f0b794",
+  "model_id": "tanks-fish-pond-v2",
+  "installed_event": "tanks-fish-pond-v2-installed-2026-11-15",
+  "checkpoint_git_blob_sha": "bd47d3b456705b1154c8d4706dbaff074c8385c8",
+  "canonical_event_remote_readback_verified": true,
+  "canonical_files_changed": [
+    "tools/fmpl/FMPL.json",
+    "tools/fmpl/checkpoints.json",
+    "tools/fmpl/ASSET_CATALOG.md"
+  ],
+  "concurrent_work_preserved": true,
+  "force_push_used": false
+}

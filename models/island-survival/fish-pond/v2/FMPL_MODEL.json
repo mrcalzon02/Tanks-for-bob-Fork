@@ -70,6 +70,14 @@
   "candidate_native_test_passed": true,
   "client_alignment_reviewed": true,
   "evidence": "docs/art/fish-pond-v2/",
-  "central_library_registration": "pending final native proof and immutable source commit",
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "1276ab6a70189926deeb15240bd86df745f0b794",
+    "model_id": "tanks-fish-pond-v2",
+    "registry": "tools/fmpl/FMPL.json",
+    "installed_event": "tanks-fish-pond-v2-installed-2026-11-15",
+    "source_commit": "648470b4448b4db9e619d48d4a64d2c2034d236e",
+    "remote_readback_verified": true
+  },
   "native_production_reload_passed": true
 }
