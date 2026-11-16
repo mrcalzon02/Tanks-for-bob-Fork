@@ -110,7 +110,8 @@
         "docs/art/local-machine-alignment/2026-11-13.json"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false
+      "done": false,
+      "active": true
     },
     {
       "id": "steam-condenser",
@@ -145,16 +146,16 @@
     {
       "id": "fish-pond",
       "name": "Fish Pond",
-      "revision": "V1",
-      "status": "advanced_candidate",
+      "revision": "V2",
+      "status": "accepted_integrated",
       "priority": 11,
-      "next": "NEXT: Recover the existing V1 fish-pond source/proof, retain its basin and swimming fish; use restrained motion and finish export/integration instead of an unnecessary rebuild.",
+      "next": "Preserve the accepted clay basin, four swimmers, baked portable source and tested native idle/working integration.",
       "evidence": [
-        "docs/art/STRUCTURE_3D_PRODUCTION_ORDER.md"
+        "docs/art/fish-pond-v2/README.md",
+        "models/island-survival/fish-pond/v2/FMPL_MODEL.json"
       ],
-      "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false,
-      "active": true
+      "fmpl_delivery": "Source/GLB inspected, native integration/reload and owner acceptance verified; canonical registration being closed.",
+      "done": true
     },
     {
       "id": "stone-water-wheel",
@@ -287,7 +288,7 @@
       "done": false
     }
   ],
-  "active_structure": "fish-pond",
+  "active_structure": "beachpump",
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",

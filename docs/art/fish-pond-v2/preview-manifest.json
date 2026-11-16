@@ -1,0 +1,18 @@
+{
+  "previews": {
+    "fish-pond-v2-loop.png": "037501525cfc512a644dc07b828ae976e77ec1cf75abd381a3b7802587a733b0",
+    "native-before-after.png": "72ac4ca178d5a5fe9e3627734c4e7866367691233dff0ee35c95b5353ca28d52",
+    "native-four-connections.png": "0870f401e159cff67b9bafc1cadbf26841171b65f005c7c8c4ec6648a78818c3"
+  },
+  "animation": {
+    "fps": 8,
+    "frames": 16,
+    "source": "genuine Blender working frames"
+  },
+  "comparison": {
+    "left": "legacy active art",
+    "right": "candidate V2",
+    "native_zoom": 2.5,
+    "identical_crop": true
+  }
+}

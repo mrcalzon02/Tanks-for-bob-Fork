@@ -1,0 +1,125 @@
+{
+  "schema": "tanks.fish-pond.v2.candidate",
+  "source_sha256": "0a7a738ddeba0f3675ce40724a20bf5acf1a0537e0bef085032cfc3d13100427",
+  "native_sha256": "a3e28a08e21a3c8325e3f8a27719432a83d5befdb7fc7acbac247cf88dce4eaa",
+  "runtime_sha256": "c806f92bc6e43727e13a3d168302a54981e3df0c0a8c8d05d0d4a088dfa2cef9",
+  "blender": "5.0.0",
+  "fps": 8,
+  "fish_count": 4,
+  "unit_scale_runtime": true,
+  "visual_approved": false,
+  "game_integrated": false,
+  "render_mode": "proof",
+  "camera": {
+    "name": "FMPL_CAPTURE_CAMERA",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071068286895752,
+        -0.7071067094802856,
+        -6.0
+      ],
+      [
+        0.0,
+        0.7071067094802856,
+        0.7071068286895752,
+        6.28000020980835
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 3.9000000953674316,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      256,
+      256
+    ]
+  },
+  "sprite_global_y_projection": 1.4142135623730951,
+  "images": [
+    {
+      "file": "north-idle-00.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "idle",
+      "index": 0,
+      "source_frame": 0,
+      "sha256": "0ce667e2633cd2078ea4c7eac2b6d5d25f44b73e6c93787596cce186acee4530"
+    },
+    {
+      "file": "north-working-04.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 4,
+      "source_frame": 25,
+      "sha256": "7ced80d629bc9e1a0602c9515e646024000253ac9cd05439bb4af7f8e4df0ac5"
+    },
+    {
+      "file": "east-idle-00.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "idle",
+      "index": 0,
+      "source_frame": 0,
+      "sha256": "2b9571f43e49c29188b588197e00dcdd1f4ffffc9d5f452257fbc0776b3e5b1b"
+    },
+    {
+      "file": "east-working-04.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 4,
+      "source_frame": 25,
+      "sha256": "cbc390b0a81f7e511ffdc6de150c1685806e332a82b44d967931282d77309881"
+    },
+    {
+      "file": "south-idle-00.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "idle",
+      "index": 0,
+      "source_frame": 0,
+      "sha256": "bc928aed1692581158e4fb5cf637779258c22301405f56ecd8094cdfd7ad03b4"
+    },
+    {
+      "file": "south-working-04.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 4,
+      "source_frame": 25,
+      "sha256": "63913a26bdf76123d05739283499382b5cf99cb4d8f4ef91d813eb8a93729a8d"
+    },
+    {
+      "file": "west-idle-00.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "idle",
+      "index": 0,
+      "source_frame": 0,
+      "sha256": "98fdd2353f38c65475bfdc5d830200f11f4a4b2393c5b1a9b7014524801060e8"
+    },
+    {
+      "file": "west-working-04.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 4,
+      "source_frame": 25,
+      "sha256": "7fc25030375915dcfe66cfdc14ea06ebed57d9ecc6780ff502def9a302e38df4"
+    }
+  ]
+}

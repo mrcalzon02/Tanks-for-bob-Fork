@@ -1,0 +1,39 @@
+   0.002 2026-11-15 15:40:40; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.002 Operating system: Windows 11 (build 26200) 
+   0.002 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\fish-pond-v2-production-native01\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\fish-pond-v2-production-native01\mods" "--create" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\fish-pond-v2-production-native01\fish-pond-v2-proof.zip" 
+   0.002 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/fish-pond-v2-production-native01/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/fish-pond-v2-production-native01/runtime [292752/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.010 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 23513/32526 MB, page: 38629/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.042 Running in headless mode
+   0.042 Audio is disabled
+   0.044 Info ModManager.cpp:455: FeatureFlag: 
+   0.047 Loading mod settings tanks_for_bob_fork 1.8.103 (settings.lua)
+   0.049 Loading mod core 0.0.0 (data.lua)
+   0.065 Loading mod base 2.1.24 (data.lua)
+   0.376 Loading mod tanks_for_bob_fork 1.8.103 (data.lua)
+   0.420 Loading mod fish-pond-v2-proof 0.0.1 (data.lua)
+   0.426 Loading mod base 2.1.24 (data-updates.lua)
+   0.432 Loading mod tanks_for_bob_fork 1.8.103 (data-updates.lua)
+   0.439 Loading mod tanks_for_bob_fork 1.8.103 (data-final-fixes.lua)
+   0.447 Loading mod fish-pond-v2-proof 0.0.1 (data-final-fixes.lua)
+   0.500 Checksum for core: 3668028660
+   0.500 Checksum of base: 3864816957
+   0.500 Checksum of tanks_for_bob_fork: 1542428260
+   0.500 Checksum of fish-pond-v2-proof: 1099251587
+   0.663 Prototype list checksum: 3044799966
+   0.715 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.715 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.721 Info GlobalContext.cpp:1347: Resetting config.
+   0.722 Factorio initialised
+   0.723 Info Create.cpp:32: Creating new map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\fish-pond-v2-production-native01\fish-pond-v2-proof.zip
+   0.736 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.437 Loading level.dat: 787522 bytes.
+   1.437 Info Scenario.cpp:152: Map version 2.1.24-1
+   1.450 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.468 Checksum for script __level__/control.lua: 3368906707
+   1.471 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   1.473 Checksum for script __fish-pond-v2-proof__/control.lua: 2289346072
+Done.
+   1.668 Goodbye

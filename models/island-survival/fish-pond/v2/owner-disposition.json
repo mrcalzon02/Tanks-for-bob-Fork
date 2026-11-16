@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-15",
+  "source_sha256": "a3e28a08e21a3c8325e3f8a27719432a83d5befdb7fc7acbac247cf88dce4eaa",
+  "runtime_sha256": "c806f92bc6e43727e13a3d168302a54981e3df0c0a8c8d05d0d4a088dfa2cef9",
+  "question": "The Fish Pond candidate is modeled, animated, exported, and tested in Factorio. In the preview, the original is on the left and the new pond is on the right. Accept this appearance for integration?",
+  "owner_response": "Accept and integrate (Recommended)",
+  "accepted": true,
+  "scope": "Promote this tested Fish Pond V2 appearance and swimming animation; preserve gameplay and the previously completed structures.",
+  "review_preview": "docs/art/fish-pond-v2/native-before-after.png"
+}

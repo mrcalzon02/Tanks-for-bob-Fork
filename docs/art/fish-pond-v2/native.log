@@ -1,0 +1,43 @@
+   0.001 2026-11-15 15:40:37; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.002 Operating system: Windows 11 (build 26200) 
+   0.002 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\fish-pond-v2-production-native01\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\fish-pond-v2-production-native01\mods" "--test-scenario" "fish-pond-v2-proof/proof" "--test-ticks" "6060" 
+   0.002 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/fish-pond-v2-production-native01/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/fish-pond-v2-production-native01/runtime [292752/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.009 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 22900/32526 MB, page: 38181/43790 MB, virtual: 4299/134217727 MB, extended virtual: 0 MB]
+   0.046 Running in headless mode
+   0.046 Audio is disabled
+   0.048 Info ModManager.cpp:455: FeatureFlag: 
+   0.050 Loading mod settings tanks_for_bob_fork 1.8.103 (settings.lua)
+   0.053 Loading mod core 0.0.0 (data.lua)
+   0.070 Loading mod base 2.1.24 (data.lua)
+   0.417 Loading mod tanks_for_bob_fork 1.8.103 (data.lua)
+   0.536 Loading mod fish-pond-v2-proof 0.0.1 (data.lua)
+   0.542 Loading mod base 2.1.24 (data-updates.lua)
+   0.548 Loading mod tanks_for_bob_fork 1.8.103 (data-updates.lua)
+   0.554 Loading mod tanks_for_bob_fork 1.8.103 (data-final-fixes.lua)
+   0.583 Loading mod fish-pond-v2-proof 0.0.1 (data-final-fixes.lua)
+   0.638 Checksum for core: 3668028660
+   0.638 Checksum of base: 3864816957
+   0.638 Checksum of tanks_for_bob_fork: 1542428260
+   0.638 Checksum of fish-pond-v2-proof: 1099251587
+   0.796 Prototype list checksum: 3044799966
+   0.844 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.844 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.849 Info GlobalContext.cpp:1347: Resetting config.
+   0.849 Factorio initialised
+   0.857 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.295 Loading level.dat: 687129 bytes.
+   1.295 Info Scenario.cpp:152: Map version 2.1.24-1
+   1.307 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.310 Checksum for script __level__/control.lua: 1951169820
+   1.316 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   1.320 Checksum for script __fish-pond-v2-proof__/control.lua: 2289346072
+   1.494 Script @__fish-pond-v2-proof__/control.lua:82: FISH_POND_V2_INITIAL_PASS catch=4 unfuelled=4 blocked=4 fluid_contract=4
+   1.574 Script @__fish-pond-v2-proof__/control.lua:88: FISH_POND_V2_STOP_PASS ponds=4
+   1.711 Script @__fish-pond-v2-proof__/control.lua:91: FISH_POND_V2_RESTART_PASS ponds=4
+   2.785 Script @__fish-pond-v2-proof__/control.lua:101: FISH_POND_V2_NATIVE_PASS {"passed":true,"ponds":20,"facings":4,"production":true,"unfuelled_stopped":true,"stop_restart":true,"blocked_output":true,"harvest_fish":true,"test_only_fluid_contract":true,"production_recipes_use_fluids":false,"units":[{"facing":"north","state":"catch","position":{"y":24.5,"x":24.5},"fish":88,"crafting_progress":0.397999999999863529609456236357800662517547607421875,"status":1},{"facing":"east","state":"catch","position":{"y":24.5,"x":48.5},"fish":88,"crafting_progress":0.397999999999863529609456236357800662517547607421875,"status":1},{"facing":"south","state":"catch","position":{"y":24.5,"x":72.5},"fish":88,"crafting_progress":0.397999999999863529609456236357800662517547607421875,"status":1},{"facing":"west","state":"catch","position":{"y":24.5,"x":96.5},"fish":88,"crafting_progress":0.397999999999863529609456236357800662517547607421875,"status":1},{"facing":"north","state":"unfuelled","position":{"y":48.5,"x":24.5},"fish":0,"crafting_progress":0,"status":59},{"facing":"east","state":"unfuelled","position":{"y":48.5,"x":48.5},"fish":0,"crafting_progress":0,"status":59},{"facing":"south","state":"unfuelled","position":{"y":48.5,"x":72.5},"fish":0,"crafting_progress":0,"status":59},{"facing":"west","state":"unfuelled","position":{"y":48.5,"x":96.5},"fish":0,"crafting_progress":0,"status":59},{"facing":"north","state":"harvest","position":{"y":72.5,"x":24.5},"fish":2,"crafting_progress":0.090727272727228456261627798085100948810577392578125,"status":1},{"facing":"east","state":"harvest","position":{"y":72.5,"x":48.5},"fish":2,"crafting_progress":0.090727272727228456261627798085100948810577392578125,"status":1},{"facing":"south","state":"harvest","position":{"y":72.5,"x":72.5},"fish":2,"crafting_progress":0.090727272727228456261627798085100948810577392578125,"status":1},{"facing":"west","state":"harvest","position":{"y":72.5,"x":96.5},"fish":2,"crafting_progress":0.090727272727228456261627798085100948810577392578125,"status":1},{"facing":"north","state":"blocked","position":{"y":96.5,"x":24.5},"fish":100,"crafting_progress":1,"status":32},{"facing":"east","state":"blocked","position":{"y":96.5,"x":48.5},"fish":100,"crafting_progress":1,"status":32},{"facing":"south","state":"blocked","position":{"y":96.5,"x":72.5},"fish":100,"crafting_progress":1,"status":32},{"facing":"west","state":"blocked","position":{"y":96.5,"x":96.5},"fish":100,"crafting_progress":1,"status":32},{"facing":"north","state":"fluid-contract","position":{"y":120.5,"x":24.5},"fish":0,"crafting_progress":0,"status":30},{"facing":"east","state":"fluid-contract","position":{"y":120.5,"x":48.5},"fish":0,"crafting_progress":0,"status":30},{"facing":"south","state":"fluid-contract","position":{"y":120.5,"x":72.5},"fish":0,"crafting_progress":0,"status":30},{"facing":"west","state":"fluid-contract","position":{"y":120.5,"x":96.5},"fish":0,"crafting_progress":0,"status":30}]}
+   2.798 Info RunTest.cpp:80: Ran 6060 ticks without the test finishing
+   2.798 Info GlobalContext.cpp:763: Deleting active scenario.
+   2.839 Goodbye

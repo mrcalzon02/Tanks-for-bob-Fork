@@ -45,3 +45,6 @@ require("prototypes.generated_graphics.beach-pump-v12-production")
 
 -- Accepted primitive pipe pump: restrained native mechanism animation, same gameplay.
 require("prototypes.generated_graphics.primitive-pipe-pump-v3-production")
+
+-- Accepted Fish Pond: preserved clay basin and restrained swimming animation.
+require("prototypes.generated_graphics.fish-pond-v2-production")

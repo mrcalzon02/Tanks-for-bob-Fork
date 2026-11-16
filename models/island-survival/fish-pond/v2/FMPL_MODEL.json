@@ -1,0 +1,75 @@
+{
+  "schema": "fmpl.model-delivery.v1",
+  "id": "tanks-fish-pond-v2",
+  "status": "owner-approved-native-integrated",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "prototype": {
+    "type": "assembling-machine",
+    "name": "fish-pond"
+  },
+  "footprint_tiles": [
+    3,
+    3
+  ],
+  "scene_units_per_tile": 1,
+  "source": {
+    "path": "models/island-survival/fish-pond/candidates/v2-production01/fish-pond-v2.blend",
+    "sha256": "a3e28a08e21a3c8325e3f8a27719432a83d5befdb7fc7acbac247cf88dce4eaa"
+  },
+  "runtime": {
+    "path": "models/island-survival/fish-pond/candidates/v2-production01/fish-pond-v2.glb",
+    "sha256": "c806f92bc6e43727e13a3d168302a54981e3df0c0a8c8d05d0d4a088dfa2cef9"
+  },
+  "source_and_runtime_pose_checks": 97,
+  "packed_pbr_images": 3,
+  "capture_policy": "fmpl.factorio45.v1",
+  "capture_authority_ref": "939ff2d0fea5d236d7092b907c5f08961d5a7560",
+  "production_frames": 68,
+  "orientations": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "fps": 8,
+  "source_fps": 48,
+  "native_capture_projection": {
+    "global_ground_y_scale": 1.4142135623730951,
+    "runtime_geometry_changed": false
+  },
+  "native_connections": [
+    {
+      "type": "input",
+      "prototype_position": [
+        0,
+        -1
+      ],
+      "joint_ground": [
+        0,
+        1.5,
+        0
+      ]
+    },
+    {
+      "type": "output",
+      "prototype_position": [
+        0,
+        1
+      ],
+      "joint_ground": [
+        0,
+        -1.5,
+        0
+      ]
+    }
+  ],
+  "idle_state_note": "Source/render visibility state; GLB exports the working loop. Consumers hide fish and eye nodes for idle.",
+  "owner_approved": true,
+  "gameplay_changed": false,
+  "native_engine": "2.1.24",
+  "candidate_native_test_passed": true,
+  "client_alignment_reviewed": true,
+  "evidence": "docs/art/fish-pond-v2/",
+  "central_library_registration": "pending final native proof and immutable source commit",
+  "native_production_reload_passed": true
+}

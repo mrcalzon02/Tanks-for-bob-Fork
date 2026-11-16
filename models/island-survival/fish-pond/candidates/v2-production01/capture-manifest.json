@@ -1,0 +1,633 @@
+{
+  "schema": "tanks.fish-pond.v2.capture",
+  "source_sha256": "a3e28a08e21a3c8325e3f8a27719432a83d5befdb7fc7acbac247cf88dce4eaa",
+  "runtime_sha256": "c806f92bc6e43727e13a3d168302a54981e3df0c0a8c8d05d0d4a088dfa2cef9",
+  "genuine_blender_frames": 68,
+  "frame_size": [
+    256,
+    256
+  ],
+  "fps": 8,
+  "images": [
+    {
+      "file": "north-idle-00.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "idle",
+      "index": 0,
+      "source_frame": 0,
+      "sha256": "8c7add68ef6bf4df73861008cd6694ead0656b6e1fa83cda1cb2dc4f523b4abd"
+    },
+    {
+      "file": "north-working-00.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 0,
+      "source_frame": 1,
+      "sha256": "665e29ab441d36179520f15343a2d59102883b1289929abf2534335d9b534012"
+    },
+    {
+      "file": "north-working-01.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 1,
+      "source_frame": 7,
+      "sha256": "b939ca23a549724e097be434dbe8af0580dd46a9875d62c5677495243277a832"
+    },
+    {
+      "file": "north-working-02.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 2,
+      "source_frame": 13,
+      "sha256": "272c103d9a2538f802525c5954f789831cac1e99ac77ff083475d7f14a97c439"
+    },
+    {
+      "file": "north-working-03.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 3,
+      "source_frame": 19,
+      "sha256": "7f936686ba6619e2c92de7fee68d5dcf2e7aa0dabafdc937d334556f64b0fb5c"
+    },
+    {
+      "file": "north-working-04.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 4,
+      "source_frame": 25,
+      "sha256": "301b7368c529d2c4045d94a4e6d76edd2af12d6920d5ad66c18a68f58b7f0e14"
+    },
+    {
+      "file": "north-working-05.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 5,
+      "source_frame": 31,
+      "sha256": "4801ad267cfa77944e92c521f6156b777cc6798dcef9e7cf05d3878f171a2820"
+    },
+    {
+      "file": "north-working-06.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 6,
+      "source_frame": 37,
+      "sha256": "739da16b7a9f41cd44fa651ffee9822eddfdf315e538ac580d290d777ee9375a"
+    },
+    {
+      "file": "north-working-07.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 7,
+      "source_frame": 43,
+      "sha256": "2036212150b4d0f6e71baec58abc079a3fada18706e0968bce45a2e056cc5ae9"
+    },
+    {
+      "file": "north-working-08.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 8,
+      "source_frame": 49,
+      "sha256": "14c1f5d46ee190720066fbe3695cf833808b8aa0f23880698f3a8e456d10e6ef"
+    },
+    {
+      "file": "north-working-09.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 9,
+      "source_frame": 55,
+      "sha256": "f9ec7ce5eaf4a2401350cbd72e1988ab6e54b813869913133aeddd8cf77c7f3d"
+    },
+    {
+      "file": "north-working-10.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 10,
+      "source_frame": 61,
+      "sha256": "94ca1206d03254d99287b80cfc5a3f6f92325bbc29856d7f2aee902c349148a9"
+    },
+    {
+      "file": "north-working-11.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 11,
+      "source_frame": 67,
+      "sha256": "b4ab685a60696c935ac8f6dda407f3bfa644e6995b78106200df279f3dad3450"
+    },
+    {
+      "file": "north-working-12.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 12,
+      "source_frame": 73,
+      "sha256": "ddf377cbafb6bc72d7ca02e55e697933cf6c0a5193bb74318bdc5fad5ef9ef84"
+    },
+    {
+      "file": "north-working-13.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 13,
+      "source_frame": 79,
+      "sha256": "8e74732bc76335f44bc0dcf52d558528645727b6e5450833e15a7a4db6117f68"
+    },
+    {
+      "file": "north-working-14.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 14,
+      "source_frame": 85,
+      "sha256": "05c68b740284703cc1ca00e6388e202ff4e027fd3832fd4ed3932e0f733c8312"
+    },
+    {
+      "file": "north-working-15.png",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "index": 15,
+      "source_frame": 91,
+      "sha256": "a4cf472541c05413326f8e76d8f46f20abc55bdc40326136cef070ef84f336d3"
+    },
+    {
+      "file": "east-idle-00.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "idle",
+      "index": 0,
+      "source_frame": 0,
+      "sha256": "9847ed538964f62e3aef363c3927e4863b29413d146d750a1ac9007f6b59b9c0"
+    },
+    {
+      "file": "east-working-00.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 0,
+      "source_frame": 1,
+      "sha256": "7046e3fa86fe361ed620184bf40d9dd9c5c61078b188213bfca861ca3147bf2f"
+    },
+    {
+      "file": "east-working-01.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 1,
+      "source_frame": 7,
+      "sha256": "53150fa4c96e642871debea937edeefb8452518c50302434830ba7326416ca83"
+    },
+    {
+      "file": "east-working-02.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 2,
+      "source_frame": 13,
+      "sha256": "967129235813d94a14e08ba09980232af408421dd9512e74bfec2f569be2eb26"
+    },
+    {
+      "file": "east-working-03.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 3,
+      "source_frame": 19,
+      "sha256": "76f1e841ec5ae6f7a77a20b4c84558be9bd7b35051acbf611bd83fd2dc03de14"
+    },
+    {
+      "file": "east-working-04.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 4,
+      "source_frame": 25,
+      "sha256": "4809b12cd4550b9511b551d8e57998962d18864520b9742b00bc41948ba32481"
+    },
+    {
+      "file": "east-working-05.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 5,
+      "source_frame": 31,
+      "sha256": "f57df527a9b9ac03e71ce66e7596f5d1b1638eb4b36c48c5f5f54582dfb650e5"
+    },
+    {
+      "file": "east-working-06.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 6,
+      "source_frame": 37,
+      "sha256": "59de07f65cf58e48cedfdd29561abcd7905d61dc8721954b3fc170833d85bd63"
+    },
+    {
+      "file": "east-working-07.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 7,
+      "source_frame": 43,
+      "sha256": "1f85f1420dc97aedf20ef552d0784e584d938336aec536921042f7e6e9a36292"
+    },
+    {
+      "file": "east-working-08.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 8,
+      "source_frame": 49,
+      "sha256": "6510498236550cce42c1241f39c47604f70fe4be5db274e6e47569bdfd00087e"
+    },
+    {
+      "file": "east-working-09.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 9,
+      "source_frame": 55,
+      "sha256": "426b2df31d028bccd32e32975b36c3f8a75fb28e8a88d30467fa6ab74aab6258"
+    },
+    {
+      "file": "east-working-10.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 10,
+      "source_frame": 61,
+      "sha256": "cb64895b259446b1c3aabd94eb5d01e092a927f1eb52d837491c305e32851404"
+    },
+    {
+      "file": "east-working-11.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 11,
+      "source_frame": 67,
+      "sha256": "15acb9e247c7b07e66cdcae52a0fc9a7fc78f701ab3808cde90168dab03e0eb9"
+    },
+    {
+      "file": "east-working-12.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 12,
+      "source_frame": 73,
+      "sha256": "f0134f055af4253e4045fb5892779880627cafe5b9ae973b4661b7ae003c72e6"
+    },
+    {
+      "file": "east-working-13.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 13,
+      "source_frame": 79,
+      "sha256": "57575cc8b740bfaa0735305ffd78b4d48b3bf43b00003e3b26830f6cdc50043e"
+    },
+    {
+      "file": "east-working-14.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 14,
+      "source_frame": 85,
+      "sha256": "da98f369bc98873208e8bf56dcd12b156f32c4f30eeb34e792b1d91d0f05740e"
+    },
+    {
+      "file": "east-working-15.png",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "index": 15,
+      "source_frame": 91,
+      "sha256": "7e22a70baff075e9c9948cd59585f69a93781f0fa3dc473046b1e3830da6899f"
+    },
+    {
+      "file": "south-idle-00.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "idle",
+      "index": 0,
+      "source_frame": 0,
+      "sha256": "352e7594d596e120308045f7d37f7ab904516c8521cabc618d28389eb1f6bf1c"
+    },
+    {
+      "file": "south-working-00.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 0,
+      "source_frame": 1,
+      "sha256": "a1684f36ad3bb0741e851e13a4e782c6f3a7a0f052db60ad1d60c908e6e4fdfa"
+    },
+    {
+      "file": "south-working-01.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 1,
+      "source_frame": 7,
+      "sha256": "690c1a231dd8ef6801eab1455214344dcc7cba96d6d3e1a2000af809e4d1a67d"
+    },
+    {
+      "file": "south-working-02.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 2,
+      "source_frame": 13,
+      "sha256": "a2546e27069a1fc2c3092ac86eb854efe92e8cf138c031cc9c6316c02813e576"
+    },
+    {
+      "file": "south-working-03.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 3,
+      "source_frame": 19,
+      "sha256": "1b41ec23e172237c3e8bde3b39b5c3c6807f56a72a5b80e47b11662cd8b339d6"
+    },
+    {
+      "file": "south-working-04.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 4,
+      "source_frame": 25,
+      "sha256": "36e5bc5b9190da79b27e8b969d726c1bcb4bcfd176f0855e6fe8367d4d55a739"
+    },
+    {
+      "file": "south-working-05.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 5,
+      "source_frame": 31,
+      "sha256": "0588e91e8e93527c514599f335c9eccd5914be38c49069a173744891b39b516d"
+    },
+    {
+      "file": "south-working-06.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 6,
+      "source_frame": 37,
+      "sha256": "c80ddacab8fe7b1d3026eabd1b0847316dd39ed7c5eb4e9b0561bb0430ffa13c"
+    },
+    {
+      "file": "south-working-07.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 7,
+      "source_frame": 43,
+      "sha256": "77883a61bb06989fb1f3f66ea2594ed44142ee894ee1bf7bcb7ecd270411053c"
+    },
+    {
+      "file": "south-working-08.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 8,
+      "source_frame": 49,
+      "sha256": "b2901d0ce0fbd7d50a20a98ae9c3b90d8918d0d11ec6fa9b50523763dd260c81"
+    },
+    {
+      "file": "south-working-09.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 9,
+      "source_frame": 55,
+      "sha256": "d9888343d5110a9b1c5ebabdcc574686cb1bff3433bd8369c810765d5d93c89f"
+    },
+    {
+      "file": "south-working-10.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 10,
+      "source_frame": 61,
+      "sha256": "c7c71baa16854f85e440f911d947927fc08477bd914a7e9007dd7121e550b96b"
+    },
+    {
+      "file": "south-working-11.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 11,
+      "source_frame": 67,
+      "sha256": "050f6edb63451f5885308835491ff9a41abed3cabbd7ac3378241f36c3240083"
+    },
+    {
+      "file": "south-working-12.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 12,
+      "source_frame": 73,
+      "sha256": "8e7433ca4a2338f28174b8ce95392aad9c45485ca4d2ca873bca95491dfbd4b5"
+    },
+    {
+      "file": "south-working-13.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 13,
+      "source_frame": 79,
+      "sha256": "74ace6c5d2d403dc528b75adef89a2812cd8c9658d79ec5a08421dfff5aab8aa"
+    },
+    {
+      "file": "south-working-14.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 14,
+      "source_frame": 85,
+      "sha256": "29db507513898efef0811675187024c79902ea4ed070a3e242345d99c8e4074d"
+    },
+    {
+      "file": "south-working-15.png",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "index": 15,
+      "source_frame": 91,
+      "sha256": "a7aca08dd2529d7650e561f361f874e1b53978b62a152732e98f54a9252bd781"
+    },
+    {
+      "file": "west-idle-00.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "idle",
+      "index": 0,
+      "source_frame": 0,
+      "sha256": "054b71b1ac197e8f91ad3ffcddb2d300b51edbb04a386cbaa7cdd6569b8d5516"
+    },
+    {
+      "file": "west-working-00.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 0,
+      "source_frame": 1,
+      "sha256": "e639ec857e7cfb45e2ef3caa38cfce4f2e07f325e40fd6a1bc243fe81efcc06d"
+    },
+    {
+      "file": "west-working-01.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 1,
+      "source_frame": 7,
+      "sha256": "0a9588641a213d792b59d117ea5faf0b0ee1d9e823a841088a65b5b24aa7bc81"
+    },
+    {
+      "file": "west-working-02.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 2,
+      "source_frame": 13,
+      "sha256": "ede500141834d608d83b5138f5dfd63a97e459fc1170e1d69516da60dab23610"
+    },
+    {
+      "file": "west-working-03.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 3,
+      "source_frame": 19,
+      "sha256": "17b534b19a88b79ebc241aa57d099fa57a36f8ac4a4b2e610cdc37adc28c8282"
+    },
+    {
+      "file": "west-working-04.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 4,
+      "source_frame": 25,
+      "sha256": "e19607093c1206dd47d5ffa1535da946adfe1223580c4e95dc7f9195aabd956a"
+    },
+    {
+      "file": "west-working-05.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 5,
+      "source_frame": 31,
+      "sha256": "1092e4bcdd6a7837f3269c32ce5062b5cdfd42dedf18664de4e5a88ba268cc93"
+    },
+    {
+      "file": "west-working-06.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 6,
+      "source_frame": 37,
+      "sha256": "0a793db151e07ed65d512bb4f5eff017b2e8ec4a6c50ab60212e209260043cc2"
+    },
+    {
+      "file": "west-working-07.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 7,
+      "source_frame": 43,
+      "sha256": "969f922785bf23d55f6daac478434bff337eea3c35e28e7f310bdabc8f428fe2"
+    },
+    {
+      "file": "west-working-08.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 8,
+      "source_frame": 49,
+      "sha256": "e69b6c4aca58a3ca89dda3010633e9bdf0b46f1db7d03fdfde3f1d63f31a7f87"
+    },
+    {
+      "file": "west-working-09.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 9,
+      "source_frame": 55,
+      "sha256": "ffe1c3f35dbfdde51f54031c5088aee0c6987e70ad6f0afe0164024c44d899ed"
+    },
+    {
+      "file": "west-working-10.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 10,
+      "source_frame": 61,
+      "sha256": "bda493cf7e369dd52e56684a48f16391d638844439f8b5ebdd4e8edc044654b7"
+    },
+    {
+      "file": "west-working-11.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 11,
+      "source_frame": 67,
+      "sha256": "f3765b4af06915a61f1516ac96cd824d44ed296a2a95193cf9b9060cedaece26"
+    },
+    {
+      "file": "west-working-12.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 12,
+      "source_frame": 73,
+      "sha256": "04f23eb38268dfa64150eff8240164d5b8ba4fc336e31dab0ac2b08c26694cb1"
+    },
+    {
+      "file": "west-working-13.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 13,
+      "source_frame": 79,
+      "sha256": "561344a5299f79aa331a7485c59c761aeb54d897f5057f46a5dbbfe797314b0a"
+    },
+    {
+      "file": "west-working-14.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 14,
+      "source_frame": 85,
+      "sha256": "a1bd13c18c8c96bf4f236312ed63f7812262dd23618259bcfddb99f07182250a"
+    },
+    {
+      "file": "west-working-15.png",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "index": 15,
+      "source_frame": 91,
+      "sha256": "3cc45979268f17a5e6aacb7ada3b24916c370196d66a182eeeffb75f6a84d440"
+    }
+  ],
+  "owner_visual_approved": false,
+  "native_game_verified": false,
+  "native_projection": {
+    "global_ground_y_scale": 1.4142135623730951,
+    "runtime_geometry_changed": false
+  },
+  "idle_state": "filled water without fish",
+  "working_state": "four swimming fish, editable tail strokes"
+}

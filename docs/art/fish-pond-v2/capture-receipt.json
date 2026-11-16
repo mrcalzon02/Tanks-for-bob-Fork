@@ -1,0 +1,105 @@
+{
+  "genuine_factorio_client_capture": true,
+  "windows_session": 1,
+  "visual_review_passed": false,
+  "owner_visual_approved": false,
+  "candidate_only": true,
+  "screenshots": [
+    {
+      "file": "north-normal.png",
+      "sha256": "dff6917e638bffbebc1bfd81d3ba709699bc8392a6693e0846c5e91ce73eb226"
+    },
+    {
+      "file": "north-close.png",
+      "sha256": "45e8e07d5940ea7da4ec237bf36e5a3e6bda28dde94a8da6c669253e55687a26"
+    },
+    {
+      "file": "north-idle-close.png",
+      "sha256": "f4eb1ab246833a91e227bf858f69701b68567c941ad97fbcefbf7afbb8f6d8d6"
+    },
+    {
+      "file": "north-fluid-close.png",
+      "sha256": "fae8d63af7ae751cbb4264ff0421b9dc0fa09196295d57d23fb2924daf6d7b6b"
+    },
+    {
+      "file": "north-motion-close.png",
+      "sha256": "f06c341a270958e73c902b23afb61fc02d136a2ebd05012c59519a3c2a774f44"
+    },
+    {
+      "file": "north-legacy-close.png",
+      "sha256": "8f54b1fb544295a1d1b145616440e899437169badd337da5f898116d459dc55b"
+    },
+    {
+      "file": "east-normal.png",
+      "sha256": "d70e388f0dccae8c6c3937f0d30d31b196255d285ca346bf07eb4e5b3193f0ce"
+    },
+    {
+      "file": "east-close.png",
+      "sha256": "7bdbd9d918534613e8a9403d762638a3981e05ded7ed13b65756460f17ef9372"
+    },
+    {
+      "file": "east-idle-close.png",
+      "sha256": "1884a665ec8db37feff300b52c5fc7002d0cbf68c55b2399335bfdc73d47c99c"
+    },
+    {
+      "file": "east-fluid-close.png",
+      "sha256": "d46beb74ce60dc2d47715e5df85a4183a95ad0ae52dbe8e75022096c6846d6fd"
+    },
+    {
+      "file": "east-motion-close.png",
+      "sha256": "09ae98ef0595223019a3b506e708b2b41a03424dac769e55bace0d4bbc5f637c"
+    },
+    {
+      "file": "east-legacy-close.png",
+      "sha256": "4efad889a7ccfceb90c0d290f24ffd28096e22a22dbf04f47b8c702d452fb59e"
+    },
+    {
+      "file": "south-normal.png",
+      "sha256": "039825a1c4b0a874977f86ddc2b306cb19eae16e8b66dca37d5ef8209f274ae7"
+    },
+    {
+      "file": "south-close.png",
+      "sha256": "545bc340b8436b6c70eab3f7672af42eaf18774c30a757691348ad1a58e7634f"
+    },
+    {
+      "file": "south-idle-close.png",
+      "sha256": "ca041277974bd5db5ab76cf3519b27378cdfc6dae77d1e4b63e7ce5a86b1708b"
+    },
+    {
+      "file": "south-fluid-close.png",
+      "sha256": "4c4f8c1224ff31f9043b90e04fad7b69228ab4254e84c61823b838c3a8360f9e"
+    },
+    {
+      "file": "south-motion-close.png",
+      "sha256": "57fb0454c2499c49f7267506738b904b8b20db2c2afe2bf24cf0c33cd33c684c"
+    },
+    {
+      "file": "south-legacy-close.png",
+      "sha256": "35347402030c21dbd9dc709354813af833141f19228c500da6a67c146b3563b7"
+    },
+    {
+      "file": "west-normal.png",
+      "sha256": "dfc052ab60bc630bad597b349b01404b735f2e1539d405e860e67681d6e1f05a"
+    },
+    {
+      "file": "west-close.png",
+      "sha256": "3ae10f21eff5fa1fd96f08ae3300d7acfdda5ad52128ca1e5b57663fe6559f84"
+    },
+    {
+      "file": "west-idle-close.png",
+      "sha256": "dee3a57b48b9cd82274a513fa991251b61b288402ef1a0eae27c10d078fd2159"
+    },
+    {
+      "file": "west-fluid-close.png",
+      "sha256": "39969ad9d834c4ecaa0f38c92dd90ecedfe2e0100c8aa189ee40f7267774c8b0"
+    },
+    {
+      "file": "west-motion-close.png",
+      "sha256": "2c061fe4fb37e188137f4071ab2fdd8fe8b18a5bd079b15393dc6812e380a7e0"
+    },
+    {
+      "file": "west-legacy-close.png",
+      "sha256": "7602570aec3e366374a7992dbffe0ef1fb11196abbbf98c01c794c64c0068985"
+    }
+  ]
+}

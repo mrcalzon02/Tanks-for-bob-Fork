@@ -1,0 +1,106 @@
+{
+  "schema": "tanks.fish-pond.v2.visual-review",
+  "reviewer": "Codex; explicit owner acceptance recorded separately",
+  "source_sha256": "a3e28a08e21a3c8325e3f8a27719432a83d5befdb7fc7acbac247cf88dce4eaa",
+  "runtime_sha256": "c806f92bc6e43727e13a3d168302a54981e3df0c0a8c8d05d0d4a088dfa2cef9",
+  "reference": {
+    "path": "models/island-survival/fish-pond/generated-v1/review-four-directions.png",
+    "sha256": "7d7a04eed01fc298c8f81d93537b382f40cbb282f3e7097281247c4183582f47"
+  },
+  "scores_out_of_five": {
+    "silhouette": 4,
+    "construction": 4,
+    "surfaces": 4,
+    "motion": 4,
+    "native_fit": 5
+  },
+  "disposition": "Accept the restrained existing-basin refinement. Owner accepted and requested integration.",
+  "findings": [
+    "The continuous excavated basin remains recognizable at native zoom.",
+    "Clay banks retain the source damp-floor and dry-rim distinction through baked image maps.",
+    "Canonical hollow mouths have continuous closed walls and grounded saddles; no coincident bore surfaces.",
+    "Four distinct swimmers follow ellipse tangents and editable tail strokes; all 97 source/export poses match.",
+    "Actual native idle/working and all four connected-pipe facings were viewed. No doubled legacy sprite is drawn."
+  ],
+  "limitations": [
+    "Current fishery recipes do not use fluids; plumbing was additionally exercised with a test-only fluid recipe.",
+    "The original native burner smoke and light remain; FMPL GLB contains the working loop, with idle fish visibility described in metadata."
+  ],
+  "actual_export_renders": [
+    {
+      "file": "actual-glb-front.png",
+      "sha256": "3cbb1fe9336263a4021a3afdac3a2c5018b61e55af5531303376f01b24109bcc"
+    },
+    {
+      "file": "actual-glb-rear.png",
+      "sha256": "f55948ab3561217d09d053f3876189cef31c8d3ce8b017ec43e6392e52699866"
+    },
+    {
+      "file": "actual-glb-close.png",
+      "sha256": "c113d5851a984774b26ed6541396049d1bdd46ab4f92456388af14582afd3ae4"
+    },
+    {
+      "file": "actual-glb-clay.png",
+      "sha256": "cf16a84b8a7e9fd653904bc557dbdb647305e54ee1d8aa2e6c76cd300ad12f8d"
+    }
+  ],
+  "native_images_viewed": [
+    "north-normal.png",
+    "north-close.png",
+    "east-close.png",
+    "south-close.png",
+    "west-close.png",
+    "north-idle-close.png",
+    "north-motion-close.png",
+    "north-fluid-close.png",
+    "east-fluid-close.png",
+    "south-fluid-close.png",
+    "west-fluid-close.png",
+    "north-legacy-close.png"
+  ],
+  "native_image_hashes": {
+    "north-normal.png": "dff6917e638bffbebc1bfd81d3ba709699bc8392a6693e0846c5e91ce73eb226",
+    "north-close.png": "45e8e07d5940ea7da4ec237bf36e5a3e6bda28dde94a8da6c669253e55687a26",
+    "north-idle-close.png": "f4eb1ab246833a91e227bf858f69701b68567c941ad97fbcefbf7afbb8f6d8d6",
+    "north-fluid-close.png": "fae8d63af7ae751cbb4264ff0421b9dc0fa09196295d57d23fb2924daf6d7b6b",
+    "north-motion-close.png": "f06c341a270958e73c902b23afb61fc02d136a2ebd05012c59519a3c2a774f44",
+    "north-legacy-close.png": "8f54b1fb544295a1d1b145616440e899437169badd337da5f898116d459dc55b",
+    "east-normal.png": "d70e388f0dccae8c6c3937f0d30d31b196255d285ca346bf07eb4e5b3193f0ce",
+    "east-close.png": "7bdbd9d918534613e8a9403d762638a3981e05ded7ed13b65756460f17ef9372",
+    "east-idle-close.png": "1884a665ec8db37feff300b52c5fc7002d0cbf68c55b2399335bfdc73d47c99c",
+    "east-fluid-close.png": "d46beb74ce60dc2d47715e5df85a4183a95ad0ae52dbe8e75022096c6846d6fd",
+    "east-motion-close.png": "09ae98ef0595223019a3b506e708b2b41a03424dac769e55bace0d4bbc5f637c",
+    "east-legacy-close.png": "4efad889a7ccfceb90c0d290f24ffd28096e22a22dbf04f47b8c702d452fb59e",
+    "south-normal.png": "039825a1c4b0a874977f86ddc2b306cb19eae16e8b66dca37d5ef8209f274ae7",
+    "south-close.png": "545bc340b8436b6c70eab3f7672af42eaf18774c30a757691348ad1a58e7634f",
+    "south-idle-close.png": "ca041277974bd5db5ab76cf3519b27378cdfc6dae77d1e4b63e7ce5a86b1708b",
+    "south-fluid-close.png": "4c4f8c1224ff31f9043b90e04fad7b69228ab4254e84c61823b838c3a8360f9e",
+    "south-motion-close.png": "57fb0454c2499c49f7267506738b904b8b20db2c2afe2bf24cf0c33cd33c684c",
+    "south-legacy-close.png": "35347402030c21dbd9dc709354813af833141f19228c500da6a67c146b3563b7",
+    "west-normal.png": "dfc052ab60bc630bad597b349b01404b735f2e1539d405e860e67681d6e1f05a",
+    "west-close.png": "3ae10f21eff5fa1fd96f08ae3300d7acfdda5ad52128ca1e5b57663fe6559f84",
+    "west-idle-close.png": "dee3a57b48b9cd82274a513fa991251b61b288402ef1a0eae27c10d078fd2159",
+    "west-fluid-close.png": "39969ad9d834c4ecaa0f38c92dd90ecedfe2e0100c8aa189ee40f7267774c8b0",
+    "west-motion-close.png": "2c061fe4fb37e188137f4071ab2fdd8fe8b18a5bd079b15393dc6812e380a7e0",
+    "west-legacy-close.png": "7602570aec3e366374a7992dbffe0ef1fb11196abbbf98c01c794c64c0068985"
+  },
+  "preview_manifest": {
+    "previews": {
+      "fish-pond-v2-loop.png": "037501525cfc512a644dc07b828ae976e77ec1cf75abd381a3b7802587a733b0",
+      "native-before-after.png": "72ac4ca178d5a5fe9e3627734c4e7866367691233dff0ee35c95b5353ca28d52",
+      "native-four-connections.png": "0870f401e159cff67b9bafc1cadbf26841171b65f005c7c8c4ec6648a78818c3"
+    },
+    "animation": {
+      "fps": 8,
+      "frames": 16,
+      "source": "genuine Blender working frames"
+    },
+    "comparison": {
+      "left": "legacy active art",
+      "right": "candidate V2",
+      "native_zoom": 2.5,
+      "identical_crop": true
+    }
+  },
+  "owner_approved": true
+}

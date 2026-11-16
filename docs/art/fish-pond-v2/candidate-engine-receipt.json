@@ -1,0 +1,9 @@
+{
+  "engine": "Version: 2.1.24 (build 87808, win64, steam)\nVersion: 64\nMap input version: 1.0.0-0\nMap output version: 2.1.24-1",
+  "exit_code": 0,
+  "native_pass": true,
+  "reload_pass": true,
+  "candidate_only": true,
+  "production_source_art_changed": false,
+  "atlas_sha256": "69bb57142b18c59de93dd1a98bb76fbe5e91fef7ab21df5ab8cd8c122c444f9d"
+}
