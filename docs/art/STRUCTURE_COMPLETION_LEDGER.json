@@ -317,18 +317,26 @@
       "id": "thinking-hut",
       "name": "Thinking Hut",
       "revision": "V1 supported research shelter and refined working oil lantern",
-      "status": "operational_native_verified_delivery_pending",
+      "status": "accepted_integrated",
       "priority": 20,
-      "next": "Commit/push final native integration and evidence; register canonical FMPL and verify remote delivery.",
+      "next": "Preserve fixed-north research shelter, refined supported lantern, upright balance pans and actual native research/idle/night/reload evidence.",
       "evidence": [
         "models/island-survival/thinking-hut/v1/FMPL_MODEL.json",
         "docs/art/thinking-hut-v1"
       ],
-      "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false,
+      "fmpl_delivery": {
+        "repository": "mrcalzon02/Tech-Priests",
+        "ref": "902c7588c1c4988c31e70a172ac375452006881d",
+        "registry": "tools/fmpl/FMPL.json",
+        "model_id": "tanks-thinking-hut-v1",
+        "source_commit": "1b39f0ee1c66d5375d92aac621d37e85e2fa6181",
+        "remote_readback_verified": true
+      },
+      "done": true,
       "owner_corrections": [
         "Lantern needs attention: refine the dark post-mounted box into a supported, legible oil lantern with actual wick/flame, reservoir, guards and hood."
-      ]
+      ],
+      "delivery_commit": "1b39f0ee1c66d5375d92aac621d37e85e2fa6181"
     },
     {
       "id": "pondering-hovel",
@@ -344,7 +352,7 @@
       "done": false
     }
   ],
-  "active_structure": "thinking-hut",
+  "active_structure": "pondering-hovel",
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
@@ -352,6 +360,6 @@
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
     "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
-  "production_state": "active; Thinking Hut final native research, working/idle lantern and operated reload verified; delivery pending",
+  "production_state": "active; compressor, Wood Basin, Quarry, Shaler, Calcifier and Thinking Hut delivered; establish actual Pondering Hovel contract next. Continue Tech-Priests unfinished buildings, engines and dropped turrets after all remaining Tanks structures.",
   "subsequent_authorized_scope": "After all remaining Tanks structures, continue unfinished Tech-Priests buildings, engines and dropped turrets. Reconcile and checkpoint frequently (owner 2026-11-17)."
 }

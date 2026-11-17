@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "status": "final_native_verified_delivery_pending",
+  "status": "single_asset_delivered_goal_continues",
   "current_source": "models/island-survival/thinking-hut/candidates/v1-lantern08/thinking-hut-v1.blend",
   "source_sha256": "4c7dee2ad5124ea1c078b0f4f997c994b8d971d9395f86b083254f3bc9e75b13",
   "runtime_candidate_sha256": "12d9d0039544f95d5a5fc77be20e85da7277a261d110c50f1a80c9b86224b857",
@@ -9,9 +9,18 @@
   "native_research_inputs": 14,
   "eligible_technology_contracts": 75,
   "research_input_sets": 19,
-  "remaining": "Commit/push final integration, source/export inspections, genuine native evidence and FMPL registration.",
+  "remaining": "Preserve the delivered Thinking Hut. Continue the remaining five Tanks structures, then the authorized Tech-Priests phase.",
   "prior_native_evidence": "Prior 24-lab fixture proved 19 input combinations and all 14 accepted items; final current art/fixture revision remains to be verified.",
   "owner_visual_approved": false,
   "source_checkpoint_commit": "9f57005ee0f7fcb10c1354ced7112f55e326bcad",
-  "source_checkpoint_remote_verified": true
+  "source_checkpoint_remote_verified": true,
+  "final_delivery_source_commit": "1b39f0ee1c66d5375d92aac621d37e85e2fa6181",
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "902c7588c1c4988c31e70a172ac375452006881d",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-thinking-hut-v1",
+    "source_commit": "1b39f0ee1c66d5375d92aac621d37e85e2fa6181",
+    "remote_readback_verified": true
+  }
 }

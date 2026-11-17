@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-17",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "source_checkpoint_commit": "9f57005ee0f7fcb10c1354ced7112f55e326bcad",
+  "source_checkpoint_remote_verified": true,
+  "source_commit": "1b39f0ee1c66d5375d92aac621d37e85e2fa6181",
+  "remote_main_verified_at_source_commit": "1b39f0ee1c66d5375d92aac621d37e85e2fa6181",
+  "pinned_remote_model_manifest_readback_verified": true,
+  "source_sha256": "4c7dee2ad5124ea1c078b0f4f997c994b8d971d9395f86b083254f3bc9e75b13",
+  "runtime_sha256": "12d9d0039544f95d5a5fc77be20e85da7277a261d110c50f1a80c9b86224b857",
+  "staged_binary_bytes_verified": true,
+  "canonical_fmpl": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "902c7588c1c4988c31e70a172ac375452006881d",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-thinking-hut-v1",
+    "source_commit": "1b39f0ee1c66d5375d92aac621d37e85e2fa6181",
+    "remote_readback_verified": true
+  },
+  "delegated_operational_review": true,
+  "owner_visual_approved": false,
+  "full_user_mod_pack_installation": false
+}

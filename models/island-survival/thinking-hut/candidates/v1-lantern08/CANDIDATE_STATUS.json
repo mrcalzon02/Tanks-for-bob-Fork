@@ -1,7 +1,16 @@
 {
-  "status": "delegated-operational-native-reviewed-delivery-pending",
+  "status": "delegated-operational-native-integrated-remote-verified",
   "owner_visual_approved": false,
-  "native_delivered": false,
+  "native_delivered": true,
   "current_source_candidate": "v1-lantern08",
-  "notes": "Final V1 lantern08 source/export/sprites/native operation verified; final commit/push and FMPL registration pending. Earlier dark or gameplay-occluded lantern studies held."
+  "notes": "Final source/export, genuine sprites, actual lab research and refined lantern day/night/idle views, operated reload, source push and canonical FMPL readback verified. Individual owner approval is not claimed.",
+  "source_commit": "1b39f0ee1c66d5375d92aac621d37e85e2fa6181",
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "902c7588c1c4988c31e70a172ac375452006881d",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-thinking-hut-v1",
+    "source_commit": "1b39f0ee1c66d5375d92aac621d37e85e2fa6181",
+    "remote_readback_verified": true
+  }
 }

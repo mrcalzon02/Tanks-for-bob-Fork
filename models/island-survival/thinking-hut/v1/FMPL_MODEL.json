@@ -1,7 +1,7 @@
 {
   "schema": "fmpl.model-delivery.v1",
   "id": "tanks-thinking-hut-v1",
-  "status": "operational-native-integrated-delegated-review-remote-pending",
+  "status": "operational-native-integrated-delegated-review",
   "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
   "prototype": {
     "type": "lab",
@@ -69,5 +69,12 @@
   "native_working_video_frames": 16,
   "owner_lantern_correction": "Supported hook/bail, oil reservoir and wick, open guards/reflector, raised hood exposing the layered flame from the actual camera; working/idle and night operation verified.",
   "evidence": "docs/art/thinking-hut-v1",
-  "central_library_registration": "pending verified final Tanks delivery push"
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "902c7588c1c4988c31e70a172ac375452006881d",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-thinking-hut-v1",
+    "source_commit": "1b39f0ee1c66d5375d92aac621d37e85e2fa6181",
+    "remote_readback_verified": true
+  }
 }
