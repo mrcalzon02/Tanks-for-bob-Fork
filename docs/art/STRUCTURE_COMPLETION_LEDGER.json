@@ -316,15 +316,19 @@
     {
       "id": "thinking-hut",
       "name": "Thinking Hut",
-      "revision": "OBJ blockout",
-      "status": "rebuild_required",
+      "revision": "V1 lantern refinement and native research verification in progress",
+      "status": "in_progress",
       "priority": 20,
-      "next": "Build timber research shelter, tools and light with readable roof silhouette; appropriate subtle activity.",
+      "next": "Finish supported study porch, document/food research bench, upright balance pans and fueled hearth; inspect source/export before integration.",
       "evidence": [
-        "models/island-survival/designs.json"
+        "models/island-survival/thinking-hut/v1/contract.json",
+        "ci/thinking_hut_v1"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false
+      "done": false,
+      "owner_corrections": [
+        "Lantern needs attention: refine the dark post-mounted box into a supported, legible oil lantern with actual wick/flame, reservoir, guards and hood."
+      ]
     },
     {
       "id": "pondering-hovel",

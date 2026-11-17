@@ -1,0 +1,24 @@
+{
+  "source_sha256": "7faab960664f98238f03076dd79b24e8dbab18054344c9fe835f03724e194a74",
+  "glb_sha256": "078a25a491c80162eb0eec52a78491648b17c4abc472652b84e8fc8b4c56a34d",
+  "starter_sha256": "0a4329d3fad99eb86610ad4ac1ad3a9e9074d2f7d0a60c092b3190de8062c8f3",
+  "reused_groups": [
+    "HUT | REUSED thinking-hut_floor",
+    "HUT | REUSED thinking-hut_hut_walls",
+    "HUT | REUSED thinking-hut_thatch_roof",
+    "HUT | REUSED thinking-hut_doorway",
+    "HUT | REUSED thinking-hut_wall_lantern",
+    "HUT | REUSED thinking-hut_smoke_vent"
+  ],
+  "native_orientation": "fixed north verified: all requested directions normalize to north; rotate false",
+  "gameplay_changed": false,
+  "owner_visual_approved": false,
+  "native_integrated": false,
+  "parent_source_sha256": "5ce478a0c736e9f0f9b0c6da1439aeaaf524091fdd08d097d0a9ad94ddc41117",
+  "repairs": [
+    "Inward knee braces attach to actual beams",
+    "Rafters follow thatch underside and rear bearing seats",
+    "Bored bronze balance trunnion on fixed pin",
+    "Pans stay upright and hang at the bottoms of the retained beam eyes"
+  ]
+}

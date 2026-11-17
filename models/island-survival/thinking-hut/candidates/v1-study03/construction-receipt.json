@@ -1,0 +1,17 @@
+{
+  "source_sha256": "5ce478a0c736e9f0f9b0c6da1439aeaaf524091fdd08d097d0a9ad94ddc41117",
+  "glb_sha256": "35d5573d3519d8177332e5452deaa327234f225960ebe1af224d4f6f18607287",
+  "starter_sha256": "0a4329d3fad99eb86610ad4ac1ad3a9e9074d2f7d0a60c092b3190de8062c8f3",
+  "reused_groups": [
+    "HUT | REUSED thinking-hut_floor",
+    "HUT | REUSED thinking-hut_hut_walls",
+    "HUT | REUSED thinking-hut_thatch_roof",
+    "HUT | REUSED thinking-hut_doorway",
+    "HUT | REUSED thinking-hut_wall_lantern",
+    "HUT | REUSED thinking-hut_smoke_vent"
+  ],
+  "native_orientation": "fixed north verified: all requested directions normalize to north; rotate false",
+  "gameplay_changed": false,
+  "owner_visual_approved": false,
+  "native_integrated": false
+}
