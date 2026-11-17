@@ -235,21 +235,29 @@
       "id": "quarry",
       "name": "Quarry",
       "revision": "V5 detailed rooted excavation hoist",
-      "status": "integrated_delivery_pending",
+      "status": "accepted_integrated",
       "priority": 17,
-      "next": "Commit and verify remote delivery; register the corrected source/GLB in canonical FMPL.",
+      "next": "Preserve detailed operational quarry, continuous terrain, attached mechanism and aligned flue smoke.",
       "evidence": [
         "docs/art/quarry-v5",
         "models/island-survival/quarry/v5/FMPL_MODEL.json"
       ],
-      "fmpl_delivery": "pending canonical registration",
-      "done": false,
+      "fmpl_delivery": {
+        "repository": "mrcalzon02/Tech-Priests",
+        "ref": "7a641092bbc418905fcbf0e4600ff62cf92929e1",
+        "registry": "tools/fmpl/FMPL.json",
+        "model_id": "tanks-quarry-v5",
+        "source_commit": "64d8b25950c2c3d5d2d1808a1072fc7d013b4be6",
+        "remote_readback_verified": true
+      },
+      "done": true,
       "active": true,
       "owner_corrections": [
         "Natural rock edges were too sharp; weather exposed natural surfaces while retaining deliberate worked cleavage.",
         "Rock bases read as separate boulders stuck on terrain; require buried roots, continuous ground transition and irregular sloping perimeter.",
         "Smoke came from sprite top middle; anchored native emitter to the projected firebox flue outlet and captured genuine corrected operation."
-      ]
+      ],
+      "delivery_commit": "64d8b25950c2c3d5d2d1808a1072fc7d013b4be6"
     },
     {
       "id": "shaler",
@@ -304,7 +312,7 @@
       "done": false
     }
   ],
-  "active_structure": "quarry",
+  "active_structure": "shaler",
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
@@ -312,5 +320,5 @@
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
     "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
-  "production_state": "active; corrected compressor and Wood Basin delivered; next establish the actual quarry gameplay contract"
+  "production_state": "active; corrected barrel compressor, Wood Basin and Quarry delivered; establish Shaler contract from current mod before building"
 }

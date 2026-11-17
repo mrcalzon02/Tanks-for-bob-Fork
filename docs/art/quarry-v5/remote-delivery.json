@@ -1,0 +1,14 @@
+{
+  "source_commit": "64d8b25950c2c3d5d2d1808a1072fc7d013b4be6",
+  "source_remote_verified": true,
+  "canonical_fmpl": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "7a641092bbc418905fcbf0e4600ff62cf92929e1",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-quarry-v5",
+    "source_commit": "64d8b25950c2c3d5d2d1808a1072fc7d013b4be6",
+    "remote_readback_verified": true
+  },
+  "full_goal_complete": false,
+  "next_structure": "shaler"
+}

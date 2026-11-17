@@ -34,5 +34,12 @@
   "native_placement_six_recipes_fuel_blocked_stop_restart_operated_reload_passed": true,
   "fluid_connection_tests": "Not applicable: actual quarry has no fluid connections.",
   "evidence": "docs/art/quarry-v5",
-  "central_library_registration": "pending source commit and canonical readback"
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "7a641092bbc418905fcbf0e4600ff62cf92929e1",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-quarry-v5",
+    "source_commit": "64d8b25950c2c3d5d2d1808a1072fc7d013b4be6",
+    "remote_readback_verified": true
+  }
 }
