@@ -6,7 +6,7 @@ Updated 2026-11-17; original baseline `7290824bf43711d0bb31bd8e2969c51459864f91`
 
 Owner priority 2026-11-15: finish working, animated, operational and close enough; defer cosmetic polish. Preserve accepted art and verify actual prototype behavior. Track source/export/FMPL receipts honestly; missing receipts are pending, never automatic PASS. See docs/art/OPERATIONAL_FINISH_POLICY.md.
 
-**20 accepted/integrated; 1 held condenser candidate remains. Current focus: reconcile the actual Tanks Steam Condenser brief and finish delivery.**
+**21 accepted/integrated. All original eleven remaining machines delivered; audit receipts before continuing authorized Tech-Priests scope. The historical condenser V1 candidate remains held.**
 
 | Structure | Latest known revision | Status | Remaining action |
 | --- | --- | --- | --- |
@@ -18,7 +18,7 @@ Owner priority 2026-11-15: finish working, animated, operational and close enoug
 | Cooking Fire | V2 | accepted integrated | Preserve approved art and native steam-input integration. |
 | Solar Boiler | V8 | accepted integrated | Optional graphical pipe-overlap diagnostic issue #4 remains separate; preserve accepted floorless source. |
 | Beach Pump | V12 | accepted integrated | Owner accepted installed V12 as operational and close enough on 2026-11-15. Preserve animation, native flow/full-output/landfill and alignment. Underwater occlusion is deferred visual review; archive/FMPL receipt recovery remains separate. |
-| Steam Condenser | Tanks V1 unapproved candidate held; native entity exists | advanced candidate | Keep the unfamiliar V1 candidate unapproved and uninstalled. The actual placeable steam-condenser exists; Steam-condenserA consumes wood and steam and returns stone/industrial waste. Do not infer water output or borrow Tech-Priests atmospheric-condenser V24. Resume only from actual function and the owner’s construction brief. |
+| Steam Condenser | V2 actual wood-steam-to-stone treatment chamber | accepted integrated | Retained ten-group starter, supported brick/clay chamber and offset piston/belt drive, 385-pose source/GLB sweep, 132 genuine frames, four native recipe cases, 20 machine pipe joints, exact inputs/results/fuel and power/blocked/stop/reload proof. Sixty client PNGs; source/canonical FMPL pushed and read back. Historical V1 water-output candidate stays held. |
 | Primitive Steam-Powered Pump | V3 owner-approved, animated and integrated | accepted integrated | Complete: 68 native Blender frames, six atlases, saved editable source, inspected GLB, actual four-facing water/oil transfer, no-fuel, stop/restart, full-output and save/reload tests, plus eight genuine client screenshots. Preserve this accepted design and move on. |
 | Fish Pond | V2 | accepted integrated | Preserve the accepted clay basin, four swimmers, baked portable source and tested native idle/working integration. |
 | Stone Water Wheel | V3 upright cam-drained buckets | accepted integrated | Saved source/actual GLB 385-pose sweeps and upright pivots, 32 working frames per facing, sixteen native grid joints, 30/s extraction, full/drain/stop/landfill and operated reload; remote source and canonical FMPL verified. Preserve. |

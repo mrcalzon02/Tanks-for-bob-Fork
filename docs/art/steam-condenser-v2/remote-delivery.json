@@ -1,0 +1,22 @@
+{
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "source_checkpoint_commit": "db0e766fece77dc37ef8a8a15b4c39a78299e3da",
+  "source_checkpoint_remote_verified": true,
+  "source_commit": "93e4d67c424e2d0afdf57646ac649fcb4af653e3",
+  "remote_main_verified_at_source_commit": "93e4d67c424e2d0afdf57646ac649fcb4af653e3",
+  "pinned_remote_model_manifest_readback_verified": true,
+  "source_sha256": "f16cc807dd96b9fe901410fd214657dc913027b959e27e377e5ab2f92cde1526",
+  "runtime_sha256": "ac882b649abd69772e6db8ceb6684f2db011bba0cd899bb8bb771cecd23907a5",
+  "canonical_fmpl": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-steam-condenser-v2",
+    "source_commit": "93e4d67c424e2d0afdf57646ac649fcb4af653e3",
+    "remote_readback_verified": true
+  },
+  "task_binary_bytes_and_normalized_lua_content_verified": true,
+  "delegated_operational_review": true,
+  "owner_visual_approved": false,
+  "full_user_mod_pack_installation": false
+}

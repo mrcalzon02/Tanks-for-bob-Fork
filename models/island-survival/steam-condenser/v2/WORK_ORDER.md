@@ -1,4 +1,9 @@
-# Tanks Steam Condenser V2 - reconciled actual construction brief
+# Actual Tanks Steam Condenser V2 - delivered operational machine
+
+Source/art/native evidence: `93e4d67c424e2d0afdf57646ac649fcb4af653e3`.
+Canonical FMPL readback: `b5183ef3b570bc49194d1655e9f5e0541ab658b4`.
+Actual four-facing wood/steam/fuel operation, pipe registration, recovery, stop
+and operated reload verified. PreserveV2; historicalV1 remains held.
 
 This is the actual 3x3 `assembling-machine/steam-condenser`, with its real
 placeable item, building recipe, technology and one `Steam` processing recipe.

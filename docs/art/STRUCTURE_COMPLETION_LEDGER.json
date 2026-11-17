@@ -117,19 +117,26 @@
     {
       "id": "steam-condenser",
       "name": "Steam Condenser",
-      "revision": "V2 actual wood/steam-to-stone contract and ten-group starter preserved; legacy V1 held",
-      "status": "in_progress",
+      "revision": "V2 actual wood-steam-to-stone treatment chamber",
+      "status": "accepted_integrated",
       "priority": 9,
-      "next": "Finish distinct actual Tanks condenser from retained starter: chemical1kW, one real steam inlet, wood5+steam200 to stone10+waste1, four facings. Legacy water-output/barrel candidate stays unapproved and uninstalled.",
+      "next": "Preserve delivered actual Tanks condenserV2. Historical V1 water-output/barrel candidate remains held/unapproved; accepted separate compressor unchanged.",
       "evidence": [
-        "docs/art/local-machine-alignment/2026-11-13.json",
-        "models/island-survival/steam-condenser/v1/contract.json",
-        "tanks_for_bob_fork_1.8.103/prototypes/entity/entities.lua",
-        "models/island-survival/steam-condenser/v2/contract.json",
-        "models/island-survival/steam-condenser/v2/WORK_ORDER.md"
+        "models/island-survival/steam-condenser/v2/FMPL_MODEL.json",
+        "docs/art/steam-condenser-v2",
+        "models/island-survival/steam-condenser/candidates/v2-production05/clearance-review.json"
       ],
-      "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false
+      "fmpl_delivery": {
+        "repository": "mrcalzon02/Tech-Priests",
+        "ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+        "registry": "tools/fmpl/FMPL.json",
+        "model_id": "tanks-steam-condenser-v2",
+        "source_commit": "93e4d67c424e2d0afdf57646ac649fcb4af653e3",
+        "remote_readback_verified": true
+      },
+      "done": true,
+      "delivery_commit": "93e4d67c424e2d0afdf57646ac649fcb4af653e3",
+      "held_historical_candidate": "models/island-survival/steam-condenser/candidates/v1-production01; not promoted as a condenser"
     },
     {
       "id": "primitive-steam-powered-pump",
@@ -391,7 +398,7 @@
       "delivery_commit": "753363eef45d3a0e9b264aed954b12157427f7ba"
     }
   ],
-  "active_structure": "steam-condenser",
+  "active_structure": null,
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
@@ -399,6 +406,6 @@
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
     "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
-  "production_state": "active; ten of original eleven remaining Tanks structures delivered (20/21 total). Actual final condenser native contract reconciled and ten-group starter preserved; finish its wood/steam-to-stone/waste machinery while keeping the historical water-output candidate held. Then audit original-scope delivery receipts and continue authorized Tech-Priests buildings/engines/dropped turrets.",
+  "production_state": "active; all original eleven remaining Tanks structures operationally delivered (21/21 total). Original-eleven completion receipt audit precedes authorized Tech-Priests unfinished buildings/engines/dropped turrets. Legacy condenserV1 stays held; accepted assets and concurrent work preserved.",
   "subsequent_authorized_scope": "After all remaining Tanks structures, continue unfinished Tech-Priests buildings, engines and dropped turrets. Reconcile and checkpoint frequently (owner 2026-11-17)."
 }

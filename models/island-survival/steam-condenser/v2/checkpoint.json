@@ -1,5 +1,5 @@
 {
-  "status": "native-integrated-operated-reload-verified-awaiting-final-publication",
+  "status": "delivered-native-integrated-source-pushed-canonical-fmpl-verified",
   "active_mod": "tanks_for_bob_fork_1.8.104",
   "prototype": "assembling-machine/steam-condenser",
   "starter_sha256": "c5459a1d00ee9aae2acb325e4b3dfcc25d9794a6d61ecacc1873471577986177",
@@ -22,8 +22,8 @@
   "actual_supported_directions": 4,
   "running_recipe_fluid_connections": "one steam inlet only; no native fluid output",
   "legacy_v1_condenser_candidate": "held, unapproved, uninstalled; owner-intended barrel compressor source already delivered as separate machine",
-  "delivered": false,
-  "next": "Commit/push/readback final art/evidence and canonical FMPL; then original-eleven completion audit before authorized Tech-Priests scope. Legacy V1 stays held.",
+  "delivered": true,
+  "next": "Preserve actual Tanks condenserV2 and all accepted assets. Keep legacy V1 water-output candidate held. Audit original-eleven receipts, then continue authorized Tech-Priests unfinished buildings/engines/dropped turrets.",
   "candidate": "models/island-survival/steam-condenser/candidates/v2-production05",
   "source_sha256": "f16cc807dd96b9fe901410fd214657dc913027b959e27e377e5ab2f92cde1526",
   "runtime_sha256": "ac882b649abd69772e6db8ceb6684f2db011bba0cd899bb8bb771cecd23907a5",
@@ -32,5 +32,14 @@
   "source_checkpoint_commit": "db0e766fece77dc37ef8a8a15b4c39a78299e3da",
   "source_checkpoint_remote_verified": true,
   "native_current_art_verified": true,
-  "actual_operated_reload_verified": true
+  "actual_operated_reload_verified": true,
+  "source_commit": "93e4d67c424e2d0afdf57646ac649fcb4af653e3",
+  "canonical_fmpl": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-steam-condenser-v2",
+    "source_commit": "93e4d67c424e2d0afdf57646ac649fcb4af653e3",
+    "remote_readback_verified": true
+  }
 }

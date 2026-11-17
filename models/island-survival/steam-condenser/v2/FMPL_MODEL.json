@@ -49,7 +49,12 @@
   "owner_approved": false,
   "native_current_art_verified": true,
   "central_library_registration": {
-    "status": "pending verified source delivery commit"
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-steam-condenser-v2",
+    "source_commit": "93e4d67c424e2d0afdf57646ac649fcb4af653e3",
+    "remote_readback_verified": true
   },
   "native_engine": "2.1.24",
   "native_target_machines": 24,

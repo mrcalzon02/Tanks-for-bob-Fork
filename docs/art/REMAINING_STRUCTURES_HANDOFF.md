@@ -4,8 +4,9 @@ The previous enduring goal is **paused**. This handoff preserves work and
 prepares a new discussion; it does not resume modeling by itself.
 
 **Continuation checkpoint:** the new enduring goal is active. The corrected
-barrel-source Steam Compressor, Wood Basin, Quarry, refined Shaler, Calcifier, Thinking Hut, Pondering Hovel, Stone Water Wheel, Tank Ammunition Assembler and Tank Assembling Machine have
-since reached operational integration. Read the current JSON ledger for delivery receipts and remaining
+barrel-source Steam Compressor, Wood Basin, Quarry, refined Shaler, Calcifier, Thinking Hut, Pondering Hovel, Stone Water Wheel, Tank Ammunition Assembler, Tank Assembling Machine and actual Steam Condenser V2 have
+since reached operational integration. All original eleven remaining Tanks structures are delivered; the
+historical V1 condenser candidate stays held. Read the current JSON ledger for delivery receipts and subsequent
 scope; the counts below describe the original saved baseline.
 
 **Expanded continuation, owner 2026-11-17:** after finishing all remaining
