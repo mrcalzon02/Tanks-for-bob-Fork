@@ -1,0 +1,5166 @@
+{
+  "artifact": "models\\island-survival\\pondering-hovel\\candidates\\v1-production03\\pondering-hovel-v1.blend",
+  "sha256": "1c1221819d9b8f1b7ed391ba46bdf9bcac1f2788a297dccbefa68d91c52407a3",
+  "sampled_poses": 385,
+  "authored_frames": 193,
+  "includes_half_frames": true,
+  "moving_meshes": [
+    "HOVEL | attached handwritten folio leaf",
+    "HOVEL | bound folio cover",
+    "HOVEL | folio rotating hinge knuckle",
+    "HOVEL | folio rotating hinge knuckle.001",
+    "HUT LANTERN | hot rooted core",
+    "HUT LANTERN | warm teardrop",
+    "HUT | balance bored trunnion boss",
+    "HUT | balance crossbar",
+    "HUT | balance retained suspension eye",
+    "HUT | balance retained suspension eye.001",
+    "HUT | research sample on pan",
+    "HUT | research sample on pan.001",
+    "HUT | suspended balance dish -1",
+    "HUT | suspended balance dish 1",
+    "HUT | three point suspension cord",
+    "HUT | three point suspension cord.001",
+    "HUT | three point suspension cord.002",
+    "HUT | three point suspension cord.003",
+    "HUT | three point suspension cord.004",
+    "HUT | three point suspension cord.005"
+  ],
+  "motion_owners": {
+    "HUT | REUSED thinking-hut_wall_lantern": null,
+    "HUT | load carrying post": null,
+    "HUT | post stone pad": null,
+    "HUT | post knee brace": null,
+    "HUT | eaves beam": null,
+    "HUT | load carrying post.002": null,
+    "HUT | post stone pad.002": null,
+    "HUT | post knee brace.002": null,
+    "HUT | eaves beam.001": null,
+    "HUT | roof bearing crossbeam": null,
+    "HUT | roof bearing crossbeam.001": null,
+    "HUT | lashed beam joint": null,
+    "HUT | lashed beam joint.001": null,
+    "HUT | lashed beam joint.002": null,
+    "HUT | lashed beam joint.003": null,
+    "HUT | lashed beam joint.004": null,
+    "HUT | lashed beam joint.005": null,
+    "HUT | lashed beam joint.006": null,
+    "HUT | lashed beam joint.007": null,
+    "HUT | lashed beam joint.008": null,
+    "HUT | lashed beam joint.009": null,
+    "HUT | lashed beam joint.010": null,
+    "HUT | lashed beam joint.011": null,
+    "HUT | door jamb": null,
+    "HUT | door jamb.001": null,
+    "HUT | door lintel": null,
+    "HUT | door strap": null,
+    "HUT | door strap.001": null,
+    "HUT | door plank seam": null,
+    "HUT | door plank seam.001": null,
+    "HUT | door plank seam.002": null,
+    "HUT | door plank seam.003": null,
+    "HUT | door plank seam.004": null,
+    "HUT | door latch pivot": null,
+    "HUT | door wooden latch": null,
+    "HUT | entry step": null,
+    "HUT | study bench leg": null,
+    "HUT | bench bracing": null,
+    "HUT | study bench leg.001": null,
+    "HUT | bench bracing.001": null,
+    "HUT | study bench leg.002": null,
+    "HUT | bench bracing.002": null,
+    "HUT | study bench leg.003": null,
+    "HUT | bench bracing.003": null,
+    "HUT | study bench top": null,
+    "HUT | desk apron": null,
+    "HUT | desk apron.001": null,
+    "HUT | stacked research records": null,
+    "HUT | stacked research records.001": null,
+    "HUT | stacked research records.002": null,
+    "HUT | stacked research records.003": null,
+    "HUT | stacked research records.004": null,
+    "HUT | sorted dossier bundle": null,
+    "HUT | sorted dossier bundle.001": null,
+    "HUT | sorted dossier bundle.002": null,
+    "HUT | document cord": null,
+    "HUT | quill ink pot": null,
+    "HUT | reed writing stylus": null,
+    "HUT | food support bowl": null,
+    "HUT | meal ration in bowl": null,
+    "HUT | balance crossbar": "HUT | research balance beam",
+    "HUT | balance retained suspension eye": "HUT | research balance beam",
+    "HUT | balance retained suspension eye.001": "HUT | research balance beam",
+    "HUT | balance pivot pin": null,
+    "HUT | balance upright": null,
+    "HUT | balance base": null,
+    "HUT | suspended balance dish -1": "HUT | upright suspended weighing pan -1",
+    "HUT | three point suspension cord": "HUT | upright suspended weighing pan -1",
+    "HUT | three point suspension cord.001": "HUT | upright suspended weighing pan -1",
+    "HUT | three point suspension cord.002": "HUT | upright suspended weighing pan -1",
+    "HUT | research sample on pan": "HUT | upright suspended weighing pan -1",
+    "HUT | suspended balance dish 1": "HUT | upright suspended weighing pan 1",
+    "HUT | three point suspension cord.003": "HUT | upright suspended weighing pan 1",
+    "HUT | three point suspension cord.004": "HUT | upright suspended weighing pan 1",
+    "HUT | three point suspension cord.005": "HUT | upright suspended weighing pan 1",
+    "HUT | research sample on pan.001": "HUT | upright suspended weighing pan 1",
+    "HUT | bonded hearth footing": null,
+    "HUT | bonded hearth footing.001": null,
+    "HUT | bonded hearth footing.002": null,
+    "HUT | bonded hearth footing.003": null,
+    "HUT | bonded hearth footing.004": null,
+    "HUT | bonded hearth footing.005": null,
+    "HUT | bonded hearth footing.006": null,
+    "HUT | bonded hearth footing.007": null,
+    "HUT | bonded hearth footing.008": null,
+    "HUT | bonded hearth footing.009": null,
+    "HUT | bonded hearth footing.010": null,
+    "HUT | bonded hearth footing.011": null,
+    "HUT | clay firepot": null,
+    "HUT | coal bed": null,
+    "HUT | working hearth ember": null,
+    "HUT | shouldered clay smoke hood": null,
+    "HUT | balance bored trunnion boss": "HUT | research balance beam",
+    "HUT LANTERN | post mounting strap": null,
+    "HUT LANTERN | strap retained fastener": null,
+    "HUT LANTERN | strap retained fastener.001": null,
+    "HUT LANTERN | projecting curved iron bracket": null,
+    "HUT LANTERN | riveted hanging bail": null,
+    "HUT LANTERN | bail load carrying leg": null,
+    "HUT LANTERN | bail shoulder pivot": null,
+    "HUT LANTERN | bail load carrying leg.001": null,
+    "HUT LANTERN | bail shoulder pivot.001": null,
+    "HUT LANTERN | bellied oil reservoir": null,
+    "HUT LANTERN | reservoir retaining foot": null,
+    "HUT LANTERN | threaded wick holder": null,
+    "HUT LANTERN | real exposed wick": null,
+    "HUT LANTERN | conical rain and heat hood": null,
+    "HUT LANTERN | hood rolled rim": null,
+    "HUT LANTERN | thin seated vertical guard": null,
+    "HUT LANTERN | thin seated vertical guard.001": null,
+    "HUT LANTERN | thin seated vertical guard.002": null,
+    "HUT LANTERN | thin seated vertical guard.003": null,
+    "HUT LANTERN | warm teardrop": "HUT | working lamp flame",
+    "HUT LANTERN | hot rooted core": "HUT | working lamp flame",
+    "HOVEL | REUSED pondering-hovel_floor": null,
+    "HOVEL | REUSED pondering-hovel_masonry_walls": null,
+    "HOVEL | REUSED pondering-hovel_shingle_roof": null,
+    "HOVEL | REUSED pondering-hovel_front_entry": null,
+    "HOVEL | REUSED pondering-hovel_chimney": null,
+    "HOVEL | REUSED pondering-hovel_research_window": null,
+    "HOVEL | REUSED pondering-hovel_desk_visible": null,
+    "HOVEL | seated worked stone paving": null,
+    "HOVEL | seated worked stone paving.001": null,
+    "HOVEL | seated worked stone paving.002": null,
+    "HOVEL | seated worked stone paving.003": null,
+    "HOVEL | seated worked stone paving.004": null,
+    "HOVEL | seated worked stone paving.005": null,
+    "HOVEL | seated worked stone paving.006": null,
+    "HOVEL | seated worked stone paving.007": null,
+    "HOVEL | seated worked stone paving.008": null,
+    "HOVEL | seated worked stone paving.009": null,
+    "HOVEL | seated worked stone paving.010": null,
+    "HOVEL | seated worked stone paving.011": null,
+    "HOVEL | seated worked stone paving.012": null,
+    "HOVEL | seated worked stone paving.013": null,
+    "HOVEL | seated worked stone paving.014": null,
+    "HOVEL | seated worked stone paving.015": null,
+    "HOVEL | seated worked stone paving.016": null,
+    "HOVEL | seated worked stone paving.017": null,
+    "HOVEL | seated worked stone paving.018": null,
+    "HOVEL | seated worked stone paving.019": null,
+    "HOVEL | seated worked stone paving.020": null,
+    "HOVEL | seated worked stone paving.021": null,
+    "HOVEL | seated worked stone paving.022": null,
+    "HOVEL | seated worked stone paving.023": null,
+    "HOVEL | seated worked stone paving.024": null,
+    "HOVEL | seated worked stone paving.025": null,
+    "HOVEL | seated worked stone paving.026": null,
+    "HOVEL | seated worked stone paving.027": null,
+    "HOVEL | seated worked stone paving.028": null,
+    "HOVEL | seated worked stone paving.029": null,
+    "HOVEL | seated worked stone paving.030": null,
+    "HOVEL | seated worked stone paving.031": null,
+    "HOVEL | seated worked stone paving.032": null,
+    "HOVEL | seated worked stone paving.033": null,
+    "HOVEL | seated worked stone paving.034": null,
+    "HOVEL | seated worked stone paving.035": null,
+    "HOVEL | seated worked stone paving.036": null,
+    "HOVEL | seated worked stone paving.037": null,
+    "HOVEL | seated worked stone paving.038": null,
+    "HOVEL | seated worked stone paving.039": null,
+    "HOVEL | seated worked stone paving.040": null,
+    "HOVEL | seated worked stone paving.041": null,
+    "HOVEL | seated worked stone paving.042": null,
+    "HOVEL | seated worked stone paving.043": null,
+    "HOVEL | seated worked stone paving.044": null,
+    "HOVEL | seated worked stone paving.045": null,
+    "HOVEL | seated worked stone paving.046": null,
+    "HOVEL | seated worked stone paving.047": null,
+    "HOVEL | seated worked stone paving.048": null,
+    "HOVEL | seated worked stone paving.049": null,
+    "HOVEL | seated worked stone paving.050": null,
+    "HOVEL | seated worked stone paving.051": null,
+    "HOVEL | seated worked stone paving.052": null,
+    "HOVEL | seated worked stone paving.053": null,
+    "HOVEL | seated worked stone paving.054": null,
+    "HOVEL | seated worked stone paving.055": null,
+    "HOVEL | seated worked stone paving.056": null,
+    "HOVEL | seated worked stone paving.057": null,
+    "HOVEL | seated worked stone paving.058": null,
+    "HOVEL | seated worked stone paving.059": null,
+    "HOVEL | seated worked stone paving.060": null,
+    "HOVEL | seated worked stone paving.061": null,
+    "HOVEL | seated worked stone paving.062": null,
+    "HOVEL | seated worked stone paving.063": null,
+    "HOVEL | bonded side wall brick": null,
+    "HOVEL | bonded side wall brick.001": null,
+    "HOVEL | bonded side wall brick.002": null,
+    "HOVEL | bonded side wall brick.003": null,
+    "HOVEL | bonded side wall brick.004": null,
+    "HOVEL | bonded side wall brick.005": null,
+    "HOVEL | bonded side wall brick.006": null,
+    "HOVEL | bonded side wall brick.007": null,
+    "HOVEL | bonded side wall brick.008": null,
+    "HOVEL | bonded side wall brick.009": null,
+    "HOVEL | bonded side wall brick.010": null,
+    "HOVEL | bonded side wall brick.011": null,
+    "HOVEL | bonded rear wall brick": null,
+    "HOVEL | bonded rear wall brick.001": null,
+    "HOVEL | bonded rear wall brick.002": null,
+    "HOVEL | bonded rear wall brick.003": null,
+    "HOVEL | bonded rear wall brick.004": null,
+    "HOVEL | bonded rear wall brick.005": null,
+    "HOVEL | bonded rear wall brick.006": null,
+    "HOVEL | bonded rear wall brick.007": null,
+    "HOVEL | bonded front reading wall brick": null,
+    "HOVEL | bonded front reading wall brick.001": null,
+    "HOVEL | bonded front reading wall brick.002": null,
+    "HOVEL | bonded front reading wall brick.003": null,
+    "HOVEL | bonded front reading wall brick.004": null,
+    "HOVEL | bonded side wall brick.012": null,
+    "HOVEL | bonded side wall brick.013": null,
+    "HOVEL | bonded side wall brick.014": null,
+    "HOVEL | bonded side wall brick.015": null,
+    "HOVEL | bonded side wall brick.016": null,
+    "HOVEL | bonded side wall brick.017": null,
+    "HOVEL | bonded side wall brick.018": null,
+    "HOVEL | bonded side wall brick.019": null,
+    "HOVEL | bonded side wall brick.020": null,
+    "HOVEL | bonded side wall brick.021": null,
+    "HOVEL | bonded side wall brick.022": null,
+    "HOVEL | bonded side wall brick.023": null,
+    "HOVEL | bonded rear wall brick.008": null,
+    "HOVEL | bonded rear wall brick.009": null,
+    "HOVEL | bonded rear wall brick.010": null,
+    "HOVEL | bonded rear wall brick.011": null,
+    "HOVEL | bonded rear wall brick.012": null,
+    "HOVEL | bonded rear wall brick.013": null,
+    "HOVEL | bonded rear wall brick.014": null,
+    "HOVEL | bonded rear wall brick.015": null,
+    "HOVEL | bonded rear wall brick.016": null,
+    "HOVEL | bonded front reading wall brick.005": null,
+    "HOVEL | bonded front reading wall brick.006": null,
+    "HOVEL | bonded front reading wall brick.007": null,
+    "HOVEL | bonded front reading wall brick.008": null,
+    "HOVEL | bonded front reading wall brick.009": null,
+    "HOVEL | bonded side wall brick.024": null,
+    "HOVEL | bonded side wall brick.025": null,
+    "HOVEL | bonded side wall brick.026": null,
+    "HOVEL | bonded side wall brick.027": null,
+    "HOVEL | bonded side wall brick.028": null,
+    "HOVEL | bonded side wall brick.029": null,
+    "HOVEL | bonded side wall brick.030": null,
+    "HOVEL | bonded side wall brick.031": null,
+    "HOVEL | bonded side wall brick.032": null,
+    "HOVEL | bonded side wall brick.033": null,
+    "HOVEL | bonded side wall brick.034": null,
+    "HOVEL | bonded side wall brick.035": null,
+    "HOVEL | bonded rear wall brick.017": null,
+    "HOVEL | bonded rear wall brick.018": null,
+    "HOVEL | bonded rear wall brick.019": null,
+    "HOVEL | bonded rear wall brick.020": null,
+    "HOVEL | bonded rear wall brick.021": null,
+    "HOVEL | bonded rear wall brick.022": null,
+    "HOVEL | bonded rear wall brick.023": null,
+    "HOVEL | bonded rear wall brick.024": null,
+    "HOVEL | bonded front reading wall brick.010": null,
+    "HOVEL | bonded front reading wall brick.011": null,
+    "HOVEL | bonded front reading wall brick.012": null,
+    "HOVEL | bonded front reading wall brick.013": null,
+    "HOVEL | bonded front reading wall brick.014": null,
+    "HOVEL | bonded side wall brick.036": null,
+    "HOVEL | bonded side wall brick.037": null,
+    "HOVEL | bonded side wall brick.038": null,
+    "HOVEL | bonded side wall brick.039": null,
+    "HOVEL | bonded side wall brick.040": null,
+    "HOVEL | bonded side wall brick.041": null,
+    "HOVEL | bonded side wall brick.042": null,
+    "HOVEL | bonded side wall brick.043": null,
+    "HOVEL | bonded side wall brick.044": null,
+    "HOVEL | bonded side wall brick.045": null,
+    "HOVEL | bonded side wall brick.046": null,
+    "HOVEL | bonded side wall brick.047": null,
+    "HOVEL | bonded rear wall brick.025": null,
+    "HOVEL | bonded rear wall brick.026": null,
+    "HOVEL | bonded rear wall brick.027": null,
+    "HOVEL | bonded rear wall brick.028": null,
+    "HOVEL | bonded rear wall brick.029": null,
+    "HOVEL | bonded rear wall brick.030": null,
+    "HOVEL | bonded rear wall brick.031": null,
+    "HOVEL | bonded rear wall brick.032": null,
+    "HOVEL | bonded rear wall brick.033": null,
+    "HOVEL | bonded front reading wall brick.015": null,
+    "HOVEL | bonded front reading wall brick.016": null,
+    "HOVEL | bonded front reading wall brick.017": null,
+    "HOVEL | bonded front reading wall brick.018": null,
+    "HOVEL | bonded front reading wall brick.019": null,
+    "HOVEL | bonded side wall brick.048": null,
+    "HOVEL | bonded side wall brick.049": null,
+    "HOVEL | bonded side wall brick.050": null,
+    "HOVEL | bonded side wall brick.051": null,
+    "HOVEL | bonded side wall brick.052": null,
+    "HOVEL | bonded side wall brick.053": null,
+    "HOVEL | bonded side wall brick.054": null,
+    "HOVEL | bonded side wall brick.055": null,
+    "HOVEL | bonded rear wall brick.034": null,
+    "HOVEL | bonded rear wall brick.035": null,
+    "HOVEL | bonded rear wall brick.036": null,
+    "HOVEL | bonded rear wall brick.037": null,
+    "HOVEL | bonded rear wall brick.038": null,
+    "HOVEL | bonded rear wall brick.039": null,
+    "HOVEL | bonded rear wall brick.040": null,
+    "HOVEL | bonded rear wall brick.041": null,
+    "HOVEL | bonded front reading wall brick.020": null,
+    "HOVEL | bonded front reading wall brick.021": null,
+    "HOVEL | bonded front reading wall brick.022": null,
+    "HOVEL | bonded front reading wall brick.023": null,
+    "HOVEL | bonded front reading wall brick.024": null,
+    "HOVEL | bonded side wall brick.056": null,
+    "HOVEL | bonded side wall brick.057": null,
+    "HOVEL | bonded side wall brick.058": null,
+    "HOVEL | bonded side wall brick.059": null,
+    "HOVEL | bonded side wall brick.060": null,
+    "HOVEL | bonded side wall brick.061": null,
+    "HOVEL | bonded side wall brick.062": null,
+    "HOVEL | bonded side wall brick.063": null,
+    "HOVEL | bonded rear wall brick.042": null,
+    "HOVEL | bonded rear wall brick.043": null,
+    "HOVEL | bonded rear wall brick.044": null,
+    "HOVEL | bonded rear wall brick.045": null,
+    "HOVEL | bonded rear wall brick.046": null,
+    "HOVEL | bonded rear wall brick.047": null,
+    "HOVEL | bonded rear wall brick.048": null,
+    "HOVEL | bonded rear wall brick.049": null,
+    "HOVEL | bonded rear wall brick.050": null,
+    "HOVEL | bonded front reading wall brick.025": null,
+    "HOVEL | bonded front reading wall brick.026": null,
+    "HOVEL | bonded front reading wall brick.027": null,
+    "HOVEL | bonded side wall brick.064": null,
+    "HOVEL | bonded side wall brick.065": null,
+    "HOVEL | bonded side wall brick.066": null,
+    "HOVEL | bonded side wall brick.067": null,
+    "HOVEL | bonded side wall brick.068": null,
+    "HOVEL | bonded side wall brick.069": null,
+    "HOVEL | bonded side wall brick.070": null,
+    "HOVEL | bonded side wall brick.071": null,
+    "HOVEL | bonded rear wall brick.051": null,
+    "HOVEL | bonded rear wall brick.052": null,
+    "HOVEL | bonded rear wall brick.053": null,
+    "HOVEL | bonded rear wall brick.054": null,
+    "HOVEL | bonded rear wall brick.055": null,
+    "HOVEL | bonded rear wall brick.056": null,
+    "HOVEL | bonded rear wall brick.057": null,
+    "HOVEL | bonded rear wall brick.058": null,
+    "HOVEL | bonded front reading wall brick.028": null,
+    "HOVEL | bonded front reading wall brick.029": null,
+    "HOVEL | bonded front reading wall brick.030": null,
+    "HOVEL | bonded side wall brick.072": null,
+    "HOVEL | bonded side wall brick.073": null,
+    "HOVEL | bonded side wall brick.074": null,
+    "HOVEL | bonded side wall brick.075": null,
+    "HOVEL | bonded side wall brick.076": null,
+    "HOVEL | bonded side wall brick.077": null,
+    "HOVEL | bonded side wall brick.078": null,
+    "HOVEL | bonded side wall brick.079": null,
+    "HOVEL | bonded side wall brick.080": null,
+    "HOVEL | bonded side wall brick.081": null,
+    "HOVEL | bonded side wall brick.082": null,
+    "HOVEL | bonded side wall brick.083": null,
+    "HOVEL | bonded rear wall brick.059": null,
+    "HOVEL | bonded rear wall brick.060": null,
+    "HOVEL | bonded rear wall brick.061": null,
+    "HOVEL | bonded rear wall brick.062": null,
+    "HOVEL | bonded rear wall brick.063": null,
+    "HOVEL | bonded rear wall brick.064": null,
+    "HOVEL | bonded rear wall brick.065": null,
+    "HOVEL | bonded rear wall brick.066": null,
+    "HOVEL | bonded rear wall brick.067": null,
+    "HOVEL | bonded front reading wall brick.031": null,
+    "HOVEL | bonded front reading wall brick.032": null,
+    "HOVEL | bonded front reading wall brick.033": null,
+    "HOVEL | bonded side wall brick.084": null,
+    "HOVEL | bonded side wall brick.085": null,
+    "HOVEL | bonded side wall brick.086": null,
+    "HOVEL | bonded side wall brick.087": null,
+    "HOVEL | bonded side wall brick.088": null,
+    "HOVEL | bonded side wall brick.089": null,
+    "HOVEL | bonded side wall brick.090": null,
+    "HOVEL | bonded side wall brick.091": null,
+    "HOVEL | bonded side wall brick.092": null,
+    "HOVEL | bonded side wall brick.093": null,
+    "HOVEL | bonded side wall brick.094": null,
+    "HOVEL | bonded side wall brick.095": null,
+    "HOVEL | bonded rear wall brick.068": null,
+    "HOVEL | bonded rear wall brick.069": null,
+    "HOVEL | bonded rear wall brick.070": null,
+    "HOVEL | bonded rear wall brick.071": null,
+    "HOVEL | bonded rear wall brick.072": null,
+    "HOVEL | bonded rear wall brick.073": null,
+    "HOVEL | bonded rear wall brick.074": null,
+    "HOVEL | bonded rear wall brick.075": null,
+    "HOVEL | bonded front reading wall brick.034": null,
+    "HOVEL | bonded front reading wall brick.035": null,
+    "HOVEL | bonded front reading wall brick.036": null,
+    "HOVEL | bonded front reading wall brick.037": null,
+    "HOVEL | bonded front reading wall brick.038": null,
+    "HOVEL | bonded side wall brick.096": null,
+    "HOVEL | bonded side wall brick.097": null,
+    "HOVEL | bonded side wall brick.098": null,
+    "HOVEL | bonded side wall brick.099": null,
+    "HOVEL | bonded side wall brick.100": null,
+    "HOVEL | bonded side wall brick.101": null,
+    "HOVEL | bonded side wall brick.102": null,
+    "HOVEL | bonded side wall brick.103": null,
+    "HOVEL | bonded side wall brick.104": null,
+    "HOVEL | bonded side wall brick.105": null,
+    "HOVEL | bonded side wall brick.106": null,
+    "HOVEL | bonded side wall brick.107": null,
+    "HOVEL | bonded rear wall brick.076": null,
+    "HOVEL | bonded rear wall brick.077": null,
+    "HOVEL | bonded rear wall brick.078": null,
+    "HOVEL | bonded rear wall brick.079": null,
+    "HOVEL | bonded rear wall brick.080": null,
+    "HOVEL | bonded rear wall brick.081": null,
+    "HOVEL | bonded rear wall brick.082": null,
+    "HOVEL | bonded rear wall brick.083": null,
+    "HOVEL | bonded rear wall brick.084": null,
+    "HOVEL | bonded front reading wall brick.039": null,
+    "HOVEL | bonded front reading wall brick.040": null,
+    "HOVEL | bonded front reading wall brick.041": null,
+    "HOVEL | bonded front reading wall brick.042": null,
+    "HOVEL | bonded front reading wall brick.043": null,
+    "HOVEL | side window lintel sill": null,
+    "HOVEL | side window lintel sill.001": null,
+    "HOVEL | side window jamb": null,
+    "HOVEL | side window jamb.001": null,
+    "HOVEL | side window vertical lattice": null,
+    "HOVEL | side window vertical lattice.001": null,
+    "HOVEL | side window lintel sill.002": null,
+    "HOVEL | side window lintel sill.003": null,
+    "HOVEL | side window jamb.002": null,
+    "HOVEL | side window jamb.003": null,
+    "HOVEL | side window vertical lattice.002": null,
+    "HOVEL | side window vertical lattice.003": null,
+    "HOVEL | front reading window jamb": null,
+    "HOVEL | front reading window jamb.001": null,
+    "HOVEL | front reading window sill lintel": null,
+    "HOVEL | front reading window sill lintel.001": null,
+    "HOVEL | horn pane centre mullion": null,
+    "HOVEL | horn pane cross rail": null,
+    "HOVEL | drawer pull retained pin": null,
+    "HOVEL | wooden drawer handle": null,
+    "HOVEL | roof rafter": null,
+    "HOVEL | roof rafter.001": null,
+    "HOVEL | rafter seated bearing pad": null,
+    "HOVEL | rafter seated bearing pad.001": null,
+    "HOVEL | roof rafter.002": null,
+    "HOVEL | roof rafter.003": null,
+    "HOVEL | rafter seated bearing pad.002": null,
+    "HOVEL | rafter seated bearing pad.003": null,
+    "HOVEL | roof rafter.004": null,
+    "HOVEL | roof rafter.005": null,
+    "HOVEL | rafter seated bearing pad.004": null,
+    "HOVEL | rafter seated bearing pad.005": null,
+    "HOVEL | roof rafter.006": null,
+    "HOVEL | roof rafter.007": null,
+    "HOVEL | rafter seated bearing pad.006": null,
+    "HOVEL | rafter seated bearing pad.007": null,
+    "HOVEL | roof rafter.008": null,
+    "HOVEL | roof rafter.009": null,
+    "HOVEL | rafter seated bearing pad.008": null,
+    "HOVEL | rafter seated bearing pad.009": null,
+    "HOVEL | supported ridge timber": null,
+    "HOVEL | separate split cedar roof shingle": null,
+    "HOVEL | separate split cedar roof shingle.001": null,
+    "HOVEL | separate split cedar roof shingle.002": null,
+    "HOVEL | separate split cedar roof shingle.003": null,
+    "HOVEL | separate split cedar roof shingle.004": null,
+    "HOVEL | separate split cedar roof shingle.005": null,
+    "HOVEL | separate split cedar roof shingle.006": null,
+    "HOVEL | separate split cedar roof shingle.007": null,
+    "HOVEL | separate split cedar roof shingle.008": null,
+    "HOVEL | separate split cedar roof shingle.009": null,
+    "HOVEL | separate split cedar roof shingle.010": null,
+    "HOVEL | separate split cedar roof shingle.011": null,
+    "HOVEL | separate split cedar roof shingle.012": null,
+    "HOVEL | separate split cedar roof shingle.013": null,
+    "HOVEL | separate split cedar roof shingle.014": null,
+    "HOVEL | separate split cedar roof shingle.015": null,
+    "HOVEL | separate split cedar roof shingle.016": null,
+    "HOVEL | separate split cedar roof shingle.017": null,
+    "HOVEL | separate split cedar roof shingle.018": null,
+    "HOVEL | separate split cedar roof shingle.019": null,
+    "HOVEL | separate split cedar roof shingle.020": null,
+    "HOVEL | separate split cedar roof shingle.021": null,
+    "HOVEL | separate split cedar roof shingle.022": null,
+    "HOVEL | separate split cedar roof shingle.023": null,
+    "HOVEL | separate split cedar roof shingle.024": null,
+    "HOVEL | separate split cedar roof shingle.025": null,
+    "HOVEL | separate split cedar roof shingle.026": null,
+    "HOVEL | separate split cedar roof shingle.027": null,
+    "HOVEL | separate split cedar roof shingle.028": null,
+    "HOVEL | separate split cedar roof shingle.029": null,
+    "HOVEL | separate split cedar roof shingle.030": null,
+    "HOVEL | separate split cedar roof shingle.031": null,
+    "HOVEL | separate split cedar roof shingle.032": null,
+    "HOVEL | separate split cedar roof shingle.033": null,
+    "HOVEL | separate split cedar roof shingle.034": null,
+    "HOVEL | separate split cedar roof shingle.035": null,
+    "HOVEL | separate split cedar roof shingle.036": null,
+    "HOVEL | separate split cedar roof shingle.037": null,
+    "HOVEL | separate split cedar roof shingle.038": null,
+    "HOVEL | separate split cedar roof shingle.039": null,
+    "HOVEL | separate split cedar roof shingle.040": null,
+    "HOVEL | separate split cedar roof shingle.041": null,
+    "HOVEL | separate split cedar roof shingle.042": null,
+    "HOVEL | separate split cedar roof shingle.043": null,
+    "HOVEL | separate split cedar roof shingle.044": null,
+    "HOVEL | separate split cedar roof shingle.045": null,
+    "HOVEL | separate split cedar roof shingle.046": null,
+    "HOVEL | separate split cedar roof shingle.047": null,
+    "HOVEL | separate split cedar roof shingle.048": null,
+    "HOVEL | separate split cedar roof shingle.049": null,
+    "HOVEL | separate split cedar roof shingle.050": null,
+    "HOVEL | separate split cedar roof shingle.051": null,
+    "HOVEL | separate split cedar roof shingle.052": null,
+    "HOVEL | separate split cedar roof shingle.053": null,
+    "HOVEL | separate split cedar roof shingle.054": null,
+    "HOVEL | separate split cedar roof shingle.055": null,
+    "HOVEL | separate split cedar roof shingle.056": null,
+    "HOVEL | separate split cedar roof shingle.057": null,
+    "HOVEL | separate split cedar roof shingle.058": null,
+    "HOVEL | separate split cedar roof shingle.059": null,
+    "HOVEL | separate split cedar roof shingle.060": null,
+    "HOVEL | separate split cedar roof shingle.061": null,
+    "HOVEL | separate split cedar roof shingle.062": null,
+    "HOVEL | separate split cedar roof shingle.063": null,
+    "HOVEL | separate split cedar roof shingle.064": null,
+    "HOVEL | separate split cedar roof shingle.065": null,
+    "HOVEL | separate split cedar roof shingle.066": null,
+    "HOVEL | separate split cedar roof shingle.067": null,
+    "HOVEL | separate split cedar roof shingle.068": null,
+    "HOVEL | separate split cedar roof shingle.069": null,
+    "HOVEL | separate split cedar roof shingle.070": null,
+    "HOVEL | separate split cedar roof shingle.071": null,
+    "HOVEL | separate split cedar roof shingle.072": null,
+    "HOVEL | separate split cedar roof shingle.073": null,
+    "HOVEL | separate split cedar roof shingle.074": null,
+    "HOVEL | separate split cedar roof shingle.075": null,
+    "HOVEL | separate split cedar roof shingle.076": null,
+    "HOVEL | separate split cedar roof shingle.077": null,
+    "HOVEL | separate split cedar roof shingle.078": null,
+    "HOVEL | separate split cedar roof shingle.079": null,
+    "HOVEL | separate split cedar roof shingle.080": null,
+    "HOVEL | separate split cedar roof shingle.081": null,
+    "HOVEL | separate split cedar roof shingle.082": null,
+    "HOVEL | separate split cedar roof shingle.083": null,
+    "HOVEL | separate split cedar roof shingle.084": null,
+    "HOVEL | separate split cedar roof shingle.085": null,
+    "HOVEL | separate split cedar roof shingle.086": null,
+    "HOVEL | separate split cedar roof shingle.087": null,
+    "HOVEL | separate split cedar roof shingle.088": null,
+    "HOVEL | separate split cedar roof shingle.089": null,
+    "HOVEL | separate split cedar roof shingle.090": null,
+    "HOVEL | separate split cedar roof shingle.091": null,
+    "HOVEL | separate split cedar roof shingle.092": null,
+    "HOVEL | separate split cedar roof shingle.093": null,
+    "HOVEL | separate split cedar roof shingle.094": null,
+    "HOVEL | separate split cedar roof shingle.095": null,
+    "HOVEL | separate split cedar roof shingle.096": null,
+    "HOVEL | separate split cedar roof shingle.097": null,
+    "HOVEL | separate split cedar roof shingle.098": null,
+    "HOVEL | separate split cedar roof shingle.099": null,
+    "HOVEL | separate split cedar roof shingle.100": null,
+    "HOVEL | separate split cedar roof shingle.101": null,
+    "HOVEL | separate split cedar roof shingle.102": null,
+    "HOVEL | separate split cedar roof shingle.103": null,
+    "HOVEL | separate split cedar roof shingle.104": null,
+    "HOVEL | separate split cedar roof shingle.105": null,
+    "HOVEL | separate split cedar roof shingle.106": null,
+    "HOVEL | separate split cedar roof shingle.107": null,
+    "HOVEL | separate split cedar roof shingle.108": null,
+    "HOVEL | separate split cedar roof shingle.109": null,
+    "HOVEL | separate split cedar roof shingle.110": null,
+    "HOVEL | separate split cedar roof shingle.111": null,
+    "HOVEL | separate split cedar roof shingle.112": null,
+    "HOVEL | separate split cedar roof shingle.113": null,
+    "HOVEL | separate split cedar roof shingle.114": null,
+    "HOVEL | separate split cedar roof shingle.115": null,
+    "HOVEL | separate split cedar roof shingle.116": null,
+    "HOVEL | separate split cedar roof shingle.117": null,
+    "HOVEL | separate split cedar roof shingle.118": null,
+    "HOVEL | separate split cedar roof shingle.119": null,
+    "HOVEL | separate split cedar roof shingle.120": null,
+    "HOVEL | separate split cedar roof shingle.121": null,
+    "HOVEL | separate split cedar roof shingle.122": null,
+    "HOVEL | separate split cedar roof shingle.123": null,
+    "HOVEL | separate split cedar roof shingle.124": null,
+    "HOVEL | separate split cedar roof shingle.125": null,
+    "HOVEL | separate split cedar roof shingle.126": null,
+    "HOVEL | separate split cedar roof shingle.127": null,
+    "HOVEL | separate split cedar roof shingle.128": null,
+    "HOVEL | separate split cedar roof shingle.129": null,
+    "HOVEL | separate split cedar roof shingle.130": null,
+    "HOVEL | separate split cedar roof shingle.131": null,
+    "HOVEL | separate split cedar roof shingle.132": null,
+    "HOVEL | separate split cedar roof shingle.133": null,
+    "HOVEL | separate split cedar roof shingle.134": null,
+    "HOVEL | separate split cedar roof shingle.135": null,
+    "HOVEL | separate split cedar roof shingle.136": null,
+    "HOVEL | separate split cedar roof shingle.137": null,
+    "HOVEL | separate split cedar roof shingle.138": null,
+    "HOVEL | separate split cedar roof shingle.139": null,
+    "HOVEL | separate split cedar roof shingle.140": null,
+    "HOVEL | separate split cedar roof shingle.141": null,
+    "HOVEL | separate split cedar roof shingle.142": null,
+    "HOVEL | separate split cedar roof shingle.143": null,
+    "HOVEL | separate split cedar roof shingle.144": null,
+    "HOVEL | separate split cedar roof shingle.145": null,
+    "HOVEL | separate split cedar roof shingle.146": null,
+    "HOVEL | separate split cedar roof shingle.147": null,
+    "HOVEL | separate split cedar roof shingle.148": null,
+    "HOVEL | separate split cedar roof shingle.149": null,
+    "HOVEL | separate split cedar roof shingle.150": null,
+    "HOVEL | separate split cedar roof shingle.151": null,
+    "HOVEL | separate split cedar roof shingle.152": null,
+    "HOVEL | separate split cedar roof shingle.153": null,
+    "HOVEL | separate split cedar roof shingle.154": null,
+    "HOVEL | separate split cedar roof shingle.155": null,
+    "HOVEL | separate split cedar roof shingle.156": null,
+    "HOVEL | separate split cedar roof shingle.157": null,
+    "HOVEL | separate split cedar roof shingle.158": null,
+    "HOVEL | separate split cedar roof shingle.159": null,
+    "HOVEL | separate split cedar roof shingle.160": null,
+    "HOVEL | separate split cedar roof shingle.161": null,
+    "HOVEL | separate split cedar roof shingle.162": null,
+    "HOVEL | separate split cedar roof shingle.163": null,
+    "HOVEL | separate split cedar roof shingle.164": null,
+    "HOVEL | separate split cedar roof shingle.165": null,
+    "HOVEL | separate split cedar roof shingle.166": null,
+    "HOVEL | separate split cedar roof shingle.167": null,
+    "HOVEL | separate split cedar roof shingle.168": null,
+    "HOVEL | separate split cedar roof shingle.169": null,
+    "HOVEL | separate split cedar roof shingle.170": null,
+    "HOVEL | separate split cedar roof shingle.171": null,
+    "HOVEL | separate split cedar roof shingle.172": null,
+    "HOVEL | separate split cedar roof shingle.173": null,
+    "HOVEL | hearth masonry load pad": null,
+    "HOVEL | bonded chimney side course": null,
+    "HOVEL | bonded chimney cross course": null,
+    "HOVEL | bonded chimney side course.001": null,
+    "HOVEL | bonded chimney cross course.001": null,
+    "HOVEL | bonded chimney cross course.002": null,
+    "HOVEL | bonded chimney side course.002": null,
+    "HOVEL | bonded chimney cross course.003": null,
+    "HOVEL | bonded chimney side course.003": null,
+    "HOVEL | bonded chimney side course.004": null,
+    "HOVEL | bonded chimney side course.005": null,
+    "HOVEL | bonded chimney cross course.004": null,
+    "HOVEL | bonded chimney cross course.005": null,
+    "HOVEL | bonded chimney side course.006": null,
+    "HOVEL | bonded chimney cross course.006": null,
+    "HOVEL | bonded chimney side course.007": null,
+    "HOVEL | bonded chimney side course.008": null,
+    "HOVEL | bonded chimney cross course.007": null,
+    "HOVEL | bonded chimney side course.009": null,
+    "HOVEL | bonded chimney cross course.008": null,
+    "HOVEL | bonded chimney cross course.009": null,
+    "HOVEL | bonded chimney side course.010": null,
+    "HOVEL | bonded chimney cross course.010": null,
+    "HOVEL | bonded chimney side course.011": null,
+    "HOVEL | bonded chimney side course.012": null,
+    "HOVEL | bonded chimney cross course.011": null,
+    "HOVEL | bonded chimney side course.013": null,
+    "HOVEL | bonded chimney cross course.012": null,
+    "HOVEL | bonded chimney cross course.013": null,
+    "HOVEL | bonded chimney side course.014": null,
+    "HOVEL | bonded chimney cross course.014": null,
+    "HOVEL | bonded chimney side course.015": null,
+    "HOVEL | bonded chimney side course.016": null,
+    "HOVEL | bonded chimney cross course.015": null,
+    "HOVEL | bonded chimney side course.017": null,
+    "HOVEL | bonded chimney cross course.016": null,
+    "HOVEL | bonded chimney cross course.017": null,
+    "HOVEL | bonded chimney side course.018": null,
+    "HOVEL | bonded chimney cross course.018": null,
+    "HOVEL | bonded chimney side course.019": null,
+    "HOVEL | bonded chimney side course.020": null,
+    "HOVEL | bonded chimney cross course.019": null,
+    "HOVEL | bonded chimney side course.021": null,
+    "HOVEL | bonded chimney cross course.020": null,
+    "HOVEL | bonded chimney cross course.021": null,
+    "HOVEL | bonded chimney side course.022": null,
+    "HOVEL | bonded chimney cross course.022": null,
+    "HOVEL | bonded chimney side course.023": null,
+    "HOVEL | bonded chimney side course.024": null,
+    "HOVEL | bonded chimney cross course.023": null,
+    "HOVEL | bonded chimney side course.025": null,
+    "HOVEL | bonded chimney cross course.024": null,
+    "HOVEL | bonded chimney cross course.025": null,
+    "HOVEL | bonded chimney side course.026": null,
+    "HOVEL | bonded chimney cross course.026": null,
+    "HOVEL | bonded chimney side course.027": null,
+    "HOVEL | bonded chimney side course.028": null,
+    "HOVEL | bonded chimney cross course.027": null,
+    "HOVEL | bonded chimney side course.029": null,
+    "HOVEL | bonded chimney cross course.028": null,
+    "HOVEL | bonded chimney cross course.029": null,
+    "HOVEL | bonded chimney side course.030": null,
+    "HOVEL | bonded chimney cross course.030": null,
+    "HOVEL | bonded chimney side course.031": null,
+    "HOVEL | bonded chimney side course.032": null,
+    "HOVEL | bonded chimney cross course.031": null,
+    "HOVEL | bonded chimney side course.033": null,
+    "HOVEL | bonded chimney cross course.032": null,
+    "HOVEL | bonded chimney cross course.033": null,
+    "HOVEL | bonded chimney side course.034": null,
+    "HOVEL | bonded chimney cross course.034": null,
+    "HOVEL | bonded chimney side course.035": null,
+    "HOVEL | full bearing chimney stone cap": null,
+    "HOVEL | fitted sloping clay roof flashing": null,
+    "HOVEL | fitted sloping clay roof flashing.001": null,
+    "HOVEL | fitted sloping clay roof flashing.002": null,
+    "HOVEL | fitted sloping clay roof flashing.003": null,
+    "HOVEL | bound folio cover": "HOVEL | hinged research folio",
+    "HOVEL | attached handwritten folio leaf": "HOVEL | hinged research folio",
+    "HOVEL | folio rotating hinge knuckle": "HOVEL | hinged research folio",
+    "HOVEL | folio rotating hinge knuckle.001": "HOVEL | hinged research folio",
+    "HOVEL | folio fixed hinge pin": null,
+    "HOVEL | folio hinge pedestal": null,
+    "HOVEL | folio hinge pedestal.001": null
+  },
+  "fixed_mesh_count": 701,
+  "pairs": {
+    "HUT LANTERN | bellied oil reservoir <> HUT | REUSED thinking-hut_wall_lantern": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "HUT | load carrying post <> HUT | post knee brace": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HUT | eaves beam <> HUT | load carrying post": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HUT | load carrying post <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 70,
+      "moving": false
+    },
+    "HUT LANTERN | strap retained fastener <> HUT | load carrying post": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "HUT LANTERN | strap retained fastener.001 <> HUT | load carrying post": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_floor <> HUT | post stone pad": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | seated worked stone paving <> HUT | post stone pad": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 77,
+      "moving": false
+    },
+    "HUT | post knee brace <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HUT | eaves beam <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 105,
+      "moving": false
+    },
+    "HUT | eaves beam <> HUT | roof bearing crossbeam.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 104,
+      "moving": false
+    },
+    "HUT | eaves beam <> HUT | lashed beam joint": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | eaves beam <> HUT | lashed beam joint.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | eaves beam <> HUT | lashed beam joint.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HUT | eaves beam <> HUT | lashed beam joint.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | eaves beam <> HUT | lashed beam joint.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | eaves beam <> HUT | lashed beam joint.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 70,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_shingle_roof <> HUT | eaves beam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HUT | load carrying post.002 <> HUT | post knee brace.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HUT | eaves beam.001 <> HUT | load carrying post.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HUT | load carrying post.002 <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 70,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_floor <> HUT | post stone pad.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | seated worked stone paving.056 <> HUT | post stone pad.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 79,
+      "moving": false
+    },
+    "HUT | post knee brace.002 <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HUT | eaves beam.001 <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 105,
+      "moving": false
+    },
+    "HUT | eaves beam.001 <> HUT | roof bearing crossbeam.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 106,
+      "moving": false
+    },
+    "HUT | eaves beam.001 <> HUT | lashed beam joint.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | eaves beam.001 <> HUT | lashed beam joint.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | eaves beam.001 <> HUT | lashed beam joint.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HUT | eaves beam.001 <> HUT | lashed beam joint.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | eaves beam.001 <> HUT | lashed beam joint.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | eaves beam.001 <> HUT | lashed beam joint.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 70,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_shingle_roof <> HUT | eaves beam.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HUT | lashed beam joint <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | lashed beam joint.001 <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | lashed beam joint.002 <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HUT | lashed beam joint.006 <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | lashed beam joint.007 <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | lashed beam joint.008 <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | roof rafter <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 24,
+      "moving": false
+    },
+    "HOVEL | roof rafter.002 <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 22,
+      "moving": false
+    },
+    "HOVEL | roof rafter.004 <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 22,
+      "moving": false
+    },
+    "HOVEL | roof rafter.006 <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 22,
+      "moving": false
+    },
+    "HOVEL | roof rafter.008 <> HUT | roof bearing crossbeam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 22,
+      "moving": false
+    },
+    "HUT | lashed beam joint.003 <> HUT | roof bearing crossbeam.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | lashed beam joint.004 <> HUT | roof bearing crossbeam.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | lashed beam joint.005 <> HUT | roof bearing crossbeam.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HUT | lashed beam joint.009 <> HUT | roof bearing crossbeam.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | lashed beam joint.010 <> HUT | roof bearing crossbeam.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | lashed beam joint.011 <> HUT | roof bearing crossbeam.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HUT | lashed beam joint <> HUT | lashed beam joint.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HUT | lashed beam joint.001 <> HUT | lashed beam joint.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | roof rafter <> HUT | lashed beam joint.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 35,
+      "moving": false
+    },
+    "HUT | lashed beam joint.003 <> HUT | lashed beam joint.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HUT | lashed beam joint.004 <> HUT | lashed beam joint.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HUT | lashed beam joint.006 <> HUT | lashed beam joint.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HUT | lashed beam joint.007 <> HUT | lashed beam joint.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | roof rafter.008 <> HUT | lashed beam joint.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 28,
+      "moving": false
+    },
+    "HUT | lashed beam joint.009 <> HUT | lashed beam joint.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HUT | lashed beam joint.010 <> HUT | lashed beam joint.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HUT | door jamb <> HUT | door lintel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HUT | door jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HUT | door jamb.001 <> HUT | door lintel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HUT | door lintel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.072 <> HUT | door lintel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.084 <> HUT | door lintel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "HUT | door plank seam <> HUT | door strap": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "HUT | door plank seam.001 <> HUT | door strap": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 20,
+      "moving": false
+    },
+    "HUT | door plank seam.002 <> HUT | door strap": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 20,
+      "moving": false
+    },
+    "HUT | door plank seam.003 <> HUT | door strap": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 20,
+      "moving": false
+    },
+    "HUT | door plank seam.004 <> HUT | door strap": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_front_entry <> HUT | door strap": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HUT | door plank seam <> HUT | door strap.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "HUT | door plank seam.001 <> HUT | door strap.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 20,
+      "moving": false
+    },
+    "HUT | door plank seam.002 <> HUT | door strap.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 20,
+      "moving": false
+    },
+    "HUT | door plank seam.003 <> HUT | door strap.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 20,
+      "moving": false
+    },
+    "HUT | door plank seam.004 <> HUT | door strap.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_front_entry <> HUT | door strap.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HUT | door latch pivot <> HUT | door wooden latch": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 72,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_floor <> HUT | entry step": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 39,
+      "moving": false
+    },
+    "HUT | bench bracing <> HUT | study bench leg": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HUT | desk apron <> HUT | study bench leg": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 76,
+      "moving": false
+    },
+    "HUT | bench bracing <> HUT | desk apron": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_desk_visible <> HUT | bench bracing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HUT | bench bracing.001 <> HUT | study bench leg.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HUT | desk apron <> HUT | study bench leg.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 78,
+      "moving": false
+    },
+    "HUT | bench bracing.002 <> HUT | study bench leg.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HUT | desk apron.001 <> HUT | study bench leg.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 87,
+      "moving": false
+    },
+    "HUT | bench bracing.002 <> HUT | desk apron.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "HUT | bench bracing.003 <> HUT | study bench leg.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HUT | desk apron.001 <> HUT | study bench leg.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 88,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_desk_visible <> HUT | desk apron": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "HUT | food support bowl <> HUT | stacked research records": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 71,
+      "moving": false
+    },
+    "HUT | food support bowl <> HUT | stacked research records.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 73,
+      "moving": false
+    },
+    "HUT | food support bowl <> HUT | stacked research records.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 112,
+      "moving": false
+    },
+    "HUT | meal ration in bowl <> HUT | stacked research records.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 41,
+      "moving": false
+    },
+    "HUT | food support bowl <> HUT | stacked research records.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 147,
+      "moving": false
+    },
+    "HUT | meal ration in bowl <> HUT | stacked research records.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 54,
+      "moving": false
+    },
+    "HUT | food support bowl <> HUT | stacked research records.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 151,
+      "moving": false
+    },
+    "HUT | meal ration in bowl <> HUT | stacked research records.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 56,
+      "moving": false
+    },
+    "HUT | balance pivot pin <> HUT | balance upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 58,
+      "moving": false
+    },
+    "HUT | balance base <> HUT | balance upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | hearth masonry load pad <> HUT | bonded hearth footing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course <> HUT | bonded hearth footing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "HOVEL | hearth masonry load pad <> HUT | bonded hearth footing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.001 <> HUT | bonded hearth footing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 54,
+      "moving": false
+    },
+    "HOVEL | hearth masonry load pad <> HUT | bonded hearth footing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course <> HUT | bonded hearth footing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "HOVEL | hearth masonry load pad <> HUT | bonded hearth footing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.001 <> HUT | bonded hearth footing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course <> HUT | bonded hearth footing.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 46,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.001 <> HUT | bonded hearth footing.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 46,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course <> HUT | bonded hearth footing.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.001 <> HUT | bonded hearth footing.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HUT | bonded hearth footing.008 <> HUT | clay firepot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 59,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course <> HUT | bonded hearth footing.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 54,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.002 <> HUT | bonded hearth footing.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HUT | bonded hearth footing.009 <> HUT | clay firepot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.001 <> HUT | bonded hearth footing.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.003 <> HUT | bonded hearth footing.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HUT | bonded hearth footing.010 <> HUT | clay firepot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course <> HUT | bonded hearth footing.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.002 <> HUT | bonded hearth footing.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HUT | bonded hearth footing.011 <> HUT | clay firepot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 71,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.001 <> HUT | bonded hearth footing.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.003 <> HUT | bonded hearth footing.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HUT LANTERN | post mounting strap <> HUT LANTERN | strap retained fastener": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 24,
+      "moving": false
+    },
+    "HUT LANTERN | post mounting strap <> HUT LANTERN | strap retained fastener.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 24,
+      "moving": false
+    },
+    "HUT LANTERN | post mounting strap <> HUT LANTERN | projecting curved iron bracket": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HUT LANTERN | projecting curved iron bracket <> HUT LANTERN | strap retained fastener.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "HUT LANTERN | projecting curved iron bracket <> HUT LANTERN | riveted hanging bail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HUT LANTERN | bail load carrying leg <> HUT LANTERN | riveted hanging bail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "HUT LANTERN | bail load carrying leg.001 <> HUT LANTERN | riveted hanging bail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 17,
+      "moving": false
+    },
+    "HUT LANTERN | bail load carrying leg <> HUT LANTERN | bail shoulder pivot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "HUT LANTERN | bail load carrying leg <> HUT LANTERN | conical rain and heat hood": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 28,
+      "moving": false
+    },
+    "HUT LANTERN | bail shoulder pivot <> HUT LANTERN | conical rain and heat hood": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 99,
+      "moving": false
+    },
+    "HUT LANTERN | bail load carrying leg.001 <> HUT LANTERN | bail shoulder pivot.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "HUT LANTERN | bail load carrying leg.001 <> HUT LANTERN | conical rain and heat hood": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 28,
+      "moving": false
+    },
+    "HUT LANTERN | bail shoulder pivot.001 <> HUT LANTERN | conical rain and heat hood": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 101,
+      "moving": false
+    },
+    "HUT LANTERN | bellied oil reservoir <> HUT LANTERN | reservoir retaining foot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 326,
+      "moving": false
+    },
+    "HUT LANTERN | bellied oil reservoir <> HUT LANTERN | threaded wick holder": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 122,
+      "moving": false
+    },
+    "HUT LANTERN | real exposed wick <> HUT LANTERN | threaded wick holder": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 80,
+      "moving": false
+    },
+    "HUT LANTERN | conical rain and heat hood <> HUT LANTERN | hood rolled rim": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 333,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 76,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 78,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded front reading wall brick.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.012": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.013": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.014": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.015": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.016": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.017": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.018": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.019": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.020": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.021": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.022": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.023": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.012": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.013": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.014": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.015": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.016": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded front reading wall brick.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 35,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded front reading wall brick.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.024": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.025": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.026": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.027": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.028": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.029": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.030": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.031": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.032": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.033": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.034": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.035": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.017": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.018": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.019": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.020": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.021": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.022": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.023": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.024": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded front reading wall brick.014": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.036": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.037": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.038": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.039": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.040": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.041": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.042": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.043": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.044": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.045": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.046": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.047": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.025": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.026": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.027": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.028": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.029": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.030": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.031": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.032": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.033": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded front reading wall brick.018": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 33,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded front reading wall brick.019": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.048": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.049": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.050": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.051": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.052": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.053": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.054": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.055": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.034": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.035": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.036": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.037": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.038": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.039": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.040": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.041": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded front reading wall brick.024": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.056": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.057": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.058": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.059": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.060": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.061": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.062": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.063": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.042": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.043": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.044": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.045": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.046": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.047": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.048": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.049": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.050": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded front reading wall brick.027": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.064": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.065": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.066": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.067": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.068": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.069": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.070": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.071": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.051": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.052": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.053": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.054": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.055": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.056": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.057": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.058": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded front reading wall brick.030": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.072": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.073": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.074": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.075": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.076": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.077": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.078": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.079": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.080": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.081": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.082": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.083": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.059": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.060": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.061": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.062": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.063": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.064": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.065": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.066": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.067": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded front reading wall brick.033": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.084": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.085": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.086": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.087": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.088": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.089": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.090": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.091": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.092": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.093": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.094": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.095": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.068": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.069": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.070": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.071": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.072": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.073": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.074": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.075": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded front reading wall brick.038": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 39,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.096": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 46,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.097": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.098": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.099": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.100": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.101": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.102": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.103": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.104": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.105": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.106": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded side wall brick.107": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.076": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 80,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.077": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.078": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.079": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.080": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.081": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.082": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.083": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded rear wall brick.084": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 78,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded front reading wall brick.042": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded front reading wall brick.043": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | side window lintel sill": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 81,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | side window lintel sill.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 77,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | side window jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 76,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | side window jamb.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 79,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | side window lintel sill.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 79,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | side window lintel sill.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 76,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | side window jamb.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 76,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | side window jamb.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 79,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | hearth masonry load pad": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded chimney side course.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded chimney cross course.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded chimney cross course.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded chimney side course.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded chimney side course.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded chimney cross course.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded chimney cross course.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded chimney side course.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 57,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_masonry_walls <> HOVEL | bonded chimney side course.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 39,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_shingle_roof <> HOVEL | roof rafter": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_shingle_roof <> HOVEL | roof rafter.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_shingle_roof <> HOVEL | roof rafter.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_shingle_roof <> HOVEL | roof rafter.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_shingle_roof <> HOVEL | roof rafter.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_shingle_roof <> HOVEL | roof rafter.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_shingle_roof <> HOVEL | roof rafter.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_shingle_roof <> HOVEL | roof rafter.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 72,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_shingle_roof <> HOVEL | roof rafter.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_shingle_roof <> HOVEL | roof rafter.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_shingle_roof <> HOVEL | supported ridge timber": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_research_window <> HOVEL | horn pane centre mullion": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 72,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_research_window <> HOVEL | horn pane cross rail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 56,
+      "moving": false
+    },
+    "HOVEL | REUSED pondering-hovel_desk_visible <> HOVEL | drawer pull retained pin": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 82,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick <> HOVEL | bonded side wall brick.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 67,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.004 <> HOVEL | bonded side wall brick.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 57,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.008 <> HOVEL | hearth masonry load pad": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.001 <> HOVEL | bonded side wall brick.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.009 <> HOVEL | hearth masonry load pad": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.001 <> HOVEL | bonded side wall brick.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.010 <> HOVEL | hearth masonry load pad": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.001 <> HOVEL | bonded side wall brick.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.007 <> HOVEL | bonded side wall brick.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 69,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.008 <> HOVEL | bonded side wall brick.017": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.009 <> HOVEL | bonded side wall brick.018": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 58,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.001 <> HOVEL | bonded side wall brick.020": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.002 <> HOVEL | bonded side wall brick.020": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.001 <> HOVEL | bonded side wall brick.021": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.003 <> HOVEL | bonded side wall brick.021": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 55,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.001 <> HOVEL | bonded side wall brick.022": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.003 <> HOVEL | bonded side wall brick.022": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.003 <> HOVEL | bonded side wall brick.022": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.016 <> HOVEL | bonded side wall brick.023": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 67,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.017 <> HOVEL | bonded side wall brick.029": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 67,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.014 <> HOVEL | bonded side wall brick.030": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 57,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.002 <> HOVEL | bonded side wall brick.032": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.003 <> HOVEL | bonded side wall brick.032": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.005 <> HOVEL | bonded side wall brick.032": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.003 <> HOVEL | bonded side wall brick.033": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.005 <> HOVEL | bonded side wall brick.033": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.003 <> HOVEL | bonded side wall brick.034": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.003 <> HOVEL | bonded side wall brick.034": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.005 <> HOVEL | bonded side wall brick.034": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.024 <> HOVEL | bonded side wall brick.035": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.036 <> HOVEL | side window lintel sill": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.036 <> HOVEL | side window jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.037 <> HOVEL | side window lintel sill": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.037 <> HOVEL | side window jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.038 <> HOVEL | side window lintel sill": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.039 <> HOVEL | side window lintel sill": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.039 <> HOVEL | side window jamb.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.025 <> HOVEL | bonded side wall brick.041": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 67,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.019 <> HOVEL | bonded side wall brick.042": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 58,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.042 <> HOVEL | side window lintel sill.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.042 <> HOVEL | side window jamb.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.043 <> HOVEL | side window lintel sill.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.043 <> HOVEL | side window jamb.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.044 <> HOVEL | side window lintel sill.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.005 <> HOVEL | bonded side wall brick.044": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.005 <> HOVEL | bonded side wall brick.044": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.045 <> HOVEL | side window lintel sill.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.045 <> HOVEL | side window jamb.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.005 <> HOVEL | bonded side wall brick.045": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.007 <> HOVEL | bonded side wall brick.045": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 55,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.005 <> HOVEL | bonded side wall brick.046": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.006 <> HOVEL | bonded side wall brick.046": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.007 <> HOVEL | bonded side wall brick.046": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.033 <> HOVEL | bonded side wall brick.047": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 67,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.048 <> HOVEL | side window lintel sill": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.048 <> HOVEL | side window jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.049 <> HOVEL | side window lintel sill": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.049 <> HOVEL | side window jamb.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.034 <> HOVEL | bonded side wall brick.050": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 63,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.034 <> HOVEL | bonded side wall brick.051": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 65,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.024 <> HOVEL | bonded side wall brick.052": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 57,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.052 <> HOVEL | side window lintel sill.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.052 <> HOVEL | side window jamb.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.053 <> HOVEL | side window lintel sill.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.053 <> HOVEL | side window jamb.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.006 <> HOVEL | bonded side wall brick.053": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.007 <> HOVEL | bonded side wall brick.053": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.009 <> HOVEL | bonded side wall brick.053": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.041 <> HOVEL | bonded side wall brick.054": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 63,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.006 <> HOVEL | bonded side wall brick.054": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.009 <> HOVEL | bonded side wall brick.054": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.041 <> HOVEL | bonded side wall brick.055": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 70,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.021 <> HOVEL | front reading window jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.021 <> HOVEL | front reading window sill lintel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.022 <> HOVEL | front reading window sill lintel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.023 <> HOVEL | front reading window sill lintel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.024 <> HOVEL | front reading window jamb.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 54,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.024 <> HOVEL | front reading window sill lintel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.056 <> HOVEL | side window jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.057 <> HOVEL | side window jamb.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.042 <> HOVEL | bonded side wall brick.059": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.027 <> HOVEL | bonded side wall brick.060": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 61,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.060 <> HOVEL | side window jamb.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.061 <> HOVEL | side window jamb.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.009 <> HOVEL | bonded side wall brick.061": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.009 <> HOVEL | bonded side wall brick.062": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.050 <> HOVEL | bonded side wall brick.063": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 69,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.026 <> HOVEL | front reading window jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.026 <> HOVEL | front reading window sill lintel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.027 <> HOVEL | front reading window jamb.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.027 <> HOVEL | front reading window sill lintel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.064 <> HOVEL | side window lintel sill.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.064 <> HOVEL | side window jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.065 <> HOVEL | side window lintel sill.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.065 <> HOVEL | side window jamb.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.051 <> HOVEL | bonded side wall brick.066": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.051 <> HOVEL | bonded side wall brick.067": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 65,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.030 <> HOVEL | bonded side wall brick.068": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.068 <> HOVEL | side window lintel sill.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.068 <> HOVEL | side window jamb.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.069 <> HOVEL | side window lintel sill.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.069 <> HOVEL | side window jamb.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.058 <> HOVEL | bonded side wall brick.070": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 65,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.058 <> HOVEL | bonded side wall brick.071": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 70,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.029 <> HOVEL | front reading window jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.030 <> HOVEL | front reading window jamb.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.072 <> HOVEL | side window lintel sill.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.072 <> HOVEL | side window jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.073 <> HOVEL | side window lintel sill.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.073 <> HOVEL | side window jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.074 <> HOVEL | side window lintel sill.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.075 <> HOVEL | side window lintel sill.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.075 <> HOVEL | side window jamb.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.059 <> HOVEL | bonded side wall brick.077": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 67,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.033 <> HOVEL | bonded side wall brick.078": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.078 <> HOVEL | side window lintel sill.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.078 <> HOVEL | side window jamb.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.079 <> HOVEL | side window lintel sill.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.079 <> HOVEL | side window jamb.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.080 <> HOVEL | side window lintel sill.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.081 <> HOVEL | side window lintel sill.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded side wall brick.081 <> HOVEL | side window jamb.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.067 <> HOVEL | bonded side wall brick.083": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 67,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.032 <> HOVEL | front reading window jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.032 <> HOVEL | front reading window sill lintel.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.033 <> HOVEL | front reading window jamb.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.033 <> HOVEL | front reading window sill lintel.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.068 <> HOVEL | bonded side wall brick.089": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 67,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.038 <> HOVEL | bonded side wall brick.090": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 57,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.075 <> HOVEL | bonded side wall brick.095": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 69,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.035 <> HOVEL | front reading window jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.035 <> HOVEL | front reading window sill lintel.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.036 <> HOVEL | front reading window sill lintel.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.037 <> HOVEL | front reading window sill lintel.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.038 <> HOVEL | front reading window jamb.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 56,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.038 <> HOVEL | front reading window sill lintel.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.076 <> HOVEL | bonded side wall brick.101": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 67,
+      "moving": false
+    },
+    "HOVEL | bonded front reading wall brick.043 <> HOVEL | bonded side wall brick.102": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 58,
+      "moving": false
+    },
+    "HOVEL | bonded rear wall brick.084 <> HOVEL | bonded side wall brick.107": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | side window jamb <> HOVEL | side window lintel sill": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 58,
+      "moving": false
+    },
+    "HOVEL | side window jamb.001 <> HOVEL | side window lintel sill": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 58,
+      "moving": false
+    },
+    "HOVEL | side window lintel sill <> HOVEL | side window vertical lattice": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | side window lintel sill <> HOVEL | side window vertical lattice.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | side window jamb <> HOVEL | side window lintel sill.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 56,
+      "moving": false
+    },
+    "HOVEL | side window jamb.001 <> HOVEL | side window lintel sill.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 55,
+      "moving": false
+    },
+    "HOVEL | side window lintel sill.001 <> HOVEL | side window vertical lattice": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | side window lintel sill.001 <> HOVEL | side window vertical lattice.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | side window jamb.002 <> HOVEL | side window lintel sill.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "HOVEL | side window jamb.003 <> HOVEL | side window lintel sill.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 58,
+      "moving": false
+    },
+    "HOVEL | side window lintel sill.002 <> HOVEL | side window vertical lattice.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | side window lintel sill.002 <> HOVEL | side window vertical lattice.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.005 <> HOVEL | side window lintel sill.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.007 <> HOVEL | side window lintel sill.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | side window jamb.002 <> HOVEL | side window lintel sill.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 55,
+      "moving": false
+    },
+    "HOVEL | side window jamb.003 <> HOVEL | side window lintel sill.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 55,
+      "moving": false
+    },
+    "HOVEL | side window lintel sill.003 <> HOVEL | side window vertical lattice.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | side window lintel sill.003 <> HOVEL | side window vertical lattice.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.007 <> HOVEL | side window jamb.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.009 <> HOVEL | side window jamb.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | front reading window jamb <> HOVEL | front reading window sill lintel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 74,
+      "moving": false
+    },
+    "HOVEL | front reading window jamb <> HOVEL | front reading window sill lintel.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "HOVEL | front reading window jamb.001 <> HOVEL | front reading window sill lintel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 55,
+      "moving": false
+    },
+    "HOVEL | front reading window jamb.001 <> HOVEL | front reading window sill lintel.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 59,
+      "moving": false
+    },
+    "HOVEL | horn pane centre mullion <> HOVEL | horn pane cross rail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 91,
+      "moving": false
+    },
+    "HOVEL | drawer pull retained pin <> HOVEL | wooden drawer handle": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 97,
+      "moving": false
+    },
+    "HOVEL | roof rafter <> HOVEL | roof rafter.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 57,
+      "moving": false
+    },
+    "HOVEL | rafter seated bearing pad <> HOVEL | roof rafter": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | roof rafter <> HOVEL | supported ridge timber": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "HOVEL | rafter seated bearing pad.001 <> HOVEL | roof rafter.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | roof rafter.001 <> HOVEL | supported ridge timber": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "HOVEL | roof rafter.002 <> HOVEL | roof rafter.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | rafter seated bearing pad.002 <> HOVEL | roof rafter.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | roof rafter.002 <> HOVEL | supported ridge timber": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | rafter seated bearing pad.003 <> HOVEL | roof rafter.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | roof rafter.003 <> HOVEL | supported ridge timber": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "HOVEL | roof rafter.004 <> HOVEL | roof rafter.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "HOVEL | rafter seated bearing pad.004 <> HOVEL | roof rafter.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | roof rafter.004 <> HOVEL | supported ridge timber": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | rafter seated bearing pad.005 <> HOVEL | roof rafter.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | roof rafter.005 <> HOVEL | supported ridge timber": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | roof rafter.006 <> HOVEL | roof rafter.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | rafter seated bearing pad.006 <> HOVEL | roof rafter.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | roof rafter.006 <> HOVEL | supported ridge timber": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "HOVEL | rafter seated bearing pad.007 <> HOVEL | roof rafter.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | roof rafter.007 <> HOVEL | supported ridge timber": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.024 <> HOVEL | roof rafter.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 79,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.024 <> HOVEL | roof rafter.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 59,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.025 <> HOVEL | roof rafter.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 78,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.026 <> HOVEL | roof rafter.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 74,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.028 <> HOVEL | roof rafter.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 26,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.027 <> HOVEL | roof rafter.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 13,
+      "moving": false
+    },
+    "HOVEL | roof rafter.008 <> HOVEL | roof rafter.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 58,
+      "moving": false
+    },
+    "HOVEL | rafter seated bearing pad.008 <> HOVEL | roof rafter.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HOVEL | roof rafter.008 <> HOVEL | supported ridge timber": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "HOVEL | rafter seated bearing pad.009 <> HOVEL | roof rafter.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "HOVEL | roof rafter.009 <> HOVEL | supported ridge timber": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle <> HOVEL | separate split cedar roof shingle.087": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 78,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.001 <> HOVEL | separate split cedar roof shingle.088": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 74,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.002 <> HOVEL | separate split cedar roof shingle.089": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 74,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.003 <> HOVEL | separate split cedar roof shingle.090": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 76,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.004 <> HOVEL | separate split cedar roof shingle.091": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 80,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.005 <> HOVEL | separate split cedar roof shingle.092": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 76,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.006 <> HOVEL | separate split cedar roof shingle.093": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 78,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.007 <> HOVEL | separate split cedar roof shingle.094": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 80,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.008 <> HOVEL | separate split cedar roof shingle.095": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 74,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.009 <> HOVEL | separate split cedar roof shingle.096": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 74,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.010 <> HOVEL | separate split cedar roof shingle.097": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 103,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.011 <> HOVEL | separate split cedar roof shingle.098": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 91,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.012 <> HOVEL | separate split cedar roof shingle.099": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 100,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.013 <> HOVEL | separate split cedar roof shingle.100": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 74,
+      "moving": false
+    },
+    "HOVEL | separate split cedar roof shingle.014 <> HOVEL | separate split cedar roof shingle.101": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 74,
+      "moving": false
+    },
+    "HOVEL | fitted sloping clay roof flashing <> HOVEL | separate split cedar roof shingle.096": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "HOVEL | fitted sloping clay roof flashing <> HOVEL | separate split cedar roof shingle.097": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 39,
+      "moving": false
+    },
+    "HOVEL | fitted sloping clay roof flashing.001 <> HOVEL | separate split cedar roof shingle.099": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "HOVEL | fitted sloping clay roof flashing <> HOVEL | separate split cedar roof shingle.111": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "HOVEL | fitted sloping clay roof flashing.001 <> HOVEL | separate split cedar roof shingle.114": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "HOVEL | fitted sloping clay roof flashing <> HOVEL | separate split cedar roof shingle.125": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 33,
+      "moving": false
+    },
+    "HOVEL | fitted sloping clay roof flashing <> HOVEL | separate split cedar roof shingle.126": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 70,
+      "moving": false
+    },
+    "HOVEL | fitted sloping clay roof flashing.003 <> HOVEL | separate split cedar roof shingle.126": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 46,
+      "moving": false
+    },
+    "HOVEL | fitted sloping clay roof flashing.003 <> HOVEL | separate split cedar roof shingle.127": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "HOVEL | fitted sloping clay roof flashing.001 <> HOVEL | separate split cedar roof shingle.128": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 78,
+      "moving": false
+    },
+    "HOVEL | fitted sloping clay roof flashing.003 <> HOVEL | separate split cedar roof shingle.128": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 43,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.033 <> HOVEL | full bearing chimney stone cap": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 88,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.034 <> HOVEL | full bearing chimney stone cap": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "HOVEL | bonded chimney cross course.034 <> HOVEL | full bearing chimney stone cap": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 90,
+      "moving": false
+    },
+    "HOVEL | bonded chimney side course.035 <> HOVEL | full bearing chimney stone cap": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "HUT | balance crossbar <> HUT | balance retained suspension eye": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 86,
+      "moving": true
+    },
+    "HUT | balance crossbar <> HUT | balance retained suspension eye.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 86,
+      "moving": true
+    },
+    "HUT | balance bored trunnion boss <> HUT | balance crossbar": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 346,
+      "moving": true
+    },
+    "HUT | balance retained suspension eye <> HUT | three point suspension cord": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 21,
+      "moving": true
+    },
+    "HUT | balance retained suspension eye <> HUT | three point suspension cord.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 21,
+      "moving": true
+    },
+    "HUT | balance retained suspension eye <> HUT | three point suspension cord.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 22,
+      "moving": true
+    },
+    "HUT | balance retained suspension eye.001 <> HUT | three point suspension cord.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 21,
+      "moving": true
+    },
+    "HUT | balance retained suspension eye.001 <> HUT | three point suspension cord.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 21,
+      "moving": true
+    },
+    "HUT | balance retained suspension eye.001 <> HUT | three point suspension cord.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 22,
+      "moving": true
+    },
+    "HUT | suspended balance dish -1 <> HUT | three point suspension cord": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 21,
+      "moving": true
+    },
+    "HUT | suspended balance dish -1 <> HUT | three point suspension cord.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 18,
+      "moving": true
+    },
+    "HUT | suspended balance dish -1 <> HUT | three point suspension cord.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 18,
+      "moving": true
+    },
+    "HUT | three point suspension cord <> HUT | three point suspension cord.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "HUT | three point suspension cord <> HUT | three point suspension cord.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 21,
+      "moving": true
+    },
+    "HUT | three point suspension cord.001 <> HUT | three point suspension cord.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "HUT | suspended balance dish 1 <> HUT | three point suspension cord.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 22,
+      "moving": true
+    },
+    "HUT | suspended balance dish 1 <> HUT | three point suspension cord.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 18,
+      "moving": true
+    },
+    "HUT | suspended balance dish 1 <> HUT | three point suspension cord.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 18,
+      "moving": true
+    },
+    "HUT | three point suspension cord.003 <> HUT | three point suspension cord.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "HUT | three point suspension cord.003 <> HUT | three point suspension cord.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 21,
+      "moving": true
+    },
+    "HUT | three point suspension cord.004 <> HUT | three point suspension cord.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "HOVEL | bound folio cover <> HOVEL | folio rotating hinge knuckle": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 102,
+      "moving": true
+    },
+    "HOVEL | bound folio cover <> HOVEL | folio rotating hinge knuckle.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 102,
+      "moving": true
+    }
+  },
+  "note": "Raw triangle contacts include intentional fitted joints, tooth engagement and fasteners. Every pair requires adjudication; this inventory is not a clearance pass."
+}

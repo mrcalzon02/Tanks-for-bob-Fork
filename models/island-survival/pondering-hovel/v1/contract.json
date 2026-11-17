@@ -1,0 +1,1677 @@
+{
+  "entity": {
+    "name": "pondering-hovel",
+    "type": "lab",
+    "collision_box": {
+      "left_top": {
+        "y": -1.19921875,
+        "x": -1.19921875
+      },
+      "right_bottom": {
+        "y": 1.19921875,
+        "x": 1.19921875
+      }
+    },
+    "selection_box": {
+      "left_top": {
+        "y": -1.5,
+        "x": -1.5
+      },
+      "right_bottom": {
+        "y": 1.5,
+        "x": 1.5
+      }
+    },
+    "lab_inputs": [
+      "Seared-fish",
+      "meal",
+      "requisition-slip",
+      "work-order-slip",
+      "certified-work-order",
+      "submitted-evaluation",
+      "risk-assessment",
+      "risk-assessed-work-order",
+      "compliance-packet",
+      "audit-ready-deliverable",
+      "stakeholder-review-summary",
+      "liability-contained-report",
+      "board-review-docket",
+      "board-advisory-risk-assessment"
+    ],
+    "researching_speed": 0.8,
+    "max_energy_usage_per_tick": 1666.6666666666667,
+    "module_inventory_size": 0,
+    "burner": {
+      "fuel_categories": {
+        "chemical": true
+      },
+      "effectivity": 0.5,
+      "fuel_inventory_size": 1
+    }
+  },
+  "building": {
+    "recipe": {
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "thinking-hut",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "brick",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "pondering-hovel",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 35,
+      "enabled": false
+    },
+    "technology_unlocks": [
+      "pondering-hovel"
+    ],
+    "item_place_result": "pondering-hovel"
+  },
+  "processing_recipes": "not applicable: lab performs technology research",
+  "fluid_connections": "none",
+  "directions": [
+    {
+      "requested": 0,
+      "placed": 0,
+      "rotatable": true,
+      "rotate_result": false,
+      "after": 0
+    },
+    {
+      "requested": 4,
+      "placed": 0,
+      "rotatable": true,
+      "rotate_result": false,
+      "after": 0
+    },
+    {
+      "requested": 8,
+      "placed": 0,
+      "rotatable": true,
+      "rotate_result": false,
+      "after": 0
+    },
+    {
+      "requested": 12,
+      "placed": 0,
+      "rotatable": true,
+      "rotate_result": false,
+      "after": 0
+    }
+  ],
+  "eligible_technologies": [
+    {
+      "name": "Encabulation-research",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "audit-ready-deliverable",
+          "amount": 1
+        }
+      ],
+      "unit_count": 125,
+      "unit_energy": 1500,
+      "prerequisites": [
+        "alumated-plate-research",
+        "audit-ready-deliverables",
+        "retro-encabulator-research"
+      ]
+    },
+    {
+      "name": "Hyper-Encabulation-research",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "liability-contained-report",
+          "amount": 1
+        }
+      ],
+      "unit_count": 175,
+      "unit_energy": 2100,
+      "prerequisites": [
+        "Turbo-Encabulation-research",
+        "advanced-encabulation-substrates",
+        "liability-containment"
+      ]
+    },
+    {
+      "name": "Steam-Compressor",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        }
+      ],
+      "unit_count": 10,
+      "unit_energy": 600,
+      "prerequisites": [
+        "fish-pond",
+        "meal",
+        "quarry",
+        "shaler"
+      ]
+    },
+    {
+      "name": "Turbo-Encabulation-research",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "stakeholder-review-summary",
+          "amount": 1
+        }
+      ],
+      "unit_count": 150,
+      "unit_energy": 1800,
+      "prerequisites": [
+        "Encabulation-research",
+        "stabilized-emulsion-systems",
+        "stakeholder-review-process"
+      ]
+    },
+    {
+      "name": "advanced-encabulation-substrates",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "stakeholder-review-summary",
+          "amount": 1
+        }
+      ],
+      "unit_count": 100,
+      "unit_energy": 1800,
+      "prerequisites": [
+        "ionic-phase-conditioning",
+        "pre-encabulation-materials",
+        "stakeholder-review-process"
+      ]
+    },
+    {
+      "name": "alumated-plate-research",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "compliance-packet",
+          "amount": 1
+        }
+      ],
+      "unit_count": 80,
+      "unit_energy": 1200,
+      "prerequisites": [
+        "compliance-packetization",
+        "pre-encabulation-materials"
+      ]
+    },
+    {
+      "name": "audit-ready-deliverables",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "compliance-packet",
+          "amount": 1
+        }
+      ],
+      "unit_count": 80,
+      "unit_energy": 1320,
+      "prerequisites": [
+        "compliance-packetization"
+      ]
+    },
+    {
+      "name": "basic-requisitioning",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        }
+      ],
+      "unit_count": 20,
+      "unit_energy": 600,
+      "prerequisites": [
+        "crude-glass",
+        "crude-paperwork",
+        "meal"
+      ]
+    },
+    {
+      "name": "beachpump",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 5,
+      "unit_energy": 600,
+      "prerequisites": {}
+    },
+    {
+      "name": "bio-reactive-processing",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "certified-work-order",
+          "amount": 1
+        }
+      ],
+      "unit_count": 35,
+      "unit_energy": 900,
+      "prerequisites": [
+        "Steam-Compressor",
+        "fish-pond",
+        "work-order-certification"
+      ]
+    },
+    {
+      "name": "biomineral-synthesis",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "compliance-packet",
+          "amount": 1
+        }
+      ],
+      "unit_count": 50,
+      "unit_energy": 1200,
+      "prerequisites": [
+        "brine-conditioning",
+        "ceramic-lattice-conditioning",
+        "compliance-packetization",
+        "ionic-phase-conditioning"
+      ]
+    },
+    {
+      "name": "board-advisory-risk-assessment",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "liability-contained-report",
+          "amount": 1
+        },
+        {
+          "name": "board-review-docket",
+          "amount": 1
+        }
+      ],
+      "unit_count": 160,
+      "unit_energy": 2100,
+      "prerequisites": [
+        "Hyper-Encabulation-research",
+        "board-review-procedure",
+        "framulated-encabulator-research"
+      ]
+    },
+    {
+      "name": "board-review-procedure",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "liability-contained-report",
+          "amount": 1
+        }
+      ],
+      "unit_count": 130,
+      "unit_energy": 1800,
+      "prerequisites": [
+        "advanced-encabulation-substrates",
+        "liability-containment"
+      ]
+    },
+    {
+      "name": "brick",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 5,
+      "unit_energy": 600,
+      "prerequisites": [
+        "pit-kiln"
+      ]
+    },
+    {
+      "name": "brine-conditioning",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "risk-assessment",
+          "amount": 1
+        }
+      ],
+      "unit_count": 40,
+      "unit_energy": 900,
+      "prerequisites": [
+        "Steam-Compressor",
+        "mineral-fractionation",
+        "preliminary-risk-assessment"
+      ]
+    },
+    {
+      "name": "calcifier",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 10,
+      "unit_energy": 600,
+      "prerequisites": [
+        "steam-condenser"
+      ]
+    },
+    {
+      "name": "ceramic-lattice-conditioning",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "submitted-evaluation",
+          "amount": 1
+        }
+      ],
+      "unit_count": 45,
+      "unit_energy": 900,
+      "prerequisites": [
+        "bio-reactive-processing",
+        "calcifier",
+        "evaluation-submission",
+        "mineral-fractionation"
+      ]
+    },
+    {
+      "name": "charcoal-processing",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 10,
+      "unit_energy": 600,
+      "prerequisites": [
+        "beachpump"
+      ]
+    },
+    {
+      "name": "clay-pit",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 5,
+      "unit_energy": 600,
+      "prerequisites": [
+        "beachpump"
+      ]
+    },
+    {
+      "name": "compliance-packetization",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "risk-assessed-work-order",
+          "amount": 1
+        }
+      ],
+      "unit_count": 70,
+      "unit_energy": 1200,
+      "prerequisites": [
+        "ionic-phase-conditioning",
+        "risk-assessed-authorization"
+      ]
+    },
+    {
+      "name": "cooking-fire",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 5,
+      "unit_energy": 600,
+      "prerequisites": [
+        "brick",
+        "growing-plot"
+      ]
+    },
+    {
+      "name": "crude-glass",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 5,
+      "unit_energy": 600,
+      "prerequisites": [
+        "brick"
+      ]
+    },
+    {
+      "name": "crude-paperwork",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 15,
+      "unit_energy": 600,
+      "prerequisites": [
+        "wood-pulp-processing"
+      ]
+    },
+    {
+      "name": "ducted-sperving-arm-research",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "stakeholder-review-summary",
+          "amount": 1
+        }
+      ],
+      "unit_count": 125,
+      "unit_energy": 1800,
+      "prerequisites": [
+        "Encabulation-research",
+        "sperving-arm-research",
+        "stabilized-emulsion-systems",
+        "stakeholder-review-process"
+      ]
+    },
+    {
+      "name": "duplexed-sperving-arm-research",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "liability-contained-report",
+          "amount": 1
+        }
+      ],
+      "unit_count": 175,
+      "unit_energy": 2100,
+      "prerequisites": [
+        "Hyper-Encabulation-research",
+        "ducted-sperving-arm-research",
+        "liability-containment"
+      ]
+    },
+    {
+      "name": "encabulated-device-integration-authorization",
+      "ingredients": [
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "board-review-docket",
+          "amount": 1
+        }
+      ],
+      "unit_count": 200,
+      "unit_energy": 2700,
+      "prerequisites": [
+        "board-review-procedure",
+        "duplexed-sperving-arm-research",
+        "explosive-encabulation-engineering",
+        "framulated-encabulator-research"
+      ]
+    },
+    {
+      "name": "encabulated-waste-recovery",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "liability-contained-report",
+          "amount": 1
+        }
+      ],
+      "unit_count": 150,
+      "unit_energy": 1800,
+      "prerequisites": [
+        "ducted-sperving-arm-research",
+        "liability-containment",
+        "tank-casing-research",
+        "waste-processing-3"
+      ]
+    },
+    {
+      "name": "encabulator-support-componentry",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "compliance-packet",
+          "amount": 1
+        }
+      ],
+      "unit_count": 90,
+      "unit_energy": 1200,
+      "prerequisites": [
+        "biomineral-synthesis",
+        "compliance-packetization",
+        "stabilized-emulsion-systems"
+      ]
+    },
+    {
+      "name": "evaluation-submission",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "certified-work-order",
+          "amount": 1
+        }
+      ],
+      "unit_count": 35,
+      "unit_energy": 840,
+      "prerequisites": [
+        "crude-glass",
+        "work-order-certification"
+      ]
+    },
+    {
+      "name": "explosive-encabulation-engineering",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "stakeholder-review-summary",
+          "amount": 1
+        }
+      ],
+      "unit_count": 125,
+      "unit_energy": 1500,
+      "prerequisites": [
+        "Turbo-Encabulation-research",
+        "organic-explosives",
+        "stakeholder-review-process"
+      ]
+    },
+    {
+      "name": "fish-pond",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 10,
+      "unit_energy": 600,
+      "prerequisites": [
+        "brick",
+        "clay-pit",
+        "growing-plot"
+      ]
+    },
+    {
+      "name": "fish-resource-recovery",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        }
+      ],
+      "unit_count": 10,
+      "unit_energy": 600,
+      "prerequisites": [
+        "fish-pond",
+        "meal"
+      ]
+    },
+    {
+      "name": "framulated-encabulator-research",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "board-review-docket",
+          "amount": 1
+        }
+      ],
+      "unit_count": 200,
+      "unit_energy": 2400,
+      "prerequisites": [
+        "Hyper-Encabulation-research",
+        "alumated-plate-research",
+        "board-review-procedure"
+      ]
+    },
+    {
+      "name": "growing-plot",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 5,
+      "unit_energy": 600,
+      "prerequisites": [
+        "beachpump"
+      ]
+    },
+    {
+      "name": "industrial-coke-processing",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "liability-contained-report",
+          "amount": 1
+        }
+      ],
+      "unit_count": 150,
+      "unit_energy": 1800,
+      "prerequisites": [
+        "Hyper-Encabulation-research",
+        "explosive-encabulation-engineering",
+        "liability-containment"
+      ]
+    },
+    {
+      "name": "ionic-phase-conditioning",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "risk-assessed-work-order",
+          "amount": 1
+        }
+      ],
+      "unit_count": 50,
+      "unit_energy": 1200,
+      "prerequisites": [
+        "ceramic-lattice-conditioning",
+        "organic-substrate-conditioning",
+        "risk-assessed-authorization"
+      ]
+    },
+    {
+      "name": "liability-containment",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "stakeholder-review-summary",
+          "amount": 1
+        }
+      ],
+      "unit_count": 110,
+      "unit_energy": 1680,
+      "prerequisites": [
+        "stakeholder-review-process"
+      ]
+    },
+    {
+      "name": "meal",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 10,
+      "unit_energy": 600,
+      "prerequisites": [
+        "cooking-fire"
+      ]
+    },
+    {
+      "name": "mechanized-infantry-authorization",
+      "ingredients": [
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "risk-assessed-work-order",
+          "amount": 1
+        }
+      ],
+      "unit_count": 60,
+      "unit_energy": 1800,
+      "prerequisites": [
+        "modular-tank-research",
+        "risk-assessed-authorization"
+      ]
+    },
+    {
+      "name": "mineral-fractionation",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "work-order-slip",
+          "amount": 1
+        }
+      ],
+      "unit_count": 25,
+      "unit_energy": 900,
+      "prerequisites": [
+        "basic-requisitioning",
+        "shaler",
+        "waste-processing-2",
+        "work-order-generation"
+      ]
+    },
+    {
+      "name": "modular-tank-research-authorization",
+      "ingredients": [
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "board-review-docket",
+          "amount": 1
+        }
+      ],
+      "unit_count": 80,
+      "unit_energy": 2700,
+      "prerequisites": [
+        "board-review-procedure",
+        "encabulated-device-integration"
+      ]
+    },
+    {
+      "name": "modular-tank-research2-authorization",
+      "ingredients": [
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "liability-contained-report",
+          "amount": 1
+        }
+      ],
+      "unit_count": 90,
+      "unit_energy": 2700,
+      "prerequisites": [
+        "liability-containment",
+        "modular-tank-research"
+      ]
+    },
+    {
+      "name": "modular-tank-research3-authorization",
+      "ingredients": [
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "liability-contained-report",
+          "amount": 1
+        }
+      ],
+      "unit_count": 90,
+      "unit_energy": 2700,
+      "prerequisites": [
+        "liability-containment",
+        "modular-tank-research"
+      ]
+    },
+    {
+      "name": "new-munitions-authorization",
+      "ingredients": [
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "board-review-docket",
+          "amount": 1
+        }
+      ],
+      "unit_count": 80,
+      "unit_energy": 1800,
+      "prerequisites": [
+        "board-review-procedure",
+        "modular-tank-research2"
+      ]
+    },
+    {
+      "name": "organic-explosives",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "submitted-evaluation",
+          "amount": 1
+        }
+      ],
+      "unit_count": 100,
+      "unit_energy": 1200,
+      "prerequisites": [
+        "evaluation-submission",
+        "stabilized-emulsion-systems",
+        "tank-casing-research"
+      ]
+    },
+    {
+      "name": "organic-explosives2-authorization",
+      "ingredients": [
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "stakeholder-review-summary",
+          "amount": 1
+        }
+      ],
+      "unit_count": 80,
+      "unit_energy": 1800,
+      "prerequisites": [
+        "modular-tank-research2",
+        "organic-explosives",
+        "stakeholder-review-process"
+      ]
+    },
+    {
+      "name": "organic-explosives3-authorization",
+      "ingredients": [
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "board-review-docket",
+          "amount": 1
+        }
+      ],
+      "unit_count": 100,
+      "unit_energy": 2400,
+      "prerequisites": [
+        "board-review-procedure",
+        "modular-tank-research2",
+        "organic-explosives2"
+      ]
+    },
+    {
+      "name": "organic-substrate-conditioning",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "submitted-evaluation",
+          "amount": 1
+        }
+      ],
+      "unit_count": 45,
+      "unit_energy": 900,
+      "prerequisites": [
+        "bio-reactive-processing",
+        "evaluation-submission"
+      ]
+    },
+    {
+      "name": "pit-kiln",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 5,
+      "unit_energy": 600,
+      "prerequisites": [
+        "clay-pit"
+      ]
+    },
+    {
+      "name": "pondering-hovel",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        }
+      ],
+      "unit_count": 5,
+      "unit_energy": 600,
+      "prerequisites": [
+        "brick",
+        "meal"
+      ]
+    },
+    {
+      "name": "pre-encabulation-materials",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "audit-ready-deliverable",
+          "amount": 1
+        }
+      ],
+      "unit_count": 80,
+      "unit_energy": 1500,
+      "prerequisites": [
+        "audit-ready-deliverables",
+        "biomineral-synthesis",
+        "stabilized-emulsion-systems"
+      ]
+    },
+    {
+      "name": "preliminary-risk-assessment",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "submitted-evaluation",
+          "amount": 1
+        }
+      ],
+      "unit_count": 45,
+      "unit_energy": 900,
+      "prerequisites": [
+        "evaluation-submission",
+        "mineral-fractionation",
+        "waste-processing-2"
+      ]
+    },
+    {
+      "name": "primitive-steam-powered-pump",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 10,
+      "unit_energy": 600,
+      "prerequisites": [
+        "solar-boiler"
+      ]
+    },
+    {
+      "name": "quarry",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        }
+      ],
+      "unit_count": 10,
+      "unit_energy": 600,
+      "prerequisites": [
+        "pondering-hovel"
+      ]
+    },
+    {
+      "name": "retro-encabulator-research",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "compliance-packet",
+          "amount": 1
+        }
+      ],
+      "unit_count": 100,
+      "unit_energy": 1500,
+      "prerequisites": [
+        "advanced-encabulation-substrates",
+        "compliance-packetization",
+        "encabulator-support-componentry"
+      ]
+    },
+    {
+      "name": "risk-assessed-authorization",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "risk-assessment",
+          "amount": 1
+        }
+      ],
+      "unit_count": 55,
+      "unit_energy": 1080,
+      "prerequisites": [
+        "preliminary-risk-assessment"
+      ]
+    },
+    {
+      "name": "shaler",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 10,
+      "unit_energy": 600,
+      "prerequisites": [
+        "calcifier"
+      ]
+    },
+    {
+      "name": "solar-boiler",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 10,
+      "unit_energy": 600,
+      "prerequisites": [
+        "stone-water-wheel"
+      ]
+    },
+    {
+      "name": "sperving-arm-research",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "audit-ready-deliverable",
+          "amount": 1
+        }
+      ],
+      "unit_count": 100,
+      "unit_energy": 1500,
+      "prerequisites": [
+        "Encabulation-research",
+        "audit-ready-deliverables",
+        "encabulator-support-componentry"
+      ]
+    },
+    {
+      "name": "stabilized-emulsion-systems",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "audit-ready-deliverable",
+          "amount": 1
+        }
+      ],
+      "unit_count": 65,
+      "unit_energy": 1200,
+      "prerequisites": [
+        "audit-ready-deliverables",
+        "biomineral-synthesis",
+        "brine-conditioning",
+        "organic-substrate-conditioning"
+      ]
+    },
+    {
+      "name": "stakeholder-review-process",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "audit-ready-deliverable",
+          "amount": 1
+        }
+      ],
+      "unit_count": 90,
+      "unit_energy": 1500,
+      "prerequisites": [
+        "audit-ready-deliverables",
+        "pre-encabulation-materials"
+      ]
+    },
+    {
+      "name": "steam-condenser",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 10,
+      "unit_energy": 600,
+      "prerequisites": [
+        "crude-glass",
+        "primitive-steam-powered-pump"
+      ]
+    },
+    {
+      "name": "stone-water-wheel",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 10,
+      "unit_energy": 600,
+      "prerequisites": [
+        "brick",
+        "wood-basin"
+      ]
+    },
+    {
+      "name": "super-tank-authorization",
+      "ingredients": [
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "board-advisory-risk-assessment",
+          "amount": 1
+        }
+      ],
+      "unit_count": 125,
+      "unit_energy": 2700,
+      "prerequisites": [
+        "board-advisory-risk-assessment",
+        "encabulated-waste-recovery",
+        "modular-tank-research2"
+      ]
+    },
+    {
+      "name": "super-tank-wmd-authorization",
+      "ingredients": [
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "board-advisory-risk-assessment",
+          "amount": 2
+        }
+      ],
+      "unit_count": 175,
+      "unit_energy": 3600,
+      "prerequisites": [
+        "board-advisory-risk-assessment",
+        "new-munitions",
+        "super-tank-research"
+      ]
+    },
+    {
+      "name": "tank-casing-research",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "risk-assessed-work-order",
+          "amount": 1
+        }
+      ],
+      "unit_count": 85,
+      "unit_energy": 1200,
+      "prerequisites": [
+        "alumated-plate-research",
+        "risk-assessed-authorization"
+      ]
+    },
+    {
+      "name": "toxic-sludge-condensation",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "risk-assessed-work-order",
+          "amount": 1
+        }
+      ],
+      "unit_count": 80,
+      "unit_energy": 1500,
+      "prerequisites": [
+        "risk-assessed-authorization"
+      ]
+    },
+    {
+      "name": "waste-processing-2",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "work-order-slip",
+          "amount": 1
+        }
+      ],
+      "unit_count": 25,
+      "unit_energy": 600,
+      "prerequisites": [
+        "shaler",
+        "work-order-generation"
+      ]
+    },
+    {
+      "name": "waste-processing-3",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "certified-work-order",
+          "amount": 1
+        }
+      ],
+      "unit_count": 50,
+      "unit_energy": 900,
+      "prerequisites": [
+        "mineral-fractionation",
+        "waste-processing-2",
+        "work-order-certification"
+      ]
+    },
+    {
+      "name": "waste-processing-4-authorization",
+      "ingredients": [
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "stakeholder-review-summary",
+          "amount": 1
+        }
+      ],
+      "unit_count": 75,
+      "unit_energy": 1200,
+      "prerequisites": [
+        "Turbo-Encabulation-research",
+        "stakeholder-review-process",
+        "waste-processing-3"
+      ]
+    },
+    {
+      "name": "waste-processing-5-authorization",
+      "ingredients": [
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "board-advisory-risk-assessment",
+          "amount": 1
+        }
+      ],
+      "unit_count": 100,
+      "unit_energy": 1800,
+      "prerequisites": [
+        "Hyper-Encabulation-research",
+        "board-advisory-risk-assessment",
+        "super-tank-research",
+        "waste-processing-4"
+      ]
+    },
+    {
+      "name": "wood-basin",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 5,
+      "unit_energy": 600,
+      "prerequisites": [
+        "beachpump"
+      ]
+    },
+    {
+      "name": "wood-pulp-processing",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        }
+      ],
+      "unit_count": 10,
+      "unit_energy": 600,
+      "prerequisites": [
+        "charcoal-processing",
+        "growing-plot"
+      ]
+    },
+    {
+      "name": "work-order-certification",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "work-order-slip",
+          "amount": 1
+        }
+      ],
+      "unit_count": 30,
+      "unit_energy": 720,
+      "prerequisites": [
+        "work-order-generation"
+      ]
+    },
+    {
+      "name": "work-order-generation",
+      "ingredients": [
+        {
+          "name": "Seared-fish",
+          "amount": 1
+        },
+        {
+          "name": "meal",
+          "amount": 1
+        },
+        {
+          "name": "requisition-slip",
+          "amount": 1
+        }
+      ],
+      "unit_count": 25,
+      "unit_energy": 720,
+      "prerequisites": [
+        "basic-requisitioning"
+      ]
+    }
+  ],
+  "input_technology_counts": {
+    "Seared-fish": 63,
+    "meal": 56,
+    "work-order-slip": 3,
+    "certified-work-order": 3,
+    "requisition-slip": 1,
+    "submitted-evaluation": 4,
+    "risk-assessment": 2,
+    "risk-assessed-work-order": 5,
+    "compliance-packet": 5,
+    "audit-ready-deliverable": 5,
+    "stakeholder-review-summary": 7,
+    "liability-contained-report": 8,
+    "board-review-docket": 6,
+    "board-advisory-risk-assessment": 3
+  },
+  "source": {
+    "path": "models/island-survival/obj/pondering-hovel.obj",
+    "sha256": "d34ea0f8283f48fb8db625664cb385baefa8e9bf922036bea4d6a74df2d54188"
+  },
+  "native_mod_version": "1.8.104",
+  "native_engine": "2.1.24",
+  "source_energy_usage": "100kW",
+  "orientation_policy": "native fixed north; all four placement requests normalize to north and rotate returns false",
+  "purpose": "Upgraded chemical-burner lab; speed .8, burner efficiency .5; same fourteen food/document research inputs. No processing recipes, manufactured outputs, electrical demand or fluid ports.",
+  "visual_brief": "Preserve Pondering Hovel starter and useful finished Thinking Hut study fittings. Masonry walls, proper shingle roof, continuous grounded brick chimney, glazed reading window, drawer/folio station and restrained research activity."
+}

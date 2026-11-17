@@ -341,12 +341,13 @@
     {
       "id": "pondering-hovel",
       "name": "Pondering Hovel",
-      "revision": "OBJ blockout",
-      "status": "rebuild_required",
+      "revision": "V1 masonry research shelter in progress",
+      "status": "in_progress",
       "priority": 21,
-      "next": "Build evolved brick research shelter, supported chimney, lamp and restrained activity.",
+      "next": "Refine saved Pondering Hovel starter and useful study fittings into a supported masonry upgrade, inspect/export, then actual lab verification and delivery.",
       "evidence": [
-        "models/island-survival/designs.json"
+        "models/island-survival/pondering-hovel/v1/contract.json",
+        "ci/pondering_hovel_v1"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
       "done": false

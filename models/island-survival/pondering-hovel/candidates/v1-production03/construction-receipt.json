@@ -1,0 +1,24 @@
+{
+  "parent_thinking_hut_source_sha256": "4c7dee2ad5124ea1c078b0f4f997c994b8d971d9395f86b083254f3bc9e75b13",
+  "starter_sha256": "d34ea0f8283f48fb8db625664cb385baefa8e9bf922036bea4d6a74df2d54188",
+  "reused_starter_groups": [
+    "HOVEL | REUSED pondering-hovel_floor",
+    "HOVEL | REUSED pondering-hovel_masonry_walls",
+    "HOVEL | REUSED pondering-hovel_shingle_roof",
+    "HOVEL | REUSED pondering-hovel_front_entry",
+    "HOVEL | REUSED pondering-hovel_chimney",
+    "HOVEL | REUSED pondering-hovel_research_window",
+    "HOVEL | REUSED pondering-hovel_desk_visible"
+  ],
+  "source_sha256": "1c1221819d9b8f1b7ed391ba46bdf9bcac1f2788a297dccbefa68d91c52407a3",
+  "glb_sha256": "c8a553cc1f580b5a0bc12c50356c61a40e54ca9fa5309f938b18196c829375e1",
+  "native_orientation": "fixed north",
+  "smoke_outlet_source": [
+    0.82,
+    0.5,
+    3.56
+  ],
+  "gameplay_changed": false,
+  "owner_visual_approved": false,
+  "native_integrated": false
+}
