@@ -1,0 +1,42 @@
+   0.002 2026-11-16 16:45:36; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.002 Operating system: Windows 11 (build 26200) 
+   0.002 Program arguments: "C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin/x64/factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\wood-basin-v1-gui02\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\wood-basin-v1-gui02\mods" "--test-save" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\wood-basin-v1-gui02\runtime\saves\_autosave-wood-basin-complete-client.zip" "--test-ticks" "300" 
+   0.002 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/wood-basin-v1-gui02/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/wood-basin-v1-gui02/runtime [269348/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.008 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 21679/32526 MB, page: 31024/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.037 Running in headless mode
+   0.037 Audio is disabled
+   0.038 Info ModManager.cpp:455: FeatureFlag: 
+   0.040 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.043 Loading mod core 0.0.0 (data.lua)
+   0.057 Loading mod base 2.1.24 (data.lua)
+   0.294 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.324 Loading mod base 2.1.24 (data-updates.lua)
+   0.329 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.335 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.375 Checksum for core: 3668028660
+   0.375 Checksum of base: 3864816957
+   0.375 Checksum of tanks_for_bob_fork: 4097214888
+   0.375 Checksum of wood-basin-v1-proof: 0
+   0.375 Checksum of wood-basin-v1-capture: 0
+   0.499 Prototype list checksum: 1368343619
+   0.526 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.526 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.530 Info GlobalContext.cpp:1347: Resetting config.
+   0.530 Factorio initialised
+   0.531 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\wood-basin-v1-gui02\runtime\saves\_autosave-wood-basin-complete-client.zip: 1237750 bytes.
+   0.662 Loading level.dat: 1044312 bytes.
+   0.662 Info Scenario.cpp:152: Map version 2.1.24-1
+   0.672 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   0.673 Loading script.dat: 7437 bytes.
+   0.678 Checksum for script __level__/control.lua: 3368906707
+   0.681 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   0.689 Checksum for script __wood-basin-v1-proof__/control.lua: 4086440690
+   0.690 Checksum for script __wood-basin-v1-capture__/control.lua: 1998519924
+   0.691 Script @__wood-basin-v1-proof__/control.lua:63: WOOD_BASIN_FILLED_RELOAD_PASS snapshots=12
+   0.691 Script @__wood-basin-v1-proof__/control.lua:65: WOOD_BASIN_RELOAD_PASS complete=false
+   0.743 Info RunTest.cpp:80: Ran 300 ticks without the test finishing
+   0.743 Info GlobalContext.cpp:763: Deleting active scenario.
+   0.790 Goodbye

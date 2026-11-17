@@ -1,0 +1,688 @@
+{
+  "passed": true,
+  "genuine_blender_frames": 68,
+  "frame_alpha_bounds": [
+    {
+      "file": "north-idle-00.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-00.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-01.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-02.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-03.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-04.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-05.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-06.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-07.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-08.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-09.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-10.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-11.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-12.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-13.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-14.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "north-fill-preview-15.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-idle-00.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-00.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-01.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-02.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-03.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-04.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-05.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-06.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-07.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-08.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-09.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-10.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-11.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-12.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-13.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-14.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "east-fill-preview-15.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-idle-00.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-00.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-01.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-02.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-03.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-04.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-05.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-06.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-07.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-08.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-09.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-10.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-11.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-12.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-13.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-14.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "south-fill-preview-15.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-idle-00.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-00.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-01.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-02.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-03.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-04.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-05.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-06.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-07.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-08.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-09.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-10.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-11.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-12.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-13.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-14.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    },
+    {
+      "file": "west-fill-preview-15.png",
+      "bounds": [
+        47,
+        19,
+        208,
+        223
+      ]
+    }
+  ],
+  "actual_client_window_tests": {
+    "north": {
+      "water_fill_pixels": {
+        "empty": 0,
+        "filling": 864,
+        "full": 1408,
+        "drained": 0,
+        "refill": 1312
+      },
+      "stable_full_window_animated_pixels": 1403,
+      "roi_top_left": [
+        368,
+        390,
+        400,
+        434
+      ]
+    },
+    "east": {
+      "water_fill_pixels": {
+        "empty": 0,
+        "filling": 864,
+        "full": 1408,
+        "drained": 0,
+        "refill": 1312
+      },
+      "stable_full_window_animated_pixels": 1403,
+      "roi_top_left": [
+        368,
+        390,
+        400,
+        434
+      ]
+    },
+    "south": {
+      "water_fill_pixels": {
+        "empty": 0,
+        "filling": 864,
+        "full": 1408,
+        "drained": 0,
+        "refill": 1312
+      },
+      "stable_full_window_animated_pixels": 1403,
+      "roi_top_left": [
+        368,
+        390,
+        400,
+        434
+      ]
+    },
+    "west": {
+      "water_fill_pixels": {
+        "empty": 0,
+        "filling": 864,
+        "full": 1408,
+        "drained": 0,
+        "refill": 1312
+      },
+      "stable_full_window_animated_pixels": 1403,
+      "roi_top_left": [
+        368,
+        390,
+        400,
+        434
+      ]
+    }
+  },
+  "native_body_has_no_baked_fluid": true,
+  "native_body_uses_holdout_panels": 4,
+  "visual_fixture_levels_seeded": true,
+  "real_transfer_evidence": "Separate headless native proof uses ordinary powered pumps to fill, saturate, stop, drain and restart all 12 tanks."
+}

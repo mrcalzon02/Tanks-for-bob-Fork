@@ -176,15 +176,17 @@
     {
       "id": "wood-basin",
       "name": "Wood Basin",
-      "revision": "OBJ blockout",
-      "status": "rebuild_required",
+      "revision": "V1 native contents-driven cistern",
+      "status": "accepted_integrated",
       "priority": 13,
-      "next": "Author timber-stave cistern, hoops, visible level/window; preserve 25000 volume and four declared corner connections/two-direction contract.",
+      "next": "Preserve passive storage, sealed native sight panels, 25000 capacity, four corner ports and two-direction contract. Canonical registry receipt pending source commit.",
       "evidence": [
-        "models/island-survival/designs.json"
+        "models/island-survival/wood-basin/v1/FMPL_MODEL.json",
+        "docs/art/wood-basin-v1/engine-receipt.json",
+        "docs/art/wood-basin-v1/capture-verification.json"
       ],
-      "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false,
+      "fmpl_delivery": "Saved/reopened source, actual animated GLB reimport, genuine body/fill-preview frames and native content animation verified. Real pump fill/full/stop/drain/restart and saved fluid/temperature/connection reload passed; canonical registry write pending verified source commit.",
+      "done": true,
       "active": true
     },
     {
@@ -302,5 +304,5 @@
     "2026-11-15: Resolve shoreline intake versus pipe-to-pipe pump purpose; current focus is the existing Primitive Steam-Powered Pump candidate.",
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration."
   ],
-  "production_state": "active; compressor delivered and registered, next actual gameplay contract is wood-basin"
+  "production_state": "active; Wood Basin operational, remote delivery and FMPL registration checkpoint in progress"
 }

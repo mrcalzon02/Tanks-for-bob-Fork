@@ -1,0 +1,41 @@
+{
+  "schema": "fmpl.model-delivery.v1",
+  "id": "tanks-wood-basin-v1",
+  "status": "operational-native-integrated-delegated-review",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "prototype": {
+    "type": "storage-tank",
+    "name": "wood-basin"
+  },
+  "footprint_tiles": [
+    3,
+    3
+  ],
+  "scene_units_per_tile": 1,
+  "source": {
+    "path": "models\\island-survival\\wood-basin\\candidates\\v1-production02\\wood-basin-v1.blend",
+    "sha256": "327f82edc225bfa5f108a22b6d3512121d8ce1bdc374e69b077f219ed5bf7556"
+  },
+  "runtime": {
+    "path": "models\\island-survival\\wood-basin\\candidates\\v1-production02\\wood-basin-v1.glb",
+    "sha256": "0a29c95b72593576bb6ec64100ab810b730de962bf03afa55c74d188ac7ae20c"
+  },
+  "packed_pbr_images": 18,
+  "source_and_runtime_pose_checks": 6,
+  "production_frames": 68,
+  "frame_scope": "Four static native body captures plus 64 genuine editable filling/draining preview captures. Native tank animation uses contents-driven level/scrolling liquid/gas; no forced body animation.",
+  "native_body_frames_per_facing": 1,
+  "native_art_orientations": 2,
+  "cardinal_tests": 4,
+  "capacity": 25000,
+  "capture_policy": "fmpl.factorio45.v1",
+  "gameplay_changed": false,
+  "owner_approved": false,
+  "delegated_operational_review_passed": true,
+  "native_engine": "2.1.24",
+  "native_fill_drain_full_stop_restart_reload_passed": true,
+  "evidence": "docs\\art\\wood-basin-v1",
+  "central_library_registration": {
+    "status": "pending_remote_source_commit"
+  }
+}

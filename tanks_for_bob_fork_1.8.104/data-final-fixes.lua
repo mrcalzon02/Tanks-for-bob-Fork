@@ -54,3 +54,6 @@ require("prototypes.generated_graphics.material-icons-v01")
 
 -- Tanks compressor: owner-identified barrel/frame source, same gameplay.
 require("prototypes.generated_graphics.steam-compressor-v2-production")
+
+-- Native passive storage with actual fluid-level and flow visualization.
+require("prototypes.generated_graphics.wood-basin-v1-production")

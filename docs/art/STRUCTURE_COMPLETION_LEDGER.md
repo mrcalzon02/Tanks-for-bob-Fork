@@ -6,7 +6,7 @@ Updated 2026-11-16 against `7290824bf43711d0bb31bd8e2969c51459864f91`.
 
 Owner priority 2026-11-15: finish working, animated, operational and close enough; defer cosmetic polish. Preserve accepted art and verify actual prototype behavior. Track source/export/FMPL receipts honestly; missing receipts are pending, never automatic PASS. See docs/art/OPERATIONAL_FINISH_POLICY.md.
 
-**11 accepted/integrated; 1 advanced with open work; 9 requiring substantial production. Current focus: Wood Basin.**
+**12 accepted/integrated; 1 advanced with open work; 8 requiring substantial production. Current focus: Wood Basin.**
 
 | Structure | Latest known revision | Status | Remaining action |
 | --- | --- | --- | --- |
@@ -22,7 +22,7 @@ Owner priority 2026-11-15: finish working, animated, operational and close enoug
 | Primitive Steam-Powered Pump | V3 owner-approved, animated and integrated | accepted integrated | Complete: 68 native Blender frames, six atlases, saved editable source, inspected GLB, actual four-facing water/oil transfer, no-fuel, stop/restart, full-output and save/reload tests, plus eight genuine client screenshots. Preserve this accepted design and move on. |
 | Fish Pond | V2 | accepted integrated | Preserve the accepted clay basin, four swimmers, baked portable source and tested native idle/working integration. |
 | Stone Water Wheel | V2 failed study, held | rebuild required | Both recipe and technology are active, but this is a shoreline intake, not the pipe pump. Preserve rejected studies. If resuming lifting buckets, use independent upright pivots; repair outlet boolean degenerates and race joints before any production capture. |
-| Wood Basin | OBJ blockout | rebuild required | Author timber-stave cistern, hoops, visible level/window; preserve 25000 volume and four declared corner connections/two-direction contract. |
+| Wood Basin | V1 native contents-driven cistern | accepted integrated | Preserve passive storage, sealed native sight panels, 25000 capacity, four corner ports and two-direction contract. Canonical registry receipt pending source commit. |
 | Tank Ammunition Assembler | OBJ blockout | rebuild required | Build distinct component/ammunition process, feed and discharge, moving tooling; verify native north/south fluids. |
 | Tank Assembling Machine | OBJ blockout | rebuild required | Build heavy gantry and vehicle assembly bed with legible assembly motion; preserve prototype contract. |
 | Steam Compressor | V2 owner-identified barrel source | accepted integrated | Preserve operational barrel compressor and delivery receipts; no cosmetic rework. |
@@ -58,7 +58,7 @@ Follow docs/art/OPERATIONAL_FINISH_POLICY.md: prioritize working animated integr
 - Primitive Steam-Powered Pump: [FMPL_MODEL.json](../../models/island-survival/primitive-steam-powered-pump/v3/FMPL_MODEL.json), [engine-receipt.json](../../docs/art/primitive-pipe-pump-v3/engine-receipt.json), [capture-receipt.json](../../docs/art/primitive-pipe-pump-v3/capture-receipt.json), [verification.json](../../docs/art/checkpoint-2026-11-16/verification.json)
 - Fish Pond: [README.md](../../docs/art/fish-pond-v2/README.md), [FMPL_MODEL.json](../../models/island-survival/fish-pond/v2/FMPL_MODEL.json), [verification.json](../../docs/art/checkpoint-2026-11-16/verification.json)
 - Stone Water Wheel: [WORK_ORDER.md](../../models/island-survival/stone-water-wheel/v1/WORK_ORDER.md)
-- Wood Basin: [designs.json](../../models/island-survival/designs.json)
+- Wood Basin: [FMPL_MODEL.json](../../models/island-survival/wood-basin/v1/FMPL_MODEL.json), [engine-receipt.json](../../docs/art/wood-basin-v1/engine-receipt.json), [capture-verification.json](../../docs/art/wood-basin-v1/capture-verification.json)
 - Tank Ammunition Assembler: [designs.json](../../models/island-survival/designs.json)
 - Tank Assembling Machine: [designs.json](../../models/island-survival/designs.json)
 - Steam Compressor: [FMPL_MODEL.json](../../models/island-survival/steam-compressor/v2/FMPL_MODEL.json), [engine-receipt.json](../../docs/art/steam-compressor-v2/engine-receipt.json), [capture-receipt.json](../../docs/art/steam-compressor-v2/capture-receipt.json)

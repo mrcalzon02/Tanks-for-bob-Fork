@@ -1,0 +1,1 @@
+{"passed":true,"tanks":12,"cardinal_tests":4,"native_art_orientations":2,"capacity":25000,"normal_player_grid_connections":48,"fluids":["water","crude-oil","steam"],"external_pump_fill_drain":true,"no_tank_fuel_or_power":true,"blocked_full":true,"stop_restart":true,"prototype_overrides":false}

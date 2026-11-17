@@ -3,6 +3,11 @@
 The previous enduring goal is **paused**. This handoff preserves work and
 prepares a new discussion; it does not resume modeling by itself.
 
+**Continuation checkpoint:** the new enduring goal is active. The corrected
+barrel-source Steam Compressor and Wood Basin have since reached operational
+integration. Read the current JSON ledger for delivery receipts and remaining
+scope; the counts below describe the original saved baseline.
+
 ## Current state
 
 - Repository: `mrcalzon02/Tanks-for-bob-Fork`.

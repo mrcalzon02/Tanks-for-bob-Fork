@@ -1,0 +1,125 @@
+{
+  "schema": "tanks.wood-basin.v1.contract",
+  "source_commit": "14ac8dc68849e3cebcf919ba71f8797078098045",
+  "active_mod": "tanks_for_bob_fork_1.8.104",
+  "entity": "storage-tank/wood-basin",
+  "item": "wood-basin",
+  "building_recipe": {
+    "name": "wood-basin",
+    "category": "Seablock",
+    "seconds": 25,
+    "ingredients": {
+      "wood": 18,
+      "stone": 8,
+      "stone-tools": 1
+    },
+    "results": {
+      "wood-basin": 1
+    },
+    "byproduct": {
+      "tank-ammo-Industrialwaste": {
+        "amount": 1,
+        "probability": 0.05
+      }
+    }
+  },
+  "technology": {
+    "name": "wood-basin",
+    "prerequisites": [
+      "beachpump"
+    ],
+    "count": 5,
+    "ingredients": {
+      "Seared-fish": 1
+    },
+    "seconds": 10
+  },
+  "processing_recipes": [],
+  "power_fuel": "none; passive storage",
+  "footprint_tiles": [
+    3,
+    3
+  ],
+  "collision_box": [
+    [
+      -1.3,
+      -1.3
+    ],
+    [
+      1.3,
+      1.3
+    ]
+  ],
+  "fluid_volume": 25000,
+  "connections": [
+    {
+      "position": [
+        -1,
+        -1
+      ],
+      "direction": "north",
+      "flow": "input-output",
+      "model_joint": [
+        -1,
+        1.5,
+        0.36
+      ]
+    },
+    {
+      "position": [
+        1,
+        1
+      ],
+      "direction": "east",
+      "flow": "input-output",
+      "model_joint": [
+        1.5,
+        -1,
+        0.36
+      ]
+    },
+    {
+      "position": [
+        1,
+        1
+      ],
+      "direction": "south",
+      "flow": "input-output",
+      "model_joint": [
+        1,
+        -1.5,
+        0.36
+      ]
+    },
+    {
+      "position": [
+        -1,
+        -1
+      ],
+      "direction": "west",
+      "flow": "input-output",
+      "model_joint": [
+        -1.5,
+        1,
+        0.36
+      ]
+    }
+  ],
+  "supported_orientations": [
+    "north/south same",
+    "east/west same"
+  ],
+  "two_direction_only": true,
+  "source": {
+    "path": "models\\island-survival\\wood-basin\\v1\\starter-wood-basin.obj",
+    "sha256": "fb303fba8357ad5418e4f18558effe767753d1f01a258e4ed9ff198e7592fb70"
+  },
+  "reuse": "Refine square cistern floor and four corner-post groups from the existing OBJ; replace rough slab walls with supported timber staves, restraint bands and fixed corner manifolds. Old design JSON 2x2 is superseded by actual 3x3 entity.",
+  "surface_plan": {
+    "staves_floor_lid": "individual longitudinal oak grain and real cut end rings",
+    "bands_ports": "dark iron with restrained oxidation",
+    "fasteners_window": "bronze and clouded glass; native tint/level display",
+    "foundation": "four rough stone piers; no universal concrete pad"
+  },
+  "animation": "Storage has no motor. Editable source demonstrates filling/draining in the sight panels; native game uses actual fluid ratio, scrolling liquid flow and gas animation in that window. Never bake permanently full liquid into the body sprite."
+}

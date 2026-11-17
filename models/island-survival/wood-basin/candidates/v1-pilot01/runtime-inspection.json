@@ -1,0 +1,209 @@
+{
+  "technical_checks_passed": false,
+  "source_sha256": "3cd8ac4155c6a9307b3d48a54e4de01f9adcf83dbf70ee87e5eeb8c5ae37504a",
+  "glb_sha256": "4ed111d15ef2fa812c0828813bbe7b2720c5e83de4d0142d708109705a2f3fda",
+  "source": {
+    "mesh_count": 131,
+    "triangles": 30868,
+    "min": [
+      -1.5,
+      -1.5,
+      0.0
+    ],
+    "max": [
+      1.5,
+      1.5,
+      1.6125000715255737
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {
+      "BASIN | REUSED wood-basin_stave__0_68_0_68": 179
+    }
+  },
+  "runtime": {
+    "mesh_count": 131,
+    "triangles": 30868,
+    "min": [
+      -1.5,
+      -1.5000001192092896,
+      0.0
+    ],
+    "max": [
+      1.5000001192092896,
+      1.5,
+      1.6125000715255737
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {
+      "BASIN | REUSED wood-basin_stave__0_68_0_68": 179
+    }
+  },
+  "pose_bounds_errors": {
+    "1": 2.980232238769531e-07,
+    "13": 2.980232238769531e-07,
+    "25": 2.980232238769531e-07,
+    "49": 2.980232238769531e-07,
+    "73": 2.980232238769531e-07,
+    "97": 2.980232238769531e-07
+  },
+  "cycle_seam_error": 0.0,
+  "fixed_socket_motion": 0.0,
+  "moving_parts": [
+    "BASIN | south PREVIEW fluid fill",
+    "BASIN | east PREVIEW fluid fill",
+    "BASIN | north PREVIEW fluid fill",
+    "BASIN | west PREVIEW fluid fill"
+  ],
+  "packed_images": [
+    {
+      "name": "aged-copper-jacket-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "embedded_export_images": 18,
+  "animation_count": 1,
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}

@@ -1,0 +1,571 @@
+{
+  "schema": "tanks.wood-basin.v1.capture",
+  "source_sha256": "327f82edc225bfa5f108a22b6d3512121d8ce1bdc374e69b077f219ed5bf7556",
+  "runtime_sha256": "0a29c95b72593576bb6ec64100ab810b730de962bf03afa55c74d188ac7ae20c",
+  "genuine_blender_frames": 68,
+  "images": [
+    {
+      "file": "north-idle-00.png",
+      "facing": "north",
+      "state": "idle",
+      "index": 0,
+      "source_frame": 0,
+      "sha256": "e01024f28e4a5c29dd5490d4e655474491508494b3127a0d5549aa5798601b39"
+    },
+    {
+      "file": "north-fill-preview-00.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 0,
+      "source_frame": 1,
+      "sha256": "e4b162d2648aa343fa52b7a16c8c4bd2fc1eb2a41a3dc98cec6e4860983d1fb0"
+    },
+    {
+      "file": "north-fill-preview-01.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 1,
+      "source_frame": 7,
+      "sha256": "0d6836d8546d64f6f37c5d1064cb21be443a03efc46e6a27c47648e8ea6dc13e"
+    },
+    {
+      "file": "north-fill-preview-02.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 2,
+      "source_frame": 13,
+      "sha256": "36458db949c83dfa8f08220770d68e1bbf4741288eac317018265fe1f97a8ec2"
+    },
+    {
+      "file": "north-fill-preview-03.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 3,
+      "source_frame": 19,
+      "sha256": "6cd9e3095c46e9253da6840890265b551b81919b29b6cdef4df0d1d8f7a36906"
+    },
+    {
+      "file": "north-fill-preview-04.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 4,
+      "source_frame": 25,
+      "sha256": "9a26801e5b5b0443ba8927f7684950c99bf782d6c6d40626262219caeedafa50"
+    },
+    {
+      "file": "north-fill-preview-05.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 5,
+      "source_frame": 31,
+      "sha256": "52514da6c3d68ffb79a1307d71b976fee9ef9e35e4e509e54bfcc105f1a422be"
+    },
+    {
+      "file": "north-fill-preview-06.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 6,
+      "source_frame": 37,
+      "sha256": "6028b254043e9b4eaf744c31016fbd155c69f0ab005e031647bd8aeac6a97aec"
+    },
+    {
+      "file": "north-fill-preview-07.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 7,
+      "source_frame": 43,
+      "sha256": "366225609686ef994bc8d275eeb169f239563849403ad9c73c90d16de4e41aba"
+    },
+    {
+      "file": "north-fill-preview-08.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 8,
+      "source_frame": 49,
+      "sha256": "a3a3ce814b5e80554105168c337b9dbc3e41f55c291074c0babce0f79ba0d805"
+    },
+    {
+      "file": "north-fill-preview-09.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 9,
+      "source_frame": 55,
+      "sha256": "0a3a1f20b24dce87c9a4daa0f0c557b29b57eb7b184cae618721a6c14b81a7b6"
+    },
+    {
+      "file": "north-fill-preview-10.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 10,
+      "source_frame": 61,
+      "sha256": "b1b8d745017f6a615a88812e5b601f01f024b8c9834f4d3cee11c8c978fbe7ea"
+    },
+    {
+      "file": "north-fill-preview-11.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 11,
+      "source_frame": 67,
+      "sha256": "9c9f9d2405e56925c890d847f5e567d521b3ac68af61459118b8ac0fedbffdbe"
+    },
+    {
+      "file": "north-fill-preview-12.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 12,
+      "source_frame": 73,
+      "sha256": "f5c14dc921665e7e3f6d3b80b61661b243a78a189299302dbf66178bd128f718"
+    },
+    {
+      "file": "north-fill-preview-13.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 13,
+      "source_frame": 79,
+      "sha256": "a047e4692551496f74527ae29ee47c8a1197825d02a62568148a45499ffd3d3e"
+    },
+    {
+      "file": "north-fill-preview-14.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 14,
+      "source_frame": 85,
+      "sha256": "34b4fb81c0b699dfb7f55e5879ebed8973f313f7dece6c6de9bd18b2e481f382"
+    },
+    {
+      "file": "north-fill-preview-15.png",
+      "facing": "north",
+      "state": "fill-preview",
+      "index": 15,
+      "source_frame": 91,
+      "sha256": "205d681c98e4607f4873dcb83c212f5ccee3b9e133203af05873e9612d484112"
+    },
+    {
+      "file": "east-idle-00.png",
+      "facing": "east",
+      "state": "idle",
+      "index": 0,
+      "source_frame": 0,
+      "sha256": "cae9c108265eab270c410f6d42f017458d4951669eaee8b97e885ece4fb38739"
+    },
+    {
+      "file": "east-fill-preview-00.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 0,
+      "source_frame": 1,
+      "sha256": "14fb5ba284e68d3b768db4e74d8feb183f67627de2e601f83871dc7a0a4c676c"
+    },
+    {
+      "file": "east-fill-preview-01.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 1,
+      "source_frame": 7,
+      "sha256": "2ab1b348138483748f645784b07bb287d3bf0e1907a57335a7e75f15c02994f7"
+    },
+    {
+      "file": "east-fill-preview-02.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 2,
+      "source_frame": 13,
+      "sha256": "aa62a6bac96e0d8d54dd4ddbb8181907a4fae2407a3dc757e14df64f94d1e1a3"
+    },
+    {
+      "file": "east-fill-preview-03.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 3,
+      "source_frame": 19,
+      "sha256": "f528be50537d7285bdf841c8ce94f44ef1aa035574bacaab0674f6b27d7fa464"
+    },
+    {
+      "file": "east-fill-preview-04.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 4,
+      "source_frame": 25,
+      "sha256": "dbb5ace7e3b6110e6e39cae46699d860ba8e7210cd30faf097e4ed176f16fb3a"
+    },
+    {
+      "file": "east-fill-preview-05.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 5,
+      "source_frame": 31,
+      "sha256": "d1c8898ebde1449cf560dc20a323dc380a932eb750f0203f4fa3ba1ee35f086f"
+    },
+    {
+      "file": "east-fill-preview-06.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 6,
+      "source_frame": 37,
+      "sha256": "963d4f3475b822cbf2670b9f3762e94b930f2ba0ffb619dd70f562c4226219e3"
+    },
+    {
+      "file": "east-fill-preview-07.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 7,
+      "source_frame": 43,
+      "sha256": "f277fd90efdfe41b024744eab9532d77c2d61cec4b6d4a7b42930634b78d48ae"
+    },
+    {
+      "file": "east-fill-preview-08.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 8,
+      "source_frame": 49,
+      "sha256": "8122f2f675643220fd2da3dfe8cb143dfe28a2b54cc6f6aacae0118ee4271d04"
+    },
+    {
+      "file": "east-fill-preview-09.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 9,
+      "source_frame": 55,
+      "sha256": "41270f4fdfbe32f717dbac8e344e2325764c1e5194c1ef517bcd7664890099a4"
+    },
+    {
+      "file": "east-fill-preview-10.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 10,
+      "source_frame": 61,
+      "sha256": "8dd2db6e92ed91a273f92fc97edf154c7755210f8d77d3b6efd085832e05a4b9"
+    },
+    {
+      "file": "east-fill-preview-11.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 11,
+      "source_frame": 67,
+      "sha256": "eabb5e2cc7bcd74fac86147ce25822180881b095f7464b6586dcab1badd9ff84"
+    },
+    {
+      "file": "east-fill-preview-12.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 12,
+      "source_frame": 73,
+      "sha256": "5880a9c2fdd318adf9c2b0dd0181803e1d3ec9c84d0bf32ab41758d890266886"
+    },
+    {
+      "file": "east-fill-preview-13.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 13,
+      "source_frame": 79,
+      "sha256": "4aa12e7cb03087a865bddbd9b542f1732970b22e3b477129f49bbadb4e447b1c"
+    },
+    {
+      "file": "east-fill-preview-14.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 14,
+      "source_frame": 85,
+      "sha256": "5b09dfbf565dae5e708d14a8353c5b48818079a96bff05d7729713c03424649d"
+    },
+    {
+      "file": "east-fill-preview-15.png",
+      "facing": "east",
+      "state": "fill-preview",
+      "index": 15,
+      "source_frame": 91,
+      "sha256": "0f5bbb4b89db486a1a7f9fdda6ad349f831032dec0cf7bae5b7787cc09c24a24"
+    },
+    {
+      "file": "south-idle-00.png",
+      "facing": "south",
+      "state": "idle",
+      "index": 0,
+      "source_frame": 0,
+      "sha256": "425253570dd88bb894a841bdf806863afe114494c1f28cbb8e8caa6694d79780"
+    },
+    {
+      "file": "south-fill-preview-00.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 0,
+      "source_frame": 1,
+      "sha256": "76af05983dc634e62dfd8bc84a774d1dfbc8b9efdb223f9c8fde67a84a82b02d"
+    },
+    {
+      "file": "south-fill-preview-01.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 1,
+      "source_frame": 7,
+      "sha256": "2e8d84ceb6c4f34d07ba88b8c4511aafbcba0edae07b5e54057f9f9247b0dc62"
+    },
+    {
+      "file": "south-fill-preview-02.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 2,
+      "source_frame": 13,
+      "sha256": "b34f994bd41b5ab58aee5d4ad19bc312e6502927bc2254d702afc9de52f469ef"
+    },
+    {
+      "file": "south-fill-preview-03.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 3,
+      "source_frame": 19,
+      "sha256": "029f9406eeac2c7f50e1629ee9cba6446819203feec50304a64912792b11eb3d"
+    },
+    {
+      "file": "south-fill-preview-04.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 4,
+      "source_frame": 25,
+      "sha256": "2a477f6fc36c602f59460c7e5cd7f6b35c1a546be0117c1053c980126b8b1cac"
+    },
+    {
+      "file": "south-fill-preview-05.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 5,
+      "source_frame": 31,
+      "sha256": "42c945ce7afca4f2c5683f1bca14edf35d2f0fc809316ab8a008e7a4a41108d7"
+    },
+    {
+      "file": "south-fill-preview-06.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 6,
+      "source_frame": 37,
+      "sha256": "43c484d2a8b7413adc16cb0d856b6334545738ba33d2fbc9339fbf326c492997"
+    },
+    {
+      "file": "south-fill-preview-07.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 7,
+      "source_frame": 43,
+      "sha256": "674cf573278c5fac2802e1903aab3753f27b4a8c9ac9d24b59eb236311a60e3d"
+    },
+    {
+      "file": "south-fill-preview-08.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 8,
+      "source_frame": 49,
+      "sha256": "4cdbe44d74eee2013ed81065c2aaae7073d2bcbaa4a883a6b33f7e1042456553"
+    },
+    {
+      "file": "south-fill-preview-09.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 9,
+      "source_frame": 55,
+      "sha256": "05c933b137e8d8583f83a3b024e1100a8d7613f556e1d8e840339fcf688f628b"
+    },
+    {
+      "file": "south-fill-preview-10.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 10,
+      "source_frame": 61,
+      "sha256": "b1d74551cfb618ca3cf004adb5022c6955cb857cd586faf74117b356ebeca4b7"
+    },
+    {
+      "file": "south-fill-preview-11.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 11,
+      "source_frame": 67,
+      "sha256": "31af4b9264b8c80fb153a616f4aeb4c368eaded1d929f8803b86fc945cdde9ea"
+    },
+    {
+      "file": "south-fill-preview-12.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 12,
+      "source_frame": 73,
+      "sha256": "2cf079b8a6fceca17cef430cfdcefa97aaa1e920d47680ff0c817236cffa204f"
+    },
+    {
+      "file": "south-fill-preview-13.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 13,
+      "source_frame": 79,
+      "sha256": "3a1838831e697fa9a4433b29019b6097c77a232e1855ec6a32f2aeb55cb24194"
+    },
+    {
+      "file": "south-fill-preview-14.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 14,
+      "source_frame": 85,
+      "sha256": "50f992b81177f03eca4743138d4d5b9a04fd8b09f68092c585f65065234c2ad1"
+    },
+    {
+      "file": "south-fill-preview-15.png",
+      "facing": "south",
+      "state": "fill-preview",
+      "index": 15,
+      "source_frame": 91,
+      "sha256": "faa2b7dc5bc229f6245bc7bec2c4633be6d2b611fa03ed7809d13fda45821a53"
+    },
+    {
+      "file": "west-idle-00.png",
+      "facing": "west",
+      "state": "idle",
+      "index": 0,
+      "source_frame": 0,
+      "sha256": "9b3bd5464b4b98b1da206d9ab3aba969d25a09a1f1c078ee9875731dc5532c42"
+    },
+    {
+      "file": "west-fill-preview-00.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 0,
+      "source_frame": 1,
+      "sha256": "58d5b5723ad46026876d24b008f9b14fa947f2edeffdc0687403de08b20e555c"
+    },
+    {
+      "file": "west-fill-preview-01.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 1,
+      "source_frame": 7,
+      "sha256": "996da4392919bd065e6df2c5bb3c91baca2c81e308466b91aedd6c22d5edd98e"
+    },
+    {
+      "file": "west-fill-preview-02.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 2,
+      "source_frame": 13,
+      "sha256": "036ff5c267cc0bb2b54abb5b4e0197f5fec4e090e7eba6ac5a265120da434903"
+    },
+    {
+      "file": "west-fill-preview-03.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 3,
+      "source_frame": 19,
+      "sha256": "34cb7128cf9ff5b3fc5985316c5a80d5e2f8f15b2c5d9c5d1553e90795735c76"
+    },
+    {
+      "file": "west-fill-preview-04.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 4,
+      "source_frame": 25,
+      "sha256": "b55b1a2703e3640c07aa2f4b48426a67a97816309203fc6dff0ba313717a97a5"
+    },
+    {
+      "file": "west-fill-preview-05.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 5,
+      "source_frame": 31,
+      "sha256": "afb7ec1803c1e18d937aa9a4d7010227b49289b2bd7a91b0eabfb10b1d081f6e"
+    },
+    {
+      "file": "west-fill-preview-06.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 6,
+      "source_frame": 37,
+      "sha256": "a2a49fe0a9203dd91c6b4d655d43856787af1e2f0be2a423f813b4797b9619fe"
+    },
+    {
+      "file": "west-fill-preview-07.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 7,
+      "source_frame": 43,
+      "sha256": "93df2e8e5dd6a8f3e3e2bc10700ff6df0f5ba27ab5000c344375c47b21abaf78"
+    },
+    {
+      "file": "west-fill-preview-08.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 8,
+      "source_frame": 49,
+      "sha256": "f508b0f8e5d6991e181c2ad5348d028badc0b33da507270bb2d1984014848d82"
+    },
+    {
+      "file": "west-fill-preview-09.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 9,
+      "source_frame": 55,
+      "sha256": "a7fd58dff916ed593e17a94d7fbfab222ae67e08c77e49a2d3f104e71c168b3e"
+    },
+    {
+      "file": "west-fill-preview-10.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 10,
+      "source_frame": 61,
+      "sha256": "819465f395b4b8cf3c58d929fe4c4711dec04bf9ee4f99a5dd6bb4bc74d5bf2e"
+    },
+    {
+      "file": "west-fill-preview-11.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 11,
+      "source_frame": 67,
+      "sha256": "69f679b755ca50a6f87abbdde1599ee184e16be229a1f96d4716a813d19d9e41"
+    },
+    {
+      "file": "west-fill-preview-12.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 12,
+      "source_frame": 73,
+      "sha256": "7bf2581fd36b1c0ddc336d38e7ecea63a9e7743525c80ac8a8953f446efbed58"
+    },
+    {
+      "file": "west-fill-preview-13.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 13,
+      "source_frame": 79,
+      "sha256": "df4d7e8004b8fa7aa2c11589bcc8f4170e648429d08b25c4ab64bd9a2f56b5ff"
+    },
+    {
+      "file": "west-fill-preview-14.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 14,
+      "source_frame": 85,
+      "sha256": "195794213c77a691e860c5410ae22e4d81e8e9694af0f426246c328db74b06da"
+    },
+    {
+      "file": "west-fill-preview-15.png",
+      "facing": "west",
+      "state": "fill-preview",
+      "index": 15,
+      "source_frame": 91,
+      "sha256": "ae150add9d5d6c7238315b6f83392895436db5565569bf373ca60ef960219fdf"
+    }
+  ],
+  "frame_size": [
+    256,
+    256
+  ],
+  "source_preview_fps": 8,
+  "native_body_frames_per_facing": 1,
+  "native_fluid_animation": "Actual tank fluid ratio, scrolling flow_sprite and gas_flow; source fill-preview frames are evidence, not a forced working animation.",
+  "native_projection": {
+    "global_ground_y_scale": 1.4142135623730951,
+    "runtime_geometry_changed": false
+  },
+  "files": {
+    "body-256.png": "729d1b22fcb0502789c3cf0b5531ccb5cbd898c0f4541102ea13e22c661d11a0",
+    "icon-64.png": "7a2bec328918972e78eaae1142045db583686c88c4533cfa2e461b408aecacb1",
+    "fluid-background.png": "ce10cdcd0b28e51a96c24b5b95ac2f07b6cf0ded2f5c5f2f2418e71265d89e4e",
+    "window-background.png": "e5a46838f3ac647862ed3fb9734661ffae662422b30e60f25d6451aa8b1510e8"
+  },
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}

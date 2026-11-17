@@ -1,0 +1,14 @@
+{
+  "starter_sha256": "fb303fba8357ad5418e4f18558effe767753d1f01a258e4ed9ff198e7592fb70",
+  "reused_groups": [
+    "BASIN | REUSED wood-basin_floor",
+    "BASIN | REUSED wood-basin_stave__0_68__0_68",
+    "BASIN | REUSED wood-basin_stave__0_68_0_68",
+    "BASIN | REUSED wood-basin_stave_0_68__0_68",
+    "BASIN | REUSED wood-basin_stave_0_68_0_68"
+  ],
+  "reused_geometry_refined_to_native_3x3": true,
+  "source_sha256": "6a8385f5fe4fa53dd5e5d65e572bed6258c3ae52128dbd3da2c6f4f979cff94e",
+  "runtime_sha256": "fb0535022f20d69a022cc463f568e0ab5f25bc9c63bf6d1550363d8a8e34a16a",
+  "liquid_preview": "Editable fill/drain demonstrator only; native body captures exclude it and actual game window uses tank contents"
+}

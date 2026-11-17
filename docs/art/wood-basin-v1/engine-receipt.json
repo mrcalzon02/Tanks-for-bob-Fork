@@ -1,0 +1,14 @@
+{
+  "engine": "Version: 2.1.24 (build 87808, win64, steam)\nVersion: 64\nMap input version: 1.0.0-0\nMap output version: 2.1.24-1",
+  "exit_code": 0,
+  "native_pass": true,
+  "reload_pass": true,
+  "visual_alignment_verified": true,
+  "saved_fixture": "C:\\Users\\Admin\\Documents\\ChatGPT\\Tech priests\\tanks-structure-production\\build\\wood-basin-v1-native-final\\wood-basin-v1-proof.zip",
+  "filled_state_reload_pass": true,
+  "saved_fluids_amounts_temperatures_and_48_connections_verified": true,
+  "filled_state_sha256": "8c08653a4b1375b3adbac7b98d2875568110a27cf40b35987b9709c4b7a2187f",
+  "source_snapshot": "source-snapshot.json",
+  "real_transfer_fixture": "Native headless fixture uses actual external pumps to fill all tanks to capacity, block, stop, drain and restart.",
+  "graphical_fixture": "Client fixture seeds empty/half/full/drained/refill levels for clean state comparisons; no prototype or graphics overrides."
+}
