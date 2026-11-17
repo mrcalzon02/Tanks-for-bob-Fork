@@ -6,7 +6,7 @@ Updated 2026-11-16 against `7290824bf43711d0bb31bd8e2969c51459864f91`.
 
 Owner priority 2026-11-15: finish working, animated, operational and close enough; defer cosmetic polish. Preserve accepted art and verify actual prototype behavior. Track source/export/FMPL receipts honestly; missing receipts are pending, never automatic PASS. See docs/art/OPERATIONAL_FINISH_POLICY.md.
 
-**11 accepted/integrated; 1 advanced with open work; 9 requiring substantial production. Current focus: Steam Compressor.**
+**11 accepted/integrated; 1 advanced with open work; 9 requiring substantial production. Current focus: Wood Basin.**
 
 | Structure | Latest known revision | Status | Remaining action |
 | --- | --- | --- | --- |
@@ -25,7 +25,7 @@ Owner priority 2026-11-15: finish working, animated, operational and close enoug
 | Wood Basin | OBJ blockout | rebuild required | Author timber-stave cistern, hoops, visible level/window; preserve 25000 volume and four declared corner connections/two-direction contract. |
 | Tank Ammunition Assembler | OBJ blockout | rebuild required | Build distinct component/ammunition process, feed and discharge, moving tooling; verify native north/south fluids. |
 | Tank Assembling Machine | OBJ blockout | rebuild required | Build heavy gantry and vehicle assembly bed with legible assembly motion; preserve prototype contract. |
-| Steam Compressor | V2 owner-identified barrel source | accepted integrated | Preserve operational barrel compressor; finish canonical FMPL remote registration receipt before next machine. |
+| Steam Compressor | V2 owner-identified barrel source | accepted integrated | Preserve operational barrel compressor and delivery receipts; no cosmetic rework. |
 | Quarry | OBJ blockout | rebuild required | Build supported excavation hoist, real cable path and lifted stone with readable working loop. |
 | Shaler | OBJ blockout | rebuild required | Build crushing jaws, constrained transmission, material feed/discharge and cycle. |
 | Calcifier | OBJ blockout | rebuild required | Build mineral furnace, charge/discharge, localized fuel/heat/exhaust and working states. |

@@ -184,7 +184,8 @@
         "models/island-survival/designs.json"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false
+      "done": false,
+      "active": true
     },
     {
       "id": "tank-ammo-assembling-machine",
@@ -218,15 +219,15 @@
       "revision": "V2 owner-identified barrel source",
       "status": "accepted_integrated",
       "priority": 16,
-      "next": "Preserve operational barrel compressor; finish canonical FMPL remote registration receipt before next machine.",
+      "next": "Preserve operational barrel compressor and delivery receipts; no cosmetic rework.",
       "evidence": [
         "models/island-survival/steam-compressor/v2/FMPL_MODEL.json",
         "docs/art/steam-compressor-v2/engine-receipt.json",
         "docs/art/steam-compressor-v2/capture-receipt.json"
       ],
-      "fmpl_delivery": "Saved/reopened source, actual animated embedded-image GLB reimport, 68 frames, native recipe/fuel/grid/blocking/restart/completed-save reload passed. Canonical registry write pending verified source commit.",
+      "fmpl_delivery": "Registered and remotely read back in canonical FMPL at 07ca4a0673d9ef69203aa95ad1c3bec7bed5fe47; source/export at Tanks commit 180b24a221b1b24805dd63d27bb17ba99ee0cd8f, 68 frames and actual native operations/reload verified.",
       "done": true,
-      "active": true
+      "active": false
     },
     {
       "id": "quarry",
@@ -294,12 +295,12 @@
       "done": false
     }
   ],
-  "active_structure": "Steam-Compressor",
+  "active_structure": "wood-basin",
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
     "2026-11-15: Resolve shoreline intake versus pipe-to-pipe pump purpose; current focus is the existing Primitive Steam-Powered Pump candidate.",
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration."
   ],
-  "production_state": "active; compressor operational, remote delivery and registry checkpoint in progress"
+  "production_state": "active; compressor delivered and registered, next actual gameplay contract is wood-basin"
 }
