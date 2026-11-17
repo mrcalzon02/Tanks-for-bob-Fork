@@ -1,0 +1,397 @@
+{
+  "technical_checks_passed": true,
+  "source_sha256": "1876df147328fc5a49be6cb0206693ddb986c97b648c049c3fe5b64104264030",
+  "glb_sha256": "2f79a3fb1d7ddbea3d20685cdf635817b1d63ff894a81cca5c4a7db4e9becd61",
+  "source": {
+    "mesh_count": 128,
+    "triangles": 33000,
+    "min": [
+      -1.4500000476837158,
+      -1.4500000476837158,
+      0.0
+    ],
+    "max": [
+      1.4500000476837158,
+      1.4500000476837158,
+      2.4650001525878906
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "runtime": {
+    "mesh_count": 128,
+    "triangles": 33000,
+    "min": [
+      -1.4500000476837158,
+      -1.4500000476837158,
+      0.0
+    ],
+    "max": [
+      1.4500000476837158,
+      1.4500000476837158,
+      2.4650001525878906
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "pose_bounds_errors": {
+    "1": 2.384185791015625e-07,
+    "25": 4.76837158203125e-07,
+    "49": 2.384185791015625e-07,
+    "97": 2.384185791015625e-07,
+    "145": 2.384185791015625e-07,
+    "193": 2.384185791015625e-07
+  },
+  "cycle_seam_error": 0.0,
+  "fixed_socket_motion": 0.0,
+  "moving_parts": [
+    "QUARRY | bucket floor plank",
+    "QUARRY | bucket floor plank.001",
+    "QUARRY | bucket floor plank.002",
+    "QUARRY | bucket floor plank.003",
+    "QUARRY | bucket floor plank.004",
+    "QUARRY | bucket side stave",
+    "QUARRY | bucket end stave",
+    "QUARRY | bucket side stave.001",
+    "QUARRY | bucket end stave.001",
+    "QUARRY | bucket side stave.002",
+    "QUARRY | bucket end stave.002",
+    "QUARRY | bucket side stave.003",
+    "QUARRY | bucket end stave.003",
+    "QUARRY | bucket side stave.004",
+    "QUARRY | bucket end stave.004",
+    "QUARRY | bucket side restraint",
+    "QUARRY | bucket end restraint",
+    "QUARRY | bucket side restraint.001",
+    "QUARRY | bucket end restraint.001",
+    "QUARRY | bucket handle upright",
+    "QUARRY | bucket side stave.005",
+    "QUARRY | bucket end stave.005",
+    "QUARRY | bucket side stave.006",
+    "QUARRY | bucket end stave.006",
+    "QUARRY | bucket side stave.007",
+    "QUARRY | bucket end stave.007",
+    "QUARRY | bucket side stave.008",
+    "QUARRY | bucket end stave.008",
+    "QUARRY | bucket side stave.009",
+    "QUARRY | bucket end stave.009",
+    "QUARRY | bucket side restraint.002",
+    "QUARRY | bucket end restraint.002",
+    "QUARRY | bucket side restraint.003",
+    "QUARRY | bucket end restraint.003",
+    "QUARRY | bucket handle upright.001",
+    "QUARRY | bucket lifting yoke",
+    "QUARRY | bucket rope eye",
+    "QUARRY | reused lifted stone",
+    "QUARRY | taut lifting cable",
+    "QUARRY | pulley face spoke",
+    "QUARRY | pulley face spoke.001",
+    "QUARRY | pulley face spoke.002",
+    "QUARRY | pulley face spoke.003",
+    "QUARRY | pulley face spoke.004",
+    "QUARRY | pulley face spoke.005",
+    "QUARRY | retained engine crank pin",
+    "QUARRY | guided working piston",
+    "QUARRY | crosshead slider",
+    "QUARRY | rigid engine connecting rod",
+    "QUARRY | travelling cord splice 0",
+    "QUARRY | travelling cord splice 1",
+    "QUARRY | travelling cord splice 2"
+  ],
+  "packed_images": [
+    {
+      "name": "aged-copper-jacket-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-copper-seam-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-copper-seam-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-copper-seam-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-iron-seam-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-iron-seam-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-iron-seam-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-soil-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-soil-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-soil-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-stone-bed-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-stone-bed-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-stone-bed-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-stone-face-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-stone-face-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-stone-face-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-twisted-hemp-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-twisted-hemp-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-twisted-hemp-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "embedded_export_images": 36,
+  "animation_count": 1,
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}

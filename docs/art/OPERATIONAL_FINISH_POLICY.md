@@ -18,3 +18,16 @@ prototype contracts still require correction. Missing source/export/FMPL
 receipts stay honestly pending without blocking unrelated operational work.
 Do not claim individual owner visual approval where only delegated production
 judgment was given.
+
+## Quarry correction — 2026-11-16
+
+The owner rejected Quarry V1 as “still really ultra rough” and said a machine
+like this “is complex and needs detail”. Its technically valid mechanism is
+useful construction work, not accepted finished art. Develop the excavation,
+supported timber joints and bracing, windlass/bearings/rope handling, thermal
+drive and recipe-related material handling before promotion. This correction
+does not reopen the already accepted structures for cosmetic rebuilding.
+
+The owner also rejected sharp natural rock edges and boulder-like bases that
+read as objects stuck onto terrain. Require a continuous excavated landform,
+buried roots and ground transitions before treating the quarry as close enough.

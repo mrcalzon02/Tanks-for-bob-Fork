@@ -1,0 +1,14 @@
+{
+  "parent_sha256": "601325c14a47d75dbd5a167f428e0ba7b5c89c41012b6885a0db010929b74bf5",
+  "source_sha256": "b71932df8ea05b8ff0bce278c8ead3c9c616fc3385083ea7f1163936dfc8537c",
+  "runtime_sha256": "82e205480c9bff7bf71c45fdb27cf764c3a20d45e463c46c2b399e75453f2b97",
+  "owner_feedback": "Natural stone edges are too sharp; held V1 also needs complex construction detail",
+  "natural_stone": "Joined fractured outcrop with rounded weathering/chipped transitions; straight faces restricted to extraction kerfs and worked machinery seats",
+  "mechanism_preserved": true,
+  "right_timber_heel_seated_on_bank": true,
+  "zero_area_repairs": {
+    "QUARRY | REUSED quarry_base_stone": 1291
+  },
+  "visual_approved": false,
+  "native_integrated": false
+}

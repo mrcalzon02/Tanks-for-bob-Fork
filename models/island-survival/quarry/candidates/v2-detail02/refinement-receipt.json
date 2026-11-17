@@ -1,0 +1,22 @@
+{
+  "parent_sha256": "1876df147328fc5a49be6cb0206693ddb986c97b648c049c3fe5b64104264030",
+  "source_sha256": "601325c14a47d75dbd5a167f428e0ba7b5c89c41012b6885a0db010929b74bf5",
+  "runtime_sha256": "182ea5071f26844d0f561c0dd5485566a23b4d7f67ae11a4b05b249b76e7607e",
+  "owner_request": "Complex quarry requires detail; V1 held as ultra rough",
+  "mechanism_retained": true,
+  "details": [
+    "Connected hewn bedrock and stepped benches with actual wedge kerfs",
+    "Irregular chipped floor, mineral fractures and seated splitting wedges",
+    "Split bored bearing blocks, bronze bushes, studs, washers and nuts",
+    "Bolted timber cheek straps, heel anchors and diagonal bracing",
+    "Spindle bores, laid rope coil and fixed cable guide",
+    "Cleaved cargo, bucket strap rivets and handle pins",
+    "Individual brick courses and fitted arch, grate, ash pan and mounted door",
+    "Seated riveted heat jacket, dished crown, relief and mechanical gauge",
+    "Bored drive cylinder, sealed heads, guide stops and their supports",
+    "Bonded brick stock, lashed laid tools and receiving skid"
+  ],
+  "zero_area_repairs": {},
+  "visual_approved": false,
+  "native_integrated": false
+}

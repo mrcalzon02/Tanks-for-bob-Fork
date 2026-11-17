@@ -1,0 +1,14 @@
+{
+  "parent_sha256": "b71932df8ea05b8ff0bce278c8ead3c9c616fc3385083ea7f1163936dfc8537c",
+  "source_sha256": "2be78ddea019d2c3826a016f02ff732027fdf61763a4a21cb0fc7c1fee9bb4ae",
+  "runtime_sha256": "73fc29d8eff401376169345cbcbfecc1074fd16b08f60638f7e5eb79e8dc0540",
+  "physical_voxel_scale": 0.012,
+  "physical_weathering_relief": 0.022,
+  "native_footprint_tiles": [
+    3,
+    3
+  ],
+  "worked_seats_and_kinematics_preserved": true,
+  "owner_visual_approved": false,
+  "native_integrated": false
+}

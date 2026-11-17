@@ -1,0 +1,12 @@
+{
+  "source_sha256": "2b0d1288a50be6ea9e859115ff84714a756d06e06fb4ffccf6a9566219315236",
+  "frames": 193,
+  "errors": {
+    "rod_endpoint_error": 1.884864366154897e-07,
+    "piston_endpoint_error": 5.960464477539063e-08,
+    "cable_endpoint_error": 2.384185791015625e-07,
+    "bucket_upright_error": 0.0,
+    "paid_rope_error": 7.343292235395538e-08
+  },
+  "passed": true
+}

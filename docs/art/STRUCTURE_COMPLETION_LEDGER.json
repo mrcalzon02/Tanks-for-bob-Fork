@@ -234,16 +234,20 @@
     {
       "id": "quarry",
       "name": "Quarry",
-      "revision": "OBJ blockout",
-      "status": "rebuild_required",
+      "revision": "V5 terrain correction in progress; held",
+      "status": "in_progress",
       "priority": 17,
-      "next": "Build supported excavation hoist, real cable path and lifted stone with readable working loop.",
+      "next": "Finish a natural continuous excavated landform; inspect source/export and preserve detailed working mechanism before sprites and integration.",
       "evidence": [
         "models/island-survival/designs.json"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
       "done": false,
-      "active": true
+      "active": true,
+      "owner_corrections": [
+        "Natural rock edges were too sharp; weather exposed natural surfaces while retaining deliberate worked cleavage.",
+        "Rock bases read as separate boulders stuck on terrain; require buried roots, continuous ground transition and irregular sloping perimeter."
+      ]
     },
     {
       "id": "shaler",
@@ -303,7 +307,8 @@
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
     "2026-11-15: Resolve shoreline intake versus pipe-to-pipe pump purpose; current focus is the existing Primitive Steam-Powered Pump candidate.",
-    "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration."
+    "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
+    "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
   "production_state": "active; corrected compressor and Wood Basin delivered; next establish the actual quarry gameplay contract"
 }

@@ -1,0 +1,416 @@
+{
+  "technical_checks_passed": true,
+  "source_sha256": "2b0d1288a50be6ea9e859115ff84714a756d06e06fb4ffccf6a9566219315236",
+  "glb_sha256": "c7a655e736700d4b1ba18fee0da2730dd8b0618a867e99c369a480db6b63c9f8",
+  "source": {
+    "mesh_count": 363,
+    "triangles": 113836,
+    "min": [
+      -1.4800000190734863,
+      -1.4800000190734863,
+      -0.17499998211860657
+    ],
+    "max": [
+      1.4800000190734863,
+      1.4800000190734863,
+      2.0450000762939453
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "runtime": {
+    "mesh_count": 363,
+    "triangles": 113836,
+    "min": [
+      -1.4800000190734863,
+      -1.4800000190734863,
+      -0.17499998211860657
+    ],
+    "max": [
+      1.4800000190734863,
+      1.4800000190734863,
+      2.0450000762939453
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "pose_bounds_errors": {
+    "1": 1.1920928955078125e-07,
+    "25": 1.1920928955078125e-07,
+    "49": 1.1920928955078125e-07,
+    "97": 1.1920928955078125e-07,
+    "145": 1.1920928955078125e-07,
+    "193": 1.1920928955078125e-07
+  },
+  "cycle_seam_error": 0.0,
+  "fixed_socket_motion": 0.0,
+  "moving_parts": [
+    "QUARRY | bucket floor plank",
+    "QUARRY | bucket floor plank.001",
+    "QUARRY | bucket floor plank.002",
+    "QUARRY | bucket floor plank.003",
+    "QUARRY | bucket floor plank.004",
+    "QUARRY | bucket side stave",
+    "QUARRY | bucket end stave",
+    "QUARRY | bucket side stave.001",
+    "QUARRY | bucket end stave.001",
+    "QUARRY | bucket side stave.002",
+    "QUARRY | bucket end stave.002",
+    "QUARRY | bucket side stave.003",
+    "QUARRY | bucket end stave.003",
+    "QUARRY | bucket side stave.004",
+    "QUARRY | bucket end stave.004",
+    "QUARRY | bucket side restraint",
+    "QUARRY | bucket end restraint",
+    "QUARRY | bucket side restraint.001",
+    "QUARRY | bucket end restraint.001",
+    "QUARRY | bucket handle upright",
+    "QUARRY | bucket side stave.005",
+    "QUARRY | bucket end stave.005",
+    "QUARRY | bucket side stave.006",
+    "QUARRY | bucket end stave.006",
+    "QUARRY | bucket side stave.007",
+    "QUARRY | bucket end stave.007",
+    "QUARRY | bucket side stave.008",
+    "QUARRY | bucket end stave.008",
+    "QUARRY | bucket side stave.009",
+    "QUARRY | bucket end stave.009",
+    "QUARRY | bucket side restraint.002",
+    "QUARRY | bucket end restraint.002",
+    "QUARRY | bucket side restraint.003",
+    "QUARRY | bucket end restraint.003",
+    "QUARRY | bucket handle upright.001",
+    "QUARRY | bucket lifting yoke",
+    "QUARRY | bucket rope eye",
+    "QUARRY | reused lifted stone",
+    "QUARRY | taut lifting cable",
+    "QUARRY | pulley face spoke",
+    "QUARRY | pulley face spoke.001",
+    "QUARRY | pulley face spoke.002",
+    "QUARRY | pulley face spoke.003",
+    "QUARRY | pulley face spoke.004",
+    "QUARRY | pulley face spoke.005",
+    "QUARRY | retained engine crank pin",
+    "QUARRY | guided working piston",
+    "QUARRY | crosshead slider",
+    "QUARRY | rigid engine connecting rod",
+    "QUARRY | travelling cord splice 0",
+    "QUARRY | travelling cord splice 1",
+    "QUARRY | travelling cord splice 2",
+    "QUARRY V2 | bucket side strap rivet",
+    "QUARRY V2 | bucket end strap rivet",
+    "QUARRY V2 | bucket side strap rivet.001",
+    "QUARRY V2 | bucket end strap rivet.001",
+    "QUARRY V2 | bucket side strap rivet.002",
+    "QUARRY V2 | bucket end strap rivet.002",
+    "QUARRY V2 | bucket side strap rivet.003",
+    "QUARRY V2 | bucket end strap rivet.003",
+    "QUARRY V2 | handle attachment pin",
+    "QUARRY V2 | bucket side strap rivet.004",
+    "QUARRY V2 | bucket end strap rivet.004",
+    "QUARRY V2 | bucket side strap rivet.005",
+    "QUARRY V2 | bucket end strap rivet.005",
+    "QUARRY V2 | bucket side strap rivet.006",
+    "QUARRY V2 | bucket end strap rivet.006",
+    "QUARRY V2 | bucket side strap rivet.007",
+    "QUARRY V2 | bucket end strap rivet.007",
+    "QUARRY V2 | handle attachment pin.001",
+    "QUARRY V2 | pressure needle"
+  ],
+  "packed_images": [
+    {
+      "name": "aged-copper-jacket-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-twisted-hemp-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-twisted-hemp-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-twisted-hemp-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v2-fresh-cleavage-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v2-fresh-cleavage-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v2-fresh-cleavage-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v2-fuel-and-ash-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v2-fuel-and-ash-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v2-fuel-and-ash-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v2-ground-chips-and-earth-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v2-ground-chips-and-earth-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v2-ground-chips-and-earth-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v2-weathered-strata-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v2-weathered-strata-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v2-weathered-strata-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v3-rock-dust-and-floor-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v3-rock-dust-and-floor-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "quarry-v3-rock-dust-and-floor-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "embedded_export_images": 36,
+  "animation_count": 1,
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}

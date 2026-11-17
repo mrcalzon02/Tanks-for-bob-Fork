@@ -26,7 +26,7 @@ Owner priority 2026-11-15: finish working, animated, operational and close enoug
 | Tank Ammunition Assembler | OBJ blockout | rebuild required | Build distinct component/ammunition process, feed and discharge, moving tooling; verify native north/south fluids. |
 | Tank Assembling Machine | OBJ blockout | rebuild required | Build heavy gantry and vehicle assembly bed with legible assembly motion; preserve prototype contract. |
 | Steam Compressor | V2 owner-identified barrel source | accepted integrated | Preserve operational barrel compressor and delivery receipts; no cosmetic rework. |
-| Quarry | OBJ blockout | rebuild required | Build supported excavation hoist, real cable path and lifted stone with readable working loop. |
+| Quarry | V5 rooted terrain candidate | in progress | Detailed mechanism and continuous landform saved; export and 193-frame attachment checks pass. Sprites, native integration and delivery remain pending. See quarry-v5/README.md. |
 | Shaler | OBJ blockout | rebuild required | Build crushing jaws, constrained transmission, material feed/discharge and cycle. |
 | Calcifier | OBJ blockout | rebuild required | Build mineral furnace, charge/discharge, localized fuel/heat/exhaust and working states. |
 | Thinking Hut | OBJ blockout | rebuild required | Build timber research shelter, tools and light with readable roof silhouette; appropriate subtle activity. |

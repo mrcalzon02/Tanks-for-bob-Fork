@@ -1,0 +1,179 @@
+{
+  "schema": "tanks.quarry.v1.contract",
+  "source_commit": "4658d72b47367efa497ea78a52d2e7d9f08eb3a7",
+  "active_mod": "tanks_for_bob_fork_1.8.104",
+  "entity": "assembling-machine/quarry",
+  "item": "quarry",
+  "building_recipe": {
+    "name": "quarry",
+    "category": "Seablock",
+    "seconds": 35,
+    "ingredients": {
+      "brick": 12,
+      "wood": 5,
+      "stone-tools": 2
+    },
+    "results": {
+      "quarry": 1
+    },
+    "byproduct": {
+      "tank-ammo-Industrialwaste": {
+        "amount": 1,
+        "probability": 0.1
+      }
+    }
+  },
+  "technology": {
+    "name": "quarry",
+    "prerequisites": [
+      "pondering-hovel"
+    ],
+    "count": 10,
+    "ingredients": {
+      "Seared-fish": 1,
+      "meal": 1
+    },
+    "seconds": 10
+  },
+  "crafting_category": "quarrying",
+  "crafting_speed": 0.35,
+  "processing_recipes": [
+    {
+      "name": "stone",
+      "seconds": 55,
+      "ingredients": {},
+      "results": {
+        "stone": 8
+      }
+    },
+    {
+      "name": "stone-with-tools",
+      "seconds": 35,
+      "ingredients": {
+        "stone-tools": 1
+      },
+      "results": {
+        "stone": 20,
+        "stone-tools": 1
+      }
+    },
+    {
+      "name": "quarry-iron-ore",
+      "seconds": 9,
+      "ingredients": {
+        "stone-tools": 1,
+        "brick": 5
+      },
+      "results": {
+        "iron-ore": 10
+      },
+      "byproduct": {
+        "tank-ammo-Industrialwaste": {
+          "amount": 1,
+          "probability": 0.08
+        }
+      }
+    },
+    {
+      "name": "quarry-copper-ore",
+      "seconds": 9,
+      "ingredients": {
+        "stone-tools": 1,
+        "brick": 5
+      },
+      "results": {
+        "copper-ore": 10
+      },
+      "byproduct": {
+        "tank-ammo-Industrialwaste": {
+          "amount": 1,
+          "probability": 0.08
+        }
+      }
+    },
+    {
+      "name": "quarry-iron-orea",
+      "seconds": 9,
+      "ingredients": {
+        "stone-tools": 2,
+        "stone-brick": 15
+      },
+      "results": {
+        "iron-ore": 20
+      },
+      "byproduct": {
+        "tank-ammo-Industrialwaste": {
+          "amount": 1,
+          "probability": 0.11
+        }
+      }
+    },
+    {
+      "name": "quarry-copper-oreb",
+      "seconds": 9,
+      "ingredients": {
+        "stone-tools": 2,
+        "stone-brick": 15
+      },
+      "results": {
+        "copper-ore": 20
+      },
+      "byproduct": {
+        "tank-ammo-Industrialwaste": {
+          "amount": 1,
+          "probability": 0.11
+        }
+      }
+    }
+  ],
+  "power": {
+    "type": "burner",
+    "fuel_categories": [
+      "chemical"
+    ],
+    "usage": "5kW",
+    "effectivity": 1,
+    "fuel_inventory_size": 1
+  },
+  "footprint_tiles": [
+    3,
+    3
+  ],
+  "collision_box": [
+    [
+      -1.2,
+      -1.2
+    ],
+    [
+      1.2,
+      1.2
+    ]
+  ],
+  "fluid_connections": [],
+  "placement": "Ordinary land; no resource-patch or shoreline requirement in entity prototype",
+  "directions": [
+    "north"
+  ],
+  "source": {
+    "path": "models\\island-survival\\quarry\\v1\\starter-quarry.obj",
+    "sha256": "86b0e91910a6f829fc9262a5ac2fd0683e3add9ce18b22494d8ef67622a91530"
+  },
+  "reuse": "Refine the tracked rock base, excavation floor, cut faces, extracted blocks and A-frame groups. Keep the mineral working ground as stone, not a universal concrete platform.",
+  "construction": "Timber windlass on braced bearings, tensioned cable, upright stone basket, restrained friction clutch, brick fuel firebox and contained thermal drive. Bricks/tool handling and ore seams explain the existing recipes; there are no external fluid ports or new gameplay operations.",
+  "animation": "Four-second source loop: engine crank/rigid piston rod, driven pulley/clutch, winding drum and vertical cable paying out to the upright basket. Fixed supports and floor; no detached links.",
+  "surface_plan": {
+    "terrain": "Model-specific layered stone, cut marks and restrained iron/copper mineral seams",
+    "timber": "Longitudinal grain on individual legs, bearers and basket; cut ends distinct",
+    "ropes": "Twisted fiber image surface following cable path",
+    "thermal_drive": "Clay/brick lining, dark iron and aged copper; polished rubbing faces separate"
+  },
+  "status": "in_progress; runtime contract probe precedes authored build",
+  "native_rotation_probe": {
+    "call_supported": true,
+    "player_rotate_returned": false,
+    "direction_before": 0,
+    "direction_after": 0,
+    "evidence": "build/quarry-v1-contract-native01/native.log"
+  },
+  "capture_policy": "Fixed entity: one native facing; other rendered angles are export inspections, not additional gameplay directions."
+}

@@ -1,0 +1,20 @@
+{
+  "parent_sha256": "b71932df8ea05b8ff0bce278c8ead3c9c616fc3385083ea7f1163936dfc8537c",
+  "source_sha256": "3416fc14d47f508836a5841ee418441c59cfdd06c0c577fd52539f45b8aacb83",
+  "runtime_sha256": "2fb1a960532c503fb7b4267359f7a643a771d13c63b13143e09a187353a7b653",
+  "owner_feedback": "Rock roots read as placed boulders; make them part of terrain",
+  "terrain": "One continuous heightfield landform with buried ridge roots, an excavated bay, worked bearing seats and an alpha-faded world-ground boundary",
+  "open_ground_boundary": true,
+  "root_translation": [
+    -0.1,
+    0,
+    -0.32
+  ],
+  "native_footprint_tiles": [
+    3,
+    3
+  ],
+  "kinematic_relationships_preserved": true,
+  "owner_visual_approved": false,
+  "native_integrated": false
+}
