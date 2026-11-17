@@ -263,19 +263,27 @@
       "id": "shaler",
       "name": "Shaler",
       "revision": "V2 geared thermal processor with supported chimney",
-      "status": "integrated_delivery_pending",
+      "status": "accepted_integrated",
       "priority": 18,
-      "next": "Commit/push and verify canonical FMPL registration before advancing.",
+      "next": "Preserve refined operational Shaler, supported chimney, linked gear/piston mechanisms, fixed sockets and native delivery evidence.",
       "evidence": [
         "docs/art/shaler-v2",
         "models/island-survival/shaler/v2/FMPL_MODEL.json"
       ],
-      "fmpl_delivery": "pending canonical registration",
-      "done": false,
+      "fmpl_delivery": {
+        "repository": "mrcalzon02/Tech-Priests",
+        "ref": "8c8ddbd5a4f5937190fd6cc801328ef1648f0f37",
+        "registry": "tools/fmpl/FMPL.json",
+        "model_id": "tanks-shaler-v2",
+        "source_commit": "47a3b4351757c1e73a2624f7e5b57ee39828b61f",
+        "remote_readback_verified": true
+      },
+      "done": true,
       "owner_corrections": [
         "V1 is a good rough structure but needs much more working pipes, hoses, gears and piston arms.",
         "Brick chimney must have a visible load path and foundation, not hang off the retort side."
-      ]
+      ],
+      "delivery_commit": "47a3b4351757c1e73a2624f7e5b57ee39828b61f"
     },
     {
       "id": "calcifier",
@@ -317,7 +325,7 @@
       "done": false
     }
   ],
-  "active_structure": "shaler",
+  "active_structure": "calcifier",
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
@@ -325,5 +333,5 @@
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
     "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
-  "production_state": "active; corrected barrel compressor, Wood Basin and Quarry delivered; establish Shaler contract from current mod before building"
+  "production_state": "active; corrected barrel compressor, Wood Basin, Quarry and refined Shaler delivered; establish actual Calcifier contract before building"
 }

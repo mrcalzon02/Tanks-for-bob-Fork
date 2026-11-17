@@ -6,7 +6,7 @@ Updated 2026-11-16 against `7290824bf43711d0bb31bd8e2969c51459864f91`.
 
 Owner priority 2026-11-15: finish working, animated, operational and close enough; defer cosmetic polish. Preserve accepted art and verify actual prototype behavior. Track source/export/FMPL receipts honestly; missing receipts are pending, never automatic PASS. See docs/art/OPERATIONAL_FINISH_POLICY.md.
 
-**13 accepted/integrated; 1 advanced with open work; 7 requiring substantial production. Current focus: Shaler.**
+**14 accepted/integrated; 1 advanced with open work; 6 requiring substantial production. Current focus: Calcifier.**
 
 | Structure | Latest known revision | Status | Remaining action |
 | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ Owner priority 2026-11-15: finish working, animated, operational and close enoug
 | Tank Assembling Machine | OBJ blockout | rebuild required | Build heavy gantry and vehicle assembly bed with legible assembly motion; preserve prototype contract. |
 | Steam Compressor | V2 owner-identified barrel source | accepted integrated | Preserve operational barrel compressor and delivery receipts; no cosmetic rework. |
 | Quarry | V5 detailed rooted excavation hoist | accepted integrated | Complete: packed editable source, inspected GLB, 17 true frames, six real recipes, fuel/blocked/stop/restart, actual operated-save reload and 12 client screenshots; aligned flue smoke. Canonical FMPL registered and remote delivery verified. Preserve this operational asset. |
-| Shaler | OBJ blockout | rebuild required | Build crushing jaws, constrained transmission, material feed/discharge and cycle. |
+| Shaler | V2 geared thermal waste processor | accepted integrated | Complete: supported brick chimney, keyed gear train and two linked piston mechanisms, process hoses, packed/reopened source, inspected GLB, 68 true frames, all 17 native recipes/four facings, 88 pipe joints, blocked/fuel/stop/restart and settled operated-save reload. Thirty-six client captures and genuine working video; canonical FMPL/remote delivery verified. |
 | Calcifier | OBJ blockout | rebuild required | Build mineral furnace, charge/discharge, localized fuel/heat/exhaust and working states. |
 | Thinking Hut | OBJ blockout | rebuild required | Build timber research shelter, tools and light with readable roof silhouette; appropriate subtle activity. |
 | Pondering Hovel | OBJ blockout | rebuild required | Build evolved brick research shelter, supported chimney, lamp and restrained activity. |

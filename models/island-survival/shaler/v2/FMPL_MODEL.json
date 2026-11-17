@@ -43,5 +43,12 @@
   "actual_client_screenshots": 36,
   "native_working_video_frames": 16,
   "evidence": "docs/art/shaler-v2",
-  "central_library_registration": "pending source commit and canonical readback"
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "8c8ddbd5a4f5937190fd6cc801328ef1648f0f37",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-shaler-v2",
+    "source_commit": "47a3b4351757c1e73a2624f7e5b57ee39828b61f",
+    "remote_readback_verified": true
+  }
 }
