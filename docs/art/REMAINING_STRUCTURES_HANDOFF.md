@@ -4,7 +4,7 @@ The previous enduring goal is **paused**. This handoff preserves work and
 prepares a new discussion; it does not resume modeling by itself.
 
 **Continuation checkpoint:** the new enduring goal is active. The corrected
-barrel-source Steam Compressor, Wood Basin, Quarry, refined Shaler, Calcifier and Thinking Hut have
+barrel-source Steam Compressor, Wood Basin, Quarry, refined Shaler, Calcifier, Thinking Hut and Pondering Hovel have
 since reached operational integration. Read the current JSON ledger for delivery receipts and remaining
 scope; the counts below describe the original saved baseline.
 
@@ -179,3 +179,15 @@ remaining intended machine is integrated and operational, with its source and
 export/registration work accounted for. Keep updates short, show representative
 real evidence, and give the next concrete result rather than unrelated designs.
 ```
+
+## Pondering Hovel delivered — 2026-11-17
+
+The actual fixed-north 100 kW/0.8-speed burner research upgrade is integrated.
+Source `753363eef45d3a0e9b264aed954b12157427f7ba` was pushed/read back; canonical
+FMPL `b6aef36d7452957a3025f91547e0a917cc57f87b` registers the packed source and
+inspected GLB. Actual Workbench construction, gated unlock, nineteen research
+combinations/all fourteen inputs, day/night lantern, fuel/input recovery,
+stop/restart and operated-save reload pass. See `pondering-hovel-v1/README.md`.
+Seventeen structures are accepted. Continue the shoreline Stone Water Wheel,
+both Tank assemblers and reconciled actual Tanks condenser. Preserve held
+wheel/condenser studies; upright lifting buckets remain an explicit requirement.

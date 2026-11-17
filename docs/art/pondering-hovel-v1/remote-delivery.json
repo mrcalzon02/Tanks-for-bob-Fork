@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-17",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "source_checkpoint_commit": "3e12e4e8aa106aeec0ad378d046ce4879b6311b3",
+  "source_checkpoint_remote_verified": true,
+  "source_commit": "753363eef45d3a0e9b264aed954b12157427f7ba",
+  "remote_main_verified_at_source_commit": "753363eef45d3a0e9b264aed954b12157427f7ba",
+  "pinned_remote_model_manifest_readback_verified": true,
+  "source_sha256": "1c1221819d9b8f1b7ed391ba46bdf9bcac1f2788a297dccbefa68d91c52407a3",
+  "runtime_sha256": "c8a553cc1f580b5a0bc12c50356c61a40e54ca9fa5309f938b18196c829375e1",
+  "staged_binary_bytes_verified": true,
+  "canonical_fmpl": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "b6aef36d7452957a3025f91547e0a917cc57f87b",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-pondering-hovel-v1",
+    "source_commit": "753363eef45d3a0e9b264aed954b12157427f7ba",
+    "remote_readback_verified": true
+  },
+  "delegated_operational_review": true,
+  "owner_visual_approved": false,
+  "full_user_mod_pack_installation": false
+}

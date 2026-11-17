@@ -342,18 +342,26 @@
       "id": "pondering-hovel",
       "name": "Pondering Hovel",
       "revision": "V1 masonry shelter with attached folio, balance and supported lantern",
-      "status": "delivery_pending",
+      "status": "accepted_integrated",
       "priority": 21,
-      "next": "Native current-art and actual construction/research/reload checks pass. Complete final source publication and canonical FMPL readback.",
+      "next": "Preserve native fixed-north masonry research upgrade, real construction recipe, upright attached balance, hinged folio and supported lantern; current operational evidence and canonical delivery complete.",
       "evidence": [
         "models/island-survival/pondering-hovel/v1/FMPL_MODEL.json",
         "docs/art/pondering-hovel-v1"
       ],
-      "fmpl_delivery": "pending_final_source_publication_and_canonical_registration",
-      "done": false
+      "fmpl_delivery": {
+        "repository": "mrcalzon02/Tech-Priests",
+        "ref": "b6aef36d7452957a3025f91547e0a917cc57f87b",
+        "registry": "tools/fmpl/FMPL.json",
+        "model_id": "tanks-pondering-hovel-v1",
+        "source_commit": "753363eef45d3a0e9b264aed954b12157427f7ba",
+        "remote_readback_verified": true
+      },
+      "done": true,
+      "delivery_commit": "753363eef45d3a0e9b264aed954b12157427f7ba"
     }
   ],
-  "active_structure": "pondering-hovel",
+  "active_structure": "stone-water-wheel",
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
@@ -361,6 +369,6 @@
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
     "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
-  "production_state": "active; compressor, Wood Basin, Quarry, Shaler, Calcifier and Thinking Hut delivered; establish actual Pondering Hovel contract next. Continue Tech-Priests unfinished buildings, engines and dropped turrets after all remaining Tanks structures.",
+  "production_state": "active; compressor, Wood Basin, Quarry, Shaler, Calcifier, Thinking Hut and Pondering Hovel delivered. Finish the four remaining Tanks structures, then authorized Tech-Priests unfinished buildings/engines/dropped turrets. Current focus: actual shoreline Stone Water Wheel contract and preserved editable source.",
   "subsequent_authorized_scope": "After all remaining Tanks structures, continue unfinished Tech-Priests buildings, engines and dropped turrets. Reconcile and checkpoint frequently (owner 2026-11-17)."
 }

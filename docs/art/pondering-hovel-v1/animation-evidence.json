@@ -1,0 +1,29 @@
+{
+  "genuine_factorio_client_frames": 16,
+  "fps": 4,
+  "source_images": {
+    "north-motion-00.png": "7fec662a10d20de86c89d0dd067ee6bc86b16f93bd0ba7faac685708fc9ac693",
+    "north-motion-01.png": "da4484e5b78a427df3a688fa54bc9fbee477fb87aa48518027e9389d55a62175",
+    "north-motion-02.png": "598753b159bf3d34ae381188de29b2f9c4e02710d0e7f1f84418549670851f31",
+    "north-motion-03.png": "d020457731b59e9ec92829c7b8356551f9164b99528e46669937f11f41768ec5",
+    "north-motion-04.png": "bdc937444277a9605e2a173466a5908d3b4ba79926db049f0236ea3c20945f72",
+    "north-motion-05.png": "9b2790d7bcbaf3a4adfbe09d5f9aa587ece79cca8d08cc4628550a97b512abe9",
+    "north-motion-06.png": "0be108980ab7b04fc8f0bd2111ab4ab3ac2a400474f078df5fe5e9cbd7db7b67",
+    "north-motion-07.png": "985f64da88228013697945c7b8c80471faceac0c48c56825166b13dd1b839f45",
+    "north-motion-08.png": "2c689ad6c78fa75edf8875f8fc2b94dda5e5a7322f08ab682246bbc489205808",
+    "north-motion-09.png": "519163f88d19a208c52fbf5a10d3977bfdd524539144902f2da44984e2bbfe0e",
+    "north-motion-10.png": "fb5070b9369649f895da0e33bcd078d006d8d1f4f633e1f51b9385e1ecc3abdf",
+    "north-motion-11.png": "b2dc2deb1f22f16ebe8847d396b1d90928a33eb8beff9489d379cc09af139d12",
+    "north-motion-12.png": "1dec6e724ebea2ad5dfe11374ff543fb406363a1b90d593298c51da7e6f4d0db",
+    "north-motion-13.png": "2051556f98f4e9346628d9db1783ec40140de025e1ccbc7488dcecdd1e171d63",
+    "north-motion-14.png": "92a925771b1bf999eedcc28e7204f16ac9ac7b79819a4feaddd587e7554387ed",
+    "north-motion-15.png": "6f0e696f247b48fac7dd66c6251dd4f63c627d729fe3ba251de9c4e17186338e"
+  },
+  "video_sha256": "d0d1c911c1d9abffcded8eb10605b708ca4d8aa8f9f1c7110bb1098a75b7d6c0",
+  "gif_sha256": "1ea412eb2117171c06b51ceb3aebb39130e31d836f285cdb49f1f5173d37a9e1",
+  "ffprobe": {
+    "nb_frames": "16",
+    "r_frame_rate": "4/1"
+  },
+  "generated_or_interpolated_replacements": false
+}

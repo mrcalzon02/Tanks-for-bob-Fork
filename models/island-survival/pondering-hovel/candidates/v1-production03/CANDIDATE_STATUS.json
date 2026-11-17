@@ -1,8 +1,11 @@
 {
-  "status": "native_verified_delivery_pending",
+  "status": "operational_native_integrated",
   "owner_visual_approved": false,
   "delegated_operational_review": true,
   "native_verified": true,
   "current_candidate": "v1-production03",
-  "notes": "Actual current source/export, sprites and operated native reload verified; final remote delivery and canonical registry pending."
+  "notes": "Current source, actual GLB, native construction/research and operated reload verified, pushed and registered. Earlier studies remain held.",
+  "native_delivered": true,
+  "source_commit": "753363eef45d3a0e9b264aed954b12157427f7ba",
+  "canonical_fmpl_verified": true
 }

@@ -1,9 +1,18 @@
 {
-  "status": "native_verified_delivery_pending",
+  "status": "single_asset_delivered_goal_continues",
   "source_sha256": "1c1221819d9b8f1b7ed391ba46bdf9bcac1f2788a297dccbefa68d91c52407a3",
   "runtime_candidate_sha256": "c8a553cc1f580b5a0bc12c50356c61a40e54ca9fa5309f938b18196c829375e1",
   "native_contract": "v1/contract.json",
-  "next": "Commit/push final source, sprites, integration and native evidence; register/read back canonical FMPL.",
+  "next": "Preserve delivered Hovel. Finish Stone Water Wheel, both Tank assemblers and reconciled Tanks condenser; then authorized Tech-Priests scope.",
   "source_checkpoint_commit": "3e12e4e8aa106aeec0ad378d046ce4879b6311b3",
-  "source_checkpoint_remote_verified": true
+  "source_checkpoint_remote_verified": true,
+  "final_delivery_source_commit": "753363eef45d3a0e9b264aed954b12157427f7ba",
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "b6aef36d7452957a3025f91547e0a917cc57f87b",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-pondering-hovel-v1",
+    "source_commit": "753363eef45d3a0e9b264aed954b12157427f7ba",
+    "remote_readback_verified": true
+  }
 }

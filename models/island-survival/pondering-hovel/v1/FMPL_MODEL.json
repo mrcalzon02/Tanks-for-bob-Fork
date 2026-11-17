@@ -1,7 +1,7 @@
 {
   "schema": "fmpl.model-delivery.v1",
   "id": "tanks-pondering-hovel-v1",
-  "status": "native_verified_delivery_pending",
+  "status": "operational-native-integrated-delegated-review",
   "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
   "prototype": {
     "type": "lab",
@@ -70,5 +70,13 @@
   "fluid_connections_processing_recipes_and_blocked_output": "Not applicable: native lab.",
   "actual_client_screenshots": 33,
   "native_working_video_frames": 16,
-  "evidence": "docs/art/pondering-hovel-v1"
+  "evidence": "docs/art/pondering-hovel-v1",
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "b6aef36d7452957a3025f91547e0a917cc57f87b",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-pondering-hovel-v1",
+    "source_commit": "753363eef45d3a0e9b264aed954b12157427f7ba",
+    "remote_readback_verified": true
+  }
 }

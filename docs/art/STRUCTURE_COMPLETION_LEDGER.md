@@ -6,7 +6,7 @@ Updated 2026-11-17; original baseline `7290824bf43711d0bb31bd8e2969c51459864f91`
 
 Owner priority 2026-11-15: finish working, animated, operational and close enough; defer cosmetic polish. Preserve accepted art and verify actual prototype behavior. Track source/export/FMPL receipts honestly; missing receipts are pending, never automatic PASS. See docs/art/OPERATIONAL_FINISH_POLICY.md.
 
-**16 accepted/integrated; 1 held condenser candidate; 4 requiring substantial production. Current focus: Pondering Hovel.**
+**17 accepted/integrated; 1 held condenser candidate; 3 requiring substantial production. Current focus: Stone Water Wheel.**
 
 | Structure | Latest known revision | Status | Remaining action |
 | --- | --- | --- | --- |
@@ -30,7 +30,7 @@ Owner priority 2026-11-15: finish working, animated, operational and close enoug
 | Shaler | V2 geared thermal waste processor | accepted integrated | Complete: supported brick chimney, keyed gear train and two linked piston mechanisms, process hoses, packed/reopened source, inspected GLB, 68 true frames, all 17 native recipes/four facings, 88 pipe joints, blocked/fuel/stop/restart and settled operated-save reload. Thirty-six client captures and genuine working video; canonical FMPL/remote delivery verified. |
 | Calcifier | V2 offset drive and full-size registered sockets | accepted integrated | Eight real recipes/four facings, 44 grid pipe joints, 385-pose source/GLB clearance review, placed-pipe closeups, native stop/restart and operated reload; source pushed and canonical FMPL read back. Preserve. |
 | Thinking Hut | V1 supported shelter and refined working lantern | accepted integrated | Fixed native north; all 19 research input combinations and 14 accepted items exercised; 385-pose source/GLB clearance, upright pans, native day/night/idle, fuel/input recovery and operated reload; source/checkpoint pushed and canonical FMPL verified. Preserve. |
-| Pondering Hovel | OBJ blockout | rebuild required | Build evolved brick research shelter, supported chimney, lamp and restrained activity. |
+| Pondering Hovel | V1 masonry research upgrade | accepted integrated | Real Workbench construction/unlock, all 19 research input combinations and 14 inputs, source/GLB 385-pose clearance, day/night working lantern, fuel/input recovery and actual operated reload; pushed and canonical FMPL verified. Preserve. |
 
 ## FMPL delivery and acceptance
 
@@ -42,7 +42,7 @@ FMPL uses the canonical pinned library in `fmpl-consumer.json`; validate the act
 
 The enduring goal is active. Resume from docs/art/REMAINING_STRUCTURES_HANDOFF.md and the current active_structure in the JSON ledger. Preserve all accepted assets; Beach Pump V12 underwater polish is deferred. Keep the unfamiliar Tanks condenser candidate held and uninstalled; actual recipes, not names, define function. Tech-Priests atmospheric condenser V24 is a separate machine. Keep rejected wheel studies held and lifting buckets upright. Reconcile remote HEAD and preserve concurrent work.
 
-Follow docs/art/OPERATIONAL_FINISH_POLICY.md: prioritize working animated integration and necessary operational checks, using judgment for close-enough visuals. Do not request routine promotion permission again or add cosmetic production cycles. Never fabricate specific owner visual approval or missing source/export receipts. Do not create extra CI workflows, change progression/balance, duplicate the workbench, or add Tech-Priests turret/vehicle work.
+Follow docs/art/OPERATIONAL_FINISH_POLICY.md: prioritize working animated integration and necessary operational checks, using judgment for close-enough visuals. Do not request routine promotion permission again or add cosmetic production cycles. Never fabricate specific owner visual approval or missing source/export receipts. Do not create extra CI workflows, change progression/balance, duplicate the workbench, or add Tech-Priests work before Tanks is complete. After Tanks, the owner has authorized unfinished Tech-Priests buildings, engines and dropped turrets.
 
 ## Evidence
 
@@ -66,4 +66,4 @@ Follow docs/art/OPERATIONAL_FINISH_POLICY.md: prioritize working animated integr
 - Shaler: [designs.json](../../models/island-survival/designs.json)
 - Calcifier: [designs.json](../../models/island-survival/designs.json)
 - Thinking Hut: [designs.json](../../models/island-survival/designs.json)
-- Pondering Hovel: [designs.json](../../models/island-survival/designs.json)
+- Pondering Hovel: [FMPL_MODEL.json](../../models/island-survival/pondering-hovel/v1/FMPL_MODEL.json), [native delivery](../../docs/art/pondering-hovel-v1/README.md)
