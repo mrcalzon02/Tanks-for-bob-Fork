@@ -117,14 +117,16 @@
     {
       "id": "steam-condenser",
       "name": "Steam Condenser",
-      "revision": "Tanks V1 unapproved candidate held; native entity exists",
-      "status": "advanced_candidate",
+      "revision": "V2 actual wood/steam-to-stone contract and ten-group starter preserved; legacy V1 held",
+      "status": "in_progress",
       "priority": 9,
-      "next": "Keep the unfamiliar V1 candidate unapproved and uninstalled. The actual placeable steam-condenser exists; Steam-condenserA consumes wood and steam and returns stone/industrial waste. Do not infer water output or borrow Tech-Priests atmospheric-condenser V24. Resume only from actual function and the owner\u2019s construction brief.",
+      "next": "Finish distinct actual Tanks condenser from retained starter: chemical1kW, one real steam inlet, wood5+steam200 to stone10+waste1, four facings. Legacy water-output/barrel candidate stays unapproved and uninstalled.",
       "evidence": [
         "docs/art/local-machine-alignment/2026-11-13.json",
         "models/island-survival/steam-condenser/v1/contract.json",
-        "tanks_for_bob_fork_1.8.103/prototypes/entity/entities.lua"
+        "tanks_for_bob_fork_1.8.103/prototypes/entity/entities.lua",
+        "models/island-survival/steam-condenser/v2/contract.json",
+        "models/island-survival/steam-condenser/v2/WORK_ORDER.md"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
       "done": false
@@ -397,6 +399,6 @@
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
     "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
-  "production_state": "active; ten of original eleven remaining Tanks structures delivered (20/21 total). Reconcile the actual Tanks steam-condenser contract and construction brief while preserving its unfamiliar V1 candidate as held/unapproved; finish operational delivery and audit original-scope receipts, then authorized Tech-Priests buildings/engines/dropped turrets.",
+  "production_state": "active; ten of original eleven remaining Tanks structures delivered (20/21 total). Actual final condenser native contract reconciled and ten-group starter preserved; finish its wood/steam-to-stone/waste machinery while keeping the historical water-output candidate held. Then audit original-scope delivery receipts and continue authorized Tech-Priests buildings/engines/dropped turrets.",
   "subsequent_authorized_scope": "After all remaining Tanks structures, continue unfinished Tech-Priests buildings, engines and dropped turrets. Reconcile and checkpoint frequently (owner 2026-11-17)."
 }

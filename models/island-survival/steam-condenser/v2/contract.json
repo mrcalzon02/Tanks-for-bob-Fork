@@ -1,0 +1,313 @@
+{
+  "entity": {
+    "name": "steam-condenser",
+    "type": "assembling-machine",
+    "collision_box": {
+      "left_top": {
+        "y": -1.19921875,
+        "x": -1.19921875
+      },
+      "right_bottom": {
+        "y": 1.19921875,
+        "x": 1.19921875
+      }
+    },
+    "selection_box": {
+      "left_top": {
+        "y": -1.5,
+        "x": -1.5
+      },
+      "right_bottom": {
+        "y": 1.5,
+        "x": 1.5
+      }
+    },
+    "tile_width": 3,
+    "tile_height": 3,
+    "crafting_categories": {
+      "Steam": true,
+      "parameters": true
+    },
+    "crafting_speed": 0.6,
+    "max_energy_usage_per_tick": 16.666666666666668,
+    "electric": false,
+    "burner": true,
+    "ingredient_count": 4,
+    "module_inventory_size": 0,
+    "burner_details": {
+      "fuel_categories": {
+        "chemical": true
+      },
+      "effectivity": 1,
+      "fuel_inventory_size": 1
+    }
+  },
+  "building": {
+    "item": {
+      "name": "steam-condenser",
+      "place_result": "steam-condenser",
+      "stack_size": 10
+    },
+    "recipe": {
+      "name": "steam-condenser",
+      "categories": [
+        "Seablock"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "brick",
+          "amount": 5
+        },
+        {
+          "type": "item",
+          "name": "crude-glass",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "steam-condenser",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.06,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 35,
+      "enabled_initially": false
+    },
+    "technology_unlocks": [
+      {
+        "name": "steam-condenser",
+        "prerequisites": [
+          "crude-glass",
+          "primitive-steam-powered-pump"
+        ],
+        "ingredients": [
+          {
+            "name": "Seared-fish",
+            "amount": 1
+          }
+        ],
+        "unit_count": 10,
+        "unit_energy_ticks": 600
+      }
+    ],
+    "category_compatible_builders": [
+      "workbench"
+    ]
+  },
+  "processing_recipes": [
+    {
+      "name": "Steam-condenserA",
+      "categories": [
+        "Steam"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "wood",
+          "amount": 5
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 200
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "stone",
+          "amount": 10,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 35,
+      "enabled_initially": true,
+      "unlocked_by": {},
+      "native_recipe_selectable": true
+    }
+  ],
+  "engine_parameter_recipe_names": [
+    "parameter-0",
+    "parameter-1",
+    "parameter-2",
+    "parameter-3",
+    "parameter-4",
+    "parameter-5",
+    "parameter-6",
+    "parameter-7",
+    "parameter-8",
+    "parameter-9"
+  ],
+  "directions": [
+    {
+      "requested": 0,
+      "placed": 0,
+      "normal_placement": true,
+      "recipe_ports": [
+        {
+          "recipe": "Steam-condenserA",
+          "ports": [
+            {
+              "box": 1,
+              "position": {
+                "y": -0.5,
+                "x": 12.5
+              },
+              "target_position": {
+                "y": -1.5,
+                "x": 12.5
+              },
+              "flow_direction": "input",
+              "grid": {
+                "x": 12.5,
+                "y": -1.5
+              },
+              "actual_pipe_connected": true
+            }
+          ]
+        }
+      ],
+      "fluid_storage_count": 1,
+      "rotatable": true,
+      "rotate_result": true,
+      "after_rotate": 4
+    },
+    {
+      "requested": 4,
+      "placed": 4,
+      "normal_placement": true,
+      "recipe_ports": [
+        {
+          "recipe": "Steam-condenserA",
+          "ports": [
+            {
+              "box": 1,
+              "position": {
+                "y": 0.5,
+                "x": 25.5
+              },
+              "target_position": {
+                "y": 0.5,
+                "x": 26.5
+              },
+              "flow_direction": "input",
+              "grid": {
+                "x": 26.5,
+                "y": 0.5
+              },
+              "actual_pipe_connected": true
+            }
+          ]
+        }
+      ],
+      "fluid_storage_count": 1,
+      "rotatable": true,
+      "rotate_result": true,
+      "after_rotate": 8
+    },
+    {
+      "requested": 8,
+      "placed": 8,
+      "normal_placement": true,
+      "recipe_ports": [
+        {
+          "recipe": "Steam-condenserA",
+          "ports": [
+            {
+              "box": 1,
+              "position": {
+                "y": 1.5,
+                "x": 36.5
+              },
+              "target_position": {
+                "y": 2.5,
+                "x": 36.5
+              },
+              "flow_direction": "input",
+              "grid": {
+                "x": 36.5,
+                "y": 2.5
+              },
+              "actual_pipe_connected": true
+            }
+          ]
+        }
+      ],
+      "fluid_storage_count": 1,
+      "rotatable": true,
+      "rotate_result": true,
+      "after_rotate": 12
+    },
+    {
+      "requested": 12,
+      "placed": 12,
+      "normal_placement": true,
+      "recipe_ports": [
+        {
+          "recipe": "Steam-condenserA",
+          "ports": [
+            {
+              "box": 1,
+              "position": {
+                "y": 0.5,
+                "x": 47.5
+              },
+              "target_position": {
+                "y": 0.5,
+                "x": 46.5
+              },
+              "flow_direction": "input",
+              "grid": {
+                "x": 46.5,
+                "y": 0.5
+              },
+              "actual_pipe_connected": true
+            }
+          ]
+        }
+      ],
+      "fluid_storage_count": 1,
+      "rotatable": true,
+      "rotate_result": true,
+      "after_rotate": 0
+    }
+  ],
+  "fluid_probe_recipes": {
+    "input": "Steam-condenserA"
+  }
+}
