@@ -36,6 +36,11 @@
   "native_fill_drain_full_stop_restart_reload_passed": true,
   "evidence": "docs\\art\\wood-basin-v1",
   "central_library_registration": {
-    "status": "pending_remote_source_commit"
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "e16804a3302e1e8101632028097e9d33096c11b7",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-wood-basin-v1",
+    "source_commit": "02551985bc893e674fd630de97b604a5ba41d44c",
+    "remote_readback_verified": true
   }
 }

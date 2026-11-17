@@ -179,15 +179,15 @@
       "revision": "V1 native contents-driven cistern",
       "status": "accepted_integrated",
       "priority": 13,
-      "next": "Preserve passive storage, sealed native sight panels, 25000 capacity, four corner ports and two-direction contract. Canonical registry receipt pending source commit.",
+      "next": "Preserve passive 25000-unit cistern, four fixed corner fittings, two art orientations and native fluid window.",
       "evidence": [
         "models/island-survival/wood-basin/v1/FMPL_MODEL.json",
         "docs/art/wood-basin-v1/engine-receipt.json",
         "docs/art/wood-basin-v1/capture-verification.json"
       ],
-      "fmpl_delivery": "Saved/reopened source, actual animated GLB reimport, genuine body/fill-preview frames and native content animation verified. Real pump fill/full/stop/drain/restart and saved fluid/temperature/connection reload passed; canonical registry write pending verified source commit.",
+      "fmpl_delivery": "Registered and remotely read back in canonical FMPL at e16804a3302e1e8101632028097e9d33096c11b7; source/export at Tanks commit 02551985bc893e674fd630de97b604a5ba41d44c, actual native fluid levels/motion and real pump fill/full/drain/restart/filled reload verified.",
       "done": true,
-      "active": true
+      "active": false
     },
     {
       "id": "tank-ammo-assembling-machine",
@@ -242,7 +242,8 @@
         "models/island-survival/designs.json"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false
+      "done": false,
+      "active": true
     },
     {
       "id": "shaler",
@@ -297,12 +298,12 @@
       "done": false
     }
   ],
-  "active_structure": "wood-basin",
+  "active_structure": "quarry",
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
     "2026-11-15: Resolve shoreline intake versus pipe-to-pipe pump purpose; current focus is the existing Primitive Steam-Powered Pump candidate.",
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration."
   ],
-  "production_state": "active; Wood Basin operational, remote delivery and FMPL registration checkpoint in progress"
+  "production_state": "active; corrected compressor and Wood Basin delivered; next establish the actual quarry gameplay contract"
 }
