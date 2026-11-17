@@ -147,6 +147,11 @@
   "native_recipes_fuel_blocked_stop_restart_reload_passed": true,
   "evidence": "docs\\art\\steam-compressor-v2",
   "central_library_registration": {
-    "status": "pending_remote_source_commit"
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "07ca4a0673d9ef69203aa95ad1c3bec7bed5fe47",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-steam-compressor-v2",
+    "source_commit": "180b24a221b1b24805dd63d27bb17ba99ee0cd8f",
+    "remote_readback_verified": true
   }
 }
