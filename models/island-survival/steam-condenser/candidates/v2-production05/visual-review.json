@@ -1,0 +1,21 @@
+{
+  "judgment": "model-operational-close-enough-native-graphical-pending",
+  "source_sha256": "f16cc807dd96b9fe901410fd214657dc913027b959e27e377e5ab2f92cde1526",
+  "runtime_sha256": "ac882b649abd69772e6db8ceb6684f2db011bba0cd899bb8bb771cecd23907a5",
+  "owner_visual_approved": false,
+  "delegated_model_review": true,
+  "actually_viewed": {
+    "models/island-survival/steam-condenser/candidates/v2-production05/actual-glb-front.png": "c73504f637d1fda2fdcad0d73cc4c74430d6471554fadf044ad0cff460d3b933",
+    "models/island-survival/steam-condenser/candidates/v2-production05/actual-glb-rear.png": "2a55aa1a4e5215dfed3e4072ee3388332916beeb9ca51838963e18a49d309d09",
+    "models/island-survival/steam-condenser/candidates/v2-production05/actual-glb-side.png": "621ac93371c8ea549da4380b14d0b46f168bd3610ac76cd21e4fe95150ffab7a",
+    "models/island-survival/steam-condenser/candidates/v2-production05/actual-glb-clay.png": "66bebb4586779c81e477c0eab097fafc49878039c140f2d7c696188a9a9e7541",
+    "models/island-survival/steam-condenser/candidates/v2-production05/actual-glb-mechanism-close.png": "01b4e1793acb2744f2ceb05be1aeee900943d9b99375d8045e434055e55a73c9"
+  },
+  "basis": "Ten actual starter groups refined as brick/clay heated treatment vessel, real crude-glass inspection opening, wood rack, separate stone/waste tray, full-size steam inlet and connected four-riser jacket, supported firebox/hollow brick stack, guided piston and rigid0.50 rod. Distinct offset transfer avoids the rod crossing a tall shaft; two equal-radius belts drive the contained rake. Grounded load paths and rear/side routing reviewed. No native water-output process invented.",
+  "limitations": [
+    "Representative batch/stone display does not simulate material transmutation.",
+    "Inspection cavity remains dark at gameplay scale; the exposed drive explains working activity.",
+    "Sampled clearances, not continuous collision simulation.",
+    "Current-art client alignment/operation and actual operated reload still pending."
+  ]
+}

@@ -1,0 +1,1258 @@
+{
+  "schema": "tanks.steam-condenser.v1.atlas",
+  "verified": true,
+  "source_sha256": "f16cc807dd96b9fe901410fd214657dc913027b959e27e377e5ab2f92cde1526",
+  "runtime_sha256": "ac882b649abd69772e6db8ceb6684f2db011bba0cd899bb8bb771cecd23907a5",
+  "genuine_blender_frames": 132,
+  "working_frames_per_facing": 32,
+  "idle_frames_per_facing": 1,
+  "fps": 8,
+  "facings": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "unique_working_images": {
+    "north": 32,
+    "east": 32,
+    "south": 32,
+    "west": 32
+  },
+  "working_layout": "8 columns, four rows per direction; directions vertically stacked",
+  "idle_layout": "One genuine idle pose per direction repeated explicitly into 32 cells to satisfy Factorio matching frame-count requirement; not 128 captured idle timestamps",
+  "files": {
+    "idle-64.png": {
+      "sha256": "d0901a142571e291c062217069e0ca3a57d95b4a39f82b961bc38a02fceb3bae",
+      "dimensions": [
+        512,
+        1024
+      ]
+    },
+    "working-64.png": {
+      "sha256": "807dd56c64b4c2637566c77a6cc9cfaffed310957023718956b24088ad77518a",
+      "dimensions": [
+        512,
+        1024
+      ]
+    },
+    "idle-128.png": {
+      "sha256": "b40a36f47554fdf173a8f5807c35867282eb8c37801159d5b7d6aaf17b630a35",
+      "dimensions": [
+        1024,
+        2048
+      ]
+    },
+    "working-128.png": {
+      "sha256": "460d799f6ee20aefe8ee064c33393bb59530bd71678620000a43402db8450563",
+      "dimensions": [
+        1024,
+        2048
+      ]
+    },
+    "idle-256.png": {
+      "sha256": "3fca27b01c9c3dc34d10af93da1813b478d3cf9a2475fce2ac7934af948b54d1",
+      "dimensions": [
+        2048,
+        4096
+      ]
+    },
+    "working-256.png": {
+      "sha256": "369dc0cb65d3d91c531af55c2fa65834ce2588d644838ac856804ae869fb68f5",
+      "dimensions": [
+        2048,
+        4096
+      ]
+    }
+  },
+  "alpha_bounds": [
+    {
+      "file": "north-idle-00.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-00.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-01.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-02.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-03.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-04.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-05.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-06.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-07.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-08.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-09.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-10.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-11.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-12.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-13.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-14.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-15.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-16.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-17.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-18.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-19.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-20.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-21.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-22.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-23.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-24.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-25.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-26.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-27.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-28.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-29.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-30.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "north-working-31.png",
+      "alpha_bounds": [
+        71,
+        39,
+        185,
+        212
+      ]
+    },
+    {
+      "file": "east-idle-00.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-00.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-01.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-02.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-03.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-04.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-05.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-06.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-07.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-08.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-09.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-10.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-11.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-12.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-13.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-14.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-15.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-16.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-17.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-18.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-19.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-20.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-21.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-22.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-23.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-24.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-25.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-26.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-27.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-28.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-29.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-30.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "east-working-31.png",
+      "alpha_bounds": [
+        71,
+        39,
+        191,
+        215
+      ]
+    },
+    {
+      "file": "south-idle-00.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-00.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-01.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-02.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-03.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-04.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-05.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-06.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-07.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-08.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-09.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-10.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-11.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-12.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-13.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-14.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-15.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-16.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-17.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-18.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-19.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-20.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-21.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-22.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-23.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-24.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-25.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-26.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-27.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-28.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-29.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-30.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "south-working-31.png",
+      "alpha_bounds": [
+        71,
+        34,
+        185,
+        179
+      ]
+    },
+    {
+      "file": "west-idle-00.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-00.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-01.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-02.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-03.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-04.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-05.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-06.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-07.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-08.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-09.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-10.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-11.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-12.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-13.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-14.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-15.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-16.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-17.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-18.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-19.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-20.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-21.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-22.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-23.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-24.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-25.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-26.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-27.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-28.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-29.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-30.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    },
+    {
+      "file": "west-working-31.png",
+      "alpha_bounds": [
+        65,
+        39,
+        185,
+        223
+      ]
+    }
+  ]
+}

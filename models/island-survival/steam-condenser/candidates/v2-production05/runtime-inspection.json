@@ -1,0 +1,386 @@
+{
+  "technical_checks_passed": true,
+  "source_sha256": "f16cc807dd96b9fe901410fd214657dc913027b959e27e377e5ab2f92cde1526",
+  "glb_sha256": "ac882b649abd69772e6db8ceb6684f2db011bba0cd899bb8bb771cecd23907a5",
+  "source": {
+    "mesh_count": 324,
+    "triangles": 75850,
+    "min": [
+      -1.350000023841858,
+      -1.350000023841858,
+      0.0
+    ],
+    "max": [
+      1.350000023841858,
+      1.5049999952316284,
+      2.68500018119812
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "runtime": {
+    "mesh_count": 324,
+    "triangles": 75850,
+    "min": [
+      -1.350000023841858,
+      -1.350000023841858,
+      0.0
+    ],
+    "max": [
+      1.350000023841858,
+      1.5049999952316284,
+      2.68500018119812
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "pose_bounds_errors": {
+    "1": 3.0517578125e-05,
+    "25": 3.0517578125e-05,
+    "49": 3.0517578125e-05,
+    "97": 3.0517578125e-05,
+    "145": 3.0517578125e-05,
+    "193": 3.0517578125e-05
+  },
+  "cycle_seam_error": 5.960464477539063e-08,
+  "source_mechanics": {
+    "upper_pin_attachment": 1.4744410989699123e-05,
+    "lower_pin_attachment": 1.3870892190754696e-06,
+    "rigid_link_length": 1.480802673814452e-07,
+    "piston_alignment": 4.768371586472142e-08,
+    "piston_end_cap_clearance_failure": 0.0,
+    "fixed_socket_motion": 0.0,
+    "equal_pulley_phase": 0.0
+  },
+  "runtime_mechanics": {
+    "upper_pin_attachment": 1.4757175986045335e-05,
+    "lower_pin_attachment": 1.3870892190754696e-06,
+    "rigid_link_length": 1.3830138323456254e-07,
+    "piston_alignment": 4.768371586472142e-08,
+    "piston_end_cap_clearance_failure": 0.0,
+    "fixed_socket_motion": 0.0,
+    "equal_pulley_phase": 0.0
+  },
+  "mechanism_sampled_poses": 385,
+  "mechanical_fit_policy": "385 source/runtime key and half-key samples:0.50-tile rigid rod, attached crank/piston pins within0.002 radial bore clearance, guide/end-cap fit, fixed full-size inlet and equal-ratio offset belts. Offset transfer shaft clears rod sweep. Full raw contacts separately reviewed.",
+  "packed_images": [
+    {
+      "name": "aged-copper-jacket-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-bedded-limestone-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-bedded-limestone-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-bedded-limestone-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-charcoal-bed-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-charcoal-bed-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-charcoal-bed-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-clay-pressure-lining-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-clay-pressure-lining-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-clay-pressure-lining-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-crude-inspection-glass-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-crude-inspection-glass-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-crude-inspection-glass-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-mineral-stone-output-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-mineral-stone-output-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-mineral-stone-output-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-oiled-leather-belt-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-oiled-leather-belt-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-oiled-leather-belt-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-small-burner-flame-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-small-burner-flame-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "condenser-v2-small-burner-flame-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "embedded_export_images": 39,
+  "animation_count": 1,
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}

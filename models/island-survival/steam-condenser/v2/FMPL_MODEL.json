@@ -1,0 +1,54 @@
+{
+  "schema": "fmpl.model-delivery.v1",
+  "id": "tanks-steam-condenser-v2",
+  "status": "source-export-verified-native-graphical-pending",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "prototype": {
+    "type": "assembling-machine",
+    "name": "steam-condenser"
+  },
+  "footprint_tiles": [
+    3,
+    3
+  ],
+  "scene_units_per_tile": 1,
+  "source": {
+    "path": "models/island-survival/steam-condenser/candidates/v2-production05/steam-condenser-v2.blend",
+    "sha256": "f16cc807dd96b9fe901410fd214657dc913027b959e27e377e5ab2f92cde1526"
+  },
+  "runtime": {
+    "path": "models/island-survival/steam-condenser/candidates/v2-production05/steam-condenser-v2.glb",
+    "sha256": "ac882b649abd69772e6db8ceb6684f2db011bba0cd899bb8bb771cecd23907a5"
+  },
+  "preserved_starter_groups": 10,
+  "packed_pbr_images": 39,
+  "embedded_export_pbr_images": 39,
+  "source_and_runtime_pose_checks": 6,
+  "mechanism_sampled_poses_per_artifact": 385,
+  "rigid_link_length_tiles": 0.5,
+  "maximum_interpolated_pin_error_tiles": 1.4757175986045335e-05,
+  "pin_radial_bore_clearance_tiles": 0.002,
+  "source_and_actual_glb_clearances_checked": true,
+  "clearance_review": "models/island-survival/steam-condenser/candidates/v2-production05/clearance-review.json",
+  "production_frames": 132,
+  "working_frames_per_facing": 32,
+  "idle_genuine_frames_per_facing": 1,
+  "idle_cell_policy": "Four genuine idle poses, each repeated explicitly in32 cells for native matching animation counts.",
+  "fps": 8,
+  "native_art_orientations": 4,
+  "capture_policy": "fmpl.factorio45.v1",
+  "actual_real_recipes": 1,
+  "actual_crafting_speed": 0.6,
+  "actual_chemical_burner_watts": 1000,
+  "module_slots": 0,
+  "normal_craft_seconds": 58.333333333333336,
+  "native_recipe_inputs": "wood5 + steam200",
+  "native_recipe_products": "stone10 + industrialwaste1",
+  "fluid_ports": "one running-recipe steam inlet; no fluid output exposed",
+  "legacy_v1_condenser_candidate": "held/unapproved/uninstalled; water-output assumptions rejected, barrel source belongs to separately completed compressor",
+  "owner_approved": false,
+  "native_current_art_verified": false,
+  "central_library_registration": {
+    "status": "pending graphical/operated-reload delivery"
+  }
+}

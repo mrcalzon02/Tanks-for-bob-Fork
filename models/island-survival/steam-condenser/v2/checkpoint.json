@@ -1,5 +1,5 @@
 {
-  "status": "actual_native_contract_reconciled_and_ten_group_starter_preserved_model_pending",
+  "status": "source-export-and-clearances-verified-native-graphical-pending",
   "active_mod": "tanks_for_bob_fork_1.8.104",
   "prototype": "assembling-machine/steam-condenser",
   "starter_sha256": "c5459a1d00ee9aae2acb325e4b3dfcc25d9794a6d61ecacc1873471577986177",
@@ -23,5 +23,10 @@
   "running_recipe_fluid_connections": "one steam inlet only; no native fluid output",
   "legacy_v1_condenser_candidate": "held, unapproved, uninstalled; owner-intended barrel compressor source already delivered as separate machine",
   "delivered": false,
-  "next": "Build/refine actual starter according to reconciled brief; complete full art/native/remote/FMPL delivery."
+  "next": "Finish current-art client pipe/smoke/animation review and actual operated reload, then remote source delivery and canonical FMPL. Preserve legacy V1 hold.",
+  "candidate": "models/island-survival/steam-condenser/candidates/v2-production05",
+  "source_sha256": "f16cc807dd96b9fe901410fd214657dc913027b959e27e377e5ab2f92cde1526",
+  "runtime_sha256": "ac882b649abd69772e6db8ceb6684f2db011bba0cd899bb8bb771cecd23907a5",
+  "native_baseline_passed": true,
+  "source_runtime_samples_per_artifact": 385
 }
