@@ -6,7 +6,7 @@ Updated 2026-11-16 against `7290824bf43711d0bb31bd8e2969c51459864f91`.
 
 Owner priority 2026-11-15: finish working, animated, operational and close enough; defer cosmetic polish. Preserve accepted art and verify actual prototype behavior. Track source/export/FMPL receipts honestly; missing receipts are pending, never automatic PASS. See docs/art/OPERATIONAL_FINISH_POLICY.md.
 
-**10 accepted/integrated; 1 advanced with open work; 10 requiring substantial production. Current focus: Steam Compressor.**
+**11 accepted/integrated; 1 advanced with open work; 9 requiring substantial production. Current focus: Steam Compressor.**
 
 | Structure | Latest known revision | Status | Remaining action |
 | --- | --- | --- | --- |
@@ -25,7 +25,7 @@ Owner priority 2026-11-15: finish working, animated, operational and close enoug
 | Wood Basin | OBJ blockout | rebuild required | Author timber-stave cistern, hoops, visible level/window; preserve 25000 volume and four declared corner connections/two-direction contract. |
 | Tank Ammunition Assembler | OBJ blockout | rebuild required | Build distinct component/ammunition process, feed and discharge, moving tooling; verify native north/south fluids. |
 | Tank Assembling Machine | OBJ blockout | rebuild required | Build heavy gantry and vehicle assembly bed with legible assembly motion; preserve prototype contract. |
-| Steam Compressor | OBJ blockout | rebuild required | FIRST on resume: reuse the owner-designated half-finished compressor for the existing Steam-Compressor. Locate its editable master, preserve useful mechanism, and finish primitive low-tech construction and canister charging/release integration. See REMAINING_STRUCTURES_HANDOFF.md. |
+| Steam Compressor | V2 owner-identified barrel source | accepted integrated | Preserve operational barrel compressor; finish canonical FMPL remote registration receipt before next machine. |
 | Quarry | OBJ blockout | rebuild required | Build supported excavation hoist, real cable path and lifted stone with readable working loop. |
 | Shaler | OBJ blockout | rebuild required | Build crushing jaws, constrained transmission, material feed/discharge and cycle. |
 | Calcifier | OBJ blockout | rebuild required | Build mineral furnace, charge/discharge, localized fuel/heat/exhaust and working states. |
@@ -40,7 +40,7 @@ FMPL uses the canonical pinned library in `fmpl-consumer.json`; validate the act
 
 ## Continuation
 
-The goal is paused. Resume from docs/art/REMAINING_STRUCTURES_HANDOFF.md and begin with the owner-designated existing compressor for Steam-Compressor. Preserve all ten accepted assets; Beach Pump V12 underwater polish is deferred. Keep the unfamiliar Tanks condenser candidate held and uninstalled; actual recipes, not names, define function. Tech-Priests atmospheric condenser V24 is a separate machine. Keep rejected wheel studies held and lifting buckets upright. Reconcile remote HEAD and preserve concurrent work.
+The enduring goal is active. Resume from docs/art/REMAINING_STRUCTURES_HANDOFF.md and the current active_structure in the JSON ledger. Preserve all ten accepted assets; Beach Pump V12 underwater polish is deferred. Keep the unfamiliar Tanks condenser candidate held and uninstalled; actual recipes, not names, define function. Tech-Priests atmospheric condenser V24 is a separate machine. Keep rejected wheel studies held and lifting buckets upright. Reconcile remote HEAD and preserve concurrent work.
 
 Follow docs/art/OPERATIONAL_FINISH_POLICY.md: prioritize working animated integration and necessary operational checks, using judgment for close-enough visuals. Do not request routine promotion permission again or add cosmetic production cycles. Never fabricate specific owner visual approval or missing source/export receipts. Do not create extra CI workflows, change progression/balance, duplicate the workbench, or add Tech-Priests turret/vehicle work.
 
@@ -61,7 +61,7 @@ Follow docs/art/OPERATIONAL_FINISH_POLICY.md: prioritize working animated integr
 - Wood Basin: [designs.json](../../models/island-survival/designs.json)
 - Tank Ammunition Assembler: [designs.json](../../models/island-survival/designs.json)
 - Tank Assembling Machine: [designs.json](../../models/island-survival/designs.json)
-- Steam Compressor: [designs.json](../../models/island-survival/designs.json), [REMAINING_STRUCTURES_HANDOFF.md](../../docs/art/REMAINING_STRUCTURES_HANDOFF.md)
+- Steam Compressor: [FMPL_MODEL.json](../../models/island-survival/steam-compressor/v2/FMPL_MODEL.json), [engine-receipt.json](../../docs/art/steam-compressor-v2/engine-receipt.json), [capture-receipt.json](../../docs/art/steam-compressor-v2/capture-receipt.json)
 - Quarry: [designs.json](../../models/island-survival/designs.json)
 - Shaler: [designs.json](../../models/island-survival/designs.json)
 - Calcifier: [designs.json](../../models/island-survival/designs.json)

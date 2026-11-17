@@ -1,0 +1,162 @@
+{
+  "schema": "tanks.steam-compressor.v1.contract",
+  "source_commit": "9e92c3cc77b5695e9d5bf8c728eaae23230ea51c",
+  "active_mod": "tanks_for_bob_fork_1.8.104",
+  "entity": "assembling-machine/Steam-Compressor",
+  "placeable_item": "Steam-Compressor",
+  "building_recipe": {
+    "name": "Steam-Compressor",
+    "category": "Seablock",
+    "seconds": 35,
+    "ingredients": {
+      "shaler": 1,
+      "cooking-fire": 2
+    },
+    "results": {
+      "Steam-Compressor": 1
+    },
+    "byproduct": {
+      "tank-ammo-Industrialwaste": {
+        "amount": 1,
+        "probability": 0.1
+      }
+    }
+  },
+  "technology": {
+    "name": "Steam-Compressor",
+    "prerequisites": [
+      "shaler",
+      "quarry",
+      "fish-pond",
+      "meal"
+    ],
+    "count": 10,
+    "ingredients": {
+      "Seared-fish": 1,
+      "meal": 1
+    },
+    "seconds": 10
+  },
+  "processing": [
+    {
+      "name": "Charged-Canister",
+      "category": "Steam-Compressor",
+      "seconds": 15,
+      "ingredients": {
+        "Canister": 1,
+        "steam": 350
+      },
+      "results": {
+        "Charged-Canister": 1
+      },
+      "waste_probability": 0.05
+    },
+    {
+      "name": "UnCharge-Canister",
+      "category": "Steam-Compressor",
+      "seconds": 15,
+      "ingredients": {
+        "Charged-Canister": 1
+      },
+      "results": {
+        "Canister": 1,
+        "steam": 350
+      },
+      "waste_probability": 0.05
+    }
+  ],
+  "power": {
+    "type": "burner",
+    "fuel_categories": [
+      "chemical"
+    ],
+    "usage": "10kW",
+    "effectivity": 0.7,
+    "fuel_inventory_size": 1
+  },
+  "footprint_tiles": [
+    3,
+    3
+  ],
+  "collision_box": [
+    [
+      -1.2,
+      -1.2
+    ],
+    [
+      1.2,
+      1.2
+    ]
+  ],
+  "selection_box": [
+    [
+      -1.5,
+      -1.5
+    ],
+    [
+      1.5,
+      1.5
+    ]
+  ],
+  "fluidboxes": [
+    {
+      "type": "input",
+      "volume": 1000,
+      "position": [
+        0,
+        -1
+      ],
+      "direction": "north"
+    },
+    {
+      "type": "output",
+      "volume": 1000,
+      "position": [
+        0,
+        1
+      ],
+      "direction": "south"
+    }
+  ],
+  "native_pipe_neighbor_centers": [
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "model_socket_planes": [
+    [
+      0,
+      1.5,
+      0.36
+    ],
+    [
+      0,
+      -1.5,
+      0.36
+    ]
+  ],
+  "directions": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "preserved_source": "models\\island-survival\\steam-condenser\\candidates\\v1-production01\\steam-condenser-v1.blend",
+  "preserved_source_sha256": "b943a54aa0cd35ead07971f71f8d8c45936bf29ca1c425f597b21f3b15ca46f7",
+  "construction": "Preserve the owner-designated stave pressure vessel, timber frame, hoops, gauge, full-bore north/south fixed fittings and useful vane parts. Derive a compressor using the vane as a supported crank, a rigid rod and guided pressure piston. Add fuel-fired heating and a clamped copper canister; remove the erroneous condensate droplets and water readout assumptions. No hydrogen gameplay.",
+  "surface_plan": {
+    "bed": "longitudinal oak grain with cut end faces",
+    "firebox": "clay brick and iron door",
+    "cylinders": "retain machined pressure-shell image materials",
+    "steam_driver": "oxidized copper image maps",
+    "fittings": "bronze and dark iron",
+    "canister": "copper shell and iron retaining hoops"
+  },
+  "status": "in_progress; owner identified barrel/frame source via build_steam_condenser_v1.py",
+  "preserved_source_is_intended": true
+}

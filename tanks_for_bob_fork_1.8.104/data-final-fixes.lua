@@ -51,3 +51,6 @@ require("prototypes.generated_graphics.fish-pond-v2-production")
 
 -- Reviewed modeled material and missing-item inventory artwork.
 require("prototypes.generated_graphics.material-icons-v01")
+
+-- Tanks compressor: owner-identified barrel/frame source, same gameplay.
+require("prototypes.generated_graphics.steam-compressor-v2-production")

@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-16",
+  "judgment": "operational_close_enough",
+  "owner_visual_approved": false,
+  "basis": "Owner-authorized completion judgment; no cosmetic polishing cycle",
+  "source_sha256": "d406d9532bf85f08b49b2a9edb9f4e1a6d3bdd3f33384601b72e08f21439512f",
+  "runtime_sha256": "92bdbb31538191458c20c598b19e9d8626c1b5030d5c645724a62ed1e1b65e44",
+  "reference_sha256": "b943a54aa0cd35ead07971f71f8d8c45936bf29ca1c425f597b21f3b15ca46f7",
+  "reviewed_images": {
+    "east-idle.png": "6bad8e2f9beb36ad73866b66c6c94944369acd394c1012db416269f7437f1443",
+    "east-later.png": "f08ebbc08484117a06f34c320404252f057a7c3ca40316e24a7f9567ec23d1f3",
+    "east-working.png": "628766abebdc6ce50655fafe5727b2ceb22f1d2bf16d855d052ef08f5862b7bd",
+    "north-idle.png": "45bdd6ec6a6fed8e80fed43e7e8a51c17e42537cca75c8d84116d7d1da25ffef",
+    "north-later.png": "6ec9c2e7f1bffdba68dfd7aa7744d83353e9e68e89935c331678deb55f2b9b0c",
+    "north-working.png": "41952455c379a1e6c42116bdf6906fb17505d08c8d9f5bf955f9c9910624f726",
+    "south-idle.png": "5215532e745574389366de76e19753f23a1c532dd06621f0551505540889c3ef",
+    "south-later.png": "1d0068032999a71577fc0018bd7d2b8c4cdb60734573b163343e81bf82027d83",
+    "south-working.png": "6ad19882c5eec943427815b2e64e3ae90d546a124b2b82c0e7216ccceb65f3f6",
+    "west-idle.png": "3c473787cd3a5e1bc5aa05bbb8a5d9edb9f7b43df2d753b6b50f94a7a7628d85",
+    "west-later.png": "10e77cf72d30a1f69f9ed4c38a36a0d062a7fcd0f8651697e2ee876a258a5f96",
+    "west-working.png": "cc10ff3d5ae81fa4f5813e4148628784de343c2319a3bd2262ea29e115da68b7"
+  },
+  "scores_out_of_10": {
+    "function": 9,
+    "supported_construction": 8,
+    "motion": 8,
+    "surfaces": 7,
+    "native_pipe_alignment": 9
+  },
+  "limitations": [
+    "Primitive fireboxes and small top crank remain visually simple at game scale.",
+    "No new Mod Portal release or full-user-mod-pack installation claimed."
+  ],
+  "rejected_source": "V1 Tech-Priests derivative is wrong source and excluded from active mod."
+}

@@ -1,0 +1,41 @@
+   0.002 2026-11-16 16:08:24; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.002 Operating system: Windows 11 (build 26200) 
+   0.002 Program arguments: "C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin/x64/factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\compressor-v2-gui-final03\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\compressor-v2-gui-final03\mods" "--test-save" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\compressor-v2-gui-final03\runtime\saves\_autosave-steam-compressor-complete-client.zip" "--test-ticks" "300" 
+   0.003 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/compressor-v2-gui-final03/config.ini
+   0.003 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.003 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/compressor-v2-gui-final03/runtime [277987/1906722MB]
+   0.003 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.009 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 21507/32526 MB, page: 29390/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.036 Running in headless mode
+   0.036 Audio is disabled
+   0.037 Info ModManager.cpp:455: FeatureFlag: 
+   0.039 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.042 Loading mod core 0.0.0 (data.lua)
+   0.055 Loading mod base 2.1.24 (data.lua)
+   0.281 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.307 Loading mod base 2.1.24 (data-updates.lua)
+   0.312 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.317 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.354 Checksum for core: 3668028660
+   0.354 Checksum of base: 3864816957
+   0.354 Checksum of tanks_for_bob_fork: 2260835367
+   0.354 Checksum of steam-compressor-v1-proof: 0
+   0.354 Checksum of steam-compressor-v1-capture: 0
+   0.473 Prototype list checksum: 1368343619
+   0.495 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.495 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.498 Info GlobalContext.cpp:1347: Resetting config.
+   0.498 Factorio initialised
+   0.499 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\compressor-v2-gui-final03\runtime\saves\_autosave-steam-compressor-complete-client.zip: 1246109 bytes.
+   0.618 Loading level.dat: 1315828 bytes.
+   0.618 Info Scenario.cpp:152: Map version 2.1.24-1
+   0.630 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   0.630 Loading script.dat: 5956 bytes.
+   0.635 Checksum for script __level__/control.lua: 3368906707
+   0.637 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   0.638 Checksum for script __steam-compressor-v1-proof__/control.lua: 4055563811
+   0.639 Checksum for script __steam-compressor-v1-capture__/control.lua: 90677299
+   0.645 Script @__steam-compressor-v1-proof__/control.lua:66: TANKS_COMPRESSOR_RELOAD_PASS complete=true
+   0.687 Info RunTest.cpp:80: Ran 300 ticks without the test finishing
+   0.687 Info GlobalContext.cpp:763: Deleting active scenario.
+   0.736 Goodbye

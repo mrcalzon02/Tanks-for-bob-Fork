@@ -1,0 +1,59 @@
+   0.002 2026-11-16 16:05:58; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.002 Operating system: Windows 11 (build 26200) 
+   0.002 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\compressor-v2-native-final02\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\compressor-v2-native-final02\mods" "--test-save" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\compressor-v2-native-final02\steam-compressor-v1-proof.zip" "--test-ticks" "3660" 
+   0.002 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/compressor-v2-native-final02/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/compressor-v2-native-final02/runtime [278253/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.008 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 22076/32526 MB, page: 29576/43790 MB, virtual: 4304/134217727 MB, extended virtual: 0 MB]
+   0.032 Running in headless mode
+   0.032 Audio is disabled
+   0.034 Info ModManager.cpp:455: FeatureFlag: 
+   0.035 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.038 Loading mod core 0.0.0 (data.lua)
+   0.051 Loading mod base 2.1.24 (data.lua)
+   0.278 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.305 Loading mod base 2.1.24 (data-updates.lua)
+   0.310 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.315 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.350 Checksum for core: 3668028660
+   0.350 Checksum of base: 3864816957
+   0.350 Checksum of tanks_for_bob_fork: 2260835367
+   0.350 Checksum of steam-compressor-v1-proof: 0
+   0.470 Prototype list checksum: 1368343619
+   0.494 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.494 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.496 Info GlobalContext.cpp:1347: Resetting config.
+   0.497 Factorio initialised
+   0.497 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\compressor-v2-native-final02\steam-compressor-v1-proof.zip: 740302 bytes.
+   0.594 Loading level.dat: 940331 bytes.
+   0.594 Info Scenario.cpp:152: Map version 2.1.24-1
+   0.603 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   0.603 Loading script.dat: 5483 bytes.
+   0.608 Checksum for script __level__/control.lua: 3368906707
+   0.610 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   0.611 Checksum for script __steam-compressor-v1-proof__/control.lua: 4055563811
+   0.613 Script @__steam-compressor-v1-proof__/control.lua:66: TANKS_COMPRESSOR_RELOAD_PASS complete=false
+   0.779 Script @__steam-compressor-v1-proof__/control.lua:79: TANKS_COMPRESSOR_DIAG {"state":"charge","facing":"north","status":1,"progress":0.13111111111113260552230030953069217503070831298828125,"products":1,"inputs":[{"name":"Canister","quality":"normal","count":18}],"fluids":{"steam":1248.552663505077362060546875},"fuel":[{"name":"coal","quality":"normal","count":9}]}
+   0.779 Script @__steam-compressor-v1-proof__/control.lua:79: TANKS_COMPRESSOR_DIAG {"state":"charge","facing":"east","status":1,"progress":0.13111111111113260552230030953069217503070831298828125,"products":1,"inputs":[{"name":"Canister","quality":"normal","count":18}],"fluids":{"steam":1248.552663505077362060546875},"fuel":[{"name":"coal","quality":"normal","count":9}]}
+   0.780 Script @__steam-compressor-v1-proof__/control.lua:79: TANKS_COMPRESSOR_DIAG {"state":"charge","facing":"south","status":1,"progress":0.13111111111113260552230030953069217503070831298828125,"products":1,"inputs":[{"name":"Canister","quality":"normal","count":18}],"fluids":{"steam":1248.552663505077362060546875},"fuel":[{"name":"coal","quality":"normal","count":9}]}
+   0.780 Script @__steam-compressor-v1-proof__/control.lua:79: TANKS_COMPRESSOR_DIAG {"state":"charge","facing":"west","status":1,"progress":0.13111111111113260552230030953069217503070831298828125,"products":1,"inputs":[{"name":"Canister","quality":"normal","count":18}],"fluids":{"steam":1248.552663505077362060546875},"fuel":[{"name":"coal","quality":"normal","count":9}]}
+   0.780 Script @__steam-compressor-v1-proof__/control.lua:79: TANKS_COMPRESSOR_DIAG {"state":"release","facing":"north","status":1,"progress":0.3322222222222430243476765099330805242061614990234375,"products":1,"inputs":[{"name":"Charged-Canister","quality":"normal","count":12}],"fluids":{"steam":250},"fuel":[{"name":"coal","quality":"normal","count":9}]}
+   0.780 Script @__steam-compressor-v1-proof__/control.lua:79: TANKS_COMPRESSOR_DIAG {"state":"release","facing":"east","status":1,"progress":0.3322222222222430243476765099330805242061614990234375,"products":1,"inputs":[{"name":"Charged-Canister","quality":"normal","count":12}],"fluids":{"steam":250},"fuel":[{"name":"coal","quality":"normal","count":9}]}
+   0.780 Script @__steam-compressor-v1-proof__/control.lua:79: TANKS_COMPRESSOR_DIAG {"state":"release","facing":"south","status":1,"progress":0.3322222222222430243476765099330805242061614990234375,"products":1,"inputs":[{"name":"Charged-Canister","quality":"normal","count":12}],"fluids":{"steam":250},"fuel":[{"name":"coal","quality":"normal","count":9}]}
+   0.780 Script @__steam-compressor-v1-proof__/control.lua:79: TANKS_COMPRESSOR_DIAG {"state":"release","facing":"west","status":1,"progress":0.3322222222222430243476765099330805242061614990234375,"products":1,"inputs":[{"name":"Charged-Canister","quality":"normal","count":12}],"fluids":{"steam":250},"fuel":[{"name":"coal","quality":"normal","count":9}]}
+   0.780 Script @__steam-compressor-v1-proof__/control.lua:92: TANKS_COMPRESSOR_RECIPES_FUEL_BLOCKED_PASS connections=20
+   0.788 Script @__steam-compressor-v1-proof__/control.lua:98: TANKS_COMPRESSOR_STOP_PASS
+   0.949 Script @__steam-compressor-v1-proof__/control.lua:108: TANKS_COMPRESSOR_RESTART_PASS
+   1.120 Script @__steam-compressor-v1-proof__/control.lua:111: UNBLOCK_DIAG {"state":"blocked-item","status":1,"progress":0.3322962962963170951979918754659593105316162109375,"count":2,"fluids":{"steam":1400},"input":[{"name":"Canister","quality":"normal","count":17}],"output":[{"name":"Charged-Canister","quality":"normal","count":2}]}
+   1.120 Script @__steam-compressor-v1-proof__/control.lua:111: UNBLOCK_DIAG {"state":"blocked-item","status":1,"progress":0.3322962962963170951979918754659593105316162109375,"count":2,"fluids":{"steam":1400},"input":[{"name":"Canister","quality":"normal","count":17}],"output":[{"name":"Charged-Canister","quality":"normal","count":2}]}
+   1.120 Script @__steam-compressor-v1-proof__/control.lua:111: UNBLOCK_DIAG {"state":"blocked-item","status":1,"progress":0.3322962962963170951979918754659593105316162109375,"count":2,"fluids":{"steam":1400},"input":[{"name":"Canister","quality":"normal","count":17}],"output":[{"name":"Charged-Canister","quality":"normal","count":2},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1}]}
+   1.120 Script @__steam-compressor-v1-proof__/control.lua:111: UNBLOCK_DIAG {"state":"blocked-item","status":1,"progress":0.3322962962963170951979918754659593105316162109375,"count":2,"fluids":{"steam":1400},"input":[{"name":"Canister","quality":"normal","count":17}],"output":[{"name":"Charged-Canister","quality":"normal","count":2},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1}]}
+   1.120 Script @__steam-compressor-v1-proof__/control.lua:111: UNBLOCK_DIAG {"state":"blocked-fluid","status":1,"progress":0.3322962962963170951979918754659593105316162109375,"count":2,"fluids":{"steam":600},"input":[{"name":"Charged-Canister","quality":"normal","count":11}],"output":[{"name":"Canister","quality":"normal","count":2}]}
+   1.120 Script @__steam-compressor-v1-proof__/control.lua:111: UNBLOCK_DIAG {"state":"blocked-fluid","status":1,"progress":0.3322962962963170951979918754659593105316162109375,"count":2,"fluids":{"steam":600},"input":[{"name":"Charged-Canister","quality":"normal","count":11}],"output":[{"name":"Canister","quality":"normal","count":2},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1}]}
+   1.120 Script @__steam-compressor-v1-proof__/control.lua:111: UNBLOCK_DIAG {"state":"blocked-fluid","status":1,"progress":0.3322962962963170951979918754659593105316162109375,"count":2,"fluids":{"steam":600},"input":[{"name":"Charged-Canister","quality":"normal","count":11}],"output":[{"name":"Canister","quality":"normal","count":2}]}
+   1.120 Script @__steam-compressor-v1-proof__/control.lua:111: UNBLOCK_DIAG {"state":"blocked-fluid","status":1,"progress":0.3322962962963170951979918754659593105316162109375,"count":2,"fluids":{"steam":600},"input":[{"name":"Charged-Canister","quality":"normal","count":11}],"output":[{"name":"Canister","quality":"normal","count":2}]}
+   1.123 Script @__steam-compressor-v1-proof__/control.lua:117: TANKS_COMPRESSOR_NATIVE_PASS {"passed":true,"machines":24,"facings":4,"player_grid_connections":20,"real_recipes":["Charged-Canister","UnCharge-Canister"],"fuel":true,"idle":true,"blocked_item":true,"blocked_fluid":true,"stop_restart":true,"unblocking":true,"prototype_overrides":false}
+   1.134 Info RunTest.cpp:80: Ran 3660 ticks without the test finishing
+   1.134 Info GlobalContext.cpp:763: Deleting active scenario.
+   1.178 Goodbye

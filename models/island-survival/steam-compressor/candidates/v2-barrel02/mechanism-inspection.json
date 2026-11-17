@@ -1,0 +1,10 @@
+{
+  "rod_length_error": 2.12639632735101e-07,
+  "crank_joint_error": 2.407356265396403e-07,
+  "slider_joint_error": 2.633124149899526e-07,
+  "piston_joint_error": 0.0,
+  "socket_motion": 0.0,
+  "frames": 97,
+  "fixed_port_meshes": 4,
+  "passed": true
+}

@@ -1,0 +1,231 @@
+{
+  "technical_checks_passed": true,
+  "source_sha256": "d406d9532bf85f08b49b2a9edb9f4e1a6d3bdd3f33384601b72e08f21439512f",
+  "glb_sha256": "92bdbb31538191458c20c598b19e9d8626c1b5030d5c645724a62ed1e1b65e44",
+  "source": {
+    "mesh_count": 128,
+    "triangles": 28692,
+    "min": [
+      -1.3550000190734863,
+      -1.5,
+      0.0
+    ],
+    "max": [
+      1.3550000190734863,
+      1.5,
+      2.6090002059936523
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "runtime": {
+    "mesh_count": 128,
+    "triangles": 28692,
+    "min": [
+      -1.3550000190734863,
+      -1.5,
+      0.0
+    ],
+    "max": [
+      1.3550000190734863,
+      1.5,
+      2.6090002059936523
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "pose_bounds_errors": {
+    "1": 1.1920928955078125e-07,
+    "13": 1.1920928955078125e-07,
+    "25": 1.1920928955078125e-07,
+    "49": 1.1920928955078125e-07,
+    "73": 1.1920928955078125e-07,
+    "97": 1.1920928955078125e-07
+  },
+  "cycle_seam_error": 3.3527612686157227e-08,
+  "fixed_socket_motion": 0.0,
+  "moving_parts": [
+    "COOLING | fixed-length rotating paddle",
+    "COOLING | fixed-length rotating paddle.001",
+    "COOLING | fixed-length rotating paddle.002",
+    "COOLING | fixed-length rotating paddle.003",
+    "COMPRESSOR | rigid connecting rod",
+    "COMPRESSOR | retained crank pin"
+  ],
+  "packed_images": [
+    {
+      "name": "aged-copper-jacket-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fish-pond-v2-albedo",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "fish-pond-v2-normal",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "fish-pond-v2-roughness",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "long-grain-oak-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "embedded_export_images": 21,
+  "animation_count": 1,
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}

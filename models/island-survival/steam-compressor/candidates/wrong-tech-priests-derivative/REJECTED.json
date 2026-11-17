@@ -1,0 +1,7 @@
+{
+  "status": "rejected_wrong_source",
+  "owner_correction": "That is not the right compressor; that is the compressor from Tech Priests.",
+  "active_integration_removed": true,
+  "native_tests_do_not_establish_correct_asset_identity": true,
+  "intended_compressor_source": "not_yet_located"
+}

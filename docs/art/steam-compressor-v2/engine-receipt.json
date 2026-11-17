@@ -1,0 +1,11 @@
+{
+  "engine": "Version: 2.1.24 (build 87808, win64, steam)\nVersion: 64\nMap input version: 1.0.0-0\nMap output version: 2.1.24-1",
+  "exit_code": 0,
+  "native_pass": true,
+  "reload_pass": true,
+  "visual_alignment_verified": true,
+  "saved_fixture": "C:\\Users\\Admin\\Documents\\ChatGPT\\Tech priests\\tanks-structure-production\\build\\compressor-v2-native-final02\\steam-compressor-v1-proof.zip",
+  "completed_state_reload_pass": true,
+  "completed_state_sha256": "de0bad8d1bbeaf5d10b4d0a39e2eac69ef90f8005e8d790d94c447bd94072961",
+  "source_snapshot": "source-snapshot.json"
+}

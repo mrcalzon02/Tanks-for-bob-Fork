@@ -1,0 +1,60 @@
+{
+  "genuine_factorio_client_capture": true,
+  "windows_session": 1,
+  "screenshots": [
+    {
+      "file": "north-working.png",
+      "sha256": "41952455c379a1e6c42116bdf6906fb17505d08c8d9f5bf955f9c9910624f726"
+    },
+    {
+      "file": "north-idle.png",
+      "sha256": "45bdd6ec6a6fed8e80fed43e7e8a51c17e42537cca75c8d84116d7d1da25ffef"
+    },
+    {
+      "file": "north-later.png",
+      "sha256": "6ec9c2e7f1bffdba68dfd7aa7744d83353e9e68e89935c331678deb55f2b9b0c"
+    },
+    {
+      "file": "east-working.png",
+      "sha256": "628766abebdc6ce50655fafe5727b2ceb22f1d2bf16d855d052ef08f5862b7bd"
+    },
+    {
+      "file": "east-idle.png",
+      "sha256": "6bad8e2f9beb36ad73866b66c6c94944369acd394c1012db416269f7437f1443"
+    },
+    {
+      "file": "east-later.png",
+      "sha256": "f08ebbc08484117a06f34c320404252f057a7c3ca40316e24a7f9567ec23d1f3"
+    },
+    {
+      "file": "south-working.png",
+      "sha256": "6ad19882c5eec943427815b2e64e3ae90d546a124b2b82c0e7216ccceb65f3f6"
+    },
+    {
+      "file": "south-idle.png",
+      "sha256": "5215532e745574389366de76e19753f23a1c532dd06621f0551505540889c3ef"
+    },
+    {
+      "file": "south-later.png",
+      "sha256": "1d0068032999a71577fc0018bd7d2b8c4cdb60734573b163343e81bf82027d83"
+    },
+    {
+      "file": "west-working.png",
+      "sha256": "cc10ff3d5ae81fa4f5813e4148628784de343c2319a3bd2262ea29e115da68b7"
+    },
+    {
+      "file": "west-idle.png",
+      "sha256": "3c473787cd3a5e1bc5aa05bbb8a5d9edb9f7b43df2d753b6b50f94a7a7628d85"
+    },
+    {
+      "file": "west-later.png",
+      "sha256": "10e77cf72d30a1f69f9ed4c38a36a0d062a7fcd0f8651697e2ee876a258a5f96"
+    }
+  ],
+  "visual_review_passed": true,
+  "completed_save": [
+    "C:\\Users\\Admin\\Documents\\ChatGPT\\Tech priests\\tanks-structure-production\\build\\compressor-v2-gui-final03\\runtime\\saves\\_autosave-steam-compressor-complete-client.zip"
+  ],
+  "review": "Delegated operational close-enough judgment: viewed all four genuine native working facings; fixed collar joins meet ordinary grid pipes, no pipe position changes.",
+  "owner_visual_approved": false
+}

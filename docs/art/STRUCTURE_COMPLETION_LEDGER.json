@@ -215,16 +215,17 @@
     {
       "id": "Steam-Compressor",
       "name": "Steam Compressor",
-      "revision": "OBJ blockout",
-      "status": "rebuild_required",
+      "revision": "V2 owner-identified barrel source",
+      "status": "accepted_integrated",
       "priority": 16,
-      "next": "FIRST on resume: reuse the owner-designated half-finished compressor for the existing Steam-Compressor. Locate its editable master, preserve useful mechanism, and finish primitive low-tech construction and canister charging/release integration. See REMAINING_STRUCTURES_HANDOFF.md.",
+      "next": "Preserve operational barrel compressor; finish canonical FMPL remote registration receipt before next machine.",
       "evidence": [
-        "models/island-survival/designs.json",
-        "docs/art/REMAINING_STRUCTURES_HANDOFF.md"
+        "models/island-survival/steam-compressor/v2/FMPL_MODEL.json",
+        "docs/art/steam-compressor-v2/engine-receipt.json",
+        "docs/art/steam-compressor-v2/capture-receipt.json"
       ],
-      "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false,
+      "fmpl_delivery": "Saved/reopened source, actual animated embedded-image GLB reimport, 68 frames, native recipe/fuel/grid/blocking/restart/completed-save reload passed. Canonical registry write pending verified source commit.",
+      "done": true,
       "active": true
     },
     {
@@ -297,7 +298,8 @@
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
-    "2026-11-15: Resolve shoreline intake versus pipe-to-pipe pump purpose; current focus is the existing Primitive Steam-Powered Pump candidate."
+    "2026-11-15: Resolve shoreline intake versus pipe-to-pipe pump purpose; current focus is the existing Primitive Steam-Powered Pump candidate.",
+    "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration."
   ],
-  "production_state": "paused; handoff prepared"
+  "production_state": "active; compressor operational, remote delivery and registry checkpoint in progress"
 }

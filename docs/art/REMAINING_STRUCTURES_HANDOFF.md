@@ -30,6 +30,20 @@ prepares a new discussion; it does not resume modeling by itself.
 
 ## Actual machine identities and compressor reuse
 
+### Owner correction, 2026-11-16 — authoritative source
+
+The owner identified `models/island-survival/steam-condenser/v1/build_steam_condenser_v1.py`
+as the intended half-finished compressor. Reuse its saved barrel/frame model
+from `models/island-survival/steam-condenser/candidates/v1-production01/steam-condenser-v1.blend`
+as a separate derivative for `Steam-Compressor`. Its existing condenser naming
+and water-output assumptions are historical misidentification, not the Tanks
+compressor contract. The hydrogen compressor listed below is explicitly the
+wrong source. A derivative made from it in this chat was rejected and removed
+from active Tanks integration; preserve it only as rejected work.
+
+This source identification does not approve the old candidate as a
+`steam-condenser` or establish completion of that separate machine.
+
 The owner confirmed: **“Our compressor is the correct one for the tanks for
 Bob purposes.”** Reuse the existing half-finished compressor; do not start a
 replacement merely because its asset is inconvenient to find.
@@ -44,18 +58,18 @@ that recipe with the compressor's operation.
 Known saved source locations to reconcile before editing:
 
 - Tanks starter: `models/island-survival/obj/Steam-Compressor.obj`.
-- An existing editable shared compressor is tracked in the sibling
+- **Rejected source — do not use:** a separate Tech-Priests compressor is in the sibling
   `model-production/art/source-to-3d/metallic-hydrogen-chain/hydrogen-compressor/v05-slow-and-audio/compressor-v05.blend`,
   with its V06 native fitting checkpoint in the adjacent
   `v06-owner-accepted-native/` directory. The saved V06 record pins source SHA256
   `29e62716acc5fa52bb4cedc8f3b4f713ac3fb857cb42b46714749910da4013ad`.
-  Its current labels/bindings describe the separate hydrogen project. Locate
-  and inspect the owner's intended existing compressor source; reuse geometry
-  and mechanics appropriately, preserve that project's source, and bind the
-  Tanks derivative to Tanks recipes/ports. Do not copy hydrogen gameplay.
-- The held barrel-shaped `steam-condenser/candidates/v1-production01` is a
-  condenser candidate, not established evidence that it is the intended
-  compressor. Do not substitute it by renaming it.
+  The owner explicitly rejected this model as the wrong compressor in the new
+  chat. Preserve that project's source; use the barrel/frame source identified
+  in the authoritative correction above for Tanks.
+- The owner has now identified the barrel-shaped
+  `steam-condenser/candidates/v1-production01` as the intended compressor source.
+  Its Tanks derivative must implement the existing canister operations and
+  burner construction. The old candidate remains unapproved as a condenser.
 
 The actual Tanks `steam-condenser` also exists as a craftable/placeable machine,
 unlocked after primitive pump and crude glass. `Steam-condenserA` consumes wood
