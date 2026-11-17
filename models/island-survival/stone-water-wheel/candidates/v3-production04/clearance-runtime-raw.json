@@ -1,0 +1,4899 @@
+{
+  "artifact": "models\\island-survival\\stone-water-wheel\\candidates\\v3-production04\\stone-water-wheel-v3.glb",
+  "sha256": "5f1f104afb9e76859dc1de287efa7ad3fde784a42288f92c47793d56109b5b90",
+  "sampled_poses": 385,
+  "authored_frames": 193,
+  "includes_half_frames": true,
+  "moving_meshes": [
+    "V2 axle | supported end washer",
+    "V2 axle | supported end washer.001",
+    "V2 axle | turned through-shaft",
+    "V2 hub | forged binding ring",
+    "V2 hub | forged binding ring.001",
+    "V2 hub | turned timber boss",
+    "V2 hub | turned timber boss.001",
+    "V2 rim | joined curved oak segment",
+    "V2 rim | joined curved oak segment.001",
+    "V2 rim | joined curved oak segment.002",
+    "V2 rim | joined curved oak segment.003",
+    "V2 rim | joined curved oak segment.004",
+    "V2 rim | joined curved oak segment.005",
+    "V2 rim | joined curved oak segment.006",
+    "V2 rim | joined curved oak segment.007",
+    "V2 rim | joined curved oak segment.008",
+    "V2 rim | joined curved oak segment.009",
+    "V2 rim | joined curved oak segment.010",
+    "V2 rim | joined curved oak segment.011",
+    "V2 rim | joined curved oak segment.012",
+    "V2 rim | joined curved oak segment.013",
+    "V2 rim | joined curved oak segment.014",
+    "V2 rim | joined curved oak segment.015",
+    "V2 rim | joined curved oak segment.016",
+    "V2 rim | joined curved oak segment.017",
+    "V2 rim | joined curved oak segment.018",
+    "V2 rim | joined curved oak segment.019",
+    "V2 rim | joined curved oak segment.020",
+    "V2 rim | joined curved oak segment.021",
+    "V2 rim | joined curved oak segment.022",
+    "V2 rim | joined curved oak segment.023",
+    "V2 rim | supported joint rivet",
+    "V2 rim | supported joint rivet.001",
+    "V2 rim | supported joint rivet.002",
+    "V2 rim | supported joint rivet.003",
+    "V2 rim | supported joint rivet.004",
+    "V2 rim | supported joint rivet.005",
+    "V2 rim | supported joint rivet.006",
+    "V2 rim | supported joint rivet.007",
+    "V2 rim | supported joint rivet.008",
+    "V2 rim | supported joint rivet.009",
+    "V2 rim | supported joint rivet.010",
+    "V2 rim | supported joint rivet.011",
+    "V2 rim | supported joint rivet.012",
+    "V2 rim | supported joint rivet.013",
+    "V2 rim | supported joint rivet.014",
+    "V2 rim | supported joint rivet.015",
+    "V2 rim | supported joint rivet.016",
+    "V2 rim | supported joint rivet.017",
+    "V2 rim | supported joint rivet.018",
+    "V2 rim | supported joint rivet.019",
+    "V2 rim | supported joint rivet.020",
+    "V2 rim | supported joint rivet.021",
+    "V2 rim | supported joint rivet.022",
+    "V2 rim | supported joint rivet.023",
+    "V2 rim | supported joint rivet.024",
+    "V2 rim | supported joint rivet.025",
+    "V2 rim | supported joint rivet.026",
+    "V2 rim | supported joint rivet.027",
+    "V2 rim | supported joint rivet.028",
+    "V2 rim | supported joint rivet.029",
+    "V2 rim | supported joint rivet.030",
+    "V2 rim | supported joint rivet.031",
+    "V2 rim | supported joint rivet.032",
+    "V2 rim | supported joint rivet.033",
+    "V2 rim | supported joint rivet.034",
+    "V2 rim | supported joint rivet.035",
+    "V2 rim | supported joint rivet.036",
+    "V2 rim | supported joint rivet.037",
+    "V2 rim | supported joint rivet.038",
+    "V2 rim | supported joint rivet.039",
+    "V2 rim | supported joint rivet.040",
+    "V2 rim | supported joint rivet.041",
+    "V2 rim | supported joint rivet.042",
+    "V2 rim | supported joint rivet.043",
+    "V2 rim | supported joint rivet.044",
+    "V2 rim | supported joint rivet.045",
+    "V2 rim | supported joint rivet.046",
+    "V2 rim | supported joint rivet.047",
+    "V2 rim | thin forged tyre",
+    "V2 rim | thin forged tyre.001",
+    "V2 spoke | tapered tenoned oak",
+    "V2 spoke | tapered tenoned oak.001",
+    "V2 spoke | tapered tenoned oak.002",
+    "V2 spoke | tapered tenoned oak.003",
+    "V2 spoke | tapered tenoned oak.004",
+    "V2 spoke | tapered tenoned oak.005",
+    "V2 spoke | tapered tenoned oak.006",
+    "V2 spoke | tapered tenoned oak.007",
+    "V2 spoke | tapered tenoned oak.008",
+    "V2 spoke | tapered tenoned oak.009",
+    "V2 spoke | tapered tenoned oak.010",
+    "V2 spoke | tapered tenoned oak.011",
+    "V2 spoke | tapered tenoned oak.012",
+    "V2 spoke | tapered tenoned oak.013",
+    "V2 spoke | tapered tenoned oak.014",
+    "V2 spoke | tapered tenoned oak.015",
+    "V3 | bucket 00 bored hanging eye",
+    "V3 | bucket 00 bored hanging eye.001",
+    "V3 | bucket 00 cam follower roller",
+    "V3 | bucket 00 carried water",
+    "V3 | bucket 00 closed end wall",
+    "V3 | bucket 00 closed end wall.001",
+    "V3 | bucket 00 falling drain water",
+    "V3 | bucket 00 fitted hoop",
+    "V3 | bucket 00 fitted hoop.001",
+    "V3 | bucket 00 fixed through pivot",
+    "V3 | bucket 00 gate lift rod",
+    "V3 | bucket 00 horizontal stave",
+    "V3 | bucket 00 horizontal stave.001",
+    "V3 | bucket 00 horizontal stave.002",
+    "V3 | bucket 00 horizontal stave.003",
+    "V3 | bucket 00 horizontal stave.004",
+    "V3 | bucket 00 horizontal stave.005",
+    "V3 | bucket 00 retained floor",
+    "V3 | bucket 00 rod guide cheek",
+    "V3 | bucket 00 rod guide cheek.001",
+    "V3 | bucket 00 rod guide cheek.002",
+    "V3 | bucket 00 rod guide cheek.003",
+    "V3 | bucket 00 rod retained cleat",
+    "V3 | bucket 00 seated hanger",
+    "V3 | bucket 00 seated hanger.001",
+    "V3 | bucket 00 short draining water",
+    "V3 | bucket 00 side drain sleeve",
+    "V3 | bucket 00 sliding gate plate",
+    "V3 | bucket 01 bored hanging eye",
+    "V3 | bucket 01 bored hanging eye.001",
+    "V3 | bucket 01 cam follower roller",
+    "V3 | bucket 01 carried water",
+    "V3 | bucket 01 closed end wall",
+    "V3 | bucket 01 closed end wall.001",
+    "V3 | bucket 01 falling drain water",
+    "V3 | bucket 01 fitted hoop",
+    "V3 | bucket 01 fitted hoop.001",
+    "V3 | bucket 01 fixed through pivot",
+    "V3 | bucket 01 gate lift rod",
+    "V3 | bucket 01 horizontal stave",
+    "V3 | bucket 01 horizontal stave.001",
+    "V3 | bucket 01 horizontal stave.002",
+    "V3 | bucket 01 horizontal stave.003",
+    "V3 | bucket 01 horizontal stave.004",
+    "V3 | bucket 01 horizontal stave.005",
+    "V3 | bucket 01 retained floor",
+    "V3 | bucket 01 rod guide cheek",
+    "V3 | bucket 01 rod guide cheek.001",
+    "V3 | bucket 01 rod guide cheek.002",
+    "V3 | bucket 01 rod guide cheek.003",
+    "V3 | bucket 01 rod retained cleat",
+    "V3 | bucket 01 seated hanger",
+    "V3 | bucket 01 seated hanger.001",
+    "V3 | bucket 01 short draining water",
+    "V3 | bucket 01 side drain sleeve",
+    "V3 | bucket 01 sliding gate plate",
+    "V3 | bucket 02 bored hanging eye",
+    "V3 | bucket 02 bored hanging eye.001",
+    "V3 | bucket 02 cam follower roller",
+    "V3 | bucket 02 carried water",
+    "V3 | bucket 02 closed end wall",
+    "V3 | bucket 02 closed end wall.001",
+    "V3 | bucket 02 falling drain water",
+    "V3 | bucket 02 fitted hoop",
+    "V3 | bucket 02 fitted hoop.001",
+    "V3 | bucket 02 fixed through pivot",
+    "V3 | bucket 02 gate lift rod",
+    "V3 | bucket 02 horizontal stave",
+    "V3 | bucket 02 horizontal stave.001",
+    "V3 | bucket 02 horizontal stave.002",
+    "V3 | bucket 02 horizontal stave.003",
+    "V3 | bucket 02 horizontal stave.004",
+    "V3 | bucket 02 horizontal stave.005",
+    "V3 | bucket 02 retained floor",
+    "V3 | bucket 02 rod guide cheek",
+    "V3 | bucket 02 rod guide cheek.001",
+    "V3 | bucket 02 rod guide cheek.002",
+    "V3 | bucket 02 rod guide cheek.003",
+    "V3 | bucket 02 rod retained cleat",
+    "V3 | bucket 02 seated hanger",
+    "V3 | bucket 02 seated hanger.001",
+    "V3 | bucket 02 short draining water",
+    "V3 | bucket 02 side drain sleeve",
+    "V3 | bucket 02 sliding gate plate",
+    "V3 | bucket 03 bored hanging eye",
+    "V3 | bucket 03 bored hanging eye.001",
+    "V3 | bucket 03 cam follower roller",
+    "V3 | bucket 03 carried water",
+    "V3 | bucket 03 closed end wall",
+    "V3 | bucket 03 closed end wall.001",
+    "V3 | bucket 03 falling drain water",
+    "V3 | bucket 03 fitted hoop",
+    "V3 | bucket 03 fitted hoop.001",
+    "V3 | bucket 03 fixed through pivot",
+    "V3 | bucket 03 gate lift rod",
+    "V3 | bucket 03 horizontal stave",
+    "V3 | bucket 03 horizontal stave.001",
+    "V3 | bucket 03 horizontal stave.002",
+    "V3 | bucket 03 horizontal stave.003",
+    "V3 | bucket 03 horizontal stave.004",
+    "V3 | bucket 03 horizontal stave.005",
+    "V3 | bucket 03 retained floor",
+    "V3 | bucket 03 rod guide cheek",
+    "V3 | bucket 03 rod guide cheek.001",
+    "V3 | bucket 03 rod guide cheek.002",
+    "V3 | bucket 03 rod guide cheek.003",
+    "V3 | bucket 03 rod retained cleat",
+    "V3 | bucket 03 seated hanger",
+    "V3 | bucket 03 seated hanger.001",
+    "V3 | bucket 03 short draining water",
+    "V3 | bucket 03 side drain sleeve",
+    "V3 | bucket 03 sliding gate plate",
+    "V3 | bucket 04 bored hanging eye",
+    "V3 | bucket 04 bored hanging eye.001",
+    "V3 | bucket 04 cam follower roller",
+    "V3 | bucket 04 carried water",
+    "V3 | bucket 04 closed end wall",
+    "V3 | bucket 04 closed end wall.001",
+    "V3 | bucket 04 falling drain water",
+    "V3 | bucket 04 fitted hoop",
+    "V3 | bucket 04 fitted hoop.001",
+    "V3 | bucket 04 fixed through pivot",
+    "V3 | bucket 04 gate lift rod",
+    "V3 | bucket 04 horizontal stave",
+    "V3 | bucket 04 horizontal stave.001",
+    "V3 | bucket 04 horizontal stave.002",
+    "V3 | bucket 04 horizontal stave.003",
+    "V3 | bucket 04 horizontal stave.004",
+    "V3 | bucket 04 horizontal stave.005",
+    "V3 | bucket 04 retained floor",
+    "V3 | bucket 04 rod guide cheek",
+    "V3 | bucket 04 rod guide cheek.001",
+    "V3 | bucket 04 rod guide cheek.002",
+    "V3 | bucket 04 rod guide cheek.003",
+    "V3 | bucket 04 rod retained cleat",
+    "V3 | bucket 04 seated hanger",
+    "V3 | bucket 04 seated hanger.001",
+    "V3 | bucket 04 short draining water",
+    "V3 | bucket 04 side drain sleeve",
+    "V3 | bucket 04 sliding gate plate",
+    "V3 | bucket 05 bored hanging eye",
+    "V3 | bucket 05 bored hanging eye.001",
+    "V3 | bucket 05 cam follower roller",
+    "V3 | bucket 05 carried water",
+    "V3 | bucket 05 closed end wall",
+    "V3 | bucket 05 closed end wall.001",
+    "V3 | bucket 05 falling drain water",
+    "V3 | bucket 05 fitted hoop",
+    "V3 | bucket 05 fitted hoop.001",
+    "V3 | bucket 05 fixed through pivot",
+    "V3 | bucket 05 gate lift rod",
+    "V3 | bucket 05 horizontal stave",
+    "V3 | bucket 05 horizontal stave.001",
+    "V3 | bucket 05 horizontal stave.002",
+    "V3 | bucket 05 horizontal stave.003",
+    "V3 | bucket 05 horizontal stave.004",
+    "V3 | bucket 05 horizontal stave.005",
+    "V3 | bucket 05 retained floor",
+    "V3 | bucket 05 rod guide cheek",
+    "V3 | bucket 05 rod guide cheek.001",
+    "V3 | bucket 05 rod guide cheek.002",
+    "V3 | bucket 05 rod guide cheek.003",
+    "V3 | bucket 05 rod retained cleat",
+    "V3 | bucket 05 seated hanger",
+    "V3 | bucket 05 seated hanger.001",
+    "V3 | bucket 05 short draining water",
+    "V3 | bucket 05 side drain sleeve",
+    "V3 | bucket 05 sliding gate plate",
+    "V3 | bucket 06 bored hanging eye",
+    "V3 | bucket 06 bored hanging eye.001",
+    "V3 | bucket 06 cam follower roller",
+    "V3 | bucket 06 carried water",
+    "V3 | bucket 06 closed end wall",
+    "V3 | bucket 06 closed end wall.001",
+    "V3 | bucket 06 falling drain water",
+    "V3 | bucket 06 fitted hoop",
+    "V3 | bucket 06 fitted hoop.001",
+    "V3 | bucket 06 fixed through pivot",
+    "V3 | bucket 06 gate lift rod",
+    "V3 | bucket 06 horizontal stave",
+    "V3 | bucket 06 horizontal stave.001",
+    "V3 | bucket 06 horizontal stave.002",
+    "V3 | bucket 06 horizontal stave.003",
+    "V3 | bucket 06 horizontal stave.004",
+    "V3 | bucket 06 horizontal stave.005",
+    "V3 | bucket 06 retained floor",
+    "V3 | bucket 06 rod guide cheek",
+    "V3 | bucket 06 rod guide cheek.001",
+    "V3 | bucket 06 rod guide cheek.002",
+    "V3 | bucket 06 rod guide cheek.003",
+    "V3 | bucket 06 rod retained cleat",
+    "V3 | bucket 06 seated hanger",
+    "V3 | bucket 06 seated hanger.001",
+    "V3 | bucket 06 short draining water",
+    "V3 | bucket 06 side drain sleeve",
+    "V3 | bucket 06 sliding gate plate",
+    "V3 | bucket 07 bored hanging eye",
+    "V3 | bucket 07 bored hanging eye.001",
+    "V3 | bucket 07 cam follower roller",
+    "V3 | bucket 07 carried water",
+    "V3 | bucket 07 closed end wall",
+    "V3 | bucket 07 closed end wall.001",
+    "V3 | bucket 07 falling drain water",
+    "V3 | bucket 07 fitted hoop",
+    "V3 | bucket 07 fitted hoop.001",
+    "V3 | bucket 07 fixed through pivot",
+    "V3 | bucket 07 gate lift rod",
+    "V3 | bucket 07 horizontal stave",
+    "V3 | bucket 07 horizontal stave.001",
+    "V3 | bucket 07 horizontal stave.002",
+    "V3 | bucket 07 horizontal stave.003",
+    "V3 | bucket 07 horizontal stave.004",
+    "V3 | bucket 07 horizontal stave.005",
+    "V3 | bucket 07 retained floor",
+    "V3 | bucket 07 rod guide cheek",
+    "V3 | bucket 07 rod guide cheek.001",
+    "V3 | bucket 07 rod guide cheek.002",
+    "V3 | bucket 07 rod guide cheek.003",
+    "V3 | bucket 07 rod retained cleat",
+    "V3 | bucket 07 seated hanger",
+    "V3 | bucket 07 seated hanger.001",
+    "V3 | bucket 07 short draining water",
+    "V3 | bucket 07 side drain sleeve",
+    "V3 | bucket 07 sliding gate plate",
+    "V3 | current paddle seated stub",
+    "V3 | current paddle seated stub.001",
+    "V3 | current paddle seated stub.002",
+    "V3 | current paddle seated stub.003",
+    "V3 | current paddle seated stub.004",
+    "V3 | current paddle seated stub.005",
+    "V3 | current paddle seated stub.006",
+    "V3 | current paddle seated stub.007",
+    "V3 | current paddle seated stub.008",
+    "V3 | current paddle seated stub.009",
+    "V3 | current paddle seated stub.010",
+    "V3 | current paddle seated stub.011",
+    "V3 | current paddle seated stub.012",
+    "V3 | current paddle seated stub.013",
+    "V3 | current paddle seated stub.014",
+    "V3 | current paddle seated stub.015",
+    "V3 | outboard current paddle",
+    "V3 | outboard current paddle.001",
+    "V3 | outboard current paddle.002",
+    "V3 | outboard current paddle.003",
+    "V3 | outboard current paddle.004",
+    "V3 | outboard current paddle.005",
+    "V3 | outboard current paddle.006",
+    "V3 | outboard current paddle.007",
+    "V3 | outboard current paddle.008",
+    "V3 | outboard current paddle.009",
+    "V3 | outboard current paddle.010",
+    "V3 | outboard current paddle.011",
+    "V3 | outboard current paddle.012",
+    "V3 | outboard current paddle.013",
+    "V3 | outboard current paddle.014",
+    "V3 | outboard current paddle.015"
+  ],
+  "motion_owners": {
+    "Outlet | canonical collar": null,
+    "Outlet | canonical full bore throat": null,
+    "V2 bearing | anchored forged shoe": null,
+    "V2 bearing | anchored forged shoe.001": null,
+    "V2 bearing | anchored forged shoe.002": null,
+    "V2 bearing | anchored forged shoe.003": null,
+    "V2 bearing | hollow bronze sleeve": null,
+    "V2 bearing | raised iron lip": null,
+    "V2 bearing | hollow bronze sleeve.001": null,
+    "V2 bearing | raised iron lip.001": null,
+    "V2 bearing | load-bearing bolt head": null,
+    "V2 bearing | load-bearing bolt head.001": null,
+    "V2 bearing | load-bearing bolt head.002": null,
+    "V2 bearing | load-bearing bolt head.003": null,
+    "V2 footing | inset separate structural foot": null,
+    "V2 footing | inset separate structural foot.001": null,
+    "V2 footing | inset separate structural foot.002": null,
+    "V2 footing | inset separate structural foot.003": null,
+    "V2 masonry | carved bearing saddle": null,
+    "V2 masonry | carved bearing saddle.001": null,
+    "V2 masonry | fitted coursed bearing pier": null,
+    "V2 masonry | fitted coursed bearing pier.001": null,
+    "V2 masonry | fitted coursed bearing pier.002": null,
+    "V2 masonry | fitted coursed bearing pier.003": null,
+    "V2 masonry | fitted coursed bearing pier.004": null,
+    "V2 masonry | fitted coursed bearing pier.005": null,
+    "V2 masonry | fitted coursed bearing pier.006": null,
+    "V2 masonry | fitted coursed bearing pier.007": null,
+    "V2 masonry | fitted coursed bearing pier.008": null,
+    "V2 masonry | fitted coursed bearing pier.009": null,
+    "V2 masonry | fitted coursed bearing pier.010": null,
+    "V2 masonry | fitted coursed bearing pier.011": null,
+    "V3 | cam bridge diagonal": null,
+    "V3 | cam fixed suspended bracket": null,
+    "V3 | cam founded upright": null,
+    "V3 | cam over-wheel mounting bridge": null,
+    "V3 | fixed drain cam contact rail": null,
+    "V3 | fixed drain cam contact rail.001": null,
+    "V3 | fixed drain cam contact rail.002": null,
+    "V3 | fixed drain cam contact rail.003": null,
+    "V3 | fixed drain cam contact rail.004": null,
+    "V3 | fixed drain cam contact rail.005": null,
+    "V3 | fixed drain cam contact rail.006": null,
+    "V3 | fixed drain cam contact rail.007": null,
+    "V3 | fixed drain cam contact rail.008": null,
+    "V3 | fixed drain cam contact rail.009": null,
+    "V3 | fixed drain cam contact rail.010": null,
+    "V3 | fixed drain cam contact rail.011": null,
+    "V3 | fixed drain cam contact rail.012": null,
+    "V3 | fixed drain cam contact rail.013": null,
+    "V3 | fixed drain cam contact rail.014": null,
+    "V3 | fixed drain cam contact rail.015": null,
+    "V3 | fixed drain cam contact rail.016": null,
+    "V3 | fixed drain cam contact rail.017": null,
+    "V3 | fixed drain cam contact rail.018": null,
+    "V3 | fixed drain cam contact rail.019": null,
+    "V3 | flared side jet capture bed": null,
+    "V3 | jet capture outer back": null,
+    "V3 | jet capture raised end": null,
+    "V3 | joined race side": null,
+    "V3 | joined race side.001": null,
+    "V3 | joined race side.002": null,
+    "V3 | joined race side.003": null,
+    "V3 | joined race side.004": null,
+    "V3 | joined race side.005": null,
+    "V3 | joined sloping race bed": null,
+    "V3 | joined sloping race bed.001": null,
+    "V3 | joined sloping race bed.002": null,
+    "V3 | race diagonal support": null,
+    "V3 | race diagonal support.001": null,
+    "V3 | race diagonal support.002": null,
+    "V3 | race vertical founded support": null,
+    "V3 | race vertical founded support.001": null,
+    "V3 | race vertical founded support.002": null,
+    "V3 | receiver closed rear": null,
+    "V3 | receiver contained water": null,
+    "V3 | receiver corner iron angle": null,
+    "V3 | receiver corner iron angle.001": null,
+    "V3 | receiver fitted side": null,
+    "V3 | receiver fitted side.001": null,
+    "V3 | receiver grounded sole": null,
+    "V3 | receiver monolithic fitted front": null,
+    "V3 | receiver retained corner fastener": null,
+    "V3 | receiver retained corner fastener.001": null,
+    "V3 | receiver retained corner fastener.002": null,
+    "V3 | receiver retained corner fastener.003": null,
+    "V3 | receiver sealed floor": null,
+    "V3 | shallow water along race": null,
+    "V3 | shallow water along race.001": null,
+    "V3 | shallow water along race.002": null,
+    "V2 axle | supported end washer": "WHEEL | rotating scoop assembly",
+    "V2 axle | supported end washer.001": "WHEEL | rotating scoop assembly",
+    "V2 axle | turned through-shaft": "WHEEL | rotating scoop assembly",
+    "V2 hub | forged binding ring": "WHEEL | rotating scoop assembly",
+    "V2 hub | forged binding ring.001": "WHEEL | rotating scoop assembly",
+    "V2 hub | turned timber boss": "WHEEL | rotating scoop assembly",
+    "V2 hub | turned timber boss.001": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.001": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.002": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.003": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.004": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.005": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.006": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.007": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.008": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.009": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.010": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.011": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.012": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.013": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.014": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.015": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.016": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.017": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.018": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.019": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.020": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.021": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.022": "WHEEL | rotating scoop assembly",
+    "V2 rim | joined curved oak segment.023": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.001": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.002": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.003": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.004": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.005": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.006": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.007": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.008": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.009": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.010": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.011": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.012": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.013": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.014": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.015": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.016": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.017": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.018": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.019": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.020": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.021": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.022": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.023": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.024": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.025": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.026": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.027": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.028": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.029": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.030": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.031": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.032": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.033": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.034": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.035": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.036": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.037": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.038": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.039": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.040": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.041": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.042": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.043": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.044": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.045": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.046": "WHEEL | rotating scoop assembly",
+    "V2 rim | supported joint rivet.047": "WHEEL | rotating scoop assembly",
+    "V2 rim | thin forged tyre": "WHEEL | rotating scoop assembly",
+    "V2 rim | thin forged tyre.001": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.001": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.002": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.003": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.004": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.005": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.006": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.007": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.008": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.009": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.010": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.011": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.012": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.013": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.014": "WHEEL | rotating scoop assembly",
+    "V2 spoke | tapered tenoned oak.015": "WHEEL | rotating scoop assembly",
+    "V3 | bucket 00 fixed through pivot": "WHEEL | rotating scoop assembly",
+    "V3 | bucket 00 bored hanging eye": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 bored hanging eye.001": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 carried water": "V3 | bucket 00 carried water",
+    "V3 | bucket 00 closed end wall": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 closed end wall.001": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 falling drain water": "V3 | bucket 00 falling drain water",
+    "V3 | bucket 00 fitted hoop": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 fitted hoop.001": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 cam follower roller": "V3 | bucket 00 gravity return drain gate",
+    "V3 | bucket 00 gate lift rod": "V3 | bucket 00 gravity return drain gate",
+    "V3 | bucket 00 rod retained cleat": "V3 | bucket 00 gravity return drain gate",
+    "V3 | bucket 00 sliding gate plate": "V3 | bucket 00 gravity return drain gate",
+    "V3 | bucket 00 horizontal stave": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 horizontal stave.001": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 horizontal stave.002": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 horizontal stave.003": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 horizontal stave.004": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 horizontal stave.005": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 retained floor": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 rod guide cheek": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 rod guide cheek.001": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 rod guide cheek.002": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 rod guide cheek.003": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 seated hanger": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 seated hanger.001": "V3 | bucket 00 independently upright",
+    "V3 | bucket 00 short draining water": "V3 | bucket 00 short draining water",
+    "V3 | bucket 00 side drain sleeve": "V3 | bucket 00 independently upright",
+    "V3 | bucket 01 fixed through pivot": "WHEEL | rotating scoop assembly",
+    "V3 | bucket 01 bored hanging eye": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 bored hanging eye.001": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 carried water": "V3 | bucket 01 carried water",
+    "V3 | bucket 01 closed end wall": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 closed end wall.001": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 falling drain water": "V3 | bucket 01 falling drain water",
+    "V3 | bucket 01 fitted hoop": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 fitted hoop.001": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 cam follower roller": "V3 | bucket 01 gravity return drain gate",
+    "V3 | bucket 01 gate lift rod": "V3 | bucket 01 gravity return drain gate",
+    "V3 | bucket 01 rod retained cleat": "V3 | bucket 01 gravity return drain gate",
+    "V3 | bucket 01 sliding gate plate": "V3 | bucket 01 gravity return drain gate",
+    "V3 | bucket 01 horizontal stave": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 horizontal stave.001": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 horizontal stave.002": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 horizontal stave.003": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 horizontal stave.004": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 horizontal stave.005": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 retained floor": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 rod guide cheek": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 rod guide cheek.001": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 rod guide cheek.002": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 rod guide cheek.003": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 seated hanger": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 seated hanger.001": "V3 | bucket 01 independently upright",
+    "V3 | bucket 01 short draining water": "V3 | bucket 01 short draining water",
+    "V3 | bucket 01 side drain sleeve": "V3 | bucket 01 independently upright",
+    "V3 | bucket 02 fixed through pivot": "WHEEL | rotating scoop assembly",
+    "V3 | bucket 02 bored hanging eye": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 bored hanging eye.001": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 carried water": "V3 | bucket 02 carried water",
+    "V3 | bucket 02 closed end wall": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 closed end wall.001": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 falling drain water": "V3 | bucket 02 falling drain water",
+    "V3 | bucket 02 fitted hoop": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 fitted hoop.001": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 cam follower roller": "V3 | bucket 02 gravity return drain gate",
+    "V3 | bucket 02 gate lift rod": "V3 | bucket 02 gravity return drain gate",
+    "V3 | bucket 02 rod retained cleat": "V3 | bucket 02 gravity return drain gate",
+    "V3 | bucket 02 sliding gate plate": "V3 | bucket 02 gravity return drain gate",
+    "V3 | bucket 02 horizontal stave": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 horizontal stave.001": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 horizontal stave.002": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 horizontal stave.003": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 horizontal stave.004": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 horizontal stave.005": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 retained floor": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 rod guide cheek": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 rod guide cheek.001": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 rod guide cheek.002": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 rod guide cheek.003": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 seated hanger": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 seated hanger.001": "V3 | bucket 02 independently upright",
+    "V3 | bucket 02 short draining water": "V3 | bucket 02 short draining water",
+    "V3 | bucket 02 side drain sleeve": "V3 | bucket 02 independently upright",
+    "V3 | bucket 03 fixed through pivot": "WHEEL | rotating scoop assembly",
+    "V3 | bucket 03 bored hanging eye": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 bored hanging eye.001": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 carried water": "V3 | bucket 03 carried water",
+    "V3 | bucket 03 closed end wall": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 closed end wall.001": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 falling drain water": "V3 | bucket 03 falling drain water",
+    "V3 | bucket 03 fitted hoop": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 fitted hoop.001": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 cam follower roller": "V3 | bucket 03 gravity return drain gate",
+    "V3 | bucket 03 gate lift rod": "V3 | bucket 03 gravity return drain gate",
+    "V3 | bucket 03 rod retained cleat": "V3 | bucket 03 gravity return drain gate",
+    "V3 | bucket 03 sliding gate plate": "V3 | bucket 03 gravity return drain gate",
+    "V3 | bucket 03 horizontal stave": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 horizontal stave.001": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 horizontal stave.002": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 horizontal stave.003": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 horizontal stave.004": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 horizontal stave.005": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 retained floor": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 rod guide cheek": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 rod guide cheek.001": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 rod guide cheek.002": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 rod guide cheek.003": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 seated hanger": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 seated hanger.001": "V3 | bucket 03 independently upright",
+    "V3 | bucket 03 short draining water": "V3 | bucket 03 short draining water",
+    "V3 | bucket 03 side drain sleeve": "V3 | bucket 03 independently upright",
+    "V3 | bucket 04 fixed through pivot": "WHEEL | rotating scoop assembly",
+    "V3 | bucket 04 bored hanging eye": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 bored hanging eye.001": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 carried water": "V3 | bucket 04 carried water",
+    "V3 | bucket 04 closed end wall": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 closed end wall.001": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 falling drain water": "V3 | bucket 04 falling drain water",
+    "V3 | bucket 04 fitted hoop": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 fitted hoop.001": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 cam follower roller": "V3 | bucket 04 gravity return drain gate",
+    "V3 | bucket 04 gate lift rod": "V3 | bucket 04 gravity return drain gate",
+    "V3 | bucket 04 rod retained cleat": "V3 | bucket 04 gravity return drain gate",
+    "V3 | bucket 04 sliding gate plate": "V3 | bucket 04 gravity return drain gate",
+    "V3 | bucket 04 horizontal stave": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 horizontal stave.001": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 horizontal stave.002": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 horizontal stave.003": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 horizontal stave.004": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 horizontal stave.005": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 retained floor": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 rod guide cheek": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 rod guide cheek.001": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 rod guide cheek.002": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 rod guide cheek.003": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 seated hanger": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 seated hanger.001": "V3 | bucket 04 independently upright",
+    "V3 | bucket 04 short draining water": "V3 | bucket 04 short draining water",
+    "V3 | bucket 04 side drain sleeve": "V3 | bucket 04 independently upright",
+    "V3 | bucket 05 fixed through pivot": "WHEEL | rotating scoop assembly",
+    "V3 | bucket 05 bored hanging eye": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 bored hanging eye.001": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 carried water": "V3 | bucket 05 carried water",
+    "V3 | bucket 05 closed end wall": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 closed end wall.001": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 falling drain water": "V3 | bucket 05 falling drain water",
+    "V3 | bucket 05 fitted hoop": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 fitted hoop.001": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 cam follower roller": "V3 | bucket 05 gravity return drain gate",
+    "V3 | bucket 05 gate lift rod": "V3 | bucket 05 gravity return drain gate",
+    "V3 | bucket 05 rod retained cleat": "V3 | bucket 05 gravity return drain gate",
+    "V3 | bucket 05 sliding gate plate": "V3 | bucket 05 gravity return drain gate",
+    "V3 | bucket 05 horizontal stave": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 horizontal stave.001": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 horizontal stave.002": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 horizontal stave.003": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 horizontal stave.004": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 horizontal stave.005": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 retained floor": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 rod guide cheek": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 rod guide cheek.001": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 rod guide cheek.002": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 rod guide cheek.003": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 seated hanger": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 seated hanger.001": "V3 | bucket 05 independently upright",
+    "V3 | bucket 05 short draining water": "V3 | bucket 05 short draining water",
+    "V3 | bucket 05 side drain sleeve": "V3 | bucket 05 independently upright",
+    "V3 | bucket 06 fixed through pivot": "WHEEL | rotating scoop assembly",
+    "V3 | bucket 06 bored hanging eye": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 bored hanging eye.001": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 carried water": "V3 | bucket 06 carried water",
+    "V3 | bucket 06 closed end wall": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 closed end wall.001": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 falling drain water": "V3 | bucket 06 falling drain water",
+    "V3 | bucket 06 fitted hoop": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 fitted hoop.001": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 cam follower roller": "V3 | bucket 06 gravity return drain gate",
+    "V3 | bucket 06 gate lift rod": "V3 | bucket 06 gravity return drain gate",
+    "V3 | bucket 06 rod retained cleat": "V3 | bucket 06 gravity return drain gate",
+    "V3 | bucket 06 sliding gate plate": "V3 | bucket 06 gravity return drain gate",
+    "V3 | bucket 06 horizontal stave": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 horizontal stave.001": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 horizontal stave.002": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 horizontal stave.003": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 horizontal stave.004": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 horizontal stave.005": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 retained floor": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 rod guide cheek": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 rod guide cheek.001": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 rod guide cheek.002": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 rod guide cheek.003": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 seated hanger": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 seated hanger.001": "V3 | bucket 06 independently upright",
+    "V3 | bucket 06 short draining water": "V3 | bucket 06 short draining water",
+    "V3 | bucket 06 side drain sleeve": "V3 | bucket 06 independently upright",
+    "V3 | bucket 07 fixed through pivot": "WHEEL | rotating scoop assembly",
+    "V3 | bucket 07 bored hanging eye": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 bored hanging eye.001": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 carried water": "V3 | bucket 07 carried water",
+    "V3 | bucket 07 closed end wall": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 closed end wall.001": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 falling drain water": "V3 | bucket 07 falling drain water",
+    "V3 | bucket 07 fitted hoop": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 fitted hoop.001": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 cam follower roller": "V3 | bucket 07 gravity return drain gate",
+    "V3 | bucket 07 gate lift rod": "V3 | bucket 07 gravity return drain gate",
+    "V3 | bucket 07 rod retained cleat": "V3 | bucket 07 gravity return drain gate",
+    "V3 | bucket 07 sliding gate plate": "V3 | bucket 07 gravity return drain gate",
+    "V3 | bucket 07 horizontal stave": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 horizontal stave.001": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 horizontal stave.002": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 horizontal stave.003": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 horizontal stave.004": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 horizontal stave.005": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 retained floor": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 rod guide cheek": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 rod guide cheek.001": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 rod guide cheek.002": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 rod guide cheek.003": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 seated hanger": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 seated hanger.001": "V3 | bucket 07 independently upright",
+    "V3 | bucket 07 short draining water": "V3 | bucket 07 short draining water",
+    "V3 | bucket 07 side drain sleeve": "V3 | bucket 07 independently upright",
+    "V3 | current paddle seated stub": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.001": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.002": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.003": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.004": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.005": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.006": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.007": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.008": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.009": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.010": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.011": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.012": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.013": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.014": "WHEEL | rotating scoop assembly",
+    "V3 | current paddle seated stub.015": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.001": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.002": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.003": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.004": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.005": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.006": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.007": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.008": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.009": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.010": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.011": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.012": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.013": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.014": "WHEEL | rotating scoop assembly",
+    "V3 | outboard current paddle.015": "WHEEL | rotating scoop assembly"
+  },
+  "fixed_mesh_count": 90,
+  "pairs": {
+    "Outlet | canonical collar <> Outlet | canonical full bore throat": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 727,
+      "moving": false
+    },
+    "Outlet | canonical collar <> V3 | receiver grounded sole": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 72,
+      "moving": false
+    },
+    "Outlet | canonical full bore throat <> V3 | race diagonal support.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 90,
+      "moving": false
+    },
+    "Outlet | canonical full bore throat <> V3 | race vertical founded support.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 178,
+      "moving": false
+    },
+    "Outlet | canonical full bore throat <> V3 | receiver contained water": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 145,
+      "moving": false
+    },
+    "Outlet | canonical full bore throat <> V3 | receiver sealed floor": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe <> V2 bearing | hollow bronze sleeve": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe <> V2 bearing | raised iron lip": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe <> V2 bearing | load-bearing bolt head": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe <> V2 masonry | carved bearing saddle": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe.001 <> V2 bearing | hollow bronze sleeve": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe.001 <> V2 bearing | raised iron lip": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe.001 <> V2 bearing | load-bearing bolt head.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe.001 <> V2 masonry | carved bearing saddle": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe.002 <> V2 bearing | hollow bronze sleeve.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe.002 <> V2 bearing | raised iron lip.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe.002 <> V2 bearing | load-bearing bolt head.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe.002 <> V2 masonry | carved bearing saddle.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe.003 <> V2 bearing | hollow bronze sleeve.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe.003 <> V2 bearing | raised iron lip.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe.003 <> V2 bearing | load-bearing bolt head.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "V2 bearing | anchored forged shoe.003 <> V2 masonry | carved bearing saddle.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 35,
+      "moving": false
+    },
+    "V2 bearing | hollow bronze sleeve <> V2 bearing | raised iron lip": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 641,
+      "moving": false
+    },
+    "V2 bearing | hollow bronze sleeve <> V2 bearing | load-bearing bolt head": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "V2 bearing | hollow bronze sleeve <> V2 bearing | load-bearing bolt head.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "V2 bearing | hollow bronze sleeve <> V2 masonry | carved bearing saddle": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 232,
+      "moving": false
+    },
+    "V2 bearing | raised iron lip <> V2 masonry | carved bearing saddle": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 240,
+      "moving": false
+    },
+    "V2 bearing | hollow bronze sleeve.001 <> V2 bearing | raised iron lip.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 645,
+      "moving": false
+    },
+    "V2 bearing | hollow bronze sleeve.001 <> V2 bearing | load-bearing bolt head.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "V2 bearing | hollow bronze sleeve.001 <> V2 bearing | load-bearing bolt head.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "V2 bearing | hollow bronze sleeve.001 <> V2 masonry | carved bearing saddle.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 222,
+      "moving": false
+    },
+    "V2 bearing | raised iron lip.001 <> V2 masonry | carved bearing saddle.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 233,
+      "moving": false
+    },
+    "V2 masonry | carved bearing saddle <> V2 masonry | fitted coursed bearing pier.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 6,
+      "moving": false
+    },
+    "V2 masonry | carved bearing saddle <> V3 | cam founded upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "V2 masonry | carved bearing saddle.001 <> V2 masonry | fitted coursed bearing pier.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "V2 masonry | carved bearing saddle.001 <> V2 masonry | fitted coursed bearing pier.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "V3 | cam bridge diagonal <> V3 | cam founded upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 58,
+      "moving": false
+    },
+    "V3 | cam bridge diagonal <> V3 | cam over-wheel mounting bridge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 59,
+      "moving": false
+    },
+    "V3 | cam fixed suspended bracket <> V3 | cam over-wheel mounting bridge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "V3 | cam fixed suspended bracket <> V3 | fixed drain cam contact rail.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 13,
+      "moving": false
+    },
+    "V3 | cam fixed suspended bracket <> V3 | fixed drain cam contact rail.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail <> V3 | fixed drain cam contact rail.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 28,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.001 <> V3 | fixed drain cam contact rail.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.002 <> V3 | fixed drain cam contact rail.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.003 <> V3 | fixed drain cam contact rail.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 13,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.004 <> V3 | fixed drain cam contact rail.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.005 <> V3 | fixed drain cam contact rail.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.006 <> V3 | fixed drain cam contact rail.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 13,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.007 <> V3 | fixed drain cam contact rail.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 13,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.008 <> V3 | fixed drain cam contact rail.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.009 <> V3 | fixed drain cam contact rail.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.010 <> V3 | fixed drain cam contact rail.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.011 <> V3 | fixed drain cam contact rail.012": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.012 <> V3 | fixed drain cam contact rail.013": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.013 <> V3 | fixed drain cam contact rail.014": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.014 <> V3 | fixed drain cam contact rail.015": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 13,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.015 <> V3 | fixed drain cam contact rail.016": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.016 <> V3 | fixed drain cam contact rail.017": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.017 <> V3 | fixed drain cam contact rail.018": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "V3 | fixed drain cam contact rail.018 <> V3 | fixed drain cam contact rail.019": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 30,
+      "moving": false
+    },
+    "V3 | flared side jet capture bed <> V3 | joined sloping race bed": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "V3 | flared side jet capture bed <> V3 | shallow water along race": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 70,
+      "moving": false
+    },
+    "V3 | jet capture outer back <> V3 | joined sloping race bed": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "V3 | jet capture outer back <> V3 | shallow water along race": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "V3 | joined race side <> V3 | joined sloping race bed": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 6,
+      "moving": false
+    },
+    "V3 | joined race side.001 <> V3 | joined race side.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "V3 | joined race side.001 <> V3 | joined sloping race bed": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "V3 | joined race side.001 <> V3 | joined sloping race bed.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 6,
+      "moving": false
+    },
+    "V3 | joined race side.003 <> V3 | joined race side.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "V3 | joined race side.003 <> V3 | joined sloping race bed": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 8,
+      "moving": false
+    },
+    "V3 | joined race side.003 <> V3 | joined sloping race bed.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 8,
+      "moving": false
+    },
+    "V3 | joined race side.003 <> V3 | shallow water along race.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "V3 | joined race side.004 <> V3 | joined sloping race bed.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 4,
+      "moving": false
+    },
+    "V3 | joined race side.005 <> V3 | joined sloping race bed.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "V3 | joined race side.005 <> V3 | joined sloping race bed.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 6,
+      "moving": false
+    },
+    "V3 | joined race side.005 <> V3 | shallow water along race.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "V3 | joined sloping race bed <> V3 | joined sloping race bed.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "V3 | joined sloping race bed <> V3 | shallow water along race.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "V3 | joined sloping race bed.001 <> V3 | joined sloping race bed.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "V3 | joined sloping race bed.001 <> V3 | shallow water along race.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 13,
+      "moving": false
+    },
+    "V3 | race diagonal support <> V3 | race vertical founded support": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "V3 | race diagonal support.001 <> V3 | race vertical founded support.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "V3 | race diagonal support.002 <> V3 | race vertical founded support.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "V3 | race diagonal support.002 <> V3 | receiver contained water": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "V3 | race vertical founded support.002 <> V3 | receiver contained water": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "V3 | race vertical founded support.002 <> V3 | receiver grounded sole": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "V3 | race vertical founded support.002 <> V3 | receiver sealed floor": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "V3 | receiver closed rear <> V3 | receiver fitted side": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 61,
+      "moving": false
+    },
+    "V3 | receiver closed rear <> V3 | receiver fitted side.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 56,
+      "moving": false
+    },
+    "V3 | receiver closed rear <> V3 | receiver grounded sole": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 61,
+      "moving": false
+    },
+    "V3 | receiver corner iron angle <> V3 | receiver fitted side": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "V3 | receiver corner iron angle <> V3 | receiver grounded sole": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "V3 | receiver corner iron angle <> V3 | receiver monolithic fitted front": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 89,
+      "moving": false
+    },
+    "V3 | receiver corner iron angle <> V3 | receiver retained corner fastener": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 99,
+      "moving": false
+    },
+    "V3 | receiver corner iron angle <> V3 | receiver retained corner fastener.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 101,
+      "moving": false
+    },
+    "V3 | receiver corner iron angle.001 <> V3 | receiver fitted side.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "V3 | receiver corner iron angle.001 <> V3 | receiver grounded sole": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "V3 | receiver corner iron angle.001 <> V3 | receiver monolithic fitted front": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 89,
+      "moving": false
+    },
+    "V3 | receiver corner iron angle.001 <> V3 | receiver retained corner fastener.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 99,
+      "moving": false
+    },
+    "V3 | receiver corner iron angle.001 <> V3 | receiver retained corner fastener.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 101,
+      "moving": false
+    },
+    "V3 | receiver fitted side <> V3 | receiver grounded sole": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "V3 | receiver fitted side <> V3 | receiver monolithic fitted front": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 83,
+      "moving": false
+    },
+    "V3 | receiver fitted side <> V3 | receiver sealed floor": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "V3 | receiver fitted side.001 <> V3 | receiver grounded sole": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "V3 | receiver fitted side.001 <> V3 | receiver monolithic fitted front": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 88,
+      "moving": false
+    },
+    "V3 | receiver fitted side.001 <> V3 | receiver sealed floor": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "V3 | receiver grounded sole <> V3 | receiver monolithic fitted front": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 114,
+      "moving": false
+    },
+    "V3 | receiver grounded sole <> V3 | receiver sealed floor": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "V3 | receiver monolithic fitted front <> V3 | receiver retained corner fastener": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "V3 | receiver monolithic fitted front <> V3 | receiver retained corner fastener.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "V3 | receiver monolithic fitted front <> V3 | receiver retained corner fastener.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 39,
+      "moving": false
+    },
+    "V3 | receiver monolithic fitted front <> V3 | receiver retained corner fastener.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 39,
+      "moving": false
+    },
+    "V3 | shallow water along race <> V3 | shallow water along race.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "V3 | shallow water along race.001 <> V3 | shallow water along race.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 8,
+      "moving": false
+    },
+    "V3 | bucket 02 falling drain water <> V3 | flared side jet capture bed": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 12,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 02 falling drain water <> V3 | joined sloping race bed": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 7,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 02 falling drain water <> V3 | shallow water along race": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 7,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.008": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 5,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.009": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.010": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 3,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.011": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 5,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V2 axle | supported end washer <> V2 axle | turned through-shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 106,
+      "moving": true
+    },
+    "V2 axle | supported end washer.001 <> V2 axle | turned through-shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 102,
+      "moving": true
+    },
+    "V2 axle | turned through-shaft <> V2 hub | turned timber boss": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 204,
+      "moving": true
+    },
+    "V2 axle | turned through-shaft <> V2 hub | turned timber boss.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 204,
+      "moving": true
+    },
+    "V2 hub | forged binding ring <> V2 hub | turned timber boss": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 471,
+      "moving": true
+    },
+    "V2 hub | forged binding ring.001 <> V2 hub | turned timber boss.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 468,
+      "moving": true
+    },
+    "V2 hub | turned timber boss <> V2 spoke | tapered tenoned oak": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "V2 hub | turned timber boss <> V2 spoke | tapered tenoned oak.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 51,
+      "moving": true
+    },
+    "V2 hub | turned timber boss <> V2 spoke | tapered tenoned oak.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "V2 hub | turned timber boss <> V2 spoke | tapered tenoned oak.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 48,
+      "moving": true
+    },
+    "V2 hub | turned timber boss <> V2 spoke | tapered tenoned oak.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 47,
+      "moving": true
+    },
+    "V2 hub | turned timber boss <> V2 spoke | tapered tenoned oak.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 52,
+      "moving": true
+    },
+    "V2 hub | turned timber boss <> V2 spoke | tapered tenoned oak.006": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "V2 hub | turned timber boss <> V2 spoke | tapered tenoned oak.007": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 47,
+      "moving": true
+    },
+    "V2 hub | turned timber boss.001 <> V2 spoke | tapered tenoned oak.008": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V2 hub | turned timber boss.001 <> V2 spoke | tapered tenoned oak.009": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 49,
+      "moving": true
+    },
+    "V2 hub | turned timber boss.001 <> V2 spoke | tapered tenoned oak.010": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 47,
+      "moving": true
+    },
+    "V2 hub | turned timber boss.001 <> V2 spoke | tapered tenoned oak.011": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "V2 hub | turned timber boss.001 <> V2 spoke | tapered tenoned oak.012": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 49,
+      "moving": true
+    },
+    "V2 hub | turned timber boss.001 <> V2 spoke | tapered tenoned oak.013": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 48,
+      "moving": true
+    },
+    "V2 hub | turned timber boss.001 <> V2 spoke | tapered tenoned oak.014": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 47,
+      "moving": true
+    },
+    "V2 hub | turned timber boss.001 <> V2 spoke | tapered tenoned oak.015": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 51,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment <> V2 rim | thin forged tyre": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 104,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment <> V2 spoke | tapered tenoned oak": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment <> V3 | bucket 00 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment <> V3 | current paddle seated stub": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.001 <> V2 rim | thin forged tyre": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 106,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.001 <> V2 spoke | tapered tenoned oak.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 33,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.001 <> V3 | bucket 01 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 67,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.002 <> V2 rim | thin forged tyre": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 102,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.002 <> V2 spoke | tapered tenoned oak.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.002 <> V3 | bucket 02 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 40,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.002 <> V3 | current paddle seated stub.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.003 <> V2 rim | thin forged tyre": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 104,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.003 <> V2 spoke | tapered tenoned oak.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.003 <> V3 | bucket 02 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.003 <> V3 | current paddle seated stub.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.004 <> V2 rim | thin forged tyre": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 106,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.004 <> V2 spoke | tapered tenoned oak.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.004 <> V3 | bucket 03 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 68,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.005 <> V2 rim | thin forged tyre": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 102,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.005 <> V2 spoke | tapered tenoned oak.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.005 <> V3 | bucket 04 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.005 <> V3 | current paddle seated stub.006": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.006 <> V2 rim | thin forged tyre": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 104,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.006 <> V2 spoke | tapered tenoned oak.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.006 <> V3 | bucket 04 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 42,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.006 <> V3 | current paddle seated stub.008": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.007 <> V2 rim | thin forged tyre": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 106,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.007 <> V2 spoke | tapered tenoned oak.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 33,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.007 <> V3 | bucket 05 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 69,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.008 <> V2 rim | thin forged tyre": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 102,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.008 <> V2 spoke | tapered tenoned oak.006": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.008 <> V3 | bucket 06 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.008 <> V3 | current paddle seated stub.010": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.009 <> V2 rim | thin forged tyre": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 104,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.009 <> V2 spoke | tapered tenoned oak.006": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.009 <> V3 | bucket 06 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.009 <> V3 | current paddle seated stub.012": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.010 <> V2 rim | thin forged tyre": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 106,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.010 <> V2 spoke | tapered tenoned oak.007": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.010 <> V3 | bucket 07 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 68,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.011 <> V2 rim | thin forged tyre": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 102,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.011 <> V2 spoke | tapered tenoned oak": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.011 <> V3 | bucket 00 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.011 <> V3 | current paddle seated stub.014": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.012 <> V2 rim | thin forged tyre.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 104,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.012 <> V2 spoke | tapered tenoned oak.008": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.012 <> V3 | bucket 00 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.012 <> V3 | current paddle seated stub.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.013 <> V2 rim | thin forged tyre.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 106,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.013 <> V2 spoke | tapered tenoned oak.009": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.013 <> V3 | bucket 01 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.014 <> V2 rim | thin forged tyre.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 102,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.014 <> V2 spoke | tapered tenoned oak.010": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.014 <> V3 | bucket 02 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 37,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.014 <> V3 | current paddle seated stub.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.015 <> V2 rim | thin forged tyre.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 104,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.015 <> V2 spoke | tapered tenoned oak.010": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.015 <> V3 | bucket 02 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.015 <> V3 | current paddle seated stub.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.016 <> V2 rim | thin forged tyre.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 106,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.016 <> V2 spoke | tapered tenoned oak.011": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.016 <> V3 | bucket 03 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 68,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.017 <> V2 rim | thin forged tyre.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 102,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.017 <> V2 spoke | tapered tenoned oak.012": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.017 <> V3 | bucket 04 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 42,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.017 <> V3 | current paddle seated stub.007": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.018 <> V2 rim | thin forged tyre.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 104,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.018 <> V2 spoke | tapered tenoned oak.012": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.018 <> V3 | bucket 04 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.018 <> V3 | current paddle seated stub.009": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.019 <> V2 rim | thin forged tyre.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 106,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.019 <> V2 spoke | tapered tenoned oak.013": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.019 <> V3 | bucket 05 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.020 <> V2 rim | thin forged tyre.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 102,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.020 <> V2 spoke | tapered tenoned oak.014": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.020 <> V3 | bucket 06 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 40,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.020 <> V3 | current paddle seated stub.011": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.021 <> V2 rim | thin forged tyre.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 104,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.021 <> V2 spoke | tapered tenoned oak.014": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.021 <> V3 | bucket 06 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 37,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.021 <> V3 | current paddle seated stub.013": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.022 <> V2 rim | thin forged tyre.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 106,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.022 <> V2 spoke | tapered tenoned oak.015": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.022 <> V3 | bucket 07 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 68,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.023 <> V2 rim | thin forged tyre.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 102,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.023 <> V2 spoke | tapered tenoned oak.008": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.023 <> V3 | bucket 00 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V2 rim | joined curved oak segment.023 <> V3 | current paddle seated stub.015": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak <> V3 | bucket 00 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.001 <> V3 | bucket 01 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.002 <> V3 | bucket 02 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.003 <> V3 | bucket 03 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.004 <> V3 | bucket 04 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.005 <> V3 | bucket 05 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.006 <> V3 | bucket 06 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.007 <> V3 | bucket 07 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.008 <> V3 | bucket 00 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.009 <> V3 | bucket 01 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.010 <> V3 | bucket 02 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.011 <> V3 | bucket 03 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.012 <> V3 | bucket 04 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.013 <> V3 | bucket 05 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.014 <> V3 | bucket 06 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V2 spoke | tapered tenoned oak.015 <> V3 | bucket 07 fixed through pivot": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 00 bored hanging eye <> V3 | bucket 00 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 00 bored hanging eye.001 <> V3 | bucket 00 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 00 closed end wall <> V3 | bucket 00 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 95,
+      "moving": true
+    },
+    "V3 | bucket 00 closed end wall <> V3 | bucket 00 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 00 closed end wall <> V3 | bucket 00 side drain sleeve": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 293,
+      "moving": true
+    },
+    "V3 | bucket 00 closed end wall.001 <> V3 | bucket 00 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 45,
+      "moving": true
+    },
+    "V3 | bucket 00 closed end wall.001 <> V3 | bucket 00 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 00 fitted hoop <> V3 | bucket 00 horizontal stave.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 00 fitted hoop <> V3 | bucket 00 horizontal stave.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 00 fitted hoop.001 <> V3 | bucket 00 horizontal stave.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 00 fitted hoop.001 <> V3 | bucket 00 horizontal stave.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | bucket 00 gate lift rod": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "V3 | bucket 00 gate lift rod <> V3 | bucket 00 rod retained cleat": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "V3 | bucket 00 rod retained cleat <> V3 | bucket 00 sliding gate plate": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 49,
+      "moving": true
+    },
+    "V3 | bucket 00 horizontal stave.002 <> V3 | bucket 00 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | bucket 00 horizontal stave.005 <> V3 | bucket 00 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | bucket 01 bored hanging eye <> V3 | bucket 01 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 01 bored hanging eye.001 <> V3 | bucket 01 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 01 closed end wall <> V3 | bucket 01 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 95,
+      "moving": true
+    },
+    "V3 | bucket 01 closed end wall <> V3 | bucket 01 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 01 closed end wall <> V3 | bucket 01 side drain sleeve": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 293,
+      "moving": true
+    },
+    "V3 | bucket 01 closed end wall.001 <> V3 | bucket 01 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 45,
+      "moving": true
+    },
+    "V3 | bucket 01 closed end wall.001 <> V3 | bucket 01 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 01 fitted hoop <> V3 | bucket 01 horizontal stave.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 01 fitted hoop <> V3 | bucket 01 horizontal stave.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 01 fitted hoop.001 <> V3 | bucket 01 horizontal stave.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 01 fitted hoop.001 <> V3 | bucket 01 horizontal stave.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | bucket 01 gate lift rod": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "V3 | bucket 01 gate lift rod <> V3 | bucket 01 rod retained cleat": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "V3 | bucket 01 rod retained cleat <> V3 | bucket 01 sliding gate plate": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 49,
+      "moving": true
+    },
+    "V3 | bucket 01 horizontal stave.002 <> V3 | bucket 01 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | bucket 01 horizontal stave.005 <> V3 | bucket 01 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | bucket 02 bored hanging eye <> V3 | bucket 02 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 02 bored hanging eye.001 <> V3 | bucket 02 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 02 closed end wall <> V3 | bucket 02 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 95,
+      "moving": true
+    },
+    "V3 | bucket 02 closed end wall <> V3 | bucket 02 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 02 closed end wall <> V3 | bucket 02 side drain sleeve": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 292,
+      "moving": true
+    },
+    "V3 | bucket 02 closed end wall.001 <> V3 | bucket 02 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 45,
+      "moving": true
+    },
+    "V3 | bucket 02 closed end wall.001 <> V3 | bucket 02 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 02 falling drain water <> V3 | bucket 02 short draining water": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 10,
+      "maximum_triangle_intersections": 107,
+      "moving": true
+    },
+    "V3 | bucket 02 fitted hoop <> V3 | bucket 02 horizontal stave.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 02 fitted hoop <> V3 | bucket 02 horizontal stave.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 02 fitted hoop.001 <> V3 | bucket 02 horizontal stave.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 02 fitted hoop.001 <> V3 | bucket 02 horizontal stave.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | bucket 02 gate lift rod": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "V3 | bucket 02 gate lift rod <> V3 | bucket 02 rod retained cleat": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "V3 | bucket 02 rod retained cleat <> V3 | bucket 02 sliding gate plate": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 49,
+      "moving": true
+    },
+    "V3 | bucket 02 horizontal stave.002 <> V3 | bucket 02 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | bucket 02 horizontal stave.005 <> V3 | bucket 02 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | bucket 03 bored hanging eye <> V3 | bucket 03 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 03 bored hanging eye.001 <> V3 | bucket 03 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 03 closed end wall <> V3 | bucket 03 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 95,
+      "moving": true
+    },
+    "V3 | bucket 03 closed end wall <> V3 | bucket 03 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 03 closed end wall <> V3 | bucket 03 side drain sleeve": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 287,
+      "moving": true
+    },
+    "V3 | bucket 03 closed end wall.001 <> V3 | bucket 03 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 45,
+      "moving": true
+    },
+    "V3 | bucket 03 closed end wall.001 <> V3 | bucket 03 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 03 fitted hoop <> V3 | bucket 03 horizontal stave.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 03 fitted hoop <> V3 | bucket 03 horizontal stave.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 03 fitted hoop.001 <> V3 | bucket 03 horizontal stave.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 03 fitted hoop.001 <> V3 | bucket 03 horizontal stave.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | bucket 03 gate lift rod": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "V3 | bucket 03 gate lift rod <> V3 | bucket 03 rod retained cleat": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "V3 | bucket 03 rod retained cleat <> V3 | bucket 03 sliding gate plate": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 49,
+      "moving": true
+    },
+    "V3 | bucket 03 horizontal stave.002 <> V3 | bucket 03 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | bucket 03 horizontal stave.005 <> V3 | bucket 03 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | bucket 04 bored hanging eye <> V3 | bucket 04 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 04 bored hanging eye.001 <> V3 | bucket 04 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 04 closed end wall <> V3 | bucket 04 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 95,
+      "moving": true
+    },
+    "V3 | bucket 04 closed end wall <> V3 | bucket 04 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 04 closed end wall <> V3 | bucket 04 side drain sleeve": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 286,
+      "moving": true
+    },
+    "V3 | bucket 04 closed end wall.001 <> V3 | bucket 04 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 45,
+      "moving": true
+    },
+    "V3 | bucket 04 closed end wall.001 <> V3 | bucket 04 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 04 fitted hoop <> V3 | bucket 04 horizontal stave.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 04 fitted hoop <> V3 | bucket 04 horizontal stave.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 04 fitted hoop.001 <> V3 | bucket 04 horizontal stave.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 04 fitted hoop.001 <> V3 | bucket 04 horizontal stave.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | bucket 04 gate lift rod": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "V3 | bucket 04 gate lift rod <> V3 | bucket 04 rod retained cleat": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "V3 | bucket 04 rod retained cleat <> V3 | bucket 04 sliding gate plate": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 49,
+      "moving": true
+    },
+    "V3 | bucket 04 horizontal stave.002 <> V3 | bucket 04 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "V3 | bucket 04 horizontal stave.005 <> V3 | bucket 04 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | bucket 05 bored hanging eye <> V3 | bucket 05 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 05 bored hanging eye.001 <> V3 | bucket 05 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 05 closed end wall <> V3 | bucket 05 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 95,
+      "moving": true
+    },
+    "V3 | bucket 05 closed end wall <> V3 | bucket 05 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 05 closed end wall <> V3 | bucket 05 side drain sleeve": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 285,
+      "moving": true
+    },
+    "V3 | bucket 05 closed end wall.001 <> V3 | bucket 05 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 45,
+      "moving": true
+    },
+    "V3 | bucket 05 closed end wall.001 <> V3 | bucket 05 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 05 fitted hoop <> V3 | bucket 05 horizontal stave.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 05 fitted hoop <> V3 | bucket 05 horizontal stave.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 05 fitted hoop.001 <> V3 | bucket 05 horizontal stave.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 05 fitted hoop.001 <> V3 | bucket 05 horizontal stave.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | bucket 05 gate lift rod": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "V3 | bucket 05 gate lift rod <> V3 | bucket 05 rod retained cleat": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "V3 | bucket 05 rod retained cleat <> V3 | bucket 05 sliding gate plate": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 49,
+      "moving": true
+    },
+    "V3 | bucket 05 horizontal stave.002 <> V3 | bucket 05 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "V3 | bucket 05 horizontal stave.005 <> V3 | bucket 05 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | bucket 06 bored hanging eye <> V3 | bucket 06 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 06 bored hanging eye.001 <> V3 | bucket 06 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 06 closed end wall <> V3 | bucket 06 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 95,
+      "moving": true
+    },
+    "V3 | bucket 06 closed end wall <> V3 | bucket 06 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 06 closed end wall <> V3 | bucket 06 side drain sleeve": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 294,
+      "moving": true
+    },
+    "V3 | bucket 06 closed end wall.001 <> V3 | bucket 06 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 45,
+      "moving": true
+    },
+    "V3 | bucket 06 closed end wall.001 <> V3 | bucket 06 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 06 fitted hoop <> V3 | bucket 06 horizontal stave.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 06 fitted hoop <> V3 | bucket 06 horizontal stave.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 06 fitted hoop.001 <> V3 | bucket 06 horizontal stave.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 06 fitted hoop.001 <> V3 | bucket 06 horizontal stave.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | bucket 06 gate lift rod": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "V3 | bucket 06 gate lift rod <> V3 | bucket 06 rod retained cleat": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "V3 | bucket 06 rod retained cleat <> V3 | bucket 06 sliding gate plate": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 49,
+      "moving": true
+    },
+    "V3 | bucket 06 horizontal stave.002 <> V3 | bucket 06 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | bucket 06 horizontal stave.005 <> V3 | bucket 06 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | bucket 07 bored hanging eye <> V3 | bucket 07 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 07 bored hanging eye.001 <> V3 | bucket 07 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "V3 | bucket 07 closed end wall <> V3 | bucket 07 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 95,
+      "moving": true
+    },
+    "V3 | bucket 07 closed end wall <> V3 | bucket 07 seated hanger": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 07 closed end wall <> V3 | bucket 07 side drain sleeve": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 293,
+      "moving": true
+    },
+    "V3 | bucket 07 closed end wall.001 <> V3 | bucket 07 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 45,
+      "moving": true
+    },
+    "V3 | bucket 07 closed end wall.001 <> V3 | bucket 07 seated hanger.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "V3 | bucket 07 fitted hoop <> V3 | bucket 07 horizontal stave.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 07 fitted hoop <> V3 | bucket 07 horizontal stave.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 07 fitted hoop.001 <> V3 | bucket 07 horizontal stave.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "V3 | bucket 07 fitted hoop.001 <> V3 | bucket 07 horizontal stave.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | bucket 07 gate lift rod": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "V3 | bucket 07 gate lift rod <> V3 | bucket 07 rod retained cleat": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "V3 | bucket 07 rod retained cleat <> V3 | bucket 07 sliding gate plate": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 49,
+      "moving": true
+    },
+    "V3 | bucket 07 horizontal stave.002 <> V3 | bucket 07 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | bucket 07 horizontal stave.005 <> V3 | bucket 07 retained floor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "V3 | current paddle seated stub <> V3 | outboard current paddle": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 82,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.001 <> V3 | outboard current paddle.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.002 <> V3 | outboard current paddle.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 78,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.003 <> V3 | outboard current paddle.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.004 <> V3 | outboard current paddle.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.005 <> V3 | outboard current paddle.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 78,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.006 <> V3 | outboard current paddle.006": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.007 <> V3 | outboard current paddle.007": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 82,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.008 <> V3 | outboard current paddle.008": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 82,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.009 <> V3 | outboard current paddle.009": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.010 <> V3 | outboard current paddle.010": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 78,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.011 <> V3 | outboard current paddle.011": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.012 <> V3 | outboard current paddle.012": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.013 <> V3 | outboard current paddle.013": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 78,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.014 <> V3 | outboard current paddle.014": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | current paddle seated stub.015 <> V3 | outboard current paddle.015": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 82,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.007": {
+      "first_frame": 1.5,
+      "last_frame": 3.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.006": {
+      "first_frame": 2.5,
+      "last_frame": 3.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.005": {
+      "first_frame": 3.0,
+      "last_frame": 4.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.004": {
+      "first_frame": 3.5,
+      "last_frame": 5.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.003": {
+      "first_frame": 4.5,
+      "last_frame": 5.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.002": {
+      "first_frame": 5.0,
+      "last_frame": 6.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.001": {
+      "first_frame": 5.5,
+      "last_frame": 7.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail": {
+      "first_frame": 6.5,
+      "last_frame": 8.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 03 falling drain water <> V3 | joined sloping race bed": {
+      "first_frame": 7.0,
+      "last_frame": 25.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.019": {
+      "first_frame": 18.0,
+      "last_frame": 19.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.018": {
+      "first_frame": 19.0,
+      "last_frame": 20.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.017": {
+      "first_frame": 19.5,
+      "last_frame": 21.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.016": {
+      "first_frame": 20.5,
+      "last_frame": 21.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.015": {
+      "first_frame": 21.0,
+      "last_frame": 22.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.014": {
+      "first_frame": 21.5,
+      "last_frame": 23.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 03 falling drain water <> V3 | flared side jet capture bed": {
+      "first_frame": 22.5,
+      "last_frame": 27.5,
+      "frames": 11,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 03 falling drain water <> V3 | shallow water along race": {
+      "first_frame": 22.5,
+      "last_frame": 25.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.013": {
+      "first_frame": 22.5,
+      "last_frame": 23.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 03 short draining water <> V3 | joined race side.001": {
+      "first_frame": 22.5,
+      "last_frame": 24.5,
+      "frames": 5,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.012": {
+      "first_frame": 23.0,
+      "last_frame": 24.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 03 falling drain water <> V3 | bucket 03 short draining water": {
+      "first_frame": 23.0,
+      "last_frame": 27.0,
+      "frames": 9,
+      "maximum_triangle_intersections": 107,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.011": {
+      "first_frame": 23.5,
+      "last_frame": 25.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.010": {
+      "first_frame": 24.5,
+      "last_frame": 25.0,
+      "frames": 2,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.008": {
+      "first_frame": 25.0,
+      "last_frame": 26.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.009": {
+      "first_frame": 25.0,
+      "last_frame": 25.5,
+      "frames": 2,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.007": {
+      "first_frame": 25.5,
+      "last_frame": 27.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.006": {
+      "first_frame": 26.5,
+      "last_frame": 27.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.005": {
+      "first_frame": 27.0,
+      "last_frame": 28.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.004": {
+      "first_frame": 27.5,
+      "last_frame": 29.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.003": {
+      "first_frame": 28.5,
+      "last_frame": 29.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.002": {
+      "first_frame": 29.0,
+      "last_frame": 30.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail.001": {
+      "first_frame": 29.5,
+      "last_frame": 31.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 03 cam follower roller <> V3 | fixed drain cam contact rail": {
+      "first_frame": 30.5,
+      "last_frame": 32.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 04 falling drain water <> V3 | joined sloping race bed": {
+      "first_frame": 31.0,
+      "last_frame": 49.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.019": {
+      "first_frame": 42.0,
+      "last_frame": 43.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.018": {
+      "first_frame": 43.0,
+      "last_frame": 44.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.017": {
+      "first_frame": 43.5,
+      "last_frame": 45.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.016": {
+      "first_frame": 44.5,
+      "last_frame": 45.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.015": {
+      "first_frame": 45.0,
+      "last_frame": 46.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.014": {
+      "first_frame": 45.5,
+      "last_frame": 47.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 04 falling drain water <> V3 | flared side jet capture bed": {
+      "first_frame": 46.5,
+      "last_frame": 51.5,
+      "frames": 11,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 04 falling drain water <> V3 | shallow water along race": {
+      "first_frame": 46.5,
+      "last_frame": 49.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.013": {
+      "first_frame": 46.5,
+      "last_frame": 47.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 04 short draining water <> V3 | joined race side.001": {
+      "first_frame": 46.5,
+      "last_frame": 48.5,
+      "frames": 5,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.012": {
+      "first_frame": 47.0,
+      "last_frame": 48.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 04 falling drain water <> V3 | bucket 04 short draining water": {
+      "first_frame": 47.0,
+      "last_frame": 51.0,
+      "frames": 9,
+      "maximum_triangle_intersections": 109,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.011": {
+      "first_frame": 47.5,
+      "last_frame": 49.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.010": {
+      "first_frame": 48.5,
+      "last_frame": 49.0,
+      "frames": 2,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.008": {
+      "first_frame": 49.0,
+      "last_frame": 50.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.009": {
+      "first_frame": 49.0,
+      "last_frame": 49.5,
+      "frames": 2,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.007": {
+      "first_frame": 49.5,
+      "last_frame": 51.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.006": {
+      "first_frame": 50.5,
+      "last_frame": 51.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.005": {
+      "first_frame": 51.0,
+      "last_frame": 52.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.004": {
+      "first_frame": 51.5,
+      "last_frame": 53.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.003": {
+      "first_frame": 52.5,
+      "last_frame": 53.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.002": {
+      "first_frame": 53.0,
+      "last_frame": 54.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail.001": {
+      "first_frame": 53.5,
+      "last_frame": 55.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 04 cam follower roller <> V3 | fixed drain cam contact rail": {
+      "first_frame": 54.5,
+      "last_frame": 56.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 05 falling drain water <> V3 | joined sloping race bed": {
+      "first_frame": 55.0,
+      "last_frame": 73.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.019": {
+      "first_frame": 66.0,
+      "last_frame": 67.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.018": {
+      "first_frame": 67.0,
+      "last_frame": 68.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.017": {
+      "first_frame": 67.5,
+      "last_frame": 69.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.016": {
+      "first_frame": 68.5,
+      "last_frame": 69.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.015": {
+      "first_frame": 69.0,
+      "last_frame": 70.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.014": {
+      "first_frame": 69.5,
+      "last_frame": 71.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 05 falling drain water <> V3 | flared side jet capture bed": {
+      "first_frame": 70.5,
+      "last_frame": 75.5,
+      "frames": 11,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 05 falling drain water <> V3 | shallow water along race": {
+      "first_frame": 70.5,
+      "last_frame": 73.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.013": {
+      "first_frame": 70.5,
+      "last_frame": 71.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 05 short draining water <> V3 | joined race side.001": {
+      "first_frame": 70.5,
+      "last_frame": 72.5,
+      "frames": 5,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.012": {
+      "first_frame": 71.0,
+      "last_frame": 72.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 05 falling drain water <> V3 | bucket 05 short draining water": {
+      "first_frame": 71.0,
+      "last_frame": 75.0,
+      "frames": 9,
+      "maximum_triangle_intersections": 109,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.011": {
+      "first_frame": 71.5,
+      "last_frame": 73.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.010": {
+      "first_frame": 72.5,
+      "last_frame": 73.0,
+      "frames": 2,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.008": {
+      "first_frame": 73.0,
+      "last_frame": 74.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.009": {
+      "first_frame": 73.0,
+      "last_frame": 73.5,
+      "frames": 2,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.007": {
+      "first_frame": 73.5,
+      "last_frame": 75.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.006": {
+      "first_frame": 74.5,
+      "last_frame": 75.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.005": {
+      "first_frame": 75.0,
+      "last_frame": 76.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.004": {
+      "first_frame": 75.5,
+      "last_frame": 77.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.003": {
+      "first_frame": 76.5,
+      "last_frame": 77.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.002": {
+      "first_frame": 77.0,
+      "last_frame": 78.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail.001": {
+      "first_frame": 77.5,
+      "last_frame": 79.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 05 cam follower roller <> V3 | fixed drain cam contact rail": {
+      "first_frame": 78.5,
+      "last_frame": 80.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 06 falling drain water <> V3 | joined sloping race bed": {
+      "first_frame": 79.0,
+      "last_frame": 97.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.019": {
+      "first_frame": 90.0,
+      "last_frame": 91.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.018": {
+      "first_frame": 91.0,
+      "last_frame": 92.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.017": {
+      "first_frame": 91.5,
+      "last_frame": 93.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.016": {
+      "first_frame": 92.5,
+      "last_frame": 93.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.015": {
+      "first_frame": 93.0,
+      "last_frame": 94.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.014": {
+      "first_frame": 93.5,
+      "last_frame": 95.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 06 falling drain water <> V3 | flared side jet capture bed": {
+      "first_frame": 94.5,
+      "last_frame": 99.5,
+      "frames": 11,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 06 falling drain water <> V3 | shallow water along race": {
+      "first_frame": 94.5,
+      "last_frame": 97.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.013": {
+      "first_frame": 94.5,
+      "last_frame": 95.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 06 short draining water <> V3 | joined race side.001": {
+      "first_frame": 94.5,
+      "last_frame": 96.5,
+      "frames": 5,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.012": {
+      "first_frame": 95.0,
+      "last_frame": 96.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 06 falling drain water <> V3 | bucket 06 short draining water": {
+      "first_frame": 95.0,
+      "last_frame": 99.0,
+      "frames": 9,
+      "maximum_triangle_intersections": 111,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.011": {
+      "first_frame": 95.5,
+      "last_frame": 97.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.010": {
+      "first_frame": 96.5,
+      "last_frame": 97.0,
+      "frames": 2,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.008": {
+      "first_frame": 97.0,
+      "last_frame": 98.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.009": {
+      "first_frame": 97.0,
+      "last_frame": 97.5,
+      "frames": 2,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.007": {
+      "first_frame": 97.5,
+      "last_frame": 99.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.006": {
+      "first_frame": 98.5,
+      "last_frame": 99.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.005": {
+      "first_frame": 99.0,
+      "last_frame": 100.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.004": {
+      "first_frame": 99.5,
+      "last_frame": 101.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.003": {
+      "first_frame": 100.5,
+      "last_frame": 101.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.002": {
+      "first_frame": 101.0,
+      "last_frame": 102.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail.001": {
+      "first_frame": 101.5,
+      "last_frame": 103.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 06 cam follower roller <> V3 | fixed drain cam contact rail": {
+      "first_frame": 102.5,
+      "last_frame": 104.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 07 falling drain water <> V3 | joined sloping race bed": {
+      "first_frame": 103.0,
+      "last_frame": 121.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.019": {
+      "first_frame": 114.0,
+      "last_frame": 115.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.018": {
+      "first_frame": 115.0,
+      "last_frame": 116.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.017": {
+      "first_frame": 115.5,
+      "last_frame": 117.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.016": {
+      "first_frame": 116.5,
+      "last_frame": 117.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.015": {
+      "first_frame": 117.0,
+      "last_frame": 118.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.014": {
+      "first_frame": 117.5,
+      "last_frame": 119.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 07 falling drain water <> V3 | flared side jet capture bed": {
+      "first_frame": 118.5,
+      "last_frame": 123.5,
+      "frames": 11,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 07 falling drain water <> V3 | shallow water along race": {
+      "first_frame": 118.5,
+      "last_frame": 121.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.013": {
+      "first_frame": 118.5,
+      "last_frame": 119.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 07 short draining water <> V3 | joined race side.001": {
+      "first_frame": 118.5,
+      "last_frame": 120.5,
+      "frames": 5,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.012": {
+      "first_frame": 119.0,
+      "last_frame": 120.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 07 falling drain water <> V3 | bucket 07 short draining water": {
+      "first_frame": 119.0,
+      "last_frame": 123.0,
+      "frames": 9,
+      "maximum_triangle_intersections": 110,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.011": {
+      "first_frame": 119.5,
+      "last_frame": 121.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.010": {
+      "first_frame": 120.5,
+      "last_frame": 121.0,
+      "frames": 2,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.008": {
+      "first_frame": 121.0,
+      "last_frame": 122.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.009": {
+      "first_frame": 121.0,
+      "last_frame": 121.5,
+      "frames": 2,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.007": {
+      "first_frame": 121.5,
+      "last_frame": 123.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.006": {
+      "first_frame": 122.5,
+      "last_frame": 123.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.005": {
+      "first_frame": 123.0,
+      "last_frame": 124.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.004": {
+      "first_frame": 123.5,
+      "last_frame": 125.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.003": {
+      "first_frame": 124.5,
+      "last_frame": 125.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.002": {
+      "first_frame": 125.0,
+      "last_frame": 126.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail.001": {
+      "first_frame": 125.5,
+      "last_frame": 127.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 07 cam follower roller <> V3 | fixed drain cam contact rail": {
+      "first_frame": 126.5,
+      "last_frame": 128.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 00 falling drain water <> V3 | joined sloping race bed": {
+      "first_frame": 127.0,
+      "last_frame": 145.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.019": {
+      "first_frame": 138.0,
+      "last_frame": 139.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.018": {
+      "first_frame": 139.0,
+      "last_frame": 140.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.017": {
+      "first_frame": 139.5,
+      "last_frame": 141.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.016": {
+      "first_frame": 140.5,
+      "last_frame": 141.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.015": {
+      "first_frame": 141.0,
+      "last_frame": 142.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.014": {
+      "first_frame": 141.5,
+      "last_frame": 143.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 00 falling drain water <> V3 | flared side jet capture bed": {
+      "first_frame": 142.5,
+      "last_frame": 147.5,
+      "frames": 11,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 00 falling drain water <> V3 | shallow water along race": {
+      "first_frame": 142.5,
+      "last_frame": 145.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.013": {
+      "first_frame": 142.5,
+      "last_frame": 143.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 00 short draining water <> V3 | joined race side.001": {
+      "first_frame": 142.5,
+      "last_frame": 144.5,
+      "frames": 5,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.012": {
+      "first_frame": 143.0,
+      "last_frame": 144.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 00 falling drain water <> V3 | bucket 00 short draining water": {
+      "first_frame": 143.0,
+      "last_frame": 147.0,
+      "frames": 9,
+      "maximum_triangle_intersections": 108,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.011": {
+      "first_frame": 143.5,
+      "last_frame": 145.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.010": {
+      "first_frame": 144.5,
+      "last_frame": 145.0,
+      "frames": 2,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.008": {
+      "first_frame": 145.0,
+      "last_frame": 146.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.009": {
+      "first_frame": 145.0,
+      "last_frame": 145.5,
+      "frames": 2,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.007": {
+      "first_frame": 145.5,
+      "last_frame": 147.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.006": {
+      "first_frame": 146.5,
+      "last_frame": 147.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.005": {
+      "first_frame": 147.0,
+      "last_frame": 148.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.004": {
+      "first_frame": 147.5,
+      "last_frame": 149.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.003": {
+      "first_frame": 148.5,
+      "last_frame": 149.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.002": {
+      "first_frame": 149.0,
+      "last_frame": 150.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail.001": {
+      "first_frame": 149.5,
+      "last_frame": 151.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 00 cam follower roller <> V3 | fixed drain cam contact rail": {
+      "first_frame": 150.5,
+      "last_frame": 152.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 01 falling drain water <> V3 | joined sloping race bed": {
+      "first_frame": 151.0,
+      "last_frame": 169.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.019": {
+      "first_frame": 162.0,
+      "last_frame": 163.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.018": {
+      "first_frame": 163.0,
+      "last_frame": 164.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.017": {
+      "first_frame": 163.5,
+      "last_frame": 165.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.016": {
+      "first_frame": 164.5,
+      "last_frame": 165.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.015": {
+      "first_frame": 165.0,
+      "last_frame": 166.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.014": {
+      "first_frame": 165.5,
+      "last_frame": 167.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 01 falling drain water <> V3 | flared side jet capture bed": {
+      "first_frame": 166.5,
+      "last_frame": 171.5,
+      "frames": 11,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "V3 | bucket 01 falling drain water <> V3 | shallow water along race": {
+      "first_frame": 166.5,
+      "last_frame": 169.0,
+      "frames": 6,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.013": {
+      "first_frame": 166.5,
+      "last_frame": 167.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 01 short draining water <> V3 | joined race side.001": {
+      "first_frame": 166.5,
+      "last_frame": 168.5,
+      "frames": 5,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.012": {
+      "first_frame": 167.0,
+      "last_frame": 168.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 01 falling drain water <> V3 | bucket 01 short draining water": {
+      "first_frame": 167.0,
+      "last_frame": 171.0,
+      "frames": 9,
+      "maximum_triangle_intersections": 107,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.011": {
+      "first_frame": 167.5,
+      "last_frame": 169.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.010": {
+      "first_frame": 168.5,
+      "last_frame": 169.0,
+      "frames": 2,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.008": {
+      "first_frame": 169.0,
+      "last_frame": 170.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.009": {
+      "first_frame": 169.0,
+      "last_frame": 169.5,
+      "frames": 2,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.007": {
+      "first_frame": 169.5,
+      "last_frame": 171.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.006": {
+      "first_frame": 170.5,
+      "last_frame": 171.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.005": {
+      "first_frame": 171.0,
+      "last_frame": 172.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.004": {
+      "first_frame": 171.5,
+      "last_frame": 173.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.003": {
+      "first_frame": 172.5,
+      "last_frame": 173.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.002": {
+      "first_frame": 173.0,
+      "last_frame": 174.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail.001": {
+      "first_frame": 173.5,
+      "last_frame": 175.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 01 cam follower roller <> V3 | fixed drain cam contact rail": {
+      "first_frame": 174.5,
+      "last_frame": 176.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.019": {
+      "first_frame": 186.0,
+      "last_frame": 187.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.018": {
+      "first_frame": 187.0,
+      "last_frame": 188.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.017": {
+      "first_frame": 187.5,
+      "last_frame": 189.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.016": {
+      "first_frame": 188.5,
+      "last_frame": 189.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.015": {
+      "first_frame": 189.0,
+      "last_frame": 190.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.014": {
+      "first_frame": 189.5,
+      "last_frame": 191.0,
+      "frames": 4,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.013": {
+      "first_frame": 190.5,
+      "last_frame": 191.5,
+      "frames": 3,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "V3 | bucket 02 short draining water <> V3 | joined race side.001": {
+      "first_frame": 190.5,
+      "last_frame": 192.5,
+      "frames": 5,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "V3 | bucket 02 cam follower roller <> V3 | fixed drain cam contact rail.012": {
+      "first_frame": 191.0,
+      "last_frame": 192.5,
+      "frames": 4,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    }
+  },
+  "note": "Raw triangle contacts include intentional fitted joints, tooth engagement and fasteners. Every pair requires adjudication; this inventory is not a clearance pass."
+}

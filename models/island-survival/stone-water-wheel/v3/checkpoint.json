@@ -1,5 +1,5 @@
 {
-  "status": "contract_verified_source_refinement_pending",
+  "status": "source_export_clearance_verified_native_delivery_pending",
   "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
   "active_mod": "tanks_for_bob_fork_1.8.104",
   "retained_source": "models/island-survival/stone-water-wheel/candidates/v2-pilot02/stone-water-wheel-v2.blend",
@@ -12,7 +12,13 @@
   "measured_water_units_per_120_ticks": 60,
   "nominal_water_per_second": 30,
   "fuel_power": "Void energy source, 1W nominal; no player fuel or electricity",
-  "next": "Reopen the held V2 source, preserve useful curved rim/spokes/bearings and fixed full-size outlet; replace rigidly rotating scoops with attached independent upright lifting buckets, coherent collector/discharge and supported joinery. Repair receiver degenerates and inspect actual exported clearance before sprites or integration.",
+  "next": "Finish genuine 32-frame facing/layer capture and native sprite integration, examine pipe mouths in actual placed-pipe captures, working/idle/blocked/landfill and operated save reload, commit/push and register final FMPL.",
   "owner_visual_approved": false,
-  "delivered": false
+  "delivered": false,
+  "current_source": "models/island-survival/stone-water-wheel/candidates/v3-production04/stone-water-wheel-v3.blend",
+  "source_sha256": "e9aa7f71dad7624b0e6650a77df182f102a1640515969a986be168c07bd189f4",
+  "runtime_sha256": "5f1f104afb9e76859dc1de287efa7ad3fde784a42288f92c47793d56109b5b90",
+  "source_and_actual_glb_385_pose_clearance_pass": true,
+  "all_eight_buckets_upright_and_attached": true,
+  "native_operational_baseline": "build/stone-wheel-v3-baseline03: actual 16-pump/16-grid-pipe fixture and Workbench craft pass; final art profile and operated client save pending"
 }

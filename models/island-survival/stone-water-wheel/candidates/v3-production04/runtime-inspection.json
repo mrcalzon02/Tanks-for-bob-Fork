@@ -1,0 +1,210 @@
+{
+  "technical_checks_passed": true,
+  "source_sha256": "e9aa7f71dad7624b0e6650a77df182f102a1640515969a986be168c07bd189f4",
+  "glb_sha256": "5f1f104afb9e76859dc1de287efa7ad3fde784a42288f92c47793d56109b5b90",
+  "source": {
+    "mesh_count": 443,
+    "triangles": 130812,
+    "min": [
+      -0.6159870624542236,
+      -0.49000003933906555,
+      -0.009000029414892197
+    ],
+    "max": [
+      0.6110000014305115,
+      1.028999924659729,
+      1.3960000276565552
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "runtime": {
+    "mesh_count": 443,
+    "triangles": 130812,
+    "min": [
+      -0.6159870624542236,
+      -0.49000003933906555,
+      -0.009000029414892197
+    ],
+    "max": [
+      0.6110000014305115,
+      1.028999924659729,
+      1.3960000276565552
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "pose_bounds_errors": {
+    "1": 5.960464477539063e-08,
+    "25": 2.384185791015625e-07,
+    "49": 2.384185791015625e-07,
+    "97": 1.1920928955078125e-07,
+    "145": 2.384185791015625e-07,
+    "193": 1.1920928955078125e-07
+  },
+  "cycle_seam_error": 1.1920928955078125e-07,
+  "source_mechanics": {
+    "bucket_pivot_attachment": 1.3328003749250113e-07,
+    "bucket_upright": 0.0,
+    "fixed_socket_motion": 0.0
+  },
+  "runtime_mechanics": {
+    "bucket_pivot_attachment": 1.3328003749250113e-07,
+    "bucket_upright": 0.0,
+    "fixed_socket_motion": 0.0
+  },
+  "mechanism_sampled_poses": 385,
+  "pivot_radial_clearance_tiles": 0.0015,
+  "packed_images": [
+    {
+      "name": "stone-water-wheel-carried-river-water-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "stone-water-wheel-carried-river-water-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "stone-water-wheel-carried-river-water-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "stone-water-wheel-forged-wet-iron-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "stone-water-wheel-forged-wet-iron-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "stone-water-wheel-forged-wet-iron-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "stone-water-wheel-worn-bearing-bronze-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "stone-water-wheel-worn-bearing-bronze-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "stone-water-wheel-worn-bearing-bronze-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "v2-wheel-bedded-stone-albedo",
+      "packed": true,
+      "size": [
+        384,
+        384
+      ]
+    },
+    {
+      "name": "v2-wheel-bedded-stone-normal",
+      "packed": true,
+      "size": [
+        384,
+        384
+      ]
+    },
+    {
+      "name": "v2-wheel-bedded-stone-roughness",
+      "packed": true,
+      "size": [
+        384,
+        384
+      ]
+    },
+    {
+      "name": "v2-wheel-timber-albedo",
+      "packed": true,
+      "size": [
+        768,
+        384
+      ]
+    },
+    {
+      "name": "v2-wheel-timber-normal",
+      "packed": true,
+      "size": [
+        768,
+        384
+      ]
+    },
+    {
+      "name": "v2-wheel-timber-roughness",
+      "packed": true,
+      "size": [
+        768,
+        384
+      ]
+    },
+    {
+      "name": "WHEEL | FMPL footing albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "WHEEL | FMPL footing normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "WHEEL | FMPL footing orm",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "embedded_export_images": 18,
+  "animation_count": 1,
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}
