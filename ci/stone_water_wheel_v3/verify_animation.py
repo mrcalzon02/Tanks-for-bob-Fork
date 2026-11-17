@@ -10,4 +10,3 @@ result=dict(working=delta('north-motion-00.png','north-motion-07.png'),disabled=
 result['passed']=result['working']['changed_over_005']>100 and result['disabled']['changed_over_005']==result['full_output']['changed_over_005']==0
 assert result['passed'],result
 (p/'native-animation-observation.json').write_text(json.dumps(result,indent=2)+'\n');print('NATIVE_ANIMATION_OBSERVATION',json.dumps(result),flush=True)
-

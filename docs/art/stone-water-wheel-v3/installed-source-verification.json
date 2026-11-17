@@ -45,5 +45,75 @@
       "current_sha256": "c8df2419b2c38cd79f7a8b00cc9c277dc9b0d871ea95069acd317f0ae1692dd2",
       "tested_sha256": "c8df2419b2c38cd79f7a8b00cc9c277dc9b0d871ea95069acd317f0ae1692dd2"
     }
+  },
+  "git_index_verified": true,
+  "git_text_policy": "Lua bytes normalize CRLF to LF in Git. The tested working profile is exact; indexed Lua content is identical after newline normalization. All model/sprite binaries match exactly.",
+  "git_index_checks": {
+    "data-final-fixes.lua": {
+      "index_sha256": "7d9d7d52f443d5d71ca9610638f0c037e88f05b11b2d9c61acc658775bc60820",
+      "tested_sha256": "717349f305e075ba22c794c1c5f33b289b75c068f418f7059bbc5253c642b60d",
+      "canonical_sha256": "7d9d7d52f443d5d71ca9610638f0c037e88f05b11b2d9c61acc658775bc60820",
+      "verification": "Exact Lua content after CRLF-to-LF normalization"
+    },
+    "prototypes/generated_graphics/stone-wheel-v3-production.lua": {
+      "index_sha256": "fec2705569e0862377da3091c95ea876ac3c9ad0c8f3e22d1a0feed54c73f4c3",
+      "tested_sha256": "2b951d614e52291f0ce7907948609a83ac6d84b24268e01039569303d367aa44",
+      "canonical_sha256": "fec2705569e0862377da3091c95ea876ac3c9ad0c8f3e22d1a0feed54c73f4c3",
+      "verification": "Exact Lua content after CRLF-to-LF normalization"
+    },
+    "graphics/icons/stone-water-wheel-v3.png": {
+      "index_sha256": "426e55f23337c87f1d5dcdde0e4ad7018a9967f79923bc42fca033dbd0d442fc",
+      "tested_sha256": "426e55f23337c87f1d5dcdde0e4ad7018a9967f79923bc42fca033dbd0d442fc",
+      "canonical_sha256": "426e55f23337c87f1d5dcdde0e4ad7018a9967f79923bc42fca033dbd0d442fc",
+      "verification": "Exact binary bytes"
+    },
+    "graphics/entity/stone-water-wheel-v3/north-working-above-water-256.png": {
+      "index_sha256": "b764acaa14b1cf55e4cd91b4c4e497736506f8fdf1a91f0b898a09a6c7ec4026",
+      "tested_sha256": "b764acaa14b1cf55e4cd91b4c4e497736506f8fdf1a91f0b898a09a6c7ec4026",
+      "canonical_sha256": "b764acaa14b1cf55e4cd91b4c4e497736506f8fdf1a91f0b898a09a6c7ec4026",
+      "verification": "Exact binary bytes"
+    },
+    "graphics/entity/stone-water-wheel-v3/north-working-underwater-256.png": {
+      "index_sha256": "c93e651c13c852f3ebc3a398864015f4ec401a8556e01975c86ef7694709488a",
+      "tested_sha256": "c93e651c13c852f3ebc3a398864015f4ec401a8556e01975c86ef7694709488a",
+      "canonical_sha256": "c93e651c13c852f3ebc3a398864015f4ec401a8556e01975c86ef7694709488a",
+      "verification": "Exact binary bytes"
+    },
+    "graphics/entity/stone-water-wheel-v3/east-working-above-water-256.png": {
+      "index_sha256": "c95858e12c351cddeec54e1a3e007fa38f14bdd7dcaee19c549a82874ed2d12f",
+      "tested_sha256": "c95858e12c351cddeec54e1a3e007fa38f14bdd7dcaee19c549a82874ed2d12f",
+      "canonical_sha256": "c95858e12c351cddeec54e1a3e007fa38f14bdd7dcaee19c549a82874ed2d12f",
+      "verification": "Exact binary bytes"
+    },
+    "graphics/entity/stone-water-wheel-v3/east-working-underwater-256.png": {
+      "index_sha256": "393ec99f9dc16754b6cc7181de5423a8ec7ba9476eb1efbb467cdb2f96ddda70",
+      "tested_sha256": "393ec99f9dc16754b6cc7181de5423a8ec7ba9476eb1efbb467cdb2f96ddda70",
+      "canonical_sha256": "393ec99f9dc16754b6cc7181de5423a8ec7ba9476eb1efbb467cdb2f96ddda70",
+      "verification": "Exact binary bytes"
+    },
+    "graphics/entity/stone-water-wheel-v3/south-working-above-water-256.png": {
+      "index_sha256": "22694d4245d8e7b7de3adbd2fb09c4ddae04097946357733e0c3a668071a1c10",
+      "tested_sha256": "22694d4245d8e7b7de3adbd2fb09c4ddae04097946357733e0c3a668071a1c10",
+      "canonical_sha256": "22694d4245d8e7b7de3adbd2fb09c4ddae04097946357733e0c3a668071a1c10",
+      "verification": "Exact binary bytes"
+    },
+    "graphics/entity/stone-water-wheel-v3/south-working-underwater-256.png": {
+      "index_sha256": "347dac0909e00d7e1d117cb3533f5a24cded7baad598761fde8fc3510d949695",
+      "tested_sha256": "347dac0909e00d7e1d117cb3533f5a24cded7baad598761fde8fc3510d949695",
+      "canonical_sha256": "347dac0909e00d7e1d117cb3533f5a24cded7baad598761fde8fc3510d949695",
+      "verification": "Exact binary bytes"
+    },
+    "graphics/entity/stone-water-wheel-v3/west-working-above-water-256.png": {
+      "index_sha256": "049c5e500e6097a5b7c5a1d8e812e4f814c5cb9b860e4a72455e1211704b3880",
+      "tested_sha256": "049c5e500e6097a5b7c5a1d8e812e4f814c5cb9b860e4a72455e1211704b3880",
+      "canonical_sha256": "049c5e500e6097a5b7c5a1d8e812e4f814c5cb9b860e4a72455e1211704b3880",
+      "verification": "Exact binary bytes"
+    },
+    "graphics/entity/stone-water-wheel-v3/west-working-underwater-256.png": {
+      "index_sha256": "c8df2419b2c38cd79f7a8b00cc9c277dc9b0d871ea95069acd317f0ae1692dd2",
+      "tested_sha256": "c8df2419b2c38cd79f7a8b00cc9c277dc9b0d871ea95069acd317f0ae1692dd2",
+      "canonical_sha256": "c8df2419b2c38cd79f7a8b00cc9c277dc9b0d871ea95069acd317f0ae1692dd2",
+      "verification": "Exact binary bytes"
+    }
   }
 }

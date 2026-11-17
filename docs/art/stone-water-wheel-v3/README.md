@@ -70,7 +70,8 @@ all four directions, every native pipe joint and the crafted building output.
 The separate fresh-fixture reload is not substituted for this operated-save proof.
 Forty-eight genuine client PNGs and a 32-frame eight-fps native GIF/MP4 are retained;
 no interpolated/generated frames replace gameplay. Installed art/code hashes match
-the graphical test profile.
+the graphical test profile. Git normalizes Lua CRLF to LF; normalized code content
+and exact binary index hashes are verified separately.
 
 Source checkpoint c11469bf64bcfc757dfda766e8762ffd0d44b22b was pushed/read back.
 Final immutable source/evidence and canonical FMPL registration are recorded in
