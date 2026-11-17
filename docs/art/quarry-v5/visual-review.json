@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-16",
+  "judgment": "operational_close_enough",
+  "owner_visual_approved": false,
+  "basis": "Owner-authorized delegated completion after correcting explicit construction, natural-edge, rooted-terrain and smoke-emitter feedback.",
+  "source_sha256": "b169bda724b6d5ca39fe5a7d3c03e576c266b1c7a33b618a6563a4a8490a1439",
+  "runtime_sha256": "44121a15d5d9df6fc9cb19f992487f1b3910a9c68cdea56349504984ee0a41f5",
+  "acceptance_policy_sha256": "f22aaedb84ff3c0f74fa34f1595b3c7979402b322f4766b27d16dde6705c3b7e",
+  "reviewed_images": {
+    "docs/art/quarry-v5/stone-working-a.png": "556ebd6d1b421651249c02e4d5d8db64a904b00cc90417e5ce9c7a344588a622",
+    "docs/art/quarry-v5/stone-working-b.png": "e9f5f37d8d051530d1c48cb00771a97bfa10804e7932972b885ea73e4c17df12",
+    "docs/art/quarry-v5/restarted.png": "b54f23e6efdead4314c171986ee30a86e7211090a54432bb31f5f6360188809d",
+    "docs/art/quarry-v5/idle.png": "d9bca233356bcd19749d6e92bc2ac17a3ca9a2782f55a944fea4c2e1be180236",
+    "docs/art/quarry-v5/no-fuel.png": "d46414bf04a6e2105946378885b04c5f43bb3ba22c512c4fd2fe4e37a9f4661f",
+    "docs/art/quarry-v5/blocked-full.png": "8b6d0e621c7f991e0261b8df0a425af52ce2ac742afb53e6440e7fb82521cebd",
+    "models/island-survival/quarry/candidates/v5-rooted04/actual-glb-front.png": "fe05dc391f98f0b101e4d6b2147786cfcd3879bdcf71cb88b43ab9cd652f37d1",
+    "models/island-survival/quarry/candidates/v5-rooted04/actual-glb-rear.png": "56e97952f6169e95fbe43f8d3abd10282d35370fcccdff35a221957022f91868",
+    "models/island-survival/quarry/candidates/v5-rooted04/actual-glb-clay.png": "f4fb11afbeca472956c3143aca0853b224f1c718a8483ebb4167c992816afad6",
+    "models/island-survival/quarry/candidates/v5-rooted04/actual-glb-drive-close.png": "072188aef74d364accadb491e3b86655a026b9590e263b74cfcde424d974e908"
+  },
+  "scores_out_of_10": {
+    "recipe_function": 9,
+    "supported_construction": 8,
+    "surfaces": 7,
+    "terrain_transition": 7,
+    "attached_animation": 9,
+    "native_effect_alignment": 8
+  },
+  "limitations": [
+    "Fixed north is the current native player orientation; alternate views are inspection angles.",
+    "Ground surface intentionally open at world ground; foundation anchors extend below ground.",
+    "Small sprite detail remains approximate; cosmetic perfection deferred.",
+    "Blocked native assembler can retain crafting_progress=1 and is_crafting=true; proof tests unchanged output/progress, then unblocks successfully.",
+    "No Mod Portal publication or full-user-mod-pack installation claimed."
+  ]
+}

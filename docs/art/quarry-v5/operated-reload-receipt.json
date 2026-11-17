@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "operated_save_sha256": "486248704f79d9cc1867588cd2f64c9c4e485f6dcecf64882b39f4739c5aa5c1",
+  "machine_count": 36,
+  "real_recipes": 6,
+  "completed_operational_test": true,
+  "inventory_snapshot_persisted": true,
+  "freeze_for_inventory_persistence_only": true,
+  "log_sha256": "dd2a97c10e3def5f39400498e8067ba7ca62ac3ddf4ffad74e4bb3fb05499e29"
+}

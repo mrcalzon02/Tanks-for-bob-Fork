@@ -1,0 +1,45 @@
+   0.001 2026-11-16 18:25:25; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.001 Operating system: Windows 11 (build 26200) 
+   0.001 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\quarry-v5-integrated-native01\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\quarry-v5-integrated-native01\mods" "--test-scenario" "quarry-v1-proof/proof" "--test-ticks" "23100" 
+   0.001 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/quarry-v5-integrated-native01/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/quarry-v5-integrated-native01/runtime [258350/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.008 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 24452/32526 MB, page: 33463/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.046 Running in headless mode
+   0.046 Audio is disabled
+   0.048 Info ModManager.cpp:455: FeatureFlag: 
+   0.050 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.053 Loading mod core 0.0.0 (data.lua)
+   0.091 Loading mod base 2.1.24 (data.lua)
+   0.572 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.983 Loading mod base 2.1.24 (data-updates.lua)
+   1.016 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   1.042 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   1.207 Checksum for core: 3668028660
+   1.207 Checksum of base: 3864816957
+   1.207 Checksum of tanks_for_bob_fork: 3257736888
+   1.207 Checksum of quarry-v1-proof: 0
+   1.490 Prototype list checksum: 1368343619
+   1.558 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   1.558 Info PlayerData.cpp:582: Local player-data.json unavailable
+   1.563 Info GlobalContext.cpp:1347: Resetting config.
+   1.563 Factorio initialised
+   1.588 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   2.317 Loading level.dat: 799996 bytes.
+   2.317 Info Scenario.cpp:152: Map version 2.1.24-1
+   2.338 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   2.349 Checksum for script __level__/control.lua: 3071058485
+   2.372 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   2.375 Checksum for script __quarry-v1-proof__/control.lua: 1160145729
+   2.421 Script @__quarry-v1-proof__/control.lua:48: QUARRY_V1_CONTRACT {"machines":36,"recipes":6,"rotation_probe":{"call_supported":true,"result":"false","direction_before":0,"direction_after":0},"fluids":0}
+   6.971 Script @__quarry-v1-proof__/control.lua:67: QUARRY_BLOCKED_DIAG {"count":50,"before":50,"progress":1,"crafting":true,"status":32}
+   6.971 Script @__quarry-v1-proof__/control.lua:67: QUARRY_BLOCKED_DIAG {"count":50,"before":50,"progress":1,"crafting":true,"status":32}
+   6.971 Script @__quarry-v1-proof__/control.lua:67: QUARRY_BLOCKED_DIAG {"count":50,"before":50,"progress":1,"crafting":true,"status":32}
+   6.971 Script @__quarry-v1-proof__/control.lua:67: QUARRY_BLOCKED_DIAG {"count":50,"before":50,"progress":1,"crafting":true,"status":32}
+   6.971 Script @__quarry-v1-proof__/control.lua:71: QUARRY_V1_SIX_RECIPES_FUEL_IDLE_BLOCKED_PASS
+   7.032 Script @__quarry-v1-proof__/control.lua:79: QUARRY_V1_STOP_PASS
+  11.388 Script @__quarry-v1-proof__/control.lua:87: QUARRY_V1_NATIVE_PASS {"passed":true,"machines":36,"real_recipes":6,"requested_cardinal_tests":4,"native_player_orientations":1,"placement":true,"no_fluid_connections":true,"chemical_fuel":true,"no_fuel_stopped":true,"idle":true,"blocked_output":true,"stop_restart":true,"unblocking":true,"rotation_probe":{"call_supported":true,"result":"false","direction_before":0,"direction_after":0},"prototype_overrides":false}
+  11.417 Info RunTest.cpp:80: Ran 23100 ticks without the test finishing
+  11.417 Info GlobalContext.cpp:763: Deleting active scenario.
+  11.554 Goodbye

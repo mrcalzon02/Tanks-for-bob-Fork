@@ -88,6 +88,6 @@ script.on_nth_tick(60,function(event)
  end
 end)
 remote.add_interface('quarry_proof',{snapshot=function()
- storage.saved_products={};for _,u in ipairs(storage.units) do storage.saved_products[#storage.saved_products+1]=count(u) end
+ storage.saved_products={};for _,u in ipairs(storage.units) do u.machine.disabled_by_script=true;storage.saved_products[#storage.saved_products+1]=count(u) end
  return #storage.saved_products
 end})

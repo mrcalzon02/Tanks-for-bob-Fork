@@ -1,0 +1,155 @@
+{
+  "schema": "tanks.quarry.v5.capture",
+  "source_sha256": "b169bda724b6d5ca39fe5a7d3c03e576c266b1c7a33b618a6563a4a8490a1439",
+  "runtime_sha256": "44121a15d5d9df6fc9cb19f992487f1b3910a9c68cdea56349504984ee0a41f5",
+  "genuine_blender_frames": 17,
+  "frame_size": [
+    256,
+    256
+  ],
+  "fps": 4,
+  "images": [
+    {
+      "file": "north-idle-00.png",
+      "facing": "north",
+      "state": "idle",
+      "index": 0,
+      "source_frame": 0,
+      "sha256": "1b66fdc14210c67a250c0013a411482f3c014a662742771c2b13ff3144d11cf7"
+    },
+    {
+      "file": "north-working-00.png",
+      "facing": "north",
+      "state": "working",
+      "index": 0,
+      "source_frame": 1,
+      "sha256": "e05aeb9a3d137581512ac521f7cec345a2f6458b2761c7907b98db82f99df18b"
+    },
+    {
+      "file": "north-working-01.png",
+      "facing": "north",
+      "state": "working",
+      "index": 1,
+      "source_frame": 13,
+      "sha256": "8dec263853b95a442a1baad9296d094c893c8c5c79021562d1e6733fe8a5512d"
+    },
+    {
+      "file": "north-working-02.png",
+      "facing": "north",
+      "state": "working",
+      "index": 2,
+      "source_frame": 25,
+      "sha256": "cf9ec12d44c8c3b56a4a6f1d6d058ef3c328c0b460aa65526f8d6b926edacc4e"
+    },
+    {
+      "file": "north-working-03.png",
+      "facing": "north",
+      "state": "working",
+      "index": 3,
+      "source_frame": 37,
+      "sha256": "001702c80e11b3580f7ebac132d84b18bfefc45cdc22c15d7cb88596f2842728"
+    },
+    {
+      "file": "north-working-04.png",
+      "facing": "north",
+      "state": "working",
+      "index": 4,
+      "source_frame": 49,
+      "sha256": "a22e13d7204064c6b71826536001265d4bb68965fd37386ea7cb1ce47e25dc77"
+    },
+    {
+      "file": "north-working-05.png",
+      "facing": "north",
+      "state": "working",
+      "index": 5,
+      "source_frame": 61,
+      "sha256": "8a24e88697ccebda3e97860e0df721c92a1b38765ae65c6234e84cfa0db18e9e"
+    },
+    {
+      "file": "north-working-06.png",
+      "facing": "north",
+      "state": "working",
+      "index": 6,
+      "source_frame": 73,
+      "sha256": "7e40203d0d1eb6395c4a4c6a6ced1fe86f97251e7f8156025d9c688ade428180"
+    },
+    {
+      "file": "north-working-07.png",
+      "facing": "north",
+      "state": "working",
+      "index": 7,
+      "source_frame": 85,
+      "sha256": "57fdec364c3f97a46e0ae8ec53def27827246e82201140d6bb265d35802f4fc1"
+    },
+    {
+      "file": "north-working-08.png",
+      "facing": "north",
+      "state": "working",
+      "index": 8,
+      "source_frame": 97,
+      "sha256": "1b164bb406e03cfc374811094f03f37c1397d8e0fcdb041ad22e13ace2353fb6"
+    },
+    {
+      "file": "north-working-09.png",
+      "facing": "north",
+      "state": "working",
+      "index": 9,
+      "source_frame": 109,
+      "sha256": "ccb4c34a6256a305306443e69afab2508b04652d79409f5b960c6a098bc92f96"
+    },
+    {
+      "file": "north-working-10.png",
+      "facing": "north",
+      "state": "working",
+      "index": 10,
+      "source_frame": 121,
+      "sha256": "7c446d24396716f88989d49bbef4eaac12f681887a9148741608075fcd2951bf"
+    },
+    {
+      "file": "north-working-11.png",
+      "facing": "north",
+      "state": "working",
+      "index": 11,
+      "source_frame": 133,
+      "sha256": "e5d2f646dce699f30f9eff3f4af9f57d6982fcff6cf3cea3544ee71a56e8d3c0"
+    },
+    {
+      "file": "north-working-12.png",
+      "facing": "north",
+      "state": "working",
+      "index": 12,
+      "source_frame": 145,
+      "sha256": "877100da6f7705d837951a7c4750867d9672cfcd5bcea58acab259e48102c2ce"
+    },
+    {
+      "file": "north-working-13.png",
+      "facing": "north",
+      "state": "working",
+      "index": 13,
+      "source_frame": 157,
+      "sha256": "f299f67e34063f713612109a804558a6e1f81a98a130cb246009b9f6e6670e62"
+    },
+    {
+      "file": "north-working-14.png",
+      "facing": "north",
+      "state": "working",
+      "index": 14,
+      "source_frame": 169,
+      "sha256": "2356a5c67a190da52e891115758626b6b71aac72265335e5afebc64c3d621abb"
+    },
+    {
+      "file": "north-working-15.png",
+      "facing": "north",
+      "state": "working",
+      "index": 15,
+      "source_frame": 181,
+      "sha256": "be6cc0eb3685ed6d2f35a555a4030f3fe1abcbf6183bb6116acb92f871c44e23"
+    }
+  ],
+  "native_projection": {
+    "global_ground_y_scale": 1.4142135623730951,
+    "runtime_geometry_changed": false
+  },
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}

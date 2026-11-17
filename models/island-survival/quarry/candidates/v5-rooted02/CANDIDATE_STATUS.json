@@ -1,7 +1,6 @@
 {
-  "status": "reviewed_candidate_pending_integration",
+  "status": "held_superseded_study",
   "owner_visual_approved": false,
-  "native_integrated": false,
-  "successor": "v5-rooted02",
-  "reason": "Owner requested detailed supported construction, natural rock edges and continuous terrain roots; technical passes do not grant visual acceptance."
+  "successor": "v5-rooted04",
+  "reason": "Repaired GLB COLOR_0 alpha export; native sprites remain byte-identical."
 }

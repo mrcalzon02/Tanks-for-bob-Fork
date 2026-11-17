@@ -57,3 +57,6 @@ require("prototypes.generated_graphics.steam-compressor-v2-production")
 
 -- Native passive storage with actual fluid-level and flow visualization.
 require("prototypes.generated_graphics.wood-basin-v1-production")
+
+-- Detailed excavation hoist with terrain rooted into the native ground plane.
+require("prototypes.generated_graphics.quarry-v5-production")

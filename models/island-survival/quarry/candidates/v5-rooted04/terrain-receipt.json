@@ -1,0 +1,8 @@
+{
+  "parent_source_sha256": "2b0d1288a50be6ea9e859115ff84714a756d06e06fb4ffccf6a9566219315236",
+  "source_sha256": "b169bda724b6d5ca39fe5a7d3c03e576c266b1c7a33b618a6563a4a8490a1439",
+  "runtime_sha256": "44121a15d5d9df6fc9cb19f992487f1b3910a9c68cdea56349504984ee0a41f5",
+  "correction": "Bind white RGB and fade alpha to the same glTF COLOR_0 stream through supported texture x vertex-color multiplication; source appearance and geometry unchanged.",
+  "owner_visual_approved": false,
+  "native_integrated": false
+}

@@ -1,0 +1,7 @@
+{
+  "status": "operational_native_integrated_delegated_review",
+  "owner_visual_approved": false,
+  "native_integrated": true,
+  "evidence": "docs/art/quarry-v5",
+  "supersedes": "v5-rooted02; v5-rooted03 export-alpha study"
+}

@@ -4,7 +4,7 @@ from pathlib import Path
 import numpy as np
 from mathutils import Vector
 REPO=Path(__file__).resolve().parents[4]
-OUT=REPO/'models/island-survival/quarry/candidates/v5-rooted02'
+OUT=REPO/'models/island-survival/quarry/candidates/v5-rooted04'
 sys.path.insert(0,str(REPO.parent/'model-production/tools/fmpl'))
 from blender_camera_guard import assert_clean,install_canonical_camera
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -66,5 +66,20 @@ install_canonical_camera(scene,profile,bpy);scene.render.engine='CYCLES';scene.c
 scene.world=bpy.data.worlds.new('Neutral export inspection');scene.world.use_nodes=True;scene.world.node_tree.nodes['Background'].inputs[0].default_value=(.35,.35,.35,1)
 for loc,power,size in [((3,-4,6),650,5),((-3,2,4),400,4)]:
     l=bpy.data.lights.new('Inspection area','AREA');l.energy=power;l.shape='DISK';l.size=size;o=bpy.data.objects.new('Inspection area',l);scene.collection.objects.link(o);o.location=loc;o.rotation_euler=(Vector((0,0,.5))-o.location).to_track_quat('-Z','Y').to_euler()
+scene.render.resolution_x=scene.render.resolution_y=512
 scene.frame_set(int(first*24+24))
 scene.render.filepath=str(OUT/'actual-glb-front.png');bpy.ops.render.render(write_still=True)
+root=bpy.data.objects['EXPORT | Quarry all authored parts']
+review_parent=bpy.data.objects.new('Temporary export review rotation',None);scene.collection.objects.link(review_parent);root.parent=review_parent
+review_parent.rotation_euler.z=math.pi
+scene.render.filepath=str(OUT/'actual-glb-rear.png');bpy.ops.render.render(write_still=True)
+review_parent.rotation_euler.z=0
+clay=bpy.data.materials.new('Inspection neutral clay');clay.diffuse_color=(.18,.18,.18,1);clay.use_nodes=True;clay.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value=(.18,.18,.18,1)
+scene.view_layers[0].material_override=clay
+scene.render.filepath=str(OUT/'actual-glb-clay.png');bpy.ops.render.render(write_still=True)
+scene.view_layers[0].material_override=None
+from blender_camera_guard import temporary_inspection_camera
+scene.render.resolution_x=scene.render.resolution_y=512
+with temporary_inspection_camera(scene,bpy,'actual exported drive attachments') as camera:
+ camera.data.type='ORTHO';camera.data.ortho_scale=1.4;camera.location=(3,-3,2.2);camera.rotation_euler=(Vector((.92,-.42,.88))-camera.location).to_track_quat('-Z','Y').to_euler();scene.camera=camera
+ scene.render.filepath=str(OUT/'actual-glb-drive-close.png');bpy.ops.render.render(write_still=True)

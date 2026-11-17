@@ -1,0 +1,128 @@
+   0.000 Initializing Steam API.
+   0.000 Error SteamContextInterface.cpp:60: Steam API could not be initialized: Could not determine Steam client install directory.
+   0.001 2026-11-16 18:29:11; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.001 Operating system: Windows 11 (build 26200) 
+   0.001 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\quarry-v5-client02\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\quarry-v5-client02\mods" "--load-game" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\quarry-v5-integrated-native01\quarry-v1-proof.zip" "--disable-audio" "--disable-migration-window" 
+   0.002 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/quarry-v5-client02/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/quarry-v5-client02/runtime [258207/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.008 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 23758/32526 MB, page: 32661/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.037 Display options: [FullScreen: false] [VSync: true] [UIScale: automatic (100.0%)] [Native DPI: true] [Screen: 4294967295] [Special: lmw] [Lang: en]
+   0.073 Video driver: windows
+   0.073 Available displays: 1
+   0.073  [0]: \\.\DISPLAY1 - NVIDIA GeForce RTX 5070 {0x05, [0,0], 3840x1080, 32bit, 144Hz}
+   0.090 [Direct3D11] Display: 4294967295, Output: 0, DisplayAdapter: 0, RenderingAdapter: -1; d3dcompiler_47.dll
+   0.268 Initialised Direct3D[0]: NVIDIA GeForce RTX 5070; id: 10de-2f04; driver: nvldumdx.dll 32.0.16.1664
+   0.268   D3D Feature Level: 11.1, DXGI 1.5+, SwapChain: 3,flip-discard,-,-,-,none
+   0.268   [Local Video Memory] Budget: 11175MB, CurrentUsage: 6MB, Reservation: 0/5715MB
+   0.268   [Non-Local Vid.Mem.] Budget: 15495MB, CurrentUsage: 0MB, Reservation: 0/7875MB
+   0.268   Tiled resources: Tier 2
+   0.268   Unified Memory Architecture: No
+   0.268   BGR 565 Supported: Yes
+   0.268   MaximumFrameLatency: 3, GPUThreadPriority: 0
+   0.268 Graphics settings preset: very-high
+   0.268   Dedicated video memory size 11943 MB
+   0.289 Desktop composition is active.
+   0.289 Graphics options: [Graphics quality: high] [Video memory usage: all] [DXT: high-quality]
+   0.289                   [Max threads (load/render): 32/28] [Max texture size: 0] [Tex.Stream.: false] [Rotation quality: normal] [Other: STDCWTl] [B:0,C:0,S:100]
+   0.289 Audio is disabled
+   0.347 Info ModManager.cpp:455: FeatureFlag: 
+   0.349 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.353 Loading mod core 0.0.0 (data.lua)
+   0.369 Loading mod base 2.1.24 (data.lua)
+   0.602 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.674 Loading mod base 2.1.24 (data-updates.lua)
+   0.681 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.687 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.746 Checksum for core: 3668028660
+   0.746 Checksum of base: 3864816957
+   0.746 Checksum of tanks_for_bob_fork: 598544182
+   0.746 Checksum of quarry-v1-proof: 0
+   0.746 Checksum of quarry-v1-capture: 0
+   0.879 Prototype list checksum: 1368343619
+   0.905 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.905 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.908 Post-data load graphics options: [Light occlusion: no]
+   0.995 Crop bitmaps.
+   0.997 Parallel sprite loader initialized (threads: 28, bitmaps: 4996)
+   2.867 Initial atlas bitmap size is 16384
+   2.882 Created an atlas bitmap (size 16384x16384) [none]
+   2.883 Created an atlas bitmap (size 16384x14468) [none]
+   2.884 Created an atlas bitmap (size 16384x6976) [low-object]
+   2.884 Created an atlas bitmap (size 16384x12092) [corpse-decay]
+   2.884 Created an atlas bitmap (size 8192x4352) [decal]
+   2.884 Created an atlas bitmap (size 4096x1284) [none]
+   2.885 Created an atlas bitmap (size 8192x5632) [mipmap, linear-minification, linear-magnification, linear-mip-level]
+   2.885 Created an atlas bitmap (size 4096x1632) [smoke, mipmap, linear-minification, linear-magnification]
+   2.885 Created an atlas bitmap (size 16384x7968) [terrain, mipmap, linear-minification, linear-mip-level]
+   2.885 Created an atlas bitmap (size 4096x2800) [terrain-effect-map, mipmap, linear-minification, linear-mip-level]
+   2.885 Created an atlas bitmap (size 4096x3088) [mipmap]
+   2.886 Created an atlas bitmap (size 8192x2752) [icon, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level, ]
+   2.886 Created an atlas bitmap (size 16384x4080) [alpha-mask]
+   2.899 Created an atlas bitmap (size 16384x16384) [shadow, linear-magnification, alpha-mask]
+   2.899 Created an atlas bitmap (size 4096x2172) [shadow, linear-magnification, alpha-mask]
+   2.899 Created an atlas bitmap (size 8192x2352) [shadow, mipmap, linear-magnification, alpha-mask]
+   2.899 Created an atlas bitmap (size 4096x208) [icon-background, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level, ]
+   2.900 Loading 3D bitmaps: 5
+   2.904 Texture processor created (4096). GPU accelerated compression Supported: yes, Enabled: yes/yes. Test passed. YCoCgDXT PSNR: 35.83, BC3 PSNR: 33.82
+   2.928 Parallel sprite loader initialized (threads: 27, bitmaps: 4996)
+   6.517 Sprites loaded
+   6.531 Generated mipmaps (4) for atlas [2] of size 16384x6976   
+   6.542 Generated mipmaps (3) for atlas [6] of size 8192x5632   
+   6.554 Generated mipmaps (3) for atlas [7] of size 4096x1632   
+   6.564 Generated mipmaps (3) for atlas [8] of size 16384x7968   
+   6.575 Generated mipmaps (3) for atlas [9] of size 4096x2800   
+   6.612 Generated mipmaps (3) for atlas [10] of size 4096x3088   
+   6.624 Generated mipmaps (5) for atlas [11] of size 8192x2752   
+   6.635 Generated mipmaps (3) for atlas [15] of size 8192x2352   
+   6.643 Custom mipmaps uploaded (2437)
+   6.654 Estimated VRAM usage for textures: 1667.43 MB (Atlases: 1661.95 MB, Textures: 5.48 MB)
+   6.655 Real VRAM usage for the whole program: 1905.34 MB
+   6.656 Info GlobalContext.cpp:1347: Resetting config.
+   6.697 Factorio initialised
+   6.895 SteamAPI is not initialized
+   6.900 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\quarry-v5-integrated-native01\quarry-v1-proof.zip: 918598 bytes.
+   7.000 Loading level.dat: 1085069 bytes.
+   7.000 Info Scenario.cpp:152: Map version 2.1.24-1
+   7.018 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   7.021 Loading script.dat: 6646 bytes.
+   7.026 Checksum for script __level__/control.lua: 3368906707
+   7.029 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   7.031 Checksum for script __quarry-v1-proof__/control.lua: 3189734538
+   7.035 Checksum for script __quarry-v1-capture__/control.lua: 2883565881
+   7.151 Script @__quarry-v1-proof__/control.lua:57: QUARRY_V1_RELOAD_PASS complete=false stored_products=false
+   7.161 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 0
+ 129.714 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 1200
+ 130.108 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 2400
+ 130.420 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 3600
+ 130.733 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 4800
+ 131.045 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 6000
+ 131.359 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 7200
+ 131.670 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 8400
+ 131.983 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 9600
+ 132.296 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 10800
+ 132.359 Script @__quarry-v1-proof__/control.lua:67: QUARRY_BLOCKED_DIAG {"count":50,"before":50,"progress":1,"crafting":true,"status":32}
+ 132.359 Script @__quarry-v1-proof__/control.lua:67: QUARRY_BLOCKED_DIAG {"count":50,"before":50,"progress":1,"crafting":true,"status":32}
+ 132.359 Script @__quarry-v1-proof__/control.lua:67: QUARRY_BLOCKED_DIAG {"count":50,"before":50,"progress":1,"crafting":true,"status":32}
+ 132.359 Script @__quarry-v1-proof__/control.lua:67: QUARRY_BLOCKED_DIAG {"count":50,"before":50,"progress":1,"crafting":true,"status":32}
+ 132.359 Script @__quarry-v1-proof__/control.lua:71: QUARRY_V1_SIX_RECIPES_FUEL_IDLE_BLOCKED_PASS
+ 132.415 Script @__quarry-v1-proof__/control.lua:79: QUARRY_V1_STOP_PASS
+ 132.635 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 12000
+ 132.947 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 13200
+ 133.268 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 14400
+ 133.581 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 15600
+ 133.894 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 16800
+ 134.206 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 18000
+ 134.210 Info AppManager.cpp:335: Saving to _autosave1 (blocking).
+ 134.314 Info AppManagerStates.cpp:2131: Saving finished
+ 134.623 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 19200
+ 134.935 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 20400
+ 135.248 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 21600
+ 135.560 Script @__quarry-v1-capture__/control.lua:17: QUARRY_GUI_TICK 22800
+ 135.627 Script @__quarry-v1-proof__/control.lua:87: QUARRY_V1_NATIVE_PASS {"passed":true,"machines":36,"real_recipes":6,"requested_cardinal_tests":4,"native_player_orientations":1,"placement":true,"no_fluid_connections":true,"chemical_fuel":true,"no_fuel_stopped":true,"idle":true,"blocked_output":true,"stop_restart":true,"unblocking":true,"rotation_probe":{"call_supported":true,"result":"false","direction_before":0,"direction_after":0},"prototype_overrides":false}
+ 135.635 Info AppManager.cpp:335: Saving to _autosave-quarry-operational (blocking).
+ 135.731 Info AppManagerStates.cpp:2131: Saving finished
+ 135.748 Script @__quarry-v1-capture__/control.lua:25: QUARRY_GUI_OPERATED_SAVE_REQUESTED machines=36
+ 135.752 Info AppManager.cpp:335: Saving to _autosave-quarry-complete-client (blocking).
+ 135.852 Info AppManagerStates.cpp:2131: Saving finished

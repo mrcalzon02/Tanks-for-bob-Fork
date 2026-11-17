@@ -1,0 +1,38 @@
+{
+  "schema": "fmpl.model-delivery.v1",
+  "id": "tanks-quarry-v5",
+  "status": "operational-native-integrated-delegated-review",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "prototype": {
+    "type": "assembling-machine",
+    "name": "quarry"
+  },
+  "footprint_tiles": [
+    3,
+    3
+  ],
+  "scene_units_per_tile": 1,
+  "source": {
+    "path": "models/island-survival/quarry/candidates/v5-rooted04/quarry-v5.blend",
+    "sha256": "b169bda724b6d5ca39fe5a7d3c03e576c266b1c7a33b618a6563a4a8490a1439"
+  },
+  "runtime": {
+    "path": "models/island-survival/quarry/candidates/v5-rooted04/quarry-v5.glb",
+    "sha256": "44121a15d5d9df6fc9cb19f992487f1b3910a9c68cdea56349504984ee0a41f5"
+  },
+  "packed_pbr_images": 36,
+  "source_and_runtime_pose_checks": 6,
+  "mechanism_frames_checked": 193,
+  "production_frames": 17,
+  "frame_scope": "One genuine idle and sixteen working captures; native idle cells explicitly repeat the idle capture.",
+  "native_art_orientations": 1,
+  "capture_policy": "fmpl.factorio45.v1",
+  "gameplay_changed": false,
+  "owner_approved": false,
+  "delegated_operational_review_passed": true,
+  "native_engine": "2.1.24",
+  "native_placement_six_recipes_fuel_blocked_stop_restart_operated_reload_passed": true,
+  "fluid_connection_tests": "Not applicable: actual quarry has no fluid connections.",
+  "evidence": "docs/art/quarry-v5",
+  "central_library_registration": "pending source commit and canonical readback"
+}

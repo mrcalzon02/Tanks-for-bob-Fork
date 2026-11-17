@@ -1,0 +1,26 @@
+{
+  "source_local": [
+    1.3300000429153442,
+    -0.22036631405353546,
+    1.6799999475479126
+  ],
+  "world": [
+    1.2300000190734863,
+    -0.3116450309753418,
+    1.2599999904632568
+  ],
+  "normalized_image": [
+    0.7196428775787354,
+    0.5401985049247742,
+    7.819438457489014
+  ],
+  "sprite_shift": [
+    0,
+    -0.4454772721475249
+  ],
+  "emitter_position": [
+    1.2300001144409178,
+    -0.6705888997262602
+  ],
+  "derivation": "Project the saved flue outlet through the actual canonical camera and sprite-only ground correction; apply native sprite scale and shift."
+}

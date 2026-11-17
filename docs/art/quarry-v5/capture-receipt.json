@@ -1,0 +1,58 @@
+{
+  "genuine_factorio_client_capture": true,
+  "windows_session": 1,
+  "screenshots": [
+    {
+      "file": "stone-working-a.png",
+      "sha256": "556ebd6d1b421651249c02e4d5d8db64a904b00cc90417e5ce9c7a344588a622"
+    },
+    {
+      "file": "tools-working.png",
+      "sha256": "c2252c4a6207c29a81dd3ea5b3dc64a2ce33766dcbacfb31415fb096d57c1cf4"
+    },
+    {
+      "file": "iron-brick-working.png",
+      "sha256": "627fa8bf2671426f8d10eaf1e7df8c8286348a0ce3ca8287520b146bd26ada83"
+    },
+    {
+      "file": "copper-brick-working.png",
+      "sha256": "098120bf1f7f68272c910c77d322ea45c9d9e984dfb2f178768baf8e8c2e9789"
+    },
+    {
+      "file": "iron-stone-brick-working.png",
+      "sha256": "8334abd354fd419b3b623bb5d749c488c7e6717aefe682113a93389c9fcae09e"
+    },
+    {
+      "file": "copper-stone-brick-working.png",
+      "sha256": "a58f3a4da61e5621c46d1fd00b99befb3ea62e399eb29e79a321fdd2eb4f9c30"
+    },
+    {
+      "file": "no-fuel.png",
+      "sha256": "d46414bf04a6e2105946378885b04c5f43bb3ba22c512c4fd2fe4e37a9f4661f"
+    },
+    {
+      "file": "blocked.png",
+      "sha256": "20911524b798d274d875226eb4f6d9c7e2dbc493f97bff963fa4c845b0ba698c"
+    },
+    {
+      "file": "idle.png",
+      "sha256": "d9bca233356bcd19749d6e92bc2ac17a3ca9a2782f55a944fea4c2e1be180236"
+    },
+    {
+      "file": "stone-working-b.png",
+      "sha256": "e9f5f37d8d051530d1c48cb00771a97bfa10804e7932972b885ea73e4c17df12"
+    },
+    {
+      "file": "blocked-full.png",
+      "sha256": "8b6d0e621c7f991e0261b8df0a425af52ce2ac742afb53e6440e7fb82521cebd"
+    },
+    {
+      "file": "restarted.png",
+      "sha256": "b54f23e6efdead4314c171986ee30a86e7211090a54432bb31f5f6360188809d"
+    }
+  ],
+  "visual_review_passed": false,
+  "completed_save": [
+    "C:\\Users\\Admin\\Documents\\ChatGPT\\Tech priests\\tanks-structure-production\\build\\quarry-v5-client02\\runtime\\saves\\_autosave-quarry-complete-client.zip"
+  ]
+}

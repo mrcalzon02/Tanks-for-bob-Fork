@@ -1,0 +1,6 @@
+{
+  "status": "held_superseded_study",
+  "owner_visual_approved": false,
+  "successor": "v5-rooted04",
+  "reason": "Repaired GLB COLOR_0 alpha export; native sprites remain byte-identical."
+}
