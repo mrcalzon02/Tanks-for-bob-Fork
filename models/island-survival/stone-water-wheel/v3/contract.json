@@ -1,0 +1,250 @@
+{
+  "entity": {
+    "name": "stone-water-wheel",
+    "type": "offshore-pump",
+    "collision_box": {
+      "left_top": {
+        "y": -1.046875,
+        "x": -0.59765625
+      },
+      "right_bottom": {
+        "y": 0.296875,
+        "x": 0.59765625
+      }
+    },
+    "selection_box": {
+      "left_top": {
+        "y": -1.48828125,
+        "x": -0.59765625
+      },
+      "right_bottom": {
+        "y": 0.48828125,
+        "x": 0.59765625
+      }
+    },
+    "tile_width": 1,
+    "tile_height": 1,
+    "pumping_speed": 0.5,
+    "fluid_source_offset": [
+      0,
+      -1
+    ],
+    "energy_usage_per_tick": 0.016666666666666666,
+    "burner": false,
+    "electric": false
+  },
+  "placeable_item": {
+    "name": "stone-water-wheel",
+    "place_result": "stone-water-wheel",
+    "stack_size": 10
+  },
+  "building_recipe": {
+    "name": "stone-water-wheel",
+    "categories": [
+      "Seablock"
+    ],
+    "ingredients": [
+      {
+        "type": "item",
+        "name": "wood",
+        "amount": 5
+      },
+      {
+        "type": "item",
+        "name": "brick",
+        "amount": 10
+      }
+    ],
+    "products": [
+      {
+        "independent_probability": 1,
+        "shared_probability": {
+          "min": 0,
+          "max": 1
+        },
+        "type": "item",
+        "name": "stone-water-wheel",
+        "amount": 1,
+        "affected_by_quality": true
+      },
+      {
+        "independent_probability": 0.05,
+        "shared_probability": {
+          "min": 0,
+          "max": 1
+        },
+        "type": "item",
+        "name": "tank-ammo-Industrialwaste",
+        "amount": 1,
+        "affected_by_quality": true
+      }
+    ],
+    "energy": 35,
+    "enabled": false
+  },
+  "technology": {
+    "name": "stone-water-wheel",
+    "prerequisites": [
+      "brick",
+      "wood-basin"
+    ],
+    "unit_count": 10,
+    "unit_energy_ticks": 600,
+    "ingredients": [
+      {
+        "name": "Seared-fish",
+        "amount": 1
+      }
+    ],
+    "effects": [
+      {
+        "hidden": false,
+        "type": "unlock-recipe",
+        "recipe": "stone-water-wheel"
+      }
+    ]
+  },
+  "processing": "No processing recipes: shoreline water extraction using native offshore-pump fluid source",
+  "directions": [
+    {
+      "requested": 0,
+      "actual": 0,
+      "position": {
+        "y": 4.5,
+        "x": 4.5
+      },
+      "normal_shore_placement": true,
+      "status": 1,
+      "fluid": {
+        "water": 0.7500028610229492
+      },
+      "ports": [
+        {
+          "position": {
+            "y": 4.75,
+            "x": 4.5
+          },
+          "target_position": {
+            "y": 5.75,
+            "x": 4.5
+          },
+          "flow_direction": "output",
+          "nearest_player_grid": {
+            "x": 4.5,
+            "y": 5.5
+          },
+          "pipe_can_place": true,
+          "actual_pipe_connected": true,
+          "pipe_fluid": {
+            "water": 59.24999713897705
+          }
+        }
+      ]
+    },
+    {
+      "requested": 4,
+      "actual": 4,
+      "position": {
+        "y": 4.5,
+        "x": 20.5
+      },
+      "normal_shore_placement": true,
+      "status": 1,
+      "fluid": {
+        "water": 0.7500028610229492
+      },
+      "ports": [
+        {
+          "position": {
+            "y": 4.5,
+            "x": 20.25
+          },
+          "target_position": {
+            "y": 4.5,
+            "x": 19.25
+          },
+          "flow_direction": "output",
+          "nearest_player_grid": {
+            "x": 19.5,
+            "y": 4.5
+          },
+          "pipe_can_place": true,
+          "actual_pipe_connected": true,
+          "pipe_fluid": {
+            "water": 59.24999713897705
+          }
+        }
+      ]
+    },
+    {
+      "requested": 8,
+      "actual": 8,
+      "position": {
+        "y": 4.5,
+        "x": 36.5
+      },
+      "normal_shore_placement": true,
+      "status": 1,
+      "fluid": {
+        "water": 0.7500028610229492
+      },
+      "ports": [
+        {
+          "position": {
+            "y": 4.25,
+            "x": 36.5
+          },
+          "target_position": {
+            "y": 3.25,
+            "x": 36.5
+          },
+          "flow_direction": "output",
+          "nearest_player_grid": {
+            "x": 36.5,
+            "y": 3.5
+          },
+          "pipe_can_place": true,
+          "actual_pipe_connected": true,
+          "pipe_fluid": {
+            "water": 59.24999713897705
+          }
+        }
+      ]
+    },
+    {
+      "requested": 12,
+      "actual": 12,
+      "position": {
+        "y": 4.5,
+        "x": 52.5
+      },
+      "normal_shore_placement": true,
+      "status": 1,
+      "fluid": {
+        "water": 0.7500028610229492
+      },
+      "ports": [
+        {
+          "position": {
+            "y": 4.5,
+            "x": 52.75
+          },
+          "target_position": {
+            "y": 4.5,
+            "x": 53.75
+          },
+          "flow_direction": "output",
+          "nearest_player_grid": {
+            "x": 53.5,
+            "y": 4.5
+          },
+          "pipe_can_place": true,
+          "actual_pipe_connected": true,
+          "pipe_fluid": {
+            "water": 59.24999713897705
+          }
+        }
+      ]
+    }
+  ]
+}

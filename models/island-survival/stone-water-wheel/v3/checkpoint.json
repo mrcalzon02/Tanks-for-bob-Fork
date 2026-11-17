@@ -1,0 +1,18 @@
+{
+  "status": "contract_verified_source_refinement_pending",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "active_mod": "tanks_for_bob_fork_1.8.104",
+  "retained_source": "models/island-survival/stone-water-wheel/candidates/v2-pilot02/stone-water-wheel-v2.blend",
+  "retained_source_sha256": "7b58b52cc244e901035adf8fc7ffac2c8c0cc6f3f465ae01a3a6388bebe2fe6b",
+  "source_status": "Held V2 rough study, not accepted or promoted",
+  "native_engine": "2.1.24",
+  "native_contract": "v3/contract.json",
+  "native_four_direction_placement": true,
+  "actual_player_grid_connections": 4,
+  "measured_water_units_per_120_ticks": 60,
+  "nominal_water_per_second": 30,
+  "fuel_power": "Void energy source, 1W nominal; no player fuel or electricity",
+  "next": "Reopen the held V2 source, preserve useful curved rim/spokes/bearings and fixed full-size outlet; replace rigidly rotating scoops with attached independent upright lifting buckets, coherent collector/discharge and supported joinery. Repair receiver degenerates and inspect actual exported clearance before sprites or integration.",
+  "owner_visual_approved": false,
+  "delivered": false
+}

@@ -163,12 +163,14 @@
     {
       "id": "stone-water-wheel",
       "name": "Stone Water Wheel",
-      "revision": "V2 failed study, held",
-      "status": "rebuild_required",
+      "revision": "V3 native contract verified; V2 source retained for repair",
+      "status": "in_progress",
       "priority": 12,
-      "next": "Both recipe and technology are active, but this is a shoreline intake, not the pipe pump. Preserve rejected studies. If resuming lifting buckets, use independent upright pivots; repair outlet boolean degenerates and race joints before any production capture.",
+      "next": "Native 1.8.104 shoreline extraction and all four ordinary player-grid pipe joints verified at 30 water/second. Reuse held V2 geometry; fit upright independently pivoted buckets and coherent supported receiver, repair degenerates/clearances, then full delivery.",
       "evidence": [
-        "models/island-survival/stone-water-wheel/v1/WORK_ORDER.md"
+        "models/island-survival/stone-water-wheel/v1/WORK_ORDER.md",
+        "models/island-survival/stone-water-wheel/v3/contract.json",
+        "models/island-survival/stone-water-wheel/v3/WORK_ORDER.md"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
       "done": false
