@@ -1,0 +1,336 @@
+{
+  "technical_checks_passed": true,
+  "source_sha256": "784954f4bb522563fe64b9e9308d04e4a505521cd5e3e3c6b10d96b66bedb587",
+  "glb_sha256": "d68f6b35bbb7bc94708ef7861605a62e6535aefff23f12a8d5954bb93dec8e43",
+  "source": {
+    "mesh_count": 282,
+    "triangles": 54704,
+    "min": [
+      -1.4299999475479126,
+      -1.4299999475479126,
+      0.0
+    ],
+    "max": [
+      1.4299999475479126,
+      1.4299999475479126,
+      3.125
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "runtime": {
+    "mesh_count": 282,
+    "triangles": 54704,
+    "min": [
+      -1.4299999475479126,
+      -1.4299999475479126,
+      0.0
+    ],
+    "max": [
+      1.4299999475479126,
+      1.4299999475479126,
+      3.125
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "pose_bounds_errors": {
+    "1": 1.1920928955078125e-07,
+    "25": 2.384185791015625e-07,
+    "49": 1.1920928955078125e-07,
+    "97": 2.384185791015625e-07,
+    "145": 1.1920928955078125e-07,
+    "193": 1.1920928955078125e-07
+  },
+  "cycle_seam_error": 0.0,
+  "source_mechanics": {
+    "upright_load": 0.0,
+    "rope_attachment": 2.8228759774151513e-07,
+    "rigid_arm_length": 8.854724514728574e-08,
+    "electrical_joint_attachment": 2.6268342434668907e-06,
+    "winch_winding_ratio": 1.3932585716247559e-06,
+    "tool_guide_alignment": 2.384185793236071e-08
+  },
+  "runtime_mechanics": {
+    "upright_load": 0.0,
+    "rope_attachment": 2.8228759774151513e-07,
+    "rigid_arm_length": 1.589471045337909e-07,
+    "electrical_joint_attachment": 2.6304242878419634e-06,
+    "winch_winding_ratio": 1.7246766443527087e-06,
+    "tool_guide_alignment": 2.384185793236071e-08
+  },
+  "mechanism_sampled_poses": 385,
+  "mechanical_fit_policy": "385 authored and interpolated samples: upright engine load, attached rope ends/fairleads, 0.37-tile rigid electrical arms in parallel hinge planes 0.04 tile apart, joined by axial pins, guided tool, winding drum/motor lift ratio. Full raw triangle sweep reviewed separately.",
+  "packed_images": [
+    {
+      "name": "aged-copper-jacket-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-bedded-limestone-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-bedded-limestone-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-bedded-limestone-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-glazed-ceramic-insulator-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-glazed-ceramic-insulator-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-glazed-ceramic-insulator-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-insulated-winding-cloth-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-insulated-winding-cloth-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-insulated-winding-cloth-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-joint-arc-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-joint-arc-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-joint-arc-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-oiled-hemp-rope-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-oiled-hemp-rope-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-oiled-hemp-rope-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-oxide-green-hull-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-oxide-green-hull-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-assembler-oxide-green-hull-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "embedded_export_images": 33,
+  "animation_count": 1,
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}

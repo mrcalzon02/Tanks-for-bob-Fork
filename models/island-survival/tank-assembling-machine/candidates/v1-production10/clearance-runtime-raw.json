@@ -1,0 +1,2789 @@
+{
+  "artifact": "models\\island-survival\\tank-assembling-machine\\candidates\\v1-production10\\tank-assembler-v1.glb",
+  "sha256": "d68f6b35bbb7bc94708ef7861605a62e6535aefff23f12a8d5954bb93dec8e43",
+  "sampled_poses": 385,
+  "authored_frames": 193,
+  "includes_half_frames": true,
+  "moving_meshes": [
+    "VEHICLE | REUSED tank-assembling-machine_sparks_marker",
+    "VEHICLE | REUSED tank-assembling-machine_welding_head",
+    "VEHICLE | armature copper conductor",
+    "VEHICLE | armature copper conductor.001",
+    "VEHICLE | armature copper conductor.002",
+    "VEHICLE | armature copper conductor.003",
+    "VEHICLE | armature copper conductor.004",
+    "VEHICLE | armature copper conductor.005",
+    "VEHICLE | armature copper conductor.006",
+    "VEHICLE | armature copper conductor.007",
+    "VEHICLE | attached fixed length load sling",
+    "VEHICLE | attached fixed length load sling.001",
+    "VEHICLE | attached fixed length load sling.002",
+    "VEHICLE | attached fixed length load sling.003",
+    "VEHICLE | bored tool sliding carriage",
+    "VEHICLE | carriage stem",
+    "VEHICLE | ceramic electrode collar",
+    "VEHICLE | drum retaining flange",
+    "VEHICLE | drum retaining flange.001",
+    "VEHICLE | drum retaining flange.002",
+    "VEHICLE | drum retaining flange.003",
+    "VEHICLE | electric motor armature",
+    "VEHICLE | electrical arm pivot eye",
+    "VEHICLE | electrical arm pivot eye.001",
+    "VEHICLE | electrical arm pivot eye.002",
+    "VEHICLE | electrical arm pivot eye.003",
+    "VEHICLE | engine cylinder head",
+    "VEHICLE | engine cylinder head.001",
+    "VEHICLE | engine cylinder head.002",
+    "VEHICLE | engine mounting lug",
+    "VEHICLE | engine mounting lug.001",
+    "VEHICLE | engine sling seated retaining strap",
+    "VEHICLE | engine sling seated retaining strap.001",
+    "VEHICLE | lifted replacement engine block",
+    "VEHICLE | load spreader suspension eye",
+    "VEHICLE | load spreader suspension eye.001",
+    "VEHICLE | motor supported through shaft",
+    "VEHICLE | real joining electrode",
+    "VEHICLE | rigid insulated conductor",
+    "VEHICLE | rigid insulated conductor.001",
+    "VEHICLE | rope winding drum",
+    "VEHICLE | rope winding drum.001",
+    "VEHICLE | seated articulated electrical pin",
+    "VEHICLE | seated articulated electrical pin.001",
+    "VEHICLE | shaft rigid motor coupling",
+    "VEHICLE | upright load spreader",
+    "VEHICLE | variable hanging rope",
+    "VEHICLE | variable hanging rope.001",
+    "VEHICLE | visible rope winding",
+    "VEHICLE | visible rope winding.001",
+    "VEHICLE | visible rope winding.002",
+    "VEHICLE | visible rope winding.003",
+    "VEHICLE | visible rope winding.004",
+    "VEHICLE | visible rope winding.005",
+    "VEHICLE | visible rope winding.006",
+    "VEHICLE | visible rope winding.007",
+    "VEHICLE | visible rope winding.008",
+    "VEHICLE | visible rope winding.009",
+    "VEHICLE | visible rope winding.010",
+    "VEHICLE | visible rope winding.011",
+    "VEHICLE | visible rope winding.012",
+    "VEHICLE | visible rope winding.013",
+    "VEHICLE | winch supported through shaft"
+  ],
+  "motion_owners": {
+    "VEHICLE | cable retained pin": null,
+    "VEHICLE | cable retained pin.001": null,
+    "VEHICLE | cantilever underside knee": null,
+    "VEHICLE | cantilever underside knee.001": null,
+    "VEHICLE | clay supply insulator": null,
+    "VEHICLE | clay supply insulator.001": null,
+    "VEHICLE | cloth wrapped fixed motor field": null,
+    "VEHICLE | cloth wrapped fixed motor field.001": null,
+    "VEHICLE | component rack grounded leg": null,
+    "VEHICLE | component rack grounded leg.001": null,
+    "VEHICLE | component rack grounded leg.002": null,
+    "VEHICLE | component rack grounded leg.003": null,
+    "VEHICLE | component rack plank": null,
+    "VEHICLE | continuous retained input vehicle track": null,
+    "VEHICLE | continuous retained input vehicle track.001": null,
+    "VEHICLE | electrical arm support": null,
+    "VEHICLE | existing seat back": null,
+    "VEHICLE | existing seat back.001": null,
+    "VEHICLE | existing vehicle crew seat": null,
+    "VEHICLE | existing vehicle crew seat.001": null,
+    "VEHICLE | fairlead bearing support": null,
+    "VEHICLE | fairlead bearing support.001": null,
+    "VEHICLE | electrical arm pivot eye": "VEHICLE | first rigid insulated electrical arm",
+    "VEHICLE | electrical arm pivot eye.001": "VEHICLE | first rigid insulated electrical arm",
+    "VEHICLE | rigid insulated conductor": "VEHICLE | first rigid insulated electrical arm",
+    "VEHICLE | seated articulated electrical pin": "VEHICLE | first rigid insulated electrical arm",
+    "VEHICLE | fixed electrical arm seated pin": null,
+    "VEHICLE | fixed field housing tie": null,
+    "VEHICLE | fixed field housing tie.001": null,
+    "VEHICLE | fixed field housing tie.002": null,
+    "VEHICLE | fixed field housing tie.003": null,
+    "VEHICLE | fixed guided tool rail": null,
+    "VEHICLE | fixed hoist fairlead": null,
+    "VEHICLE | fixed hoist fairlead.001": null,
+    "VEHICLE | fixed joining power lead": null,
+    "VEHICLE | fixed motor bearing radial support": null,
+    "VEHICLE | fixed motor bearing radial support.001": null,
+    "VEHICLE | fixed motor bearing radial support.002": null,
+    "VEHICLE | fixed motor bearing radial support.003": null,
+    "VEHICLE | fixed motor bearing radial support.004": null,
+    "VEHICLE | fixed motor bearing radial support.005": null,
+    "VEHICLE | fixed winch shaft bush": null,
+    "VEHICLE | fixed winch shaft bush.001": null,
+    "VEHICLE | foot through anchor": null,
+    "VEHICLE | foot through anchor.001": null,
+    "VEHICLE | foot through anchor.002": null,
+    "VEHICLE | foot through anchor.003": null,
+    "VEHICLE | forward winch cantilever": null,
+    "VEHICLE | forward winch cantilever.001": null,
+    "VEHICLE | gantry cable clay standoff": null,
+    "VEHICLE | gantry cable clay standoff.001": null,
+    "VEHICLE | gantry fore and aft knee": null,
+    "VEHICLE | gantry fore and aft knee.001": null,
+    "VEHICLE | gantry seated forged foot": null,
+    "VEHICLE | gantry seated forged foot.001": null,
+    "VEHICLE | gantry upper knee": null,
+    "VEHICLE | gantry upper knee.001": null,
+    "VEHICLE | grounded electrical terminal board": null,
+    "VEHICLE | grounded motor supply lead": null,
+    "VEHICLE | bored tool sliding carriage": "VEHICLE | guided joining head",
+    "VEHICLE | carriage stem": "VEHICLE | guided joining head",
+    "VEHICLE | ceramic electrode collar": "VEHICLE | guided joining head",
+    "VEHICLE | real joining electrode": "VEHICLE | guided joining head",
+    "VEHICLE | REUSED tank-assembling-machine_welding_head": "VEHICLE | guided joining head",
+    "VEHICLE | REUSED tank-assembling-machine_sparks_marker": "VEHICLE | rooted intermittent joining arc",
+    "VEHICLE | hull jig supported cross-bolster": null,
+    "VEHICLE | hull jig supported cross-bolster.001": null,
+    "VEHICLE | hull locator and clamp": null,
+    "VEHICLE | hull locator and clamp.001": null,
+    "VEHICLE | hull locator and clamp.002": null,
+    "VEHICLE | hull locator and clamp.003": null,
+    "VEHICLE | hull plate visible rivet": null,
+    "VEHICLE | hull plate visible rivet.001": null,
+    "VEHICLE | hull plate visible rivet.002": null,
+    "VEHICLE | hull plate visible rivet.003": null,
+    "VEHICLE | hull plate visible rivet.004": null,
+    "VEHICLE | hull plate visible rivet.005": null,
+    "VEHICLE | hull plate visible rivet.006": null,
+    "VEHICLE | hull plate visible rivet.007": null,
+    "VEHICLE | hull plate visible rivet.008": null,
+    "VEHICLE | hull plate visible rivet.009": null,
+    "VEHICLE | hull plate visible rivet.010": null,
+    "VEHICLE | hull plate visible rivet.011": null,
+    "VEHICLE | hull plate visible rivet.012": null,
+    "VEHICLE | hull plate visible rivet.013": null,
+    "VEHICLE | hull plate visible rivet.014": null,
+    "VEHICLE | hull plate visible rivet.015": null,
+    "VEHICLE | hull top rail": null,
+    "VEHICLE | hull top rail.001": null,
+    "VEHICLE | individual track tread shoe": null,
+    "VEHICLE | individual track tread shoe.001": null,
+    "VEHICLE | individual track tread shoe.002": null,
+    "VEHICLE | individual track tread shoe.003": null,
+    "VEHICLE | individual track tread shoe.004": null,
+    "VEHICLE | individual track tread shoe.005": null,
+    "VEHICLE | individual track tread shoe.006": null,
+    "VEHICLE | individual track tread shoe.007": null,
+    "VEHICLE | individual track tread shoe.008": null,
+    "VEHICLE | individual track tread shoe.009": null,
+    "VEHICLE | individual track tread shoe.010": null,
+    "VEHICLE | individual track tread shoe.011": null,
+    "VEHICLE | individual track tread shoe.012": null,
+    "VEHICLE | individual track tread shoe.013": null,
+    "VEHICLE | individual track tread shoe.014": null,
+    "VEHICLE | individual track tread shoe.015": null,
+    "VEHICLE | individual track tread shoe.016": null,
+    "VEHICLE | individual track tread shoe.017": null,
+    "VEHICLE | individual track tread shoe.018": null,
+    "VEHICLE | individual track tread shoe.019": null,
+    "VEHICLE | individual track tread shoe.020": null,
+    "VEHICLE | individual track tread shoe.021": null,
+    "VEHICLE | individual track tread shoe.022": null,
+    "VEHICLE | individual track tread shoe.023": null,
+    "VEHICLE | individual track tread shoe.024": null,
+    "VEHICLE | individual track tread shoe.025": null,
+    "VEHICLE | individual track tread shoe.026": null,
+    "VEHICLE | individual track tread shoe.027": null,
+    "VEHICLE | individual track tread shoe.028": null,
+    "VEHICLE | individual track tread shoe.029": null,
+    "VEHICLE | individual track tread shoe.030": null,
+    "VEHICLE | individual track tread shoe.031": null,
+    "VEHICLE | individual track tread shoe.032": null,
+    "VEHICLE | individual track tread shoe.033": null,
+    "VEHICLE | individual track tread shoe.034": null,
+    "VEHICLE | individual track tread shoe.035": null,
+    "VEHICLE | individual track tread shoe.036": null,
+    "VEHICLE | individual track tread shoe.037": null,
+    "VEHICLE | individual track tread shoe.038": null,
+    "VEHICLE | individual track tread shoe.039": null,
+    "VEHICLE | motor bored shaft bush": null,
+    "VEHICLE | motor bored shaft bush.001": null,
+    "VEHICLE | motor field copper turn": null,
+    "VEHICLE | motor field copper turn.001": null,
+    "VEHICLE | motor field copper turn.002": null,
+    "VEHICLE | motor field copper turn.003": null,
+    "VEHICLE | motor field copper turn.004": null,
+    "VEHICLE | motor field copper turn.005": null,
+    "VEHICLE | motor field copper turn.006": null,
+    "VEHICLE | motor field copper turn.007": null,
+    "VEHICLE | motor field copper turn.008": null,
+    "VEHICLE | motor field copper turn.009": null,
+    "VEHICLE | motor field copper turn.010": null,
+    "VEHICLE | motor field copper turn.011": null,
+    "VEHICLE | motor field copper turn.012": null,
+    "VEHICLE | motor field copper turn.013": null,
+    "VEHICLE | motor field copper turn.014": null,
+    "VEHICLE | motor field copper turn.015": null,
+    "VEHICLE | motor grounded bracket": null,
+    "VEHICLE | motor grounded bracket.001": null,
+    "VEHICLE | open hull central bulkhead": null,
+    "VEHICLE | open motor housing": null,
+    "VEHICLE | open motor housing.001": null,
+    "VEHICLE | post retaining hoop": null,
+    "VEHICLE | post retaining hoop.001": null,
+    "VEHICLE | post retaining hoop.002": null,
+    "VEHICLE | post retaining hoop.003": null,
+    "VEHICLE | post retaining hoop.004": null,
+    "VEHICLE | post retaining hoop.005": null,
+    "VEHICLE | rail grounded transverse sleeper": null,
+    "VEHICLE | rail grounded transverse sleeper.001": null,
+    "VEHICLE | rail grounded transverse sleeper.002": null,
+    "VEHICLE | rail grounded transverse sleeper.003": null,
+    "VEHICLE | rail retained clamp bolt": null,
+    "VEHICLE | rail retained clamp bolt.001": null,
+    "VEHICLE | rail retained clamp bolt.002": null,
+    "VEHICLE | rail retained clamp bolt.003": null,
+    "VEHICLE | rail retained clamp bolt.004": null,
+    "VEHICLE | rail retained clamp bolt.005": null,
+    "VEHICLE | rail retained clamp bolt.006": null,
+    "VEHICLE | rail retained clamp bolt.007": null,
+    "VEHICLE | real supply terminal": null,
+    "VEHICLE | real supply terminal.001": null,
+    "VEHICLE | rear cable bracket": null,
+    "VEHICLE | rear cable bracket.001": null,
+    "VEHICLE | retained vehicle through axle": null,
+    "VEHICLE | retained vehicle through axle.001": null,
+    "VEHICLE | retained vehicle through axle.002": null,
+    "VEHICLE | retained vehicle through axle.003": null,
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0": null,
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1": null,
+    "VEHICLE | REUSED tank-assembling-machine_empty_hull_jig": null,
+    "VEHICLE | REUSED tank-assembling-machine_factory_foundation": null,
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_0": null,
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_1": null,
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry": null,
+    "VEHICLE | armature copper conductor": "VEHICLE | reversing hoist electric armature",
+    "VEHICLE | armature copper conductor.001": "VEHICLE | reversing hoist electric armature",
+    "VEHICLE | armature copper conductor.002": "VEHICLE | reversing hoist electric armature",
+    "VEHICLE | armature copper conductor.003": "VEHICLE | reversing hoist electric armature",
+    "VEHICLE | armature copper conductor.004": "VEHICLE | reversing hoist electric armature",
+    "VEHICLE | armature copper conductor.005": "VEHICLE | reversing hoist electric armature",
+    "VEHICLE | armature copper conductor.006": "VEHICLE | reversing hoist electric armature",
+    "VEHICLE | armature copper conductor.007": "VEHICLE | reversing hoist electric armature",
+    "VEHICLE | electric motor armature": "VEHICLE | reversing hoist electric armature",
+    "VEHICLE | motor supported through shaft": "VEHICLE | reversing hoist electric armature",
+    "VEHICLE | drum retaining flange": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | drum retaining flange.001": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | drum retaining flange.002": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | drum retaining flange.003": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | rope winding drum": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | rope winding drum.001": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | shaft rigid motor coupling": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding.001": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding.002": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding.003": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding.004": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding.005": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding.006": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding.007": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding.008": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding.009": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding.010": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding.011": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding.012": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | visible rope winding.013": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | winch supported through shaft": "VEHICLE | reversing supported hoist drum",
+    "VEHICLE | road wheel retained hub": null,
+    "VEHICLE | road wheel retained hub.001": null,
+    "VEHICLE | road wheel retained hub.002": null,
+    "VEHICLE | road wheel retained hub.003": null,
+    "VEHICLE | road wheel retained hub.004": null,
+    "VEHICLE | road wheel retained hub.005": null,
+    "VEHICLE | road wheel retained hub.006": null,
+    "VEHICLE | road wheel retained hub.007": null,
+    "VEHICLE | electrical arm pivot eye.002": "VEHICLE | second rigid insulated electrical arm",
+    "VEHICLE | electrical arm pivot eye.003": "VEHICLE | second rigid insulated electrical arm",
+    "VEHICLE | rigid insulated conductor.001": "VEHICLE | second rigid insulated electrical arm",
+    "VEHICLE | seated articulated electrical pin.001": "VEHICLE | second rigid insulated electrical arm",
+    "VEHICLE | separate timber bed plank": null,
+    "VEHICLE | separate timber bed plank.001": null,
+    "VEHICLE | separate timber bed plank.002": null,
+    "VEHICLE | separate timber bed plank.003": null,
+    "VEHICLE | separate timber bed plank.004": null,
+    "VEHICLE | separate timber bed plank.005": null,
+    "VEHICLE | separate timber bed plank.006": null,
+    "VEHICLE | separate timber bed plank.007": null,
+    "VEHICLE | separate timber bed plank.008": null,
+    "VEHICLE | separate timber bed plank.009": null,
+    "VEHICLE | spare upgrade arm": null,
+    "VEHICLE | spare upgrade arm pivot": null,
+    "VEHICLE | spare upgrade arm pivot.001": null,
+    "VEHICLE | spare upgrade arm pivot.002": null,
+    "VEHICLE | spare upgrade arm.001": null,
+    "VEHICLE | spare upgrade arm.002": null,
+    "VEHICLE | tool grounded outboard mast": null,
+    "VEHICLE | tool grounded outboard mast.001": null,
+    "VEHICLE | tool overhead reach": null,
+    "VEHICLE | tool overhead reach.001": null,
+    "VEHICLE | tool rail grounded bearing": null,
+    "VEHICLE | tool rail grounded bearing.001": null,
+    "VEHICLE | attached fixed length load sling": "VEHICLE | upright suspended engine module",
+    "VEHICLE | attached fixed length load sling.001": "VEHICLE | upright suspended engine module",
+    "VEHICLE | attached fixed length load sling.002": "VEHICLE | upright suspended engine module",
+    "VEHICLE | attached fixed length load sling.003": "VEHICLE | upright suspended engine module",
+    "VEHICLE | engine cylinder head": "VEHICLE | upright suspended engine module",
+    "VEHICLE | engine cylinder head.001": "VEHICLE | upright suspended engine module",
+    "VEHICLE | engine cylinder head.002": "VEHICLE | upright suspended engine module",
+    "VEHICLE | engine mounting lug": "VEHICLE | upright suspended engine module",
+    "VEHICLE | engine mounting lug.001": "VEHICLE | upright suspended engine module",
+    "VEHICLE | engine sling seated retaining strap": "VEHICLE | upright suspended engine module",
+    "VEHICLE | engine sling seated retaining strap.001": "VEHICLE | upright suspended engine module",
+    "VEHICLE | lifted replacement engine block": "VEHICLE | upright suspended engine module",
+    "VEHICLE | load spreader suspension eye": "VEHICLE | upright suspended engine module",
+    "VEHICLE | load spreader suspension eye.001": "VEHICLE | upright suspended engine module",
+    "VEHICLE | upright load spreader": "VEHICLE | upright suspended engine module",
+    "VEHICLE | variable hanging rope": "VEHICLE | variable hanging rope",
+    "VEHICLE | variable hanging rope.001": "VEHICLE | variable hanging rope.001",
+    "VEHICLE | vehicle road wheel": null,
+    "VEHICLE | vehicle road wheel.001": null,
+    "VEHICLE | vehicle road wheel.002": null,
+    "VEHICLE | vehicle road wheel.003": null,
+    "VEHICLE | vehicle road wheel.004": null,
+    "VEHICLE | vehicle road wheel.005": null,
+    "VEHICLE | vehicle road wheel.006": null,
+    "VEHICLE | vehicle road wheel.007": null,
+    "VEHICLE | winch bearing seated block": null,
+    "VEHICLE | winch bearing seated block.001": null,
+    "VEHICLE | winch cantilever foot": null,
+    "VEHICLE | winch cantilever foot.001": null,
+    "VEHICLE | winch cantilever foot.002": null,
+    "VEHICLE | winch cantilever foot.003": null
+  },
+  "fixed_mesh_count": 219,
+  "pairs": {
+    "VEHICLE | cable retained pin <> VEHICLE | gantry cable clay standoff": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | cable retained pin.001 <> VEHICLE | gantry cable clay standoff.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | cable retained pin.001 <> VEHICLE | grounded motor supply lead": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 226,
+      "moving": false
+    },
+    "VEHICLE | cantilever underside knee <> VEHICLE | forward winch cantilever": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 31,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | cantilever underside knee": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 63,
+      "moving": false
+    },
+    "VEHICLE | cantilever underside knee.001 <> VEHICLE | forward winch cantilever.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 31,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | cantilever underside knee.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 67,
+      "moving": false
+    },
+    "VEHICLE | clay supply insulator <> VEHICLE | grounded electrical terminal board": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | clay supply insulator <> VEHICLE | real supply terminal": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 65,
+      "moving": false
+    },
+    "VEHICLE | clay supply insulator.001 <> VEHICLE | grounded electrical terminal board": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | clay supply insulator.001 <> VEHICLE | real supply terminal.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field <> VEHICLE | motor field copper turn": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 152,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field <> VEHICLE | motor field copper turn.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 148,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field <> VEHICLE | motor field copper turn.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 148,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field <> VEHICLE | motor field copper turn.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 148,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field <> VEHICLE | motor field copper turn.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 148,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field <> VEHICLE | motor field copper turn.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 148,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field <> VEHICLE | motor field copper turn.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 148,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field <> VEHICLE | motor field copper turn.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 152,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field.001 <> VEHICLE | motor field copper turn.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 152,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field.001 <> VEHICLE | motor field copper turn.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 148,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field.001 <> VEHICLE | motor field copper turn.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 148,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field.001 <> VEHICLE | motor field copper turn.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 148,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field.001 <> VEHICLE | motor field copper turn.012": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 148,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field.001 <> VEHICLE | motor field copper turn.013": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 148,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field.001 <> VEHICLE | motor field copper turn.014": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 148,
+      "moving": false
+    },
+    "VEHICLE | cloth wrapped fixed motor field.001 <> VEHICLE | motor field copper turn.015": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 152,
+      "moving": false
+    },
+    "VEHICLE | component rack grounded leg <> VEHICLE | component rack plank": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "VEHICLE | component rack grounded leg <> VEHICLE | rail grounded transverse sleeper": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 71,
+      "moving": false
+    },
+    "VEHICLE | component rack grounded leg <> VEHICLE | separate timber bed plank": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | component rack grounded leg.001 <> VEHICLE | component rack plank": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | component rack grounded leg.001 <> VEHICLE | rail grounded transverse sleeper.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 59,
+      "moving": false
+    },
+    "VEHICLE | component rack grounded leg.001 <> VEHICLE | separate timber bed plank": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | component rack grounded leg.002 <> VEHICLE | component rack plank": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | component rack grounded leg.002 <> VEHICLE | rail grounded transverse sleeper": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 84,
+      "moving": false
+    },
+    "VEHICLE | component rack grounded leg.002 <> VEHICLE | separate timber bed plank": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "VEHICLE | component rack grounded leg.003 <> VEHICLE | component rack plank": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "VEHICLE | component rack grounded leg.003 <> VEHICLE | rail grounded transverse sleeper.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 56,
+      "moving": false
+    },
+    "VEHICLE | component rack grounded leg.003 <> VEHICLE | separate timber bed plank": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | component rack plank <> VEHICLE | spare upgrade arm": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | component rack plank <> VEHICLE | spare upgrade arm pivot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 162,
+      "moving": false
+    },
+    "VEHICLE | component rack plank <> VEHICLE | spare upgrade arm pivot.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 164,
+      "moving": false
+    },
+    "VEHICLE | component rack plank <> VEHICLE | spare upgrade arm pivot.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 162,
+      "moving": false
+    },
+    "VEHICLE | component rack plank <> VEHICLE | spare upgrade arm.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "VEHICLE | component rack plank <> VEHICLE | spare upgrade arm.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.012": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.013": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.014": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.015": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.016": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.017": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.018": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | individual track tread shoe.019": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | vehicle road wheel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 131,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | vehicle road wheel.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | vehicle road wheel.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track <> VEHICLE | vehicle road wheel.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 128,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.020": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.021": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.022": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.023": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.024": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.025": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.026": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.027": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.028": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.029": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.030": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.031": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.032": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.033": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.034": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.035": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.036": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.037": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.038": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | individual track tread shoe.039": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | vehicle road wheel.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 131,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | vehicle road wheel.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | vehicle road wheel.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "VEHICLE | continuous retained input vehicle track.001 <> VEHICLE | vehicle road wheel.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 128,
+      "moving": false
+    },
+    "VEHICLE | electrical arm support <> VEHICLE | fixed electrical arm seated pin": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "VEHICLE | electrical arm support <> VEHICLE | fixed joining power lead": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 70,
+      "moving": false
+    },
+    "VEHICLE | electrical arm support <> VEHICLE | tool grounded outboard mast.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | existing seat back <> VEHICLE | existing vehicle crew seat": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 55,
+      "moving": false
+    },
+    "VEHICLE | existing seat back.001 <> VEHICLE | existing vehicle crew seat.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 55,
+      "moving": false
+    },
+    "VEHICLE | fixed electrical arm seated pin <> VEHICLE | fixed joining power lead": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 142,
+      "moving": false
+    },
+    "VEHICLE | fixed field housing tie <> VEHICLE | open motor housing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 83,
+      "moving": false
+    },
+    "VEHICLE | fixed field housing tie.001 <> VEHICLE | open motor housing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 87,
+      "moving": false
+    },
+    "VEHICLE | fixed field housing tie.002 <> VEHICLE | open motor housing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 86,
+      "moving": false
+    },
+    "VEHICLE | fixed field housing tie.003 <> VEHICLE | open motor housing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 86,
+      "moving": false
+    },
+    "VEHICLE | fixed joining power lead <> VEHICLE | real supply terminal": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 166,
+      "moving": false
+    },
+    "VEHICLE | fixed motor bearing radial support <> VEHICLE | motor bored shaft bush": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | fixed motor bearing radial support <> VEHICLE | open motor housing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "VEHICLE | fixed motor bearing radial support.001 <> VEHICLE | motor bored shaft bush": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 28,
+      "moving": false
+    },
+    "VEHICLE | fixed motor bearing radial support.001 <> VEHICLE | open motor housing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "VEHICLE | fixed motor bearing radial support.002 <> VEHICLE | motor bored shaft bush": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 30,
+      "moving": false
+    },
+    "VEHICLE | fixed motor bearing radial support.002 <> VEHICLE | open motor housing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "VEHICLE | fixed motor bearing radial support.003 <> VEHICLE | motor bored shaft bush.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | fixed motor bearing radial support.003 <> VEHICLE | open motor housing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "VEHICLE | fixed motor bearing radial support.004 <> VEHICLE | motor bored shaft bush.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 28,
+      "moving": false
+    },
+    "VEHICLE | fixed motor bearing radial support.004 <> VEHICLE | open motor housing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "VEHICLE | fixed motor bearing radial support.005 <> VEHICLE | motor bored shaft bush.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 30,
+      "moving": false
+    },
+    "VEHICLE | fixed motor bearing radial support.005 <> VEHICLE | open motor housing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "VEHICLE | fixed winch shaft bush <> VEHICLE | winch bearing seated block": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 28,
+      "moving": false
+    },
+    "VEHICLE | fixed winch shaft bush.001 <> VEHICLE | winch bearing seated block.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 28,
+      "moving": false
+    },
+    "VEHICLE | foot through anchor <> VEHICLE | gantry seated forged foot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | foot through anchor": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_0 <> VEHICLE | foot through anchor": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "VEHICLE | foot through anchor.001 <> VEHICLE | gantry seated forged foot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | foot through anchor.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_0 <> VEHICLE | foot through anchor.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "VEHICLE | foot through anchor.002 <> VEHICLE | gantry seated forged foot.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | foot through anchor.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_1 <> VEHICLE | foot through anchor.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "VEHICLE | foot through anchor.003 <> VEHICLE | gantry seated forged foot.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | foot through anchor.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_1 <> VEHICLE | foot through anchor.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | forward winch cantilever": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "VEHICLE | forward winch cantilever <> VEHICLE | winch bearing seated block": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | forward winch cantilever <> VEHICLE | winch cantilever foot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 56,
+      "moving": false
+    },
+    "VEHICLE | forward winch cantilever <> VEHICLE | winch cantilever foot.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 58,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | forward winch cantilever.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "VEHICLE | forward winch cantilever.001 <> VEHICLE | winch bearing seated block.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | forward winch cantilever.001 <> VEHICLE | winch cantilever foot.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 56,
+      "moving": false
+    },
+    "VEHICLE | forward winch cantilever.001 <> VEHICLE | winch cantilever foot.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 58,
+      "moving": false
+    },
+    "VEHICLE | gantry fore and aft knee <> VEHICLE | hull jig supported cross-bolster.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | gantry fore and aft knee": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_0 <> VEHICLE | gantry fore and aft knee": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "VEHICLE | gantry fore and aft knee <> VEHICLE | separate timber bed plank": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "VEHICLE | gantry fore and aft knee <> VEHICLE | separate timber bed plank.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 39,
+      "moving": false
+    },
+    "VEHICLE | gantry fore and aft knee.001 <> VEHICLE | hull jig supported cross-bolster.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 39,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | gantry fore and aft knee.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_1 <> VEHICLE | gantry fore and aft knee.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "VEHICLE | gantry fore and aft knee.001 <> VEHICLE | separate timber bed plank.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "VEHICLE | gantry fore and aft knee.001 <> VEHICLE | separate timber bed plank.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 39,
+      "moving": false
+    },
+    "VEHICLE | gantry seated forged foot <> VEHICLE | rail grounded transverse sleeper.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | gantry seated forged foot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 39,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_0 <> VEHICLE | gantry seated forged foot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "VEHICLE | gantry seated forged foot.001 <> VEHICLE | rail grounded transverse sleeper.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | gantry seated forged foot.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_1 <> VEHICLE | gantry seated forged foot.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "VEHICLE | gantry upper knee <> VEHICLE | post retaining hoop.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 33,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_0 <> VEHICLE | gantry upper knee": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | gantry upper knee": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | gantry upper knee.001 <> VEHICLE | post retaining hoop.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 33,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_1 <> VEHICLE | gantry upper knee.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | gantry upper knee.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | grounded electrical terminal board <> VEHICLE | tool overhead reach.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "VEHICLE | grounded motor supply lead <> VEHICLE | motor field copper turn.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 3,
+      "moving": false
+    },
+    "VEHICLE | grounded motor supply lead <> VEHICLE | motor field copper turn.012": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 1,
+      "moving": false
+    },
+    "VEHICLE | grounded motor supply lead <> VEHICLE | real supply terminal.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 226,
+      "moving": false
+    },
+    "VEHICLE | hull jig supported cross-bolster <> VEHICLE | hull locator and clamp": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 75,
+      "moving": false
+    },
+    "VEHICLE | hull jig supported cross-bolster <> VEHICLE | hull locator and clamp.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 75,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | hull jig supported cross-bolster": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 35,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | hull jig supported cross-bolster": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 35,
+      "moving": false
+    },
+    "VEHICLE | hull jig supported cross-bolster.001 <> VEHICLE | hull locator and clamp.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 85,
+      "moving": false
+    },
+    "VEHICLE | hull jig supported cross-bolster.001 <> VEHICLE | hull locator and clamp.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 86,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | hull jig supported cross-bolster.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 35,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | hull jig supported cross-bolster.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 35,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_empty_hull_jig <> VEHICLE | hull locator and clamp": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 80,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_empty_hull_jig <> VEHICLE | hull locator and clamp.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 78,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_empty_hull_jig <> VEHICLE | hull locator and clamp.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 90,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_empty_hull_jig <> VEHICLE | hull locator and clamp.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 80,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet <> VEHICLE | hull top rail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.001 <> VEHICLE | hull top rail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.002 <> VEHICLE | hull top rail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.003 <> VEHICLE | hull top rail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.004 <> VEHICLE | hull top rail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.005 <> VEHICLE | hull top rail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.006 <> VEHICLE | hull top rail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.007 <> VEHICLE | hull top rail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.008 <> VEHICLE | hull top rail.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.009 <> VEHICLE | hull top rail.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.010 <> VEHICLE | hull top rail.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.011 <> VEHICLE | hull top rail.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.012 <> VEHICLE | hull top rail.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.013 <> VEHICLE | hull top rail.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.014 <> VEHICLE | hull top rail.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | hull plate visible rivet.015 <> VEHICLE | hull top rail.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_empty_hull_jig <> VEHICLE | hull top rail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 78,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_empty_hull_jig <> VEHICLE | hull top rail.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 78,
+      "moving": false
+    },
+    "VEHICLE | motor grounded bracket <> VEHICLE | open motor housing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 26,
+      "moving": false
+    },
+    "VEHICLE | motor grounded bracket.001 <> VEHICLE | open motor housing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 26,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_0 <> VEHICLE | post retaining hoop": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 20,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_0 <> VEHICLE | post retaining hoop.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 20,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_0 <> VEHICLE | post retaining hoop.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | post retaining hoop.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 25,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_1 <> VEHICLE | post retaining hoop.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 20,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_1 <> VEHICLE | post retaining hoop.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 20,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_gantry_support_1 <> VEHICLE | post retaining hoop.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | post retaining hoop.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 25,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | rail grounded transverse sleeper": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | rail grounded transverse sleeper": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper <> VEHICLE | separate timber bed plank": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 41,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper <> VEHICLE | separate timber bed plank.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper <> VEHICLE | separate timber bed plank.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper <> VEHICLE | separate timber bed plank.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper <> VEHICLE | separate timber bed plank.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper <> VEHICLE | separate timber bed plank.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper <> VEHICLE | separate timber bed plank.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper <> VEHICLE | separate timber bed plank.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper <> VEHICLE | separate timber bed plank.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper <> VEHICLE | separate timber bed plank.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 39,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | rail grounded transverse sleeper.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | rail grounded transverse sleeper.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.001 <> VEHICLE | separate timber bed plank": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.001 <> VEHICLE | separate timber bed plank.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.001 <> VEHICLE | separate timber bed plank.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.001 <> VEHICLE | separate timber bed plank.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.001 <> VEHICLE | separate timber bed plank.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 54,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.001 <> VEHICLE | separate timber bed plank.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 54,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.001 <> VEHICLE | separate timber bed plank.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.001 <> VEHICLE | separate timber bed plank.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.001 <> VEHICLE | separate timber bed plank.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.001 <> VEHICLE | separate timber bed plank.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | rail grounded transverse sleeper.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | rail grounded transverse sleeper.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.002 <> VEHICLE | separate timber bed plank": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 41,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.002 <> VEHICLE | separate timber bed plank.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.002 <> VEHICLE | separate timber bed plank.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.002 <> VEHICLE | separate timber bed plank.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.002 <> VEHICLE | separate timber bed plank.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.002 <> VEHICLE | separate timber bed plank.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.002 <> VEHICLE | separate timber bed plank.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.002 <> VEHICLE | separate timber bed plank.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.002 <> VEHICLE | separate timber bed plank.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.002 <> VEHICLE | separate timber bed plank.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | rail grounded transverse sleeper.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | rail grounded transverse sleeper.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.003 <> VEHICLE | separate timber bed plank": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 39,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.003 <> VEHICLE | separate timber bed plank.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.003 <> VEHICLE | separate timber bed plank.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.003 <> VEHICLE | separate timber bed plank.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.003 <> VEHICLE | separate timber bed plank.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.003 <> VEHICLE | separate timber bed plank.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.003 <> VEHICLE | separate timber bed plank.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.003 <> VEHICLE | separate timber bed plank.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.003 <> VEHICLE | separate timber bed plank.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "VEHICLE | rail grounded transverse sleeper.003 <> VEHICLE | separate timber bed plank.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | rail retained clamp bolt": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | rail retained clamp bolt.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | rail retained clamp bolt.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | rail retained clamp bolt.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | rail retained clamp bolt.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | rail retained clamp bolt.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | rail retained clamp bolt.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | rail retained clamp bolt.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | rear cable bracket": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 35,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | rear cable bracket.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 35,
+      "moving": false
+    },
+    "VEHICLE | retained vehicle through axle <> VEHICLE | vehicle road wheel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | retained vehicle through axle <> VEHICLE | vehicle road wheel.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | retained vehicle through axle.001 <> VEHICLE | vehicle road wheel.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | retained vehicle through axle.001 <> VEHICLE | vehicle road wheel.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | retained vehicle through axle.002 <> VEHICLE | vehicle road wheel.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | retained vehicle through axle.002 <> VEHICLE | vehicle road wheel.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | retained vehicle through axle.003 <> VEHICLE | vehicle road wheel.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | retained vehicle through axle.003 <> VEHICLE | vehicle road wheel.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_0 <> VEHICLE | REUSED tank-assembling-machine_gantry_support_0": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_assembly_rail_1 <> VEHICLE | REUSED tank-assembling-machine_gantry_support_1": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | winch cantilever foot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | winch cantilever foot.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | winch cantilever foot.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_overhead_gantry <> VEHICLE | winch cantilever foot.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "VEHICLE | road wheel retained hub <> VEHICLE | vehicle road wheel": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | road wheel retained hub.001 <> VEHICLE | vehicle road wheel.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | road wheel retained hub.002 <> VEHICLE | vehicle road wheel.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | road wheel retained hub.003 <> VEHICLE | vehicle road wheel.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 65,
+      "moving": false
+    },
+    "VEHICLE | road wheel retained hub.004 <> VEHICLE | vehicle road wheel.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 65,
+      "moving": false
+    },
+    "VEHICLE | road wheel retained hub.005 <> VEHICLE | vehicle road wheel.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 66,
+      "moving": false
+    },
+    "VEHICLE | road wheel retained hub.006 <> VEHICLE | vehicle road wheel.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 65,
+      "moving": false
+    },
+    "VEHICLE | road wheel retained hub.007 <> VEHICLE | vehicle road wheel.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "VEHICLE | spare upgrade arm <> VEHICLE | spare upgrade arm pivot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 187,
+      "moving": false
+    },
+    "VEHICLE | spare upgrade arm pivot.001 <> VEHICLE | spare upgrade arm.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 192,
+      "moving": false
+    },
+    "VEHICLE | spare upgrade arm pivot.002 <> VEHICLE | spare upgrade arm.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 187,
+      "moving": false
+    },
+    "VEHICLE | tool overhead reach <> VEHICLE | tool rail grounded bearing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 236,
+      "moving": false
+    },
+    "VEHICLE | tool overhead reach.001 <> VEHICLE | tool rail grounded bearing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 239,
+      "moving": false
+    },
+    "VEHICLE | REUSED tank-assembling-machine_sparks_marker <> VEHICLE | hull top rail.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 10,
+      "moving": true
+    },
+    "VEHICLE | electrical arm pivot eye <> VEHICLE | rigid insulated conductor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 69,
+      "moving": true
+    },
+    "VEHICLE | electrical arm pivot eye.001 <> VEHICLE | rigid insulated conductor": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 71,
+      "moving": true
+    },
+    "VEHICLE | bored tool sliding carriage <> VEHICLE | carriage stem": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "VEHICLE | REUSED tank-assembling-machine_welding_head <> VEHICLE | carriage stem": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "VEHICLE | carriage stem <> VEHICLE | electrical arm pivot eye.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 104,
+      "moving": true
+    },
+    "VEHICLE | carriage stem <> VEHICLE | rigid insulated conductor.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 48,
+      "moving": true
+    },
+    "VEHICLE | ceramic electrode collar <> VEHICLE | real joining electrode": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "VEHICLE | REUSED tank-assembling-machine_welding_head <> VEHICLE | ceramic electrode collar": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 73,
+      "moving": true
+    },
+    "VEHICLE | REUSED tank-assembling-machine_sparks_marker <> VEHICLE | real joining electrode": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 26,
+      "moving": true
+    },
+    "VEHICLE | armature copper conductor <> VEHICLE | electric motor armature": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "VEHICLE | armature copper conductor.001 <> VEHICLE | electric motor armature": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 37,
+      "moving": true
+    },
+    "VEHICLE | armature copper conductor.002 <> VEHICLE | electric motor armature": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "VEHICLE | armature copper conductor.003 <> VEHICLE | electric motor armature": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 37,
+      "moving": true
+    },
+    "VEHICLE | armature copper conductor.004 <> VEHICLE | electric motor armature": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "VEHICLE | armature copper conductor.005 <> VEHICLE | electric motor armature": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 37,
+      "moving": true
+    },
+    "VEHICLE | armature copper conductor.006 <> VEHICLE | electric motor armature": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "VEHICLE | armature copper conductor.007 <> VEHICLE | electric motor armature": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 37,
+      "moving": true
+    },
+    "VEHICLE | electric motor armature <> VEHICLE | motor supported through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 132,
+      "moving": true
+    },
+    "VEHICLE | motor supported through shaft <> VEHICLE | shaft rigid motor coupling": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 276,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum <> VEHICLE | visible rope winding": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 298,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum <> VEHICLE | visible rope winding.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 271,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum <> VEHICLE | visible rope winding.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 255,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum <> VEHICLE | visible rope winding.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 255,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum <> VEHICLE | visible rope winding.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 256,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum <> VEHICLE | visible rope winding.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 271,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum <> VEHICLE | visible rope winding.006": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 299,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum <> VEHICLE | winch supported through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 132,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum.001 <> VEHICLE | visible rope winding.007": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 298,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum.001 <> VEHICLE | visible rope winding.008": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 273,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum.001 <> VEHICLE | visible rope winding.009": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 258,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum.001 <> VEHICLE | visible rope winding.010": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 256,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum.001 <> VEHICLE | visible rope winding.011": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 257,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum.001 <> VEHICLE | visible rope winding.012": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 273,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum.001 <> VEHICLE | visible rope winding.013": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 300,
+      "moving": true
+    },
+    "VEHICLE | rope winding drum.001 <> VEHICLE | winch supported through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 132,
+      "moving": true
+    },
+    "VEHICLE | shaft rigid motor coupling <> VEHICLE | winch supported through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 292,
+      "moving": true
+    },
+    "VEHICLE | electrical arm pivot eye.002 <> VEHICLE | rigid insulated conductor.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 68,
+      "moving": true
+    },
+    "VEHICLE | electrical arm pivot eye.003 <> VEHICLE | rigid insulated conductor.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "VEHICLE | attached fixed length load sling <> VEHICLE | attached fixed length load sling.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 74,
+      "moving": true
+    },
+    "VEHICLE | attached fixed length load sling <> VEHICLE | engine sling seated retaining strap": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "VEHICLE | attached fixed length load sling <> VEHICLE | upright load spreader": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 32,
+      "moving": true
+    },
+    "VEHICLE | attached fixed length load sling.001 <> VEHICLE | engine sling seated retaining strap": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "VEHICLE | attached fixed length load sling.001 <> VEHICLE | upright load spreader": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 32,
+      "moving": true
+    },
+    "VEHICLE | attached fixed length load sling.002 <> VEHICLE | attached fixed length load sling.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 74,
+      "moving": true
+    },
+    "VEHICLE | attached fixed length load sling.002 <> VEHICLE | engine sling seated retaining strap.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "VEHICLE | attached fixed length load sling.002 <> VEHICLE | upright load spreader": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 32,
+      "moving": true
+    },
+    "VEHICLE | attached fixed length load sling.003 <> VEHICLE | engine sling seated retaining strap.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "VEHICLE | attached fixed length load sling.003 <> VEHICLE | upright load spreader": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 32,
+      "moving": true
+    },
+    "VEHICLE | engine cylinder head <> VEHICLE | lifted replacement engine block": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "VEHICLE | engine cylinder head.001 <> VEHICLE | lifted replacement engine block": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "VEHICLE | engine cylinder head.002 <> VEHICLE | lifted replacement engine block": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 64,
+      "moving": true
+    },
+    "VEHICLE | engine mounting lug <> VEHICLE | lifted replacement engine block": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "VEHICLE | engine mounting lug.001 <> VEHICLE | lifted replacement engine block": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "VEHICLE | engine sling seated retaining strap <> VEHICLE | lifted replacement engine block": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 51,
+      "moving": true
+    },
+    "VEHICLE | engine sling seated retaining strap.001 <> VEHICLE | lifted replacement engine block": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 51,
+      "moving": true
+    },
+    "VEHICLE | load spreader suspension eye <> VEHICLE | variable hanging rope": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 77,
+      "moving": true
+    },
+    "VEHICLE | load spreader suspension eye.001 <> VEHICLE | variable hanging rope.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 78,
+      "moving": true
+    }
+  },
+  "note": "Raw triangle contacts include intentional fitted joints, tooth engagement and fasteners. Every pair requires adjudication; this inventory is not a clearance pass."
+}

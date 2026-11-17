@@ -1,0 +1,22 @@
+{
+  "judgment": "model-operational-close-enough-pending-native-art-review",
+  "owner_visual_approved": false,
+  "delegated_model_review": true,
+  "source_sha256": "784954f4bb522563fe64b9e9308d04e4a505521cd5e3e3c6b10d96b66bedb587",
+  "runtime_sha256": "d68f6b35bbb7bc94708ef7861605a62e6535aefff23f12a8d5954bb93dec8e43",
+  "actually_viewed": {
+    "models/island-survival/tank-assembling-machine/candidates/v1-production10/actual-glb-front.png": "10e6fa14931e751ee7a4933f915eebf360d4b83ed2e733a71288ab1def7023fa",
+    "models/island-survival/tank-assembling-machine/candidates/v1-production10/actual-glb-rear.png": "9b974eea30b17a370745f4e880422bbdd04eafab75dbc7cfef80312ec52c34fb",
+    "models/island-survival/tank-assembling-machine/candidates/v1-production10/actual-glb-side.png": "a1998689cd9ff044809945bcd50816c5c8e548658e6649591b1fa07953ce136c",
+    "models/island-survival/tank-assembling-machine/candidates/v1-production10/actual-glb-clay.png": "57aec3852caddcb2c2d82afd67808bae1b7132bdd3a5b25626119ca8b625afae",
+    "models/island-survival/tank-assembling-machine/candidates/v1-production10/actual-glb-mechanism-close.png": "941dc58181b30c987b0d289b4b9e9d10e19b71471dad8840261c0d49ff10e547"
+  },
+  "basis": "Retains nine saved groups as founded timber/stone conversion gantry, visible input hull/tracks, seated through axles, upright slung replacement engine, supported open electric motor/winch, guided electrode and parallel-plane hinged electrical arms. Rear, side and clay checks expose support and lead routes.",
+  "repaired_studies": "Floating coupling, rotor/stator interference, fairlead supports, carriage/rail and hinge/pin clearances, rack/track contacts, unsupported axles and central motor bushes, and modifier-order bore shrinkage. Earlier local studies remain held.",
+  "limitations": [
+    "Representative stationary vehicle workpiece; no claim of displaying every recipe-specific finished tank.",
+    "Small fittings approximate at gameplay size.",
+    "Sampled clearance, not continuous collision simulation.",
+    "Actual current-art client operation and operated-save reload pending."
+  ]
+}

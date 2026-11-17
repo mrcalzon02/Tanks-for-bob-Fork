@@ -1,0 +1,21 @@
+{
+  "starter_sha256": "cc89317f7b92cec81cb63d33921a5d5029d1eddde3a50fffa333ed092f41f119",
+  "preserved_starter_groups": [
+    "tank-assembling-machine_factory_foundation",
+    "tank-assembling-machine_assembly_rail_0",
+    "tank-assembling-machine_assembly_rail_1",
+    "tank-assembling-machine_gantry_support_0",
+    "tank-assembling-machine_gantry_support_1",
+    "tank-assembling-machine_overhead_gantry",
+    "tank-assembling-machine_empty_hull_jig",
+    "tank-assembling-machine_welding_head",
+    "tank-assembling-machine_sparks_marker"
+  ],
+  "source_sha256": "784954f4bb522563fe64b9e9308d04e4a505521cd5e3e3c6b10d96b66bedb587",
+  "runtime_sha256": "d68f6b35bbb7bc94708ef7861605a62e6535aefff23f12a8d5954bb93dec8e43",
+  "native_power": "electric 250kW",
+  "actual_recipe_contracts": 13,
+  "owner_visual_approved": false,
+  "native_integrated": false,
+  "review_status": "source-export-and-clearances-reviewed-native-graphical-pending"
+}
