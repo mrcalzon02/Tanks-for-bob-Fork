@@ -1,0 +1,540 @@
+{
+  "recipes": [
+    {
+      "name": "Calcifier-pro",
+      "energy": 35,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "stone",
+          "amount": 2
+        },
+        {
+          "type": "fluid",
+          "name": "water",
+          "amount": 250
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "stone",
+          "amount": 8,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.04,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": []
+    },
+    {
+      "name": "Calcifier-pro-2",
+      "energy": 25,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "stone",
+          "amount": 10
+        },
+        {
+          "type": "fluid",
+          "name": "water",
+          "amount": 500
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "stone",
+          "amount": 40,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 2,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.01,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "waste-processing-2"
+      ]
+    },
+    {
+      "name": "Calcifier-pro-3",
+      "energy": 20,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "stone",
+          "amount": 25
+        },
+        {
+          "type": "fluid",
+          "name": "water",
+          "amount": 1000
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "stone",
+          "amount": 120,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 8,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.02,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "waste-processing-3"
+      ]
+    },
+    {
+      "name": "Calcifier-pro-4",
+      "energy": 18,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "stone",
+          "amount": 50
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 1500
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "stone",
+          "amount": 300,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 20,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.03,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "waste-processing-4"
+      ]
+    },
+    {
+      "name": "Calcifier-pro-5",
+      "energy": 15,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "stone",
+          "amount": 100
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 3000
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "stone",
+          "amount": 800,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 60,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.04,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "waste-processing-5"
+      ]
+    },
+    {
+      "name": "hydrocoptic-crystal",
+      "energy": 16,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "hydrocoptic-precursor",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "bioceramic-preform",
+          "amount": 1
+        },
+        {
+          "type": "fluid",
+          "name": "water",
+          "amount": 150
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "hydrocoptic-crystal",
+          "amount": 2,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.11000000000000001,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.02,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "biomineral-synthesis"
+      ]
+    },
+    {
+      "name": "ionic-scum",
+      "energy": 10,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "saline-particulate",
+          "amount": 15
+        },
+        {
+          "type": "fluid",
+          "name": "water",
+          "amount": 250
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "ionic-scum",
+          "amount": 2,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "mineral-fractionation"
+      ]
+    },
+    {
+      "name": "microcrystal-sediment",
+      "energy": 14,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "stone",
+          "amount": 5
+        },
+        {
+          "type": "item",
+          "name": "heavy-brine-fraction",
+          "amount": 12
+        },
+        {
+          "type": "fluid",
+          "name": "water",
+          "amount": 250
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "microcrystal-sediment",
+          "amount": 2,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.08,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.01,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "mineral-fractionation"
+      ]
+    }
+  ],
+  "schema": "tanks.calcifier.contract.v1",
+  "baseline_commit": "0c3d382763725dc50ef96c4324e3b1b0c143ac93",
+  "entity": {
+    "type": "assembling-machine",
+    "name": "calcifier",
+    "category": "Calcifier",
+    "footprint": [
+      3,
+      3
+    ],
+    "collision_box": [
+      [
+        -1.2,
+        -1.2
+      ],
+      [
+        1.2,
+        1.2
+      ]
+    ],
+    "selection_box": [
+      [
+        -1.5,
+        -1.5
+      ],
+      [
+        1.5,
+        1.5
+      ]
+    ],
+    "crafting_speed": 0.6,
+    "ingredient_count": 4,
+    "fuel": "chemical",
+    "energy_usage": "1kW",
+    "efficiency": 1,
+    "pollution_per_minute": 6
+  },
+  "item": {
+    "name": "calcifier",
+    "place_result": "calcifier"
+  },
+  "building_recipe": {
+    "name": "calcifier",
+    "category": "Seablock",
+    "seconds": 35,
+    "ingredients": {
+      "brick": 10,
+      "stone-tools": 5
+    },
+    "results": {
+      "calcifier": 1,
+      "tank-ammo-Industrialwaste": {
+        "amount": 1,
+        "probability": 0.07
+      }
+    }
+  },
+  "technology": {
+    "name": "calcifier",
+    "prerequisites": [
+      "steam-condenser"
+    ],
+    "count": 10,
+    "ingredients": {
+      "Seared-fish": 1
+    },
+    "seconds": 10
+  },
+  "source": {
+    "path": "models/island-survival/calcifier/v1/starter-calcifier.obj",
+    "sha256": "1b9609a4d7368a8e22c6c97927673bb1a210e45f38de608d78c3e8f2fd6a4678"
+  },
+  "directions": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "ports": [
+    {
+      "role": "input",
+      "native_position": [
+        0,
+        -1
+      ],
+      "source_socket": [
+        0,
+        1.5,
+        0.2
+      ],
+      "fluids": [
+        "water",
+        "steam"
+      ]
+    },
+    {
+      "role": "output",
+      "native_position": [
+        0,
+        1
+      ],
+      "source_socket": [
+        0,
+        -1.5,
+        0.2
+      ],
+      "usage": "Unused by every current recipe; preserve prototype and show capped socket, do not invent fluid production."
+    }
+  ],
+  "design": "Brick-heated wet mineral growth/mixing bed. Geared paddle shaft, visible engine piston and belt, open feed hopper and supported pipe/heat circuits; all results are solid stone, mineral sediments/crystals and waste.",
+  "surface_plan": [
+    "Individual bonded firebrick and glazed refractory bowl",
+    "Pale wet mineral growth bed with clay/stone residue and raked mixing surface",
+    "Long-grain timber frame with end grain, bored bronze journals and iron shoes",
+    "Open worked-copper hopper, real liner and rolled rim",
+    "Visible iron/wood cog teeth and rotating paddle arms; iron piston and rigid links",
+    "Water/steam inlet distributed to bed, contained engine line, supported combustion flue and capped south fluid joint"
+  ]
+}

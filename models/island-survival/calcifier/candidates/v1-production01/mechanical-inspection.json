@@ -1,0 +1,12 @@
+{
+  "source_sha256": "1ae75578d593c9e2fddb7964329b09dbb181726c790d6b32776d8a62f50572bc",
+  "frames": 193,
+  "errors": {
+    "rod_endpoint_error": 2.384185791015625e-07,
+    "piston_endpoint_error": 0.0,
+    "miter_ratio_error": 9.187947076771952e-07,
+    "mixer_ratio_error": 0.0,
+    "crosshead_off_axis": 9.536743172944284e-09
+  },
+  "passed": true
+}

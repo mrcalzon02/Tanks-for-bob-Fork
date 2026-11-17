@@ -1,0 +1,381 @@
+{
+  "technical_checks_passed": true,
+  "source_sha256": "1ae75578d593c9e2fddb7964329b09dbb181726c790d6b32776d8a62f50572bc",
+  "glb_sha256": "56617deebd398b5b68870b49fd29587c4f4e29fba0cc75c399f6781e0537dc59",
+  "source": {
+    "mesh_count": 307,
+    "triangles": 104268,
+    "min": [
+      -1.350000023841858,
+      -1.524999976158142,
+      0.0
+    ],
+    "max": [
+      1.350000023841858,
+      1.5351706743240356,
+      2.322499990463257
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "runtime": {
+    "mesh_count": 307,
+    "triangles": 104268,
+    "min": [
+      -1.350000023841858,
+      -1.524999976158142,
+      0.0
+    ],
+    "max": [
+      1.350000023841858,
+      1.5351706743240356,
+      2.322499990463257
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "pose_bounds_errors": {
+    "1": 2.384185791015625e-07,
+    "25": 2.384185791015625e-07,
+    "49": 2.384185791015625e-07,
+    "97": 2.384185791015625e-07,
+    "145": 2.384185791015625e-07,
+    "193": 2.384185791015625e-07
+  },
+  "cycle_seam_error": 1.1920928955078125e-07,
+  "fixed_socket_motion": 0.0,
+  "moving_parts": [
+    "CALCIFIER | mixing sweep arm",
+    "CALCIFIER | mineral stirring blade",
+    "CALCIFIER | paddle fastening pin",
+    "CALCIFIER | mixing sweep arm.001",
+    "CALCIFIER | mineral stirring blade.001",
+    "CALCIFIER | paddle fastening pin.001",
+    "CALCIFIER | mixing sweep arm.002",
+    "CALCIFIER | mineral stirring blade.002",
+    "CALCIFIER | paddle fastening pin.002",
+    "CALCIFIER | mixing sweep arm.003",
+    "CALCIFIER | mineral stirring blade.003",
+    "CALCIFIER | paddle fastening pin.003",
+    "CALCIFIER | pulley spoke",
+    "CALCIFIER | pulley spoke.001",
+    "CALCIFIER | pulley spoke.002",
+    "CALCIFIER | pulley spoke.003",
+    "CALCIFIER | pulley spoke.004",
+    "CALCIFIER | pulley spoke.005",
+    "CALCIFIER | pulley spoke.006",
+    "CALCIFIER | pulley spoke.007",
+    "CALCIFIER | pulley spoke.008",
+    "CALCIFIER | pulley spoke.009",
+    "CALCIFIER | pulley spoke.010",
+    "CALCIFIER | pulley spoke.011",
+    "CALCIFIER | retained engine crank pin",
+    "CALCIFIER | engine rigid connecting arm",
+    "CALCIFIER | gear supporting spoke",
+    "CALCIFIER | gear supporting spoke.001",
+    "CALCIFIER | gear supporting spoke.002",
+    "CALCIFIER | gear supporting spoke.003",
+    "CALCIFIER | gear supporting spoke.004",
+    "CALCIFIER | gear supporting spoke.005",
+    "CALCIFIER | gear supporting spoke.006",
+    "CALCIFIER | travelling belt splice",
+    "CALCIFIER | travelling belt splice.001",
+    "CALCIFIER | travelling belt splice.002"
+  ],
+  "packed_images": [
+    {
+      "name": "aged-copper-jacket-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-ash-and-coal-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-ash-and-coal-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-ash-and-coal-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-chalky-crystal-growth-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-chalky-crystal-growth-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-chalky-crystal-growth-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-refractory-liner-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-refractory-liner-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-refractory-liner-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-reinforced-lagging-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-reinforced-lagging-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-reinforced-lagging-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-wet-mineral-bed-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-wet-mineral-bed-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-wet-mineral-bed-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-worked-stone-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-worked-stone-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "calcifier-worked-stone-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "embedded_export_images": 36,
+  "animation_count": 1,
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}

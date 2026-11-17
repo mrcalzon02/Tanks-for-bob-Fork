@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "operated_save_sha256": "6761cab609ac3c5f4cd84b0c561cbde3c69e685eebfa3dd2499d61689b861eee",
+  "save_was_fully_operated_and_settled": true,
+  "checked": "48 entities, inventories, recipe progress, machine and pipe fluid quantities/types/temperatures, actual connections and directions",
+  "reload_ticks": 300
+}

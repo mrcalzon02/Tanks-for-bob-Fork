@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "source_sha256": "4e17a54ea3f6cd17048535a62919cc79baab86944d7f19afec30b1b61bccbde8",
+  "maximum_projection_error_tiles": 1.0911606707630916e-06,
+  "native_registration_y": 0.2076834412,
+  "mouth_measurements": [
+    {
+      "role": "north inlet",
+      "mouth_plane_y": 1.5,
+      "source_axis_z": 0.36,
+      "bore_radius": 0.279999976769382,
+      "outer_radius": 0.3000000628636878,
+      "fixed_native_grid_unchanged": true
+    },
+    {
+      "role": "capped unused south outlet",
+      "mouth_plane_y": -1.5,
+      "source_axis_z": 0.36,
+      "bore_radius": 0.279999976769382,
+      "outer_radius": 0.3000000628636878,
+      "fixed_native_grid_unchanged": true
+    }
+  ],
+  "facings": [
+    {
+      "facing": "north",
+      "role": "input",
+      "native_screen_mouth_center": [
+        0.0,
+        -1.5468760434769546
+      ],
+      "expected_screen_center": [
+        -0.0,
+        -1.546875
+      ],
+      "error_tiles": 1.0434769546208145e-06
+    },
+    {
+      "facing": "north",
+      "role": "unused_output",
+      "native_screen_mouth_center": [
+        0.0,
+        1.4531241114951219
+      ],
+      "expected_screen_center": [
+        0.0,
+        1.453125
+      ],
+      "error_tiles": 8.88504878115981e-07
+    },
+    {
+      "facing": "east",
+      "role": "input",
+      "native_screen_mouth_center": [
+        1.4999999523162841,
+        -0.046876091160670486
+      ],
+      "expected_screen_center": [
+        1.5,
+        -0.04687499999999972
+      ],
+      "error_tiles": 1.0911606707630916e-06
+    },
+    {
+      "facing": "east",
+      "role": "unused_output",
+      "native_screen_mouth_center": [
+        -1.5000000357627867,
+        -0.04687592426766507
+      ],
+      "expected_screen_center": [
+        -1.5,
+        -0.04687500000000028
+      ],
+      "error_tiles": 9.242676647924775e-07
+    },
+    {
+      "facing": "south",
+      "role": "input",
+      "native_screen_mouth_center": [
+        0.0,
+        1.4531241114951219
+      ],
+      "expected_screen_center": [
+        -1.8369701987210297e-16,
+        1.453125
+      ],
+      "error_tiles": 8.88504878115981e-07
+    },
+    {
+      "facing": "south",
+      "role": "unused_output",
+      "native_screen_mouth_center": [
+        -1.6689300537109374e-07,
+        -1.5468760434769546
+      ],
+      "expected_screen_center": [
+        1.8369701987210297e-16,
+        -1.546875
+      ],
+      "error_tiles": 1.0434769546208145e-06
+    },
+    {
+      "facing": "west",
+      "role": "input",
+      "native_screen_mouth_center": [
+        -1.5000000357627867,
+        -0.04687592426766507
+      ],
+      "expected_screen_center": [
+        -1.5,
+        -0.04687500000000009
+      ],
+      "error_tiles": 9.242676649798276e-07
+    },
+    {
+      "facing": "west",
+      "role": "unused_output",
+      "native_screen_mouth_center": [
+        1.4999999523162841,
+        -0.046876091160670486
+      ],
+      "expected_screen_center": [
+        1.5,
+        -0.04687499999999991
+      ],
+      "error_tiles": 1.0911606705757415e-06
+    }
+  ],
+  "basis": "Standard Factorio pipe metal-axis screen height -1.5 native pixels; confirm with four actual placed-pipe close screenshots. No prototype positions changed."
+}

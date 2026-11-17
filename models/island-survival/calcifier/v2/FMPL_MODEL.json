@@ -1,0 +1,48 @@
+{
+  "schema": "fmpl.model-delivery.v1",
+  "id": "tanks-calcifier-v2",
+  "status": "operational-native-integrated-delegated-review-remote-pending",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "prototype": {
+    "type": "assembling-machine",
+    "name": "calcifier"
+  },
+  "footprint_tiles": [
+    3,
+    3
+  ],
+  "scene_units_per_tile": 1,
+  "source": {
+    "path": "models/island-survival/calcifier/candidates/v2-sockets08/calcifier-v2.blend",
+    "sha256": "4e17a54ea3f6cd17048535a62919cc79baab86944d7f19afec30b1b61bccbde8"
+  },
+  "runtime": {
+    "path": "models/island-survival/calcifier/candidates/v2-sockets08/calcifier-v2.glb",
+    "sha256": "94efde73d3b39ea83a5670bb1e726e6aa535b5e13d159b17a8ebae37e2e54d52"
+  },
+  "packed_pbr_images": 39,
+  "source_and_runtime_pose_checks": 6,
+  "mechanism_frames_checked": 193,
+  "clearance_poses_per_artifact": 385,
+  "source_and_actual_glb_clearances_checked": true,
+  "clearance_review": "models/island-survival/calcifier/candidates/v2-sockets08/clearance-review.json",
+  "clearance_limits": "Sampled triangle clearance, not a continuous collision solver or manufacturing-grade bevel contact. Intentional joints, belt seating, gear engagement and immersion enumerated.",
+  "production_frames": 68,
+  "frame_scope": "Four true idle captures plus sixteen working captures per facing; native idle cells explicitly repeat idle.",
+  "native_art_orientations": 4,
+  "capture_policy": "fmpl.factorio45.v1",
+  "native_recipe_count": 8,
+  "native_player_grid_connections": 44,
+  "native_machines": 48,
+  "gameplay_changed": false,
+  "owner_approved": false,
+  "delegated_operational_review_passed": true,
+  "native_engine": "2.1.24",
+  "native_recipes_fuel_item_blocking_starvation_stop_restart_operated_reload_passed": true,
+  "fluid_output_blocking": "Not applicable: all eight recipes produce items only. South socket unused/capped.",
+  "actual_client_screenshots": 38,
+  "actual_pipe_joint_closeups": 4,
+  "native_working_video_frames": 16,
+  "evidence": "docs/art/calcifier-v2",
+  "central_library_registration": "pending verified Tanks source push"
+}

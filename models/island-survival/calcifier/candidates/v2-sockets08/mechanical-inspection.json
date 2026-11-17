@@ -1,0 +1,19 @@
+{
+  "source_sha256": "4e17a54ea3f6cd17048535a62919cc79baab86944d7f19afec30b1b61bccbde8",
+  "frames": 193,
+  "errors": {
+    "offset_arm_endpoint_error": 3.816559456248789e-07,
+    "forming_crosshead_offset_error": 0.0,
+    "die_pad_gap": 2.9802322387695312e-08,
+    "ram_shaft_die_clearance_error": 0.0,
+    "rod_guide_triangle_intersections": 0,
+    "mixer_thrust_seat_gap": 0.0,
+    "pinion_thrust_seat_gap": 5.960464477539063e-08,
+    "rod_endpoint_error": 2.384185791015625e-07,
+    "piston_endpoint_error": 0.0,
+    "miter_ratio_error": 9.187947076771952e-07,
+    "mixer_ratio_error": 0.0,
+    "crosshead_off_axis": 9.536743172944284e-09
+  },
+  "passed": true
+}

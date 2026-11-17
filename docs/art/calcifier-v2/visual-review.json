@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-17",
+  "judgment": "operational_close_enough_after_owner_machinery_clearance_and_pipe_socket_corrections",
+  "owner_visual_approved": false,
+  "basis": "Delegated operational completion after replacing the colliding straight drive with a rigid offset arm, fitting exterior circuits and correcting full-size player pipe mouths against genuine native closeups.",
+  "source_sha256": "4e17a54ea3f6cd17048535a62919cc79baab86944d7f19afec30b1b61bccbde8",
+  "runtime_sha256": "94efde73d3b39ea83a5670bb1e726e6aa535b5e13d159b17a8ebae37e2e54d52",
+  "before_reference": "models/island-survival/calcifier/candidates/v2-stations02/stations-close512.png",
+  "before_reference_sha256": "bf3eb3238328ac40ac900610d295a66639a3912139963d5491666669318b2dcc",
+  "acceptance_policy_sha256": "9c07fe5f6fdc5b3510d9d5a3705f16ecf93e812235a5456b933b3907c0f68e84",
+  "reviewed_images": {
+    "docs/art/calcifier-v2/north-working-a.png": "13f98cb39b66e532a21f751c49d3015f8aaad126b77fd70d8748afe8a5dd5846",
+    "docs/art/calcifier-v2/east-working-a.png": "85c27f3bb9f1935118d8bc41e135be5d0b1ed6e18aeb587f4735112c7e50df21",
+    "docs/art/calcifier-v2/south-working-a.png": "fd2bcfc1d8168122e7803c7c06dd91f3adabfbb3de7cfd659259e6af607b0ad9",
+    "docs/art/calcifier-v2/west-working-a.png": "9ef77e200e32a740f08d7a2a5f0d14fa3ff7c4ee537af4a264336e8d814a368f",
+    "docs/art/calcifier-v2/idle.png": "9172e3dc9a33df4a38dbff5416cbb26266b85db38089f17a3990134ac6f599c5",
+    "docs/art/calcifier-v2/blocked-item-full.png": "c5655bd6946c717b572b99c94e9be4d4cfbfab32b06951ab4d26074860eb4335",
+    "docs/art/calcifier-v2/north-motion-04.png": "b17cab2bb1776ad01f998f02ac4eceb3d57151b7fada78821ad503437cb1b515",
+    "docs/art/calcifier-v2/north-motion-12.png": "01a097f82861f1aef2af8eaa52c3f89a9f3c3ff8c3d3dcbfe64d599f5d5e7441",
+    "docs/art/calcifier-v2/east-inlet-joint.png": "b61f73e886ce8c0b7a04770eff523b328335340aa789bf22adfcd41dd65f01a0",
+    "docs/art/calcifier-v2/west-inlet-joint.png": "91286cdcce137dcde009620d0e026af5df75ee4c73209ce55282de054835a7a4",
+    "models/island-survival/calcifier/candidates/v2-sockets08/actual-glb-front.png": "f739ad5307312e4b820229cd1d434fb7e4c8ec23a014c4454375e7600489592b",
+    "models/island-survival/calcifier/candidates/v2-sockets08/actual-glb-rear.png": "0614a42fcf05db3c8c0ec9c20ef021ac91de68e90565203df7f026f08f01c02c",
+    "models/island-survival/calcifier/candidates/v2-sockets08/actual-glb-clay.png": "749f37250beac50df902036d746cb6c559b263bc2c917e718337e1aac2227be2",
+    "models/island-survival/calcifier/candidates/v2-sockets08/actual-glb-drive-close.png": "df86e7b1e8498711b3327d781c8926f3d74ffed13332346a32358e4ef49ee331"
+  },
+  "scores_out_of_10": {
+    "actual_recipe_function": 9,
+    "supported_construction": 8,
+    "visible_mechanism": 8,
+    "animated_clearance": 8,
+    "pipe_joints_and_native_alignment": 8,
+    "surfacing": 7,
+    "readability": 7
+  },
+  "limitations": [
+    "Individual owner approval is not claimed. Earlier candidates remain held.",
+    "Small surface/fastener details are approximate at gameplay scale; cosmetic perfection deferred.",
+    "Sampled source/export triangle checks cover 385 poses per artifact; they are not continuous collision or manufacturing-grade tooth-contact simulation. Intentional joint/tooth/belt/material contacts are explicitly recorded.",
+    "South fluid socket is inactive for all current recipes; no invented output test or function.",
+    "No full-user-pack installation or Mod Portal publication."
+  ]
+}

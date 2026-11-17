@@ -1,0 +1,4598 @@
+{
+  "artifact": "models\\island-survival\\calcifier\\candidates\\v2-sockets08\\calcifier-v2.blend",
+  "sha256": "4e17a54ea3f6cd17048535a62919cc79baab86944d7f19afec30b1b61bccbde8",
+  "sampled_poses": 385,
+  "authored_frames": 193,
+  "includes_half_frames": true,
+  "moving_meshes": [
+    "CALCIFIER V2 | driving bevel keyed hub",
+    "CALCIFIER V2 | extended eccentric support boss",
+    "CALCIFIER V2 | forming die punch",
+    "CALCIFIER V2 | forming die punch.001",
+    "CALCIFIER V2 | forming guided piston shaft",
+    "CALCIFIER V2 | forming linkage retained pin",
+    "CALCIFIER V2 | forming linkage retained pin.001",
+    "CALCIFIER V2 | forming pressure platen",
+    "CALCIFIER V2 | graded sieve wire",
+    "CALCIFIER V2 | graded sieve wire.001",
+    "CALCIFIER V2 | graded sieve wire.002",
+    "CALCIFIER V2 | graded sieve wire.003",
+    "CALCIFIER V2 | graded sieve wire.004",
+    "CALCIFIER V2 | graded sieve wire.005",
+    "CALCIFIER V2 | graded sieve wire.006",
+    "CALCIFIER V2 | graded sieve wire.007",
+    "CALCIFIER V2 | graded sieve wire.008",
+    "CALCIFIER V2 | graded sieve wire.009",
+    "CALCIFIER V2 | graded sieve wire.010",
+    "CALCIFIER V2 | offset separator rigid arm segment",
+    "CALCIFIER V2 | offset separator rigid arm segment.001",
+    "CALCIFIER V2 | offset separator rigid arm segment.002",
+    "CALCIFIER V2 | rigid forming crosshead extension",
+    "CALCIFIER V2 | separator spherical retained end",
+    "CALCIFIER V2 | separator spherical retained end.001",
+    "CALCIFIER V2 | sieve crosshead socket",
+    "CALCIFIER V2 | sieve moving edge",
+    "CALCIFIER V2 | sieve moving edge.001",
+    "CALCIFIER V2 | sieve retained eccentric",
+    "CALCIFIER V2 | sieve sliding guide rod",
+    "CALCIFIER V2 | sieve sliding guide rod.001",
+    "CALCIFIER | 31 tooth drive pinion",
+    "CALCIFIER | 62 tooth paddle crown",
+    "CALCIFIER | bored engine crosshead",
+    "CALCIFIER | draining rack slat",
+    "CALCIFIER | draining rack slat.001",
+    "CALCIFIER | draining rack slat.002",
+    "CALCIFIER | draining rack slat.003",
+    "CALCIFIER | draining rack slat.004",
+    "CALCIFIER | draining rack slat.005",
+    "CALCIFIER | drive pulley rim",
+    "CALCIFIER | drive pulley rim.001",
+    "CALCIFIER | driven vertical bevel",
+    "CALCIFIER | driving right angle bevel",
+    "CALCIFIER | engine rigid connecting arm",
+    "CALCIFIER | engine rigid piston",
+    "CALCIFIER | gear shaft keyed hub",
+    "CALCIFIER | gear shaft keyed hub.001",
+    "CALCIFIER | gear supporting spoke",
+    "CALCIFIER | gear supporting spoke.001",
+    "CALCIFIER | gear supporting spoke.002",
+    "CALCIFIER | gear supporting spoke.003",
+    "CALCIFIER | gear supporting spoke.004",
+    "CALCIFIER | gear supporting spoke.005",
+    "CALCIFIER | gear supporting spoke.006",
+    "CALCIFIER | main turning paddle shaft",
+    "CALCIFIER | mineral growth product",
+    "CALCIFIER | mineral growth product.001",
+    "CALCIFIER | mineral growth product.002",
+    "CALCIFIER | mineral growth product.003",
+    "CALCIFIER | mineral growth product.004",
+    "CALCIFIER | mineral growth product.005",
+    "CALCIFIER | mineral growth product.006",
+    "CALCIFIER | mineral growth product.007",
+    "CALCIFIER | mineral growth product.008",
+    "CALCIFIER | mineral stirring blade",
+    "CALCIFIER | mineral stirring blade.001",
+    "CALCIFIER | mineral stirring blade.002",
+    "CALCIFIER | mineral stirring blade.003",
+    "CALCIFIER | mixer load carrying thrust collar",
+    "CALCIFIER | mixer thrust collar retained cross pin",
+    "CALCIFIER | mixing sweep arm",
+    "CALCIFIER | mixing sweep arm.001",
+    "CALCIFIER | mixing sweep arm.002",
+    "CALCIFIER | mixing sweep arm.003",
+    "CALCIFIER | paddle fastening pin",
+    "CALCIFIER | paddle fastening pin.001",
+    "CALCIFIER | paddle fastening pin.002",
+    "CALCIFIER | paddle fastening pin.003",
+    "CALCIFIER | pinion lower thrust collar",
+    "CALCIFIER | pulley central hub",
+    "CALCIFIER | pulley central hub.001",
+    "CALCIFIER | pulley spoke",
+    "CALCIFIER | pulley spoke.001",
+    "CALCIFIER | pulley spoke.002",
+    "CALCIFIER | pulley spoke.003",
+    "CALCIFIER | pulley spoke.004",
+    "CALCIFIER | pulley spoke.005",
+    "CALCIFIER | pulley spoke.006",
+    "CALCIFIER | pulley spoke.007",
+    "CALCIFIER | pulley spoke.008",
+    "CALCIFIER | pulley spoke.009",
+    "CALCIFIER | pulley spoke.010",
+    "CALCIFIER | pulley spoke.011",
+    "CALCIFIER | retained engine crank pin",
+    "CALCIFIER | retained lower axle collar",
+    "CALCIFIER | travelling belt splice",
+    "CALCIFIER | travelling belt splice.001",
+    "CALCIFIER | travelling belt splice.002",
+    "CALCIFIER | turning lower engine axle",
+    "CALCIFIER | turning pinion shaft",
+    "CALCIFIER | upper turning shaft"
+  ],
+  "motion_owners": {
+    "CALCIFIER | REUSED calcifier_base": null,
+    "CALCIFIER | REUSED calcifier_kiln_drum": null,
+    "CALCIFIER | REUSED calcifier_mineral_hopper": null,
+    "CALCIFIER | REUSED calcifier_furnace_door": null,
+    "CALCIFIER | REUSED calcifier_exhaust": null,
+    "CALCIFIER | REUSED calcifier_coal_rake": null,
+    "CALCIFIER | bonded hearth side brick": null,
+    "CALCIFIER | bonded hearth side brick.001": null,
+    "CALCIFIER | bonded hearth side brick.002": null,
+    "CALCIFIER | bonded hearth side brick.003": null,
+    "CALCIFIER | bonded hearth side brick.004": null,
+    "CALCIFIER | bonded hearth side brick.005": null,
+    "CALCIFIER | bonded hearth side brick.006": null,
+    "CALCIFIER | bonded hearth side brick.007": null,
+    "CALCIFIER | bonded hearth side brick.008": null,
+    "CALCIFIER | bonded hearth side brick.009": null,
+    "CALCIFIER | rear hearth brick": null,
+    "CALCIFIER | rear hearth brick.001": null,
+    "CALCIFIER | rear hearth brick.002": null,
+    "CALCIFIER | rear hearth brick.003": null,
+    "CALCIFIER | rear hearth brick.004": null,
+    "CALCIFIER | stoke arch jamb": null,
+    "CALCIFIER | stoke arch jamb.001": null,
+    "CALCIFIER | bonded hearth side brick.010": null,
+    "CALCIFIER | bonded hearth side brick.011": null,
+    "CALCIFIER | bonded hearth side brick.012": null,
+    "CALCIFIER | bonded hearth side brick.013": null,
+    "CALCIFIER | bonded hearth side brick.014": null,
+    "CALCIFIER | bonded hearth side brick.015": null,
+    "CALCIFIER | bonded hearth side brick.016": null,
+    "CALCIFIER | bonded hearth side brick.017": null,
+    "CALCIFIER | bonded hearth side brick.018": null,
+    "CALCIFIER | bonded hearth side brick.019": null,
+    "CALCIFIER | rear hearth brick.005": null,
+    "CALCIFIER | rear hearth brick.006": null,
+    "CALCIFIER | rear hearth brick.007": null,
+    "CALCIFIER | rear hearth brick.008": null,
+    "CALCIFIER | rear hearth brick.009": null,
+    "CALCIFIER | stoke arch jamb.002": null,
+    "CALCIFIER | stoke arch jamb.003": null,
+    "CALCIFIER | bonded hearth side brick.020": null,
+    "CALCIFIER | bonded hearth side brick.021": null,
+    "CALCIFIER | bonded hearth side brick.022": null,
+    "CALCIFIER | bonded hearth side brick.023": null,
+    "CALCIFIER | bonded hearth side brick.024": null,
+    "CALCIFIER | bonded hearth side brick.025": null,
+    "CALCIFIER | bonded hearth side brick.026": null,
+    "CALCIFIER | bonded hearth side brick.027": null,
+    "CALCIFIER | bonded hearth side brick.028": null,
+    "CALCIFIER | bonded hearth side brick.029": null,
+    "CALCIFIER | rear hearth brick.010": null,
+    "CALCIFIER | rear hearth brick.011": null,
+    "CALCIFIER | rear hearth brick.012": null,
+    "CALCIFIER | rear hearth brick.013": null,
+    "CALCIFIER | rear hearth brick.014": null,
+    "CALCIFIER | stoke arch jamb.004": null,
+    "CALCIFIER | stoke arch jamb.005": null,
+    "CALCIFIER | bonded hearth side brick.030": null,
+    "CALCIFIER | bonded hearth side brick.031": null,
+    "CALCIFIER | bonded hearth side brick.032": null,
+    "CALCIFIER | bonded hearth side brick.033": null,
+    "CALCIFIER | bonded hearth side brick.034": null,
+    "CALCIFIER | bonded hearth side brick.035": null,
+    "CALCIFIER | bonded hearth side brick.036": null,
+    "CALCIFIER | bonded hearth side brick.037": null,
+    "CALCIFIER | bonded hearth side brick.038": null,
+    "CALCIFIER | bonded hearth side brick.039": null,
+    "CALCIFIER | rear hearth brick.015": null,
+    "CALCIFIER | rear hearth brick.016": null,
+    "CALCIFIER | rear hearth brick.017": null,
+    "CALCIFIER | rear hearth brick.018": null,
+    "CALCIFIER | rear hearth brick.019": null,
+    "CALCIFIER | stoke arch jamb.006": null,
+    "CALCIFIER | stoke arch jamb.007": null,
+    "CALCIFIER | stoke arch voussoir": null,
+    "CALCIFIER | stoke arch voussoir.001": null,
+    "CALCIFIER | stoke arch voussoir.002": null,
+    "CALCIFIER | stoke arch voussoir.003": null,
+    "CALCIFIER | stoke arch voussoir.004": null,
+    "CALCIFIER | stoke arch voussoir.005": null,
+    "CALCIFIER | stoke arch voussoir.006": null,
+    "CALCIFIER | hearth cap carrying bowl": null,
+    "CALCIFIER | bowl external iron hoop": null,
+    "CALCIFIER | bowl external iron hoop.001": null,
+    "CALCIFIER | bowl external iron hoop.002": null,
+    "CALCIFIER | bowl rolled upper rim": null,
+    "CALCIFIER | wet mineral growth bed": null,
+    "CALCIFIER | wetted mineral surface": null,
+    "CALCIFIER | sealed lower mixer journal": null,
+    "CALCIFIER | flue stone footing": null,
+    "CALCIFIER | bonded flue pedestal": null,
+    "CALCIFIER | bonded flue pedestal.001": null,
+    "CALCIFIER | bonded flue pedestal.002": null,
+    "CALCIFIER | bonded flue pedestal.003": null,
+    "CALCIFIER | bonded flue pedestal.004": null,
+    "CALCIFIER | bonded flue pedestal.005": null,
+    "CALCIFIER | bonded flue pedestal.006": null,
+    "CALCIFIER | bonded flue pedestal.007": null,
+    "CALCIFIER | bonded flue pedestal.008": null,
+    "CALCIFIER | bonded flue pedestal.009": null,
+    "CALCIFIER | bonded flue pedestal.010": null,
+    "CALCIFIER | bonded flue pedestal.011": null,
+    "CALCIFIER | bonded flue pedestal.012": null,
+    "CALCIFIER | bonded flue pedestal.013": null,
+    "CALCIFIER | bonded flue pedestal.014": null,
+    "CALCIFIER | bonded flue pedestal.015": null,
+    "CALCIFIER | bonded flue pedestal.016": null,
+    "CALCIFIER | bonded flue pedestal.017": null,
+    "CALCIFIER | bonded flue pedestal.018": null,
+    "CALCIFIER | bonded flue pedestal.019": null,
+    "CALCIFIER | bonded flue pedestal.020": null,
+    "CALCIFIER | bonded flue pedestal.021": null,
+    "CALCIFIER | bonded flue pedestal.022": null,
+    "CALCIFIER | bonded flue pedestal.023": null,
+    "CALCIFIER | bonded flue pedestal.024": null,
+    "CALCIFIER | bonded flue pedestal.025": null,
+    "CALCIFIER | bonded flue pedestal.026": null,
+    "CALCIFIER | bonded flue pedestal.027": null,
+    "CALCIFIER | bonded flue pedestal.028": null,
+    "CALCIFIER | bonded flue pedestal.029": null,
+    "CALCIFIER | bonded flue pedestal.030": null,
+    "CALCIFIER | bonded flue pedestal.031": null,
+    "CALCIFIER | bonded flue pedestal.032": null,
+    "CALCIFIER | bonded flue pedestal.033": null,
+    "CALCIFIER | bonded flue pedestal.034": null,
+    "CALCIFIER | bonded flue pedestal.035": null,
+    "CALCIFIER | bonded flue pedestal.036": null,
+    "CALCIFIER | bonded flue pedestal.037": null,
+    "CALCIFIER | bonded flue pedestal.038": null,
+    "CALCIFIER | bonded flue pedestal.039": null,
+    "CALCIFIER | bonded flue pedestal.040": null,
+    "CALCIFIER | bonded flue pedestal.041": null,
+    "CALCIFIER | bonded flue pedestal.042": null,
+    "CALCIFIER | bonded flue pedestal.043": null,
+    "CALCIFIER | bonded flue pedestal.044": null,
+    "CALCIFIER | bonded flue pedestal.045": null,
+    "CALCIFIER | bonded flue pedestal.046": null,
+    "CALCIFIER | bonded flue pedestal.047": null,
+    "CALCIFIER | flue supported lower collar": null,
+    "CALCIFIER | flue open mouth": null,
+    "CALCIFIER | hearth combustion passage": null,
+    "CALCIFIER | timber drive frame post": null,
+    "CALCIFIER | post anchored iron shoe": null,
+    "CALCIFIER | frame foot anchor": null,
+    "CALCIFIER | frame foot anchor.001": null,
+    "CALCIFIER | timber drive frame post.001": null,
+    "CALCIFIER | post anchored iron shoe.001": null,
+    "CALCIFIER | frame foot anchor.002": null,
+    "CALCIFIER | frame foot anchor.003": null,
+    "CALCIFIER | upper side frame beam": null,
+    "CALCIFIER | rear frame diagonal": null,
+    "CALCIFIER | timber drive frame post.002": null,
+    "CALCIFIER | post anchored iron shoe.002": null,
+    "CALCIFIER | frame foot anchor.004": null,
+    "CALCIFIER | frame foot anchor.005": null,
+    "CALCIFIER | timber drive frame post.003": null,
+    "CALCIFIER | post anchored iron shoe.003": null,
+    "CALCIFIER | frame foot anchor.006": null,
+    "CALCIFIER | frame foot anchor.007": null,
+    "CALCIFIER | upper side frame beam.001": null,
+    "CALCIFIER | rear frame diagonal.001": null,
+    "CALCIFIER | mixer journal crossbeam": null,
+    "CALCIFIER | upper vertical shaft bronze bush": null,
+    "CALCIFIER | upper vertical shaft bronze bush.001": null,
+    "CALCIFIER | frame iron cheek strap": null,
+    "CALCIFIER | crossbeam retaining bolt": null,
+    "CALCIFIER | crossbeam retaining bolt.001": null,
+    "CALCIFIER | frame iron cheek strap.001": null,
+    "CALCIFIER | crossbeam retaining bolt.002": null,
+    "CALCIFIER | crossbeam retaining bolt.003": null,
+    "CALCIFIER | rolled open feed hopper rim": null,
+    "CALCIFIER | feed hopper neck union": null,
+    "CALCIFIER | hopper neck bracket": null,
+    "CALCIFIER | hopper rim bracket": null,
+    "CALCIFIER | mineral feed downspout": null,
+    "CALCIFIER | main turning paddle shaft": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | mixing sweep arm": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | mineral stirring blade": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | paddle fastening pin": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | mixing sweep arm.001": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | mineral stirring blade.001": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | paddle fastening pin.001": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | mixing sweep arm.002": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | mineral stirring blade.002": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | paddle fastening pin.002": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | mixing sweep arm.003": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | mineral stirring blade.003": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | paddle fastening pin.003": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | drive pulley rim": "CALCIFIER | engine crank flywheel",
+    "CALCIFIER | pulley central hub": "CALCIFIER | engine crank flywheel",
+    "CALCIFIER | pulley spoke": "CALCIFIER | engine crank flywheel",
+    "CALCIFIER | pulley spoke.001": "CALCIFIER | engine crank flywheel",
+    "CALCIFIER | pulley spoke.002": "CALCIFIER | engine crank flywheel",
+    "CALCIFIER | pulley spoke.003": "CALCIFIER | engine crank flywheel",
+    "CALCIFIER | pulley spoke.004": "CALCIFIER | engine crank flywheel",
+    "CALCIFIER | pulley spoke.005": "CALCIFIER | engine crank flywheel",
+    "CALCIFIER | drive pulley rim.001": "CALCIFIER | upper belt pulley",
+    "CALCIFIER | pulley central hub.001": "CALCIFIER | upper belt pulley",
+    "CALCIFIER | pulley spoke.006": "CALCIFIER | upper belt pulley",
+    "CALCIFIER | pulley spoke.007": "CALCIFIER | upper belt pulley",
+    "CALCIFIER | pulley spoke.008": "CALCIFIER | upper belt pulley",
+    "CALCIFIER | pulley spoke.009": "CALCIFIER | upper belt pulley",
+    "CALCIFIER | pulley spoke.010": "CALCIFIER | upper belt pulley",
+    "CALCIFIER | pulley spoke.011": "CALCIFIER | upper belt pulley",
+    "CALCIFIER | retained engine crank pin": "CALCIFIER | engine crank flywheel",
+    "CALCIFIER | fixed engine crosshead rail": null,
+    "CALCIFIER | fixed engine crosshead rail.001": null,
+    "CALCIFIER | engine rigid piston": "CALCIFIER | engine rigid piston",
+    "CALCIFIER | engine rigid connecting arm": "CALCIFIER | engine rigid connecting arm",
+    "CALCIFIER | bored engine cylinder": null,
+    "CALCIFIER | packed engine piston gland": null,
+    "CALCIFIER | engine stone load block": null,
+    "CALCIFIER | engine guide crossmember": null,
+    "CALCIFIER | engine guide crossmember.001": null,
+    "CALCIFIER | engine guide crossmember.002": null,
+    "CALCIFIER | engine guide upright": null,
+    "CALCIFIER | engine guide upright.001": null,
+    "CALCIFIER | upper pulley journal pier": null,
+    "CALCIFIER | upper pulley bored journal": null,
+    "CALCIFIER | upper pulley journal pier.001": null,
+    "CALCIFIER | upper pulley bored journal.001": null,
+    "CALCIFIER | upper turning shaft": "CALCIFIER | upper belt pulley",
+    "CALCIFIER | driving right angle bevel": "CALCIFIER | driving 18 tooth miter",
+    "CALCIFIER | driven vertical bevel": "CALCIFIER | driven 18 tooth miter",
+    "CALCIFIER | turning pinion shaft": "CALCIFIER | vertical 31 tooth pinion",
+    "CALCIFIER | lower pinion stone pedestal": null,
+    "CALCIFIER | lower pinion shaft journal": null,
+    "CALCIFIER | 62 tooth paddle crown": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | 31 tooth drive pinion": "CALCIFIER | vertical 31 tooth pinion",
+    "CALCIFIER | gear shaft keyed hub": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | gear supporting spoke": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | gear supporting spoke.001": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | gear supporting spoke.002": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | gear supporting spoke.003": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | gear shaft keyed hub.001": "CALCIFIER | vertical 31 tooth pinion",
+    "CALCIFIER | gear supporting spoke.004": "CALCIFIER | vertical 31 tooth pinion",
+    "CALCIFIER | gear supporting spoke.005": "CALCIFIER | vertical 31 tooth pinion",
+    "CALCIFIER | gear supporting spoke.006": "CALCIFIER | vertical 31 tooth pinion",
+    "CALCIFIER | continuous closed hemp belt": null,
+    "CALCIFIER | travelling belt splice": "CALCIFIER | travelling belt splice",
+    "CALCIFIER | travelling belt splice.001": "CALCIFIER | travelling belt splice.001",
+    "CALCIFIER | travelling belt splice.002": "CALCIFIER | travelling belt splice.002",
+    "CALCIFIER | draining rack side rail": null,
+    "CALCIFIER | draining rack side rail.001": null,
+    "CALCIFIER | draining rack slat": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | draining rack slat.001": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | draining rack slat.002": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | draining rack slat.003": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | draining rack slat.004": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | draining rack slat.005": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | rack load bearing leg": null,
+    "CALCIFIER | rack load bearing leg.001": null,
+    "CALCIFIER | rack load bearing leg.002": null,
+    "CALCIFIER | rack load bearing leg.003": null,
+    "CALCIFIER | mineral growth product": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | mineral growth product.001": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | mineral growth product.002": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | mineral growth product.003": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | mineral growth product.004": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | mineral growth product.005": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | mineral growth product.006": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | mineral growth product.007": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | mineral growth product.008": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER | coal tray retaining rail": null,
+    "CALCIFIER | coal tray retaining rail.001": null,
+    "CALCIFIER | stoke rake handle": null,
+    "CALCIFIER | stoke rake iron head": null,
+    "CALCIFIER | bored engine crosshead": "CALCIFIER | guided engine crosshead",
+    "CALCIFIER | outer guide standoff": null,
+    "CALCIFIER | outer guide standoff.001": null,
+    "CALCIFIER | outer guide standoff.002": null,
+    "CALCIFIER | outer guide standoff.003": null,
+    "CALCIFIER | mixer load carrying thrust collar": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | mixer thrust collar retained cross pin": "CALCIFIER | mineral paddle gear and shaft",
+    "CALCIFIER | pinion lower thrust collar": "CALCIFIER | vertical 31 tooth pinion",
+    "CALCIFIER | lower axle load bridge": null,
+    "CALCIFIER | lower axle bearing block": null,
+    "CALCIFIER | lower axle fitted bronze bush": null,
+    "CALCIFIER | turning lower engine axle": "CALCIFIER | engine crank flywheel",
+    "CALCIFIER | retained lower axle collar": "CALCIFIER | engine crank flywheel",
+    "CALCIFIER | bearing bridge fastener": null,
+    "CALCIFIER | bearing bridge fastener.001": null,
+    "CALCIFIER V2 | sieve guide bearing block": null,
+    "CALCIFIER V2 | sieve guide bearing block.001": null,
+    "CALCIFIER V2 | sieve sliding guide rod": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | sieve guide bearing block.002": null,
+    "CALCIFIER V2 | sieve guide bearing block.003": null,
+    "CALCIFIER V2 | sieve sliding guide rod.001": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | sieve moving edge": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | sieve moving edge.001": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | graded sieve wire": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | graded sieve wire.001": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | graded sieve wire.002": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | graded sieve wire.003": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | graded sieve wire.004": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | graded sieve wire.005": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | graded sieve wire.006": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | graded sieve wire.007": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | graded sieve wire.008": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | graded sieve wire.009": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | graded sieve wire.010": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | settling chest low end wall": null,
+    "CALCIFIER V2 | settling chest low end wall.001": null,
+    "CALCIFIER V2 | settling chest low side wall": null,
+    "CALCIFIER V2 | settling chest low side wall.001": null,
+    "CALCIFIER V2 | settling sump floor": null,
+    "CALCIFIER V2 | forming station upright": null,
+    "CALCIFIER V2 | forming upright shoe": null,
+    "CALCIFIER V2 | forming foot anchor": null,
+    "CALCIFIER V2 | forming foot anchor.001": null,
+    "CALCIFIER V2 | forming bed support": null,
+    "CALCIFIER V2 | forming station upright.001": null,
+    "CALCIFIER V2 | forming upright shoe.001": null,
+    "CALCIFIER V2 | forming foot anchor.002": null,
+    "CALCIFIER V2 | forming foot anchor.003": null,
+    "CALCIFIER V2 | forming bed support.001": null,
+    "CALCIFIER V2 | wet forming chest base": null,
+    "CALCIFIER V2 | forming chest side": null,
+    "CALCIFIER V2 | forming chest side.001": null,
+    "CALCIFIER V2 | forming chest end": null,
+    "CALCIFIER V2 | forming chest end.001": null,
+    "CALCIFIER V2 | two cavity bioceramic forming die": null,
+    "CALCIFIER V2 | forming piston guide beam": null,
+    "CALCIFIER V2 | forming ram packed bronze guide": null,
+    "CALCIFIER V2 | forming guide cheek strap": null,
+    "CALCIFIER V2 | forming guide fixing": null,
+    "CALCIFIER V2 | forming guide fixing.001": null,
+    "CALCIFIER V2 | forming guide cheek strap.001": null,
+    "CALCIFIER V2 | forming guide fixing.002": null,
+    "CALCIFIER V2 | forming guide fixing.003": null,
+    "CALCIFIER V2 | rigid forming crosshead extension": "CALCIFIER | guided engine crosshead",
+    "CALCIFIER V2 | forming linkage retained pin": "CALCIFIER | guided engine crosshead",
+    "CALCIFIER V2 | forming linkage retained pin.001": "CALCIFIER | guided engine crosshead",
+    "CALCIFIER V2 | forming pressure platen": "CALCIFIER | guided engine crosshead",
+    "CALCIFIER V2 | forming guided piston shaft": "CALCIFIER | guided engine crosshead",
+    "CALCIFIER V2 | forming die punch": "CALCIFIER | guided engine crosshead",
+    "CALCIFIER V2 | forming die punch.001": "CALCIFIER | guided engine crosshead",
+    "CALCIFIER V2 | sump bolted bulkhead": null,
+    "CALCIFIER V2 | local isolation cock": null,
+    "CALCIFIER V2 | local stopcock stem": null,
+    "CALCIFIER V2 | local stopcock handle": null,
+    "CALCIFIER V2 | local isolation cock.001": null,
+    "CALCIFIER V2 | local stopcock stem.001": null,
+    "CALCIFIER V2 | local stopcock handle.001": null,
+    "CALCIFIER V2 | return tube masonry saddle": null,
+    "CALCIFIER V2 | return tube retaining band": null,
+    "CALCIFIER V2 | return tube masonry saddle.001": null,
+    "CALCIFIER V2 | return tube retaining band.001": null,
+    "CALCIFIER V2 | upper guide rail offset bracket": null,
+    "CALCIFIER V2 | sieve retained eccentric": "CALCIFIER | upper belt pulley",
+    "CALCIFIER V2 | extended eccentric support boss": "CALCIFIER | upper belt pulley",
+    "CALCIFIER V2 | offset separator rigid arm segment": "CALCIFIER V2 | rigid offset separator arm",
+    "CALCIFIER V2 | offset separator rigid arm segment.001": "CALCIFIER V2 | rigid offset separator arm",
+    "CALCIFIER V2 | offset separator rigid arm segment.002": "CALCIFIER V2 | rigid offset separator arm",
+    "CALCIFIER V2 | separator spherical retained end": "CALCIFIER V2 | rigid offset separator arm",
+    "CALCIFIER V2 | separator spherical retained end.001": "CALCIFIER V2 | rigid offset separator arm",
+    "CALCIFIER V2 | sieve crosshead socket": "CALCIFIER V2 | guided scum sediment sieve carriage",
+    "CALCIFIER V2 | load bearing die pad": null,
+    "CALCIFIER V2 | supported preform loading tray": null,
+    "CALCIFIER V2 | preform transfer lip": null,
+    "CALCIFIER V2 | visible bioceramic preform": null,
+    "CALCIFIER V2 | preform tray brace": null,
+    "CALCIFIER V2 | visible bioceramic preform.001": null,
+    "CALCIFIER V2 | preform tray brace.001": null,
+    "CALCIFIER V2 | driving bevel keyed hub": "CALCIFIER | driving 18 tooth miter",
+    "CALCIFIER V2 | external distribution valve chest": null,
+    "CALCIFIER V2 | fixed north inlet": null,
+    "CALCIFIER V2 | left mineral wetting lance": null,
+    "CALCIFIER V2 | left mineral wetting lance hex union": null,
+    "CALCIFIER V2 | left mineral wetting lance ferrule": null,
+    "CALCIFIER V2 | left mineral wetting lance packing": null,
+    "CALCIFIER V2 | left mineral wetting lance ferrule.001": null,
+    "CALCIFIER V2 | left mineral wetting lance packing.001": null,
+    "CALCIFIER V2 | left mineral wetting lance hex union.001": null,
+    "CALCIFIER V2 | left mineral wetting lance ferrule.002": null,
+    "CALCIFIER V2 | left mineral wetting lance packing.002": null,
+    "CALCIFIER V2 | left mineral wetting lance ferrule.003": null,
+    "CALCIFIER V2 | left mineral wetting lance packing.003": null,
+    "CALCIFIER V2 | right mineral wetting lance": null,
+    "CALCIFIER V2 | right mineral wetting lance hex union": null,
+    "CALCIFIER V2 | right mineral wetting lance ferrule": null,
+    "CALCIFIER V2 | right mineral wetting lance packing": null,
+    "CALCIFIER V2 | right mineral wetting lance ferrule.001": null,
+    "CALCIFIER V2 | right mineral wetting lance packing.001": null,
+    "CALCIFIER V2 | right mineral wetting lance hex union.001": null,
+    "CALCIFIER V2 | right mineral wetting lance ferrule.002": null,
+    "CALCIFIER V2 | right mineral wetting lance packing.002": null,
+    "CALCIFIER V2 | right mineral wetting lance ferrule.003": null,
+    "CALCIFIER V2 | right mineral wetting lance packing.003": null,
+    "CALCIFIER V2 | supported engine supply": null,
+    "CALCIFIER V2 | supported engine supply hex union": null,
+    "CALCIFIER V2 | supported engine supply ferrule": null,
+    "CALCIFIER V2 | supported engine supply packing": null,
+    "CALCIFIER V2 | supported engine supply ferrule.001": null,
+    "CALCIFIER V2 | supported engine supply packing.001": null,
+    "CALCIFIER V2 | supported engine supply hex union.001": null,
+    "CALCIFIER V2 | supported engine supply ferrule.002": null,
+    "CALCIFIER V2 | supported engine supply packing.002": null,
+    "CALCIFIER V2 | supported engine supply ferrule.003": null,
+    "CALCIFIER V2 | supported engine supply packing.003": null,
+    "CALCIFIER V2 | external engine return": null,
+    "CALCIFIER V2 | external engine return hex union": null,
+    "CALCIFIER V2 | external engine return ferrule": null,
+    "CALCIFIER V2 | external engine return packing": null,
+    "CALCIFIER V2 | external engine return ferrule.001": null,
+    "CALCIFIER V2 | external engine return packing.001": null,
+    "CALCIFIER V2 | external engine return hex union.001": null,
+    "CALCIFIER V2 | external engine return ferrule.002": null,
+    "CALCIFIER V2 | external engine return packing.002": null,
+    "CALCIFIER V2 | external engine return ferrule.003": null,
+    "CALCIFIER V2 | external engine return packing.003": null,
+    "CALCIFIER V2 | front mineral discharge": null,
+    "CALCIFIER V2 | discharge outlet hex union": null,
+    "CALCIFIER V2 | discharge outlet ferrule": null,
+    "CALCIFIER V2 | discharge outlet packing": null,
+    "CALCIFIER V2 | discharge outlet ferrule.001": null,
+    "CALCIFIER V2 | discharge outlet packing.001": null,
+    "CALCIFIER V2 | conditioned die feed": null,
+    "CALCIFIER V2 | conditioned die feed hex union": null,
+    "CALCIFIER V2 | conditioned die feed ferrule": null,
+    "CALCIFIER V2 | conditioned die feed packing": null,
+    "CALCIFIER V2 | conditioned die feed ferrule.001": null,
+    "CALCIFIER V2 | conditioned die feed packing.001": null,
+    "CALCIFIER V2 | conditioned die feed hex union.001": null,
+    "CALCIFIER V2 | conditioned die feed ferrule.002": null,
+    "CALCIFIER V2 | conditioned die feed packing.002": null,
+    "CALCIFIER V2 | conditioned die feed ferrule.003": null,
+    "CALCIFIER V2 | conditioned die feed packing.003": null,
+    "CALCIFIER V2 | die side inlet": null,
+    "CALCIFIER V2 | settling sump fitted return": null,
+    "CALCIFIER V2 | distribution valve bracket": null,
+    "CALCIFIER V2 | valve chest support strut": null,
+    "CALCIFIER V2 | blanked original die tap": null,
+    "CALCIFIER V2 | full bore north inlet reducer": null,
+    "CALCIFIER V2 | full size north inlet flange": null,
+    "CALCIFIER V2 | full size north inlet packing": null,
+    "CALCIFIER V2 | north inlet bolt washer": null,
+    "CALCIFIER V2 | north inlet retained hex bolt": null,
+    "CALCIFIER V2 | north inlet bolt washer.001": null,
+    "CALCIFIER V2 | north inlet retained hex bolt.001": null,
+    "CALCIFIER V2 | north inlet bolt washer.002": null,
+    "CALCIFIER V2 | north inlet retained hex bolt.002": null,
+    "CALCIFIER V2 | north inlet bolt washer.003": null,
+    "CALCIFIER V2 | north inlet retained hex bolt.003": null,
+    "CALCIFIER V2 | north inlet bolt washer.004": null,
+    "CALCIFIER V2 | north inlet retained hex bolt.004": null,
+    "CALCIFIER V2 | north inlet bolt washer.005": null,
+    "CALCIFIER V2 | north inlet retained hex bolt.005": null,
+    "CALCIFIER V2 | north inlet bolt washer.006": null,
+    "CALCIFIER V2 | north inlet retained hex bolt.006": null,
+    "CALCIFIER V2 | north inlet cast mounting foot": null,
+    "CALCIFIER V2 | full bore capped unused south outlet reducer": null,
+    "CALCIFIER V2 | full size capped unused south outlet flange": null,
+    "CALCIFIER V2 | full size capped unused south outlet packing": null,
+    "CALCIFIER V2 | capped unused south outlet bolt washer": null,
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt": null,
+    "CALCIFIER V2 | capped unused south outlet bolt washer.001": null,
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.001": null,
+    "CALCIFIER V2 | capped unused south outlet bolt washer.002": null,
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.002": null,
+    "CALCIFIER V2 | capped unused south outlet bolt washer.003": null,
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.003": null,
+    "CALCIFIER V2 | capped unused south outlet bolt washer.004": null,
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.004": null,
+    "CALCIFIER V2 | capped unused south outlet bolt washer.005": null,
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.005": null,
+    "CALCIFIER V2 | capped unused south outlet bolt washer.006": null,
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.006": null,
+    "CALCIFIER V2 | capped unused south outlet cast mounting foot": null,
+    "CALCIFIER V2 | removable unused outlet blanking plate": null
+  },
+  "fixed_mesh_count": 368,
+  "pairs": {
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | bonded hearth side brick.031": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 23,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | bonded hearth side brick.032": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 31,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | bonded hearth side brick.033": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 22,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | bonded hearth side brick.036": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 20,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | bonded hearth side brick.037": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | bonded hearth side brick.038": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 23,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | rear hearth brick.016": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 29,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | rear hearth brick.017": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | rear hearth brick.018": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 26,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | stoke arch jamb.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 21,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | stoke arch jamb.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 20,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | stoke arch voussoir.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | stoke arch voussoir.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 93,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | stoke arch voussoir.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | hearth cap carrying bowl": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 85,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | bowl external iron hoop": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 290,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | bowl external iron hoop.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 264,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | bowl external iron hoop.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 377,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | bowl rolled upper rim": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 539,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_kiln_drum <> CALCIFIER | mineral feed downspout": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 294,
+      "moving": false
+    },
+    "CALCIFIER V2 | return tube masonry saddle.001 <> CALCIFIER | REUSED calcifier_kiln_drum": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_mineral_hopper <> CALCIFIER | rolled open feed hopper rim": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 335,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_mineral_hopper <> CALCIFIER | feed hopper neck union": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 208,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_mineral_hopper <> CALCIFIER | hopper rim bracket": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 77,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_mineral_hopper <> CALCIFIER | mineral feed downspout": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 196,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_exhaust <> CALCIFIER | bonded flue pedestal.044": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 119,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_exhaust <> CALCIFIER | bonded flue pedestal.045": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 115,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_exhaust <> CALCIFIER | bonded flue pedestal.046": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 84,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_exhaust <> CALCIFIER | bonded flue pedestal.047": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 87,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_exhaust <> CALCIFIER | flue supported lower collar": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 296,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_exhaust <> CALCIFIER | flue open mouth": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 296,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_coal_rake <> CALCIFIER | coal tray retaining rail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "CALCIFIER | REUSED calcifier_coal_rake <> CALCIFIER | coal tray retaining rail.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick <> CALCIFIER | stoke arch jamb": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.004 <> CALCIFIER | rear hearth brick": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.005 <> CALCIFIER | stoke arch jamb.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.009 <> CALCIFIER | rear hearth brick.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 63,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.010 <> CALCIFIER | stoke arch jamb.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.014 <> CALCIFIER | rear hearth brick.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.015 <> CALCIFIER | stoke arch jamb.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.019 <> CALCIFIER | rear hearth brick.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 63,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.019 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 57,
+      "moving": false
+    },
+    "CALCIFIER | stoke arch jamb.002 <> CALCIFIER | stoke arch voussoir.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "CALCIFIER | stoke arch jamb.003 <> CALCIFIER | stoke arch voussoir": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.020 <> CALCIFIER | stoke arch jamb.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.024 <> CALCIFIER | rear hearth brick.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 63,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.025 <> CALCIFIER | stoke arch jamb.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.029 <> CALCIFIER | rear hearth brick.014": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.029 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 239,
+      "moving": false
+    },
+    "CALCIFIER | hearth combustion passage <> CALCIFIER | rear hearth brick.014": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 94,
+      "moving": false
+    },
+    "CALCIFIER | stoke arch jamb.004 <> CALCIFIER | stoke arch voussoir.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "CALCIFIER | stoke arch jamb.005 <> CALCIFIER | stoke arch voussoir": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.030 <> CALCIFIER | stoke arch jamb.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 61,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.030 <> CALCIFIER | hearth cap carrying bowl": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "CALCIFIER V2 | return tube masonry saddle <> CALCIFIER | bonded hearth side brick.030": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.031 <> CALCIFIER | hearth cap carrying bowl": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.032 <> CALCIFIER | hearth cap carrying bowl": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.033 <> CALCIFIER | hearth cap carrying bowl": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.034 <> CALCIFIER | rear hearth brick.015": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 63,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.034 <> CALCIFIER | hearth cap carrying bowl": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.035 <> CALCIFIER | stoke arch jamb.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 61,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.035 <> CALCIFIER | hearth cap carrying bowl": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.036 <> CALCIFIER | hearth cap carrying bowl": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.037 <> CALCIFIER | hearth cap carrying bowl": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.038 <> CALCIFIER | hearth cap carrying bowl": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.039 <> CALCIFIER | rear hearth brick.019": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.039 <> CALCIFIER | hearth cap carrying bowl": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "CALCIFIER | bonded hearth side brick.039 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 57,
+      "moving": false
+    },
+    "CALCIFIER | hearth cap carrying bowl <> CALCIFIER | rear hearth brick.015": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "CALCIFIER | hearth cap carrying bowl <> CALCIFIER | rear hearth brick.016": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "CALCIFIER | hearth cap carrying bowl <> CALCIFIER | rear hearth brick.017": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "CALCIFIER | hearth cap carrying bowl <> CALCIFIER | rear hearth brick.018": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "CALCIFIER | hearth cap carrying bowl <> CALCIFIER | rear hearth brick.019": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 36,
+      "moving": false
+    },
+    "CALCIFIER | hearth cap carrying bowl <> CALCIFIER | stoke arch jamb.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "CALCIFIER | hearth cap carrying bowl <> CALCIFIER | stoke arch jamb.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "CALCIFIER | stoke arch voussoir <> CALCIFIER | stoke arch voussoir.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 58,
+      "moving": false
+    },
+    "CALCIFIER | stoke arch voussoir.001 <> CALCIFIER | stoke arch voussoir.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 59,
+      "moving": false
+    },
+    "CALCIFIER | stoke arch voussoir.002 <> CALCIFIER | stoke arch voussoir.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 59,
+      "moving": false
+    },
+    "CALCIFIER | hearth cap carrying bowl <> CALCIFIER | stoke arch voussoir.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "CALCIFIER | stoke arch voussoir.003 <> CALCIFIER | stoke arch voussoir.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 59,
+      "moving": false
+    },
+    "CALCIFIER | hearth cap carrying bowl <> CALCIFIER | stoke arch voussoir.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "CALCIFIER | stoke arch voussoir.004 <> CALCIFIER | stoke arch voussoir.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "CALCIFIER | hearth cap carrying bowl <> CALCIFIER | stoke arch voussoir.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "CALCIFIER | stoke arch voussoir.005 <> CALCIFIER | stoke arch voussoir.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 58,
+      "moving": false
+    },
+    "CALCIFIER | bowl rolled upper rim <> CALCIFIER | mineral feed downspout": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 88,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal <> CALCIFIER | flue stone footing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.001 <> CALCIFIER | flue stone footing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.002 <> CALCIFIER | flue stone footing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.003 <> CALCIFIER | flue stone footing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 130,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.002 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 87,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.004 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 258,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.005 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 106,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.006 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 170,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.007 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 111,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.008 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.009 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 154,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.010 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 17,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.011 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 159,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.012 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 30,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.013 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 88,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.014 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 30,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.015 <> CALCIFIER | hearth combustion passage": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 94,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.044 <> CALCIFIER | flue supported lower collar": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 102,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.045 <> CALCIFIER | flue supported lower collar": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 102,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.046 <> CALCIFIER | flue supported lower collar": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 78,
+      "moving": false
+    },
+    "CALCIFIER | bonded flue pedestal.047 <> CALCIFIER | flue supported lower collar": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 78,
+      "moving": false
+    },
+    "CALCIFIER | post anchored iron shoe <> CALCIFIER | timber drive frame post": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "CALCIFIER | frame foot anchor <> CALCIFIER | timber drive frame post": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 11,
+      "moving": false
+    },
+    "CALCIFIER | frame foot anchor.001 <> CALCIFIER | timber drive frame post": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 11,
+      "moving": false
+    },
+    "CALCIFIER | timber drive frame post <> CALCIFIER | upper side frame beam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 55,
+      "moving": false
+    },
+    "CALCIFIER | rear frame diagonal <> CALCIFIER | timber drive frame post": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "CALCIFIER | post anchored iron shoe <> CALCIFIER | rear frame diagonal": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 33,
+      "moving": false
+    },
+    "CALCIFIER | frame foot anchor.001 <> CALCIFIER | rear frame diagonal": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "CALCIFIER | post anchored iron shoe.001 <> CALCIFIER | timber drive frame post.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "CALCIFIER | frame foot anchor.002 <> CALCIFIER | timber drive frame post.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 11,
+      "moving": false
+    },
+    "CALCIFIER | frame foot anchor.003 <> CALCIFIER | timber drive frame post.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 11,
+      "moving": false
+    },
+    "CALCIFIER | timber drive frame post.001 <> CALCIFIER | upper side frame beam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 55,
+      "moving": false
+    },
+    "CALCIFIER | rear frame diagonal <> CALCIFIER | timber drive frame post.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "CALCIFIER | hopper neck bracket <> CALCIFIER | timber drive frame post.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "CALCIFIER | hopper rim bracket <> CALCIFIER | timber drive frame post.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 55,
+      "moving": false
+    },
+    "CALCIFIER | mixer journal crossbeam <> CALCIFIER | upper side frame beam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 74,
+      "moving": false
+    },
+    "CALCIFIER | frame iron cheek strap <> CALCIFIER | upper side frame beam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "CALCIFIER | hopper rim bracket <> CALCIFIER | upper side frame beam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 46,
+      "moving": false
+    },
+    "CALCIFIER | post anchored iron shoe.002 <> CALCIFIER | timber drive frame post.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "CALCIFIER | frame foot anchor.004 <> CALCIFIER | timber drive frame post.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 11,
+      "moving": false
+    },
+    "CALCIFIER | frame foot anchor.005 <> CALCIFIER | timber drive frame post.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 11,
+      "moving": false
+    },
+    "CALCIFIER | timber drive frame post.002 <> CALCIFIER | upper side frame beam.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 55,
+      "moving": false
+    },
+    "CALCIFIER | rear frame diagonal.001 <> CALCIFIER | timber drive frame post.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "CALCIFIER | engine stone load block <> CALCIFIER | timber drive frame post.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 39,
+      "moving": false
+    },
+    "CALCIFIER | post anchored iron shoe.002 <> CALCIFIER | rear frame diagonal.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 33,
+      "moving": false
+    },
+    "CALCIFIER | engine stone load block <> CALCIFIER | post anchored iron shoe.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "CALCIFIER | frame foot anchor.005 <> CALCIFIER | rear frame diagonal.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "CALCIFIER | engine stone load block <> CALCIFIER | frame foot anchor.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 25,
+      "moving": false
+    },
+    "CALCIFIER | post anchored iron shoe.003 <> CALCIFIER | timber drive frame post.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "CALCIFIER | frame foot anchor.006 <> CALCIFIER | timber drive frame post.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 11,
+      "moving": false
+    },
+    "CALCIFIER | frame foot anchor.007 <> CALCIFIER | timber drive frame post.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 11,
+      "moving": false
+    },
+    "CALCIFIER | timber drive frame post.003 <> CALCIFIER | upper side frame beam.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 55,
+      "moving": false
+    },
+    "CALCIFIER | rear frame diagonal.001 <> CALCIFIER | timber drive frame post.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "CALCIFIER V2 | valve chest support strut <> CALCIFIER | timber drive frame post.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "CALCIFIER | mixer journal crossbeam <> CALCIFIER | upper side frame beam.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 76,
+      "moving": false
+    },
+    "CALCIFIER | frame iron cheek strap.001 <> CALCIFIER | upper side frame beam.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "CALCIFIER | engine stone load block <> CALCIFIER | rear frame diagonal.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember.001 <> CALCIFIER | rear frame diagonal.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "CALCIFIER | engine guide upright.001 <> CALCIFIER | rear frame diagonal.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "CALCIFIER | mixer journal crossbeam <> CALCIFIER | upper vertical shaft bronze bush": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 667,
+      "moving": false
+    },
+    "CALCIFIER | mixer journal crossbeam <> CALCIFIER | upper vertical shaft bronze bush.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 671,
+      "moving": false
+    },
+    "CALCIFIER | crossbeam retaining bolt <> CALCIFIER | frame iron cheek strap": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "CALCIFIER | crossbeam retaining bolt.001 <> CALCIFIER | frame iron cheek strap": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "CALCIFIER | crossbeam retaining bolt.002 <> CALCIFIER | frame iron cheek strap.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "CALCIFIER | crossbeam retaining bolt.003 <> CALCIFIER | frame iron cheek strap.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "CALCIFIER | feed hopper neck union <> CALCIFIER | hopper neck bracket": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 126,
+      "moving": false
+    },
+    "CALCIFIER | feed hopper neck union <> CALCIFIER | mineral feed downspout": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 367,
+      "moving": false
+    },
+    "CALCIFIER | hopper neck bracket <> CALCIFIER | mineral feed downspout": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 126,
+      "moving": false
+    },
+    "CALCIFIER | fixed engine crosshead rail <> CALCIFIER | outer guide standoff": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 96,
+      "moving": false
+    },
+    "CALCIFIER | fixed engine crosshead rail <> CALCIFIER | outer guide standoff.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 192,
+      "moving": false
+    },
+    "CALCIFIER V2 | upper guide rail offset bracket <> CALCIFIER | fixed engine crosshead rail": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "CALCIFIER | fixed engine crosshead rail.001 <> CALCIFIER | outer guide standoff.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 96,
+      "moving": false
+    },
+    "CALCIFIER | fixed engine crosshead rail.001 <> CALCIFIER | outer guide standoff.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 96,
+      "moving": false
+    },
+    "CALCIFIER | bored engine cylinder <> CALCIFIER | packed engine piston gland": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 770,
+      "moving": false
+    },
+    "CALCIFIER | bored engine cylinder <> CALCIFIER | engine stone load block": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 392,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember <> CALCIFIER | engine guide upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember <> CALCIFIER | engine guide upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember.001 <> CALCIFIER | engine guide upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 88,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember.001 <> CALCIFIER | engine guide upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 88,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember.001 <> CALCIFIER | upper pulley journal pier": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 57,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember.001 <> CALCIFIER | outer guide standoff": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 100,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember.001 <> CALCIFIER | outer guide standoff.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 100,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember.002 <> CALCIFIER | engine guide upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember.002 <> CALCIFIER | engine guide upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 38,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember.002 <> CALCIFIER | upper pulley journal pier": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember.002 <> CALCIFIER | outer guide standoff.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 88,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember.002 <> CALCIFIER | lower axle load bridge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 120,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember.002 <> CALCIFIER | lower axle bearing block": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 42,
+      "moving": false
+    },
+    "CALCIFIER | engine guide crossmember.002 <> CALCIFIER | lower axle fitted bronze bush": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 56,
+      "moving": false
+    },
+    "CALCIFIER | bearing bridge fastener <> CALCIFIER | engine guide crossmember.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 76,
+      "moving": false
+    },
+    "CALCIFIER | bearing bridge fastener.001 <> CALCIFIER | engine guide crossmember.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 73,
+      "moving": false
+    },
+    "CALCIFIER | engine guide upright <> CALCIFIER | lower axle load bridge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "CALCIFIER | engine guide upright.001 <> CALCIFIER | lower axle load bridge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "CALCIFIER | upper pulley bored journal <> CALCIFIER | upper pulley journal pier": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 187,
+      "moving": false
+    },
+    "CALCIFIER | upper pulley bored journal.001 <> CALCIFIER | upper pulley journal pier.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 152,
+      "moving": false
+    },
+    "CALCIFIER | lower pinion shaft journal <> CALCIFIER | lower pinion stone pedestal": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 249,
+      "moving": false
+    },
+    "CALCIFIER V2 | sieve guide bearing block <> CALCIFIER | rack load bearing leg": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 118,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall <> CALCIFIER | rack load bearing leg": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 79,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low side wall <> CALCIFIER | rack load bearing leg": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 118,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling sump floor <> CALCIFIER | rack load bearing leg": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 126,
+      "moving": false
+    },
+    "CALCIFIER V2 | sieve guide bearing block.001 <> CALCIFIER | rack load bearing leg.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 118,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall.001 <> CALCIFIER | rack load bearing leg.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 77,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low side wall <> CALCIFIER | rack load bearing leg.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 160,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling sump floor <> CALCIFIER | rack load bearing leg.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 126,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling sump fitted return <> CALCIFIER | rack load bearing leg.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 209,
+      "moving": false
+    },
+    "CALCIFIER V2 | sieve guide bearing block.002 <> CALCIFIER | rack load bearing leg.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 118,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall <> CALCIFIER | rack load bearing leg.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 77,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low side wall.001 <> CALCIFIER | rack load bearing leg.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 74,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling sump floor <> CALCIFIER | rack load bearing leg.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 126,
+      "moving": false
+    },
+    "CALCIFIER V2 | sieve guide bearing block.003 <> CALCIFIER | rack load bearing leg.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 119,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall.001 <> CALCIFIER | rack load bearing leg.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 79,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low side wall.001 <> CALCIFIER | rack load bearing leg.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 74,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling sump floor <> CALCIFIER | rack load bearing leg.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 126,
+      "moving": false
+    },
+    "CALCIFIER | stoke rake handle <> CALCIFIER | stoke rake iron head": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "CALCIFIER V2 | upper guide rail offset bracket <> CALCIFIER | outer guide standoff.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 59,
+      "moving": false
+    },
+    "CALCIFIER | lower axle bearing block <> CALCIFIER | lower axle load bridge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 103,
+      "moving": false
+    },
+    "CALCIFIER | lower axle fitted bronze bush <> CALCIFIER | lower axle load bridge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 73,
+      "moving": false
+    },
+    "CALCIFIER | bearing bridge fastener <> CALCIFIER | lower axle load bridge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 80,
+      "moving": false
+    },
+    "CALCIFIER | bearing bridge fastener.001 <> CALCIFIER | lower axle load bridge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 80,
+      "moving": false
+    },
+    "CALCIFIER | lower axle bearing block <> CALCIFIER | lower axle fitted bronze bush": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 242,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall <> CALCIFIER V2 | sieve guide bearing block": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 67,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall.001 <> CALCIFIER V2 | sieve guide bearing block.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall <> CALCIFIER V2 | sieve guide bearing block.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 69,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall.001 <> CALCIFIER V2 | sieve guide bearing block.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall <> CALCIFIER V2 | settling chest low side wall": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 96,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall <> CALCIFIER V2 | settling chest low side wall.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall <> CALCIFIER V2 | settling sump floor": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 67,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall.001 <> CALCIFIER V2 | settling chest low side wall": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 115,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall.001 <> CALCIFIER V2 | settling chest low side wall.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low end wall.001 <> CALCIFIER V2 | settling sump floor": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 65,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low side wall <> CALCIFIER V2 | settling sump floor": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 100,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low side wall <> CALCIFIER V2 | sump bolted bulkhead": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 363,
+      "moving": false
+    },
+    "CALCIFIER V2 | local isolation cock <> CALCIFIER V2 | settling chest low side wall": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 291,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling chest low side wall.001 <> CALCIFIER V2 | settling sump floor": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 67,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming station upright <> CALCIFIER V2 | forming upright shoe": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming foot anchor <> CALCIFIER V2 | forming station upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming foot anchor.001 <> CALCIFIER V2 | forming station upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming bed support <> CALCIFIER V2 | forming station upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming piston guide beam <> CALCIFIER V2 | forming station upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 92,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming guide cheek strap <> CALCIFIER V2 | forming station upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming guide fixing.001 <> CALCIFIER V2 | forming station upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 4,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming foot anchor <> CALCIFIER V2 | forming upright shoe": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming foot anchor.001 <> CALCIFIER V2 | forming upright shoe": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming bed support <> CALCIFIER V2 | wet forming chest base": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 77,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming bed support <> CALCIFIER V2 | forming chest side": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 98,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming bed support <> CALCIFIER V2 | forming chest end": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming station upright.001 <> CALCIFIER V2 | forming upright shoe.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 64,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming foot anchor.002 <> CALCIFIER V2 | forming station upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming foot anchor.003 <> CALCIFIER V2 | forming station upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 10,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming bed support.001 <> CALCIFIER V2 | forming station upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming piston guide beam <> CALCIFIER V2 | forming station upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 92,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming guide cheek strap.001 <> CALCIFIER V2 | forming station upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming guide fixing.003 <> CALCIFIER V2 | forming station upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 4,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming foot anchor.002 <> CALCIFIER V2 | forming upright shoe.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming foot anchor.003 <> CALCIFIER V2 | forming upright shoe.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming bed support.001 <> CALCIFIER V2 | wet forming chest base": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 75,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming bed support.001 <> CALCIFIER V2 | forming chest side.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 69,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming chest side <> CALCIFIER V2 | wet forming chest base": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 84,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming chest side.001 <> CALCIFIER V2 | wet forming chest base": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 75,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming chest end <> CALCIFIER V2 | wet forming chest base": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming chest end.001 <> CALCIFIER V2 | wet forming chest base": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 43,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming chest end <> CALCIFIER V2 | forming chest side": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 119,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming chest end.001 <> CALCIFIER V2 | forming chest side": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 118,
+      "moving": false
+    },
+    "CALCIFIER V2 | blanked original die tap <> CALCIFIER V2 | forming chest side": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 235,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming chest end <> CALCIFIER V2 | forming chest side.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 79,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming chest end.001 <> CALCIFIER V2 | forming chest side.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 84,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming chest side.001 <> CALCIFIER V2 | local isolation cock.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 208,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming chest end <> CALCIFIER V2 | preform tray brace": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 63,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming chest end <> CALCIFIER V2 | preform tray brace.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 65,
+      "moving": false
+    },
+    "CALCIFIER V2 | preform transfer lip <> CALCIFIER V2 | two cavity bioceramic forming die": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 81,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming piston guide beam <> CALCIFIER V2 | forming ram packed bronze guide": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 252,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming guide cheek strap <> CALCIFIER V2 | forming piston guide beam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 46,
+      "moving": false
+    },
+    "CALCIFIER V2 | forming guide cheek strap.001 <> CALCIFIER V2 | forming piston guide beam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 46,
+      "moving": false
+    },
+    "CALCIFIER V2 | local isolation cock <> CALCIFIER V2 | sump bolted bulkhead": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 218,
+      "moving": false
+    },
+    "CALCIFIER V2 | settling sump fitted return <> CALCIFIER V2 | sump bolted bulkhead": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 462,
+      "moving": false
+    },
+    "CALCIFIER V2 | local isolation cock <> CALCIFIER V2 | local stopcock stem": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 81,
+      "moving": false
+    },
+    "CALCIFIER V2 | local isolation cock <> CALCIFIER V2 | settling sump fitted return": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 321,
+      "moving": false
+    },
+    "CALCIFIER V2 | local stopcock handle <> CALCIFIER V2 | local stopcock stem": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 99,
+      "moving": false
+    },
+    "CALCIFIER V2 | local stopcock stem <> CALCIFIER V2 | settling sump fitted return": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 144,
+      "moving": false
+    },
+    "CALCIFIER V2 | local isolation cock.001 <> CALCIFIER V2 | local stopcock stem.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 82,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed <> CALCIFIER V2 | local isolation cock.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 183,
+      "moving": false
+    },
+    "CALCIFIER V2 | die side inlet <> CALCIFIER V2 | local isolation cock.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 140,
+      "moving": false
+    },
+    "CALCIFIER V2 | local stopcock handle.001 <> CALCIFIER V2 | local stopcock stem.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 105,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed <> CALCIFIER V2 | local stopcock stem.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 212,
+      "moving": false
+    },
+    "CALCIFIER V2 | return tube masonry saddle <> CALCIFIER V2 | return tube retaining band": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "CALCIFIER V2 | return tube masonry saddle <> CALCIFIER V2 | settling sump fitted return": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "CALCIFIER V2 | return tube retaining band <> CALCIFIER V2 | settling sump fitted return": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 477,
+      "moving": false
+    },
+    "CALCIFIER V2 | return tube masonry saddle.001 <> CALCIFIER V2 | return tube retaining band.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "CALCIFIER V2 | return tube retaining band.001 <> CALCIFIER V2 | settling sump fitted return": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 409,
+      "moving": false
+    },
+    "CALCIFIER V2 | preform transfer lip <> CALCIFIER V2 | supported preform loading tray": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 31,
+      "moving": false
+    },
+    "CALCIFIER V2 | preform tray brace <> CALCIFIER V2 | supported preform loading tray": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 31,
+      "moving": false
+    },
+    "CALCIFIER V2 | preform tray brace.001 <> CALCIFIER V2 | supported preform loading tray": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 31,
+      "moving": false
+    },
+    "CALCIFIER V2 | preform transfer lip <> CALCIFIER V2 | visible bioceramic preform": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 59,
+      "moving": false
+    },
+    "CALCIFIER V2 | preform transfer lip <> CALCIFIER V2 | visible bioceramic preform.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 57,
+      "moving": false
+    },
+    "CALCIFIER V2 | external distribution valve chest <> CALCIFIER V2 | supported engine supply ferrule": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 7,
+      "moving": false
+    },
+    "CALCIFIER V2 | distribution valve bracket <> CALCIFIER V2 | external distribution valve chest": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 33,
+      "moving": false
+    },
+    "CALCIFIER V2 | fixed north inlet <> CALCIFIER V2 | full bore north inlet reducer": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 974,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance <> CALCIFIER V2 | left mineral wetting lance hex union": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 542,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance <> CALCIFIER V2 | left mineral wetting lance ferrule": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 481,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance <> CALCIFIER V2 | left mineral wetting lance packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 476,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance <> CALCIFIER V2 | left mineral wetting lance ferrule.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 483,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance <> CALCIFIER V2 | left mineral wetting lance packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 447,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance <> CALCIFIER V2 | left mineral wetting lance hex union.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 422,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance <> CALCIFIER V2 | left mineral wetting lance ferrule.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 497,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance <> CALCIFIER V2 | left mineral wetting lance packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 494,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance <> CALCIFIER V2 | left mineral wetting lance ferrule.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 486,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance <> CALCIFIER V2 | left mineral wetting lance packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 491,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance hex union <> CALCIFIER V2 | left mineral wetting lance packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 194,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance hex union <> CALCIFIER V2 | left mineral wetting lance packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 225,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance ferrule <> CALCIFIER V2 | left mineral wetting lance packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 190,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance ferrule.001 <> CALCIFIER V2 | left mineral wetting lance packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 228,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance hex union.001 <> CALCIFIER V2 | left mineral wetting lance packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 305,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance hex union.001 <> CALCIFIER V2 | left mineral wetting lance packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 294,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance ferrule.002 <> CALCIFIER V2 | left mineral wetting lance packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 333,
+      "moving": false
+    },
+    "CALCIFIER V2 | left mineral wetting lance ferrule.003 <> CALCIFIER V2 | left mineral wetting lance packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 334,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance <> CALCIFIER V2 | right mineral wetting lance hex union": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 433,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance <> CALCIFIER V2 | right mineral wetting lance ferrule": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 519,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance <> CALCIFIER V2 | right mineral wetting lance packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 505,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance <> CALCIFIER V2 | right mineral wetting lance ferrule.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 504,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance <> CALCIFIER V2 | right mineral wetting lance packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 478,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance <> CALCIFIER V2 | right mineral wetting lance hex union.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 476,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance <> CALCIFIER V2 | right mineral wetting lance ferrule.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 544,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance <> CALCIFIER V2 | right mineral wetting lance packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 544,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance <> CALCIFIER V2 | right mineral wetting lance ferrule.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 544,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance <> CALCIFIER V2 | right mineral wetting lance packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 544,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance hex union <> CALCIFIER V2 | right mineral wetting lance packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 292,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance hex union <> CALCIFIER V2 | right mineral wetting lance packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 292,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance ferrule <> CALCIFIER V2 | right mineral wetting lance packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 327,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance ferrule.001 <> CALCIFIER V2 | right mineral wetting lance packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 319,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance hex union.001 <> CALCIFIER V2 | right mineral wetting lance packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 332,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance hex union.001 <> CALCIFIER V2 | right mineral wetting lance packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 333,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance ferrule.002 <> CALCIFIER V2 | right mineral wetting lance packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 336,
+      "moving": false
+    },
+    "CALCIFIER V2 | right mineral wetting lance ferrule.003 <> CALCIFIER V2 | right mineral wetting lance packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 342,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply <> CALCIFIER V2 | supported engine supply hex union": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 427,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply <> CALCIFIER V2 | supported engine supply ferrule": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 485,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply <> CALCIFIER V2 | supported engine supply packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 484,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply <> CALCIFIER V2 | supported engine supply ferrule.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 486,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply <> CALCIFIER V2 | supported engine supply packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 488,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply <> CALCIFIER V2 | supported engine supply hex union.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 410,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply <> CALCIFIER V2 | supported engine supply ferrule.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 474,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply <> CALCIFIER V2 | supported engine supply packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 473,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply <> CALCIFIER V2 | supported engine supply ferrule.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 470,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply <> CALCIFIER V2 | supported engine supply packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 472,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply hex union <> CALCIFIER V2 | supported engine supply packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 283,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply hex union <> CALCIFIER V2 | supported engine supply packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 301,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply ferrule <> CALCIFIER V2 | supported engine supply packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 265,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply ferrule.001 <> CALCIFIER V2 | supported engine supply packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 257,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply hex union.001 <> CALCIFIER V2 | supported engine supply packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 202,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply hex union.001 <> CALCIFIER V2 | supported engine supply packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 265,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply ferrule.002 <> CALCIFIER V2 | supported engine supply packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 218,
+      "moving": false
+    },
+    "CALCIFIER V2 | supported engine supply ferrule.003 <> CALCIFIER V2 | supported engine supply packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 206,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return <> CALCIFIER V2 | external engine return hex union": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 445,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return <> CALCIFIER V2 | external engine return ferrule": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 520,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return <> CALCIFIER V2 | external engine return packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 503,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return <> CALCIFIER V2 | external engine return ferrule.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 488,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return <> CALCIFIER V2 | external engine return packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 487,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return <> CALCIFIER V2 | external engine return hex union.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 473,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return <> CALCIFIER V2 | external engine return ferrule.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 615,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return <> CALCIFIER V2 | external engine return packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 630,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return <> CALCIFIER V2 | external engine return ferrule.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 488,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return <> CALCIFIER V2 | external engine return packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 496,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return hex union <> CALCIFIER V2 | external engine return packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 200,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return hex union <> CALCIFIER V2 | external engine return packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 250,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return ferrule <> CALCIFIER V2 | external engine return packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 209,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return ferrule.001 <> CALCIFIER V2 | external engine return packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 204,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return hex union.001 <> CALCIFIER V2 | external engine return packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 272,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return hex union.001 <> CALCIFIER V2 | external engine return packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 262,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return ferrule.002 <> CALCIFIER V2 | external engine return packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 301,
+      "moving": false
+    },
+    "CALCIFIER V2 | external engine return ferrule.003 <> CALCIFIER V2 | external engine return packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 292,
+      "moving": false
+    },
+    "CALCIFIER V2 | discharge outlet hex union <> CALCIFIER V2 | front mineral discharge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 284,
+      "moving": false
+    },
+    "CALCIFIER V2 | discharge outlet ferrule <> CALCIFIER V2 | front mineral discharge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 336,
+      "moving": false
+    },
+    "CALCIFIER V2 | discharge outlet packing <> CALCIFIER V2 | front mineral discharge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 351,
+      "moving": false
+    },
+    "CALCIFIER V2 | discharge outlet ferrule.001 <> CALCIFIER V2 | front mineral discharge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 336,
+      "moving": false
+    },
+    "CALCIFIER V2 | discharge outlet packing.001 <> CALCIFIER V2 | front mineral discharge": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 351,
+      "moving": false
+    },
+    "CALCIFIER V2 | discharge outlet hex union <> CALCIFIER V2 | discharge outlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 289,
+      "moving": false
+    },
+    "CALCIFIER V2 | discharge outlet hex union <> CALCIFIER V2 | discharge outlet packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 293,
+      "moving": false
+    },
+    "CALCIFIER V2 | discharge outlet ferrule <> CALCIFIER V2 | discharge outlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 322,
+      "moving": false
+    },
+    "CALCIFIER V2 | discharge outlet ferrule.001 <> CALCIFIER V2 | discharge outlet packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 322,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed <> CALCIFIER V2 | conditioned die feed hex union": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 566,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed <> CALCIFIER V2 | conditioned die feed ferrule": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 489,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed <> CALCIFIER V2 | conditioned die feed packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 493,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed <> CALCIFIER V2 | conditioned die feed ferrule.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 380,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed <> CALCIFIER V2 | conditioned die feed packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 373,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed <> CALCIFIER V2 | conditioned die feed hex union.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 450,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed <> CALCIFIER V2 | conditioned die feed ferrule.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 511,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed <> CALCIFIER V2 | conditioned die feed packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 510,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed <> CALCIFIER V2 | conditioned die feed ferrule.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 540,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed <> CALCIFIER V2 | conditioned die feed packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 539,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed <> CALCIFIER V2 | die side inlet": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 258,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed hex union <> CALCIFIER V2 | conditioned die feed packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 187,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed hex union <> CALCIFIER V2 | conditioned die feed packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 239,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed ferrule <> CALCIFIER V2 | conditioned die feed packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 204,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed ferrule.001 <> CALCIFIER V2 | conditioned die feed packing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 196,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed hex union.001 <> CALCIFIER V2 | conditioned die feed packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 325,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed hex union.001 <> CALCIFIER V2 | conditioned die feed packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 332,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed ferrule.002 <> CALCIFIER V2 | conditioned die feed packing.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 316,
+      "moving": false
+    },
+    "CALCIFIER V2 | conditioned die feed ferrule.003 <> CALCIFIER V2 | conditioned die feed packing.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 308,
+      "moving": false
+    },
+    "CALCIFIER V2 | distribution valve bracket <> CALCIFIER V2 | valve chest support strut": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "CALCIFIER V2 | full bore north inlet reducer <> CALCIFIER V2 | full size north inlet flange": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 996,
+      "moving": false
+    },
+    "CALCIFIER V2 | full bore north inlet reducer <> CALCIFIER V2 | full size north inlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 520,
+      "moving": false
+    },
+    "CALCIFIER V2 | full bore north inlet reducer <> CALCIFIER V2 | north inlet cast mounting foot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 174,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet flange <> CALCIFIER V2 | full size north inlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 211,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet flange <> CALCIFIER V2 | north inlet retained hex bolt": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet flange <> CALCIFIER V2 | north inlet retained hex bolt.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet flange <> CALCIFIER V2 | north inlet retained hex bolt.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet flange <> CALCIFIER V2 | north inlet retained hex bolt.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet flange <> CALCIFIER V2 | north inlet retained hex bolt.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet flange <> CALCIFIER V2 | north inlet retained hex bolt.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet flange <> CALCIFIER V2 | north inlet retained hex bolt.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet flange <> CALCIFIER V2 | north inlet cast mounting foot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 111,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet packing <> CALCIFIER V2 | north inlet retained hex bolt": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet packing <> CALCIFIER V2 | north inlet retained hex bolt.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 26,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet packing <> CALCIFIER V2 | north inlet retained hex bolt.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 28,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet packing <> CALCIFIER V2 | north inlet retained hex bolt.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 29,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet packing <> CALCIFIER V2 | north inlet retained hex bolt.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet packing <> CALCIFIER V2 | north inlet retained hex bolt.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 26,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet packing <> CALCIFIER V2 | north inlet retained hex bolt.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 29,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size north inlet packing <> CALCIFIER V2 | north inlet cast mounting foot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 89,
+      "moving": false
+    },
+    "CALCIFIER V2 | north inlet bolt washer <> CALCIFIER V2 | north inlet retained hex bolt": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | north inlet bolt washer.001 <> CALCIFIER V2 | north inlet retained hex bolt.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | north inlet bolt washer.002 <> CALCIFIER V2 | north inlet retained hex bolt.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | north inlet bolt washer.003 <> CALCIFIER V2 | north inlet retained hex bolt.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | north inlet bolt washer.004 <> CALCIFIER V2 | north inlet retained hex bolt.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | north inlet bolt washer.005 <> CALCIFIER V2 | north inlet retained hex bolt.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | north inlet cast mounting foot <> CALCIFIER V2 | north inlet retained hex bolt.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 24,
+      "moving": false
+    },
+    "CALCIFIER V2 | north inlet bolt washer.006 <> CALCIFIER V2 | north inlet retained hex bolt.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | north inlet cast mounting foot <> CALCIFIER V2 | north inlet retained hex bolt.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 21,
+      "moving": false
+    },
+    "CALCIFIER V2 | full bore capped unused south outlet reducer <> CALCIFIER V2 | full size capped unused south outlet flange": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 966,
+      "moving": false
+    },
+    "CALCIFIER V2 | full bore capped unused south outlet reducer <> CALCIFIER V2 | full size capped unused south outlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 513,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet cast mounting foot <> CALCIFIER V2 | full bore capped unused south outlet reducer": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 174,
+      "moving": false
+    },
+    "CALCIFIER V2 | full size capped unused south outlet flange <> CALCIFIER V2 | full size capped unused south outlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 211,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt <> CALCIFIER V2 | full size capped unused south outlet flange": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.001 <> CALCIFIER V2 | full size capped unused south outlet flange": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.002 <> CALCIFIER V2 | full size capped unused south outlet flange": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.003 <> CALCIFIER V2 | full size capped unused south outlet flange": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.004 <> CALCIFIER V2 | full size capped unused south outlet flange": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.005 <> CALCIFIER V2 | full size capped unused south outlet flange": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.006 <> CALCIFIER V2 | full size capped unused south outlet flange": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet cast mounting foot <> CALCIFIER V2 | full size capped unused south outlet flange": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 108,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt <> CALCIFIER V2 | full size capped unused south outlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.001 <> CALCIFIER V2 | full size capped unused south outlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 28,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.002 <> CALCIFIER V2 | full size capped unused south outlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 28,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.003 <> CALCIFIER V2 | full size capped unused south outlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.004 <> CALCIFIER V2 | full size capped unused south outlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.005 <> CALCIFIER V2 | full size capped unused south outlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 28,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet retained hex bolt.006 <> CALCIFIER V2 | full size capped unused south outlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet cast mounting foot <> CALCIFIER V2 | full size capped unused south outlet packing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 86,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet bolt washer <> CALCIFIER V2 | capped unused south outlet retained hex bolt": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet bolt washer.001 <> CALCIFIER V2 | capped unused south outlet retained hex bolt.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet bolt washer.002 <> CALCIFIER V2 | capped unused south outlet retained hex bolt.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet bolt washer.003 <> CALCIFIER V2 | capped unused south outlet retained hex bolt.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet bolt washer.004 <> CALCIFIER V2 | capped unused south outlet retained hex bolt.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet bolt washer.005 <> CALCIFIER V2 | capped unused south outlet retained hex bolt.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet cast mounting foot <> CALCIFIER V2 | capped unused south outlet retained hex bolt.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 21,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet bolt washer.006 <> CALCIFIER V2 | capped unused south outlet retained hex bolt.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet cast mounting foot <> CALCIFIER V2 | capped unused south outlet retained hex bolt.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 24,
+      "moving": false
+    },
+    "CALCIFIER V2 | capped unused south outlet cast mounting foot <> CALCIFIER V2 | removable unused outlet blanking plate": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 40,
+      "moving": false
+    },
+    "CALCIFIER | main turning paddle shaft <> CALCIFIER | wet mineral growth bed": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 194,
+      "moving": true
+    },
+    "CALCIFIER | main turning paddle shaft <> CALCIFIER | wetted mineral surface": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 320,
+      "moving": true
+    },
+    "CALCIFIER | mineral stirring blade <> CALCIFIER | wetted mineral surface": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 88,
+      "moving": true
+    },
+    "CALCIFIER | mineral stirring blade.001 <> CALCIFIER | wetted mineral surface": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 88,
+      "moving": true
+    },
+    "CALCIFIER | mineral stirring blade.002 <> CALCIFIER | wetted mineral surface": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 88,
+      "moving": true
+    },
+    "CALCIFIER | mineral stirring blade.003 <> CALCIFIER | wetted mineral surface": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 88,
+      "moving": true
+    },
+    "CALCIFIER | continuous closed hemp belt <> CALCIFIER | drive pulley rim": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "CALCIFIER | continuous closed hemp belt <> CALCIFIER | drive pulley rim.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "CALCIFIER | continuous closed hemp belt <> CALCIFIER | travelling belt splice": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "CALCIFIER | continuous closed hemp belt <> CALCIFIER | travelling belt splice.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "CALCIFIER | continuous closed hemp belt <> CALCIFIER | travelling belt splice.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 84,
+      "moving": true
+    },
+    "CALCIFIER | gear shaft keyed hub <> CALCIFIER | main turning paddle shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 204,
+      "moving": true
+    },
+    "CALCIFIER | main turning paddle shaft <> CALCIFIER | mixer load carrying thrust collar": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 352,
+      "moving": true
+    },
+    "CALCIFIER | main turning paddle shaft <> CALCIFIER | mixer thrust collar retained cross pin": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 185,
+      "moving": true
+    },
+    "CALCIFIER | mineral stirring blade <> CALCIFIER | mixing sweep arm": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "CALCIFIER | mixing sweep arm <> CALCIFIER | paddle fastening pin": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 104,
+      "moving": true
+    },
+    "CALCIFIER | mineral stirring blade <> CALCIFIER | paddle fastening pin": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 106,
+      "moving": true
+    },
+    "CALCIFIER | mineral stirring blade.001 <> CALCIFIER | mixing sweep arm.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "CALCIFIER | mixing sweep arm.001 <> CALCIFIER | paddle fastening pin.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 104,
+      "moving": true
+    },
+    "CALCIFIER | mineral stirring blade.001 <> CALCIFIER | paddle fastening pin.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 106,
+      "moving": true
+    },
+    "CALCIFIER | mineral stirring blade.002 <> CALCIFIER | mixing sweep arm.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "CALCIFIER | mixing sweep arm.002 <> CALCIFIER | paddle fastening pin.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 104,
+      "moving": true
+    },
+    "CALCIFIER | mineral stirring blade.002 <> CALCIFIER | paddle fastening pin.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 106,
+      "moving": true
+    },
+    "CALCIFIER | mineral stirring blade.003 <> CALCIFIER | mixing sweep arm.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "CALCIFIER | mixing sweep arm.003 <> CALCIFIER | paddle fastening pin.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 104,
+      "moving": true
+    },
+    "CALCIFIER | mineral stirring blade.003 <> CALCIFIER | paddle fastening pin.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 106,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim <> CALCIFIER | pulley spoke": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim <> CALCIFIER | pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim <> CALCIFIER | pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim <> CALCIFIER | pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim <> CALCIFIER | pulley spoke.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim <> CALCIFIER | pulley spoke.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim <> CALCIFIER | travelling belt splice": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 135,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub <> CALCIFIER | pulley spoke": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub <> CALCIFIER | pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub <> CALCIFIER | pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub <> CALCIFIER | pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub <> CALCIFIER | pulley spoke.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub <> CALCIFIER | pulley spoke.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub <> CALCIFIER | retained engine crank pin": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 65,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub <> CALCIFIER | turning lower engine axle": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 86,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim.001 <> CALCIFIER | pulley spoke.006": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim.001 <> CALCIFIER | pulley spoke.007": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim.001 <> CALCIFIER | pulley spoke.008": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim.001 <> CALCIFIER | pulley spoke.009": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim.001 <> CALCIFIER | pulley spoke.010": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim.001 <> CALCIFIER | pulley spoke.011": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 36,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim.001 <> CALCIFIER | travelling belt splice.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 135,
+      "maximum_triangle_intersections": 40,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub.001 <> CALCIFIER | pulley spoke.006": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub.001 <> CALCIFIER | pulley spoke.007": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub.001 <> CALCIFIER | pulley spoke.008": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub.001 <> CALCIFIER | pulley spoke.009": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub.001 <> CALCIFIER | pulley spoke.010": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub.001 <> CALCIFIER | pulley spoke.011": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "CALCIFIER | pulley central hub.001 <> CALCIFIER | upper turning shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 204,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve retained eccentric <> CALCIFIER | pulley central hub.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 82,
+      "moving": true
+    },
+    "CALCIFIER V2 | extended eccentric support boss <> CALCIFIER | pulley central hub.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 86,
+      "moving": true
+    },
+    "CALCIFIER | engine rigid connecting arm <> CALCIFIER | retained engine crank pin": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 166,
+      "moving": true
+    },
+    "CALCIFIER | engine rigid connecting arm <> CALCIFIER | engine rigid piston": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 381,
+      "maximum_triangle_intersections": 75,
+      "moving": true
+    },
+    "CALCIFIER | bored engine crosshead <> CALCIFIER | engine rigid piston": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "CALCIFIER V2 | rigid forming crosshead extension <> CALCIFIER | engine rigid piston": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 73,
+      "moving": true
+    },
+    "CALCIFIER V2 | forming linkage retained pin <> CALCIFIER | engine rigid piston": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 370,
+      "moving": true
+    },
+    "CALCIFIER | bored engine crosshead <> CALCIFIER | engine rigid connecting arm": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 136,
+      "moving": true
+    },
+    "CALCIFIER V2 | rigid forming crosshead extension <> CALCIFIER | engine rigid connecting arm": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 95,
+      "moving": true
+    },
+    "CALCIFIER V2 | forming linkage retained pin <> CALCIFIER | engine rigid connecting arm": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 127,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve retained eccentric <> CALCIFIER | upper turning shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 86,
+      "moving": true
+    },
+    "CALCIFIER V2 | extended eccentric support boss <> CALCIFIER | upper turning shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 114,
+      "moving": true
+    },
+    "CALCIFIER V2 | driving bevel keyed hub <> CALCIFIER | upper turning shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 281,
+      "moving": true
+    },
+    "CALCIFIER | driven vertical bevel <> CALCIFIER | driving right angle bevel": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "CALCIFIER V2 | driving bevel keyed hub <> CALCIFIER | driving right angle bevel": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 608,
+      "moving": true
+    },
+    "CALCIFIER | gear shaft keyed hub.001 <> CALCIFIER | turning pinion shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 194,
+      "moving": true
+    },
+    "CALCIFIER | pinion lower thrust collar <> CALCIFIER | turning pinion shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 351,
+      "moving": true
+    },
+    "CALCIFIER | 62 tooth paddle crown <> CALCIFIER | gear supporting spoke": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "CALCIFIER | 62 tooth paddle crown <> CALCIFIER | gear supporting spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "CALCIFIER | 62 tooth paddle crown <> CALCIFIER | gear supporting spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "CALCIFIER | 62 tooth paddle crown <> CALCIFIER | gear supporting spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "CALCIFIER | 31 tooth drive pinion <> CALCIFIER | gear supporting spoke.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "CALCIFIER | 31 tooth drive pinion <> CALCIFIER | gear supporting spoke.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 52,
+      "moving": true
+    },
+    "CALCIFIER | 31 tooth drive pinion <> CALCIFIER | gear supporting spoke.006": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 52,
+      "moving": true
+    },
+    "CALCIFIER | gear shaft keyed hub <> CALCIFIER | gear supporting spoke": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "CALCIFIER | gear shaft keyed hub <> CALCIFIER | gear supporting spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "CALCIFIER | gear shaft keyed hub <> CALCIFIER | gear supporting spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "CALCIFIER | gear shaft keyed hub <> CALCIFIER | gear supporting spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "CALCIFIER | gear shaft keyed hub.001 <> CALCIFIER | gear supporting spoke.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "CALCIFIER | gear shaft keyed hub.001 <> CALCIFIER | gear supporting spoke.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "CALCIFIER | gear shaft keyed hub.001 <> CALCIFIER | gear supporting spoke.006": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 50,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge <> CALCIFIER | draining rack slat": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 46,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge.001 <> CALCIFIER | draining rack slat": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 45,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge <> CALCIFIER | draining rack slat.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge.001 <> CALCIFIER | draining rack slat.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge <> CALCIFIER | draining rack slat.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge.001 <> CALCIFIER | draining rack slat.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge <> CALCIFIER | draining rack slat.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge.001 <> CALCIFIER | draining rack slat.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge <> CALCIFIER | draining rack slat.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge.001 <> CALCIFIER | draining rack slat.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge <> CALCIFIER | draining rack slat.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 41,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge.001 <> CALCIFIER | draining rack slat.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 37,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge <> CALCIFIER | mineral growth product": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 13,
+      "moving": true
+    },
+    "CALCIFIER V2 | graded sieve wire.001 <> CALCIFIER | mineral growth product": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 37,
+      "moving": true
+    },
+    "CALCIFIER V2 | graded sieve wire.005 <> CALCIFIER | mineral growth product.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 14,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge <> CALCIFIER | mineral growth product.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 17,
+      "moving": true
+    },
+    "CALCIFIER V2 | graded sieve wire.001 <> CALCIFIER | mineral growth product.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 35,
+      "moving": true
+    },
+    "CALCIFIER V2 | sieve moving edge <> CALCIFIER | mineral growth product.006": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 15,
+      "moving": true
+    },
+    "CALCIFIER V2 | graded sieve wire.001 <> CALCIFIER | mineral growth product.006": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 33,
+      "moving": true
+    },
+    "CALCIFIER V2 | rigid forming crosshead extension <> CALCIFIER | bored engine crosshead": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 34,
+      "moving": true
+    },
+    "CALCIFIER V2 | forming linkage retained pin <> CALCIFIER | bored engine crosshead": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 288,
+      "moving": true
+    },
+    "CALCIFIER | mixer load carrying thrust collar <> CALCIFIER | mixer thrust collar retained cross pin": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 180,
+      "moving": true
+    },
+    "CALCIFIER | retained lower axle collar <> CALCIFIER | turning lower engine axle": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 293,
+      "moving": true
+    },
+    "CALCIFIER V2 | graded sieve wire <> CALCIFIER V2 | sieve moving edge": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "CALCIFIER V2 | graded sieve wire.010 <> CALCIFIER V2 | sieve moving edge.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "CALCIFIER V2 | forming linkage retained pin <> CALCIFIER V2 | rigid forming crosshead extension": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "CALCIFIER V2 | forming linkage retained pin.001 <> CALCIFIER V2 | rigid forming crosshead extension": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "CALCIFIER V2 | forming guided piston shaft <> CALCIFIER V2 | forming linkage retained pin.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 94,
+      "moving": true
+    },
+    "CALCIFIER V2 | forming die punch <> CALCIFIER V2 | forming pressure platen": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "CALCIFIER V2 | forming die punch.001 <> CALCIFIER V2 | forming pressure platen": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 80,
+      "moving": true
+    },
+    "CALCIFIER V2 | extended eccentric support boss <> CALCIFIER V2 | sieve retained eccentric": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 168,
+      "moving": true
+    },
+    "CALCIFIER V2 | offset separator rigid arm segment <> CALCIFIER V2 | sieve retained eccentric": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "CALCIFIER V2 | separator spherical retained end <> CALCIFIER V2 | sieve retained eccentric": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 215,
+      "moving": true
+    },
+    "CALCIFIER V2 | extended eccentric support boss <> CALCIFIER V2 | separator spherical retained end": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 44,
+      "moving": true
+    },
+    "CALCIFIER V2 | offset separator rigid arm segment <> CALCIFIER V2 | offset separator rigid arm segment.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 61,
+      "moving": true
+    },
+    "CALCIFIER V2 | offset separator rigid arm segment <> CALCIFIER V2 | separator spherical retained end": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 52,
+      "moving": true
+    },
+    "CALCIFIER V2 | offset separator rigid arm segment.001 <> CALCIFIER V2 | offset separator rigid arm segment.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "CALCIFIER V2 | offset separator rigid arm segment.002 <> CALCIFIER V2 | separator spherical retained end.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 52,
+      "moving": true
+    },
+    "CALCIFIER V2 | offset separator rigid arm segment.002 <> CALCIFIER V2 | sieve crosshead socket": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 128,
+      "moving": true
+    },
+    "CALCIFIER V2 | separator spherical retained end.001 <> CALCIFIER V2 | sieve crosshead socket": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 231,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim <> CALCIFIER | travelling belt splice.002": {
+      "first_frame": 7.5,
+      "last_frame": 74.5,
+      "frames": 134,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim.001 <> CALCIFIER | travelling belt splice": {
+      "first_frame": 39.5,
+      "last_frame": 106.5,
+      "frames": 134,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim <> CALCIFIER | travelling belt splice.001": {
+      "first_frame": 71.5,
+      "last_frame": 138.5,
+      "frames": 134,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "CALCIFIER | drive pulley rim.001 <> CALCIFIER | travelling belt splice.002": {
+      "first_frame": 103.5,
+      "last_frame": 170.5,
+      "frames": 134,
+      "maximum_triangle_intersections": 40,
+      "moving": true
+    }
+  },
+  "note": "Raw triangle contacts include intentional fitted joints, tooth engagement and fasteners. Every pair requires adjudication; this inventory is not a clearance pass."
+}

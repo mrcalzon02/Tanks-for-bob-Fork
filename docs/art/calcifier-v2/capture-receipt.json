@@ -1,0 +1,162 @@
+{
+  "genuine_factorio_client_capture": true,
+  "windows_session": 1,
+  "screenshots": [
+    {
+      "file": "north-working-a.png",
+      "sha256": "13f98cb39b66e532a21f751c49d3015f8aaad126b77fd70d8748afe8a5dd5846"
+    },
+    {
+      "file": "north-working-b.png",
+      "sha256": "a3b78d02af0f0c53e81c5ee09e48b2eed3689bafe990c18d3d895e4edf2e6d05"
+    },
+    {
+      "file": "east-working-a.png",
+      "sha256": "85c27f3bb9f1935118d8bc41e135be5d0b1ed6e18aeb587f4735112c7e50df21"
+    },
+    {
+      "file": "east-working-b.png",
+      "sha256": "9ddf0e977434b8b4e8791e796a000252cb0840aacbe0dca4f2771256e22df08a"
+    },
+    {
+      "file": "south-working-a.png",
+      "sha256": "fd2bcfc1d8168122e7803c7c06dd91f3adabfbb3de7cfd659259e6af607b0ad9"
+    },
+    {
+      "file": "south-working-b.png",
+      "sha256": "488dc7ed05098d6727676e3297e7e2c6a10ebd096b2170159b6422aa31e2de61"
+    },
+    {
+      "file": "west-working-a.png",
+      "sha256": "9ef77e200e32a740f08d7a2a5f0d14fa3ff7c4ee537af4a264336e8d814a368f"
+    },
+    {
+      "file": "west-working-b.png",
+      "sha256": "a4264878bcdd541ea64110c66d7964521a63405c3c24dd27c3d6af9deca4d17a"
+    },
+    {
+      "file": "north-inlet-joint.png",
+      "sha256": "75839487a1c7c1821c7f90efd72a0a2c77572134be91112ca0dc7aa38cadb3be"
+    },
+    {
+      "file": "east-inlet-joint.png",
+      "sha256": "b61f73e886ce8c0b7a04770eff523b328335340aa789bf22adfcd41dd65f01a0"
+    },
+    {
+      "file": "south-inlet-joint.png",
+      "sha256": "9aaec65651fc44e28427bfa62505993c51cf8ccc6f5c2d7b5b1393149f70d7b5"
+    },
+    {
+      "file": "west-inlet-joint.png",
+      "sha256": "91286cdcce137dcde009620d0e026af5df75ee4c73209ce55282de054835a7a4"
+    },
+    {
+      "file": "steam-scaling.png",
+      "sha256": "96fcdbb8acafa23d341ad5ccf35ba66ddab3e1931acdf29520ca3f0f6ce4ede1"
+    },
+    {
+      "file": "crystal-growth.png",
+      "sha256": "fe35437c52678eef1178d039889093f8b1fe643fa3d036da740c7468eee6594f"
+    },
+    {
+      "file": "ionic-treatment.png",
+      "sha256": "acad5c1115fbff3b8b1bc48193b8e70561ed7ff739ed117dea92f73d22221f20"
+    },
+    {
+      "file": "sediment-growth.png",
+      "sha256": "192ca0092a9907db7f9ea09da7fe413646c4bd9a2b1a672932085faf5b544a4b"
+    },
+    {
+      "file": "no-fuel.png",
+      "sha256": "0da9ca729158ddb56d79b34a7f1660df91138a247cf5c45edb8dd2d2cf64201a"
+    },
+    {
+      "file": "no-fluid.png",
+      "sha256": "c393e7f1376c41b59418df2c148c10946bab34dab97534bfa838f99a4173ec16"
+    },
+    {
+      "file": "idle.png",
+      "sha256": "9172e3dc9a33df4a38dbff5416cbb26266b85db38089f17a3990134ac6f599c5"
+    },
+    {
+      "file": "blocked-item.png",
+      "sha256": "1d13d3270c25d1def0982779055f8b7198800a50d72035ecbd3c4c4a069221ab"
+    },
+    {
+      "file": "blocked-item-full.png",
+      "sha256": "c5655bd6946c717b572b99c94e9be4d4cfbfab32b06951ab4d26074860eb4335"
+    },
+    {
+      "file": "restarted.png",
+      "sha256": "75752f818068281471d5c2e2a9eebcad8c1fa0c275361a9a4e528439bc5810df"
+    },
+    {
+      "file": "north-motion-00.png",
+      "sha256": "047ac42844f8b12eb0ad370048ef421336bc6f22a66c93a2aed2480fddc2c39d"
+    },
+    {
+      "file": "north-motion-01.png",
+      "sha256": "3953faaf8eb0f18ffbcc1f4eca482e99ecfb5022350cb8eb262d35db42e818d9"
+    },
+    {
+      "file": "north-motion-02.png",
+      "sha256": "a9aae3b3525af039083914bae4d42eafb1484f39f2399bb09617f0ead51c6191"
+    },
+    {
+      "file": "north-motion-03.png",
+      "sha256": "919789b251c2644cd713df8f4a07871ca73c5c53eef7e280270d402d835385c0"
+    },
+    {
+      "file": "north-motion-04.png",
+      "sha256": "b17cab2bb1776ad01f998f02ac4eceb3d57151b7fada78821ad503437cb1b515"
+    },
+    {
+      "file": "north-motion-05.png",
+      "sha256": "d504a1b5196f00e4449ab0af318acfc05acd26fb2f6268242f6a8bd9ff240a1a"
+    },
+    {
+      "file": "north-motion-06.png",
+      "sha256": "bccc48bc18f497e4af2e8ceb2466414c82a029c5ee14108943f121b95ff5bf71"
+    },
+    {
+      "file": "north-motion-07.png",
+      "sha256": "22b02e25c27abc4162e1fe7caee37f74aa86b437ed9dc46057bc42039c263716"
+    },
+    {
+      "file": "north-motion-08.png",
+      "sha256": "8580f3c6fe39698703918bee8cf0aa31e6eda3ba03447ea7e0680ffd3da6b51b"
+    },
+    {
+      "file": "north-motion-09.png",
+      "sha256": "fcc63ad1317a71a1934cb4408e2db34c8ed6af9320d6d826dca495d693c90d46"
+    },
+    {
+      "file": "north-motion-10.png",
+      "sha256": "b57783c2aa4c8e066b27db679178a22f5f39851d16f5f9a94e71d51937843f69"
+    },
+    {
+      "file": "north-motion-11.png",
+      "sha256": "6c2ce0fed9e9d9c922b09f2ee79c0c11b238a93c8a6de98177d3758de1d813e2"
+    },
+    {
+      "file": "north-motion-12.png",
+      "sha256": "01a097f82861f1aef2af8eaa52c3f89a9f3c3ff8c3d3dcbfe64d599f5d5e7441"
+    },
+    {
+      "file": "north-motion-13.png",
+      "sha256": "7268ff7e14a5d7d1db07f507608a11d5305bcf12444834eb6969fad29a51329a"
+    },
+    {
+      "file": "north-motion-14.png",
+      "sha256": "ad2e1559bd8c03430a605d7fdc64832c268638b4e73667ac459a989c3312d51f"
+    },
+    {
+      "file": "north-motion-15.png",
+      "sha256": "6e3380f64effc2b2ef3fde22033c8a7d7a7a8f769571cd3160df7d4cc5addda1"
+    }
+  ],
+  "visual_review_passed": false,
+  "completed_save": [
+    "C:\\Users\\Admin\\Documents\\ChatGPT\\Tech priests\\tanks-structure-production\\build\\calcifier-v2-sockets-client03\\runtime\\saves\\_autosave-calcifier-complete-client.zip"
+  ]
+}

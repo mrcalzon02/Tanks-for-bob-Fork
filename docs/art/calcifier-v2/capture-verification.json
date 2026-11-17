@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "genuine_client_screenshots": 38,
+  "four_direction_actual_pipe_closeups": true,
+  "native_operation": {
+    "passed": true,
+    "machines": 48,
+    "real_recipes": [
+      "Calcifier-pro",
+      "Calcifier-pro-2",
+      "Calcifier-pro-3",
+      "Calcifier-pro-4",
+      "Calcifier-pro-5",
+      "hydrocoptic-crystal",
+      "ionic-scum",
+      "microcrystal-sediment"
+    ],
+    "player_grid_connections": 44,
+    "rotation": {
+      "before": 0,
+      "after": 4,
+      "result": true
+    },
+    "fuel": true,
+    "no_fuel": true,
+    "no_fluid": true,
+    "idle": true,
+    "blocked_item": true,
+    "fluid_output_blocking": "not applicable: all actual products are items",
+    "stop_restart": true,
+    "prototype_overrides": false
+  },
+  "tested_working_tree_file_hashes": {
+    "tanks_for_bob_fork_1.8.104/data-final-fixes.lua": "321bc20621ed28abc3b9ab8bca67d9d177e7488e9e8a8b9af160f124a7da77dc",
+    "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/calcifier-v2-production.lua": "5c32ee95ee05996d62fca45410089efd4117c76ebc8fbaa0ce1ef787fd00eb95",
+    "tanks_for_bob_fork_1.8.104/graphics/entity/calcifier-v2/idle-256.png": "76e424cef69c6f8e4f61995f152bcc9088f17198e3a49c1f79aaa64fb441901c",
+    "tanks_for_bob_fork_1.8.104/graphics/entity/calcifier-v2/working-256.png": "cfb38ada5c0d09c94ce560ca508b1336b8a5e742adb0bcf33cbdca33115b4f69",
+    "tanks_for_bob_fork_1.8.104/graphics/icons/calcifier-v2.png": "e6e93f830337f1d2f3d636f66cb1b137512d20f1908bb6f91b2a325be9f7ee1c"
+  },
+  "code_hash_scope": "Exact native-tested working-tree bytes; Git text normalization may change code bytes. Binary/image hashes are immutable.",
+  "full_user_mod_pack_installation": false,
+  "owner_visual_approved": false
+}

@@ -1,0 +1,216 @@
+{
+  "parent_source_sha256": "9e369da15c328d563d7a77b18b242c26bfe46f07971df4cdec0ce92ac03a6efb",
+  "source_sha256": "4b74ef229fb1182b259dd404c1e512eaace97b203c02d7ab95611ed0b8547d5b",
+  "runtime_sha256": "83109d021ee8c5052e13f27f5bc802457b4c90bea6ed884dcba1e7321a9e49e0",
+  "recipe_modules": {
+    "Calcifier-pro through pro-5": "Heated wetted mineral bed and geared paddles",
+    "ionic-scum": "Settling sump, guided separation screen and internal return",
+    "microcrystal-sediment": "Driven grading sieve and draining bed",
+    "hydrocoptic-crystal": "Wet bioceramic preform feed and two-cavity piston die"
+  },
+  "hex_union_records": [
+    {
+      "replaces": "CALCIFIER V2 | settling sump internal return end union",
+      "center": [
+        -0.6600000262260437,
+        -0.9399999976158142,
+        0.17000000178813934
+      ],
+      "bore": 0.014999998847665404
+    },
+    {
+      "replaces": "CALCIFIER V2 | settling sump internal return end union.001",
+      "center": [
+        -0.9750000238418579,
+        0.11999999731779099,
+        1.1799999475479126
+      ],
+      "bore": 0.014999998847665404
+    },
+    {
+      "replaces": "CALCIFIER V2 | wet die conditioning feed end union",
+      "center": [
+        0.35821834206581116,
+        0.31726768612861633,
+        1.1121914386749268
+      ],
+      "bore": 0.016000000000126177
+    },
+    {
+      "replaces": "CALCIFIER V2 | wet die conditioning feed end union.001",
+      "center": [
+        0.09000000357627869,
+        -1.0399999618530273,
+        0.46000000834465027
+      ],
+      "bore": 0.016000000000126177
+    },
+    {
+      "replaces": "CALCIFIER | capped spare south outlet end union",
+      "center": [
+        0.0,
+        -1.100000023841858,
+        0.20000000298023224
+      ],
+      "bore": 0.050999998466405704
+    },
+    {
+      "replaces": "CALCIFIER | capped spare south outlet end union.001",
+      "center": [
+        0.0,
+        -1.5,
+        0.20000000298023224
+      ],
+      "bore": 0.050999998466405704
+    },
+    {
+      "replaces": "CALCIFIER | closed solids discharge end union",
+      "center": [
+        -0.6100000143051147,
+        -0.38999998569488525,
+        1.1299999952316284
+      ],
+      "bore": 0.08099999719308945
+    },
+    {
+      "replaces": "CALCIFIER | closed solids discharge end union.001",
+      "center": [
+        -0.6600000262260437,
+        -0.7699999809265137,
+        0.5
+      ],
+      "bore": 0.08099999719308945
+    },
+    {
+      "replaces": "CALCIFIER | engine return to jacket end union",
+      "center": [
+        1.0,
+        -0.550000011920929,
+        0.4300000071525574
+      ],
+      "bore": 0.016000000000126177
+    },
+    {
+      "replaces": "CALCIFIER | engine return to jacket end union.001",
+      "center": [
+        0.3199999928474426,
+        0.2800000011920929,
+        0.7400000095367432
+      ],
+      "bore": 0.016000000000126177
+    },
+    {
+      "replaces": "CALCIFIER | hearth combustion passage end union",
+      "center": [
+        0.36000001430511475,
+        0.550000011920929,
+        0.36000001430511475
+      ],
+      "bore": 0.054999998847980854
+    },
+    {
+      "replaces": "CALCIFIER | hearth combustion passage end union.001",
+      "center": [
+        0.9900000095367432,
+        1.0499999523162842,
+        0.6100000143051147
+      ],
+      "bore": 0.054999998847980854
+    },
+    {
+      "replaces": "CALCIFIER | heated bowl engine supply end union",
+      "center": [
+        0.3696872591972351,
+        0.49253466725349426,
+        1.2274391651153564
+      ],
+      "bore": 0.01899999938905239
+    },
+    {
+      "replaces": "CALCIFIER | heated bowl engine supply end union.001",
+      "center": [
+        1.0,
+        -0.550000011920929,
+        0.5799999833106995
+      ],
+      "bore": 0.01899999938905239
+    },
+    {
+      "replaces": "CALCIFIER | mineral bed lance end union",
+      "center": [
+        0.19982871413230896,
+        0.5197739601135254,
+        1.211506724357605
+      ],
+      "bore": 0.013000000060017024
+    },
+    {
+      "replaces": "CALCIFIER | mineral bed lance end union.001",
+      "center": [
+        -0.7200000286102295,
+        0.3400000035762787,
+        1.2000000476837158
+      ],
+      "bore": 0.013000000060017024
+    },
+    {
+      "replaces": "CALCIFIER | mineral bed lance end union.002",
+      "center": [
+        0.17965972423553467,
+        0.5063665509223938,
+        1.2008274793624878
+      ],
+      "bore": 0.013000000060017024
+    },
+    {
+      "replaces": "CALCIFIER | mineral bed lance end union.003",
+      "center": [
+        0.11999999731779099,
+        0.3400000035762787,
+        1.2000000476837158
+      ],
+      "bore": 0.013000000060017024
+    },
+    {
+      "replaces": "CALCIFIER | mineral feed downspout end union",
+      "center": [
+        -0.8700000047683716,
+        0.9200000166893005,
+        1.6399999856948853
+      ],
+      "bore": 0.043999998024713466
+    },
+    {
+      "replaces": "CALCIFIER | mineral feed downspout end union.001",
+      "center": [
+        -0.550000011920929,
+        0.4300000071525574,
+        1.340000033378601
+      ],
+      "bore": 0.043999998024713466
+    },
+    {
+      "replaces": "CALCIFIER | north water steam inlet end union",
+      "center": [
+        0.0,
+        1.5,
+        0.20000000298023224
+      ],
+      "bore": 0.050999998466405704
+    },
+    {
+      "replaces": "CALCIFIER | north water steam inlet end union.001",
+      "center": [
+        0.309566468000412,
+        0.4689808487892151,
+        1.0088270902633667
+      ],
+      "bore": 0.050999998466405704
+    }
+  ],
+  "sieve_rod_length": 1.7801404438976156,
+  "external_ports_unchanged": true,
+  "gameplay_changed": false,
+  "owner_visual_approved": false,
+  "native_integrated": false
+}

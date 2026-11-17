@@ -1,0 +1,82 @@
+{
+  "actual_factorio_client_frames": 16,
+  "fps": 4,
+  "seconds": 4,
+  "source_frames": [
+    {
+      "path": "north-motion-00.png",
+      "sha256": "047ac42844f8b12eb0ad370048ef421336bc6f22a66c93a2aed2480fddc2c39d"
+    },
+    {
+      "path": "north-motion-01.png",
+      "sha256": "3953faaf8eb0f18ffbcc1f4eca482e99ecfb5022350cb8eb262d35db42e818d9"
+    },
+    {
+      "path": "north-motion-02.png",
+      "sha256": "a9aae3b3525af039083914bae4d42eafb1484f39f2399bb09617f0ead51c6191"
+    },
+    {
+      "path": "north-motion-03.png",
+      "sha256": "919789b251c2644cd713df8f4a07871ca73c5c53eef7e280270d402d835385c0"
+    },
+    {
+      "path": "north-motion-04.png",
+      "sha256": "b17cab2bb1776ad01f998f02ac4eceb3d57151b7fada78821ad503437cb1b515"
+    },
+    {
+      "path": "north-motion-05.png",
+      "sha256": "d504a1b5196f00e4449ab0af318acfc05acd26fb2f6268242f6a8bd9ff240a1a"
+    },
+    {
+      "path": "north-motion-06.png",
+      "sha256": "bccc48bc18f497e4af2e8ceb2466414c82a029c5ee14108943f121b95ff5bf71"
+    },
+    {
+      "path": "north-motion-07.png",
+      "sha256": "22b02e25c27abc4162e1fe7caee37f74aa86b437ed9dc46057bc42039c263716"
+    },
+    {
+      "path": "north-motion-08.png",
+      "sha256": "8580f3c6fe39698703918bee8cf0aa31e6eda3ba03447ea7e0680ffd3da6b51b"
+    },
+    {
+      "path": "north-motion-09.png",
+      "sha256": "fcc63ad1317a71a1934cb4408e2db34c8ed6af9320d6d826dca495d693c90d46"
+    },
+    {
+      "path": "north-motion-10.png",
+      "sha256": "b57783c2aa4c8e066b27db679178a22f5f39851d16f5f9a94e71d51937843f69"
+    },
+    {
+      "path": "north-motion-11.png",
+      "sha256": "6c2ce0fed9e9d9c922b09f2ee79c0c11b238a93c8a6de98177d3758de1d813e2"
+    },
+    {
+      "path": "north-motion-12.png",
+      "sha256": "01a097f82861f1aef2af8eaa52c3f89a9f3c3ff8c3d3dcbfe64d599f5d5e7441"
+    },
+    {
+      "path": "north-motion-13.png",
+      "sha256": "7268ff7e14a5d7d1db07f507608a11d5305bcf12444834eb6969fad29a51329a"
+    },
+    {
+      "path": "north-motion-14.png",
+      "sha256": "ad2e1559bd8c03430a605d7fdc64832c268638b4e73667ac459a989c3312d51f"
+    },
+    {
+      "path": "north-motion-15.png",
+      "sha256": "6e3380f64effc2b2ef3fde22033c8a7d7a7a8f769571cd3160df7d4cc5addda1"
+    }
+  ],
+  "gif_sha256": "0493ace337b8cb1d7da8d9866740a7cd0ccc53869934346cca24ec99215d46ed",
+  "mp4_sha256": "7ab2463d08e2e4ba566c60bfabd4de3c3286e123842d96b9843364bbfbf54e3a",
+  "video_probe": {
+    "width": 640,
+    "height": 640,
+    "r_frame_rate": "4/1",
+    "duration": "4.000000",
+    "nb_frames": "16"
+  },
+  "interpolated_frames": false,
+  "generated_replacements": false
+}

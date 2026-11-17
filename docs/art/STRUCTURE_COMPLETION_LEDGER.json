@@ -1,6 +1,6 @@
 {
   "schema": "tanks.structure-production-ledger.v1",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "baseline_commit": "7290824bf43711d0bb31bd8e2969c51459864f91",
   "active_source": "tanks_for_bob_fork_1.8.104",
   "scope": "21 survival/manufacturing structures; excludes vehicles and Tech-Priests turrets",
@@ -288,15 +288,22 @@
     {
       "id": "calcifier",
       "name": "Calcifier",
-      "revision": "OBJ blockout",
-      "status": "rebuild_required",
+      "revision": "V2 offset drive and full-size registered sockets",
+      "status": "operational_native_verified_delivery_pending",
       "priority": 19,
-      "next": "Build mineral furnace, charge/discharge, localized fuel/heat/exhaust and working states.",
+      "next": "Commit/push source, sprites and native proof; verify canonical FMPL and remote delivery.",
       "evidence": [
-        "models/island-survival/designs.json"
+        "models/island-survival/calcifier/v2/FMPL_MODEL.json",
+        "docs/art/calcifier-v2",
+        "models/island-survival/calcifier/candidates/v2-sockets08/clearance-review.json"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false
+      "done": false,
+      "owner_corrections": [
+        "Needs better pipe fittings and more mechanical greebles; visually explain the remaining crafting operations using attached machines/boxes and piston linkages.",
+        "Check all added components through the animated cycle; replace the colliding shaker-to-wheel rail with a rigid offset drive.",
+        "Enlarge and correctly position image pipe attachments against real player-grid pipes in every direction."
+      ]
     },
     {
       "id": "thinking-hut",
@@ -333,5 +340,5 @@
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
     "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
-  "production_state": "active; corrected barrel compressor, Wood Basin, Quarry and refined Shaler delivered; establish actual Calcifier contract before building"
+  "production_state": "active; Calcifier V2 operational with full-cycle source/export clearance checks and full-size registered pipe joints; remote delivery pending"
 }

@@ -63,3 +63,6 @@ require("prototypes.generated_graphics.quarry-v5-production")
 
 -- Low-tech steam/water waste processing and guided canister packing.
 require("prototypes.generated_graphics.shaler-v2-production")
+
+-- Heated mineral growth bed with constrained geared paddle drive.
+require("prototypes.generated_graphics.calcifier-v2-production")

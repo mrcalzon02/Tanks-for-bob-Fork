@@ -1,0 +1,42 @@
+   0.002 2026-11-17 00:18:12; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.002 Operating system: Windows 11 (build 26200) 
+   0.002 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\calcifier-v2-sockets-client03\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\calcifier-v2-sockets-client03\mods" "--test-save" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\calcifier-v2-sockets-client03\runtime\saves\_autosave-calcifier-complete-client.zip" "--test-ticks" "300" 
+   0.002 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/calcifier-v2-sockets-client03/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/calcifier-v2-sockets-client03/runtime [247495/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.009 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 17812/32526 MB, page: 25763/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.035 Running in headless mode
+   0.035 Audio is disabled
+   0.037 Info ModManager.cpp:455: FeatureFlag: 
+   0.039 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.042 Loading mod core 0.0.0 (data.lua)
+   0.056 Loading mod base 2.1.24 (data.lua)
+   0.298 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.331 Loading mod base 2.1.24 (data-updates.lua)
+   0.336 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.341 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.382 Checksum for core: 3668028660
+   0.382 Checksum of base: 3864816957
+   0.382 Checksum of tanks_for_bob_fork: 2485200397
+   0.382 Checksum of calcifier-v2-proof: 0
+   0.382 Checksum of calcifier-v2-capture: 0
+   0.504 Prototype list checksum: 1368343619
+   0.527 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.527 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.529 Info GlobalContext.cpp:1347: Resetting config.
+   0.530 Factorio initialised
+   0.530 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\calcifier-v2-sockets-client03\runtime\saves\_autosave-calcifier-complete-client.zip: 1686864 bytes.
+   0.661 Loading level.dat: 2072105 bytes.
+   0.662 Info Scenario.cpp:152: Map version 2.1.24-1
+   0.680 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   0.681 Loading script.dat: 43201 bytes.
+   0.686 Checksum for script __level__/control.lua: 3368906707
+   0.689 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   0.690 Checksum for script __calcifier-v2-proof__/control.lua: 1130594245
+   0.691 Checksum for script __calcifier-v2-capture__/control.lua: 3593134417
+   0.706 Script @__calcifier-v2-proof__/control.lua:73: CALCIFIER_V2_RELOAD_PASS complete=true stored_products=true
+   0.706 Script @__calcifier-v2-capture__/control.lua:10: CALCIFIER_GUI_SKIP_INTRO true
+   0.759 Info RunTest.cpp:80: Ran 300 ticks without the test finishing
+   0.759 Info GlobalContext.cpp:763: Deleting active scenario.
+   0.812 Goodbye

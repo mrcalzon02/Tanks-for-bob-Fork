@@ -1,0 +1,59 @@
+{
+  "source_sha256": "1ae75578d593c9e2fddb7964329b09dbb181726c790d6b32776d8a62f50572bc",
+  "glb_sha256": "56617deebd398b5b68870b49fd29587c4f4e29fba0cc75c399f6781e0537dc59",
+  "starter_sha256": "1b9609a4d7368a8e22c6c97927673bb1a210e45f38de608d78c3e8f2fd6a4678",
+  "reused_groups": [
+    "CALCIFIER | REUSED calcifier_base",
+    "CALCIFIER | REUSED calcifier_kiln_drum",
+    "CALCIFIER | REUSED calcifier_mineral_hopper",
+    "CALCIFIER | REUSED calcifier_furnace_door",
+    "CALCIFIER | REUSED calcifier_exhaust",
+    "CALCIFIER | REUSED calcifier_coal_rake"
+  ],
+  "gear_teeth": [
+    18,
+    18,
+    31,
+    62
+  ],
+  "belt": {
+    "radius": 0.19799284515836046,
+    "center_distance": 0.6220128678128467,
+    "perimeter": 2.488051471251387,
+    "turns_per_loop": 2
+  },
+  "fixed_sockets": [
+    {
+      "role": "input",
+      "native_position": [
+        0,
+        -1
+      ],
+      "source_socket": [
+        0,
+        1.5,
+        0.2
+      ],
+      "fluids": [
+        "water",
+        "steam"
+      ]
+    },
+    {
+      "role": "output",
+      "native_position": [
+        0,
+        1
+      ],
+      "source_socket": [
+        0,
+        -1.5,
+        0.2
+      ],
+      "usage": "Unused by every current recipe; preserve prototype and show capped socket, do not invent fluid production."
+    }
+  ],
+  "owner_visual_approved": false,
+  "native_integrated": false,
+  "degenerate_repairs": {}
+}

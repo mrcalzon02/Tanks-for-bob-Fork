@@ -1,0 +1,73 @@
+   0.001 2026-11-17 00:16:15; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.001 Operating system: Windows 11 (build 26200) 
+   0.001 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\calcifier-v2-sockets-native03\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\calcifier-v2-sockets-native03\mods" "--test-scenario" "calcifier-v2-proof/proof" "--test-ticks" "14520" 
+   0.001 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/calcifier-v2-sockets-native03/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/calcifier-v2-sockets-native03/runtime [247625/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.008 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 17967/32526 MB, page: 25881/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.043 Running in headless mode
+   0.043 Audio is disabled
+   0.044 Info ModManager.cpp:455: FeatureFlag: 
+   0.046 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.049 Loading mod core 0.0.0 (data.lua)
+   0.063 Loading mod base 2.1.24 (data.lua)
+   0.312 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.396 Loading mod base 2.1.24 (data-updates.lua)
+   0.401 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.406 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.480 Checksum for core: 3668028660
+   0.480 Checksum of base: 3864816957
+   0.480 Checksum of tanks_for_bob_fork: 2485200397
+   0.480 Checksum of calcifier-v2-proof: 0
+   0.608 Prototype list checksum: 1368343619
+   0.630 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.630 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.632 Info GlobalContext.cpp:1347: Resetting config.
+   0.632 Factorio initialised
+   0.639 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.071 Loading level.dat: 853542 bytes.
+   1.071 Info Scenario.cpp:152: Map version 2.1.24-1
+   1.082 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.083 Checksum for script __level__/control.lua: 3071058485
+   1.087 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   1.094 Checksum for script __calcifier-v2-proof__/control.lua: 1130594245
+   1.168 Script @__calcifier-v2-proof__/control.lua:67: CALCIFIER_CONTRACT {"recipes":["Calcifier-pro","Calcifier-pro-2","Calcifier-pro-3","Calcifier-pro-4","Calcifier-pro-5","hydrocoptic-crystal","ionic-scum","microcrystal-sediment"],"machines":48,"rotation":{"before":0,"after":4,"result":true}}
+   2.362 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro","direction":0,"output":[{"name":"stone","quality":"normal","count":16}],"fluids":{"water":950},"status":1,"progress":0.02228571428580611524239429854787886142730712890625}
+   2.362 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro","direction":4,"output":[{"name":"stone","quality":"normal","count":16},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1}],"fluids":{"water":950},"status":1,"progress":0.02228571428580611524239429854787886142730712890625}
+   2.362 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro","direction":8,"output":[{"name":"stone","quality":"normal","count":16}],"fluids":{"water":950},"status":1,"progress":0.02228571428580611524239429854787886142730712890625}
+   2.362 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro","direction":12,"output":[{"name":"stone","quality":"normal","count":16}],"fluids":{"water":950},"status":1,"progress":0.02228571428580611524239429854787886142730712890625}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-2","direction":0,"output":[{"name":"stone","quality":"normal","count":40},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":2}],"fluids":{"water":2000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-2","direction":4,"output":[{"name":"stone","quality":"normal","count":40},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":2}],"fluids":{"water":2000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-2","direction":8,"output":[{"name":"stone","quality":"normal","count":40},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":2}],"fluids":{"water":2000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-2","direction":12,"output":[{"name":"stone","quality":"normal","count":40},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":2}],"fluids":{"water":2000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-3","direction":0,"output":[{"name":"stone","quality":"normal","count":120},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":8}],"fluids":{"water":4000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-3","direction":4,"output":[{"name":"stone","quality":"normal","count":120},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":8}],"fluids":{"water":4000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-3","direction":8,"output":[{"name":"stone","quality":"normal","count":120},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":8}],"fluids":{"water":4000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-3","direction":12,"output":[{"name":"stone","quality":"normal","count":120},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":8}],"fluids":{"water":4000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-4","direction":0,"output":[{"name":"stone","quality":"normal","count":300},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":20}],"fluids":{"steam":6000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-4","direction":4,"output":[{"name":"stone","quality":"normal","count":300},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":20}],"fluids":{"steam":6000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-4","direction":8,"output":[{"name":"stone","quality":"normal","count":300},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":20}],"fluids":{"steam":6000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-4","direction":12,"output":[{"name":"stone","quality":"normal","count":300},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":20}],"fluids":{"steam":6000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-5","direction":0,"output":[{"name":"stone","quality":"normal","count":800},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":60}],"fluids":{"steam":6000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-5","direction":4,"output":[{"name":"stone","quality":"normal","count":800},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":60}],"fluids":{"steam":6000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-5","direction":8,"output":[{"name":"stone","quality":"normal","count":800},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":60}],"fluids":{"steam":6000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"Calcifier-pro-5","direction":12,"output":[{"name":"stone","quality":"normal","count":800},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":60}],"fluids":{"steam":6000},"status":32,"progress":1}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"hydrocoptic-crystal","direction":0,"output":[{"name":"hydrocoptic-crystal","quality":"normal","count":6}],"fluids":{"water":600},"status":32,"progress":0}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"hydrocoptic-crystal","direction":4,"output":[{"name":"hydrocoptic-crystal","quality":"normal","count":6}],"fluids":{"water":600},"status":32,"progress":0}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"hydrocoptic-crystal","direction":8,"output":[{"name":"hydrocoptic-crystal","quality":"normal","count":6}],"fluids":{"water":600},"status":32,"progress":0}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"hydrocoptic-crystal","direction":12,"output":[{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1},{"name":"hydrocoptic-crystal","quality":"normal","count":6}],"fluids":{"water":600},"status":32,"progress":0}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"ionic-scum","direction":0,"output":[{"name":"ionic-scum","quality":"normal","count":6},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":3}],"fluids":{"water":1000},"status":32,"progress":0}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"ionic-scum","direction":4,"output":[{"name":"ionic-scum","quality":"normal","count":6},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":3}],"fluids":{"water":1000},"status":32,"progress":0}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"ionic-scum","direction":8,"output":[{"name":"ionic-scum","quality":"normal","count":6},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":3}],"fluids":{"water":1000},"status":32,"progress":0}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"ionic-scum","direction":12,"output":[{"name":"ionic-scum","quality":"normal","count":6},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":3}],"fluids":{"water":1000},"status":32,"progress":0}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"microcrystal-sediment","direction":0,"output":[{"name":"microcrystal-sediment","quality":"normal","count":6}],"fluids":{"water":1000},"status":32,"progress":0}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"microcrystal-sediment","direction":4,"output":[{"name":"microcrystal-sediment","quality":"normal","count":6}],"fluids":{"water":1000},"status":32,"progress":0}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"microcrystal-sediment","direction":8,"output":[{"name":"microcrystal-sediment","quality":"normal","count":6}],"fluids":{"water":1000},"status":32,"progress":0}
+   2.363 Script @__calcifier-v2-proof__/control.lua:81: CALCIFIER_RECIPE_DIAG {"recipe":"microcrystal-sediment","direction":12,"output":[{"name":"microcrystal-sediment","quality":"normal","count":6}],"fluids":{"water":1000},"status":32,"progress":0}
+   2.363 Script @__calcifier-v2-proof__/control.lua:91: CALCIFIER_V2_ALL_RECIPES_FUEL_IDLE_BLOCKED_PASS
+   2.384 Script @__calcifier-v2-proof__/control.lua:96: CALCIFIER_V2_STOP_PASS
+   3.538 Script @__calcifier-v2-proof__/control.lua:100: CALCIFIER_V2_NATIVE_PASS {"passed":true,"machines":48,"real_recipes":["Calcifier-pro","Calcifier-pro-2","Calcifier-pro-3","Calcifier-pro-4","Calcifier-pro-5","hydrocoptic-crystal","ionic-scum","microcrystal-sediment"],"player_grid_connections":44,"rotation":{"before":0,"after":4,"result":true},"fuel":true,"no_fuel":true,"no_fluid":true,"idle":true,"blocked_item":true,"fluid_output_blocking":"not applicable: all actual products are items","stop_restart":true,"prototype_overrides":false}
+   3.560 Info RunTest.cpp:80: Ran 14520 ticks without the test finishing
+   3.560 Info GlobalContext.cpp:763: Deleting active scenario.
+   3.589 Goodbye
