@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "operated_save_sha256": "348bf9aa7e6e36855ea949c4942377de25fc5f702a950dc36acfb2015004e170",
+  "save_after_completed_native_operation": true,
+  "machines": 16,
+  "ordinary_grid_connections": 16,
+  "reload_ticks": 300,
+  "checked": "Actual network water totals, source tile, disabled state, four directions, native connected pipes and actual Workbench-crafted wheel output",
+  "freeze": "Native disabled_by_script on all pumps and Workbench; 60 ticks of settling before snapshot; client save waited to finish"
+}

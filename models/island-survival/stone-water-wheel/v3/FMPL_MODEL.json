@@ -1,0 +1,63 @@
+{
+  "schema": "fmpl.model-delivery.v1",
+  "id": "tanks-stone-water-wheel-v3",
+  "status": "native_verified_delivery_pending",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "prototype": {
+    "type": "offshore-pump",
+    "name": "stone-water-wheel"
+  },
+  "native_tile_dimensions": [
+    1,
+    1
+  ],
+  "native_collision_box": {
+    "left_top": {
+      "y": -1.046875,
+      "x": -0.59765625
+    },
+    "right_bottom": {
+      "y": 0.296875,
+      "x": 0.59765625
+    }
+  },
+  "scene_units_per_tile": 1,
+  "source": {
+    "path": "models/island-survival/stone-water-wheel/candidates/v3-production04/stone-water-wheel-v3.blend",
+    "sha256": "e9aa7f71dad7624b0e6650a77df182f102a1640515969a986be168c07bd189f4"
+  },
+  "runtime": {
+    "path": "models/island-survival/stone-water-wheel/candidates/v3-production04/stone-water-wheel-v3.glb",
+    "sha256": "5f1f104afb9e76859dc1de287efa7ad3fde784a42288f92c47793d56109b5b90"
+  },
+  "packed_pbr_images": 18,
+  "embedded_export_pbr_images": 18,
+  "source_and_runtime_pose_checks": 6,
+  "mechanism_sampled_poses_per_artifact": 385,
+  "upright_buckets": 8,
+  "clearance_poses_per_artifact": 385,
+  "source_and_actual_glb_clearances_checked": true,
+  "clearance_review": "models/island-survival/stone-water-wheel/candidates/v3-production04/clearance-review.json",
+  "genuine_combined_camera_captures": 132,
+  "genuine_rendered_layer_passes": 396,
+  "working_frames_per_facing": 32,
+  "fps": 8,
+  "native_art_orientations": 4,
+  "capture_policy": "fmpl.factorio45.v1",
+  "native_engine": "2.1.24",
+  "native_machines": 16,
+  "native_ordinary_grid_connections": 16,
+  "water_extraction_per_second": 30,
+  "chemical_fuel_or_electricity": "none; actual void energy source, nominal 1W",
+  "actual_workbench_building_recipe_and_unlock_verified": true,
+  "gameplay_changed": false,
+  "owner_approved": false,
+  "delegated_operational_review_passed": true,
+  "full_output_stop_restart_source_landfill_and_operated_reload_verified": true,
+  "landfill_behavior": "Native hidden water source survives landfill: 60 water per 120 ticks continues, then visible water restored.",
+  "native_working_and_disabled_full_output_hold_observed": true,
+  "native_underwater_animation": "Complementary submerged frames tinted/translucent in animated object layer; no static frozen lower wheel. Depth approximated rather than per-tile underwater clipping.",
+  "actual_client_screenshots": 48,
+  "native_working_video_frames": 32,
+  "evidence": "docs/art/stone-water-wheel-v3"
+}

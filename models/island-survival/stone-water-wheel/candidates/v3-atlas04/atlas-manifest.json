@@ -1,0 +1,5016 @@
+{
+  "schema": "tanks.stone-water-wheel.v3.atlas",
+  "verified": true,
+  "source_sha256": "e9aa7f71dad7624b0e6650a77df182f102a1640515969a986be168c07bd189f4",
+  "runtime_sha256": "5f1f104afb9e76859dc1de287efa7ad3fde784a42288f92c47793d56109b5b90",
+  "genuine_combined_camera_captures": 132,
+  "genuine_rendered_layer_passes": 396,
+  "working_frames_per_facing": 32,
+  "fps": 8,
+  "unique_working_images": {
+    "north": 32,
+    "east": 32,
+    "south": 32,
+    "west": 32
+  },
+  "idle_policy": "One genuine frozen pose repeated explicitly in the idle atlas. The native offshore pump freezes its current mechanical pose; no separate idle-animation field.",
+  "layer_policy": "Complementary exact world-height holdouts, verified at all 132 camera/state/time samples. Native animated submerged layer uses tint/alpha over the actual water; no static frozen underwater wheel substitute.",
+  "files": {
+    "north-idle-full-64.png": {
+      "sha256": "98f2b7dc47cfdc1a402d16fcb3a45e95e7ebaf8fe4a47072d86b2545b2e1339d",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "north-idle-above-water-64.png": {
+      "sha256": "7d9b03b9b1dc66c3bd9ce37bd81a8b01351a10db668d87c6c06e6a11ee9979e7",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "north-idle-underwater-64.png": {
+      "sha256": "7d7624c70efa12dda6a1ef21860802e3cd5fde46dde2309ea2c5358c364c7a9d",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "north-working-full-64.png": {
+      "sha256": "b14cfafadddb40996259fc950b050a3e5a97394db0128a46bc4e880a69c60e28",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "north-working-above-water-64.png": {
+      "sha256": "5883afed2339289a6ebfda6de319c99c0eb3babd04190d93a3bd552f30726d36",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "north-working-underwater-64.png": {
+      "sha256": "e88bb71a301d00677f271771eea824c360947ca0e7bd246e5a08bccd3f1fc065",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "east-idle-full-64.png": {
+      "sha256": "bd51f5bf7efe695ef6619287b3fac0ec01ff63a0a3a6cb2df9920cd6614eb0ac",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "east-idle-above-water-64.png": {
+      "sha256": "7d03a1fa1e41acf29dbf9c9c052e0194d9f3a31f2cef96bd3422d52e623781a5",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "east-idle-underwater-64.png": {
+      "sha256": "431d33cf380f498a66c4ac5bd7ad4bb7cd8e39d8486e9e3a55547029b956656b",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "east-working-full-64.png": {
+      "sha256": "e298f36aacbea168e30602d3bcfc0a66d2808d88924ca75ad797e147e4deffe2",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "east-working-above-water-64.png": {
+      "sha256": "ec20602645967abc547f68a754c716b3bdf6124151f8fa662d67555a89466a96",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "east-working-underwater-64.png": {
+      "sha256": "c2569ee95cdfdeaf2cfd9e545ff0b500df5a94db6a1c3b713a321cb9f582a336",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "south-idle-full-64.png": {
+      "sha256": "e10ec8c2c8f61819a60de71ca49e6e4250c272d2b2c720d8c495533cb95710c5",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "south-idle-above-water-64.png": {
+      "sha256": "57f45769ad1093286249a6e1b15f2e5b50885762d4a52222079700dbfe529a35",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "south-idle-underwater-64.png": {
+      "sha256": "51e88a983984b4860486bc7c3d930330da3df69fed6de93776a445f9f87b3f51",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "south-working-full-64.png": {
+      "sha256": "37e02678ec05eb9f802f753f457e05510fd9f2b5a5acbc4f26002c51df172aa6",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "south-working-above-water-64.png": {
+      "sha256": "c1bbaf1a7c3ff412437bd43b253aa473c24338ef5761332b58ea7deb67ebf1f8",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "south-working-underwater-64.png": {
+      "sha256": "9d3411f88e7346d8bde7b0092ef0743bd92b4ea80f14914672e731056934248c",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "west-idle-full-64.png": {
+      "sha256": "697020dad7966813b1b852db529a7683361c860247d2a8adce468b96e52601d6",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "west-idle-above-water-64.png": {
+      "sha256": "1f5a0af8d0b5710d3ec4ed962dcb0177771ae0242d215e9a4ccacf65a5a9f950",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "west-idle-underwater-64.png": {
+      "sha256": "873d1f783da7bd6bbab573c470187ac2045b8e996a8eade6158dcaf9d7264734",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "west-working-full-64.png": {
+      "sha256": "bbc3672081d26ec8fc8f00b1dd619aead0b1fc0c640f4673a7adb6cec2487a57",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "west-working-above-water-64.png": {
+      "sha256": "28a79b3cd0dd3a331ebb5972470bac26412a8c1a25c10cca81a8d622f367e607",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "west-working-underwater-64.png": {
+      "sha256": "1ef91074cee992d7abc3e445a9a41f0056e8411d3581714870ea24922f016f1f",
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    "north-idle-full-128.png": {
+      "sha256": "26acbe21adca173fbf9c7196121f04cfb5d910312f6c39e5f2c1bfc65ff81ae5",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "north-idle-above-water-128.png": {
+      "sha256": "a6e6394cc95d70fd4d9a6747c4d12298f442b5c394d012a9a995a054276ac2a2",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "north-idle-underwater-128.png": {
+      "sha256": "8dd00f41f26f1c71308e677fe04e0a155289e86549040961287d30c1effa127e",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "north-working-full-128.png": {
+      "sha256": "993b2ed4df94204c5459c7c8ef75bcfed225de4537baf3a926dcc6af68ab0f8b",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "north-working-above-water-128.png": {
+      "sha256": "ce004dce06b14fc9e0adace7c29db29edb8cb56e69cf3b036ff274e6229d119f",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "north-working-underwater-128.png": {
+      "sha256": "f1cf52cedf99e470f1097da3833321992c3587c8f17074726e87b0f8346318ad",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "east-idle-full-128.png": {
+      "sha256": "1f75ce8b9c5edff255d9ce28e2341f4db9404222eab2520e5dc5158c4b71a4c9",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "east-idle-above-water-128.png": {
+      "sha256": "c561b35b91894da1a6ac6dc5ed6d9b697222f6ec5f79b3f26596e5318ebd0ef5",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "east-idle-underwater-128.png": {
+      "sha256": "a9696b0716edba5d47c1416949ba04c5421bdaccad0a3e009c816f5e1391714e",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "east-working-full-128.png": {
+      "sha256": "5099efb5bcd480c9d7f4ecaa260c7eb139fa01bb7f1c52c2cdbe5fd104d5e6c5",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "east-working-above-water-128.png": {
+      "sha256": "eb5e18fd55ab4a6ac63c58e7258fe171fa64c42fdd0f150af23c9093a1dc09a0",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "east-working-underwater-128.png": {
+      "sha256": "06967454a0c229f029f450991aba7896bf3e59bb7fb3e7a744734b5669f6644c",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "south-idle-full-128.png": {
+      "sha256": "b8a2836cd0e2fe1782ae54ee38e837da373505a929f8539b06bbbe09f11bdb28",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "south-idle-above-water-128.png": {
+      "sha256": "ce732f75c07dd324f3662611d4811e3558d899d97cc9de53e79adfdde6e04a4c",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "south-idle-underwater-128.png": {
+      "sha256": "94f9009323cc1428a481525952f93f49f3c0df27812f636e3c05adaa7c202ab2",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "south-working-full-128.png": {
+      "sha256": "221d489b0c5b1f750163a529bfb154da55700b7d0265d49fe6600e4adbe9b36d",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "south-working-above-water-128.png": {
+      "sha256": "f673050732e44e7061fcc73c8735ded9e29fe8c93587eab278909ab5d5fdc2e2",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "south-working-underwater-128.png": {
+      "sha256": "b92151515cbb90bcf3d3a4ee72809d1d58fdb19bd63bdcbf517c44b488ee2086",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "west-idle-full-128.png": {
+      "sha256": "022fab02d1aaf2a2df3c36b21e01fefb312fa7f2dca0dda741e63b13291e9eb4",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "west-idle-above-water-128.png": {
+      "sha256": "f0da027f818d55eb7526217f3484e12023c749de3241ecc266ea08a997c4b6f1",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "west-idle-underwater-128.png": {
+      "sha256": "0b6c84df5a562f4a8176128ff5f65855b7cecf27d8bdf64ecea5c4aa3004ad3b",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "west-working-full-128.png": {
+      "sha256": "f1bc2f12255923068490c9a4fa5d7b77f2bc78d5d6279e60785aa042ad0e278c",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "west-working-above-water-128.png": {
+      "sha256": "bb0bab218d8f6d5eb66f14d93a004e8655046c1d3eda59c900fb4de0c82cf575",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "west-working-underwater-128.png": {
+      "sha256": "cb83973978036d2bac87798a8e7675b2244d4b48cf8156fb9ddd0ea722eedc0c",
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    "north-idle-full-256.png": {
+      "sha256": "18334d556f70300b6c1c9911bcf63723ebdab6213d7eee8f83bf0b02e583d9d9",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "north-idle-above-water-256.png": {
+      "sha256": "95d99785f4fdcf603179c74df1658014bd658953cf99bcdc0a46942745950639",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "north-idle-underwater-256.png": {
+      "sha256": "7dabbaf6426064cb7e666f60b00614fa23581481338ae9b1b29d66aacb4ed9ed",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "north-working-full-256.png": {
+      "sha256": "f948fed57d2da9e5cdd7b610c85a1984bf5a4b53cecbada1eaccf53acac989f1",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "north-working-above-water-256.png": {
+      "sha256": "b764acaa14b1cf55e4cd91b4c4e497736506f8fdf1a91f0b898a09a6c7ec4026",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "north-working-underwater-256.png": {
+      "sha256": "c93e651c13c852f3ebc3a398864015f4ec401a8556e01975c86ef7694709488a",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "east-idle-full-256.png": {
+      "sha256": "db9363a58f710ee79487fd7667feee90ba6b47a5e66bb37eed5307ec59965f92",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "east-idle-above-water-256.png": {
+      "sha256": "9ba4d8fda652ee02c2c7d4f417edb4830dcdb6949faab690e9d4386dbcf08b2a",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "east-idle-underwater-256.png": {
+      "sha256": "8693e0800fd784d63470c1d2727dcd94141523bedf61478ef4719093676e12bb",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "east-working-full-256.png": {
+      "sha256": "bd5ef66e7a1c4e1f31364d41167f563c7a34267847769b543f2dfa4af4834ffb",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "east-working-above-water-256.png": {
+      "sha256": "c95858e12c351cddeec54e1a3e007fa38f14bdd7dcaee19c549a82874ed2d12f",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "east-working-underwater-256.png": {
+      "sha256": "393ec99f9dc16754b6cc7181de5423a8ec7ba9476eb1efbb467cdb2f96ddda70",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "south-idle-full-256.png": {
+      "sha256": "3dd348c4ad0f078f080c23ff8d05982a5d4926af977571ea9e70eb5d54180d7d",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "south-idle-above-water-256.png": {
+      "sha256": "9ef197baf3c5b7e95e1db853ad73be509a0e61df4fe15536733be8e9d909c174",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "south-idle-underwater-256.png": {
+      "sha256": "73b58b4c1cf4a268f7cbc39f2bb6d87e5d698b396a17c19b61bd3ccc0449e651",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "south-working-full-256.png": {
+      "sha256": "5a1f61896d79636fdc71736465be0b01344244963bb99e57c003467e8c6e49dd",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "south-working-above-water-256.png": {
+      "sha256": "22694d4245d8e7b7de3adbd2fb09c4ddae04097946357733e0c3a668071a1c10",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "south-working-underwater-256.png": {
+      "sha256": "347dac0909e00d7e1d117cb3533f5a24cded7baad598761fde8fc3510d949695",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "west-idle-full-256.png": {
+      "sha256": "ba8ad68124138f28d68b3ef8a51551439a12a0d2626613019825406998accb41",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "west-idle-above-water-256.png": {
+      "sha256": "7219c66ddfacfd53e0453f64ec6e744cd669dc7c7e101d05a86ecd99154c31f8",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "west-idle-underwater-256.png": {
+      "sha256": "672e3d47404037c383341c70dca5427557d3d67f4d945b07c6c679989ff7bb01",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "west-working-full-256.png": {
+      "sha256": "7f7c3cc51e61cd7a7a0955bf85eab5e3f7bf6dab0867237a7d2f1f4be9db9015",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "west-working-above-water-256.png": {
+      "sha256": "049c5e500e6097a5b7c5a1d8e812e4f814c5cb9b860e4a72455e1211704b3880",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    },
+    "west-working-underwater-256.png": {
+      "sha256": "c8df2419b2c38cd79f7a8b00cc9c277dc9b0d871ea95069acd317f0ae1692dd2",
+      "dimensions": [
+        2048,
+        1024
+      ]
+    }
+  },
+  "layer_qa": [
+    {
+      "facing": "north",
+      "state": "idle",
+      "index": 0,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 0,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 1,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 2,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 3,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 4,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 5,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 6,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 7,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 8,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 9,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 10,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 11,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 12,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 13,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 14,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 15,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 16,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 17,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 18,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 19,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 20,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 21,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 22,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 23,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 24,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 25,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 26,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 27,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 28,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 29,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 30,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "north",
+      "state": "working",
+      "index": 31,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "idle",
+      "index": 0,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 0,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 1,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 2,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 3,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 4,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 5,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 6,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 7,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 8,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 9,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 10,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 11,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 12,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 13,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 14,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 15,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 16,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 17,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 18,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 19,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 20,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 21,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 22,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 23,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 24,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 25,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 26,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 27,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 28,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 29,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 30,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "east",
+      "state": "working",
+      "index": 31,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "idle",
+      "index": 0,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 0,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 1,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 2,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 3,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 4,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 5,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 6,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 7,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 8,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 9,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 10,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 11,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 12,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 13,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 14,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 15,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 16,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 17,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 18,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 19,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 20,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 21,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 22,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 23,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 24,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 25,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 26,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 27,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 28,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 29,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 30,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "south",
+      "state": "working",
+      "index": 31,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "idle",
+      "index": 0,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 0,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 1,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 2,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 3,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 4,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 5,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 6,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 7,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 8,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 9,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 10,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 11,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 12,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 13,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 14,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 15,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 16,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 17,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 18,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 19,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 20,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 21,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 22,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 23,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 24,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 25,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 26,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 27,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 28,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 29,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 30,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    },
+    {
+      "facing": "west",
+      "state": "working",
+      "index": 31,
+      "opaque_overlap": 0,
+      "missing_body": 0
+    }
+  ],
+  "alpha_bounds": [
+    {
+      "file": "north-idle-00-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-idle-00-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-idle-00-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        175
+      ]
+    },
+    {
+      "file": "north-working-00-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-00-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-00-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        175
+      ]
+    },
+    {
+      "file": "north-working-01-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-01-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-01-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-02-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-02-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-02-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-03-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-03-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-03-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        179
+      ]
+    },
+    {
+      "file": "north-working-04-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-04-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-04-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        175
+      ]
+    },
+    {
+      "file": "north-working-05-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-05-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-05-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-06-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-06-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-06-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-07-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-07-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-07-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        179
+      ]
+    },
+    {
+      "file": "north-working-08-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-08-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-08-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        175
+      ]
+    },
+    {
+      "file": "north-working-09-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-09-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-09-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-10-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-10-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-10-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-11-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-11-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-11-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        179
+      ]
+    },
+    {
+      "file": "north-working-12-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-12-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-12-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        175
+      ]
+    },
+    {
+      "file": "north-working-13-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-13-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-13-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-14-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-14-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-14-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-15-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-15-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-15-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        179
+      ]
+    },
+    {
+      "file": "north-working-16-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-16-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-16-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        175
+      ]
+    },
+    {
+      "file": "north-working-17-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-17-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-17-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-18-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-18-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-18-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-19-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-19-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-19-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        179
+      ]
+    },
+    {
+      "file": "north-working-20-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-20-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-20-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        175
+      ]
+    },
+    {
+      "file": "north-working-21-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-21-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-21-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-22-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-22-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-22-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-23-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-23-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-23-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        179
+      ]
+    },
+    {
+      "file": "north-working-24-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-24-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-24-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        175
+      ]
+    },
+    {
+      "file": "north-working-25-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-25-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-25-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-26-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-26-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-26-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-27-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-27-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-27-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        179
+      ]
+    },
+    {
+      "file": "north-working-28-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-28-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-28-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        175
+      ]
+    },
+    {
+      "file": "north-working-29-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-29-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-29-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-30-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-30-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-30-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        161
+      ]
+    },
+    {
+      "file": "north-working-31-full.png",
+      "alpha_bounds": [
+        79,
+        56,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-31-above-water.png",
+      "alpha_bounds": [
+        79,
+        68,
+        177,
+        225
+      ]
+    },
+    {
+      "file": "north-working-31-underwater.png",
+      "alpha_bounds": [
+        81,
+        56,
+        176,
+        179
+      ]
+    },
+    {
+      "file": "east-idle-00-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-idle-00-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-idle-00-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        198,
+        144
+      ]
+    },
+    {
+      "file": "east-working-00-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-00-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-00-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        198,
+        144
+      ]
+    },
+    {
+      "file": "east-working-01-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-01-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-01-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        194,
+        139
+      ]
+    },
+    {
+      "file": "east-working-02-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-02-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-02-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        191,
+        145
+      ]
+    },
+    {
+      "file": "east-working-03-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-03-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-03-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        202,
+        136
+      ]
+    },
+    {
+      "file": "east-working-04-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-04-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-04-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        198,
+        144
+      ]
+    },
+    {
+      "file": "east-working-05-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-05-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-05-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        194,
+        139
+      ]
+    },
+    {
+      "file": "east-working-06-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-06-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-06-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        191,
+        145
+      ]
+    },
+    {
+      "file": "east-working-07-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-07-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-07-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        202,
+        136
+      ]
+    },
+    {
+      "file": "east-working-08-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-08-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-08-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        198,
+        144
+      ]
+    },
+    {
+      "file": "east-working-09-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-09-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-09-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        194,
+        139
+      ]
+    },
+    {
+      "file": "east-working-10-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-10-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-10-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        191,
+        145
+      ]
+    },
+    {
+      "file": "east-working-11-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-11-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-11-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        202,
+        136
+      ]
+    },
+    {
+      "file": "east-working-12-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-12-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-12-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        198,
+        144
+      ]
+    },
+    {
+      "file": "east-working-13-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-13-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-13-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        194,
+        139
+      ]
+    },
+    {
+      "file": "east-working-14-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-14-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-14-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        191,
+        145
+      ]
+    },
+    {
+      "file": "east-working-15-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-15-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-15-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        202,
+        136
+      ]
+    },
+    {
+      "file": "east-working-16-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-16-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-16-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        198,
+        144
+      ]
+    },
+    {
+      "file": "east-working-17-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-17-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-17-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        194,
+        139
+      ]
+    },
+    {
+      "file": "east-working-18-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-18-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-18-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        191,
+        145
+      ]
+    },
+    {
+      "file": "east-working-19-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-19-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-19-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        202,
+        136
+      ]
+    },
+    {
+      "file": "east-working-20-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-20-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-20-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        198,
+        144
+      ]
+    },
+    {
+      "file": "east-working-21-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-21-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-21-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        194,
+        139
+      ]
+    },
+    {
+      "file": "east-working-22-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-22-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-22-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        191,
+        145
+      ]
+    },
+    {
+      "file": "east-working-23-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-23-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-23-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        202,
+        136
+      ]
+    },
+    {
+      "file": "east-working-24-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-24-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-24-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        198,
+        144
+      ]
+    },
+    {
+      "file": "east-working-25-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-25-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-25-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        194,
+        139
+      ]
+    },
+    {
+      "file": "east-working-26-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-26-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-26-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        191,
+        145
+      ]
+    },
+    {
+      "file": "east-working-27-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-27-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-27-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        202,
+        136
+      ]
+    },
+    {
+      "file": "east-working-28-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-28-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-28-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        198,
+        144
+      ]
+    },
+    {
+      "file": "east-working-29-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-29-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-29-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        194,
+        139
+      ]
+    },
+    {
+      "file": "east-working-30-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-30-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-30-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        191,
+        145
+      ]
+    },
+    {
+      "file": "east-working-31-full.png",
+      "alpha_bounds": [
+        89,
+        47,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-31-above-water.png",
+      "alpha_bounds": [
+        89,
+        61,
+        209,
+        208
+      ]
+    },
+    {
+      "file": "east-working-31-underwater.png",
+      "alpha_bounds": [
+        89,
+        47,
+        202,
+        136
+      ]
+    },
+    {
+      "file": "south-idle-00-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-idle-00-above-water.png",
+      "alpha_bounds": [
+        79,
+        38,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-idle-00-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-00-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-00-above-water.png",
+      "alpha_bounds": [
+        79,
+        38,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-00-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-01-full.png",
+      "alpha_bounds": [
+        79,
+        34,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-01-above-water.png",
+      "alpha_bounds": [
+        79,
+        35,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-01-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-02-full.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-02-above-water.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-02-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-03-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-03-above-water.png",
+      "alpha_bounds": [
+        79,
+        33,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-03-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-04-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-04-above-water.png",
+      "alpha_bounds": [
+        79,
+        38,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-04-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-05-full.png",
+      "alpha_bounds": [
+        79,
+        34,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-05-above-water.png",
+      "alpha_bounds": [
+        79,
+        35,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-05-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-06-full.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-06-above-water.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-06-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-07-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-07-above-water.png",
+      "alpha_bounds": [
+        79,
+        33,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-07-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-08-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-08-above-water.png",
+      "alpha_bounds": [
+        79,
+        38,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-08-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-09-full.png",
+      "alpha_bounds": [
+        79,
+        34,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-09-above-water.png",
+      "alpha_bounds": [
+        79,
+        35,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-09-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-10-full.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-10-above-water.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-10-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-11-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-11-above-water.png",
+      "alpha_bounds": [
+        79,
+        33,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-11-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-12-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-12-above-water.png",
+      "alpha_bounds": [
+        79,
+        38,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-12-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-13-full.png",
+      "alpha_bounds": [
+        79,
+        34,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-13-above-water.png",
+      "alpha_bounds": [
+        79,
+        35,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-13-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-14-full.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-14-above-water.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-14-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-15-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-15-above-water.png",
+      "alpha_bounds": [
+        79,
+        33,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-15-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-16-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-16-above-water.png",
+      "alpha_bounds": [
+        79,
+        38,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-16-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-17-full.png",
+      "alpha_bounds": [
+        79,
+        34,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-17-above-water.png",
+      "alpha_bounds": [
+        79,
+        35,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-17-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-18-full.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-18-above-water.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-18-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-19-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-19-above-water.png",
+      "alpha_bounds": [
+        79,
+        33,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-19-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-20-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-20-above-water.png",
+      "alpha_bounds": [
+        79,
+        38,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-20-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-21-full.png",
+      "alpha_bounds": [
+        79,
+        34,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-21-above-water.png",
+      "alpha_bounds": [
+        79,
+        35,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-21-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-22-full.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-22-above-water.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-22-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-23-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-23-above-water.png",
+      "alpha_bounds": [
+        79,
+        33,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-23-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-24-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-24-above-water.png",
+      "alpha_bounds": [
+        79,
+        38,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-24-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-25-full.png",
+      "alpha_bounds": [
+        79,
+        34,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-25-above-water.png",
+      "alpha_bounds": [
+        79,
+        35,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-25-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-26-full.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-26-above-water.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-26-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-27-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-27-above-water.png",
+      "alpha_bounds": [
+        79,
+        33,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-27-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-28-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-28-above-water.png",
+      "alpha_bounds": [
+        79,
+        38,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-28-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-29-full.png",
+      "alpha_bounds": [
+        79,
+        34,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-29-above-water.png",
+      "alpha_bounds": [
+        79,
+        35,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-29-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-30-full.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-30-above-water.png",
+      "alpha_bounds": [
+        79,
+        32,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-30-underwater.png",
+      "alpha_bounds": [
+        81,
+        34,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "south-working-31-full.png",
+      "alpha_bounds": [
+        79,
+        31,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-31-above-water.png",
+      "alpha_bounds": [
+        79,
+        33,
+        177,
+        171
+      ]
+    },
+    {
+      "file": "south-working-31-underwater.png",
+      "alpha_bounds": [
+        81,
+        31,
+        175,
+        138
+      ]
+    },
+    {
+      "file": "west-idle-00-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-idle-00-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-idle-00-underwater.png",
+      "alpha_bounds": [
+        58,
+        47,
+        167,
+        144
+      ]
+    },
+    {
+      "file": "west-working-00-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-00-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-00-underwater.png",
+      "alpha_bounds": [
+        58,
+        47,
+        167,
+        144
+      ]
+    },
+    {
+      "file": "west-working-01-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-01-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-01-underwater.png",
+      "alpha_bounds": [
+        62,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-02-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-02-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-02-underwater.png",
+      "alpha_bounds": [
+        65,
+        47,
+        167,
+        145
+      ]
+    },
+    {
+      "file": "west-working-03-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-03-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-03-underwater.png",
+      "alpha_bounds": [
+        53,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-04-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-04-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-04-underwater.png",
+      "alpha_bounds": [
+        58,
+        47,
+        167,
+        144
+      ]
+    },
+    {
+      "file": "west-working-05-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-05-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-05-underwater.png",
+      "alpha_bounds": [
+        62,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-06-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-06-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-06-underwater.png",
+      "alpha_bounds": [
+        65,
+        47,
+        167,
+        145
+      ]
+    },
+    {
+      "file": "west-working-07-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-07-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-07-underwater.png",
+      "alpha_bounds": [
+        53,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-08-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-08-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-08-underwater.png",
+      "alpha_bounds": [
+        58,
+        47,
+        167,
+        144
+      ]
+    },
+    {
+      "file": "west-working-09-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-09-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-09-underwater.png",
+      "alpha_bounds": [
+        62,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-10-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-10-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-10-underwater.png",
+      "alpha_bounds": [
+        65,
+        47,
+        167,
+        145
+      ]
+    },
+    {
+      "file": "west-working-11-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-11-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-11-underwater.png",
+      "alpha_bounds": [
+        53,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-12-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-12-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-12-underwater.png",
+      "alpha_bounds": [
+        58,
+        47,
+        167,
+        144
+      ]
+    },
+    {
+      "file": "west-working-13-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-13-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-13-underwater.png",
+      "alpha_bounds": [
+        62,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-14-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-14-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-14-underwater.png",
+      "alpha_bounds": [
+        65,
+        47,
+        167,
+        145
+      ]
+    },
+    {
+      "file": "west-working-15-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-15-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-15-underwater.png",
+      "alpha_bounds": [
+        53,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-16-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-16-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-16-underwater.png",
+      "alpha_bounds": [
+        58,
+        47,
+        167,
+        144
+      ]
+    },
+    {
+      "file": "west-working-17-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-17-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-17-underwater.png",
+      "alpha_bounds": [
+        62,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-18-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-18-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-18-underwater.png",
+      "alpha_bounds": [
+        65,
+        47,
+        167,
+        145
+      ]
+    },
+    {
+      "file": "west-working-19-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-19-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-19-underwater.png",
+      "alpha_bounds": [
+        53,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-20-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-20-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-20-underwater.png",
+      "alpha_bounds": [
+        58,
+        47,
+        167,
+        144
+      ]
+    },
+    {
+      "file": "west-working-21-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-21-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-21-underwater.png",
+      "alpha_bounds": [
+        62,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-22-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-22-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-22-underwater.png",
+      "alpha_bounds": [
+        65,
+        47,
+        167,
+        145
+      ]
+    },
+    {
+      "file": "west-working-23-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-23-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-23-underwater.png",
+      "alpha_bounds": [
+        53,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-24-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-24-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-24-underwater.png",
+      "alpha_bounds": [
+        58,
+        47,
+        167,
+        144
+      ]
+    },
+    {
+      "file": "west-working-25-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-25-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-25-underwater.png",
+      "alpha_bounds": [
+        62,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-26-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-26-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-26-underwater.png",
+      "alpha_bounds": [
+        65,
+        47,
+        167,
+        145
+      ]
+    },
+    {
+      "file": "west-working-27-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-27-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-27-underwater.png",
+      "alpha_bounds": [
+        53,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-28-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-28-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        182
+      ]
+    },
+    {
+      "file": "west-working-28-underwater.png",
+      "alpha_bounds": [
+        58,
+        47,
+        167,
+        144
+      ]
+    },
+    {
+      "file": "west-working-29-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-29-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-29-underwater.png",
+      "alpha_bounds": [
+        62,
+        47,
+        167,
+        136
+      ]
+    },
+    {
+      "file": "west-working-30-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-30-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-30-underwater.png",
+      "alpha_bounds": [
+        65,
+        47,
+        167,
+        145
+      ]
+    },
+    {
+      "file": "west-working-31-full.png",
+      "alpha_bounds": [
+        47,
+        47,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-31-above-water.png",
+      "alpha_bounds": [
+        47,
+        61,
+        167,
+        183
+      ]
+    },
+    {
+      "file": "west-working-31-underwater.png",
+      "alpha_bounds": [
+        53,
+        47,
+        167,
+        136
+      ]
+    }
+  ]
+}

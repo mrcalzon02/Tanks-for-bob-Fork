@@ -72,3 +72,6 @@ require("prototypes.generated_graphics.thinking-hut-v1-production")
 
 -- Masonry research upgrade with fitted folio, balance and working lantern.
 require("prototypes.generated_graphics.pondering-hovel-v1-production")
+
+-- Upright bucket shoreline intake with animated upper and submerged layers.
+require("prototypes.generated_graphics.stone-wheel-v3-production")

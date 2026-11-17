@@ -163,16 +163,15 @@
     {
       "id": "stone-water-wheel",
       "name": "Stone Water Wheel",
-      "revision": "V3 native contract verified; V2 source retained for repair",
-      "status": "in_progress",
+      "revision": "V3 upright cam-drained buckets and native four-facing grid connections",
+      "status": "delivery_pending",
       "priority": 12,
-      "next": "Native 1.8.104 shoreline extraction and all four ordinary player-grid pipe joints verified at 30 water/second. Reuse held V2 geometry; fit upright independently pivoted buckets and coherent supported receiver, repair degenerates/clearances, then full delivery.",
+      "next": "Current art, source/export clearance, native operation and operated save reload pass. Finish final remote source and canonical FMPL registration.",
       "evidence": [
-        "models/island-survival/stone-water-wheel/v1/WORK_ORDER.md",
-        "models/island-survival/stone-water-wheel/v3/contract.json",
-        "models/island-survival/stone-water-wheel/v3/WORK_ORDER.md"
+        "models/island-survival/stone-water-wheel/v3/FMPL_MODEL.json",
+        "docs/art/stone-water-wheel-v3"
       ],
-      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "fmpl_delivery": "pending_final_source_publication_and_canonical_registration",
       "done": false
     },
     {

@@ -1,7 +1,9 @@
 {
-  "status": "source_export_verified_pending_native_art",
+  "status": "native_verified_delivery_pending",
   "owner_visual_approved": false,
   "native_delivered": false,
   "current_candidate": "v3-production04",
-  "note": "385 source and independently imported GLB poses agree. All eight buckets remain upright and attached; intentional cam/fluid contacts enumerated. Final native art alignment and operated reload pending."
+  "note": "Final native current-art grid pipes, animation/idle, operational/source tests and operated reload pass; final commit/push and canonical FMPL readback pending.",
+  "native_verified": true,
+  "delegated_operational_review": true
 }

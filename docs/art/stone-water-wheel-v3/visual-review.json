@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-17",
+  "judgment": "delegated_operational_close_enough_after_upright_bucket_and_clearance_repairs",
+  "owner_visual_approved": false,
+  "basis": "Preserved useful curved rim/spokes/axle/bearings/piers and exact full-size stationary outlet from saved V2. Independently upright hung buckets, fitted side gates lifted by fixed cam, outboard current paddles and a supported collection race explain actual shoreline extraction. Raw sweeps drove rod/rim, paddle/pier and race/wheel repairs. Actual exported front/rear/side/clay/bucket views and native four-facing placed-pipe captures inspected.",
+  "source_sha256": "e9aa7f71dad7624b0e6650a77df182f102a1640515969a986be168c07bd189f4",
+  "runtime_sha256": "5f1f104afb9e76859dc1de287efa7ad3fde784a42288f92c47793d56109b5b90",
+  "before_reference": "models/island-survival/stone-water-wheel/candidates/v2-pilot02/north-working-001-full.png",
+  "before_reference_sha256": "fb024d4932a7dde56e9baa7eb536ac52bcf4512ba7ba75bd5231759e42ad6827",
+  "acceptance_policy_sha256": "238d2e93caa278ebecd0c0c545ac4677270dd7cb4aba336eacad5595b233b017",
+  "reviewed_images": {
+    "docs/art/stone-water-wheel-v3/north-working.png": "09e073b35df9ad974e775a3a20657760c0a7d9cd6a4df0609ebe24179d4e5437",
+    "docs/art/stone-water-wheel-v3/north-pipe-close.png": "677b1b8d292daca1e0c731d7e24e4e3922a0d45de7921ea13c568da0387d02bf",
+    "docs/art/stone-water-wheel-v3/east-pipe-close.png": "406f3298155caab8a40815235650b2a7276e71c16b1b5214c1c908f19fe08163",
+    "docs/art/stone-water-wheel-v3/south-pipe-close.png": "9e8a1192e0ee64548c5f334aa44f816d7604d28dd0ed5b0a6b7c7d9f9ac15bf9",
+    "docs/art/stone-water-wheel-v3/west-pipe-close.png": "9aed181e6828939743996fbc0e4d7c558af155f7879208d5e9f0d93607404d6b",
+    "docs/art/stone-water-wheel-v3/stopped-a.png": "7ea8bf3e0a323a18d65303ecfeaa9920fefd3160792bd9426975bf3bf9f219e5",
+    "docs/art/stone-water-wheel-v3/full-output-a.png": "012f308f8464544750b04426129d3dc266b380d54533911393f8146b135348cf",
+    "docs/art/stone-water-wheel-v3/landfill.png": "5d7ca74b8bc806871c91e2888984c39e246f6287a20757c6cc15c3965d5a14bb",
+    "docs/art/stone-water-wheel-v3/north-motion-00.png": "09e073b35df9ad974e775a3a20657760c0a7d9cd6a4df0609ebe24179d4e5437",
+    "docs/art/stone-water-wheel-v3/north-motion-07.png": "4eb249429cf11ab779a1e0f713f9ec099a862adb2b686056e1d2a648925de571",
+    "models/island-survival/stone-water-wheel/candidates/v3-production04/actual-glb-front.png": "2553c2ba104d28eedb1d47a4151eb6ba63c4dfb954973137ec3f515bc68d9b5e",
+    "models/island-survival/stone-water-wheel/candidates/v3-production04/actual-glb-rear.png": "911ec4d635d861b999db91be9871e3f1a93cb98ada6a66f9ad44c510a5785103",
+    "models/island-survival/stone-water-wheel/candidates/v3-production04/actual-glb-side.png": "083ab1d8cbb21daea7625b541daf2e65606de37a72533c37198fda31d310ff7b",
+    "models/island-survival/stone-water-wheel/candidates/v3-production04/actual-glb-clay.png": "e32841a6519e6ff88592284a2a977fcaf76d3a975bca160c13da525594e6d629",
+    "models/island-survival/stone-water-wheel/candidates/v3-production04/actual-glb-bucket-close.png": "04f4c5c15883849a9b07ef0bd7a9632e604a2c4d563d1212e9a8e077408da2e3"
+  },
+  "scores_out_of_10": {
+    "actual_shoreline_intake_function": 9,
+    "supported_construction": 8,
+    "upright_attached_animation": 9,
+    "model_specific_surfaces": 8,
+    "native_pipe_fit": 8,
+    "gameplay_readability": 7
+  },
+  "limitations": [
+    "Individual owner approval is not claimed.",
+    "Sampled 385-pose source/export sweep is not continuous rigid-body simulation.",
+    "Native underwater_pictures is static: complementary submerged frames are animated in a tinted translucent object-layer sprite to retain moving bucket/paddle attachments. This approximates depth rather than using per-tile underwater clipping.",
+    "Idle and full-output native animation hold the current phase; separate captured idle atlas is archival, not a new gameplay state.",
+    "No full-user-mod-pack installation or Mod Portal publication."
+  ]
+}

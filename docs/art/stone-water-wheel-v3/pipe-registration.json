@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "native_connections": 16,
+  "native_grid_policy": "Ordinary one-tile shoreward pipes. Keep native port position quarter-tile and fractional reported target; runtime confirms ordinary grid neighbour connects.",
+  "source_fixed_mouth": {
+    "local_position": [
+      0,
+      -0.49,
+      0.36
+    ],
+    "bore_diameter_tiles": 0.49,
+    "collar_outside_diameter_tiles": 0.68
+  },
+  "registration": {
+    "native_standard_pipe_axis_y_tiles": -0.046875,
+    "sprite_vertical_registration_tiles": 0.2076834412271571,
+    "canonical_target_z": 0.62,
+    "ortho_scale": 3.3
+  },
+  "maximum_nominal_face_plane_difference_tiles": 0.01,
+  "maximum_nominal_difference_at_1x_pixels": 0.32,
+  "review": "Actual four direction joined mouth/pipe closeups viewed; source socket transforms remain fixed through all sampled source/export poses.",
+  "evidence": [
+    "north-pipe-close.png",
+    "east-pipe-close.png",
+    "south-pipe-close.png",
+    "west-pipe-close.png"
+  ]
+}

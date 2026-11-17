@@ -1,0 +1,98 @@
+   0.000 Initializing Steam API.
+   0.000 Error SteamContextInterface.cpp:60: Steam API could not be initialized: Could not determine Steam client install directory.
+   0.001 2026-11-17 02:30:16; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.001 Operating system: Windows 11 (build 26200) 
+   0.001 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\stone-wheel-v3-client01\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\stone-wheel-v3-client01\mods" "--load-game" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\stone-wheel-v3-integrated01\stone-wheel-v3-proof.zip" "--disable-audio" "--disable-migration-window" 
+   0.001 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/stone-wheel-v3-client01/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/stone-wheel-v3-client01/runtime [241793/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.008 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 18131/32526 MB, page: 26236/43790 MB, virtual: 4304/134217727 MB, extended virtual: 0 MB]
+   0.042 Display options: [FullScreen: false] [VSync: true] [UIScale: automatic (100.0%)] [Native DPI: true] [Screen: 4294967295] [Special: lmw] [Lang: en]
+   0.097 Video driver: windows
+   0.097 Available displays: 1
+   0.097  [0]: \\.\DISPLAY1 - NVIDIA GeForce RTX 5070 {0x05, [0,0], 3840x1080, 32bit, 144Hz}
+   0.112 [Direct3D11] Display: 4294967295, Output: 0, DisplayAdapter: 0, RenderingAdapter: -1; d3dcompiler_47.dll
+   0.298 Initialised Direct3D[0]: NVIDIA GeForce RTX 5070; id: 10de-2f04; driver: nvldumdx.dll 32.0.16.1664
+   0.298   D3D Feature Level: 11.1, DXGI 1.5+, SwapChain: 3,flip-discard,-,-,-,none
+   0.298   [Local Video Memory] Budget: 11175MB, CurrentUsage: 6MB, Reservation: 0/5715MB
+   0.298   [Non-Local Vid.Mem.] Budget: 15495MB, CurrentUsage: 0MB, Reservation: 0/7875MB
+   0.298   Tiled resources: Tier 2
+   0.298   Unified Memory Architecture: No
+   0.298   BGR 565 Supported: Yes
+   0.298   MaximumFrameLatency: 3, GPUThreadPriority: 0
+   0.299 Graphics settings preset: very-high
+   0.299   Dedicated video memory size 11943 MB
+   0.326 Desktop composition is active.
+   0.326 Graphics options: [Graphics quality: high] [Video memory usage: all] [DXT: high-quality]
+   0.326                   [Max threads (load/render): 32/28] [Max texture size: 0] [Tex.Stream.: false] [Rotation quality: normal] [Other: STDCWTl] [B:0,C:0,S:100]
+   0.326 Audio is disabled
+   0.387 Info ModManager.cpp:455: FeatureFlag: 
+   0.389 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.394 Loading mod core 0.0.0 (data.lua)
+   0.412 Loading mod base 2.1.24 (data.lua)
+   0.661 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.734 Loading mod base 2.1.24 (data-updates.lua)
+   0.739 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.746 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.810 Checksum for core: 3668028660
+   0.810 Checksum of base: 3864816957
+   0.810 Checksum of tanks_for_bob_fork: 950213784
+   0.810 Checksum of stone-wheel-v3-proof: 0
+   0.810 Checksum of stone-wheel-v3-capture: 0
+   0.940 Prototype list checksum: 1368343619
+   0.964 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.964 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.966 Post-data load graphics options: [Light occlusion: no]
+   1.054 Crop bitmaps.
+   1.055 Parallel sprite loader initialized (threads: 28, bitmaps: 5001)
+   3.033 Initial atlas bitmap size is 16384
+   3.047 Created an atlas bitmap (size 16384x16380) [none]
+   3.048 Created an atlas bitmap (size 16384x15220) [none]
+   3.049 Created an atlas bitmap (size 16384x6976) [low-object]
+   3.049 Created an atlas bitmap (size 16384x12092) [corpse-decay]
+   3.049 Created an atlas bitmap (size 8192x4352) [decal]
+   3.049 Created an atlas bitmap (size 4096x1284) [none]
+   3.050 Created an atlas bitmap (size 8192x5632) [mipmap, linear-minification, linear-magnification, linear-mip-level]
+   3.050 Created an atlas bitmap (size 4096x1632) [smoke, mipmap, linear-minification, linear-magnification]
+   3.050 Created an atlas bitmap (size 16384x7968) [terrain, mipmap, linear-minification, linear-mip-level]
+   3.050 Created an atlas bitmap (size 4096x2800) [terrain-effect-map, mipmap, linear-minification, linear-mip-level]
+   3.051 Created an atlas bitmap (size 4096x3088) [mipmap]
+   3.051 Created an atlas bitmap (size 8192x2752) [icon, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level, ]
+   3.051 Created an atlas bitmap (size 16384x4080) [alpha-mask]
+   3.061 Created an atlas bitmap (size 16384x16384) [shadow, linear-magnification, alpha-mask]
+   3.061 Created an atlas bitmap (size 4096x2164) [shadow, linear-magnification, alpha-mask]
+   3.061 Created an atlas bitmap (size 8192x2352) [shadow, mipmap, linear-magnification, alpha-mask]
+   3.061 Created an atlas bitmap (size 4096x208) [icon-background, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level, ]
+   3.061 Loading 3D bitmaps: 5
+   3.066 Texture processor created (4096). GPU accelerated compression Supported: yes, Enabled: yes/yes. Test passed. YCoCgDXT PSNR: 35.83, BC3 PSNR: 33.82
+   3.089 Parallel sprite loader initialized (threads: 27, bitmaps: 5001)
+   6.528 Sprites loaded
+   6.541 Generated mipmaps (4) for atlas [2] of size 16384x6976   
+   6.551 Generated mipmaps (3) for atlas [6] of size 8192x5632   
+   6.562 Generated mipmaps (3) for atlas [7] of size 4096x1632   
+   6.573 Generated mipmaps (3) for atlas [8] of size 16384x7968   
+   6.583 Generated mipmaps (3) for atlas [9] of size 4096x2800   
+   6.618 Generated mipmaps (3) for atlas [10] of size 4096x3088   
+   6.629 Generated mipmaps (5) for atlas [11] of size 8192x2752   
+   6.640 Generated mipmaps (3) for atlas [15] of size 8192x2352   
+   6.648 Custom mipmaps uploaded (2428)
+   6.660 Estimated VRAM usage for textures: 1684.95 MB (Atlases: 1679.47 MB, Textures: 5.48 MB)
+   6.660 Real VRAM usage for the whole program: 1917.34 MB
+   6.661 Info GlobalContext.cpp:1347: Resetting config.
+   6.703 Factorio initialised
+   6.900 SteamAPI is not initialized
+   6.905 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\stone-wheel-v3-integrated01\stone-wheel-v3-proof.zip: 764059 bytes.
+   7.003 Loading level.dat: 941217 bytes.
+   7.003 Info Scenario.cpp:152: Map version 2.1.24-1
+   7.019 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   7.022 Loading script.dat: 4040 bytes.
+   7.027 Checksum for script __level__/control.lua: 3368906707
+   7.035 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   7.042 Checksum for script __stone-wheel-v3-proof__/control.lua: 4260560712
+   7.047 Checksum for script __stone-wheel-v3-capture__/control.lua: 769874996
+   7.141 Script @__stone-wheel-v3-proof__/control.lua:35: STONE_WHEEL_V3_RELOAD_PASS complete=false stored_networks=false
+  26.751 Script @__stone-wheel-v3-proof__/control.lua:59: STONE_WHEEL_V3_NATIVE_PASS {"passed":true,"machines":16,"ordinary_grid_connections":16,"supported_directions":4,"extraction_rate_water_per_second":30,"void_energy_no_player_fuel_or_electricity":true,"normal_shore_placement":true,"full_output_and_drain_recovery":true,"stop_restart":true,"source_landfill_and_restoration_observed":true,"construction_unlock_and_actual_workbench_craft":true,"processing_recipes":"none: native shoreline intake","units":[{"state":"working","direction":0,"position":{"x":8.5,"y":8.5},"port_position":{"y":8.75,"x":8.5},"reported_target":{"y":9.75,"x":8.5},"ordinary_pipe":{"y":9.5,"x":8.5},"network_amount":0.75000286102294921875,"water_consumed_by_test_demand":5399.24999713897705078125},{"state":"working","direction":4,"position":{"x":28.5,"y":8.5},"port_position":{"y":8.5,"x":28.25},"reported_target":{"y":8.5,"x":27.25},"ordinary_pipe":{"y":8.5,"x":27.5},"network_amount":0.75000286102294921875,"water_consumed_by_test_demand":5399.24999713897705078125},{"state":"working","direction":8,"position":{"x":48.5,"y":8.5},"port_position":{"y":8.25,"x":48.5},"reported_target":{"y":7.25,"x":48.5},"ordinary_pipe":{"y":7.5,"x":48.5},"network_amount":0.75000286102294921875,"water_consumed_by_test_demand":5399.24999713897705078125},{"state":"working","direction":12,"position":{"x":68.5,"y":8.5},"port_position":{"y":8.5,"x":68.75},"reported_target":{"y":8.5,"x":69.75},"ordinary_pipe":{"y":8.5,"x":69.5},"network_amount":0.75000286102294921875,"water_consumed_by_test_demand":5399.24999713897705078125},{"state":"full-output","direction":0,"position":{"x":8.5,"y":28.5},"port_position":{"y":28.75,"x":8.5},"reported_target":{"y":29.75,"x":8.5},"ordinary_pipe":{"y":29.5,"x":8.5},"network_amount":300,"water_consumed_by_test_demand":0,"blocked_status":1},{"state":"full-output","direction":4,"position":{"x":28.5,"y":28.5},"port_position":{"y":28.5,"x":28.25},"reported_target":{"y":28.5,"x":27.25},"ordinary_pipe":{"y":28.5,"x":27.5},"network_amount":300,"water_consumed_by_test_demand":0,"blocked_status":1},{"state":"full-output","direction":8,"position":{"x":48.5,"y":28.5},"port_position":{"y":28.25,"x":48.5},"reported_target":{"y":27.25,"x":48.5},"ordinary_pipe":{"y":27.5,"x":48.5},"network_amount":300,"water_consumed_by_test_demand":0,"blocked_status":1},{"state":"full-output","direction":12,"position":{"x":68.5,"y":28.5},"port_position":{"y":28.5,"x":68.75},"reported_target":{"y":28.5,"x":69.75},"ordinary_pipe":{"y":28.5,"x":69.5},"network_amount":300,"water_consumed_by_test_demand":0,"blocked_status":1},{"state":"stop-restart","direction":0,"position":{"x":8.5,"y":48.5},"port_position":{"y":48.75,"x":8.5},"reported_target":{"y":49.75,"x":8.5},"ordinary_pipe":{"y":49.5,"x":8.5},"network_amount":300,"water_consumed_by_test_demand":0},{"state":"stop-restart","direction":4,"position":{"x":28.5,"y":48.5},"port_position":{"y":48.5,"x":28.25},"reported_target":{"y":48.5,"x":27.25},"ordinary_pipe":{"y":48.5,"x":27.5},"network_amount":300,"water_consumed_by_test_demand":0},{"state":"stop-restart","direction":8,"position":{"x":48.5,"y":48.5},"port_position":{"y":48.25,"x":48.5},"reported_target":{"y":47.25,"x":48.5},"ordinary_pipe":{"y":47.5,"x":48.5},"network_amount":300,"water_consumed_by_test_demand":0},{"state":"stop-restart","direction":12,"position":{"x":68.5,"y":48.5},"port_position":{"y":48.5,"x":68.75},"reported_target":{"y":48.5,"x":69.75},"ordinary_pipe":{"y":48.5,"x":69.5},"network_amount":300,"water_consumed_by_test_demand":0},{"state":"landfill","direction":0,"position":{"x":8.5,"y":68.5},"port_position":{"y":68.75,"x":8.5},"reported_target":{"y":69.75,"x":8.5},"ordinary_pipe":{"y":69.5,"x":8.5},"network_amount":300,"water_consumed_by_test_demand":0,"landfill_amount_after_120_ticks":60,"landfill_status":1,"landfill_visible_tile":"landfill","landfill_hidden_tile":"water","landfill_source_fluid":"water"},{"state":"landfill","direction":4,"position":{"x":28.5,"y":68.5},"port_position":{"y":68.5,"x":28.25},"reported_target":{"y":68.5,"x":27.25},"ordinary_pipe":{"y":68.5,"x":27.5},"network_amount":300,"water_consumed_by_test_demand":0,"landfill_amount_after_120_ticks":60,"landfill_status":1,"landfill_visible_tile":"landfill","landfill_hidden_tile":"water","landfill_source_fluid":"water"},{"state":"landfill","direction":8,"position":{"x":48.5,"y":68.5},"port_position":{"y":68.25,"x":48.5},"reported_target":{"y":67.25,"x":48.5},"ordinary_pipe":{"y":67.5,"x":48.5},"network_amount":300,"water_consumed_by_test_demand":0,"landfill_amount_after_120_ticks":60,"landfill_status":1,"landfill_visible_tile":"landfill","landfill_hidden_tile":"water","landfill_source_fluid":"water"},{"state":"landfill","direction":12,"position":{"x":68.5,"y":68.5},"port_position":{"y":68.5,"x":68.75},"reported_target":{"y":68.5,"x":69.75},"ordinary_pipe":{"y":68.5,"x":69.5},"network_amount":300,"water_consumed_by_test_demand":0,"landfill_amount_after_120_ticks":60,"landfill_status":1,"landfill_visible_tile":"landfill","landfill_hidden_tile":"water","landfill_source_fluid":"water"}]}
+  26.784 Script @__stone-wheel-v3-capture__/control.lua:20: WHEEL_GUI_OPERATED_SAVE_REQUESTED machines=16
+  26.787 Info AppManager.cpp:335: Saving to _autosave-stone-wheel-complete-client (blocking).
+  26.879 Info AppManagerStates.cpp:2131: Saving finished

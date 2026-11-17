@@ -1,0 +1,23 @@
+{
+  "working": {
+    "sampled_opaque_upper_pixels": 6026,
+    "changed_over_005": 507,
+    "maximum": 0.24705883860588074,
+    "mean": 0.015427266247570515
+  },
+  "disabled": {
+    "sampled_opaque_upper_pixels": 6026,
+    "changed_over_005": 0,
+    "maximum": 0.019607841968536377,
+    "mean": 6.442669837269932e-05
+  },
+  "full_output": {
+    "sampled_opaque_upper_pixels": 6026,
+    "changed_over_005": 0,
+    "maximum": 0.019607849419116974,
+    "mean": 8.394994802074507e-05
+  },
+  "scope": "Matched opaque source-alpha intersection across all 32 phases, upper structure only; excludes native animated water background and pipe body.",
+  "source_pixel_count": 6026,
+  "passed": true
+}
