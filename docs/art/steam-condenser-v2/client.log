@@ -1,0 +1,102 @@
+   0.000 Initializing Steam API.
+   0.000 Error SteamContextInterface.cpp:60: Steam API could not be initialized: Could not determine Steam client install directory.
+   0.001 2026-11-17 05:22:07; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.001 Operating system: Windows 11 (build 26200) 
+   0.001 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\steam-condenser-client02\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\steam-condenser-client02\mods" "--load-game" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\steam-condenser-integrated01\steam-condenser-v2-proof.zip" "--disable-audio" "--disable-migration-window" 
+   0.002 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/steam-condenser-client02/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/steam-condenser-client02/runtime [238541/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.008 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 18298/32526 MB, page: 26020/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.037 Display options: [FullScreen: false] [VSync: true] [UIScale: automatic (100.0%)] [Native DPI: true] [Screen: 4294967295] [Special: lmw] [Lang: en]
+   0.082 Video driver: windows
+   0.082 Available displays: 1
+   0.083  [0]: \\.\DISPLAY1 - NVIDIA GeForce RTX 5070 {0x05, [0,0], 3840x1080, 32bit, 144Hz}
+   0.099 [Direct3D11] Display: 4294967295, Output: 0, DisplayAdapter: 0, RenderingAdapter: -1; d3dcompiler_47.dll
+   0.329 Initialised Direct3D[0]: NVIDIA GeForce RTX 5070; id: 10de-2f04; driver: nvldumdx.dll 32.0.16.1664
+   0.329   D3D Feature Level: 11.1, DXGI 1.5+, SwapChain: 3,flip-discard,-,-,-,none
+   0.329   [Local Video Memory] Budget: 11175MB, CurrentUsage: 6MB, Reservation: 0/5715MB
+   0.329   [Non-Local Vid.Mem.] Budget: 15495MB, CurrentUsage: 0MB, Reservation: 0/7875MB
+   0.329   Tiled resources: Tier 2
+   0.329   Unified Memory Architecture: No
+   0.329   BGR 565 Supported: Yes
+   0.329   MaximumFrameLatency: 3, GPUThreadPriority: 0
+   0.329 Graphics settings preset: very-high
+   0.329   Dedicated video memory size 11943 MB
+   0.351 Desktop composition is active.
+   0.351 Graphics options: [Graphics quality: high] [Video memory usage: all] [DXT: high-quality]
+   0.351                   [Max threads (load/render): 32/28] [Max texture size: 0] [Tex.Stream.: false] [Rotation quality: normal] [Other: STDCWTl] [B:0,C:0,S:100]
+   0.351 Audio is disabled
+   0.408 Info ModManager.cpp:455: FeatureFlag: 
+   0.410 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.414 Loading mod core 0.0.0 (data.lua)
+   0.430 Loading mod base 2.1.24 (data.lua)
+   0.655 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.731 Loading mod base 2.1.24 (data-updates.lua)
+   0.737 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.744 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.811 Checksum for core: 3668028660
+   0.811 Checksum of base: 3864816957
+   0.811 Checksum of tanks_for_bob_fork: 822407225
+   0.811 Checksum of steam-condenser-v2-proof: 0
+   0.811 Checksum of steam-condenser-v2-capture: 0
+   0.946 Prototype list checksum: 1368343619
+   0.971 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.971 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.974 Post-data load graphics options: [Light occlusion: no]
+   1.064 Crop bitmaps.
+   1.066 Parallel sprite loader initialized (threads: 28, bitmaps: 5006)
+   3.105 Initial atlas bitmap size is 16384
+   3.119 Created an atlas bitmap (size 16384x16380) [none]
+   3.121 Created an atlas bitmap (size 16384x16012) [none]
+   3.121 Created an atlas bitmap (size 16384x6976) [low-object]
+   3.122 Created an atlas bitmap (size 16384x12092) [corpse-decay]
+   3.122 Created an atlas bitmap (size 8192x4352) [decal]
+   3.122 Created an atlas bitmap (size 4096x1284) [none]
+   3.122 Created an atlas bitmap (size 8192x5632) [mipmap, linear-minification, linear-magnification, linear-mip-level]
+   3.122 Created an atlas bitmap (size 4096x1632) [smoke, mipmap, linear-minification, linear-magnification]
+   3.122 Created an atlas bitmap (size 16384x7968) [terrain, mipmap, linear-minification, linear-mip-level]
+   3.123 Created an atlas bitmap (size 4096x2800) [terrain-effect-map, mipmap, linear-minification, linear-mip-level]
+   3.123 Created an atlas bitmap (size 4096x3088) [mipmap]
+   3.123 Created an atlas bitmap (size 8192x2752) [icon, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level, ]
+   3.123 Created an atlas bitmap (size 16384x4080) [alpha-mask]
+   3.137 Created an atlas bitmap (size 16384x16384) [shadow, linear-magnification, alpha-mask]
+   3.137 Created an atlas bitmap (size 4096x2164) [shadow, linear-magnification, alpha-mask]
+   3.137 Created an atlas bitmap (size 8192x2352) [shadow, mipmap, linear-magnification, alpha-mask]
+   3.137 Created an atlas bitmap (size 4096x208) [icon-background, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level, ]
+   3.137 Loading 3D bitmaps: 5
+   3.142 Texture processor created (4096). GPU accelerated compression Supported: yes, Enabled: yes/yes. Test passed. YCoCgDXT PSNR: 35.83, BC3 PSNR: 33.82
+   3.164 Parallel sprite loader initialized (threads: 27, bitmaps: 5006)
+   6.676 Sprites loaded
+   6.689 Generated mipmaps (4) for atlas [2] of size 16384x6976   
+   6.700 Generated mipmaps (3) for atlas [6] of size 8192x5632   
+   6.711 Generated mipmaps (3) for atlas [7] of size 4096x1632   
+   6.721 Generated mipmaps (3) for atlas [8] of size 16384x7968   
+   6.732 Generated mipmaps (3) for atlas [9] of size 4096x2800   
+   6.770 Generated mipmaps (3) for atlas [10] of size 4096x3088   
+   6.781 Generated mipmaps (5) for atlas [11] of size 8192x2752   
+   6.792 Generated mipmaps (3) for atlas [15] of size 8192x2352   
+   6.802 Custom mipmaps uploaded (2425)
+   6.815 Estimated VRAM usage for textures: 1703.51 MB (Atlases: 1698.03 MB, Textures: 5.48 MB)
+   6.815 Real VRAM usage for the whole program: 1941.34 MB
+   6.817 Info GlobalContext.cpp:1347: Resetting config.
+   6.851 Factorio initialised
+   7.052 SteamAPI is not initialized
+   7.056 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\steam-condenser-integrated01\steam-condenser-v2-proof.zip: 766004 bytes.
+   7.157 Loading level.dat: 929138 bytes.
+   7.157 Info Scenario.cpp:152: Map version 2.1.24-1
+   7.173 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   7.176 Loading script.dat: 4592 bytes.
+   7.181 Checksum for script __level__/control.lua: 3368906707
+   7.184 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   7.191 Checksum for script __steam-condenser-v2-proof__/control.lua: 2354054700
+   7.192 Checksum for script __steam-condenser-v2-capture__/control.lua: 953050309
+   7.307 Script @__steam-condenser-v2-proof__/control.lua:44: STEAM_CONDENSER_V2_RELOAD_PASS complete=false stored_operation=false
+  22.389 Script @__steam-condenser-v2-proof__/control.lua:48: STEAM_CONDENSER_V2_STOP_PASS
+  25.994 Script @__steam-condenser-v2-capture__/control.lua:22: CONDENSER_GUI_BLOCKED_OBSERVATION {"tick":3660,"full_output":true,"progress":1,"products_finished":0,"remaining_fuel":3941665.5555560984648764133453369140625}
+  26.994 Script @__steam-condenser-v2-capture__/control.lua:22: CONDENSER_GUI_BLOCKED_OBSERVATION {"tick":3720,"full_output":true,"progress":1,"products_finished":0,"remaining_fuel":3941665.5555560984648764133453369140625}
+  29.990 Script @__steam-condenser-v2-proof__/control.lua:55: STEAM_CONDENSER_V2_STARVATION_BLOCKED_PASS
+  33.094 Script @__steam-condenser-v2-proof__/control.lua:63: STEAM_CONDENSER_V2_NATIVE_PASS machines=24 recipes=1 actual_directions=4 pipe_joints=20
+  33.215 Script @__steam-condenser-v2-capture__/control.lua:25: CONDENSER_GUI_OPERATED_SAVE_REQUESTED machines=24
+  33.219 Info AppManager.cpp:335: Saving to _autosave-steam-condenser-complete-client (blocking).
+  33.309 Info AppManagerStates.cpp:2131: Saving finished

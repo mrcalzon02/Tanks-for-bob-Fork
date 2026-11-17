@@ -1,0 +1,250 @@
+{
+  "genuine_factorio_client_capture": true,
+  "windows_session": 1,
+  "screenshots": [
+    {
+      "file": "north-working.png",
+      "sha256": "b868c01ea11b8dffe58f8d5a945831672df087c86de5dd72be5c12207bf289d1"
+    },
+    {
+      "file": "east-working.png",
+      "sha256": "d024cb77ba56969a36e9976775157f22d2aeb48bc9f53aafab2a04f647105d26"
+    },
+    {
+      "file": "south-working.png",
+      "sha256": "15b7ac08b7f47b7b7b865328c1e90e156336d379ec3842156ae983ceaa3845bb"
+    },
+    {
+      "file": "west-working.png",
+      "sha256": "f14257c6e6b6d9e2c0de306da20fe009b54b3d16c91c826f3c442d15b4b86276"
+    },
+    {
+      "file": "north-steam-pipe-close.png",
+      "sha256": "00db9ded43e8a23e0dd5feb7a3bcb871dfa7da92da10720202a81ab0306ffc93"
+    },
+    {
+      "file": "east-steam-pipe-close.png",
+      "sha256": "08c8828be4ba4a8512a6dcc35ccda85db29574eca1e8c8a8aaedaa5105472826"
+    },
+    {
+      "file": "south-steam-pipe-close.png",
+      "sha256": "3325cc6776df46a839971e524363c5256cec5e4566d9460692ba730cf9856fd5"
+    },
+    {
+      "file": "west-steam-pipe-close.png",
+      "sha256": "e829581849b7758a0faf535896ca60253301e5577dbfe30a626ef0ea77522000"
+    },
+    {
+      "file": "north-smoke-close.png",
+      "sha256": "562c7a35696231556cf92a9e3af6277a313cabfa330e39049903be4c564b44a0"
+    },
+    {
+      "file": "east-smoke-close.png",
+      "sha256": "07646595ac2f86a99c1d35f44b69ac9b582cc8d83f10be641db4b6d89709600b"
+    },
+    {
+      "file": "south-smoke-close.png",
+      "sha256": "7d402564810d7706473abc4727bb56f716b377cb5d14a7bfccf038a87d43db99"
+    },
+    {
+      "file": "west-smoke-close.png",
+      "sha256": "6c4bae6281a9219536b3900b53bb5756d71514cae96b1355fb4e7c58de06d6d4"
+    },
+    {
+      "file": "no-fuel.png",
+      "sha256": "35eecc790e409c1fbd68bc163ef26aa3366153218f32b0820a2c01710a79c9a8"
+    },
+    {
+      "file": "no-steam.png",
+      "sha256": "63c1c42fd842aeb7ab3a188199b88425f12005c869cf595a326d5dc58e6e65c2"
+    },
+    {
+      "file": "idle.png",
+      "sha256": "f50d0e4a4108c92cba903ed98aa259e044b3575644aaa32a52b4f1f96cf654d0"
+    },
+    {
+      "file": "stopped-a.png",
+      "sha256": "c20d18a26bd70911d0909aff2d77fe61900afd6ac0ed611044a8b42551590900"
+    },
+    {
+      "file": "stopped-b.png",
+      "sha256": "c20d18a26bd70911d0909aff2d77fe61900afd6ac0ed611044a8b42551590900"
+    },
+    {
+      "file": "restarted.png",
+      "sha256": "775c75f6cacbf4765953cca648d2d58b75fbb7e3efc67460d76d539a5636187d"
+    },
+    {
+      "file": "blocked-item-a.png",
+      "sha256": "32662b4dfc37b507229189a8c7a725fdbad1a85adf60067b677ca9c2bf014b0f"
+    },
+    {
+      "file": "blocked-item-b.png",
+      "sha256": "51403191192d931e12bc82e16e2d448313d0105e64e1a92782503468f05a9494"
+    },
+    {
+      "file": "fuel-restored.png",
+      "sha256": "4c726b9ab9a3ff1740d7f5acc0d362229fe98c8ebef923185763c9dcb15e3009"
+    },
+    {
+      "file": "steam-restored.png",
+      "sha256": "6f6076219c97735f2f97c16c7e6074af15ffebe99e52c1ef4b80ca1e8054710f"
+    },
+    {
+      "file": "item-output-drained.png",
+      "sha256": "51403191192d931e12bc82e16e2d448313d0105e64e1a92782503468f05a9494"
+    },
+    {
+      "file": "crafted-building-placed.png",
+      "sha256": "2f019204a122168b2ff4ae7b8a99daf15602d56ce5a3b6d6dcdbd9152a20dd3f"
+    },
+    {
+      "file": "north-completed.png",
+      "sha256": "eaa024901bac4f0a4b2f2ce738466a5c980a757719b15fd68940f659e9ac87b9"
+    },
+    {
+      "file": "east-completed.png",
+      "sha256": "4fb766bfef52f7539f5324bfcbabe3a584475b4193bb32850fbe55cd011c3ccd"
+    },
+    {
+      "file": "south-completed.png",
+      "sha256": "bac1f3e46eab2a438099161a75f2bf22d66d938cca51f45806bbd1b47ed9c14d"
+    },
+    {
+      "file": "west-completed.png",
+      "sha256": "3f69f852648f0a862aa165998eeb7dc078e6994bc590070e515a618826d98c85"
+    },
+    {
+      "file": "north-motion-00.png",
+      "sha256": "b868c01ea11b8dffe58f8d5a945831672df087c86de5dd72be5c12207bf289d1"
+    },
+    {
+      "file": "north-motion-01.png",
+      "sha256": "87d68adf08ecabba9d3a21643ddb744778a12098342a7e9758b2ac6b9d2f87f9"
+    },
+    {
+      "file": "north-motion-02.png",
+      "sha256": "341ac25a43a8a3c3523bab7a3a35a910c238420d17d51db2bc1cf58cf3a1359f"
+    },
+    {
+      "file": "north-motion-03.png",
+      "sha256": "e4f85b6e94c46d0c31e9cdb035f3b962e00b82047ac4f79652a241053350d9e9"
+    },
+    {
+      "file": "north-motion-04.png",
+      "sha256": "a6aca1958a999fe9b84b9d05674a0a2a9d07df9b35129e974a6e73e0878c14d3"
+    },
+    {
+      "file": "north-motion-05.png",
+      "sha256": "f14ccc6f585c68c3c3e0757b3dcaaaa350a3eb24c4c04aade06f4d17fd3e9b63"
+    },
+    {
+      "file": "north-motion-06.png",
+      "sha256": "fe9d861d1d4737d191f2d9200b15306d79db4a7f50d9cf4fe3c68caa98b370cc"
+    },
+    {
+      "file": "north-motion-07.png",
+      "sha256": "6e84463b687b4fb73981dd97c693c4b20d010f7bfba9be1bc8b31a1391b7ccff"
+    },
+    {
+      "file": "north-motion-08.png",
+      "sha256": "ea72ae75a94bb811de68721931d99c1cf2425ac2ba05aedfb289986882ff2f0c"
+    },
+    {
+      "file": "north-motion-09.png",
+      "sha256": "3cf455fc3c88ff9adbf6a8c8883edcb7a1356ede35c0232983abefa4e4eb6f32"
+    },
+    {
+      "file": "north-motion-10.png",
+      "sha256": "3d09ba0365f705e9eb2ed17c8942af731006f46c3a4093bd75bbdba95150c203"
+    },
+    {
+      "file": "north-motion-11.png",
+      "sha256": "ddcc69bd2cbc5b707448643b4d00e12d67a792a58a104c45b2fd8ffe9d82d982"
+    },
+    {
+      "file": "north-motion-12.png",
+      "sha256": "f927e69b6308540f060f7c9032d4a8660c3388f05064409be1172242650a0aac"
+    },
+    {
+      "file": "north-motion-13.png",
+      "sha256": "a7a5b7d3d80c163a7ae3456b2aae97bc7bd0b17655a39f0816a2fbeaa50c9838"
+    },
+    {
+      "file": "north-motion-14.png",
+      "sha256": "a1c36f530618f521af9bb62abf560f1633c8d79052d9a9d4107ee01529e4789a"
+    },
+    {
+      "file": "north-motion-15.png",
+      "sha256": "56c4be4644064ac7c9cbc0d516de126e4c0320ee490d1be4bb5f3d8867005082"
+    },
+    {
+      "file": "north-motion-16.png",
+      "sha256": "31f1ce51d7a59af055e00d78267f7663b476e8505d3ad7750071f598c0eee9b2"
+    },
+    {
+      "file": "north-motion-17.png",
+      "sha256": "76805386639a22b8bc2cdc833125575457582b15bd90e4fd1d283a89aabb815b"
+    },
+    {
+      "file": "north-motion-18.png",
+      "sha256": "6c18f5234930ce46b68d5780a26ace786b36b4e0f6a9f5dc90fcce38c0575f98"
+    },
+    {
+      "file": "north-motion-19.png",
+      "sha256": "5e56101fc1639d1fc58613ea81d41f521b4389bd5a1d89a8b23dcc5b190f9acb"
+    },
+    {
+      "file": "north-motion-20.png",
+      "sha256": "3564e8f0eeb569651686036f4089e5986fcd902ff0451f02fb8453365485144c"
+    },
+    {
+      "file": "north-motion-21.png",
+      "sha256": "d0e9788b70857d7a807079d8654f2c780cf0d425397df83ca7664d5646fd5601"
+    },
+    {
+      "file": "north-motion-22.png",
+      "sha256": "be8b46d92fcc96cc9a7a17bb3be2f120f1bd67a1045ec97da913a7e0cafd2735"
+    },
+    {
+      "file": "north-motion-23.png",
+      "sha256": "76a2223f9b669401d9d0b046837102c2b0ede5923f2729aed9a4198f57c76c4d"
+    },
+    {
+      "file": "north-motion-24.png",
+      "sha256": "0ae665ed3dcaf979d330a6a08e726969f10a488d3a0eb04f5923a3f0b767b27a"
+    },
+    {
+      "file": "north-motion-25.png",
+      "sha256": "71746fe1081a7ec155def45545e1b9f184a49a4e124696ab4ddf5c27dcb74608"
+    },
+    {
+      "file": "north-motion-26.png",
+      "sha256": "87668a90fd10ca20ec9d7a1f029f9764ebd9d7f575d4398733b94a58c6edd2e0"
+    },
+    {
+      "file": "north-motion-27.png",
+      "sha256": "0ec442fc11d7f5ecc2227050bc2366731f7c88313c1ebadba1c83cc0e06f8167"
+    },
+    {
+      "file": "north-motion-28.png",
+      "sha256": "116b53604d32c6692a6e96a334d3232ac88f1d9586491fec1a7c3e48c37bf0e7"
+    },
+    {
+      "file": "north-motion-29.png",
+      "sha256": "b8560a931627aed3028f6bd47e43943afd513c246437fd7634298d6203ea5128"
+    },
+    {
+      "file": "north-motion-30.png",
+      "sha256": "6c0e9f63f404d82bfc8651730890263c2cdc57bf461e889768c98602c463d4f0"
+    },
+    {
+      "file": "north-motion-31.png",
+      "sha256": "6fdcaba160e8c7efbb832e451088e218f2f73dac8817e9b1e6cdbe8a9ecbda4c"
+    }
+  ],
+  "visual_review_passed": false,
+  "completed_save": [
+    "C:\\Users\\Admin\\Documents\\ChatGPT\\Tech priests\\tanks-structure-production\\build\\steam-condenser-client02\\runtime\\saves\\_autosave-steam-condenser-complete-client.zip"
+  ]
+}

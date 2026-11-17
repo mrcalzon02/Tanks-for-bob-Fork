@@ -17,6 +17,6 @@
   "native_power": "chemical burner1kW",
   "actual_recipe_contracts": 1,
   "owner_visual_approved": false,
-  "native_integrated": false,
-  "review_status": "held-pending-source-export-and-native-review"
+  "native_integrated": true,
+  "review_status": "delegated-operational-close-enough-native-client-and-operated-reload-verified"
 }

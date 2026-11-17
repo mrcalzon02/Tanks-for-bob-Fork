@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "tanks_for_bob_fork_1.8.104/data-final-fixes.lua",
+      "tested_working_tree_sha256": "974a553d4415474340d729edbe38cb15ce8de3486156fb7b5bd6a370a81fc5b4",
+      "installed_profile_sha256": "974a553d4415474340d729edbe38cb15ce8de3486156fb7b5bd6a370a81fc5b4",
+      "byte_identical": true,
+      "git_index_sha256": "cf718315572dc411a27dcbfeb972da08b5ce7eb94740e7cf87223078c961fb81",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": true
+    },
+    {
+      "path": "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/steam-condenser-v2-production.lua",
+      "tested_working_tree_sha256": "03798516de5e86d482ebf54ec7df1754d357eb7dc1b682f5853127a1e49a31be",
+      "installed_profile_sha256": "03798516de5e86d482ebf54ec7df1754d357eb7dc1b682f5853127a1e49a31be",
+      "byte_identical": true,
+      "git_index_sha256": "03798516de5e86d482ebf54ec7df1754d357eb7dc1b682f5853127a1e49a31be",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": true
+    },
+    {
+      "path": "tanks_for_bob_fork_1.8.104/graphics/entity/steam-condenser-v2/working-256.png",
+      "tested_working_tree_sha256": "369dc0cb65d3d91c531af55c2fa65834ce2588d644838ac856804ae869fb68f5",
+      "installed_profile_sha256": "369dc0cb65d3d91c531af55c2fa65834ce2588d644838ac856804ae869fb68f5",
+      "byte_identical": true,
+      "git_index_sha256": "369dc0cb65d3d91c531af55c2fa65834ce2588d644838ac856804ae869fb68f5",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": false
+    },
+    {
+      "path": "tanks_for_bob_fork_1.8.104/graphics/entity/steam-condenser-v2/idle-256.png",
+      "tested_working_tree_sha256": "3fca27b01c9c3dc34d10af93da1813b478d3cf9a2475fce2ac7934af948b54d1",
+      "installed_profile_sha256": "3fca27b01c9c3dc34d10af93da1813b478d3cf9a2475fce2ac7934af948b54d1",
+      "byte_identical": true,
+      "git_index_sha256": "3fca27b01c9c3dc34d10af93da1813b478d3cf9a2475fce2ac7934af948b54d1",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": false
+    },
+    {
+      "path": "tanks_for_bob_fork_1.8.104/graphics/icons/steam-condenser-v2.png",
+      "tested_working_tree_sha256": "8a25d69153547711968240812499417b0e1e9b89788790a7b2da6a90097949c4",
+      "installed_profile_sha256": "8a25d69153547711968240812499417b0e1e9b89788790a7b2da6a90097949c4",
+      "byte_identical": true,
+      "git_index_sha256": "8a25d69153547711968240812499417b0e1e9b89788790a7b2da6a90097949c4",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": false
+    },
+    {
+      "path": "tanks_for_bob_fork_1.8.104/prototypes/entity/entities.lua",
+      "tested_working_tree_sha256": "cab84568b379fad081757055971c6bff1403e3a171c7ab2b56f31f2daaee80c5",
+      "installed_profile_sha256": "cab84568b379fad081757055971c6bff1403e3a171c7ab2b56f31f2daaee80c5",
+      "byte_identical": true,
+      "git_index_sha256": "cab84568b379fad081757055971c6bff1403e3a171c7ab2b56f31f2daaee80c5",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": true
+    },
+    {
+      "path": "ci/steam_condenser_v2/control.lua",
+      "tested_working_tree_sha256": "92e31d0e9be46326f976e5baafc0da9971a42b7666eef1a91488ec1a40766c45",
+      "installed_profile_sha256": "92e31d0e9be46326f976e5baafc0da9971a42b7666eef1a91488ec1a40766c45",
+      "byte_identical": true,
+      "git_index_sha256": "92e31d0e9be46326f976e5baafc0da9971a42b7666eef1a91488ec1a40766c45",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": true
+    },
+    {
+      "path": "ci/steam_condenser_v2/gui-control.lua",
+      "tested_working_tree_sha256": "2891065c099f5e144cc2d33c1856e5edc28222ae7b30f2e0c60248c64fe72ffa",
+      "installed_profile_sha256": "2891065c099f5e144cc2d33c1856e5edc28222ae7b30f2e0c60248c64fe72ffa",
+      "byte_identical": true,
+      "git_index_sha256": "2891065c099f5e144cc2d33c1856e5edc28222ae7b30f2e0c60248c64fe72ffa",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": true
+    }
+  ],
+  "scope": "Task code/art, actual entity definitions and harness match final isolated client profile. Concurrent material-icon changes preserved outside delivery; no full repository or installed user-pack equivalence claimed."
+}

@@ -1,0 +1,41 @@
+   0.001 2026-11-17 05:18:16; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.001 Operating system: Windows 11 (build 26200) 
+   0.001 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\steam-condenser-integrated01\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\steam-condenser-integrated01\mods" "--test-scenario" "steam-condenser-v2-proof/proof" "--test-ticks" "8460" 
+   0.001 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/steam-condenser-integrated01/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/steam-condenser-integrated01/runtime [238820/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.009 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 18158/32526 MB, page: 25730/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.039 Running in headless mode
+   0.039 Audio is disabled
+   0.041 Info ModManager.cpp:455: FeatureFlag: 
+   0.043 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.045 Loading mod core 0.0.0 (data.lua)
+   0.059 Loading mod base 2.1.24 (data.lua)
+   0.300 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.375 Loading mod base 2.1.24 (data-updates.lua)
+   0.382 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.388 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.472 Checksum for core: 3668028660
+   0.472 Checksum of base: 3864816957
+   0.472 Checksum of tanks_for_bob_fork: 211253953
+   0.472 Checksum of steam-condenser-v2-proof: 0
+   0.597 Prototype list checksum: 1368343619
+   0.623 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.623 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.626 Info GlobalContext.cpp:1347: Resetting config.
+   0.626 Factorio initialised
+   0.634 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.075 Loading level.dat: 935158 bytes.
+   1.075 Info Scenario.cpp:152: Map version 2.1.24-1
+   1.088 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.090 Checksum for script __level__/control.lua: 3071058485
+   1.104 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   1.113 Checksum for script __steam-condenser-v2-proof__/control.lua: 2354054700
+   1.124 Script @__steam-condenser-v2-proof__/control.lua:33: STEAM_CONDENSER_V2_FIXTURE machines=24 real_recipes=1 directions=4 normal_craft_seconds=58.33333333
+   1.249 Script @__steam-condenser-v2-proof__/control.lua:48: STEAM_CONDENSER_V2_STOP_PASS
+   1.725 Script @__steam-condenser-v2-proof__/control.lua:55: STEAM_CONDENSER_V2_STARVATION_BLOCKED_PASS
+   2.411 Script @__steam-condenser-v2-proof__/control.lua:63: STEAM_CONDENSER_V2_NATIVE_PASS machines=24 recipes=1 actual_directions=4 pipe_joints=20
+   2.466 Info RunTest.cpp:80: Ran 8460 ticks without the test finishing
+   2.466 Info GlobalContext.cpp:763: Deleting active scenario.
+   2.493 Goodbye

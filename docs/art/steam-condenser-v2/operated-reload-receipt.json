@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "save_sha256": "cfb388ee9cfd6c922762fba731c635e44f7c6e66a2e379df1b7d51308863a069",
+  "actual_operated_save": true,
+  "engine_exit_code": 0,
+  "scope": "Four real recipe facings plus all diagnostic states, ordinary input joints, actual steam amount/type/temp, input/output/fuel inventories, remaining burning fuel, burner energy buffer, recipe/progress/count, disabled/directions and actual Workbench output/crafted item placement. Saved at8400 after60-tick disabled settle."
+}

@@ -1,0 +1,244 @@
+{
+  "working": {
+    "frame": 17,
+    "sampled_opaque_upper_pixels": 3924,
+    "changed_over_005": 124,
+    "maximum": 0.2549019753932953,
+    "mean": 0.006942696403712034
+  },
+  "all_working_comparisons": [
+    {
+      "frame": 1,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 38,
+      "maximum": 0.14509806036949158,
+      "mean": 0.003403889713808894
+    },
+    {
+      "frame": 2,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 58,
+      "maximum": 0.27843138575553894,
+      "mean": 0.003929563798010349
+    },
+    {
+      "frame": 3,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 67,
+      "maximum": 0.2549019753932953,
+      "mean": 0.004483221098780632
+    },
+    {
+      "frame": 4,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 78,
+      "maximum": 0.2509803771972656,
+      "mean": 0.004902961198240519
+    },
+    {
+      "frame": 5,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 82,
+      "maximum": 0.24705882370471954,
+      "mean": 0.004969919100403786
+    },
+    {
+      "frame": 6,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 71,
+      "maximum": 0.2352941334247589,
+      "mean": 0.004829006735235453
+    },
+    {
+      "frame": 7,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 75,
+      "maximum": 0.2392157018184662,
+      "mean": 0.00515780271962285
+    },
+    {
+      "frame": 8,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 90,
+      "maximum": 0.24313727021217346,
+      "mean": 0.005614519584923983
+    },
+    {
+      "frame": 9,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 122,
+      "maximum": 0.30980393290519714,
+      "mean": 0.007153565529733896
+    },
+    {
+      "frame": 10,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 122,
+      "maximum": 0.2392157018184662,
+      "mean": 0.0069327023811638355
+    },
+    {
+      "frame": 11,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 122,
+      "maximum": 0.26274511218070984,
+      "mean": 0.007387420628219843
+    },
+    {
+      "frame": 12,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 111,
+      "maximum": 0.2509803771972656,
+      "mean": 0.006973676849156618
+    },
+    {
+      "frame": 13,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 101,
+      "maximum": 0.24313727021217346,
+      "mean": 0.006572925020009279
+    },
+    {
+      "frame": 14,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 121,
+      "maximum": 0.2392157018184662,
+      "mean": 0.006809778045862913
+    },
+    {
+      "frame": 15,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 109,
+      "maximum": 0.27450981736183167,
+      "mean": 0.006762807723134756
+    },
+    {
+      "frame": 16,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 114,
+      "maximum": 0.26274511218070984,
+      "mean": 0.006629889830946922
+    },
+    {
+      "frame": 17,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 124,
+      "maximum": 0.2549019753932953,
+      "mean": 0.006942696403712034
+    },
+    {
+      "frame": 18,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 123,
+      "maximum": 0.2352941334247589,
+      "mean": 0.0067268298007547855
+    },
+    {
+      "frame": 19,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 108,
+      "maximum": 0.2509803771972656,
+      "mean": 0.006447003688663244
+    },
+    {
+      "frame": 20,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 120,
+      "maximum": 0.2705882489681244,
+      "mean": 0.006858748383820057
+    },
+    {
+      "frame": 21,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 120,
+      "maximum": 0.24313725531101227,
+      "mean": 0.007093602791428566
+    },
+    {
+      "frame": 22,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 113,
+      "maximum": 0.24313727021217346,
+      "mean": 0.007242510095238686
+    },
+    {
+      "frame": 23,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 108,
+      "maximum": 0.2392157018184662,
+      "mean": 0.006872739177197218
+    },
+    {
+      "frame": 24,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 99,
+      "maximum": 0.26274511218070984,
+      "mean": 0.006087225861847401
+    },
+    {
+      "frame": 25,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 100,
+      "maximum": 0.2392157018184662,
+      "mean": 0.00615318538621068
+    },
+    {
+      "frame": 26,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 91,
+      "maximum": 0.2392157018184662,
+      "mean": 0.005716456100344658
+    },
+    {
+      "frame": 27,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 98,
+      "maximum": 0.2509803771972656,
+      "mean": 0.0059692999348044395
+    },
+    {
+      "frame": 28,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 89,
+      "maximum": 0.2666666805744171,
+      "mean": 0.005693470593541861
+    },
+    {
+      "frame": 29,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 77,
+      "maximum": 0.25882354378700256,
+      "mean": 0.005191781558096409
+    },
+    {
+      "frame": 30,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 59,
+      "maximum": 0.23137256503105164,
+      "mean": 0.004393276292830706
+    },
+    {
+      "frame": 31,
+      "sampled_opaque_upper_pixels": 3924,
+      "changed_over_005": 30,
+      "maximum": 0.20784315466880798,
+      "mean": 0.003080090507864952
+    }
+  ],
+  "unique_geometry_phases": 32,
+  "disabled": {
+    "sampled_opaque_upper_pixels": 3924,
+    "changed_over_005": 0,
+    "maximum": 0.0,
+    "mean": 0.0
+  },
+  "full_output": {
+    "sampled_opaque_upper_pixels": 3924,
+    "changed_over_005": 0,
+    "maximum": 0.0,
+    "mean": 0.0
+  },
+  "scope": "Opaque source-alpha motion envelope across all32 phases, left piston/crank/offset transmission only; excludes chimney smoke, ground, fixtures and background.",
+  "source_pixel_count": 3924,
+  "passed": true
+}

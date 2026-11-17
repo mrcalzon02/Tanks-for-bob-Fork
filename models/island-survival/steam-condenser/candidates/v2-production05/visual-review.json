@@ -1,5 +1,5 @@
 {
-  "judgment": "model-operational-close-enough-native-graphical-pending",
+  "judgment": "operational-close-enough-after-native-four-facing-review",
   "source_sha256": "f16cc807dd96b9fe901410fd214657dc913027b959e27e377e5ab2f92cde1526",
   "runtime_sha256": "ac882b649abd69772e6db8ceb6684f2db011bba0cd899bb8bb771cecd23907a5",
   "owner_visual_approved": false,
@@ -9,13 +9,46 @@
     "models/island-survival/steam-condenser/candidates/v2-production05/actual-glb-rear.png": "2a55aa1a4e5215dfed3e4072ee3388332916beeb9ca51838963e18a49d309d09",
     "models/island-survival/steam-condenser/candidates/v2-production05/actual-glb-side.png": "621ac93371c8ea549da4380b14d0b46f168bd3610ac76cd21e4fe95150ffab7a",
     "models/island-survival/steam-condenser/candidates/v2-production05/actual-glb-clay.png": "66bebb4586779c81e477c0eab097fafc49878039c140f2d7c696188a9a9e7541",
-    "models/island-survival/steam-condenser/candidates/v2-production05/actual-glb-mechanism-close.png": "01b4e1793acb2744f2ceb05be1aeee900943d9b99375d8045e434055e55a73c9"
+    "models/island-survival/steam-condenser/candidates/v2-production05/actual-glb-mechanism-close.png": "01b4e1793acb2744f2ceb05be1aeee900943d9b99375d8045e434055e55a73c9",
+    "docs/art/steam-condenser-v2/north-working.png": "b868c01ea11b8dffe58f8d5a945831672df087c86de5dd72be5c12207bf289d1",
+    "docs/art/steam-condenser-v2/east-working.png": "d024cb77ba56969a36e9976775157f22d2aeb48bc9f53aafab2a04f647105d26",
+    "docs/art/steam-condenser-v2/south-working.png": "15b7ac08b7f47b7b7b865328c1e90e156336d379ec3842156ae983ceaa3845bb",
+    "docs/art/steam-condenser-v2/west-working.png": "f14257c6e6b6d9e2c0de306da20fe009b54b3d16c91c826f3c442d15b4b86276",
+    "docs/art/steam-condenser-v2/north-steam-pipe-close.png": "00db9ded43e8a23e0dd5feb7a3bcb871dfa7da92da10720202a81ab0306ffc93",
+    "docs/art/steam-condenser-v2/east-steam-pipe-close.png": "08c8828be4ba4a8512a6dcc35ccda85db29574eca1e8c8a8aaedaa5105472826",
+    "docs/art/steam-condenser-v2/south-steam-pipe-close.png": "3325cc6776df46a839971e524363c5256cec5e4566d9460692ba730cf9856fd5",
+    "docs/art/steam-condenser-v2/west-steam-pipe-close.png": "e829581849b7758a0faf535896ca60253301e5577dbfe30a626ef0ea77522000",
+    "docs/art/steam-condenser-v2/north-smoke-close.png": "562c7a35696231556cf92a9e3af6277a313cabfa330e39049903be4c564b44a0",
+    "docs/art/steam-condenser-v2/east-smoke-close.png": "07646595ac2f86a99c1d35f44b69ac9b582cc8d83f10be641db4b6d89709600b",
+    "docs/art/steam-condenser-v2/south-smoke-close.png": "7d402564810d7706473abc4727bb56f716b377cb5d14a7bfccf038a87d43db99",
+    "docs/art/steam-condenser-v2/west-smoke-close.png": "6c4bae6281a9219536b3900b53bb5756d71514cae96b1355fb4e7c58de06d6d4",
+    "docs/art/steam-condenser-v2/no-fuel.png": "35eecc790e409c1fbd68bc163ef26aa3366153218f32b0820a2c01710a79c9a8",
+    "docs/art/steam-condenser-v2/no-steam.png": "63c1c42fd842aeb7ab3a188199b88425f12005c869cf595a326d5dc58e6e65c2",
+    "docs/art/steam-condenser-v2/stopped-a.png": "c20d18a26bd70911d0909aff2d77fe61900afd6ac0ed611044a8b42551590900",
+    "docs/art/steam-condenser-v2/fuel-restored.png": "4c726b9ab9a3ff1740d7f5acc0d362229fe98c8ebef923185763c9dcb15e3009",
+    "docs/art/steam-condenser-v2/steam-restored.png": "6f6076219c97735f2f97c16c7e6074af15ffebe99e52c1ef4b80ca1e8054710f",
+    "docs/art/steam-condenser-v2/crafted-building-placed.png": "2f019204a122168b2ff4ae7b8a99daf15602d56ce5a3b6d6dcdbd9152a20dd3f",
+    "docs/art/steam-condenser-v2/contact-sheet.png": "8c75a297d8621c691657a7f565a5e580339512dd51b7cf408360b4bcfef86303"
   },
   "basis": "Ten actual starter groups refined as brick/clay heated treatment vessel, real crude-glass inspection opening, wood rack, separate stone/waste tray, full-size steam inlet and connected four-riser jacket, supported firebox/hollow brick stack, guided piston and rigid0.50 rod. Distinct offset transfer avoids the rod crossing a tall shaft; two equal-radius belts drive the contained rake. Grounded load paths and rear/side routing reviewed. No native water-output process invented.",
   "limitations": [
     "Representative batch/stone display does not simulate material transmutation.",
     "Inspection cavity remains dark at gameplay scale; the exposed drive explains working activity.",
     "Sampled clearances, not continuous collision simulation.",
-    "Current-art client alignment/operation and actual operated reload still pending."
-  ]
+    "Actual crafted-item placement is scripted against native item/place_result, not a manual player click.",
+    "No individual owner approval, full installed user-pack test or Mod Portal release."
+  ],
+  "delegated_operational_review": true,
+  "actual_client_screenshots": 60,
+  "native_geometry_phases": 32,
+  "native_actual_operated_reload": true,
+  "acceptance_policy_sha256": "238d2e93caa278ebecd0c0c545ac4677270dd7cb4aba336eacad5595b233b017",
+  "scores_out_of_10": {
+    "actual_recipe_function": 9,
+    "supported_construction": 8,
+    "model_specific_surfaces": 7,
+    "attached_animation": 8,
+    "native_pipe_alignment": 9,
+    "gameplay_readability": 8
+  }
 }

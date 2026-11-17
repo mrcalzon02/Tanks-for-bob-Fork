@@ -1,7 +1,7 @@
 {
   "schema": "fmpl.model-delivery.v1",
   "id": "tanks-steam-condenser-v2",
-  "status": "source-export-verified-native-graphical-pending",
+  "status": "operational-native-integrated-delegated-review",
   "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
   "prototype": {
     "type": "assembling-machine",
@@ -47,8 +47,25 @@
   "fluid_ports": "one running-recipe steam inlet; no fluid output exposed",
   "legacy_v1_condenser_candidate": "held/unapproved/uninstalled; water-output assumptions rejected, barrel source belongs to separately completed compressor",
   "owner_approved": false,
-  "native_current_art_verified": false,
+  "native_current_art_verified": true,
   "central_library_registration": {
-    "status": "pending graphical/operated-reload delivery"
-  }
+    "status": "pending verified source delivery commit"
+  },
+  "native_engine": "2.1.24",
+  "native_target_machines": 24,
+  "actual_workbench_builder": 1,
+  "recipe_direction_cases": 4,
+  "native_ordinary_machine_pipe_joints": 20,
+  "native_ordinary_pipe_entities": 40,
+  "fuel_and_steam_starvation_resupply_verified": true,
+  "blocked_item_output_recovery_verified": true,
+  "stop_restart_and_operated_reload_verified": true,
+  "building_unlock_workbench_craft_and_scripted_item_placement_verified": true,
+  "gameplay_changed": false,
+  "delegated_operational_review_passed": true,
+  "actual_client_screenshots": 60,
+  "native_working_video_frames": 32,
+  "native_unique_geometry_phases": 32,
+  "native_animation_progress": 1,
+  "evidence": "docs/art/steam-condenser-v2"
 }
