@@ -262,15 +262,20 @@
     {
       "id": "shaler",
       "name": "Shaler",
-      "revision": "OBJ blockout",
-      "status": "rebuild_required",
+      "revision": "V2 geared thermal processor with supported chimney",
+      "status": "integrated_delivery_pending",
       "priority": 18,
-      "next": "Build crushing jaws, constrained transmission, material feed/discharge and cycle.",
+      "next": "Commit/push and verify canonical FMPL registration before advancing.",
       "evidence": [
-        "models/island-survival/designs.json"
+        "docs/art/shaler-v2",
+        "models/island-survival/shaler/v2/FMPL_MODEL.json"
       ],
-      "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false
+      "fmpl_delivery": "pending canonical registration",
+      "done": false,
+      "owner_corrections": [
+        "V1 is a good rough structure but needs much more working pipes, hoses, gears and piston arms.",
+        "Brick chimney must have a visible load path and foundation, not hang off the retort side."
+      ]
     },
     {
       "id": "calcifier",

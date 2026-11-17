@@ -1,0 +1,47 @@
+{
+  "schema": "fmpl.model-delivery.v1",
+  "id": "tanks-shaler-v2",
+  "status": "operational-native-integrated-delegated-review",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "prototype": {
+    "type": "assembling-machine",
+    "name": "shaler"
+  },
+  "footprint_tiles": [
+    3,
+    3
+  ],
+  "scene_units_per_tile": 1,
+  "source": {
+    "path": "models/island-survival/shaler/candidates/v2-mechanisms02/shaler-v2.blend",
+    "sha256": "cce8f253c696ec3cf4db7825b599746e91ca79188de9f52c02641417e70a843d"
+  },
+  "runtime": {
+    "path": "models/island-survival/shaler/candidates/v2-mechanisms02/shaler-v2.glb",
+    "sha256": "e25979ae250bd788be7cf2f1ec0d0b0b7042085a54a5b5a6b19cda82ceaa230e"
+  },
+  "packed_pbr_images": 36,
+  "source_and_runtime_pose_checks": 6,
+  "mechanism_frames_checked": 193,
+  "production_frames": 68,
+  "frame_scope": "Four true idle captures plus sixteen working captures per facing; native idle cells explicitly repeat each idle capture.",
+  "native_art_orientations": 4,
+  "capture_policy": "fmpl.factorio45.v1",
+  "gear_teeth": [
+    18,
+    18,
+    18,
+    54
+  ],
+  "native_recipe_count": 17,
+  "native_player_grid_connections": 88,
+  "gameplay_changed": false,
+  "owner_approved": false,
+  "delegated_operational_review_passed": true,
+  "native_engine": "2.1.24",
+  "native_recipes_fuel_item_and_fluid_blocked_stop_restart_operated_reload_passed": true,
+  "actual_client_screenshots": 36,
+  "native_working_video_frames": 16,
+  "evidence": "docs/art/shaler-v2",
+  "central_library_registration": "pending source commit and canonical readback"
+}

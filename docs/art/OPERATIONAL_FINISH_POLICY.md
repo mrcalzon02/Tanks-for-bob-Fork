@@ -31,3 +31,11 @@ does not reopen the already accepted structures for cosmetic rebuilding.
 The owner also rejected sharp natural rock edges and boulder-like bases that
 read as objects stuck onto terrain. Require a continuous excavated landform,
 buried roots and ground transitions before treating the quarry as close enough.
+
+## Shaler correction — 2026-11-16
+
+The owner called Shaler V1 a good rough structure and required substantially
+more pipes, hoses, gears, machinery and moving piston arms. The brick chimney
+also needs a visible continuous foundation; it cannot hang off the retort.
+Keep the working V1 study held. Refine supported, mechanically linked process
+machinery and actual pipe circuits before delegated operational delivery.

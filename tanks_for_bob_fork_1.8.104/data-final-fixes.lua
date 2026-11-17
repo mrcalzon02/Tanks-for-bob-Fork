@@ -60,3 +60,6 @@ require("prototypes.generated_graphics.wood-basin-v1-production")
 
 -- Detailed excavation hoist with terrain rooted into the native ground plane.
 require("prototypes.generated_graphics.quarry-v5-production")
+
+-- Low-tech steam/water waste processing and guided canister packing.
+require("prototypes.generated_graphics.shaler-v2-production")

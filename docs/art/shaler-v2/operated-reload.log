@@ -1,0 +1,41 @@
+   0.002 2026-11-16 19:27:39; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.002 Operating system: Windows 11 (build 26200) 
+   0.002 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\shaler-v2-client03\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\shaler-v2-client03\mods" "--test-save" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\shaler-v2-client03\runtime\saves\_autosave-shaler-complete-client.zip" "--test-ticks" "300" 
+   0.003 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/shaler-v2-client03/config.ini
+   0.003 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.003 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/shaler-v2-client03/runtime [255158/1906722MB]
+   0.003 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.010 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 25159/32526 MB, page: 35322/43790 MB, virtual: 4299/134217727 MB, extended virtual: 0 MB]
+   0.046 Running in headless mode
+   0.046 Audio is disabled
+   0.048 Info ModManager.cpp:455: FeatureFlag: 
+   0.050 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.053 Loading mod core 0.0.0 (data.lua)
+   0.069 Loading mod base 2.1.24 (data.lua)
+   0.381 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.409 Loading mod base 2.1.24 (data-updates.lua)
+   0.415 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.420 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.458 Checksum for core: 3668028660
+   0.458 Checksum of base: 3864816957
+   0.458 Checksum of tanks_for_bob_fork: 3025876134
+   0.458 Checksum of shaler-v1-proof: 0
+   0.458 Checksum of shaler-v1-capture: 0
+   0.587 Prototype list checksum: 1368343619
+   0.613 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.613 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.615 Info GlobalContext.cpp:1347: Resetting config.
+   0.616 Factorio initialised
+   0.616 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\shaler-v2-client03\runtime\saves\_autosave-shaler-complete-client.zip: 2039407 bytes.
+   0.761 Loading level.dat: 2564810 bytes.
+   0.761 Info Scenario.cpp:152: Map version 2.1.24-1
+   0.781 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   0.782 Loading script.dat: 71579 bytes.
+   0.787 Checksum for script __level__/control.lua: 3368906707
+   0.789 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   0.791 Checksum for script __shaler-v1-proof__/control.lua: 2411124113
+   0.792 Checksum for script __shaler-v1-capture__/control.lua: 1240436181
+   0.807 Script @__shaler-v1-proof__/control.lua:73: SHALER_V1_RELOAD_PASS complete=true stored_products=true
+   0.858 Info RunTest.cpp:80: Ran 300 ticks without the test finishing
+   0.858 Info GlobalContext.cpp:763: Deleting active scenario.
+   0.916 Goodbye

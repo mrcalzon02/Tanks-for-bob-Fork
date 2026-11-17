@@ -1,0 +1,344 @@
+{
+  "technical_checks_passed": false,
+  "source_sha256": "b5404a571480a7abb1dfdc36bf1c8435f7bd9107d6b68326afcdaf511dc8c295",
+  "glb_sha256": "79584fd459a56d07a519452e45b3fcb97d21d5f981f1017bedfda486a1957abd",
+  "source": {
+    "mesh_count": 304,
+    "triangles": 59120,
+    "min": [
+      -1.399999976158142,
+      -1.5199999809265137,
+      0.0
+    ],
+    "max": [
+      1.40500009059906,
+      1.5199999809265137,
+      2.193000078201294
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "runtime": {
+    "mesh_count": 304,
+    "triangles": 59120,
+    "min": [
+      -1.399999976158142,
+      -1.5199999809265137,
+      0.0
+    ],
+    "max": [
+      1.40500009059906,
+      1.5199999809265137,
+      2.193000078201294
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "pose_bounds_errors": {
+    "1": 0.008202791213989258,
+    "25": 0.008202791213989258,
+    "49": 0.008202791213989258,
+    "97": 0.008202791213989258,
+    "145": 0.008202791213989258,
+    "193": 0.008202791213989258
+  },
+  "cycle_seam_error": 2.9802322387695312e-08,
+  "fixed_socket_motion": 0.0,
+  "moving_parts": [
+    "SHALER | cam rolling face",
+    "SHALER | canister pressure platen",
+    "SHALER | sliding ram rod",
+    "SHALER | flat cam follower",
+    "SHALER | pulley spoke",
+    "SHALER | pulley spoke.001",
+    "SHALER | pulley spoke.002",
+    "SHALER | pulley spoke.003",
+    "SHALER | pulley spoke.004",
+    "SHALER | pulley spoke.005",
+    "SHALER | pulley spoke.006",
+    "SHALER | pulley spoke.007",
+    "SHALER | pulley spoke.008",
+    "SHALER | pulley spoke.009",
+    "SHALER | pulley spoke.010",
+    "SHALER | pulley spoke.011",
+    "SHALER | engine retained crank pin",
+    "SHALER | engine crosshead shoe",
+    "SHALER | engine guided piston",
+    "SHALER | rigid engine connecting rod",
+    "SHALER | travelling belt splice",
+    "SHALER | travelling belt splice.001",
+    "SHALER | travelling belt splice.002"
+  ],
+  "packed_images": [
+    {
+      "name": "aged-copper-jacket-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-ash-and-soot-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-ash-and-soot-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-ash-and-soot-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-fired-ore-residue-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-fired-ore-residue-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-fired-ore-residue-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-hemp-drive-belt-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-hemp-drive-belt-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-hemp-drive-belt-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-salt-glazed-stoneware-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-salt-glazed-stoneware-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-salt-glazed-stoneware-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-worked-sandstone-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-worked-sandstone-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-worked-sandstone-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "embedded_export_images": 33,
+  "animation_count": 1,
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}

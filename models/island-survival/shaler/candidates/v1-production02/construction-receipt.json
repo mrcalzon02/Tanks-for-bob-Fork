@@ -1,0 +1,55 @@
+{
+  "source_sha256": "cbb0271acd44cee040028aaf51a24f380993f4bd217c2a84f57b750f8378ce1d",
+  "glb_sha256": "0040d79553f9e7749476fae9eb0428d03782a3c21bdabbda37fd391ad5b1200b",
+  "starter_sha256": "9bff63e43e67c6bf09ffd2965de09c3975709e0363a33a518762acc4863b468c",
+  "reused_groups": [
+    "SHALER | REUSED shaler_stone_base",
+    "SHALER | REUSED shaler_crusher_body",
+    "SHALER | REUSED shaler_jaw_left",
+    "SHALER | REUSED shaler_jaw_right",
+    "SHALER | REUSED shaler_raw_feed_hopper",
+    "SHALER | REUSED shaler_ore_chute"
+  ],
+  "repaired_degenerate_faces": {},
+  "belts": {
+    "radius": 0.2590854695646224,
+    "center_distance": 1.6278820156721594,
+    "perimeter": 4.883646047016478,
+    "turns_per_loop": 3
+  },
+  "native_sockets": [
+    {
+      "role": "input",
+      "native_position": [
+        0,
+        -1
+      ],
+      "source_socket": [
+        0,
+        1.5,
+        0.2
+      ],
+      "fluids": [
+        "steam",
+        "water"
+      ]
+    },
+    {
+      "role": "output",
+      "native_position": [
+        0,
+        1
+      ],
+      "source_socket": [
+        0,
+        -1.5,
+        0.2
+      ],
+      "fluids": [
+        "sulfuric-acid"
+      ]
+    }
+  ],
+  "owner_visual_approved": false,
+  "native_integrated": false
+}

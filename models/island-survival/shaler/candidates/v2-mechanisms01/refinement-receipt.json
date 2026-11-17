@@ -1,0 +1,38 @@
+{
+  "parent_source_sha256": "2a03bc64a8d04f97c3eb7dc115f6db6c16371311accd64587b2c2a003cc4fbad",
+  "source_sha256": "2033e0681f3f0435eda4d91df04ce584767373e8ce2da53da5137cc99fb06800",
+  "runtime_sha256": "7993e1e95b6e033cff25b73c913aca3726d46ab1c95f74ef0cca0b2ebda555de",
+  "owner_feedback": [
+    "Good rough structure; needs much more pipes, hoses, gears and working piston arms",
+    "Brick chimney needs visible support to ground"
+  ],
+  "chimney_foundation_courses": [
+    "SHALER V2 | chimney lower bonded course",
+    "SHALER V2 | chimney lower bonded course.001",
+    "SHALER V2 | chimney lower bonded course.002",
+    "SHALER V2 | chimney lower bonded course.003",
+    "SHALER V2 | chimney lower bonded course.004",
+    "SHALER V2 | chimney lower bonded course.005",
+    "SHALER V2 | chimney lower bonded course.006",
+    "SHALER V2 | chimney lower bonded course.007",
+    "SHALER V2 | chimney lower bonded course.008",
+    "SHALER V2 | chimney lower bonded course.009",
+    "SHALER V2 | chimney lower bonded course.010",
+    "SHALER V2 | chimney lower bonded course.011",
+    "SHALER V2 | chimney lower bonded course.012",
+    "SHALER V2 | chimney lower bonded course.013",
+    "SHALER V2 | chimney lower bonded course.014",
+    "SHALER V2 | chimney lower bonded course.015"
+  ],
+  "gear_teeth": [
+    18,
+    18,
+    18,
+    54
+  ],
+  "additional_piston_rod_length": 0.52,
+  "exterior_fluid_sockets_unchanged": true,
+  "owner_visual_approved": false,
+  "native_integrated": false,
+  "degenerate_repairs": {}
+}

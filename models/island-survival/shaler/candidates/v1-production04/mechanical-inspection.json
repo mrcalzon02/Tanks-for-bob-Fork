@@ -1,0 +1,12 @@
+{
+  "source_sha256": "2a03bc64a8d04f97c3eb7dc115f6db6c16371311accd64587b2c2a003cc4fbad",
+  "frames": 193,
+  "errors": {
+    "rod_endpoint_error": 1.3328003749250113e-07,
+    "piston_endpoint_error": 5.960464477539063e-08,
+    "cam_follower_gap": 1.8596649176139124e-07,
+    "cam_contact_outside_follower": 0.0,
+    "ram_off_axis": 2.384185793236071e-08
+  },
+  "passed": true
+}

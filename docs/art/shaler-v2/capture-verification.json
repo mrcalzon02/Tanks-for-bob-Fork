@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "engine": "2.1.24",
+  "genuine_client_screenshots": 36,
+  "working_loop_native_frames": 16,
+  "loop_fps": 4,
+  "loop_seconds": 4,
+  "native_tested_file_sha256": {
+    "prototypes/generated_graphics/shaler-v2-production.lua": "06364cd1054ddbb1bf8b4f7652adf44151105912e214b314c3c1d528754ddf8d",
+    "graphics/entity/shaler-v2/idle-256.png": "940a1aae94737349a199e51dc739b151ac1acfa88a534086a966115a99be808e",
+    "graphics/entity/shaler-v2/working-256.png": "fb70c40d91a93f063f22db1dd4cff09ec732ecc45c7248091ffcc52aa4f4f9e5",
+    "graphics/icons/shaler-v2.png": "fe615a48a392f18026f81d6f3eaeebee316c4cf7c6d8e978bc8293593376c34d",
+    "data-final-fixes.lua": "ee77e5920198defab6113ae8b41c5aed1060c6bc0548837b19e52e7ff6707d0b"
+  },
+  "native_proof_script_sha256": "54b399522675b400240611e2383eb8bf29117e758ea4d881f21ba3d97f5a505f",
+  "actual_processing_recipes": 17,
+  "machines": 88,
+  "facings": 4,
+  "direct_player_grid_connections": 88,
+  "additional_normal_feed_buffer_pipes": 136,
+  "guaranteed_results_verified": true,
+  "random_byproducts_not_required_to_roll": true,
+  "chemical_fuel": true,
+  "no_fuel_idle": true,
+  "no_steam_idle": true,
+  "blocked_item_and_fluid_output": true,
+  "stop_restart_and_unblocking": true,
+  "operated_save_reload_machine_and_pipe_fluids_inventories_and_connections": true,
+  "owner_visual_approved": false
+}

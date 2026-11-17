@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-16",
+  "judgment": "operational_close_enough_after_owner_requested_refinement",
+  "owner_visual_approved": false,
+  "basis": "Delegated operational completion after replacing the owner-held rough V1 with visible linked gears/pistons, process circuits and continuous chimney support.",
+  "source_sha256": "cce8f253c696ec3cf4db7825b599746e91ca79188de9f52c02641417e70a843d",
+  "runtime_sha256": "e25979ae250bd788be7cf2f1ec0d0b0b7042085a54a5b5a6b19cda82ceaa230e",
+  "before_reference": "models/island-survival/shaler/candidates/v1-production04/front-review512.png",
+  "before_reference_sha256": "3169ac12e8489ed5039784a9146febe7b76cf108b2098e03932b42237c40e91a",
+  "acceptance_policy_sha256": "9c07fe5f6fdc5b3510d9d5a3705f16ecf93e812235a5456b933b3907c0f68e84",
+  "reviewed_images": {
+    "docs/art/shaler-v2/north-working-a.png": "d9f179238baed38009e28c81bd5bf7c4c01154a18ed771b0296a63cad10b0eff",
+    "docs/art/shaler-v2/north-working-b.png": "a95586d50d4acb17440006cd76d98b7560d07787f6786604053d4ae9c21d1572",
+    "docs/art/shaler-v2/east-working-a.png": "42f46e1c070bce99838ea35f71f85410f4c680fb7b05032901ff8ca3b34d915b",
+    "docs/art/shaler-v2/south-working-a.png": "0d74a3d4fcf58d58af4c8cd9fa95f5745aa3e309be615197590db9045e2b84bf",
+    "docs/art/shaler-v2/west-working-a.png": "9f0730383b208370efab4cd6d1035b4067747726bed93482e1cec5fa00f6a7c7",
+    "docs/art/shaler-v2/idle.png": "2a04466a44446142dcd5d234614a9d10ea71f89983e0fa066410d854b2b99397",
+    "docs/art/shaler-v2/no-fuel.png": "9ec858eca83bc2188c79b6dee13d55eff17e755bea2e5591a23b8baada057ae3",
+    "docs/art/shaler-v2/blocked-fluid-full.png": "432e7196068653f620c36d517b146be9b1cfd69ceedbafca0dcd58d720ab8d8a",
+    "docs/art/shaler-v2/restarted.png": "6dbf90d24542f720bd3333d1c49413459168e16bed073ee23462ad8c34613b80",
+    "models/island-survival/shaler/candidates/v2-mechanisms02/actual-glb-front.png": "a1a6c4cef2c6255c7330e91bd5b60e942f26a66b5ad14af372f69bd8b96d4cf0",
+    "models/island-survival/shaler/candidates/v2-mechanisms02/actual-glb-rear.png": "0af55fe41318a2f402db97c5f69cd3097ac8e109cd5282c2ef7fe61c97ed40c4",
+    "models/island-survival/shaler/candidates/v2-mechanisms02/actual-glb-clay.png": "c882d29e0a4d5745ce2710bfc74510e75d85430438340d9a0c48d6d8c693c0f2",
+    "models/island-survival/shaler/candidates/v2-mechanisms02/actual-glb-drive-close.png": "c13e7d13cead96a50c956d563ae35b237e5e7ecce850691b8622bc01c71ebc3a"
+  },
+  "scores_out_of_10": {
+    "actual_recipe_function": 9,
+    "supported_chimney_and_framework": 8,
+    "visible_connected_machinery": 9,
+    "pipe_and_hose_circuits": 8,
+    "surfaces": 7,
+    "attached_animation": 9,
+    "native_pipe_alignment": 8
+  },
+  "limitations": [
+    "Individual owner approval is not claimed; V1 remains held.",
+    "Small texture and fitting detail is approximate at gameplay scale; cosmetic perfection deferred.",
+    "Internal process recirculation is visual construction, not an added gameplay recipe or exterior fluid port.",
+    "Blocked native assembler may retain crafting_progress=1; proofs test unchanged outputs/progress then unblock successfully.",
+    "No Mod Portal publication or full-user-mod-pack installation claimed."
+  ]
+}

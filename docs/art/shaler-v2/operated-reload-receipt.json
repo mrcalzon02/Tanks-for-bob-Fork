@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "machines": 88,
+  "completed_operational_test": true,
+  "output_inventory_counts_preserved": true,
+  "machine_and_pipe_fluid_amounts_types_temperatures_preserved": true,
+  "normal_pipe_connections_preserved": true,
+  "freeze_and_resupply_stop_only_after_operational_tests": true,
+  "snapshot_after_observed_fluid_settling": true,
+  "save_sha256": "81d73f01b9b9070aa1097b42498022e61342d645f6b94dbe2d96c0ae41c48c60",
+  "log_sha256": "17523c2d096091bab235a9127dd622c520e8b64a2405974c7bc6470088a7120a"
+}

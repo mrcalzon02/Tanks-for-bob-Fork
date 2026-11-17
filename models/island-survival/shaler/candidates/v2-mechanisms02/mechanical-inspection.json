@@ -1,0 +1,16 @@
+{
+  "source_sha256": "cce8f253c696ec3cf4db7825b599746e91ca79188de9f52c02641417e70a843d",
+  "frames": 193,
+  "errors": {
+    "process_rod_endpoint_error": 8.703145627326156e-06,
+    "process_piston_endpoint_error": 0.0,
+    "spur_ratio_error": 4.884636941523968e-07,
+    "miter_ratio_error": 0.0,
+    "rod_endpoint_error": 1.3328003749250113e-07,
+    "piston_endpoint_error": 5.960464477539063e-08,
+    "cam_follower_gap": 1.8596649176139124e-07,
+    "cam_contact_outside_follower": 0.0,
+    "ram_off_axis": 2.384185793236071e-08
+  },
+  "passed": true
+}

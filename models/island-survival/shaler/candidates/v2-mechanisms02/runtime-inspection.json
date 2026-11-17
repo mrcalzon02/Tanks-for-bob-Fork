@@ -1,0 +1,391 @@
+{
+  "technical_checks_passed": true,
+  "source_sha256": "cce8f253c696ec3cf4db7825b599746e91ca79188de9f52c02641417e70a843d",
+  "glb_sha256": "e25979ae250bd788be7cf2f1ec0d0b0b7042085a54a5b5a6b19cda82ceaa230e",
+  "source": {
+    "mesh_count": 442,
+    "triangles": 112556,
+    "min": [
+      -1.399999976158142,
+      -1.5199999809265137,
+      0.0
+    ],
+    "max": [
+      1.4000000953674316,
+      1.5199999809265137,
+      2.221418619155884
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "runtime": {
+    "mesh_count": 442,
+    "triangles": 112556,
+    "min": [
+      -1.399999976158142,
+      -1.5199999809265137,
+      0.0
+    ],
+    "max": [
+      1.4000002145767212,
+      1.5199999809265137,
+      2.221418619155884
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "pose_bounds_errors": {
+    "1": 2.384185791015625e-07,
+    "25": 2.384185791015625e-07,
+    "49": 2.551823854446411e-07,
+    "97": 2.384185791015625e-07,
+    "145": 2.682209014892578e-07,
+    "193": 2.384185791015625e-07
+  },
+  "cycle_seam_error": 1.1920928955078125e-07,
+  "fixed_socket_motion": 0.0,
+  "moving_parts": [
+    "SHALER | cam rolling face",
+    "SHALER | canister pressure platen",
+    "SHALER | sliding ram rod",
+    "SHALER | flat cam follower",
+    "SHALER | pulley spoke",
+    "SHALER | pulley spoke.001",
+    "SHALER | pulley spoke.002",
+    "SHALER | pulley spoke.003",
+    "SHALER | pulley spoke.004",
+    "SHALER | pulley spoke.005",
+    "SHALER | pulley spoke.006",
+    "SHALER | pulley spoke.007",
+    "SHALER | pulley spoke.008",
+    "SHALER | pulley spoke.009",
+    "SHALER | pulley spoke.010",
+    "SHALER | pulley spoke.011",
+    "SHALER | engine retained crank pin",
+    "SHALER | engine crosshead shoe",
+    "SHALER | engine guided piston",
+    "SHALER | rigid engine connecting rod",
+    "SHALER | travelling belt splice",
+    "SHALER | travelling belt splice.001",
+    "SHALER | travelling belt splice.002",
+    "SHALER V2 | shaft collar visible key",
+    "SHALER V2 | shaft collar visible key.001",
+    "SHALER V2 | shaft collar visible key.002",
+    "SHALER V2 | shaft collar visible key.003",
+    "SHALER V2 | gear radial spoke",
+    "SHALER V2 | gear radial spoke.001",
+    "SHALER V2 | gear radial spoke.002",
+    "SHALER V2 | gear radial spoke.003",
+    "SHALER V2 | gear spoke iron facing",
+    "SHALER V2 | gear radial spoke.004",
+    "SHALER V2 | gear spoke iron facing.001",
+    "SHALER V2 | gear radial spoke.005",
+    "SHALER V2 | gear spoke iron facing.002",
+    "SHALER V2 | gear radial spoke.006",
+    "SHALER V2 | gear spoke iron facing.003",
+    "SHALER V2 | gear radial spoke.007",
+    "SHALER V2 | gear spoke iron facing.004",
+    "SHALER V2 | gear radial spoke.008",
+    "SHALER V2 | gear spoke iron facing.005",
+    "SHALER V2 | process gear retained crank pin",
+    "SHALER V2 | bored pump crosshead",
+    "SHALER V2 | process pump rigid piston",
+    "SHALER V2 | process pump rigid connecting arm"
+  ],
+  "packed_images": [
+    {
+      "name": "aged-copper-jacket-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-ash-and-soot-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-ash-and-soot-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-ash-and-soot-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-fired-ore-residue-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-fired-ore-residue-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-fired-ore-residue-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-hand-wound-hemp-hose-lagging-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-hand-wound-hemp-hose-lagging-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-hand-wound-hemp-hose-lagging-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-hemp-drive-belt-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-hemp-drive-belt-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-hemp-drive-belt-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-salt-glazed-stoneware-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-salt-glazed-stoneware-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-salt-glazed-stoneware-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-worked-sandstone-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-worked-sandstone-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "shaler-worked-sandstone-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "embedded_export_images": 36,
+  "animation_count": 1,
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}

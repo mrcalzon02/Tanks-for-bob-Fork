@@ -1,0 +1,91 @@
+{
+  "source": "Genuine Factorio client screenshots; no interpolated poses or generated replacement art.",
+  "frames": [
+    {
+      "file": "north-motion-00.png",
+      "tick": 600,
+      "sha256": "be5b2ca51111ec660869a890fa36299cb5ccb02bbf4fb802c211ee80a6493533"
+    },
+    {
+      "file": "north-motion-01.png",
+      "tick": 615,
+      "sha256": "b309584941af125771b7ba625d0aad1427d98c2d42aa0d4c96687cb30ed1a072"
+    },
+    {
+      "file": "north-motion-02.png",
+      "tick": 630,
+      "sha256": "fae2700d1e512f23f88d9cd03395e02958d15a19f6f9ba896c5d5cf7b5e44e0c"
+    },
+    {
+      "file": "north-motion-03.png",
+      "tick": 645,
+      "sha256": "a4668a3e12a6c517823de2e8bf07f1291ccea069b3604c2ada3d7ab083ee9e18"
+    },
+    {
+      "file": "north-motion-04.png",
+      "tick": 660,
+      "sha256": "bd421e3e83e921e7aeec7bd278baf4aac9d506438ee8df592f87e871035109fe"
+    },
+    {
+      "file": "north-motion-05.png",
+      "tick": 675,
+      "sha256": "5b2b27b93c4d55cc39efc066bc0eba77785b3fcdadc9330ed4fc940e745bef30"
+    },
+    {
+      "file": "north-motion-06.png",
+      "tick": 690,
+      "sha256": "b5775be65c2f2a13ee744946f9cc65f3758abc53717550102e960efd7a886cfe"
+    },
+    {
+      "file": "north-motion-07.png",
+      "tick": 705,
+      "sha256": "549970d813561280a291d592871a87a17f1ea5be258d242a034ddc9613694482"
+    },
+    {
+      "file": "north-motion-08.png",
+      "tick": 720,
+      "sha256": "9706e95a663e8f9d4bf1714c39fdefb2d9826ecd49408a32b236b4aa99affb1c"
+    },
+    {
+      "file": "north-motion-09.png",
+      "tick": 735,
+      "sha256": "68f5c5c409990f6b0a1a568563c0af82cbea00c135015c9695929cc3eabab2d5"
+    },
+    {
+      "file": "north-motion-10.png",
+      "tick": 750,
+      "sha256": "76f6c3aad505c0995f6874d6e4cec1158508362da2d01f1e109ec564ede0ca90"
+    },
+    {
+      "file": "north-motion-11.png",
+      "tick": 765,
+      "sha256": "3314f1c818f684624dd427b2cb25f8dcf7e0735b5819299aef7c5e22a8d21621"
+    },
+    {
+      "file": "north-motion-12.png",
+      "tick": 780,
+      "sha256": "b178ca14a7c0ed8b3375d1b01ddecce3ded23e57fbff1b0463807eacfdc7e103"
+    },
+    {
+      "file": "north-motion-13.png",
+      "tick": 795,
+      "sha256": "d0551932af9733a100fa40681d24d9d45787145b1c820cafae2bb98ad944e607"
+    },
+    {
+      "file": "north-motion-14.png",
+      "tick": 810,
+      "sha256": "66e55cce7e843da37043b080f20e09e2592ac03ec23c04b98f2f0543aa3dfd40"
+    },
+    {
+      "file": "north-motion-15.png",
+      "tick": 825,
+      "sha256": "e589f65963cb2674f9396db8160c6a139679297853ea6ecbc2518f227c111589"
+    }
+  ],
+  "fps": 4,
+  "seconds": 4,
+  "files": {
+    "working-loop.gif": "419bde708241c0793a84d9cbb3865e00fa1cc5aded13d326fc144adb97be98eb",
+    "working-loop.mp4": "c8cfbdde5b5a604674b18f1490e33af8ae1e39ecc98955ae4a3ccfb36ac49667"
+  }
+}

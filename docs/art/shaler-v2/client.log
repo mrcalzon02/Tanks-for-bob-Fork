@@ -1,0 +1,170 @@
+   0.000 Initializing Steam API.
+   0.000 Error SteamContextInterface.cpp:60: Steam API could not be initialized: Could not determine Steam client install directory.
+   0.001 2026-11-16 19:21:25; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.001 Operating system: Windows 11 (build 26200) 
+   0.001 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\shaler-v2-client03\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\shaler-v2-client03\mods" "--load-game" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\shaler-v2-integrated-native01\shaler-v1-proof.zip" "--disable-audio" "--disable-migration-window" 
+   0.001 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/shaler-v2-client03/config.ini
+   0.001 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.001 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/shaler-v2-client03/runtime [255334/1906722MB]
+   0.001 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.008 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 24005/32526 MB, page: 33278/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.036 Display options: [FullScreen: false] [VSync: true] [UIScale: automatic (100.0%)] [Native DPI: true] [Screen: 4294967295] [Special: lmw] [Lang: en]
+   0.060 Video driver: windows
+   0.060 Available displays: 1
+   0.060  [0]: \\.\DISPLAY1 - NVIDIA GeForce RTX 5070 {0x05, [0,0], 3840x1080, 32bit, 144Hz}
+   0.077 [Direct3D11] Display: 4294967295, Output: 0, DisplayAdapter: 0, RenderingAdapter: -1; d3dcompiler_47.dll
+   0.262 Initialised Direct3D[0]: NVIDIA GeForce RTX 5070; id: 10de-2f04; driver: nvldumdx.dll 32.0.16.1664
+   0.262   D3D Feature Level: 11.1, DXGI 1.5+, SwapChain: 3,flip-discard,-,-,-,none
+   0.262   [Local Video Memory] Budget: 11175MB, CurrentUsage: 6MB, Reservation: 0/5715MB
+   0.262   [Non-Local Vid.Mem.] Budget: 15495MB, CurrentUsage: 0MB, Reservation: 0/7875MB
+   0.262   Tiled resources: Tier 2
+   0.262   Unified Memory Architecture: No
+   0.262   BGR 565 Supported: Yes
+   0.262   MaximumFrameLatency: 3, GPUThreadPriority: 0
+   0.262 Graphics settings preset: very-high
+   0.262   Dedicated video memory size 11943 MB
+   0.284 Desktop composition is active.
+   0.284 Graphics options: [Graphics quality: high] [Video memory usage: all] [DXT: high-quality]
+   0.284                   [Max threads (load/render): 32/28] [Max texture size: 0] [Tex.Stream.: false] [Rotation quality: normal] [Other: STDCWTl] [B:0,C:0,S:100]
+   0.284 Audio is disabled
+   0.342 Info ModManager.cpp:455: FeatureFlag: 
+   0.344 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.348 Loading mod core 0.0.0 (data.lua)
+   0.366 Loading mod base 2.1.24 (data.lua)
+   0.640 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.717 Loading mod base 2.1.24 (data-updates.lua)
+   0.722 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.728 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.790 Checksum for core: 3668028660
+   0.790 Checksum of base: 3864816957
+   0.790 Checksum of tanks_for_bob_fork: 3025876134
+   0.790 Checksum of shaler-v1-proof: 0
+   0.790 Checksum of shaler-v1-capture: 0
+   0.920 Prototype list checksum: 1368343619
+   0.943 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.943 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.946 Post-data load graphics options: [Light occlusion: no]
+   1.033 Crop bitmaps.
+   1.034 Parallel sprite loader initialized (threads: 28, bitmaps: 4998)
+   2.959 Initial atlas bitmap size is 16384
+   2.972 Created an atlas bitmap (size 16384x16380) [none]
+   2.973 Created an atlas bitmap (size 16384x14728) [none]
+   2.973 Created an atlas bitmap (size 16384x6976) [low-object]
+   2.973 Created an atlas bitmap (size 16384x12092) [corpse-decay]
+   2.973 Created an atlas bitmap (size 8192x4352) [decal]
+   2.974 Created an atlas bitmap (size 4096x1284) [none]
+   2.974 Created an atlas bitmap (size 8192x5632) [mipmap, linear-minification, linear-magnification, linear-mip-level]
+   2.974 Created an atlas bitmap (size 4096x1632) [smoke, mipmap, linear-minification, linear-magnification]
+   2.974 Created an atlas bitmap (size 16384x7968) [terrain, mipmap, linear-minification, linear-mip-level]
+   2.974 Created an atlas bitmap (size 4096x2800) [terrain-effect-map, mipmap, linear-minification, linear-mip-level]
+   2.974 Created an atlas bitmap (size 4096x3088) [mipmap]
+   2.975 Created an atlas bitmap (size 8192x2752) [icon, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level, ]
+   2.975 Created an atlas bitmap (size 16384x4080) [alpha-mask]
+   2.985 Created an atlas bitmap (size 16384x16384) [shadow, linear-magnification, alpha-mask]
+   2.985 Created an atlas bitmap (size 4096x2172) [shadow, linear-magnification, alpha-mask]
+   2.985 Created an atlas bitmap (size 8192x2352) [shadow, mipmap, linear-magnification, alpha-mask]
+   2.985 Created an atlas bitmap (size 4096x208) [icon-background, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level, ]
+   2.985 Loading 3D bitmaps: 5
+   2.990 Texture processor created (4096). GPU accelerated compression Supported: yes, Enabled: yes/yes. Test passed. YCoCgDXT PSNR: 35.83, BC3 PSNR: 33.82
+   3.011 Parallel sprite loader initialized (threads: 27, bitmaps: 4998)
+   6.593 Sprites loaded
+   6.606 Generated mipmaps (4) for atlas [2] of size 16384x6976   
+   6.617 Generated mipmaps (3) for atlas [6] of size 8192x5632   
+   6.628 Generated mipmaps (3) for atlas [7] of size 4096x1632   
+   6.639 Generated mipmaps (3) for atlas [8] of size 16384x7968   
+   6.649 Generated mipmaps (3) for atlas [9] of size 4096x2800   
+   6.684 Generated mipmaps (3) for atlas [10] of size 4096x3088   
+   6.695 Generated mipmaps (5) for atlas [11] of size 8192x2752   
+   6.706 Generated mipmaps (3) for atlas [15] of size 8192x2352   
+   6.715 Custom mipmaps uploaded (2437)
+   6.725 Estimated VRAM usage for textures: 1673.43 MB (Atlases: 1667.95 MB, Textures: 5.48 MB)
+   6.725 Real VRAM usage for the whole program: 1905.34 MB
+   6.727 Info GlobalContext.cpp:1347: Resetting config.
+   6.765 Factorio initialised
+   6.957 SteamAPI is not initialized
+   6.961 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\shaler-v2-integrated-native01\shaler-v1-proof.zip: 1056361 bytes.
+   7.060 Loading level.dat: 1348246 bytes.
+   7.061 Info Scenario.cpp:152: Map version 2.1.24-1
+   7.083 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   7.087 Loading script.dat: 50730 bytes.
+   7.092 Checksum for script __level__/control.lua: 3368906707
+   7.096 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   7.102 Checksum for script __shaler-v1-proof__/control.lua: 2411124113
+   7.107 Checksum for script __shaler-v1-capture__/control.lua: 1240436181
+   7.196 Script @__shaler-v1-proof__/control.lua:73: SHALER_V1_RELOAD_PASS complete=false stored_products=false
+ 337.310 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"Steam-Charge","direction":0,"output":[{"name":"iron-ore","quality":"normal","count":5}],"fluids":{"steam":1000},"status":1,"progress":0.397750000000090953022890971624292433261871337890625}
+ 337.310 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"Steam-Charge","direction":4,"output":[{"name":"iron-ore","quality":"normal","count":5}],"fluids":{"steam":1000},"status":1,"progress":0.397750000000090953022890971624292433261871337890625}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"Steam-Charge","direction":8,"output":[{"name":"iron-ore","quality":"normal","count":5}],"fluids":{"steam":1000},"status":1,"progress":0.397750000000090953022890971624292433261871337890625}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"Steam-Charge","direction":12,"output":[{"name":"iron-ore","quality":"normal","count":5}],"fluids":{"steam":1000},"status":1,"progress":0.397750000000090953022890971624292433261871337890625}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"amulite-flakes","direction":0,"output":[{"name":"tank-ammo-Industrialwaste","quality":"normal","count":3},{"name":"amulite-flakes","quality":"normal","count":6}],"fluids":{"steam":1000},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"amulite-flakes","direction":4,"output":[{"name":"tank-ammo-Industrialwaste","quality":"normal","count":3},{"name":"amulite-flakes","quality":"normal","count":6}],"fluids":{"steam":1000},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"amulite-flakes","direction":8,"output":[{"name":"tank-ammo-Industrialwaste","quality":"normal","count":3},{"name":"amulite-flakes","quality":"normal","count":6}],"fluids":{"steam":1000},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"amulite-flakes","direction":12,"output":[{"name":"tank-ammo-Industrialwaste","quality":"normal","count":3},{"name":"amulite-flakes","quality":"normal","count":6}],"fluids":{"steam":1000},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"corporate-waste-reprocessing","direction":0,"output":[{"name":"wood-pulp","quality":"normal","count":3},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":2}],"fluids":{"water":2000},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"corporate-waste-reprocessing","direction":4,"output":[{"name":"wood-pulp","quality":"normal","count":3},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1}],"fluids":{"water":2000},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"corporate-waste-reprocessing","direction":8,"output":[{"name":"wood-pulp","quality":"normal","count":3},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1}],"fluids":{"water":2000},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"corporate-waste-reprocessing","direction":12,"output":[{"name":"wood-pulp","quality":"normal","count":3},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1}],"fluids":{"water":2000},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"heavy-brine-fraction","direction":0,"output":[{"name":"heavy-brine-fraction","quality":"normal","count":6}],"fluids":{"steam":1200},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"heavy-brine-fraction","direction":4,"output":[{"name":"heavy-brine-fraction","quality":"normal","count":6},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1}],"fluids":{"steam":1200},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"heavy-brine-fraction","direction":8,"output":[{"name":"heavy-brine-fraction","quality":"normal","count":6}],"fluids":{"steam":1200},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"heavy-brine-fraction","direction":12,"output":[{"name":"heavy-brine-fraction","quality":"normal","count":6},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1}],"fluids":{"steam":1200},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-2","direction":0,"output":[{"name":"uranium-ore","quality":"normal","count":45}],"fluids":{"steam":8000},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-2","direction":4,"output":[{"name":"uranium-ore","quality":"normal","count":45}],"fluids":{"steam":8000},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-2","direction":8,"output":[{"name":"uranium-ore","quality":"normal","count":45},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1}],"fluids":{"steam":8000},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-2","direction":12,"output":[{"name":"uranium-ore","quality":"normal","count":45}],"fluids":{"steam":8000},"status":32,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-3","direction":0,"output":[{"name":"uranium-ore","quality":"normal","count":45},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1}],"fluids":{"steam":20000},"status":32,"progress":1}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-3","direction":4,"output":[{"name":"uranium-ore","quality":"normal","count":45}],"fluids":{"steam":20000},"status":32,"progress":1}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-3","direction":8,"output":[{"name":"uranium-ore","quality":"normal","count":45}],"fluids":{"steam":20000},"status":32,"progress":1}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-3","direction":12,"output":[{"name":"uranium-ore","quality":"normal","count":45}],"fluids":{"steam":20000},"status":32,"progress":1}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-4","direction":0,"output":[{"name":"uranium-ore","quality":"normal","count":110}],"fluids":{"steam":16000,"sulfuric-acid":80},"status":32,"progress":1}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-4","direction":4,"output":[{"name":"uranium-ore","quality":"normal","count":110},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1}],"fluids":{"steam":16000,"sulfuric-acid":80},"status":32,"progress":1}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-4","direction":8,"output":[{"name":"uranium-ore","quality":"normal","count":110}],"fluids":{"steam":16000,"sulfuric-acid":80},"status":32,"progress":1}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-4","direction":12,"output":[{"name":"uranium-ore","quality":"normal","count":110},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":1}],"fluids":{"steam":16000,"sulfuric-acid":80},"status":32,"progress":1}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-5","direction":0,"output":[{"name":"uranium-ore","quality":"normal","count":260}],"fluids":{"steam":16000,"sulfuric-acid":350},"status":30,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-5","direction":4,"output":[{"name":"uranium-ore","quality":"normal","count":260}],"fluids":{"steam":16000,"sulfuric-acid":350},"status":30,"progress":0}
+ 337.311 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-5","direction":8,"output":[{"name":"uranium-ore","quality":"normal","count":260}],"fluids":{"steam":16000,"sulfuric-acid":350},"status":30,"progress":0}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"radio-refine-5","direction":12,"output":[{"name":"uranium-ore","quality":"normal","count":260}],"fluids":{"steam":16000,"sulfuric-acid":350},"status":30,"progress":0}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler1","direction":0,"output":[{"name":"iron-ore","quality":"normal","count":6}],"fluids":{"steam":2000},"status":32,"progress":0}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler1","direction":4,"output":[{"name":"iron-ore","quality":"normal","count":6}],"fluids":{"steam":2000},"status":32,"progress":0}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler1","direction":8,"output":[{"name":"iron-ore","quality":"normal","count":6}],"fluids":{"steam":2000},"status":32,"progress":0}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler1","direction":12,"output":[{"name":"iron-ore","quality":"normal","count":6}],"fluids":{"steam":2000},"status":32,"progress":0}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler2","direction":0,"output":[{"name":"iron-ore","quality":"normal","count":50},{"name":"copper-ore","quality":"normal","count":50}],"fluids":{"steam":4000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler2","direction":4,"output":[{"name":"iron-ore","quality":"normal","count":50},{"name":"copper-ore","quality":"normal","count":50}],"fluids":{"steam":4000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler2","direction":8,"output":[{"name":"iron-ore","quality":"normal","count":50},{"name":"copper-ore","quality":"normal","count":50}],"fluids":{"steam":4000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler2","direction":12,"output":[{"name":"iron-ore","quality":"normal","count":50},{"name":"copper-ore","quality":"normal","count":50},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":1}],"fluids":{"steam":4000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler3","direction":0,"output":[{"name":"Canister","quality":"normal","count":1},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":100}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler3","direction":4,"output":[{"name":"Canister","quality":"normal","count":1},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":100}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler3","direction":8,"output":[{"name":"Canister","quality":"normal","count":1},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":100}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler3","direction":12,"output":[{"name":"Canister","quality":"normal","count":1},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":100}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler4","direction":0,"output":[{"name":"iron-ore","quality":"normal","count":80},{"name":"copper-ore","quality":"normal","count":80},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":2}],"fluids":{"steam":10000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler4","direction":4,"output":[{"name":"iron-ore","quality":"normal","count":80},{"name":"copper-ore","quality":"normal","count":80},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":2}],"fluids":{"steam":10000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler4","direction":8,"output":[{"name":"iron-ore","quality":"normal","count":80},{"name":"copper-ore","quality":"normal","count":80},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":2}],"fluids":{"steam":10000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler4","direction":12,"output":[{"name":"iron-ore","quality":"normal","count":80},{"name":"copper-ore","quality":"normal","count":80},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":2}],"fluids":{"steam":10000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler5","direction":0,"output":[{"name":"iron-ore","quality":"normal","count":200},{"name":"copper-ore","quality":"normal","count":200},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":8}],"fluids":{"steam":20000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler5","direction":4,"output":[{"name":"iron-ore","quality":"normal","count":200},{"name":"copper-ore","quality":"normal","count":200},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":8}],"fluids":{"steam":20000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler5","direction":8,"output":[{"name":"iron-ore","quality":"normal","count":200},{"name":"copper-ore","quality":"normal","count":200},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":8}],"fluids":{"steam":20000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler5","direction":12,"output":[{"name":"iron-ore","quality":"normal","count":200},{"name":"copper-ore","quality":"normal","count":200},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":8}],"fluids":{"steam":20000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler6","direction":0,"output":[{"name":"iron-ore","quality":"normal","count":500},{"name":"copper-ore","quality":"normal","count":500},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":20}],"fluids":{"steam":16000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler6","direction":4,"output":[{"name":"iron-ore","quality":"normal","count":500},{"name":"copper-ore","quality":"normal","count":500},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":20}],"fluids":{"steam":16000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler6","direction":8,"output":[{"name":"iron-ore","quality":"normal","count":500},{"name":"copper-ore","quality":"normal","count":500},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":20}],"fluids":{"steam":16000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shaler6","direction":12,"output":[{"name":"iron-ore","quality":"normal","count":500},{"name":"copper-ore","quality":"normal","count":500},{"name":"tank-ammo-Radioactivewaste","quality":"normal","count":20}],"fluids":{"steam":16000},"status":32,"progress":1}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shalera","direction":0,"output":[{"name":"Canister-waste","quality":"normal","count":1}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shalera","direction":4,"output":[{"name":"Canister-waste","quality":"normal","count":1}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shalera","direction":8,"output":[{"name":"Canister-waste","quality":"normal","count":1}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shalera","direction":12,"output":[{"name":"Canister-waste","quality":"normal","count":1}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.312 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shalerb","direction":0,"output":[{"name":"Canister","quality":"normal","count":1},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":100}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.313 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shalerb","direction":4,"output":[{"name":"Canister","quality":"normal","count":1},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":100}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.313 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shalerb","direction":8,"output":[{"name":"Canister","quality":"normal","count":1},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":100}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.313 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shalerb","direction":12,"output":[{"name":"Canister","quality":"normal","count":1},{"name":"tank-ammo-Industrialwaste","quality":"normal","count":100}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.313 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shalerc","direction":0,"output":[{"name":"Canister-Radioactivewaste","quality":"normal","count":1}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.313 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shalerc","direction":4,"output":[{"name":"Canister-Radioactivewaste","quality":"normal","count":1}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.313 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shalerc","direction":8,"output":[{"name":"Canister-Radioactivewaste","quality":"normal","count":1}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.313 Script @__shaler-v1-proof__/control.lua:81: SHALER_RECIPE_DIAG {"recipe":"shalerc","direction":12,"output":[{"name":"Canister-Radioactivewaste","quality":"normal","count":1}],"fluids":{},"status":1,"progress":0.27041176470592152014660314307548105716705322265625}
+ 337.313 Script @__shaler-v1-proof__/control.lua:91: SHALER_V1_ALL_RECIPES_FUEL_IDLE_BLOCKED_PASS
+ 337.365 Script @__shaler-v1-proof__/control.lua:97: SHALER_V1_STOP_PASS
+ 339.242 Script @__shaler-v1-proof__/control.lua:101: SHALER_V1_NATIVE_PASS {"passed":true,"machines":88,"real_recipes":["Steam-Charge","amulite-flakes","corporate-waste-reprocessing","heavy-brine-fraction","radio-refine-2","radio-refine-3","radio-refine-4","radio-refine-5","shaler1","shaler2","shaler3","shaler4","shaler5","shaler6","shalera","shalerb","shalerc"],"player_grid_connections":88,"rotation":{"before":0,"after":4,"result":true},"fuel":true,"no_fuel":true,"no_steam":true,"idle":true,"blocked_item":true,"blocked_fluid":true,"stop_restart":true,"prototype_overrides":false}
+ 339.250 Info AppManager.cpp:335: Saving to _autosave-shaler-operational (blocking).
+ 339.347 Info AppManagerStates.cpp:2131: Saving finished
+ 339.413 Script @__shaler-v1-capture__/control.lua:20: SHALER_GUI_OPERATED_SAVE_REQUESTED machines=88 settled_tick=14640
+ 339.417 Info AppManager.cpp:335: Saving to _autosave-shaler-complete-client (blocking).
+ 339.516 Info AppManagerStates.cpp:2131: Saving finished

@@ -1,0 +1,878 @@
+{
+  "recipes": [
+    {
+      "name": "Steam-Charge",
+      "energy": 20,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 250
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "iron-ore",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": []
+    },
+    {
+      "name": "amulite-flakes",
+      "energy": 18,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "marseline-compound",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "hydrocoptic-crystal",
+          "amount": 1
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 250
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "amulite-flakes",
+          "amount": 2,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "biomineral-synthesis"
+      ]
+    },
+    {
+      "name": "corporate-waste-reprocessing",
+      "energy": 30,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "corporate-waste",
+          "amount": 12
+        },
+        {
+          "type": "fluid",
+          "name": "water",
+          "amount": 500
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "wood-pulp",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.5,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "risk-assessed-authorization"
+      ]
+    },
+    {
+      "name": "heavy-brine-fraction",
+      "energy": 12,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "saline-particulate",
+          "amount": 15
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 300
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "heavy-brine-fraction",
+          "amount": 2,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.09,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "mineral-fractionation"
+      ]
+    },
+    {
+      "name": "radio-refine-2",
+      "energy": 25,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 10
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 2000
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "uranium-ore",
+          "amount": 15,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.08,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "fluid",
+          "name": "sulfuric-acid",
+          "amount": 25
+        }
+      ],
+      "technology_unlocks": [
+        "waste-processing-2"
+      ]
+    },
+    {
+      "name": "radio-refine-3",
+      "energy": 20,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 25
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 5000
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "uranium-ore",
+          "amount": 45,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "fluid",
+          "name": "sulfuric-acid",
+          "amount": 75
+        }
+      ],
+      "technology_unlocks": [
+        "waste-processing-3"
+      ]
+    },
+    {
+      "name": "radio-refine-4",
+      "energy": 16,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 50
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 10000
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "uranium-ore",
+          "amount": 110,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.12,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "fluid",
+          "name": "sulfuric-acid",
+          "amount": 180
+        }
+      ],
+      "technology_unlocks": [
+        "waste-processing-4"
+      ]
+    },
+    {
+      "name": "radio-refine-5",
+      "energy": 12,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 100
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 20000
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "uranium-ore",
+          "amount": 260,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.14,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "fluid",
+          "name": "sulfuric-acid",
+          "amount": 450
+        }
+      ],
+      "technology_unlocks": [
+        "waste-processing-5"
+      ]
+    },
+    {
+      "name": "shaler1",
+      "energy": 35,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 500
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "iron-ore",
+          "amount": 2,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": []
+    },
+    {
+      "name": "shaler2",
+      "energy": 20,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 10
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 1000
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "iron-ore",
+          "amount": 25,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "copper-ore",
+          "amount": 25,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.02,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "waste-processing-2"
+      ]
+    },
+    {
+      "name": "shaler3",
+      "energy": 85,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "Canister-Radioactivewaste",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "Canister",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 100,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": []
+    },
+    {
+      "name": "shaler4",
+      "energy": 18,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 25
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 2500
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "iron-ore",
+          "amount": 80,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "copper-ore",
+          "amount": 80,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 2,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "waste-processing-3"
+      ]
+    },
+    {
+      "name": "shaler5",
+      "energy": 15,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 50
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 5000
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "iron-ore",
+          "amount": 200,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "copper-ore",
+          "amount": 200,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 8,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "waste-processing-4"
+      ]
+    },
+    {
+      "name": "shaler6",
+      "energy": 12,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 100
+        },
+        {
+          "type": "fluid",
+          "name": "steam",
+          "amount": 10000
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "iron-ore",
+          "amount": 500,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "copper-ore",
+          "amount": 500,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 20,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": [
+        "waste-processing-5"
+      ]
+    },
+    {
+      "name": "shalera",
+      "energy": 85,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "Canister",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 100
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "Canister-waste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": []
+    },
+    {
+      "name": "shalerb",
+      "energy": 85,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "Canister-waste",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "Canister",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 100,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": []
+    },
+    {
+      "name": "shalerc",
+      "energy": 85,
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "Canister",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 100
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "Canister-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "technology_unlocks": []
+    }
+  ],
+  "schema": "tanks.shaler.contract.v1",
+  "baseline_commit": "7b3714f7b7fe26aacb06f00b0874f3a33806aec9",
+  "entity": {
+    "type": "assembling-machine",
+    "name": "shaler",
+    "footprint": [
+      3,
+      3
+    ],
+    "collision_box": [
+      [
+        -1.2,
+        -1.2
+      ],
+      [
+        1.2,
+        1.2
+      ]
+    ],
+    "selection_box": [
+      [
+        -1.5,
+        -1.5
+      ],
+      [
+        1.5,
+        1.5
+      ]
+    ],
+    "category": "shaler",
+    "speed": 0.9,
+    "fuel": "chemical",
+    "power": "10kW",
+    "efficiency": 0.5,
+    "pollution_per_minute": 6
+  },
+  "item": {
+    "name": "shaler",
+    "place_result": "shaler"
+  },
+  "building_recipe": {
+    "name": "shaler",
+    "category": "Seablock",
+    "seconds": 35,
+    "ingredients": {
+      "crude-glass": 5,
+      "brick": 20
+    },
+    "results": {
+      "shaler": 1,
+      "tank-ammo-Industrialwaste": {
+        "amount": 1,
+        "probability": 0.09
+      }
+    }
+  },
+  "technology": {
+    "name": "shaler",
+    "prerequisites": [
+      "calcifier"
+    ],
+    "count": 10,
+    "ingredients": {
+      "Seared-fish": 1
+    },
+    "seconds": 10
+  },
+  "source": {
+    "path": "models/island-survival/shaler/v1/starter-shaler.obj",
+    "sha256": "9bff63e43e67c6bf09ffd2965de09c3975709e0363a33a518762acc4863b468c"
+  },
+  "directions": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "ports": [
+    {
+      "role": "input",
+      "native_position": [
+        0,
+        -1
+      ],
+      "source_socket": [
+        0,
+        1.5,
+        0.2
+      ],
+      "fluids": [
+        "steam",
+        "water"
+      ]
+    },
+    {
+      "role": "output",
+      "native_position": [
+        0,
+        1
+      ],
+      "source_socket": [
+        0,
+        -1.5,
+        0.2
+      ],
+      "fluids": [
+        "sulfuric-acid"
+      ]
+    }
+  ],
+  "design": "Supported brick-heated stoneware steam digester, open feed hopper, mechanically driven canister press and real fixed inlet/outlet. Current functions include ore/waste recovery, water washing, steam separation and waste canister packing/unpacking; no invented shale mining.",
+  "surface_plan": [
+    "Individual fired bricks and darker soot at stoke arch/flue",
+    "Glazed stoneware retort and acid channel, low-metallic roughness and mineral wear",
+    "Hopper worked copper with folded rim/rivets; iron hoops on pressure chamber",
+    "Timber press uprights with long-grain UVs, end grain at cuts and bolted shoes",
+    "Bronze bored bearings, iron piston/rod/cam, continuous hemp transmission belt",
+    "Worked paving rather than natural boulders; no generic enclosing machine box"
+  ],
+  "processing_unlock_binding_source": "tanks_for_bob_fork_1.8.104/prototypes/technology/technology.lua; empty lists represent operations not bound to a technology effect in this file."
+}
