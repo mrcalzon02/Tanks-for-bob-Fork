@@ -1,9 +1,11 @@
 {
-  "status": "native_verified_delivery_pending",
+  "status": "operational_native_integrated",
   "owner_visual_approved": false,
-  "native_delivered": false,
+  "native_delivered": true,
   "current_candidate": "v1-production03",
-  "notes": "Final current-art 46 recipes/all directions, power/fluids, late fully processed fluid blocker, actual pipe views, native animation/idle and operated reload pass. Publish final source/evidence and canonical FMPL readback next.",
+  "notes": "Packed source, actual GLB, sprites and integration pass all 46 recipes/four directions, power/fluids/full-output/stop/reload. Source/evidence pushed and canonical FMPL registered/read back. Earlier studies remain held.",
   "native_verified": true,
-  "delegated_operational_review": true
+  "delegated_operational_review": true,
+  "source_commit": "60007499d2734b15387e83fb1c8e483d9f35d328",
+  "canonical_fmpl_verified": true
 }

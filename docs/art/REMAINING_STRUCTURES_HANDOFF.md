@@ -4,7 +4,7 @@ The previous enduring goal is **paused**. This handoff preserves work and
 prepares a new discussion; it does not resume modeling by itself.
 
 **Continuation checkpoint:** the new enduring goal is active. The corrected
-barrel-source Steam Compressor, Wood Basin, Quarry, refined Shaler, Calcifier, Thinking Hut, Pondering Hovel and Stone Water Wheel have
+barrel-source Steam Compressor, Wood Basin, Quarry, refined Shaler, Calcifier, Thinking Hut, Pondering Hovel, Stone Water Wheel and Tank Ammunition Assembler have
 since reached operational integration. Read the current JSON ledger for delivery receipts and remaining
 scope; the counts below describe the original saved baseline.
 
@@ -207,3 +207,18 @@ a tinted translucent animated layer rather than a static underwater wheel.
 Eighteen structures are accepted. Finish both Tanks assemblers and reconcile the
 held Tanks condenser against its real recipes/construction brief, then continue
 the authorized Tech-Priests unfinished buildings, engines and dropped turrets.
+
+## Tank Ammunition Assembler delivered — 2026-11-17
+
+The actual 3x3 electric 175 kW/one-module machine is integrated, preserving all
+eight original source groups and all 46 real component/munition/reprocessing
+recipes. Source `60007499d2734b15387e83fb1c8e483d9f35d328` was pushed/read back;
+canonical FMPL `e67635583a2c5f597e2b12f222f68f5c505b8cb4` registers the inspected
+source/GLB and evidence. All 184 recipe/direction cases, 20 normal pipe joints,
+full-length 3160-second recipes, power/fluid recovery, fully processed blocked
+item/fluid output and actual operated-save reload pass. See
+`tank-ammo-assembler-v1/README.md`. Nineteen structures are accepted. Continue
+the distinct Tank Assembling Machine from its actual contract and retained source;
+the unfamiliar Tanks condenser remains held until reconciled with its real
+wood/steam-to-stone/waste operation. Preserve all completed assets and concurrent
+icon work. After Tanks, continue authorized Tech-Priests buildings/engines/turrets.

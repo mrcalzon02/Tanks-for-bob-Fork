@@ -6,7 +6,7 @@ Updated 2026-11-17; original baseline `7290824bf43711d0bb31bd8e2969c51459864f91`
 
 Owner priority 2026-11-15: finish working, animated, operational and close enough; defer cosmetic polish. Preserve accepted art and verify actual prototype behavior. Track source/export/FMPL receipts honestly; missing receipts are pending, never automatic PASS. See docs/art/OPERATIONAL_FINISH_POLICY.md.
 
-**18 accepted/integrated; 1 held condenser candidate; 2 requiring substantial production. Current focus: Tank Ammunition Assembler.**
+**19 accepted/integrated; 1 held condenser candidate; 1 requiring substantial production. Current focus: Tank Assembling Machine.**
 
 | Structure | Latest known revision | Status | Remaining action |
 | --- | --- | --- | --- |
@@ -23,7 +23,7 @@ Owner priority 2026-11-15: finish working, animated, operational and close enoug
 | Fish Pond | V2 | accepted integrated | Preserve the accepted clay basin, four swimmers, baked portable source and tested native idle/working integration. |
 | Stone Water Wheel | V3 upright cam-drained buckets | accepted integrated | Saved source/actual GLB 385-pose sweeps and upright pivots, 32 working frames per facing, sixteen native grid joints, 30/s extraction, full/drain/stop/landfill and operated reload; remote source and canonical FMPL verified. Preserve. |
 | Wood Basin | V1 native contents-driven cistern | accepted integrated | Preserve passive 25000-unit cistern, four fixed corner fittings, two art orientations and native fluid window. |
-| Tank Ammunition Assembler | OBJ blockout | rebuild required | Build distinct component/ammunition process, feed and discharge, moving tooling; verify native north/south fluids. |
+| Tank Ammunition Assembler | V1 primitive electric press/packing and wood-oil works | accepted integrated | All eight starter groups, 33 source/export PBR images, 385-pose source/GLB fit/clearance, 32 working frames/facing, all 46 recipes/four directions, 20 grid joints, late full-output/power/fluid recovery and operated reload; pushed and canonical FMPL read back. Preserve. |
 | Tank Assembling Machine | OBJ blockout | rebuild required | Build heavy gantry and vehicle assembly bed with legible assembly motion; preserve prototype contract. |
 | Steam Compressor | V2 owner-identified barrel source | accepted integrated | Preserve operational barrel compressor and delivery receipts; no cosmetic rework. |
 | Quarry | V5 detailed rooted excavation hoist | accepted integrated | Complete: packed editable source, inspected GLB, 17 true frames, six real recipes, fuel/blocked/stop/restart, actual operated-save reload and 12 client screenshots; aligned flue smoke. Canonical FMPL registered and remote delivery verified. Preserve this operational asset. |
@@ -59,7 +59,7 @@ Follow docs/art/OPERATIONAL_FINISH_POLICY.md: prioritize working animated integr
 - Fish Pond: [README.md](../../docs/art/fish-pond-v2/README.md), [FMPL_MODEL.json](../../models/island-survival/fish-pond/v2/FMPL_MODEL.json), [verification.json](../../docs/art/checkpoint-2026-11-16/verification.json)
 - Stone Water Wheel: [FMPL_MODEL.json](../../models/island-survival/stone-water-wheel/v3/FMPL_MODEL.json), [native delivery](../../docs/art/stone-water-wheel-v3/README.md)
 - Wood Basin: [FMPL_MODEL.json](../../models/island-survival/wood-basin/v1/FMPL_MODEL.json), [engine-receipt.json](../../docs/art/wood-basin-v1/engine-receipt.json), [capture-verification.json](../../docs/art/wood-basin-v1/capture-verification.json)
-- Tank Ammunition Assembler: [designs.json](../../models/island-survival/designs.json)
+- Tank Ammunition Assembler: [FMPL_MODEL.json](../../models/island-survival/tank-ammo-assembling-machine/v1/FMPL_MODEL.json), [native delivery](../../docs/art/tank-ammo-assembler-v1/README.md)
 - Tank Assembling Machine: [designs.json](../../models/island-survival/designs.json)
 - Steam Compressor: [FMPL_MODEL.json](../../models/island-survival/steam-compressor/v2/FMPL_MODEL.json), [engine-receipt.json](../../docs/art/steam-compressor-v2/engine-receipt.json), [capture-receipt.json](../../docs/art/steam-compressor-v2/capture-receipt.json)
 - Quarry: [designs.json](../../models/island-survival/designs.json)

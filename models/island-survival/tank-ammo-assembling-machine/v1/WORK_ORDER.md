@@ -1,5 +1,7 @@
 # Tank Ammunition Assembler V1 — actual construction brief
 
+**Delivered:** final source/evidence `60007499d2734b15387e83fb1c8e483d9f35d328`; canonical FMPL registration and readback are in `FMPL_MODEL.json`. Preserve this operational machine; the brief below records its construction contract.
+
 Current 1.8.104 native entity: assembling-machine/tank-ammo-assembling-machine,
 3x3, speed 1, electric 175 kW, one module slot, ingredient limit six, no burner.
 Item places that entity and stacks to ten. All four cardinal directions place

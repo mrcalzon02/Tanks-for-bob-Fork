@@ -1,7 +1,7 @@
 {
   "schema": "fmpl.model-delivery.v1",
   "id": "tanks-tank-ammo-assembler-v1",
-  "status": "native_verified_delivery_pending",
+  "status": "operational-native-integrated-delegated-review",
   "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
   "prototype": {
     "type": "assembling-machine",
@@ -60,5 +60,13 @@
   "delegated_operational_review_passed": true,
   "actual_client_screenshots": 60,
   "native_working_video_frames": 32,
-  "evidence": "docs/art/tank-ammo-assembler-v1"
+  "evidence": "docs/art/tank-ammo-assembler-v1",
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "e67635583a2c5f597e2b12f222f68f5c505b8cb4",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-tank-ammo-assembler-v1",
+    "source_commit": "60007499d2734b15387e83fb1c8e483d9f35d328",
+    "remote_readback_verified": true
+  }
 }

@@ -202,15 +202,23 @@
       "id": "tank-ammo-assembling-machine",
       "name": "Tank Ammunition Assembler",
       "revision": "V1 electric press/packing and closed wood-oil process works",
-      "status": "delivery_pending",
+      "status": "accepted_integrated",
       "priority": 14,
-      "next": "Current source/export, all 46 recipes/four directions, 20 grid joints, native power/blocked/stop/reload and real building craft pass; finish remote source and canonical FMPL registration.",
+      "next": "Preserve native electric 175kW/one-module works, all 46 actual recipes, rigid guided press, sealed mixing and fixed crude-oil circuit; all four directions, 20 real pipe joints, blocked/power/restart/operated reload and remote FMPL delivery complete.",
       "evidence": [
         "models/island-survival/tank-ammo-assembling-machine/v1/FMPL_MODEL.json",
         "docs/art/tank-ammo-assembler-v1"
       ],
-      "fmpl_delivery": "pending_final_source_publication_and_canonical_registration",
-      "done": false
+      "fmpl_delivery": {
+        "repository": "mrcalzon02/Tech-Priests",
+        "ref": "e67635583a2c5f597e2b12f222f68f5c505b8cb4",
+        "registry": "tools/fmpl/FMPL.json",
+        "model_id": "tanks-tank-ammo-assembler-v1",
+        "source_commit": "60007499d2734b15387e83fb1c8e483d9f35d328",
+        "remote_readback_verified": true
+      },
+      "done": true,
+      "delivery_commit": "60007499d2734b15387e83fb1c8e483d9f35d328"
     },
     {
       "id": "tank-assembling-machine",
@@ -371,7 +379,7 @@
       "delivery_commit": "753363eef45d3a0e9b264aed954b12157427f7ba"
     }
   ],
-  "active_structure": "tank-ammo-assembling-machine",
+  "active_structure": "tank-assembling-machine",
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
@@ -379,6 +387,6 @@
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
     "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
-  "production_state": "active; eight of the original eleven remaining Tanks structures delivered, including upright-bucket Stone Water Wheel. Finish Tank Ammunition Assembler, Tank Assembling Machine and reconciled actual Tanks condenser, then authorized Tech-Priests unfinished buildings/engines/dropped turrets. Current focus: establish actual ammunition-assembler contract.",
+  "production_state": "active; nine of original eleven remaining Tanks structures delivered. Finish Tank Assembling Machine and reconciled actual Tanks condenser, then authorized Tech-Priests unfinished buildings/engines/dropped turrets. Current focus: establish real tank-assembling-machine contract and retain its existing starter.",
   "subsequent_authorized_scope": "After all remaining Tanks structures, continue unfinished Tech-Priests buildings, engines and dropped turrets. Reconcile and checkpoint frequently (owner 2026-11-17)."
 }

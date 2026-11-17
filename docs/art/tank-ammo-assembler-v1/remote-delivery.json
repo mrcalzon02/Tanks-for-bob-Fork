@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-17",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "source_checkpoint_commit": "13c4696eb0e8677c57ee898af154eb421f343633",
+  "source_checkpoint_remote_verified": true,
+  "source_commit": "60007499d2734b15387e83fb1c8e483d9f35d328",
+  "remote_main_verified_at_source_commit": "60007499d2734b15387e83fb1c8e483d9f35d328",
+  "pinned_remote_model_manifest_readback_verified": true,
+  "source_sha256": "5bca56a8cee03867098e09ce2f14072c0b437af4010096569ee0822bc1c0945d",
+  "runtime_sha256": "c169d83bbfaf61c56d35b9c48ff39bac303d9636e8c21133c94cf3185a8578a5",
+  "staged_binary_bytes_verified": true,
+  "indexed_lua_content_verified_after_git_newline_normalization": true,
+  "canonical_fmpl": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "e67635583a2c5f597e2b12f222f68f5c505b8cb4",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-tank-ammo-assembler-v1",
+    "source_commit": "60007499d2734b15387e83fb1c8e483d9f35d328",
+    "remote_readback_verified": true
+  },
+  "delegated_operational_review": true,
+  "owner_visual_approved": false,
+  "full_user_mod_pack_installation": false
+}

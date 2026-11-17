@@ -1,5 +1,5 @@
 {
-  "status": "native_verified_delivery_pending",
+  "status": "single_asset_delivered_goal_continues",
   "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
   "active_mod": "tanks_for_bob_fork_1.8.104",
   "prototype": "assembling-machine/tank-ammo-assembling-machine",
@@ -24,8 +24,8 @@
   "chemical_fuel": false,
   "module_slots": 1,
   "recipe_operation_and_final_art_not_yet_verified": true,
-  "next": "Commit/push final sprites, native art adapter and current full-operation evidence; register canonical FMPL and read back before acceptance.",
-  "delivered": false,
+  "next": "Preserve delivered electric ammunition works and all 46 current recipe contracts. Finish Tank Assembling Machine, then reconcile/finish the actual Tanks condenser; then authorized Tech-Priests phase.",
+  "delivered": true,
   "owner_visual_approved": false,
   "current_source": "models/island-survival/tank-ammo-assembling-machine/candidates/v1-production03/tank-ammo-assembler-v1.blend",
   "source_sha256": "5bca56a8cee03867098e09ce2f14072c0b437af4010096569ee0822bc1c0945d",
@@ -41,5 +41,14 @@
   "source_checkpoint_commit": "13c4696eb0e8677c57ee898af154eb421f343633",
   "source_checkpoint_remote_verified": true,
   "final_recipe_cases": 184,
-  "fully_processed_fluid_blocker_verified_at_tick": 9600
+  "fully_processed_fluid_blocker_verified_at_tick": 9600,
+  "final_delivery_source_commit": "60007499d2734b15387e83fb1c8e483d9f35d328",
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "e67635583a2c5f597e2b12f222f68f5c505b8cb4",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-tank-ammo-assembler-v1",
+    "source_commit": "60007499d2734b15387e83fb1c8e483d9f35d328",
+    "remote_readback_verified": true
+  }
 }
