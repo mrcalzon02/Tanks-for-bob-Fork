@@ -1,5 +1,5 @@
 {
-  "status": "native_verified_delivery_pending",
+  "status": "single_asset_delivered_goal_continues",
   "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
   "active_mod": "tanks_for_bob_fork_1.8.104",
   "retained_source": "models/island-survival/stone-water-wheel/candidates/v2-pilot02/stone-water-wheel-v2.blend",
@@ -12,9 +12,9 @@
   "measured_water_units_per_120_ticks": 60,
   "nominal_water_per_second": 30,
   "fuel_power": "Void energy source, 1W nominal; no player fuel or electricity",
-  "next": "Publish final sprites, native adapter/evidence and canonical FMPL; then continue both Tanks assemblers and reconciled Tanks condenser.",
+  "next": "Preserve delivered upright-bucket wheel and native source behavior. Continue Tank Ammunition Assembler, Tank Assembler and reconciled actual Tanks condenser; then authorized Tech-Priests scope.",
   "owner_visual_approved": false,
-  "delivered": false,
+  "delivered": true,
   "current_source": "models/island-survival/stone-water-wheel/candidates/v3-production04/stone-water-wheel-v3.blend",
   "source_sha256": "e9aa7f71dad7624b0e6650a77df182f102a1640515969a986be168c07bd189f4",
   "runtime_sha256": "5f1f104afb9e76859dc1de287efa7ad3fde784a42288f92c47793d56109b5b90",
@@ -22,5 +22,14 @@
   "all_eight_buckets_upright_and_attached": true,
   "native_operational_baseline": "build/stone-wheel-v3-baseline03: actual 16-pump/16-grid-pipe fixture and Workbench craft pass; final art profile and operated client save pending",
   "source_checkpoint_commit": "c11469bf64bcfc757dfda766e8762ffd0d44b22b",
-  "source_checkpoint_remote_verified": true
+  "source_checkpoint_remote_verified": true,
+  "final_delivery_source_commit": "4e8811e45fb3de8e866a1ef7a7a1c63bfb257252",
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "37b05d85087ed32c15d4699a1b204c2a0c9254e8",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-stone-water-wheel-v3",
+    "source_commit": "4e8811e45fb3de8e866a1ef7a7a1c63bfb257252",
+    "remote_readback_verified": true
+  }
 }

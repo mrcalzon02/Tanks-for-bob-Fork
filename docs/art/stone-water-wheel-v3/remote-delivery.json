@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-17",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "source_checkpoint_commit": "c11469bf64bcfc757dfda766e8762ffd0d44b22b",
+  "source_checkpoint_remote_verified": true,
+  "source_commit": "4e8811e45fb3de8e866a1ef7a7a1c63bfb257252",
+  "remote_main_verified_at_source_commit": "4e8811e45fb3de8e866a1ef7a7a1c63bfb257252",
+  "pinned_remote_model_manifest_readback_verified": true,
+  "source_sha256": "e9aa7f71dad7624b0e6650a77df182f102a1640515969a986be168c07bd189f4",
+  "runtime_sha256": "5f1f104afb9e76859dc1de287efa7ad3fde784a42288f92c47793d56109b5b90",
+  "staged_binary_bytes_verified": true,
+  "indexed_lua_content_verified_after_git_newline_normalization": true,
+  "canonical_fmpl": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "37b05d85087ed32c15d4699a1b204c2a0c9254e8",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-stone-water-wheel-v3",
+    "source_commit": "4e8811e45fb3de8e866a1ef7a7a1c63bfb257252",
+    "remote_readback_verified": true
+  },
+  "delegated_operational_review": true,
+  "owner_visual_approved": false,
+  "full_user_mod_pack_installation": false
+}

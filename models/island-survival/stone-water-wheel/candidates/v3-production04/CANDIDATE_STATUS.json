@@ -1,9 +1,11 @@
 {
-  "status": "native_verified_delivery_pending",
+  "status": "operational_native_integrated",
   "owner_visual_approved": false,
-  "native_delivered": false,
+  "native_delivered": true,
   "current_candidate": "v3-production04",
-  "note": "Final native current-art grid pipes, animation/idle, operational/source tests and operated reload pass; final commit/push and canonical FMPL readback pending.",
+  "note": "Source/export, genuine four-facing sprites, actual grid-pipe/working/idle/full/landfill and operated reload verified, pushed and registered. Earlier studies remain held.",
   "native_verified": true,
-  "delegated_operational_review": true
+  "delegated_operational_review": true,
+  "source_commit": "4e8811e45fb3de8e866a1ef7a7a1c63bfb257252",
+  "canonical_fmpl_verified": true
 }

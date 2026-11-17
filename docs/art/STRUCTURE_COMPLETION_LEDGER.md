@@ -6,7 +6,7 @@ Updated 2026-11-17; original baseline `7290824bf43711d0bb31bd8e2969c51459864f91`
 
 Owner priority 2026-11-15: finish working, animated, operational and close enough; defer cosmetic polish. Preserve accepted art and verify actual prototype behavior. Track source/export/FMPL receipts honestly; missing receipts are pending, never automatic PASS. See docs/art/OPERATIONAL_FINISH_POLICY.md.
 
-**17 accepted/integrated; 1 held condenser candidate; 3 requiring substantial production. Current focus: Stone Water Wheel.**
+**18 accepted/integrated; 1 held condenser candidate; 2 requiring substantial production. Current focus: Tank Ammunition Assembler.**
 
 | Structure | Latest known revision | Status | Remaining action |
 | --- | --- | --- | --- |
@@ -21,7 +21,7 @@ Owner priority 2026-11-15: finish working, animated, operational and close enoug
 | Steam Condenser | Tanks V1 unapproved candidate held; native entity exists | advanced candidate | Keep the unfamiliar V1 candidate unapproved and uninstalled. The actual placeable steam-condenser exists; Steam-condenserA consumes wood and steam and returns stone/industrial waste. Do not infer water output or borrow Tech-Priests atmospheric-condenser V24. Resume only from actual function and the owner’s construction brief. |
 | Primitive Steam-Powered Pump | V3 owner-approved, animated and integrated | accepted integrated | Complete: 68 native Blender frames, six atlases, saved editable source, inspected GLB, actual four-facing water/oil transfer, no-fuel, stop/restart, full-output and save/reload tests, plus eight genuine client screenshots. Preserve this accepted design and move on. |
 | Fish Pond | V2 | accepted integrated | Preserve the accepted clay basin, four swimmers, baked portable source and tested native idle/working integration. |
-| Stone Water Wheel | V2 failed study, held | rebuild required | Both recipe and technology are active, but this is a shoreline intake, not the pipe pump. Preserve rejected studies. If resuming lifting buckets, use independent upright pivots; repair outlet boolean degenerates and race joints before any production capture. |
+| Stone Water Wheel | V3 upright cam-drained buckets | accepted integrated | Saved source/actual GLB 385-pose sweeps and upright pivots, 32 working frames per facing, sixteen native grid joints, 30/s extraction, full/drain/stop/landfill and operated reload; remote source and canonical FMPL verified. Preserve. |
 | Wood Basin | V1 native contents-driven cistern | accepted integrated | Preserve passive 25000-unit cistern, four fixed corner fittings, two art orientations and native fluid window. |
 | Tank Ammunition Assembler | OBJ blockout | rebuild required | Build distinct component/ammunition process, feed and discharge, moving tooling; verify native north/south fluids. |
 | Tank Assembling Machine | OBJ blockout | rebuild required | Build heavy gantry and vehicle assembly bed with legible assembly motion; preserve prototype contract. |
@@ -57,7 +57,7 @@ Follow docs/art/OPERATIONAL_FINISH_POLICY.md: prioritize working animated integr
 - Steam Condenser: [2026-11-13.json](../../docs/art/local-machine-alignment/2026-11-13.json), [contract.json](../../models/island-survival/steam-condenser/v1/contract.json), [entities.lua](../../tanks_for_bob_fork_1.8.103/prototypes/entity/entities.lua)
 - Primitive Steam-Powered Pump: [FMPL_MODEL.json](../../models/island-survival/primitive-steam-powered-pump/v3/FMPL_MODEL.json), [engine-receipt.json](../../docs/art/primitive-pipe-pump-v3/engine-receipt.json), [capture-receipt.json](../../docs/art/primitive-pipe-pump-v3/capture-receipt.json), [verification.json](../../docs/art/checkpoint-2026-11-16/verification.json)
 - Fish Pond: [README.md](../../docs/art/fish-pond-v2/README.md), [FMPL_MODEL.json](../../models/island-survival/fish-pond/v2/FMPL_MODEL.json), [verification.json](../../docs/art/checkpoint-2026-11-16/verification.json)
-- Stone Water Wheel: [WORK_ORDER.md](../../models/island-survival/stone-water-wheel/v1/WORK_ORDER.md)
+- Stone Water Wheel: [FMPL_MODEL.json](../../models/island-survival/stone-water-wheel/v3/FMPL_MODEL.json), [native delivery](../../docs/art/stone-water-wheel-v3/README.md)
 - Wood Basin: [FMPL_MODEL.json](../../models/island-survival/wood-basin/v1/FMPL_MODEL.json), [engine-receipt.json](../../docs/art/wood-basin-v1/engine-receipt.json), [capture-verification.json](../../docs/art/wood-basin-v1/capture-verification.json)
 - Tank Ammunition Assembler: [designs.json](../../models/island-survival/designs.json)
 - Tank Assembling Machine: [designs.json](../../models/island-survival/designs.json)

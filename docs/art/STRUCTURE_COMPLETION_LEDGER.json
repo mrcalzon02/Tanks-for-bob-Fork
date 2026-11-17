@@ -164,15 +164,23 @@
       "id": "stone-water-wheel",
       "name": "Stone Water Wheel",
       "revision": "V3 upright cam-drained buckets and native four-facing grid connections",
-      "status": "delivery_pending",
+      "status": "accepted_integrated",
       "priority": 12,
-      "next": "Current art, source/export clearance, native operation and operated save reload pass. Finish final remote source and canonical FMPL registration.",
+      "next": "Preserve upright attached buckets, cam-drained side discharge, full-size fixed sockets, verified four-facing normal pipes, native 30/s void-energy extraction and source/blocked/stop/reload behavior.",
       "evidence": [
         "models/island-survival/stone-water-wheel/v3/FMPL_MODEL.json",
         "docs/art/stone-water-wheel-v3"
       ],
-      "fmpl_delivery": "pending_final_source_publication_and_canonical_registration",
-      "done": false
+      "fmpl_delivery": {
+        "repository": "mrcalzon02/Tech-Priests",
+        "ref": "37b05d85087ed32c15d4699a1b204c2a0c9254e8",
+        "registry": "tools/fmpl/FMPL.json",
+        "model_id": "tanks-stone-water-wheel-v3",
+        "source_commit": "4e8811e45fb3de8e866a1ef7a7a1c63bfb257252",
+        "remote_readback_verified": true
+      },
+      "done": true,
+      "delivery_commit": "4e8811e45fb3de8e866a1ef7a7a1c63bfb257252"
     },
     {
       "id": "wood-basin",
@@ -362,7 +370,7 @@
       "delivery_commit": "753363eef45d3a0e9b264aed954b12157427f7ba"
     }
   ],
-  "active_structure": "stone-water-wheel",
+  "active_structure": "tank-ammo-assembling-machine",
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
@@ -370,6 +378,6 @@
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
     "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
-  "production_state": "active; compressor, Wood Basin, Quarry, Shaler, Calcifier, Thinking Hut and Pondering Hovel delivered. Finish the four remaining Tanks structures, then authorized Tech-Priests unfinished buildings/engines/dropped turrets. Current focus: actual shoreline Stone Water Wheel contract and preserved editable source.",
+  "production_state": "active; eight of the original eleven remaining Tanks structures delivered, including upright-bucket Stone Water Wheel. Finish Tank Ammunition Assembler, Tank Assembling Machine and reconciled actual Tanks condenser, then authorized Tech-Priests unfinished buildings/engines/dropped turrets. Current focus: establish actual ammunition-assembler contract.",
   "subsequent_authorized_scope": "After all remaining Tanks structures, continue unfinished Tech-Priests buildings, engines and dropped turrets. Reconcile and checkpoint frequently (owner 2026-11-17)."
 }

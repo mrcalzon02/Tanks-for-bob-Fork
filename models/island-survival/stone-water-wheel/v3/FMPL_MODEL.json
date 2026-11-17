@@ -1,7 +1,7 @@
 {
   "schema": "fmpl.model-delivery.v1",
   "id": "tanks-stone-water-wheel-v3",
-  "status": "native_verified_delivery_pending",
+  "status": "operational-native-integrated-delegated-review",
   "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
   "prototype": {
     "type": "offshore-pump",
@@ -59,5 +59,13 @@
   "native_underwater_animation": "Complementary submerged frames tinted/translucent in animated object layer; no static frozen lower wheel. Depth approximated rather than per-tile underwater clipping.",
   "actual_client_screenshots": 48,
   "native_working_video_frames": 32,
-  "evidence": "docs/art/stone-water-wheel-v3"
+  "evidence": "docs/art/stone-water-wheel-v3",
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "37b05d85087ed32c15d4699a1b204c2a0c9254e8",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-stone-water-wheel-v3",
+    "source_commit": "4e8811e45fb3de8e866a1ef7a7a1c63bfb257252",
+    "remote_readback_verified": true
+  }
 }

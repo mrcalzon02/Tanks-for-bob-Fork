@@ -4,7 +4,7 @@ The previous enduring goal is **paused**. This handoff preserves work and
 prepares a new discussion; it does not resume modeling by itself.
 
 **Continuation checkpoint:** the new enduring goal is active. The corrected
-barrel-source Steam Compressor, Wood Basin, Quarry, refined Shaler, Calcifier, Thinking Hut and Pondering Hovel have
+barrel-source Steam Compressor, Wood Basin, Quarry, refined Shaler, Calcifier, Thinking Hut, Pondering Hovel and Stone Water Wheel have
 since reached operational integration. Read the current JSON ledger for delivery receipts and remaining
 scope; the counts below describe the original saved baseline.
 
@@ -191,3 +191,19 @@ stop/restart and operated-save reload pass. See `pondering-hovel-v1/README.md`.
 Seventeen structures are accepted. Continue the shoreline Stone Water Wheel,
 both Tank assemblers and reconciled actual Tanks condenser. Preserve held
 wheel/condenser studies; upright lifting buckets remain an explicit requirement.
+
+## Stone Water Wheel delivered — 2026-11-17
+
+V3 preserves saved V2 rim/spokes/axle/bearings/piers and exact fixed outlet,
+with eight upright independently pivoted buckets, fixed cam drain gates,
+current paddles and supported race/receiver. Source `4e8811e45fb3de8e866a1ef7a7a1c63bfb257252`
+was pushed/read back; canonical FMPL `37b05d85087ed32c15d4699a1b204c2a0c9254e8`
+registers the source/GLB. Actual sixteen shoreline machines and sixteen normal
+grid pipes pass all four directions, 30 water/second extraction, full-output
+drain recovery, stop/restart, native landfill hidden-water persistence and
+operated-save reload. True 32-frame facing captures and native working/idle
+observations are in `stone-water-wheel-v3/README.md`; lower moving geometry uses
+a tinted translucent animated layer rather than a static underwater wheel.
+Eighteen structures are accepted. Finish both Tanks assemblers and reconcile the
+held Tanks condenser against its real recipes/construction brief, then continue
+the authorized Tech-Priests unfinished buildings, engines and dropped turrets.
