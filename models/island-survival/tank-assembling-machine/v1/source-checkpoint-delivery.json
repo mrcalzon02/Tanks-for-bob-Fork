@@ -1,0 +1,9 @@
+{
+  "source_checkpoint_commit": "3007019d5d146322a82601f9631a8bd2490e9aa2",
+  "source_sha256": "784954f4bb522563fe64b9e9308d04e4a505521cd5e3e3c6b10d96b66bedb587",
+  "runtime_sha256": "d68f6b35bbb7bc94708ef7861605a62e6535aefff23f12a8d5954bb93dec8e43",
+  "publication_status": "pushed and ls-remote verified",
+  "native_baseline_all_13_recipes_passed": true,
+  "canonical_fmpl": "pending full graphical/operated-reload delivery",
+  "remote_verified_commit": "3007019d5d146322a82601f9631a8bd2490e9aa2"
+}

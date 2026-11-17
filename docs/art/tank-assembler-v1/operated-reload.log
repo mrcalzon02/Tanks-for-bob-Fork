@@ -1,0 +1,42 @@
+   0.002 2026-11-17 04:44:56; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.002 Operating system: Windows 11 (build 26200) 
+   0.002 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\tank-assembler-client02\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\tank-assembler-client02\mods" "--test-save" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\tank-assembler-client02\runtime\saves\_autosave-tank-assembler-complete-client.zip" "--test-ticks" "300" 
+   0.002 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/tank-assembler-client02/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/tank-assembler-client02/runtime [239512/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.009 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 17675/32526 MB, page: 25601/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.035 Running in headless mode
+   0.035 Audio is disabled
+   0.036 Info ModManager.cpp:455: FeatureFlag: 
+   0.038 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.041 Loading mod core 0.0.0 (data.lua)
+   0.055 Loading mod base 2.1.24 (data.lua)
+   0.321 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.351 Loading mod tank-assembler-v1-proof 0.0.1 (data.lua)
+   0.356 Loading mod base 2.1.24 (data-updates.lua)
+   0.362 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.367 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.408 Checksum for core: 3668028660
+   0.409 Checksum of base: 3864816957
+   0.409 Checksum of tanks_for_bob_fork: 757931808
+   0.409 Checksum of tank-assembler-v1-proof: 3906067793
+   0.409 Checksum of tank-assembler-v1-capture: 0
+   0.534 Prototype list checksum: 2032134576
+   0.560 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.560 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.562 Info GlobalContext.cpp:1347: Resetting config.
+   0.562 Factorio initialised
+   0.564 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\tank-assembler-client02\runtime\saves\_autosave-tank-assembler-complete-client.zip: 2220179 bytes.
+   0.690 Loading level.dat: 3577405 bytes.
+   0.690 Info Scenario.cpp:152: Map version 2.1.24-1
+   0.722 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   0.722 Loading script.dat: 11272 bytes.
+   0.727 Checksum for script __level__/control.lua: 3368906707
+   0.729 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   0.731 Checksum for script __tank-assembler-v1-proof__/control.lua: 2662219389
+   0.732 Checksum for script __tank-assembler-v1-capture__/control.lua: 3648832397
+   0.742 Script @__tank-assembler-v1-proof__/control.lua:44: TANK_ASSEMBLER_V1_RELOAD_PASS complete=true stored_operation=true
+   0.772 Info RunTest.cpp:80: Ran 300 ticks without the test finishing
+   0.772 Info GlobalContext.cpp:763: Deleting active scenario.
+   0.821 Goodbye

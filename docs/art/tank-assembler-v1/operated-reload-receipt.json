@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "save_sha256": "0dca2d4ef2f89d351604394cf35b9d1fd60bbf3493a5db45690056af403c5a40",
+  "actual_operated_save": true,
+  "engine_exit_code": 0,
+  "scope": "13 real recipe operations; preserved input/output inventories, progress/counters, electrical buffers, fixed north, disabled state, crafted-item placement, actual builder output. Saved at tick192000 after 60-tick disabled settle."
+}

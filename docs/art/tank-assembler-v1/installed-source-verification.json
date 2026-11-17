@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "tanks_for_bob_fork_1.8.104/data-final-fixes.lua",
+      "tested_working_tree_sha256": "00cf29ad2f439aee915fba1e4dec2603c3b10a7e399464cb31b1e55560a98497",
+      "installed_profile_sha256": "00cf29ad2f439aee915fba1e4dec2603c3b10a7e399464cb31b1e55560a98497",
+      "byte_identical": true,
+      "git_index_sha256": "da469a1d8b16990f5c755fc83b3e0853407d48543b0a1abda0faa8a5b325c2c9",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": true
+    },
+    {
+      "path": "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/tank-assembler-v1-production.lua",
+      "tested_working_tree_sha256": "a2130c508a6ddf60e12c7bb155692ee3bad668c45f8b45ee573e1e046b985cb1",
+      "installed_profile_sha256": "a2130c508a6ddf60e12c7bb155692ee3bad668c45f8b45ee573e1e046b985cb1",
+      "byte_identical": true,
+      "git_index_sha256": "a2130c508a6ddf60e12c7bb155692ee3bad668c45f8b45ee573e1e046b985cb1",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": true
+    },
+    {
+      "path": "tanks_for_bob_fork_1.8.104/graphics/entity/tank-assembler-v1/working-256.png",
+      "tested_working_tree_sha256": "948dd8596228957f5eadba0123fa237126148b0246a744297186679b9651eee4",
+      "installed_profile_sha256": "948dd8596228957f5eadba0123fa237126148b0246a744297186679b9651eee4",
+      "byte_identical": true,
+      "git_index_sha256": "948dd8596228957f5eadba0123fa237126148b0246a744297186679b9651eee4",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": false
+    },
+    {
+      "path": "tanks_for_bob_fork_1.8.104/graphics/entity/tank-assembler-v1/idle-256.png",
+      "tested_working_tree_sha256": "3a315c762e5db17d753a8d27b9f580d84d8cf47657faa22b1b11ed0002808e55",
+      "installed_profile_sha256": "3a315c762e5db17d753a8d27b9f580d84d8cf47657faa22b1b11ed0002808e55",
+      "byte_identical": true,
+      "git_index_sha256": "3a315c762e5db17d753a8d27b9f580d84d8cf47657faa22b1b11ed0002808e55",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": false
+    },
+    {
+      "path": "tanks_for_bob_fork_1.8.104/graphics/icons/tank-assembler-v1.png",
+      "tested_working_tree_sha256": "3d1ddac73c23896b73bc8b172afdb75eb3cb0d92356ecc6e86c99047bf65a859",
+      "installed_profile_sha256": "3d1ddac73c23896b73bc8b172afdb75eb3cb0d92356ecc6e86c99047bf65a859",
+      "byte_identical": true,
+      "git_index_sha256": "3d1ddac73c23896b73bc8b172afdb75eb3cb0d92356ecc6e86c99047bf65a859",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": false
+    },
+    {
+      "path": "tanks_for_bob_fork_1.8.104/prototypes/entity/entities.lua",
+      "tested_working_tree_sha256": "cab84568b379fad081757055971c6bff1403e3a171c7ab2b56f31f2daaee80c5",
+      "installed_profile_sha256": "cab84568b379fad081757055971c6bff1403e3a171c7ab2b56f31f2daaee80c5",
+      "byte_identical": true,
+      "git_index_sha256": "cab84568b379fad081757055971c6bff1403e3a171c7ab2b56f31f2daaee80c5",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": true
+    },
+    {
+      "path": "ci/tank_assembler_v1/control.lua",
+      "tested_working_tree_sha256": "f5297befc1b66fbd1343e5f16bc6a22c89121f9ba1c3895b72d49f502eea62ce",
+      "installed_profile_sha256": "f5297befc1b66fbd1343e5f16bc6a22c89121f9ba1c3895b72d49f502eea62ce",
+      "byte_identical": true,
+      "git_index_sha256": "f5297befc1b66fbd1343e5f16bc6a22c89121f9ba1c3895b72d49f502eea62ce",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": true
+    },
+    {
+      "path": "ci/tank_assembler_v1/data.lua",
+      "tested_working_tree_sha256": "49bcf65153338959143a0fafb76770cf7f9d42f7f35c95f282e4bf0e370dbd63",
+      "installed_profile_sha256": "49bcf65153338959143a0fafb76770cf7f9d42f7f35c95f282e4bf0e370dbd63",
+      "byte_identical": true,
+      "git_index_sha256": "8a43f6977bffe569303f73cdd30ffc86457f87dd72c902e0e436420b4fe9cc18",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": true
+    },
+    {
+      "path": "ci/tank_assembler_v1/gui-control.lua",
+      "tested_working_tree_sha256": "713e6deb15d6c1c9e54cd86938b0375df3dbc5ac36cc93aa9a4873e6dc93ccfa",
+      "installed_profile_sha256": "713e6deb15d6c1c9e54cd86938b0375df3dbc5ac36cc93aa9a4873e6dc93ccfa",
+      "byte_identical": true,
+      "git_index_sha256": "713e6deb15d6c1c9e54cd86938b0375df3dbc5ac36cc93aa9a4873e6dc93ccfa",
+      "git_index_matches_tested_content": true,
+      "git_text_normalization_applies": true
+    }
+  ],
+  "scope": "Task code, art, actual entity definitions and test harness exactly match final native profile. Concurrent material-icon changes remain outside this delivery; no full-repository/user-pack equivalence claim."
+}

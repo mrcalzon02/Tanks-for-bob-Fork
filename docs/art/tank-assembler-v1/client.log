@@ -1,0 +1,124 @@
+   0.000 Initializing Steam API.
+   0.000 Error SteamContextInterface.cpp:60: Steam API could not be initialized: Could not determine Steam client install directory.
+   0.001 2026-11-17 04:42:58; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.001 Operating system: Windows 11 (build 26200) 
+   0.001 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\tank-assembler-client02\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\tank-assembler-client02\mods" "--load-game" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\tank-assembler-integrated01\tank-assembler-v1-proof.zip" "--disable-audio" "--disable-migration-window" 
+   0.002 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/tank-assembler-client02/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/tank-assembler-client02/runtime [239566/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.008 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 18116/32526 MB, page: 25913/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.042 Display options: [FullScreen: false] [VSync: true] [UIScale: automatic (100.0%)] [Native DPI: true] [Screen: 4294967295] [Special: lmw] [Lang: en]
+   0.069 Video driver: windows
+   0.069 Available displays: 1
+   0.069  [0]: \\.\DISPLAY1 - NVIDIA GeForce RTX 5070 {0x05, [0,0], 3840x1080, 32bit, 144Hz}
+   0.085 [Direct3D11] Display: 4294967295, Output: 0, DisplayAdapter: 0, RenderingAdapter: -1; d3dcompiler_47.dll
+   0.265 Initialised Direct3D[0]: NVIDIA GeForce RTX 5070; id: 10de-2f04; driver: nvldumdx.dll 32.0.16.1664
+   0.265   D3D Feature Level: 11.1, DXGI 1.5+, SwapChain: 3,flip-discard,-,-,-,none
+   0.265   [Local Video Memory] Budget: 11175MB, CurrentUsage: 6MB, Reservation: 0/5715MB
+   0.265   [Non-Local Vid.Mem.] Budget: 15495MB, CurrentUsage: 0MB, Reservation: 0/7875MB
+   0.265   Tiled resources: Tier 2
+   0.265   Unified Memory Architecture: No
+   0.265   BGR 565 Supported: Yes
+   0.265   MaximumFrameLatency: 3, GPUThreadPriority: 0
+   0.265 Graphics settings preset: very-high
+   0.265   Dedicated video memory size 11943 MB
+   0.287 Desktop composition is active.
+   0.287 Graphics options: [Graphics quality: high] [Video memory usage: all] [DXT: high-quality]
+   0.287                   [Max threads (load/render): 32/28] [Max texture size: 0] [Tex.Stream.: false] [Rotation quality: normal] [Other: STDCWTl] [B:0,C:0,S:100]
+   0.287 Audio is disabled
+   0.343 Info ModManager.cpp:455: FeatureFlag: 
+   0.345 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.349 Loading mod core 0.0.0 (data.lua)
+   0.366 Loading mod base 2.1.24 (data.lua)
+   0.596 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.662 Loading mod tank-assembler-v1-proof 0.0.1 (data.lua)
+   0.669 Loading mod base 2.1.24 (data-updates.lua)
+   0.674 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.681 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.745 Checksum for core: 3668028660
+   0.745 Checksum of base: 3864816957
+   0.745 Checksum of tanks_for_bob_fork: 757931808
+   0.745 Checksum of tank-assembler-v1-proof: 3906067793
+   0.745 Checksum of tank-assembler-v1-capture: 0
+   0.877 Prototype list checksum: 2032134576
+   0.903 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.903 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.906 Post-data load graphics options: [Light occlusion: no]
+   0.995 Crop bitmaps.
+   0.996 Parallel sprite loader initialized (threads: 28, bitmaps: 5005)
+   2.944 Initial atlas bitmap size is 16384
+   2.958 Created an atlas bitmap (size 16384x16384) [none]
+   2.959 Created an atlas bitmap (size 16384x15660) [none]
+   2.959 Created an atlas bitmap (size 16384x6976) [low-object]
+   2.959 Created an atlas bitmap (size 16384x12092) [corpse-decay]
+   2.959 Created an atlas bitmap (size 8192x4352) [decal]
+   2.960 Created an atlas bitmap (size 4096x1284) [none]
+   2.960 Created an atlas bitmap (size 8192x5632) [mipmap, linear-minification, linear-magnification, linear-mip-level]
+   2.960 Created an atlas bitmap (size 4096x1632) [smoke, mipmap, linear-minification, linear-magnification]
+   2.961 Created an atlas bitmap (size 16384x7968) [terrain, mipmap, linear-minification, linear-mip-level]
+   2.961 Created an atlas bitmap (size 4096x2800) [terrain-effect-map, mipmap, linear-minification, linear-mip-level]
+   2.961 Created an atlas bitmap (size 4096x3088) [mipmap]
+   2.961 Created an atlas bitmap (size 8192x2752) [icon, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level, ]
+   2.961 Created an atlas bitmap (size 16384x4080) [alpha-mask]
+   2.971 Created an atlas bitmap (size 16384x16384) [shadow, linear-magnification, alpha-mask]
+   2.971 Created an atlas bitmap (size 4096x2164) [shadow, linear-magnification, alpha-mask]
+   2.971 Created an atlas bitmap (size 8192x2352) [shadow, mipmap, linear-magnification, alpha-mask]
+   2.971 Created an atlas bitmap (size 4096x208) [icon-background, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level, ]
+   2.971 Loading 3D bitmaps: 5
+   2.976 Texture processor created (4096). GPU accelerated compression Supported: yes, Enabled: yes/yes. Test passed. YCoCgDXT PSNR: 35.83, BC3 PSNR: 33.82
+   2.998 Parallel sprite loader initialized (threads: 27, bitmaps: 5005)
+   6.592 Sprites loaded
+   6.604 Generated mipmaps (4) for atlas [2] of size 16384x6976   
+   6.614 Generated mipmaps (3) for atlas [6] of size 8192x5632   
+   6.625 Generated mipmaps (3) for atlas [7] of size 4096x1632   
+   6.636 Generated mipmaps (3) for atlas [8] of size 16384x7968   
+   6.647 Generated mipmaps (3) for atlas [9] of size 4096x2800   
+   6.684 Generated mipmaps (3) for atlas [10] of size 4096x3088   
+   6.695 Generated mipmaps (5) for atlas [11] of size 8192x2752   
+   6.705 Generated mipmaps (3) for atlas [15] of size 8192x2352   
+   6.717 Custom mipmaps uploaded (2428)
+   6.728 Estimated VRAM usage for textures: 1695.35 MB (Atlases: 1689.87 MB, Textures: 5.48 MB)
+   6.728 Real VRAM usage for the whole program: 1929.34 MB
+   6.730 Info GlobalContext.cpp:1347: Resetting config.
+   6.772 Factorio initialised
+   6.968 SteamAPI is not initialized
+   6.973 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\tank-assembler-integrated01\tank-assembler-v1-proof.zip: 590229 bytes.
+   7.071 Loading level.dat: 718014 bytes.
+   7.071 Info Scenario.cpp:152: Map version 2.1.24-1
+   7.084 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   7.086 Loading script.dat: 8011 bytes.
+   7.091 Checksum for script __level__/control.lua: 3368906707
+   7.095 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   7.101 Checksum for script __tank-assembler-v1-proof__/control.lua: 2662219389
+   7.107 Checksum for script __tank-assembler-v1-capture__/control.lua: 3648832397
+   7.225 Script @__tank-assembler-v1-proof__/control.lua:44: TANK_ASSEMBLER_V1_RELOAD_PASS complete=false stored_operation=false
+  15.232 Script @__tank-assembler-v1-capture__/control.lua:14: TANK_GUI_BLOCKED_OBSERVATION {"tick":480,"full_output":true,"is_crafting":true,"progress":1,"products_finished":0}
+  16.728 Script @__tank-assembler-v1-capture__/control.lua:14: TANK_GUI_BLOCKED_OBSERVATION {"tick":570,"full_output":true,"is_crafting":true,"progress":1,"products_finished":0}
+  22.224 Script @__tank-assembler-v1-proof__/control.lua:50: TANK_ASSEMBLER_V1_STOP_PASS
+  23.223 Script @__tank-assembler-v1-proof__/control.lua:56: TANK_ASSEMBLER_V1_STARVATION_BLOCKED_PASS
+  24.297 Script @__tank-assembler-v1-proof__/control.lua:59: TANK_ASSEMBLER_V1_RECOVERY_AND_BUILD_PASS
+  28.696 Info AppManager.cpp:335: Saving to _autosave1 (blocking).
+  28.787 Info AppManagerStates.cpp:2131: Saving finished
+  33.481 Info AppManager.cpp:335: Saving to _autosave2 (blocking).
+  33.572 Info AppManagerStates.cpp:2131: Saving finished
+  38.259 Info AppManager.cpp:335: Saving to _autosave3 (blocking).
+  38.356 Info AppManagerStates.cpp:2131: Saving finished
+  43.044 Info AppManager.cpp:335: Saving to _autosave1 (blocking).
+  43.134 Info AppManagerStates.cpp:2131: Saving finished
+  47.821 Info AppManager.cpp:335: Saving to _autosave2 (blocking).
+  47.919 Info AppManagerStates.cpp:2131: Saving finished
+  52.606 Info AppManager.cpp:335: Saving to _autosave3 (blocking).
+  52.703 Info AppManagerStates.cpp:2131: Saving finished
+  57.391 Info AppManager.cpp:335: Saving to _autosave1 (blocking).
+  57.488 Info AppManagerStates.cpp:2131: Saving finished
+  62.175 Info AppManager.cpp:335: Saving to _autosave2 (blocking).
+  62.273 Info AppManagerStates.cpp:2131: Saving finished
+  66.960 Info AppManager.cpp:335: Saving to _autosave3 (blocking).
+  67.057 Info AppManagerStates.cpp:2131: Saving finished
+  71.745 Info AppManager.cpp:335: Saving to _autosave1 (blocking).
+  71.842 Info AppManagerStates.cpp:2131: Saving finished
+  74.934 Script @__tank-assembler-v1-proof__/control.lua:72: TANK_ASSEMBLER_V1_NATIVE_PASS recipes=13 machines=17 actual_facing=north
+  74.995 Script @__tank-assembler-v1-capture__/control.lua:20: TANK_GUI_OPERATED_SAVE_REQUESTED machines=17
+  74.996 Info AppManager.cpp:335: Saving to _autosave-tank-assembler-complete-client (blocking).
+  75.089 Info AppManagerStates.cpp:2131: Saving finished

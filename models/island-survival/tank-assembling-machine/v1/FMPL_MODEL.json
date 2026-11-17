@@ -1,7 +1,7 @@
 {
   "schema": "fmpl.model-delivery.v1",
   "id": "tanks-tank-assembler-v1",
-  "status": "source-export-verified-native-art-pending",
+  "status": "operational-native-integrated-delegated-review",
   "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
   "prototype": {
     "type": "assembling-machine",
@@ -40,8 +40,26 @@
   "chemical_fuel": "none",
   "fluid_ports": "none",
   "owner_approved": false,
-  "native_current_art_verified": false,
+  "native_current_art_verified": true,
   "central_library_registration": {
-    "status": "pending native graphical/operated-reload delivery"
-  }
+    "status": "pending verified source delivery commit"
+  },
+  "native_engine": "2.1.24",
+  "native_target_machines": 17,
+  "actual_ammunition_assembler_builder": 1,
+  "maximum_actual_recipe_seconds": 3040,
+  "normal_crafting_speed": 1,
+  "crafting_speed_power_and_modules_not_overridden": true,
+  "engine_parameter_placeholders_excluded_from_process_brief": 10,
+  "building_unlock_craft_and_scripted_item_placement_verified": true,
+  "electric_starvation_resupply_verified": true,
+  "blocked_item_output_recovery_verified": true,
+  "stop_restart_and_operated_reload_verified": true,
+  "gameplay_changed": false,
+  "delegated_operational_review_passed": true,
+  "actual_client_screenshots": 46,
+  "native_working_video_frames": 32,
+  "native_unique_video_phases": 32,
+  "native_animation_progress": 1,
+  "evidence": "docs/art/tank-assembler-v1"
 }

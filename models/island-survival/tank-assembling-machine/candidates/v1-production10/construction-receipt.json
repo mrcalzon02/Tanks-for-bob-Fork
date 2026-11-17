@@ -16,6 +16,6 @@
   "native_power": "electric 250kW",
   "actual_recipe_contracts": 13,
   "owner_visual_approved": false,
-  "native_integrated": false,
-  "review_status": "source-export-and-clearances-reviewed-native-graphical-pending"
+  "native_integrated": true,
+  "review_status": "delegated-operational-close-enough-native-client-and-operated-reload-verified"
 }

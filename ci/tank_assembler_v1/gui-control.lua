@@ -4,7 +4,7 @@ local function unit(state,recipe)
  error('TANK_GUI missing '..state..'/'..tostring(recipe))
 end
 local function shot(name,u)
- game.take_screenshot{surface=game.surfaces[1],position=u.position,resolution={640,640},zoom=3,path='tank-assembler-v1/'..name..'.png',show_gui=false,show_entity_info=false,anti_alias=true,force_render=true,daytime=0,hide_clouds=true,hide_fog=true}
+ game.take_screenshot{surface=game.surfaces[1],position={x=u.position.x,y=u.position.y-.6},resolution={640,640},zoom=3,path='tank-assembler-v1/'..name..'.png',show_gui=false,show_entity_info=false,anti_alias=true,force_render=true,daytime=0,hide_clouds=true,hide_fog=true}
 end
 script.on_nth_tick(30,function(e)
  if not layout then layout=remote.call('tank_assembler_proof','layout');assert(layout.machines==17);if remote.interfaces.freeplay and remote.interfaces.freeplay.set_skip_intro then remote.call('freeplay','set_skip_intro',true) end;game.speed=1 end

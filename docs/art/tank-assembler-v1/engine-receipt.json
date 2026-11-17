@@ -1,0 +1,28 @@
+{
+  "engine": "Factorio 2.1.24 build87808",
+  "native_pass": true,
+  "real_processing_recipes": 13,
+  "final_current_art_operation_log": "client.log",
+  "isolated_native_target_machines": 17,
+  "actual_electric_watts": 250000,
+  "normal_crafting_speed": 1,
+  "empty_module_slots": 4,
+  "recipe_times_and_gameplay_unchanged": true,
+  "actual_operated_reload_pass": true,
+  "operated_save_sha256": "0dca2d4ef2f89d351604394cf35b9d1fd60bbf3493a5db45690056af403c5a40",
+  "ordinary_placement_requested_directions": [
+    0,
+    4,
+    8,
+    12
+  ],
+  "actual_supported_facing": "north only",
+  "electric_starvation_and_resupply": true,
+  "blocked_output_and_recovery": true,
+  "stop_restart": true,
+  "actual_building_unlock_craft_and_scripted_item_placement": true,
+  "fluid_and_fuel": "not applicable",
+  "initial_headless_scope": "Same gameplay/art source; final graphical prototype additionally sets animation_progress=1 to achieve intended 8fps. Final client repeats all13 operations and is the final-art operation evidence.",
+  "full_user_mod_pack_installation": false,
+  "owner_visual_approved": false
+}
