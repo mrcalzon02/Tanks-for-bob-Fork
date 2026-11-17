@@ -1,0 +1,384 @@
+{
+  "technical_checks_passed": true,
+  "source_sha256": "4c7dee2ad5124ea1c078b0f4f997c994b8d971d9395f86b083254f3bc9e75b13",
+  "glb_sha256": "12d9d0039544f95d5a5fc77be20e85da7277a261d110c50f1a80c9b86224b857",
+  "source": {
+    "mesh_count": 1053,
+    "triangles": 63696,
+    "min": [
+      -1.4035507440567017,
+      -1.4900000095367432,
+      0.0
+    ],
+    "max": [
+      1.4054844379425049,
+      1.4875178337097168,
+      3.249999761581421
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "runtime": {
+    "mesh_count": 1053,
+    "triangles": 63696,
+    "min": [
+      -1.4035507440567017,
+      -1.4900000095367432,
+      0.0
+    ],
+    "max": [
+      1.4054844379425049,
+      1.4875178337097168,
+      3.249999761581421
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "pose_bounds_errors": {
+    "1": 0.0001220703125,
+    "25": 0.0001226663589477539,
+    "49": 0.0001220703125,
+    "97": 0.0001220703125,
+    "145": 0.0001361370086669922,
+    "193": 0.0001220703125
+  },
+  "cycle_seam_error": 0.0,
+  "fixed_structure_motion": 0.0,
+  "moving_parts": [
+    "HUT | balance crossbar",
+    "HUT | balance retained suspension eye",
+    "HUT | balance retained suspension eye.001",
+    "HUT | suspended balance dish -1",
+    "HUT | three point suspension cord",
+    "HUT | three point suspension cord.001",
+    "HUT | three point suspension cord.002",
+    "HUT | research sample on pan",
+    "HUT | suspended balance dish 1",
+    "HUT | three point suspension cord.003",
+    "HUT | three point suspension cord.004",
+    "HUT | three point suspension cord.005",
+    "HUT | research sample on pan.001",
+    "HUT LANTERN | warm teardrop",
+    "HUT LANTERN | hot rooted core"
+  ],
+  "packed_images": [
+    {
+      "name": "cast-iron-housing-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-bound-reed-thatch-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-bound-reed-thatch-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-bound-reed-thatch-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-clay-daub-wattle-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-clay-daub-wattle-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-clay-daub-wattle-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-clay-flue-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-clay-flue-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-clay-flue-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-handwritten-records-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-handwritten-records-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-handwritten-records-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-hemp-binding-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-hemp-binding-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-hemp-binding-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-hot-lamp-wick-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-hot-lamp-wick-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-hot-lamp-wick-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-rounded-hearth-stone-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-rounded-hearth-stone-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-rounded-hearth-stone-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-seared-food-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-seared-food-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-seared-food-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-soot-and-coal-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-soot-and-coal-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "thinking-hut-soot-and-coal-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "embedded_export_images": 39,
+  "animation_count": 1,
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}

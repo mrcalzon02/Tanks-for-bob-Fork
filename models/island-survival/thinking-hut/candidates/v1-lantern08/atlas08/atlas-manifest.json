@@ -1,0 +1,225 @@
+{
+  "schema": "tanks.thinking-hut.v1.atlas",
+  "verified": true,
+  "source_sha256": "4c7dee2ad5124ea1c078b0f4f997c994b8d971d9395f86b083254f3bc9e75b13",
+  "glb_sha256": "12d9d0039544f95d5a5fc77be20e85da7277a261d110c50f1a80c9b86224b857",
+  "genuine_frames": 17,
+  "working_frames_per_facing": 16,
+  "fps": 4,
+  "unique_idle_frames_per_facing": 1,
+  "native_idle_cells_per_facing": 16,
+  "facing_order": [
+    "north"
+  ],
+  "files": {
+    "idle-64.png": {
+      "sha256": "bf76396b16a9f49bf92d3ce0bb6032848da2fb109e4480268cc333eb5e77c55a",
+      "dimensions": [
+        512,
+        128
+      ],
+      "cell_size": 64
+    },
+    "working-64.png": {
+      "sha256": "acf0d943d0f93437a564c596cce15add524e893e800ac04f94cd30781e75ecc1",
+      "dimensions": [
+        512,
+        128
+      ],
+      "cell_size": 64
+    },
+    "idle-128.png": {
+      "sha256": "d95307472e5e53b1ecb23b636c549f7a6d56a947c17138eaf8637a405c17dd82",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "cell_size": 128
+    },
+    "working-128.png": {
+      "sha256": "626ab55cd1e9e6da4ae708438cd31db535127d4c073019c4e2b6b329874dc960",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "cell_size": 128
+    },
+    "idle-256.png": {
+      "sha256": "c85a32a4d5289ff68b96bff73a0cafc041af11ef9e76f9b3916fc97677b02541",
+      "dimensions": [
+        2048,
+        512
+      ],
+      "cell_size": 256
+    },
+    "working-256.png": {
+      "sha256": "558bdb30d804fb684821b9027c41b2fe29f22f8dfa1338cdc5808d58f1442ae2",
+      "dimensions": [
+        2048,
+        512
+      ],
+      "cell_size": 256
+    }
+  },
+  "alpha_bounds": [
+    {
+      "file": "north-idle-00.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-00.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-01.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-02.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-03.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-04.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-05.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-06.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-07.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-08.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-09.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-10.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-11.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-12.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-13.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-14.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    },
+    {
+      "file": "north-working-15.png",
+      "alpha_bounds": [
+        65,
+        23,
+        191,
+        223
+      ]
+    }
+  ],
+  "native_projection": {
+    "global_ground_y_scale": 1.4142135623730951,
+    "runtime_geometry_changed": false
+  },
+  "visual_approved": false,
+  "native_game_verified": false
+}

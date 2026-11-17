@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "source_sha256": "4c7dee2ad5124ea1c078b0f4f997c994b8d971d9395f86b083254f3bc9e75b13",
+  "runtime_sha256": "12d9d0039544f95d5a5fc77be20e85da7277a261d110c50f1a80c9b86224b857",
+  "poses_per_artifact": 385,
+  "source_and_actual_glb_pair_sets_agree": true,
+  "reviewed_intentional_animated_contacts": {
+    "HUT | balance crossbar <> HUT | balance retained suspension eye": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | balance crossbar <> HUT | balance retained suspension eye.001": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | balance bored trunnion boss <> HUT | balance crossbar": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | balance retained suspension eye <> HUT | three point suspension cord": "Cord tied to the lower edge of its retained eye; exact world endpoints checked at every source key",
+    "HUT | balance retained suspension eye <> HUT | three point suspension cord.001": "Cord tied to the lower edge of its retained eye; exact world endpoints checked at every source key",
+    "HUT | balance retained suspension eye <> HUT | three point suspension cord.002": "Cord tied to the lower edge of its retained eye; exact world endpoints checked at every source key",
+    "HUT | balance retained suspension eye.001 <> HUT | three point suspension cord.003": "Cord tied to the lower edge of its retained eye; exact world endpoints checked at every source key",
+    "HUT | balance retained suspension eye.001 <> HUT | three point suspension cord.004": "Cord tied to the lower edge of its retained eye; exact world endpoints checked at every source key",
+    "HUT | balance retained suspension eye.001 <> HUT | three point suspension cord.005": "Cord tied to the lower edge of its retained eye; exact world endpoints checked at every source key",
+    "HUT | suspended balance dish -1 <> HUT | three point suspension cord": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | suspended balance dish -1 <> HUT | three point suspension cord.001": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | suspended balance dish -1 <> HUT | three point suspension cord.002": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | three point suspension cord <> HUT | three point suspension cord.001": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | three point suspension cord <> HUT | three point suspension cord.002": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | three point suspension cord.001 <> HUT | three point suspension cord.002": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | suspended balance dish 1 <> HUT | three point suspension cord.003": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | suspended balance dish 1 <> HUT | three point suspension cord.004": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | suspended balance dish 1 <> HUT | three point suspension cord.005": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | three point suspension cord.003 <> HUT | three point suspension cord.004": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | three point suspension cord.003 <> HUT | three point suspension cord.005": "Attached surfaces within the same rigid balance/pan assembly",
+    "HUT | three point suspension cord.004 <> HUT | three point suspension cord.005": "Attached surfaces within the same rigid balance/pan assembly"
+  },
+  "unresolved_animated_crossings": {},
+  "lantern_moving_flame_crossings": 0,
+  "pivot_radial_clearance_tiles": 0.002,
+  "scope": "All static mesh pairs inventoried once; every moving mesh against the entire shelter at 193 keys and 192 half-frames independently in source and actual GLB. Static construction contacts retained separately. Inner and outer flames are intentionally nested emissive volumes.",
+  "limitations": [
+    "Sampled-pose clearance, not continuous rigid-body simulation.",
+    "Natural reed/binding and fitted construction contacts remain in the raw inventory."
+  ],
+  "owner_visual_approved": false
+}

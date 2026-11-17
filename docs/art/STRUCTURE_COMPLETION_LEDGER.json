@@ -316,13 +316,13 @@
     {
       "id": "thinking-hut",
       "name": "Thinking Hut",
-      "revision": "V1 lantern refinement and native research verification in progress",
-      "status": "in_progress",
+      "revision": "V1 supported research shelter and refined working oil lantern",
+      "status": "operational_native_verified_delivery_pending",
       "priority": 20,
-      "next": "Finish supported study porch, document/food research bench, upright balance pans and fueled hearth; inspect source/export before integration.",
+      "next": "Commit/push final native integration and evidence; register canonical FMPL and verify remote delivery.",
       "evidence": [
-        "models/island-survival/thinking-hut/v1/contract.json",
-        "ci/thinking_hut_v1"
+        "models/island-survival/thinking-hut/v1/FMPL_MODEL.json",
+        "docs/art/thinking-hut-v1"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
       "done": false,
@@ -352,5 +352,6 @@
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
     "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
-  "production_state": "active; corrected compressor, Wood Basin, Quarry, Shaler and Calcifier delivered; establish actual Thinking Hut contract next"
+  "production_state": "active; Thinking Hut final native research, working/idle lantern and operated reload verified; delivery pending",
+  "subsequent_authorized_scope": "After all remaining Tanks structures, continue unfinished Tech-Priests buildings, engines and dropped turrets. Reconcile and checkpoint frequently (owner 2026-11-17)."
 }

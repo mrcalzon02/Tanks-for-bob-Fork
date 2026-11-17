@@ -1,0 +1,73 @@
+{
+  "schema": "fmpl.model-delivery.v1",
+  "id": "tanks-thinking-hut-v1",
+  "status": "operational-native-integrated-delegated-review-remote-pending",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "prototype": {
+    "type": "lab",
+    "name": "thinking-hut"
+  },
+  "footprint_tiles": [
+    3,
+    3
+  ],
+  "scene_units_per_tile": 1,
+  "source": {
+    "path": "models/island-survival/thinking-hut/candidates/v1-lantern08/thinking-hut-v1.blend",
+    "sha256": "4c7dee2ad5124ea1c078b0f4f997c994b8d971d9395f86b083254f3bc9e75b13"
+  },
+  "runtime": {
+    "path": "models/island-survival/thinking-hut/candidates/v1-lantern08/thinking-hut-v1.glb",
+    "sha256": "12d9d0039544f95d5a5fc77be20e85da7277a261d110c50f1a80c9b86224b857"
+  },
+  "packed_pbr_images": 39,
+  "source_and_runtime_pose_checks": 6,
+  "mechanism_frames_checked": 193,
+  "clearance_poses_per_artifact": 385,
+  "source_and_actual_glb_clearances_checked": true,
+  "clearance_review": "models/island-survival/thinking-hut/candidates/v1-lantern08/clearance-review.json",
+  "production_frames": 17,
+  "frame_scope": "One genuine idle capture and sixteen genuine working timestamps for the one actual fixed north orientation. Repeated idle atlas cells are explicit; native lab uses the first idle cell.",
+  "native_art_orientations": 1,
+  "native_placement_directions": "All four requested directions normalize to north; rotate returns false.",
+  "capture_policy": "fmpl.factorio45.v1",
+  "native_engine": "2.1.24",
+  "native_machines": 24,
+  "native_research_input_combinations_tested": 19,
+  "native_accepted_input_items_consumed": 14,
+  "eligible_technology_contracts": 75,
+  "actual_technologies_tested": [
+    "beachpump",
+    "stabilized-emulsion-systems",
+    "board-advisory-risk-assessment",
+    "framulated-encabulator-research",
+    "evaluation-submission",
+    "biomineral-synthesis",
+    "board-review-procedure",
+    "pondering-hovel",
+    "work-order-generation",
+    "ionic-phase-conditioning",
+    "brine-conditioning",
+    "advanced-encabulation-substrates",
+    "ceramic-lattice-conditioning",
+    "waste-processing-2",
+    "waste-processing-5-authorization",
+    "new-munitions-authorization",
+    "modular-tank-research2-authorization",
+    "mechanized-infantry-authorization",
+    "waste-processing-4-authorization"
+  ],
+  "coverage_limit": "Native operation covers one actual technology for each of all nineteen distinct supported input combinations; does not claim completion of all 75 technologies.",
+  "research_speed": 0.5,
+  "chemical_burner_power_watts": 20000,
+  "gameplay_changed": false,
+  "owner_approved": false,
+  "delegated_operational_review_passed": true,
+  "native_fuel_input_starvation_resupply_stop_restart_research_completion_and_operated_reload_passed": true,
+  "fluid_connections_processing_recipes_and_blocked_output": "Not applicable: lab researches technologies; no manufacturing output inventory or fluid sockets.",
+  "actual_client_screenshots": 33,
+  "native_working_video_frames": 16,
+  "owner_lantern_correction": "Supported hook/bail, oil reservoir and wick, open guards/reflector, raised hood exposing the layered flame from the actual camera; working/idle and night operation verified.",
+  "evidence": "docs/art/thinking-hut-v1",
+  "central_library_registration": "pending verified final Tanks delivery push"
+}

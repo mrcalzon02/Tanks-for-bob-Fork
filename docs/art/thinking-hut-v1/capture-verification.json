@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "genuine_client_screenshots": 33,
+  "fixed_native_orientation": true,
+  "night_working_idle_and_lantern_close_views": true,
+  "native_operation": {
+    "passed": true,
+    "machines": 24,
+    "distinct_native_research_input_sets": 19,
+    "actual_technologies_tested": [
+      "beachpump",
+      "stabilized-emulsion-systems",
+      "board-advisory-risk-assessment",
+      "framulated-encabulator-research",
+      "evaluation-submission",
+      "biomineral-synthesis",
+      "board-review-procedure",
+      "pondering-hovel",
+      "work-order-generation",
+      "ionic-phase-conditioning",
+      "brine-conditioning",
+      "advanced-encabulation-substrates",
+      "ceramic-lattice-conditioning",
+      "waste-processing-2",
+      "waste-processing-5-authorization",
+      "new-munitions-authorization",
+      "modular-tank-research2-authorization",
+      "mechanized-infantry-authorization",
+      "waste-processing-4-authorization"
+    ],
+    "all_accepted_input_items_consumed": 14,
+    "eligible_technology_contracts": 75,
+    "fuel_starvation_and_resupply": true,
+    "ingredient_starvation_and_resupply": true,
+    "idle_completed_technology_and_restart": true,
+    "script_deactivation_stop_restart": true,
+    "native_fixed_orientation": true,
+    "processing_recipes_and_output_blocking": "not applicable: native lab research, no manufactured output or fluid connections",
+    "gameplay_overrides": false
+  },
+  "tested_working_tree_file_hashes": {
+    "tanks_for_bob_fork_1.8.104/data-final-fixes.lua": "2ce747c168ec6e11f38ad4a6f941bab7fee168de09a9952a54d2a456eeb52b98",
+    "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/thinking-hut-v1-production.lua": "38d7b3c93f02ddf839b7c398cc64c4ae49b8a0054513cd9de809a952216e07f1",
+    "tanks_for_bob_fork_1.8.104/graphics/entity/thinking-hut-v1/idle-256.png": "c85a32a4d5289ff68b96bff73a0cafc041af11ef9e76f9b3916fc97677b02541",
+    "tanks_for_bob_fork_1.8.104/graphics/entity/thinking-hut-v1/working-256.png": "558bdb30d804fb684821b9027c41b2fe29f22f8dfa1338cdc5808d58f1442ae2",
+    "tanks_for_bob_fork_1.8.104/graphics/icons/thinking-hut-v1.png": "a284c1a6c70d0919090ef09b1e3281191f2862e75fe95d96de4f4e86fffe0591"
+  },
+  "code_hash_scope": "Exact native-tested working-tree bytes. Git text normalization may affect code byte hashes; binary/image hashes immutable.",
+  "full_user_mod_pack_installation": false,
+  "owner_visual_approved": false
+}

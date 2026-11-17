@@ -1,0 +1,41 @@
+   0.002 2026-11-17 01:17:20; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.002 Operating system: Windows 11 (build 26200) 
+   0.002 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\thinking-hut-v1-client02\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\thinking-hut-v1-client02\mods" "--test-save" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\thinking-hut-v1-client02\runtime\saves\_autosave-thinking-hut-complete-client.zip" "--test-ticks" "300" 
+   0.003 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/thinking-hut-v1-client02/config.ini
+   0.003 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.003 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/thinking-hut-v1-client02/runtime [243163/1906722MB]
+   0.003 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.010 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 18730/32526 MB, page: 27235/43790 MB, virtual: 4304/134217727 MB, extended virtual: 0 MB]
+   0.039 Running in headless mode
+   0.039 Audio is disabled
+   0.040 Info ModManager.cpp:455: FeatureFlag: 
+   0.042 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.045 Loading mod core 0.0.0 (data.lua)
+   0.059 Loading mod base 2.1.24 (data.lua)
+   0.325 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.352 Loading mod base 2.1.24 (data-updates.lua)
+   0.357 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.361 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.401 Checksum for core: 3668028660
+   0.401 Checksum of base: 3864816957
+   0.401 Checksum of tanks_for_bob_fork: 83592225
+   0.401 Checksum of thinking-hut-v1-proof: 0
+   0.401 Checksum of thinking-hut-v1-capture: 0
+   0.535 Prototype list checksum: 1368343619
+   0.560 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.560 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.563 Info GlobalContext.cpp:1347: Resetting config.
+   0.563 Factorio initialised
+   0.563 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\thinking-hut-v1-client02\runtime\saves\_autosave-thinking-hut-complete-client.zip: 1966539 bytes.
+   0.697 Loading level.dat: 2871616 bytes.
+   0.697 Info Scenario.cpp:152: Map version 2.1.24-1
+   0.720 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   0.720 Loading script.dat: 30438 bytes.
+   0.726 Checksum for script __level__/control.lua: 3368906707
+   0.728 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   0.729 Checksum for script __thinking-hut-v1-proof__/control.lua: 1579294173
+   0.730 Checksum for script __thinking-hut-v1-capture__/control.lua: 4023563904
+   0.744 Script @__thinking-hut-v1-proof__/control.lua:68: THINKING_HUT_V1_RELOAD_PASS complete=true stored_research=true
+   0.786 Info RunTest.cpp:80: Ran 300 ticks without the test finishing
+   0.786 Info GlobalContext.cpp:763: Deleting active scenario.
+   0.838 Goodbye

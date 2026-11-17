@@ -1,7 +1,7 @@
 {
-  "status": "owner-lantern-refinement-in-progress",
+  "status": "delegated-operational-native-reviewed-delivery-pending",
   "owner_visual_approved": false,
   "native_delivered": false,
   "current_source_candidate": "v1-lantern08",
-  "notes": "Lantern correction continues through actual gameplay view. Independent final export review, current sprites/native operated-save proof, delivery and FMPL registration remain pending."
+  "notes": "Final V1 lantern08 source/export/sprites/native operation verified; final commit/push and FMPL registration pending. Earlier dark or gameplay-occluded lantern studies held."
 }

@@ -1,0 +1,142 @@
+{
+  "genuine_factorio_client_capture": true,
+  "windows_session": 1,
+  "screenshots": [
+    {
+      "file": "smoke-origin.png",
+      "sha256": "37d7fd735dc392cd9332a6ceaa69d9981176bfc769f9191408b5a362658cbd74"
+    },
+    {
+      "file": "working-a.png",
+      "sha256": "149d2d48206c285026a6efce3c64375d6ffe5a91932a05fffa43f7b7bccb781c"
+    },
+    {
+      "file": "working-b.png",
+      "sha256": "b19ec5f9499194b204b3c54d5356d480617233f4bf5bb164631e4b8b43fa1f8a"
+    },
+    {
+      "file": "lantern-working-close.png",
+      "sha256": "b071b00152be07925b6c107115a1dd5211ec26f707d40c126b670cf8b03a9f82"
+    },
+    {
+      "file": "no-fuel.png",
+      "sha256": "23fafbc2abc9ebef6c1ea5c58b8c609f8ce53e625802122fa5aac0505c5fe603"
+    },
+    {
+      "file": "missing-meal.png",
+      "sha256": "d32b0620ea30bdadcab122e6dc3add0bd4db1b69995775bac12c598a92856587"
+    },
+    {
+      "file": "idle.png",
+      "sha256": "e57719da9e5f2507cad0c3384d3c31ca0b90a4221164bc1197fc5c46e57083fd"
+    },
+    {
+      "file": "document-research.png",
+      "sha256": "94a32d983b3a88a4a6f3878bfef47d554c7e4610255ba737f0afcb8a2125d7f9"
+    },
+    {
+      "file": "risk-assessment-research.png",
+      "sha256": "4f65c8d86c4abcabe7ddfc2a35a1d0e879cd6956335360f850f355a191610a66"
+    },
+    {
+      "file": "board-docket-research.png",
+      "sha256": "510a37d6838484f2a9ca8cc5a8beeea1c9521b5a27f7609656babd46b0d2c41b"
+    },
+    {
+      "file": "night-working.png",
+      "sha256": "01f4a07073e8a71dc3331a55d9604ca78e0bfc29caa2a0174b585ba1d07b157f"
+    },
+    {
+      "file": "night-idle.png",
+      "sha256": "949c68824cf8c266d2069462ed9fb4c8f262d10b76e9d02d2b54cc084b1d1838"
+    },
+    {
+      "file": "night-lantern-close.png",
+      "sha256": "140d22e9a4b590b599d7a4633588e9c9981f1be95ec2f3ba45e15b91bb51c8be"
+    },
+    {
+      "file": "completed-research-idle.png",
+      "sha256": "0a07ff24636df0d2c0cd8fb5d009ef7520c0e17dabf5e020fd89cb27cfd86c81"
+    },
+    {
+      "file": "restarted.png",
+      "sha256": "3b675d51be5e5ff4e0d15cbc933aea7b8401518a89bf8d7c14c9ab0af5f44a94"
+    },
+    {
+      "file": "refuelled.png",
+      "sha256": "eb5240bcc240532c7079551597631059f7d14230d18728df206ffd7cedcc9278"
+    },
+    {
+      "file": "resupplied.png",
+      "sha256": "c5d607e987bdc26376f681f9663ff86e1e4880613cb942ab65c3ea0e01120183"
+    },
+    {
+      "file": "north-motion-00.png",
+      "sha256": "149d2d48206c285026a6efce3c64375d6ffe5a91932a05fffa43f7b7bccb781c"
+    },
+    {
+      "file": "north-motion-01.png",
+      "sha256": "bfd9c0dc8015687af7321c99e47518aa177be1126b605a9e97d670ae6364783f"
+    },
+    {
+      "file": "north-motion-02.png",
+      "sha256": "c65c1f9381e5c77a8d98de977b8b7379e506ae40d8876c01f0073678ebde3f0d"
+    },
+    {
+      "file": "north-motion-03.png",
+      "sha256": "d5c1fb40039e72ff8b2d088e96779faaebac287569e7f9da49badd3ff3c93e27"
+    },
+    {
+      "file": "north-motion-04.png",
+      "sha256": "b19ec5f9499194b204b3c54d5356d480617233f4bf5bb164631e4b8b43fa1f8a"
+    },
+    {
+      "file": "north-motion-05.png",
+      "sha256": "99f7dfb9466fad84fe4f3185bf929c93e71a4af4995b6b2bf8173fc0c74a72f6"
+    },
+    {
+      "file": "north-motion-06.png",
+      "sha256": "6bf33a043c66d707a2ce4fa80fab22928148a7b6aae5d94493940d2333270d74"
+    },
+    {
+      "file": "north-motion-07.png",
+      "sha256": "d34cb4d6f47207fe94b6f862e868153ca439b4ebe2dcfc6b953f6c8f84bc109e"
+    },
+    {
+      "file": "north-motion-08.png",
+      "sha256": "85c6c630d465e4c0901b4b0715d8ff049eb3e73d9c73d75447999630f75e2d0d"
+    },
+    {
+      "file": "north-motion-09.png",
+      "sha256": "a402728f3d08650cbe2c72ca9c65f6f19f397e38d30e3b09f50682d23b40f6ce"
+    },
+    {
+      "file": "north-motion-10.png",
+      "sha256": "3725313c3739862ce423a2907b74e9f80b692b16fcbd08322401737878a00214"
+    },
+    {
+      "file": "north-motion-11.png",
+      "sha256": "1d51b44b9da49754371cb83521e23343f89f3c250ee38fb48e1aa0d3311457eb"
+    },
+    {
+      "file": "north-motion-12.png",
+      "sha256": "ba0ec0d0223d922612816585cceb53143ed4b72c5396179325490bc31e610ecc"
+    },
+    {
+      "file": "north-motion-13.png",
+      "sha256": "ac4fff09a36346d2ed4320211dc0270938282596ee87b67e80582d2f1560cc25"
+    },
+    {
+      "file": "north-motion-14.png",
+      "sha256": "56f12394f6f829b12a5547622756ff3493a6d2c479cb896ae3719e3d1aafd24b"
+    },
+    {
+      "file": "north-motion-15.png",
+      "sha256": "dd8efb8f022c11b0ae81ad560c931256b36182af2d5ff77e43f0e5cc0bd7aca3"
+    }
+  ],
+  "visual_review_passed": false,
+  "completed_save": [
+    "C:\\Users\\Admin\\Documents\\ChatGPT\\Tech priests\\tanks-structure-production\\build\\thinking-hut-v1-client02\\runtime\\saves\\_autosave-thinking-hut-complete-client.zip"
+  ]
+}

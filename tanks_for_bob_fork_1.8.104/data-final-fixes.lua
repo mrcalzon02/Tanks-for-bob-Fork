@@ -66,3 +66,6 @@ require("prototypes.generated_graphics.shaler-v2-production")
 
 -- Heated mineral growth bed with constrained geared paddle drive.
 require("prototypes.generated_graphics.calcifier-v2-production")
+
+-- Timber/thatch burner research shelter and its supported study lantern.
+require("prototypes.generated_graphics.thinking-hut-v1-production")

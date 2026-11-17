@@ -56,3 +56,13 @@ connectivity alone does not prove sprite alignment. Check placed-pipe close
 views, full-size reducers/flanges and native sprite registration, without moving
 gameplay ports or inventing new processing outputs. These corrections do not
 reopen the other accepted machines for cosmetic rebuilding.
+
+## Thinking Hut correction — 2026-11-17
+
+The owner called out the lantern for attention. Replace its dark box appearance
+with an actually supported reservoir, wick/flame, guards, reflector and hood.
+Check it from the fixed gameplay camera as well as in a close export view: a
+hood that hides the flame from above does not complete this correction. Working
+and idle illumination must agree with native lab activity. Preserve the actual
+research/food/document inputs and chemical-burner behavior; the lab is not an
+invented crafting processor.

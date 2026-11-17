@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-17",
+  "judgment": "operational_close_enough_after_owner_lantern_correction",
+  "owner_visual_approved": false,
+  "basis": "Delegated operational review after refining the original shelter and replacing the dark lantern box with an attached oil lantern; actual gameplay-camera hood occlusion corrected before final native delivery.",
+  "source_sha256": "4c7dee2ad5124ea1c078b0f4f997c994b8d971d9395f86b083254f3bc9e75b13",
+  "runtime_sha256": "12d9d0039544f95d5a5fc77be20e85da7277a261d110c50f1a80c9b86224b857",
+  "before_reference": "models/island-survival/thinking-hut/candidates/v1-production04/front-review512.png",
+  "before_reference_sha256": "1c4f2fa2f36707e8618eef5399790d5cba686f02f69616ad5af19b89211e2757",
+  "acceptance_policy_sha256": "238d2e93caa278ebecd0c0c545ac4677270dd7cb4aba336eacad5595b233b017",
+  "reviewed_images": {
+    "docs/art/thinking-hut-v1/working-a.png": "149d2d48206c285026a6efce3c64375d6ffe5a91932a05fffa43f7b7bccb781c",
+    "docs/art/thinking-hut-v1/lantern-working-close.png": "b071b00152be07925b6c107115a1dd5211ec26f707d40c126b670cf8b03a9f82",
+    "docs/art/thinking-hut-v1/smoke-origin.png": "37d7fd735dc392cd9332a6ceaa69d9981176bfc769f9191408b5a362658cbd74",
+    "docs/art/thinking-hut-v1/night-working.png": "01f4a07073e8a71dc3331a55d9604ca78e0bfc29caa2a0174b585ba1d07b157f",
+    "docs/art/thinking-hut-v1/night-idle.png": "949c68824cf8c266d2069462ed9fb4c8f262d10b76e9d02d2b54cc084b1d1838",
+    "docs/art/thinking-hut-v1/night-lantern-close.png": "140d22e9a4b590b599d7a4633588e9c9981f1be95ec2f3ba45e15b91bb51c8be",
+    "docs/art/thinking-hut-v1/completed-research-idle.png": "0a07ff24636df0d2c0cd8fb5d009ef7520c0e17dabf5e020fd89cb27cfd86c81",
+    "docs/art/thinking-hut-v1/no-fuel.png": "23fafbc2abc9ebef6c1ea5c58b8c609f8ce53e625802122fa5aac0505c5fe603",
+    "docs/art/thinking-hut-v1/missing-meal.png": "d32b0620ea30bdadcab122e6dc3add0bd4db1b69995775bac12c598a92856587",
+    "docs/art/thinking-hut-v1/idle.png": "e57719da9e5f2507cad0c3384d3c31ca0b90a4221164bc1197fc5c46e57083fd",
+    "docs/art/thinking-hut-v1/restarted.png": "3b675d51be5e5ff4e0d15cbc933aea7b8401518a89bf8d7c14c9ab0af5f44a94",
+    "models/island-survival/thinking-hut/candidates/v1-lantern08/actual-glb-front.png": "bf4a93a4008940fc491e8b2203723587e26e6679ae655ea04d88407eb5e4ab9a",
+    "models/island-survival/thinking-hut/candidates/v1-lantern08/actual-glb-rear.png": "3cee60922dde71554d3a8663b182e9bd6803bc983c204ee5c809ba5b17f66ba8",
+    "models/island-survival/thinking-hut/candidates/v1-lantern08/actual-glb-clay.png": "930271423da6b6f473a1d035d539c8363f4f9601d54a0bb468edf527e8d95345",
+    "models/island-survival/thinking-hut/candidates/v1-lantern08/actual-glb-drive-close.png": "34373fcf5917dadae214320a682183191890cecacdcd07067b9127aaa9ffcb40",
+    "models/island-survival/thinking-hut/candidates/v1-lantern08/actual-glb-lantern-close.png": "d0d3b38f904256d3339a80becca7e256f7dbb5d273bced81da0a7bcf5325ab16"
+  },
+  "scores_out_of_10": {
+    "actual_research_function": 9,
+    "supported_construction": 8,
+    "lantern_construction_and_visibility": 8,
+    "attached_animation": 8,
+    "model_specific_surfaces": 8,
+    "gameplay_readability": 7
+  },
+  "limitations": [
+    "Individual owner approval is not claimed; earlier dark/occluded lantern studies remain held.",
+    "Balance activity is deliberately restrained; small fittings and reed detail are approximate at gameplay scale.",
+    "Sampled source/export clearance covers 385 poses per artifact, not continuous collision simulation.",
+    "No manufactured output or fluid-blocking behavior is invented for the lab.",
+    "19 actual technologies cover all 19 input combinations and consume all 14 accepted inputs; not a claim of completing all 75 technologies.",
+    "No full-user-mod-pack installation or Mod Portal publication."
+  ]
+}

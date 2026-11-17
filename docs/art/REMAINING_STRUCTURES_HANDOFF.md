@@ -8,6 +8,12 @@ barrel-source Steam Compressor, Wood Basin, Quarry, refined Shaler and Calcifier
 since reached operational integration. Read the current JSON ledger for delivery receipts and remaining
 scope; the counts below describe the original saved baseline.
 
+**Expanded continuation, owner 2026-11-17:** after finishing all remaining
+Tanks structures, continue unfinished Tech-Priests buildings, engines and dropped
+turrets. Reconcile repository state and checkpoint frequently. The Tanks ledger
+stays scoped to its actual 21 structures; this subsequent phase does not approve
+held assets or authorize overwriting concurrent work.
+
 ## Current state
 
 - Repository: `mrcalzon02/Tanks-for-bob-Fork`.

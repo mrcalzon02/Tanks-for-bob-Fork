@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "operated_save_sha256": "34eee6374f058e0a19051614d824af018920e2e64f424f11608da99c65044f38",
+  "save_after_completed_native_operation": true,
+  "lab_count": 24,
+  "reload_ticks": 300,
+  "checked": "All research-input inventories, coal inventories and remaining burning fuel, active research identities/progress, selected target unlocks, entity validity and fixed directions",
+  "freeze": "Native disabled_by_script flag after operational completion; 60 game ticks before snapshot; actual client save waited to finish"
+}

@@ -1,0 +1,13 @@
+{
+  "source_sha256": "4c7dee2ad5124ea1c078b0f4f997c994b8d971d9395f86b083254f3bc9e75b13",
+  "frames": 193,
+  "errors": {
+    "suspension_endpoint_error": 5.960464477539063e-08,
+    "pan_upright_error": 0.0,
+    "trunnion_radial_clearance_error": 0.0,
+    "pan_table_clearance_error": 0.0
+  },
+  "pivot_radial_clearance_tiles": 0.002,
+  "pan_suspension_length_tiles": 0.22,
+  "passed": true
+}
