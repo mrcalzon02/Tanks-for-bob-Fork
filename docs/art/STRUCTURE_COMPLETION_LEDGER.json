@@ -1,11 +1,11 @@
 {
   "schema": "tanks.structure-production-ledger.v1",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "baseline_commit": "7290824bf43711d0bb31bd8e2969c51459864f91",
-  "active_source": "tanks_for_bob_fork_1.8.103",
+  "active_source": "tanks_for_bob_fork_1.8.104",
   "scope": "21 survival/manufacturing structures; excludes vehicles and Tech-Priests turrets",
   "goal": "Finish authored modeling, model-specific surfacing, animation, FMPL export/registration, genuine sprite export and tested Factorio integration; preserve accepted assets.",
-  "completion_policy": "Accepted historical art stays accepted. New/revised assets require independently reopened editable source, inspected exported artifact and true Blender renders, bounded repair, visual disposition and native runtime evidence. Missing receipts are pending, never automatic PASS.",
+  "completion_policy": "Owner priority 2026-11-15: finish working, animated, operational and close enough; defer cosmetic polish. Preserve accepted art and verify actual prototype behavior. Track source/export/FMPL receipts honestly; missing receipts are pending, never automatic PASS. See docs/art/OPERATIONAL_FINISH_POLICY.md.",
   "structures": [
     {
       "id": "campfire",
@@ -94,7 +94,8 @@
       "next": "Optional graphical pipe-overlap diagnostic issue #4 remains separate; preserve accepted floorless source.",
       "evidence": [
         "docs/art/STRUCTURE_3D_PRODUCTION_ORDER.md",
-        "https://github.com/mrcalzon02/Tanks-for-bob-Fork/issues/4"
+        "https://github.com/mrcalzon02/Tanks-for-bob-Fork/issues/4",
+        "docs/art/checkpoint-2026-11-16/verification.json"
       ],
       "fmpl_delivery": "Audit existing archive/registry receipt without rebuilding accepted art",
       "done": true
@@ -103,23 +104,23 @@
       "id": "beachpump",
       "name": "Beach Pump",
       "revision": "V12",
-      "status": "repair_required",
+      "status": "accepted_integrated",
       "priority": 8,
-      "next": "Separate above-water and underwater geometry/passes, rerender all affected states/facings; verify shoreline, full output and landfill again. Accepted per-facing alignment must be preserved.",
+      "next": "Owner accepted installed V12 as operational and close enough on 2026-11-15. Preserve animation, native flow/full-output/landfill and alignment. Underwater occlusion is deferred visual review; archive/FMPL receipt recovery remains separate.",
       "evidence": [
-        "docs/art/local-machine-alignment/2026-11-13.json"
+        "docs/art/local-machine-alignment/2026-11-13.json",
+        "docs/art/OPERATIONAL_FINISH_POLICY.md"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false,
-      "active": true
+      "done": true
     },
     {
       "id": "steam-condenser",
       "name": "Steam Condenser",
-      "revision": "V24 local test / V1 repository master",
+      "revision": "Tanks V1 unapproved candidate held; native entity exists",
       "status": "advanced_candidate",
       "priority": 9,
-      "next": "Recover exact V24 editable source, current atlases and receipts from origin; preserve accepted per-facing scale. Combined profile passed fuel-fed water/pipe tests, but active 1.8.103 entities.lua still binds the legacy 64px single-frame sprite. Complete source-backed promotion.",
+      "next": "Keep the unfamiliar V1 candidate unapproved and uninstalled. The actual placeable steam-condenser exists; Steam-condenserA consumes wood and steam and returns stone/industrial waste. Do not infer water output or borrow Tech-Priests atmospheric-condenser V24. Resume only from actual function and the owner\u2019s construction brief.",
       "evidence": [
         "docs/art/local-machine-alignment/2026-11-13.json",
         "models/island-survival/steam-condenser/v1/contract.json",
@@ -138,7 +139,8 @@
       "evidence": [
         "models/island-survival/primitive-steam-powered-pump/v3/FMPL_MODEL.json",
         "docs/art/primitive-pipe-pump-v3/engine-receipt.json",
-        "docs/art/primitive-pipe-pump-v3/capture-receipt.json"
+        "docs/art/primitive-pipe-pump-v3/capture-receipt.json",
+        "docs/art/checkpoint-2026-11-16/verification.json"
       ],
       "fmpl_delivery": "Registered in canonical FMPL at ebe6bcafd3dc431b36c040d5f51fcc1249a63cbf; source, embedded-map GLB, 68 frames, native integration and owner acceptance verified.",
       "done": true
@@ -152,7 +154,8 @@
       "next": "Preserve the accepted clay basin, four swimmers, baked portable source and tested native idle/working integration.",
       "evidence": [
         "docs/art/fish-pond-v2/README.md",
-        "models/island-survival/fish-pond/v2/FMPL_MODEL.json"
+        "models/island-survival/fish-pond/v2/FMPL_MODEL.json",
+        "docs/art/checkpoint-2026-11-16/verification.json"
       ],
       "fmpl_delivery": "Registered in canonical FMPL at 1276ab6a70189926deeb15240bd86df745f0b794; inspected source/GLB, 68 frames, native integration/reload, four-way alignment and owner acceptance verified.",
       "done": true
@@ -215,12 +218,14 @@
       "revision": "OBJ blockout",
       "status": "rebuild_required",
       "priority": 16,
-      "next": "Build pressure barrel, reciprocating drive, valves and fixed native fittings; inspect mechanism clearance.",
+      "next": "FIRST on resume: reuse the owner-designated half-finished compressor for the existing Steam-Compressor. Locate its editable master, preserve useful mechanism, and finish primitive low-tech construction and canister charging/release integration. See REMAINING_STRUCTURES_HANDOFF.md.",
       "evidence": [
-        "models/island-survival/designs.json"
+        "models/island-survival/designs.json",
+        "docs/art/REMAINING_STRUCTURES_HANDOFF.md"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false
+      "done": false,
+      "active": true
     },
     {
       "id": "quarry",
@@ -288,10 +293,11 @@
       "done": false
     }
   ],
-  "active_structure": "beachpump",
+  "active_structure": "Steam-Compressor",
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
     "2026-11-15: Resolve shoreline intake versus pipe-to-pipe pump purpose; current focus is the existing Primitive Steam-Powered Pump candidate."
-  ]
+  ],
+  "production_state": "paused; handoff prepared"
 }

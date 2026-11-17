@@ -1,0 +1,130 @@
+{
+  "schema": "tanks.fish-pond.v2.runtime-inspection",
+  "technical_checks_passed": true,
+  "visual_approved": false,
+  "game_integrated": false,
+  "source_sha256": "a3e28a08e21a3c8325e3f8a27719432a83d5befdb7fc7acbac247cf88dce4eaa",
+  "glb_sha256": "c806f92bc6e43727e13a3d168302a54981e3df0c0a8c8d05d0d4a088dfa2cef9",
+  "source_geometry": {
+    "min": [
+      -1.2857452630996704,
+      -1.5,
+      -0.2160000056028366
+    ],
+    "max": [
+      1.3568884134292603,
+      1.5555164813995361,
+      0.7000000476837158
+    ],
+    "triangles": 8412,
+    "mesh_count": 30,
+    "degenerate_objects": {},
+    "missing_uv": [],
+    "finite": true
+  },
+  "runtime_geometry": {
+    "min": [
+      -1.2857452630996704,
+      -1.5,
+      -0.2160000056028366
+    ],
+    "max": [
+      1.3568884134292603,
+      1.5555164813995361,
+      0.7000000476837158
+    ],
+    "triangles": 8412,
+    "mesh_count": 30,
+    "degenerate_objects": {},
+    "missing_uv": [],
+    "finite": true
+  },
+  "sampled_working_poses": 97,
+  "max_export_error_tiles": 1.228781230931777e-07,
+  "max_socket_motion_tiles": 0.0,
+  "source_loop_seam_error_tiles": 5.960464477539063e-08,
+  "sockets": [
+    {
+      "name": "POND V2 | north continuous hollow ceramic mouth",
+      "joint_center": [
+        0.0,
+        1.5,
+        0.36
+      ],
+      "outer_diameter": 0.6800000953674317,
+      "bore_diameter": 0.4899999551777756,
+      "joint_edge_bevel_tiles": 0.003,
+      "joint_edge_outer_diameter": 0.6740001151837131,
+      "joint_edge_inner_diameter": 0.4959999498641141,
+      "closed_manifold_wall": true,
+      "connected_components": 1
+    },
+    {
+      "name": "POND V2 | south continuous hollow ceramic mouth",
+      "joint_center": [
+        0.0,
+        -1.5,
+        0.36
+      ],
+      "outer_diameter": 0.6800000953674317,
+      "bore_diameter": 0.4899999551777756,
+      "joint_edge_bevel_tiles": 0.003,
+      "joint_edge_outer_diameter": 0.6740001151837131,
+      "joint_edge_inner_diameter": 0.4959999498641141,
+      "closed_manifold_wall": true,
+      "connected_components": 1
+    }
+  ],
+  "packed_source_images": [
+    {
+      "name": "fish-pond-v2-albedo",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "fish-pond-v2-normal",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "fish-pond-v2-roughness",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "embedded_runtime_images": 3,
+  "textured_materials": [
+    "POND V2 | baked basin fish and ceramic atlas"
+  ],
+  "water_uniform_alpha_material": [
+    "POND V2 | portable translucent water"
+  ],
+  "runtime_renders": [
+    {
+      "file": "actual-glb-front.png",
+      "sha256": "3cbb1fe9336263a4021a3afdac3a2c5018b61e55af5531303376f01b24109bcc"
+    },
+    {
+      "file": "actual-glb-rear.png",
+      "sha256": "f55948ab3561217d09d053f3876189cef31c8d3ce8b017ec43e6392e52699866"
+    },
+    {
+      "file": "actual-glb-close.png",
+      "sha256": "c113d5851a984774b26ed6541396049d1bdd46ab4f92456388af14582afd3ae4"
+    },
+    {
+      "file": "actual-glb-clay.png",
+      "sha256": "cf16a84b8a7e9fd653904bc557dbdb647305e54ee1d8aa2e6c76cd300ad12f8d"
+    }
+  ],
+  "idle_state_note": "Source/render visibility state; GLB exports the working loop. Consumers hide fish and eye nodes for idle."
+}

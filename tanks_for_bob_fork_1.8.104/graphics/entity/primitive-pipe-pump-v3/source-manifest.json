@@ -1,0 +1,86 @@
+{
+  "schema": "tanks.pipe-pump.v3.atlas",
+  "source_sha256": "1324db1d55ae14bc68724cdaff8f13ecd8fd0d67945c017c210d828839af95f1",
+  "glb_sha256": "f0b9ba976e40736613859d0ed87820dff178f9d8ec712ae3384e149ea766e74b",
+  "genuine_frames": 68,
+  "working_frames_per_facing": 16,
+  "fps": 8,
+  "facing_order": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "files": {
+    "idle-64.png": {
+      "sha256": "117d3f0f15a3b6ea0bbd8c69515b8665e1b8f7e6650e0ccb8f4f807687239630",
+      "dimensions": [
+        256,
+        64
+      ],
+      "cell_size": 64
+    },
+    "working-64.png": {
+      "sha256": "892e6aa22df510c16ff8005dccf829054fb2a27cd98a236c67ff540db66e8cad",
+      "dimensions": [
+        512,
+        512
+      ],
+      "cell_size": 64
+    },
+    "idle-128.png": {
+      "sha256": "ea3b0eeb9040ab7bd56a11293f3d057482dc8a4e607a14c69e7e22ce8aa45505",
+      "dimensions": [
+        512,
+        128
+      ],
+      "cell_size": 128
+    },
+    "working-128.png": {
+      "sha256": "7e3d1e9865e120f3549b483b236e74ab68343bc98d3bc42ed2de71c029c8537b",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "cell_size": 128
+    },
+    "idle-256.png": {
+      "sha256": "2c67f1041a820f4376b8108836d62223bc6303ffebeeb9bfdf2f2ba4dfae5fc7",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "cell_size": 256
+    },
+    "working-256.png": {
+      "sha256": "1dbf0bf25813e4b78567574c05d7097a92e4164af9c600b950b4039ce31d1f95",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "cell_size": 256
+    }
+  },
+  "verified": true,
+  "native_game_verified": true,
+  "native_projection": {
+    "global_ground_y_scale": 1.4142135623730951,
+    "runtime_geometry_changed": false,
+    "purpose": "Match Factorio square ground tiles under the fixed 45-degree camera"
+  },
+  "native_engine": "2.1.24",
+  "owner_approved": true,
+  "native_alignment_reviewed": true,
+  "gameplay_changed": true,
+  "adapter_sha256": "b685197af423609e814a7a437cbff4c0737e1abaf659364e9f5e08ef261e008c",
+  "native_shift": [
+    0,
+    -0.40760930650348914
+  ],
+  "native_alignment_evidence": "docs/art/native-pipe-alignment-1.8.104/review.json",
+  "alignment_review_authority": "Agent review under owner operational-close-enough instruction; not a new individual owner approval",
+  "changed_gameplay_fields": [
+    "fluid_box.pipe_connections[*].position: y +/-0.75 -> +/-0.5 to fit standard player grid"
+  ],
+  "burner_rate_recipes_and_footprint_unchanged": true
+}

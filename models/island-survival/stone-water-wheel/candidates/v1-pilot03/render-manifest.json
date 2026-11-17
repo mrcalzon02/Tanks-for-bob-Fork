@@ -1,0 +1,105 @@
+{
+  "kind": "pilot",
+  "genuine_blender_frames": 12,
+  "source_sha256": "72c07aa638d014623f90d15dfd86c3f0fcae409daf1c47497fdd1a8136130e47",
+  "runtime_export_sha256": "ac0ba2d3c1df57043ac0127b25ebabbc8da6fd1e892235b3235a5cce4a459d3b",
+  "blender": "5.0.0",
+  "images": [
+    {
+      "file": "north-idle-001.png",
+      "sha256": "b41679c1ec9ff3163589adb8b99f4b70bda38d870a039c79b6a95bbbdf901381",
+      "facing": "north",
+      "yaw": 0,
+      "state": "idle",
+      "frame": 1
+    },
+    {
+      "file": "north-working-001.png",
+      "sha256": "7edc53af82e22a2e2ce1a8ad278a977e469b9a312a2e31dfa08beac5505ed4f6",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "frame": 1
+    },
+    {
+      "file": "north-working-025.png",
+      "sha256": "c45a6f095ceb83ba20f6f3b36dda66c1c233e98b85a841e5f7fcc45a97407c79",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "frame": 25
+    },
+    {
+      "file": "east-idle-001.png",
+      "sha256": "484a9db2d6a7c8bbb754f74fc5eccba722e171041309b3f282e4eb75275b2b3b",
+      "facing": "east",
+      "yaw": 270,
+      "state": "idle",
+      "frame": 1
+    },
+    {
+      "file": "east-working-001.png",
+      "sha256": "c90d7bd460078b8ec2dfd8c00d6bfa03f721e618ffbd8765955adf4e4b5f0cf9",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "frame": 1
+    },
+    {
+      "file": "east-working-025.png",
+      "sha256": "c01aea7a02f26c53de6f6e9bcc7f7859b43a81d707eed4a32c561c297544ff2b",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "frame": 25
+    },
+    {
+      "file": "south-idle-001.png",
+      "sha256": "24159f5066140ba75e6e59de1addd3e50f87621120e8db79e48e05e78d824ef2",
+      "facing": "south",
+      "yaw": 180,
+      "state": "idle",
+      "frame": 1
+    },
+    {
+      "file": "south-working-001.png",
+      "sha256": "498353a0679e41533ce8a33d5d85a63f62b50f26e186bb8e79c65919c0b915a5",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "frame": 1
+    },
+    {
+      "file": "south-working-025.png",
+      "sha256": "cc11cf2a593c26d52d202387a9374d5feb7fe813696f1a5580ee66547e8c2de5",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "frame": 25
+    },
+    {
+      "file": "west-idle-001.png",
+      "sha256": "bf70b0beaea021593204d65bdec8cf5c54382e16b2b220356989278b930f830a",
+      "facing": "west",
+      "yaw": 90,
+      "state": "idle",
+      "frame": 1
+    },
+    {
+      "file": "west-working-001.png",
+      "sha256": "98461d4d47cf7866b79af6d347388791e5872497fdde80489154cb01ff013e93",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "frame": 1
+    },
+    {
+      "file": "west-working-025.png",
+      "sha256": "8810727d482cdc707af51ba10d97982dc8f1c6d37c95188a77c0846d6038f2e3",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "frame": 25
+    }
+  ]
+}

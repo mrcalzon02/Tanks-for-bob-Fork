@@ -1,0 +1,411 @@
+{
+  "asset": "solar-boiler-v8",
+  "source_sha256": "c1067b1a4852b23d2e9e00708f1bd81ce6e8c35152cfd2dcbb653bbefeca9b3f",
+  "geometry_changed": false,
+  "sprite_only_global_y_scale": 1.4142135623730951,
+  "fixed_camera_ortho": 4.449999809265137,
+  "frame_count": 16,
+  "facings": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "true_blender_frames": 64,
+  "native_scale": 0.5562499761581421,
+  "native_shift": [
+    0,
+    -0.40760930650348914
+  ],
+  "atlas_sha256": "2d27db371c9e69d82f0428ac9b8587882f7b83aeb6ab746a7b7ec36622454d7c",
+  "frames": [
+    {
+      "facing": "north",
+      "source_frame": 1,
+      "file": "north-00.png",
+      "sha256": "932851e9501d01a3d4b90c2b1ef75fc18f6c281c3de00e9b132b3393e2ba48d3"
+    },
+    {
+      "facing": "north",
+      "source_frame": 7,
+      "file": "north-01.png",
+      "sha256": "f0ca51f218a2b471f9b619fd4c0c8c42b41d72819777ea54f59c4a3495bc4da7"
+    },
+    {
+      "facing": "north",
+      "source_frame": 13,
+      "file": "north-02.png",
+      "sha256": "d11e7b6f49bac4d847583de84d83655cd3731b133be2f7067ff823cf76ccc563"
+    },
+    {
+      "facing": "north",
+      "source_frame": 19,
+      "file": "north-03.png",
+      "sha256": "6d63b695cdabbe0e6c3de7f6ccc2fcbfbcb3c9e6cc19a6d807dc40950a06f1ab"
+    },
+    {
+      "facing": "north",
+      "source_frame": 25,
+      "file": "north-04.png",
+      "sha256": "29c19dc82bcd40f34c42a5973f840ef1810877e6d8f3ccd0adbb9886e231bec0"
+    },
+    {
+      "facing": "north",
+      "source_frame": 31,
+      "file": "north-05.png",
+      "sha256": "3dec1a07c97aa7866b9f07c36b58a04679b51f74bb7d87cfc821d2b026f30d2f"
+    },
+    {
+      "facing": "north",
+      "source_frame": 37,
+      "file": "north-06.png",
+      "sha256": "04cdcacfcb22cb1578b128abd45e8fe13c0a5d20a9ec26b5ab097d50e9548a30"
+    },
+    {
+      "facing": "north",
+      "source_frame": 43,
+      "file": "north-07.png",
+      "sha256": "f3d2efb4a05b74e3e33fe639d36e0faa35fdc5792bd7193491afc3b1f7c5b2de"
+    },
+    {
+      "facing": "north",
+      "source_frame": 49,
+      "file": "north-08.png",
+      "sha256": "0301e71873707d1cd9c80f3f1ee0fa0740934bb9fa24da52e9fcb7bfcb7ab2fe"
+    },
+    {
+      "facing": "north",
+      "source_frame": 55,
+      "file": "north-09.png",
+      "sha256": "651016ffdc51c4cae5d3dc05b214c8ae27391373225bc3d92d276e898d1253db"
+    },
+    {
+      "facing": "north",
+      "source_frame": 61,
+      "file": "north-10.png",
+      "sha256": "e3372811406b0906e53bd8ea6fdf05727f736941a9c58f2f2739ee918896f3ec"
+    },
+    {
+      "facing": "north",
+      "source_frame": 67,
+      "file": "north-11.png",
+      "sha256": "cc64cbc5f39a77ec7ee770cbae1373d578b02259315bc7d3681862b73cb34327"
+    },
+    {
+      "facing": "north",
+      "source_frame": 73,
+      "file": "north-12.png",
+      "sha256": "9acae43afa7e23cd558d6c1509b73bcbc720c508f4e3f03082e6c91964f57eb7"
+    },
+    {
+      "facing": "north",
+      "source_frame": 79,
+      "file": "north-13.png",
+      "sha256": "b93e1ac4df57ffaa7ea361b295022f0089ad9a886eb4d51bb00e14db71cefa7d"
+    },
+    {
+      "facing": "north",
+      "source_frame": 85,
+      "file": "north-14.png",
+      "sha256": "0140c6182a57e5bdc6d052bae075dc6f9badd8058e336d8924819d0126f85f44"
+    },
+    {
+      "facing": "north",
+      "source_frame": 91,
+      "file": "north-15.png",
+      "sha256": "9bb6f7c2e32eb2f167635d6d1a003b811e13036e12867569894b8890116419da"
+    },
+    {
+      "facing": "east",
+      "source_frame": 1,
+      "file": "east-00.png",
+      "sha256": "479119cc5dabbc859ee94d78b079a23fae3a4935c9550f44fecf91b6097fd66f"
+    },
+    {
+      "facing": "east",
+      "source_frame": 7,
+      "file": "east-01.png",
+      "sha256": "6fd7d161a32b5f3462e63d8e450debaffa3248a186d11a597025d0e10c689010"
+    },
+    {
+      "facing": "east",
+      "source_frame": 13,
+      "file": "east-02.png",
+      "sha256": "75aec57a19adfcd34fb6dd9b954d59007876ba4ce14b0176f0e50696f0bde7ee"
+    },
+    {
+      "facing": "east",
+      "source_frame": 19,
+      "file": "east-03.png",
+      "sha256": "b75c53abf485f726ab3e15ebeb3d611e116fd2b0de282284c367385e4bbbdea2"
+    },
+    {
+      "facing": "east",
+      "source_frame": 25,
+      "file": "east-04.png",
+      "sha256": "e265f9de76bee48fcfaa3cde52f826577b3fb49aff81c6faa8cc7edb585b1bee"
+    },
+    {
+      "facing": "east",
+      "source_frame": 31,
+      "file": "east-05.png",
+      "sha256": "7012ab9d340d103322f577a9c0659285f2ee335c9c5212e4c867e153b5e09ff6"
+    },
+    {
+      "facing": "east",
+      "source_frame": 37,
+      "file": "east-06.png",
+      "sha256": "9c6c16a3020d969f423639add878fdf0f5effba8896084bab77edef15b6f1cf6"
+    },
+    {
+      "facing": "east",
+      "source_frame": 43,
+      "file": "east-07.png",
+      "sha256": "10d5954c7d6fe2a34ffc87d5cc63c771d580f23fe3f797efed5ca86c8082ca09"
+    },
+    {
+      "facing": "east",
+      "source_frame": 49,
+      "file": "east-08.png",
+      "sha256": "da45573e1202bc5fa8deed8d959d600ffc168c694d1d38d76a1e789c7b1686d7"
+    },
+    {
+      "facing": "east",
+      "source_frame": 55,
+      "file": "east-09.png",
+      "sha256": "9ae7806832d0d2b5af6980486e23a4ef666de2c191a341090e52a8eb17cd153e"
+    },
+    {
+      "facing": "east",
+      "source_frame": 61,
+      "file": "east-10.png",
+      "sha256": "3d7894d76f11e22925a88ba5e85c1e0067e10d3114363141ea27ee801903ed41"
+    },
+    {
+      "facing": "east",
+      "source_frame": 67,
+      "file": "east-11.png",
+      "sha256": "5c1fab9f828faa67d7447db515489b74332d7458fccfbbfbff9776c9af45fd90"
+    },
+    {
+      "facing": "east",
+      "source_frame": 73,
+      "file": "east-12.png",
+      "sha256": "2cf7511d289151d65ce433d51ce69e8da5b86671b80bb48d325f2b8e248510d1"
+    },
+    {
+      "facing": "east",
+      "source_frame": 79,
+      "file": "east-13.png",
+      "sha256": "c519b972f4169f5a861cf53dd3cdf7f77586f012cdaf4db5fdfb87945776b298"
+    },
+    {
+      "facing": "east",
+      "source_frame": 85,
+      "file": "east-14.png",
+      "sha256": "cd3dbe1c52e981466df43b66231820fb2ea13fe8259e01061e5fab5ac9e5a569"
+    },
+    {
+      "facing": "east",
+      "source_frame": 91,
+      "file": "east-15.png",
+      "sha256": "580d1ffb17e923d3c87e6ef31c97e42f3a1367009eab665c30a971c08ae4aee9"
+    },
+    {
+      "facing": "south",
+      "source_frame": 1,
+      "file": "south-00.png",
+      "sha256": "1a60a999ce20e6f1245265bdc5b1354a278b0de6f726a92c302dbbe047b6cad7"
+    },
+    {
+      "facing": "south",
+      "source_frame": 7,
+      "file": "south-01.png",
+      "sha256": "f17e3a820947f21fa28f84b4342b1ef88204358fd77f1d526293f7493653e08a"
+    },
+    {
+      "facing": "south",
+      "source_frame": 13,
+      "file": "south-02.png",
+      "sha256": "f7264f23adff42d8a4b308e45164e82d5ecc20425b42cbeb201f54ef972240ef"
+    },
+    {
+      "facing": "south",
+      "source_frame": 19,
+      "file": "south-03.png",
+      "sha256": "a8fa62d86552915d6e887dbeaca194abf029e7250ebd6c3ecd5ed0d260c5b0d6"
+    },
+    {
+      "facing": "south",
+      "source_frame": 25,
+      "file": "south-04.png",
+      "sha256": "48fd29881dcfbfb136dfa510d3c536459f5ef756db861bc387967ef92e34d278"
+    },
+    {
+      "facing": "south",
+      "source_frame": 31,
+      "file": "south-05.png",
+      "sha256": "310243e9627d17b6357185820faae0a15c9257247927dba82af8f04241e0a739"
+    },
+    {
+      "facing": "south",
+      "source_frame": 37,
+      "file": "south-06.png",
+      "sha256": "25fcd96b631ad70cd1c9795ce98334ade812b9e7e0c6a763c81f774668fbff5a"
+    },
+    {
+      "facing": "south",
+      "source_frame": 43,
+      "file": "south-07.png",
+      "sha256": "783a1751e6e1995c8fc9671b401ad05d11856a92b27ffa9ced704bc1e0477f22"
+    },
+    {
+      "facing": "south",
+      "source_frame": 49,
+      "file": "south-08.png",
+      "sha256": "e264b92ff9eb6d2234a6e8d04f095d414c363bef657fbf79f82aa61673eed2c6"
+    },
+    {
+      "facing": "south",
+      "source_frame": 55,
+      "file": "south-09.png",
+      "sha256": "c03eb44e794911479ea66629efa07c003e15be6acdfc842d31bad2f1eca83e2b"
+    },
+    {
+      "facing": "south",
+      "source_frame": 61,
+      "file": "south-10.png",
+      "sha256": "84fd9104b6a5ed8fca687302b667d01e2ae4ab8a2df2cd70794a2b60b3f6bebd"
+    },
+    {
+      "facing": "south",
+      "source_frame": 67,
+      "file": "south-11.png",
+      "sha256": "49337cc441a299170f2a579c7213ec80eae24d1e7c4658db70367ce1941def07"
+    },
+    {
+      "facing": "south",
+      "source_frame": 73,
+      "file": "south-12.png",
+      "sha256": "4fb704a4286050f866a4f2b1e869d2f6004b653ae30820690a8e2567bfd83366"
+    },
+    {
+      "facing": "south",
+      "source_frame": 79,
+      "file": "south-13.png",
+      "sha256": "f077b914e70ec5b88e15ae21f4e11134be8390a50ac82e9fd0982f55a95ee743"
+    },
+    {
+      "facing": "south",
+      "source_frame": 85,
+      "file": "south-14.png",
+      "sha256": "f509543b0714de188cf5a77d1b692b03cc06621ae27ec6d20f8c313558f5088d"
+    },
+    {
+      "facing": "south",
+      "source_frame": 91,
+      "file": "south-15.png",
+      "sha256": "5fff89e68235aa29f7bb1c32a76c0f2897291dd35f57b9027b69ec4f79b3c625"
+    },
+    {
+      "facing": "west",
+      "source_frame": 1,
+      "file": "west-00.png",
+      "sha256": "d097935d47263a6e659774997d416f7175d6cf5bba38a31d01f46bf5d3769760"
+    },
+    {
+      "facing": "west",
+      "source_frame": 7,
+      "file": "west-01.png",
+      "sha256": "ad64562f69e58e7412510d8ea0187a0948b39784f441c36c68a99a9ceff592fe"
+    },
+    {
+      "facing": "west",
+      "source_frame": 13,
+      "file": "west-02.png",
+      "sha256": "975178f9a24f58f76ca000426ba55192554723062dde48e655337df35dd746ad"
+    },
+    {
+      "facing": "west",
+      "source_frame": 19,
+      "file": "west-03.png",
+      "sha256": "5f0e151f223ce804a0eaa868a570b3629988832d478447b52b4b86f28172c55a"
+    },
+    {
+      "facing": "west",
+      "source_frame": 25,
+      "file": "west-04.png",
+      "sha256": "c9af30c4efc095f3e012a7e6cc1adce464631a9d7130c84e38176840a2a96754"
+    },
+    {
+      "facing": "west",
+      "source_frame": 31,
+      "file": "west-05.png",
+      "sha256": "822cf0b539d77a4b7d454296dba0a080d83b2f27b20cbde060fec2e475fc6d81"
+    },
+    {
+      "facing": "west",
+      "source_frame": 37,
+      "file": "west-06.png",
+      "sha256": "b741c0146007e3f3b429054b99539ae3d779bea108458d3937df93e5d6a84b16"
+    },
+    {
+      "facing": "west",
+      "source_frame": 43,
+      "file": "west-07.png",
+      "sha256": "a7418258ae2ad829f89ccd5eab2b3ea3d19694e2ba7d1ef1b96c28669adf3a14"
+    },
+    {
+      "facing": "west",
+      "source_frame": 49,
+      "file": "west-08.png",
+      "sha256": "292467b28ce62f6e43fdbdbdd901829fd51c53c6bdc3cc0e2e1625c8e530ad71"
+    },
+    {
+      "facing": "west",
+      "source_frame": 55,
+      "file": "west-09.png",
+      "sha256": "96a334e859843825f84c4ed47fa52757bb38d2c7461cb2b631b026773713f3e6"
+    },
+    {
+      "facing": "west",
+      "source_frame": 61,
+      "file": "west-10.png",
+      "sha256": "47f6288b161ecb98149e50c79394148457a4c1db9fa73a23b7a4223d0101f754"
+    },
+    {
+      "facing": "west",
+      "source_frame": 67,
+      "file": "west-11.png",
+      "sha256": "5ccc7bbef7562f4bc5e49759b6aa20da03159708f2e55c2cdefd6e3d2ba5520c"
+    },
+    {
+      "facing": "west",
+      "source_frame": 73,
+      "file": "west-12.png",
+      "sha256": "8799450e97183f2250f2193461501be9782018451ee641bd4125da2c9286d165"
+    },
+    {
+      "facing": "west",
+      "source_frame": 79,
+      "file": "west-13.png",
+      "sha256": "22922e33392b5087fd26f61df82afe649ee410a681d8ece3f9e68660bec5b7f5"
+    },
+    {
+      "facing": "west",
+      "source_frame": 85,
+      "file": "west-14.png",
+      "sha256": "84db7987b70a3a07443b3b8158bd19e158275ce43589037541585404949dfd28"
+    },
+    {
+      "facing": "west",
+      "source_frame": 91,
+      "file": "west-15.png",
+      "sha256": "bdb316c64e8409df99fd8bdf522cb9cc0e5fff3ee69534bc1809bb2a42154bad"
+    }
+  ],
+  "native_alignment_verified": true,
+  "native_alignment_evidence": "docs/art/native-pipe-alignment-1.8.104/review.json",
+  "adapter_sha256": "4d294564754bab28894aaccbe2738c59b413bf9811b33026131900f516abbc7e",
+  "original_source": "models/island-survival/solar-boiler/generated-v8/solar-boiler-v8.blend"
+}

@@ -1,0 +1,105 @@
+{
+  "source_version": "1.8.104",
+  "native_grid_connections_passed": true,
+  "player_grid_connections": 28,
+  "graphical_captured": true,
+  "visual_review_passed": false,
+  "screenshots": [
+    {
+      "file": "pump-north-pipes.png",
+      "sha256": "8f163009e3793d64ad73a5f9693e6b5c35b7c722cfcbae6d10295e7248e1c087"
+    },
+    {
+      "file": "pump-north-caps.png",
+      "sha256": "0c95c3c41cb57137cff1d69d25335ad90196c5390fdc9cf70ca7691b5526b227"
+    },
+    {
+      "file": "pump-east-pipes.png",
+      "sha256": "c4ef249bd0733059665ded75e6f9fb04df175376b048dc5896ccebeeea72e02a"
+    },
+    {
+      "file": "pump-east-caps.png",
+      "sha256": "7982c225c95460977953d2b088d142bf2cc035b2092594a43d3e5857b2ca81d0"
+    },
+    {
+      "file": "pump-south-pipes.png",
+      "sha256": "3cc7109da57f68c634c2a3c0312b9fe9597494210882993520db3cc97f889cb6"
+    },
+    {
+      "file": "pump-south-caps.png",
+      "sha256": "2a6832b9b6cff2bf000e0d6fc6929b84ddba3a3dcd1f4f5e60f3e7a62fb68c2a"
+    },
+    {
+      "file": "pump-west-pipes.png",
+      "sha256": "5a1ce323931705ccafe2c71a2c8bcd6d7d7fef84ba05862db77608b2e98049e0"
+    },
+    {
+      "file": "pump-west-caps.png",
+      "sha256": "08f0cb2b999e347c6662f3f6c8dadbdd71b4e1ff87085f1bf1d50907b7866ca5"
+    },
+    {
+      "file": "solar-north-pipes.png",
+      "sha256": "84c4be4899c3144b057cb9fbf40d27df65ed203d9fc3a05ec1cb740ad6b0de87"
+    },
+    {
+      "file": "solar-north-caps.png",
+      "sha256": "a9805f9b1a9e3e1aa8208d6f3dc3b7dce8ab3a86363ed6f17d04432529049f49"
+    },
+    {
+      "file": "solar-east-pipes.png",
+      "sha256": "9b9ff6d840396629690f30ed524f1459bc2086605ba270457ecd961989b17fd8"
+    },
+    {
+      "file": "solar-east-caps.png",
+      "sha256": "02b8874e92be21e45004c2d6c2437d1026a6708e4af5270b7ee2194436347d0a"
+    },
+    {
+      "file": "solar-south-pipes.png",
+      "sha256": "8a7e964a32d48c1d1e6a731e9ea0cf1b24be41977cf0c1099d9ee8c3c5ccca48"
+    },
+    {
+      "file": "solar-south-caps.png",
+      "sha256": "5ba29c36542582c685bc2d8ca42b2cb700ae454df8c4ee662ac74822c6b6de69"
+    },
+    {
+      "file": "solar-west-pipes.png",
+      "sha256": "9ff9248e78192c1653d08f313c2c77eb09e3f4050ab97736816d9baf8db01907"
+    },
+    {
+      "file": "solar-west-caps.png",
+      "sha256": "7a58a3fa53f6f452a7673226915f2bcf20e14f289935e9e9c4910bf6bf497084"
+    },
+    {
+      "file": "pond-north-pipes.png",
+      "sha256": "f92aac5d7012ccbefd421866fa73e65987f53976ec4da7373f3eaae96e313f57"
+    },
+    {
+      "file": "pond-north-caps.png",
+      "sha256": "d6c595404f80c9df79b57967e9bfbb4f05fc390af0ea9aac064fffd7846672ac"
+    },
+    {
+      "file": "pond-east-pipes.png",
+      "sha256": "57199a866cb57e7cb52bb28dadec98af8dd804f0c657e830b35920743dd89483"
+    },
+    {
+      "file": "pond-east-caps.png",
+      "sha256": "686889224d1052432f3da059d5f1ff95edd45c7edcf56ca60e3655545551d551"
+    },
+    {
+      "file": "pond-south-pipes.png",
+      "sha256": "cafd0a05146759943298615dadbb78c25fd8c11159965c1ce47213ac4f273b5f"
+    },
+    {
+      "file": "pond-south-caps.png",
+      "sha256": "af891164403227605ed10d50547d8bac0d6bd1ef1f6cd5385118cacb3146055e"
+    },
+    {
+      "file": "pond-west-pipes.png",
+      "sha256": "50cb0aef78738b75ed3959972cae3ec1aed4ebcbf48cdd0a2117c481942e14e7"
+    },
+    {
+      "file": "pond-west-caps.png",
+      "sha256": "37e57418a5d7ab669038e3533caad3ccb8912946d6672e18dafab5d6b3a0bc12"
+    }
+  ]
+}

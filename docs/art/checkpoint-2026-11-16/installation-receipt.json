@@ -1,0 +1,22 @@
+{
+  "installed": true,
+  "version": "1.8.103",
+  "target": "C:\\Users\\Admin\\AppData\\Roaming\\Factorio\\mods\\tanks_for_bob_fork_1.8.103.zip",
+  "sha256": "9c29d5cab3763f0e5b7dade974239b9201f3ca8d23ed025196a66cf1e3912175",
+  "package_files": 631,
+  "verified_graphics": [
+    "cooking-fire-v2",
+    "solar-boiler-v8",
+    "fish-pond-v2",
+    "primitive-pipe-pump-v3"
+  ],
+  "previous_packages_preserved": [
+    {
+      "file": "tanks_for_bob_fork_1.8.100.zip",
+      "sha256": "c70c4ea68328032d8c72b926735b71d58ab49222bf0ed28fb74850169cfb6a39"
+    }
+  ],
+  "mod_list_changed": false,
+  "saves_modified": false,
+  "runtime_reload_verified": false
+}

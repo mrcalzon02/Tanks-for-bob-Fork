@@ -1,0 +1,153 @@
+{
+  "passed": true,
+  "installed_tanks_version": "1.8.103",
+  "full_user_mod_pack": true,
+  "settings_copied_unchanged": true,
+  "enabled_mods": [
+    "ArmouredBiters",
+    "DamageIndicator",
+    "Pi-C_lib",
+    "RampantFixed",
+    "aai-programmable-vehicles",
+    "aai-signals",
+    "base",
+    "elevated-rails",
+    "factoryplanner",
+    "flib",
+    "informatron",
+    "kj_40kbaneblade",
+    "kj_40kdreadnought",
+    "kj_40klemanruss",
+    "kj_40kpredator",
+    "kj_fuel",
+    "kj_servoskull",
+    "kj_vehicles",
+    "mechanicus-reborn",
+    "quality",
+    "recycler",
+    "space-age",
+    "squeak-through-2",
+    "tanks_for_bob_fork",
+    "tech-priests"
+  ],
+  "packages": [
+    {
+      "name": "aai-programmable-vehicles",
+      "version": "0.9.2",
+      "file": "aai-programmable-vehicles_0.9.2.zip"
+    },
+    {
+      "name": "aai-signals",
+      "version": "0.8.0",
+      "file": "aai-signals_0.8.0.zip"
+    },
+    {
+      "name": "ArmouredBiters",
+      "version": "2.1.0",
+      "file": "ArmouredBiters_2.1.0.zip"
+    },
+    {
+      "name": "DamageIndicator",
+      "version": "1.4.4",
+      "file": "DamageIndicator_1.4.4.zip"
+    },
+    {
+      "name": "factoryplanner",
+      "version": "2.1.21",
+      "file": "factoryplanner_2.1.21.zip"
+    },
+    {
+      "name": "flib",
+      "version": "0.17.2",
+      "file": "flib_0.17.2.zip"
+    },
+    {
+      "name": "informatron",
+      "version": "0.5.0",
+      "file": "informatron_0.5.0.zip"
+    },
+    {
+      "name": "kj_40kbaneblade",
+      "version": "2.1.0",
+      "file": "kj_40kbaneblade_2.1.0.zip"
+    },
+    {
+      "name": "kj_40kdreadnought",
+      "version": "2.1.0",
+      "file": "kj_40kdreadnought_2.1.0.zip"
+    },
+    {
+      "name": "kj_40klemanruss",
+      "version": "2.1.0",
+      "file": "kj_40klemanruss_2.1.0.zip"
+    },
+    {
+      "name": "kj_40kpredator",
+      "version": "2.1.0",
+      "file": "kj_40kpredator_2.1.0.zip"
+    },
+    {
+      "name": "kj_fuel",
+      "version": "2.1.1",
+      "file": "kj_fuel_2.1.1.zip"
+    },
+    {
+      "name": "kj_servoskull",
+      "version": "2.1.0",
+      "file": "kj_servoskull_2.1.0.zip"
+    },
+    {
+      "name": "kj_vehicles",
+      "version": "2.2.1",
+      "file": "kj_vehicles_2.2.1.zip"
+    },
+    {
+      "name": "mechanicus-reborn",
+      "version": "0.0.3",
+      "file": "mechanicus-reborn_0.0.3.zip"
+    },
+    {
+      "name": "Pi-C_lib",
+      "version": "2.1.0",
+      "file": "Pi-C_lib_2.1.0.zip"
+    },
+    {
+      "name": "RampantFixed",
+      "version": "2.03.08",
+      "file": "RampantFixed_2.03.08.zip"
+    },
+    {
+      "name": "squeak-through-2",
+      "version": "0.2.1",
+      "file": "squeak-through-2_0.2.1.zip"
+    },
+    {
+      "name": "tanks_for_bob_fork",
+      "version": "1.8.100",
+      "file": "tanks_for_bob_fork_1.8.100.zip"
+    },
+    {
+      "name": "tanks_for_bob_fork",
+      "version": "1.8.103",
+      "file": "tanks_for_bob_fork_1.8.103.zip"
+    },
+    {
+      "name": "tech-priests",
+      "version": "0.1.676",
+      "file": "tech-priests_0.1.676.zip"
+    },
+    {
+      "name": "tech-priests",
+      "version": "0.1.681",
+      "file": "tech-priests_0.1.681"
+    }
+  ],
+  "native_exit_code": 0,
+  "native_bindings_and_placement": true,
+  "user_save_load_passed": true,
+  "proof_addon_installed_in_user_pack": false,
+  "backup_save": "C:\\Users\\Admin\\Documents\\ChatGPT\\Tech priests\\tanks-structure-production\\build\\local-art-full-pack-check01\\user-save-before-art-update.zip",
+  "source_save_name": "_autosave1.zip",
+  "source_save_sha256": "fb39573d64647a96aa021e7b8bad2cde07ce27794d51463528474233d3c6fd6b",
+  "user_save_load_exit_code": 0
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "tanks.pipe-pump.v3.atlas",
+  "source_sha256": "a48d0c478203c53d42f78a676c628951164c04028b1c7539b6999f4aa189e162",
+  "glb_sha256": "5c90a142bbc6372232e9e8b6ab27a12aabedc73ec71d3c0afc2e6f250d2282f6",
+  "genuine_frames": 68,
+  "working_frames_per_facing": 16,
+  "fps": 8,
+  "facing_order": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "files": {
+    "idle-64.png": {
+      "sha256": "f0e54ce1228f4713d6b86b2948fadc887a84e745fd7bef9e3dd82e0f673a6211",
+      "dimensions": [
+        256,
+        64
+      ],
+      "cell_size": 64
+    },
+    "working-64.png": {
+      "sha256": "2b9ba23b3432dcb930807aac16e669ea7bbe655d3b5ac4af9ab2880b8cfde4b5",
+      "dimensions": [
+        512,
+        512
+      ],
+      "cell_size": 64
+    },
+    "idle-128.png": {
+      "sha256": "65bc1ce6fa5ba70cd81be8169c56b452be498ca9846e8a2a69133f73855456de",
+      "dimensions": [
+        512,
+        128
+      ],
+      "cell_size": 128
+    },
+    "working-128.png": {
+      "sha256": "b23d2e314db090d74d18355595074c342177dfae5e37bbd4b2e2b487617402ed",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "cell_size": 128
+    },
+    "idle-256.png": {
+      "sha256": "9978adf36298b14a4008937337e9bd501ffd9109a3ae6e3f7c0493c9d8715258",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "cell_size": 256
+    },
+    "working-256.png": {
+      "sha256": "0bcd0f94d8f5c2270c60a79e827799d7f62af58d6f8d31aa2802c27536ef8781",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "cell_size": 256
+    }
+  },
+  "verified": true,
+  "native_game_verified": false
+}

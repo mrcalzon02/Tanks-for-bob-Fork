@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-15",
+  "accepted_design_source_sha256": "2e1e55edef641967d82979acbb98db2f787270470313a7e84466b085cc23fc18",
+  "instruction": "Cool great done let's move on, Small animation a couple of bits twiddle and move integrate and away we go we have so much to do",
+  "scope": "Keep the displayed V3 design; add restrained movement, repair the export defect and integrate. Stop further cosmetic redesign.",
+  "changes": [
+    "Dissolved the single exactly collinear floor vertex",
+    "Small relief-lever and stem movement; existing piston/flywheel/gauge loop retained"
+  ],
+  "camera": {
+    "name": "FMPL_CAPTURE_CAMERA",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071068286895752,
+        -0.7071067094802856,
+        -6.0
+      ],
+      [
+        0.0,
+        0.7071067094802856,
+        0.7071068286895752,
+        6.929999828338623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 3.8499999046325684,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      256,
+      256
+    ]
+  },
+  "gameplay_fields_changed": false
+}

@@ -1,0 +1,130 @@
+{
+  "source_sha256": "a4c1476f51927858bcaa3eb6e5ab72f02a4234d35eab6c32f56ec7b1953f3b65",
+  "builder_sha256": "82345badce3656dfd73fbdd93e3d93b4fb7a975e02a4cb36475965027529e500",
+  "immutable_ports": {
+    "PORT | inlet-south | machine_collar": {
+      "mesh": "bc8b58f05e7702aa0160fac205f02fdd9f6b1bb925841ae961b9f3d9ad6302f6",
+      "matrix": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          0.0
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PORT | inlet-south | machine_throat": {
+      "mesh": "4103a44f1a18f433e8d672fdc20785573c587fce63dea62bbb8437f663736cb4",
+      "matrix": [
+        [
+          -1.0,
+          1.5099580252808664e-07,
+          0.0,
+          0.0
+        ],
+        [
+          -1.5099580252808664e-07,
+          -1.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PORT | outlet-north | machine_collar": {
+      "mesh": "bc8b58f05e7702aa0160fac205f02fdd9f6b1bb925841ae961b9f3d9ad6302f6",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "PORT | outlet-north | machine_throat": {
+      "mesh": "4103a44f1a18f433e8d672fdc20785573c587fce63dea62bbb8437f663736cb4",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "circular_elbow_clearance_tiles": {
+    "inlet": 0.02,
+    "discharge_upper": 0.06,
+    "discharge_lower": 0.01
+  },
+  "rod_guide_minimum_x_clearance_tiles": 0.020999999999999963,
+  "firebox_discharge_x_clearance_tiles": 0.009500000000000008,
+  "remaining": "Independent source/export geometry, motion, clearance and actual visual inspection required; not approved"
+}

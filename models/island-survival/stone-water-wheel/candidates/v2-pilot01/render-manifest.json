@@ -1,0 +1,333 @@
+{
+  "kind": "pilot",
+  "genuine_blender_frames": 36,
+  "source_sha256": "fdca58bb58e4135a0995e5885827c8c90c414f8b1f4afd53f33eff2b7a3b2ce7",
+  "runtime_export_sha256": "5d7d464e589b56efe06df506f0ed185a250efb91b93651bc235ff0ad113164ec",
+  "blender": "5.0.0",
+  "images": [
+    {
+      "file": "north-idle-001-full.png",
+      "sha256": "2b5d6f148f1844536480ac3002e7fc234781519d79670264f9139466305f4ca1",
+      "facing": "north",
+      "yaw": 0,
+      "state": "idle",
+      "frame": 1,
+      "layer": "full"
+    },
+    {
+      "file": "north-idle-001-above-water.png",
+      "sha256": "8ae3c51c8171776b9e65d91af45ce257548750085927746f252123835f799590",
+      "facing": "north",
+      "yaw": 0,
+      "state": "idle",
+      "frame": 1,
+      "layer": "above-water"
+    },
+    {
+      "file": "north-idle-001-underwater.png",
+      "sha256": "56d095fc5329078d683bc3bbc07c142cbdc2148ce00196d326e05bad6d4fc1c6",
+      "facing": "north",
+      "yaw": 0,
+      "state": "idle",
+      "frame": 1,
+      "layer": "underwater"
+    },
+    {
+      "file": "north-working-001-full.png",
+      "sha256": "498c9a6bb222c1169e657a11462f7edb33e8f73b07594f3442551aac29693f90",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "frame": 1,
+      "layer": "full"
+    },
+    {
+      "file": "north-working-001-above-water.png",
+      "sha256": "d81de56b5c6c047ce75a0e578f550402d9b7848642365cfdce38e53a307b0d4c",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "frame": 1,
+      "layer": "above-water"
+    },
+    {
+      "file": "north-working-001-underwater.png",
+      "sha256": "5dc7db76d77cb185e0bbc2645f7a6b7c032b218b29c9ac0443d3696dc95d9b04",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "frame": 1,
+      "layer": "underwater"
+    },
+    {
+      "file": "north-working-025-full.png",
+      "sha256": "6f55b05ed4ed624959ab5ad01aefad9b718c9edf14fe8f35ef18d53aaad5e4ff",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "frame": 25,
+      "layer": "full"
+    },
+    {
+      "file": "north-working-025-above-water.png",
+      "sha256": "1ad8f6cf266db8cc4e52517ebb4ee6acc741025eaf5c528029f3c909288d6333",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "frame": 25,
+      "layer": "above-water"
+    },
+    {
+      "file": "north-working-025-underwater.png",
+      "sha256": "65a0a422244ea94d5fc45fe628355a276a2f4f149ce2efb9865be3e5a36da9db",
+      "facing": "north",
+      "yaw": 0,
+      "state": "working",
+      "frame": 25,
+      "layer": "underwater"
+    },
+    {
+      "file": "east-idle-001-full.png",
+      "sha256": "8f8f78a48cdfda1e7c62f145d22c89e0ac0b71c6480ae56b2fa539276370491c",
+      "facing": "east",
+      "yaw": 270,
+      "state": "idle",
+      "frame": 1,
+      "layer": "full"
+    },
+    {
+      "file": "east-idle-001-above-water.png",
+      "sha256": "b31dadc4bc64b2c5da25137d45733bca4c8134fdd7b80e6389bca468231d4d58",
+      "facing": "east",
+      "yaw": 270,
+      "state": "idle",
+      "frame": 1,
+      "layer": "above-water"
+    },
+    {
+      "file": "east-idle-001-underwater.png",
+      "sha256": "18a8b7a539a0f76ecf4daef71ad977939e7f8b46e02662b8ebc1601f3e17643a",
+      "facing": "east",
+      "yaw": 270,
+      "state": "idle",
+      "frame": 1,
+      "layer": "underwater"
+    },
+    {
+      "file": "east-working-001-full.png",
+      "sha256": "ba09ed584c52a47e47a0931a72a8b19c2d00cb6a45fcb6c2f3fb75bdd0f59006",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "frame": 1,
+      "layer": "full"
+    },
+    {
+      "file": "east-working-001-above-water.png",
+      "sha256": "898aa453122c37d0b6a4072ff86625d73aec1f2f05a4f763a4c7bd44e161a12f",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "frame": 1,
+      "layer": "above-water"
+    },
+    {
+      "file": "east-working-001-underwater.png",
+      "sha256": "8e619e7314eb98d3852a31dbd673ddb4b91258aac78f26cb33ffac677a0ca31d",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "frame": 1,
+      "layer": "underwater"
+    },
+    {
+      "file": "east-working-025-full.png",
+      "sha256": "dee997ca7f543936f35609b112c5754d01b082b7fe78326b1de6769d62129f6f",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "frame": 25,
+      "layer": "full"
+    },
+    {
+      "file": "east-working-025-above-water.png",
+      "sha256": "d82c506895b95c8ee3d9e89c477d23b4f4aed948bac85122e9db56b8887b9346",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "frame": 25,
+      "layer": "above-water"
+    },
+    {
+      "file": "east-working-025-underwater.png",
+      "sha256": "126a16ac51829c5c1d4bf87c73c7233ff2d65ef8ee4975e560ba339f2a7b160c",
+      "facing": "east",
+      "yaw": 270,
+      "state": "working",
+      "frame": 25,
+      "layer": "underwater"
+    },
+    {
+      "file": "south-idle-001-full.png",
+      "sha256": "a09c956c950fa085ccaaec717e53628e683ab4c98313808bcca011c28bc6ca2c",
+      "facing": "south",
+      "yaw": 180,
+      "state": "idle",
+      "frame": 1,
+      "layer": "full"
+    },
+    {
+      "file": "south-idle-001-above-water.png",
+      "sha256": "7817ba100a93c594ebf7e9a6dd3575d7c3670758e5131caade939de3734c8706",
+      "facing": "south",
+      "yaw": 180,
+      "state": "idle",
+      "frame": 1,
+      "layer": "above-water"
+    },
+    {
+      "file": "south-idle-001-underwater.png",
+      "sha256": "950a29ef69cc39564edb95fd0496388e98e1ffaf2edc3de33bfb17196330a8c8",
+      "facing": "south",
+      "yaw": 180,
+      "state": "idle",
+      "frame": 1,
+      "layer": "underwater"
+    },
+    {
+      "file": "south-working-001-full.png",
+      "sha256": "62154a8902bfda517123284c363a02405fea281238840d7f09f9cd853f8cfdd5",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "frame": 1,
+      "layer": "full"
+    },
+    {
+      "file": "south-working-001-above-water.png",
+      "sha256": "6213da87d80a87c298b55960e44b692a3ce1a55352621b4d30bcece93c4edaf2",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "frame": 1,
+      "layer": "above-water"
+    },
+    {
+      "file": "south-working-001-underwater.png",
+      "sha256": "b765b6ab2639aceac5bea2b7731f82b15c7a6b2624657f31a1a00cfe0915fb48",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "frame": 1,
+      "layer": "underwater"
+    },
+    {
+      "file": "south-working-025-full.png",
+      "sha256": "8b3c57e4f78edb38115d4b80ddce974f863f5ad2a5af0933410ac9c892df6078",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "frame": 25,
+      "layer": "full"
+    },
+    {
+      "file": "south-working-025-above-water.png",
+      "sha256": "d95f1b94893aebb6ebdd40827e25266b12545e29f5aa9a4a06dddad2c9198379",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "frame": 25,
+      "layer": "above-water"
+    },
+    {
+      "file": "south-working-025-underwater.png",
+      "sha256": "b192c457232cbd4aa857633a079ef006a196c34b04e8818c2ff0a3822ae7a574",
+      "facing": "south",
+      "yaw": 180,
+      "state": "working",
+      "frame": 25,
+      "layer": "underwater"
+    },
+    {
+      "file": "west-idle-001-full.png",
+      "sha256": "a844600e3a3f842f36aed715a7ec959552d0d8e853ff787e65ec4d58addfc2be",
+      "facing": "west",
+      "yaw": 90,
+      "state": "idle",
+      "frame": 1,
+      "layer": "full"
+    },
+    {
+      "file": "west-idle-001-above-water.png",
+      "sha256": "be15354fd90f9432e8800bb5afe9d75193dc290e7896f6b9e0fcef7883f71fa3",
+      "facing": "west",
+      "yaw": 90,
+      "state": "idle",
+      "frame": 1,
+      "layer": "above-water"
+    },
+    {
+      "file": "west-idle-001-underwater.png",
+      "sha256": "00dfc164470e802ed369f1f30861b733671759c3a15b23e772592e0f4e89cfdc",
+      "facing": "west",
+      "yaw": 90,
+      "state": "idle",
+      "frame": 1,
+      "layer": "underwater"
+    },
+    {
+      "file": "west-working-001-full.png",
+      "sha256": "8d2f91b5c4b314294e075507c0c7cae9c72b4d45d2b85a1f707ca401cfa86166",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "frame": 1,
+      "layer": "full"
+    },
+    {
+      "file": "west-working-001-above-water.png",
+      "sha256": "4bd9de908685b470424b7a5ed0b43903af14f05656142008097e89177ae4de94",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "frame": 1,
+      "layer": "above-water"
+    },
+    {
+      "file": "west-working-001-underwater.png",
+      "sha256": "d53c69419cb02e4d14ead7492d3e61ef682225bb44c13288fc0aa220e1b0adb4",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "frame": 1,
+      "layer": "underwater"
+    },
+    {
+      "file": "west-working-025-full.png",
+      "sha256": "13cb933a8c450c18356f975aa76bcc73aa3b67bf86aa7db703007f771695cb4e",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "frame": 25,
+      "layer": "full"
+    },
+    {
+      "file": "west-working-025-above-water.png",
+      "sha256": "ef72bb65bb709afc2c2750cc688f2531521be1ef793b9ec652afb10690c7789e",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "frame": 25,
+      "layer": "above-water"
+    },
+    {
+      "file": "west-working-025-underwater.png",
+      "sha256": "b290e94403421e8e18fbdd8233410060d95733b3a430005218ac55cd6ca22ebf",
+      "facing": "west",
+      "yaw": 90,
+      "state": "working",
+      "frame": 25,
+      "layer": "underwater"
+    }
+  ]
+}

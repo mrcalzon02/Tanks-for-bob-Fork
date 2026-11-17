@@ -1,0 +1,33 @@
+{
+  "technical_checks_passed": true,
+  "source_sha256": "b943a54aa0cd35ead07971f71f8d8c45936bf29ca1c425f597b21f3b15ca46f7",
+  "glb_sha256": "7822f61d7f93bfae2d7e895dea0d509f435965296e76d473874dd9d0bd7d183a",
+  "sampled_source_frames": [
+    1,
+    25,
+    49,
+    73,
+    97
+  ],
+  "source_geometry": {
+    "min": [
+      -1.3550000190734863,
+      -1.5,
+      0.0
+    ],
+    "max": [
+      1.3550000190734863,
+      1.5,
+      1.9950000047683716
+    ],
+    "triangles": 17504,
+    "mesh_count": 88,
+    "degenerate_objects": {},
+    "missing_uv": [],
+    "finite": true
+  },
+  "max_roundtrip_error_tiles": 1.462837371235537e-07,
+  "gameplay_changed": false,
+  "owner_visual_approved": false,
+  "review_policy": "Owner authorized operational close-enough completion; cosmetic polish deferred."
+}

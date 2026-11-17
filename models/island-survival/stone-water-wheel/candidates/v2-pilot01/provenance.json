@@ -1,0 +1,45 @@
+{
+  "refined_from_sha256": "5b23c585ca139aee4e6838386f2788a4507ed5fd948dc5432e35e07b7021c43b",
+  "builder_sha256": "1ca12de3153a0e71f8bffb36f13efaf60a3e946821ccedfd789966496dd5bf47",
+  "reason": "Owner rejected V1 rough construction",
+  "camera": {
+    "name": "FMPL_CAPTURE_CAMERA",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071068286895752,
+        -0.7071067094802856,
+        -5.47685432434082
+      ],
+      [
+        0.0,
+        0.7071067094802856,
+        0.7071068286895752,
+        6.306854248046875
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 2.299999952316284,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      768,
+      768
+    ]
+  },
+  "materials": "Original model-specific baked timber/stone images; retained packed FMPL ferrocrete maps on structural feet",
+  "gameplay_modified": false,
+  "visual_approved": false
+}

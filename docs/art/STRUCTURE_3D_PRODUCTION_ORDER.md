@@ -1,22 +1,27 @@
 # Tanks-for-Bob Fork — 3D structure production order
 
-## Current authority — 2026-11-15
+## Current authority — 2026-11-16
 
 Use the [ongoing completion ledger](STRUCTURE_COMPLETION_LEDGER.md) and its
 [machine-readable records](STRUCTURE_COMPLETION_LEDGER.json) for current status.
-All 21 structure IDs are reconciled against designs.json and source 1.8.103 at
-`7290824bf43711d0bb31bd8e2969c51459864f91` plus the current V3 pump integration.
-Eight accepted/integrated assets are preserved; three advanced assets still have
-repair/export/promotion gates; ten need substantial production work. Primitive
-Steam-Powered Pump V3 is accepted, animated and integrated; Fish Pond is next.
+All 21 structure IDs are reconciled against designs.json. Current versioned
+source is 1.8.104. The goal is paused; use the [saved handoff and new-discussion
+prompt](REMAINING_STRUCTURES_HANDOFF.md) when resuming, starting with the owner's
+existing compressor.
+Ten accepted/integrated assets are preserved; eleven remain unfinished. The
+unfamiliar condenser candidate is held, unapproved and uninstalled. Follow the
+[owner's operational finish priority](OPERATIONAL_FINISH_POLICY.md): working,
+animated and close enough, with cosmetic polish deferred.
 The rough water-wheel
 study is held; retained lifting buckets must remain upright.
 
 The November 11 queue and checkpoints below are historical. In particular,
-Beach Pump has reached V12 with accepted four-facing placement, but its
-underwater layer separation failed visual review on November 13. Condenser V24
-has local runtime/alignment evidence, while active 1.8.103 still declares its
-legacy single-frame 64px art: do not confuse that profile with installed V24.
+Beach Pump V12 is accepted as operational and close enough on November 15;
+underwater occlusion remains a later visual review item. Condenser V24 evidence
+belongs to the distinct Tech-Priests 2x2 one-output atmospheric condenser. Tanks
+has a separate 3x3 steam-processing machine. Its actual recipe consumes wood
+and steam and returns stone and industrial waste. Do not assume water output,
+promote the held V1 appearance, or misapply V24 sprites.
 FMPL archival/registry receipts are audited separately from accepted game art.
 The enduring goal continues through actual modeling, animation, export and
 integration; documenting a queue does not complete it.

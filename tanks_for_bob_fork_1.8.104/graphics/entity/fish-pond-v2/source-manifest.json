@@ -1,0 +1,32 @@
+{
+  "schema": "tanks.fish-pond.v2.installed-source",
+  "source_sha256": "a3e28a08e21a3c8325e3f8a27719432a83d5befdb7fc7acbac247cf88dce4eaa",
+  "runtime_sha256": "c806f92bc6e43727e13a3d168302a54981e3df0c0a8c8d05d0d4a088dfa2cef9",
+  "working_sha256": "69bb57142b18c59de93dd1a98bb76fbe5e91fef7ab21df5ab8cd8c122c444f9d",
+  "idle_sha256": "311a4ec004c8ab43ddc88cfd5db0050e506ccb8584cb8d49b8213d3499ea667d",
+  "adapter_sha256": "4dcb94649cf368892dec7416df13127c16e263fa7c3dfa9c4b227cd65787e9f1",
+  "owner_approved": true,
+  "candidate_native_verified": true,
+  "production_native_verified": true,
+  "native_engine": "2.1.24",
+  "genuine_blender_frames": 68,
+  "fps": 8,
+  "frame_count": 16,
+  "line_length": 8,
+  "idle_unique_poses_per_facing": 1,
+  "idle_native_repeated_cells_per_facing": 16,
+  "source_cell_size": 256,
+  "native_scale": 0.4875,
+  "native_shift": [
+    0,
+    0.0520101012677667
+  ],
+  "sprite_only_global_y_scale": 1.4142135623730951,
+  "runtime_geometry_unit_scale": true,
+  "production_recipes_use_fluids": false,
+  "gameplay_fields_changed": false,
+  "native_evidence": "docs/art/fish-pond-v2/engine-receipt.json",
+  "native_alignment_evidence": "docs/art/native-pipe-alignment-1.8.104/review.json",
+  "native_alignment_reviewed": true,
+  "alignment_review_authority": "Agent review under owner operational-close-enough instruction; not a new individual owner approval"
+}

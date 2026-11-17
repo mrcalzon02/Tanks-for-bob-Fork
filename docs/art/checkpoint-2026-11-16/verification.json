@@ -1,0 +1,10 @@
+{
+  "active_source": "tanks_for_bob_fork_1.8.104",
+  "source_matches_existing_native_test_copy": true,
+  "differences_from_test_copy": [],
+  "native_grid_connections": 28,
+  "genuine_graphical_capture_available": true,
+  "visual_review_not_inferred": true,
+  "goal_status": "paused",
+  "new_modeling_performed_for_checkpoint": false
+}

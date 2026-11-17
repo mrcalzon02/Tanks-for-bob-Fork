@@ -8,7 +8,7 @@ local function facings(state)
       filename = prefix .. state .. "-256.png", width = 256, height = 256,
       frame_count = 16, line_length = 8, y = (i-1)*512,
       animation_speed = 8/60, scale = 32*3.9/256,
-      shift = {0, -.28/math.sqrt(2)}
+      shift = {0, -.28/math.sqrt(2) + .25}
     }
   end
   return result

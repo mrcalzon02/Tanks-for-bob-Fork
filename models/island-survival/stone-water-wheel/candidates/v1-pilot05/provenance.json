@@ -1,0 +1,60 @@
+{
+  "source_baseline": "7290824bf43711d0bb31bd8e2969c51459864f91",
+  "builder_sha256": "e12c21a83c69e6d204790c3bd563b57dde9c3cfc5d63cb8cf58c59cba09a73c5",
+  "fixture_sha256": "af6d1d74f0439b327b0b4e496386aa35fdac0859c177b55707dbfb5243e691ca",
+  "fmpl_maps": {
+    "ferrocrete_albedo.png": {
+      "git_blob": "e1a06e81086b1228188e1e47bca236aaada1394c",
+      "sha256": "0614a801528f244f1f8bbe6c8451d7b11c3ab2fca5373d36293c83c02848a0ec"
+    },
+    "ferrocrete_orm.png": {
+      "git_blob": "379af05909cd028194b5f38a74f19c7911ff9eb1",
+      "sha256": "601bd00a7719a15467559ce5df611f13d39ed92d7c8dffc918da5e6f09322be9"
+    },
+    "ferrocrete_normal.png": {
+      "git_blob": "8cbbf97beb1866109df97124901fefad66e137b5",
+      "sha256": "9d90397d143a9fab840c55407bf67e544dea7d0e7957757a04ed334e8d811a21"
+    }
+  },
+  "fmpl_material_revision": "b16f98c6e62d0a82697fd01eaa3fc6953c35ccde",
+  "fmpl_camera_revision": "939ff2d0fea5d236d7092b907c5f08961d5a7560",
+  "materials": "Original model-specific timber images and stone/metal finishes; FMPL original ferrocrete maps on feet only.",
+  "camera": {
+    "name": "FMPL_CAPTURE_CAMERA",
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.7071068286895752,
+        -0.7071067094802856,
+        -5.456854343414307
+      ],
+      [
+        0.0,
+        0.7071067094802856,
+        0.7071068286895752,
+        6.316854476928711
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 2.5,
+    "shift_x": 0.0,
+    "shift_y": 0.0,
+    "resolution": [
+      256,
+      256
+    ]
+  },
+  "native_registration": "pending actual Factorio offshore-pump test"
+}

@@ -35,7 +35,10 @@ script.on_init(function()
       local ports=pump.get_fluid_box_pipe_connections(1)
       ensure(ports and #ports==2,"wrong native port count")
       for _,port in ipairs(ports) do
-        local pipe=surface.create_entity{name="pipe",position=port.target_position,force="player"}
+        local grid={x=math.floor(port.target_position.x)+.5,y=math.floor(port.target_position.y)+.5}
+        ensure(math.abs(grid.x-port.target_position.x)<.001 and math.abs(grid.y-port.target_position.y)<.001,"port target is off the player grid")
+        ensure(surface.can_place_entity{name="pipe",position=grid,force="player"},"player pipe collision")
+        local pipe=surface.create_entity{name="pipe",position=grid,force="player"}
         ensure(pipe and pipe.valid,"adjacent pipe placement failed")
         if port.flow_direction=="input" then unit.input=pipe elseif port.flow_direction=="output" then unit.output=pipe end
         unit.ports[#unit.ports+1]={flow_direction=port.flow_direction,position=port.position,target_position=port.target_position}

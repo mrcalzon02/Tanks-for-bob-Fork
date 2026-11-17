@@ -1,12 +1,12 @@
 # Ongoing structure completion ledger
 
-Updated 2026-11-15 against `7290824bf43711d0bb31bd8e2969c51459864f91`.
+Updated 2026-11-16 against `7290824bf43711d0bb31bd8e2969c51459864f91`.
 
 21 survival/manufacturing structures; excludes vehicles and Tech-Priests turrets.
 
-Accepted historical art stays accepted. New/revised assets require independently reopened editable source, inspected exported artifact and true Blender renders, bounded repair, visual disposition and native runtime evidence. Missing receipts are pending, never automatic PASS.
+Owner priority 2026-11-15: finish working, animated, operational and close enough; defer cosmetic polish. Preserve accepted art and verify actual prototype behavior. Track source/export/FMPL receipts honestly; missing receipts are pending, never automatic PASS. See docs/art/OPERATIONAL_FINISH_POLICY.md.
 
-**9 accepted/integrated; 2 advanced with open work; 10 requiring substantial production. Current focus: Beach Pump.**
+**10 accepted/integrated; 1 advanced with open work; 10 requiring substantial production. Current focus: Steam Compressor.**
 
 | Structure | Latest known revision | Status | Remaining action |
 | --- | --- | --- | --- |
@@ -17,15 +17,15 @@ Accepted historical art stays accepted. New/revised assets require independently
 | Timber Workbench | V8 one-tile | accepted integrated | Preserve accepted one-tile source and all eight sprite files; no duplicate rebuild. |
 | Cooking Fire | V2 | accepted integrated | Preserve approved art and native steam-input integration. |
 | Solar Boiler | V8 | accepted integrated | Optional graphical pipe-overlap diagnostic issue #4 remains separate; preserve accepted floorless source. |
-| Beach Pump | V12 | repair required | Separate above-water and underwater geometry/passes, rerender all affected states/facings; verify shoreline, full output and landfill again. Accepted per-facing alignment must be preserved. |
-| Steam Condenser | V24 local test / V1 repository master | advanced candidate | Recover exact V24 editable source, current atlases and receipts from origin; preserve accepted per-facing scale. Combined profile passed fuel-fed water/pipe tests, but active 1.8.103 entities.lua still binds the legacy 64px single-frame sprite. Complete source-backed promotion. |
+| Beach Pump | V12 | accepted integrated | Owner accepted installed V12 as operational and close enough on 2026-11-15. Preserve animation, native flow/full-output/landfill and alignment. Underwater occlusion is deferred visual review; archive/FMPL receipt recovery remains separate. |
+| Steam Condenser | Tanks V1 unapproved candidate held; native entity exists | advanced candidate | Keep the unfamiliar V1 candidate unapproved and uninstalled. The actual placeable steam-condenser exists; Steam-condenserA consumes wood and steam and returns stone/industrial waste. Do not infer water output or borrow Tech-Priests atmospheric-condenser V24. Resume only from actual function and the owner’s construction brief. |
 | Primitive Steam-Powered Pump | V3 owner-approved, animated and integrated | accepted integrated | Complete: 68 native Blender frames, six atlases, saved editable source, inspected GLB, actual four-facing water/oil transfer, no-fuel, stop/restart, full-output and save/reload tests, plus eight genuine client screenshots. Preserve this accepted design and move on. |
 | Fish Pond | V2 | accepted integrated | Preserve the accepted clay basin, four swimmers, baked portable source and tested native idle/working integration. |
 | Stone Water Wheel | V2 failed study, held | rebuild required | Both recipe and technology are active, but this is a shoreline intake, not the pipe pump. Preserve rejected studies. If resuming lifting buckets, use independent upright pivots; repair outlet boolean degenerates and race joints before any production capture. |
 | Wood Basin | OBJ blockout | rebuild required | Author timber-stave cistern, hoops, visible level/window; preserve 25000 volume and four declared corner connections/two-direction contract. |
 | Tank Ammunition Assembler | OBJ blockout | rebuild required | Build distinct component/ammunition process, feed and discharge, moving tooling; verify native north/south fluids. |
 | Tank Assembling Machine | OBJ blockout | rebuild required | Build heavy gantry and vehicle assembly bed with legible assembly motion; preserve prototype contract. |
-| Steam Compressor | OBJ blockout | rebuild required | Build pressure barrel, reciprocating drive, valves and fixed native fittings; inspect mechanism clearance. |
+| Steam Compressor | OBJ blockout | rebuild required | FIRST on resume: reuse the owner-designated half-finished compressor for the existing Steam-Compressor. Locate its editable master, preserve useful mechanism, and finish primitive low-tech construction and canister charging/release integration. See REMAINING_STRUCTURES_HANDOFF.md. |
 | Quarry | OBJ blockout | rebuild required | Build supported excavation hoist, real cable path and lifted stone with readable working loop. |
 | Shaler | OBJ blockout | rebuild required | Build crushing jaws, constrained transmission, material feed/discharge and cycle. |
 | Calcifier | OBJ blockout | rebuild required | Build mineral furnace, charge/discharge, localized fuel/heat/exhaust and working states. |
@@ -40,9 +40,9 @@ FMPL uses the canonical pinned library in `fmpl-consumer.json`; validate the act
 
 ## Continuation
 
-Primitive Steam-Powered Pump V3 and Fish Pond V2 are accepted, animated, exported and integrated; preserve them and move on. Repair Beach Pump underwater occlusion while preserving owner-accepted placement; verify shoreline, full output and landfill again. Recover exact Condenser V24 source/artifacts rather than duplicating them. Keep rejected wheel studies held; its separate shoreline intake remains in progression and any retained lifting buckets must stay upright. Continue through the remaining production targets. Reconcile the remote HEAD before publication and preserve concurrent work.
+The goal is paused. Resume from docs/art/REMAINING_STRUCTURES_HANDOFF.md and begin with the owner-designated existing compressor for Steam-Compressor. Preserve all ten accepted assets; Beach Pump V12 underwater polish is deferred. Keep the unfamiliar Tanks condenser candidate held and uninstalled; actual recipes, not names, define function. Tech-Priests atmospheric condenser V24 is a separate machine. Keep rejected wheel studies held and lifting buckets upright. Reconcile remote HEAD and preserve concurrent work.
 
-Owner review gates replacement of art; it does not block independent modeling, candidate capture or other structures. Never mark missing review or uninspected output PASS. Do not create a new CI workflow per structure, change progression/balance, duplicate the workbench, or add Tech-Priests turret/vehicle work.
+Follow docs/art/OPERATIONAL_FINISH_POLICY.md: prioritize working animated integration and necessary operational checks, using judgment for close-enough visuals. Do not request routine promotion permission again or add cosmetic production cycles. Never fabricate specific owner visual approval or missing source/export receipts. Do not create extra CI workflows, change progression/balance, duplicate the workbench, or add Tech-Priests turret/vehicle work.
 
 ## Evidence
 
@@ -52,16 +52,16 @@ Owner review gates replacement of art; it does not block independent modeling, c
 - Lumberyard: [LUMBERYARD_V2B_VISIBLE_POWER_TRANSMISSION.md](../../docs/art/LUMBERYARD_V2B_VISIBLE_POWER_TRANSMISSION.md)
 - Timber Workbench: [README.md](../../docs/art/workbench-v8-one-tile/README.md)
 - Cooking Fire: [COOKING_FIRE_V2_ACTIVE_INTEGRATION.md](../../docs/art/COOKING_FIRE_V2_ACTIVE_INTEGRATION.md)
-- Solar Boiler: [STRUCTURE_3D_PRODUCTION_ORDER.md](../../docs/art/STRUCTURE_3D_PRODUCTION_ORDER.md), [4](https://github.com/mrcalzon02/Tanks-for-bob-Fork/issues/4)
-- Beach Pump: [2026-11-13.json](../../docs/art/local-machine-alignment/2026-11-13.json)
+- Solar Boiler: [STRUCTURE_3D_PRODUCTION_ORDER.md](../../docs/art/STRUCTURE_3D_PRODUCTION_ORDER.md), [4](https://github.com/mrcalzon02/Tanks-for-bob-Fork/issues/4), [verification.json](../../docs/art/checkpoint-2026-11-16/verification.json)
+- Beach Pump: [2026-11-13.json](../../docs/art/local-machine-alignment/2026-11-13.json), [OPERATIONAL_FINISH_POLICY.md](../../docs/art/OPERATIONAL_FINISH_POLICY.md)
 - Steam Condenser: [2026-11-13.json](../../docs/art/local-machine-alignment/2026-11-13.json), [contract.json](../../models/island-survival/steam-condenser/v1/contract.json), [entities.lua](../../tanks_for_bob_fork_1.8.103/prototypes/entity/entities.lua)
-- Primitive Steam-Powered Pump: [FMPL_MODEL.json](../../models/island-survival/primitive-steam-powered-pump/v3/FMPL_MODEL.json), [engine-receipt.json](../../docs/art/primitive-pipe-pump-v3/engine-receipt.json), [capture-receipt.json](../../docs/art/primitive-pipe-pump-v3/capture-receipt.json)
-- Fish Pond: [README.md](../../docs/art/fish-pond-v2/README.md), [FMPL_MODEL.json](../../models/island-survival/fish-pond/v2/FMPL_MODEL.json)
+- Primitive Steam-Powered Pump: [FMPL_MODEL.json](../../models/island-survival/primitive-steam-powered-pump/v3/FMPL_MODEL.json), [engine-receipt.json](../../docs/art/primitive-pipe-pump-v3/engine-receipt.json), [capture-receipt.json](../../docs/art/primitive-pipe-pump-v3/capture-receipt.json), [verification.json](../../docs/art/checkpoint-2026-11-16/verification.json)
+- Fish Pond: [README.md](../../docs/art/fish-pond-v2/README.md), [FMPL_MODEL.json](../../models/island-survival/fish-pond/v2/FMPL_MODEL.json), [verification.json](../../docs/art/checkpoint-2026-11-16/verification.json)
 - Stone Water Wheel: [WORK_ORDER.md](../../models/island-survival/stone-water-wheel/v1/WORK_ORDER.md)
 - Wood Basin: [designs.json](../../models/island-survival/designs.json)
 - Tank Ammunition Assembler: [designs.json](../../models/island-survival/designs.json)
 - Tank Assembling Machine: [designs.json](../../models/island-survival/designs.json)
-- Steam Compressor: [designs.json](../../models/island-survival/designs.json)
+- Steam Compressor: [designs.json](../../models/island-survival/designs.json), [REMAINING_STRUCTURES_HANDOFF.md](../../docs/art/REMAINING_STRUCTURES_HANDOFF.md)
 - Quarry: [designs.json](../../models/island-survival/designs.json)
 - Shaler: [designs.json](../../models/island-survival/designs.json)
 - Calcifier: [designs.json](../../models/island-survival/designs.json)

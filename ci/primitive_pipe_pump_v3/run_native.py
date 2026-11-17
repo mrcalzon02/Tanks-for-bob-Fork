@@ -4,9 +4,12 @@ import json
 from pathlib import Path
 import shutil
 import subprocess
+import sys
 
 ROOT=Path(__file__).resolve().parents[2]
 HERE=Path(__file__).resolve().parent
+sys.path.insert(0,str(ROOT/'ci'))
+from validate_mod import select_mod
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--binary',type=Path,required=True);p.add_argument('--out',type=Path,required=True)
@@ -16,7 +19,8 @@ def main():
     version=subprocess.check_output([str(binary),'--version'],text=True)
     assert '2.1.24' in version
     mods=out/'mods';mods.mkdir()
-    shutil.copytree(ROOT/'tanks_for_bob_fork_1.8.103',mods/'tanks_for_bob_fork_1.8.103')
+    source,_=select_mod()
+    shutil.copytree(source,mods/source.name)
     addon=mods/'pipe-pump-v3-proof_0.0.1';addon.mkdir()
     (addon/'info.json').write_text(json.dumps({'name':'pipe-pump-v3-proof','version':'0.0.1','title':'Temporary pipe-pump proof','author':'local test','factorio_version':'2.1','dependencies':['base','tanks_for_bob_fork']}))
     shutil.copy2(HERE/'control.lua',addon/'control.lua')

@@ -1,0 +1,49 @@
+{
+  "source_sha256": "2e1e55edef641967d82979acbb98db2f787270470313a7e84466b085cc23fc18",
+  "glb_sha256": "363715b879a8e2218cdd06770cef1c92f471102149435eef606f16831b3c7755",
+  "renders": [
+    {
+      "file": "north-working-1.png",
+      "frame": 1,
+      "sha256": "231d10faa8c15c46307f2dbd80a5b16b028520831cb58878631852be45ae7e87"
+    },
+    {
+      "file": "north-working-49.png",
+      "frame": 49,
+      "sha256": "bcce327f76ec6dfec2172682aed2348163bd10027650f8631be7fd20f0236535"
+    },
+    {
+      "file": "east-working-1.png",
+      "frame": 1,
+      "sha256": "a07e87be3f05000f9ae26c5002ca81eb057e186163b303e2453f46b868cc18cc"
+    },
+    {
+      "file": "east-working-49.png",
+      "frame": 49,
+      "sha256": "9fa66eb163095391c96a30d122d39fe19bd55858cf3421f57005d19f7a874d4e"
+    },
+    {
+      "file": "south-working-1.png",
+      "frame": 1,
+      "sha256": "d5b43ba96d536968c13ab6315e1d915f37e1b2baafff7e1a154640aaf3338c7f"
+    },
+    {
+      "file": "south-working-49.png",
+      "frame": 49,
+      "sha256": "32ee8a08f824154cc6ab31fe0567d2bd7782ff9bc5047e7dd36d6005e4cba24e"
+    },
+    {
+      "file": "west-working-1.png",
+      "frame": 1,
+      "sha256": "1bef6d462fff8d8e514834e55c44434887fe5a16c72a392fb7b02ed44c7b4c17"
+    },
+    {
+      "file": "west-working-49.png",
+      "frame": 49,
+      "sha256": "b8a820dfb81b9a084797bcb653fd9df7396e97a5130cb68a76fcb6187fa3e038"
+    }
+  ],
+  "game_integrated": false,
+  "visual_approved": false,
+  "overall_finished": false
+}

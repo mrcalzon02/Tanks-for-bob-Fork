@@ -1,0 +1,14 @@
+{
+  "version": "1.8.104",
+  "package": "build/structure-checkpoint-2026-11-16-package/tanks_for_bob_fork_1.8.104.zip",
+  "sha256": "bedeabf01c6c74a5a7acff0d30a44fa91225772e39189c20ce0c2914409645e1",
+  "byte_verified_files": 741,
+  "corrupt_archive_members": 0,
+  "package_saved_locally": true,
+  "source_committed_for_rebuilding": true,
+  "mod_portal_release_created": false,
+  "new_installation_performed_for_checkpoint": false,
+  "static_validation_errors": 0,
+  "static_validation_warning": "Inherited unreferenced legacy root recipe.lua; not loaded as a duplicate.",
+  "whitespace_check_scope": "Authored source/scripts/docs; original whitespace in the byte-identical copied mod version and raw evidence logs is preserved."
+}
