@@ -7,7 +7,7 @@
   "runtime_sha256": "94efde73d3b39ea83a5670bb1e726e6aa535b5e13d159b17a8ebae37e2e54d52",
   "before_reference": "models/island-survival/calcifier/candidates/v2-stations02/stations-close512.png",
   "before_reference_sha256": "bf3eb3238328ac40ac900610d295a66639a3912139963d5491666669318b2dcc",
-  "acceptance_policy_sha256": "9c07fe5f6fdc5b3510d9d5a3705f16ecf93e812235a5456b933b3907c0f68e84",
+  "acceptance_policy_sha256": "b32b6b440ce2ca756f0b14ada54fcf6309b456c26a9329785e67d2b6bffc3582",
   "reviewed_images": {
     "docs/art/calcifier-v2/north-working-a.png": "13f98cb39b66e532a21f751c49d3015f8aaad126b77fd70d8748afe8a5dd5846",
     "docs/art/calcifier-v2/east-working-a.png": "85c27f3bb9f1935118d8bc41e135be5d0b1ed6e18aeb587f4735112c7e50df21",
