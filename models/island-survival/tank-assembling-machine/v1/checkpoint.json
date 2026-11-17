@@ -1,5 +1,5 @@
 {
-  "status": "native-integrated-and-operated-reload-verified-awaiting-final-publication",
+  "status": "delivered-native-integrated-source-pushed-canonical-fmpl-verified",
   "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
   "active_mod": "tanks_for_bob_fork_1.8.104",
   "prototype": "assembling-machine/tank-assembling-machine",
@@ -23,9 +23,9 @@
   "fluid_connections": "none",
   "electric_watts": 250000,
   "module_slots": 4,
-  "delivered": false,
+  "delivered": true,
   "owner_visual_approved": false,
-  "next": "Commit/push/readback final native art/evidence and canonical FMPL; then advance ledger to20/21 and reconcile held condenser.",
+  "next": "Preserve vehicle assembler. Reconcile the held Tanks condenser with actual recipes/construction brief; finish it next, then audit original remaining-structure delivery receipts and continue authorized Tech-Priests scope.",
   "candidate": "models/island-survival/tank-assembling-machine/candidates/v1-production10",
   "source_sha256": "784954f4bb522563fe64b9e9308d04e4a505521cd5e3e3c6b10d96b66bedb587",
   "runtime_sha256": "d68f6b35bbb7bc94708ef7861605a62e6535aefff23f12a8d5954bb93dec8e43",
@@ -33,5 +33,14 @@
   "actual_operated_reload_verified": true,
   "source_and_glb_sampled_poses": 385,
   "clearance_review_passed": true,
-  "native_current_art_verified": true
+  "native_current_art_verified": true,
+  "source_commit": "58d9687ef68cc7cda63d8d22ea6dadecc0986397",
+  "canonical_fmpl": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "875ecf4c6e62d85aa77d18f1fc4fcda999da726f",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-tank-assembler-v1",
+    "source_commit": "58d9687ef68cc7cda63d8d22ea6dadecc0986397",
+    "remote_readback_verified": true
+  }
 }

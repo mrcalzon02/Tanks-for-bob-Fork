@@ -42,7 +42,12 @@
   "owner_approved": false,
   "native_current_art_verified": true,
   "central_library_registration": {
-    "status": "pending verified source delivery commit"
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "875ecf4c6e62d85aa77d18f1fc4fcda999da726f",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-tank-assembler-v1",
+    "source_commit": "58d9687ef68cc7cda63d8d22ea6dadecc0986397",
+    "remote_readback_verified": true
   },
   "native_engine": "2.1.24",
   "native_target_machines": 17,

@@ -223,17 +223,25 @@
     {
       "id": "tank-assembling-machine",
       "name": "Tank Assembling Machine",
-      "revision": "V1 actual fixed-north 13-recipe contract and nine-group starter preserved",
-      "status": "in_progress",
+      "revision": "V1 primitive electric vehicle conversion gantry",
+      "status": "accepted_integrated",
       "priority": 15,
-      "next": "Refine retained gantry/rail/hull-jig/tool source for actual vehicle upgrades; native 250kW/four-module, no-fluid fixed-north contract and all 13 recipe selections verified. Complete full asset and operational delivery.",
+      "next": "Preserve supported fixed-north gantry, upright engine load, attached electrical arms and actual13-recipe/native-art/reload evidence.",
       "evidence": [
-        "models/island-survival/designs.json",
-        "models/island-survival/tank-assembling-machine/v1/contract.json",
-        "models/island-survival/tank-assembling-machine/v1/WORK_ORDER.md"
+        "models/island-survival/tank-assembling-machine/v1/FMPL_MODEL.json",
+        "docs/art/tank-assembler-v1",
+        "models/island-survival/tank-assembling-machine/candidates/v1-production10/clearance-review.json"
       ],
-      "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false
+      "fmpl_delivery": {
+        "repository": "mrcalzon02/Tech-Priests",
+        "ref": "875ecf4c6e62d85aa77d18f1fc4fcda999da726f",
+        "registry": "tools/fmpl/FMPL.json",
+        "model_id": "tanks-tank-assembler-v1",
+        "source_commit": "58d9687ef68cc7cda63d8d22ea6dadecc0986397",
+        "remote_readback_verified": true
+      },
+      "done": true,
+      "delivery_commit": "58d9687ef68cc7cda63d8d22ea6dadecc0986397"
     },
     {
       "id": "Steam-Compressor",
@@ -381,7 +389,7 @@
       "delivery_commit": "753363eef45d3a0e9b264aed954b12157427f7ba"
     }
   ],
-  "active_structure": "tank-assembling-machine",
+  "active_structure": "steam-condenser",
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
@@ -389,6 +397,6 @@
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
     "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
-  "production_state": "active; nine of original eleven remaining Tanks structures delivered. Finish Tank Assembling Machine and reconciled actual Tanks condenser, then authorized Tech-Priests unfinished buildings/engines/dropped turrets. Current focus: establish real tank-assembling-machine contract and retain its existing starter.",
+  "production_state": "active; ten of original eleven remaining Tanks structures delivered (20/21 total). Reconcile the actual Tanks steam-condenser contract and construction brief while preserving its unfamiliar V1 candidate as held/unapproved; finish operational delivery and audit original-scope receipts, then authorized Tech-Priests buildings/engines/dropped turrets.",
   "subsequent_authorized_scope": "After all remaining Tanks structures, continue unfinished Tech-Priests buildings, engines and dropped turrets. Reconcile and checkpoint frequently (owner 2026-11-17)."
 }

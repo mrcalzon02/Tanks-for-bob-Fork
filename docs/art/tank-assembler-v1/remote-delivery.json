@@ -1,0 +1,22 @@
+{
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "source_checkpoint_commit": "3007019d5d146322a82601f9631a8bd2490e9aa2",
+  "source_checkpoint_remote_verified": true,
+  "source_commit": "58d9687ef68cc7cda63d8d22ea6dadecc0986397",
+  "remote_main_verified_at_source_commit": "58d9687ef68cc7cda63d8d22ea6dadecc0986397",
+  "pinned_remote_model_manifest_readback_verified": true,
+  "source_sha256": "784954f4bb522563fe64b9e9308d04e4a505521cd5e3e3c6b10d96b66bedb587",
+  "runtime_sha256": "d68f6b35bbb7bc94708ef7861605a62e6535aefff23f12a8d5954bb93dec8e43",
+  "canonical_fmpl": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "875ecf4c6e62d85aa77d18f1fc4fcda999da726f",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-tank-assembler-v1",
+    "source_commit": "58d9687ef68cc7cda63d8d22ea6dadecc0986397",
+    "remote_readback_verified": true
+  },
+  "tested_task_binary_bytes_and_normalized_lua_content_verified": true,
+  "delegated_operational_review": true,
+  "owner_visual_approved": false,
+  "full_user_mod_pack_installation": false
+}

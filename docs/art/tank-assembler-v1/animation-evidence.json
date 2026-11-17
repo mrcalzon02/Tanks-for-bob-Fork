@@ -1,0 +1,169 @@
+{
+  "genuine_client_frames": 32,
+  "native_unique_phase_images": 32,
+  "fps": 8,
+  "source": "Actual Factorio screenshots north-motion-00 through31 at native tick300+round(i*7.5); no generated or interpolated frames.",
+  "native_graphics_animation_progress": 1,
+  "frame_hashes": [
+    {
+      "file": "north-motion-00.png",
+      "sha256": "2bc45830d77f5bd290520c226571274498af8239ace33496ebf37912bf05a469"
+    },
+    {
+      "file": "north-motion-01.png",
+      "sha256": "f92341de7199a629284820186bec81765b49465e82c136e84b198d381b688f03"
+    },
+    {
+      "file": "north-motion-02.png",
+      "sha256": "abcc2c81b59c5c263cda5c15426e45fc7075b445dc66415c9cb92f610136a881"
+    },
+    {
+      "file": "north-motion-03.png",
+      "sha256": "686f4060fca007f0b2fec0d5e3af7bbbc4f02270797a2b40c7884120d434ca2d"
+    },
+    {
+      "file": "north-motion-04.png",
+      "sha256": "61920c9651911d79b750560ee9857ff4db7ed20fedbfe453a6ced29bcd850817"
+    },
+    {
+      "file": "north-motion-05.png",
+      "sha256": "167d4ade36b9e834d0ab2960fa5c62895c7848aae05f437572150d2f57355fb3"
+    },
+    {
+      "file": "north-motion-06.png",
+      "sha256": "5b7c2ab47337e3fdbbd0b3d63c3e6623ba8d0c4028ffaea8d2f16fa39fb1dc18"
+    },
+    {
+      "file": "north-motion-07.png",
+      "sha256": "cf898f082cecdf8d97bf7d519c196f6352188cd51d05245806a85e92240a47fa"
+    },
+    {
+      "file": "north-motion-08.png",
+      "sha256": "6d03d5698e067d2e5618be2ebbe8a6151f445f9a0555f61e461e0cab4acde2a8"
+    },
+    {
+      "file": "north-motion-09.png",
+      "sha256": "a6d6e906d22404942c10a9408e71ad3257110d851b08daf32da30fa9dd6978ff"
+    },
+    {
+      "file": "north-motion-10.png",
+      "sha256": "646722b5eaa4ea811e5ef4adca4a174407f610d31a6a85ede069b9b169e1a29b"
+    },
+    {
+      "file": "north-motion-11.png",
+      "sha256": "a7c70046723fe3568ff831efad5ee1a56542bff3539435f5115700eea3dc9bec"
+    },
+    {
+      "file": "north-motion-12.png",
+      "sha256": "43949dff202bb75826ddbde0ece7c6acef8f703b726c4a22ce4fca8afc5bd34f"
+    },
+    {
+      "file": "north-motion-13.png",
+      "sha256": "2ca452088d1c0bf97a6b446b420bf2fc3cafca2c5356ec9ea6901dc58322817c"
+    },
+    {
+      "file": "north-motion-14.png",
+      "sha256": "d5d7ccf3e73f8ffd53d30c242ee5973ede981a866ea9c8a15ca96f4ce0dfcd1f"
+    },
+    {
+      "file": "north-motion-15.png",
+      "sha256": "3e7c7c59475446fe2bbbb8f3eec61e6fffdd0624730dd995cd296e2982171daf"
+    },
+    {
+      "file": "north-motion-16.png",
+      "sha256": "50df6888827deb3023e43ca1c3f12ee2c18386c20afd1a56acde3554d2801f3d"
+    },
+    {
+      "file": "north-motion-17.png",
+      "sha256": "291137a6354d83e014714ae70f32b9aea218358171910696cc4a717c82054c34"
+    },
+    {
+      "file": "north-motion-18.png",
+      "sha256": "681d58f17d86422a3a8b8bbc46b9bec6e3c1cdf88689a34de355714ac85bc09a"
+    },
+    {
+      "file": "north-motion-19.png",
+      "sha256": "184061ea26ecdff9255f9efdcd98bac818d08a56b46ad84ef62c580c146da698"
+    },
+    {
+      "file": "north-motion-20.png",
+      "sha256": "ffeb2eb0177ac64d6a5ac73cb7d6d7ede3a55a1388b383f6f71339674b6a7e39"
+    },
+    {
+      "file": "north-motion-21.png",
+      "sha256": "efc0208df4208f6cbc2e9417c1ca740cc45d783dad8190be0d3dc3c9e2bec65c"
+    },
+    {
+      "file": "north-motion-22.png",
+      "sha256": "2e5282867b9cc5794e263d601964bcb6aa6f1fcda508001ac89904f15efc74bb"
+    },
+    {
+      "file": "north-motion-23.png",
+      "sha256": "3f534c4b28d3618fa88c85930a974b71c16595fbb7317f48aabb8c4228bfe31e"
+    },
+    {
+      "file": "north-motion-24.png",
+      "sha256": "3b8b3d7ac83942f0a226136b6681198f71dd642445f5c0d0487f62c1b28bd9f8"
+    },
+    {
+      "file": "north-motion-25.png",
+      "sha256": "8263114810cab128babc43081567f43ee6d89886f851328ce691f639eb6d0dc9"
+    },
+    {
+      "file": "north-motion-26.png",
+      "sha256": "97c7369587a05e509c953acf96356324a515f98e2e1ed3a3af157989105f1d2e"
+    },
+    {
+      "file": "north-motion-27.png",
+      "sha256": "9eecfc8bc02c7a3528d43f98167b2c465adf199f7a8c31b70ed179e5ee739bb0"
+    },
+    {
+      "file": "north-motion-28.png",
+      "sha256": "bc2b08567d8897f98f8d0c537ff3a81b248c6df025a1f4f3ebb8a08f6dfe42ae"
+    },
+    {
+      "file": "north-motion-29.png",
+      "sha256": "c66424c075b260bf60729c5cfafacb6896246fbbf5ff5ebb759172ec70db7b82"
+    },
+    {
+      "file": "north-motion-30.png",
+      "sha256": "4a3bbe4cf9be3a168b869dd58969ddf5c287e26d2a13c55c18a854d7b2cf861f"
+    },
+    {
+      "file": "north-motion-31.png",
+      "sha256": "c488f6b1e585f43bb0f218c45ba47743782293437eec3c8d27e7b4e006712506"
+    }
+  ],
+  "movies": {
+    "working-loop.gif": {
+      "sha256": "6a31ef57396d70cf626b9a029bdb03445ddb34fb502c11d972748f5847de15fa",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "r_frame_rate": "8/1",
+            "duration": "4.010000",
+            "nb_frames": "32"
+          }
+        ]
+      }
+    },
+    "working-loop.mp4": {
+      "sha256": "c61137d1dacf4384f5e2c8bd6c76bd3e11fbfcb1aa232c6f0fc1e727b852fe8c",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "r_frame_rate": "8/1",
+            "duration": "4.000000",
+            "nb_frames": "32"
+          }
+        ]
+      }
+    }
+  },
+  "native_motion_and_paused_checks": "native-animation-observation.json",
+  "actual_operated_save": "operated-reload-receipt.json"
+}

@@ -1,4 +1,10 @@
-# Tank Assembling Machine V1 — actual current contract
+# Tank Assembling Machine V1 - delivered operational gantry
+
+Final source/art/native evidence: `58d9687ef68cc7cda63d8d22ea6dadecc0986397`.
+Canonical FMPL readback: `875ecf4c6e62d85aa77d18f1fc4fcda999da726f`.
+All13 real recipes, fixed north, electrical/full-output recovery, stop/restart and
+actual operated-save reload passed; 46 genuine client PNGs and 32 distinct native
+eight-fps phases. Preserve this asset and continue the held Tanks condenser.
 
 This is the distinct native assembling-machine/tank-assembling-machine in active
 1.8.104: 3x3, electric 250 kW, crafting speed 1, four module slots and ingredient

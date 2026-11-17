@@ -6,7 +6,7 @@ Updated 2026-11-17; original baseline `7290824bf43711d0bb31bd8e2969c51459864f91`
 
 Owner priority 2026-11-15: finish working, animated, operational and close enough; defer cosmetic polish. Preserve accepted art and verify actual prototype behavior. Track source/export/FMPL receipts honestly; missing receipts are pending, never automatic PASS. See docs/art/OPERATIONAL_FINISH_POLICY.md.
 
-**19 accepted/integrated; 1 held condenser candidate; 1 requiring substantial production. Current focus: Tank Assembling Machine.**
+**20 accepted/integrated; 1 held condenser candidate remains. Current focus: reconcile the actual Tanks Steam Condenser brief and finish delivery.**
 
 | Structure | Latest known revision | Status | Remaining action |
 | --- | --- | --- | --- |
@@ -24,7 +24,7 @@ Owner priority 2026-11-15: finish working, animated, operational and close enoug
 | Stone Water Wheel | V3 upright cam-drained buckets | accepted integrated | Saved source/actual GLB 385-pose sweeps and upright pivots, 32 working frames per facing, sixteen native grid joints, 30/s extraction, full/drain/stop/landfill and operated reload; remote source and canonical FMPL verified. Preserve. |
 | Wood Basin | V1 native contents-driven cistern | accepted integrated | Preserve passive 25000-unit cistern, four fixed corner fittings, two art orientations and native fluid window. |
 | Tank Ammunition Assembler | V1 primitive electric press/packing and wood-oil works | accepted integrated | All eight starter groups, 33 source/export PBR images, 385-pose source/GLB fit/clearance, 32 working frames/facing, all 46 recipes/four directions, 20 grid joints, late full-output/power/fluid recovery and operated reload; pushed and canonical FMPL read back. Preserve. |
-| Tank Assembling Machine | OBJ blockout | rebuild required | Build heavy gantry and vehicle assembly bed with legible assembly motion; preserve prototype contract. |
+| Tank Assembling Machine | V1 primitive electric vehicle conversion gantry | accepted integrated | All nine starter groups; upright engine lift and attached joining tool; source/GLB 385-pose clearance, 33 genuine source captures, all 13 actual recipes, fixed north, power/full-output/stop/restart and actual operated reload. Forty-six native screenshots and 32 distinct eight-fps phases; source pushed and canonical FMPL read back. Preserve. |
 | Steam Compressor | V2 owner-identified barrel source | accepted integrated | Preserve operational barrel compressor and delivery receipts; no cosmetic rework. |
 | Quarry | V5 detailed rooted excavation hoist | accepted integrated | Complete: packed editable source, inspected GLB, 17 true frames, six real recipes, fuel/blocked/stop/restart, actual operated-save reload and 12 client screenshots; aligned flue smoke. Canonical FMPL registered and remote delivery verified. Preserve this operational asset. |
 | Shaler | V2 geared thermal waste processor | accepted integrated | Complete: supported brick chimney, keyed gear train and two linked piston mechanisms, process hoses, packed/reopened source, inspected GLB, 68 true frames, all 17 native recipes/four facings, 88 pipe joints, blocked/fuel/stop/restart and settled operated-save reload. Thirty-six client captures and genuine working video; canonical FMPL/remote delivery verified. |
