@@ -406,6 +406,7 @@
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
     "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
-  "production_state": "active; all original eleven remaining Tanks structures operationally delivered (21/21 total). Original-eleven completion receipt audit precedes authorized Tech-Priests unfinished buildings/engines/dropped turrets. Legacy condenserV1 stays held; accepted assets and concurrent work preserved.",
-  "subsequent_authorized_scope": "After all remaining Tanks structures, continue unfinished Tech-Priests buildings, engines and dropped turrets. Reconcile and checkpoint frequently (owner 2026-11-17)."
+  "production_state": "active expanded goal; all original eleven remaining Tanks structures delivered and completion-receipt audit passed (21/21 total). Exact current source/export hashes, genuine source/client captures, current tested sprite/adapter bindings, actual operated/filled-state reloads and pinned canonical FMPL bindings verified for all eleven. Continue authorized Tech-Priests unfinished buildings, engines and dropped turrets; preserve concurrent work and all accepted Tanks art. Historical accepted archive debt stays separate.",
+  "subsequent_authorized_scope": "After all remaining Tanks structures, continue unfinished Tech-Priests buildings, engines and dropped turrets. Reconcile and checkpoint frequently (owner 2026-11-17).",
+  "completion_audit": "docs/art/tanks-original-eleven-completion-audit.json"
 }

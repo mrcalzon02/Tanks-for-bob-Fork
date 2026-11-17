@@ -6,7 +6,7 @@ Updated 2026-11-17; original baseline `7290824bf43711d0bb31bd8e2969c51459864f91`
 
 Owner priority 2026-11-15: finish working, animated, operational and close enough; defer cosmetic polish. Preserve accepted art and verify actual prototype behavior. Track source/export/FMPL receipts honestly; missing receipts are pending, never automatic PASS. See docs/art/OPERATIONAL_FINISH_POLICY.md.
 
-**21 accepted/integrated. All original eleven remaining machines delivered; audit receipts before continuing authorized Tech-Priests scope. The historical condenser V1 candidate remains held.**
+**21 accepted/integrated. All original eleven remaining machines delivered and their completion-receipt audit passed. Continue authorized Tech-Priests scope. The historical condenser V1 candidate remains held.**
 
 | Structure | Latest known revision | Status | Remaining action |
 | --- | --- | --- | --- |
@@ -67,3 +67,5 @@ Follow docs/art/OPERATIONAL_FINISH_POLICY.md: prioritize working animated integr
 - Calcifier: [designs.json](../../models/island-survival/designs.json)
 - Thinking Hut: [designs.json](../../models/island-survival/designs.json)
 - Pondering Hovel: [FMPL_MODEL.json](../../models/island-survival/pondering-hovel/v1/FMPL_MODEL.json), [native delivery](../../docs/art/pondering-hovel-v1/README.md)
+
+Original-eleven completion audit: [bound source/native/remote evidence](tanks-original-eleven-completion-audit.json), with [pinned canonical bindings](tanks-original-eleven-canonical-bindings.json). This is an audit of actual unchanged artifacts and operational receipts, not a full installed user-pack certification.

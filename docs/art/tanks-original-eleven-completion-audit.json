@@ -1,0 +1,1241 @@
+{
+  "schema": "tanks.original-eleven.completion-audit.v1",
+  "audited_checkout_head": "550240d6fd75721d8a72d6924a2ab6ebbaf1d5b1",
+  "active_mod": "tanks_for_bob_fork_1.8.104",
+  "scope": "The original eleven remaining Tanks structures only; subsequent authorized Tech-Priests scope is still active. Earlier accepted assets preserved; historical archival receipt debt is separate.",
+  "passed": true,
+  "models_audited": 11,
+  "canonical_registry_readback_ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+  "requirements_covered": [
+    "Actual entity/item/building/unlock/process/power/footprint/port/direction contract",
+    "Preserved editable geometry and packed model-specific UV/image materials",
+    "Attached operation-explaining motion with per-asset inspected source/export mechanics",
+    "Saved/reopened source and independently reimported bound GLB",
+    "Genuine source idle/working states and required native directions",
+    "Current mod registration and tested sprite/adapter bytes",
+    "Actual native recipes/research/storage/shoreline purpose, applicable power/fuel/pipe/block/stop/reload cases",
+    "Committed source ancestry and exact current/canonical source-runtime hashes"
+  ],
+  "records": [
+    {
+      "id": "tanks-steam-compressor-v2",
+      "manifest": "models/island-survival/steam-compressor/v2/FMPL_MODEL.json",
+      "source": {
+        "path": "models\\island-survival\\steam-compressor\\candidates\\v2-barrel02\\steam-compressor-v2.blend",
+        "sha256": "d406d9532bf85f08b49b2a9edb9f4e1a6d3bdd3f33384601b72e08f21439512f"
+      },
+      "runtime": {
+        "path": "models\\island-survival\\steam-compressor\\candidates\\v2-barrel02\\steam-compressor-v2.glb",
+        "sha256": "92bdbb31538191458c20c598b19e9d8626c1b5030d5c645724a62ed1e1b65e44"
+      },
+      "actual_contract": "models/island-survival/steam-compressor/v2/contract.json",
+      "inspection_report": "models/island-survival/steam-compressor/candidates/v2-barrel02/runtime-inspection.json",
+      "inspection_sha256": "b2008ddd9fd718a77481fccecf7afa1d6936878b23a959e91c4007443a139166",
+      "inspection_passed": true,
+      "source_pbr_images": 21,
+      "export_pbr_images": 21,
+      "genuine_source_camera_captures": 68,
+      "hashed_source_pass_images": 68,
+      "hashed_native_client_images": 12,
+      "tested_current_sprite_adapter_bindings": [
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/steam-compressor-v2/idle-256.png",
+          "sha256": "edebf19d875813a62a1086f5951c9e7406a0927bd10b38dc77ba77f9c6f9d280",
+          "native_tested_sha256": "edebf19d875813a62a1086f5951c9e7406a0927bd10b38dc77ba77f9c6f9d280"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/steam-compressor-v2/working-256.png",
+          "sha256": "a9cd6e9bfea6ffd18e3065416193a914ac4278c3d4fc0b0adaf7cc6d11f1a023",
+          "native_tested_sha256": "a9cd6e9bfea6ffd18e3065416193a914ac4278c3d4fc0b0adaf7cc6d11f1a023"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/steam-compressor-v2-production.lua",
+          "sha256": "136a853dfedbb943cef60c87df8d81ddbf91e2cb7378dea475e76af9209547a7",
+          "native_tested_sha256": "136a853dfedbb943cef60c87df8d81ddbf91e2cb7378dea475e76af9209547a7"
+        }
+      ],
+      "binding_evidence": [
+        "docs/art/steam-compressor-v2/source-snapshot.json"
+      ],
+      "native_operation_scope": {
+        "passed": true,
+        "machines": 24,
+        "facings": 4,
+        "player_grid_connections": 20,
+        "real_recipes": [
+          "Charged-Canister",
+          "UnCharge-Canister"
+        ],
+        "fuel": true,
+        "idle": true,
+        "blocked_item": true,
+        "blocked_fluid": true,
+        "stop_restart": true,
+        "unblocking": true,
+        "prototype_overrides": false
+      },
+      "reload_save_sha256": "de0bad8d1bbeaf5d10b4d0a39e2eac69ef90f8005e8d790d94c447bd94072961",
+      "reload_evidence": "docs/art/steam-compressor-v2/completed-state-reload.log",
+      "reload_scope": "Completed native canister-operation state, not a freshly initialized fixture.",
+      "canonical_source_ref": "180b24a221b1b24805dd63d27bb17ba99ee0cd8f",
+      "canonical_registry_readback_ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+      "delivery_source_ancestor_of_audited_head": true,
+      "errors": [],
+      "requirements_1_to_8": "Preserved/editable source and actual contract; packed UV/PBR/runtime inspection; source mechanism evidence and genuine states; independently reimported bound GLB; correct native facings; current tested art binding; actual native operations and operated/filled reload with N/A scope explicit; committed ancestral source and pinned canonical binding verified. Source/export and native gates remain distinct."
+    },
+    {
+      "id": "tanks-wood-basin-v1",
+      "manifest": "models/island-survival/wood-basin/v1/FMPL_MODEL.json",
+      "source": {
+        "path": "models\\island-survival\\wood-basin\\candidates\\v1-production02\\wood-basin-v1.blend",
+        "sha256": "327f82edc225bfa5f108a22b6d3512121d8ce1bdc374e69b077f219ed5bf7556"
+      },
+      "runtime": {
+        "path": "models\\island-survival\\wood-basin\\candidates\\v1-production02\\wood-basin-v1.glb",
+        "sha256": "0a29c95b72593576bb6ec64100ab810b730de962bf03afa55c74d188ac7ae20c"
+      },
+      "actual_contract": "models/island-survival/wood-basin/v1/contract.json",
+      "inspection_report": "models/island-survival/wood-basin/candidates/v1-production02/runtime-inspection.json",
+      "inspection_sha256": "eb0ef0bc2435d219ae97cf6eed0da46881e2afd023f6423a293b5698843d85b1",
+      "inspection_passed": true,
+      "source_pbr_images": 18,
+      "export_pbr_images": 18,
+      "genuine_source_camera_captures": 68,
+      "hashed_source_pass_images": 68,
+      "hashed_native_client_images": 32,
+      "tested_current_sprite_adapter_bindings": [
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/wood-basin-v1/body-256.png",
+          "sha256": "729d1b22fcb0502789c3cf0b5531ccb5cbd898c0f4541102ea13e22c661d11a0",
+          "native_tested_sha256": "729d1b22fcb0502789c3cf0b5531ccb5cbd898c0f4541102ea13e22c661d11a0"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/wood-basin-v1/fluid-background.png",
+          "sha256": "ce10cdcd0b28e51a96c24b5b95ac2f07b6cf0ded2f5c5f2f2418e71265d89e4e",
+          "native_tested_sha256": "ce10cdcd0b28e51a96c24b5b95ac2f07b6cf0ded2f5c5f2f2418e71265d89e4e"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/wood-basin-v1/window-background.png",
+          "sha256": "e5a46838f3ac647862ed3fb9734661ffae662422b30e60f25d6451aa8b1510e8",
+          "native_tested_sha256": "e5a46838f3ac647862ed3fb9734661ffae662422b30e60f25d6451aa8b1510e8"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/wood-basin-v1-production.lua",
+          "sha256": "8402522e4c462bc8b44b79668a3f8684f964819143b23553d56d0ab2e8976945",
+          "native_tested_sha256": "8402522e4c462bc8b44b79668a3f8684f964819143b23553d56d0ab2e8976945"
+        }
+      ],
+      "binding_evidence": [
+        "docs/art/wood-basin-v1/source-snapshot.json",
+        "docs/art/wood-basin-v1/capture-verification.json"
+      ],
+      "native_operation_scope": {
+        "passed": true,
+        "tanks": 12,
+        "cardinal_tests": 4,
+        "native_art_orientations": 2,
+        "capacity": 25000,
+        "normal_player_grid_connections": 48,
+        "fluids": [
+          "water",
+          "crude-oil",
+          "steam"
+        ],
+        "external_pump_fill_drain": true,
+        "no_tank_fuel_or_power": true,
+        "blocked_full": true,
+        "stop_restart": true,
+        "prototype_overrides": false
+      },
+      "reload_save_sha256": "8c08653a4b1375b3adbac7b98d2875568110a27cf40b35987b9709c4b7a2187f",
+      "reload_evidence": "docs/art/wood-basin-v1/filled-state-reload.log",
+      "reload_scope": "Filled native state with12 actual tanks/48 joints after real external-pump transfer; filled-state reload, not a claim that this save completed the later drain/restart sequence.",
+      "canonical_source_ref": "02551985bc893e674fd630de97b604a5ba41d44c",
+      "canonical_registry_readback_ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+      "delivery_source_ancestor_of_audited_head": true,
+      "errors": [],
+      "requirements_1_to_8": "Preserved/editable source and actual contract; packed UV/PBR/runtime inspection; source mechanism evidence and genuine states; independently reimported bound GLB; correct native facings; current tested art binding; actual native operations and operated/filled reload with N/A scope explicit; committed ancestral source and pinned canonical binding verified. Source/export and native gates remain distinct."
+    },
+    {
+      "id": "tanks-quarry-v5",
+      "manifest": "models/island-survival/quarry/v5/FMPL_MODEL.json",
+      "source": {
+        "path": "models/island-survival/quarry/candidates/v5-rooted04/quarry-v5.blend",
+        "sha256": "b169bda724b6d5ca39fe5a7d3c03e576c266b1c7a33b618a6563a4a8490a1439"
+      },
+      "runtime": {
+        "path": "models/island-survival/quarry/candidates/v5-rooted04/quarry-v5.glb",
+        "sha256": "44121a15d5d9df6fc9cb19f992487f1b3910a9c68cdea56349504984ee0a41f5"
+      },
+      "actual_contract": "models/island-survival/quarry/v1/contract.json",
+      "inspection_report": "models/island-survival/quarry/candidates/v5-rooted04/runtime-inspection.json",
+      "inspection_sha256": "7fe9403cc7d9db41ce2b2a1be3baa040441a5446b8cb6367415a68fddb5c2001",
+      "inspection_passed": true,
+      "source_pbr_images": 36,
+      "export_pbr_images": 36,
+      "genuine_source_camera_captures": 17,
+      "hashed_source_pass_images": 17,
+      "hashed_native_client_images": 12,
+      "tested_current_sprite_adapter_bindings": [
+        {
+          "path": "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/quarry-v5-production.lua",
+          "sha256": "215cbbdedb39d4dc9327c9de9f875c3cb3cd869a804b34ec9818287482d80d36",
+          "native_tested_sha256": "215cbbdedb39d4dc9327c9de9f875c3cb3cd869a804b34ec9818287482d80d36"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/quarry-v5/idle-256.png",
+          "sha256": "ce48f1d2d79e7af59d7b9a90ec1230478848f30056f9114ab2a7eba1ea6f73a1",
+          "native_tested_sha256": "ce48f1d2d79e7af59d7b9a90ec1230478848f30056f9114ab2a7eba1ea6f73a1"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/quarry-v5/working-256.png",
+          "sha256": "0e061db99994d72edad3fcf897aa96e1a5e2bb6f8e3263143ef549a9528a3880",
+          "native_tested_sha256": "0e061db99994d72edad3fcf897aa96e1a5e2bb6f8e3263143ef549a9528a3880"
+        }
+      ],
+      "binding_evidence": [
+        "docs/art/quarry-v5/capture-verification.json"
+      ],
+      "native_operation_scope": {
+        "passed": true,
+        "machines": 36,
+        "real_recipes": 6,
+        "requested_cardinal_tests": 4,
+        "native_player_orientations": 1,
+        "placement": true,
+        "no_fluid_connections": true,
+        "chemical_fuel": true,
+        "no_fuel_stopped": true,
+        "idle": true,
+        "blocked_output": true,
+        "stop_restart": true,
+        "unblocking": true,
+        "rotation_probe": {
+          "call_supported": true,
+          "result": "false",
+          "direction_before": 0,
+          "direction_after": 0
+        },
+        "prototype_overrides": false
+      },
+      "reload_save_sha256": "486248704f79d9cc1867588cd2f64c9c4e485f6dcecf64882b39f4739c5aa5c1",
+      "reload_evidence": "docs/art/quarry-v5/operated-reload.log",
+      "reload_scope": {
+        "passed": true,
+        "exit_code": 0,
+        "operated_save_sha256": "486248704f79d9cc1867588cd2f64c9c4e485f6dcecf64882b39f4739c5aa5c1",
+        "machine_count": 36,
+        "real_recipes": 6,
+        "completed_operational_test": true,
+        "inventory_snapshot_persisted": true,
+        "freeze_for_inventory_persistence_only": true,
+        "log_sha256": "dd2a97c10e3def5f39400498e8067ba7ca62ac3ddf4ffad74e4bb3fb05499e29"
+      },
+      "canonical_source_ref": "64d8b25950c2c3d5d2d1808a1072fc7d013b4be6",
+      "canonical_registry_readback_ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+      "delivery_source_ancestor_of_audited_head": true,
+      "errors": [],
+      "requirements_1_to_8": "Preserved/editable source and actual contract; packed UV/PBR/runtime inspection; source mechanism evidence and genuine states; independently reimported bound GLB; correct native facings; current tested art binding; actual native operations and operated/filled reload with N/A scope explicit; committed ancestral source and pinned canonical binding verified. Source/export and native gates remain distinct."
+    },
+    {
+      "id": "tanks-shaler-v2",
+      "manifest": "models/island-survival/shaler/v2/FMPL_MODEL.json",
+      "source": {
+        "path": "models/island-survival/shaler/candidates/v2-mechanisms02/shaler-v2.blend",
+        "sha256": "cce8f253c696ec3cf4db7825b599746e91ca79188de9f52c02641417e70a843d"
+      },
+      "runtime": {
+        "path": "models/island-survival/shaler/candidates/v2-mechanisms02/shaler-v2.glb",
+        "sha256": "e25979ae250bd788be7cf2f1ec0d0b0b7042085a54a5b5a6b19cda82ceaa230e"
+      },
+      "actual_contract": "models/island-survival/shaler/v1/contract.json",
+      "inspection_report": "models/island-survival/shaler/candidates/v2-mechanisms02/runtime-inspection.json",
+      "inspection_sha256": "169899bc7074b48334074609befdb73c8b9fdd31048708386f1fcfc5ebd4ad8a",
+      "inspection_passed": true,
+      "source_pbr_images": 36,
+      "export_pbr_images": 36,
+      "genuine_source_camera_captures": 68,
+      "hashed_source_pass_images": 68,
+      "hashed_native_client_images": 36,
+      "tested_current_sprite_adapter_bindings": [
+        {
+          "path": "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/shaler-v2-production.lua",
+          "sha256": "06364cd1054ddbb1bf8b4f7652adf44151105912e214b314c3c1d528754ddf8d",
+          "native_tested_sha256": "06364cd1054ddbb1bf8b4f7652adf44151105912e214b314c3c1d528754ddf8d"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/shaler-v2/idle-256.png",
+          "sha256": "940a1aae94737349a199e51dc739b151ac1acfa88a534086a966115a99be808e",
+          "native_tested_sha256": "940a1aae94737349a199e51dc739b151ac1acfa88a534086a966115a99be808e"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/shaler-v2/working-256.png",
+          "sha256": "fb70c40d91a93f063f22db1dd4cff09ec732ecc45c7248091ffcc52aa4f4f9e5",
+          "native_tested_sha256": "fb70c40d91a93f063f22db1dd4cff09ec732ecc45c7248091ffcc52aa4f4f9e5"
+        }
+      ],
+      "binding_evidence": [
+        "docs/art/shaler-v2/capture-verification.json"
+      ],
+      "native_operation_scope": {
+        "passed": true,
+        "machines": 88,
+        "real_recipes": [
+          "Steam-Charge",
+          "amulite-flakes",
+          "corporate-waste-reprocessing",
+          "heavy-brine-fraction",
+          "radio-refine-2",
+          "radio-refine-3",
+          "radio-refine-4",
+          "radio-refine-5",
+          "shaler1",
+          "shaler2",
+          "shaler3",
+          "shaler4",
+          "shaler5",
+          "shaler6",
+          "shalera",
+          "shalerb",
+          "shalerc"
+        ],
+        "player_grid_connections": 88,
+        "rotation": {
+          "before": 0,
+          "after": 4,
+          "result": true
+        },
+        "fuel": true,
+        "no_fuel": true,
+        "no_steam": true,
+        "idle": true,
+        "blocked_item": true,
+        "blocked_fluid": true,
+        "stop_restart": true,
+        "prototype_overrides": false
+      },
+      "reload_save_sha256": "81d73f01b9b9070aa1097b42498022e61342d645f6b94dbe2d96c0ae41c48c60",
+      "reload_evidence": "docs/art/shaler-v2/operated-reload.log",
+      "reload_scope": {
+        "passed": true,
+        "exit_code": 0,
+        "machines": 88,
+        "completed_operational_test": true,
+        "output_inventory_counts_preserved": true,
+        "machine_and_pipe_fluid_amounts_types_temperatures_preserved": true,
+        "normal_pipe_connections_preserved": true,
+        "freeze_and_resupply_stop_only_after_operational_tests": true,
+        "snapshot_after_observed_fluid_settling": true,
+        "save_sha256": "81d73f01b9b9070aa1097b42498022e61342d645f6b94dbe2d96c0ae41c48c60",
+        "log_sha256": "17523c2d096091bab235a9127dd622c520e8b64a2405974c7bc6470088a7120a"
+      },
+      "canonical_source_ref": "47a3b4351757c1e73a2624f7e5b57ee39828b61f",
+      "canonical_registry_readback_ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+      "delivery_source_ancestor_of_audited_head": true,
+      "errors": [],
+      "requirements_1_to_8": "Preserved/editable source and actual contract; packed UV/PBR/runtime inspection; source mechanism evidence and genuine states; independently reimported bound GLB; correct native facings; current tested art binding; actual native operations and operated/filled reload with N/A scope explicit; committed ancestral source and pinned canonical binding verified. Source/export and native gates remain distinct."
+    },
+    {
+      "id": "tanks-calcifier-v2",
+      "manifest": "models/island-survival/calcifier/v2/FMPL_MODEL.json",
+      "source": {
+        "path": "models/island-survival/calcifier/candidates/v2-sockets08/calcifier-v2.blend",
+        "sha256": "4e17a54ea3f6cd17048535a62919cc79baab86944d7f19afec30b1b61bccbde8"
+      },
+      "runtime": {
+        "path": "models/island-survival/calcifier/candidates/v2-sockets08/calcifier-v2.glb",
+        "sha256": "94efde73d3b39ea83a5670bb1e726e6aa535b5e13d159b17a8ebae37e2e54d52"
+      },
+      "actual_contract": "models/island-survival/calcifier/v2/contract.json",
+      "inspection_report": "models/island-survival/calcifier/candidates/v2-sockets08/runtime-inspection.json",
+      "inspection_sha256": "1d6d44845e83acbbdc2f6202cd5fae4de8c360f81ed2dbe0691303082c8bd620",
+      "inspection_passed": true,
+      "source_pbr_images": 39,
+      "export_pbr_images": 39,
+      "genuine_source_camera_captures": 68,
+      "hashed_source_pass_images": 68,
+      "hashed_native_client_images": 38,
+      "tested_current_sprite_adapter_bindings": [
+        {
+          "path": "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/calcifier-v2-production.lua",
+          "sha256": "5c32ee95ee05996d62fca45410089efd4117c76ebc8fbaa0ce1ef787fd00eb95",
+          "native_tested_sha256": "5c32ee95ee05996d62fca45410089efd4117c76ebc8fbaa0ce1ef787fd00eb95"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/calcifier-v2/idle-256.png",
+          "sha256": "76e424cef69c6f8e4f61995f152bcc9088f17198e3a49c1f79aaa64fb441901c",
+          "native_tested_sha256": "76e424cef69c6f8e4f61995f152bcc9088f17198e3a49c1f79aaa64fb441901c"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/calcifier-v2/working-256.png",
+          "sha256": "cfb38ada5c0d09c94ce560ca508b1336b8a5e742adb0bcf33cbdca33115b4f69",
+          "native_tested_sha256": "cfb38ada5c0d09c94ce560ca508b1336b8a5e742adb0bcf33cbdca33115b4f69"
+        }
+      ],
+      "binding_evidence": [
+        "docs/art/calcifier-v2/capture-verification.json"
+      ],
+      "native_operation_scope": {
+        "passed": true,
+        "machines": 48,
+        "real_recipes": [
+          "Calcifier-pro",
+          "Calcifier-pro-2",
+          "Calcifier-pro-3",
+          "Calcifier-pro-4",
+          "Calcifier-pro-5",
+          "hydrocoptic-crystal",
+          "ionic-scum",
+          "microcrystal-sediment"
+        ],
+        "player_grid_connections": 44,
+        "rotation": {
+          "before": 0,
+          "after": 4,
+          "result": true
+        },
+        "fuel": true,
+        "no_fuel": true,
+        "no_fluid": true,
+        "idle": true,
+        "blocked_item": true,
+        "fluid_output_blocking": "not applicable: all actual products are items",
+        "stop_restart": true,
+        "prototype_overrides": false
+      },
+      "reload_save_sha256": "6761cab609ac3c5f4cd84b0c561cbde3c69e685eebfa3dd2499d61689b861eee",
+      "reload_evidence": "docs/art/calcifier-v2/operated-reload.log",
+      "reload_scope": {
+        "passed": true,
+        "exit_code": 0,
+        "operated_save_sha256": "6761cab609ac3c5f4cd84b0c561cbde3c69e685eebfa3dd2499d61689b861eee",
+        "save_was_fully_operated_and_settled": true,
+        "checked": "48 entities, inventories, recipe progress, machine and pipe fluid quantities/types/temperatures, actual connections and directions",
+        "reload_ticks": 300
+      },
+      "canonical_source_ref": "e61d48ca5f1bec5ba4cc7c168fe1cffe0cae7f4b",
+      "canonical_registry_readback_ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+      "delivery_source_ancestor_of_audited_head": true,
+      "errors": [],
+      "requirements_1_to_8": "Preserved/editable source and actual contract; packed UV/PBR/runtime inspection; source mechanism evidence and genuine states; independently reimported bound GLB; correct native facings; current tested art binding; actual native operations and operated/filled reload with N/A scope explicit; committed ancestral source and pinned canonical binding verified. Source/export and native gates remain distinct."
+    },
+    {
+      "id": "tanks-thinking-hut-v1",
+      "manifest": "models/island-survival/thinking-hut/v1/FMPL_MODEL.json",
+      "source": {
+        "path": "models/island-survival/thinking-hut/candidates/v1-lantern08/thinking-hut-v1.blend",
+        "sha256": "4c7dee2ad5124ea1c078b0f4f997c994b8d971d9395f86b083254f3bc9e75b13"
+      },
+      "runtime": {
+        "path": "models/island-survival/thinking-hut/candidates/v1-lantern08/thinking-hut-v1.glb",
+        "sha256": "12d9d0039544f95d5a5fc77be20e85da7277a261d110c50f1a80c9b86224b857"
+      },
+      "actual_contract": "models/island-survival/thinking-hut/v1/contract.json",
+      "inspection_report": "models/island-survival/thinking-hut/candidates/v1-lantern08/runtime-inspection.json",
+      "inspection_sha256": "fdd77ef732986b47cebcd8c37ba01040e152c3ade347d442f214b13100725985",
+      "inspection_passed": true,
+      "source_pbr_images": 39,
+      "export_pbr_images": 39,
+      "genuine_source_camera_captures": 17,
+      "hashed_source_pass_images": 17,
+      "hashed_native_client_images": 33,
+      "tested_current_sprite_adapter_bindings": [
+        {
+          "path": "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/thinking-hut-v1-production.lua",
+          "sha256": "38d7b3c93f02ddf839b7c398cc64c4ae49b8a0054513cd9de809a952216e07f1",
+          "native_tested_sha256": "38d7b3c93f02ddf839b7c398cc64c4ae49b8a0054513cd9de809a952216e07f1"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/thinking-hut-v1/idle-256.png",
+          "sha256": "c85a32a4d5289ff68b96bff73a0cafc041af11ef9e76f9b3916fc97677b02541",
+          "native_tested_sha256": "c85a32a4d5289ff68b96bff73a0cafc041af11ef9e76f9b3916fc97677b02541"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/thinking-hut-v1/working-256.png",
+          "sha256": "558bdb30d804fb684821b9027c41b2fe29f22f8dfa1338cdc5808d58f1442ae2",
+          "native_tested_sha256": "558bdb30d804fb684821b9027c41b2fe29f22f8dfa1338cdc5808d58f1442ae2"
+        }
+      ],
+      "binding_evidence": [
+        "docs/art/thinking-hut-v1/capture-verification.json"
+      ],
+      "native_operation_scope": {
+        "passed": true,
+        "machines": 24,
+        "distinct_native_research_input_sets": 19,
+        "actual_technologies_tested": [
+          "beachpump",
+          "stabilized-emulsion-systems",
+          "board-advisory-risk-assessment",
+          "framulated-encabulator-research",
+          "evaluation-submission",
+          "biomineral-synthesis",
+          "board-review-procedure",
+          "pondering-hovel",
+          "work-order-generation",
+          "ionic-phase-conditioning",
+          "brine-conditioning",
+          "advanced-encabulation-substrates",
+          "ceramic-lattice-conditioning",
+          "waste-processing-2",
+          "waste-processing-5-authorization",
+          "new-munitions-authorization",
+          "modular-tank-research2-authorization",
+          "mechanized-infantry-authorization",
+          "waste-processing-4-authorization"
+        ],
+        "all_accepted_input_items_consumed": 14,
+        "eligible_technology_contracts": 75,
+        "fuel_starvation_and_resupply": true,
+        "ingredient_starvation_and_resupply": true,
+        "idle_completed_technology_and_restart": true,
+        "script_deactivation_stop_restart": true,
+        "native_fixed_orientation": true,
+        "processing_recipes_and_output_blocking": "not applicable: native lab research, no manufactured output or fluid connections",
+        "gameplay_overrides": false
+      },
+      "reload_save_sha256": "34eee6374f058e0a19051614d824af018920e2e64f424f11608da99c65044f38",
+      "reload_evidence": "docs/art/thinking-hut-v1/operated-reload.log",
+      "reload_scope": {
+        "passed": true,
+        "exit_code": 0,
+        "operated_save_sha256": "34eee6374f058e0a19051614d824af018920e2e64f424f11608da99c65044f38",
+        "save_after_completed_native_operation": true,
+        "lab_count": 24,
+        "reload_ticks": 300,
+        "checked": "All research-input inventories, coal inventories and remaining burning fuel, active research identities/progress, selected target unlocks, entity validity and fixed directions",
+        "freeze": "Native disabled_by_script flag after operational completion; 60 game ticks before snapshot; actual client save waited to finish"
+      },
+      "canonical_source_ref": "1b39f0ee1c66d5375d92aac621d37e85e2fa6181",
+      "canonical_registry_readback_ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+      "delivery_source_ancestor_of_audited_head": true,
+      "errors": [],
+      "requirements_1_to_8": "Preserved/editable source and actual contract; packed UV/PBR/runtime inspection; source mechanism evidence and genuine states; independently reimported bound GLB; correct native facings; current tested art binding; actual native operations and operated/filled reload with N/A scope explicit; committed ancestral source and pinned canonical binding verified. Source/export and native gates remain distinct."
+    },
+    {
+      "id": "tanks-pondering-hovel-v1",
+      "manifest": "models/island-survival/pondering-hovel/v1/FMPL_MODEL.json",
+      "source": {
+        "path": "models/island-survival/pondering-hovel/candidates/v1-production03/pondering-hovel-v1.blend",
+        "sha256": "1c1221819d9b8f1b7ed391ba46bdf9bcac1f2788a297dccbefa68d91c52407a3"
+      },
+      "runtime": {
+        "path": "models/island-survival/pondering-hovel/candidates/v1-production03/pondering-hovel-v1.glb",
+        "sha256": "c8a553cc1f580b5a0bc12c50356c61a40e54ca9fa5309f938b18196c829375e1"
+      },
+      "actual_contract": "models/island-survival/pondering-hovel/v1/contract.json",
+      "inspection_report": "models/island-survival/pondering-hovel/candidates/v1-production03/runtime-inspection.json",
+      "inspection_sha256": "566a8ef810fb84bce0d1a0f1bf3743d4c9b5cc22329747852b951f2e4332a723",
+      "inspection_passed": true,
+      "source_pbr_images": 51,
+      "export_pbr_images": 45,
+      "genuine_source_camera_captures": 17,
+      "hashed_source_pass_images": 17,
+      "hashed_native_client_images": 33,
+      "tested_current_sprite_adapter_bindings": [
+        {
+          "path": "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/pondering-hovel-v1-production.lua",
+          "sha256": "44a82d2b6a4989c8711a6e1a1c6416459c3f50479bdb8779cb4136aa5a8f76cb",
+          "native_tested_sha256": "44a82d2b6a4989c8711a6e1a1c6416459c3f50479bdb8779cb4136aa5a8f76cb"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/pondering-hovel-v1/idle-256.png",
+          "sha256": "7b5c79e8861ef0a0735389a458ef522e4b109a82408de0ea9d4bfdec31e09dee",
+          "native_tested_sha256": "7b5c79e8861ef0a0735389a458ef522e4b109a82408de0ea9d4bfdec31e09dee"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/pondering-hovel-v1/working-256.png",
+          "sha256": "1e07d53493bda5cdfb3903d7f2ebe2686df651f483d29eb7b959e203e8658416",
+          "native_tested_sha256": "1e07d53493bda5cdfb3903d7f2ebe2686df651f483d29eb7b959e203e8658416"
+        }
+      ],
+      "binding_evidence": [
+        "docs/art/pondering-hovel-v1/installed-source-verification.json"
+      ],
+      "native_operation_scope": {
+        "passed": true,
+        "construction_recipe_crafted_in_workbench": true,
+        "construction_unlock_checked": true,
+        "machines": 24,
+        "distinct_native_research_input_sets": 19,
+        "actual_technologies_tested": [
+          "beachpump",
+          "stabilized-emulsion-systems",
+          "board-advisory-risk-assessment",
+          "framulated-encabulator-research",
+          "evaluation-submission",
+          "biomineral-synthesis",
+          "board-review-procedure",
+          "pondering-hovel",
+          "work-order-generation",
+          "ionic-phase-conditioning",
+          "brine-conditioning",
+          "advanced-encabulation-substrates",
+          "ceramic-lattice-conditioning",
+          "waste-processing-2",
+          "waste-processing-5-authorization",
+          "new-munitions-authorization",
+          "modular-tank-research2-authorization",
+          "mechanized-infantry-authorization",
+          "waste-processing-4-authorization"
+        ],
+        "all_accepted_input_items_consumed": 14,
+        "eligible_technology_contracts": 75,
+        "fuel_starvation_and_resupply": true,
+        "ingredient_starvation_and_resupply": true,
+        "idle_completed_technology_and_restart": true,
+        "script_deactivation_stop_restart": true,
+        "native_fixed_orientation": true,
+        "processing_recipes_and_output_blocking": "not applicable: native lab research, no manufactured output or fluid connections",
+        "gameplay_overrides": false
+      },
+      "reload_save_sha256": "d3c44c90a44da81ac68746bc6a817c62743c0717a6fa2ac430fb074c0d02aacc",
+      "reload_evidence": "docs/art/pondering-hovel-v1/operated-reload.log",
+      "reload_scope": {
+        "passed": true,
+        "exit_code": 0,
+        "operated_save_sha256": "d3c44c90a44da81ac68746bc6a817c62743c0717a6fa2ac430fb074c0d02aacc",
+        "save_after_completed_native_operation": true,
+        "lab_count": 24,
+        "reload_ticks": 300,
+        "checked": "All 14 research-input inventories, coal and remaining burning fuel, research/progress/unlocks, fixed directions, and the actual Workbench-crafted upgraded building output",
+        "freeze": "Native disabled_by_script on all labs and Workbench; 60 ticks before snapshot; completed client save"
+      },
+      "canonical_source_ref": "753363eef45d3a0e9b264aed954b12157427f7ba",
+      "canonical_registry_readback_ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+      "delivery_source_ancestor_of_audited_head": true,
+      "errors": [],
+      "requirements_1_to_8": "Preserved/editable source and actual contract; packed UV/PBR/runtime inspection; source mechanism evidence and genuine states; independently reimported bound GLB; correct native facings; current tested art binding; actual native operations and operated/filled reload with N/A scope explicit; committed ancestral source and pinned canonical binding verified. Source/export and native gates remain distinct."
+    },
+    {
+      "id": "tanks-stone-water-wheel-v3",
+      "manifest": "models/island-survival/stone-water-wheel/v3/FMPL_MODEL.json",
+      "source": {
+        "path": "models/island-survival/stone-water-wheel/candidates/v3-production04/stone-water-wheel-v3.blend",
+        "sha256": "e9aa7f71dad7624b0e6650a77df182f102a1640515969a986be168c07bd189f4"
+      },
+      "runtime": {
+        "path": "models/island-survival/stone-water-wheel/candidates/v3-production04/stone-water-wheel-v3.glb",
+        "sha256": "5f1f104afb9e76859dc1de287efa7ad3fde784a42288f92c47793d56109b5b90"
+      },
+      "actual_contract": "models/island-survival/stone-water-wheel/v3/contract.json",
+      "inspection_report": "models/island-survival/stone-water-wheel/candidates/v3-production04/runtime-inspection.json",
+      "inspection_sha256": "39789172b8599d35703b1784324a16b73b3f7934fd39c8109bedcc1cdcb33d42",
+      "inspection_passed": true,
+      "source_pbr_images": 18,
+      "export_pbr_images": 18,
+      "genuine_source_camera_captures": 132,
+      "hashed_source_pass_images": 396,
+      "hashed_native_client_images": 48,
+      "tested_current_sprite_adapter_bindings": [
+        {
+          "path": "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/stone-wheel-v3-production.lua",
+          "sha256": "2b951d614e52291f0ce7907948609a83ac6d84b24268e01039569303d367aa44",
+          "native_tested_sha256": "2b951d614e52291f0ce7907948609a83ac6d84b24268e01039569303d367aa44"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/stone-water-wheel-v3/north-working-above-water-256.png",
+          "sha256": "b764acaa14b1cf55e4cd91b4c4e497736506f8fdf1a91f0b898a09a6c7ec4026",
+          "native_tested_sha256": "b764acaa14b1cf55e4cd91b4c4e497736506f8fdf1a91f0b898a09a6c7ec4026"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/stone-water-wheel-v3/north-working-underwater-256.png",
+          "sha256": "c93e651c13c852f3ebc3a398864015f4ec401a8556e01975c86ef7694709488a",
+          "native_tested_sha256": "c93e651c13c852f3ebc3a398864015f4ec401a8556e01975c86ef7694709488a"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/stone-water-wheel-v3/east-working-above-water-256.png",
+          "sha256": "c95858e12c351cddeec54e1a3e007fa38f14bdd7dcaee19c549a82874ed2d12f",
+          "native_tested_sha256": "c95858e12c351cddeec54e1a3e007fa38f14bdd7dcaee19c549a82874ed2d12f"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/stone-water-wheel-v3/east-working-underwater-256.png",
+          "sha256": "393ec99f9dc16754b6cc7181de5423a8ec7ba9476eb1efbb467cdb2f96ddda70",
+          "native_tested_sha256": "393ec99f9dc16754b6cc7181de5423a8ec7ba9476eb1efbb467cdb2f96ddda70"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/stone-water-wheel-v3/south-working-above-water-256.png",
+          "sha256": "22694d4245d8e7b7de3adbd2fb09c4ddae04097946357733e0c3a668071a1c10",
+          "native_tested_sha256": "22694d4245d8e7b7de3adbd2fb09c4ddae04097946357733e0c3a668071a1c10"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/stone-water-wheel-v3/south-working-underwater-256.png",
+          "sha256": "347dac0909e00d7e1d117cb3533f5a24cded7baad598761fde8fc3510d949695",
+          "native_tested_sha256": "347dac0909e00d7e1d117cb3533f5a24cded7baad598761fde8fc3510d949695"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/stone-water-wheel-v3/west-working-above-water-256.png",
+          "sha256": "049c5e500e6097a5b7c5a1d8e812e4f814c5cb9b860e4a72455e1211704b3880",
+          "native_tested_sha256": "049c5e500e6097a5b7c5a1d8e812e4f814c5cb9b860e4a72455e1211704b3880"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/stone-water-wheel-v3/west-working-underwater-256.png",
+          "sha256": "c8df2419b2c38cd79f7a8b00cc9c277dc9b0d871ea95069acd317f0ae1692dd2",
+          "native_tested_sha256": "c8df2419b2c38cd79f7a8b00cc9c277dc9b0d871ea95069acd317f0ae1692dd2"
+        }
+      ],
+      "binding_evidence": [
+        "docs/art/stone-water-wheel-v3/installed-source-verification.json"
+      ],
+      "native_operation_scope": {
+        "passed": true,
+        "machines": 16,
+        "ordinary_grid_connections": 16,
+        "supported_directions": 4,
+        "extraction_rate_water_per_second": 30,
+        "void_energy_no_player_fuel_or_electricity": true,
+        "normal_shore_placement": true,
+        "full_output_and_drain_recovery": true,
+        "stop_restart": true,
+        "source_landfill_and_restoration_observed": true,
+        "construction_unlock_and_actual_workbench_craft": true,
+        "processing_recipes": "none: native shoreline intake"
+      },
+      "reload_save_sha256": "348bf9aa7e6e36855ea949c4942377de25fc5f702a950dc36acfb2015004e170",
+      "reload_evidence": "docs/art/stone-water-wheel-v3/operated-reload.log",
+      "reload_scope": {
+        "passed": true,
+        "exit_code": 0,
+        "operated_save_sha256": "348bf9aa7e6e36855ea949c4942377de25fc5f702a950dc36acfb2015004e170",
+        "save_after_completed_native_operation": true,
+        "machines": 16,
+        "ordinary_grid_connections": 16,
+        "reload_ticks": 300,
+        "checked": "Actual network water totals, source tile, disabled state, four directions, native connected pipes and actual Workbench-crafted wheel output",
+        "freeze": "Native disabled_by_script on all pumps and Workbench; 60 ticks of settling before snapshot; client save waited to finish"
+      },
+      "canonical_source_ref": "4e8811e45fb3de8e866a1ef7a7a1c63bfb257252",
+      "canonical_registry_readback_ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+      "delivery_source_ancestor_of_audited_head": true,
+      "errors": [],
+      "requirements_1_to_8": "Preserved/editable source and actual contract; packed UV/PBR/runtime inspection; source mechanism evidence and genuine states; independently reimported bound GLB; correct native facings; current tested art binding; actual native operations and operated/filled reload with N/A scope explicit; committed ancestral source and pinned canonical binding verified. Source/export and native gates remain distinct."
+    },
+    {
+      "id": "tanks-tank-ammo-assembler-v1",
+      "manifest": "models/island-survival/tank-ammo-assembling-machine/v1/FMPL_MODEL.json",
+      "source": {
+        "path": "models/island-survival/tank-ammo-assembling-machine/candidates/v1-production03/tank-ammo-assembler-v1.blend",
+        "sha256": "5bca56a8cee03867098e09ce2f14072c0b437af4010096569ee0822bc1c0945d"
+      },
+      "runtime": {
+        "path": "models/island-survival/tank-ammo-assembling-machine/candidates/v1-production03/tank-ammo-assembler-v1.glb",
+        "sha256": "c169d83bbfaf61c56d35b9c48ff39bac303d9636e8c21133c94cf3185a8578a5"
+      },
+      "actual_contract": "models/island-survival/tank-ammo-assembling-machine/v1/contract.json",
+      "inspection_report": "models/island-survival/tank-ammo-assembling-machine/candidates/v1-production03/runtime-inspection.json",
+      "inspection_sha256": "6d55481c1d3a07ac1543458442b44e25d9731afec1dd3c30a1da1c98809d3d96",
+      "inspection_passed": true,
+      "source_pbr_images": 33,
+      "export_pbr_images": 33,
+      "genuine_source_camera_captures": 132,
+      "hashed_source_pass_images": 132,
+      "hashed_native_client_images": 60,
+      "tested_current_sprite_adapter_bindings": [
+        {
+          "path": "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/tank-ammo-assembler-v1-production.lua",
+          "sha256": "30670296e82fce2475e04ddbeb37fd933ad3c86250cc5f748cd7da8648cd1615",
+          "native_tested_sha256": "30670296e82fce2475e04ddbeb37fd933ad3c86250cc5f748cd7da8648cd1615"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/tank-ammo-assembler-v1/idle-256.png",
+          "sha256": "c296dba0de006c45c3632de02c42c3dd9218180d4ebd9469c007b899ea1071cf",
+          "native_tested_sha256": "c296dba0de006c45c3632de02c42c3dd9218180d4ebd9469c007b899ea1071cf"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/tank-ammo-assembler-v1/working-256.png",
+          "sha256": "c54533834e8e607e990b5fcaa932689cafad12d8ca16134916965818af6ecb6d",
+          "native_tested_sha256": "c54533834e8e607e990b5fcaa932689cafad12d8ca16134916965818af6ecb6d"
+        }
+      ],
+      "binding_evidence": [
+        "docs/art/tank-ammo-assembler-v1/installed-source-verification.json"
+      ],
+      "native_operation_scope": {
+        "passed": true,
+        "real_recipes": 46,
+        "real_recipe_direction_cases": 184,
+        "machines": 208,
+        "ordinary_grid_connections": 20,
+        "supported_directions": 4,
+        "max_recipe_native_seconds": 3160,
+        "crafting_speed_and_power_not_overridden": true,
+        "actual_electric_watts": 175000,
+        "electric_starvation_resupply": true,
+        "fluid_starvation_resupply": true,
+        "blocked_item_and_fluid_output_recovery": true,
+        "stop_restart": true,
+        "building_unlock_and_base_assembler_craft": true,
+        "engine_parameter_placeholders_excluded": 10
+      },
+      "reload_save_sha256": "b78238921e1c13368c8a7decddc3820ff38d63a7bbaa80143eb9bab4c8217d1a",
+      "reload_evidence": "docs/art/tank-ammo-assembler-v1/operated-reload.log",
+      "reload_scope": {
+        "passed": true,
+        "exit_code": 0,
+        "operated_save_sha256": "b78238921e1c13368c8a7decddc3820ff38d63a7bbaa80143eb9bab4c8217d1a",
+        "save_after_all_46_recipes_completed_in_all_four_directions": true,
+        "real_recipe_direction_cases": 184,
+        "machines": 208,
+        "ordinary_grid_connections": 20,
+        "reload_ticks": 300,
+        "checked": "All input/output inventories, actual fluid amounts/types/temperatures and pipe joints, recipe/progress/products-finished, electrical buffers, direction/disabled flags and actual base-assembler building output",
+        "freeze": "Native disabled_by_script, sixty game ticks settling, snapshot and completed graphical save; no crafting-speed or module overrides",
+        "fully_processed_powered_fluid_output_blocked_before_release": true
+      },
+      "canonical_source_ref": "60007499d2734b15387e83fb1c8e483d9f35d328",
+      "canonical_registry_readback_ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+      "delivery_source_ancestor_of_audited_head": true,
+      "errors": [],
+      "requirements_1_to_8": "Preserved/editable source and actual contract; packed UV/PBR/runtime inspection; source mechanism evidence and genuine states; independently reimported bound GLB; correct native facings; current tested art binding; actual native operations and operated/filled reload with N/A scope explicit; committed ancestral source and pinned canonical binding verified. Source/export and native gates remain distinct."
+    },
+    {
+      "id": "tanks-tank-assembler-v1",
+      "manifest": "models/island-survival/tank-assembling-machine/v1/FMPL_MODEL.json",
+      "source": {
+        "path": "models/island-survival/tank-assembling-machine/candidates/v1-production10/tank-assembler-v1.blend",
+        "sha256": "784954f4bb522563fe64b9e9308d04e4a505521cd5e3e3c6b10d96b66bedb587"
+      },
+      "runtime": {
+        "path": "models/island-survival/tank-assembling-machine/candidates/v1-production10/tank-assembler-v1.glb",
+        "sha256": "d68f6b35bbb7bc94708ef7861605a62e6535aefff23f12a8d5954bb93dec8e43"
+      },
+      "actual_contract": "models/island-survival/tank-assembling-machine/v1/contract.json",
+      "inspection_report": "models/island-survival/tank-assembling-machine/candidates/v1-production10/runtime-inspection.json",
+      "inspection_sha256": "3bd659f031ca91ecc2f71552141b4b30d74208ac7a258e3848fab993bad56ae6",
+      "inspection_passed": true,
+      "source_pbr_images": 33,
+      "export_pbr_images": 33,
+      "genuine_source_camera_captures": 33,
+      "hashed_source_pass_images": 33,
+      "hashed_native_client_images": 46,
+      "tested_current_sprite_adapter_bindings": [
+        {
+          "path": "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/tank-assembler-v1-production.lua",
+          "sha256": "a2130c508a6ddf60e12c7bb155692ee3bad668c45f8b45ee573e1e046b985cb1",
+          "native_tested_sha256": "a2130c508a6ddf60e12c7bb155692ee3bad668c45f8b45ee573e1e046b985cb1"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/tank-assembler-v1/working-256.png",
+          "sha256": "948dd8596228957f5eadba0123fa237126148b0246a744297186679b9651eee4",
+          "native_tested_sha256": "948dd8596228957f5eadba0123fa237126148b0246a744297186679b9651eee4"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/tank-assembler-v1/idle-256.png",
+          "sha256": "3a315c762e5db17d753a8d27b9f580d84d8cf47657faa22b1b11ed0002808e55",
+          "native_tested_sha256": "3a315c762e5db17d753a8d27b9f580d84d8cf47657faa22b1b11ed0002808e55"
+        }
+      ],
+      "binding_evidence": [
+        "docs/art/tank-assembler-v1/installed-source-verification.json"
+      ],
+      "native_operation_scope": {
+        "passed": true,
+        "real_recipes": 13,
+        "machines": 17,
+        "actual_supported_directions": 1,
+        "requested_direction_normalization": {
+          "0": 0,
+          "4": 0,
+          "8": 0,
+          "12": 0
+        },
+        "max_recipe_native_seconds": 3040,
+        "crafting_speed_and_power_not_overridden": true,
+        "actual_electric_watts": 250000,
+        "module_slots": 4,
+        "electric_starvation_resupply": true,
+        "blocked_item_output_recovery": true,
+        "stop_restart": true,
+        "building_unlock_and_ammunition_assembler_craft": true,
+        "crafted_item_consumed_for_native_placement": true,
+        "fluid_and_fuel": "not applicable: no fluid storage, ports or burner",
+        "engine_parameter_placeholders_excluded": 10
+      },
+      "reload_save_sha256": "0dca2d4ef2f89d351604394cf35b9d1fd60bbf3493a5db45690056af403c5a40",
+      "reload_evidence": "docs/art/tank-assembler-v1/operated-reload.log",
+      "reload_scope": {
+        "passed": true,
+        "save_sha256": "0dca2d4ef2f89d351604394cf35b9d1fd60bbf3493a5db45690056af403c5a40",
+        "actual_operated_save": true,
+        "engine_exit_code": 0,
+        "scope": "13 real recipe operations; preserved input/output inventories, progress/counters, electrical buffers, fixed north, disabled state, crafted-item placement, actual builder output. Saved at tick192000 after 60-tick disabled settle."
+      },
+      "canonical_source_ref": "58d9687ef68cc7cda63d8d22ea6dadecc0986397",
+      "canonical_registry_readback_ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+      "delivery_source_ancestor_of_audited_head": true,
+      "errors": [],
+      "requirements_1_to_8": "Preserved/editable source and actual contract; packed UV/PBR/runtime inspection; source mechanism evidence and genuine states; independently reimported bound GLB; correct native facings; current tested art binding; actual native operations and operated/filled reload with N/A scope explicit; committed ancestral source and pinned canonical binding verified. Source/export and native gates remain distinct."
+    },
+    {
+      "id": "tanks-steam-condenser-v2",
+      "manifest": "models/island-survival/steam-condenser/v2/FMPL_MODEL.json",
+      "source": {
+        "path": "models/island-survival/steam-condenser/candidates/v2-production05/steam-condenser-v2.blend",
+        "sha256": "f16cc807dd96b9fe901410fd214657dc913027b959e27e377e5ab2f92cde1526"
+      },
+      "runtime": {
+        "path": "models/island-survival/steam-condenser/candidates/v2-production05/steam-condenser-v2.glb",
+        "sha256": "ac882b649abd69772e6db8ceb6684f2db011bba0cd899bb8bb771cecd23907a5"
+      },
+      "actual_contract": "models/island-survival/steam-condenser/v2/contract.json",
+      "inspection_report": "models/island-survival/steam-condenser/candidates/v2-production05/runtime-inspection.json",
+      "inspection_sha256": "b978de543dfd7c2024d2645c5ee1ec999e66974f6b79d4bfaac28c07bd2c9869",
+      "inspection_passed": true,
+      "source_pbr_images": 39,
+      "export_pbr_images": 39,
+      "genuine_source_camera_captures": 132,
+      "hashed_source_pass_images": 132,
+      "hashed_native_client_images": 60,
+      "tested_current_sprite_adapter_bindings": [
+        {
+          "path": "tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/steam-condenser-v2-production.lua",
+          "sha256": "03798516de5e86d482ebf54ec7df1754d357eb7dc1b682f5853127a1e49a31be",
+          "native_tested_sha256": "03798516de5e86d482ebf54ec7df1754d357eb7dc1b682f5853127a1e49a31be"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/steam-condenser-v2/working-256.png",
+          "sha256": "369dc0cb65d3d91c531af55c2fa65834ce2588d644838ac856804ae869fb68f5",
+          "native_tested_sha256": "369dc0cb65d3d91c531af55c2fa65834ce2588d644838ac856804ae869fb68f5"
+        },
+        {
+          "path": "tanks_for_bob_fork_1.8.104/graphics/entity/steam-condenser-v2/idle-256.png",
+          "sha256": "3fca27b01c9c3dc34d10af93da1813b478d3cf9a2475fce2ac7934af948b54d1",
+          "native_tested_sha256": "3fca27b01c9c3dc34d10af93da1813b478d3cf9a2475fce2ac7934af948b54d1"
+        }
+      ],
+      "binding_evidence": [
+        "docs/art/steam-condenser-v2/installed-source-verification.json"
+      ],
+      "native_operation_scope": {
+        "passed": true,
+        "machines": 24,
+        "real_recipes": 1,
+        "actual_directions": 4,
+        "recipe_direction_cases": 4,
+        "ordinary_machine_pipe_joints": 20,
+        "ordinary_pipe_entities": 40,
+        "steam_amount_per_craft": 200,
+        "steam_temperature": 165,
+        "wood_per_craft": 5,
+        "stone_per_craft": 10,
+        "waste_per_craft": 1,
+        "actual_crafting_speed": 0.6,
+        "actual_burner_watts": 1000,
+        "module_slots": 0,
+        "gameplay_and_crafting_speed_not_overridden": true,
+        "fuel_and_steam_starvation_resupply": true,
+        "item_full_output_recovery": true,
+        "stop_restart": true,
+        "real_workbench_build_unlock_and_scripted_item_placement": true,
+        "fluid_output": "none in actual recipe"
+      },
+      "reload_save_sha256": "cfb388ee9cfd6c922762fba731c635e44f7c6e66a2e379df1b7d51308863a069",
+      "reload_evidence": "docs/art/steam-condenser-v2/operated-reload.log",
+      "reload_scope": {
+        "passed": true,
+        "save_sha256": "cfb388ee9cfd6c922762fba731c635e44f7c6e66a2e379df1b7d51308863a069",
+        "actual_operated_save": true,
+        "engine_exit_code": 0,
+        "scope": "Four real recipe facings plus all diagnostic states, ordinary input joints, actual steam amount/type/temp, input/output/fuel inventories, remaining burning fuel, burner energy buffer, recipe/progress/count, disabled/directions and actual Workbench output/crafted item placement. Saved at8400 after60-tick disabled settle."
+      },
+      "canonical_source_ref": "93e4d67c424e2d0afdf57646ac649fcb4af653e3",
+      "canonical_registry_readback_ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+      "delivery_source_ancestor_of_audited_head": true,
+      "errors": [],
+      "requirements_1_to_8": "Preserved/editable source and actual contract; packed UV/PBR/runtime inspection; source mechanism evidence and genuine states; independently reimported bound GLB; correct native facings; current tested art binding; actual native operations and operated/filled reload with N/A scope explicit; committed ancestral source and pinned canonical binding verified. Source/export and native gates remain distinct."
+    }
+  ],
+  "initially_accepted_sprite_preservation": {
+    "baseline_receipt": "docs/art/steam-compressor-v2/source-snapshot.json",
+    "checked_files": 68,
+    "scope": "Exact original-accepted sprite prefixes including wooden-offshore-pump/v12; active mod sprite bytes only, not a claim of historical archive completion.",
+    "matching": true,
+    "files": [
+      {
+        "path": "graphics/entity/campfire-v12-burning-64.png",
+        "sha256": "80ec5f3fff9536bf5207718e776982f517c76d30db8b994055e1847a907b9650"
+      },
+      {
+        "path": "graphics/entity/campfire-v12-burning.png",
+        "sha256": "3e8235f2035319a16e0f928d972173565f68f08811bbeb646d9943d1ac3cca0f"
+      },
+      {
+        "path": "graphics/entity/campfire-v12-idle-64.png",
+        "sha256": "18a9b444a173fdb39ffa52d22d574b2b77f27f15acef76b6b5002c232341c8eb"
+      },
+      {
+        "path": "graphics/entity/campfire-v12-idle.png",
+        "sha256": "bfe7d05754a0f7a3918ce40eeb20be42f48da0510091dc88ee2aae3fcb907719"
+      },
+      {
+        "path": "graphics/entity/clay-pit-v4c-idle-64.png",
+        "sha256": "3e8719d398477fdf50afff241a3709dc3d4eb15167f8a30ccdaceba7df07b3ba"
+      },
+      {
+        "path": "graphics/entity/clay-pit-v4c-idle.png",
+        "sha256": "f3e8007a3be1ecc8666343366d606a60d4bf222a4a4a8912c92be5c083c2cc45"
+      },
+      {
+        "path": "graphics/entity/clay-pit-v4c-working-64.png",
+        "sha256": "b46f6782a4738947228ee26a614747cd4b264f769fc2723013c8a3059dc2277f"
+      },
+      {
+        "path": "graphics/entity/clay-pit-v4c-working.png",
+        "sha256": "a368dda5703f619341fc34e77a79445b6e9effff858d483f9533a467a5b645d1"
+      },
+      {
+        "path": "graphics/entity/cooking-fire-v2-production-idle-128.png",
+        "sha256": "38de1735150814a0e11a2591bf8c44a663c0718ec93aa4598772f965c17cf3a1"
+      },
+      {
+        "path": "graphics/entity/cooking-fire-v2-production-idle-64.png",
+        "sha256": "0a747f5b96f7f20ff85dc548004a3332db2a395a4fa50ab42cc382f390f5f08a"
+      },
+      {
+        "path": "graphics/entity/cooking-fire-v2-production-idle.png",
+        "sha256": "ea2f07d47ba8d18189c6c590d6890966acd824f0265c9a71a6fb76527b6f570b"
+      },
+      {
+        "path": "graphics/entity/cooking-fire-v2-production-working-128.png",
+        "sha256": "115333d85e0982c5364bc197323ac0c38def836069b50b962a44468eb335ff0a"
+      },
+      {
+        "path": "graphics/entity/cooking-fire-v2-production-working-64.png",
+        "sha256": "b687a8f0e1135e3aee7a39a6d6f9897735984e4581475c0ffc5739d750b2754a"
+      },
+      {
+        "path": "graphics/entity/cooking-fire-v2-production-working.png",
+        "sha256": "a53938346acd89048ef966edbd434091da478b36ce19eb0708daf715e39bc559"
+      },
+      {
+        "path": "graphics/entity/lumberyard-v2b-idle-128.png",
+        "sha256": "347b79584a612dddadf8cf05c8ec7340b07bcaced9b04feb931e511ba9231ae6"
+      },
+      {
+        "path": "graphics/entity/lumberyard-v2b-idle-64.png",
+        "sha256": "169af91f38e12d6ce1ed6342dfc804a69dee642efad2058e8f561f91a4a5eae3"
+      },
+      {
+        "path": "graphics/entity/lumberyard-v2b-idle.png",
+        "sha256": "50100ff19c1e4c00cb905af3c836e8e5d4aca993aacbeadc7d610d03c0469446"
+      },
+      {
+        "path": "graphics/entity/lumberyard-v2b-working-128.png",
+        "sha256": "65e3b178e7f181c48b37041dbef2959b921d15a3fc871313c7c78531d7acba80"
+      },
+      {
+        "path": "graphics/entity/lumberyard-v2b-working-64.png",
+        "sha256": "631f2e2e46c8226e7c33c668a9db3740102b452079f5add61029b5a6f513f2f8"
+      },
+      {
+        "path": "graphics/entity/lumberyard-v2b-working.png",
+        "sha256": "563fcfa9946553ea57c020696b5fbbaf4e02e0949078ea2e514b4b464e4cfde6"
+      },
+      {
+        "path": "graphics/entity/pit-kiln-v6-burning-128.png",
+        "sha256": "bf023da68376aed82ec5c87449904c451dd129ae47be0085a3e94cc88fd9928b"
+      },
+      {
+        "path": "graphics/entity/pit-kiln-v6-burning-256.png",
+        "sha256": "21d7bde49a721966f147e1c6c408b5ae33c3682e58a00bd2845047ab890352ff"
+      },
+      {
+        "path": "graphics/entity/pit-kiln-v6-burning-64.png",
+        "sha256": "6a837e8efd1f1402291f31d9f8cdca2920d82695a57666b5a42f96a14cfc6509"
+      },
+      {
+        "path": "graphics/entity/pit-kiln-v6-idle-128.png",
+        "sha256": "01808960746f20c2792686b5e2c8b30dc5d35effa072257c84a672fc0a0d1b90"
+      },
+      {
+        "path": "graphics/entity/pit-kiln-v6-idle-256.png",
+        "sha256": "cbf6873299ec81e79e1b11dc636a612a6e780266106927e876a218039b30db3e"
+      },
+      {
+        "path": "graphics/entity/pit-kiln-v6-idle-64.png",
+        "sha256": "4acdc6e08e4849cadabafb66fde1a4e73983742dd8c1f2d7f2ca166716517c7c"
+      },
+      {
+        "path": "graphics/entity/fish-pond-v2/idle-256.png",
+        "sha256": "311a4ec004c8ab43ddc88cfd5db0050e506ccb8584cb8d49b8213d3499ea667d"
+      },
+      {
+        "path": "graphics/entity/fish-pond-v2/working-256.png",
+        "sha256": "69bb57142b18c59de93dd1a98bb76fbe5e91fef7ab21df5ab8cd8c122c444f9d"
+      },
+      {
+        "path": "graphics/entity/primitive-pipe-pump-v3/working-256.png",
+        "sha256": "1dbf0bf25813e4b78567574c05d7097a92e4164af9c600b950b4039ce31d1f95"
+      },
+      {
+        "path": "graphics/entity/solar-boiler-v8/idle-128.png",
+        "sha256": "ec62ac86798a59bf20a069aae96e16be834b139e1f66f72213db56d3175383ed"
+      },
+      {
+        "path": "graphics/entity/solar-boiler-v8/idle-256.png",
+        "sha256": "ca1a2d6706e361cc68ded2528f2a247f336f3dd36f208ea9e8d767969cb5e1c3"
+      },
+      {
+        "path": "graphics/entity/solar-boiler-v8/idle-64.png",
+        "sha256": "d8f7ecac8865dac02bf3a35b5eeda924157547384c723d0499a941eb076ef17d"
+      },
+      {
+        "path": "graphics/entity/solar-boiler-v8/working-128.png",
+        "sha256": "fcbcdf8a7fb881816e04d242fb8b3c588c70db26ddc79e1f68a8a31d4cdcfeac"
+      },
+      {
+        "path": "graphics/entity/solar-boiler-v8/working-256.png",
+        "sha256": "82bfee56d051e0c0ac9f856cf236c785814dee524ceab87e2c1744ee682bbf35"
+      },
+      {
+        "path": "graphics/entity/solar-boiler-v8/working-64.png",
+        "sha256": "96df5ce7a1b082c2eb8c9d99a73737d3c3c99288f46b000b5c9fbe8951cb0626"
+      },
+      {
+        "path": "graphics/entity/solar-boiler-v8-aligned/working-256.png",
+        "sha256": "2d27db371c9e69d82f0428ac9b8587882f7b83aeb6ab746a7b7ec36622454d7c"
+      },
+      {
+        "path": "graphics/entity/workbench-v8-one-tile/idle-east.png",
+        "sha256": "eb722f8035f7060633a927033f0c8a739331ebb03c1d6870b630af793470c096"
+      },
+      {
+        "path": "graphics/entity/workbench-v8-one-tile/idle-north.png",
+        "sha256": "dd040bc4eee8b7626dc774b79fb98073963485e0659b2f5b6013bfeea57e9360"
+      },
+      {
+        "path": "graphics/entity/workbench-v8-one-tile/idle-south.png",
+        "sha256": "c4dee1cb92abef97b078e870b54c0583b9ccf4bed3e97fceef964e43cf2a09b8"
+      },
+      {
+        "path": "graphics/entity/workbench-v8-one-tile/idle-west.png",
+        "sha256": "99fbe871d27ddb4e0d04b89b16d84e77165954f7041bf3b30e1f5c24d152aecb"
+      },
+      {
+        "path": "graphics/entity/workbench-v8-one-tile/working-east.png",
+        "sha256": "396db3cd6893918c989a1ea037ddc14f3c661d16a46412cc9f3ae217cb85c04b"
+      },
+      {
+        "path": "graphics/entity/workbench-v8-one-tile/working-north.png",
+        "sha256": "9389410a3e570ce63f19fdfd41774789c1f9bec5a8145e04f90a63a9f0434cdd"
+      },
+      {
+        "path": "graphics/entity/workbench-v8-one-tile/working-south.png",
+        "sha256": "c55ccac3c3b062b4f071b6a5bc17517b5a92290d6333e4d4f31c13f63203c91f"
+      },
+      {
+        "path": "graphics/entity/workbench-v8-one-tile/working-west.png",
+        "sha256": "761d087b84f6e788e51e0f78da0b24780cf5d17db049b67819d622ef2ec6ecf0"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/east-idle-144.png",
+        "sha256": "72ca5dceae44db25b786e5c9aff1e3ac1b08e2746ae33d7253fb48455cc0c0ad"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/east-idle-288.png",
+        "sha256": "5daceefa23745670a88a4688d23fe7d1b0d785d6f30f0632390023b82d1e099e"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/east-underwater-144.png",
+        "sha256": "b0fd230293e2155317dc3c679f59c2e634d10b3f7a66c6855559b0709f4306a7"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/east-underwater-288.png",
+        "sha256": "003dfb6e30350ee271937d6eb774423b3b4afb62822cf93447c5bb5ba903f91c"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/east-working-144.png",
+        "sha256": "695f1a1ec0ec02da80ba6607884b1efdac3f1ba356ef2e593218f619dd8112b7"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/east-working-288.png",
+        "sha256": "9bbdc8039da575cc2ee338280502429b861d099663285258ff76961f99594c09"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/north-idle-144.png",
+        "sha256": "1243f25772208d4ab2bbb0ffff55c5e3098b7f622e2d21136d46974c10abd750"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/north-idle-288.png",
+        "sha256": "bab4cb376fd9bdd5fcfcbcfb5ff0179bf69603cc66414272f927c62e6b2baa71"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/north-underwater-144.png",
+        "sha256": "91105d166f4d57fecf5e8b971f7bcf95f58997b4ca24f72610b17e3b6b9dad79"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/north-underwater-288.png",
+        "sha256": "c295b85a7111f08ff8ade406ef5d2835f421d23bfc0160143ae92306a97ab9b7"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/north-working-144.png",
+        "sha256": "8be7a8ad2154ddab49c0a0f94039b9e54d6709d3b097c74e7658d474a91520eb"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/north-working-288.png",
+        "sha256": "275b1b2100144f63955ebdf97ccfa774388406ef3fe1e41a6df9db4a6f783c43"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/south-idle-144.png",
+        "sha256": "87ffda48cadcf483c8f4a2d2ea445d3549908eda99a3ba4499395b5275302b87"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/south-idle-288.png",
+        "sha256": "93d4436025ab2c029c62fa2a061647ab3e646e9e7ef0649f5649882ed76a39ad"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/south-underwater-144.png",
+        "sha256": "261a6cd4a5345046eeca02f948f08e2ab5e97d53e681d3ba2afebac4b4f73a09"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/south-underwater-288.png",
+        "sha256": "43b7808c22bef8f623513a047b51ce48e355683436161365b7b5058c6512d02c"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/south-working-144.png",
+        "sha256": "fea89b141f082bcc5dd8f79bfdbbc7825305f07102079bec96343feeb0d291d2"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/south-working-288.png",
+        "sha256": "17653c24aa596e6eef5e711433b070c31323976a5a505c194c54d5e6cfe117d4"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/west-idle-144.png",
+        "sha256": "4fcbc405af2ce897f4d7d21fab7813c6dc1e48383b8643532462e577b6654f20"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/west-idle-288.png",
+        "sha256": "e533a6da925ef18f0593f8b76794089d4f154511dd59acaae625eb00bd40b654"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/west-underwater-144.png",
+        "sha256": "1f2225f660d7248d13ee5854c87609e760e58aa1282e92f6f378aae85095fb67"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/west-underwater-288.png",
+        "sha256": "c8cafe19e8a0ac249c17b5ff027545e187fd47ff001f27d4507035c72adbfa2e"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/west-working-144.png",
+        "sha256": "21e7e7079c8f8ba1f93fffc9442024d3fc4983bd6a12639f47360213082e2b60"
+      },
+      {
+        "path": "graphics/entity/wooden-offshore-pump/v12/west-working-288.png",
+        "sha256": "fbcc244a70b028e0871ecf91802d7fb07fec0e3478153a7c90d1442bf273435b"
+      }
+    ]
+  },
+  "errors": [],
+  "limits": [
+    "This is a current-byte/receipt/scope audit, not a rerun of every old simulation. Existing native test source, raw reports and actual saves remain the operational evidence.",
+    "Each field is scoped: labs exercise19 real research combinations/all14 inputs, not all75 eligible technologies; basin is passive contents-driven storage; wheel is shoreline extraction; nonexistent fuels/ports/outputs are not invented.",
+    "Individual owner approval, full installed user-mod-pack testing and Mod Portal publication are not claimed.",
+    "Accepted Beach Pump appearance is deferred. Legacy condenserV1 remains held and is not promoted by delivery of distinct actual condenserV2.",
+    "No goal completion is claimed while authorized Tech-Priests buildings/engines/dropped turrets remain."
+  ],
+  "additional_preservation_observation": {
+    "baseline_ref": "180b24a221b1b24805dd63d27bb17ba99ee0cd8f",
+    "observed_changed_paths": [],
+    "scope": "git diff --name-only baseline HEAD on the explicitly named campfire/clay-pit/pit-kiln/lumberyard/workbench/cooking-fire/solar-boiler/beach-pump/wooden-offshore-pump/primitive-steam-powered-pump/fish-pond model subtrees returned no changes. Active sprite preservation independently hashes68 original accepted images."
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "schema": "tanks.original-eleven.canonical-bindings.v1",
+  "canonical_repository": "mrcalzon02/Tech-Priests",
+  "registry": "tools/fmpl/FMPL.json",
+  "verified_registry_ref": "b5183ef3b570bc49194d1655e9f5e0541ab658b4",
+  "source": "Exact selected source/runtime bindings from the pinned canonical registry readback; no new model promotion inferred.",
+  "models": [
+    {
+      "id": "tanks-steam-compressor-v2",
+      "status": "game-sprites-installed-with-specific-native-checks",
+      "source": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "180b24a221b1b24805dd63d27bb17ba99ee0cd8f",
+        "path": "models\\island-survival\\steam-compressor\\candidates\\v2-barrel02\\steam-compressor-v2.blend",
+        "sha256": "d406d9532bf85f08b49b2a9edb9f4e1a6d3bdd3f33384601b72e08f21439512f"
+      },
+      "runtime": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "180b24a221b1b24805dd63d27bb17ba99ee0cd8f",
+        "path": "models\\island-survival\\steam-compressor\\candidates\\v2-barrel02\\steam-compressor-v2.glb",
+        "sha256": "92bdbb31538191458c20c598b19e9d8626c1b5030d5c645724a62ed1e1b65e44"
+      }
+    },
+    {
+      "id": "tanks-wood-basin-v1",
+      "status": "game-sprites-installed-with-specific-native-checks",
+      "source": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "02551985bc893e674fd630de97b604a5ba41d44c",
+        "path": "models\\island-survival\\wood-basin\\candidates\\v1-production02\\wood-basin-v1.blend",
+        "sha256": "327f82edc225bfa5f108a22b6d3512121d8ce1bdc374e69b077f219ed5bf7556"
+      },
+      "runtime": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "02551985bc893e674fd630de97b604a5ba41d44c",
+        "path": "models\\island-survival\\wood-basin\\candidates\\v1-production02\\wood-basin-v1.glb",
+        "sha256": "0a29c95b72593576bb6ec64100ab810b730de962bf03afa55c74d188ac7ae20c"
+      }
+    },
+    {
+      "id": "tanks-quarry-v5",
+      "status": "game-sprites-installed-with-specific-native-checks",
+      "source": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "64d8b25950c2c3d5d2d1808a1072fc7d013b4be6",
+        "path": "models/island-survival/quarry/candidates/v5-rooted04/quarry-v5.blend",
+        "sha256": "b169bda724b6d5ca39fe5a7d3c03e576c266b1c7a33b618a6563a4a8490a1439"
+      },
+      "runtime": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "64d8b25950c2c3d5d2d1808a1072fc7d013b4be6",
+        "path": "models/island-survival/quarry/candidates/v5-rooted04/quarry-v5.glb",
+        "sha256": "44121a15d5d9df6fc9cb19f992487f1b3910a9c68cdea56349504984ee0a41f5"
+      }
+    },
+    {
+      "id": "tanks-shaler-v2",
+      "status": "game-sprites-installed-with-specific-native-checks",
+      "source": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "47a3b4351757c1e73a2624f7e5b57ee39828b61f",
+        "path": "models/island-survival/shaler/candidates/v2-mechanisms02/shaler-v2.blend",
+        "sha256": "cce8f253c696ec3cf4db7825b599746e91ca79188de9f52c02641417e70a843d"
+      },
+      "runtime": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "47a3b4351757c1e73a2624f7e5b57ee39828b61f",
+        "path": "models/island-survival/shaler/candidates/v2-mechanisms02/shaler-v2.glb",
+        "sha256": "e25979ae250bd788be7cf2f1ec0d0b0b7042085a54a5b5a6b19cda82ceaa230e"
+      }
+    },
+    {
+      "id": "tanks-calcifier-v2",
+      "status": "game-sprites-installed-with-specific-native-checks",
+      "source": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "e61d48ca5f1bec5ba4cc7c168fe1cffe0cae7f4b",
+        "path": "models/island-survival/calcifier/candidates/v2-sockets08/calcifier-v2.blend",
+        "sha256": "4e17a54ea3f6cd17048535a62919cc79baab86944d7f19afec30b1b61bccbde8"
+      },
+      "runtime": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "e61d48ca5f1bec5ba4cc7c168fe1cffe0cae7f4b",
+        "path": "models/island-survival/calcifier/candidates/v2-sockets08/calcifier-v2.glb",
+        "sha256": "94efde73d3b39ea83a5670bb1e726e6aa535b5e13d159b17a8ebae37e2e54d52"
+      }
+    },
+    {
+      "id": "tanks-thinking-hut-v1",
+      "status": "game-sprites-installed-with-specific-native-checks",
+      "source": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "1b39f0ee1c66d5375d92aac621d37e85e2fa6181",
+        "path": "models/island-survival/thinking-hut/candidates/v1-lantern08/thinking-hut-v1.blend",
+        "sha256": "4c7dee2ad5124ea1c078b0f4f997c994b8d971d9395f86b083254f3bc9e75b13"
+      },
+      "runtime": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "1b39f0ee1c66d5375d92aac621d37e85e2fa6181",
+        "path": "models/island-survival/thinking-hut/candidates/v1-lantern08/thinking-hut-v1.glb",
+        "sha256": "12d9d0039544f95d5a5fc77be20e85da7277a261d110c50f1a80c9b86224b857"
+      }
+    },
+    {
+      "id": "tanks-pondering-hovel-v1",
+      "status": "game-sprites-installed-with-specific-native-checks",
+      "source": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "753363eef45d3a0e9b264aed954b12157427f7ba",
+        "path": "models/island-survival/pondering-hovel/candidates/v1-production03/pondering-hovel-v1.blend",
+        "sha256": "1c1221819d9b8f1b7ed391ba46bdf9bcac1f2788a297dccbefa68d91c52407a3"
+      },
+      "runtime": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "753363eef45d3a0e9b264aed954b12157427f7ba",
+        "path": "models/island-survival/pondering-hovel/candidates/v1-production03/pondering-hovel-v1.glb",
+        "sha256": "c8a553cc1f580b5a0bc12c50356c61a40e54ca9fa5309f938b18196c829375e1"
+      }
+    },
+    {
+      "id": "tanks-stone-water-wheel-v3",
+      "status": "game-sprites-installed-with-specific-native-checks",
+      "source": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "4e8811e45fb3de8e866a1ef7a7a1c63bfb257252",
+        "path": "models/island-survival/stone-water-wheel/candidates/v3-production04/stone-water-wheel-v3.blend",
+        "sha256": "e9aa7f71dad7624b0e6650a77df182f102a1640515969a986be168c07bd189f4"
+      },
+      "runtime": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "4e8811e45fb3de8e866a1ef7a7a1c63bfb257252",
+        "path": "models/island-survival/stone-water-wheel/candidates/v3-production04/stone-water-wheel-v3.glb",
+        "sha256": "5f1f104afb9e76859dc1de287efa7ad3fde784a42288f92c47793d56109b5b90"
+      }
+    },
+    {
+      "id": "tanks-tank-ammo-assembler-v1",
+      "status": "game-sprites-installed-with-specific-native-checks",
+      "source": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "60007499d2734b15387e83fb1c8e483d9f35d328",
+        "path": "models/island-survival/tank-ammo-assembling-machine/candidates/v1-production03/tank-ammo-assembler-v1.blend",
+        "sha256": "5bca56a8cee03867098e09ce2f14072c0b437af4010096569ee0822bc1c0945d"
+      },
+      "runtime": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "60007499d2734b15387e83fb1c8e483d9f35d328",
+        "path": "models/island-survival/tank-ammo-assembling-machine/candidates/v1-production03/tank-ammo-assembler-v1.glb",
+        "sha256": "c169d83bbfaf61c56d35b9c48ff39bac303d9636e8c21133c94cf3185a8578a5"
+      }
+    },
+    {
+      "id": "tanks-tank-assembler-v1",
+      "status": "game-sprites-installed-with-specific-native-checks",
+      "source": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "58d9687ef68cc7cda63d8d22ea6dadecc0986397",
+        "path": "models/island-survival/tank-assembling-machine/candidates/v1-production10/tank-assembler-v1.blend",
+        "sha256": "784954f4bb522563fe64b9e9308d04e4a505521cd5e3e3c6b10d96b66bedb587"
+      },
+      "runtime": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "58d9687ef68cc7cda63d8d22ea6dadecc0986397",
+        "path": "models/island-survival/tank-assembling-machine/candidates/v1-production10/tank-assembler-v1.glb",
+        "sha256": "d68f6b35bbb7bc94708ef7861605a62e6535aefff23f12a8d5954bb93dec8e43"
+      }
+    },
+    {
+      "id": "tanks-steam-condenser-v2",
+      "status": "game-sprites-installed-with-specific-native-checks",
+      "source": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "93e4d67c424e2d0afdf57646ac649fcb4af653e3",
+        "path": "models/island-survival/steam-condenser/candidates/v2-production05/steam-condenser-v2.blend",
+        "sha256": "f16cc807dd96b9fe901410fd214657dc913027b959e27e377e5ab2f92cde1526"
+      },
+      "runtime": {
+        "repository": "mrcalzon02/Tanks-for-bob-Fork",
+        "ref": "93e4d67c424e2d0afdf57646ac649fcb4af653e3",
+        "path": "models/island-survival/steam-condenser/candidates/v2-production05/steam-condenser-v2.glb",
+        "sha256": "ac882b649abd69772e6db8ceb6684f2db011bba0cd899bb8bb771cecd23907a5"
+      }
+    }
+  ]
+}
