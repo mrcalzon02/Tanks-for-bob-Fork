@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-17",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "source_commit": "e61d48ca5f1bec5ba4cc7c168fe1cffe0cae7f4b",
+  "remote_main_verified_at_source_commit": "e61d48ca5f1bec5ba4cc7c168fe1cffe0cae7f4b",
+  "pinned_remote_model_manifest_readback_verified": true,
+  "source_sha256": "4e17a54ea3f6cd17048535a62919cc79baab86944d7f19afec30b1b61bccbde8",
+  "runtime_sha256": "94efde73d3b39ea83a5670bb1e726e6aa535b5e13d159b17a8ebae37e2e54d52",
+  "staged_binary_bytes_verified": true,
+  "canonical_fmpl": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "372ee9db56ac05b0bb2134a2c02d0a287d1351a0",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-calcifier-v2",
+    "source_commit": "e61d48ca5f1bec5ba4cc7c168fe1cffe0cae7f4b",
+    "remote_readback_verified": true
+  },
+  "delegated_operational_review": true,
+  "owner_visual_approved": false,
+  "full_user_mod_pack_installation": false
+}

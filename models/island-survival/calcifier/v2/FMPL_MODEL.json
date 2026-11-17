@@ -1,7 +1,7 @@
 {
   "schema": "fmpl.model-delivery.v1",
   "id": "tanks-calcifier-v2",
-  "status": "operational-native-integrated-delegated-review-remote-pending",
+  "status": "operational-native-integrated-delegated-review",
   "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
   "prototype": {
     "type": "assembling-machine",
@@ -44,5 +44,12 @@
   "actual_pipe_joint_closeups": 4,
   "native_working_video_frames": 16,
   "evidence": "docs/art/calcifier-v2",
-  "central_library_registration": "pending verified Tanks source push"
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "372ee9db56ac05b0bb2134a2c02d0a287d1351a0",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-calcifier-v2",
+    "source_commit": "e61d48ca5f1bec5ba4cc7c168fe1cffe0cae7f4b",
+    "remote_readback_verified": true
+  }
 }

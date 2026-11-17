@@ -1,6 +1,15 @@
 {
-  "status": "delegated-operational-native-reviewed-delivery-pending",
+  "status": "delegated-operational-native-integrated-remote-verified",
   "owner_visual_approved": false,
   "current_candidate": "v2-sockets08",
-  "notes": "Earlier rough machinery, straight drive-arm collisions and undersized ports are held. Only v2-sockets08 is installed."
+  "notes": "Earlier rough machinery, straight drive-arm collisions and undersized ports are held. Only v2-sockets08 is installed.",
+  "source_commit": "e61d48ca5f1bec5ba4cc7c168fe1cffe0cae7f4b",
+  "central_library_registration": {
+    "repository": "mrcalzon02/Tech-Priests",
+    "ref": "372ee9db56ac05b0bb2134a2c02d0a287d1351a0",
+    "registry": "tools/fmpl/FMPL.json",
+    "model_id": "tanks-calcifier-v2",
+    "source_commit": "e61d48ca5f1bec5ba4cc7c168fe1cffe0cae7f4b",
+    "remote_readback_verified": true
+  }
 }

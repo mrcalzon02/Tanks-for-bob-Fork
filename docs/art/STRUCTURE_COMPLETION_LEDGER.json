@@ -289,21 +289,29 @@
       "id": "calcifier",
       "name": "Calcifier",
       "revision": "V2 offset drive and full-size registered sockets",
-      "status": "operational_native_verified_delivery_pending",
+      "status": "accepted_integrated",
       "priority": 19,
-      "next": "Commit/push source, sprites and native proof; verify canonical FMPL and remote delivery.",
+      "next": "Preserve operational Calcifier, rigid offset drive, fitted circuits, full-size registered sockets and source/export/native evidence.",
       "evidence": [
         "models/island-survival/calcifier/v2/FMPL_MODEL.json",
         "docs/art/calcifier-v2",
         "models/island-survival/calcifier/candidates/v2-sockets08/clearance-review.json"
       ],
-      "fmpl_delivery": "pending_source_export_inspection_registration",
-      "done": false,
+      "fmpl_delivery": {
+        "repository": "mrcalzon02/Tech-Priests",
+        "ref": "372ee9db56ac05b0bb2134a2c02d0a287d1351a0",
+        "registry": "tools/fmpl/FMPL.json",
+        "model_id": "tanks-calcifier-v2",
+        "source_commit": "e61d48ca5f1bec5ba4cc7c168fe1cffe0cae7f4b",
+        "remote_readback_verified": true
+      },
+      "done": true,
       "owner_corrections": [
         "Needs better pipe fittings and more mechanical greebles; visually explain the remaining crafting operations using attached machines/boxes and piston linkages.",
         "Check all added components through the animated cycle; replace the colliding shaker-to-wheel rail with a rigid offset drive.",
         "Enlarge and correctly position image pipe attachments against real player-grid pipes in every direction."
-      ]
+      ],
+      "delivery_commit": "e61d48ca5f1bec5ba4cc7c168fe1cffe0cae7f4b"
     },
     {
       "id": "thinking-hut",
@@ -332,7 +340,7 @@
       "done": false
     }
   ],
-  "active_structure": "calcifier",
+  "active_structure": "thinking-hut",
   "owner_corrections": [
     "2026-11-15: V1 Stone Water Wheel visual rejected as rough; do not promote.",
     "2026-11-15: Any retained lifting buckets must stay upright.",
@@ -340,5 +348,5 @@
     "2026-11-16: Intended compressor source is steam-condenser/v1/build_steam_condenser_v1.py and its saved barrel/frame candidate. Tech-Priests hydrogen compressor is the wrong machine; derivative removed from active integration.",
     "2026-11-16: Quarry V1 is still ultra rough; a quarry is complex and needs detail. Preserve its useful mechanism and refine construction, excavation and machinery before promotion."
   ],
-  "production_state": "active; Calcifier V2 operational with full-cycle source/export clearance checks and full-size registered pipe joints; remote delivery pending"
+  "production_state": "active; corrected compressor, Wood Basin, Quarry, Shaler and Calcifier delivered; establish actual Thinking Hut contract next"
 }

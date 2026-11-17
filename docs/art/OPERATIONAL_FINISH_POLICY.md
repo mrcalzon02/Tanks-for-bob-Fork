@@ -39,3 +39,20 @@ more pipes, hoses, gears, machinery and moving piston arms. The brick chimney
 also needs a visible continuous foundation; it cannot hang off the retort.
 Keep the working V1 study held. Refine supported, mechanically linked process
 machinery and actual pipe circuits before delegated operational delivery.
+
+## Calcifier corrections — 2026-11-17
+
+Explain the actual additional recipes with attached process machinery and
+proper pipe fittings. Added detail must clear both fixed construction and
+every moving assembly throughout the cycle. Moving a straight rail from the
+shaker to a wheel is insufficient if it crosses another mechanism; use a
+structural offset drive around the swept volumes. Preserve attached endpoints,
+guide fits and load paths. Retain raw contact evidence and distinguish intended
+joint/gear/belt engagement from unwanted intersections.
+
+Visible pipe mouths must be large enough for ordinary Factorio pipes and meet
+them at the actual player-grid endpoints in all supported directions. Native
+connectivity alone does not prove sprite alignment. Check placed-pipe close
+views, full-size reducers/flanges and native sprite registration, without moving
+gameplay ports or inventing new processing outputs. These corrections do not
+reopen the other accepted machines for cosmetic rebuilding.
