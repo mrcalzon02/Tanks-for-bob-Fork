@@ -1,0 +1,23 @@
+{
+  "working": {
+    "sampled_opaque_upper_pixels": 11547,
+    "changed_over_005": 340,
+    "maximum": 0.4549019932746887,
+    "mean": 0.006437459494918585
+  },
+  "disabled": {
+    "sampled_opaque_upper_pixels": 11547,
+    "changed_over_005": 0,
+    "maximum": 0.0,
+    "mean": 0.0
+  },
+  "full_output": {
+    "sampled_opaque_upper_pixels": 11547,
+    "changed_over_005": 0,
+    "maximum": 0.0,
+    "mean": 0.0
+  },
+  "scope": "Matched opaque source-alpha intersection across all 32 phases, upper machinery only; excludes pipe body, fixtures and background.",
+  "source_pixel_count": 11547,
+  "passed": true
+}

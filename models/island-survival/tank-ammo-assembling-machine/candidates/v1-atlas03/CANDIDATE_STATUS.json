@@ -1,0 +1,1 @@
+{"status":"held_native_idle_layout_mismatch","reason":"Factorio assembler requires the idle animation to have matching 32 frame count. Four genuine idle poses must repeat explicitly; source/working captures remain valid."}

@@ -1,0 +1,250 @@
+{
+  "genuine_factorio_client_capture": true,
+  "windows_session": 1,
+  "screenshots": [
+    {
+      "file": "north-working.png",
+      "sha256": "2b30bf79a6173a80cff065bf4d4b0543f730f0a36ef7b3d0c198124b8a3795ef"
+    },
+    {
+      "file": "east-working.png",
+      "sha256": "db5614499ffbc05ecb346e278f37884aa7c2585b76cb29b1250c1a7a395114da"
+    },
+    {
+      "file": "south-working.png",
+      "sha256": "385571f6af630955649c844cb4fbacc75b8eb1a28ca46c9a88d779798b29737d"
+    },
+    {
+      "file": "west-working.png",
+      "sha256": "1f348b0061a7df0bd6a8d49d2cc15d0fb80c2d6b46144b1f09782949307b0d00"
+    },
+    {
+      "file": "north-input-pipe-close.png",
+      "sha256": "0e11210a462b7fd27f27d52b1d9c3ca1b889c34722498e0d80ef663756055840"
+    },
+    {
+      "file": "north-output-pipe-close.png",
+      "sha256": "37a3729c2224af5a009c5489b6ebcc1f1405906a6c45ed54ca5cce0c90dfed2a"
+    },
+    {
+      "file": "east-input-pipe-close.png",
+      "sha256": "5ae8cd396e2df9b3eb8046de1bc4de74697d6b4360a57dd8c2e5f978005097e2"
+    },
+    {
+      "file": "east-output-pipe-close.png",
+      "sha256": "6fd91964cad5f6e1f47870a12b1f7b52c83c47b82567c55a8dd25b405411d8c9"
+    },
+    {
+      "file": "south-input-pipe-close.png",
+      "sha256": "c489fbdd050f3e0a228a1fe2324bd3208a42bfee39a20cb800ce0e76076920ec"
+    },
+    {
+      "file": "south-output-pipe-close.png",
+      "sha256": "7493fedda9ca06be89c8ffef508928fe5aa807614c71132f60e7e3c0acbaeef4"
+    },
+    {
+      "file": "west-input-pipe-close.png",
+      "sha256": "db780d9eb1970ea9bd290369da451e53e0333eb423252382871235012dff25ea"
+    },
+    {
+      "file": "west-output-pipe-close.png",
+      "sha256": "26cef1cded75e8dd72d85108d6662b1168eece3af8668a927f8c769c1099f4af"
+    },
+    {
+      "file": "no-power.png",
+      "sha256": "dd637fb122b47475187d065f16f31413ed0f0c1fe27c4fd4d0a69b2b2b2ced45"
+    },
+    {
+      "file": "no-fluid.png",
+      "sha256": "76814d895c27938ca24f3177d1575f288602c6ac2c1f95f0fc92ea85648835f6"
+    },
+    {
+      "file": "idle.png",
+      "sha256": "c214483eb382a65a4013d6a2ffcc76308c07889b1b07f222202072bfe9d3b68a"
+    },
+    {
+      "file": "blocked-item-a.png",
+      "sha256": "d9343dbc076eefcb78dd2bf8fc99baf16bd4095d60d1cc0ef2e0b9fd6a2bf804"
+    },
+    {
+      "file": "blocked-item-b.png",
+      "sha256": "d9343dbc076eefcb78dd2bf8fc99baf16bd4095d60d1cc0ef2e0b9fd6a2bf804"
+    },
+    {
+      "file": "blocked-fluid.png",
+      "sha256": "e0553d7c4dcb863cf634c1d4092e48270f876b27252eab407aa2e5d7f167062b"
+    },
+    {
+      "file": "stopped-a.png",
+      "sha256": "f9f61113909718fb1b1743b33ae675947996398ffe9a080389abe469d6588d66"
+    },
+    {
+      "file": "stopped-b.png",
+      "sha256": "f9f61113909718fb1b1743b33ae675947996398ffe9a080389abe469d6588d66"
+    },
+    {
+      "file": "power-restored.png",
+      "sha256": "305ee698f67cc1611df0b149d952940acbdaefcb14df5139c067023f6b029ed7"
+    },
+    {
+      "file": "fluid-restored.png",
+      "sha256": "2566f248c73a05482ff53067ec05a84fed1576f0f21e932ae5aae96c6a87183d"
+    },
+    {
+      "file": "item-output-drained.png",
+      "sha256": "d9343dbc076eefcb78dd2bf8fc99baf16bd4095d60d1cc0ef2e0b9fd6a2bf804"
+    },
+    {
+      "file": "fluid-output-drained.png",
+      "sha256": "e0553d7c4dcb863cf634c1d4092e48270f876b27252eab407aa2e5d7f167062b"
+    },
+    {
+      "file": "restarted.png",
+      "sha256": "d54ea77492f6c5fa888e3b89d44f0a4e3b817bac1a24463447a54215ecc7366e"
+    },
+    {
+      "file": "coke-output-complete.png",
+      "sha256": "4d120faa3f2bb2bd04d67429e74949a366949aec64d13f15eff81a10870b6da9"
+    },
+    {
+      "file": "long-wmd-complete.png",
+      "sha256": "fc259fdce58618c0047def52d3e20c6dc464ac23905c1c31c980ec728c23c60a"
+    },
+    {
+      "file": "long-artillery-complete.png",
+      "sha256": "d11419d2f295ae307edab21ef95a91885e09c5bbdc0430258444a3978dfcb753"
+    },
+    {
+      "file": "north-motion-00.png",
+      "sha256": "2b30bf79a6173a80cff065bf4d4b0543f730f0a36ef7b3d0c198124b8a3795ef"
+    },
+    {
+      "file": "north-motion-01.png",
+      "sha256": "2b30bf79a6173a80cff065bf4d4b0543f730f0a36ef7b3d0c198124b8a3795ef"
+    },
+    {
+      "file": "north-motion-02.png",
+      "sha256": "0a08e69cbd41cfb832110c3342c263769e8f2d9e5ce4830668990e08be7548f2"
+    },
+    {
+      "file": "north-motion-03.png",
+      "sha256": "0a08e69cbd41cfb832110c3342c263769e8f2d9e5ce4830668990e08be7548f2"
+    },
+    {
+      "file": "north-motion-04.png",
+      "sha256": "c49a92799911a4707703e4e8c7c701556da74aa91495893d59b36c79a7174c06"
+    },
+    {
+      "file": "north-motion-05.png",
+      "sha256": "c49a92799911a4707703e4e8c7c701556da74aa91495893d59b36c79a7174c06"
+    },
+    {
+      "file": "north-motion-06.png",
+      "sha256": "c9bc143671810283c8968415f17ad51b800652aa33982f1193554cf61ca9924d"
+    },
+    {
+      "file": "north-motion-07.png",
+      "sha256": "c9bc143671810283c8968415f17ad51b800652aa33982f1193554cf61ca9924d"
+    },
+    {
+      "file": "north-motion-08.png",
+      "sha256": "e89c86d415026eea4ea7dde675d1a31f53e5b1306f46236da85fa603e3ae51af"
+    },
+    {
+      "file": "north-motion-09.png",
+      "sha256": "e89c86d415026eea4ea7dde675d1a31f53e5b1306f46236da85fa603e3ae51af"
+    },
+    {
+      "file": "north-motion-10.png",
+      "sha256": "e8fb2998d613a08f318a1d65331f123ca62585004cb1b6b58779aa84efa4e0b7"
+    },
+    {
+      "file": "north-motion-11.png",
+      "sha256": "e8fb2998d613a08f318a1d65331f123ca62585004cb1b6b58779aa84efa4e0b7"
+    },
+    {
+      "file": "north-motion-12.png",
+      "sha256": "0553e56a5d978f0e800676f71a9d560df0a87579e8694343884f49e0dba0cd24"
+    },
+    {
+      "file": "north-motion-13.png",
+      "sha256": "0553e56a5d978f0e800676f71a9d560df0a87579e8694343884f49e0dba0cd24"
+    },
+    {
+      "file": "north-motion-14.png",
+      "sha256": "ee3e46363b1cd234d4342884e93b11c9a6fb7db717aaf426f39a1e5d8bb13a6e"
+    },
+    {
+      "file": "north-motion-15.png",
+      "sha256": "ee3e46363b1cd234d4342884e93b11c9a6fb7db717aaf426f39a1e5d8bb13a6e"
+    },
+    {
+      "file": "north-motion-16.png",
+      "sha256": "fb806f646c4a6131b55351b1268a5fb2eff56375b1bee1d87ba7bd4159d4738d"
+    },
+    {
+      "file": "north-motion-17.png",
+      "sha256": "fb806f646c4a6131b55351b1268a5fb2eff56375b1bee1d87ba7bd4159d4738d"
+    },
+    {
+      "file": "north-motion-18.png",
+      "sha256": "8ebd3da40624e5ff2b86f975d65f6e1bd988cfff7cc2b5d935496442b3cc4514"
+    },
+    {
+      "file": "north-motion-19.png",
+      "sha256": "8ebd3da40624e5ff2b86f975d65f6e1bd988cfff7cc2b5d935496442b3cc4514"
+    },
+    {
+      "file": "north-motion-20.png",
+      "sha256": "dd7c33bed65f18f8aa827272d928586e03779a33a9057145e4287b15a3bd3eab"
+    },
+    {
+      "file": "north-motion-21.png",
+      "sha256": "dd7c33bed65f18f8aa827272d928586e03779a33a9057145e4287b15a3bd3eab"
+    },
+    {
+      "file": "north-motion-22.png",
+      "sha256": "1012089240b2a78a605aa2cb58cdbf24797649db139d9b5ae9262989ea5f0bd5"
+    },
+    {
+      "file": "north-motion-23.png",
+      "sha256": "1012089240b2a78a605aa2cb58cdbf24797649db139d9b5ae9262989ea5f0bd5"
+    },
+    {
+      "file": "north-motion-24.png",
+      "sha256": "4d120faa3f2bb2bd04d67429e74949a366949aec64d13f15eff81a10870b6da9"
+    },
+    {
+      "file": "north-motion-25.png",
+      "sha256": "4d120faa3f2bb2bd04d67429e74949a366949aec64d13f15eff81a10870b6da9"
+    },
+    {
+      "file": "north-motion-26.png",
+      "sha256": "42804c1da06a99788a9cec7d82efc8851b8033144d824a7bacddc80bf99dd28f"
+    },
+    {
+      "file": "north-motion-27.png",
+      "sha256": "42804c1da06a99788a9cec7d82efc8851b8033144d824a7bacddc80bf99dd28f"
+    },
+    {
+      "file": "north-motion-28.png",
+      "sha256": "393d2e7153acc7df68ba88e771373b957434bf5a20def5e01db328f3b897cfb5"
+    },
+    {
+      "file": "north-motion-29.png",
+      "sha256": "393d2e7153acc7df68ba88e771373b957434bf5a20def5e01db328f3b897cfb5"
+    },
+    {
+      "file": "north-motion-30.png",
+      "sha256": "2c1ae45d1919c4a22a7c64626a9c3d5b7854ac2d825b5b7cb5bcb6cea4d9911c"
+    },
+    {
+      "file": "north-motion-31.png",
+      "sha256": "2c1ae45d1919c4a22a7c64626a9c3d5b7854ac2d825b5b7cb5bcb6cea4d9911c"
+    }
+  ],
+  "visual_review_passed": false,
+  "completed_save": [
+    "C:\\Users\\Admin\\Documents\\ChatGPT\\Tech priests\\tanks-structure-production\\build\\ammo-assembler-v1-client03\\runtime\\saves\\_autosave-ammo-assembler-complete-client.zip"
+  ]
+}

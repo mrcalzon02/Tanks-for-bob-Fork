@@ -201,16 +201,15 @@
     {
       "id": "tank-ammo-assembling-machine",
       "name": "Tank Ammunition Assembler",
-      "revision": "V1 current contract and exact eight-group starter preserved",
-      "status": "in_progress",
+      "revision": "V1 electric press/packing and closed wood-oil process works",
+      "status": "delivery_pending",
       "priority": 14,
-      "next": "Native 46 real recipes selectable; electric 175kW/one module, four facing placement and eight sequential input/output grid joints verified. Refine preserved starter for all actual component/munition/reprocessing/wood-oil operations, then complete full delivery.",
+      "next": "Current source/export, all 46 recipes/four directions, 20 grid joints, native power/blocked/stop/reload and real building craft pass; finish remote source and canonical FMPL registration.",
       "evidence": [
-        "models/island-survival/designs.json",
-        "models/island-survival/tank-ammo-assembling-machine/v1/contract.json",
-        "models/island-survival/tank-ammo-assembling-machine/v1/WORK_ORDER.md"
+        "models/island-survival/tank-ammo-assembling-machine/v1/FMPL_MODEL.json",
+        "docs/art/tank-ammo-assembler-v1"
       ],
-      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "fmpl_delivery": "pending_final_source_publication_and_canonical_registration",
       "done": false
     },
     {

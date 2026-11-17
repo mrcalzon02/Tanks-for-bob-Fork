@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "operated_save_sha256": "b78238921e1c13368c8a7decddc3820ff38d63a7bbaa80143eb9bab4c8217d1a",
+  "save_after_all_46_recipes_completed_in_all_four_directions": true,
+  "real_recipe_direction_cases": 184,
+  "machines": 208,
+  "ordinary_grid_connections": 20,
+  "reload_ticks": 300,
+  "checked": "All input/output inventories, actual fluid amounts/types/temperatures and pipe joints, recipe/progress/products-finished, electrical buffers, direction/disabled flags and actual base-assembler building output",
+  "freeze": "Native disabled_by_script, sixty game ticks settling, snapshot and completed graphical save; no crafting-speed or module overrides",
+  "fully_processed_powered_fluid_output_blocked_before_release": true
+}

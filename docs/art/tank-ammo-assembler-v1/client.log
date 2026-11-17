@@ -1,0 +1,128 @@
+   0.000 Initializing Steam API.
+   0.000 Error SteamContextInterface.cpp:60: Steam API could not be initialized: Could not determine Steam client install directory.
+   0.001 2026-11-17 03:41:43; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.001 Operating system: Windows 11 (build 26200) 
+   0.001 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\ammo-assembler-v1-client03\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\ammo-assembler-v1-client03\mods" "--load-game" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\ammo-assembler-v1-integrated02\ammo-assembler-v1-proof.zip" "--disable-audio" "--disable-migration-window" 
+   0.001 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/ammo-assembler-v1-client03/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/ammo-assembler-v1-client03/runtime [240673/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.008 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 18499/32526 MB, page: 26636/43790 MB, virtual: 4299/134217727 MB, extended virtual: 0 MB]
+   0.051 Display options: [FullScreen: false] [VSync: true] [UIScale: automatic (100.0%)] [Native DPI: true] [Screen: 4294967295] [Special: lmw] [Lang: en]
+   0.077 Video driver: windows
+   0.077 Available displays: 1
+   0.077  [0]: \\.\DISPLAY1 - NVIDIA GeForce RTX 5070 {0x05, [0,0], 3840x1080, 32bit, 144Hz}
+   0.094 [Direct3D11] Display: 4294967295, Output: 0, DisplayAdapter: 0, RenderingAdapter: -1; d3dcompiler_47.dll
+   0.270 Initialised Direct3D[0]: NVIDIA GeForce RTX 5070; id: 10de-2f04; driver: nvldumdx.dll 32.0.16.1664
+   0.270   D3D Feature Level: 11.1, DXGI 1.5+, SwapChain: 3,flip-discard,-,-,-,none
+   0.270   [Local Video Memory] Budget: 11175MB, CurrentUsage: 6MB, Reservation: 0/5715MB
+   0.270   [Non-Local Vid.Mem.] Budget: 15495MB, CurrentUsage: 0MB, Reservation: 0/7875MB
+   0.270   Tiled resources: Tier 2
+   0.270   Unified Memory Architecture: No
+   0.270   BGR 565 Supported: Yes
+   0.270   MaximumFrameLatency: 3, GPUThreadPriority: 0
+   0.270 Graphics settings preset: very-high
+   0.270   Dedicated video memory size 11943 MB
+   0.292 Desktop composition is active.
+   0.292 Graphics options: [Graphics quality: high] [Video memory usage: all] [DXT: high-quality]
+   0.292                   [Max threads (load/render): 32/28] [Max texture size: 0] [Tex.Stream.: false] [Rotation quality: normal] [Other: STDCWTl] [B:0,C:0,S:100]
+   0.292 Audio is disabled
+   0.349 Info ModManager.cpp:455: FeatureFlag: 
+   0.351 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.354 Loading mod core 0.0.0 (data.lua)
+   0.371 Loading mod base 2.1.24 (data.lua)
+   0.601 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.671 Loading mod ammo-assembler-v1-proof 0.0.1 (data.lua)
+   0.679 Loading mod base 2.1.24 (data-updates.lua)
+   0.684 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.691 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.752 Checksum for core: 3668028660
+   0.752 Checksum of base: 3864816957
+   0.752 Checksum of tanks_for_bob_fork: 689833862
+   0.752 Checksum of ammo-assembler-v1-proof: 1808649143
+   0.752 Checksum of ammo-assembler-v1-capture: 0
+   0.880 Prototype list checksum: 4080769483
+   0.904 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.904 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.906 Post-data load graphics options: [Light occlusion: no]
+   0.994 Crop bitmaps.
+   0.996 Parallel sprite loader initialized (threads: 28, bitmaps: 5004)
+   2.970 Initial atlas bitmap size is 16384
+   2.985 Created an atlas bitmap (size 16384x16384) [none]
+   2.986 Created an atlas bitmap (size 16384x15616) [none]
+   2.987 Created an atlas bitmap (size 16384x6976) [low-object]
+   2.987 Created an atlas bitmap (size 16384x12092) [corpse-decay]
+   2.987 Created an atlas bitmap (size 8192x4352) [decal]
+   2.987 Created an atlas bitmap (size 4096x1284) [none]
+   2.987 Created an atlas bitmap (size 8192x5632) [mipmap, linear-minification, linear-magnification, linear-mip-level]
+   2.987 Created an atlas bitmap (size 4096x1632) [smoke, mipmap, linear-minification, linear-magnification]
+   2.988 Created an atlas bitmap (size 16384x7968) [terrain, mipmap, linear-minification, linear-mip-level]
+   2.988 Created an atlas bitmap (size 4096x2800) [terrain-effect-map, mipmap, linear-minification, linear-mip-level]
+   2.988 Created an atlas bitmap (size 4096x3088) [mipmap]
+   2.988 Created an atlas bitmap (size 8192x2752) [icon, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level, ]
+   2.989 Created an atlas bitmap (size 16384x4080) [alpha-mask]
+   3.001 Created an atlas bitmap (size 16384x16384) [shadow, linear-magnification, alpha-mask]
+   3.001 Created an atlas bitmap (size 4096x2164) [shadow, linear-magnification, alpha-mask]
+   3.001 Created an atlas bitmap (size 8192x2352) [shadow, mipmap, linear-magnification, alpha-mask]
+   3.001 Created an atlas bitmap (size 4096x208) [icon-background, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level, ]
+   3.001 Loading 3D bitmaps: 5
+   3.005 Texture processor created (4096). GPU accelerated compression Supported: yes, Enabled: yes/yes. Test passed. YCoCgDXT PSNR: 35.83, BC3 PSNR: 33.82
+   3.029 Parallel sprite loader initialized (threads: 27, bitmaps: 5004)
+   6.685 Sprites loaded
+   6.697 Generated mipmaps (4) for atlas [2] of size 16384x6976   
+   6.708 Generated mipmaps (3) for atlas [6] of size 8192x5632   
+   6.719 Generated mipmaps (3) for atlas [7] of size 4096x1632   
+   6.729 Generated mipmaps (3) for atlas [8] of size 16384x7968   
+   6.740 Generated mipmaps (3) for atlas [9] of size 4096x2800   
+   6.780 Generated mipmaps (3) for atlas [10] of size 4096x3088   
+   6.791 Generated mipmaps (5) for atlas [11] of size 8192x2752   
+   6.801 Generated mipmaps (3) for atlas [15] of size 8192x2352   
+   6.820 Custom mipmaps uploaded (2428)
+   6.832 Estimated VRAM usage for textures: 1694.32 MB (Atlases: 1688.84 MB, Textures: 5.48 MB)
+   6.832 Real VRAM usage for the whole program: 1929.34 MB
+   6.833 Info GlobalContext.cpp:1347: Resetting config.
+   6.872 Factorio initialised
+   7.067 SteamAPI is not initialized
+   7.071 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\ammo-assembler-v1-integrated02\ammo-assembler-v1-proof.zip: 816387 bytes.
+   7.170 Loading level.dat: 1353755 bytes.
+   7.170 Info Scenario.cpp:152: Map version 2.1.24-1
+   7.195 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   7.198 Loading script.dat: 115825 bytes.
+   7.203 Checksum for script __level__/control.lua: 3368906707
+   7.206 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   7.213 Checksum for script __ammo-assembler-v1-proof__/control.lua: 2706714929
+   7.218 Checksum for script __ammo-assembler-v1-capture__/control.lua: 1379965367
+   7.309 Script @__ammo-assembler-v1-proof__/control.lua:53: AMMO_ASSEMBLER_V1_RELOAD_PASS complete=false stored_operation=false
+  15.397 Script @__ammo-assembler-v1-capture__/control.lua:17: AMMO_GUI_BLOCKED_OBSERVATION {"tick":480,"status":"full_output","is_crafting":true,"progress":1,"products_finished":0}
+  16.892 Script @__ammo-assembler-v1-capture__/control.lua:17: AMMO_GUI_BLOCKED_OBSERVATION {"tick":570,"status":"full_output","is_crafting":true,"progress":1,"products_finished":0}
+  22.388 Script @__ammo-assembler-v1-proof__/control.lua:57: AMMO_ASSEMBLER_V1_STOP_PASS
+  27.620 Script @__ammo-assembler-v1-proof__/control.lua:63: AMMO_ASSEMBLER_V1_FULL_FLUID_READY {"direction":0,"state":{"tick":9600,"status":"full_output","progress":1,"products_finished":0,"energy":3214.8148148148147811298258602619171142578125,"fluids":{"contents":{"crude-oil":1000},"pipes":[{"name":"crude-oil","amount":100,"temperature":25}]}}}
+  27.620 Script @__ammo-assembler-v1-proof__/control.lua:63: AMMO_ASSEMBLER_V1_FULL_FLUID_READY {"direction":4,"state":{"tick":9600,"status":"full_output","progress":1,"products_finished":0,"energy":3214.8148148148147811298258602619171142578125,"fluids":{"contents":{"crude-oil":1000},"pipes":[{"name":"crude-oil","amount":100,"temperature":25}]}}}
+  27.620 Script @__ammo-assembler-v1-proof__/control.lua:63: AMMO_ASSEMBLER_V1_FULL_FLUID_READY {"direction":8,"state":{"tick":9600,"status":"full_output","progress":1,"products_finished":0,"energy":3214.8148148148147811298258602619171142578125,"fluids":{"contents":{"crude-oil":1000},"pipes":[{"name":"crude-oil","amount":100,"temperature":25}]}}}
+  27.620 Script @__ammo-assembler-v1-proof__/control.lua:63: AMMO_ASSEMBLER_V1_FULL_FLUID_READY {"direction":12,"state":{"tick":9600,"status":"full_output","progress":1,"products_finished":0,"energy":3214.8148148148147811298258602619171142578125,"fluids":{"contents":{"crude-oil":1000},"pipes":[{"name":"crude-oil","amount":100,"temperature":25}]}}}
+  27.620 Script @__ammo-assembler-v1-proof__/control.lua:66: AMMO_ASSEMBLER_V1_STARVATION_BLOCKED_PASS
+  31.813 Info AppManager.cpp:335: Saving to _autosave1 (blocking).
+  31.904 Info AppManagerStates.cpp:2131: Saving finished
+  33.994 Script @__ammo-assembler-v1-proof__/control.lua:68: AMMO_ASSEMBLER_V1_RECOVERY_AND_BUILD_PASS
+  36.591 Info AppManager.cpp:335: Saving to _autosave2 (blocking).
+  36.681 Info AppManagerStates.cpp:2131: Saving finished
+  41.376 Info AppManager.cpp:335: Saving to _autosave3 (blocking).
+  41.473 Info AppManagerStates.cpp:2131: Saving finished
+  46.167 Info AppManager.cpp:335: Saving to _autosave1 (blocking).
+  46.265 Info AppManagerStates.cpp:2131: Saving finished
+  50.952 Info AppManager.cpp:335: Saving to _autosave2 (blocking).
+  51.049 Info AppManagerStates.cpp:2131: Saving finished
+  55.737 Info AppManager.cpp:335: Saving to _autosave3 (blocking).
+  55.834 Info AppManagerStates.cpp:2131: Saving finished
+  60.521 Info AppManager.cpp:335: Saving to _autosave1 (blocking).
+  60.619 Info AppManagerStates.cpp:2131: Saving finished
+  65.306 Info AppManager.cpp:335: Saving to _autosave2 (blocking).
+  65.403 Info AppManagerStates.cpp:2131: Saving finished
+  70.091 Info AppManager.cpp:335: Saving to _autosave3 (blocking).
+  70.195 Info AppManagerStates.cpp:2131: Saving finished
+  74.980 Info AppManager.cpp:335: Saving to _autosave1 (blocking).
+  75.077 Info AppManagerStates.cpp:2131: Saving finished
+  78.178 Script @__ammo-assembler-v1-proof__/control.lua:82: AMMO_ASSEMBLER_V1_NATIVE_PASS recipes=46 cases=184 machines=208 connections=20
+  78.244 Script @__ammo-assembler-v1-capture__/control.lua:25: AMMO_GUI_OPERATED_SAVE_REQUESTED machines=208
+  78.245 Info AppManager.cpp:335: Saving to _autosave-ammo-assembler-complete-client (blocking).
+  78.339 Info AppManagerStates.cpp:2131: Saving finished

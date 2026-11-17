@@ -75,3 +75,6 @@ require("prototypes.generated_graphics.pondering-hovel-v1-production")
 
 -- Upright bucket shoreline intake with animated upper and submerged layers.
 require("prototypes.generated_graphics.stone-wheel-v3-production")
+
+-- Primitive electric press, packing and closed wood/oil component works.
+require("prototypes.generated_graphics.tank-ammo-assembler-v1-production")

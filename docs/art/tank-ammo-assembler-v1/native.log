@@ -1,0 +1,47 @@
+   0.001 2026-11-17 03:41:33; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.001 Operating system: Windows 11 (build 26200) 
+   0.001 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\ammo-assembler-v1-integrated03\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\ammo-assembler-v1-integrated03\mods" "--test-scenario" "ammo-assembler-v1-proof/proof" "--test-ticks" "192000" 
+   0.001 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/ammo-assembler-v1-integrated03/config.ini
+   0.001 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/ammo-assembler-v1-integrated03/runtime [240760/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.008 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 18247/32526 MB, page: 26421/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.035 Running in headless mode
+   0.035 Audio is disabled
+   0.036 Info ModManager.cpp:455: FeatureFlag: 
+   0.038 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.041 Loading mod core 0.0.0 (data.lua)
+   0.055 Loading mod base 2.1.24 (data.lua)
+   0.293 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.365 Loading mod ammo-assembler-v1-proof 0.0.1 (data.lua)
+   0.371 Loading mod base 2.1.24 (data-updates.lua)
+   0.377 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.383 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.450 Checksum for core: 3668028660
+   0.450 Checksum of base: 3864816957
+   0.450 Checksum of tanks_for_bob_fork: 689833862
+   0.450 Checksum of ammo-assembler-v1-proof: 1808649143
+   0.577 Prototype list checksum: 4080769483
+   0.601 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.601 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.603 Info GlobalContext.cpp:1347: Resetting config.
+   0.603 Factorio initialised
+   0.610 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.027 Loading level.dat: 599512 bytes.
+   1.027 Info Scenario.cpp:152: Map version 2.1.24-1
+   1.034 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.035 Checksum for script __level__/control.lua: 3071058485
+   1.038 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   1.045 Checksum for script __ammo-assembler-v1-proof__/control.lua: 2706714929
+   1.429 Script @__ammo-assembler-v1-proof__/control.lua:44: AMMO_ASSEMBLER_V1_FIXTURE recipes=46 machines=208 max_recipe_seconds=3160
+   1.597 Script @__ammo-assembler-v1-proof__/control.lua:57: AMMO_ASSEMBLER_V1_STOP_PASS
+   3.173 Script @__ammo-assembler-v1-proof__/control.lua:63: AMMO_ASSEMBLER_V1_FULL_FLUID_READY {"direction":0,"state":{"tick":9600,"status":"full_output","progress":1,"products_finished":0,"energy":3214.8148148148147811298258602619171142578125,"fluids":{"contents":{"crude-oil":1000},"pipes":[{"name":"crude-oil","amount":100,"temperature":25}]}}}
+   3.173 Script @__ammo-assembler-v1-proof__/control.lua:63: AMMO_ASSEMBLER_V1_FULL_FLUID_READY {"direction":4,"state":{"tick":9600,"status":"full_output","progress":1,"products_finished":0,"energy":3214.8148148148147811298258602619171142578125,"fluids":{"contents":{"crude-oil":1000},"pipes":[{"name":"crude-oil","amount":100,"temperature":25}]}}}
+   3.173 Script @__ammo-assembler-v1-proof__/control.lua:63: AMMO_ASSEMBLER_V1_FULL_FLUID_READY {"direction":8,"state":{"tick":9600,"status":"full_output","progress":1,"products_finished":0,"energy":3214.8148148148147811298258602619171142578125,"fluids":{"contents":{"crude-oil":1000},"pipes":[{"name":"crude-oil","amount":100,"temperature":25}]}}}
+   3.173 Script @__ammo-assembler-v1-proof__/control.lua:63: AMMO_ASSEMBLER_V1_FULL_FLUID_READY {"direction":12,"state":{"tick":9600,"status":"full_output","progress":1,"products_finished":0,"energy":3214.8148148148147811298258602619171142578125,"fluids":{"contents":{"crude-oil":1000},"pipes":[{"name":"crude-oil","amount":100,"temperature":25}]}}}
+   3.173 Script @__ammo-assembler-v1-proof__/control.lua:66: AMMO_ASSEMBLER_V1_STARVATION_BLOCKED_PASS
+   6.048 Script @__ammo-assembler-v1-proof__/control.lua:68: AMMO_ASSEMBLER_V1_RECOVERY_AND_BUILD_PASS
+  77.411 Script @__ammo-assembler-v1-proof__/control.lua:82: AMMO_ASSEMBLER_V1_NATIVE_PASS recipes=46 cases=184 machines=208 connections=20
+  77.463 Info RunTest.cpp:80: Ran 192000 ticks without the test finishing
+  77.463 Info GlobalContext.cpp:763: Deleting active scenario.
+  77.523 Goodbye

@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-17",
+  "judgment": "delegated_operational_close_enough_after_electrical_and_transmission_fit_repairs",
+  "owner_visual_approved": false,
+  "basis": "All eight starter groups preserved as supported timber/stone electric component works: wound motor, line belts, guided rigid-link case press, sealed agitator/charge barrel, electric retort bands, connected crude-oil input and condensing/collection outlet circuit, feed and packing trays, guard outside the swept mechanism. Real recipe contracts define the process modules. Sweeps repaired rotor/winding, shaft/beam and pulley/support crossings; visual review repaired unsupported guide eyes, saddles and hopper/packing seating. Actual GLB front/rear/side/clay/press views and final native joined input/output pipes in all directions inspected.",
+  "source_sha256": "5bca56a8cee03867098e09ce2f14072c0b437af4010096569ee0822bc1c0945d",
+  "runtime_sha256": "c169d83bbfaf61c56d35b9c48ff39bac303d9636e8c21133c94cf3185a8578a5",
+  "before_reference": "models/island-survival/tank-ammo-assembling-machine/candidates/v1-study01/front-review512.png",
+  "before_reference_sha256": "6ea51d442edbc4458dde347a7040af560dfb7d1c6a98dbc45915cb771a31fb74",
+  "acceptance_policy_sha256": "238d2e93caa278ebecd0c0c545ac4677270dd7cb4aba336eacad5595b233b017",
+  "reviewed_images": {
+    "docs/art/tank-ammo-assembler-v1/north-working.png": "2b30bf79a6173a80cff065bf4d4b0543f730f0a36ef7b3d0c198124b8a3795ef",
+    "docs/art/tank-ammo-assembler-v1/no-power.png": "dd637fb122b47475187d065f16f31413ed0f0c1fe27c4fd4d0a69b2b2b2ced45",
+    "docs/art/tank-ammo-assembler-v1/blocked-item-a.png": "d9343dbc076eefcb78dd2bf8fc99baf16bd4095d60d1cc0ef2e0b9fd6a2bf804",
+    "docs/art/tank-ammo-assembler-v1/blocked-fluid.png": "e0553d7c4dcb863cf634c1d4092e48270f876b27252eab407aa2e5d7f167062b",
+    "docs/art/tank-ammo-assembler-v1/power-restored.png": "305ee698f67cc1611df0b149d952940acbdaefcb14df5139c067023f6b029ed7",
+    "docs/art/tank-ammo-assembler-v1/fluid-restored.png": "2566f248c73a05482ff53067ec05a84fed1576f0f21e932ae5aae96c6a87183d",
+    "docs/art/tank-ammo-assembler-v1/long-wmd-complete.png": "fc259fdce58618c0047def52d3e20c6dc464ac23905c1c31c980ec728c23c60a",
+    "docs/art/tank-ammo-assembler-v1/stopped-b.png": "f9f61113909718fb1b1743b33ae675947996398ffe9a080389abe469d6588d66",
+    "docs/art/tank-ammo-assembler-v1/north-input-pipe-close.png": "0e11210a462b7fd27f27d52b1d9c3ca1b889c34722498e0d80ef663756055840",
+    "docs/art/tank-ammo-assembler-v1/north-output-pipe-close.png": "37a3729c2224af5a009c5489b6ebcc1f1405906a6c45ed54ca5cce0c90dfed2a",
+    "docs/art/tank-ammo-assembler-v1/east-input-pipe-close.png": "5ae8cd396e2df9b3eb8046de1bc4de74697d6b4360a57dd8c2e5f978005097e2",
+    "docs/art/tank-ammo-assembler-v1/east-output-pipe-close.png": "6fd91964cad5f6e1f47870a12b1f7b52c83c47b82567c55a8dd25b405411d8c9",
+    "docs/art/tank-ammo-assembler-v1/south-input-pipe-close.png": "c489fbdd050f3e0a228a1fe2324bd3208a42bfee39a20cb800ce0e76076920ec",
+    "docs/art/tank-ammo-assembler-v1/south-output-pipe-close.png": "7493fedda9ca06be89c8ffef508928fe5aa807614c71132f60e7e3c0acbaeef4",
+    "docs/art/tank-ammo-assembler-v1/west-input-pipe-close.png": "db780d9eb1970ea9bd290369da451e53e0333eb423252382871235012dff25ea",
+    "docs/art/tank-ammo-assembler-v1/west-output-pipe-close.png": "26cef1cded75e8dd72d85108d6662b1168eece3af8668a927f8c769c1099f4af",
+    "models/island-survival/tank-ammo-assembling-machine/candidates/v1-production03/actual-glb-front.png": "f58b7593d2a69063c2fdff677b60c2758e311bddc039639de342a60892d44349",
+    "models/island-survival/tank-ammo-assembling-machine/candidates/v1-production03/actual-glb-rear.png": "db7fcfca75502a0cf54322f6b19148abddb54f374e02d910564ffcae733ed0b1",
+    "models/island-survival/tank-ammo-assembling-machine/candidates/v1-production03/actual-glb-side.png": "3cd27ba36027a9c49a9b19e6b116c62185b4dc11f96b10ecafabf1cc40845be6",
+    "models/island-survival/tank-ammo-assembling-machine/candidates/v1-production03/actual-glb-clay.png": "40309d5b331e2ceee6b77aead952527222bc5517556cb75a7606f79ecff4dab4",
+    "models/island-survival/tank-ammo-assembling-machine/candidates/v1-production03/actual-glb-mechanism-close.png": "c9b1e4d2dfd2540067bd800d31a7aae8e4733b6235fcb94f45ae8178926cf6fd"
+  },
+  "scores_out_of_10": {
+    "actual_recipe_and_electric_contract": 9,
+    "supported_construction": 8,
+    "attached_mechanism_and_clearance": 9,
+    "model_specific_surfaces": 8,
+    "native_pipe_fit": 9,
+    "gameplay_readability": 7
+  },
+  "limitations": [
+    "Individual owner visual approval is not claimed.",
+    "The four-second mechanism loop explains operations; individual stock deformation/material flow for each recipe is not simulated.",
+    "Belts retain fixed running paths while their pulleys and shafts animate; leather grain travel is not simulated.",
+    "385 sampled poses per artifact are not continuous physics simulation.",
+    "Interpolated pin centres deviate by about 0.000018 tile inside 0.002 radial bore clearance; the 0.52-tile connecting rod itself remains rigid.",
+    "Earlier timing captures were superseded: final item-blocked views occur after its seven-second craft, and fluid release waits 160 seconds for the 150-second craft.",
+    "No full-user-mod-pack installation or Mod Portal publication."
+  ]
+}

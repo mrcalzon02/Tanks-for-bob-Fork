@@ -1,7 +1,9 @@
 {
-  "status": "source_export_verified_final_native_art_pending",
+  "status": "native_verified_delivery_pending",
   "owner_visual_approved": false,
   "native_delivered": false,
   "current_candidate": "v1-production03",
-  "notes": "Actual export technical/kinematic and full sampled source/GLB sweep pass; all 46 normal-speed native recipe operations baseline pass before art integration. Final source sprite and operated client proof still pending."
+  "notes": "Final current-art 46 recipes/all directions, power/fluids, late fully processed fluid blocker, actual pipe views, native animation/idle and operated reload pass. Publish final source/evidence and canonical FMPL readback next.",
+  "native_verified": true,
+  "delegated_operational_review": true
 }

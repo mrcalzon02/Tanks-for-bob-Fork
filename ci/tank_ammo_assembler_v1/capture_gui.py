@@ -1,0 +1,80 @@
+"""Capture actual Tank ammunition assembler operation on ordinary grass, in an isolated hidden client."""
+import argparse
+import ctypes
+import hashlib
+import json
+import os
+from pathlib import Path
+import shutil
+import subprocess
+import struct
+import time
+import zlib
+
+HERE=Path(__file__).resolve().parent
+
+def valid_png(file):
+    if not file.is_file():return False
+    data=file.read_bytes()
+    if not data.startswith(b'\x89PNG\r\n\x1a\n'):return False
+    pos=8
+    while pos+12<=len(data):
+        length=struct.unpack_from('>I',data,pos)[0];kind=data[pos+4:pos+8]
+        end=pos+12+length
+        if end>len(data):return False
+        if zlib.crc32(data[pos+4:pos+8+length])!=struct.unpack_from('>I',data,pos+8+length)[0]:return False
+        if kind==b'IEND':return end==len(data)
+        pos=end
+    return False
+
+def main():
+    p=argparse.ArgumentParser();p.add_argument('--native-profile',type=Path,required=True);p.add_argument('--binary',type=Path,required=True);p.add_argument('--out',type=Path,required=True)
+    a=p.parse_args();profile=a.native_profile.resolve();out=a.out.resolve();binary=a.binary.resolve()
+    if out.exists():raise FileExistsError(out)
+    session=ctypes.c_ulong();ctypes.windll.kernel32.ProcessIdToSessionId(os.getpid(),ctypes.byref(session))
+    assert session.value!=0,'Graphical capture needs the interactive desktop session'
+    out.mkdir(parents=True);mods=out/'mods';shutil.copytree(profile/'mods',mods)
+    shutil.copy2(HERE/'control.lua',mods/'ammo-assembler-v1-proof_0.0.1/control.lua')
+    shutil.copy2(HERE.parents[1]/'tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/tank-ammo-assembler-v1-production.lua',mods/'tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/tank-ammo-assembler-v1-production.lua')
+    addon=mods/'ammo-assembler-v1-capture_0.0.1';addon.mkdir()
+    (addon/'info.json').write_text(json.dumps({'name':'ammo-assembler-v1-capture','version':'0.0.1','title':'Temporary graphical ammunition assembler capture','author':'local proof','factorio_version':'2.1','dependencies':['base','tanks_for_bob_fork','ammo-assembler-v1-proof']}))
+    shutil.copy2(HERE/'gui-control.lua',addon/'control.lua')
+    modlist=json.loads((mods/'mod-list.json').read_text());modlist['mods'].append({'name':'ammo-assembler-v1-capture','enabled':True})
+    (mods/'mod-list.json').write_text(json.dumps(modlist))
+    runtime=out/'runtime';runtime.mkdir()
+    config=out/'config.ini';config.write_text('[path]\nread-data='+str(binary.parents[2]/'data')+'\nwrite-data='+str(runtime)+'\n[graphics]\nfull-screen=false\n')
+    save=profile/'ammo-assembler-v1-proof.zip'
+    assert save.is_file()
+    (out/'steam_appid.txt').write_text('427520',encoding='ascii')
+    args=[str(binary),'--config',str(config),'--mod-directory',str(mods),'--load-game',str(save),'--disable-audio','--disable-migration-window']
+    startup=subprocess.STARTUPINFO();startup.dwFlags|=subprocess.STARTF_USESHOWWINDOW;startup.wShowWindow=0
+    capture=runtime/'script-output/ammo-assembler-v1'
+    names=[f'{f}-working' for f in ('north','east','south','west')]+[f'{f}-{flow}-pipe-close' for f in ('north','east','south','west') for flow in ('input','output')]+['no-power','no-fluid','idle','blocked-item-a','blocked-item-b','blocked-fluid','stopped-a','stopped-b','power-restored','fluid-restored','item-output-drained','fluid-output-drained','restarted','coke-output-complete','long-wmd-complete','long-artillery-complete']+[f'north-motion-{i:02d}' for i in range(32)]
+    expected=[capture/(name+'.png') for name in names]
+    log=out/'client.log'
+    with log.open('w') as handle:
+        process=subprocess.Popen(args,stdout=handle,stderr=subprocess.STDOUT,startupinfo=startup,cwd=out)
+        try:
+            deadline=time.monotonic()+360
+            while time.monotonic()<deadline:
+                if all(valid_png(f) for f in expected) and list((runtime/'saves').glob('*ammo-assembler-complete-client*.zip')) and log.read_text(errors='replace').rfind('Saving finished') > log.read_text(errors='replace').rfind('Saving to _autosave-ammo-assembler-complete-client'):break
+                if process.poll() is not None:break
+                current=log.read_text(errors='replace')
+                if 'non-recoverable error' in current or 'HUT_GUI: missing' in current:break
+                time.sleep(.25)
+            passed=all(valid_png(f) for f in expected)
+        finally:
+            if process.poll() is None:
+                process.terminate()
+                try:process.wait(timeout=10)
+                except subprocess.TimeoutExpired:process.kill();process.wait(timeout=10)
+    receipt={'genuine_factorio_client_capture':passed,'windows_session':session.value,'screenshots':[],'visual_review_passed':False,'completed_save':[str(p) for p in (runtime/'saves').glob('*ammo-assembler-complete-client*.zip')]}
+    if passed:
+        for file in expected:
+            shutil.copy2(file,out/file.name)
+            receipt['screenshots'].append({'file':file.name,'sha256':hashlib.sha256(file.read_bytes()).hexdigest()})
+    (out/'capture-receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
+    print(json.dumps(receipt,indent=2))
+    if not passed:print(log.read_text(errors='replace')[-5000:]);raise SystemExit(1)
+
+if __name__=='__main__':main()

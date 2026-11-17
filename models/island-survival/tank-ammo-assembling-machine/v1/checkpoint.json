@@ -1,5 +1,5 @@
 {
-  "status": "source_export_clearance_verified_native_art_delivery_pending",
+  "status": "native_verified_delivery_pending",
   "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
   "active_mod": "tanks_for_bob_fork_1.8.104",
   "prototype": "assembling-machine/tank-ammo-assembling-machine",
@@ -24,7 +24,7 @@
   "chemical_fuel": false,
   "module_slots": 1,
   "recipe_operation_and_final_art_not_yet_verified": true,
-  "next": "Finish genuine 132 directional idle/working captures and native art integration; run final 46 recipes/all directions/power/fluids/blocked/restart and fully operated-save reload; publish and register FMPL.",
+  "next": "Commit/push final sprites, native art adapter and current full-operation evidence; register canonical FMPL and read back before acceptance.",
   "delivered": false,
   "owner_visual_approved": false,
   "current_source": "models/island-survival/tank-ammo-assembling-machine/candidates/v1-production03/tank-ammo-assembler-v1.blend",
@@ -37,5 +37,9 @@
   "native_recipe_operation_baseline_passed": 46,
   "native_real_recipe_direction_cases_baseline": 184,
   "native_baseline_machines": 208,
-  "final_art_and_operated_client_reload_pending": true
+  "final_art_and_operated_client_reload_pending": false,
+  "source_checkpoint_commit": "13c4696eb0e8677c57ee898af154eb421f343633",
+  "source_checkpoint_remote_verified": true,
+  "final_recipe_cases": 184,
+  "fully_processed_fluid_blocker_verified_at_tick": 9600
 }

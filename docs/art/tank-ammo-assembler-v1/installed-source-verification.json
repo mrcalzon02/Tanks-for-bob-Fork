@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "files": {
+    "data-final-fixes.lua": {
+      "current_sha256": "e87185f5bdd484e3893bf780793aeef08bb2f5be7aeca46605b99bec0c9776c8",
+      "tested_sha256": "e87185f5bdd484e3893bf780793aeef08bb2f5be7aeca46605b99bec0c9776c8"
+    },
+    "prototypes/generated_graphics/tank-ammo-assembler-v1-production.lua": {
+      "current_sha256": "30670296e82fce2475e04ddbeb37fd933ad3c86250cc5f748cd7da8648cd1615",
+      "tested_sha256": "30670296e82fce2475e04ddbeb37fd933ad3c86250cc5f748cd7da8648cd1615"
+    },
+    "graphics/icons/tank-ammo-assembler-v1.png": {
+      "current_sha256": "5b43b85ab73610a54806123a9cde101783730e8d76a04ec252d4b52ec575ea7b",
+      "tested_sha256": "5b43b85ab73610a54806123a9cde101783730e8d76a04ec252d4b52ec575ea7b"
+    },
+    "graphics/entity/tank-ammo-assembler-v1/idle-256.png": {
+      "current_sha256": "c296dba0de006c45c3632de02c42c3dd9218180d4ebd9469c007b899ea1071cf",
+      "tested_sha256": "c296dba0de006c45c3632de02c42c3dd9218180d4ebd9469c007b899ea1071cf"
+    },
+    "graphics/entity/tank-ammo-assembler-v1/working-256.png": {
+      "current_sha256": "c54533834e8e607e990b5fcaa932689cafad12d8ca16134916965818af6ecb6d",
+      "tested_sha256": "c54533834e8e607e990b5fcaa932689cafad12d8ca16134916965818af6ecb6d"
+    }
+  },
+  "harness_files": {
+    "control.lua": {
+      "current_and_tested_sha256": "7f2b3f36c5cb618ab8152d9afcc78b94cd6e6511f7624921ff33d1b1cbb0f8ff"
+    },
+    "data.lua": {
+      "current_and_tested_sha256": "17ca8b50c631816e37f015929e6a86da3fb558df0a3126020aa8a8d27f0ba031"
+    },
+    "gui-control.lua": {
+      "current_and_tested_sha256": "89b98cb2b20fc2e2d42e09bd4b56f2bd85284dbb7bb7cc43926a387417f00c2a"
+    }
+  },
+  "git_index_verified": true,
+  "git_text_policy": "Working code matches the actual tested profile exactly. Git-normalized Lua content is identical; model, export and sprite/icon bytes match exactly.",
+  "git_index_checks": {
+    "data-final-fixes.lua": {
+      "index_sha256": "3c66b2caf6a1416f3e72ef4c5cea0c4747b3429ca76d35fd4554418bfb3144d7",
+      "tested_sha256": "e87185f5bdd484e3893bf780793aeef08bb2f5be7aeca46605b99bec0c9776c8",
+      "verification": "Exact Lua content after CRLF-to-LF normalization"
+    },
+    "prototypes/generated_graphics/tank-ammo-assembler-v1-production.lua": {
+      "index_sha256": "77626b43c0eb53452b1a384940d352744de352c3334f146e4df2ca392428cadd",
+      "tested_sha256": "30670296e82fce2475e04ddbeb37fd933ad3c86250cc5f748cd7da8648cd1615",
+      "verification": "Exact Lua content after CRLF-to-LF normalization"
+    },
+    "graphics/icons/tank-ammo-assembler-v1.png": {
+      "index_sha256": "5b43b85ab73610a54806123a9cde101783730e8d76a04ec252d4b52ec575ea7b",
+      "tested_sha256": "5b43b85ab73610a54806123a9cde101783730e8d76a04ec252d4b52ec575ea7b",
+      "verification": "Exact binary bytes"
+    },
+    "graphics/entity/tank-ammo-assembler-v1/idle-256.png": {
+      "index_sha256": "c296dba0de006c45c3632de02c42c3dd9218180d4ebd9469c007b899ea1071cf",
+      "tested_sha256": "c296dba0de006c45c3632de02c42c3dd9218180d4ebd9469c007b899ea1071cf",
+      "verification": "Exact binary bytes"
+    },
+    "graphics/entity/tank-ammo-assembler-v1/working-256.png": {
+      "index_sha256": "c54533834e8e607e990b5fcaa932689cafad12d8ca16134916965818af6ecb6d",
+      "tested_sha256": "c54533834e8e607e990b5fcaa932689cafad12d8ca16134916965818af6ecb6d",
+      "verification": "Exact binary bytes"
+    }
+  }
+}

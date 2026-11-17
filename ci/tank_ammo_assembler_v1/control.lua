@@ -55,11 +55,12 @@ script.on_nth_tick(60,function(e)
  if storage.frozen then return end
  if e.tick==600 then for _,u in ipairs(storage.units) do if u.state=='stop-restart' then check(u.machine.crafting_progress>0,'powered progress before stop');u.machine.disabled_by_script=true;u.stopped=snap(u) end end
  elseif e.tick==900 then for _,u in ipairs(storage.units) do if u.state=='stop-restart' then check(math.abs(u.machine.crafting_progress-u.stopped.progress)<1e-10 and same(inventory(u.machine.get_inventory(defines.inventory.crafter_input)),u.stopped.input),'stopped state stable');u.machine.disabled_by_script=false end end;log('AMMO_ASSEMBLER_V1_STOP_PASS')
- elseif e.tick==9000 then
+ elseif e.tick==9600 then
   for _,u in ipairs(storage.units) do
    if u.state=='no-power' or u.state=='no-fluid' or u.state=='idle' or u.state=='blocked-item' or u.state=='blocked-fluid' then check(u.machine.products_finished==0,'inactive/blocked produced '..u.state..'/'..u.direction) end
    if u.state=='blocked-item' then check(same(inventory(u.machine.get_output_inventory()),u.blocked_output),'blocked output inventory stable');u.machine.get_output_inventory().clear()
-   elseif u.state=='blocked-fluid' then for _,p in ipairs(u.pipes) do u.machine.clear_fluid(p.box);p.entity.clear_fluid_segment_fluid(1) end
+   elseif u.state=='blocked-fluid' then
+    local status='unknown';for n,v in pairs(defines.entity_status) do if u.machine.status==v then status=n end end;u.blocked_before_release={tick=e.tick,status=status,progress=u.machine.crafting_progress,products_finished=u.machine.products_finished,energy=u.machine.energy,fluids=fluid_state(u)};check(u.machine.crafting_progress>.99999 and u.machine.energy>0,'fully processed powered fluid craft must wait for full output');log('AMMO_ASSEMBLER_V1_FULL_FLUID_READY '..helpers.table_to_json{direction=u.direction,state=u.blocked_before_release});for _,p in ipairs(u.pipes) do u.machine.clear_fluid(p.box);p.entity.clear_fluid_segment_fluid(1) end
    elseif u.state=='no-power' then u.power.power_production=10000000/60;u.power.energy=10000000
    elseif u.state=='no-fluid' then feed_fluid(u) end
   end;log('AMMO_ASSEMBLER_V1_STARVATION_BLOCKED_PASS')
@@ -76,7 +77,7 @@ script.on_nth_tick(60,function(e)
      else local n=u.machine.get_fluid_count(p.name);for _,pipe in ipairs(u.pipes) do if pipe.flow=='output' then n=n+pipe.entity.get_fluid_count(p.name) end end;check(n>0,'guaranteed actual fluid result '..u.recipe) end
     end end
    end
-   cases[#cases+1]={state=u.state,recipe=u.recipe,direction=u.direction,products_finished=u.machine.products_finished,input=inventory(u.machine.get_inventory(defines.inventory.crafter_input)),output=inventory(u.machine.get_output_inventory()),fluids=fluid_state(u),electric_energy=u.machine.energy,ports=(function() local d={};for _,p in ipairs(u.pipes) do d[#d+1]={flow=p.flow,position=p.position,ordinary_pipe=p.entity.position} end;return d end)()}
+   cases[#cases+1]={state=u.state,recipe=u.recipe,direction=u.direction,products_finished=u.machine.products_finished,input=inventory(u.machine.get_inventory(defines.inventory.crafter_input)),output=inventory(u.machine.get_output_inventory()),fluids=fluid_state(u),electric_energy=u.machine.energy,blocked_before_release=u.blocked_before_release,ports=(function() local d={};for _,p in ipairs(u.pipes) do d[#d+1]={flow=p.flow,position=p.position,ordinary_pipe=p.entity.position} end;return d end)()}
   end
   storage.complete=true;local report={passed=true,real_recipes=46,real_recipe_direction_cases=184,machines=#storage.units,ordinary_grid_connections=connections,supported_directions=4,max_recipe_native_seconds=3160,crafting_speed_and_power_not_overridden=true,actual_electric_watts=175000,electric_starvation_resupply=true,fluid_starvation_resupply=true,blocked_item_and_fluid_output_recovery=true,stop_restart=true,building_unlock_and_base_assembler_craft=true,engine_parameter_placeholders_excluded=10,cases=cases};helpers.write_file('ammo-assembler-v1/native-runtime.json',helpers.table_to_json(report),false);log('AMMO_ASSEMBLER_V1_NATIVE_PASS recipes=46 cases=184 machines='..#storage.units..' connections='..connections)
  elseif e.tick==191940 then freeze() end

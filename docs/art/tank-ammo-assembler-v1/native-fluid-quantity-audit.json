@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "native_runtime_sha256": "1ed4572b17220d186d784d6c3323c2310357ac3fb1f26b229a4569187c341758",
+  "contract_sha256": "2f6ba1884ac49b1d163c95bbae2733e97bdbfb019b3f33b54e27856f856efca0",
+  "cases": [
+    {
+      "recipe": "Rubberized-timber",
+      "direction": 0,
+      "actual_oil_total": 90,
+      "expected_oil_total": 90,
+      "scope": "100 initial oil minus 10 consumed"
+    },
+    {
+      "recipe": "Rubberized-timber",
+      "direction": 4,
+      "actual_oil_total": 90,
+      "expected_oil_total": 90,
+      "scope": "100 initial oil minus 10 consumed"
+    },
+    {
+      "recipe": "Rubberized-timber",
+      "direction": 8,
+      "actual_oil_total": 90,
+      "expected_oil_total": 90,
+      "scope": "100 initial oil minus 10 consumed"
+    },
+    {
+      "recipe": "Rubberized-timber",
+      "direction": 12,
+      "actual_oil_total": 90,
+      "expected_oil_total": 90,
+      "scope": "100 initial oil minus 10 consumed"
+    },
+    {
+      "recipe": "tank-ammo-industrial-coke",
+      "direction": 0,
+      "actual_oil_total": 100,
+      "expected_oil_total": 100,
+      "scope": "100 actual oil produced"
+    },
+    {
+      "recipe": "tank-ammo-industrial-coke",
+      "direction": 4,
+      "actual_oil_total": 100,
+      "expected_oil_total": 100,
+      "scope": "100 actual oil produced"
+    },
+    {
+      "recipe": "tank-ammo-industrial-coke",
+      "direction": 8,
+      "actual_oil_total": 100,
+      "expected_oil_total": 100,
+      "scope": "100 actual oil produced"
+    },
+    {
+      "recipe": "tank-ammo-industrial-coke",
+      "direction": 12,
+      "actual_oil_total": 100,
+      "expected_oil_total": 100,
+      "scope": "100 actual oil produced"
+    }
+  ]
+}

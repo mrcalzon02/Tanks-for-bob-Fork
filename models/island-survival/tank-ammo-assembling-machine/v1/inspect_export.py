@@ -44,7 +44,7 @@ def mechanics(frame_set):
 set_source=lambda f:(scene.frame_set(math.floor(f),subframe=f-math.floor(f)),bpy.context.view_layer.update())
 source_mechanics=mechanics(set_source)
 # The joint invariant is fit inside the 2 mm radial bore clearance. Half-key
-# interpolation may move a pin centre by micrometres while the link stays rigid.
+# interpolation may move a pin centre by tiny fractions of a tile while the link stays rigid.
 assert max(source_mechanics.values())<.00005 and source_mechanics['authored_key_pin_attachment']<1e-5 and source_mechanics['rigid_link_length']<1e-6,source_mechanics
 blob=runtime.read_bytes();length,kind=struct.unpack_from('<II',blob,12);gltf=json.loads(blob[20:20+length]);first=min(gltf['accessors'][x['input']]['min'][0] for a in gltf['animations'] for x in a['samplers']);assert len(gltf['animations'])==1
 for m in gltf['materials']:
@@ -60,9 +60,9 @@ for f in poses:
  set_runtime(f);data=snapshot();runtime_poses[f]=data;assert set(data)==set(poses[f]);errors[f]=max(abs(poses[f][n][key][axis]-data[n][key][axis]) for n in data for key in ('min','max') for axis in range(3))
 src=summarize(poses[1]);summ=summarize(runtime_poses[1]);seam=max(abs(poses[1][n][k][axis]-poses[193][n][k][axis]) for n in poses[1] for k in ('min','max') for axis in range(3));passed=not any((src['missing_uv'],src['nonfinite'],src['degenerates'],summ['missing_uv'],summ['nonfinite'],summ['degenerates'])) and max(errors.values())<.001 and seam<1e-5 and all(i['packed'] for i in packed) and all('uri' not in i for i in gltf['images'])
 receipt=dict(technical_checks_passed=passed,source_sha256=sha(source),glb_sha256=sha(runtime),source=src,runtime=summ,pose_bounds_errors=errors,cycle_seam_error=seam,source_mechanics=source_mechanics,runtime_mechanics=runtime_mechanics,mechanism_sampled_poses=385,mechanical_fit_policy='Authored key pin centres within 1e-5 tile; interpolated centres within 0.0001 tile, compared against actual 0.002 radial pin/bore clearance. Actual rigid link endpoint span remains 0.52 tile.',press_pin_radial_clearance_tiles=.002,ram_guide_radial_clearance_tiles=.0025,packed_images=packed,embedded_export_images=len(gltf['images']),animation_count=len(gltf['animations']),owner_visual_approved=False,native_game_verified=False)
-(OUT/'runtime-inspection.json').write_text(json.dumps(receipt,indent=2)+'\n');print('WHEEL_RUNTIME_CHECK',json.dumps({k:v for k,v in receipt.items() if k!='packed_images'}),flush=True);assert passed
+(OUT/'runtime-inspection.json').write_text(json.dumps(receipt,indent=2)+'\n');print('AMMO_RUNTIME_CHECK',json.dumps({k:v for k,v in receipt.items() if k!='packed_images'}),flush=True);assert passed
 install_canonical_camera(scene,profile,bpy);scene.render.engine='CYCLES';scene.cycles.samples=32;scene.render.film_transparent=True;scene.render.image_settings.color_mode='RGBA';scene.render.resolution_x=scene.render.resolution_y=512;scene.view_settings.view_transform='AgX'
-scene.world=bpy.data.worlds.new('Neutral exported wheel inspection');scene.world.use_nodes=True;scene.world.node_tree.nodes['Background'].inputs[0].default_value=(.35,.35,.35,1)
+scene.world=bpy.data.worlds.new('Neutral exported ammunition inspection');scene.world.use_nodes=True;scene.world.node_tree.nodes['Background'].inputs[0].default_value=(.35,.35,.35,1)
 for loc,power in [((3,-4,6),500),((-3,2,4),300)]:
  l=bpy.data.lights.new('Inspection area','AREA');l.energy=power;l.size=4;o=bpy.data.objects.new(l.name,l);scene.collection.objects.link(o);o.location=loc;o.rotation_euler=(Vector((0,.3,.6))-o.location).to_track_quat('-Z','Y').to_euler()
 root=bpy.data.objects['EXPORT | Tanks ammunition component works'];projection=bpy.data.objects.new('Temporary square-ground projection',None);scene.collection.objects.link(projection);projection.scale.y=math.sqrt(2);yawwrap=bpy.data.objects.new('Temporary physical review yaw',None);scene.collection.objects.link(yawwrap);yawwrap.parent=projection;root.parent=yawwrap;set_runtime(1)
