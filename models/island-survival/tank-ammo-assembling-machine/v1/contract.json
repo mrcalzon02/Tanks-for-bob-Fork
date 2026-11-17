@@ -1,0 +1,2803 @@
+{
+  "entity": {
+    "name": "tank-ammo-assembling-machine",
+    "type": "assembling-machine",
+    "collision_box": {
+      "left_top": {
+        "y": -1.19921875,
+        "x": -1.19921875
+      },
+      "right_bottom": {
+        "y": 1.19921875,
+        "x": 1.19921875
+      }
+    },
+    "selection_box": {
+      "left_top": {
+        "y": -1.5,
+        "x": -1.5
+      },
+      "right_bottom": {
+        "y": 1.5,
+        "x": 1.5
+      }
+    },
+    "tile_width": 3,
+    "tile_height": 3,
+    "crafting_categories": {
+      "tank-ammo-component": true,
+      "parameters": true
+    },
+    "crafting_speed": 1,
+    "max_energy_usage_per_tick": 2916.6666666666665,
+    "electric": true,
+    "burner": false,
+    "ingredient_count": 6,
+    "module_inventory_size": 1
+  },
+  "building": {
+    "item": {
+      "name": "tank-ammo-assembling-machine",
+      "place_result": "tank-ammo-assembling-machine",
+      "stack_size": 10
+    },
+    "recipe": {
+      "name": "tank-ammo-assembling-machine",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "Encabulator",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "Cradinal-grametter",
+          "amount": 3
+        },
+        {
+          "type": "item",
+          "name": "Hydrocoptic-marselvanes",
+          "amount": 10
+        },
+        {
+          "type": "item",
+          "name": "Alumatedplate",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-assembling-machine",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 0.5,
+      "enabled_initially": false
+    },
+    "technology_unlocks": [
+      {
+        "name": "encabulated-device-integration",
+        "prerequisites": [
+          "encabulated-device-integration-authorization"
+        ],
+        "ingredients": [
+          {
+            "name": "automation-science-pack",
+            "amount": 1
+          },
+          {
+            "name": "logistic-science-pack",
+            "amount": 1
+          }
+        ],
+        "unit_count": 200,
+        "unit_energy_ticks": 2700
+      }
+    ],
+    "category_compatible_builders": [
+      "assembling-machine-1",
+      "assembling-machine-2",
+      "assembling-machine-3",
+      "tank-ammo-assembling-machine"
+    ]
+  },
+  "processing_recipes": [
+    {
+      "name": "45mm-auto",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-casing",
+          "amount": 6
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "45mm-auto",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 7,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "50mm-mortar",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-casing",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 6
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "50mm-mortar",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 10,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "50mm-mortar-poison",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "electronic-circuit",
+          "amount": 5
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-casing",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "50mm-mortar-poison",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 15,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "new-munitions"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "Alumatedplate",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "iron-plate",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "executive-marseline-resin",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "encabuloy-alloy",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "Alumatedplate",
+          "amount": 2,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.12,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 12.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "alumated-plate-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "Cradinal-grametter",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "iron-plate",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "Hydrocoptic-marselvanes",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "marseline-compound",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "phase-reactive-granules",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "Cradinal-grametter",
+          "amount": 2,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.14,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.04,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 28.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "encabulator-support-componentry"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "DuctedSpervingArm",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "SpervingArm",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "Encabulator",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "Cradinal-grametter",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "pre-turbulated-emulsion",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "DuctedSpervingArm",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 10,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.03,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 44.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "ducted-sperving-arm-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "DuplexedSpervingArm",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "DuctedSpervingArm",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "Cradinal-grametter",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "hyperphase-matrix",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "duplexed-substrate",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "DuplexedSpervingArm",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.14,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 52.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "duplexed-sperving-arm-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "Encabulator",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "Retro-Encabulator",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "phase-reactive-granules",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "executive-marseline-resin",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "encabuloy-alloy",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "Encabulator",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 5,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.04,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 20.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "Encabulation-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "FramulatedEncabulator",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "HyperEncabulator",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "Cradinal-grametter",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "Alumatedplate",
+          "amount": 5
+        },
+        {
+          "type": "item",
+          "name": "executive-marseline-resin",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "FramulatedEncabulator",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.14,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 48.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "framulated-encabulator-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "Hydrocoptic-marselvanes",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "copper-plate",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "hydrocoptic-crystal",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "stabilized-brine-gel",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "Hydrocoptic-marselvanes",
+          "amount": 2,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.13,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.03,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 16.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "encabulator-support-componentry"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "HyperEncabulator",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "TurboEncabulator",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "Alumatedplate",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "encabuloy-alloy",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "duplexed-substrate",
+          "amount": 4
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "HyperEncabulator",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 10,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.05,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 36.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "Hyper-Encabulation-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "PhaseDetractor",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "iron-gear-wheel",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "copper-cable",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "dielectric-chowder",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "PhaseDetractor",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.14,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.04,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 18.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "encabulator-support-componentry"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "Retro-Encabulator",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "Hydrocoptic-marselvanes",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "PhaseDetractor",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "marseline-compound",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "retrograde-polymer-sheet",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "Retro-Encabulator",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.13,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.03,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 24.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "retro-encabulator-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "Rubberized-timber",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "wood",
+          "amount": 10
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 1
+        },
+        {
+          "type": "fluid",
+          "name": "crude-oil",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "wood",
+          "amount": 40,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 10,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 60,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "industrial-coke-processing"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "SpervingArm",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "Hydrocoptic-marselvanes",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "Alumatedplate",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "PhaseDetractor",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "oscillated-lubricant",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "SpervingArm",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 4,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.02,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 28.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "sperving-arm-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "TurboEncabulator",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "Encabulator",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "amulite-flakes",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "oscillated-lubricant",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "pre-turbulated-emulsion",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "TurboEncabulator",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 8,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.04,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 28.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "Turbo-Encabulation-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "ap-bullet-brick",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-casing",
+          "amount": 3
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 3
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "ap-bullet-brick",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 15,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "mechanized-infantry-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "cannon-shell-2",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-casing",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "cannon-shell-2",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "cannon-shell-convert",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "cannon-shell",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "cannon-shell-2",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 5.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "duplexed-substrate",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "processing-unit",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "hyperphase-matrix",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "retrograde-polymer-sheet",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "duplexed-substrate",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.13,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.03,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 28,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "advanced-encabulation-substrates"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "executive-marseline-resin",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "marseline-compound",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "amulite-flakes",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "oscillated-lubricant",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "executive-marseline-resin",
+          "amount": 2,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.02,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 24,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "pre-encabulation-materials"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "fish-kit",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "raw-fish",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "fish-kit",
+          "amount": 6,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "mechanized-infantry-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "flame-thrower-ammo-tanker",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "flamethrower-ammo",
+          "amount": 15
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-casing",
+          "amount": 4
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "flame-thrower-ammo-tanker",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 10,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "flame-thrower-ammo-tanker-2",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "flame-thrower-ammo-tanker",
+          "amount": 7
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "flame-thrower-ammo-tanker-2",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 10,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "hyperphase-matrix",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "advanced-circuit",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "phase-reactive-granules",
+          "amount": 2
+        },
+        {
+          "type": "item",
+          "name": "dielectric-chowder",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "hyperphase-matrix",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.13,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.03,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 30,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "advanced-encabulation-substrates"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "land-mine-poison",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "steel-plate",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "sulfur",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "explosives",
+          "amount": 2
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "land-mine-poison",
+          "amount": 4,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.12,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.02,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "new-munitions"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "minepack",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-casing",
+          "amount": 5
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 5
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "minepack",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 20,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research3"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "minepack-poison",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-casing",
+          "amount": 6
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 6
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "minepack-poison",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 30,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "poison-mine-ammunition"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "ore-from-waste",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "SpervingArm",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-reinforced-casing",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "iron-ore",
+          "amount": 40,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "copper-ore",
+          "amount": 40,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 50,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "encabulated-waste-recovery"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "ore-from-wasteb",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-reinforced-casing",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "iron-ore",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "copper-ore",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 60,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "encabulated-waste-recovery"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "ore-from-waster",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "DuctedSpervingArm",
+          "amount": 10
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-reinforced-casing",
+          "amount": 20
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 40
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "uranium-ore",
+          "amount": 10,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "copper-ore",
+          "amount": 10,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 60,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "encabulated-waste-recovery"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "piercing-shotgun-shell-brick",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-casing",
+          "amount": 4
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 4
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "piercing-shotgun-shell-brick",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 15,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "mechanized-infantry-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "rocketpack",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "electronic-circuit",
+          "amount": 15
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-casing",
+          "amount": 8
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 8
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "rocketpack",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 20,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research3"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "tank-ammo-Explosive-Engineering",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "wood",
+          "amount": 10
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "stone",
+          "amount": 50,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "fish-oil-residue",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 20,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 150,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "explosive-encabulation-engineering"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "tank-ammo-Reprocessing",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 10
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "uranium-ore",
+          "amount": 10,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 50,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "encabulated-waste-recovery"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "tank-ammo-assembling-machine",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "Encabulator",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "Cradinal-grametter",
+          "amount": 3
+        },
+        {
+          "type": "item",
+          "name": "Hydrocoptic-marselvanes",
+          "amount": 10
+        },
+        {
+          "type": "item",
+          "name": "Alumatedplate",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-assembling-machine",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 0.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "encabulated-device-integration"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "tank-ammo-casing",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "copper-plate",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-casing",
+          "amount": 2,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.08,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 0.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "tank-casing-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "tank-ammo-ecozone",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "stone",
+          "amount": 50
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 50
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "stone",
+          "amount": 10,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "iron-ore",
+          "amount": 15,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "copper-ore",
+          "amount": 15,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 40,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "organic-explosives"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "tank-ammo-explosive-synthetic",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "wood",
+          "amount": 10
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "explosives",
+          "amount": 3,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 5,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.03,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 10,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "organic-explosives"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "tank-ammo-industrial-coke",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "wood",
+          "amount": 40
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 10
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "coal",
+          "amount": 50,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 20,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "fluid",
+          "name": "crude-oil",
+          "amount": 100
+        }
+      ],
+      "energy": 150,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "industrial-coke-processing"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "tank-ammo-reinforced-casing",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "steel-plate",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-reinforced-casing",
+          "amount": 2,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 2,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "tank-casing-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "tank-ammo-universal-explosive",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "explosives",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "Alumatedplate",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 5,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 5,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 0.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "explosive-encabulation-engineering"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "tank-ammo-universal-explosive-synthetic",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "wood",
+          "amount": 100
+        },
+        {
+          "type": "item",
+          "name": "stone",
+          "amount": 100
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 20,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 20,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.02,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 30,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "organic-explosives"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "tank-assembling-machine",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "Encabulator",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "Cradinal-grametter",
+          "amount": 3
+        },
+        {
+          "type": "item",
+          "name": "Alumatedplate",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-assembling-machine",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-assembling-machine",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 0.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "encabulated-device-integration"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "tank-wmd-ammo",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "uranium-ore",
+          "amount": 15
+        },
+        {
+          "type": "item",
+          "name": "processing-unit",
+          "amount": 15
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-casing",
+          "amount": 25
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-reinforced-casing",
+          "amount": 25
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 30
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-wmd-ammo",
+          "amount": 2,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Radioactivewaste",
+          "amount": 14,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 3160,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "super-tank-research2"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "wmdartillery-ammo",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "processing-unit",
+          "amount": 15
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-reinforced-casing",
+          "amount": 25
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-universal-explosive",
+          "amount": 30
+        },
+        {
+          "type": "item",
+          "name": "tank-wmd-ammo",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "wmdartillery-ammo",
+          "amount": 8,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 3160,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "wmd-artillery-ammunition"
+      ],
+      "native_recipe_selectable": true
+    }
+  ],
+  "engine_parameter_recipe_names": [
+    "parameter-0",
+    "parameter-1",
+    "parameter-2",
+    "parameter-3",
+    "parameter-4",
+    "parameter-5",
+    "parameter-6",
+    "parameter-7",
+    "parameter-8",
+    "parameter-9"
+  ],
+  "directions": [
+    {
+      "requested": 0,
+      "placed": 0,
+      "normal_placement": true,
+      "recipe_ports": [
+        {
+          "recipe": "Rubberized-timber",
+          "ports": [
+            {
+              "box": 1,
+              "position": {
+                "y": -0.5,
+                "x": 12.5
+              },
+              "target_position": {
+                "y": -1.5,
+                "x": 12.5
+              },
+              "flow_direction": "input",
+              "grid": {
+                "x": 12.5,
+                "y": -1.5
+              },
+              "actual_pipe_connected": true
+            }
+          ]
+        },
+        {
+          "recipe": "tank-ammo-industrial-coke",
+          "ports": [
+            {
+              "box": 1,
+              "position": {
+                "y": 1.5,
+                "x": 12.5
+              },
+              "target_position": {
+                "y": 2.5,
+                "x": 12.5
+              },
+              "flow_direction": "output",
+              "grid": {
+                "x": 12.5,
+                "y": 2.5
+              },
+              "actual_pipe_connected": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested": 4,
+      "placed": 4,
+      "normal_placement": true,
+      "recipe_ports": [
+        {
+          "recipe": "Rubberized-timber",
+          "ports": [
+            {
+              "box": 1,
+              "position": {
+                "y": 0.5,
+                "x": 25.5
+              },
+              "target_position": {
+                "y": 0.5,
+                "x": 26.5
+              },
+              "flow_direction": "input",
+              "grid": {
+                "x": 26.5,
+                "y": 0.5
+              },
+              "actual_pipe_connected": true
+            }
+          ]
+        },
+        {
+          "recipe": "tank-ammo-industrial-coke",
+          "ports": [
+            {
+              "box": 1,
+              "position": {
+                "y": 0.5,
+                "x": 23.5
+              },
+              "target_position": {
+                "y": 0.5,
+                "x": 22.5
+              },
+              "flow_direction": "output",
+              "grid": {
+                "x": 22.5,
+                "y": 0.5
+              },
+              "actual_pipe_connected": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested": 8,
+      "placed": 8,
+      "normal_placement": true,
+      "recipe_ports": [
+        {
+          "recipe": "Rubberized-timber",
+          "ports": [
+            {
+              "box": 1,
+              "position": {
+                "y": 1.5,
+                "x": 36.5
+              },
+              "target_position": {
+                "y": 2.5,
+                "x": 36.5
+              },
+              "flow_direction": "input",
+              "grid": {
+                "x": 36.5,
+                "y": 2.5
+              },
+              "actual_pipe_connected": true
+            }
+          ]
+        },
+        {
+          "recipe": "tank-ammo-industrial-coke",
+          "ports": [
+            {
+              "box": 1,
+              "position": {
+                "y": -0.5,
+                "x": 36.5
+              },
+              "target_position": {
+                "y": -1.5,
+                "x": 36.5
+              },
+              "flow_direction": "output",
+              "grid": {
+                "x": 36.5,
+                "y": -1.5
+              },
+              "actual_pipe_connected": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested": 12,
+      "placed": 12,
+      "normal_placement": true,
+      "recipe_ports": [
+        {
+          "recipe": "Rubberized-timber",
+          "ports": [
+            {
+              "box": 1,
+              "position": {
+                "y": 0.5,
+                "x": 47.5
+              },
+              "target_position": {
+                "y": 0.5,
+                "x": 46.5
+              },
+              "flow_direction": "input",
+              "grid": {
+                "x": 46.5,
+                "y": 0.5
+              },
+              "actual_pipe_connected": true
+            }
+          ]
+        },
+        {
+          "recipe": "tank-ammo-industrial-coke",
+          "ports": [
+            {
+              "box": 1,
+              "position": {
+                "y": 0.5,
+                "x": 49.5
+              },
+              "target_position": {
+                "y": 0.5,
+                "x": 50.5
+              },
+              "flow_direction": "output",
+              "grid": {
+                "x": 50.5,
+                "y": 0.5
+              },
+              "actual_pipe_connected": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fluid_probe_recipes": {
+    "input": "Rubberized-timber",
+    "output": "tank-ammo-industrial-coke"
+  }
+}
