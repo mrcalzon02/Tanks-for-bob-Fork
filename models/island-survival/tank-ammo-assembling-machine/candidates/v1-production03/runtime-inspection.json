@@ -1,0 +1,344 @@
+{
+  "technical_checks_passed": true,
+  "source_sha256": "5bca56a8cee03867098e09ce2f14072c0b437af4010096569ee0822bc1c0945d",
+  "glb_sha256": "c169d83bbfaf61c56d35b9c48ff39bac303d9636e8c21133c94cf3185a8578a5",
+  "source": {
+    "mesh_count": 272,
+    "triangles": 215926,
+    "min": [
+      -1.4049999713897705,
+      -1.5095000267028809,
+      0.0
+    ],
+    "max": [
+      1.4049999713897705,
+      1.5095000267028809,
+      2.0340001583099365
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "runtime": {
+    "mesh_count": 272,
+    "triangles": 215926,
+    "min": [
+      -1.4049999713897705,
+      -1.5095000267028809,
+      0.0
+    ],
+    "max": [
+      1.4049999713897705,
+      1.5095000267028809,
+      2.0340001583099365
+    ],
+    "missing_uv": [],
+    "nonfinite": [],
+    "degenerates": {}
+  },
+  "pose_bounds_errors": {
+    "1": 1.1920928955078125e-07,
+    "25": 2.384185791015625e-07,
+    "49": 2.384185791015625e-07,
+    "97": 1.1920928955078125e-07,
+    "145": 2.384185791015625e-07,
+    "193": 1.1920928955078125e-07
+  },
+  "cycle_seam_error": 5.960464477539063e-08,
+  "source_mechanics": {
+    "upper_pin_attachment": 1.7806232961088393e-05,
+    "lower_pin_attachment": 1.9110702922202824e-06,
+    "rigid_link_length": 1.7212420111434312e-07,
+    "pin_seat_span_deviation": 1.980360553499594e-05,
+    "authored_key_pin_attachment": 2.6656007498500226e-07,
+    "ram_guide_alignment": 0.0,
+    "fixed_socket_motion": 0.0,
+    "motor_to_crank_ratio": 5.331201499700045e-07,
+    "transfer_phase": 0.0
+  },
+  "runtime_mechanics": {
+    "upper_pin_attachment": 1.7895692829890447e-05,
+    "lower_pin_attachment": 1.9110702922202824e-06,
+    "rigid_link_length": 1.5734840563830232e-07,
+    "pin_seat_span_deviation": 1.9861570105472737e-05,
+    "authored_key_pin_attachment": 2.457562461863554e-07,
+    "ram_guide_alignment": 0.0,
+    "fixed_socket_motion": 0.0,
+    "motor_to_crank_ratio": 1.1202660876043142e-06,
+    "transfer_phase": 0.0
+  },
+  "mechanism_sampled_poses": 385,
+  "mechanical_fit_policy": "Authored key pin centres within 1e-5 tile; interpolated centres within 0.0001 tile, compared against actual 0.002 radial pin/bore clearance. Actual rigid link endpoint span remains 0.52 tile.",
+  "press_pin_radial_clearance_tiles": 0.002,
+  "ram_guide_radial_clearance_tiles": 0.0025,
+  "packed_images": [
+    {
+      "name": "aged-copper-jacket-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "aged-copper-jacket-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cast-iron-housing-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cut-oak-growth-rings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "fired-clay-lining-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "long-grain-oak-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-bedded-limestone-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-bedded-limestone-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-bedded-limestone-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-crude-oil-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-crude-oil-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-crude-oil-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-fired-retort-clay-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-fired-retort-clay-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-fired-retort-clay-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-insulated-winding-cloth-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-insulated-winding-cloth-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-insulated-winding-cloth-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-oiled-leather-belt-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-oiled-leather-belt-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "tank-ammo-oiled-leather-belt-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-albedo",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-normal",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "worn-bronze-fittings-roughness",
+      "packed": true,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "embedded_export_images": 33,
+  "animation_count": 1,
+  "owner_visual_approved": false,
+  "native_game_verified": false
+}

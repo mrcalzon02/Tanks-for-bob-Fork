@@ -1,0 +1,2711 @@
+{
+  "artifact": "models\\island-survival\\tank-ammo-assembling-machine\\candidates\\v1-production03\\tank-ammo-assembler-v1.blend",
+  "sha256": "5bca56a8cee03867098e09ce2f14072c0b437af4010096569ee0822bc1c0945d",
+  "sampled_poses": 385,
+  "authored_frames": 193,
+  "includes_half_frames": true,
+  "moving_meshes": [
+    "AMMO | agitator driven pulley flange",
+    "AMMO | agitator driven pulley flange.001",
+    "AMMO | agitator driven pulley leather contact",
+    "AMMO | agitator driven pulley spoke",
+    "AMMO | agitator driven pulley spoke.001",
+    "AMMO | agitator driven pulley spoke.002",
+    "AMMO | agitator driven pulley spoke.003",
+    "AMMO | armature copper bar",
+    "AMMO | armature copper bar.001",
+    "AMMO | armature copper bar.002",
+    "AMMO | armature copper bar.003",
+    "AMMO | armature copper bar.004",
+    "AMMO | armature copper bar.005",
+    "AMMO | armature copper bar.006",
+    "AMMO | armature copper bar.007",
+    "AMMO | armature copper bar.008",
+    "AMMO | armature copper bar.009",
+    "AMMO | bored moving ram guide eye",
+    "AMMO | bored moving ram guide eye.001",
+    "AMMO | contained mixing paddle",
+    "AMMO | contained mixing paddle.001",
+    "AMMO | contained mixing paddle.002",
+    "AMMO | contained mixing paddle.003",
+    "AMMO | contained mixing paddle.004",
+    "AMMO | contained mixing paddle.005",
+    "AMMO | contained mixing paddle.006",
+    "AMMO | contained mixing paddle.007",
+    "AMMO | contained mixing paddle.008",
+    "AMMO | crank seated spoke",
+    "AMMO | crank seated spoke.001",
+    "AMMO | crank seated spoke.002",
+    "AMMO | crank seated spoke.003",
+    "AMMO | crank seated spoke.004",
+    "AMMO | crank seated spoke.005",
+    "AMMO | drawing mandrel",
+    "AMMO | eccentric upper pin",
+    "AMMO | electric armature iron core",
+    "AMMO | front agitator indicator spoke",
+    "AMMO | front agitator indicator spoke.001",
+    "AMMO | front agitator indicator spoke.002",
+    "AMMO | front agitator indicator spoke.003",
+    "AMMO | mixing upper drop pulley flange",
+    "AMMO | mixing upper drop pulley flange.001",
+    "AMMO | mixing upper drop pulley leather contact",
+    "AMMO | mixing upper drop pulley spoke",
+    "AMMO | mixing upper drop pulley spoke.001",
+    "AMMO | mixing upper drop pulley spoke.002",
+    "AMMO | mixing upper drop pulley spoke.003",
+    "AMMO | mixing upper transfer pulley flange",
+    "AMMO | mixing upper transfer pulley flange.001",
+    "AMMO | mixing upper transfer pulley leather contact",
+    "AMMO | mixing upper transfer pulley spoke",
+    "AMMO | mixing upper transfer pulley spoke.001",
+    "AMMO | mixing upper transfer pulley spoke.002",
+    "AMMO | mixing upper transfer pulley spoke.003",
+    "AMMO | motor drive pulley flange",
+    "AMMO | motor drive pulley flange.001",
+    "AMMO | motor drive pulley leather contact",
+    "AMMO | motor drive pulley spoke",
+    "AMMO | motor drive pulley spoke.001",
+    "AMMO | motor drive pulley spoke.002",
+    "AMMO | motor drive pulley spoke.003",
+    "AMMO | motor through shaft",
+    "AMMO | moving ram crossbar",
+    "AMMO | press crank rim",
+    "AMMO | press reduction pulley flange",
+    "AMMO | press reduction pulley flange.001",
+    "AMMO | press reduction pulley leather contact",
+    "AMMO | press reduction pulley spoke",
+    "AMMO | press reduction pulley spoke.001",
+    "AMMO | press reduction pulley spoke.002",
+    "AMMO | press reduction pulley spoke.003",
+    "AMMO | press through shaft",
+    "AMMO | press transfer pulley flange",
+    "AMMO | press transfer pulley flange.001",
+    "AMMO | press transfer pulley leather contact",
+    "AMMO | press transfer pulley spoke",
+    "AMMO | press transfer pulley spoke.001",
+    "AMMO | press transfer pulley spoke.002",
+    "AMMO | press transfer pulley spoke.003",
+    "AMMO | ram lower pin",
+    "AMMO | real connecting rod eye",
+    "AMMO | real connecting rod eye.001",
+    "AMMO | rigid link web",
+    "AMMO | sealed process through shaft",
+    "AMMO | upper transfer through shaft"
+  ],
+  "motion_owners": {
+    "AMMO | REUSED tank-ammo-assembling-machine_factory_base": null,
+    "AMMO | REUSED tank-ammo-assembling-machine_munitions_feeder": null,
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former": null,
+    "AMMO | REUSED tank-ammo-assembling-machine_loading_hopper": null,
+    "AMMO | REUSED tank-ammo-assembling-machine_north_oil_inlet": null,
+    "AMMO | REUSED tank-ammo-assembling-machine_south_oil_outlet": null,
+    "AMMO | REUSED tank-ammo-assembling-machine_output_cases": null,
+    "AMMO | REUSED tank-ammo-assembling-machine_safety_cage": null,
+    "AMMO | separate timber deck board": null,
+    "AMMO | separate timber deck board.001": null,
+    "AMMO | separate timber deck board.002": null,
+    "AMMO | separate timber deck board.003": null,
+    "AMMO | separate timber deck board.004": null,
+    "AMMO | separate timber deck board.005": null,
+    "AMMO | separate timber deck board.006": null,
+    "AMMO | separate timber deck board.007": null,
+    "AMMO | separate timber deck board.008": null,
+    "AMMO | seated floor corner pin": null,
+    "AMMO | seated floor corner pin.001": null,
+    "AMMO | seated floor corner pin.002": null,
+    "AMMO | seated floor corner pin.003": null,
+    "AMMO | full-size fixed pipe collar": null,
+    "AMMO | collar retained bolt": null,
+    "AMMO | collar retained bolt.001": null,
+    "AMMO | collar retained bolt.002": null,
+    "AMMO | collar retained bolt.003": null,
+    "AMMO | collar retained bolt.004": null,
+    "AMMO | collar retained bolt.005": null,
+    "AMMO | fixed reducing pipe tail": null,
+    "AMMO | grounded pipe saddle": null,
+    "AMMO | saddle anchor bolt": null,
+    "AMMO | saddle anchor bolt.001": null,
+    "AMMO | full-size fixed pipe collar.001": null,
+    "AMMO | collar retained bolt.006": null,
+    "AMMO | collar retained bolt.007": null,
+    "AMMO | collar retained bolt.008": null,
+    "AMMO | collar retained bolt.009": null,
+    "AMMO | collar retained bolt.010": null,
+    "AMMO | collar retained bolt.011": null,
+    "AMMO | fixed reducing pipe tail.001": null,
+    "AMMO | grounded pipe saddle.001": null,
+    "AMMO | saddle anchor bolt.002": null,
+    "AMMO | saddle anchor bolt.003": null,
+    "AMMO | press timber load post": null,
+    "AMMO | post seated iron foot": null,
+    "AMMO | press timber load post.001": null,
+    "AMMO | post seated iron foot.001": null,
+    "AMMO | post knee brace": null,
+    "AMMO | post knee brace.001": null,
+    "AMMO | press timber load post.002": null,
+    "AMMO | post seated iron foot.002": null,
+    "AMMO | press timber load post.003": null,
+    "AMMO | post seated iron foot.003": null,
+    "AMMO | post knee brace.002": null,
+    "AMMO | post knee brace.003": null,
+    "AMMO | press bearing crosshead": null,
+    "AMMO | rear shaft bearing crosshead": null,
+    "AMMO | fixed die bolster": null,
+    "AMMO | bored fixed case die": null,
+    "AMMO | hollow copper case in die": null,
+    "AMMO | fixed polished press guide": null,
+    "AMMO | fixed guide support collar": null,
+    "AMMO | fixed guide support collar.001": null,
+    "AMMO | fixed polished press guide.001": null,
+    "AMMO | fixed guide support collar.002": null,
+    "AMMO | fixed guide support collar.003": null,
+    "AMMO | moving ram crossbar": "AMMO | guided moving press ram",
+    "AMMO | bored moving ram guide eye": "AMMO | guided moving press ram",
+    "AMMO | bored moving ram guide eye.001": "AMMO | guided moving press ram",
+    "AMMO | drawing mandrel": "AMMO | guided moving press ram",
+    "AMMO | ram lower pin": "AMMO | guided moving press ram",
+    "AMMO | press through shaft": "AMMO | press crank and shaft",
+    "AMMO | press crank rim": "AMMO | press crank and shaft",
+    "AMMO | crank seated spoke": "AMMO | press crank and shaft",
+    "AMMO | crank seated spoke.001": "AMMO | press crank and shaft",
+    "AMMO | crank seated spoke.002": "AMMO | press crank and shaft",
+    "AMMO | crank seated spoke.003": "AMMO | press crank and shaft",
+    "AMMO | crank seated spoke.004": "AMMO | press crank and shaft",
+    "AMMO | crank seated spoke.005": "AMMO | press crank and shaft",
+    "AMMO | eccentric upper pin": "AMMO | press crank and shaft",
+    "AMMO | rigid link web": "AMMO | rigid press connecting rod",
+    "AMMO | real connecting rod eye": "AMMO | rigid press connecting rod",
+    "AMMO | real connecting rod eye.001": "AMMO | rigid press connecting rod",
+    "AMMO | front upper bearing grounded post": null,
+    "AMMO | fixed upper shaft bush": null,
+    "AMMO | bearing seated cleat": null,
+    "AMMO | fixed upper shaft bush.001": null,
+    "AMMO | bearing seated cleat.001": null,
+    "AMMO | electric armature iron core": "AMMO | wound motor rotor",
+    "AMMO | motor through shaft": "AMMO | wound motor rotor",
+    "AMMO | armature copper bar": "AMMO | wound motor rotor",
+    "AMMO | armature copper bar.001": "AMMO | wound motor rotor",
+    "AMMO | armature copper bar.002": "AMMO | wound motor rotor",
+    "AMMO | armature copper bar.003": "AMMO | wound motor rotor",
+    "AMMO | armature copper bar.004": "AMMO | wound motor rotor",
+    "AMMO | armature copper bar.005": "AMMO | wound motor rotor",
+    "AMMO | armature copper bar.006": "AMMO | wound motor rotor",
+    "AMMO | armature copper bar.007": "AMMO | wound motor rotor",
+    "AMMO | armature copper bar.008": "AMMO | wound motor rotor",
+    "AMMO | armature copper bar.009": "AMMO | wound motor rotor",
+    "AMMO | stationary open motor housing": null,
+    "AMMO | motor bored shaft bearing": null,
+    "AMMO | motor grounded wooden saddle": null,
+    "AMMO | stationary open motor housing.001": null,
+    "AMMO | motor bored shaft bearing.001": null,
+    "AMMO | motor grounded wooden saddle.001": null,
+    "AMMO | cloth insulated stator pole": null,
+    "AMMO | visible copper field winding": null,
+    "AMMO | visible copper field winding.001": null,
+    "AMMO | visible copper field winding.002": null,
+    "AMMO | visible copper field winding.003": null,
+    "AMMO | visible copper field winding.004": null,
+    "AMMO | visible copper field winding.005": null,
+    "AMMO | visible copper field winding.006": null,
+    "AMMO | visible copper field winding.007": null,
+    "AMMO | visible copper field winding.008": null,
+    "AMMO | visible copper field winding.009": null,
+    "AMMO | cloth insulated stator pole.001": null,
+    "AMMO | visible copper field winding.010": null,
+    "AMMO | visible copper field winding.011": null,
+    "AMMO | visible copper field winding.012": null,
+    "AMMO | visible copper field winding.013": null,
+    "AMMO | visible copper field winding.014": null,
+    "AMMO | visible copper field winding.015": null,
+    "AMMO | visible copper field winding.016": null,
+    "AMMO | visible copper field winding.017": null,
+    "AMMO | visible copper field winding.018": null,
+    "AMMO | visible copper field winding.019": null,
+    "AMMO | stator pole grounded timber foot": null,
+    "AMMO | stator pole grounded timber foot.001": null,
+    "AMMO | retort brick bearing saddle": null,
+    "AMMO | retort hoop and support clamp": null,
+    "AMMO | retort brick bearing saddle.001": null,
+    "AMMO | retort hoop and support clamp.001": null,
+    "AMMO | fixed agitator sealed bearing": null,
+    "AMMO | fixed agitator sealed bearing.001": null,
+    "AMMO | actual charge neck": null,
+    "AMMO | hopper grounded upright": null,
+    "AMMO | hopper diagonal cradle": null,
+    "AMMO | hopper grounded upright.001": null,
+    "AMMO | hopper diagonal cradle.001": null,
+    "AMMO | retort bolted end ring": null,
+    "AMMO | retort bolted end ring.001": null,
+    "AMMO | retort ring fastener": null,
+    "AMMO | retort ring fastener.001": null,
+    "AMMO | retort ring fastener.002": null,
+    "AMMO | retort ring fastener.003": null,
+    "AMMO | retort ring fastener.004": null,
+    "AMMO | retort ring fastener.005": null,
+    "AMMO | retort ring fastener.006": null,
+    "AMMO | retort ring fastener.007": null,
+    "AMMO | retort ring fastener.008": null,
+    "AMMO | retort ring fastener.009": null,
+    "AMMO | retort ring fastener.010": null,
+    "AMMO | retort ring fastener.011": null,
+    "AMMO | retort ring fastener.012": null,
+    "AMMO | retort ring fastener.013": null,
+    "AMMO | retort ring fastener.014": null,
+    "AMMO | retort ring fastener.015": null,
+    "AMMO | electric retort heating band": null,
+    "AMMO | electric retort heating band.001": null,
+    "AMMO | electric retort heating band.002": null,
+    "AMMO | electric retort heating band.003": null,
+    "AMMO | sealed process through shaft": "AMMO | driven sealed agitator shaft",
+    "AMMO | contained mixing paddle": "AMMO | driven sealed agitator shaft",
+    "AMMO | contained mixing paddle.001": "AMMO | driven sealed agitator shaft",
+    "AMMO | contained mixing paddle.002": "AMMO | driven sealed agitator shaft",
+    "AMMO | contained mixing paddle.003": "AMMO | driven sealed agitator shaft",
+    "AMMO | contained mixing paddle.004": "AMMO | driven sealed agitator shaft",
+    "AMMO | contained mixing paddle.005": "AMMO | driven sealed agitator shaft",
+    "AMMO | contained mixing paddle.006": "AMMO | driven sealed agitator shaft",
+    "AMMO | contained mixing paddle.007": "AMMO | driven sealed agitator shaft",
+    "AMMO | contained mixing paddle.008": "AMMO | driven sealed agitator shaft",
+    "AMMO | front agitator indicator spoke": "AMMO | driven sealed agitator shaft",
+    "AMMO | front agitator indicator spoke.001": "AMMO | driven sealed agitator shaft",
+    "AMMO | front agitator indicator spoke.002": "AMMO | driven sealed agitator shaft",
+    "AMMO | front agitator indicator spoke.003": "AMMO | driven sealed agitator shaft",
+    "AMMO | upper transfer through shaft": "AMMO | upper mixing transfer shaft",
+    "AMMO | rear transmission timber upright": null,
+    "AMMO | rear transmission timber upright.001": null,
+    "AMMO | rear transfer bearing beam": null,
+    "AMMO | fixed transfer bored bush": null,
+    "AMMO | motor drive pulley flange": "AMMO | wound motor rotor",
+    "AMMO | motor drive pulley flange.001": "AMMO | wound motor rotor",
+    "AMMO | motor drive pulley leather contact": "AMMO | wound motor rotor",
+    "AMMO | motor drive pulley spoke": "AMMO | wound motor rotor",
+    "AMMO | motor drive pulley spoke.001": "AMMO | wound motor rotor",
+    "AMMO | motor drive pulley spoke.002": "AMMO | wound motor rotor",
+    "AMMO | motor drive pulley spoke.003": "AMMO | wound motor rotor",
+    "AMMO | press reduction pulley flange": "AMMO | press crank and shaft",
+    "AMMO | press reduction pulley flange.001": "AMMO | press crank and shaft",
+    "AMMO | press reduction pulley leather contact": "AMMO | press crank and shaft",
+    "AMMO | press reduction pulley spoke": "AMMO | press crank and shaft",
+    "AMMO | press reduction pulley spoke.001": "AMMO | press crank and shaft",
+    "AMMO | press reduction pulley spoke.002": "AMMO | press crank and shaft",
+    "AMMO | press reduction pulley spoke.003": "AMMO | press crank and shaft",
+    "AMMO | motor to press leather belt": null,
+    "AMMO | press transfer pulley flange": "AMMO | press crank and shaft",
+    "AMMO | press transfer pulley flange.001": "AMMO | press crank and shaft",
+    "AMMO | press transfer pulley leather contact": "AMMO | press crank and shaft",
+    "AMMO | press transfer pulley spoke": "AMMO | press crank and shaft",
+    "AMMO | press transfer pulley spoke.001": "AMMO | press crank and shaft",
+    "AMMO | press transfer pulley spoke.002": "AMMO | press crank and shaft",
+    "AMMO | press transfer pulley spoke.003": "AMMO | press crank and shaft",
+    "AMMO | mixing upper transfer pulley flange": "AMMO | upper mixing transfer shaft",
+    "AMMO | mixing upper transfer pulley flange.001": "AMMO | upper mixing transfer shaft",
+    "AMMO | mixing upper transfer pulley leather contact": "AMMO | upper mixing transfer shaft",
+    "AMMO | mixing upper transfer pulley spoke": "AMMO | upper mixing transfer shaft",
+    "AMMO | mixing upper transfer pulley spoke.001": "AMMO | upper mixing transfer shaft",
+    "AMMO | mixing upper transfer pulley spoke.002": "AMMO | upper mixing transfer shaft",
+    "AMMO | mixing upper transfer pulley spoke.003": "AMMO | upper mixing transfer shaft",
+    "AMMO | upper cross-shaft leather belt": null,
+    "AMMO | mixing upper drop pulley flange": "AMMO | upper mixing transfer shaft",
+    "AMMO | mixing upper drop pulley flange.001": "AMMO | upper mixing transfer shaft",
+    "AMMO | mixing upper drop pulley leather contact": "AMMO | upper mixing transfer shaft",
+    "AMMO | mixing upper drop pulley spoke": "AMMO | upper mixing transfer shaft",
+    "AMMO | mixing upper drop pulley spoke.001": "AMMO | upper mixing transfer shaft",
+    "AMMO | mixing upper drop pulley spoke.002": "AMMO | upper mixing transfer shaft",
+    "AMMO | mixing upper drop pulley spoke.003": "AMMO | upper mixing transfer shaft",
+    "AMMO | agitator driven pulley flange": "AMMO | driven sealed agitator shaft",
+    "AMMO | agitator driven pulley flange.001": "AMMO | driven sealed agitator shaft",
+    "AMMO | agitator driven pulley leather contact": "AMMO | driven sealed agitator shaft",
+    "AMMO | agitator driven pulley spoke": "AMMO | driven sealed agitator shaft",
+    "AMMO | agitator driven pulley spoke.001": "AMMO | driven sealed agitator shaft",
+    "AMMO | agitator driven pulley spoke.002": "AMMO | driven sealed agitator shaft",
+    "AMMO | agitator driven pulley spoke.003": "AMMO | driven sealed agitator shaft",
+    "AMMO | rear agitator leather belt": null,
+    "AMMO | north crude oil input line": null,
+    "AMMO | hot condensate line": null,
+    "AMMO | four turn oil cooling coil": null,
+    "AMMO | coil tail into closed collector": null,
+    "AMMO | clay oil collector": null,
+    "AMMO | collected crude oil surface": null,
+    "AMMO | collector seated stone stand": null,
+    "AMMO | south recovered crude oil outlet": null,
+    "AMMO | cooler grounded upright": null,
+    "AMMO | cooler foot": null,
+    "AMMO | cooler grounded upright.001": null,
+    "AMMO | cooler foot.001": null,
+    "AMMO | feed hopper splayed leg": null,
+    "AMMO | feed hopper splayed leg.001": null,
+    "AMMO | feed hopper splayed leg.002": null,
+    "AMMO | feed hopper splayed leg.003": null,
+    "AMMO | guided feed tray board": null,
+    "AMMO | guided feed tray board.001": null,
+    "AMMO | guided feed tray board.002": null,
+    "AMMO | guided feed tray board.003": null,
+    "AMMO | guided feed tray board.004": null,
+    "AMMO | grounded front guard upright": null,
+    "AMMO | grounded front guard upright.001": null,
+    "AMMO | packing tray seated leg": null,
+    "AMMO | packing tray seated leg.001": null,
+    "AMMO | packing tray seated leg.002": null,
+    "AMMO | packing tray seated leg.003": null,
+    "AMMO | retained finished hollow case": null,
+    "AMMO | retained finished hollow case.001": null,
+    "AMMO | retained finished hollow case.002": null,
+    "AMMO | retained finished hollow case.003": null,
+    "AMMO | retained finished hollow case.004": null,
+    "AMMO | retained finished hollow case.005": null,
+    "AMMO | retained finished hollow case.006": null,
+    "AMMO | retained finished hollow case.007": null,
+    "AMMO | retained finished hollow case.008": null,
+    "AMMO | retained finished hollow case.009": null,
+    "AMMO | retained finished hollow case.010": null,
+    "AMMO | retained finished hollow case.011": null,
+    "AMMO | timber electrical isolator board": null,
+    "AMMO | clay insulated power terminal": null,
+    "AMMO | power terminal pin": null,
+    "AMMO | clay insulated power terminal.001": null,
+    "AMMO | power terminal pin.001": null,
+    "AMMO | cloth insulated motor supply": null
+  },
+  "fixed_mesh_count": 186,
+  "pairs": {
+    "AMMO | REUSED tank-ammo-assembling-machine_munitions_feeder <> AMMO | feed hopper splayed leg": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 6,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_munitions_feeder <> AMMO | feed hopper splayed leg.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 6,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_munitions_feeder <> AMMO | feed hopper splayed leg.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 6,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_munitions_feeder <> AMMO | feed hopper splayed leg.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 7,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_munitions_feeder <> AMMO | guided feed tray board.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 37,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_munitions_feeder <> AMMO | guided feed tray board.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 33,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former <> AMMO | fixed agitator sealed bearing": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 343,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former <> AMMO | fixed agitator sealed bearing.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 342,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former <> AMMO | actual charge neck": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 112,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former <> AMMO | retort bolted end ring": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 274,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former <> AMMO | retort bolted end ring.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 274,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former <> AMMO | retort ring fastener": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 13,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former <> AMMO | retort ring fastener.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 13,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former <> AMMO | retort ring fastener.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 29,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former <> AMMO | retort ring fastener.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former <> AMMO | retort ring fastener.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 13,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former <> AMMO | retort ring fastener.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 13,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former <> AMMO | retort ring fastener.012": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_case_former <> AMMO | retort ring fastener.013": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_loading_hopper <> AMMO | actual charge neck": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 212,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_loading_hopper <> AMMO | hopper diagonal cradle": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 35,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_loading_hopper <> AMMO | hopper diagonal cradle.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 33,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_north_oil_inlet <> AMMO | full-size fixed pipe collar": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 578,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_south_oil_outlet <> AMMO | full-size fixed pipe collar.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 591,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_safety_cage <> AMMO | grounded front guard upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "AMMO | REUSED tank-ammo-assembling-machine_safety_cage <> AMMO | grounded front guard upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 43,
+      "moving": false
+    },
+    "AMMO | seated floor corner pin <> AMMO | separate timber deck board": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "AMMO | seated floor corner pin.001 <> AMMO | separate timber deck board": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "AMMO | press timber load post <> AMMO | separate timber deck board": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "AMMO | press timber load post.001 <> AMMO | separate timber deck board": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "AMMO | feed hopper splayed leg <> AMMO | separate timber deck board.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 31,
+      "moving": false
+    },
+    "AMMO | feed hopper splayed leg.001 <> AMMO | separate timber deck board.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 31,
+      "moving": false
+    },
+    "AMMO | press timber load post.002 <> AMMO | separate timber deck board.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "AMMO | press timber load post.003 <> AMMO | separate timber deck board.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "AMMO | feed hopper splayed leg.003 <> AMMO | separate timber deck board.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 31,
+      "moving": false
+    },
+    "AMMO | collector seated stone stand <> AMMO | separate timber deck board.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 45,
+      "moving": false
+    },
+    "AMMO | cooler grounded upright <> AMMO | separate timber deck board.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 43,
+      "moving": false
+    },
+    "AMMO | cooler foot <> AMMO | separate timber deck board.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 43,
+      "moving": false
+    },
+    "AMMO | seated floor corner pin.002 <> AMMO | separate timber deck board.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "AMMO | seated floor corner pin.003 <> AMMO | separate timber deck board.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "AMMO | collector seated stone stand <> AMMO | separate timber deck board.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "AMMO | cooler foot <> AMMO | separate timber deck board.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "AMMO | cooler grounded upright.001 <> AMMO | separate timber deck board.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 32,
+      "moving": false
+    },
+    "AMMO | cooler foot.001 <> AMMO | separate timber deck board.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 44,
+      "moving": false
+    },
+    "AMMO | collar retained bolt <> AMMO | full-size fixed pipe collar": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | collar retained bolt.001 <> AMMO | full-size fixed pipe collar": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "AMMO | collar retained bolt.002 <> AMMO | full-size fixed pipe collar": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | collar retained bolt.003 <> AMMO | full-size fixed pipe collar": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | collar retained bolt.004 <> AMMO | full-size fixed pipe collar": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "AMMO | collar retained bolt.005 <> AMMO | full-size fixed pipe collar": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | fixed reducing pipe tail <> AMMO | north crude oil input line": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 210,
+      "moving": false
+    },
+    "AMMO | grounded pipe saddle <> AMMO | saddle anchor bolt": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 82,
+      "moving": false
+    },
+    "AMMO | grounded pipe saddle <> AMMO | saddle anchor bolt.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 82,
+      "moving": false
+    },
+    "AMMO | collar retained bolt.006 <> AMMO | full-size fixed pipe collar.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | collar retained bolt.007 <> AMMO | full-size fixed pipe collar.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "AMMO | collar retained bolt.008 <> AMMO | full-size fixed pipe collar.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "AMMO | collar retained bolt.009 <> AMMO | full-size fixed pipe collar.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | collar retained bolt.010 <> AMMO | full-size fixed pipe collar.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "AMMO | collar retained bolt.011 <> AMMO | full-size fixed pipe collar.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "AMMO | fixed reducing pipe tail.001 <> AMMO | south recovered crude oil outlet": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 208,
+      "moving": false
+    },
+    "AMMO | grounded pipe saddle.001 <> AMMO | saddle anchor bolt.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 82,
+      "moving": false
+    },
+    "AMMO | grounded pipe saddle.001 <> AMMO | saddle anchor bolt.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 82,
+      "moving": false
+    },
+    "AMMO | post seated iron foot <> AMMO | press timber load post": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "AMMO | post knee brace <> AMMO | press timber load post": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "AMMO | press bearing crosshead <> AMMO | press timber load post": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 96,
+      "moving": false
+    },
+    "AMMO | post seated iron foot.001 <> AMMO | press timber load post.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "AMMO | post knee brace.001 <> AMMO | press timber load post.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "AMMO | fixed die bolster <> AMMO | post knee brace": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 8,
+      "moving": false
+    },
+    "AMMO | post seated iron foot.002 <> AMMO | press timber load post.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "AMMO | post knee brace.002 <> AMMO | press timber load post.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "AMMO | press bearing crosshead <> AMMO | press timber load post.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 96,
+      "moving": false
+    },
+    "AMMO | post seated iron foot.003 <> AMMO | press timber load post.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "AMMO | post knee brace.003 <> AMMO | press timber load post.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "AMMO | fixed polished press guide <> AMMO | press bearing crosshead": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 160,
+      "moving": false
+    },
+    "AMMO | fixed polished press guide.001 <> AMMO | press bearing crosshead": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 160,
+      "moving": false
+    },
+    "AMMO | fixed upper shaft bush.001 <> AMMO | rear shaft bearing crosshead": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 145,
+      "moving": false
+    },
+    "AMMO | bearing seated cleat.001 <> AMMO | rear shaft bearing crosshead": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "AMMO | fixed die bolster <> AMMO | guided feed tray board": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "AMMO | fixed die bolster <> AMMO | guided feed tray board.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "AMMO | fixed die bolster <> AMMO | guided feed tray board.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 49,
+      "moving": false
+    },
+    "AMMO | fixed die bolster <> AMMO | guided feed tray board.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "AMMO | fixed die bolster <> AMMO | guided feed tray board.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "AMMO | bearing seated cleat <> AMMO | fixed upper shaft bush": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "AMMO | bearing seated cleat.001 <> AMMO | fixed upper shaft bush.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole <> AMMO | visible copper field winding": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 106,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole <> AMMO | visible copper field winding.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole <> AMMO | visible copper field winding.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 114,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole <> AMMO | visible copper field winding.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole <> AMMO | visible copper field winding.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole <> AMMO | visible copper field winding.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole <> AMMO | visible copper field winding.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole <> AMMO | visible copper field winding.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole <> AMMO | visible copper field winding.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 114,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole <> AMMO | visible copper field winding.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | cloth insulated motor supply <> AMMO | cloth insulated stator pole": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 104,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot <> AMMO | visible copper field winding.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 33,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot <> AMMO | visible copper field winding.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot <> AMMO | visible copper field winding.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot <> AMMO | visible copper field winding.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot <> AMMO | visible copper field winding.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "AMMO | cloth insulated motor supply <> AMMO | visible copper field winding.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 105,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot <> AMMO | visible copper field winding.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "AMMO | cloth insulated motor supply <> AMMO | visible copper field winding.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 105,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot <> AMMO | visible copper field winding.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 33,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole.001 <> AMMO | visible copper field winding.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 106,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole.001 <> AMMO | visible copper field winding.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole.001 <> AMMO | visible copper field winding.012": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 114,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole.001 <> AMMO | visible copper field winding.013": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole.001 <> AMMO | visible copper field winding.014": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole.001 <> AMMO | visible copper field winding.015": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole.001 <> AMMO | visible copper field winding.016": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole.001 <> AMMO | visible copper field winding.017": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole.001 <> AMMO | visible copper field winding.018": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 114,
+      "moving": false
+    },
+    "AMMO | cloth insulated stator pole.001 <> AMMO | visible copper field winding.019": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 110,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot.001 <> AMMO | visible copper field winding.012": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 33,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot.001 <> AMMO | visible copper field winding.013": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot.001 <> AMMO | visible copper field winding.014": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot.001 <> AMMO | visible copper field winding.015": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot.001 <> AMMO | visible copper field winding.016": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot.001 <> AMMO | visible copper field winding.017": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 27,
+      "moving": false
+    },
+    "AMMO | stator pole grounded timber foot.001 <> AMMO | visible copper field winding.018": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 33,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring <> AMMO | retort brick bearing saddle": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 165,
+      "moving": false
+    },
+    "AMMO | retort brick bearing saddle <> AMMO | retort ring fastener.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 16,
+      "moving": false
+    },
+    "AMMO | retort brick bearing saddle <> AMMO | retort ring fastener.012": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "AMMO | retort brick bearing saddle <> AMMO | retort ring fastener.014": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "AMMO | four turn oil cooling coil <> AMMO | retort brick bearing saddle": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 84,
+      "moving": false
+    },
+    "AMMO | clay oil collector <> AMMO | retort brick bearing saddle": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 29,
+      "moving": false
+    },
+    "AMMO | collector seated stone stand <> AMMO | retort brick bearing saddle": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "AMMO | cooler grounded upright <> AMMO | retort brick bearing saddle": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 68,
+      "moving": false
+    },
+    "AMMO | cooler foot <> AMMO | retort brick bearing saddle": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 53,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring <> AMMO | retort hoop and support clamp": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 325,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring.001 <> AMMO | retort brick bearing saddle.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 167,
+      "moving": false
+    },
+    "AMMO | retort brick bearing saddle.001 <> AMMO | retort ring fastener.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "AMMO | retort brick bearing saddle.001 <> AMMO | retort ring fastener.013": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "AMMO | retort brick bearing saddle.001 <> AMMO | retort ring fastener.015": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring.001 <> AMMO | retort hoop and support clamp.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 328,
+      "moving": false
+    },
+    "AMMO | actual charge neck <> AMMO | electric retort heating band.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 54,
+      "moving": false
+    },
+    "AMMO | hopper diagonal cradle <> AMMO | hopper grounded upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 52,
+      "moving": false
+    },
+    "AMMO | hopper diagonal cradle.001 <> AMMO | hopper grounded upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 48,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring <> AMMO | retort ring fastener": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring <> AMMO | retort ring fastener.002": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring <> AMMO | retort ring fastener.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 19,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring <> AMMO | retort ring fastener.006": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring <> AMMO | retort ring fastener.008": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring <> AMMO | retort ring fastener.010": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring <> AMMO | retort ring fastener.012": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 12,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring <> AMMO | retort ring fastener.014": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring.001 <> AMMO | retort ring fastener.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring.001 <> AMMO | retort ring fastener.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring.001 <> AMMO | retort ring fastener.005": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 21,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring.001 <> AMMO | retort ring fastener.007": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring.001 <> AMMO | retort ring fastener.009": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 14,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring.001 <> AMMO | retort ring fastener.011": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring.001 <> AMMO | retort ring fastener.013": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 17,
+      "moving": false
+    },
+    "AMMO | retort bolted end ring.001 <> AMMO | retort ring fastener.015": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 18,
+      "moving": false
+    },
+    "AMMO | rear transfer bearing beam <> AMMO | rear transmission timber upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "AMMO | rear transfer bearing beam <> AMMO | rear transmission timber upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 62,
+      "moving": false
+    },
+    "AMMO | fixed transfer bored bush <> AMMO | rear transfer bearing beam": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 75,
+      "moving": false
+    },
+    "AMMO | four turn oil cooling coil <> AMMO | hot condensate line": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 180,
+      "moving": false
+    },
+    "AMMO | coil tail into closed collector <> AMMO | four turn oil cooling coil": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 281,
+      "moving": false
+    },
+    "AMMO | clay oil collector <> AMMO | four turn oil cooling coil": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 845,
+      "moving": false
+    },
+    "AMMO | collector seated stone stand <> AMMO | cooler grounded upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "AMMO | collector seated stone stand <> AMMO | cooler foot": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "AMMO | collector seated stone stand <> AMMO | cooler grounded upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 60,
+      "moving": false
+    },
+    "AMMO | collector seated stone stand <> AMMO | cooler foot.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 51,
+      "moving": false
+    },
+    "AMMO | cooler foot <> AMMO | cooler grounded upright": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "AMMO | cooler foot.001 <> AMMO | cooler grounded upright.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 34,
+      "moving": false
+    },
+    "AMMO | feed hopper splayed leg.001 <> AMMO | guided feed tray board": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "AMMO | feed hopper splayed leg.001 <> AMMO | guided feed tray board.001": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "AMMO | feed hopper splayed leg.003 <> AMMO | guided feed tray board.003": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 50,
+      "moving": false
+    },
+    "AMMO | feed hopper splayed leg.003 <> AMMO | guided feed tray board.004": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 47,
+      "moving": false
+    },
+    "AMMO | clay insulated power terminal <> AMMO | cloth insulated motor supply": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 255,
+      "moving": false
+    },
+    "AMMO | cloth insulated motor supply <> AMMO | power terminal pin": {
+      "first_frame": 1,
+      "last_frame": 1,
+      "frames": 1,
+      "maximum_triangle_intersections": 232,
+      "moving": false
+    },
+    "AMMO | motor drive pulley leather contact <> AMMO | motor to press leather belt": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 264,
+      "moving": true
+    },
+    "AMMO | motor to press leather belt <> AMMO | press reduction pulley leather contact": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 304,
+      "moving": true
+    },
+    "AMMO | press transfer pulley leather contact <> AMMO | upper cross-shaft leather belt": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 282,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley leather contact <> AMMO | upper cross-shaft leather belt": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 282,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley leather contact <> AMMO | rear agitator leather belt": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 282,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley leather contact <> AMMO | rear agitator leather belt": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 282,
+      "moving": true
+    },
+    "AMMO | bored moving ram guide eye <> AMMO | moving ram crossbar": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 713,
+      "moving": true
+    },
+    "AMMO | bored moving ram guide eye.001 <> AMMO | moving ram crossbar": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 699,
+      "moving": true
+    },
+    "AMMO | moving ram crossbar <> AMMO | ram lower pin": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 66,
+      "moving": true
+    },
+    "AMMO | crank seated spoke <> AMMO | press through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 68,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.001 <> AMMO | press through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 70,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.002 <> AMMO | press through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 72,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.003 <> AMMO | press through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 68,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.004 <> AMMO | press through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 70,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.005 <> AMMO | press through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 72,
+      "moving": true
+    },
+    "AMMO | press reduction pulley spoke <> AMMO | press through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | press reduction pulley spoke.001 <> AMMO | press through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | press reduction pulley spoke.002 <> AMMO | press through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | press reduction pulley spoke.003 <> AMMO | press through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | press through shaft <> AMMO | press transfer pulley spoke": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | press through shaft <> AMMO | press transfer pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | press through shaft <> AMMO | press transfer pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | press through shaft <> AMMO | press transfer pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | crank seated spoke <> AMMO | press crank rim": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.001 <> AMMO | press crank rim": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.002 <> AMMO | press crank rim": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.003 <> AMMO | press crank rim": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.004 <> AMMO | press crank rim": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.005 <> AMMO | press crank rim": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "AMMO | crank seated spoke <> AMMO | crank seated spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 59,
+      "moving": true
+    },
+    "AMMO | crank seated spoke <> AMMO | crank seated spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | crank seated spoke <> AMMO | crank seated spoke.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 57,
+      "moving": true
+    },
+    "AMMO | crank seated spoke <> AMMO | crank seated spoke.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 59,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.001 <> AMMO | crank seated spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.001 <> AMMO | crank seated spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 61,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.001 <> AMMO | crank seated spoke.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 59,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.002 <> AMMO | crank seated spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.002 <> AMMO | crank seated spoke.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.003 <> AMMO | crank seated spoke.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 59,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.003 <> AMMO | crank seated spoke.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 56,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.004 <> AMMO | crank seated spoke.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 57,
+      "moving": true
+    },
+    "AMMO | real connecting rod eye <> AMMO | rigid link web": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | real connecting rod eye.001 <> AMMO | rigid link web": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | electric armature iron core <> AMMO | motor through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 160,
+      "moving": true
+    },
+    "AMMO | armature copper bar <> AMMO | electric armature iron core": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "AMMO | armature copper bar.001 <> AMMO | electric armature iron core": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "AMMO | armature copper bar.002 <> AMMO | electric armature iron core": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 42,
+      "moving": true
+    },
+    "AMMO | armature copper bar.003 <> AMMO | electric armature iron core": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 42,
+      "moving": true
+    },
+    "AMMO | armature copper bar.004 <> AMMO | electric armature iron core": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "AMMO | armature copper bar.005 <> AMMO | electric armature iron core": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "AMMO | armature copper bar.006 <> AMMO | electric armature iron core": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "AMMO | armature copper bar.007 <> AMMO | electric armature iron core": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 42,
+      "moving": true
+    },
+    "AMMO | armature copper bar.008 <> AMMO | electric armature iron core": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 42,
+      "moving": true
+    },
+    "AMMO | armature copper bar.009 <> AMMO | electric armature iron core": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 38,
+      "moving": true
+    },
+    "AMMO | motor drive pulley spoke <> AMMO | motor through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | motor drive pulley spoke.001 <> AMMO | motor through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | motor drive pulley spoke.002 <> AMMO | motor through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | motor drive pulley spoke.003 <> AMMO | motor through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 70,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.001 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 72,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.002 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 71,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.003 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 70,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.004 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 72,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.005 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 72,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.006 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 70,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.007 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 70,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.008 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 73,
+      "moving": true
+    },
+    "AMMO | front agitator indicator spoke <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | front agitator indicator spoke.001 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | front agitator indicator spoke.002 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | front agitator indicator spoke.003 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley spoke <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 52,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley spoke.001 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 52,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley spoke.002 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 52,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley spoke.003 <> AMMO | sealed process through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 52,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle <> AMMO | contained mixing paddle.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 61,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle <> AMMO | contained mixing paddle.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 61,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.001 <> AMMO | contained mixing paddle.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.003 <> AMMO | contained mixing paddle.004": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 62,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.003 <> AMMO | contained mixing paddle.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 59,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.004 <> AMMO | contained mixing paddle.005": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.006 <> AMMO | contained mixing paddle.007": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 63,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.006 <> AMMO | contained mixing paddle.008": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "AMMO | contained mixing paddle.007 <> AMMO | contained mixing paddle.008": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 61,
+      "moving": true
+    },
+    "AMMO | front agitator indicator spoke <> AMMO | front agitator indicator spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 61,
+      "moving": true
+    },
+    "AMMO | front agitator indicator spoke <> AMMO | front agitator indicator spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 55,
+      "moving": true
+    },
+    "AMMO | front agitator indicator spoke.001 <> AMMO | front agitator indicator spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 61,
+      "moving": true
+    },
+    "AMMO | front agitator indicator spoke.002 <> AMMO | front agitator indicator spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley spoke <> AMMO | upper transfer through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley spoke.001 <> AMMO | upper transfer through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley spoke.002 <> AMMO | upper transfer through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley spoke.003 <> AMMO | upper transfer through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley spoke <> AMMO | upper transfer through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley spoke.001 <> AMMO | upper transfer through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley spoke.002 <> AMMO | upper transfer through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley spoke.003 <> AMMO | upper transfer through shaft": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | motor drive pulley leather contact <> AMMO | motor drive pulley spoke": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 43,
+      "moving": true
+    },
+    "AMMO | motor drive pulley leather contact <> AMMO | motor drive pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 42,
+      "moving": true
+    },
+    "AMMO | motor drive pulley leather contact <> AMMO | motor drive pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 43,
+      "moving": true
+    },
+    "AMMO | motor drive pulley leather contact <> AMMO | motor drive pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 42,
+      "moving": true
+    },
+    "AMMO | motor drive pulley spoke <> AMMO | motor drive pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 55,
+      "moving": true
+    },
+    "AMMO | motor drive pulley spoke <> AMMO | motor drive pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | motor drive pulley spoke.001 <> AMMO | motor drive pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | motor drive pulley spoke.002 <> AMMO | motor drive pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 54,
+      "moving": true
+    },
+    "AMMO | press reduction pulley leather contact <> AMMO | press reduction pulley spoke": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "AMMO | press reduction pulley leather contact <> AMMO | press reduction pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "AMMO | press reduction pulley leather contact <> AMMO | press reduction pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "AMMO | press reduction pulley leather contact <> AMMO | press reduction pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "AMMO | press reduction pulley spoke <> AMMO | press reduction pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | press reduction pulley spoke <> AMMO | press reduction pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "AMMO | press reduction pulley spoke.001 <> AMMO | press reduction pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 61,
+      "moving": true
+    },
+    "AMMO | press reduction pulley spoke.002 <> AMMO | press reduction pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 56,
+      "moving": true
+    },
+    "AMMO | press transfer pulley leather contact <> AMMO | press transfer pulley spoke": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 40,
+      "moving": true
+    },
+    "AMMO | press transfer pulley leather contact <> AMMO | press transfer pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 40,
+      "moving": true
+    },
+    "AMMO | press transfer pulley leather contact <> AMMO | press transfer pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 40,
+      "moving": true
+    },
+    "AMMO | press transfer pulley leather contact <> AMMO | press transfer pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 40,
+      "moving": true
+    },
+    "AMMO | press transfer pulley spoke <> AMMO | press transfer pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 61,
+      "moving": true
+    },
+    "AMMO | press transfer pulley spoke <> AMMO | press transfer pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "AMMO | press transfer pulley spoke.001 <> AMMO | press transfer pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | press transfer pulley spoke.002 <> AMMO | press transfer pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley leather contact <> AMMO | mixing upper transfer pulley spoke": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 40,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley leather contact <> AMMO | mixing upper transfer pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 40,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley leather contact <> AMMO | mixing upper transfer pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 40,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley leather contact <> AMMO | mixing upper transfer pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 40,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley spoke <> AMMO | mixing upper transfer pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley spoke <> AMMO | mixing upper transfer pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 59,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley spoke.001 <> AMMO | mixing upper transfer pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley spoke.002 <> AMMO | mixing upper transfer pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley leather contact <> AMMO | mixing upper drop pulley spoke": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley leather contact <> AMMO | mixing upper drop pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley leather contact <> AMMO | mixing upper drop pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley leather contact <> AMMO | mixing upper drop pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley spoke <> AMMO | mixing upper drop pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley spoke <> AMMO | mixing upper drop pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley spoke.001 <> AMMO | mixing upper drop pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley spoke.002 <> AMMO | mixing upper drop pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley leather contact <> AMMO | agitator driven pulley spoke": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley leather contact <> AMMO | agitator driven pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley leather contact <> AMMO | agitator driven pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley leather contact <> AMMO | agitator driven pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 39,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley spoke <> AMMO | agitator driven pulley spoke.001": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley spoke <> AMMO | agitator driven pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley spoke.001 <> AMMO | agitator driven pulley spoke.002": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 60,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley spoke.002 <> AMMO | agitator driven pulley spoke.003": {
+      "first_frame": 1.0,
+      "last_frame": 193.0,
+      "frames": 385,
+      "maximum_triangle_intersections": 58,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.002 <> AMMO | crank seated spoke.005": {
+      "first_frame": 1.5,
+      "last_frame": 191.5,
+      "frames": 209,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "AMMO | front agitator indicator spoke <> AMMO | front agitator indicator spoke.002": {
+      "first_frame": 1.5,
+      "last_frame": 192.5,
+      "frames": 271,
+      "maximum_triangle_intersections": 21,
+      "moving": true
+    },
+    "AMMO | front agitator indicator spoke.001 <> AMMO | front agitator indicator spoke.003": {
+      "first_frame": 1.5,
+      "last_frame": 192.0,
+      "frames": 249,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "AMMO | motor drive pulley spoke <> AMMO | motor drive pulley spoke.002": {
+      "first_frame": 1.5,
+      "last_frame": 192.5,
+      "frames": 304,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "AMMO | motor drive pulley spoke.001 <> AMMO | motor drive pulley spoke.003": {
+      "first_frame": 1.5,
+      "last_frame": 192.5,
+      "frames": 307,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "AMMO | press reduction pulley spoke <> AMMO | press reduction pulley spoke.002": {
+      "first_frame": 1.5,
+      "last_frame": 192.5,
+      "frames": 257,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "AMMO | press transfer pulley spoke <> AMMO | press transfer pulley spoke.002": {
+      "first_frame": 1.5,
+      "last_frame": 192.5,
+      "frames": 257,
+      "maximum_triangle_intersections": 21,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley spoke <> AMMO | mixing upper transfer pulley spoke.002": {
+      "first_frame": 1.5,
+      "last_frame": 192.5,
+      "frames": 257,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley spoke.001 <> AMMO | mixing upper drop pulley spoke.003": {
+      "first_frame": 1.5,
+      "last_frame": 192.5,
+      "frames": 269,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley spoke.001 <> AMMO | agitator driven pulley spoke.003": {
+      "first_frame": 1.5,
+      "last_frame": 192.5,
+      "frames": 297,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "AMMO | crank seated spoke.001 <> AMMO | crank seated spoke.004": {
+      "first_frame": 2.0,
+      "last_frame": 192.5,
+      "frames": 208,
+      "maximum_triangle_intersections": 21,
+      "moving": true
+    },
+    "AMMO | press transfer pulley spoke.001 <> AMMO | press transfer pulley spoke.003": {
+      "first_frame": 2.0,
+      "last_frame": 192.0,
+      "frames": 261,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "AMMO | mixing upper transfer pulley spoke.001 <> AMMO | mixing upper transfer pulley spoke.003": {
+      "first_frame": 2.0,
+      "last_frame": 192.0,
+      "frames": 261,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "AMMO | press reduction pulley spoke.001 <> AMMO | press reduction pulley spoke.003": {
+      "first_frame": 2.5,
+      "last_frame": 191.5,
+      "frames": 253,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "AMMO | mixing upper drop pulley spoke <> AMMO | mixing upper drop pulley spoke.002": {
+      "first_frame": 2.5,
+      "last_frame": 190.5,
+      "frames": 270,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "AMMO | agitator driven pulley spoke <> AMMO | agitator driven pulley spoke.002": {
+      "first_frame": 2.5,
+      "last_frame": 190.5,
+      "frames": 305,
+      "maximum_triangle_intersections": 20,
+      "moving": true
+    },
+    "AMMO | crank seated spoke <> AMMO | crank seated spoke.003": {
+      "first_frame": 3.5,
+      "last_frame": 191.0,
+      "frames": 244,
+      "maximum_triangle_intersections": 21,
+      "moving": true
+    }
+  },
+  "note": "Raw triangle contacts include intentional fitted joints, tooth engagement and fasteners. Every pair requires adjudication; this inventory is not a clearance pass."
+}
