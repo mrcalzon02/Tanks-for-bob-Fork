@@ -223,12 +223,14 @@
     {
       "id": "tank-assembling-machine",
       "name": "Tank Assembling Machine",
-      "revision": "OBJ blockout",
-      "status": "rebuild_required",
+      "revision": "V1 actual fixed-north 13-recipe contract and nine-group starter preserved",
+      "status": "in_progress",
       "priority": 15,
-      "next": "Build heavy gantry and vehicle assembly bed with legible assembly motion; preserve prototype contract.",
+      "next": "Refine retained gantry/rail/hull-jig/tool source for actual vehicle upgrades; native 250kW/four-module, no-fluid fixed-north contract and all 13 recipe selections verified. Complete full asset and operational delivery.",
       "evidence": [
-        "models/island-survival/designs.json"
+        "models/island-survival/designs.json",
+        "models/island-survival/tank-assembling-machine/v1/contract.json",
+        "models/island-survival/tank-assembling-machine/v1/WORK_ORDER.md"
       ],
       "fmpl_delivery": "pending_source_export_inspection_registration",
       "done": false

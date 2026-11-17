@@ -1,0 +1,769 @@
+{
+  "entity": {
+    "name": "tank-assembling-machine",
+    "type": "assembling-machine",
+    "collision_box": {
+      "left_top": {
+        "y": -1.19921875,
+        "x": -1.19921875
+      },
+      "right_bottom": {
+        "y": 1.19921875,
+        "x": 1.19921875
+      }
+    },
+    "selection_box": {
+      "left_top": {
+        "y": -1.5,
+        "x": -1.5
+      },
+      "right_bottom": {
+        "y": 1.5,
+        "x": 1.5
+      }
+    },
+    "tile_width": 3,
+    "tile_height": 3,
+    "crafting_categories": {
+      "tank-crafting": true,
+      "parameters": true
+    },
+    "crafting_speed": 1,
+    "max_energy_usage_per_tick": 4166.666666666667,
+    "electric": true,
+    "burner": false,
+    "ingredient_count": 6,
+    "module_inventory_size": 4
+  },
+  "building": {
+    "item": {
+      "name": "tank-assembling-machine",
+      "place_result": "tank-assembling-machine",
+      "stack_size": 10
+    },
+    "recipe": {
+      "name": "tank-assembling-machine",
+      "categories": [
+        "tank-ammo-component"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "Encabulator",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "Cradinal-grametter",
+          "amount": 3
+        },
+        {
+          "type": "item",
+          "name": "Alumatedplate",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "tank-ammo-assembling-machine",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-assembling-machine",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 0.5,
+      "enabled_initially": false
+    },
+    "technology_unlocks": [
+      {
+        "name": "encabulated-device-integration",
+        "prerequisites": [
+          "encabulated-device-integration-authorization"
+        ],
+        "ingredients": [
+          {
+            "name": "automation-science-pack",
+            "amount": 1
+          },
+          {
+            "name": "logistic-science-pack",
+            "amount": 1
+          }
+        ],
+        "unit_count": 200,
+        "unit_energy_ticks": 2700
+      }
+    ],
+    "category_compatible_builders": [
+      "assembling-machine-1",
+      "assembling-machine-2",
+      "assembling-machine-3",
+      "tank-ammo-assembling-machine"
+    ]
+  },
+  "processing_recipes": [
+    {
+      "name": "auto-tank",
+      "categories": [
+        "tank-crafting"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "advanced-circuit",
+          "amount": 25
+        },
+        {
+          "type": "item",
+          "name": "tank",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "SpervingArm",
+          "amount": 10
+        },
+        {
+          "type": "item",
+          "name": "Encabulator",
+          "amount": 30
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "auto-tank",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 145,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "auto-tank-wlsk",
+      "categories": [
+        "tank-crafting"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "auto-tank",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "tank-light-chasis-wlsk",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "auto-tank-wlsk",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 105,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research2"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "car-flamer",
+      "categories": [
+        "tank-crafting"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "steel-plate",
+          "amount": 10
+        },
+        {
+          "type": "item",
+          "name": "car",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "DuplexedSpervingArm",
+          "amount": 20
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "car-flamer",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 125,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "flame-tank",
+      "categories": [
+        "tank-crafting"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "advanced-circuit",
+          "amount": 15
+        },
+        {
+          "type": "item",
+          "name": "tank",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "DuplexedSpervingArm",
+          "amount": 15
+        },
+        {
+          "type": "item",
+          "name": "Encabulator",
+          "amount": 15
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "flame-tank",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 145,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "flame-tank-wlsk",
+      "categories": [
+        "tank-crafting"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "flame-tank",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "tank-light-chasis-wlsk",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "flame-tank-wlsk",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 105,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research2"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "mine-tank",
+      "categories": [
+        "tank-crafting"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "advanced-circuit",
+          "amount": 25
+        },
+        {
+          "type": "item",
+          "name": "tank",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "DuctedSpervingArm",
+          "amount": 40
+        },
+        {
+          "type": "item",
+          "name": "SpervingArm",
+          "amount": 70
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "mine-tank",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 600,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research3"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "nade-tank",
+      "categories": [
+        "tank-crafting"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "advanced-circuit",
+          "amount": 15
+        },
+        {
+          "type": "item",
+          "name": "engine-unit",
+          "amount": 25
+        },
+        {
+          "type": "item",
+          "name": "tank",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "SpervingArm",
+          "amount": 80
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "nade-tank",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 45,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "nade-tank-wlsk",
+      "categories": [
+        "tank-crafting"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "nade-tank",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "tank-light-chasis-wlsk",
+          "amount": 1
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "nade-tank-wlsk",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 105,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research2"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "rocket-tank",
+      "categories": [
+        "tank-crafting"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "advanced-circuit",
+          "amount": 45
+        },
+        {
+          "type": "item",
+          "name": "tank",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "DuctedSpervingArm",
+          "amount": 20
+        },
+        {
+          "type": "item",
+          "name": "SpervingArm",
+          "amount": 35
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "rocket-tank",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 260,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research3"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "super-tank",
+      "categories": [
+        "tank-crafting"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "advanced-circuit",
+          "amount": 15
+        },
+        {
+          "type": "item",
+          "name": "tank",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "DuplexedSpervingArm",
+          "amount": 40
+        },
+        {
+          "type": "item",
+          "name": "SpervingArm",
+          "amount": 75
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "super-tank",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 2500,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "super-tank-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "super-tank-alternate",
+      "categories": [
+        "tank-crafting"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "advanced-circuit",
+          "amount": 15
+        },
+        {
+          "type": "item",
+          "name": "electric-engine-unit",
+          "amount": 30
+        },
+        {
+          "type": "item",
+          "name": "tank",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "DuctedSpervingArm",
+          "amount": 75
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "super-tank-alternate",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 1000,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "super-tank-research"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "super-tank-wmd",
+      "categories": [
+        "tank-crafting"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "advanced-circuit",
+          "amount": 15
+        },
+        {
+          "type": "item",
+          "name": "electric-engine-unit",
+          "amount": 30
+        },
+        {
+          "type": "item",
+          "name": "tank",
+          "amount": 1
+        },
+        {
+          "type": "item",
+          "name": "DuplexedSpervingArm",
+          "amount": 25
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "super-tank-wmd",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 3040,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "super-tank-research2"
+      ],
+      "native_recipe_selectable": true
+    },
+    {
+      "name": "tank-light-chasis-wlsk",
+      "categories": [
+        "tank-crafting"
+      ],
+      "ingredients": [
+        {
+          "type": "item",
+          "name": "processing-unit",
+          "amount": 5
+        },
+        {
+          "type": "item",
+          "name": "electric-engine-unit",
+          "amount": 10
+        },
+        {
+          "type": "item",
+          "name": "TurboEncabulator",
+          "amount": 5
+        },
+        {
+          "type": "item",
+          "name": "Alumatedplate",
+          "amount": 6
+        }
+      ],
+      "products": [
+        {
+          "independent_probability": 1,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-light-chasis-wlsk",
+          "amount": 1,
+          "affected_by_quality": true
+        },
+        {
+          "independent_probability": 0.12,
+          "shared_probability": {
+            "min": 0,
+            "max": 1
+          },
+          "type": "item",
+          "name": "tank-ammo-Industrialwaste",
+          "amount": 1,
+          "affected_by_quality": true
+        }
+      ],
+      "energy": 0.5,
+      "enabled_initially": false,
+      "unlocked_by": [
+        "modular-tank-research2"
+      ],
+      "native_recipe_selectable": true
+    }
+  ],
+  "engine_parameter_recipe_names": [
+    "parameter-0",
+    "parameter-1",
+    "parameter-2",
+    "parameter-3",
+    "parameter-4",
+    "parameter-5",
+    "parameter-6",
+    "parameter-7",
+    "parameter-8",
+    "parameter-9"
+  ],
+  "directions": [
+    {
+      "requested": 0,
+      "placed": 0,
+      "normal_placement": true,
+      "recipe_ports": {},
+      "fluid_storage_count": 0,
+      "rotatable": true,
+      "rotate_result": false,
+      "after_rotate": 0
+    },
+    {
+      "requested": 4,
+      "placed": 0,
+      "normal_placement": true,
+      "recipe_ports": {},
+      "fluid_storage_count": 0,
+      "rotatable": true,
+      "rotate_result": false,
+      "after_rotate": 0
+    },
+    {
+      "requested": 8,
+      "placed": 0,
+      "normal_placement": true,
+      "recipe_ports": {},
+      "fluid_storage_count": 0,
+      "rotatable": true,
+      "rotate_result": false,
+      "after_rotate": 0
+    },
+    {
+      "requested": 12,
+      "placed": 0,
+      "normal_placement": true,
+      "recipe_ports": {},
+      "fluid_storage_count": 0,
+      "rotatable": true,
+      "rotate_result": false,
+      "after_rotate": 0
+    }
+  ],
+  "fluid_probe_recipes": {}
+}

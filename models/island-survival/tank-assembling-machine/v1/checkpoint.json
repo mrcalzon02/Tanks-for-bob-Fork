@@ -1,0 +1,29 @@
+{
+  "status": "native_contract_and_existing_starter_preserved_model_pending",
+  "source_repository": "mrcalzon02/Tanks-for-bob-Fork",
+  "active_mod": "tanks_for_bob_fork_1.8.104",
+  "prototype": "assembling-machine/tank-assembling-machine",
+  "starter_source": "models/island-survival/tank-assembling-machine/v1/starter-tank-assembling-machine.obj",
+  "starter_sha256": "cc89317f7b92cec81cb63d33921a5d5029d1eddde3a50fffa333ed092f41f119",
+  "preserved_starter_groups": [
+    "tank-assembling-machine_factory_foundation",
+    "tank-assembling-machine_assembly_rail_0",
+    "tank-assembling-machine_assembly_rail_1",
+    "tank-assembling-machine_gantry_support_0",
+    "tank-assembling-machine_gantry_support_1",
+    "tank-assembling-machine_overhead_gantry",
+    "tank-assembling-machine_empty_hull_jig",
+    "tank-assembling-machine_welding_head",
+    "tank-assembling-machine_sparks_marker"
+  ],
+  "actual_native_processing_recipes": 13,
+  "engine_parameter_placeholders_excluded": 10,
+  "native_recipe_selection_verified": 13,
+  "native_fixed_orientation": "All four requested directions normalize to north; rotate() returns false.",
+  "fluid_connections": "none",
+  "electric_watts": 250000,
+  "module_slots": 4,
+  "delivered": false,
+  "owner_visual_approved": false,
+  "next": "Refine the nine retained groups into supported primitive electric vehicle-upgrade gantry, seated assembly rails/hull jig and attached tool/hoist mechanism for the actual 13 recipes. Then full model-specific surfacing, animation, inspected GLB, genuine fixed-north sprites, real native operations/power/blocked/stop/reload and remote/FMPL delivery."
+}
