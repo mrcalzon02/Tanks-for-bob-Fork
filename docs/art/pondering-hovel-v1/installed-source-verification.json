@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "files": {
+    "data-final-fixes.lua": {
+      "current_sha256": "a7e6802c8ec162ac8e7314b0af8981cb491cdfeebf4d13b018343fc047b2357e",
+      "tested_sha256": "a7e6802c8ec162ac8e7314b0af8981cb491cdfeebf4d13b018343fc047b2357e"
+    },
+    "prototypes/generated_graphics/pondering-hovel-v1-production.lua": {
+      "current_sha256": "44a82d2b6a4989c8711a6e1a1c6416459c3f50479bdb8779cb4136aa5a8f76cb",
+      "tested_sha256": "44a82d2b6a4989c8711a6e1a1c6416459c3f50479bdb8779cb4136aa5a8f76cb"
+    },
+    "graphics/icons/pondering-hovel-v1.png": {
+      "current_sha256": "4424386652c539d33cf5ff144189aa030338e80cfbffbff5231574f199f74a8f",
+      "tested_sha256": "4424386652c539d33cf5ff144189aa030338e80cfbffbff5231574f199f74a8f"
+    },
+    "graphics/entity/pondering-hovel-v1/idle-256.png": {
+      "current_sha256": "7b5c79e8861ef0a0735389a458ef522e4b109a82408de0ea9d4bfdec31e09dee",
+      "tested_sha256": "7b5c79e8861ef0a0735389a458ef522e4b109a82408de0ea9d4bfdec31e09dee"
+    },
+    "graphics/entity/pondering-hovel-v1/working-256.png": {
+      "current_sha256": "1e07d53493bda5cdfb3903d7f2ebe2686df651f483d29eb7b959e203e8658416",
+      "tested_sha256": "1e07d53493bda5cdfb3903d7f2ebe2686df651f483d29eb7b959e203e8658416"
+    }
+  }
+}

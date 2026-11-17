@@ -1,7 +1,8 @@
 {
-  "status": "source_checkpoint_in_progress",
+  "status": "native_verified_delivery_pending",
   "owner_visual_approved": false,
-  "native_delivered": false,
+  "delegated_operational_review": true,
+  "native_verified": true,
   "current_candidate": "v1-production03",
-  "notes": "Final export, sprites and current native proof pending. Preserve the accepted Thinking Hut parent unchanged."
+  "notes": "Actual current source/export, sprites and operated native reload verified; final remote delivery and canonical registry pending."
 }

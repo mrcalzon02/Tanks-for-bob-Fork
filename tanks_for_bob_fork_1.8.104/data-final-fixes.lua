@@ -69,3 +69,6 @@ require("prototypes.generated_graphics.calcifier-v2-production")
 
 -- Timber/thatch burner research shelter and its supported study lantern.
 require("prototypes.generated_graphics.thinking-hut-v1-production")
+
+-- Masonry research upgrade with fitted folio, balance and working lantern.
+require("prototypes.generated_graphics.pondering-hovel-v1-production")

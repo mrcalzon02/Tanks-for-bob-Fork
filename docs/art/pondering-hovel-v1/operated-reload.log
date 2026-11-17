@@ -1,0 +1,41 @@
+   0.002 2026-11-17 01:54:13; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.002 Operating system: Windows 11 (build 26200) 
+   0.002 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\pondering-hovel-v1-client01\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\pondering-hovel-v1-client01\mods" "--test-save" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\pondering-hovel-v1-client01\runtime\saves\_autosave-pondering-hovel-complete-client.zip" "--test-ticks" "300" 
+   0.003 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/pondering-hovel-v1-client01/config.ini
+   0.003 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.003 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/pondering-hovel-v1-client01/runtime [242576/1906722MB]
+   0.003 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.009 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 18151/32526 MB, page: 26668/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.037 Running in headless mode
+   0.037 Audio is disabled
+   0.038 Info ModManager.cpp:455: FeatureFlag: 
+   0.040 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.043 Loading mod core 0.0.0 (data.lua)
+   0.057 Loading mod base 2.1.24 (data.lua)
+   0.314 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.347 Loading mod base 2.1.24 (data-updates.lua)
+   0.351 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.356 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.394 Checksum for core: 3668028660
+   0.394 Checksum of base: 3864816957
+   0.394 Checksum of tanks_for_bob_fork: 3310188143
+   0.394 Checksum of pondering-hovel-v1-proof: 0
+   0.394 Checksum of pondering-hovel-v1-capture: 0
+   0.516 Prototype list checksum: 1368343619
+   0.540 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.540 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.542 Info GlobalContext.cpp:1347: Resetting config.
+   0.542 Factorio initialised
+   0.543 Loading map C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\pondering-hovel-v1-client01\runtime\saves\_autosave-pondering-hovel-complete-client.zip: 1250290 bytes.
+   0.668 Loading level.dat: 1847506 bytes.
+   0.668 Info Scenario.cpp:152: Map version 2.1.24-1
+   0.682 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   0.682 Loading script.dat: 30493 bytes.
+   0.687 Checksum for script __level__/control.lua: 3368906707
+   0.689 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   0.690 Checksum for script __pondering-hovel-v1-proof__/control.lua: 3149309369
+   0.691 Checksum for script __pondering-hovel-v1-capture__/control.lua: 4043358069
+   0.704 Script @__pondering-hovel-v1-proof__/control.lua:74: PONDERING_HOVEL_V1_RELOAD_PASS complete=true stored_research=true
+   0.747 Info RunTest.cpp:80: Ran 300 ticks without the test finishing
+   0.747 Info GlobalContext.cpp:763: Deleting active scenario.
+   0.798 Goodbye

@@ -341,15 +341,15 @@
     {
       "id": "pondering-hovel",
       "name": "Pondering Hovel",
-      "revision": "V1 masonry research shelter in progress",
-      "status": "in_progress",
+      "revision": "V1 masonry shelter with attached folio, balance and supported lantern",
+      "status": "delivery_pending",
       "priority": 21,
-      "next": "Refine saved Pondering Hovel starter and useful study fittings into a supported masonry upgrade, inspect/export, then actual lab verification and delivery.",
+      "next": "Native current-art and actual construction/research/reload checks pass. Complete final source publication and canonical FMPL readback.",
       "evidence": [
-        "models/island-survival/pondering-hovel/v1/contract.json",
-        "ci/pondering_hovel_v1"
+        "models/island-survival/pondering-hovel/v1/FMPL_MODEL.json",
+        "docs/art/pondering-hovel-v1"
       ],
-      "fmpl_delivery": "pending_source_export_inspection_registration",
+      "fmpl_delivery": "pending_final_source_publication_and_canonical_registration",
       "done": false
     }
   ],

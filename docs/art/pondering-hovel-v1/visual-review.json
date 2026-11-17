@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-17",
+  "judgment": "delegated_operational_close_enough",
+  "owner_visual_approved": false,
+  "basis": "Actual brick research upgrade using all seven starter groups, retained fitted research equipment and owner-refined lantern. Source/export sweep repaired folio/pan crossings. Clipped shingle ends and true tapered laps repaired the reviewed roof patches before final captures.",
+  "source_sha256": "1c1221819d9b8f1b7ed391ba46bdf9bcac1f2788a297dccbefa68d91c52407a3",
+  "runtime_sha256": "c8a553cc1f580b5a0bc12c50356c61a40e54ca9fa5309f938b18196c829375e1",
+  "before_reference": "models/island-survival/pondering-hovel/candidates/v1-study01/front-review512.png",
+  "before_reference_sha256": "fa9a06fd97a03b81d49f68e308ed523dace150913b2d8abc723f138a0de7b932",
+  "acceptance_policy_sha256": "238d2e93caa278ebecd0c0c545ac4677270dd7cb4aba336eacad5595b233b017",
+  "reviewed_images": {
+    "docs/art/pondering-hovel-v1/working-a.png": "7fec662a10d20de86c89d0dd067ee6bc86b16f93bd0ba7faac685708fc9ac693",
+    "docs/art/pondering-hovel-v1/night-working.png": "684cee5604007bcde8ae8b7e7b2bbee04788f6b7919825c683bce5784414a612",
+    "docs/art/pondering-hovel-v1/night-idle.png": "c310bb4b9f835a15bade7ec16551bf87d4f6de63105eb9731b62b9c9b1d07867",
+    "docs/art/pondering-hovel-v1/smoke-origin.png": "5605f0d488a12a717f83365eefe9bd03f7e07fd2672913b88af9428cfe636ea4",
+    "docs/art/pondering-hovel-v1/restarted.png": "f16eda2db4c94e90a636d8c601c8231fed3f1ad318ef57db7f5cf83ad42f3376",
+    "docs/art/pondering-hovel-v1/lantern-working-close.png": "d574f0832b846953d13da847928396b77ca2b2f454e4ec551d3cd3fdd7285372",
+    "docs/art/pondering-hovel-v1/completed-research-idle.png": "28b377e653664502eaab77b2ae328405503fb388a0a3e06b48b86d871a75330d",
+    "docs/art/pondering-hovel-v1/refuelled.png": "691607f50144bfb92bed0443b4c134ce31552e0e3b04be4abd88e434dbf1f1a1",
+    "models/island-survival/pondering-hovel/candidates/v1-production03/actual-glb-front.png": "b96a02847dac034319f9e4da6c513460446e23eee3ae50f0ba95883fae85785b",
+    "models/island-survival/pondering-hovel/candidates/v1-production03/actual-glb-rear.png": "8a3e775b90cb6e16d679520da686c1f5f1b0eb5c9e50f4fd350bcf9198a940da",
+    "models/island-survival/pondering-hovel/candidates/v1-production03/actual-glb-clay.png": "9013258aadb56f26c1dea91c906d0dd5e84b0779ea8ad60cc560b77684b9d5c6",
+    "models/island-survival/pondering-hovel/candidates/v1-production03/actual-glb-drive-close.png": "fc63ba5ccad32d318afc91ee54a4270d825f699ad3c4ee1b2ee2be1a6a8cda9b",
+    "models/island-survival/pondering-hovel/candidates/v1-production03/actual-glb-lantern-close.png": "df53bef0e6942d7f4693452373097b0749b1483b0d918133a5b6511b45349e09"
+  },
+  "scores_out_of_10": {
+    "actual_research_function": 9,
+    "supported_construction": 8,
+    "attached_animation": 8,
+    "model_specific_surfaces": 8,
+    "gameplay_readability": 7
+  },
+  "limitations": [
+    "Individual owner approval is not claimed.",
+    "Porch activity is restrained; small folio, hinge and balance details are approximate at gameplay scale.",
+    "385 sampled poses per artifact are not continuous collision simulation.",
+    "19 actual technologies exercise all 19 supported input combinations and all 14 items; not all 75 eligible technologies completed.",
+    "No full-user-mod-pack installation or Mod Portal publication."
+  ]
+}

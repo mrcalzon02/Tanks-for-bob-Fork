@@ -1,4 +1,4 @@
-"""Capture actual Calcifier recipe operations and terrain on ordinary grass, in an isolated hidden client."""
+"""Capture actual Pondering Hovel research and lantern operation on ordinary grass, in an isolated hidden client."""
 import argparse
 import ctypes
 import hashlib
@@ -37,7 +37,7 @@ def main():
     shutil.copy2(HERE/'control.lua',mods/'pondering-hovel-v1-proof_0.0.1/control.lua')
     shutil.copy2(HERE.parents[1]/'tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/pondering-hovel-v1-production.lua',mods/'tanks_for_bob_fork_1.8.104/prototypes/generated_graphics/pondering-hovel-v1-production.lua')
     addon=mods/'pondering-hovel-v1-capture_0.0.1';addon.mkdir()
-    (addon/'info.json').write_text(json.dumps({'name':'pondering-hovel-v1-capture','version':'0.0.1','title':'Temporary graphical pump capture','author':'local proof','factorio_version':'2.1','dependencies':['base','tanks_for_bob_fork','pondering-hovel-v1-proof']}))
+    (addon/'info.json').write_text(json.dumps({'name':'pondering-hovel-v1-capture','version':'0.0.1','title':'Temporary graphical Hovel capture','author':'local proof','factorio_version':'2.1','dependencies':['base','tanks_for_bob_fork','pondering-hovel-v1-proof']}))
     shutil.copy2(HERE/'gui-control.lua',addon/'control.lua')
     modlist=json.loads((mods/'mod-list.json').read_text());modlist['mods'].append({'name':'pondering-hovel-v1-capture','enabled':True})
     (mods/'mod-list.json').write_text(json.dumps(modlist))

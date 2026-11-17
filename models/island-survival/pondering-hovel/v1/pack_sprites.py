@@ -1,4 +1,4 @@
-"""Pack real compressor renders and verify all cells, alpha bounds and loop poses."""
+"""Pack real Pondering Hovel renders and verify all cells, alpha bounds and loop poses."""
 import argparse
 import hashlib
 import json

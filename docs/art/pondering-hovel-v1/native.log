@@ -1,0 +1,41 @@
+   0.001 2026-11-17 01:53:16; Factorio 2.1.24 (build 87808, win64, steam, space-age)
+   0.001 Operating system: Windows 11 (build 26200) 
+   0.001 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\factorio.exe" "--config" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\pondering-hovel-v1-integrated-native01\config.ini" "--mod-directory" "C:\Users\Admin\Documents\ChatGPT\Tech priests\tanks-structure-production\build\pondering-hovel-v1-integrated-native01\mods" "--test-scenario" "pondering-hovel-v1-proof/proof" "--test-ticks" "10860" 
+   0.002 Config path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/pondering-hovel-v1-integrated-native01/config.ini
+   0.002 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.002 Write data path: C:/Users/Admin/Documents/ChatGPT/Tech priests/tanks-structure-production/build/pondering-hovel-v1-integrated-native01/runtime [242695/1906722MB]
+   0.002 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.008 System info: [CPU: Intel(R) Core(TM) i7-14700K, 28 cores, RAM: 18235/32526 MB, page: 26506/43790 MB, virtual: 4300/134217727 MB, extended virtual: 0 MB]
+   0.038 Running in headless mode
+   0.038 Audio is disabled
+   0.040 Info ModManager.cpp:455: FeatureFlag: 
+   0.042 Loading mod settings tanks_for_bob_fork 1.8.104 (settings.lua)
+   0.045 Loading mod core 0.0.0 (data.lua)
+   0.059 Loading mod base 2.1.24 (data.lua)
+   0.293 Loading mod tanks_for_bob_fork 1.8.104 (data.lua)
+   0.371 Loading mod base 2.1.24 (data-updates.lua)
+   0.377 Loading mod tanks_for_bob_fork 1.8.104 (data-updates.lua)
+   0.383 Loading mod tanks_for_bob_fork 1.8.104 (data-final-fixes.lua)
+   0.467 Checksum for core: 3668028660
+   0.467 Checksum of base: 3864816957
+   0.467 Checksum of tanks_for_bob_fork: 3310188143
+   0.467 Checksum of pondering-hovel-v1-proof: 0
+   0.593 Prototype list checksum: 1368343619
+   0.618 Info PlayerData.cpp:566: Cloud player-data.json unavailable
+   0.618 Info PlayerData.cpp:582: Local player-data.json unavailable
+   0.620 Info GlobalContext.cpp:1347: Resetting config.
+   0.620 Factorio initialised
+   0.627 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.061 Loading level.dat: 891276 bytes.
+   1.061 Info Scenario.cpp:152: Map version 2.1.24-1
+   1.073 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.074 Checksum for script __level__/control.lua: 3071058485
+   1.086 Checksum for script __tanks_for_bob_fork__/control.lua: 3829497892
+   1.095 Checksum for script __pondering-hovel-v1-proof__/control.lua: 3149309369
+   1.104 Script @__pondering-hovel-v1-proof__/control.lua:60: PONDERING_HOVEL_V1_FIXTURE machines=24 input_sets=19 eligible_technology_contracts=75
+   1.398 Script @__pondering-hovel-v1-proof__/control.lua:80: PONDERING_HOVEL_V1_STOP_PASS
+   2.563 Script @__pondering-hovel-v1-proof__/control.lua:97: PONDERING_HOVEL_V1_ALL_INPUT_SETS_PASS {"tested_technologies":["beachpump","stabilized-emulsion-systems","board-advisory-risk-assessment","framulated-encabulator-research","evaluation-submission","biomineral-synthesis","board-review-procedure","pondering-hovel","work-order-generation","ionic-phase-conditioning","brine-conditioning","advanced-encabulation-substrates","ceramic-lattice-conditioning","waste-processing-2","waste-processing-5-authorization","new-munitions-authorization","modular-tank-research2-authorization","mechanized-infantry-authorization","waste-processing-4-authorization"],"distinct_input_sets":19,"covered_input_items":14,"eligible_technology_contracts":75}
+   2.845 Script @__pondering-hovel-v1-proof__/control.lua:102: PONDERING_HOVEL_V1_NATIVE_PASS {"passed":true,"construction_recipe_crafted_in_workbench":true,"construction_unlock_checked":true,"machines":24,"distinct_native_research_input_sets":19,"actual_technologies_tested":["beachpump","stabilized-emulsion-systems","board-advisory-risk-assessment","framulated-encabulator-research","evaluation-submission","biomineral-synthesis","board-review-procedure","pondering-hovel","work-order-generation","ionic-phase-conditioning","brine-conditioning","advanced-encabulation-substrates","ceramic-lattice-conditioning","waste-processing-2","waste-processing-5-authorization","new-munitions-authorization","modular-tank-research2-authorization","mechanized-infantry-authorization","waste-processing-4-authorization"],"all_accepted_input_items_consumed":14,"eligible_technology_contracts":75,"fuel_starvation_and_resupply":true,"ingredient_starvation_and_resupply":true,"idle_completed_technology_and_restart":true,"script_deactivation_stop_restart":true,"native_fixed_orientation":true,"processing_recipes_and_output_blocking":"not applicable: native lab research, no manufactured output or fluid connections","gameplay_overrides":false}
+   2.855 Info RunTest.cpp:80: Ran 10860 ticks without the test finishing
+   2.855 Info GlobalContext.cpp:763: Deleting active scenario.
+   2.882 Goodbye

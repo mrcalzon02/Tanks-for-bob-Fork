@@ -1,0 +1,20 @@
+{
+  "derivation": "Saved flue outlet projected through canonical camera and native square-ground correction for each true facing",
+  "facings": {
+    "north": {
+      "source_local": [
+        0.8199999928474426,
+        0.5,
+        3.559999942779541
+      ],
+      "sprite_shift": [
+        0,
+        -0.9545941546018392
+      ],
+      "emitter_position": [
+        0.8199999213218688,
+        -3.0173009350354936
+      ]
+    }
+  }
+}

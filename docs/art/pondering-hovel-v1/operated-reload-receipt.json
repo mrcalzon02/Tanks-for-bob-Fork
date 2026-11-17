@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "operated_save_sha256": "d3c44c90a44da81ac68746bc6a817c62743c0717a6fa2ac430fb074c0d02aacc",
+  "save_after_completed_native_operation": true,
+  "lab_count": 24,
+  "reload_ticks": 300,
+  "checked": "All 14 research-input inventories, coal and remaining burning fuel, research/progress/unlocks, fixed directions, and the actual Workbench-crafted upgraded building output",
+  "freeze": "Native disabled_by_script on all labs and Workbench; 60 ticks before snapshot; completed client save"
+}
