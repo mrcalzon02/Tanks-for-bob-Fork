@@ -3,7 +3,7 @@
 The existing manually dispatched workflow runs **one job and one Factorio
 2.1.24 profile**: Base + Elevated Rails + Recycler + Quality + Space Age,
 plus the latest versioned Tanks for Bob source. Ordinary commits do not start
-this workflow. The audit workflow does not publish releases.
+this workflow. Default manual audit mode does not publish releases.
 
 The source selector validates the highest versioned source folder against its
 info.json. Staging preserves the actual Factorio 2.1 metadata, copies the source
@@ -100,6 +100,14 @@ The classified 8 November audit and before/after inventories are in
 a deterministic versioned ZIP and a SHA-256 file. It verifies archive contents
 against source and refuses to overwrite an existing package. It does not
 upload, retag or publish anything.
+
+For an explicitly requested release, the same one-job workflow accepts
+`publish_release: true` or a main-branch change to `ci/release-request.json`.
+That request pins the mod, source version and exact ZIP SHA-256. The release
+path checks the unmodified ZIP with native save creation, 1,200 simulation
+updates and private-server startup before using `FACTORIO_MOD_UPLOAD_KEY`.
+It publishes the same package, checksum and permanent diagnostics on GitHub
+without replacing existing release tags or ZIPs.
 
 ## Beach Pump offshore-water extraction invariant
 

@@ -1,14 +1,14 @@
 # Tanks! for Bob Fork — Factorio 2.1
 
-**Current source: 1.8.103 (art integration; not a new release).** The current source is directly buildable from
-[`tanks_for_bob_fork_1.8.103`](tanks_for_bob_fork_1.8.103), including the accepted
+**Current source and release target: 1.8.104.** The current source is directly buildable from
+[`tanks_for_bob_fork_1.8.104`](tanks_for_bob_fork_1.8.104), including the accepted
 Campfire, Clay Pit, Pit Kiln and Lumberyard artwork carried forward from the
 verified **1.8.100** Mod Portal package. Base Factorio 2.1 is required; Elevated
 Rails, Quality, Recycler and Space Age remain optional.
 
 ## Modeled material icons
 
-The active 1.8.103 source includes **107 authored 3D material, fluid, module and placeholder replacements**, with **10 matching research icons**. The integration preserves the newer pump and Fish Pond graphics. [Audit and rebuild instructions](docs/MATERIAL_ICON_AUDIT.md) and [current full-pack native validation](docs/data/material-icon-active-integration.json) accompany the editable sources and 64/128/256 renders.
+The active source includes **107 authored 3D material, fluid, module and placeholder replacements**, with **10 matching research icons**. The integration preserves the newer pump and Fish Pond graphics. [Audit and rebuild instructions](docs/MATERIAL_ICON_AUDIT.md) and [current full-pack native validation](docs/data/material-icon-active-integration.json) accompany the editable sources and 64/128/256 renders.
 
 ## Progression audit and repairs — 8 November 2026
 
@@ -64,21 +64,24 @@ python3 ci/package_mod.py --output dist
 ```
 
 The command selects the highest versioned source and creates
-`tanks_for_bob_fork_1.8.102.zip` plus its SHA-256 file. It checks that every
+`tanks_for_bob_fork_1.8.104.zip` plus its SHA-256 file. It checks that every
 archived file matches the source and refuses to overwrite an existing package.
 Place the ZIP in Factorio's `mods` directory without unpacking it.
 
-This source change does not publish a Mod Portal release. Previously published
-versions and tags are retained. The [Mod Portal](https://mods.factorio.com/mod/tanks_for_bob_fork)
-last published baseline for this audit is **1.8.100**; the older 1.8.95 GitHub
+The [1.8.104 release notes](docs/releases/v1.8.104.md) describe the integrated
+updates since the **1.8.100** Mod Portal baseline. The explicit release path
+builds and tests the exact ZIP before publishing it to the
+[Mod Portal](https://mods.factorio.com/mod/tanks_for_bob_fork) and GitHub.
+Previously published versions and tags are retained; the older 1.8.95 GitHub
 release targets Factorio 2.0 and is historical.
 
 ## Verification
 
 The [single manually dispatched compatibility job](.github/workflows/vanilla-factorio.yml)
 uses **Factorio 2.1.24** with Base, Elevated Rails, Recycler, Quality and Space
-Age enabled together. Ordinary commits do not dispatch it. No release upload
-is performed by this audit workflow.
+Age enabled together. Ordinary commits do not dispatch it. Manual audit mode
+does not publish. An explicit release request instead checks the final ZIP's
+native load, simulation and server startup before publishing that archive.
 
 The checks cover actual source loading, save creation/reload, simulation,
 vehicle/ammunition registry checks, server startup, and targeted progression

@@ -5,6 +5,7 @@ Needs only the ModPortal: Upload Mods scope. Reads its API key from the GitHub
 Actions secret FACTORIO_MOD_UPLOAD_KEY, not source or command line arguments.
 """
 import argparse
+import hashlib
 import json
 import os
 import time
@@ -48,8 +49,24 @@ def portal_versions():
     return {v["version"] for v in result.get("releases", [])}
 
 
+def verify_portal_package(archive, version):
+    """Confirm the public release is this exact archive, including on retries."""
+    result = request(BASE + "/api/mods/" + MOD + "/full")
+    release = next((r for r in result.get("releases", [])
+                    if r.get("version") == version), None)
+    if release is None:
+        return False
+    digest = hashlib.sha1(archive.read_bytes()).hexdigest()
+    if release.get("file_name") != archive.name or release.get("sha1") != digest:
+        raise ValueError("Published version exists with different package bytes; refusing to replace it")
+    print(f"[TANKS-PUBLISH] PORTAL_PACKAGE_SHA1_VERIFIED {MOD} {version} {digest}", flush=True)
+    return True
+
+
 def upload(archive, version, key):
     if version in portal_versions():
+        if not verify_portal_package(archive, version):
+            raise RuntimeError("Public release disappeared during package verification")
         print(f"[TANKS-PUBLISH] ALREADY_PUBLISHED {MOD} {version}", flush=True)
         return
     form = urllib.parse.urlencode({"mod": MOD}).encode("utf-8")
@@ -82,6 +99,9 @@ def upload(archive, version, key):
         if ('Mod Portal HTTP 400:' in message
                 and '"error":"InvalidModRelease"' in message
                 and 'Release with that version already exists.' in message):
+            if verify_portal_package(archive, version):
+                print(f"[TANKS-PUBLISH] PORTAL_RELEASE_VERIFIED {MOD} {version}", flush=True)
+                return
             print(f"[TANKS-PUBLISH] ALREADY_PUBLISHED_UPLOAD_API {MOD} {version}",
                   flush=True)
             return
@@ -92,7 +112,7 @@ def upload(archive, version, key):
     print(f"[TANKS-PUBLISH] UPLOAD_ACCEPTED {MOD} {version}", flush=True)
     for n in range(12):
         try:
-            if version in portal_versions():
+            if version in portal_versions() and verify_portal_package(archive, version):
                 print(f"[TANKS-PUBLISH] PORTAL_RELEASE_VERIFIED {MOD} {version}", flush=True)
                 return
         except RuntimeError:
@@ -125,7 +145,7 @@ def main():
         root = f"{MOD}_{args.version}/"
         meta = json.loads(z.read(root + "info.json"))
         assert meta["name"] == MOD and meta["version"] == args.version, "Mod identity/version mismatch"
-        assert meta["factorio_version"] == "2.0", "Only the verified Factorio 2.0 package is authorized"
+        assert meta["factorio_version"] == "2.1", "Only the verified Factorio 2.1 package is authorized"
     upload(args.archive, args.version, key)
 
 

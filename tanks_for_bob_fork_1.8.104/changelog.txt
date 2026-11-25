@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.8.104
+Date: 2026-11-24
+  Graphics:
+    - Publish the integrated four-direction survival and manufacturing artwork developed after 1.8.100.
+    - Include the one-tile animated Workbench, Cooking Fire, Solar Boiler, Beach Pump, primitive pipe pump, and Fish Pond.
+    - Include the Steam Compressor, Wood Basin, Quarry, Shaler, Calcifier, Thinking Hut, Pondering Hovel, and Stone Water Wheel.
+    - Include the Tank Ammunition Assembler, Tank Assembling Machine, and Steam Condenser.
+    - Include modeled material, fluid, module, and research icons.
+  Changes:
+    - Include the progression repairs from the 1.8.101 and 1.8.102 development versions.
+    - Start with a handcraftable wooden spear and unlock its ammunition when wood is acquired.
+    - Add Fish Resource Recovery and preserve the Workbench oil outlet and normal Cooking Fire recipes.
+    - Use the Pit Kiln for saline particulate and bioceramic grit.
+    - Require the appropriate vehicle and Land Mines research for poison mine magazines, and Artillery research for WMD artillery ammunition.
+    - Remove redundant stone-tools research while retaining the starting tools.
+  Compatibility:
+    - Requires Factorio 2.1. Elevated Rails, Quality, Recycler, and Space Age remain optional.

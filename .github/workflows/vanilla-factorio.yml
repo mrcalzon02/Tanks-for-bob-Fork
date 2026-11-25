@@ -1,10 +1,18 @@
-name: Tanks for Bob | official Factorio compatibility
+name: Tanks for Bob | official Factorio compatibility and release
 
 on:
   workflow_dispatch:
+    inputs:
+      publish_release:
+        description: Build, verify and publish the version in ci/release-request.json
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: [ci/release-request.json]
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -12,13 +20,45 @@ concurrency:
 
 jobs:
   factorio-suite:
-    name: Factorio smoke + static audit (1 profile)
+    name: Factorio verification and requested release (1 profile)
+    if: github.repository == 'mrcalzon02/Tanks-for-bob-Fork'
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    env:
+      PUBLISH_RELEASE: ${{ github.event_name == 'push' || inputs.publish_release }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out all source versions for the normal audit
+        if: env.PUBLISH_RELEASE != 'true'
+        uses: actions/checkout@v4
+      - name: Check out the requested release source
+        if: env.PUBLISH_RELEASE == 'true'
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            ci
+            .github/workflows
+            tanks_for_bob_fork_1.8.104
+            docs/releases
       - name: Syntax-check scripts once
-        run: python3 -m py_compile ci/validate_mod.py ci/stage_profile.py ci/server_smoke.py ci/run_official_suite.py ci/progression_runtime_runner.py
+        run: python3 -m py_compile ci/validate_mod.py ci/stage_profile.py ci/server_smoke.py ci/run_official_suite.py ci/progression_runtime_runner.py ci/package_mod.py ci/publish_mod_portal.py ci/release_smoke.py
+      - name: Validate the exact release request
+        if: env.PUBLISH_RELEASE == 'true'
+        id: release
+        env:
+          RELEASE_REF: ${{ github.ref }}
+        run: |
+          python3 - <<'PY'
+          import os, sys
+          from pathlib import Path
+          sys.path.insert(0, 'ci')
+          from release_smoke import read_request
+          if os.environ['RELEASE_REF'] != 'refs/heads/main':
+              raise SystemExit('Publication requires the main branch')
+          request, source, metadata = read_request(Path('ci/release-request.json'))
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
+              output.write('version=' + metadata['version'] + '\n')
+          print('Authorized release request:', request['request_id'], source.name)
+          PY
       - name: Download the pinned Factorio 2.1 headless engine
         shell: bash
         run: |
@@ -34,6 +74,7 @@ jobs:
           "$directory/factorio/bin/x64/factorio" --version | tee "test-artifacts/factorio-$version.txt"
           grep -Fq "$version" "test-artifacts/factorio-$version.txt"
       - name: Run the single official compatibility profile and static audit
+        if: env.PUBLISH_RELEASE != 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -42,11 +83,94 @@ jobs:
             --work "$RUNNER_TEMP/tanks-suite" \
             --output test-artifacts
           cat test-artifacts/suite-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Build the requested installable ZIP
+        if: env.PUBLISH_RELEASE == 'true'
+        run: |
+          set -euo pipefail
+          python3 ci/validate_mod.py --report test-artifacts/current-source-audit.json
+          python3 ci/package_mod.py --output test-artifacts/release
+      - name: Load, run and host the exact release ZIP in native Factorio
+        if: env.PUBLISH_RELEASE == 'true'
+        env:
+          RELEASE_VERSION: ${{ steps.release.outputs.version }}
+        run: |
+          set -euo pipefail
+          python3 ci/release_smoke.py \
+            --binary "$RUNNER_TEMP/factorio-engines/2.1.24/factorio/bin/x64/factorio" \
+            --archive "test-artifacts/release/tanks_for_bob_fork_${RELEASE_VERSION}.zip" \
+            --request ci/release-request.json \
+            --source-commit "$GITHUB_SHA" \
+            --work "$RUNNER_TEMP/tanks-release" \
+            --output test-artifacts/release
+          cat test-artifacts/release/release-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Publish the verified ZIP to the Factorio Mod Portal
+        if: env.PUBLISH_RELEASE == 'true'
+        env:
+          FACTORIO_MOD_UPLOAD_KEY: ${{ secrets.FACTORIO_MOD_UPLOAD_KEY }}
+          RELEASE_VERSION: ${{ steps.release.outputs.version }}
+        run: |
+          set -euo pipefail
+          python3 ci/publish_mod_portal.py \
+            "test-artifacts/release/tanks_for_bob_fork_${RELEASE_VERSION}.zip" \
+            --version "$RELEASE_VERSION" 2>&1 | tee test-artifacts/release/portal-publication.log
+      - name: Bundle permanent release diagnostics
+        if: env.PUBLISH_RELEASE == 'true'
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import zipfile
+          root = Path('test-artifacts')
+          files = sorted(path for path in root.rglob('*')
+                         if path.is_file() and path.suffix in {'.json', '.log', '.md', '.txt'})
+          with zipfile.ZipFile(root / 'release/release-diagnostics.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
+              for path in files:
+                  archive.write(path, path.relative_to(root))
+          PY
+      - name: Preserve the same package as an immutable GitHub release
+        if: env.PUBLISH_RELEASE == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_VERSION: ${{ steps.release.outputs.version }}
+        run: |
+          set -euo pipefail
+          tag="v${RELEASE_VERSION}"
+          archive="tanks_for_bob_fork_${RELEASE_VERSION}.zip"
+          tag_refs="$(gh api "repos/${GH_REPO}/git/matching-refs/tags/${tag}" --jq '.[].ref')"
+          if printf '%s\n' "$tag_refs" | grep -Fxq "refs/tags/$tag"; then
+            actual_commit="$(gh api "repos/${GH_REPO}/commits/${tag}" --jq .sha)"
+            if [ "$actual_commit" != "$GITHUB_SHA" ]; then
+              echo "Existing release tag points at a different commit; refusing to retag."
+              exit 1
+            fi
+          fi
+          if gh release view "$tag" >/dev/null 2>&1; then
+            mkdir -p "$RUNNER_TEMP/existing-release"
+            gh release download "$tag" --pattern "$archive" --dir "$RUNNER_TEMP/existing-release"
+            cmp "test-artifacts/release/$archive" "$RUNNER_TEMP/existing-release/$archive"
+            gh release view "$tag" --json assets --jq '.assets[].name' > "$RUNNER_TEMP/existing-release-assets.txt"
+            for asset in "$archive.sha256" release-receipt.json portal-publication.log release-diagnostics.zip; do
+              if ! grep -Fxq "$asset" "$RUNNER_TEMP/existing-release-assets.txt"; then
+                gh release upload "$tag" "test-artifacts/release/$asset"
+              fi
+            done
+            echo "Existing release tag and ZIP match this verified source."
+          else
+            gh release create "$tag" \
+              "test-artifacts/release/$archive" \
+              "test-artifacts/release/$archive.sha256" \
+              test-artifacts/release/release-receipt.json \
+              test-artifacts/release/portal-publication.log \
+              test-artifacts/release/release-diagnostics.zip \
+              --target "$GITHUB_SHA" \
+              --title "Tanks for Bob Fork ${RELEASE_VERSION} — Factorio 2.1" \
+              --notes-file "docs/releases/v${RELEASE_VERSION}.md"
+          fi
       - name: Preserve one consolidated diagnostics artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: tanks-factorio-one-profile-audit
+          name: tanks-factorio-verified-package-and-diagnostics
           path: test-artifacts/
           if-no-files-found: warn
           retention-days: 30

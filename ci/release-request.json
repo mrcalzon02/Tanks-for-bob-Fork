@@ -1,0 +1,9 @@
+{
+  "schema": "tanks-for-bob.release-request.v1",
+  "request_id": "portal-1-8-104-20261124",
+  "mod": "tanks_for_bob_fork",
+  "version": "1.8.104",
+  "factorio_version": "2.1",
+  "source": "tanks_for_bob_fork_1.8.104",
+  "expected_sha256": "a162bc9b9231d9ff56081f81314f379cac45ca2f079876aa38b16db654308cac"
+}
