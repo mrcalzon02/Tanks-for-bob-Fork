@@ -1,0 +1,49 @@
+name: Remove pinned obsolete bundles
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/one-shot-remove-superseded-build-bundles.yml"]
+permissions:
+  actions: write
+concurrency:
+  group: one-shot-remove-pinned-old-builds
+  cancel-in-progress: false
+jobs:
+  remove_exact_old_builds:
+    if: >-
+      github.repository == 'mrcalzon02/Tanks-for-bob-Fork' && github.event.head_commit.message == 'chore(ci): remove pinned obsolete artifact bundles'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 4
+    steps:
+      - name: Delete pinned artifacts only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          base=repos/mrcalzon02/Tanks-for-bob-Fork/actions
+          pins=(
+            '43120594298|13901495144|factorio-four-way-production-evidence'
+            '43120232324|13900836027|factorio-four-way-production-evidence'
+            '43120162567|13899744370|factorio-four-way-production-evidence'
+            '43110756522|13896760762|factorio-four-way-production-evidence'
+            '43069772503|13877192624|factorio-four-way-production-evidence'
+          )
+          found=()
+          for row in "${pins[@]}"; do
+            IFS='|' read -r run id name <<< "$row"
+            prior=$(gh api "$base/runs/$run/artifacts?per_page=100")
+            any=$(jq --argjson id "$id" '[.artifacts[] | select(.id == $id)] | length' <<< "$prior")
+            if [[ "$any" == 0 ]]; then continue; fi
+            jq -e --argjson id "$id" --arg name "$name" '[.artifacts[] | select(.id == $id and .name == $name)] | length == 1' <<< "$prior" >/dev/null
+            found+=("$id")
+          done
+          for id in "${found[@]}"; do
+            gh api --method DELETE "$base/artifacts/$id" --silent
+            echo "Deleted obsolete artifact $id"
+          done
+          for row in "${pins[@]}"; do
+            IFS='|' read -r run id name <<< "$row"
+            gh api "$base/runs/$run/artifacts?per_page=100" | jq -e --argjson id "$id" '[.artifacts[] | select(.id == $id)] | length == 0' >/dev/null
+          done
+          echo "Verified all pinned old artifacts are absent."
